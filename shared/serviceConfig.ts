@@ -47,8 +47,8 @@ export const plumberieConfig: ServiceConfig = {
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
   gradient: {
-    from: '#dc2626',
-    to: '#e11d48',
+    from: '#1e40af',
+    to: '#0ea5e9',
   },
   accentColor: '#22c55e',
   
