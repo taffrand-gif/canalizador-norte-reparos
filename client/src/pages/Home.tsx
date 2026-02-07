@@ -84,7 +84,7 @@ export default function Home() {
 
                 {/* TÉLÉPHONE GÉANT */}
                 <div className="mb-8">
-                  <p className="text-sm text-gray-600 mb-2">LIGUE JÁ - ORÇAMENTO GRÁTIS</p>
+                  <p className="text-sm text-gray-600 mb-2 font-semibold">⚡ URGÊNCIA 24/7 - RESPOSTA EM &lt; 30MIN</p>
                   <button
                     onClick={handlePhoneClick}
                     className="text-5xl md:text-6xl font-black hover:opacity-90 transition-opacity flex items-center gap-4"
@@ -103,7 +103,7 @@ export default function Home() {
                     style={{backgroundColor: gradient.from}}
                   >
                     <span>📞</span>
-                    <span>LIGAR AGORA</span>
+                    <span>LIGUE AGORA: {formattedPhone}</span>
                   </button>
                   <a
                     href={`https://wa.me/${config.whatsapp}`}
@@ -112,7 +112,7 @@ export default function Home() {
                     className="bg-green-500 hover:bg-green-600 text-white text-xl font-bold px-8 py-4 rounded-lg transition-colors inline-flex items-center justify-center gap-3"
                   >
                     <span>💬</span>
-                    <span>WHATSAPP</span>
+                    <span>WHATSAPP 24/7</span>
                   </a>
                 </div>
               </div>
