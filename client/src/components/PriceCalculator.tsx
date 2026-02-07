@@ -152,7 +152,8 @@ export function PriceCalculator() {
         </p>
         <a 
           href={`tel:${config.phone}`}
-          className="block w-full  text-white text-center py-3 rounded-lg font-bold hover: transition-all hover:scale-105 transform" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+          className="block w-full text-white text-center py-3 rounded-lg font-bold hover:opacity-90 transition-all hover:scale-105 transform" 
+          style={{backgroundColor: gradient.from}}
         >
           📞 Ligue: {config.phone.slice(0, 3)} {config.phone.slice(3, 6)} {config.phone.slice(6)}
         </a>
