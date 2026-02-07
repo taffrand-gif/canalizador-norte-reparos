@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { ACTIVE_CONFIG } from '@/shared/serviceConfig';
 import { trpc } from '@/lib/trpc';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -11,6 +12,7 @@ const COOKIE_NAME = 'newsletter_popup_shown';
 const COOKIE_DURATION_DAYS = 7;
 
 export function NewsletterPopup() {
+  const { gradient } = ACTIVE_CONFIG;
   const [isOpen, setIsOpen] = useState(false);
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -153,7 +155,7 @@ export function NewsletterPopup() {
             <Button 
               type="submit" 
               disabled={isSubmitting}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold"
+              className="w-full  hover: text-white font-semibold" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
             >
               {isSubmitting ? 'A enviar...' : '🎁 Quero Receber Ofertas'}
             </Button>

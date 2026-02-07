@@ -3,6 +3,7 @@ import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useState, useEffect } from "react";
 
 export function TestimonialsSection() {
+  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const testimonials: Testimonial[] = config.type === 'plomberie' ? NORTE_REPAROS_TESTIMONIALS : STAFF_SEEKERS_TESTIMONIALS;
   const featured = testimonials.slice(0, 6); // Top 6 témoignages
@@ -54,7 +55,7 @@ export function TestimonialsSection() {
       
       <div className="container">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-full mb-4">
+          <div className="inline-flex items-center gap-2  text-white px-6 py-3 rounded-full mb-4" style={{backgroundColor: gradient.from}}>
             <span className="text-3xl">⭐⭐⭐⭐⭐</span>
             <span className="font-bold text-xl">5.0/5</span>
           </div>
@@ -89,7 +90,7 @@ export function TestimonialsSection() {
 
               {/* Author */}
               <div className="flex items-center gap-4 pt-4 border-t border-gray-200">
-                <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12  rounded-full flex items-center justify-center text-white font-bold text-xl" style={{backgroundColor: gradient.from}}>
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>
@@ -110,7 +111,7 @@ export function TestimonialsSection() {
               key={idx}
               onClick={() => setCurrentIndex(idx)}
               className={`w-3 h-3 rounded-full transition-all ${
-                idx === currentIndex ? 'bg-red-600 w-8' : 'bg-gray-300'
+                idx === currentIndex ? 'w-8' style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} : 'bg-gray-300'
               }`}
               aria-label={`Go to slide ${idx + 1}`}
             />
@@ -121,7 +122,7 @@ export function TestimonialsSection() {
         <div className="text-center mt-12">
           <a
             href="/testemunhos"
-            className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
+            className="inline-block  hover: text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
           >
             Ver Todos os Testemunhos →
           </a>

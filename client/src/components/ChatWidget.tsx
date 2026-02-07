@@ -133,19 +133,19 @@ export default function ChatWidget() {
       {isOpen && (
         <div className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 w-full sm:w-96 h-[100vh] sm:h-[600px] bg-white sm:rounded-lg shadow-2xl flex flex-col z-[9999] border-t sm:border border-gray-200">
           {/* Header */}
-          <div className=" text-white p-4 sm:rounded-t-lg flex justify-between items-center" style={{backgroundColor: gradient.from}}>
+          <div className="text-white p-4 sm:rounded-t-lg flex justify-between items-center" style={{backgroundColor: gradient.from}}>
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center font-bold text-sm sm:text-base" style={{color: gradient.from}}>
                 {config.businessName.charAt(0)}
               </div>
               <div>
                 <h3 className="font-bold text-sm sm:text-base">{config.businessName}</h3>
-                <p className="text-xs text-red-100">Normalmente responde em minutos</p>
+                <p className="text-xs text-white text-opacity-80">Normalmente responde em minutos</p>
               </div>
             </div>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-red-200 transition-colors"
+              className="text-white hover:text-opacity-100 transition-colors"
               aria-label="Fechar chat"
             >
               <svg
@@ -273,14 +273,14 @@ export default function ChatWidget() {
                     <div
                       className={`max-w-[85%] sm:max-w-[80%] rounded-lg p-2 sm:p-3 ${
                         message.sender === "user"
-                          ? "bg-red-600 text-white"
+                          ? "text-white" style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
                           : "bg-white text-gray-900 border border-gray-200"
                       }`}
                     >
                       <p className="text-xs sm:text-sm">{message.text}</p>
                       <p
                         className={`text-[10px] sm:text-xs mt-1 ${
-                          message.sender === "user" ? "text-red-100" : "text-gray-500"
+                          message.sender === "user" ? "text-white text-opacity-80" : "text-gray-500"
                         }`}
                       >
                         {new Date(message.timestamp).toLocaleTimeString("pt-PT", {
@@ -308,7 +308,7 @@ export default function ChatWidget() {
                   <button
                     type="submit"
                     disabled={!inputText.trim() || sendMessage.isPending}
-                    className=" hover:opacity-90 text-white px-3 sm:px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed" style={{backgroundColor: gradient.from}}
+                    className="hover:opacity-90 text-white px-3 sm:px-4 py-2 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed" style={{backgroundColor: gradient.from}}
                   >
                     {sendMessage.isPending ? (
                       <svg

@@ -11,6 +11,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { toast } from "sonner";
 
 export default function QuoteForm() {
+  const { gradient } = ACTIVE_CONFIG;
   const [isSubmitting, setIsSubmitting] = useState(false);
   
   const [formData, setFormData] = useState({
@@ -77,7 +78,7 @@ export default function QuoteForm() {
   return (
     <Card className="w-full max-w-2xl mx-auto">
       <CardHeader>
-        <CardTitle className="text-2xl text-red-600">Pedir Orçamento Gratuito</CardTitle>
+        <CardTitle className="text-2xl " style={{color: gradient.from}}>Pedir Orçamento Gratuito</CardTitle>
         <CardDescription>
           Preencha o formulário abaixo e receberá um orçamento personalizado sem compromisso.
         </CardDescription>
@@ -218,7 +219,7 @@ export default function QuoteForm() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-6 text-lg"
+            className="w-full  hover: text-white font-bold py-6 text-lg" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
           >
             {isSubmitting ? "A enviar..." : "📝 Pedir Orçamento Gratuito"}
           </Button>
