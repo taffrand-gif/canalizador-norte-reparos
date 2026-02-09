@@ -111,7 +111,7 @@ export function PriceCalculator() {
         <Button 
           onClick={calculate}
           disabled={!service || isCalculating}
-          className="w-full  hover: text-lg py-6 transition-all" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+          className="w-full  hover: text-lg py-6 transition-all" style={{backgroundColor: gradient.from}}
         >
           {isCalculating ? (
             <>

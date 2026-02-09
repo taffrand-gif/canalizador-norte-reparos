@@ -111,8 +111,9 @@ export function TestimonialsSection() {
               key={idx}
               onClick={() => setCurrentIndex(idx)}
               className={`w-3 h-3 rounded-full transition-all ${
-                idx === currentIndex ? 'w-8' style={{backgroundColor: ACTIVE_CONFIG.gradient.from}} : 'bg-gray-300'
+                idx === currentIndex ? 'w-8' : 'bg-gray-300'
               }`}
+              style={idx === currentIndex ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
               aria-label={`Go to slide ${idx + 1}`}
             />
           ))}
@@ -122,7 +123,7 @@ export function TestimonialsSection() {
         <div className="text-center mt-12">
           <a
             href="/testemunhos"
-            className="inline-block  hover: text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+            className="inline-block  hover: text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.from}}
           >
             Ver Todos os Testemunhos →
           </a>

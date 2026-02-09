@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ACTIVE_CONFIG } from '@/shared/serviceConfig';
+import { ACTIVE_CONFIG } from '../../../shared/serviceConfig';
 import { trpc } from '@/lib/trpc';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -155,7 +155,7 @@ export function NewsletterPopup() {
             <Button 
               type="submit" 
               disabled={isSubmitting}
-              className="w-full  hover: text-white font-semibold" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+              className="w-full  hover: text-white font-semibold" style={{backgroundColor: gradient.from}}
             >
               {isSubmitting ? 'A enviar...' : '🎁 Quero Receber Ofertas'}
             </Button>

@@ -219,7 +219,7 @@ export default function QuoteForm() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full  hover: text-white font-bold py-6 text-lg" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+            className="w-full  hover: text-white font-bold py-6 text-lg" style={{backgroundColor: gradient.from}}
           >
             {isSubmitting ? "A enviar..." : "📝 Pedir Orçamento Gratuito"}
           </Button>
