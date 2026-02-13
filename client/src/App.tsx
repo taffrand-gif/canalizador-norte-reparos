@@ -41,14 +41,14 @@ function Router() {
 function App() {
   return (
     // <ErrorBoundary>
-      <ThemeProvider defaultTheme="light">
-        <SiteProvider>
-          <TooltipProvider>
-            <Toaster />
-            <Router />
-          </TooltipProvider>
-        </SiteProvider>
-      </ThemeProvider>
+    // <ThemeProvider defaultTheme="light">
+    // <SiteProvider>
+        // <TooltipProvider>
+          // <Toaster />
+          <Router />
+        // </TooltipProvider>
+    // </SiteProvider>
+    // </ThemeProvider>
     // </ErrorBoundary>
   );
 }
