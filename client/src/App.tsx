@@ -40,16 +40,10 @@ function Router() {
 
 function App() {
   return (
-    // <ErrorBoundary>
-    // <ThemeProvider defaultTheme="light">
-    // <SiteProvider>
-        // <TooltipProvider>
-          // <Toaster />
-          <Router />
-        // </TooltipProvider>
-    // </SiteProvider>
-    // </ThemeProvider>
-    // </ErrorBoundary>
+    <div style={{ padding: 20 }}>
+      <h1>Test App</h1>
+      <p>Testing without Router</p>
+    </div>
   );
 }
 
