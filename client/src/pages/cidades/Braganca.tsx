@@ -24,14 +24,6 @@ export default function Braganca() {
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Bragança, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords específicos de Bragança
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'canalizador Bragança, canalizador em Bragança, desentupimento Bragança, reparação fugas Bragança, canalizador urgência Bragança, instalação sanitários Bragança');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

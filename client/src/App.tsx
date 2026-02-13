@@ -7,12 +7,11 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
 import OptimizedHome from "./pages/OptimizedHome";
 import Servicos from "./pages/Servicos";
-// Temporarily disabled city pages to debug
-// import Chaves from "./pages/cidades/Chaves";
-// import Braganca from "./pages/cidades/Braganca";
-// import Mirandela from "./pages/cidades/Mirandela";
-// import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
-// import Valpacos from "./pages/cidades/Valpacos";
+import Chaves from "./pages/cidades/Chaves";
+import Braganca from "./pages/cidades/Braganca";
+import Mirandela from "./pages/cidades/Mirandela";
+import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
+import Valpacos from "./pages/cidades/Valpacos";
 
 
 function Router() {
@@ -20,12 +19,11 @@ function Router() {
     <Switch>
       <Route path={"/"} component={OptimizedHome} />
       <Route path={"/servicos"} component={Servicos} />
-      {/* Temporarily disabled city pages to debug */}
-      {/* <Route path={"/canalizador-chaves"} component={Chaves} /> */}
-      {/* <Route path={"/canalizador-braganca"} component={Braganca} /> */}
-      {/* <Route path={"/canalizador-mirandela"} component={Mirandela} /> */}
-      {/* <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} /> */}
-      {/* <Route path={"/canalizador-valpacos"} component={Valpacos} /> */}
+      <Route path={"/canalizador-chaves"} component={Chaves} />
+      <Route path={"/canalizador-braganca"} component={Braganca} />
+      <Route path={"/canalizador-mirandela"} component={Mirandela} />
+      <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
+      <Route path={"/canalizador-valpacos"} component={Valpacos} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
@@ -40,10 +38,16 @@ function Router() {
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Test App</h1>
-      <p>Testing without Router</p>
-    </div>
+    <ErrorBoundary>
+      <ThemeProvider defaultTheme="light">
+        <SiteProvider>
+          <TooltipProvider>
+            <Toaster />
+            <Router />
+          </TooltipProvider>
+        </SiteProvider>
+      </ThemeProvider>
+    </ErrorBoundary>
   );
 }
 

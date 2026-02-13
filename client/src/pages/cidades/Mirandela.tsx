@@ -24,14 +24,6 @@ export default function Mirandela() {
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Mirandela, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords específicos de Mirandela
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'canalizador Mirandela, canalizador em Mirandela, desentupimento Mirandela, reparação fugas Mirandela, canalizador urgência Mirandela, instalação sanitários Mirandela');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

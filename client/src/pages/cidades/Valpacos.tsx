@@ -24,14 +24,6 @@ export default function Valpacos() {
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Valpaços, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords específicos de Valpaços
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'canalizador Valpaços, canalizador em Valpaços, desentupimento Valpaços, reparação fugas Valpaços, canalizador urgência Valpaços, instalação sanitários Valpaços');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');

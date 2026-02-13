@@ -24,14 +24,6 @@ export default function Chaves() {
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Chaves, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
     
-    // Meta keywords específicos de Chaves
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'canalizador Chaves, canalizador em Chaves, desentupimento Chaves, reparação fugas Chaves, canalizador urgência Chaves, instalação sanitários Chaves');
     
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');
