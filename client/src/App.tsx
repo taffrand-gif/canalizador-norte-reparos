@@ -40,7 +40,7 @@ function Router() {
 
 function App() {
   return (
-    <ErrorBoundary>
+    // <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <SiteProvider>
           <TooltipProvider>
@@ -49,7 +49,7 @@ function App() {
           </TooltipProvider>
         </SiteProvider>
       </ThemeProvider>
-    </ErrorBoundary>
+    // </ErrorBoundary>
   );
 }
 
