@@ -6,7 +6,9 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function Servicos() {
@@ -178,47 +180,37 @@ export default function Servicos() {
           </div>
         </section>
 
-        {/* FAQ Section */}
+        {/* FAQ Section with Schema.org */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas Frequentes sobre <span className="text-blue-600">Serviços de Canalização</span>
-            </h2>
-            
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Quanto tempo demora um desentupimento urgente?
-                </h3>
-                <p className="text-gray-600">
-                  Na maioria dos casos, resolvemos desentupimentos em 1-2 horas. 
-                  Para situações mais complexas, pode demorar até 4 horas. Atendemos urgências 24h.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Como detetam fugas de água sem quebrar paredes?
-                </h3>
-                <p className="text-gray-600">
-                  Utilizamos equipamento de deteção por ultrassons, câmaras térmicas e 
-                  gases traçadores. Em 80% dos casos, conseguimos localizar e reparar 
-                  sem necessidade de obras.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Oferecem garantia nos serviços?
-                </h3>
-                <p className="text-gray-600">
-                  Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra 
-                  e 1 ano nos materiais fornecidos por nós. Para desentupimentos, 
-                  garantia de 6 meses.
-                </p>
-              </div>
-            </div>
-          </div>
+          <FAQSection
+            title="Perguntas Frequentes sobre Serviços de Canalização"
+            faqs={[
+              {
+                question: "Quanto tempo demora um desentupimento urgente?",
+                answer: "Na maioria dos casos, resolvemos desentupimentos em 1-2 horas. Para situações mais complexas, pode demorar até 4 horas. Atendemos urgências 24h."
+              },
+              {
+                question: "Como detetam fugas de água sem quebrar paredes?",
+                answer: "Utilizamos equipamento de deteção por ultrassons, câmaras térmicas e gases traçadores. Em 80% dos casos, conseguimos localizar e reparar sem necessidade de obras."
+              },
+              {
+                question: "Oferecem garantia nos serviços?",
+                answer: "Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra e 1 ano nos materiais fornecidos por nós. Para desentupimentos, garantia de 6 meses."
+              },
+              {
+                question: "Quais são os sinais de uma fuga de água oculta?",
+                answer: "Conta de água mais alta sem razão aparente, manchas de humidade nas paredes ou tetos, mofo persistente, som de água a correr quando todas as torneiras estão fechadas."
+              },
+              {
+                question: "Posso prevenir entupimentos nos canos?",
+                answer: "Sim: não deite gordura no lava-loiça, use filtros nos ralos, faça limpeza mensal com água quente e bicarbonato, e evite deitar objetos sólidos na sanita."
+              },
+              {
+                question: "O orçamento é gratuito e sem compromisso?",
+                answer: "Sim, todos os nossos orçamentos são gratuitos e sem compromisso. Incluem diagnóstico inicial e proposta detalhada por escrito com preços transparentes."
+              }
+            ]}
+          />
         </section>
 
         {/* CTA Final */}

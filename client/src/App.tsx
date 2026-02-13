@@ -12,6 +12,8 @@ import Braganca from "./pages/cidades/Braganca";
 import Mirandela from "./pages/cidades/Mirandela";
 import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
 import Valpacos from "./pages/cidades/Valpacos";
+import BlogIndex from "./pages/blog/BlogIndex";
+import ComoDesentupirLavaLoica from "./pages/blog/ComoDesentupirLavaLoica";
 
 
 function Router() {
@@ -24,6 +26,8 @@ function Router() {
       <Route path={"/canalizador-mirandela"} component={Mirandela} />
       <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
       <Route path={"/canalizador-valpacos"} component={Valpacos} />
+      <Route path={"/blog"} component={BlogIndex} />
+      <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

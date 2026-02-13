@@ -6,7 +6,9 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
+import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 
 export default function Chaves() {
@@ -256,6 +258,31 @@ export default function Chaves() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* FAQ Section with Schema.org - Chaves Specific */}
+        <section className="py-16 bg-gray-50">
+          <FAQSection
+            title="Perguntas Frequentes sobre Canalizador em Chaves"
+            faqs={[
+              {
+                question: "Atendem as termas e estabelecimentos de águas de Chaves?",
+                answer: "Sim, temos experiência especializada em sistemas de água para termas, hotéis termais e estabelecimentos que utilizam as águas de Chaves. Conhecemos as particularidades mineralógicas da água local."
+              },
+              {
+                question: "Como lidam com as temperaturas frias de Chaves nos sistemas de água?",
+                answer: "Instalamos proteções contra gelo, isolamento térmico especializado e sistemas anticongelamento adaptados ao clima rigoroso de Chaves, onde as temperaturas podem descer abaixo de zero."
+              },
+              {
+                question: "Trabalham em edifícios históricos do centro de Chaves?",
+                answer: "Sim, temos experiência em trabalhar em edifícios históricos e protegidos do centro de Chaves. Utilizamos técnicas que preservam a integridade dos imóveis históricos e respeitamos as regulamentações específicas."
+              },
+              {
+                question: "Qual o tempo de resposta para urgências em Chaves?",
+                answer: "No centro da cidade: 15-30 minutos. Para aldeias circundantes e zonas rurais: 45-60 minutos. Temos equipa disponível 24 horas para toda a região."
+              }
+            ]}
+          />
         </section>
 
         {/* CTA final */}
