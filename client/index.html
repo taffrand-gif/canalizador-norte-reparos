@@ -1,15 +1,33 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Norte Reparos - Canalizador Profissional em Trás-os-Montes</title>    
+      content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+    <title>Canalizador Profissional em Trás-os-Montes | Norte Reparos 24h</title>
+    <meta name="description" content="Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região." />
+    <meta name="theme-color" content="#1e40af" />
+    <link rel="canonical" href="https://norte-reparos.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:site_name" content="Norte Reparos - Canalizador Profissional" />
+    <meta property="og:title" content="Canalizador Profissional em Trás-os-Montes | Norte Reparos 24h" />
+    <meta property="og:description" content="Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região." />
+    <meta property="og:url" content="https://norte-reparos.com" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Canalizador Profissional em Trás-os-Montes | Norte Reparos 24h" />
+    <meta name="twitter:description" content="Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região." />
   </head>
 
   <body>
@@ -23,7 +41,6 @@
       // Global error handler for debugging
       window.addEventListener('error', function(event) {
         console.error('Global error caught:', event.error);
-        // Store last error in localStorage for debugging
         try {
           localStorage.setItem('last_js_error', JSON.stringify({
             message: event.error.message,
@@ -32,7 +49,6 @@
           }));
         } catch (e) {}
       });
-      // Log unhandled promise rejections
       window.addEventListener('unhandledrejection', function(event) {
         console.error('Unhandled rejection:', event.reason);
       });

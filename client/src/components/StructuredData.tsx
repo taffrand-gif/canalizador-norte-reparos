@@ -15,7 +15,7 @@ export default function StructuredData() {
     // LocalBusiness Schema
     const localBusinessSchema = {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "Plumber"],
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
       "description": config.company.shortDescription,
@@ -171,7 +171,7 @@ export default function StructuredData() {
         }
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp}`
+        `https://wa.me/351928484451`
       ]
     };
 

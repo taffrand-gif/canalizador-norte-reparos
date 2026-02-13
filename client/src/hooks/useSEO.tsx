@@ -145,8 +145,8 @@ export function generateKeywords(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   const baseKeywords = config.type === 'plomberie' 
-    ? ['canalizador', 'plombier', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete']
-    : ['eletricista', 'électricien', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
+    ? ['canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete', 'desentupimento', 'esquentador']
+    : ['eletricista', 'eletricista bragança', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
   
   if (ville) {
     return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');
@@ -161,7 +161,7 @@ export function generateLocalBusinessSchema(ville?: string) {
   
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "Plumber"],
     "name": config.businessName,
     "image": `https://${config.domain}/logo.png`,
     "telephone": `+${config.whatsappNumber}`,

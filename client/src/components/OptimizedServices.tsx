@@ -3,12 +3,12 @@ import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const serviceImages = {
-  'Desentupimentos': 'service-desentupimentos.png',
-  'Reparação de Fugas de Água': 'service-desentupimentos.png',
-  'Instalação Sanitários': 'service-sala-banho.png',
-  'Aquecimento Central': 'service-aquecimento.png',
-  'Canalização Nova': 'service-sala-banho.png',
-  'Urgências 24h': 'service-urgencia.png',
+  'Desentupimentos': 'service-desentupimentos.jpg',
+  'Reparação de Fugas de Água': 'service-desentupimentos.jpg',
+  'Instalação Sanitários': 'service-sala-banho.jpg',
+  'Aquecimento Central': 'service-aquecimento.jpg',
+  'Canalização Nova': 'service-sala-banho.jpg',
+  'Urgências 24h': 'service-urgencia.jpg',
 };
 
 const serviceDescriptions = {
@@ -72,7 +72,7 @@ const OptimizedServices: React.FC = () => {
         {/* Grille de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {ACTIVE_CONFIG.services.map((service, index) => {
-            const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-desentupimentos.png';
+            const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-desentupimentos.jpg';
             const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
 
             return (
@@ -141,7 +141,7 @@ const OptimizedServices: React.FC = () => {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <div className="bg-blue-100 text-blue-600 p-2 rounded-full">🏆</div>
-                  <span className="text-gray-700">Mais de 20 anos de experiência em canalização</span>
+                  <span className="text-gray-700">Mais de 10 anos de experiência em canalização</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="bg-blue-100 text-blue-600 p-2 rounded-full">🔧</div>

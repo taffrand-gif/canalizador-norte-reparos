@@ -24,7 +24,7 @@ export default function Equipa() {
     {
       icon: Clock,
       title: 'Experiência Comprovada',
-      description: 'Mais de 1000 intervenções realizadas com sucesso em toda a região de Trás-os-Montes.',
+      description: 'Mais de 500 clientes satisfeitos em toda a região de Trás-os-Montes.',
     },
     {
       icon: Shield,
@@ -71,10 +71,10 @@ export default function Equipa() {
               className="text-5xl font-black mb-2"
               style={{ color: config.colors.primary }}
             >
-              1000+
+              500+
             </div>
             <div className="text-lg font-bold text-gray-700">
-              Intervenções Realizadas
+              Clientes Satisfeitos
             </div>
           </div>
 

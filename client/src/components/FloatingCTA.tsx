@@ -12,7 +12,7 @@ export default function FloatingCTA() {
 
   // WhatsApp message pré-rempli
   const whatsappMessage = `Olá! Estou no site e preciso de um canalizador. Podem ajudar?`;
-  const whatsappUrl = `https://wa.me/${config.phone.replace(/\D/g, '')}?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
 
   if (!isVisible) return null;
 

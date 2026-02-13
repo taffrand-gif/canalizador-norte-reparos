@@ -11,7 +11,11 @@ import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
 import PriceTable from '@/components/PriceTable';
 import FAQ from '@/components/FAQ';
+import Trabalhos from '@/components/Trabalhos';
+import Equipa from '@/components/Equipa';
 import Testimonials from '@/components/Testimonials';
+import Blog from '@/components/Blog';
+import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -40,6 +44,12 @@ export default function OptimizedHome() {
       {/* Section tarifs transparents */}
       <PriceTable />
       
+      {/* Section trabalhos */}
+      <Trabalhos />
+      
+      {/* Section equipa */}
+      <Equipa />
+      
       {/* Section FAQ optimisée */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -48,7 +58,7 @@ export default function OptimizedHome() {
               Perguntas Frequentes sobre <span className="text-blue-600">Serviços de Canalização</span>
             </h2>
             <p className="text-xl text-gray-600">
-              Tire suas dúvidas sobre nossos serviços de canalização
+              Tire as suas dúvidas sobre os nossos serviços de canalização
             </p>
           </div>
           
@@ -59,20 +69,13 @@ export default function OptimizedHome() {
       </section>
       
       {/* Section témoignages */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              O que dizem nossos <span className="text-blue-600">clientes</span>
-            </h2>
-            <p className="text-xl text-gray-600">
-              Avaliações reais de quem já contratou nossos serviços
-            </p>
-          </div>
-          
-          <Testimonials />
-        </div>
-      </section>
+      <Testimonials />
+      
+      {/* Section blog */}
+      <Blog />
+      
+      {/* Section zona de intervenção */}
+      <ZonaIntervencao />
       
       {/* Section contact */}
       <Contactos />

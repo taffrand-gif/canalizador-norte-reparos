@@ -1,25 +1,37 @@
-# robots.txt pour norte-reparos.com
+# robots.txt para norte-reparos.com
+# Canalizador Profissional em Trás-os-Montes
+
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /private/
 Disallow: /api/
+Disallow: /private/
 
-# Sitemap
-Sitemap: https://norte-reparos.com/sitemap.xml
-
-# Crawl delay (éviter de surcharger le serveur)
-Crawl-delay: 2
-
-# User agents spécifiques
+# Motores de busca principais
 User-agent: Googlebot
 Allow: /
-Disallow: /admin/
 
 User-agent: Bingbot
 Allow: /
-Disallow: /admin/
 
 User-agent: Yandex
 Allow: /
-Disallow: /admin/
+
+# Bots de IA - Permitidos para melhor visibilidade
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://norte-reparos.com/sitemap.xml

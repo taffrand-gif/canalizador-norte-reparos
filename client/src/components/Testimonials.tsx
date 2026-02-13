@@ -33,7 +33,7 @@ export default function Testimonials() {
             O Que Dizem os Nossos Clientes
           </h2>
           <p className="text-lg text-gray-600">
-            Mais de 15 clientes satisfeitos confiam nos nossos serviços
+            Mais de 500 clientes satisfeitos confiam nos nossos serviços
           </p>
         </div>
 

@@ -119,14 +119,14 @@ const OptimizedFAQ: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="tel:[TÉLÉPHONE]"
+            href="tel:+351928484451"
             className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
           >
             <span>📞</span>
             <span>Ligar Agora (24h)</span>
           </a>
           <a
-            href="https://wa.me/[WHATSAPP]"
+            href="https://wa.me/351928484451"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"

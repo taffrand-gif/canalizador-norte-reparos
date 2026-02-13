@@ -55,6 +55,8 @@ export default function Header() {
             {[
               { id: 'home', label: 'HOME' },
               { id: 'servicos', label: 'SERVIÇOS' },
+              { id: 'trabalhos', label: 'TRABALHOS' },
+              { id: 'equipa', label: 'EQUIPA' },
               { id: 'faq', label: 'FAQ' },
               { id: 'testemunhos', label: 'TESTEMUNHOS' },
               { id: 'blog', label: 'BLOG' },
@@ -96,6 +98,8 @@ export default function Header() {
             {[
               { id: 'home', label: 'HOME' },
               { id: 'servicos', label: 'SERVIÇOS' },
+              { id: 'trabalhos', label: 'TRABALHOS' },
+              { id: 'equipa', label: 'EQUIPA' },
               { id: 'faq', label: 'FAQ' },
               { id: 'testemunhos', label: 'TESTEMUNHOS' },
               { id: 'blog', label: 'BLOG' },

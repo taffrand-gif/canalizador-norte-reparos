@@ -38,7 +38,7 @@ export default function Servicos() {
         'Câmaras de inspeção para diagnóstico',
         'Serviço de urgência 24h'
       ],
-      image: '/images/services/service-desentupimentos.png',
+      image: '/images-optimized/services/service-desentupimentos.jpg',
       priceRange: 'A partir de €60'
     },
     {
@@ -51,7 +51,7 @@ export default function Servicos() {
         'Correção de pressão na rede',
         'Garantia na reparação'
       ],
-      image: '/images/services/service-desentupimentos.png',
+      image: '/images-optimized/services/service-desentupimentos.jpg',
       priceRange: 'A partir de €80'
     },
     {
@@ -64,7 +64,7 @@ export default function Servicos() {
         'Torneiras e misturadores modernos',
         'Projeto personalizado'
       ],
-      image: '/images/services/service-sala-banho.png',
+      image: '/images-optimized/services/service-sala-banho.jpg',
       priceRange: 'A partir de €150'
     },
     {
@@ -77,7 +77,7 @@ export default function Servicos() {
         'Sistemas solares térmicos',
         'Optimização energética'
       ],
-      image: '/images/services/service-aquecimento.png',
+      image: '/images-optimized/services/service-aquecimento.jpg',
       priceRange: 'A partir de €120'
     }
   ];

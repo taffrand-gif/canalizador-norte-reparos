@@ -41,7 +41,7 @@ export const plumberieConfig: ServiceConfig = {
   name: 'Canalizador',
   businessName: 'Norte Reparos — Canalizador Profissional',
   phone: '+351928484451',
-  whatsappNumber: '+351928484451',
+  whatsappNumber: '351928484451',
   domain: 'norte-reparos.com',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
@@ -53,7 +53,7 @@ export const plumberieConfig: ServiceConfig = {
   },
   accentColor: '#FF6D00',  // Orange pour CTA
   
-  heroTitle: 'Canalizador em Bragança? Resposta Rápida e Serviço Profissional',
+  heroTitle: 'Canalizador Profissional em Trás-os-Montes',
   heroSubtitle: 'Reparações, instalações e manutenção — serviço rápido e profissional',
   heroEmoji: '💧',
   serviceEmoji: '🔧',
