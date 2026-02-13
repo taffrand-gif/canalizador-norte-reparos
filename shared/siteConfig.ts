@@ -138,7 +138,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     
     seo: {
       keywords: ['canalizador', 'bragança', 'trás-os-montes', 'urgências', '24h', 'fuga água', 'desentupimento', 'esquentador'],
-      ogImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Zd5MIfeKcoQdjH54bmsaCu-img-3_1770593723000_na1fn_cGx1bWJpbmctc2VydmljZS1kZXRhaWw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L1pkNU1JZmVLY29RZGpINTRibXNhQ3UtaW1nLTNfMTc3MDU5MzcyMzAwMF9uYTFmbl9jR3gxYldKcGJtY3RjMlZ5ZG1salpTMWtaWFJoYVd3LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=qqEqPeBj3ETSegRpgvowHSLBgHks-NWOTpyVTJJ0n-eXP4KxCAagMKqf~wFAXnhze9wr-FcCRuaUoJtrVEecQzex0eLk5NA8HTxlD81nQ~ix8Uxvw~VxeQYGbEETVebcO38Z2U8GyBUFfb19dfJ7E8xxNOYQKlYaqQFPLhHrBL1MoKKrBIhrl-QD8slv~ow82pbE98GyZmKBxkfB2DMBaRZ9-MoO81sdhGCcuuskRFoQMccLVUs3S3eIs5SF3VsJHtq6LrbG5zhUs1G644lbceB7l4tB0CD56rnFiPPl3lahQkyKezqG~p0Z~pKcTbkrJrWVAPiXehRd~S4r4w__',
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
     },
   },
   

@@ -8,6 +8,10 @@ import { SiteProvider } from "./contexts/SiteContext";
 import OptimizedHome from "./pages/OptimizedHome";
 import Servicos from "./pages/Servicos";
 import Chaves from "./pages/cidades/Chaves";
+import Braganca from "./pages/cidades/Braganca";
+import Mirandela from "./pages/cidades/Mirandela";
+import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
+import Valpacos from "./pages/cidades/Valpacos";
 
 
 function Router() {
