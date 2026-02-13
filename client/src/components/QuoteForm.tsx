@@ -168,8 +168,8 @@ export default function QuoteForm() {
                 </SelectTrigger>
                 <SelectContent>
                   {services.map((service) => (
-                    <SelectItem key={service.id} value={service.label}>
-                      {service.label}
+                    <SelectItem key={index} value={service}>
+                      {service}
                     </SelectItem>
                   ))}
                 </SelectContent>
