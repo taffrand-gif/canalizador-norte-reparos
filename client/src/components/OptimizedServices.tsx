@@ -20,6 +20,39 @@ const serviceDescriptions = {
   'Urgências 24h': 'Atendimento de urgências 24 horas por dia, 7 dias por semana, para fugas de água, entupimentos e outras emergências.',
 };
 
+const serviceFeatures = {
+  'Desentupimentos': [
+    'Equipamento de alta pressão e câmera de inspeção',
+    'Técnicas não invasivas (sem quebrar azulejos)',
+    'Garantia 6 meses contra reentupimento'
+  ],
+  'Reparação de Fugas de Água': [
+    'Detecção eletrónica de fugas (geofone)',
+    'Reparação mínima invasiva',
+    'Secagem e limpeza da área afetada'
+  ],
+  'Instalação Sanitários': [
+    'Materiais de marcas premium (Grohe, Sanindusa)',
+    'Projeto hidráulico gratuito',
+    'Instalação com certificação'
+  ],
+  'Aquecimento Central': [
+    'Caldeiras de condensação (alta eficiência)',
+    'Manutenção preventiva anual',
+    'Certificação obrigatória incluída'
+  ],
+  'Canalização Nova': [
+    'Materiais PPR e cobre com garantia 10 anos',
+    'Cumprimento normativo português',
+    'Testes de pressão e estanquicidade'
+  ],
+  'Urgências 24h': [
+    'Resposta em menos de 45 minutos',
+    'Equipe equipada para qualquer emergência',
+    'Orçamento gratuito no local'
+  ]
+};
+
 const OptimizedServices: React.FC = () => {
   const { config } = useSite();
 
@@ -71,18 +104,16 @@ const OptimizedServices: React.FC = () => {
                   </p>
 
                   <div className="space-y-3">
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Equipamento moderno e especializado</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Técnicos certificados e experientes</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-700">
-                      <span className="text-green-500">✓</span>
-                      <span>Garantia em todos os serviços</span>
-                    </div>
+                    {(serviceFeatures[service as keyof typeof serviceFeatures] || [
+                      'Equipamento moderno e especializado',
+                      'Técnicos certificados e experientes',
+                      'Garantia em todos os serviços'
+                    ]).map((feature, idx) => (
+                      <div key={idx} className="flex items-center gap-2 text-gray-700">
+                        <span className="text-green-500">✓</span>
+                        <span>{feature}</span>
+                      </div>
+                    ))}
                   </div>
 
                   <a

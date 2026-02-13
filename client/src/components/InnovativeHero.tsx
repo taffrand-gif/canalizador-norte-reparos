@@ -207,9 +207,9 @@ const InnovativeHero: React.FC = () => {
           {/* Stats avec effet de flottement */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {[
-              { icon: '🏆', value: '20+', label: 'Anos Experiência', color: 'from-blue-400 to-blue-600' },
+              { icon: '🏆', value: '10+', label: 'Anos Experiência', color: 'from-blue-400 to-blue-600' },
               { icon: '🚨', value: '24/7', label: 'Urgências', color: 'from-orange-400 to-orange-600' },
-              { icon: '👨‍🔧', value: '1000+', label: 'Clientes', color: 'from-blue-500 to-blue-700' },
+              { icon: '👨‍🔧', value: '100+', label: 'Clientes', color: 'from-blue-500 to-blue-700' },
               { icon: '💰', value: 'Grátis', label: 'Orçamento', color: 'from-orange-500 to-orange-700' }
             ].map((stat, index) => (
               <div 
