@@ -159,7 +159,7 @@ const InnovativeHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-3xl group-hover:animate-spin-slow">📞</span>
-                <span className="text-xl tracking-wide">LIGUE AGORA</span>
+                <span className="text-xl tracking-wide">PEDIR ORÇAMENTO</span>
               </span>
               
               {/* Effet d'ondulation */}
@@ -180,7 +180,7 @@ const InnovativeHero: React.FC = () => {
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
-                <span className="text-xl tracking-wide">WHATSAPP RÁPIDO</span>
+                <span className="text-xl tracking-wide">CONTACTAR TÉCNICO</span>
               </span>
               
               {/* Effet de bulles */}
