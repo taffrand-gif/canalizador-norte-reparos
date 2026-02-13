@@ -26,35 +26,7 @@ export default function OptimizedHome() {
   const { config } = useSite();
 
   // Update document title and meta tags
-  useEffect(() => {
-    document.title = "Canalizador em Trás-os-Montes | Serviço Rápido e Profissional | Norte Reparos";
-    
-    // Update meta description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação sanitários, aquecimento central. Serviço rápido, orçamento gratuito. Ligue agora!');
-
-
-    // Update Open Graph tags
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) {
-      ogTitle.setAttribute('content', 'Canalizador Profissional em Trás-os-Montes | Norte Reparos');
-    }
-
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) {
-      ogDescription.setAttribute('content', 'Reparações, instalações e manutenção — serviço rápido e profissional em toda a região de Trás-os-Montes.');
-    }
-
-    const ogImage = document.querySelector('meta[property="og:image"]');
-    if (ogImage) {
-      ogImage.setAttribute('content', '/images/hero/hero-plumber-portugal.png');
-    }
-  }, [config]);
+  // Meta tags are handled by SEOHead component
 
   return (
     <>
