@@ -204,8 +204,8 @@ export function generateLocalBusinessSchema(ville?: string) {
       "worstRating": "1"
     },
     "sameAs": [
-      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
-      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+      `https://www.facebook.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`
     ]
   };
 }
@@ -228,8 +228,8 @@ export function generateOrganizationSchema() {
       "availableLanguage": ["Portuguese"]
     },
     "sameAs": [
-      `https://www.facebook.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`,
-      `https://www.instagram.com/${config.businessName.toLowerCase().replace(/\s+/g, '')}`
+      `https://www.facebook.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`,
+      `https://www.instagram.com/${(config.businessName || "").toLowerCase().replace(/\s+/g, '')}`
     ]
   };
 }
@@ -327,7 +327,7 @@ function getCityCoordinates(ville: string): { lat: number; lng: number } {
 
 // Fonction helper pour obtenir le slug d'une ville
 function getCitySlug(ville: string): string {
-  return ville
+  return (ville || '')
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
