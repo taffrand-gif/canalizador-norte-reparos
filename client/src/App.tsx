@@ -5,13 +5,21 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
-import Home from "./pages/Home";
+import OptimizedHome from "./pages/OptimizedHome";
+import Servicos from "./pages/Servicos";
+import Chaves from "./pages/cidades/Chaves";
 
 
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
+      <Route path={"/"} component={OptimizedHome} />
+      <Route path={"/servicos"} component={Servicos} />
+      <Route path={"/canalizador-chaves"} component={Chaves} />
+      <Route path={"/canalizador-braganca"} component={Braganca} />
+      <Route path={"/canalizador-mirandela"} component={Mirandela} />
+      <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
+      <Route path={"/canalizador-valpacos"} component={Valpacos} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

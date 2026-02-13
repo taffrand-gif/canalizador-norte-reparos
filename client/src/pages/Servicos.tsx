@@ -1,197 +1,268 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
-import { useSEO } from "@/hooks/useSEO";
+// Page Services détaillée para SEO
+// Optimizada para featured snippets e referenciamento local
+
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import FloatingButtons from '@/components/FloatingButtons';
+import SEOHead from '@/components/SEOHead';
+import StructuredData from '@/components/StructuredData';
+import { useSite } from '@/contexts/SiteContext';
+import { useEffect } from 'react';
 
 export default function Servicos() {
-  const config = ACTIVE_CONFIG;
-  const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
+  const { config } = useSite();
 
-  useSEO({
-    title: `Serviços de ${config.name} | ${config.businessName}`,
-    description: `Conheça todos os nossos serviços de ${config.name.toLowerCase()} profissional. Disponíveis 24h/dia em todo o distrito de Bragança.`,
-    canonical: `https://${config.domain}/servicos`,
-  });
-
-  const handlePhoneClick = () => {
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'conversion', {
-        'send_to': `${config.googleAdsId}/${config.googleAdsConversionLabel}`,
-        'event_callback': () => {
-          window.location.href = `tel:${config.phone}`;
-        }
-      });
-    } else {
-      window.location.href = `tel:${config.phone}`;
+  useEffect(() => {
+    document.title = "Serviços de Canalizador em Trás-os-Montes | Desentupimento, Reparação, Instalação";
+    
+    // Update meta description
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
     }
-  };
+    metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, reparação de fugas, instalação sanitários, aquecimento central. Profissionais certificados, orçamento gratuito, urgências 24h.');
+  }, [config]);
+
+  const servicesDetails = [
+    {
+      title: 'Desentupimentos Urgentes',
+      description: 'Desentupimento rápido e eficiente de canalizações, WC, pias, ralos e esgotos. Utilizamos equipamento moderno e técnicas não invasivas para resolver o problema sem danificar as canalizações.',
+      features: [
+        'Desentupimento de WC, pias e ralos',
+        'Limpeza de canalizações e esgotos',
+        'Equipamento de alta pressão',
+        'Câmaras de inspeção para diagnóstico',
+        'Serviço de urgência 24h'
+      ],
+      image: '/images-optimized/services/service-desentupimentos.jpg',
+      priceRange: 'A partir de €60'
+    },
+    {
+      title: 'Reparação de Fugas de Água',
+      description: 'Localização e reparação de fugas de água em canalizações, torneiras, autoclismos e sistemas de aquecimento. Utilizamos tecnologia de deteção sem quebra para minimizar danos na propriedade.',
+      features: [
+        'Deteção de fugas com equipamento especializado',
+        'Reparação sem quebra quando possível',
+        'Substituição de torneiras e válvulas',
+        'Correção de pressão na rede',
+        'Garantia na reparação'
+      ],
+      image: '/images-optimized/services/service-desentupimentos.jpg',
+      priceRange: 'A partir de €80'
+    },
+    {
+      title: 'Instalação de Sanitários',
+      description: 'Instalação completa de casas de banho, cozinhas e áreas de serviço. Torneiras, autoclismos, chuveiros, banheiras, bases de duche e sistemas de drenagem modernos e eficientes.',
+      features: [
+        'Instalação de WC, lavatórios e bidés',
+        'Montagem de banheiras e bases de duche',
+        'Sistemas de drenagem eficientes',
+        'Torneiras e misturadores modernos',
+        'Projeto personalizado'
+      ],
+      image: '/images-optimized/services/service-sala-banho.jpg',
+      priceRange: 'A partir de €150'
+    },
+    {
+      title: 'Aquecimento Central e Água Quente',
+      description: 'Instalação, manutenção e reparação de sistemas de aquecimento central, caldeiras, esquentadores, bombas de calor e radiadores. Garantimos eficiência energética e conforto térmico.',
+      features: [
+        'Instalação de caldeiras e esquentadores',
+        'Manutenção preventiva anual',
+        'Reparação de avarias no aquecimento',
+        'Sistemas solares térmicos',
+        'Optimização energética'
+      ],
+      image: '/images-optimized/services/service-aquecimento.jpg',
+      priceRange: 'A partir de €120'
+    }
+  ];
 
   return (
     <>
+      <SEOHead />
+      <StructuredData />
+      
       <Header />
-      <WhatsAppButton />
-
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-50 to-red-100 py-16">
-        <div className="container">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Nossos Serviços de {config.name}
+      
+      <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+        {/* Hero section */}
+        <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+          <div className="container mx-auto px-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Serviços de <span className="text-orange-400">Canalizador</span> em Trás-os-Montes
             </h1>
-            <p className="text-xl text-gray-700">
-              Soluções completas para todas as suas necessidades
+            <p className="text-xl mb-8 max-w-3xl">
+              Serviços completos de canalização para residências, comércios e indústrias. 
+              Profissionais certificados, equipamento moderno e garantia no serviço.
             </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href={`tel:${config.phone}`}
+                className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
+              >
+                📞 Ligue Agora: {config.phone}
+              </a>
+              <a
+                href={`https://wa.me/${config.whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
+              >
+                💬 Pedir Orçamento no WhatsApp
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Services Grid */}
-      <section className="py-16 bg-white">
-        <div className="container">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {config.services.map((service, index) => (
-                <div key={index} className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
-                  <div className="flex items-start gap-4">
-                    <div className="text-4xl">{config.serviceEmoji}</div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-3">{service}</h3>
-                      <p className="text-gray-700 leading-relaxed">
-                        Serviço profissional com garantia de qualidade. Intervenção rápida e eficaz com equipamento de última geração.
-                      </p>
+        {/* Services details */}
+        <section className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {servicesDetails.map((service, index) => (
+                <div key={index} className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+                  <div className="h-64 overflow-hidden">
+                    <img
+                      src={service.image}
+                      alt={`Serviço de ${service.title.toLowerCase()} em Trás-os-Montes`}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                      width="600"
+                      height="400"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <div className="flex items-center justify-between mb-4">
+                      <h2 className="text-2xl font-bold text-gray-900">{service.title}</h2>
+                      <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">
+                        {service.priceRange}
+                      </span>
+                    </div>
+                    
+                    <p className="text-gray-600 mb-6 text-lg">
+                      {service.description}
+                    </p>
+                    
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">O que inclui:</h3>
+                    <ul className="space-y-3 mb-8">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-center gap-3 text-gray-700">
+                          <span className="text-green-500 text-xl">✓</span>
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a
+                        href={`tel:${config.phone}`}
+                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded-lg text-center transition-colors"
+                      >
+                        Pedir Serviço
+                      </a>
+                      <a
+                        href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre ${service.title}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold px-6 py-3 rounded-lg text-center transition-colors border border-gray-300"
+                      >
+                        Saber Mais
+                      </a>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Detailed Services Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container">
-          <div className="max-w-4xl mx-auto">
-            {config.type === 'plomberie' ? (
-              <>
-                <h2 className="text-3xl font-bold text-gray-900 mb-8">Desentupimentos</h2>
-                <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                  Somos uma empresa perita em efetuar todo o tipo de desentupimentos, nomeadamente a nível de vivendas, apartamentos, restaurantes, hotéis, instituições e todo o tipo de edifícios públicos e privados. Temos equipas experientes na resolução de todo o tipo de entupimentos, disponíveis em permanência 24h/dia, 365 dias por ano.
-                </p>
-                <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                  Como tal, os nossos canalizadores estão aptos a resolver todo o tipo de problemas de canalização, nomeadamente de canos, sanitas, ralos, fossas, esgotos, caleiras, tubagens, algerozes, condutas de lixo, fugas de água, entre outros. Damos garantia de efetuar sempre um trabalho seguro, duradouro, eficiente e rápido.
-                </p>
-                <p className="text-lg leading-relaxed text-gray-700">
-                  Caso necessite de algum esclarecimento sobre desentupimentos, não hesite em falar com os nossos técnicos. A qualquer hora, solicite os nossos serviços. De imediato, um piquete de assistência será enviado ao local para tratar de efetuar o desentupimento, sem pôr em risco a saúde da sua família ou a dos seus vizinhos.
-                </p>
-
-                <div className="my-12">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-8">Montagem e reparação de canalizações</h2>
-                  <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                    Está a precisar de um canalizador profissional para efetuar uma montagem e reparação de canalizações no seu imóvel? Ou para remodelar e/ou substituir a atual canalização da casa de banho ou da cozinha? Chame-nos: a nossa empresa presta serviços de instalação, assistência e manutenção técnica de canalizações.
-                  </p>
-                  <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                    De referir que todos os nossos técnicos têm formação contínua na área e muita prática em intervir em qualquer área doméstica ou industrial, procedendo a todo o tipo de desentupimentos ou reparações, nomeadamente de fossas, canos, esgotos, casas de banho, sanitas, lava loiças, condutas de lixo, entre muitos outros.
-                  </p>
-                  <p className="text-lg leading-relaxed text-gray-700">
-                    Temos piquetes de canalizadores, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar para obter preços competitivos e transparentes. Com o serviço de montagem de reparação de canalizações da nossa empresa, a sua vida fica mais fácil!
-                  </p>
-                </div>
-              </>
-            ) : (
-              <>
-                <h2 className="text-3xl font-bold text-gray-900 mb-8">Reparação de Curto-Circuitos</h2>
-                <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                  Somos uma empresa perita em efetuar todo o tipo de reparações elétricas, nomeadamente a nível de vivendas, apartamentos, restaurantes, hotéis, instituições e todo o tipo de edifícios públicos e privados. Temos equipas experientes na resolução de todo o tipo de avarias elétricas, disponíveis em permanência 24h/dia, 365 dias por ano.
-                </p>
-                <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                  Como tal, os nossos eletricistas estão aptos a resolver todo o tipo de problemas elétricos, nomeadamente curto-circuitos, disjuntores, quadros elétricos, tomadas, interruptores, fiação defeituosa, entre outros. Damos garantia de efetuar sempre um trabalho seguro, duradouro, eficiente e rápido.
-                </p>
-                <p className="text-lg leading-relaxed text-gray-700">
-                  Caso necessite de algum esclarecimento sobre reparações elétricas, não hesite em falar com os nossos técnicos. A qualquer hora, solicite os nossos serviços. De imediato, um piquete de assistência será enviado ao local para tratar de efetuar a reparação, sem pôr em risco a segurança da sua família ou a dos seus vizinhos.
-                </p>
-
-                <div className="my-12">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-8">Instalação de Quadros Elétricos</h2>
-                  <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                    Está a precisar de um eletricista profissional para efetuar uma instalação ou reparação de quadros elétricos no seu imóvel? Ou para remodelar e/ou substituir o atual sistema elétrico da casa? Chame-nos: a nossa empresa presta serviços de instalação, assistência e manutenção técnica de sistemas elétricos.
-                  </p>
-                  <p className="text-lg leading-relaxed text-gray-700 mb-6">
-                    De referir que todos os nossos técnicos têm formação contínua na área e muita prática em intervir em qualquer área doméstica ou industrial, procedendo a todo o tipo de instalações ou reparações elétricas, nomeadamente de quadros, disjuntores, tomadas, interruptores, fiação, entre muitos outros.
-                  </p>
-                  <p className="text-lg leading-relaxed text-gray-700">
-                    Temos piquetes de eletricistas, os quais estão disponíveis 24 horas por dia, todo o ano, para responderem a todas as urgências, no próprio dia. Se precisa de nós, não hesite em nos contactar para obter preços competitivos e transparentes. Com o serviço de instalação e reparação elétrica da nossa empresa, a sua vida fica mais fácil!
-                  </p>
-                </div>
-              </>
-            )}
-
-            <div className="text-center my-12">
-              <button
-                onClick={handlePhoneClick}
-                className="bg-red-600 hover:bg-red-700 text-white text-xl font-bold px-10 py-3 rounded-lg transition-colors"
-              >
-                LIGUE AGORA: {formattedPhone}
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Coverage Area */}
-      <section className="py-16 bg-white">
-        <div className="container">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Zona de Cobertura
+        {/* FAQ Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              Perguntas Frequentes sobre <span className="text-blue-600">Serviços de Canalização</span>
             </h2>
-            <p className="text-lg text-gray-700 text-center mb-8">
-              Prestamos serviços em todo o distrito de Bragança, incluindo:
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Alfândega da Fé</p>
+            
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Quanto tempo demora um desentupimento urgente?
+                </h3>
+                <p className="text-gray-600">
+                  Na maioria dos casos, resolvemos desentupimentos em 1-2 horas. 
+                  Para situações mais complexas, pode demorar até 4 horas. Atendemos urgências 24h.
+                </p>
               </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Bragança</p>
+              
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Como detetam fugas de água sem quebrar paredes?
+                </h3>
+                <p className="text-gray-600">
+                  Utilizamos equipamento de deteção por ultrassons, câmaras térmicas e 
+                  gases traçadores. Em 80% dos casos, conseguimos localizar e reparar 
+                  sem necessidade de obras.
+                </p>
               </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Carrazeda de Ansiães</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Freixo de Espada à Cinta</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Macedo de Cavaleiros</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Miranda do Douro</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Mirandela</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Mogadouro</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Torre de Moncorvo</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Vila Flor</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Vimioso</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <p className="font-semibold text-gray-900">Vinhais</p>
+              
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Oferecem garantia nos serviços?
+                </h3>
+                <p className="text-gray-600">
+                  Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra 
+                  e 1 ano nos materiais fornecidos por nós. Para desentupimentos, 
+                  garantia de 6 meses.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
+        {/* CTA Final */}
+        <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              Precisa de um Canalizador em Trás-os-Montes?
+            </h2>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">
+              Contacte-nos agora para um orçamento gratuito e sem compromisso. 
+              Atendemos urgências 24 horas por dia, incluindo fins de semana e feriados.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <a
+                href={`tel:${config.phone}`}
+                className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
+              >
+                📞 {config.phone}
+              </a>
+              <a
+                href={`https://wa.me/${config.whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
+              >
+                💬 WhatsApp Rápido
+              </a>
+            </div>
+            
+            {/* Cross-link subtil */}
+            <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
+              <p className="text-lg">
+                ⚡ <strong>Precisa de um eletricista?</strong> Recomendamos:{' '}
+                <a href="https://staff-seekers.com" className="underline font-bold">
+                  staff-seekers.com
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      
       <Footer />
+      <FloatingButtons />
     </>
   );
 }
