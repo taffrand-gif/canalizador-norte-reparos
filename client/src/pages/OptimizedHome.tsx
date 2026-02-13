@@ -7,18 +7,14 @@
 // 5. Contact simple et efficace
 
 import Header from '@/components/Header';
-import UrgencyBar from '@/components/UrgencyBar';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
-import GuaranteesSection from '@/components/GuaranteesSection';
-import ValueStack from '@/components/ValueStack';
 import FAQ from '@/components/FAQ';
 import Testimonials from '@/components/Testimonials';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import FloatingCTA from '@/components/FloatingCTA';
-import LiveVisitors from '@/components/LiveVisitors';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
@@ -65,13 +61,8 @@ export default function OptimizedHome() {
       <StructuredData />
       
       <Header />
-      <UrgencyBar />
       <InnovativeHero />
       <OptimizedServices />
-      
-      <GuaranteesSection />
-      
-      <ValueStack />
       
       {/* Section FAQ optimisée */}
       <section className="py-20 bg-gray-50">
@@ -114,7 +105,6 @@ export default function OptimizedHome() {
       <FloatingButtons />
       <ScrollToTop />
       <FloatingCTA />
-      <LiveVisitors />
     </>
   );
 }
