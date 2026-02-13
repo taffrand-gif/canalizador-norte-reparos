@@ -42,7 +42,7 @@ export default function Valpacos() {
       "@type": "LocalBusiness",
       "@id": "https://norte-reparos.com/#organization",
       "name": "Norte Reparos — Canalizador em Valpaços",
-      "image": "https://norte-reparos.com/images-optimized/hero/hero-plumber-portugal.jpg",
+      "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Valpaços, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",

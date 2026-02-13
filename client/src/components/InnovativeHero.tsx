@@ -83,7 +83,7 @@ const InnovativeHero: React.FC = () => {
             rgba(26, 35, 126, 0.6) 40%,
             rgba(0, 0, 0, 0.4) 100%
           ),
-          url('/images-optimized/background/background-water.jpg')
+          url('/images/background/background-water.png')
         `;
       }
     }, 100);
@@ -103,7 +103,7 @@ const InnovativeHero: React.FC = () => {
         ref={heroRef}
         className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 transition-all duration-3000"
         style={{
-          backgroundImage: `url('/images-optimized/background/background-water.jpg')`,
+          backgroundImage: `url('/images/background/background-water.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundBlendMode: 'overlay',

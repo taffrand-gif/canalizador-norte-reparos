@@ -42,7 +42,7 @@ export default function Braganca() {
       "@type": "LocalBusiness",
       "@id": "https://norte-reparos.com/#organization",
       "name": "Norte Reparos — Canalizador em Bragança",
-      "image": "https://norte-reparos.com/images-optimized/hero/hero-plumber-portugal.jpg",
+      "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
