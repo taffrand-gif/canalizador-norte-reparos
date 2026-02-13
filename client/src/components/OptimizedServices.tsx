@@ -3,12 +3,12 @@ import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const serviceImages = {
-  'Desentupimentos': 'service-desentupimentos.jpg',
-  'Reparação de Fugas de Água': 'service-desentupimentos.jpg',
-  'Instalação Sanitários': 'service-sala-banho.jpg',
-  'Aquecimento Central': 'service-aquecimento.jpg',
-  'Canalização Nova': 'service-sala-banho.jpg',
-  'Urgências 24h': 'service-urgencia.jpg',
+  'Desentupimentos': 'service-desentupimentos.png',
+  'Reparação de Fugas de Água': 'service-desentupimentos.png',
+  'Instalação Sanitários': 'service-sala-banho.png',
+  'Aquecimento Central': 'service-aquecimento.png',
+  'Canalização Nova': 'service-sala-banho.png',
+  'Urgências 24h': 'service-urgencia.png',
 };
 
 const serviceDescriptions = {
@@ -71,7 +71,7 @@ const OptimizedServices: React.FC = () => {
 
         {/* Grille de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {config.services.map((service, index) => {
+          {ACTIVE_CONFIG.services.map((service, index) => {
             const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-desentupimentos.png';
             const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
 
