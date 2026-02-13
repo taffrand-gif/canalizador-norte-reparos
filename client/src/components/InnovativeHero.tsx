@@ -1,6 +1,7 @@
 // Hero innovant avec effets modernes : vagues d'eau, bulles animées, reflets
 import React, { useEffect, useRef } from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const InnovativeHero: React.FC = () => {
   const { config } = useSite();
@@ -134,21 +135,21 @@ const InnovativeHero: React.FC = () => {
           <div className="relative mb-10">
             <h1 className="text-5xl md:text-7xl font-black text-white mb-4 leading-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-orange-200 drop-shadow-2xl">
-                {config.heroTitle}
+                {ACTIVE_CONFIG.heroTitle}
               </span>
             </h1>
             
             {/* Réflexion */}
             <div className="absolute -bottom-8 left-0 right-0 text-5xl md:text-7xl font-black opacity-20 transform scale-y[-1] blur-sm">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white/30 via-blue-100/30 to-orange-200/30">
-                {config.heroTitle}
+                {ACTIVE_CONFIG.heroTitle}
               </span>
             </div>
           </div>
           
           {/* Sous-titre avec effet de vague de texte */}
           <p className="text-xl md:text-2xl text-white/90 mb-14 max-w-3xl mx-auto leading-relaxed font-medium">
-            {config.heroSubtitle}
+            {ACTIVE_CONFIG.heroSubtitle}
           </p>
           
           {/* Boutons CTA avec effets aquatiques */}
@@ -173,7 +174,7 @@ const InnovativeHero: React.FC = () => {
             </a>
             
             <a
-              href={`https://wa.me/${config.whatsappNumber}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 min-w-[300px] border-2 border-white/30"
