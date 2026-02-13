@@ -7,7 +7,7 @@
 // 5. Contact simple et efficace
 
 import Header from '@/components/Header';
-// import UrgencyBar from '@/components/UrgencyBar'; // Temporarily disabled for debugging
+import UrgencyBar from '@/components/UrgencyBar';
 import InnovativeHero from '@/components/InnovativeHero';
 import OptimizedServices from '@/components/OptimizedServices';
 import GuaranteesSection from '@/components/GuaranteesSection';
@@ -17,7 +17,7 @@ import Testimonials from '@/components/Testimonials';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
-// import FloatingCTA from '@/components/FloatingCTA'; // Temporarily disabled for debugging
+import FloatingCTA from '@/components/FloatingCTA';
 import LiveVisitors from '@/components/LiveVisitors';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
@@ -73,7 +73,7 @@ export default function OptimizedHome() {
       <StructuredData />
       
       <Header />
-      {/* <UrgencyBar /> */} {/* Temporarily disabled for debugging */}
+      <UrgencyBar />
       <InnovativeHero />
       <OptimizedServices />
       
@@ -121,7 +121,7 @@ export default function OptimizedHome() {
       <Footer />
       <FloatingButtons />
       <ScrollToTop />
-      {/* <FloatingCTA /> */} {/* Temporarily disabled for debugging */}
+      <FloatingCTA />
       <LiveVisitors />
     </>
   );
