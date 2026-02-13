@@ -9,7 +9,7 @@ import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 
-export default function Bragança() {
+export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
