@@ -56,7 +56,7 @@ export default function MacedoCavaleiros() {
         "latitude": "41.5386",
         "longitude": "-6.9611"
       },
-      "telephone": config.phone,
+      "telephone": ACTIVE_CONFIG.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -73,7 +73,7 @@ export default function MacedoCavaleiros() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -112,13 +112,13 @@ export default function MacedoCavaleiros() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Canalizador Macedo de Cavaleiros: {config.phone}
+                  📞 Canalizador Macedo de Cavaleiros: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -271,13 +271,13 @@ export default function MacedoCavaleiros() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone} (Macedo de Cavaleiros)
+                📞 {ACTIVE_CONFIG.phone} (Macedo de Cavaleiros)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

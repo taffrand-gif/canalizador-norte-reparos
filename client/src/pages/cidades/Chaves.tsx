@@ -56,7 +56,7 @@ export default function Chaves() {
         "latitude": "41.7402",
         "longitude": "-7.4687"
       },
-      "telephone": config.phone,
+      "telephone": ACTIVE_CONFIG.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -73,7 +73,7 @@ export default function Chaves() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -112,13 +112,13 @@ export default function Chaves() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Canalizador Chaves: {config.phone}
+                  📞 Canalizador Chaves: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -271,13 +271,13 @@ export default function Chaves() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone} (Chaves)
+                📞 {ACTIVE_CONFIG.phone} (Chaves)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

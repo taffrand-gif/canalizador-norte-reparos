@@ -155,7 +155,7 @@ const InnovativeHero: React.FC = () => {
           {/* Boutons CTA avec effets aquatiques */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-20">
             <a
-              href={`tel:${config.phone}`}
+              href={`tel:${ACTIVE_CONFIG.phone}`}
               className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 min-w-[300px]"
             >
               <span className="relative z-10 flex items-center justify-center gap-4">

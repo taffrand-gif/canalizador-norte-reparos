@@ -56,7 +56,7 @@ export default function Mirandela() {
         "latitude": "41.4879",
         "longitude": "-7.1790"
       },
-      "telephone": config.phone,
+      "telephone": ACTIVE_CONFIG.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -73,7 +73,7 @@ export default function Mirandela() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -112,13 +112,13 @@ export default function Mirandela() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:${ACTIVE_CONFIG.phone}`}
                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Canalizador Mirandela: {config.phone}
+                  📞 Canalizador Mirandela: {ACTIVE_CONFIG.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Mirandela`}
+                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Mirandela`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -272,13 +272,13 @@ export default function Mirandela() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:${ACTIVE_CONFIG.phone}`}
                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {config.phone} (Mirandela)
+                📞 {ACTIVE_CONFIG.phone} (Mirandela)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Mirandela`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Mirandela`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

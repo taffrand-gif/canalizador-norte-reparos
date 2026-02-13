@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const serviceImages = {
   'Desentupimentos': 'service-desentupimentos.jpg',
@@ -38,8 +39,8 @@ const OptimizedServices: React.FC = () => {
         {/* Grille de services */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {config.services.map((service, index) => {
-            const imageName = serviceImages[service as keyof typeof serviceImages] || 'service-desentupimentos.png';
-            const description = serviceDescriptions[service as keyof typeof serviceDescriptions] || 'Serviço profissional de qualidade.';
+            const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-desentupimentos.png';
+            const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
 
             return (
               <div
@@ -50,7 +51,7 @@ const OptimizedServices: React.FC = () => {
                 <div className="h-48 overflow-hidden">
                   <img
                     src={`/images/services/${imageName.replace('.jpg', '.png')}`}
-                    alt={`Serviço de ${(typeof service === 'string' ? service : service.label).toLowerCase()} em Trás-os-Montes`}
+                    alt={`Serviço de ${service.toLowerCase()} em Trás-os-Montes`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     width="400"
@@ -62,7 +63,7 @@ const OptimizedServices: React.FC = () => {
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="text-2xl text-blue-600">💧</div>
-                    <h3 className="text-xl font-bold text-gray-900">{service.label}</h3>
+                    <h3 className="text-xl font-bold text-gray-900">{service}</h3>
                   </div>
 
                   <p className="text-gray-600 mb-6">
@@ -85,7 +86,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${config.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service.label}`}
+                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300"
