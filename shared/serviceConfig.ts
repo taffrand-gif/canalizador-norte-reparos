@@ -53,7 +53,7 @@ export const plumberieConfig: ServiceConfig = {
   },
   accentColor: '#FF6D00',  // Orange pour CTA
   
-  heroTitle: 'O Seu Canalizador de Confiança em Trás-os-Montes',
+  heroTitle: 'Canalizador em Bragança? Resposta Rápida e Serviço Profissional',
   heroSubtitle: 'Reparações, instalações e manutenção — serviço rápido e profissional',
   heroEmoji: '💧',
   serviceEmoji: '🔧',
