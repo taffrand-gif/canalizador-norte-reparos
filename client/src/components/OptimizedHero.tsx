@@ -10,7 +10,7 @@ const OptimizedHero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
-          backgroundImage: `url('/images/background/background-water.png')`,
+          background: 'linear-gradient(135deg, #1e88e5 0%, #0d47a1 50%, #1565c0 100%)',
         }}
       />
       

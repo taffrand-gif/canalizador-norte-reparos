@@ -83,7 +83,7 @@ const InnovativeHero: React.FC = () => {
             rgba(26, 35, 126, 0.6) 40%,
             rgba(0, 0, 0, 0.4) 100%
           ),
-          url('/images/background/background-water.png')
+          linear-gradient(135deg, #1e88e5 0%, #0d47a1 50%, #1565c0 100%)
         `;
       }
     }, 100);
@@ -103,10 +103,9 @@ const InnovativeHero: React.FC = () => {
         ref={heroRef}
         className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 transition-all duration-3000"
         style={{
-          backgroundImage: `url('/images/background/background-water.png')`,
+          background: 'linear-gradient(135deg, #1e88e5 0%, #0d47a1 50%, #1565c0 100%)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundBlendMode: 'overlay',
         }}
       />
       
