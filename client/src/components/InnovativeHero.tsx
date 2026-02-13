@@ -121,11 +121,11 @@ const InnovativeHero: React.FC = () => {
       {/* Contenu principal */}
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge avec effet d'eau */}
-          <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-xl border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl animate-pulse">
-            <span className="text-3xl animate-bounce">💧</span>
+          {/* Badge professionnel */}
+          <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-xl border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
+            <span className="text-3xl">💧</span>
             <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
-              URGÊNCIA CANALIZAÇÃO 24H
+              CANALIZADOR CERTIFICADO EM TRÁS-OS-MONTES
             </span>
             <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
           </div>
