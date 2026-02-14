@@ -22,6 +22,24 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/desentupir-lava-loica.jpg'
     },
     {
+      slug: 'evitar-fugas-agua-prevencao',
+      title: 'Como Evitar Fugas de Água — Guia Completo de Prevenção',
+      excerpt: 'Aprenda a prevenir fugas de água em casa com este guia completo. Dicas de manutenção preventiva para proteger a sua canalização em Trás-os-Montes.',
+      category: 'Manutenção Preventiva',
+      readTime: '9',
+      date: '14 Fev 2026',
+      imageUrl: '/images-optimized/blog/fugas-agua-prevencao.jpg'
+    },
+    {
+      slug: 'esquentador-vs-termoacumulador',
+      title: 'Esquentador ou Termoacumulador? Qual Escolher para a Sua Casa',
+      excerpt: 'Comparativo completo entre esquentador e termoacumulador. Descubra qual a melhor opção para aquecer água na sua casa em Trás-os-Montes.',
+      category: 'Instalações',
+      readTime: '10',
+      date: '14 Fev 2026',
+      imageUrl: '/images-optimized/blog/esquentador-termoacumulador.jpg'
+    },
+    {
       slug: 'fuga-agua-teto-imediatamente',
       title: 'Fuga de Água no Teto: O Que Fazer Imediatamente',
       excerpt: 'Descubra os passos urgentes a tomar quando deteta uma fuga de água no teto. Como minimizar danos e quando chamar um canalizador de emergência.',

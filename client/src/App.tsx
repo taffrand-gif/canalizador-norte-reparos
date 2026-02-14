@@ -14,6 +14,8 @@ import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
 import Valpacos from "./pages/cidades/Valpacos";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoDesentupirLavaLoica from "./pages/blog/ComoDesentupirLavaLoica";
+import EvitarFugasAguaPrevencao from "./pages/blog/EvitarFugasAguaPrevencao";
+import EsquentadorVsTermoacumulador from "./pages/blog/EsquentadorVsTermoacumulador";
 
 
 function Router() {
@@ -28,6 +30,8 @@ function Router() {
       <Route path={"/canalizador-valpacos"} component={Valpacos} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
+      <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
+      <Route path={"/blog/esquentador-vs-termoacumulador"} component={EsquentadorVsTermoacumulador} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
