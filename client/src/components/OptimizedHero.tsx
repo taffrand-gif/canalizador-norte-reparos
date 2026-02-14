@@ -6,17 +6,17 @@ const OptimizedHero: React.FC = () => {
   const { config } = useSite();
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900">
-      {/* Background image avec overlay */}
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-blue-900">
+      {/* Background image - visible on ALL screen sizes */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          background: 'linear-gradient(135deg, #1e88e5 0%, #0d47a1 50%, #1565c0 100%)',
+          backgroundImage: 'url(/images-optimized/hero/hero-plumber-portugal.jpg)',
         }}
       />
       
-      {/* Overlay pour meilleure lisibilité */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/30 to-blue-900/50" />
+      {/* Gradient overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-blue-900/80" />
       
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
@@ -80,17 +80,8 @@ const OptimizedHero: React.FC = () => {
         </div>
       </div>
       
-      {/* Hero image flottante */}
-      <div className="absolute right-0 bottom-0 w-1/3 h-3/4 hidden lg:block">
-        <img
-          src="/images-optimized/hero/hero-plumber-portugal.jpg"
-          alt="Canalizador profissional em Trás-os-Montes com ferramentas"
-          className="w-full h-full object-cover object-left rounded-l-3xl shadow-2xl"
-          loading="eager"
-          width="800"
-          height="600"
-        />
-      </div>
+      {/* Preload hero background image */}
+      <link rel="preload" as="image" href="/images-optimized/hero/hero-plumber-portugal.jpg" />
     </section>
   );
 };
