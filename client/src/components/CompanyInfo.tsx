@@ -13,20 +13,20 @@ export default function CompanyInfo() {
 
   const reasons = [
     {
-      title: 'Serviços 24 horas por dia / 365 dias por ano',
-      description: 'Disponíveis a qualquer hora, incluindo fins de semana e feriados.',
+      title: 'Confiança Local',
+      description: 'Os nossos técnicos são da terra. Identificados, educados e discretos. Tratamos a sua casa como a nossa.',
     },
     {
-      title: 'Piquete de assistência técnica 24h',
-      description: 'Equipa de urgência sempre pronta para intervir.',
+      title: 'Preço Justo e Afixado',
+      description: 'Tabela de deslocação fixa por concelho. Sem taxímetro a correr. Sabe o preço antes de começarmos.',
     },
     {
-      title: 'Técnicos credenciados e qualificados',
-      description: 'Profissionais certificados com vasta experiência.',
+      title: 'Vamos a Todas as Aldeias',
+      description: 'Se há estrada, nós vamos. Seja no centro da cidade ou na aldeia mais isolada da serra.',
     },
     {
-      title: 'Preços competitivos',
-      description: 'Sem compromisso e totalmente transparentes.',
+      title: 'Disponibilidade 24/7',
+      description: 'Estamos cá para si nos feriados, fins-de-semana e no meio da noite. O problema não escolhe hora.',
     },
   ];
 
@@ -39,7 +39,7 @@ export default function CompanyInfo() {
             {config.company.longDescription}
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
-            Temos ao seu dispor uma vasta equipa de {(config.serviceType || '').toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
+            Temos ao seu dispor uma vasta equipa de {(config.serviceType || "").toLowerCase()}s credenciados e de equipamentos adequados a todo o tipo de situações de maior ou menor gravidade, que possam ocorrer tanto em espaços domésticos (apartamentos, moradias e condomínios), como em espaços empresariais (restaurantes, comércios, escolas, ginásios, hotéis, hospitais, etc.).
           </p>
         </div>
 

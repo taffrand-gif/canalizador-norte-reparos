@@ -1,10 +1,6 @@
 // Configuration for both sites (Norte-Reparos and Staff-Seekers)
-// Design Philosophy: Brutalisme Numérique Fonctionnel
-// - Bold typography with Poppins ExtraBold for headings
-// - Saturated primary colors (blue for plumbing, orange for electrical)
-// - Asymmetric grid layouts with intentional negative space
-// - Hard shadows and thick borders
-// - Fast, direct interactions (<200ms)
+// Zone d'intervention : rayon de 100 km autour de Macedo de Cavaleiros, district de Bragança, Portugal
+// Sites en portugais uniquement — Tarifs sem IVA
 
 export type SiteId = 'norte-reparos' | 'staff-seekers';
 
@@ -42,6 +38,33 @@ export interface SiteConfig {
     label: string;
     basePrice: number;
   }>;
+
+  // Real Stories (Interventions)
+  stories: Array<{
+    title: string;
+    location: string;
+    situation: string;
+    emotion: string;
+    solution: string;
+  }>;
+
+  // Team / Avatars
+  team: Array<{
+    name: string;
+    role: string;
+    location: string;
+    bio: string;
+    quote: string;
+    image: string; // path to image
+  }>;
+
+  // Pricing Zones
+  pricingZones: Array<{
+    name: string;
+    cities: string;
+    price: string;
+    time: string;
+  }>;
   
   // Testimonials
   testimonials: Array<{
@@ -72,8 +95,8 @@ export interface SiteConfig {
 export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
-    name: 'Canalizador de Trás-os-Montes',
-    title: 'Canalizador 24h Bragança | Urgências Trás-os-Montes',
+    name: 'Norte Reparos',
+    title: 'Canalizador Profissional em Trás-os-Montes | Norte Reparos — Desentupimentos & Reparações 24h',
     description: 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região.',
     phone: '928 484 451',
     whatsapp: '351928484451',
@@ -90,10 +113,10 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Canalizador 24H',
-      subtitle: 'Precisa de um canalizador profissional ainda hoje? Contacte-nos.',
-      backgroundImage: '/images-optimized/hero/hero-plumber-portugal.png',
-      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
+      title: 'O Seu Canalizador Local. Sem surpresas.',
+      subtitle: 'Fugas, entupimentos e caldeiras. Atendemos aldeias e cidades com o mesmo respeito.',
+      backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     },
     
     services: [
@@ -101,6 +124,63 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
       { id: 'desentupimento', label: 'Desentupimento', basePrice: 60 },
       { id: 'esquentador', label: 'Instalação Esquentador', basePrice: 150 },
       { id: 'substituicao', label: 'Substituição Canalização', basePrice: 120 },
+    ],
+
+    stories: [
+      {
+        title: "La Fuite Silencieuse",
+        location: "Chaves",
+        situation: "Tache d'humidité qui grandit au plafond du salon.",
+        emotion: "Stress des dégâts, peur du coût des travaux.",
+        solution: "Détection thermique sans casser le mur. Réparation localisée."
+      },
+      {
+        title: "L'Eau Glacée",
+        location: "Miranda do Douro - Hiver",
+        situation: "-4°C dehors, la chaudière ne démarre plus. Pas d'eau chaude pour la douche des enfants.",
+        emotion: "Urgence vitale, inconfort, culpabilité pour les enfants.",
+        solution: "Remplacement thermocouple ou débouchage injecteur pilote. Intervention prioritaire."
+      },
+      {
+        title: "L'Évier Bouché de la Grand-Mère",
+        location: "Valpaços",
+        situation: "L'eau ne s'écoule plus du tout, odeur nauséabonde.",
+        emotion: "Honte, impuissance.",
+        solution: "\"Dona Maria, ça arrive à tout le monde. On passe le furet, on nettoie, et c'est fini en 15 min.\""
+      },
+      {
+        title: "Le Robinet qui Goutte la Nuit",
+        location: "Mogadouro",
+        situation: "Ploc... ploc... ploc... impossible de dormir.",
+        emotion: "Irritation, fatigue nerveuse.",
+        solution: "Changement des joints céramiques. Silence rétabli."
+      }
+    ],
+
+    team: [
+      {
+        name: "João 'O Salvador'",
+        role: "Chef d'Équipe Plomberie",
+        location: "Miranda do Douro",
+        bio: "45 ans. Conduit un 4x4 pour accéder aux fermes isolées. Costaud, rassurant, ne craint pas de se salir. Spécialiste fuites majeures.",
+        quote: "\"Não se preocupe dona Maria, a água para já.\"",
+        image: "/images/team/joao-plumber.jpg"
+      },
+      {
+        name: "Rui",
+        role: "Technicien Chauffage",
+        location: "Chaves",
+        bio: "34 ans. Spécialiste chauffage et chaudières. Calme, pédagogue, explique tout avant de facturer.",
+        quote: "\"Primeiro vemos o que é, depois falamos do preço.\"",
+        image: "/images/team/rui-heating.jpg"
+      }
+    ],
+
+    pricingZones: [
+      { name: "Zone 1 (Locale)", cities: "Macedo de Cavaleiros, Azibo", price: "10€", time: "< 30 min" },
+      { name: "Zone 2 (Voisins)", cities: "Mirandela, Bragança, Valpaços", price: "20€", time: "< 45 min" },
+      { name: "Zone 3 (Frontière)", cities: "Miranda do Douro, Chaves, Vinhais", price: "30€", time: "< 60 min" },
+      { name: "Zone 4 (Lointaine)", cities: "Vila Real, Mogadouro, Torre de Moncorvo", price: "35-40€", time: "Sur RDV" }
     ],
     
     testimonials: [
@@ -131,24 +211,24 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Canalizador de Trás-os-Montes',
-      shortDescription: 'Canalizador profissional ao seu serviço 24 horas por dia.',
-      longDescription: 'A empresa Canalizador de Trás-os-Montes, reconhecida nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de canalizações, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.',
-      coverage: 'Distrito de Bragança',
+      fullName: 'Norte Reparos — Canalizador Profissional',
+      shortDescription: 'Canalizador profissional ao seu serviço em Trás-os-Montes.',
+      longDescription: 'A Norte Reparos presta serviços de canalização profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de canalizações, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },
     
     seo: {
-      keywords: ['canalizador', 'bragança', 'trás-os-montes', 'urgências', '24h', 'fuga água', 'desentupimento', 'esquentador'],
-      ogImage: '/images-optimized/hero/hero-plumber-portugal.png',
+      keywords: ['canalizador', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'desentupimento', 'fuga água', 'esquentador', 'canalizador urgente', 'reparação canalização'],
+      ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     },
   },
   
   'staff-seekers': {
     id: 'staff-seekers',
-    name: 'Eletricista de Trás-os-Montes',
-    title: 'Eletricista 24h Bragança | Urgências Trás-os-Montes',
-    description: 'Serviços de eletricista 24h em Trás-os-Montes. Reparação de curto-circuitos, instalação de quadros elétricos, certificações DGEG. Equipa qualificada disponível 24/7.',
+    name: 'Staff Seekers',
+    title: 'Eletricista Certificado em Trás-os-Montes | Staff Seekers — Instalação & Reparação Elétrica 24h',
+    description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
     phone: '932 321 892',
     whatsapp: '351932321892',
     whatsappMessage: 'Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?',
@@ -164,17 +244,74 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     hero: {
-      title: 'Eletricista 24H',
-      subtitle: 'Precisa de um eletricista profissional ainda hoje? Contacte-nos.',
-      backgroundImage: '/images-optimized/hero/hero-electrician-portugal.png',
-      ogImage: '/images-optimized/hero/hero-electrician-portugal.png',
+      title: 'Electricistas de Confiança em Trás-os-Montes.',
+      subtitle: 'De Bragança a Vila Real. Chegamos rápido, resolvemos bem, e o preço é justo.',
+      backgroundImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
+      ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
     
     services: [
       { id: 'quadro-eletrico', label: 'Substituição Quadro Elétrico', basePrice: 200 },
       { id: 'tomadas', label: 'Instalação Tomadas', basePrice: 50 },
       { id: 'curto-circuito', label: 'Reparação Curto-Circuito', basePrice: 90 },
-      { id: 'certificacao', label: 'Certificação DGEG', basePrice: 180 },
+      { id: 'certificacao', label: 'Certificação CERTIEL', basePrice: 180 },
+    ],
+
+    stories: [
+      {
+        title: "La Peur du Feu",
+        location: "Macedo de Cavaleiros",
+        situation: "Une prise dans la cuisine fait \"Bzzzt\" et une étincelle quand on branche le grille-pain.",
+        emotion: "Peur que la maison brûle la nuit.",
+        solution: "On change la prise et on vérifie les fils derrière. 20 minutes, 35€ tout inclus."
+      },
+      {
+        title: "Le Four qui Saute",
+        location: "Vila Real",
+        situation: "Noël approche, Sr. António veut rôtir le chevreau, mais le disjoncteur saute dès que le four chauffe.",
+        emotion: "Frustration, peur de gâcher le repas de fête.",
+        solution: "Diagnostic puissance compteur vs consommation four. Rééquilibrage du tableau."
+      },
+      {
+        title: "L'Interrupteur Chaud",
+        location: "Bragança - Centre Historique",
+        situation: "Vieux bâtiment. L'interrupteur du couloir est chaud au toucher.",
+        emotion: "Inquiétude diffuse, danger invisible.",
+        solution: "Remplacement immédiat du mécanisme défectueux (risque d'incendie réel)."
+      },
+      {
+        title: "Le Noir Total",
+        location: "Village isolé près de Vinhais",
+        situation: "Orage, tout le village a du courant sauf la maison de Sr. José.",
+        emotion: "Isolement total, congélateur plein de viande qui va se perdre.",
+        solution: "Intervention 4x4, réparation du disjoncteur différentiel qui a \"grillé\" avec la foudre."
+      }
+    ],
+
+    team: [
+      {
+        name: "Sr. Carlos 'L'Ancien'",
+        role: "Maître Électricien",
+        location: "Bragança",
+        bio: "58 ans. 35 ans de métier. Visage buriné par le froid transmontano. Spécialité : mises aux normes, tableaux anciens.",
+        quote: "\"O quadro é antigo, mas a gente resolve sem partir a parede toda.\"",
+        image: "/images/team/carlos-electrician.jpg"
+      },
+      {
+        name: "Miguel 'Le Jeune Pro'",
+        role: "Technicien Domotique",
+        location: "Macedo de Cavaleiros",
+        bio: "29 ans. Rapide, connecté, propre. Idéal pour les jeunes couples et les installations modernes.",
+        quote: "\"Vou deixar isto seguro para os miúdos.\"",
+        image: "/images/team/miguel-electrician.jpg"
+      }
+    ],
+
+    pricingZones: [
+      { name: "Zone 1 (Locale)", cities: "Macedo de Cavaleiros, Azibo", price: "10€", time: "< 30 min" },
+      { name: "Zone 2 (Voisins)", cities: "Mirandela, Bragança, Valpaços", price: "20€", time: "< 45 min" },
+      { name: "Zone 3 (Frontière)", cities: "Miranda do Douro, Chaves, Vinhais", price: "30€", time: "< 60 min" },
+      { name: "Zone 4 (Lointaine)", cities: "Vila Real, Mogadouro, Torre de Moncorvo", price: "35-40€", time: "Sur RDV" }
     ],
     
     testimonials: [
@@ -190,7 +327,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
         id: '2',
         name: 'Sandra Nunes',
         location: 'Mirandela',
-        service: 'Certificação Elétrica DGEG',
+        service: 'Certificação Elétrica CERTIEL',
         text: 'Precisava de certificação para vender a casa. Fizeram inspeção completa, corrigiram pequenos problemas e emitiram certificado em 4 dias. Processo super rápido!',
         rating: 5,
       },
@@ -205,16 +342,16 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Eletricista de Trás-os-Montes',
-      shortDescription: 'Eletricista profissional ao seu serviço 24 horas por dia.',
-      longDescription: 'A empresa Eletricista de Trás-os-Montes, reconhecida nesta área de atuação há vários anos, presta serviços de instalação, assistência e manutenção técnica de sistemas elétricos, efetuando deslocações ao domicílio dos clientes, 24 horas por dia, todos os dias do ano, incluindo fins de semana e feriados.',
-      coverage: 'Distrito de Bragança',
+      fullName: 'Staff Seekers — Eletricista Profissional',
+      shortDescription: 'Eletricista certificado ao seu serviço em Trás-os-Montes.',
+      longDescription: 'A Staff Seekers presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },
     
     seo: {
-      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'urgências', '24h', 'quadro elétrico', 'curto-circuito', 'certificação DGEG'],
-      ogImage: 'https://private-us-east-1.manuscdn.com/sessionFile/RsLgvajqRJaxpcBIQSqPn3/sandbox/Zd5MIfeKcoQdjH54bmsaCu-img-4_1770593735000_na1fn_ZWxlY3RyaWNhbC1zZXJ2aWNlLWRldGFpbA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUnNMZ3ZhanFSSmF4cGNCSVFTcVBuMy9zYW5kYm94L1pkNU1JZmVLY29RZGpINTRibXNhQ3UtaW1nLTRfMTc3MDU5MzczNTAwMF9uYTFmbl9aV3hsWTNSeWFXTmhiQzF6WlhKMmFXTmxMV1JsZEdGcGJBLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=IXv9867bBLpvhRqgE6FZlzZjaDVpWaLhMHn86iDiwnqZx6ux-08L2aMxTGdGvdVLIGu0arnxSVoGGK5B-SErOWbjS-yfbEiBzjRjWcvBek3qX7Y6iUrILKRq8ExuG1dlQbI11m5bRFQA74Y87awrhLwmsz4BtNG8whuzowLosbHyNVIWHNGbJkKr9rJPMFVunsooCW9Xxq2d7rzm~utLlLoOlpPSOdbcKatHXeYXKuIKRTd2ddK~zGFQmHBIYk363ZVhiJh7~C9c47k4JvLhMHhgKKvUcY-h-fjXvU23tMJEtHscLx41DbZI8HgpZrrtzB60ePmaD0FrEx-dUiY3sA__',
+      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'eletricista urgente', 'instalação elétrica'],
+      ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
   },
 };
@@ -224,7 +361,7 @@ export function getCurrentSiteConfig(): SiteConfig {
   // Detect site based on hostname
   if (typeof window === 'undefined') {
     // Server-side rendering or build time - return default
-    return siteConfigs['norte-reparos'];
+    return siteConfigs['staff-seekers'];
   }
   
   const hostname = window.location.hostname;
@@ -233,6 +370,10 @@ export function getCurrentSiteConfig(): SiteConfig {
     return siteConfigs['staff-seekers'];
   }
   
-  // Default to norte-reparos
-  return siteConfigs['norte-reparos'];
+  if (hostname.includes('norte-reparos')) {
+    return siteConfigs['norte-reparos'];
+  }
+  
+  // Default to staff-seekers (primary domain)
+  return siteConfigs['staff-seekers'];
 }
