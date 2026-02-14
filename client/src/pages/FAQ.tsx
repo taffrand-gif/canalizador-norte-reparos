@@ -4,6 +4,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import FAQSection from "@/components/FAQSection";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
+import { NORTE_REPAROS_FAQ } from "@/data/faqData";
 
 export default function FAQ() {
   const config = ACTIVE_CONFIG;
@@ -34,7 +35,7 @@ export default function FAQ() {
       </section>
 
       {/* FAQ Content */}
-      <FAQSection />
+      <FAQSection faqs={NORTE_REPAROS_FAQ} />
 
       <Footer />
     </>

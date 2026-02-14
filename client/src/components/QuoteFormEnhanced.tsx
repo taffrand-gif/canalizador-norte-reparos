@@ -233,7 +233,7 @@ export default function QuoteFormEnhanced() {
               <button
                 type="button"
                 onClick={() => setShowMap(!showMap)}
-                className="px-4 py-3  text-white rounded-lg hover: transition-colors" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+                className="px-4 py-3  text-white rounded-lg hover: transition-colors" style={{backgroundColor: gradient.from}}
               >
                 📍 Mapa
               </button>
@@ -296,7 +296,7 @@ export default function QuoteFormEnhanced() {
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
           >
             {config.services.map((service) => (
-              <option key={index} value={service}>
+              <option key={service} value={service}>
                 {service}
               </option>
             ))}
@@ -355,7 +355,7 @@ export default function QuoteFormEnhanced() {
         <button
           type="submit"
           disabled={createQuote.isPending}
-          className="w-full  hover: disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.to}} style={{backgroundColor: gradient.from}}
+          className="w-full  hover: disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.from}}
         >
           {createQuote.isPending ? "A enviar..." : "📧 Enviar Pedido de Orçamento"}
         </button>

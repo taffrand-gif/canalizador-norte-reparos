@@ -75,7 +75,7 @@ export default function Chaves() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${config.whatsapp}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -120,7 +120,7 @@ export default function Chaves() {
                   📞 Canalizador Chaves: {config.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
+                  href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Chaves`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -304,7 +304,7 @@ export default function Chaves() {
                 📞 {config.phone} (Chaves)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Chaves`}
+                href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Chaves`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

@@ -73,7 +73,7 @@ export default function MacedoCavaleiros() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsappNumber}`
+        `https://wa.me/${config.whatsapp}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -118,7 +118,7 @@ export default function MacedoCavaleiros() {
                   📞 Canalizador Macedo de Cavaleiros: {config.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                  href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -277,7 +277,7 @@ export default function MacedoCavaleiros() {
                 📞 {config.phone} (Macedo de Cavaleiros)
               </a>
               <a
-                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
