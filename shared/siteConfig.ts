@@ -15,6 +15,7 @@ export interface SiteConfig {
   description: string;
   phone: string;
   whatsapp: string;
+  whatsappMessage: string;
   email: string;
   serviceType: string;
   domain: string;
@@ -76,6 +77,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     description: 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região.',
     phone: '928 484 451',
     whatsapp: '351928484451',
+    whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
     email: 'info@norte-reparos.com',
     serviceType: 'Canalizador',
     domain: 'norte-reparos.com',
@@ -149,6 +151,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     description: 'Serviços de eletricista 24h em Trás-os-Montes. Reparação de curto-circuitos, instalação de quadros elétricos, certificações DGEG. Equipa qualificada disponível 24/7.',
     phone: '932 321 892',
     whatsapp: '351932321892',
+    whatsappMessage: 'Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?',
     email: 'info@staff-seekers.com',
     serviceType: 'Eletricista',
     domain: 'staff-seekers.com',

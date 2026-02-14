@@ -98,7 +98,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({
               📞 Ligar Agora
             </a>
             <a
-              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, tenho uma pergunta sobre serviços de canalização`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-700 font-bold px-8 py-4 rounded-xl border-2 border-blue-600 hover:bg-blue-50 transition-colors inline-flex items-center justify-center gap-2"

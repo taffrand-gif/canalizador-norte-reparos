@@ -171,7 +171,7 @@ export default function StructuredData() {
         }
       },
       "sameAs": [
-        `https://wa.me/351928484451`
+        `https://wa.me/351928484451?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     };
 

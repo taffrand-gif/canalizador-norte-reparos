@@ -11,8 +11,7 @@ export default function FloatingCTA() {
   const [isMinimized, setIsMinimized] = useState(false);
 
   // WhatsApp message pré-rempli
-  const whatsappMessage = `Olá! Estou no site e preciso de um canalizador. Podem ajudar?`;
-  const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`;
 
   if (!isVisible) return null;
 

@@ -83,7 +83,7 @@ export default function Header() {
 
           {/* WhatsApp button */}
           <Button
-            onClick={() => window.open(`https://wa.me/${config.whatsapp}`, '_blank')}
+            onClick={() => window.open(`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`, '_blank')}
             className="hidden md:flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold shadow-[2px_2px_0_0_rgba(0,0,0,0.2)]"
           >
             Fale connosco no WhatsApp
@@ -122,7 +122,7 @@ export default function Header() {
             ))}
             <Button
               onClick={() => {
-                window.open(`https://wa.me/${config.whatsapp}`, '_blank');
+                window.open(`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`, '_blank');
                 setMobileMenuOpen(false);
               }}
               className="w-full bg-green-600 hover:bg-green-700 text-white font-bold mt-2"

@@ -108,7 +108,7 @@ export default function Servicos() {
                 📞 Ligue Agora: {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -231,7 +231,7 @@ export default function Servicos() {
                 📞 {ACTIVE_CONFIG.phone}
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
+                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

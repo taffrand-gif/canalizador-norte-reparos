@@ -117,7 +117,7 @@ const OptimizedServices: React.FC = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, gostaria de mais informações sobre o serviço de ${service}`}
+                    href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors duration-300"

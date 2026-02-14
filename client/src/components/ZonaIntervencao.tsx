@@ -80,7 +80,7 @@ export default function ZonaIntervencao() {
                 <span>📞</span> Ligue: {config.phone}
               </a>
               <a
-                href={`https://wa.me/${config.whatsapp}`}
+                href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 font-bold text-white bg-green-600 hover:bg-green-700 rounded-lg shadow-lg transition-all hover:shadow-xl hover:-translate-y-1"

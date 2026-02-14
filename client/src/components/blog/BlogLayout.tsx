@@ -80,7 +80,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
               📞 Ligar Agora
             </a>
             <a
-              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-orange-700 transition-colors"

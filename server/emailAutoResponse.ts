@@ -89,7 +89,7 @@ Um dos nossos técnicos irá contactá-lo brevemente para:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📞 Ligue agora: ${companyPhone}
-💬 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+tenho+uma+urgência
+💬 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+canalizador+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
 Estamos disponíveis 24/7 para emergências.
 
@@ -148,7 +148,7 @@ Um dos nossos técnicos irá contactá-lo em breve para:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Telefone: ${companyPhone}
-WhatsApp: https://wa.me/${whatsappNumber}
+WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+canalizador+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
 Horário: Segunda a Sexta, 8h-19h
 Urgências 24/7: Sempre disponível

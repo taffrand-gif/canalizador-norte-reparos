@@ -173,7 +173,7 @@ const InnovativeHero: React.FC = () => {
             </a>
             
             <a
-              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 min-w-[300px] border-2 border-white/30"

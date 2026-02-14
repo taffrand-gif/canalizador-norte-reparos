@@ -73,7 +73,7 @@ export default function Valpacos() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp}`
+        `https://wa.me/${config.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);
