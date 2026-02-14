@@ -239,7 +239,7 @@ const InnovativeHero: React.FC = () => {
       </div>
       
       {/* Styles d'animation inline */}
-      <style jsx>{`
+      <style>{`
         @keyframes wave {
           0%, 100% { transform: translateX(0) scaleY(1); }
           50% { transform: translateX(-10%) scaleY(1.1); }

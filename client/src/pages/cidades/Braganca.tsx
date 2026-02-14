@@ -56,7 +56,7 @@ export default function Braganca() {
         "latitude": "41.8062",
         "longitude": "-6.7569"
       },
-      "telephone": ACTIVE_CONFIG.phone,
+      "telephone": config.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -73,7 +73,7 @@ export default function Braganca() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`
+        `https://wa.me/${config.whatsappNumber}`
       ]
     });
     document.head.appendChild(schemaScript);
@@ -112,13 +112,13 @@ export default function Braganca() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${ACTIVE_CONFIG.phone}`}
+                  href={`tel:${config.phone}`}
                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
-                  📞 Canalizador Bragança: {ACTIVE_CONFIG.phone}
+                  📞 Canalizador Bragança: {config.phone}
                 </a>
                 <a
-                  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Bragança`}
+                  href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Bragança`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
@@ -271,13 +271,13 @@ export default function Braganca() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${ACTIVE_CONFIG.phone}`}
+                href={`tel:${config.phone}`}
                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                📞 {ACTIVE_CONFIG.phone} (Bragança)
+                📞 {config.phone} (Bragança)
               </a>
               <a
-                href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=Olá, preciso de um canalizador em Bragança`}
+                href={`https://wa.me/${config.whatsappNumber}?text=Olá, preciso de um canalizador em Bragança`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"

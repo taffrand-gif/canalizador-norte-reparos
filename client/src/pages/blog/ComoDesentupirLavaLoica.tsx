@@ -2,7 +2,6 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 const ComoDesentupirLavaLoica: React.FC = () => {
   useSEO({
