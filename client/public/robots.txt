@@ -17,19 +17,20 @@ Allow: /
 User-agent: Yandex
 Allow: /
 
-# Bots de IA - Permitidos para melhor visibilidade
+# Bots de IA - Bloqueados (training bots)
 User-agent: GPTBot
-Allow: /
+Disallow: /
 
 User-agent: ClaudeBot
-Allow: /
+Disallow: /
 
 User-agent: PerplexityBot
-Allow: /
+Disallow: /
 
 User-agent: ChatGPT-User
-Allow: /
+Disallow: /
 
+# Apple (search/Siri - permitido)
 User-agent: Applebot
 Allow: /
 

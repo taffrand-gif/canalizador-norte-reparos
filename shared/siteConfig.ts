@@ -148,7 +148,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     title: 'Eletricista 24h Bragança | Urgências Trás-os-Montes',
     description: 'Serviços de eletricista 24h em Trás-os-Montes. Reparação de curto-circuitos, instalação de quadros elétricos, certificações DGEG. Equipa qualificada disponível 24/7.',
     phone: '932 321 892',
-    whatsapp: '932321892',
+    whatsapp: '351932321892',
     email: 'info@staff-seekers.com',
     serviceType: 'Eletricista',
     domain: 'staff-seekers.com',
