@@ -6,11 +6,19 @@
   "framework": "vite",
   "rewrites": [
     {
-      "source": "/blog/:path*",
-      "destination": "/blog/:path*"
+      "source": "/blog/fuga-agua-casa-o-que-fazer",
+      "destination": "/blog/fuga-agua-casa-o-que-fazer.html"
     },
     {
-      "source": "/((?!blog/).*)",
+      "source": "/blog/preco-canalizador-tras-os-montes",
+      "destination": "/blog/preco-canalizador-tras-os-montes.html"
+    },
+    {
+      "source": "/blog/blog-desentupir-sem-quimicos",
+      "destination": "/blog/blog-desentupir-sem-quimicos.html"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
