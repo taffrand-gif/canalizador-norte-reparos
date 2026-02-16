@@ -23,6 +23,14 @@ export default function MacedoCavaleiros() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Macedo de Cavaleiros, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
+    // Meta keywords SEO
+    let metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta');
+      metaKeywords.setAttribute('name', 'keywords');
+      document.head.appendChild(metaKeywords);
+    }
+    metaKeywords.setAttribute('content', 'canalizador urgente macedo de cavaleiros, canalizador 24 horas macedo de cavaleiros, canalizador macedo de cavaleiros, canalizador profissional macedo de cavaleiros, desentupimento macedo de cavaleiros, fuga água macedo de cavaleiros, reparação canalização macedo de cavaleiros, instalação sanitários macedo de cavaleiros, canalizador trás-os-montes');
     
     
     // Canonical URL
