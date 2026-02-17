@@ -33,7 +33,7 @@ export default function Valpacos() {
     metaKeywords.setAttribute('content', 'canalizador urgente valpaços, canalizador 24 horas valpaços, canalizador valpaços, canalizador profissional valpaços, desentupimento valpaços, fuga água valpaços, reparação canalização valpaços, instalação sanitários valpaços, canalizador trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

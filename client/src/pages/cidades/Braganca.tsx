@@ -33,7 +33,7 @@ export default function Braganca() {
     metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador 24 horas bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, reparação canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

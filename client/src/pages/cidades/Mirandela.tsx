@@ -33,7 +33,7 @@ export default function Mirandela() {
     metaKeywords.setAttribute('content', 'canalizador urgente mirandela, canalizador 24 horas mirandela, canalizador mirandela, canalizador profissional mirandela, desentupimento mirandela, fuga água mirandela, reparação canalização mirandela, instalação sanitários mirandela, canalizador trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

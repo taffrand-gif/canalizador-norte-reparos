@@ -35,7 +35,7 @@ export default function Chaves() {
     metaKeywords.setAttribute('content', 'canalizador urgente chaves, canalizador 24 horas chaves, canalizador chaves, canalizador profissional chaves, desentupimento chaves, fuga água chaves, reparação canalização chaves, instalação sanitários chaves, canalizador trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

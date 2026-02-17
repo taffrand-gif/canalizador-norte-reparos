@@ -30,7 +30,7 @@ export default function FAQ() {
     },
     {
       question: 'Os técnicos são certificados?',
-      answer: 'Sim, todos os nossos técnicos são certificados e credenciados, com vasta experiência na área. Trabalhamos de acordo com todas as normas de segurança e qualidade exigidas.',
+      answer: 'Sim, todos os o meu serviço são certificados e credenciados, com vasta experiência na área. Trabalhamos de acordo com todas as normas de segurança e qualidade exigidas.',
     },
     {
       question: 'Fazem intervenções em empresas e condomínios?',
@@ -79,7 +79,7 @@ export default function FAQ() {
           <div className="mt-12 text-center p-8 border-4 bg-white" style={{ borderColor: config.colors.primary }}>
             <p className="text-lg font-bold mb-4">Não encontrou a resposta que procurava?</p>
             <p className="text-gray-600 mb-6">
-              Entre em contacto connosco. A nossa equipa está pronta para esclarecer todas as suas dúvidas.
+              Entre em contacto connosco. A meu trabalho está pronta para esclarecer todas as suas dúvidas.
             </p>
             <a
               href={`tel:${config.phone.replace(/\s/g, '')}`}

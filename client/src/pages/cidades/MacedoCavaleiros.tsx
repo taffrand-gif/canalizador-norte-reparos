@@ -33,7 +33,7 @@ export default function MacedoCavaleiros() {
     metaKeywords.setAttribute('content', 'canalizador urgente macedo de cavaleiros, canalizador 24 horas macedo de cavaleiros, canalizador macedo de cavaleiros, canalizador profissional macedo de cavaleiros, desentupimento macedo de cavaleiros, fuga água macedo de cavaleiros, reparação canalização macedo de cavaleiros, instalação sanitários macedo de cavaleiros, canalizador trás-os-montes');
     
     
-    // Canonical URL
+    // URL canónica
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
