@@ -17,6 +17,28 @@
       "source": "/blog/blog-desentupir-sem-quimicos",
       "destination": "/blog/blog-desentupir-sem-quimicos.html"
     },
+    // Pages de ville - servir les fichiers HTML statiques
+    {
+      "source": "/canalizador-braganca",
+      "destination": "/canalizador-braganca.html"
+    },
+    {
+      "source": "/canalizador-vila-real",
+      "destination": "/canalizador-vila-real.html"
+    },
+    {
+      "source": "/canalizador-chaves",
+      "destination": "/canalizador-chaves.html"
+    },
+    {
+      "source": "/canalizador-mirandela",
+      "destination": "/canalizador-mirandela.html"
+    },
+    {
+      "source": "/canalizador-macedo",
+      "destination": "/canalizador-macedo.html"
+    },
+    // Catch-all pour SPA React
     {
       "source": "/(.*)",
       "destination": "/index.html"
