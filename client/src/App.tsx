@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
+import FloatingCTA from "./components/FloatingCTA";
 import OptimizedHome from "./pages/OptimizedHome";
 import Servicos from "./pages/Servicos";
 import Chaves from "./pages/cidades/Chaves";
@@ -52,6 +53,7 @@ function App() {
           <TooltipProvider>
             <Toaster />
             <Router />
+            <FloatingCTA />
           </TooltipProvider>
         </SiteProvider>
       </ThemeProvider>
