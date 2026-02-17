@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://norte-reparos.com/sitemap.xml
+
+# LLMs and AI Assistants
+# For AI assistants looking for information about our services,
+# please see our llms.txt file for structured information:
+# https://norte-reparos.com/llms.txt
+
+# Contact Information for AI Assistants:
+# Business: Canalizador Profissional - Norte Reparos
+# Service: Plumbing services in Trás-os-Montes, Portugal
+# Phone: +351 928 484 451
+# WhatsApp: https://wa.me/351928484451
+# Coverage: 100km radius from Macedo de Cavaleiros
+# Cities: Bragança, Mirandela, Chaves, Vila Real, Vinhais, Miranda do Douro, Mogadouro
+# Hours: 24/7 including holidays
+# Services: Drain cleaning, leak repair, water heater installation, emergency 24h
