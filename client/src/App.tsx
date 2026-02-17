@@ -16,10 +16,15 @@ import Valpacos from "./pages/cidades/Valpacos";
 import Vinhais from "./pages/cidades/Vinhais";
 import MirandaDouro from "./pages/cidades/MirandaDouro";
 import Mogadouro from "./pages/cidades/Mogadouro";
+import TorreMoncorvo from "./pages/cidades/TorreMoncorvo";
+import FreixoEspadaCinta from "./pages/cidades/FreixoEspadaCinta";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoDesentupirLavaLoica from "./pages/blog/ComoDesentupirLavaLoica";
 import EvitarFugasAguaPrevencao from "./pages/blog/EvitarFugasAguaPrevencao";
 import EsquentadorVsTermoacumulador from "./pages/blog/EsquentadorVsTermoacumulador";
+import SinaisFugasAgua from "./pages/blog/SinaisFugasAgua";
+import ManutencaoEsquentador from "./pages/blog/ManutencaoEsquentador";
+import DesentupirWCMetodos from "./pages/blog/DesentupirWCMetodos";
 
 
 function Router() {
@@ -35,10 +40,15 @@ function Router() {
       <Route path={"/canalizador-vinhais"} component={Vinhais} />
       <Route path={"/canalizador-miranda-douro"} component={MirandaDouro} />
       <Route path={"/canalizador-mogadouro"} component={Mogadouro} />
+      <Route path={"/canalizador-torre-moncorvo"} component={TorreMoncorvo} />
+      <Route path={"/canalizador-freixo-espada-cinta"} component={FreixoEspadaCinta} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
       <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
       <Route path={"/blog/esquentador-vs-termoacumulador"} component={EsquentadorVsTermoacumulador} />
+      <Route path={"/blog/sinais-fugas-agua-escondidas"} component={SinaisFugasAgua} />
+      <Route path={"/blog/manutencao-esquentador-guia"} component={ManutencaoEsquentador} />
+      <Route path={"/blog/desentupir-wc-metodos-caseiros"} component={DesentupirWCMetodos} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
