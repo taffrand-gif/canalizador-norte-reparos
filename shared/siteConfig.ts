@@ -219,7 +219,16 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     },
     
     seo: {
-      keywords: ['canalizador', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'desentupimento', 'fuga água', 'esquentador', 'canalizador urgente', 'reparação canalização'],
+      keywords: [
+        'canalizador bragança', 'canalizador mirandela', 'canalizador macedo de cavaleiros',
+        'canalizador urgente bragança', 'canalizador 24 horas mirandela', 'canalizador chaves',
+        'canalizador vila real', 'canalizador vinhais', 'canalizador miranda do douro',
+        'canalizador mogadouro', 'canalizador torre de moncorvo', 'canalizador trás-os-montes',
+        'desentupimento bragança', 'desentupimento mirandela', 'desentupir sanita bragança',
+        'desentupir wc mirandela', 'fuga de água bragança', 'fuga água urgente mirandela',
+        'esquentador bragança', 'esquentador mirandela', 'sanita entupida', 'wc entupido',
+        'cano rebentado', 'canalizador profissional trás-os-montes'
+      ],
       ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     },
   },
