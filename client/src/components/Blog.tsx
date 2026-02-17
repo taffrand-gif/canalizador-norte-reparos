@@ -20,7 +20,7 @@ export default function Blog() {
     },
     {
       title: 'Como Escolher um Profissional Certificado',
-      excerpt: 'Guia completo para escolher um profissional qualificado e evitar problemas futuros com certificações e garantias.',
+      excerpt: 'Guia completo para escolher um profissionais qualificados e evitar problemas futuros com certificações e garantias.',
       date: '10 Jan 2026',
       readTime: '7 min',
       image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop',
