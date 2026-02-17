@@ -17,28 +17,38 @@
       "source": "/blog/blog-desentupir-sem-quimicos",
       "destination": "/blog/blog-desentupir-sem-quimicos.html"
     },
-    // Pages de ville - servir les fichiers HTML statiques
     {
-      "source": "/canalizador-braganca",
-      "destination": "/canalizador-braganca.html"
+      "source": "/canalizador-macedo-cavaleiros",
+      "destination": "/canalizador-macedo-cavaleiros.html"
     },
     {
-      "source": "/canalizador-vila-real",
-      "destination": "/canalizador-vila-real.html"
+      "source": "/canalizador-vinhais",
+      "destination": "/canalizador-vinhais.html"
     },
     {
-      "source": "/canalizador-chaves",
-      "destination": "/canalizador-chaves.html"
+      "source": "/canalizador-mogadouro",
+      "destination": "/canalizador-mogadouro.html"
     },
     {
       "source": "/canalizador-mirandela",
       "destination": "/canalizador-mirandela.html"
     },
     {
-      "source": "/canalizador-macedo",
-      "destination": "/canalizador-macedo.html"
+      "source": "/canalizador-braganca",
+      "destination": "/canalizador-braganca.html"
     },
-    // Catch-all pour SPA React
+    {
+      "source": "/canalizador-torre-moncorvo",
+      "destination": "/canalizador-torre-moncorvo.html"
+    },
+    {
+      "source": "/canalizador-chaves",
+      "destination": "/canalizador-chaves.html"
+    },
+    {
+      "source": "/canalizador-vila-real",
+      "destination": "/canalizador-vila-real.html"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
@@ -63,6 +73,14 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "upgrade-insecure-requests"
         }
       ]
     },
@@ -93,9 +111,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "VITE_ANALYTICS_ENDPOINT": "",
-    "VITE_ANALYTICS_WEBSITE_ID": ""
-  }
+  ]
 }
