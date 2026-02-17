@@ -13,7 +13,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Mirandela - Norte Reparos - +351 928 484 451";
+    document.title = "Canalizador em Mirandela, Macedo, Mirandela, Bragança - Norte Reparos - +351 928 484 451";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
