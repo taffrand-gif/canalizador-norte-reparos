@@ -1,5 +1,5 @@
 // Page SEO optimisée para "Canalizador Chaves"
-// Conteúdo 100% único, conforme políticas Google
+// 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -17,7 +17,7 @@ export default function Chaves() {
   useEffect(() => {
     document.title = "Canalizador em Chaves, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
     
-    // Meta description otimizada
+    // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -25,7 +25,7 @@ export default function Chaves() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Chaves, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
-    // Meta keywords SEO
+    // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
       metaKeywords = document.createElement('meta');
@@ -35,7 +35,7 @@ export default function Chaves() {
     metaKeywords.setAttribute('content', 'canalizador urgente chaves, canalizador 24 horas chaves, canalizador chaves, canalizador profissional chaves, desentupimento chaves, fuga água chaves, reparação canalização chaves, instalação sanitários chaves, canalizador trás-os-montes');
     
     
-    // URL canónica
+    // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

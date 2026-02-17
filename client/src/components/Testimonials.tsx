@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Cards with thick borders and hard shadows
 // - Bold rating badge
 // - Clear visual hierarchy

@@ -1,5 +1,5 @@
 // Page SEO optimisée para "Canalizador Bragança"
-// Conteúdo 100% único, conforme políticas Google
+// 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -15,7 +15,7 @@ export default function Braganca() {
   useEffect(() => {
     document.title = "Canalizador em Braganca, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
     
-    // Meta description otimizada
+    // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -23,7 +23,7 @@ export default function Braganca() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.setAttribute('content', 'Canalizador profissional em Bragança, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
-    // Meta keywords SEO
+    // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
       metaKeywords = document.createElement('meta');
@@ -33,7 +33,7 @@ export default function Braganca() {
     metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador 24 horas bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, reparação canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
     
     
-    // URL canónica
+    // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');

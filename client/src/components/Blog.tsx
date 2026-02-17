@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // Blog section with SEO-optimized articles
 // - Grid layout with article cards
 // - Bold titles and clear CTAs

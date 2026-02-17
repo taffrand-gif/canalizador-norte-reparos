@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Bold typography with thick borders
 // - Sticky header with hard shadow
 // - Direct, unambiguous navigation

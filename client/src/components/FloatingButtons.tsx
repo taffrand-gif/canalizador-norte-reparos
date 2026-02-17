@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // - Fixed position buttons with hard shadows
 // - WhatsApp (green) on bottom left
 // - Chat (theme color) on bottom right

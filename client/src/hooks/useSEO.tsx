@@ -81,7 +81,7 @@ export function useSEO({
     setMetaTag('twitter:description', description);
     setMetaTag('twitter:image', finalImage);
 
-    // URL canónica
+    // Canonical URL
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');
@@ -124,7 +124,7 @@ export function generateSEOTitle(ville?: string): string {
     
     // Format: [Service] em [Ville], [autres villes] - [Entreprise] - [Phone]
     const autresVilles = villesAInclure.length > 0 ? `, ${villesAInclure.join(', ')}` : '';
-    return `${config.name} em ${ville}${autresVilles} - ${config.businessName} - ${config.phone}`;
+    return `${config.name} em ${ville}${autresVilles} - ${config.phone}`;
   }
   
   // Page d'accueil

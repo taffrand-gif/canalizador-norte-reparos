@@ -60,7 +60,7 @@ export default function SEOHead() {
     updateMetaTag('meta[name="twitter:description"]', 'content', config.description);
     updateMetaTag('meta[name="twitter:image"]', 'content', config.seo.ogImage);
 
-    // URL canónica
+    // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
     if (!canonical) {
       canonical = document.createElement('link');

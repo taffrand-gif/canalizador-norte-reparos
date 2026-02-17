@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // Portfolio section showcasing completed work
 // - Grid layout with project cards
 // - Before/after comparisons

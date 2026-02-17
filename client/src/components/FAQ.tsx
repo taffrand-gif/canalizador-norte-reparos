@@ -1,4 +1,4 @@
-// Design Philosophy: Brutalisme Numérique Fonctionnel
+// Design: Professional Service Layout
 // FAQ section with accordion for questions/answers
 // - Bold headings with thick borders
 // - Accordion with clear expand/collapse
