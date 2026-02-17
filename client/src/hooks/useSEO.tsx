@@ -128,7 +128,7 @@ export function generateSEOTitle(ville?: string): string {
   }
   
   // Page d'accueil
-  // Exemple: "Canalizador Profissional 24h em Macedo, Mirandela, Bragança - Norte Reparos - +351 928 484 451"
+  // Exemple: "Canalizador Profissional 24h em Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451"
   return `${config.name} Profissional 24h em Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
 }
 

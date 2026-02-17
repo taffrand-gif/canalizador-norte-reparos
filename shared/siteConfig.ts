@@ -95,8 +95,8 @@ export interface SiteConfig {
 export const siteConfigs: Record<SiteId, SiteConfig> = {
   'norte-reparos': {
     id: 'norte-reparos',
-    name: 'Norte Reparos',
-    title: 'Canalizador Profissional em Trás-os-Montes | Norte Reparos — Desentupimentos & Reparações 24h',
+    name: 'Canalizador Profissional',
+    title: 'Canalizador Profissional em Trás-os-Montes | Canalizador Profissional — Desentupimentos & Reparações 24h',
     description: 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região.',
     phone: '928 484 451',
     whatsapp: '351928484451',
@@ -211,9 +211,9 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Norte Reparos — Canalizador Profissional',
+      fullName: 'Canalizador Profissional — Canalizador Profissional',
       shortDescription: 'Canalizador profissional ao seu serviço em Trás-os-Montes.',
-      longDescription: 'A Norte Reparos presta serviços de canalização profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de canalizações, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+      longDescription: 'A Canalizador Profissional presta serviços de canalização profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de canalizações, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
       coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },

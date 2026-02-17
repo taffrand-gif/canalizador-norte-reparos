@@ -15,7 +15,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Chaves, Macedo, Mirandela, Bragança - Norte Reparos - +351 928 484 451";
+    document.title = "Canalizador em Chaves, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -51,7 +51,7 @@ export default function Chaves() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "@id": "https://norte-reparos.com/#organization",
-      "name": "Norte Reparos — Canalizador em Chaves",
+      "name": "Canalizador Profissional — Canalizador em Chaves",
       "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Chaves, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
       "address": {
@@ -106,7 +106,7 @@ export default function Chaves() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <nav className="mb-6 text-blue-200">
-                <a href="/" className="hover:text-white">Norte Reparos</a> &gt; 
+                <a href="/" className="hover:text-white">Canalizador Profissional</a> &gt; 
                 <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
                 <span className="ml-2">Chaves</span>
               </nav>

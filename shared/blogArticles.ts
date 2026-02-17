@@ -18,7 +18,7 @@ export const plomberieArticles: BlogArticle[] = [
     excerpt: "Descubra os sinais de alerta que indicam que deve contactar um canalizador profissional imediatamente para evitar danos maiores.",
     image: "https://cdn.manus.space/webdev-assets/plumber-emergency.jpg",
     date: "2026-01-15",
-    author: "Norte Reparos",
+    author: "Canalizador Profissional",
     readTime: "5 min",
     category: "Urgências",
     tags: ["urgência", "fugas", "reparações"],
@@ -66,7 +66,7 @@ Se a água da torneira estiver com cor amarelada, acastanhada ou com sabor metá
 
 ## Conclusão
 
-Não espere que pequenos problemas se transformem em emergências caras. Se notar qualquer um destes sinais, contacte imediatamente um canalizador profissional. A **Norte Reparos** está disponível 24 horas por dia para resolver qualquer urgência de canalização em Bragança e arredores.
+Não espere que pequenos problemas se transformem em emergências caras. Se notar qualquer um destes sinais, contacte imediatamente um canalizador profissional. A **Canalizador Profissional** está disponível 24 horas por dia para resolver qualquer urgência de canalização em Bragança e arredores.
 
 **Ligue agora: 928 484 451**
 `
@@ -77,7 +77,7 @@ Não espere que pequenos problemas se transformem em emergências caras. Se nota
     excerpt: "Guia completo com dicas práticas para evitar entupimentos e manter a sua canalização em perfeito estado.",
     image: "https://cdn.manus.space/webdev-assets/plumber-maintenance.jpg",
     date: "2026-01-10",
-    author: "Norte Reparos",
+    author: "Canalizador Profissional",
     readTime: "6 min",
     category: "Manutenção",
     tags: ["prevenção", "entupimentos", "dicas"],
@@ -167,7 +167,7 @@ Alguns entupimentos podem ser resolvidos com métodos caseiros, mas outros reque
 
 A prevenção de entupimentos é simples e económica. Com cuidados básicos e manutenção regular, pode evitar a maioria dos problemas de canalização. No entanto, se enfrentar um entupimento persistente, não hesite em contactar um profissional.
 
-A **Norte Reparos** oferece serviços de desentupimento 24 horas em Bragança e arredores. Contacte-nos para manutenção preventiva ou resolução de emergências.
+A **Canalizador Profissional** oferece serviços de desentupimento 24 horas em Bragança e arredores. Contacte-nos para manutenção preventiva ou resolução de emergências.
 
 **Ligue agora: 928 484 451**
 `
@@ -178,7 +178,7 @@ A **Norte Reparos** oferece serviços de desentupimento 24 horas em Bragança e 
     excerpt: "Guia completo de preços para reparações de canalização, desde pequenas fugas até substituição de canos.",
     image: "https://cdn.manus.space/webdev-assets/plumber-cost.jpg",
     date: "2026-01-05",
-    author: "Norte Reparos",
+    author: "Canalizador Profissional",
     readTime: "7 min",
     category: "Preços",
     tags: ["preços", "orçamento", "custos"],
@@ -294,7 +294,7 @@ Um orçamento profissional deve incluir:
 
 Os preços de reparação de canalização variam bastante dependendo do tipo de trabalho e da urgência. É sempre recomendável pedir um orçamento detalhado antes de autorizar qualquer trabalho.
 
-A **Norte Reparos** oferece orçamentos gratuitos e transparentes para todos os serviços de canalização em Bragança. Contacte-nos para uma avaliação sem compromisso.
+A **Canalizador Profissional** oferece orçamentos gratuitos e transparentes para todos os serviços de canalização em Bragança. Contacte-nos para uma avaliação sem compromisso.
 
 **Ligue agora: 928 484 451**
 `
@@ -305,7 +305,7 @@ A **Norte Reparos** oferece orçamentos gratuitos e transparentes para todos os 
     excerpt: "Tudo o que precisa saber sobre manutenção de esquentadores e caldeiras para garantir segurança e eficiência.",
     image: "https://cdn.manus.space/webdev-assets/water-heater.jpg",
     date: "2025-12-28",
-    author: "Norte Reparos",
+    author: "Canalizador Profissional",
     readTime: "8 min",
     category: "Manutenção",
     tags: ["esquentador", "caldeira", "manutenção"],
@@ -475,7 +475,7 @@ A falta de manutenção pode resultar em:
 
 A manutenção regular de esquentadores e caldeiras não é apenas uma obrigação legal, mas uma questão de segurança e economia. Não arrisque a sua segurança e a da sua família - agende hoje a manutenção do seu equipamento.
 
-A **Norte Reparos** oferece serviços de manutenção certificada de esquentadores e caldeiras em Bragança. Técnicos qualificados, preços justos e certificados válidos.
+A **Canalizador Profissional** oferece serviços de manutenção certificada de esquentadores e caldeiras em Bragança. Técnicos qualificados, preços justos e certificados válidos.
 
 **Agende a sua manutenção: 928 484 451**
 `
@@ -486,7 +486,7 @@ A **Norte Reparos** oferece serviços de manutenção certificada de esquentador
     excerpt: "Guia prático para escolher o canalizador certo e evitar problemas. Saiba o que procurar antes de contratar.",
     image: "https://cdn.manus.space/webdev-assets/plumber-professional.jpg",
     date: "2025-12-20",
-    author: "Norte Reparos",
+    author: "Canalizador Profissional",
     readTime: "6 min",
     category: "Dicas",
     tags: ["profissional", "escolha", "confiança"],
@@ -651,7 +651,7 @@ Um contrato profissional deve incluir:
 
 Escolher um canalizador profissional de confiança requer pesquisa e diligência, mas vale a pena o esforço. Um bom profissional não só resolve o problema atual, mas também pode ser um parceiro de longa data para todas as suas necessidades de canalização.
 
-A **Norte Reparos** orgulha-se de ser uma empresa certificada, transparente e com anos de experiência em Bragança. Oferecemos orçamentos gratuitos, garantia de todos os trabalhos e estamos disponíveis 24 horas para emergências.
+A **Canalizador Profissional** orgulha-se de ser uma empresa certificada, transparente e com anos de experiência em Bragança. Oferecemos orçamentos gratuitos, garantia de todos os trabalhos e estamos disponíveis 24 horas para emergências.
 
 **Contacte-nos para um orçamento sem compromisso: 928 484 451**
 `

@@ -35,11 +35,11 @@ export interface ServiceConfig {
   commonProblems: string[];
 }
 
-// Configuration Plomberie (Norte Reparos)
+// Configuration Plomberie (Canalizador Profissional)
 export const plumberieConfig: ServiceConfig = {
   type: 'plomberie',
   name: 'Canalizador',
-  businessName: 'Norte Reparos — Canalizador Profissional',
+  businessName: 'Canalizador Profissional — Canalizador Profissional',
   phone: '+351928484451',
   whatsappNumber: '351928484451',
   domain: 'norte-reparos.com',
