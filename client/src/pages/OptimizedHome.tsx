@@ -3,7 +3,7 @@
 // 1. Hero section avec CTA forts
 // 2. Services avec images générées
 // 3. FAQ optimisée pour featured snippets
-// 4. Témoignages réels
+// 4. Testemunhos reais
 // 5. Contact simple et efficace
 
 import Header from '@/components/Header';

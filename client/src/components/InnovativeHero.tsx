@@ -151,7 +151,7 @@ const InnovativeHero: React.FC = () => {
             {ACTIVE_CONFIG.heroSubtitle}
           </p>
           
-          {/* Boutons CTA avec effets aquatiques */}
+          {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-20">
             <a
               href={`tel:${ACTIVE_CONFIG.phone.replace(/\s/g, '')}`}
