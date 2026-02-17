@@ -13,6 +13,9 @@ import Braganca from "./pages/cidades/Braganca";
 import Mirandela from "./pages/cidades/Mirandela";
 import MacedoCavaleiros from "./pages/cidades/MacedoCavaleiros";
 import Valpacos from "./pages/cidades/Valpacos";
+import Vinhais from "./pages/cidades/Vinhais";
+import MirandaDouro from "./pages/cidades/MirandaDouro";
+import Mogadouro from "./pages/cidades/Mogadouro";
 import BlogIndex from "./pages/blog/BlogIndex";
 import ComoDesentupirLavaLoica from "./pages/blog/ComoDesentupirLavaLoica";
 import EvitarFugasAguaPrevencao from "./pages/blog/EvitarFugasAguaPrevencao";
@@ -29,6 +32,9 @@ function Router() {
       <Route path={"/canalizador-mirandela"} component={Mirandela} />
       <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
       <Route path={"/canalizador-valpacos"} component={Valpacos} />
+      <Route path={"/canalizador-vinhais"} component={Vinhais} />
+      <Route path={"/canalizador-miranda-douro"} component={MirandaDouro} />
+      <Route path={"/canalizador-mogadouro"} component={Mogadouro} />
       <Route path={"/blog"} component={BlogIndex} />
       <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
       <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
