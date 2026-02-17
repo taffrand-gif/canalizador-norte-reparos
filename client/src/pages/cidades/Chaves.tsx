@@ -15,7 +15,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Chaves | Desentupimento e Reparação | Norte Reparos";
+    document.title = "Canalizador em Chaves - Norte Reparos - +351 928 484 451";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');

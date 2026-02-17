@@ -13,7 +13,7 @@ export default function MacedoCavaleiros() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Macedo de Cavaleiros | Desentupimento e Reparação | Norte Reparos";
+    document.title = "Canalizador em MacedoCavaleiros - Norte Reparos - +351 928 484 451";
     
     // Meta description otimizada
     let metaDescription = document.querySelector('meta[name="description"]');
