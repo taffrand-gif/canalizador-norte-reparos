@@ -3,6 +3,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
@@ -335,6 +336,12 @@ export default function Chaves() {
             </div>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Chaves" 
+          currentCitySlug="canalizador-chaves" 
+        />
       </main>
       
       <Footer />

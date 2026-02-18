@@ -3,6 +3,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
@@ -231,6 +232,12 @@ export default function MacedoCavaleiros() {
             </div>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Macedo de Cavaleiros" 
+          currentCitySlug="canalizador-macedocavaleiros" 
+        />
       </main>
       
       <Footer />

@@ -1,6 +1,7 @@
 // SEO optimized page for "Canalizador Freixo de Espada à Cinta"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
@@ -89,6 +90,12 @@ export default function FreixoEspadaCinta() {
             <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
           </div>
         </section>
+
+        {/* Related Cities - Maillage interno SEO */}
+        <RelatedCities 
+          currentCity="Freixo de Espada à Cinta" 
+          currentCitySlug="canalizador-freixoespadacinta" 
+        />
       </main>
       <Footer />
     </div>
