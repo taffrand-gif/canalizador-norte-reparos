@@ -3,96 +3,19 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import SEOHead from '@/components/SEOHead';
+import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
-import { useEffect } from 'react';
 
 export default function MacedoCavaleiros() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Canalizador em Macedo, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
-    
-    // Optimized meta description
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Macedo de Cavaleiros, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
-    // SEO meta keywords
-    let metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (!metaKeywords) {
-      metaKeywords = document.createElement('meta');
-      metaKeywords.setAttribute('name', 'keywords');
-      document.head.appendChild(metaKeywords);
-    }
-    metaKeywords.setAttribute('content', 'canalizador urgente macedo de cavaleiros, canalizador 24 horas macedo de cavaleiros, canalizador macedo de cavaleiros, canalizador profissional macedo de cavaleiros, desentupimento macedo de cavaleiros, fuga água macedo de cavaleiros, reparação canalização macedo de cavaleiros, instalação sanitários macedo de cavaleiros, canalizador trás-os-montes');
-    
-    
-    // Canonical URL
-    let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) {
-      canonical = document.createElement('link');
-      canonical.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonical);
-    }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-macedo-de-cavaleiros');
-    
-    // Schema.org LocalBusiness para Macedo de Cavaleiros
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://norte-reparos.com/#organization",
-      "name": "Canalizador Profissional — Canalizador em Macedo de Cavaleiros",
-      "image": "/images/hero/hero-plumber-portugal.png",
-      "description": "Canalizador profissional em Macedo de Cavaleiros, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Macedo de Cavaleiros",
-        "addressRegion": "Trás-os-Montes",
-        "addressCountry": "PT",
-        "postalCode": "5340"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "41.5386",
-        "longitude": "-6.9611"
-      },
-      "telephone": config.phone,
-      "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€",
-      "areaServed": {
-        "@type": "City",
-        "name": "Macedo de Cavaleiros"
-      },
-      "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": "41.5386",
-          "longitude": "-6.9611"
-        },
-        "geoRadius": "20000"
-      },
-      "sameAs": [
-        `https://wa.me/${config.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
-      ]
-    });
-    document.head.appendChild(schemaScript);
-    
-    return () => {
-      document.head.removeChild(schemaScript);
-    };
-  }, [config]);
-
   return (
     <>
-      <SEOHead />
+      <SEOHeadEnhanced 
+        citySlug="macedo-de-cavaleiros"
+        pageType="city"
+      />
       <StructuredData />
       
       <Header />
@@ -311,6 +234,6 @@ export default function MacedoCavaleiros() {
       </main>
       
       <Footer />
-</>
+    </>
   );
 }
