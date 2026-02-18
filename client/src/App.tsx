@@ -51,6 +51,10 @@ function Router() {
       <Switch>
         <Route path={"/"} component={OptimizedHome} />
         <Route path={"/servicos"} component={Servicos} />
+        <Route path={"/desentupimentos"} component={Desentupimentos} />
+        <Route path={"/reparacao-fugas-agua"} component={ReparacaoFugasAgua} />
+        <Route path={"/instalacao-canalizacao"} component={InstalacaoCanalizacao} />
+        <Route path={"/reparacao-esquentadores"} component={ReparacaoEsquentadores} />
         <Route path={"/canalizador-chaves"} component={Chaves} />
         <Route path={"/canalizador-braganca"} component={Braganca} />
         <Route path={"/canalizador-mirandela"} component={Mirandela} />
