@@ -29,7 +29,7 @@ Problemas de canalização podem surgir a qualquer momento e, se não forem trat
 
 ## 1. Fugas de Água Visíveis
 
-Uma fuga de água é um dos problemas mais óbvios e urgentes. Se notar água a escorrer de canos, torneiras ou autoclismos, é essencial agir rapidamente. Mesmo uma pequena fuga pode desperdiçar centenas de litros de água por dia e causar danos estruturais graves.
+Uma fuga de água é um dos problemas mais óbvios e urgentes. Se notar água a escorrer de canos, torneiras ou autoclismos, é essencial agir rapidamente. Mesmo uma pequena fuga pode desperdiçar centenas de litros de água por day e causar danos estruturais graves.
 
 **O que fazer:** Feche a válvula de água principal e contacte imediatamente um canalizador profissional. Não tente reparar fugas graves sozinho, pois pode agravar o problema.
 
@@ -268,7 +268,7 @@ Contacte sempre vários profissionais e compare orçamentos. Mas lembre-se: o ma
 Se possível, agende reparações durante o horário normal. Urgências noturnas ou em feriados podem custar o dobro.
 
 ### 5. Materiais de Qualidade
-Investir em materiais de qualidade pode custar mais inicialmente, mas dura mais tempo e evita reparações frequentes.
+Investir em materiais de qualité pode custar mais inicialmente, mas dura mais tempo e evita reparações frequentes.
 
 ## Sinais de Orçamento Suspeito
 
@@ -483,7 +483,7 @@ A **Canalizador Profissional** oferece serviços de manutenção certificada de 
   {
     slug: "escolher-canalizador-profissional",
     title: "Como Escolher um Canalizador Profissional de Confiança",
-    excerpt: "Guia prático para escolher o canalizador certo e evitar problemas. Saiba o que procurar antes de contratar.",
+    excerpt: "Guida prático para escolher o canalizador certo e evitar problemas. Saiba o que procurar antes de contratar.",
     image: "https://cdn.manus.space/webdev-assets/plumber-professional.jpg",
     date: "2025-12-20",
     author: "Canalizador Profissional",
@@ -624,7 +624,7 @@ Um contrato profissional deve incluir:
 ## Direitos do Consumidor
 
 ### Tem Direito a:
-- Orçamento gratuito e sem compromisso
+- Orçamento gratuita e sem compromisso
 - Trabalho executado conforme acordado
 - Materiais de qualidade
 - Garantia do trabalho realizado
@@ -658,1290 +658,972 @@ A **Canalizador Profissional** orgulha-se de ser uma empresa certificada, transp
   }
 ];
 
-export const electriciteArticles: BlogArticle[] = [
+export const plomberieArticlesSupplementaires: BlogArticle[] = [
   {
-    slug: "sinais-problemas-eletricos-casa",
-    title: "7 Sinais de Problemas Elétricos na Sua Casa",
-    excerpt: "Identifique os sinais de alerta de problemas elétricos antes que se tornem perigosos. Guia de segurança essencial.",
-    image: "https://cdn.manus.space/webdev-assets/electrical-warning.jpg",
-    date: "2026-01-15",
-    author: "Staff Seekers",
-    readTime: "6 min",
-    category: "Segurança",
-    tags: ["segurança", "problemas", "prevenção"],
-    content: `
-# 7 Sinais de Problemas Elétricos na Sua Casa
-
-Problemas elétricos não tratados podem causar incêndios, choques elétricos e danos em equipamentos. Neste artigo, vamos explorar os sete sinais mais comuns de que a sua instalação elétrica precisa de atenção profissional.
-
-## 1. Disjuntores que Saltam Frequentemente
-
-Se os disjuntores da sua casa saltam regularmente, é um sinal claro de problema elétrico.
-
-### Causas Comuns:
-- **Sobrecarga do circuito:** Demasiados aparelhos ligados
-- **Curto-circuito:** Fios em contacto direto
-- **Fuga à terra:** Corrente a escapar para o solo
-- **Disjuntor defeituoso:** Necessita substituição
-
-### O que Fazer:
-1. Identifique qual o disjuntor que salta
-2. Desligue aparelhos desse circuito
-3. Se continuar a saltar, contacte um electricista
-4. **Nunca** substitua por um disjuntor de maior capacidade
-
-**Atenção:** Disjuntores são dispositivos de segurança. Se saltam, há um motivo que deve ser investigado.
-
-## 2. Luzes que Piscam ou Diminuem de Intensidade
-
-Luzes instáveis são mais do que um incómodo - podem indicar problemas graves.
-
-### Possíveis Causas:
-- **Ligações soltas:** Nos interruptores ou quadro elétrico
-- **Sobrecarga:** Aparelhos de alta potência no mesmo circuito
-- **Problemas na rede:** Questões com o fornecimento externo
-- **Fiação antiga:** Cobre oxidado ou alumínio
-
-### Quando Preocupar-se:
-- Luzes piscam em toda a casa (não apenas numa divisão)
-- Acontece frequentemente sem causa aparente
-- Acompanhado de cheiros ou ruídos estranhos
-- Aparelhos desligam-se sozinhos
-
-## 3. Tomadas ou Interruptores Quentes
-
-Tomadas e interruptores nunca devem estar quentes ao toque.
-
-### Sinais de Perigo:
-- **Calor excessivo:** Temperatura acima do normal
-- **Descoloração:** Marcas amarelas ou pretas
-- **Cheiro a queimado:** Plástico derretido
-- **Faíscas:** Ao ligar ou desligar
-
-### Causas:
-- Ligações soltas ou oxidadas
-- Sobrecarga do circuito
-- Fiação inadequada
-- Componentes defeituosos
-
-**Ação Imediata:** Pare de usar a tomada/interruptor e contacte um electricista urgentemente.
-
-## 4. Choques Elétricos Leves
-
-Mesmo choques "pequenos" não são normais e devem ser investigados.
-
-### Onde Ocorrem:
-- Ao tocar em aparelhos
-- Ao usar interruptores
-- Ao tocar em torneiras (se houver problema de ligação à terra)
-- Ao tocar em estruturas metálicas
-
-### Causas Possíveis:
-- Falta de ligação à terra
-- Isolamento danificado
-- Aparelhos defeituosos
-- Humidade na instalação
-
-**Importante:** Choques elétricos podem ser fatais. Não ignore este sinal.
-
-## 5. Cheiros a Queimado ou Fumo
-
-Cheiro a queimado é sempre um sinal de alarme.
-
-### O que Fazer Imediatamente:
-1. **Identifique a origem** do cheiro
-2. **Desligue o disjuntor** da área afetada
-3. **Não use água** em incêndios elétricos
-4. **Evacue** se houver fumo
-5. **Ligue 112** se houver fogo
-6. **Contacte electricista** após garantir segurança
-
-### Causas Comuns:
-- Sobrecarga de circuitos
-- Curto-circuitos
-- Aparelhos defeituosos
-- Fiação antiga deteriorada
-
-## 6. Ruídos Estranhos
-
-Instalações elétricas devem ser silenciosas.
-
-### Ruídos Preocupantes:
-- **Zumbidos:** Nos interruptores ou quadro elétrico
-- **Estalidos:** Ao ligar aparelhos
-- **Crepitações:** Nas tomadas ou paredes
-- **Assobios:** Em transformadores ou balastros
-
-### O que Significam:
-- Ligações soltas
-- Componentes a vibrar
-- Arcos elétricos
-- Equipamento a falhar
-
-**Nota:** Qualquer ruído elétrico deve ser investigado por um profissional.
-
-## 7. Instalação Elétrica Antiga
-
-Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
-
-### Sinais de Instalação Antiga:
-- Tomadas de 2 pinos (sem terra)
-- Quadro elétrico com fusíveis em vez de disjuntores
-- Fiação de alumínio
-- Poucos circuitos (sobrecarga frequente)
-- Falta de disjuntor diferencial
-
-### Riscos:
-- Não cumpre normas atuais de segurança
-- Incapaz de suportar consumos modernos
-- Maior risco de incêndio
-- Falta de proteções essenciais
-
-## Quando Chamar um Electricista
-
-### Urgente (24h):
-- Choques elétricos
-- Cheiro a queimado
-- Faíscas ou fumo
-- Falta total de eletricidade
-- Disjuntor que não liga
-
-### Importante (Dias):
-- Disjuntores que saltam frequentemente
-- Luzes que piscam
-- Tomadas quentes
-- Ruídos estranhos
-
-### Manutenção (Semanas):
-- Inspeção de instalação antiga
-- Atualização de quadro elétrico
-- Instalação de proteções adicionais
-- Certificação elétrica
-
-## Prevenção de Problemas Elétricos
-
-### Boas Práticas:
-- ✓ Não sobrecarregue tomadas
-- ✓ Use extensões com proteção
-- ✓ Substitua cabos danificados
-- ✓ Faça inspeções regulares
-- ✓ Atualize instalações antigas
-
-### Evite:
-- ❌ Reparações amadoras
-- ❌ Ignorar sinais de alerta
-- ❌ Usar aparelhos defeituosos
-- ❌ Molhar instalações elétricas
-- ❌ Sobrecarregar circuitos
-
-## Conclusão
-
-A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um electricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
-
-A **Staff Seekers** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
-
-**Ligue agora: 932 321 892**
-`
-  },
-  {
-    slug: "poupar-energia-eletrica-casa",
-    title: "10 Formas de Poupar Energia Elétrica em Casa",
-    excerpt: "Reduza a sua conta de eletricidade com estas dicas práticas e eficazes. Poupe dinheiro e ajude o ambiente.",
-    image: "https://cdn.manus.space/webdev-assets/energy-saving.jpg",
-    date: "2026-01-10",
-    author: "Staff Seekers",
-    readTime: "7 min",
-    category: "Poupança",
-    tags: ["poupança", "energia", "eficiência"],
-    content: `
-# 10 Formas de Poupar Energia Elétrica em Casa
-
-Com o aumento constante dos preços da eletricidade, poupar energia tornou-se uma prioridade para muitas famílias portuguesas. Neste guia, vamos partilhar 10 formas comprovadas de reduzir o consumo elétrico e baixar a fatura no final do mês.
-
-## 1. Substitua Lâmpadas por LED
-
-A iluminação representa cerca de 15-20% do consumo elétrico doméstico.
-
-### Vantagens das LED:
-- **Consomem 80% menos** que incandescentes
-- **Duram 25x mais tempo**
-- **Não aquecem** (mais seguras)
-- **Luz imediata** (sem tempo de aquecimento)
-- **Variedade de tons** (quente, frio, neutro)
-
-### Poupança Estimada:
-- Substituir 10 lâmpadas: **100-150€/ano**
-- Investimento recuperado em **1-2 anos**
-
-**Dica:** Comece pelas divisões mais usadas (sala, cozinha).
-
-## 2. Desligue Aparelhos em Standby
-
-Aparelhos em standby continuam a consumir energia - o chamado "consumo fantasma".
-
-### Principais Culpados:
-- Televisões e boxes
-- Computadores e monitores
-- Carregadores ligados sem uso
-- Micro-ondas e máquinas de café
-- Consolas de jogos
-
-### Como Poupar:
-- Use réguas com interruptor
-- Desligue na tomada quando não usar
-- Programe desligamento automático
-- Retire carregadores da tomada
-
-**Poupança:** Até **10% da fatura** elétrica anual.
-
-## 3. Otimize o Uso do Frigorífico
-
-O frigorífico é o aparelho que mais consome (funciona 24h/dia).
-
-### Dicas de Eficiência:
-- **Temperatura ideal:** 3-5°C (frigorífico), -18°C (congelador)
-- **Não abra desnecessariamente**
-- **Não guarde comida quente**
-- **Limpe as bobinas** traseiras 2x/ano
-- **Verifique as borrachas** da porta
-- **Descongele regularmente** (se não for frost-free)
-- **Mantenha cheio** (mas não sobrelotado)
-
-### Localização Importa:
-- Longe de fontes de calor
-- Com espaço para ventilação
-- Não exposto ao sol direto
-
-**Poupança:** Até **20% do consumo** do frigorífico.
-
-## 4. Use Máquinas de Lavar com Inteligência
-
-Máquinas de lavar roupa e loiça consomem muita energia, especialmente para aquecer água.
-
-### Máquina de Lavar Roupa:
-- **Lave a frio** (30°C ou menos) sempre que possível
-- **Carga completa:** Não lave meia carga
-- **Centrifugação adequada:** Reduz tempo de secagem
-- **Evite o modo secagem** (use varal)
-
-### Máquina de Lavar Loiça:
-- **Programa ECO:** Mais longo mas mais eficiente
-- **Carga completa:** Não ligue meia vazia
-- **Sem pré-lavagem:** Retire resíduos sólidos apenas
-- **Secagem natural:** Abra a porta no final
-
-**Poupança:** Até **50€/ano** por máquina.
-
-## 5. Climatização Eficiente
-
-Aquecimento e ar condicionado são grandes consumidores de energia.
-
-### No Inverno:
-- **Temperatura:** 19-21°C (cada grau a mais = +7% consumo)
-- **Isole janelas e portas**
-- **Use cortinas grossas** à noite
-- **Feche divisões** não usadas
-- **Manutenção anual** dos aparelhos
-
-### No Verão:
-- **Temperatura:** 24-26°C
-- **Use ventoinhas** (consomem 98% menos)
-- **Feche persianas** durante o dia
-- **Ventile à noite**
-- **Limpe filtros** mensalmente
-
-**Poupança:** Até **30% do consumo** de climatização.
-
-## 6. Aproveite a Luz Natural
-
-Maximizar a luz natural reduz a necessidade de iluminação artificial.
-
-### Como Fazer:
-- **Abra cortinas** durante o dia
-- **Use cores claras** nas paredes
-- **Espelhos estratégicos** refletem luz
-- **Mantenha janelas limpas**
-- **Pinte tectos de branco**
-
-### Benefícios Adicionais:
-- Melhora o humor
-- Vitamina D natural
-- Reduz humidade
-- Ambiente mais agradável
-
-## 7. Cozinhe de Forma Eficiente
-
-A cozinha tem muitos aparelhos que consomem energia.
-
-### Dicas Práticas:
-- **Tampas nas panelas:** Reduz tempo de cozedura em 30%
-- **Tamanho certo:** Panela adequada ao bico
-- **Forno:** Cozinhe múltiplos pratos de uma vez
-- **Micro-ondas:** Mais eficiente para pequenas porções
-- **Chaleira elétrica:** Mais eficiente que fogão para ferver água
-- **Panela de pressão:** Reduz tempo e energia
-
-**Poupança:** Até **100€/ano** em energia de cozinha.
-
-## 8. Instale Painéis Solares
-
-Investimento inicial alto, mas poupança significativa a longo prazo.
-
-### Vantagens:
-- **Redução de 50-80%** na fatura
-- **Valoriza o imóvel**
-- **Incentivos fiscais** disponíveis
-- **Retorno do investimento** em 7-10 anos
-- **Energia limpa e renovável**
-
-### Custos Médios:
-- Sistema 3kW: 4.000-6.000€
-- Sistema 5kW: 6.000-9.000€
-- Poupança anual: 500-1.200€
-
-**Nota:** Consulte um profissional para avaliação personalizada.
-
-## 9. Escolha Eletrodomésticos Eficientes
-
-Ao comprar novos aparelhos, a eficiência energética é crucial.
-
-### Etiqueta Energética:
-- **Classe A+++:** Mais eficiente (poupança de 50% vs. A)
-- **Classe A++:** Muito eficiente
-- **Classe A+:** Eficiente
-- **Classe B ou inferior:** Evite
-
-### Aparelhos Prioritários:
-1. Frigorífico (funciona 24h)
-2. Máquina de lavar roupa
-3. Máquina de lavar loiça
-4. Ar condicionado
-5. Televisão
-
-**Investimento vs. Poupança:** Um frigorífico A+++ poupa **200€** em 10 anos vs. classe A.
-
-## 10. Monitorize o Consumo
-
-O que não se mede, não se controla.
-
-### Ferramentas:
-- **Medidores de consumo:** Identificam aparelhos gastadores
-- **Apps de fornecedores:** Acompanhe consumo em tempo real
-- **Smart plugs:** Controle remoto e monitorização
-- **Sistemas domóticos:** Automação inteligente
-
-### Benefícios:
-- Identifica padrões de consumo
-- Deteta anomalias
-- Motiva mudanças de comportamento
-- Permite definir metas
-
-## Tarifário Bi-Horário
-
-Se consome mais de 3.450 kWh/ano, considere tarifário bi-horário.
-
-### Como Funciona:
-- **Horas de vazio:** Eletricidade mais barata (noite/fim de semana)
-- **Horas de ponta:** Eletricidade mais cara (dia útil)
-
-### Otimização:
-- Programe máquinas para horas de vazio
-- Carregue dispositivos à noite
-- Use aquecimento em horas baratas
-- Evite consumos em horas de ponta
-
-**Poupança:** Até **30% da fatura** se bem otimizado.
-
-## Cálculo de Poupança Total
-
-Implementando todas estas medidas:
-
-| Medida | Poupança Anual |
-|--------|----------------|
-| Lâmpadas LED | 100-150€ |
-| Desligar standby | 50-80€ |
-| Otimizar frigorífico | 40-60€ |
-| Máquinas eficientes | 100€ |
-| Climatização | 150-200€ |
-| Cozinha eficiente | 100€ |
-| Painéis solares | 500-1.200€ |
-| **TOTAL** | **1.040-1.890€** |
-
-## Conclusão
-
-Poupar energia não significa sacrificar conforto. Com pequenas mudanças de hábitos e investimentos inteligentes, pode reduzir significativamente a fatura elétrica enquanto contribui para um futuro mais sustentável.
-
-A **Staff Seekers** pode ajudá-lo a otimizar a sua instalação elétrica, instalar iluminação LED e preparar a casa para painéis solares. Contacte-nos para uma avaliação gratuita.
-
-**Ligue agora: 932 321 892**
-`
-  },
-  {
-    slug: "certificacao-eletrica-portugal",
-    title: "Certificação Elétrica em Portugal: Guia Completo",
-    excerpt: "Tudo o que precisa saber sobre certificação elétrica: quando é obrigatória, como obter e quanto custa.",
-    image: "https://cdn.manus.space/webdev-assets/electrical-certificate.jpg",
-    date: "2026-01-05",
-    author: "Staff Seekers",
+    slug: "como-instalar-esquentador-seguro",
+    title: "Como Instalar um Esquentador de Forma Segura e Legal",
+    excerpt: "Guia passo a passo para instalação correta de esquentador a gás, incluindo requisitos legais e dicas de segurança.",
+    image: "https://cdn.manus.space/webdev-assets/water-heater-installation.jpg",
+    date: "2026-02-10",
+    author: "Canalizador Profissional",
     readTime: "8 min",
-    category: "Certificação",
-    tags: ["certificação", "legislação", "obrigações"],
+    category: "Instalações",
+    tags: ["esquentador", "instalação", "segurança", "gás"],
     content: `
-# Certificação Elétrica em Portugal: Guia Completo
+# Como Instalar um Esquentador de Forma Segura e Legal
 
-A certificação elétrica é um documento obrigatório em muitas situações em Portugal. Neste guia completo, vamos explicar tudo o que precisa saber sobre este processo essencial.
+A instalação de um esquentador a gás requer cuidados especiais devido aos riscos de segurança. Neste guia, explicamos todo o processo, desde a escolha do local até à certificação final.
 
-## O que é a Certificação Elétrica?
+## Requisitos Legais em Portugal
 
-A certificação elétrica (também chamada de Termo de Responsabilidade pela Execução de Instalação Elétrica - TREIE) é um documento que atesta que uma instalação elétrica cumpre todas as normas de segurança e regulamentos técnicos em vigor.
+### Certificação Obrigatória:
+- Instalação apenas por técnico certificado
+- Emissão de certificado de conformidade
+- Comunicação à Câmara Municipal em 30 dias
+- Inspeção periódica obrigatória
 
-### Informação Incluída:
-- Identificação do instalador certificado
-- Características da instalação
-- Potência instalada
-- Tipo de instalação
-- Conformidade com normas
-- Data de execução
-- Validade do certificado
+### Documentação Necessária:
+- Certificado do instalador
+- Manual do equipamento
+- Certificado de garantia
+- Fatura com NIF
 
-## Quando é Obrigatória?
+## Escolha do Local
 
-### Instalações Novas:
-- ✓ Construção de edifício novo
-- ✓ Ampliação significativa
-- ✓ Alteração da potência contratada
-- ✓ Mudança de tipo de instalação
+### Locais Permitidos:
+- Cozinha com ventilação adequada
+- Casa de banho (apenas modelos estanques)
+- Varanda ou logradouro coberto
+- Arrumos ventilados
 
-### Instalações Existentes:
-- ✓ Venda de imóvel
-- ✓ Arrendamento (em alguns casos)
-- ✓ Pedido de nova ligação
-- ✓ Alteração de potência
-- ✓ Inspeção periódica (edifícios antigos)
+### Locais Proibidos:
+- Quartos de dormir
+- Salas de estar
+- Espaços sem ventilação
+- Porões sem janelas
 
-### Situações Especiais:
-- ✓ Instalações temporárias (eventos, obras)
-- ✓ Instalações industriais
-- ✓ Locais de risco (postos de combustível, etc.)
-- ✓ Instalações de produção (painéis solares)
+### Distâncias Mínimas:
+- 30 cm de materiais combustíveis
+- 15 cm de tomadas elétricas
+- 50 cm de janelas ou portas
+- 100 cm de exaustores
 
-## Quem Pode Emitir?
+## Preparação da Instalação
 
-Apenas **técnicos certificados** pela DGEG (Direção-Geral de Energia e Geologia) podem emitir certificações elétricas.
+### Ventilação:
+- Entrada de ar: mínimo 100 cm²
+- Saída de gases: chaminé adequada
+- Renovação de ar constante
+- Detetor de monóxido de carbono obrigatório
 
-### Categorias de Certificação:
-- **Categoria 1:** Instalações até 50 kVA
-- **Categoria 2:** Instalações até 250 kVA
-- **Categoria 3:** Todas as instalações
+### Tubagem de Gás:
+- Diâmetro adequado à potência
+- Material certificado (cobre ou aço)
+- Sem fugas (teste obrigatório)
+- Válvula de corte acessível
 
-**Importante:** Verifique sempre se o técnico tem certificação válida.
+### Água:
+- Pressão mínima: 1,5 bar
+- Pressão máxima: 6 bar
+- Filtro de água recomendado
+- Válvula de segurança obrigatória
 
-## Processo de Certificação
+## Passo a Passo da Instalação
 
-### Passo 1: Contratação
-- Contacte um electricista certificado
-- Explique o tipo de trabalho necessário
-- Peça orçamento incluindo certificação
+### 1. Desmontagem do Antigo
+- Cortar gás e água
+- Desconectar tubagens
+- Retirar esquentador antigo
+- Limpar área de trabalho
 
-### Passo 2: Execução
-- O electricista executa o trabalho
-- Deve seguir todas as normas técnicas
-- Usa materiais certificados
+### 2. Preparação da Parede
+- Marcar furos de fixação
+- Verificar estrutura
+- Instalar suportes
+- Nivelar corretamente
 
-### Passo 3: Inspeção
-- O técnico inspeciona a instalação
-- Verifica conformidade com normas
-- Testa todos os circuitos e proteções
+### 3. Conexões de Gás
+- Instalar válvula de corte
+- Conectar tubagem com pasta de rosca
+- Testar estanquidade com espuma
+- Verificar todos os aperto
 
-### Passo 4: Emissão
-- Emite o certificado eletrónico
-- Regista na plataforma DGEG
-- Entrega cópia ao cliente
+### 4. Conexões de Água
+- Instalar válvulas de corte
+- Conectar entrada fria e saída quente
+- Instalar válvula de segurança
+- Ligar ao esgoto (se necessário)
 
-### Passo 5: Comunicação
-- Certificado é comunicado à distribuidora
-- Distribuidora valida o documento
-- Processo fica concluído
+### 5. Exaustão de Gases
+- Instalar chaminé adequada
+- Verificar inclinação (mínimo 3%)
+- Selar todas as juntas
+- Testar fluxo de gases
 
-## Validade do Certificado
+### 6. Ligação Elétrica
+- Tomada próxima (máximo 1,5m)
+- Ligação à terra obrigatória
+- Proteção diferencial 30mA
+- Fios de secção adequada
 
-### Instalações Domésticas:
-- **Sem prazo de validade** (se não houver alterações)
-- Recomenda-se inspeção a cada **10 anos**
+### 7. Testes Finais
+- Teste de estanquidade do gás
+- Teste de pressão da água
+- Teste de funcionamento
+- Verificação de emissões
 
-### Instalações Comerciais/Industriais:
-- Inspeção periódica **obrigatória**
-- Frequência depende do tipo de instalação
-- Geralmente a cada **2-6 anos**
+## Erros Comuns a Evitar
 
-### Instalações Temporárias:
-- Válido apenas para o **período especificado**
-- Máximo de **1 ano**
+### 1. Ventilação Insuficiente
+Causa acumulação de monóxido de carbono - risco de morte.
 
-## Quanto Custa?
+### 2. Chaminé Incorreta
+Gases voltam para dentro - intoxicação.
 
-### Fatores que Influenciam o Preço:
-- Tipo de instalação
-- Potência instalada
-- Complexidade do trabalho
-- Localização
-- Urgência
+### 3. Pressão Excessiva
+Danifica o esquentador - risco de explosão.
 
-### Preços Médios:
+### 4. Instalação Amadora
+Invalida seguros - responsabilidade civil.
 
-| Tipo de Instalação | Preço Médio |
-|--------------------|-------------|
-| Apartamento T1/T2 | 150-250€ |
-| Apartamento T3/T4 | 200-350€ |
-| Moradia | 300-600€ |
-| Comércio pequeno | 250-500€ |
-| Indústria | 500-2.000€+ |
+## Manutenção Pós-Instalação
 
-**Nota:** Estes valores incluem inspeção e emissão do certificado, mas não incluem eventuais trabalhos de correção necessários.
+### Imediatamente:
+- Guardar certificado
+- Explicar funcionamento ao cliente
+- Marcar primeira manutenção
 
-## Normas Técnicas Aplicáveis
+### Anualmente:
+- Limpeza do queimador
+- Verificação de gases
+- Teste de segurança
+- Substituição de peças gastas
 
-### Principais Regulamentos:
-- **RTIEBT:** Regras Técnicas das Instalações Elétricas de Baixa Tensão
-- **RSIUEE:** Regras de Segurança de Instalações de Utilização de Energia Elétrica
-- **Normas IEC:** Normas internacionais
-- **Normas EN:** Normas europeias
+## Custos da Instalação Profissional
 
-### Requisitos Essenciais:
-- Proteção contra choques elétricos
-- Proteção contra sobrecargas
-- Proteção contra curto-circuitos
-- Ligação à terra adequada
-- Seccionamento e comando
-- Identificação de circuitos
+### Preços Médios em Bragança:
+- Instalação simples: 150€ - 250€
+- Instalação complexa: 250€ - 400€
+- Certificação: incluída
+- Materiais extra: orçamento à parte
 
-## Inspeção Periódica
-
-Algumas instalações requerem inspeções regulares:
-
-### Obrigatoriedade:
-- **Instalações antigas** (>30 anos)
-- **Locais públicos**
-- **Instalações industriais**
-- **Locais de risco**
-
-### Frequência:
-- **Habitações:** Recomendado a cada 10 anos
-- **Comércio/Serviços:** 6 anos
-- **Indústria:** 2-4 anos
-- **Locais de risco:** 1-2 anos
-
-## Consequências da Falta de Certificação
-
-### Riscos Legais:
-- Multas até **3.740€**
-- Impossibilidade de vender o imóvel
-- Problemas com seguros
-- Responsabilidade em caso de acidente
-
-### Riscos de Segurança:
-- Incêndios
-- Choques elétricos
-- Danos em equipamentos
-- Falta de proteções adequadas
-
-## Como Verificar um Certificado
-
-### Autenticidade:
-1. Aceda ao site da DGEG
-2. Consulte a base de dados de certificados
-3. Introduza o número do certificado
-4. Verifique os dados
-
-### Validade do Técnico:
-1. Peça o número de certificação
-2. Consulte a lista de técnicos certificados
-3. Verifique a categoria e validade
-
-## Certificação vs. Inspeção
-
-### Certificação:
-- Emitida pelo **instalador**
-- Após execução de trabalho
-- Atesta conformidade inicial
-
-### Inspeção:
-- Feita por **entidade independente**
-- Periódica ou pontual
-- Verifica estado atual
-
-**Importante:** Em alguns casos, pode ser necessária inspeção por entidade acreditada.
-
-## Painéis Solares e Certificação
-
-### Requisitos Especiais:
-- Certificação da instalação de produção
-- Registo na DGEG
-- Contrato com a distribuidora
-- Certificado de exploração
-
-### Processo:
-1. Instalação por técnico certificado
-2. Emissão de certificado
-3. Registo na DGEG
-4. Inspeção (se necessário)
-5. Licença de exploração
-
-## Dicas para Facilitar o Processo
-
-### Antes da Certificação:
-- ✓ Escolha técnico certificado
-- ✓ Peça orçamento detalhado
-- ✓ Prepare documentação necessária
-- ✓ Garanta acesso a todas as áreas
-
-### Durante a Inspeção:
-- ✓ Esteja disponível para questões
-- ✓ Forneça plantas (se existirem)
-- ✓ Identifique problemas conhecidos
-- ✓ Tire dúvidas com o técnico
-
-### Após a Certificação:
-- ✓ Guarde o certificado em segurança
-- ✓ Faça cópias digitais
-- ✓ Registe a data de validade
-- ✓ Planeie próxima inspeção
-
-## Perguntas Frequentes
-
-### Posso vender casa sem certificação?
-Não. É obrigatória para escritura de venda.
-
-### Quanto tempo demora?
-Geralmente 1-3 dias após inspeção.
-
-### E se a instalação não passar?
-Devem ser feitas correções antes da certificação.
-
-### Posso fazer eu próprio a instalação?
-Não. Apenas técnicos certificados podem emitir certificados.
-
-### O certificado é transferível?
-Sim, fica associado ao imóvel.
+### O que Inclui:
+- Mão de obra certificada
+- Testes de segurança
+- Certificado de conformidade
+- Garantia do trabalho
 
 ## Conclusão
 
-A certificação elétrica é um documento essencial que garante a segurança da sua instalação elétrica. Não deixe para a última hora - se precisa de certificação, contacte um profissionais qualificados o quanto antes.
+A instalação de esquentador não é trabalho para amadores. A segurança da sua família depende de uma instalação correta e certificada. Não arrisque - contrate sempre profissionais qualificados.
 
-A **Staff Seekers** tem técnicos certificados pela DGEG prontos para inspecionar e certificar a sua instalação elétrica em Bragança e arredores. Processo rápido, preços transparentes e certificado válido.
+A **Canalizador Profissional** realiza instalações certificadas de esquentadores em toda a região de Bragança. Técnicos certificados, preços transparentes e garantia total.
 
-**Agende a sua certificação: 932 321 892**
+**Solicite orçamento: 928 484 451**
 `
   },
   {
-    slug: "instalar-paineis-solares-casa",
-    title: "Guia Completo para Instalar Painéis Solares em Casa",
-    excerpt: "Tudo o que precisa saber antes de instalar painéis solares: custos, poupança, processo e incentivos disponíveis.",
-    image: "https://cdn.manus.space/webdev-assets/solar-panels.jpg",
-    date: "2025-12-28",
-    author: "Staff Seekers",
-    readTime: "10 min",
-    category: "Energia Solar",
-    tags: ["painéis solares", "poupança", "sustentabilidade"],
+    slug: "sistemas-aquecimento-central-transmontano",
+    title: "Sistemas de Aquecimento Central para Casas em Trás-os-Montes",
+    excerpt: "Guia completo sobre aquecimento central adaptado ao clima rigoroso de Trás-os-Montes. Comparação de soluções e custos.",
+    image: "https://cdn.manus.space/webdev-assets/heating-system.jpg",
+    date: "2026-02-05",
+    author: "Canalizador Profissional",
+    readTime: "9 min",
+    category: "Aquecimento",
+    tags: ["aquecimento central", "caldeira", "radiadores", "transmontano"],
     content: `
-# Guia Completo para Instalar Painéis Solares em Casa
+# Sistemas de Aquecimento Central para Casas em Trás-os-Montes
 
-Os painéis solares tornaram-se uma opção cada vez mais popular em Portugal. Neste guia completo, vamos explorar tudo o que precisa saber antes de investir em energia solar para a sua casa.
+O clima rigoroso de Trás-os-Montes exige sistemas de aquecimento eficientes e adaptados às condições locais. Neste guia, comparamos as diferentes soluções disponíveis para aquecer a sua casa durante os longos invernos transmontanos.
 
-## Porquê Instalar Painéis Solares?
+## Características do Clima Transmontano
 
-### Vantagens Económicas:
-- **Redução de 50-80%** na fatura elétrica
-- **Retorno do investimento** em 7-10 anos
-- **Valorização do imóvel** (10-15%)
-- **Proteção contra** aumentos de preços
-- **Possibilidade de vender** excedente à rede
+### Condições Extremas:
+- Temperaturas até -10°C no inverno
+- Geadas frequentes de outubro a abril
+- Ventos fortes do norte
+- Humidade elevada em zonas ribeirinhas
 
-### Vantagens Ambientais:
-- **Energia 100% limpa** e renovável
-- **Redução de emissões** de CO2
-- **Independência energética**
-- **Contribuição** para objetivos climáticos
+### Implicações para Aquecimento:
+- Necessidade de potência elevada
+- Isolamento térmico crítico
+- Resistência a congelação
+- Consumo energético significativo
 
-### Vantagens Práticas:
-- **Baixa manutenção**
-- **Durabilidade** (25-30 anos)
-- **Tecnologia madura** e fiável
-- **Incentivos fiscais** disponíveis
+## Tipos de Sistemas de Aquecimento
 
-## Tipos de Sistemas Solares
+### 1. Caldeira a Gás com Radiadores
 
-### 1. Sistema On-Grid (Ligado à Rede)
-
-**Como Funciona:**
-- Painéis produzem eletricidade
-- Excedente vai para a rede
-- Recebe créditos ou pagamento
-- Usa rede quando não há produção
+**Funcionamento:**
+Caldeira aquece água que circula por radiadores em todas as divisões.
 
 **Vantagens:**
-- Custo inicial menor
-- Não precisa de baterias
-- Pode vender excedente
-- Sempre tem eletricidade
+- Calor uniforme em toda a casa
+- Água quente sanitária incluída
+- Controlo individual por divisão
+- Vida útil longa (15-20 anos)
 
 **Desvantagens:**
-- Dependente da rede
-- Não funciona em cortes de energia
-- Burocracia para ligação
+- Investimento inicial elevado
+- Necessita de chaminé
+- Manutenção anual obrigatória
 
-### 2. Sistema Off-Grid (Isolado)
+**Custo Instalação:** 4.000€ - 8.000€ (casa 100m²)
 
-**Como Funciona:**
-- Completamente independente
-- Usa baterias para armazenamento
-- Não ligado à rede pública
+### 2. Bomba de Calor Ar-Água
+
+**Funcionamento:**
+Extrai calor do ar exterior para aquecer água dos radiadores ou soalho radiante.
 
 **Vantagens:**
-- Total independência
-- Ideal para locais remotos
-- Sem faturas de eletricidade
+- Eficiência muito alta (COP 3-4)
+- Funciona também como ar condicionado
+- Baixos custos de operação
 
 **Desvantagens:**
-- Custo muito mais alto
-- Precisa de baterias caras
-- Dimensionamento crítico
-- Manutenção mais complexa
+- Eficiência reduzida abaixo de 0°C
+- Investimento muito elevado
+- Necessita de unidades exteriores
 
-### 3. Sistema Híbrido
+**Custo Instalação:** 8.000€ - 15.000€ (casa 100m²)
 
-**Como Funciona:**
-- Ligado à rede
-- Tem baterias de backup
-- Melhor dos dois mundos
+### 3. Soalho Radiante
+
+**Funcionamento:**
+Tubos de água quente embutidos no pavimento.
 
 **Vantagens:**
-- Funciona em cortes de energia
-- Otimiza autoconsumo
-- Flexibilidade máxima
+- Conforto térmico excelente
+- Distribuição uniforme de calor
+- Invisível (sem radiadores)
+- Baixa temperatura de funcionamento
 
 **Desvantagens:**
-- Custo mais elevado
-- Mais complexo
-- Manutenção de baterias
+- Instalação complexa e cara
+- Lentidão no aquecimento
+- Dificuldade em reparações
+
+**Custo Instalação:** 6.000€ - 12.000€ (casa 100m²)
+
+### 4. Aquecedores Elétricos
+
+**Funcionamento:**
+Aquecedores individuais em cada divisão.
+
+**Vantagens:**
+- Instalação simples e barata
+- Controlo independente
+- Sem manutenção
+
+**Desvantagens:**
+- Custos de eletricidade elevados
+- Calor localizado
+- Secagem do ar
+
+**Custo Instalação:** 500€ - 2.000€ (casa 100m²)
+
+## Comparação de Custos Anuais (Casa 100m²)
+
+| Sistema | Custo Instalação | Custo Anual | Retorno Investimento |
+|---------|------------------|-------------|---------------------|
+| Caldeira Gás | 6.000€ | 800-1.200€ | 5-7 anos |
+| Bomba Calor | 12.000€ | 400-700€ | 10-15 anos |
+| Soalho Radiante | 9.000€ | 600-900€ | 8-12 anos |
+| Elétrico | 1.500€ | 1.500-2.500€ | N/A |
+
+## Fatores de Escolha
+
+### 1. Tipo de Habitação
+- **Casa antiga:** Caldeira a gás (potência)
+- **Casa nova:** Bomba de calor (eficiência)
+- **Reabilitação:** Soalho radiante (conforto)
+- **Segunda habitação:** Elétrico (simplicidade)
+
+### 2. Combustível Disponível
+- **Gás natural:** Caldeira a gás
+- **Propano/Butano:** Caldeira a gás
+- **Eletricidade:** Bomba de calor ou elétrico
+- **Biomassa:** Caldeira a pellets
+
+### 3. Isolamento Térmico
+- **Bom isolamento:** Sistemas de baixa temperatura
+- **Mau isolamento:** Sistemas de alta potência
 
 ## Dimensionamento do Sistema
 
-### Fatores a Considerar:
+### Cálculo Básico de Potência:
 
-1. **Consumo Anual:**
-   - Analise faturas dos últimos 12 meses
-   - Identifique padrões de consumo
-   - Preveja consumos futuros
+**Fórmula:** Potência (kW) = Volume (m³) × Coeficiente × Diferença de temperatura
 
-2. **Área Disponível:**
-   - Telhado: tipo, inclinação, orientação
-   - Espaço no solo (se aplicável)
-   - Sombreamentos
+**Exemplo para Bragança:**
+- Casa 100m² × 2,5m altura = 250m³
+- Coeficiente: 0,04 (casa bem isolada)
+- Diferença: 20°C (interior) - (-5°C exterior) = 25°C
+- **Potência necessária:** 250 × 0,04 × 25 = 25 kW
 
-3. **Orçamento:**
-   - Investimento inicial disponível
-   - Retorno esperado
-   - Financiamento necessário
+### Margens de Segurança:
+- +20% para casas antigas
+- +30% para zonas muito frias
+- +15% para aquecimento rápido
 
-### Cálculo Básico:
+## Instalação em Trás-os-Montes
 
-**Exemplo:**
-- Consumo anual: 4.000 kWh
-- Produção média em Portugal: 1.400 kWh/kWp/ano
-- Sistema necessário: 4.000 ÷ 1.400 = **2,9 kWp** (arredondar para 3 kWp)
+### Considerações Especiais:
 
-### Tamanhos Típicos:
+**Proteção contra Congelação:**
+- Anticongelante no circuito
+- Isolamento de tubagens exteriores
+- Drenagem automática
+- Termostatos de segurança
 
-| Consumo Anual | Sistema Recomendado | Nº Painéis (450W) |
-|---------------|---------------------|-------------------|
-| 2.000 kWh | 1,5 kWp | 3-4 |
-| 3.000 kWh | 2,5 kWp | 5-6 |
-| 4.000 kWh | 3 kWp | 6-7 |
-| 5.000 kWh | 4 kWp | 8-9 |
-| 6.000 kWh | 5 kWp | 10-12 |
+**Ventilação:**
+- Renovação de ar adequada
+- Exaustão de gases
+- Entradas de ar não obstruídas
 
-## Custos e Investimento
-
-### Preços Médios (2026):
-
-| Sistema | Custo Total | Custo/kWp |
-|---------|-------------|-----------|
-| 3 kWp | 4.500-6.000€ | 1.500-2.000€ |
-| 5 kWp | 6.500-9.000€ | 1.300-1.800€ |
-| 7 kWp | 8.500-11.500€ | 1.200-1.650€ |
-| 10 kWp | 11.000-15.000€ | 1.100-1.500€ |
-
-**Nota:** Preços incluem painéis, inversor, estrutura, instalação e certificação.
-
-### Custos Adicionais:
-
-- **Baterias:** 3.000-8.000€ (se aplicável)
-- **Monitorização:** 200-500€
-- **Manutenção anual:** 100-200€
-- **Seguro:** 50-150€/ano
-
-### Poupança Estimada:
-
-| Sistema | Produção Anual | Poupança Anual* |
-|---------|----------------|-----------------|
-| 3 kWp | 4.200 kWh | 600-900€ |
-| 5 kWp | 7.000 kWh | 1.000-1.500€ |
-| 7 kWp | 9.800 kWh | 1.400-2.100€ |
-| 10 kWp | 14.000 kWh | 2.000-3.000€ |
-
-*Assumindo 70% de autoconsumo e tarifa média de 0,20€/kWh
-
-## Processo de Instalação
-
-### Fase 1: Planeamento (1-2 semanas)
-
-1. **Avaliação inicial:**
-   - Análise de consumos
-   - Inspeção do local
-   - Verificação de viabilidade
-
-2. **Projeto:**
-   - Dimensionamento do sistema
-   - Escolha de equipamentos
-   - Orçamento detalhado
-
-3. **Aprovações:**
-   - Licenças municipais (se necessário)
-   - Aprovação da condomínio (se aplicável)
-
-### Fase 2: Preparação (1-2 semanas)
-
-4. **Encomenda de equipamentos:**
-   - Painéis solares
-   - Inversor
-   - Estruturas de montagem
-   - Cabos e proteções
-
-5. **Registo na DGEG:**
-   - Unidade de Produção para Autoconsumo (UPAC)
-   - Documentação necessária
-
-### Fase 3: Instalação (2-5 dias)
-
-6. **Montagem:**
-   - Estruturas no telhado
-   - Painéis solares
-   - Inversor
-   - Cablagem
-
-7. **Ligações elétricas:**
-   - Quadro elétrico
-   - Proteções
-   - Contador (se aplicável)
-
-### Fase 4: Ativação (1-4 semanas)
-
-8. **Inspeção:**
-   - Certificação elétrica
-   - Teste de funcionamento
-
-9. **Ligação à rede:**
-   - Pedido à distribuidora
-   - Instalação de contador bidirecional
-   - Ativação do sistema
-
-### Fase 5: Monitorização
-
-10. **Acompanhamento:**
-    - App de monitorização
-    - Verificação de produção
-    - Otimização de consumos
+**Manutenção:**
+- Mais frequente devido ao uso intensivo
+- Verificação antes do inverno
+- Limpeza após temporada
 
 ## Incentivos e Apoios
 
 ### Vale Eficiência 2026:
-- **Apoio:** Até 2.500€
-- **Requisitos:** Rendimentos baixos/médios
-- **Candidatura:** Online
+- Até 2.500€ para substituição de sistemas antigos
+- Requisitos: rendimento baixo/médio
+- Aplicação online
 
 ### IVA Reduzido:
-- **Taxa:** 6% (em vez de 23%)
-- **Aplicável a:** Instalação completa
-- **Poupança:** ~700€ num sistema de 5 kWp
-
-### Dedução em IRS:
-- **Valor:** 15% do investimento
-- **Limite:** 1.000€/ano
-- **Requisitos:** Certificação energética
+- 6% para instalação de sistemas eficientes
+- Aplicável a bombas de calor, solar térmico
 
 ### Financiamento:
-- **Linhas verdes** dos bancos
-- **TAEG:** 3-6%
-- **Prazo:** Até 10 anos
-
-## Manutenção e Cuidados
-
-### Manutenção Regular:
-
-**Anual:**
-- ✓ Limpeza dos painéis
-- ✓ Inspeção visual
-- ✓ Verificação de ligações
-- ✓ Teste de produção
-
-**Bianual:**
-- ✓ Inspeção técnica completa
-- ✓ Verificação do inversor
-- ✓ Teste de proteções
-
-### Limpeza:
-- **Frequência:** 1-2x/ano
-- **Método:** Água e escova macia
-- **Evite:** Produtos químicos agressivos
-- **Melhor altura:** Manhã cedo ou fim de tarde
-
-### Monitorização:
-- Verifique produção diariamente
-- Compare com estimativas
-- Identifique anomalias rapidamente
-- Use app do fabricante
-
-## Erros Comuns a Evitar
-
-### 1. Subdimensionamento
-Não instale sistema muito pequeno para "poupar". Vai arrepender-se.
-
-### 2. Escolha Apenas pelo Preço
-Qualidade importa. Painéis baratos podem não durar.
-
-### 3. Instalador Não Certificado
-Apenas técnicos certificados podem emitir documentação necessária.
-
-### 4. Ignorar Sombreamentos
-Sombras reduzem drasticamente a produção.
-
-### 5. Não Otimizar Consumos
-Instalar painéis não basta - ajuste hábitos de consumo.
-
-## Perguntas Frequentes
-
-### Quanto tempo duram os painéis?
-25-30 anos com garantia de produção de 80% aos 25 anos.
-
-### Funcionam em dias nublados?
-Sim, mas com produção reduzida (10-25% da capacidade).
-
-### Preciso de baterias?
-Não é obrigatório em sistemas on-grid, mas aumenta autoconsumo.
-
-### Posso instalar eu próprio?
-Não recomendado. Precisa de certificação elétrica.
-
-### E se mudar de casa?
-Painéis valorizam o imóvel. Pode vender com eles ou removê-los.
-
-## Conclusão
-
-Instalar painéis solares é um investimento inteligente que se paga a si próprio em poucos anos, enquanto contribui para um futuro mais sustentável. Com os incentivos disponíveis em Portugal, nunca houve melhor altura para fazer a transição para energia solar.
-
-A **Staff Seekers** é especialista em instalação de painéis solares em Bragança. Fazemos todo o processo desde o projeto até à ativação, incluindo certificação e registo na DGEG. Contacte-nos para uma avaliação gratuita.
-
-**Ligue agora: 932 321 892**
-`
-  },
-  {
-    slug: "seguranca-eletrica-criancas",
-    title: "Segurança Elétrica em Casas com Crianças",
-    excerpt: "Guia essencial para proteger as crianças de acidentes elétricos. Dicas práticas e produtos de segurança.",
-    image: "https://cdn.manus.space/webdev-assets/child-safety.jpg",
-    date: "2025-12-20",
-    author: "Staff Seekers",
-    readTime: "7 min",
-    category: "Segurança",
-    tags: ["segurança", "crianças", "prevenção"],
-    content: `
-# Segurança Elétrica em Casas com Crianças
-
-As crianças são naturalmente curiosas e não têm noção dos perigos da eletricidade. Neste guia, vamos explorar como tornar a sua casa eletricamente segura para os mais pequenos.
-
-## Perigos Elétricos para Crianças
-
-### Principais Riscos:
-
-1. **Tomadas expostas**
-   - Crianças inserem objetos metálicos
-   - Risco de choque elétrico grave
-   - Pode causar queimaduras
-
-2. **Cabos elétricos**
-   - Tentação para puxar
-   - Risco de morder (bebés)
-   - Aparelhos podem cair
-
-3. **Aparelhos elétricos**
-   - Acesso a equipamentos perigosos
-   - Uso inadequado
-   - Água + eletricidade
-
-4. **Extensões e réguas**
-   - Sobrecarga
-   - Tropeções
-   - Acesso fácil
-
-## Medidas de Proteção Essenciais
-
-### 1. Proteção de Tomadas
-
-**Tampas de Segurança:**
-- ✓ Instale em TODAS as tomadas acessíveis
-- ✓ Escolha modelos certificados
-- ✓ Difíceis de remover para crianças
-- ✓ Fáceis para adultos
-
-**Tomadas com Proteção Integrada:**
-- Obturadores automáticos
-- Abrem apenas com ficha correta
-- Mais seguras que tampas
-- Recomendadas em renovações
-
-**Custo:** 0,50-2€/tomada (tampas) ou 5-15€/tomada (com proteção integrada)
-
-### 2. Gestão de Cabos
-
-**Organização:**
-- Passe cabos por trás de móveis
-- Use calhas ou tubos
-- Fixe com abraçadeiras
-- Mantenha fora de alcance
-
-**Proteção de Cabos:**
-- Capas protetoras para cabos
-- Esconda cabos em rodapés
-- Use passa-cabos
-- Evite cabos soltos no chão
-
-### 3. Aparelhos Elétricos
-
-**Cozinha:**
-- Desligue aparelhos após uso
-- Guarde em armários altos
-- Use bloqueios em fornos
-- Afaste cabos da borda
-
-**Casa de Banho:**
-- Secador guardado e desligado
-- Máquina de barbear inacessível
-- Tomadas longe da banheira
-- Disjuntor diferencial obrigatório
-
-**Sala/Quartos:**
-- Televisão bem fixada
-- Cabos organizados
-- Extensões fora de alcance
-- Carregadores desligados
-
-### 4. Quadro Elétrico
-
-**Proteção:**
-- Porta com fecho
-- Localização alta
-- Sinalização clara
-- Acesso restrito
-
-**Educação:**
-- Explique o perigo
-- Mostre onde NÃO tocar
-- Ensine a pedir ajuda
-
-## Produtos de Segurança Recomendados
-
-### Essenciais:
-
-| Produto | Função | Preço Médio |
-|---------|--------|-------------|
-| Tampas de tomada | Bloquear acesso | 0,50-2€/un |
-| Tomadas seguras | Proteção integrada | 5-15€/un |
-| Organizadores de cabos | Esconder cabos | 5-20€ |
-| Bloqueios de armário | Proteger aparelhos | 3-10€ |
-| Disjuntor diferencial | Proteção geral | 30-80€ |
-
-### Opcionais:
-
-| Produto | Função | Preço Médio |
-|---------|--------|-------------|
-| Detetores de fumo | Alerta incêndio | 10-30€ |
-| Extintores | Combate incêndio | 20-50€ |
-| Alarme de monóxido | Deteção CO | 20-60€ |
-| Smart plugs | Controlo remoto | 10-30€/un |
-
-## Divisão por Divisão
-
-### Cozinha
-
-**Riscos:**
-- Aparelhos de alta potência
-- Água + eletricidade
-- Superfícies quentes
-
-**Proteções:**
-- ✓ Bloqueio do forno
-- ✓ Proteção de fogão
-- ✓ Tomadas altas
-- ✓ Aparelhos guardados
-- ✓ Cabos curtos
-
-### Casa de Banho
-
-**Riscos:**
-- Humidade constante
-- Aparelhos elétricos
-- Água em abundância
-
-**Proteções:**
-- ✓ Disjuntor diferencial 30mA
-- ✓ Tomadas IP44 (resistentes à água)
-- ✓ Aparelhos desligados
-- ✓ Secador guardado
-- ✓ Distância da banheira
-
-### Quartos
-
-**Riscos:**
-- Candeeiros
-- Carregadores
-- Extensões
-
-**Proteções:**
-- ✓ Candeeiros estáveis
-- ✓ Cabos organizados
-- ✓ Tomadas protegidas
-- ✓ Sem extensões acessíveis
-- ✓ Luz noturna segura
-
-### Sala
-
-**Riscos:**
-- Televisão
-- Equipamentos audiovisuais
-- Muitos cabos
-
-**Proteções:**
-- ✓ TV fixada à parede
-- ✓ Cabos organizados
-- ✓ Móveis estáveis
-- ✓ Tomadas protegidas
-- ✓ Extensões escondidas
-
-## Educação e Supervisão
-
-### Ensine as Crianças:
-
-**Desde Cedo (2-4 anos):**
-- "Não tocar" em tomadas
-- Perigo de cabos
-- Pedir ajuda a adultos
-
-**Idade Escolar (5-8 anos):**
-- O que é eletricidade
-- Porque é perigosa
-- Regras de segurança
-- O que fazer em emergência
-
-**Pré-adolescentes (9-12 anos):**
-- Uso seguro de aparelhos
-- Reconhecer perigos
-- Primeiros socorros básicos
-- Quando chamar ajuda
-
-### Regras Claras:
-
-1. **Nunca** tocar em tomadas
-2. **Nunca** puxar cabos
-3. **Nunca** usar aparelhos molhados
-4. **Sempre** pedir ajuda a adultos
-5. **Sempre** desligar quando acabar
-
-## Primeiros Socorros
-
-### Em Caso de Choque Elétrico:
-
-**Ação Imediata:**
-1. **NÃO toque** na criança se ainda estiver em contacto
-2. **Desligue** a eletricidade no quadro
-3. **Afaste** a criança da fonte (com objeto não condutor)
-4. **Ligue 112** imediatamente
-
-**Após Separar:**
-- Verifique consciência
-- Verifique respiração
-- Inicie RCP se necessário
-- Mantenha aquecido
-- Não dê água ou comida
-
-**Importante:** Mesmo choques "pequenos" devem ser avaliados por médico.
-
-### Em Caso de Queimadura:
-
-1. Arrefeça com água fria (10-20 min)
-2. Não use gelo
-3. Cubra com pano limpo
-4. Não aplique cremes
-5. Procure ajuda médica
-
-## Inspeção Regular
-
-### Checklist Mensal:
-
-- ☐ Tampas de tomadas no lugar
-- ☐ Cabos em bom estado
-- ☐ Aparelhos funcionam corretamente
-- ☐ Sem tomadas sobrecarregadas
-- ☐ Extensões em bom estado
-- ☐ Quadro elétrico fechado
-- ☐ Disjuntores funcionam
+- Linhas verdes dos bancos
+- TAEG 3-6%
+- Prazo até 10 anos
+
+## Manutenção Preventiva
 
 ### Checklist Anual:
 
-- ☐ Inspeção por electricista
-- ☐ Teste de disjuntor diferencial
-- ☐ Verificação de ligação à terra
-- ☐ Atualização de proteções
-- ☐ Substituição de equipamento antigo
+**Outono (antes do inverno):**
+- ✓ Limpeza da caldeira
+- ✓ Verificação de pressão
+- ✓ Teste de segurança
+- ✓ Purga de radiadores
+- ✓ Verificação de isolamento
 
-## Sinais de Alerta
-
-### Contacte Electricista se:
-
-- ⚠️ Tomadas quentes
-- ⚠️ Cheiro a queimado
-- ⚠️ Faíscas
-- ⚠️ Disjuntores saltam frequentemente
-- ⚠️ Luzes piscam
-- ⚠️ Choques ao tocar em aparelhos
-
-## Renovações e Melhorias
-
-### Prioridades:
-
-1. **Disjuntor diferencial** (se não tiver)
-2. **Tomadas com proteção** integrada
-3. **Quadro elétrico** moderno
-4. **Ligação à terra** adequada
-5. **Circuitos separados** para zonas húmidas
-
-### Custo Estimado:
-
-| Melhoria | Custo Aproximado |
-|----------|------------------|
-| Disjuntor diferencial | 50-100€ |
-| Tomadas seguras (10un) | 50-150€ |
-| Novo quadro elétrico | 300-800€ |
-| Ligação à terra | 200-500€ |
-| Circuito casa de banho | 150-400€ |
+**Primavera (após o inverno):**
+- ✓ Limpeza do sistema
+- ✓ Verificação de fugas
+- ✓ Ajuste de programação
+- ✓ Substituição de peças gastas
 
 ## Conclusão
 
-A segurança elétrica em casas com crianças não é negociável. Com as medidas certas, pode proteger os seus filhos de acidentes graves enquanto lhes ensina bons hábitos de segurança que levarão para a vida.
+Escolher o sistema de aquecimento certo para Trás-os-Montes é decisivo para o conforto e economia familiar. Considere não apenas o custo inicial, mas também os custos de operação a longo prazo e a adaptação ao clima local.
 
-A **Staff Seekers** pode ajudá-lo a tornar a sua casa mais segura para crianças. Fazemos inspeções de segurança, instalamos proteções e damos conselhos personalizados. Não arrisque - proteja a sua família hoje.
+A **Canalizador Profissional** é especialista em instalação e manutenção de sistemas de aquecimento central em Bragança. Fazemos estudos gratuitos e recomendamos a solução mais adequada para a sua casa.
 
-**Agende uma inspeção de segurança: 932 321 892**
+**Marque uma consulta: 928 484 451**
+`
+  },
+  {
+    slug: "cuidados-canalizacao-inverno-transmontano",
+    title: "Cuidados com a Canalização no Inverno Transmontano",
+    excerpt: "Como proteger a sua canalização das temperaturas negativas do inverno em Trás-os-Montes. Dicas práticas e prevenção.",
+    image: "https://cdn.manus.space/webdev-assets/winter-pipes.jpg",
+    date: "2026-01-25",
+    author: "Canalizador Profissional",
+    readTime: "7 min",
+    category: "Manutenção",
+    tags: ["inverno", "congelamento", "proteção", "transmontano"],
+    content: `
+# Cuidados com a Canalização no Inverno Transmontano
+
+O inverno em Trás-os-Montes pode atingir temperaturas de -10°C ou menos, colocando em risco a canalização de qualquer habitação. Neste guia, partilhamos medidas essenciais para proteger os seus canos e evitar reparações caras.
+
+## Porque os Canos Congelam em Trás-os-Montes
+
+### Condições Extremas:
+- Temperaturas negativas durante semanas
+- Ventos frios do norte (Mineiro)
+- Geadas noturnas frequentes
+- Isolamento térmico insuficiente nas casas antigas
+
+### Riscos:
+- **Congelamento:** Água expande 9% ao congelar, partindo canos
+- **Pressão excessiva:** Gelo bloqueia passagem, aumenta pressão
+- **Fugas:** Canos partidos causam inundações ao descongelar
+- **Danos estruturais:** Água infiltra paredes e fundações
+
+## Sinais de Alerta
+
+### Antes de Congelar:
+- Temperatura exterior abaixo de -2°C
+- Vento forte aumentando sensação térmica
+- Previsão de geada noturna
+- Canos em zonas não aquecidas (sótãos, garagens)
+
+### Depois de Congelar:
+- Torneiras sem água ou com fio fino
+- Gelo visível nos canos exteriores
+- Ruídos estranhos (estalidos, crepitações)
+- Cheiro a humidade ou mofo
+
+## Medidas Preventivas Essenciais
+
+### 1. Isolamento Térmico
+
+**Materiais Recomendados:**
+- Manta de fibra de vidro (R-value 3-4)
+- Espuma de polietileno (para diâmetros pequenos)
+- Fita térmica autorregulável (para zonas críticas)
+- Caixas isolantes para contadores
+
+**Custo:** 2-5€/metro linear
+
+### 2. Drenagem de Sistemas Exteriores
+
+**Antes do Inverno:**
+- Fechar válvula de corte exterior
+- Abrir torneiras exteriores para drenar
+- Desconectar mangueiras
+- Cobrir torneiras exteriores com capas isolantes
+
+### 3. Aquecimento Mínimo
+
+**Quando Ausente:**
+- Manter aquecimento a 10-12°C
+- Deixar portas de armários abertas (para circular ar)
+- Não fechar completamente persianas (deixar entrar calor solar)
+- Usar termóstato programável
+
+### 4. Gotejo Controlado
+
+**Em Noites Muito Frias:**
+- Deixar torneiras a gotejar ligeiramente
+- Frio movimento evita congelamento
+- Colocar balde para aproveitar água
+- **Custo adicional:** ~50 litros/noite = 0,10€
+
+## Passo a Passo para Isolar Canos
+
+### 1. Identificação de Zonas de Risco:
+- Canos em paredes exteriores
+- Sótãos não isolados
+- Garagens e arrumos
+- Espaços por baixo da casa
+
+### 2. Limpeza dos Canos:
+- Remover pó e humidade
+- Secar completamente
+- Verificar fugas existentes
+
+### 3. Aplicação do Isolamento:
+- Medir diâmetro dos canos
+- Cortar material ao tamanho
+- Envolver completamente
+- Selar juntas com fita adesiva
+
+### 4. Proteção Extra:
+- Caixas isolantes para válvulas
+- Fita térmica para zonas muito frias
+- Sensores de temperatura
+
+## O que Fazer se os Canos Congelarem
+
+### NUNCA:
+- ❌ Usar maçarico ou chama direta (risco de incêndio, danifica canos)
+- ❌ Jogar água a ferver (choque térmico parte canos)
+- ❌ Forçar torneiras ou válvulas (partem-se)
+
+### Procedimento Correto:
+
+**1. Identificar Local Congelado:**
+- Verificar torneiras sem água
+- Seguir cano desde torneira
+- Sentir zonas mais frias
+
+**2. Aquecimento Gradual:**
+- Usar secador de cabelo (temperatura média)
+- Aplicar toalhas quentes (não a ferver)
+- Usar aquecedor de ambiente (mantendo distância)
+- Começar pela torneira, avançar para trás
+
+**3. Verificar Fugas:**
+- Abrir torneira ligeiramente durante descongelamento
+- Verificar se há água a escorrer
+- Inspecionar canos após descongelamento
+
+**4. Contactar Profissional se:**
+- Não conseguir descongelar em 2 horas
+- Suspeitar de cano partido
+- Verificar fugas após descongelamento
+- Ter múltiplos canos congelados
+
+## Sistemas Anti-Congelação
+
+### 1. Fita Térmica Autorregulável
+- Aquece automaticamente abaixo de 5°C
+- Consumo: 5-10W/metro
+- Custo: 15-30€/5 metros
+- Instalação: simples (ligar à tomada)
+
+### 2. Termóstato com Sensor de Exterior
+- Liga aquecimento abaixo de temperatura definida
+- Controla aquecedores ou fitas térmicas
+- Custo: 50-100€
+- Poupança: evita aquecimento desnecessário
+
+### 3. Sistema de Drenagem Automática
+- Drena canos quando temperatura baixa
+- Ideal para casas de férias
+- Custo: 200-500€
+- Instalação profissional necessária
+
+## Custos de Prevenção vs Reparação
+
+### Prevenção:
+- Isolamento completo: 200-500€
+- Fita térmica: 100-200€
+- Manutenção anual: 50-100€
+- **Total:** 350-800€
+
+### Reparação (após congelamento):
+- Substituição de canos: 500-2.000€
+- Reparação de danos de água: 1.000-5.000€
+- Perdas de água: 100-500€
+- **Total:** 1.600-7.500€
+
+## Checklist de Preparação para o Inverno
+
+### Outubro-Novembro:
+- [ ] Isolar canos exteriores
+- [ ] Drenar sistemas de rega
+- [ ] Verificar isolamento do sótão
+- [ ] Testar aquecimento
+
+### Dezembro-Fevereiro:
+- [ ] Monitorizar previsões meteorológicas
+- [ ] Ajustar aquecimento quando ausente
+- [ ] Verificar canos regularmente
+- [ ] Ter contacto de canalizador de emergência
+
+### Março-Abril:
+- [ ] Remover isolamento (se necessário)
+- [ ] Verificar fugas após inverno
+- [ ] Planear melhorias para próximo ano
+
+## Conclusão
+
+A prevenção é sempre mais barata que a reparação. Em Trás-os-Montes, onde o inverno é particularmente rigoroso, investir em proteção da canalização não é luxo - é necessidade.
+
+A **Canalizador Profissional** oferece serviços de isolamento térmico de canalização em Bragança e arredores. Proteja a sua casa antes que as temperaturas negativas cheguem.
+
+**Agende uma inspeção: 928 484 451**
+`
+  },
+  {
+    slug: "como-detetar-fugas-agua-escondidas",
+    title: "Como Detetar Fugas de Água Escondidas sem Partir Paredes",
+    excerpt: "Técnicas modernas para identificar fugas de água escondidas em paredes, soalhos e fundações. Evite danos maiores.",
+    image: "https://cdn.manus.space/webdev-assets/water-leak-detection.jpg",
+    date: "2026-01-15",
+    author: "Canalizador Profissional",
+    readTime: "6 min",
+    category: "Diagnóstico",
+    tags: ["fugas", "detecção", "tecnologia", "poupança"],
+    content: `
+# Como Detetar Fugas de Água Escondidas sem Partir Paredes
+
+Fugas de água escondidas podem causar danos estruturais graves e contas de água astronómicas. Neste guia, exploramos técnicas modernas que permitem localizar fugas sem necessidade de obras destrutivas.
+
+## Sinais de Fuga Escondida
+
+### 1. Conta de Água Elevada
+- Aumento inexplicável (>20% sem mudança de hábitos)
+- Consumo noturno anormal (verifique contador antes de dormir e ao acordar)
+- Faturas progressivamente mais altas
+
+### 2. Sinais Físicos
+- Manchas de humidade em paredes ou tetos
+- Tinta a descascar ou bolhas no papel de parede
+- Cheiro a mofo persistente
+- Piso de madeira inchado ou deformado
+- Azulejos soltos ou com rejunte escurecido
+
+### 3. Sinais Audíveis
+- Som de água a correr quando todas as torneiras estão fechadas
+- Gorgolejos nos canos
+- Ruídos constantes de água
+
+## Teste Simples do Contador
+
+### Método Caseiro:
+
+**1. Preparação:**
+- Feche todas as torneiras e autoclismos
+- Desligue máquinas de lavar e lava-loiças
+- Certifique-se que ninguém usa água
+
+**2. Leitura Inicial:**
+- Registe os números do contador (incluindo décimos)
+- Anote hora exata
+
+**3. Período de Espera:**
+- 2 horas sem usar água
+- Evite usar sanitas durante este período
+
+**4. Leitura Final:**
+- Verifique contador novamente
+- Compare com leitura inicial
+
+**Interpretação:**
+- **Sem alteração:** Sem fugas significativas
+- **Pouca alteração (0,1-0,5 m³):** Fuga pequena
+- **Alteração significativa (>0,5 m³):** Fuga grave
+
+## Técnicas Profissionais de Deteção
+
+### 1. Termografia Infravermelha
+
+**Como Funciona:**
+Câmara deteta diferenças de temperatura - zonas húmidas são mais frias.
+
+**Vantagens:**
+- Não invasivo
+- Cobre grandes áreas rapidamente
+- Deteta humidade atrás de paredes
+
+**Limitações:**
+- Requer diferença de temperatura
+- Não funciona bem em paredes exteriores
+- Necessita técnico especializado
+
+**Custo:** 80-150€ por inspeção
+
+### 2. Geofones Eletrónicos
+
+**Como Funciona:**
+Amplifica sons de água a escapar - cada tipo de fuga tem som característico.
+
+**Vantagens:**
+- Localização precisa (até 1cm)
+- Funciona em qualquer material
+- Resultados imediatos
+
+**Limitações:**
+- Requer silêncio para operar
+- Sensível a ruídos ambientais
+- Experiência necessária para interpretação
+
+**Custo:** 60-120€ por inspeção
+
+### 3. Gás Traçador (Hélio ou Hidrogénio)
+
+**Como Funciona:**
+Injecta gás inerte no sistema - detetores localizam onde escapa.
+
+**Vantagens:**
+- Extremamente preciso
+- Deteta fugas mínimas
+- Funciona em sistemas vazios
+
+**Limitações:**
+- Mais caro
+- Requer equipamento especializado
+- Necessita acesso a todo o sistema
+
+**Custo:** 150-300€ por inspeção
+
+### 4. Corrente Induzida
+
+**Como Funciona:**
+Cria campo eletromagnético - alterações indicam humidade.
+
+**Vantagens:**
+- Mapeia extensão da humidade
+- Identifica origem da infiltração
+- Não requer contacto direto
+
+**Limitações:**
+- Menos preciso que outras técnicas
+- Afetado por metais na parede
+- Interpretação complexa
+
+## Análise de Dados de Consumo
+
+### Padrões de Fuga:
+
+**Fuga Constante:**
+- Consumo uniforme 24h/dia
+- Linha reta no gráfico de consumo
+- Exemplo: cano partido
+
+**Fuga Intermitente:**
+- Picos de consumo irregulares
+- Relacionado com uso de água
+- Exemplo: junta defeituosa que abre com pressão
+
+**Fuga por Pressão:**
+- Apenas quando sistema sob pressão
+- Consumo quando torneiras fechadas
+- Exemplo: válvula defeituosa
+
+## Quando Chamar um Profissional
+
+### Urgente (24h):
+- Conta de água duplicada num mês
+- Manchas de humidade a crescer rapidamente
+- Cheiro a mofo forte
+- Estruturas a abater
+
+### Prioritário (48h):
+- Aumento consistente de consumo
+- Pequenas manchas persistentes
+- Sons de água constantes
+- Piso deformado
+
+### Planeado (Semanas):
+- Suspeita de fuga antiga
+- Aumento lento do consumo
+- Manchas secas antigas
+- Prevenção antes de obras
+
+## Custos de Não Detetar
+
+### Danos Estruturais:
+- Madeiras apodrecidas: 1.000-5.000€
+- Paredes e tetos: 500-3.000€
+- Fundações: 5.000-20.000€
+- Isolamento térmico: 500-2.000€
+
+### Danos Secundários:
+- Mofo e problemas de saúde: tratamentos médicos
+- Desvalorização do imóvel: 10-30%
+- Aumento prémios de seguro
+- Custos legais (se afetar vizinhos)
+
+## Prevenção de Fugras
+
+### Monitorização Regular:
+- Leitura mensal do contador
+- Inspeção visual trimestral
+- Manutenção anual profissional
+- Sistemas de monitorização inteligente
+
+### Sistemas Inteligentes:
+- **Contadores inteligentes:** detetam consumo anormal
+- **Sensores de humidade:** alertam para fugas
+- **Válvulas automáticas:** cortam água em caso de fuga
+- **Apps de monitorização:** análise de padrões
+
+**Investimento:** 200-500€ + instalação
+
+## Conclusão
+
+Detetar fugas de água escondidas a tempo pode poupar milhares de euros em reparações e evitar problemas de saúde. Com as técnicas modernas disponíveis, já não é necessário partir paredes às cegas.
+
+A **Canalizador Profissional** utiliza equipamento de deteção de última geração para localizar fugas sem obras destrutivas. Resultados garantidos, orçamento gratuito.
+
+**Detete fugas hoje: 928 484 451**
+`
+  },
+  {
+    slug: "beneficios-canalizacao-ppr-transmontano",
+    title: "Benefícios da Canalização em PPR para Casas em Trás-os-Montes",
+    excerpt: "Porque escolher canalização em PPR para a sua casa em Bragança. Durabilidade, isolamento e resistência ao clima local.",
+    image: "https://cdn.manus.space/webdev-assets/ppr-pipes.jpg",
+    date: "2026-01-08",
+    author: "Canalizador Profissional",
+    readTime: "5 min",
+    category: "Materiais",
+    tags: ["PPR", "canalização", "materiais", "durabilidade"],
+    content: `
+# Benefícios da Canalização em PPR para Casas em Trás-os-Montes
+
+A escolha do material de canalização é crucial para a durabilidade e eficiência do sistema hidráulico. Em Trás-os-Montes, onde as condições climáticas são extremas, o PPR (Polipropileno Random Copolímero) surge como a melhor opção. Descubra porquê.
+
+## O que é PPR?
+
+PPR é um plástico de alta densidade especificamente formulado para canalização de água. Características principais:
+
+### Composição:
+- Polipropileno modificado
+- Resistência a altas temperaturas (até 95°C)
+- Inerte (não reage com água)
+- Livre de metais pesados
+
+### Normas:
+- Certificação DIN 8077/8078
+- Norma EN ISO 15874
+- Aprovação para água potável
+
+## Vantagens do PPR para Trás-os-Montes
+
+### 1. Resistência ao Congelamento
+
+**Problema no Inverno Transmontano:**
+Temperaturas abaixo de -10°C fazem a água congelar nos canos, causando ruturas.
+
+**Solução PPR:**
+- Elasticidade natural absorve expansão do gelo
+- Menor risco de rutura por congelamento
+- Se congelar, tende a expandir sem partir
+- **Teste:** Suporta -20°C sem danos permanentes
+
+### 2. Isolamento Térmico Natural
+
+**Condutividade Térmica:**
+- PPR: 0,24 W/mK
+- Cobre: 401 W/mK (1.670x mais condutor)
+- Aço: 50 W/mK (208x mais condutor)
+
+**Benefícios:**
+- Mantém temperatura da água (menos perdas)
+- Reduz formação de condensação
+- Menor risco de queimaduras ao toque
+- Economia de energia no aquecimento de água
+
+### 3. Resistência à Corrosão
+
+**Água de Bragança:**
+- pH médio: 7,2 (ligeiramente alcalina)
+- Dureza: 150-200 mg/L CaCO₃ (moderadamente dura)
+- Presença de cloretos e sulfatos
+
+**Vantagem PPR:**
+- Inerte quimicamente
+- Não corrói nem oxida
+- Não forma depósitos calcários
+- Mantém qualidade da água
+
+### 4. Durabilidade em Condições Extremas
+
+**Expectativa de Vida:**
+- **PPR:** 50+ anos
+- **Cobre:** 30-40 anos (com manutenção)
+- **Aço galvanizado:** 20-30 anos
+
+**Factores que Prolongam Vida:**
+- Resistente a UV (para instalações exteriores)
+- Não afetado por humidade do solo
+- Suporta variações de temperatura
+- Mantém propriedades ao longo do tempo
+
+## Comparação com Outros Materiais
+
+### PPR vs Cobre
+
+| Característica | PPR | Cobre |
+|----------------|-----|-------|
+| Custo material | 2-3€/m | 8-12€/m |
+| Instalação | Mais rápida (soldagem) | Mais lenta (roscas/solda) |
+| Isolamento | Excelente | Mau (necessita isolamento) |
+| Corrosão | Nenhuma | Possível (água ácida) |
+| Ruído | Silencioso | Transmite ruídos |
+| Congelamento | Resistente | Risco de rutura |
+
+### PPR vs Aço Galvanizado
+
+| Característica | PPR | Aço Galvanizado |
+|----------------|-----|-----------------|
+| Peso | Leve (1/8 do aço) | Pesado |
+| Instalação | Fácil | Complexa (roscas) |
+| Corrosão | Nenhuma | Oxidação interna |
+| Depósitos | Nenhum | Acumulação de ferrugem |
+| Vida útil | 50+ anos | 20-30 anos |
+| Manutenção | Mínima | Frequente |
+
+## Instalação em Trás-os-Montes
+
+### Técnica de Soldagem:
+
+**Processo:**
+1. Cortar tubo com tesoura especial
+2. Limpar superfícies
+3. Aquecer com máquina de soldar
+4. Unir rapidamente
+5. Arrefecer naturalmente
+
+**Vantagens:**
+- Junta homogénea (sem pontos fracos)
+- Estanqueidade total
+- Rapidez (30 segundos por junta)
+- Sem necessidade de produtos químicos
+
+### Adaptação a Casas Antigas:
+
+**Desafios:**
+- Estruturas irregulares
+- Espaços reduzidos
+- Necessidade de integrar com sistemas existentes
+
+**Soluções:**
+- Flexibilidade do PPR permite curvas suaves
+- Diâmetros variados (16mm a 110mm)
+- Ligações de transição para outros materiais
+- Instalação sem grandes obras
+
+## Custos e Economia
+
+### Investimento Inicial:
+
+**Casa T3 (100m²):**
+- **PPR:** 1.500-2.500€ (material + instalação)
+- **Cobre:** 3.000-5.000€
+- **Aço galvanizado:** 2.000-3.500€
+
+**Economia:** 30-50% vs cobre
+
+### Economia a Longo Prazo:
+
+**Manutenção (20 anos):**
+- **PPR:** 200-400€ (inspeções)
+- **Cobre:** 800-1.500€ (substituição juntas, isolamento)
+- **Aço galvanizado:** 1.500-3.000€ (substituição secções corroídas)
+
+**Poupança Total (20 anos):** 1.000-2.500€
+
+## Manutenção e Cuidados
+
+### Manutenção Mínima:
+- Inspeção visual anual
+- Verificação de pressão
+- Limpeza de filtros
+- Teste de estanquidade
+
+### Durabilidade Garantida:
+- Garantia do fabricante: 10-25 anos
+- Expectativa real: 50+ anos
+- Sem degradação com o tempo
+- Resistência a produtos de limpeza
+
+## Sustentabilidade Ambiental
+
+### Vantagens Ecológicas:
+- Produção com baixo consumo energético
+- Reciclável (código de reciclagem 5)
+- Transporte leve (menor pegada de carbono)
+- Sem emissões durante uso
+
+### Comparação Ambiental:
+- **PPR:** 2kg CO₂/kg material
+- **Cobre:** 8kg CO₂/kg material
+- **Aço:** 6kg CO₂/kg material
+
+## Conclusão
+
+Para as condições específicas de Trás-os-Montes, o PPR é o material ideal para canalização. Combina durabilidade, resistência ao clima extremo, isolamento térmico natural e economia a longo prazo.
+
+A **Canalizador Profissional** especializa-se em instalação de canalização PPR em Bragança e região. Trabalho garantido, materiais certificados e preços competitivos.
+
+**Solicite orçamento: 928 484 451**
 `
   }
 ];
+
+// Export unificado para Norte-Reparos (apenas plomberie)
+export const blogArticles = [...plomberieArticles, ...plomberieArticlesSupplementaires];
