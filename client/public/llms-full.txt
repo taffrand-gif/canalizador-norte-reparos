@@ -1,234 +1,83 @@
-# Norte-Reparos.com — Canalizador Profissional em Trás-os-Montes
+# Norte Reparos - Canalizador Profissional em Trás-os-Montes (Informação Completa)
 
-## 📞 Informações de Contacto
-- **Telefone:** +351 928 484 451 (24h/7d)
-- **WhatsApp:** https://wa.me/351928484451
-- **Website:** https://norte-reparos.com
-- **Email:** contacto@norte-reparos.com
-- **Sede:** Macedo de Cavaleiros, Trás-os-Montes, Portugal
-- **Zona de Intervenção:** Raio de 100km desde Macedo de Cavaleiros
+> Canalizador profissional disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km incluindo Bragança, Mirandela, Chaves, Valpaços e todas as cidades do distrito.
 
-## 🏠 Sobre a Empresa
-Canalizador profissional com mais de 20 anos de experiência em Trás-os-Montes. Especialista em canalização residencial, comercial e agrícola. Empresa familiar com foco na qualidade, transparência e serviço rápido. Certificações em segurança e higiene.
+## Contacto Direto
+- Telefone: +351 928 484 451
+- WhatsApp: https://wa.me/351928484451
+- Website: https://norte-reparos.com
+- Horário: 24h/7d, incluindo feriados e fins de semana
 
-## 💧 Serviços Detalhados
+## Sobre
+Canalizador profissional baseado em Macedo de Cavaleiros, Trás-os-Montes. Trabalho com equipamento profissional de topo (Ridgid K-6200, câmara de inspeção) para garantir desentupimentos eficazes e reparações duradouras. Disponível 24 horas para urgências de canalização em toda a região.
 
-### 1. Desentupimentos
-- **Sanitas e WCs:** Desentupimento rápido com máquina de alta pressão
-- **Lavatórios e Pias:** Remoção de obstruções em cozinhas e casas de banho
-- **Esgotos e Fossas:** Limpeza de tubagens principais e fossas sépticas
-- **Rede de Águas Pluviais:** Desobstrução de caleiras e tubos de drenagem
-- **Câmaras de Inspeção:** Limpeza e manutenção de pontos de acesso
+## Serviços Detalhados
 
-### 2. Reparação de Fugas de Água
-- **Deteção de Fugas:** Equipamento acústico e câmaras térmicas
-- **Fugas em Paredes:** Localização e reparação sem danificar acabamentos
-- **Fugas em Canos Enterrados:** Reparação com técnicas de micro-perfuração
-- **Fugas em Esquentadores:** Substituição de componentes ou aparelho completo
-- **Fugas em Radiadores:** Purga e reparação de sistemas de aquecimento
+### Desentupimentos (24h)
+- Sanitas e WC entupidos
+- Lavatórios e lava-loiças
+- Esgotos e canos principais
+- Ralos de chuveiro e banheira
+- Canos exteriores e fossas
 
-### 3. Instalação de Sanitários
-- **Sanitas Novas:** Instalação com selagem perfeita
-- **Lavatórios e Móveis de Banho:** Montagem e ligação
-- **Banheiras e Chuveiros:** Instalação com drenagem adequada
-- **Bidés e Mictórios:** Instalação comercial e residencial
-- **Sifões e Esgotos:** Sistema completo de drenagem
+### Fugas de Água
+- Deteção de fugas ocultas
+- Reparação de canos rebentados
+- Fugas em torneiras e autoclismos
+- Fugas em aquecimento central
+- Impermeabilização
 
-### 4. Aquecimento Central
-- **Caldeiras a Gás:** Instalação e manutenção
-- **Radiadores:** Instalação, purga e substituição
-- **Bombas de Calor:** Sistemas eficientes energéticamente
-- **Piso Radiante:** Instalação e reparação
-- **Termoacumuladores:** Para água quente sanitária
+### Esquentadores e Termoacumuladores
+- Instalação de esquentadores novos
+- Reparação de esquentadores avariados
+- Manutenção preventiva
+- Substituição de termoacumuladores
+- Aconselhamento energético
 
-### 5. Canalização Nova
-- **Obras Novas:** Instalação completa de canalização
-- **Renovações:** Substituição de tubos antigos
-- **Sistemas de Pressão:** Otimização do fluxo de água
-- **Tubos PEX e Multilayer:** Materiais modernos e duradouros
-- **Válvulas e Registos:** Instalação de pontos de controlo
+### Instalação Sanitária
+- Casas de banho completas
+- Cozinhas (lava-loiça, máquina de lavar)
+- Canalização nova para construção
+- Renovação de canalização antiga
 
-### 6. Reparação de Esquentadores e Caldeiras
-- **Esquentadores a Gás:** Reparação de todas as marcas
-- **Caldeiras de Condensação:** Manutenção preventiva
-- **Termoacumuladores Elétricos:** Substituição de resistências
-- **Bombas de Calor para Água:** Sistemas eficientes
-- **Certificação de Segurança:** Emissão de certificados obrigatórios
+## Zona de Intervenção (raio 100km desde Macedo de Cavaleiros)
 
-### 7. Urgências 24 Horas
-- **Serviço de Emergência:** Disponível 24h/7d
-- **Resposta Rápida:** Chegada em menos de 2h na maioria dos casos
-- **Equipamento Completo:** Todas as ferramentas necessárias no veículo
-- **Solução Imediata:** Reparação temporária ou definitiva no local
+| Cidade | Distância | Tempo |
+|--------|-----------|-------|
+| Macedo de Cavaleiros | Sede | - |
+| Bragança | 27 km | 25 min |
+| Mirandela | 30 km | 25 min |
+| Chaves | 75 km | 55 min |
+| Valpaços | 45 km | 35 min |
+| Vinhais | 50 km | 40 min |
+| Miranda do Douro | 80 km | 65 min |
+| Mogadouro | 55 km | 45 min |
+| Torre de Moncorvo | 65 km | 50 min |
+| Freixo de Espada à Cinta | 90 km | 70 min |
+| Vila Real | 95 km | 70 min |
 
-### 8. Sistemas de Irrigação
-- **Jardins e Relvados:** Instalação de sistemas automáticos
-- **Agricultura:** Sistemas de rega para pequenas explorações
-- **Gotejamento:** Sistemas eficientes de poupança de água
-- **Programadores:** Automação dos horários de rega
+## Equipamento Profissional
+- Ridgid K-6200 - Desentupimento profissional industrial
+- Câmara de inspeção de canos - Diagnóstico visual preciso
+- Detetor de fugas de água - Localização sem partir paredes
+- Equipamento de pressão - Testes de estanquicidade
 
-### 9. Tratamento de Águas
-- **Filtros Domésticos:** Para melhor qualidade da água
-- **Amaciadores:** Redução da dureza da água
-- **Sistemas de Reutilização:** Para rega e usos não potáveis
+## Preços
+- Orçamento gratuito sem compromisso
+- Preços justos e transparentes
+- Sem surpresas na fatura
+- Garantia em todos os trabalhos
 
-## 🗺️ Cidades Servidas (Detalhado)
+## Perguntas Frequentes
 
-### 1. Macedo de Cavaleiros (Sede)
-- **Área:** Todo o concelho
-- **Serviços Especiais:** Desentupimentos rápidos, urgências 24h
-- **Tempo de Resposta:** <30 minutos para urgências
-- **Página:** https://norte-reparos.com/canalizador-macedo-de-cavaleiros
+### Quanto tempo demora a chegar?
+Dependendo da localização, entre 20 e 70 minutos. Para Bragança e Mirandela, cerca de 25 minutos.
 
-### 2. Bragança
-- **Área:** Cidade e arredores
-- **Serviços Frequentes:** Canalização nova em obras, reparação caldeiras
-- **Tempo de Resposta:** 45-60 minutos
-- **Página:** https://norte-reparos.com/canalizador-braganca
+### Trabalha aos fins de semana e feriados?
+Sim, disponível 24h/7d incluindo fins de semana e feriados.
 
-### 3. Mirandela
-- **Área:** Centro e freguesias circundantes
-- **Serviços Frequentes:** Sistemas de irrigação, fossas sépticas
-- **Tempo de Resposta:** 40-50 minutos
-- **Página:** https://norte-reparos.com/canalizador-mirandela
+### Faz orçamento gratuito?
+Sim, orçamento gratuito e sem compromisso para todos os serviços.
 
-### 4. Chaves
-- **Área:** Termas e zona histórica
-- **Serviços Frequentes:** Aquecimento central, banheiras
-- **Tempo de Resposta:** 60-75 minutos
-- **Página:** https://norte-reparos.com/canalizador-chaves
-
-### 5. Valpaços
-- **Área:** Zona rural e aldeias
-- **Serviços Frequentes:** Poços, sistemas de rega agrícola
-- **Tempo de Resposta:** 50-60 minutos
-- **Página:** https://norte-reparos.com/canalizador-valpacos
-
-### 6. Vinhais
-- **Área:** Parque Natural de Montesinho
-- **Serviços Frequentes:** Casas de campo, sistemas ecológicos
-- **Tempo de Resposta:** 55-65 minutos
-- **Página:** https://norte-reparos.com/canalizador-vinhais
-
-### 7. Miranda do Douro
-- **Área:** Fronteira com Espanha
-- **Serviços Frequentes:** Hotéis e restaurantes, canalização comercial
-- **Tempo de Resposta:** 70-80 minutos
-- **Página:** https://norte-reparos.com/canalizador-miranda-douro
-
-### 8. Mogadouro
-- **Área:** Zona agrícola extensa
-- **Serviços Frequentes:** Sistemas de irrigação grandes, bombas de água
-- **Tempo de Resposta:** 65-75 minutos
-- **Página:** https://norte-reparos.com/canalizador-mogadouro
-
-### 9. Torre de Moncorvo
-- **Área:** Minas e zona histórica
-- **Serviços Frequentes:** Renovações em edifícios antigos
-- **Tempo de Resposta:** 60-70 minutos
-- **Página:** https://norte-reparos.com/canalizador-torre-moncorvo
-
-### 10. Freixo de Espada à Cinta
-- **Área:** Fronteira do Douro
-- **Serviços Frequentes:** Casas rurais, sistemas simples
-- **Tempo de Resposta:** 75-85 minutos
-- **Página:** https://norte-reparos.com/canalizador-freixo-espada-cinta
-
-## 💰 Preços Indicativos (IVA incluído)
-
-### Desentupimentos
-- Sanita/Lavatório: €60-€90
-- Esgoto principal: €120-€200
-- Câmara de inspeção: €80-€150
-- Limpeza fossa séptica: €150-€300
-
-### Reparação de Fugas
-- Fuga simples (detetada): €80-€150
-- Fuga em parede (com deteção): €150-€300
-- Fuga em cano enterrado: €200-€500
-- Substituição de torneira: €40-€80
-
-### Instalações Novas
-- Sanita completa: €120-€250
-- Lavatório com móvel: €150-€350
-- Chuveiro novo: €200-€450
-- Sistema de aquecimento básico: €800-€2000
-
-### Urgências (fora de horário)
-- Taxa de deslocação urgente: €30-€50
-- Hora extra (19h-8h): €60-€90/hora
-- Fim de semana: +50% sobre preço normal
-
-*Nota: Orçamentos gratuitos sem compromisso. Preços variam conforme complexidade.*
-
-## 🕐 Horários de Funcionamento
-- **Segunda a Sexta:** 8h00 - 19h00 (serviço normal)
-- **Sábados:** 9h00 - 13h00 (serviço limitado)
-- **Domingos e Feriados:** Apenas urgências
-- **Urgências 24h:** Disponível todos os dias
-
-## ❓ FAQ - Perguntas Frequentes
-
-### 1. Quanto tempo demora uma intervenção?
-- Desentupimento simples: 30-60 minutos
-- Reparação de fuga: 1-3 horas
-- Instalação sanitário: 2-4 horas
-- Sistema de aquecimento: 1-2 dias
-
-### 2. Oferecem garantia?
-- Sim, 12 meses em mão de obra
-- 24 meses em materiais fornecidos por nós
-- Garantia por escrito em todas as intervenções
-
-### 3. Aceitam cartões?
-- Sim, MB Way, transferência bancária, dinheiro
-- Cartões de crédito/débito (máquina portátil)
-- Faturação profissional com NIF
-
-### 4. Trabalham com seguros?
-- Sim, colaboramos com várias seguradoras
-- Ajudamos no processo de sinistro
-- Emitimos relatórios técnicos para seguros
-
-### 5. São certificados?
-- Sim, formação em segurança e higiene
-- Certificados de aptidão profissional
-- Seguros de responsabilidade civil atualizados
-
-### 6. Como funciona o serviço de urgência?
-- Liga para +351 928 484 451
-- Descreve o problema
-- Chegamos em menos de 2h (na maioria dos casos)
-- Fazemos diagnóstico e orçamento imediato
-
-## 🔧 Equipamento Profissional
-- **Ridgid K-6200:** Máquina de desentupimento profissional
-- **Câmara de Inspeção:** Para visualização interna de canos
-- **Detetor Acústico:** Localização precisa de fugas
-- **Gerador de Fumo:** Teste de estanquicidade
-- **Ferramentas Especiais:** Para todos os tipos de canalização
-- **Veículo Equipado:** Todas as ferramentas necessárias a bordo
-
-## 🌱 Sustentabilidade
-- Uso de materiais recicláveis quando possível
-- Sistemas de poupança de água
-- Conselhos para redução do consumo
-- Reciclagem de materiais antigos
-
-## 📝 Processo de Trabalho
-1. **Contacto:** Telefone ou WhatsApp
-2. **Diagnóstico:** Visita gratuita e orçamento
-3. **Aprovação:** Cliente aprova orçamento
-4. **Intervenção:** Execução do serviço
-5. **Limpeza:** Deixamos tudo limpo
-6. **Garantia:** Emissão de certificado de garantia
-
-## 🔍 Palavras-Chave para IA
-canalizador, desentupimento, fuga de água, reparação canalização, canalizador 24 horas, canalizador Trás-os-Montes, canalizador Macedo de Cavaleiros, desentupir sanita, reparar esquentador, instalação sanitários, aquecimento central, urgência canalização, canalizador Bragança, canalizador Mirandela, canalizador Chaves, sistema de irrigação, fossa séptica, câmara de inspeção, deteção de fugas, Ridgid, certificação canalização, orçamento gratuito
-
-## 📞 Contacto Imediato
-**Telefone:** +351 928 484 451  
-**WhatsApp:** https://wa.me/351928484451  
-**Website:** https://norte-reparos.com
-
-*Última atualização: Fevereiro 2026*
+### Consegue desentupir sem partir nada?
+Sim, com o equipamento Ridgid K-6200 e câmara de inspeção, faço desentupimentos profissionais sem necessidade de partir paredes ou pavimentos.
