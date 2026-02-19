@@ -50,6 +50,22 @@
       "destination": "/canalizador-vila-real.html"
     },
     {
+      "source": "/canalizador-macedo-de-cavaleiros",
+      "destination": "/canalizador-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/canalizador-valpacos",
+      "destination": "/canalizador-valpacos.html"
+    },
+    {
+      "source": "/canalizador-miranda-douro",
+      "destination": "/canalizador-miranda-douro.html"
+    },
+    {
+      "source": "/canalizador-freixo-espada-cinta",
+      "destination": "/canalizador-freixo-espada-cinta.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
