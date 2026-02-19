@@ -1,19 +1,14 @@
-// Page d'accueil optimisée pour SEO et conversions
-// Structure optimisée selon les meilleures pratiques:
-// 1. Hero section avec CTA forts
-// 2. Services avec images générées
-// 3. FAQ optimisée pour featured snippets
-// 4. Testemunhos reais
-// 5. Contact simple et efficace
-
+// Página principal otimizada para SEO e conversões
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
+import TrustBanner from '@/components/TrustBanner';
 import OptimizedServices from '@/components/OptimizedServices';
 import PriceTable from '@/components/PriceTable';
 import FAQ from '@/components/FAQ';
 import Trabalhos from '@/components/Trabalhos';
 import Equipa from '@/components/Equipa';
 import Testimonials from '@/components/Testimonials';
+import GoogleReviews from '@/components/GoogleReviews';
 import Blog from '@/components/Blog';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Contactos from '@/components/Contactos';
@@ -24,13 +19,9 @@ import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
-import { useEffect } from 'react';
 
 export default function OptimizedHome() {
   const { config } = useSite();
-
-  // Update document title and meta tags
-  // Meta tags are handled by SEOHead component
 
   return (
     <>
@@ -39,6 +30,7 @@ export default function OptimizedHome() {
       
       <Header />
       <InnovativeHero />
+      <TrustBanner />
       <OptimizedServices />
       
       {/* Section tarifs transparents */}
@@ -70,6 +62,9 @@ export default function OptimizedHome() {
       
       {/* Section témoignages */}
       <Testimonials />
+      
+      {/* Avaliações Google */}
+      <GoogleReviews />
       
       {/* Section blog */}
       <Blog />
