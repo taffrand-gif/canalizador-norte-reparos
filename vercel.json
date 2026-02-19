@@ -66,6 +66,110 @@
       "destination": "/canalizador-freixo-espada-cinta.html"
     },
     {
+      "source": "/canalizador-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe.html"
+    },
+    {
+      "source": "/canalizador-vila-flor",
+      "destination": "/canalizador-vila-flor.html"
+    },
+    {
+      "source": "/canalizador-carrazeda-de-ansiaes",
+      "destination": "/canalizador-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/canalizador-vimioso",
+      "destination": "/canalizador-vimioso.html"
+    },
+    {
+      "source": "/canalizador-montalegre",
+      "destination": "/canalizador-montalegre.html"
+    },
+    {
+      "source": "/canalizador-boticas",
+      "destination": "/canalizador-boticas.html"
+    },
+    {
+      "source": "/canalizador-murca",
+      "destination": "/canalizador-murca.html"
+    },
+    {
+      "source": "/canalizador-alijo",
+      "destination": "/canalizador-alijo.html"
+    },
+    {
+      "source": "/canalizador-sabrosa",
+      "destination": "/canalizador-sabrosa.html"
+    },
+    {
+      "source": "/canalizador-vila-pouca-de-aguiar",
+      "destination": "/canalizador-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/canalizador-ribeira-de-pena",
+      "destination": "/canalizador-ribeira-de-pena.html"
+    },
+    {
+      "source": "/canalizador-mondim-de-basto",
+      "destination": "/canalizador-mondim-de-basto.html"
+    },
+    {
+      "source": "/canalizador-peso-da-regua",
+      "destination": "/canalizador-peso-da-regua.html"
+    },
+    {
+      "source": "/canalizador-lamego",
+      "destination": "/canalizador-lamego.html"
+    },
+    {
+      "source": "/canalizador-moimenta-da-beira",
+      "destination": "/canalizador-moimenta-da-beira.html"
+    },
+    {
+      "source": "/canalizador-vila-nova-foz-coa",
+      "destination": "/canalizador-vila-nova-foz-coa.html"
+    },
+    {
+      "source": "/canalizador-sernancelhe",
+      "destination": "/canalizador-sernancelhe.html"
+    },
+    {
+      "source": "/canalizador-penedono",
+      "destination": "/canalizador-penedono.html"
+    },
+    {
+      "source": "/canalizador-sao-joao-da-pesqueira",
+      "destination": "/canalizador-sao-joao-da-pesqueira.html"
+    },
+    {
+      "source": "/canalizador-tabuaco",
+      "destination": "/canalizador-tabuaco.html"
+    },
+    {
+      "source": "/canalizador-armamar",
+      "destination": "/canalizador-armamar.html"
+    },
+    {
+      "source": "/canalizador-santa-marta-de-penaguiao",
+      "destination": "/canalizador-santa-marta-de-penaguiao.html"
+    },
+    {
+      "source": "/canalizador-mesao-frio",
+      "destination": "/canalizador-mesao-frio.html"
+    },
+    {
+      "source": "/canalizador-urgente-braganca",
+      "destination": "/canalizador-urgente-braganca.html"
+    },
+    {
+      "source": "/canalizador-urgente-mirandela",
+      "destination": "/canalizador-urgente-mirandela.html"
+    },
+    {
+      "source": "/canalizador-urgente-macedo",
+      "destination": "/canalizador-urgente-macedo.html"
+    },
+    {
       "source": "/faq",
       "destination": "/faq.html"
     },

@@ -27,6 +27,30 @@ const MirandaDouro = lazy(() => import("@/pages/cidades/MirandaDouro"));
 const Mogadouro = lazy(() => import("@/pages/cidades/Mogadouro"));
 const TorreMoncorvo = lazy(() => import("@/pages/cidades/TorreMoncorvo"));
 const FreixoEspadaCinta = lazy(() => import("@/pages/cidades/FreixoEspadaCinta"));
+const VilaReal = lazy(() => import("@/pages/cidades/VilaReal"));
+const AlfandegaDaFe = lazy(() => import("@/pages/cidades/AlfandegaDaFe"));
+const VilaFlor = lazy(() => import("@/pages/cidades/VilaFlor"));
+const CarrazedaDeAnsiaes = lazy(() => import("@/pages/cidades/CarrazedaDeAnsiaes"));
+const Vimioso = lazy(() => import("@/pages/cidades/Vimioso"));
+const Montalegre = lazy(() => import("@/pages/cidades/Montalegre"));
+const Boticas = lazy(() => import("@/pages/cidades/Boticas"));
+const Murca = lazy(() => import("@/pages/cidades/Murca"));
+const Alijo = lazy(() => import("@/pages/cidades/Alijo"));
+const Sabrosa = lazy(() => import("@/pages/cidades/Sabrosa"));
+const VilaPouca = lazy(() => import("@/pages/cidades/VilaPouca"));
+const RibeiraDePena = lazy(() => import("@/pages/cidades/RibeiraDePena"));
+const MondimDeBasto = lazy(() => import("@/pages/cidades/MondimDeBasto"));
+const PesoDaRegua = lazy(() => import("@/pages/cidades/PesoDaRegua"));
+const Lamego = lazy(() => import("@/pages/cidades/Lamego"));
+const MoimentaDaBeira = lazy(() => import("@/pages/cidades/MoimentaDaBeira"));
+const VilaNovaFozCoa = lazy(() => import("@/pages/cidades/VilaNovaFozCoa"));
+const Sernancelhe = lazy(() => import("@/pages/cidades/Sernancelhe"));
+const Penedono = lazy(() => import("@/pages/cidades/Penedono"));
+const SaoJoaoDaPesqueira = lazy(() => import("@/pages/cidades/SaoJoaoDaPesqueira"));
+const Tabuaco = lazy(() => import("@/pages/cidades/Tabuaco"));
+const Armamar = lazy(() => import("@/pages/cidades/Armamar"));
+const SantaMartaDePenaguiao = lazy(() => import("@/pages/cidades/SantaMartaDePenaguiao"));
+const MesaoFrio = lazy(() => import("@/pages/cidades/MesaoFrio"));
 const BlogIndex = lazy(() => import("@/pages/blog/BlogIndex"));
 const ComoDesentupirLavaLoica = lazy(() => import("@/pages/blog/ComoDesentupirLavaLoica"));
 const EvitarFugasAguaPrevencao = lazy(() => import("@/pages/blog/EvitarFugasAguaPrevencao"));
@@ -65,6 +89,30 @@ function Router() {
         <Route path={"/canalizador-mogadouro"} component={Mogadouro} />
         <Route path={"/canalizador-torre-moncorvo"} component={TorreMoncorvo} />
         <Route path={"/canalizador-freixo-espada-cinta"} component={FreixoEspadaCinta} />
+        <Route path={"/canalizador-vila-real"} component={VilaReal} />
+        <Route path={"/canalizador-alfandega-da-fe"} component={AlfandegaDaFe} />
+        <Route path={"/canalizador-vila-flor"} component={VilaFlor} />
+        <Route path={"/canalizador-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
+        <Route path={"/canalizador-vimioso"} component={Vimioso} />
+        <Route path={"/canalizador-montalegre"} component={Montalegre} />
+        <Route path={"/canalizador-boticas"} component={Boticas} />
+        <Route path={"/canalizador-murca"} component={Murca} />
+        <Route path={"/canalizador-alijo"} component={Alijo} />
+        <Route path={"/canalizador-sabrosa"} component={Sabrosa} />
+        <Route path={"/canalizador-vila-pouca-de-aguiar"} component={VilaPouca} />
+        <Route path={"/canalizador-ribeira-de-pena"} component={RibeiraDePena} />
+        <Route path={"/canalizador-mondim-de-basto"} component={MondimDeBasto} />
+        <Route path={"/canalizador-peso-da-regua"} component={PesoDaRegua} />
+        <Route path={"/canalizador-lamego"} component={Lamego} />
+        <Route path={"/canalizador-moimenta-da-beira"} component={MoimentaDaBeira} />
+        <Route path={"/canalizador-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
+        <Route path={"/canalizador-sernancelhe"} component={Sernancelhe} />
+        <Route path={"/canalizador-penedono"} component={Penedono} />
+        <Route path={"/canalizador-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
+        <Route path={"/canalizador-tabuaco"} component={Tabuaco} />
+        <Route path={"/canalizador-armamar"} component={Armamar} />
+        <Route path={"/canalizador-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
+        <Route path={"/canalizador-mesao-frio"} component={MesaoFrio} />
         <Route path={"/blog"} component={BlogIndex} />
         <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
         <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
