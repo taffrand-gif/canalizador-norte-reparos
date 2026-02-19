@@ -131,4 +131,23 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <url>
+    <loc>https://norte-reparos.com/blog/como-prevenir-canos-rebentados-inverno</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://norte-reparos.com/blog/custo-canalizador-tras-os-montes-precos</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://norte-reparos.com/blog/reparacao-caldeira-esquentador-manutencao</loc>
+    <lastmod>2026-02-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

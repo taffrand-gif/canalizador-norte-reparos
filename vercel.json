@@ -70,6 +70,18 @@
       "destination": "/faq.html"
     },
     {
+      "source": "/blog/como-prevenir-canos-rebentados-inverno",
+      "destination": "/blog/como-prevenir-canos-rebentados-inverno.html"
+    },
+    {
+      "source": "/blog/custo-canalizador-tras-os-montes-precos",
+      "destination": "/blog/custo-canalizador-tras-os-montes-precos.html"
+    },
+    {
+      "source": "/blog/reparacao-caldeira-esquentador-manutencao",
+      "destination": "/blog/reparacao-caldeira-esquentador-manutencao.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
