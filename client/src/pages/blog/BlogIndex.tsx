@@ -13,6 +13,60 @@ const BlogIndex: React.FC = () => {
   // Articles data - à remplacer par API/database plus tard
   const articles = [
     {
+      slug: 'instalacao-casa-banho-completa-guia',
+      title: 'Instalação Completa de Casa de Banho: Guia e Preços 2026',
+      excerpt: 'Guia completo para instalação de casa de banho: etapas, materiais, custos e prazos. Orçamento gratuito em Trás-os-Montes.',
+      category: 'Instalações',
+      readTime: '10',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/instalacao-casa-banho.jpg'
+    },
+    {
+      slug: 'sistema-aquecimento-agua-melhor-opcao',
+      title: 'Esquentador, Caldeira ou Bomba de Calor: Qual a Melhor Opção?',
+      excerpt: 'Compare esquentador, caldeira e bomba de calor: vantagens, custos, consumo e qual escolher para sua casa em 2026.',
+      category: 'Instalações',
+      readTime: '12',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/sistema-aquecimento-agua.jpg'
+    },
+    {
+      slug: 'canalizacao-casa-antiga-renovacao',
+      title: 'Renovação de Canalização em Casas Antigas de Trás-os-Montes',
+      excerpt: 'Guia completo para renovar canalização em casas antigas: tubos de chumbo, paredes de granito, custos e soluções.',
+      category: 'Renovações',
+      readTime: '11',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/canalizacao-casa-antiga.jpg'
+    },
+    {
+      slug: 'piscina-tanque-agua-canalizacao',
+      title: 'Canalização para Piscinas e Tanques de Água: Guia Completo',
+      excerpt: 'Guia completo para instalação de canalização em piscinas, tanques de água e sistemas de irrigação agrícola.',
+      category: 'Instalações',
+      readTime: '13',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/piscina-tanque-agua.jpg'
+    },
+    {
+      slug: 'poupar-agua-casa-dicas-praticas',
+      title: 'Como Poupar Água em Casa: 12 Dicas Práticas para 2026',
+      excerpt: '12 dicas práticas para poupar água em casa: torneiras económicas, recuperação de água da chuva, hábitos simples. Poupe até 40% na conta.',
+      category: 'Dicas Práticas',
+      readTime: '10',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/poupar-agua-casa.jpg'
+    },
+    {
+      slug: 'problemas-canalizacao-inverno-solucoes',
+      title: 'Problemas de Canalização no Inverno: Soluções e Prevenção',
+      excerpt: 'Guia completo para proteger canalização do frio em Trás-os-Montes: tubos congelados, isolamento térmico, urgências de inverno.',
+      category: 'Manutenção Preventiva',
+      readTime: '12',
+      date: '19 Fev 2026',
+      imageUrl: '/images-optimized/blog/problemas-inverno.jpg'
+    },
+    {
       slug: 'como-desentupir-lava-loica-passos',
       title: 'Como Desentupir um Lava-Loiça em 5 Passos Simples',
       excerpt: 'Aprenda a desentupir um lava-loiça de forma eficaz com métodos caseiros seguros. Guia passo a passo para resolver entupimentos comuns.',
@@ -31,40 +85,13 @@ const BlogIndex: React.FC = () => {
       imageUrl: '/images-optimized/blog/fugas-agua-prevencao.jpg'
     },
     {
-      slug: 'esquentador-vs-termoacumulador',
-      title: 'Esquentador ou Termoacumulador? Qual Escolher para a Sua Casa',
-      excerpt: 'Comparativo completo entre esquentador e termoacumulador. Descubra qual a melhor opção para aquecer água na sua casa em Trás-os-Montes.',
-      category: 'Instalações',
-      readTime: '10',
+      slug: 'sinais-fugas-agua-escondidas',
+      title: '8 Sinais de Fugas de Água Escondidas em Casa',
+      excerpt: 'Aprenda a identificar fugas de água escondidas antes que causem danos graves. 8 sinais de alerta e como detetar.',
+      category: 'Manutenção Preventiva',
+      readTime: '8',
       date: '14 Fev 2026',
-      imageUrl: '/images-optimized/blog/esquentador-termoacumulador.jpg'
-    },
-    {
-      slug: 'fuga-agua-teto-imediatamente',
-      title: 'Fuga de Água no Teto: O Que Fazer Imediatamente',
-      excerpt: 'Descubra os passos urgentes a tomar quando deteta uma fuga de água no teto. Como minimizar danos e quando chamar um canalizador de emergência.',
-      category: 'Emergências',
-      readTime: '5',
-      date: '12 Fev 2026',
-      imageUrl: '/images-optimized/blog/fuga-agua-teto.jpg'
-    },
-    {
-      slug: 'esquentador-vs-termoacumulador-comparativo',
-      title: 'Esquentador vs. Termoacumulador: Qual a Melhor Opção para a sua Casa em Trás-os-Montes',
-      excerpt: 'Comparativo completo entre esquentador e termoacumulador: vantagens, desvantagens, custos e qual escolher para o clima da região.',
-      category: 'Instalações',
-      readTime: '9',
-      date: '11 Fev 2026',
-      imageUrl: '/images-optimized/blog/esquentador-termoacumulador.jpg'
-    },
-    {
-      slug: 'precos-canalizador-braganca-guia',
-      title: 'Preços de Canalizador em Bragança: Guia Completo 2026',
-      excerpt: 'Tabela de preços atualizada para serviços de canalização em Bragança. Saiba quanto custa cada serviço e como obter orçamentos transparentes.',
-      category: 'Local',
-      readTime: '6',
-      date: '10 Fev 2026',
-      imageUrl: '/images-optimized/blog/precos-canalizador.jpg'
+      imageUrl: '/images-optimized/blog/sinais-fugas-agua.jpg'
     }
   ];
 

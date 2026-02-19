@@ -190,6 +190,30 @@
       "destination": "/blog/reparacao-caldeira-esquentador-manutencao.html"
     },
     {
+      "source": "/blog/instalacao-casa-banho-completa-guia",
+      "destination": "/blog/instalacao-casa-banho-completa-guia.html"
+    },
+    {
+      "source": "/blog/sistema-aquecimento-agua-melhor-opcao",
+      "destination": "/blog/sistema-aquecimento-agua-melhor-opcao.html"
+    },
+    {
+      "source": "/blog/canalizacao-casa-antiga-renovacao",
+      "destination": "/blog/canalizacao-casa-antiga-renovacao.html"
+    },
+    {
+      "source": "/blog/piscina-tanque-agua-canalizacao",
+      "destination": "/blog/piscina-tanque-agua-canalizacao.html"
+    },
+    {
+      "source": "/blog/poupar-agua-casa-dicas-praticas",
+      "destination": "/blog/poupar-agua-casa-dicas-praticas.html"
+    },
+    {
+      "source": "/blog/problemas-canalizacao-inverno-solucoes",
+      "destination": "/blog/problemas-canalizacao-inverno-solucoes.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

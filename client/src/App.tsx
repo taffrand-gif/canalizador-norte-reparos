@@ -61,6 +61,12 @@ const DesentupirWCMetodos = lazy(() => import("@/pages/blog/DesentupirWCMetodos"
 const ComoPrevenirCanosRebentadosInverno = lazy(() => import("@/pages/blog/ComoPrevenirCanosRebentadosInverno"));
 const CustoCanalizadorTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoCanalizadorTrasOsMontesPrecos"));
 const ReparacaoCaldeiraEsquentadorManutencao = lazy(() => import("@/pages/blog/ReparacaoCaldeiraEsquentadorManutencao"));
+const InstalacaoCasaBanho = lazy(() => import("@/pages/blog/InstalacaoCasaBanho"));
+const SistemaAquecimentoAgua = lazy(() => import("@/pages/blog/SistemaAquecimentoAgua"));
+const CanalizacaoCasaAntiga = lazy(() => import("@/pages/blog/CanalizacaoCasaAntiga"));
+const PiscinaTanqueAgua = lazy(() => import("@/pages/blog/PiscinaTanqueAgua"));
+const PouparAguaCasa = lazy(() => import("@/pages/blog/PouparAguaCasa"));
+const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCanalizacaoInverno"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 
 // Simple loading fallback component
@@ -124,6 +130,12 @@ function Router() {
         <Route path={"/blog/como-prevenir-canos-rebentados-inverno"} component={ComoPrevenirCanosRebentadosInverno} />
         <Route path={"/blog/custo-canalizador-tras-os-montes-precos"} component={CustoCanalizadorTrasOsMontesPrecos} />
         <Route path={"/blog/reparacao-caldeira-esquentador-manutencao"} component={ReparacaoCaldeiraEsquentadorManutencao} />
+        <Route path={"/blog/instalacao-casa-banho-completa-guia"} component={InstalacaoCasaBanho} />
+        <Route path={"/blog/sistema-aquecimento-agua-melhor-opcao"} component={SistemaAquecimentoAgua} />
+        <Route path={"/blog/canalizacao-casa-antiga-renovacao"} component={CanalizacaoCasaAntiga} />
+        <Route path={"/blog/piscina-tanque-agua-canalizacao"} component={PiscinaTanqueAgua} />
+        <Route path={"/blog/poupar-agua-casa-dicas-praticas"} component={PouparAguaCasa} />
+        <Route path={"/blog/problemas-canalizacao-inverno-solucoes"} component={ProblemasCanalizacaoInverno} />
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
