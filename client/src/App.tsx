@@ -61,6 +61,7 @@ const DesentupirWCMetodos = lazy(() => import("@/pages/blog/DesentupirWCMetodos"
 const ComoPrevenirCanosRebentadosInverno = lazy(() => import("@/pages/blog/ComoPrevenirCanosRebentadosInverno"));
 const CustoCanalizadorTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoCanalizadorTrasOsMontesPrecos"));
 const ReparacaoCaldeiraEsquentadorManutencao = lazy(() => import("@/pages/blog/ReparacaoCaldeiraEsquentadorManutencao"));
+const Zonas = lazy(() => import("@/pages/Zonas"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -124,6 +125,7 @@ function Router() {
         <Route path={"/blog/custo-canalizador-tras-os-montes-precos"} component={CustoCanalizadorTrasOsMontesPrecos} />
         <Route path={"/blog/reparacao-caldeira-esquentador-manutencao"} component={ReparacaoCaldeiraEsquentadorManutencao} />
         <Route path={"/faq"} component={FAQPage} />
+        <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
         {/* Final fallback route */}
         <Route component={NotFound} />
