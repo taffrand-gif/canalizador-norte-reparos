@@ -1,0 +1,255 @@
+{
+  "business": {
+    "name": "Norte Reparos - Canalizador Profissional",
+    "type": "Plumbing Services",
+    "region": "Trás-os-Montes, Portugal",
+    "headquarters": "Macedo de Cavaleiros",
+    "coverage_radius_km": 100
+  },
+  "contact": {
+    "phone": "+351 928 484 451",
+    "whatsapp": "https://wa.me/351928484451",
+    "website": "https://norte-reparos.com",
+    "email": null,
+    "hours": "24/7 including holidays",
+    "response_time": "Less than 1 hour for emergencies"
+  },
+  "cities_served": [
+    {
+      "name": "Bragança",
+      "type": "main",
+      "url": "https://norte-reparos.com/canalizador-braganca"
+    },
+    {
+      "name": "Mirandela",
+      "type": "main",
+      "url": "https://norte-reparos.com/canalizador-mirandela"
+    },
+    {
+      "name": "Macedo de Cavaleiros",
+      "type": "headquarters",
+      "url": "https://norte-reparos.com/canalizador-macedo-de-cavaleiros"
+    },
+    {
+      "name": "Chaves",
+      "type": "main",
+      "url": "https://norte-reparos.com/canalizador-chaves"
+    },
+    {
+      "name": "Vila Real",
+      "type": "main",
+      "url": "https://norte-reparos.com/canalizador-vila-real"
+    },
+    {
+      "name": "Vinhais",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-vinhais"
+    },
+    {
+      "name": "Miranda do Douro",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-miranda-do-douro"
+    },
+    {
+      "name": "Mogadouro",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-mogadouro"
+    },
+    {
+      "name": "Torre de Moncorvo",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-torre-de-moncorvo"
+    },
+    {
+      "name": "Freixo de Espada à Cinta",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-freixo-de-espada-a-cinta"
+    },
+    {
+      "name": "Valpaços",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-valpacos"
+    },
+    {
+      "name": "Alfândega da Fé",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-alfandega-da-fe"
+    },
+    {
+      "name": "Vila Flor",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-vila-flor"
+    },
+    {
+      "name": "Carrazeda de Ansiães",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-carrazeda-de-ansiaes"
+    },
+    {
+      "name": "Vimioso",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-vimioso"
+    },
+    {
+      "name": "Montalegre",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-montalegre"
+    },
+    {
+      "name": "Boticas",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-boticas"
+    },
+    {
+      "name": "Murça",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-murca"
+    },
+    {
+      "name": "Alijó",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-alijo"
+    },
+    {
+      "name": "Sabrosa",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-sabrosa"
+    },
+    {
+      "name": "Vila Pouca de Aguiar",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-vila-pouca-de-aguiar"
+    },
+    {
+      "name": "Ribeira de Pena",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-ribeira-de-pena"
+    },
+    {
+      "name": "Mondim de Basto",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-mondim-de-basto"
+    },
+    {
+      "name": "Peso da Régua",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-peso-da-regua"
+    },
+    {
+      "name": "Lamego",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-lamego"
+    },
+    {
+      "name": "Moimenta da Beira",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-moimenta-da-beira"
+    },
+    {
+      "name": "Vila Nova de Foz Côa",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-vila-nova-foz-coa"
+    },
+    {
+      "name": "Sernancelhe",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-sernancelhe"
+    },
+    {
+      "name": "Penedono",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-penedono"
+    },
+    {
+      "name": "São João da Pesqueira",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-sao-joao-da-pesqueira"
+    },
+    {
+      "name": "Tabuaço",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-tabuaco"
+    },
+    {
+      "name": "Armamar",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-armamar"
+    },
+    {
+      "name": "Santa Marta de Penaguião",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-santa-marta-de-penaguiao"
+    },
+    {
+      "name": "Mesão Frio",
+      "type": "secondary",
+      "url": "https://norte-reparos.com/canalizador-mesao-frio"
+    }
+  ],
+  "services": [
+    {
+      "category": "Drain Cleaning 24h",
+      "items": [
+        "Toilet/WC unclogging",
+        "Sink unclogging",
+        "Kitchen sink unclogging",
+        "Bathtub/shower unclogging",
+        "Sewer unclogging",
+        "Septic tank cleaning",
+        "Video inspection camera"
+      ]
+    },
+    {
+      "category": "Water Leaks",
+      "items": [
+        "Emergency water leak",
+        "Leak detection with thermal camera",
+        "Burst pipe",
+        "Dripping pipe",
+        "Dripping faucet",
+        "Toilet tank leaking"
+      ]
+    },
+    {
+      "category": "Water Heaters and Boilers",
+      "items": [
+        "Water heater installation",
+        "Water heater repair",
+        "No hot water",
+        "Annual water heater maintenance",
+        "Wall-mounted boilers"
+      ]
+    },
+    {
+      "category": "Sanitary Installations",
+      "items": [
+        "Toilet and sink installation",
+        "Toilet tank replacement",
+        "Shower base installation",
+        "Faucets and mixers"
+      ]
+    }
+  ],
+  "pricing_2026": {
+    "travel_macedo_local": "10€",
+    "travel_braganca_mirandela": "20€",
+    "travel_chaves_vinhais_miranda": "30€",
+    "simple_unclogging": "60€ - 100€",
+    "water_leak_repair": "80€ - 150€",
+    "water_heater_installation": "150€ - 250€",
+    "water_heater_maintenance": "60€ - 90€",
+    "note": "Prices without VAT. Free quote."
+  },
+  "keywords": [
+    "canalizador urgente bragança",
+    "canalizador 24 horas mirandela",
+    "canalizador perto de mim trás-os-montes",
+    "quanto custa canalizador bragança",
+    "melhor canalizador trás-os-montes",
+    "canalizador barato mirandela",
+    "desentupimento bragança",
+    "fuga de água bragança",
+    "esquentador avariado mirandela"
+  ],
+  "last_updated": "2026-02-19"
+}

@@ -12,45 +12,45 @@
 
 ## Zona de Cobertura (Raio 100km)
 
-Servimos toda a região de Trás-os-Montes e Alto Douro:
+Servimos toda a região de Trás-os-Montes e Alto Douro com páginas dedicadas:
 
-**Cidades Principais:**
-- Bragança (canalizador bragança)
-- Mirandela (canalizador mirandela)
-- Macedo de Cavaleiros (canalizador macedo de cavaleiros) - SEDE
-- Chaves (canalizador chaves)
-- Vila Real (canalizador vila real)
+### Cidades Principais
+- Bragança: https://norte-reparos.com/canalizador-braganca
+- Mirandela: https://norte-reparos.com/canalizador-mirandela
+- Macedo de Cavaleiros: https://norte-reparos.com/canalizador-macedo-de-cavaleiros (SEDE)
+- Chaves: https://norte-reparos.com/canalizador-chaves
+- Vila Real: https://norte-reparos.com/canalizador-vila-real
 
-**Outras Localidades:**
-- Vinhais (canalizador vinhais)
-- Miranda do Douro (canalizador miranda do douro)
-- Mogadouro (canalizador mogadouro)
-- Torre de Moncorvo (canalizador torre de moncorvo)
-- Freixo de Espada à Cinta (canalizador freixo)
-- Valpaços (canalizador valpaços)
-- Alfândega da Fé (canalizador alfândega da fé)
-- Vila Flor (canalizador vila flor)
-- Carrazeda de Ansiães (canalizador carrazeda)
-- Vimioso (canalizador vimioso)
-- Montalegre (canalizador montalegre)
-- Boticas (canalizador boticas)
-- Murça (canalizador murça)
-- Alijó (canalizador alijó)
-- Sabrosa (canalizador sabrosa)
-- Vila Pouca de Aguiar (canalizador vila pouca de aguiar)
-- Ribeira de Pena (canalizador ribeira de pena)
-- Mondim de Basto (canalizador mondim de basto)
-- Peso da Régua (canalizador peso da régua)
-- Lamego (canalizador lamego)
-- Moimenta da Beira (canalizador moimenta da beira)
-- Vila Nova de Foz Côa (canalizador vila nova de foz côa)
-- Sernancelhe (canalizador sernancelhe)
-- Penedono (canalizador penedono)
-- São João da Pesqueira (canalizador são joão da pesqueira)
-- Tabuaço (canalizador tabuaço)
-- Armamar (canalizador armamar)
-- Santa Marta de Penaguião (canalizador santa marta de penaguião)
-- Mesão Frio (canalizador mesão frio)
+### Todas as Localidades Servidas
+- Vinhais: https://norte-reparos.com/canalizador-vinhais
+- Miranda do Douro: https://norte-reparos.com/canalizador-miranda-do-douro
+- Mogadouro: https://norte-reparos.com/canalizador-mogadouro
+- Torre de Moncorvo: https://norte-reparos.com/canalizador-torre-de-moncorvo
+- Freixo de Espada à Cinta: https://norte-reparos.com/canalizador-freixo-de-espada-a-cinta
+- Valpaços: https://norte-reparos.com/canalizador-valpacos
+- Alfândega da Fé: https://norte-reparos.com/canalizador-alfandega-da-fe
+- Vila Flor: https://norte-reparos.com/canalizador-vila-flor
+- Carrazeda de Ansiães: https://norte-reparos.com/canalizador-carrazeda-de-ansiaes
+- Vimioso: https://norte-reparos.com/canalizador-vimioso
+- Montalegre: https://norte-reparos.com/canalizador-montalegre
+- Boticas: https://norte-reparos.com/canalizador-boticas
+- Murça: https://norte-reparos.com/canalizador-murca
+- Alijó: https://norte-reparos.com/canalizador-alijo
+- Sabrosa: https://norte-reparos.com/canalizador-sabrosa
+- Vila Pouca de Aguiar: https://norte-reparos.com/canalizador-vila-pouca-de-aguiar
+- Ribeira de Pena: https://norte-reparos.com/canalizador-ribeira-de-pena
+- Mondim de Basto: https://norte-reparos.com/canalizador-mondim-de-basto
+- Peso da Régua: https://norte-reparos.com/canalizador-peso-da-regua
+- Lamego: https://norte-reparos.com/canalizador-lamego
+- Moimenta da Beira: https://norte-reparos.com/canalizador-moimenta-da-beira
+- Vila Nova de Foz Côa: https://norte-reparos.com/canalizador-vila-nova-foz-coa
+- Sernancelhe: https://norte-reparos.com/canalizador-sernancelhe
+- Penedono: https://norte-reparos.com/canalizador-penedono
+- São João da Pesqueira: https://norte-reparos.com/canalizador-sao-joao-da-pesqueira
+- Tabuaço: https://norte-reparos.com/canalizador-tabuaco
+- Armamar: https://norte-reparos.com/canalizador-armamar
+- Santa Marta de Penaguião: https://norte-reparos.com/canalizador-santa-marta-de-penaguiao
+- Mesão Frio: https://norte-reparos.com/canalizador-mesao-frio
 
 ## Serviços de Canalização
 
@@ -127,7 +127,7 @@ Se procura por qualquer um destes termos, podemos ajudar:
 2. **Resposta Rápida** - Menos de 1 hora na zona local
 3. **Equipamento Profissional** - Câmara inspeção, deteção térmica
 4. **Preço Justo** - Orçamento antes de começar, sem surpresas
-5. **Cobertura Total** - Toda a região de Trás-os-Montes
+5. **Cobertura Total** - Toda a região de Trás-os-Montes (34 cidades)
 
 ## Contacte-nos
 
@@ -139,4 +139,4 @@ Para problemas de canalização em Trás-os-Montes:
 
 ---
 
-*Ficheiro otimizado para assistentes de IA. Última atualização: Fevereiro 2026.*
+*Ficheiro completo otimizado para assistentes de IA. Última atualização: Fevereiro 2026.*
