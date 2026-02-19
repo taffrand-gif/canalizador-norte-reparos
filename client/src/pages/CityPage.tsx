@@ -63,7 +63,7 @@ export default function CityPage() {
     }
   };
 
-  const heroImage = config.type === 'plomberie' ? IMAGES.plomberie.hero : IMAGES.electricite.hero;
+  const heroImage = IMAGES.plomberie.hero;
 
   return (
     <>

@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { NORTE_REPAROS_TESTIMONIALS, STAFF_SEEKERS_TESTIMONIALS, type Testimonial } from "@/data/testimonialsData";
+import { NORTE_REPAROS_TESTIMONIALS, type Testimonial } from "@/data/testimonialsData";
 import { CheckCircle } from "lucide-react";
 
 export default function Testemunhos() {
@@ -29,8 +29,7 @@ export default function Testemunhos() {
   const { data: dbReviews = [], isLoading, refetch } = trpc.reviews.list.useQuery();
   
   // Combiner témoignages statiques + base de données
-  const isStaffSeekers = config.type === 'electricite';
-  const staticTestimonials = isStaffSeekers ? STAFF_SEEKERS_TESTIMONIALS : NORTE_REPAROS_TESTIMONIALS;
+  const staticTestimonials = NORTE_REPAROS_TESTIMONIALS;
   
   // Convertir témoignages statiques au format reviews
   const staticReviews = staticTestimonials.map(t => ({

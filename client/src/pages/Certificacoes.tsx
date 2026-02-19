@@ -36,7 +36,7 @@ export default function Certificacoes() {
                 <Shield className="h-16 w-16 text-red-600 mx-auto mb-4" />
                 <h3 className="font-bold text-xl mb-2">Certificação Profissional</h3>
                 <p className="text-gray-600">
-                  {config.type === 'plomberie' ? 'Canalizador' : 'Electricista'} certificado com mais de 10 anos de experiência
+                  Canalizador certificado com mais de 10 anos de experiência
                 </p>
               </Card>
 
@@ -59,11 +59,10 @@ export default function Certificacoes() {
 
             <Card className="p-8 bg-blue-50 border-blue-200">
               <h2 className="text-2xl font-bold mb-4 text-blue-900">
-                {config.type === 'plomberie' ? 'Certificação DGEG' : 'Certificação DGEG'}
+                Certificação DGEG
               </h2>
               <p className="text-blue-800">
                 Todos os nossos trabalhos são certificados e cumprem rigorosamente as normas técnicas portuguesas.
-                {config.type === 'electricite' && ' Emitimos certificado DGEG obrigatório para venda/arrendamento.'}
               </p>
             </Card>
           </div>

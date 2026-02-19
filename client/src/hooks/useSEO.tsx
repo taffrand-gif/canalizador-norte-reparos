@@ -137,34 +137,31 @@ export function generateMetaDescription(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    if (config.type === 'plomberie') {
-      return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h. Ligue ${config.phone}`;
-    } else {
-      return `${config.name} em ${ville} - Curto-circuitos, quadros elétricos, instalações. Urgências 24h. Ligue ${config.phone}`;
-    }
+    return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h. Ligue ${config.phone}`;
   }
   
-  // Page d'accueil
-  if (config.type === 'plomberie') {
-    return `${config.name} 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados. Ligue ${config.phone}`;
-  } else {
-    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de electricistas profissionais certificados. Ligue ${config.phone}`;
-  }
+  // Page d'accueil - Meta description renforcée SEO
+  return `Canalizador profissional 24h em Trás-os-Montes. Desentupimentos, reparação fugas de água, caldeiras. Orçamento gratuito. Ligue ${config.phone}`;
 }
 
 // Fonction pour générer les mots-clés SEO
 export function generateKeywords(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
-  const baseKeywords = config.type === 'plomberie' 
-    ? ['canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete', 'desentupimento', 'esquentador']
-    : ['electricista', 'electricista bragança', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
+  const baseKeywords = [
+    'canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 
+    'reparação canalização', 'urgência 24h', 'piquete', 'desentupimento', 
+    'esquentador', 'desentupimento urgente', 'canalizador 24 horas',
+    'fuga água urgente', 'cano entupido', 'reparação caldeira',
+    'desentupir sanita', 'canalizador perto de mim', 'desentupimento esgotos',
+    'reparação autoclismo', 'canalizador urgente', 'desentupimento sanitário'
+  ];
   
   if (ville) {
-    return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');
+    return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`, `canalizador ${ville}`, `desentupimento ${ville}`].join(', ');
   }
   
-  return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName].join(', ');
+  return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName, 'Trás-os-Montes', 'Macedo de Cavaleiros', 'Mirandela', 'Chaves'].join(', ');
 }
 
 // Fonction pour générer le schema LocalBusiness enrichi
@@ -208,10 +205,48 @@ export function generateLocalBusinessSchema(ville?: string) {
       "@type": "City",
       "name": ville || "Bragança"
     },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de Canalização",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Desentupimentos Urgentes",
+            "description": "Desentupimento de sanitas, pias, esgotos e canalizações"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Reparação de Fugas de Água",
+            "description": "Localização e reparação de fugas em paredes, tetos e canalizações"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instalação e Reparação de Esquentadores",
+            "description": "Instalação certificada e reparação de esquentadores a gás e elétricos"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Substituição de Canalizações",
+            "description": "Substituição completa ou parcial de canalizações antigas"
+          }
+        }
+      ]
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127",
+      "ratingValue": "4.9",
+      "reviewCount": "52",
       "bestRating": "5",
       "worstRating": "1"
     },

@@ -11,11 +11,11 @@ interface Dica {
 
 export default function Dicas() {
   const config = ACTIVE_CONFIG;
-  const dicas = getDicas(config.type);
+  const dicas = getDicas();
 
   useSEO({
     title: `Dicas e Conselhos | ${config.businessName}`,
-    description: `Dicas úteis para prevenir problemas de ${config.type === 'plomberie' ? 'canalização' : 'eletricidade'}. Conselhos de especialistas disponíveis 24h.`,
+    description: `Dicas úteis para prevenir problemas de canalização. Conselhos de especialistas disponíveis 24h.`,
     canonical: `https://${config.domain}/dicas`,
   });
 
@@ -62,112 +62,57 @@ export default function Dicas() {
   );
 }
 
-function getDicas(serviceType: 'plomberie' | 'electricite'): Dica[] {
-  if (serviceType === 'plomberie') {
-    return [
-      {
-        icon: '💧',
-        title: 'Verifique regularmente as torneiras',
-        content: 'Inspecione todas as torneiras da sua casa mensalmente. Uma torneira a pingar pode desperdiçar até 20 litros de água por dia e aumentar significativamente a sua fatura.',
-      },
-      {
-        icon: '🚿',
-        title: 'Limpe os ralos com frequência',
-        content: 'Evite entupimentos removendo cabelos e resíduos dos ralos semanalmente. Use uma rede de proteção para evitar que detritos entrem na canalização.',
-      },
-      {
-        icon: '🔧',
-        title: 'Não force válvulas e torneiras',
-        content: 'Se uma torneira estiver difícil de fechar, não force. Isso pode danificar as vedações e causar fugas. Chame um profissional para ajustar ou substituir as peças.',
-      },
-      {
-        icon: '❄️',
-        title: 'Proteja os canos no inverno',
-        content: 'Em períodos de frio intenso, isole os canos expostos para evitar congelamento e rebentamento. Deixe uma torneira a pingar ligeiramente durante a noite.',
-      },
-      {
-        icon: '🚽',
-        title: 'Não deite lixo na sanita',
-        content: 'Nunca deite toalhitas, cotonetes, fraldas ou outros objetos na sanita. Mesmo produtos "biodegradáveis" podem causar entupimentos graves.',
-      },
-      {
-        icon: '🔍',
-        title: 'Verifique o contador de água',
-        content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
-      },
-      {
-        icon: '🧼',
-        title: 'Evite produtos químicos agressivos',
-        content: 'Produtos de desentupimento químicos podem danificar as canalizações a longo prazo. Prefira métodos mecânicos ou chame um profissional.',
-      },
-      {
-        icon: '⚙️',
-        title: 'Faça manutenção preventiva',
-        content: 'Agende uma inspeção anual com um canalizador profissional para detetar problemas antes que se tornem emergências caras.',
-      },
-      {
-        icon: '💰',
-        title: 'Invista em equipamentos de qualidade',
-        content: 'Torneiras, autoclismos e esquentadores de qualidade duram mais e têm menos problemas. O investimento inicial compensa a longo prazo.',
-      },
-      {
-        icon: '📞',
-        title: 'Tenha sempre um contacto de emergência',
-        content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.',
-      },
-    ];
-  } else {
-    return [
-      {
-        icon: '💧',
-        title: 'Verifique regularmente as fugas',
-        content: 'Inspecione todas as torneiras, autoclismos e canos visíveis mensalmente. Uma pequena fuga pode desperdiçar centenas de litros de água e causar danos graves.',
-      },
-      {
-        icon: '🚿',
-        title: 'Limpe os ralos com frequência',
-        content: 'Evite entupimentos removendo cabelos e resíduos dos ralos semanalmente. Use uma rede de proteção para evitar que detritos entrem na canalização.',
-      },
-      {
-        icon: '🔧',
-        title: 'Não force válvulas e torneiras',
-        content: 'Se uma torneira estiver difícil de fechar, não force. Isso pode danificar as vedações e causar fugas. Chame um profissional para ajustar ou substituir as peças.',
-      },
-      {
-        icon: '❄️',
-        title: 'Proteja os canos no inverno',
-        content: 'Em períodos de frio intenso, isole os canos expostos para evitar congelamento e rebentamento. Deixe uma torneira a pingar ligeiramente durante a noite.',
-      },
-      {
-        icon: '🚽',
-        title: 'Não deite lixo na sanita',
-        content: 'Nunca deite toalhitas, cotonetes, fraldas ou outros objetos na sanita. Mesmo produtos "biodegradáveis" podem causar entupimentos graves.',
-      },
-      {
-        icon: '🔍',
-        title: 'Verifique o contador de água',
-        content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
-      },
-      {
-        icon: '🧼',
-        title: 'Evite produtos químicos agressivos',
-        content: 'Produtos de desentupimento químicos podem danificar as canalizações a longo prazo. Prefira métodos mecânicos ou chame um profissional.',
-      },
-      {
-        icon: '⚙️',
-        title: 'Faça manutenção preventiva',
-        content: 'Agende uma inspeção anual com um canalizador profissional para detetar problemas antes que se tornem emergências caras.',
-      },
-      {
-        icon: '💰',
-        title: 'Invista em equipamentos de qualidade',
-        content: 'Torneiras, autoclismos e esquentadores de qualidade duram mais e têm menos problemas. O investimento inicial compensa a longo prazo.',
-      },
-      {
-        icon: '📞',
-        title: 'Tenha sempre um contacto de emergência',
-        content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.',
-      },
-    ];
-  }
+function getDicas(): Dica[] {
+  return [
+    {
+      icon: '💧',
+      title: 'Verifique regularmente as torneiras',
+      content: 'Inspecione todas as torneiras da sua casa mensalmente. Uma torneira a pingar pode desperdiçar até 20 litros de água por dia e aumentar significativamente a sua fatura.',
+    },
+    {
+      icon: '🚿',
+      title: 'Limpe os ralos com frequência',
+      content: 'Evite entupimentos removendo cabelos e resíduos dos ralos semanalmente. Use uma rede de proteção para evitar que detritos entrem na canalização.',
+    },
+    {
+      icon: '🔧',
+      title: 'Não force válvulas e torneiras',
+      content: 'Se uma torneira estiver difícil de fechar, não force. Isso pode danificar as vedações e causar fugas. Chame um profissional para ajustar ou substituir as peças.',
+    },
+    {
+      icon: '❄️',
+      title: 'Proteja os canos no inverno',
+      content: 'Em períodos de frio intenso, isole os canos expostos para evitar congelamento e rebentamento. Deixe uma torneira a pingar ligeiramente durante a noite.',
+    },
+    {
+      icon: '🚽',
+      title: 'Não deite lixo na sanita',
+      content: 'Nunca deite toalhitas, cotonetes, fraldas ou outros objetos na sanita. Mesmo produtos "biodegradáveis" podem causar entupimentos graves.',
+    },
+    {
+      icon: '🔍',
+      title: 'Verifique o contador de água',
+      content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
+    },
+    {
+      icon: '🧼',
+      title: 'Evite produtos químicos agressivos',
+      content: 'Produtos de desentupimento químicos podem danificar as canalizações a longo prazo. Prefira métodos mecânicos ou chame um profissional.',
+    },
+    {
+      icon: '⚙️',
+      title: 'Faça manutenção preventiva',
+      content: 'Agende uma inspeção anual com um canalizador profissional para detetar problemas antes que se tornem emergências caras.',
+    },
+    {
+      icon: '💰',
+      title: 'Invista em equipamentos de qualidade',
+      content: 'Torneiras, autoclismos e esquentadores de qualidade duram mais e têm menos problemas. O investimento inicial compensa a longo prazo.',
+    },
+    {
+      icon: '📞',
+      title: 'Tenha sempre um contacto de emergência',
+      content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.',
+    },
+  ];
 }

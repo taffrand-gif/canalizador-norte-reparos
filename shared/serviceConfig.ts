@@ -1,9 +1,9 @@
 /**
- * Configuration du service (Plomberie ou Électricité)
+ * Configuration du service Plomberie
  * Modifier ces variables pour personnaliser le site
  */
 
-export type ServiceType = 'plomberie' | 'electricite';
+export type ServiceType = 'plomberie';
 
 export interface ServiceConfig {
   type: ServiceType;
@@ -83,57 +83,32 @@ export const plumberieConfig: ServiceConfig = {
     'entupimento ralo',
     'esquentador avariado',
     'fuga tubagem',
-  ],
-};
-
-// Configuration Électricité (Staff Seekers)
-export const electriciteConfig: ServiceConfig = {
-  type: 'electricite',
-  name: 'Electricista',
-  businessName: 'Electricista Profissional 24h',
-  phone: '+351932321892',
-  whatsappNumber: '+351932321892',
-  domain: 'staff-seekers.com',
-  googleAdsId: 'AW-17915870228',
-  googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
-  
-  // Couleurs: JAUNE/AMBRE (#FFA000) + bleu foncé (#1A237E) + blanc
-  gradient: {
-    from: '#FFA000',  // Ambre principal
-    to: '#FF8F00',    // Ambre foncé
-  },
-  accentColor: '#1A237E',  // Bleu foncé pour CTA
-  
-  heroTitle: 'Electricista Profissional em Trás-os-Montes',
-  heroSubtitle: 'Instalações, reparações e certificação elétrica — segurança garantida',
-  heroEmoji: '⚡',
-  serviceEmoji: '🔌',
-  
-  services: [
-    'Instalação Elétrica Completa',
-    'Reparação de Avarias Elétricas',
-    'Quadros Elétricos',
-    'Iluminação Interior/Exterior',
-    'Certificação Elétrica',
-    'Urgências 24h',
-  ],
-  
-  commonProblems: [
-    'disjuntor que salta',
-    'tomada sobreaquecida',
-    'curto-circuito',
-    'falta de luz',
-    'interruptor defeituoso',
-    'quadro elétrico antigo',
-    'certificação elétrica',
-    'instalação nova',
-    'problemas de iluminação',
-    'cablagem exposta',
-    'sobrecarga elétrica',
-    'fuga à terra',
-    'diferencial não testa',
-    'painéis solares',
-    'automação residencial',
+    // Termes de recherche plomberie supplémentaires
+    'desentupimento urgente',
+    'canalizador 24 horas',
+    'fuga água parede',
+    'cano entupido',
+    'reparação caldeira',
+    'desentupir sanita',
+    'canalizador perto de mim',
+    'desentupimento esgotos',
+    'reparação autoclismo',
+    'entupimento sanitário',
+    'fuga água chão',
+    'reparação esquentador',
+    'canalizador emergência',
+    'desentupimento domingo',
+    'canalizador barato',
+    'reparação canalização antiga',
+    'desentupimento pia cozinha',
+    'canalizador aldeias remotas',
+    'fuga água jardim',
+    'entupimento banheira',
+    'reparação torneira misturadora',
+    'desentupimento lavatório',
+    'fuga água piscina',
+    'reparação sistema aquecimento',
+    'entupimento canalização exterior',
   ],
 };
 

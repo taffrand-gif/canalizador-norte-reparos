@@ -4,34 +4,7 @@ import { Euro, Clock, Shield, Check, MapPin, AlertCircle } from 'lucide-react';
 
 export default function PriceTable() {
   const { config } = useSite();
-  const isPlumber = config.id === 'norte-reparos';
   
-  // Use existing prices or defaults if needed (though we rely on config mainly now)
-  // For the grid of interventions, we can keep the static list but ideally move to config later.
-  // For now, I will keep the static list for interventions as it serves as "Intervention Standard" examples.
-
-   // Tabela de preços para eletricidade (sem IVA)
-   const electricPrices = [
-    {
-      service: "Pequena Reparação",
-      description: "Tomadas, interruptores, pontos de luz",
-      price: "30€ - 45€",
-      details: ["30 min de trabalho", "Pequeno material incluído", "Deslocação à parte"],
-    },
-    {
-      service: "Intervenção Standard",
-      description: "Avarias, quadros, curto-circuitos",
-      price: "50€ - 80€",
-      details: ["1h de trabalho", "Pesquisa de avaria", "Resolução duradoura"],
-    },
-    {
-      service: "Certificação / Potência",
-      description: "Certificação CERTIEL ou aumento potência",
-      price: "Sob Orçamento",
-      details: ["Vistoria técnica", "Tratamos da papelada", "Garantia de aprovação"],
-    }
-  ];
-
   // Tabela de preços para canalização (sem IVA)
   const plumbPrices = [
     {
@@ -54,7 +27,7 @@ export default function PriceTable() {
     }
   ];
 
-  const interventionPrices = isPlumber ? plumbPrices : electricPrices;
+  const interventionPrices = plumbPrices;
 
   return (
     <section id="precos" className="py-16 bg-white">

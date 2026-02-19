@@ -1,5 +1,5 @@
 // Structured Data (Schema.org) component
-// Schema Markup LocalBusiness: Plumber pour norte-reparos, Electrician pour staff-seekers
+// Schema Markup LocalBusiness pour Norte-Reparos (Canalizador)
 
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
@@ -14,9 +14,8 @@ export default function StructuredData() {
     const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
     existingScripts.forEach(script => script.remove());
 
-    const isPlumber = config.id === 'norte-reparos';
-    const businessType = isPlumber ? 'Plumber' : 'Electrician';
-    const serviceName = isPlumber ? 'Canalizador' : 'Electricista';
+    const businessType = 'Plumber';
+    const serviceName = 'Canalizador';
     
     // Liste des 10 villes servies
     const citiesServed = [
@@ -72,8 +71,8 @@ export default function StructuredData() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "ratingCount": isPlumber ? "52" : "48",
-        "reviewCount": isPlumber ? "52" : "48",
+        "ratingCount": "52",
+        "reviewCount": "52",
         "bestRating": "5",
         "worstRating": "1"
       },
