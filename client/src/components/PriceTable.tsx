@@ -139,11 +139,11 @@ export default function PriceTable() {
                  </h3>
                  <div className="space-y-6">
                     <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
-                        <h4 className="font-bold text-blue-900 mb-2">"Moro em Macedo e preciso trocar um disjuntor."</h4>
+                        <h4 className="font-bold text-blue-900 mb-2">"Moro em Macedo e tenho a pia da cozinha entupida."</h4>
                         <ul className="space-y-1 text-blue-800 text-sm">
                             <li className="flex justify-between"><span>Deslocação (Zone 1):</span> <span>10€</span></li>
-                            <li className="flex justify-between"><span>Mão de Obra (30min):</span> <span>30€</span></li>
-                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>40€</span></li>
+                            <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>35€</span></li>
+                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>45€</span></li>
                         </ul>
                     </div>
 

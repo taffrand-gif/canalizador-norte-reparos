@@ -236,13 +236,13 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
   'staff-seekers': {
     id: 'staff-seekers',
     name: 'Staff Seekers',
-    title: 'Eletricista Certificado em Trás-os-Montes | Staff Seekers — Instalação & Reparação Elétrica 24h',
-    description: 'Eletricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
+    title: 'Electricista Certificado em Trás-os-Montes | Staff Seekers — Instalação & Reparação Elétrica 24h',
+    description: 'Electricista certificado em Trás-os-Montes. Reparações elétricas, quadros elétricos, certificação CERTIEL. Disponível 24h em Bragança e região.',
     phone: '932 321 892',
     whatsapp: '351932321892',
-    whatsappMessage: 'Olá, preciso de um eletricista em Trás-os-Montes. Podem dar-me um orçamento?',
+    whatsappMessage: 'Olá, preciso de um electricista em Trás-os-Montes. Podem dar-me um orçamento?',
     email: 'info@staff-seekers.com',
-    serviceType: 'Eletricista',
+    serviceType: 'Electricista',
     domain: 'staff-seekers.com',
     
     colors: {
@@ -300,7 +300,7 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     team: [
       {
         name: "Sr. Carlos 'O Mestre'",
-        role: "Mestre Eletricista",
+        role: "Mestre Electricista",
         location: "Bragança",
         bio: "58 anos. 35 anos de profissão. Rosto marcado pelo frio transmontano. Especialidade: colocação às normas, quadros antigos.",
         quote: "\"O quadro é antigo, mas a gente resolve sem partir a parede toda.\"",
@@ -351,15 +351,15 @@ export const siteConfigs: Record<SiteId, SiteConfig> = {
     ],
     
     company: {
-      fullName: 'Staff Seekers — Eletricista Profissional',
-      shortDescription: 'Eletricista certificado ao seu serviço em Trás-os-Montes.',
+      fullName: 'Staff Seekers — Electricista Profissional',
+      shortDescription: 'Electricista certificado ao seu serviço em Trás-os-Montes.',
       longDescription: 'A Staff Seekers presta serviços de eletricidade profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de sistemas elétricos, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
       coverage: 'Trás-os-Montes — Distrito de Bragança e região',
       yearEstablished: '2015',
     },
     
     seo: {
-      keywords: ['eletricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'eletricista urgente', 'instalação elétrica'],
+      keywords: ['electricista', 'bragança', 'trás-os-montes', 'macedo de cavaleiros', 'quadro elétrico', 'curto-circuito', 'certificação CERTIEL', 'electricista urgente', 'instalação elétrica'],
       ogImage: '/images-optimized/hero/hero-electrician-portugal.jpg',
     },
   },

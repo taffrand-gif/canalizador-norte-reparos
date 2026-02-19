@@ -89,8 +89,8 @@ export const plumberieConfig: ServiceConfig = {
 // Configuration Électricité (Staff Seekers)
 export const electriciteConfig: ServiceConfig = {
   type: 'electricite',
-  name: 'Eletricista',
-  businessName: 'Eletricista Profissional 24h',
+  name: 'Electricista',
+  businessName: 'Electricista Profissional 24h',
   phone: '+351932321892',
   whatsappNumber: '+351932321892',
   domain: 'staff-seekers.com',
@@ -104,7 +104,7 @@ export const electriciteConfig: ServiceConfig = {
   },
   accentColor: '#1A237E',  // Bleu foncé pour CTA
   
-  heroTitle: 'Eletricista Profissional em Trás-os-Montes',
+  heroTitle: 'Electricista Profissional em Trás-os-Montes',
   heroSubtitle: 'Instalações, reparações e certificação elétrica — segurança garantida',
   heroEmoji: '⚡',
   serviceEmoji: '🔌',
@@ -119,21 +119,21 @@ export const electriciteConfig: ServiceConfig = {
   ],
   
   commonProblems: [
-    'curto-circuito',
-    'disjuntor salta',
-    'sem luz',
-    'quadro avariado',
-    'tomada com problemas',
-    'fiação defeituosa',
-    'interruptor não funciona',
-    'curto na cozinha',
-    'tomada a aquecer',
-    'fiação exposta',
-    'falha elétrica geral',
-    'curto no chuveiro',
-    'disjuntor não arma',
-    'fiação a cheirar a queimado',
-    'tomada sem energia',
+    'fuga de água urgente',
+    'cano entupido',
+    'sem água quente',
+    'caldeira avariada',
+    'torneira com problemas',
+    'canalização defeituosa',
+    'autoclismo não funciona',
+    'fuga na cozinha',
+    'torneira a aquecer',
+    'canalização exposta',
+    'falha hidráulica geral',
+    'fuga no chuveiro',
+    'cano não desentope',
+    'canalização a cheirar a humidade',
+    'torneira sem água',
   ],
 };
 

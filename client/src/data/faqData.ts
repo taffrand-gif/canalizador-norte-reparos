@@ -138,8 +138,8 @@ export const NORTE_REPAROS_FAQ: FAQItem[] = [
 export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   {
     id: 1,
-    question: "Quanto custa chamar um eletricista em Bragança?",
-    answer: "O custo de chamar um eletricista em Bragança varia conforme o tipo de intervenção. Para uma visita de diagnóstico, o preço médio é de 40€ a 55€. Reparações simples como substituição de tomadas ou interruptores começam em 35€, enquanto instalações de quadros elétricos variam entre 200€ e 600€ dependendo da complexidade. Certificações elétricas DGEG custam entre 150€ e 400€ conforme o tipo de instalação. Trabalhamos com orçamentos gratuitos e transparentes - contacte-nos para um orçamento personalizado sem compromisso. Urgências 24/7 disponíveis com acréscimo de 30% em horário noturno.",
+    question: "Quanto custa chamar um electricista em Bragança?",
+    answer: "O custo de chamar um electricista em Bragança varia conforme o tipo de intervenção. Para uma visita de diagnóstico, o preço médio é de 40€ a 55€. Reparações simples como substituição de tomadas ou interruptores começam em 35€, enquanto instalações de quadros elétricos variam entre 200€ e 600€ dependendo da complexidade. Certificações elétricas DGEG custam entre 150€ e 400€ conforme o tipo de instalação. Trabalhamos com orçamentos gratuitos e transparentes - contacte-nos para um orçamento personalizado sem compromisso. Urgências 24/7 disponíveis com acréscimo de 30% em horário noturno.",
     category: "Preços"
   },
   {
@@ -223,7 +223,7 @@ export const STAFF_SEEKERS_FAQ: FAQItem[] = [
   {
     id: 15,
     question: "Preciso de licença para obras elétricas?",
-    answer: "Obras elétricas em Portugal: Não precisa licença prévia para obras elétricas, mas precisa certificação DGEG após conclusão se: instalação nova, alteração significativa (novo quadro, aumento de potência, divisão nova), ou imóvel para venda. Obras que requerem certificação: novo quadro elétrico, aumento de potência, instalação de ar condicionado trifásico, ou alteração de mais de 30% dos circuitos. Obras que não requerem: substituição de tomadas/interruptores, lâmpadas, ou pequenas reparações. Todas as obras devem ser executadas por eletricista certificado para garantir segurança e conformidade. Multas por instalação não certificada: 250€ a 3.740€. Certificamos todas as instalações incluído no preço.",
+    answer: "Obras elétricas em Portugal: Não precisa licença prévia para obras elétricas, mas precisa certificação DGEG após conclusão se: instalação nova, alteração significativa (novo quadro, aumento de potência, divisão nova), ou imóvel para venda. Obras que requerem certificação: novo quadro elétrico, aumento de potência, instalação de ar condicionado trifásico, ou alteração de mais de 30% dos circuitos. Obras que não requerem: substituição de tomadas/interruptores, lâmpadas, ou pequenas reparações. Todas as obras devem ser executadas por electricista certificado para garantir segurança e conformidade. Multas por instalação não certificada: 250€ a 3.740€. Certificamos todas as instalações incluído no preço.",
     category: "Legislação"
   },
   {

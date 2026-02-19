@@ -16,7 +16,7 @@ export default function StructuredData() {
 
     const isPlumber = config.id === 'norte-reparos';
     const businessType = isPlumber ? 'Plumber' : 'Electrician';
-    const serviceName = isPlumber ? 'Canalizador' : 'Eletricista';
+    const serviceName = isPlumber ? 'Canalizador' : 'Electricista';
     
     // Liste des 10 villes servies
     const citiesServed = [

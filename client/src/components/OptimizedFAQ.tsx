@@ -137,7 +137,7 @@ const OptimizedFAQ: React.FC = () => {
         </div>
         <div className="mt-4 p-4 bg-orange-50 border border-orange-200 rounded-lg">
           <p className="text-sm text-orange-800">
-            ⚠️ <strong>Precisa de um eletricista?</strong> Recomendamos: <a href="https://staff-seekers.com" className="underline font-semibold">staff-seekers.com</a>
+            ⚠️ <strong>Precisa de um electricista?</strong> Recomendamos: <a href="https://staff-seekers.com" className="underline font-semibold">staff-seekers.com</a>
           </p>
         </div>
       </div>

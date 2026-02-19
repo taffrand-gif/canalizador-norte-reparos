@@ -687,7 +687,7 @@ Se os disjuntores da sua casa saltam regularmente, é um sinal claro de problema
 ### O que Fazer:
 1. Identifique qual o disjuntor que salta
 2. Desligue aparelhos desse circuito
-3. Se continuar a saltar, contacte um eletricista
+3. Se continuar a saltar, contacte um electricista
 4. **Nunca** substitua por um disjuntor de maior capacidade
 
 **Atenção:** Disjuntores são dispositivos de segurança. Se saltam, há um motivo que deve ser investigado.
@@ -724,7 +724,7 @@ Tomadas e interruptores nunca devem estar quentes ao toque.
 - Fiação inadequada
 - Componentes defeituosos
 
-**Ação Imediata:** Pare de usar a tomada/interruptor e contacte um eletricista urgentemente.
+**Ação Imediata:** Pare de usar a tomada/interruptor e contacte um electricista urgentemente.
 
 ## 4. Choques Elétricos Leves
 
@@ -754,7 +754,7 @@ Cheiro a queimado é sempre um sinal de alarme.
 3. **Não use água** em incêndios elétricos
 4. **Evacue** se houver fumo
 5. **Ligue 112** se houver fogo
-6. **Contacte eletricista** após garantir segurança
+6. **Contacte electricista** após garantir segurança
 
 ### Causas Comuns:
 - Sobrecarga de circuitos
@@ -797,7 +797,7 @@ Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
 - Maior risco de incêndio
 - Falta de proteções essenciais
 
-## Quando Chamar um Eletricista
+## Quando Chamar um Electricista
 
 ### Urgente (24h):
 - Choques elétricos
@@ -836,7 +836,7 @@ Se a sua casa tem mais de 25 anos e nunca foi renovada, pode ter problemas.
 
 ## Conclusão
 
-A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um eletricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
+A segurança elétrica não é algo para ignorar. Se notar qualquer um destes sinais, não hesite em contactar um electricista profissional. É melhor prevenir do que remediar, especialmente quando se trata de eletricidade.
 
 A **Staff Seekers** está disponível 24 horas para emergências elétricas em Bragança e arredores. Técnicos certificados, intervenção rápida e trabalho garantido.
 
@@ -1139,12 +1139,12 @@ Apenas **técnicos certificados** pela DGEG (Direção-Geral de Energia e Geolog
 ## Processo de Certificação
 
 ### Passo 1: Contratação
-- Contacte um eletricista certificado
+- Contacte um electricista certificado
 - Explique o tipo de trabalho necessário
 - Peça orçamento incluindo certificação
 
 ### Passo 2: Execução
-- O eletricista executa o trabalho
+- O electricista executa o trabalho
 - Deve seguir todas as normas técnicas
 - Usa materiais certificados
 
@@ -1898,7 +1898,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 ### Checklist Anual:
 
-- ☐ Inspeção por eletricista
+- ☐ Inspeção por electricista
 - ☐ Teste de disjuntor diferencial
 - ☐ Verificação de ligação à terra
 - ☐ Atualização de proteções
@@ -1906,7 +1906,7 @@ As crianças são naturalmente curiosas e não têm noção dos perigos da eletr
 
 ## Sinais de Alerta
 
-### Contacte Eletricista se:
+### Contacte Electricista se:
 
 - ⚠️ Tomadas quentes
 - ⚠️ Cheiro a queimado

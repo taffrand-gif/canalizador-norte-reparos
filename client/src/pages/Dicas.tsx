@@ -119,54 +119,54 @@ function getDicas(serviceType: 'plomberie' | 'electricite'): Dica[] {
   } else {
     return [
       {
-        icon: '⚡',
-        title: 'Não sobrecarregue as tomadas',
-        content: 'Evite ligar múltiplos aparelhos de alta potência na mesma tomada. Use extensões com proteção contra sobrecarga e nunca ligue várias extensões em cadeia.',
+        icon: '💧',
+        title: 'Verifique regularmente as fugas',
+        content: 'Inspecione todas as torneiras, autoclismos e canos visíveis mensalmente. Uma pequena fuga pode desperdiçar centenas de litros de água e causar danos graves.',
       },
       {
-        icon: '🔌',
-        title: 'Verifique os cabos regularmente',
-        content: 'Inspecione os cabos elétricos dos seus aparelhos. Se estiverem gastos, rachados ou expostos, substitua-os imediatamente para evitar curto-circuitos.',
-      },
-      {
-        icon: '💡',
-        title: 'Use lâmpadas LED',
-        content: 'As lâmpadas LED consomem até 80% menos energia que as incandescentes, duram muito mais tempo e geram menos calor, reduzindo o risco de sobreaquecimento.',
-      },
-      {
-        icon: '🛡️',
-        title: 'Instale proteções contra surtos',
-        content: 'Proteja equipamentos sensíveis (computadores, TVs) com dispositivos de proteção contra picos de tensão. Trovoadas podem causar danos irreparáveis.',
+        icon: '🚿',
+        title: 'Limpe os ralos com frequência',
+        content: 'Evite entupimentos removendo cabelos e resíduos dos ralos semanalmente. Use uma rede de proteção para evitar que detritos entrem na canalização.',
       },
       {
         icon: '🔧',
-        title: 'Não faça reparações sem conhecimento',
-        content: 'Trabalhos elétricos mal executados podem causar incêndios ou choques elétricos fatais. Sempre contrate um eletricista certificado para reparações.',
+        title: 'Não force válvulas e torneiras',
+        content: 'Se uma torneira estiver difícil de fechar, não force. Isso pode danificar as vedações e causar fugas. Chame um profissional para ajustar ou substituir as peças.',
       },
       {
-        icon: '🏠',
-        title: 'Mantenha o quadro elétrico acessível',
-        content: 'Nunca bloqueie o acesso ao quadro elétrico. Em caso de emergência, precisa de conseguir desligar a eletricidade rapidamente.',
+        icon: '❄️',
+        title: 'Proteja os canos no inverno',
+        content: 'Em períodos de frio intenso, isole os canos expostos para evitar congelamento e rebentamento. Deixe uma torneira a pingar ligeiramente durante a noite.',
+      },
+      {
+        icon: '🚽',
+        title: 'Não deite lixo na sanita',
+        content: 'Nunca deite toalhitas, cotonetes, fraldas ou outros objetos na sanita. Mesmo produtos "biodegradáveis" podem causar entupimentos graves.',
       },
       {
         icon: '🔍',
-        title: 'Teste os disjuntores mensalmente',
-        content: 'Verifique se os disjuntores funcionam corretamente desligando-os e voltando a ligar. Um disjuntor defeituoso pode não proteger em caso de sobrecarga.',
+        title: 'Verifique o contador de água',
+        content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
       },
       {
-        icon: '💧',
-        title: 'Mantenha a eletricidade longe da água',
-        content: 'Nunca toque em interruptores ou aparelhos elétricos com as mãos molhadas. Instale tomadas com proteção IP44 em casas de banho e cozinhas.',
+        icon: '🧼',
+        title: 'Evite produtos químicos agressivos',
+        content: 'Produtos de desentupimento químicos podem danificar as canalizações a longo prazo. Prefira métodos mecânicos ou chame um profissional.',
       },
       {
-        icon: '📋',
-        title: 'Faça certificação elétrica regular',
-        content: 'A certificação elétrica é obrigatória e garante que a sua instalação está segura e conforme as normas. Renove-a periodicamente.',
+        icon: '⚙️',
+        title: 'Faça manutenção preventiva',
+        content: 'Agende uma inspeção anual com um canalizador profissional para detetar problemas antes que se tornem emergências caras.',
+      },
+      {
+        icon: '💰',
+        title: 'Invista em equipamentos de qualidade',
+        content: 'Torneiras, autoclismos e esquentadores de qualidade duram mais e têm menos problemas. O investimento inicial compensa a longo prazo.',
       },
       {
         icon: '📞',
         title: 'Tenha sempre um contacto de emergência',
-        content: 'Guarde o número de um eletricista de confiança disponível 24h. Problemas elétricos podem ser perigosos e requerem intervenção imediata.',
+        content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.',
       },
     ];
   }

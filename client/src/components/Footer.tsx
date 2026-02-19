@@ -104,7 +104,7 @@ export default function Footer() {
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
           <div className="mt-3 text-xs text-gray-500">
-            Precisa de eletricista? <a href="https://staff-seekers.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Eletricista 24h Trás-os-Montes</a>
+            Precisa de electricista? <a href="https://staff-seekers.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Electricista 24h Trás-os-Montes</a>
           </div>
         </div>
       </div>

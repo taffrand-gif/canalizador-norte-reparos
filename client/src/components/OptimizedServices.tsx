@@ -172,7 +172,7 @@ const OptimizedServices: React.FC = () => {
               </p>
               <div className="mt-6 p-4 bg-orange-50 border border-orange-200 rounded-lg">
                 <p className="text-orange-800 font-semibold">
-                  ⚠️ Precisa de um eletricista? Recomendamos: <a href="https://staff-seekers.com" className="underline">staff-seekers.com</a>
+                  ⚠️ Precisa de um electricista? Recomendamos: <a href="https://staff-seekers.com" className="underline">staff-seekers.com</a>
                 </p>
               </div>
             </div>

@@ -14,7 +14,7 @@ export default function SEOHead() {
     if (loading) return config.title; // Titre par défaut pendant le chargement
     
     // Remplacer "Bragança" par la ville détectée
-    const serviceType = config.serviceType; // "Canalizador" ou "Eletricista"
+    const serviceType = config.serviceType; // "Canalizador" ou "Electricista"
     return `${serviceType} 24h ${city} | Urgências Trás-os-Montes`;
   }, [config, city, loading]);
 

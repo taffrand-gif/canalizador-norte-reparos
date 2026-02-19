@@ -148,7 +148,7 @@ export function generateMetaDescription(ville?: string): string {
   if (config.type === 'plomberie') {
     return `${config.name} 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados. Ligue ${config.phone}`;
   } else {
-    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de eletricistas profissionais certificados. Ligue ${config.phone}`;
+    return `${config.name} 24h - instalação, reparação e manutenção de sistemas elétricos. Equipa de electricistas profissionais certificados. Ligue ${config.phone}`;
   }
 }
 
@@ -158,7 +158,7 @@ export function generateKeywords(ville?: string): string {
   
   const baseKeywords = config.type === 'plomberie' 
     ? ['canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 'reparação canalização', 'urgência 24h', 'piquete', 'desentupimento', 'esquentador']
-    : ['eletricista', 'eletricista bragança', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
+    : ['electricista', 'electricista bragança', 'curto-circuito', 'quadro elétrico', 'instalação elétrica', 'urgência 24h', 'certificação'];
   
   if (ville) {
     return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`].join(', ');
