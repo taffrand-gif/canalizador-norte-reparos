@@ -175,9 +175,9 @@ export default function PouparAguaCasa() {
           <div className="container max-w-3xl">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Em <a href="/vila-real" className="text-blue-600 hover:underline">Vila Real</a>, 
-                <a href="/braganca" className="text-blue-600 hover:underline"> Bragança</a> e 
-                <a href="/chaves" className="text-blue-600 hover:underline"> Chaves</a>, uma família de 4 pessoas 
+                Em <a href="/canalizador-vila-real" className="text-blue-600 hover:underline">Vila Real</a>, 
+                <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> e 
+                <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>, uma família de 4 pessoas 
                 gasta em média <strong>12-15m³ de água por mês</strong> (€30-50 na conta). Com pequenas mudanças, 
                 pode reduzir para 8-10m³ e poupar <strong>€150-250 por ano</strong>.
               </p>
@@ -287,7 +287,7 @@ export default function PouparAguaCasa() {
             <h2 className="text-3xl font-black mb-6 text-center">Quanto Pode Poupar?</h2>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <p className="text-gray-700 mb-6">
-                Simulação para família de 4 pessoas em <a href="/macedo-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>:
+                Simulação para família de 4 pessoas em <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>:
               </p>
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-4 border-b">
@@ -387,8 +387,8 @@ export default function PouparAguaCasa() {
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Instalamos torneiras económicas, autoclismos dupla descarga, sistemas de recuperação de água 
-              da chuva e muito mais em <a href="/mirandela" className="underline hover:no-underline">Mirandela</a>, 
-              <a href="/braganca" className="underline hover:no-underline"> Bragança</a> e toda a região.
+              da chuva e muito mais em <a href="/canalizador-mirandela" className="underline hover:no-underline">Mirandela</a>, 
+              <a href="/canalizador-braganca" className="underline hover:no-underline"> Bragança</a> e toda a região.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

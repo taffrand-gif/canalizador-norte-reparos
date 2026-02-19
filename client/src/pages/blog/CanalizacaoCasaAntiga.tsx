@@ -103,10 +103,10 @@ export default function CanalizacaoCasaAntiga() {
           <div className="container max-w-3xl">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                As casas antigas de <a href="/braganca" className="text-blue-600 hover:underline">Bragança</a>, 
-                <a href="/chaves" className="text-blue-600 hover:underline"> Chaves</a>, 
-                <a href="/mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
-                <a href="/macedo-cavaleiros" className="text-blue-600 hover:underline"> Macedo de Cavaleiros</a> têm 
+                As casas antigas de <a href="/canalizador-braganca" className="text-blue-600 hover:underline">Bragança</a>, 
+                <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>, 
+                <a href="/canalizador-mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
+                <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline"> Macedo de Cavaleiros</a> têm 
                 desafios únicos: <strong>paredes de granito maciço</strong>, <strong>tubos de chumbo</strong> e 
                 <strong> ausência de isolamento térmico</strong>.
               </p>
@@ -274,8 +274,8 @@ export default function CanalizacaoCasaAntiga() {
             <h2 className="text-3xl font-black mb-6 text-center">Isolamento Térmico: OBRIGATÓRIO</h2>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <p className="text-gray-700 mb-4">
-                Em <a href="/montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
-                <a href="/braganca" className="text-blue-600 hover:underline"> Bragança</a> e outras zonas frias, 
+                Em <a href="/canalizador-montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
+                <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> e outras zonas frias, 
                 as temperaturas podem chegar a <strong>-10°C no inverno</strong>. Tubos sem isolamento rebentam.
               </p>
               <h3 className="font-bold text-lg mb-3">Onde Isolar:</h3>

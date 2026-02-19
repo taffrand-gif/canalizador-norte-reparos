@@ -44,16 +44,16 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
             <a href="/blog" className="px-4 py-2 bg-blue-100 text-blue-800 font-semibold rounded-lg">
               Todos os Artigos
             </a>
-            <a href="/blog/dicas" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
+            <a href="/blog" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
               Dicas Práticas
             </a>
-            <a href="/blog/emergencias" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
+            <a href="/blog" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
               Emergências
             </a>
             <a href="/blog/manutencao" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
               Manutenção
             </a>
-            <a href="/blog/instalacoes" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
+            <a href="/blog" className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg">
               Instalações
             </a>
           </div>

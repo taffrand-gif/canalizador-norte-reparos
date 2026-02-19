@@ -135,7 +135,7 @@ export default function Blog() {
               >
                 📞 Ligue AGORA: {config.phone}
               </a>
-              <Link href="/orcamento">
+              <Link href="/#contactos">
                 <a className="bg-white text-red-600 border-2 border-red-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-red-50 transition-colors">
                   Pedir Orçamento Gratuito
                 </a>

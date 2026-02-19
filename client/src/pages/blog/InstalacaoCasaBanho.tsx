@@ -132,9 +132,9 @@ export default function InstalacaoCasaBanho() {
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
                 Renovar ou instalar uma casa de banho de raiz é um investimento importante. Em 2026, 
-                uma instalação completa em <a href="/vila-real" className="text-blue-600 hover:underline">Vila Real</a>, 
-                <a href="/braganca" className="text-blue-600 hover:underline"> Bragança</a> ou 
-                <a href="/chaves" className="text-blue-600 hover:underline"> Chaves</a> pode custar entre 
+                uma instalação completa em <a href="/canalizador-vila-real" className="text-blue-600 hover:underline">Vila Real</a>, 
+                <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> ou 
+                <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a> pode custar entre 
                 <strong> €3.000 e €8.000</strong>, dependendo dos materiais e acabamentos escolhidos.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
@@ -263,8 +263,8 @@ export default function InstalacaoCasaBanho() {
               Precisa de Orçamento para Casa de Banho?
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Fazemos instalações completas em <a href="/macedo-cavaleiros" className="underline hover:no-underline">Macedo de Cavaleiros</a>, 
-              <a href="/mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
+              Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Macedo de Cavaleiros</a>, 
+              <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
               Orçamento gratuito e sem compromisso.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

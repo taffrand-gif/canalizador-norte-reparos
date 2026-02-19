@@ -137,9 +137,9 @@ export default function SistemaAquecimentoAgua() {
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
                 Escolher o sistema de aquecimento de água certo pode poupar centenas de euros por ano. 
-                Em <a href="/braganca" className="text-blue-600 hover:underline">Bragança</a>, 
-                <a href="/chaves" className="text-blue-600 hover:underline"> Chaves</a> e 
-                <a href="/vila-real" className="text-blue-600 hover:underline"> Vila Real</a>, onde os 
+                Em <a href="/canalizador-braganca" className="text-blue-600 hover:underline">Bragança</a>, 
+                <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a> e 
+                <a href="/canalizador-vila-real" className="text-blue-600 hover:underline"> Vila Real</a>, onde os 
                 invernos são rigorosos, esta decisão é ainda mais importante.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
@@ -341,8 +341,8 @@ export default function SistemaAquecimentoAgua() {
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Instalamos e fazemos manutenção de esquentadores, caldeiras e bombas de calor em 
-              <a href="/macedo-cavaleiros" className="underline hover:no-underline"> Macedo de Cavaleiros</a>, 
-              <a href="/mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região.
+              <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline"> Macedo de Cavaleiros</a>, 
+              <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

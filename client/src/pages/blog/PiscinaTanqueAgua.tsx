@@ -97,9 +97,9 @@ export default function PiscinaTanqueAgua() {
           <div className="container max-w-3xl">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Em <a href="/macedo-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>, 
-                <a href="/mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
-                <a href="/braganca" className="text-blue-600 hover:underline"> Bragança</a>, muitas propriedades 
+                Em <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>, 
+                <a href="/canalizador-mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
+                <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a>, muitas propriedades 
                 têm piscinas, tanques de água para agricultura ou sistemas de irrigação. A canalização correta 
                 é essencial para eficiência e durabilidade.
               </p>
@@ -370,8 +370,8 @@ export default function PiscinaTanqueAgua() {
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Instalamos e fazemos manutenção de piscinas, tanques e sistemas de irrigação em 
-              <a href="/macedo-cavaleiros" className="underline hover:no-underline"> Macedo de Cavaleiros</a>, 
-              <a href="/mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região.
+              <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline"> Macedo de Cavaleiros</a>, 
+              <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

@@ -138,7 +138,7 @@ const BlogIndex: React.FC = () => {
                 Ignorar estes sinais pode levar a danos estruturais caros e situações de emergência.
               </p>
               <a
-                href="/blog/10-problemas-canalizacao-ignorar"
+                href="/blog/sinais-fugas-agua-escondidas"
                 className="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Ler Artigo Completo

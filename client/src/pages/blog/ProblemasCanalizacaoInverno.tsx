@@ -119,9 +119,9 @@ export default function ProblemasCanalizacaoInverno() {
               <div>
                 <h2 className="text-xl font-bold text-red-700 mb-2">Inverno Rigoroso em Trás-os-Montes</h2>
                 <p className="text-gray-700">
-                  Em <a href="/montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
-                  <a href="/braganca" className="text-blue-600 hover:underline"> Bragança</a> e 
-                  <a href="/chaves" className="text-blue-600 hover:underline"> Chaves</a>, as temperaturas 
+                  Em <a href="/canalizador-montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
+                  <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> e 
+                  <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>, as temperaturas 
                   podem chegar a <strong>-10°C ou menos</strong>. Tubos sem isolamento rebentam em poucas horas. 
                   A prevenção é ESSENCIAL.
                 </p>
@@ -392,9 +392,9 @@ export default function ProblemasCanalizacaoInverno() {
               Urgências de Canalização 24/7
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Atendemos urgências de inverno em <a href="/braganca" className="underline hover:no-underline">Bragança</a>, 
-              <a href="/chaves" className="underline hover:no-underline"> Chaves</a>, 
-              <a href="/montalegre" className="underline hover:no-underline"> Montalegre</a> e toda a região. 
+              Atendemos urgências de inverno em <a href="/canalizador-braganca" className="underline hover:no-underline">Bragança</a>, 
+              <a href="/canalizador-chaves" className="underline hover:no-underline"> Chaves</a>, 
+              <a href="/canalizador-montalegre" className="underline hover:no-underline"> Montalegre</a> e toda a região. 
               Disponíveis 24 horas, incluindo fins de semana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
