@@ -51,8 +51,10 @@ export default function Montalegre() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Montalegre?", answer: "Chegamos a Montalegre em aproximadamente 1h30 a 1h45, percorrendo cerca de 100km. Para urgências no inverno, temos veículo preparado para neve." },
     { question: "Fazem proteção de canos contra o gelo?", answer: "Sim, somos especializados em isolamento térmico de tubagens para prevenir rebentamentos no inverno rigoroso do Barroso, onde as temperaturas podem descer abaixo dos -10°C." },
-    { question: "Instalam aquecimento central em Montalegre?", answer: "Sim, instalamos sistemas de aquecimento central com caldeiras a gasóleo ou pellets, essenciais para os invernos longos e frios de Montalegre." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Montalegre?",
+      answer: "A deslocação a Montalegre é de 40€, sob marcação prévia. Estamos a cerca de 110km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

@@ -33,8 +33,10 @@ export default function Armamar() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Armamar?", answer: "Chegamos a Armamar em aproximadamente 1h05 a 1h15, percorrendo cerca de 75km desde Macedo de Cavaleiros pela A4 e N222." },
     { question: "Fazem canalização para pomares e sistemas de rega?", answer: "Sim, instalamos redes de água e sistemas de rega para pomares de cereja e outras frutas, com tubagens enterradas e sistemas de gotejamento." },
-    { question: "Reparam canalização em casas junto ao Douro?", answer: "Sim, servimos todas as casas e quintas do concelho, incluindo as situadas junto ao rio Douro, com experiência em terrenos inclinados e socalcos." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Armamar?",
+      answer: "A deslocação a Armamar é de 35€. Chegamos em aproximadamente 75-85 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

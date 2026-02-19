@@ -33,8 +33,10 @@ export default function Penedono() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Penedono?", answer: "Chegamos a Penedono em aproximadamente 1h05 a 1h15, percorrendo cerca de 75km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização em casas medievais de granito?", answer: "Sim, somos especializados em instalar canalização moderna em casas de granito centenárias, respeitando a arquitetura medieval enquanto garantimos conforto moderno." },
-    { question: "Instalam casas de banho em casas antigas?", answer: "Sim, fazemos instalação completa de casas de banho em casas antigas, incluindo toda a rede de água e esgotos, adaptada às paredes de granito." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Penedono?",
+      answer: "A deslocação a Penedono é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

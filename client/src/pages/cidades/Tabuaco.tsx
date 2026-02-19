@@ -33,8 +33,10 @@ export default function Tabuaco() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Tabuaço?", answer: "Chegamos a Tabuaço em aproximadamente 55-65 minutos, percorrendo cerca de 65km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para quintas vinícolas?", answer: "Sim, instalamos redes de água para quintas vinícolas do Douro, incluindo caves de vinificação, sistemas de lavagem e drenagem de terrenos em socalcos." },
-    { question: "Trabalham em alojamentos turísticos do Douro?", answer: "Sim, fazemos instalação e manutenção de canalização para hotéis rurais e casas de turismo, incluindo piscinas e sistemas de aquecimento solar." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Tabuaço?",
+      answer: "A deslocação a Tabuaço é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

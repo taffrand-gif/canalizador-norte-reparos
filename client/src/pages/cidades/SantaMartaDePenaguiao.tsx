@@ -33,8 +33,10 @@ export default function SantaMartaDePenaguiao() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Santa Marta de Penaguião?", answer: "Chegamos a Santa Marta de Penaguião em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros pela A4 e A24." },
     { question: "Fazem canalização para adegas de vinho verde?", answer: "Sim, instalamos redes de água e drenagem para adegas de vinho verde e quintas do Douro, com materiais adequados ao processo de vinificação e armazenamento." },
-    { question: "Cobrem as freguesias rurais do concelho?", answer: "Sim, servimos todas as freguesias de Santa Marta de Penaguião, incluindo as aldeias nos socalcos do Douro e as zonas mais elevadas do concelho." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Santa Marta de Penaguião?",
+      answer: "A deslocação a Santa Marta de Penaguião é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

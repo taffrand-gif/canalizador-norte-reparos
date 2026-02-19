@@ -33,8 +33,10 @@ export default function SaoJoaoDaPesqueira() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a São João da Pesqueira?", answer: "Chegamos a São João da Pesqueira em aproximadamente 45-55 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para adegas e caves de vinho?", answer: "Sim, instalamos redes de água completas para adegas, caves de vinificação e armazéns de envelhecimento, com materiais resistentes à humidade e aos ácidos do vinho." },
-    { question: "Cobrem as quintas nos socalcos do Douro?", answer: "Sim, servimos todas as quintas do concelho, incluindo as situadas nos socalcos do Douro com acessos difíceis. Temos veículo preparado para terrenos acidentados." }
-  ];
+    {
+      question: "Qual o custo de deslocação a São João da Pesqueira?",
+      answer: "A deslocação a São João da Pesqueira é de 30€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

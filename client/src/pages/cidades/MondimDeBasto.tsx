@@ -51,8 +51,10 @@ export default function MondimDeBasto() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Mondim de Basto?", answer: "Chegamos a Mondim de Basto em aproximadamente 1h30, percorrendo cerca de 100km desde Macedo de Cavaleiros via Vila Real." },
     { question: "Fazem canalização para alojamentos de montanha?", answer: "Sim, instalamos canalização para hotéis de montanha, casas de turismo rural e refúgios na Serra do Alvão, com proteção contra gelo e sistemas de aquecimento adequados." },
-    { question: "Reparam canos rebentados pelo frio na serra?", answer: "Sim, fazemos reparação urgente de canos rebentados pelo gelo na Serra do Alvão e instalamos isolamento térmico para prevenir futuros problemas." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Mondim de Basto?",
+      answer: "A deslocação a Mondim de Basto é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

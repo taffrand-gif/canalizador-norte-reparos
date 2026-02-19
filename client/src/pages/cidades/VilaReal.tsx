@@ -51,8 +51,10 @@ export default function VilaReal() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Real?", answer: "Chegamos a Vila Real em aproximadamente 1h15 a partir de Macedo de Cavaleiros, percorrendo cerca de 85km pela A4 e IP4." },
     { question: "Fazem trabalhos em prédios e apartamentos em Vila Real?", answer: "Sim, temos vasta experiência em canalização de prédios urbanos, incluindo reparação de colunas de água, substituição de tubagens antigas e desentupimentos em edifícios de vários andares." },
-    { question: "Qual o custo de um desentupimento em Vila Real?", answer: "O desentupimento simples começa nos 60€. Para situações mais complexas em redes de esgotos urbanos, fazemos orçamento gratuito no local." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Vila Real?",
+      answer: "A deslocação a Vila Real é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

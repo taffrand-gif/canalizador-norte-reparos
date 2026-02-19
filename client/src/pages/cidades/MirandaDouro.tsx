@@ -50,7 +50,10 @@ export default function MirandaDouro() {
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Miranda do Douro?", answer: "Chegamos a Miranda do Douro em aproximadamente 45-60 minutos. Cobrimos todo o concelho." },
-    { question: "Qual o custo de deslocação a Miranda do Douro?", answer: "A deslocação a Miranda do Douro é de 30€. Inclui todas as freguesias." },
+    {
+      question: "Qual o custo de deslocação a Miranda do Douro?",
+      answer: "A deslocação a Miranda do Douro é de 30€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    },
     { question: "Fazem desentupimentos de fossas sépticas?", answer: "Sim, fazemos limpeza e desentupimento de fossas sépticas em toda a Terra de Miranda." }
   ];
 

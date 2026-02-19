@@ -51,8 +51,10 @@ export default function Alijo() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Alijó?", answer: "Chegamos a Alijó em aproximadamente 50-60 minutos, percorrendo cerca de 60km desde Macedo de Cavaleiros pelo IP4 e N212." },
     { question: "Fazem canalização para quintas vinícolas do Douro?", answer: "Sim, somos especializados em redes de água para quintas do Douro, incluindo caves de vinificação, sistemas de lavagem de cubas e drenagem de terrenos em socalcos." },
-    { question: "Trabalham em alojamentos de turismo rural?", answer: "Sim, fazemos instalação e manutenção de canalização para hotéis rurais e casas de turismo, incluindo piscinas, spas e sistemas de aquecimento." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Alijó?",
+      answer: "A deslocação a Alijó é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

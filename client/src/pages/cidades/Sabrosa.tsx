@@ -51,8 +51,10 @@ export default function Sabrosa() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Sabrosa?", answer: "Chegamos a Sabrosa em aproximadamente 1 hora, percorrendo cerca de 70km desde Macedo de Cavaleiros pelo IP4." },
     { question: "Fazem canalização para casas históricas?", answer: "Sim, temos experiência em modernizar a canalização de casas históricas e solares, preservando a arquitetura original enquanto instalamos tubagens modernas." },
-    { question: "Cobrem as quintas do Douro em Sabrosa?", answer: "Sim, servimos todas as quintas vinícolas do concelho, incluindo as que se encontram nos socalcos do Douro com acessos mais difíceis." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Sabrosa?",
+      answer: "A deslocação a Sabrosa é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

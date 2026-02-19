@@ -51,8 +51,10 @@ export default function VilaFlor() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Flor?", answer: "Chegamos a Vila Flor em apenas 20-25 minutos. É uma das localidades mais próximas da nossa base em Macedo de Cavaleiros." },
     { question: "Fazem canalização para adegas e caves de vinho?", answer: "Sim, instalamos redes de água e drenagem para adegas, caves vinícolas e lagares de azeite, com materiais resistentes aos ácidos do processo de vinificação." },
-    { question: "Trabalham ao fim de semana em Vila Flor?", answer: "Sim, estamos disponíveis 24h por dia, 7 dias por semana, incluindo feriados. Para urgências em Vila Flor, ligue a qualquer hora." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Vila Flor?",
+      answer: "A deslocação a Vila Flor é de 15€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

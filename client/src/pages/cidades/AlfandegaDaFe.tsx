@@ -51,7 +51,10 @@ export default function AlfandegaDaFe() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Alfândega da Fé?", answer: "Chegamos a Alfândega da Fé em apenas 25-30 minutos. É uma das cidades mais próximas da nossa sede em Macedo de Cavaleiros." },
     { question: "Fazem canalização para lagares e quintas agrícolas?", answer: "Sim, temos experiência em instalação de redes de água para lagares de azeite, armazéns de amêndoa e explorações agrícolas típicas da região." },
-    { question: "Qual o custo de deslocação a Alfândega da Fé?", answer: "A deslocação a Alfândega da Fé é de apenas 15€ dada a proximidade. Inclui todas as freguesias do concelho." }
+    {
+      question: "Qual o custo de deslocação a Alfândega da Fé?",
+      answer: "A deslocação a Alfândega da Fé é de 15€. Chegamos em aproximadamente 25-30 minutos. Inclui todo o concelho."
+    }
   ];
 
   return (

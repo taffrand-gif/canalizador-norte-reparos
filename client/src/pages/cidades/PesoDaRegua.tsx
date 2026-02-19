@@ -51,8 +51,10 @@ export default function PesoDaRegua() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Peso da Régua?", answer: "Chegamos a Peso da Régua em aproximadamente 1h15, percorrendo cerca de 85km desde Macedo de Cavaleiros pelo IP4 e A24." },
     { question: "Fazem canalização para caves de Vinho do Porto?", answer: "Sim, somos especializados em redes de água e drenagem para caves de vinho, armazéns de envelhecimento e instalações de vinificação na capital do Douro." },
-    { question: "Trabalham em hotéis e restaurantes na Régua?", answer: "Sim, fazemos instalação e manutenção de canalização para hotéis, restaurantes e estabelecimentos turísticos, incluindo cozinhas industriais e sistemas de aquecimento." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Peso da Régua?",
+      answer: "A deslocação a Peso da Régua é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

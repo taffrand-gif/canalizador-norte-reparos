@@ -51,8 +51,10 @@ export default function Lamego() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Lamego?", answer: "Chegamos a Lamego em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros pela A4 e A24." },
     { question: "Fazem renovação de canalização em edifícios históricos?", answer: "Sim, somos especializados em modernizar a canalização de edifícios antigos e patrimônio classificado, como os que rodeiam o Santuário de Nossa Senhora dos Remédios, preservando a estrutura original." },
-    { question: "Trabalham em caves de espumante?", answer: "Sim, instalamos redes de água e drenagem para caves de espumante e adegas, com materiais resistentes à humidade e temperaturas controladas." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Lamego?",
+      answer: "A deslocação a Lamego é de 35€. Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

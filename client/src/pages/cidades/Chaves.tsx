@@ -87,6 +87,21 @@ export default function Chaves() {
       ]
     });
     document.head.appendChild(schemaScript);
+  const faqs = [
+    {
+      question: "Qual o custo de deslocação a Chaves?",
+      answer: "A deslocação a Chaves é de 40€, sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
+    },
+    {
+      question: "Fazem urgências 24 horas em Chaves?",
+      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Chaves. Ligue +351 932 321 892 para assistência imediata."
+    },
+    {
+      question: "Fornecem certificação elétrica em Chaves?",
+      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Chaves e todo o concelho."
+    }
+  ];
+
     
     return () => {
       document.head.removeChild(schemaScript);
@@ -338,6 +353,14 @@ export default function Chaves() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        
+        <section className="py-16">
+          <div className="container max-w-4xl">
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Chaves</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
+
         <RelatedCities 
           currentCity="Chaves" 
           currentCitySlug="canalizador-chaves" 

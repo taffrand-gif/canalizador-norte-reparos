@@ -51,8 +51,10 @@ export default function RibeiraDePena() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Ribeira de Pena?", answer: "Chegamos a Ribeira de Pena em aproximadamente 1h20 a 1h30, percorrendo cerca de 95km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para casas de turismo rural?", answer: "Sim, instalamos canalização completa para casas de turismo rural, incluindo sistemas de aquecimento, casas de banho modernas e piscinas junto à barragem." },
-    { question: "Trabalham nas aldeias junto à barragem?", answer: "Sim, cobrimos todas as aldeias do concelho, incluindo as localidades junto à barragem do Alto Rabagão e zonas de difícil acesso." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Ribeira de Pena?",
+      answer: "A deslocação a Ribeira de Pena é de 40€, sob marcação prévia. Estamos a cerca de 85km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

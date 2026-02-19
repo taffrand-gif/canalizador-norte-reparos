@@ -7,9 +7,25 @@ import RelatedCities from '@/components/RelatedCities';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
+import FAQSection from '@/components/FAQSection';
 
 export default function MacedoCavaleiros() {
   const { config } = useSite();
+  const faqs = [
+    {
+      question: "Qual o custo de deslocação a Macedo de Cavaleiros?",
+      answer: "A deslocação a Macedo de Cavaleiros é de 10€, pois é a nossa sede. Atendemos em menos de 30 minutos. Inclui todo o concelho."
+    },
+    {
+      question: "Fazem urgências 24 horas em Macedo de Cavaleiros?",
+      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Macedo de Cavaleiros. Ligue +351 932 321 892 para assistência imediata."
+    },
+    {
+      question: "Fornecem certificação elétrica em Macedo de Cavaleiros?",
+      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Macedo de Cavaleiros e todo o concelho."
+    }
+  ];
+
 
   return (
     <>
@@ -234,6 +250,14 @@ export default function MacedoCavaleiros() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        
+        <section className="py-16">
+          <div className="container max-w-4xl">
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Macedo de Cavaleiros</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
+
         <RelatedCities 
           currentCity="Macedo de Cavaleiros" 
           currentCitySlug="canalizador-macedocavaleiros" 

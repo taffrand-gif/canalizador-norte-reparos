@@ -51,8 +51,10 @@ export default function VilaPouca() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Pouca de Aguiar?", answer: "Chegamos a Vila Pouca de Aguiar em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para estabelecimentos termais?", answer: "Sim, temos experiência em redes de água termal, tubagens resistentes a águas minerais e sistemas de canalização para spas e termas, incluindo Pedras Salgadas." },
-    { question: "Instalam sistemas de aquecimento com águas termais?", answer: "Sim, podemos instalar sistemas que aproveitam as águas termais naturais da região para aquecimento, com tubagens e materiais adequados à composição mineral." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Vila Pouca de Aguiar?",
+      answer: "A deslocação a Vila Pouca de Aguiar é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

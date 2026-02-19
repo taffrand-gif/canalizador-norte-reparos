@@ -51,8 +51,10 @@ export default function Boticas() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Boticas?", answer: "Chegamos a Boticas em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros via Chaves." },
     { question: "Fazem canalização para adegas de Vinho dos Mortos?", answer: "Sim, instalamos redes de água e drenagem para adegas tradicionais, incluindo as famosas caves do Vinho dos Mortos, com materiais adequados ao ambiente húmido subterrâneo." },
-    { question: "Instalam aquecimento para casas de montanha?", answer: "Sim, instalamos caldeiras a pellets e sistemas de aquecimento central ideais para os invernos rigorosos de Boticas, com isolamento térmico das tubagens." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Boticas?",
+      answer: "A deslocação a Boticas é de 40€, sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

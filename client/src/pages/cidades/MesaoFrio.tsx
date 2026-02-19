@@ -33,8 +33,10 @@ export default function MesaoFrio() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Mesão Frio?", answer: "Chegamos a Mesão Frio em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros pela A4 e A24." },
     { question: "Fazem canalização para embarcadouros e turismo fluvial?", answer: "Sim, instalamos redes de água para infraestruturas de turismo fluvial, restaurantes ribeirinhos e alojamentos junto ao rio Douro." },
-    { question: "Trabalham no menor concelho de Portugal?", answer: "Sim, cobrimos todo o concelho de Mesão Frio, o mais pequeno de Portugal continental, incluindo todas as suas freguesias e quintas vinícolas." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Mesão Frio?",
+      answer: "A deslocação a Mesão Frio é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

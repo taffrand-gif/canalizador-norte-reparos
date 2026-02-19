@@ -51,8 +51,10 @@ export default function MoimentaDaBeira() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Moimenta da Beira?", answer: "Chegamos a Moimenta da Beira em aproximadamente 1h15, percorrendo cerca de 85km desde Macedo de Cavaleiros pela A4 e N226." },
     { question: "Fazem canalização para pomares e armazéns de fruta?", answer: "Sim, instalamos redes de água para pomares de maçã, armazéns de frio e câmaras frigoríficas, com tubagens resistentes às baixas temperaturas." },
-    { question: "Reparam canalização em casas de granito?", answer: "Sim, temos experiência em trabalhar com casas tradicionais de granito, substituindo tubagens antigas sem danificar as paredes de pedra." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Moimenta da Beira?",
+      answer: "A deslocação a Moimenta da Beira é de 40€, sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

@@ -51,8 +51,10 @@ export default function Murca() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Murça?", answer: "Chegamos a Murça em aproximadamente 45-55 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros pelo IP4." },
     { question: "Fazem canalização para lagares de azeite?", answer: "Sim, instalamos redes de água e drenagem para lagares de azeite, com tubagens resistentes e sistemas de escoamento adequados ao processamento de azeitona." },
-    { question: "Reparam canos rebentados pelo gelo?", answer: "Sim, fazemos reparação urgente de canos rebentados pelo gelo e instalamos isolamento térmico para prevenir futuros danos nos invernos frios de Murça." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Murça?",
+      answer: "A deslocação a Murça é de 30€. Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

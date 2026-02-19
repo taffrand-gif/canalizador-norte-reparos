@@ -51,8 +51,10 @@ export default function VilaNovaFozCoa() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Nova de Foz Côa?", answer: "Chegamos a Vila Nova de Foz Côa em aproximadamente 50-60 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para equipamentos culturais?", answer: "Sim, temos experiência em canalização para museus e espaços culturais, incluindo sistemas de climatização e controlo de humidade essenciais para a preservação de acervos." },
-    { question: "Cobrem as quintas do vale do Côa?", answer: "Sim, servimos todas as quintas vinícolas do vale do Côa e do Douro, incluindo as que se encontram em zonas de difícil acesso junto ao rio." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Vila Nova de Foz Côa?",
+      answer: "A deslocação a Vila Nova de Foz Côa é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

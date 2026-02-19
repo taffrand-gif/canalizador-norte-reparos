@@ -51,8 +51,10 @@ export default function Vimioso() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vimioso?", answer: "Chegamos a Vimioso em aproximadamente 50-60 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros pela N216." },
     { question: "Cobrem as aldeias junto à fronteira espanhola?", answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as localidades junto à raia como Algoso, Angueira e Caçarelhos." },
-    { question: "Fazem instalação de fossas sépticas?", answer: "Sim, instalamos e reparamos fossas sépticas, essenciais nas aldeias rurais de Vimioso onde não existe rede de saneamento público." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Vimioso?",
+      answer: "A deslocação a Vimioso é de 25€. Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">

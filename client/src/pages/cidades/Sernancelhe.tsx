@@ -33,8 +33,10 @@ export default function Sernancelhe() {
   const faqs = [
     { question: "Quanto tempo demora a chegar a Sernancelhe?", answer: "Chegamos a Sernancelhe em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros." },
     { question: "Fazem canalização para igrejas e edifícios religiosos?", answer: "Sim, temos experiência em canalização para edifícios religiosos e patrimoniais, com cuidado especial na preservação das estruturas de granito centenárias." },
-    { question: "Trabalham em casas de turismo rural na zona da castanha?", answer: "Sim, instalamos canalização completa para casas de turismo rural, incluindo aquecimento central e casas de banho modernas em casas tradicionais." }
-  ];
+    {
+      question: "Qual o custo de deslocação a Sernancelhe?",
+      answer: "A deslocação a Sernancelhe é de 40€, sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
+    }];
 
   return (
     <div className="min-h-screen flex flex-col">
