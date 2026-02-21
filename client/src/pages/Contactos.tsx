@@ -4,38 +4,24 @@ import Footer from "@/components/Footer";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 import { toast } from "sonner";
-import { trpc } from "@/lib/trpc";
 
 export default function Contactos() {
   const config = ACTIVE_CONFIG;
   const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
   
   const [formType, setFormType] = useState<"contact" | "booking">("contact");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
-    // Booking fields
     city: "",
     serviceType: "",
     address: "",
     preferredDate: "",
     preferredTime: "",
   });
-  
-  // Récupérer les créneaux disponibles pour la date sélectionnée
-  const { data: availableSlotsData } = trpc.bookings.getAvailableSlots.useQuery(
-    { date: formData.preferredDate },
-    { enabled: !!formData.preferredDate && formType === "booking" }
-  );
-  
-  const availableSlots = availableSlotsData?.availableSlots || [];
-  
-  // Réinitialiser l'heure quand la date change
-  const handleDateChange = (date: string) => {
-    setFormData({ ...formData, preferredDate: date, preferredTime: "" });
-  };
 
   useSEO({
     title: `Contactos | ${config.businessName}`,
@@ -56,77 +42,63 @@ export default function Contactos() {
     }
   };
 
-  const sendMessage = trpc.contact.sendMessage.useMutation({
-    onSuccess: () => {
-      toast.success("Mensagem enviada com sucesso! Entraremos em contacto em breve.");
-      setFormData({ 
-        name: "", 
-        email: "", 
-        phone: "", 
-        message: "",
-        city: "",
-        serviceType: "",
-        address: "",
-        preferredDate: "",
-        preferredTime: "",
-      });
-    },
-    onError: () => {
-      toast.error("Erro ao enviar mensagem. Por favor, ligue-nos diretamente.");
-    },
-  });
-
-  const createBooking = trpc.bookings.create.useMutation({
-    onSuccess: () => {
-      toast.success("Pedido de reserva enviado com sucesso! Entraremos em contacto para confirmar.");
-      setFormData({ 
-        name: "", 
-        email: "", 
-        phone: "", 
-        message: "",
-        city: "",
-        serviceType: "",
-        address: "",
-        preferredDate: "",
-        preferredTime: "",
-      });
-    },
-    onError: () => {
-      toast.error("Erro ao enviar pedido de reserva. Por favor, ligue-nos diretamente.");
-    },
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    if (formType === "contact") {
-      sendMessage.mutate({
+    setIsSubmitting(true);
+
+    try {
+      const body: Record<string, string> = {
         name: formData.name,
         email: formData.email,
         phone: formData.phone,
-        message: formData.message,
+        _subject: "Novo contacto Norte-Reparos",
+        _template: "table",
+        _captcha: "false",
+      };
+
+      if (formType === "booking") {
+        body.message = formData.message;
+        body.cidade = formData.city;
+        body.servico = formData.serviceType;
+        body.morada = formData.address;
+        body.data_preferida = formData.preferredDate;
+        body.hora_preferida = formData.preferredTime;
+        body._subject = "Nova reserva Norte-Reparos";
+      } else {
+        body.message = formData.message;
+      }
+
+      const res = await fetch("https://formsubmit.co/ajax/taff.rand@gmail.com", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(body),
       });
-    } else {
-      createBooking.mutate({
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        city: formData.city,
-        serviceType: formData.serviceType,
-        address: formData.address,
-        preferredDate: formData.preferredDate,
-        preferredTime: formData.preferredTime,
-        description: formData.message,
-      });
+
+      if (res.ok) {
+        toast.success(
+          formType === "booking"
+            ? "Pedido de reserva enviado com sucesso! Entraremos em contacto para confirmar."
+            : "Mensagem enviada com sucesso! Entraremos em contacto em breve."
+        );
+        setFormData({
+          name: "", email: "", phone: "", message: "",
+          city: "", serviceType: "", address: "",
+          preferredDate: "", preferredTime: "",
+        });
+      } else {
+        throw new Error("Erro no envio");
+      }
+    } catch {
+      toast.error("Erro ao enviar mensagem. Por favor, ligue-nos diretamente.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
-
-  const isSubmitting = sendMessage.isPending || createBooking.isPending;
 
   return (
     <>
       <Header />
-{/* Hero Section */}
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-red-50 to-red-100 py-12 sm:py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
@@ -370,7 +342,7 @@ export default function Contactos() {
                             id="preferredDate"
                             required
                             value={formData.preferredDate}
-                            onChange={(e) => handleDateChange(e.target.value)}
+                            onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value, preferredTime: "" })}
                             min={new Date().toISOString().split('T')[0]}
                             className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
                           />
@@ -388,29 +360,13 @@ export default function Contactos() {
                             className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm sm:text-base"
                             disabled={!formData.preferredDate}
                           >
-                            <option value="">
-                              {!formData.preferredDate 
-                                ? "Selecione primeiro uma data" 
-                                : availableSlots.length === 0 
-                                  ? "Nenhum horário disponível" 
-                                  : "Selecione um horário..."}
-                            </option>
-                            {availableSlots.map((slot) => (
-                              <option key={slot} value={slot}>
-                                {slot.replace("-", " - ")}
-                              </option>
-                            ))}
+                            <option value="">{!formData.preferredDate ? "Selecione primeiro uma data" : "Selecione um horário..."}</option>
+                            <option value="08:00-10:00">08:00 - 10:00</option>
+                            <option value="10:00-12:00">10:00 - 12:00</option>
+                            <option value="12:00-14:00">12:00 - 14:00</option>
+                            <option value="14:00-16:00">14:00 - 16:00</option>
+                            <option value="16:00-18:00">16:00 - 18:00</option>
                           </select>
-                          {formData.preferredDate && availableSlots.length === 0 && (
-                            <p className="text-xs text-red-600 mt-1">
-                              ⚠️ Todos os horários estão reservados para esta data. Por favor, escolha outra data.
-                            </p>
-                          )}
-                          {formData.preferredDate && availableSlots.length > 0 && (
-                            <p className="text-xs text-green-600 mt-1">
-                              ✅ {availableSlots.length} horário{availableSlots.length > 1 ? 's' : ''} disponíve{availableSlots.length > 1 ? 'is' : 'l'}
-                            </p>
-                          )}
                         </div>
                       </div>
                     </>
@@ -454,7 +410,7 @@ export default function Contactos() {
         </div>
       </section>
 
-      {/* Map Section (Placeholder) */}
+      {/* Map Section */}
       <section className="py-12 sm:py-16 bg-gray-50">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
