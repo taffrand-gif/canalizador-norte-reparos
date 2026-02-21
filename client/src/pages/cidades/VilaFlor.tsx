@@ -53,7 +53,7 @@ export default function VilaFlor() {
     { question: "Fazem canalização para adegas e caves de vinho?", answer: "Sim, instalamos redes de água e drenagem para adegas, caves vinícolas e lagares de azeite, com materiais resistentes aos ácidos do processo de vinificação." },
     {
       question: "Qual o custo de deslocação a Vila Flor?",
-      answer: "A deslocação a Vila Flor é de 15€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Vila Flor é de 20€. Chegamos em aproximadamente 30-40 minutos. Inclui todo o concelho."
     }];
 
   return (

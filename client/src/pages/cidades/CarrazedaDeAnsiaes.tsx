@@ -53,7 +53,7 @@ export default function CarrazedaDeAnsiaes() {
     { question: "Fazem canalização para quintas do Douro?", answer: "Sim, somos especializados em redes de água para quintas vinícolas do Douro, incluindo caves de Vinho do Porto, sistemas de rega e drenagem de terrenos em socalcos." },
     {
       question: "Qual o custo de deslocação a Carrazeda de Ansiães?",
-      answer: "A deslocação a Carrazeda de Ansiães é de 15€. Chegamos em aproximadamente 35-40 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Carrazeda de Ansiães é de 20€. Chegamos em aproximadamente 35-40 minutos. Inclui todo o concelho."
     }];
 
   return (

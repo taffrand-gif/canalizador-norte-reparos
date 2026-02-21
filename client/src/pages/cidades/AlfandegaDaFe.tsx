@@ -53,7 +53,7 @@ export default function AlfandegaDaFe() {
     { question: "Fazem canalização para lagares e quintas agrícolas?", answer: "Sim, temos experiência em instalação de redes de água para lagares de azeite, armazéns de amêndoa e explorações agrícolas típicas da região." },
     {
       question: "Qual o custo de deslocação a Alfândega da Fé?",
-      answer: "A deslocação a Alfândega da Fé é de 15€. Chegamos em aproximadamente 25-30 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Alfândega da Fé é de 20€. Chegamos em aproximadamente 25-30 minutos. Inclui todo o concelho."
     }
   ];
 
