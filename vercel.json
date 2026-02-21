@@ -438,5 +438,82 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/picheleiro-braganca",
+      "destination": "/canalizador-braganca",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-mirandela",
+      "destination": "/canalizador-mirandela",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-macedo-de-cavaleiros",
+      "destination": "/canalizador-macedo-de-cavaleiros",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-vila-real",
+      "destination": "/canalizador-vila-real",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-chaves",
+      "destination": "/canalizador-chaves",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-lamego",
+      "destination": "/canalizador-lamego",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-vinhais",
+      "destination": "/canalizador-vinhais",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-mogadouro",
+      "destination": "/canalizador-mogadouro",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-torre-moncorvo",
+      "destination": "/canalizador-torre-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-miranda-douro",
+      "destination": "/canalizador-miranda-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-valpacos",
+      "destination": "/canalizador-valpacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-vila-flor",
+      "destination": "/canalizador-vila-flor",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-montalegre",
+      "destination": "/canalizador-montalegre",
+      "statusCode": 301
+    },
+    {
+      "source": "/picheleiro-boticas",
+      "destination": "/canalizador-boticas",
+      "statusCode": 301
+    }
   ]
 }
