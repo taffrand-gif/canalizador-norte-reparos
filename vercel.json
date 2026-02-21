@@ -226,6 +226,38 @@
       "destination": "/blog/problemas-canalizacao-inverno-solucoes.html"
     },
     {
+      "source": "/blog/como-desentupir-lava-loica-passos",
+      "destination": "/blog/como-desentupir-lava-loica-passos.html"
+    },
+    {
+      "source": "/blog/evitar-fugas-agua-prevencao",
+      "destination": "/blog/evitar-fugas-agua-prevencao.html"
+    },
+    {
+      "source": "/blog/esquentador-vs-termoacumulador",
+      "destination": "/blog/esquentador-vs-termoacumulador.html"
+    },
+    {
+      "source": "/blog/sinais-fugas-agua-escondidas",
+      "destination": "/blog/sinais-fugas-agua-escondidas.html"
+    },
+    {
+      "source": "/blog/manutencao-esquentador-guia",
+      "destination": "/blog/manutencao-esquentador-guia.html"
+    },
+    {
+      "source": "/blog/desentupir-wc-metodos-caseiros",
+      "destination": "/blog/desentupir-wc-metodos-caseiros.html"
+    },
+    {
+      "source": "/servicos",
+      "destination": "/servicos.html"
+    },
+    {
+      "source": "/galeria",
+      "destination": "/galeria.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
