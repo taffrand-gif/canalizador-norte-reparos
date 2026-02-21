@@ -298,6 +298,26 @@
       "destination": "/tecnologia-premium.html"
     },
     {
+      "source": "/blog/detecao-uv-fugas-agua-sem-partir-paredes",
+      "destination": "/blog/detecao-uv-fugas-agua-sem-partir-paredes.html"
+    },
+    {
+      "source": "/blog/ridgid-flexshaft-desentupimento-profissional",
+      "destination": "/blog/ridgid-flexshaft-desentupimento-profissional.html"
+    },
+    {
+      "source": "/blog/como-saber-se-tem-fuga-agua-escondida",
+      "destination": "/blog/como-saber-se-tem-fuga-agua-escondida.html"
+    },
+    {
+      "source": "/blog/manutencao-esquentador-quando-como",
+      "destination": "/blog/manutencao-esquentador-quando-como.html"
+    },
+    {
+      "source": "/blog/quanto-custa-canalizador-urgente-noite",
+      "destination": "/blog/quanto-custa-canalizador-urgente-noite.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
