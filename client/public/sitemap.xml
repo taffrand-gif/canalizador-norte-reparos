@@ -196,4 +196,24 @@
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <!-- Nouveaux articles blog -->
+  <url>
+    <loc>https://norte-reparos.com/blog/torneira-a-pingar-como-reparar</loc>
+    <lastmod>2026-02-21</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://norte-reparos.com/blog/aquecimento-central-manutencao-inverno</loc>
+    <lastmod>2026-02-21</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://norte-reparos.com/blog/pressao-agua-fraca-causas-solucoes</loc>
+    <lastmod>2026-02-21</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
