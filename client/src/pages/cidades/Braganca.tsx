@@ -93,11 +93,11 @@ export default function Braganca() {
     },
     {
       question: "Fazem urgências 24 horas em Bragança?",
-      answer: "Sim, atendemos urgências elétricas 24 horas por dia, 7 dias por semana em Bragança. Ligue +351 932 321 892 para assistência imediata."
+      answer: "Sim, atendemos urgências de canalização 24 horas por dia, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência imediata."
     },
     {
-      question: "Fornecem certificação elétrica em Bragança?",
-      answer: "Sim, emitimos certificação elétrica CERTIEL para venda, arrendamento e legalização de imóveis em Bragança e todo o concelho."
+      question: "Fornecem serviço de canalização em Bragança?",
+      answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Bragança e todo o concelho."
     }
   ];
 
