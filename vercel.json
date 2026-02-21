@@ -318,6 +318,38 @@
       "destination": "/blog/quanto-custa-canalizador-urgente-noite.html"
     },
     {
+      "source": "/blog/picheleiro-ou-canalizador-diferenca",
+      "destination": "/blog/picheleiro-ou-canalizador-diferenca.html"
+    },
+    {
+      "source": "/blog/sanita-entupida-o-que-fazer",
+      "destination": "/blog/sanita-entupida-o-que-fazer.html"
+    },
+    {
+      "source": "/blog/autoclismo-nao-para-correr-solucoes",
+      "destination": "/blog/autoclismo-nao-para-correr-solucoes.html"
+    },
+    {
+      "source": "/blog/cheiro-esgoto-em-casa-causas",
+      "destination": "/blog/cheiro-esgoto-em-casa-causas.html"
+    },
+    {
+      "source": "/blog/cano-rebentado-urgencia-o-que-fazer",
+      "destination": "/blog/cano-rebentado-urgencia-o-que-fazer.html"
+    },
+    {
+      "source": "/blog/ralo-entupido-cozinha-casa-banho",
+      "destination": "/blog/ralo-entupido-cozinha-casa-banho.html"
+    },
+    {
+      "source": "/blog/detecao-fugas-nao-invasiva",
+      "destination": "/blog/detecao-fugas-nao-invasiva.html"
+    },
+    {
+      "source": "/blog/como-ler-contador-agua-dicas",
+      "destination": "/blog/como-ler-contador-agua-dicas.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
