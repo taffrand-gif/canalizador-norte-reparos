@@ -294,6 +294,10 @@
       "destination": "/galeria.html"
     },
     {
+      "source": "/tecnologia-premium",
+      "destination": "/tecnologia-premium.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

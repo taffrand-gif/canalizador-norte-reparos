@@ -55,4 +55,10 @@
   <url><loc>https://norte-reparos.com/blog/torneira-a-pingar-como-reparar</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://norte-reparos.com/blog/aquecimento-central-manutencao-inverno</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://norte-reparos.com/blog/pressao-agua-fraca-causas-solucoes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://norte-reparos.com/tecnologia-premium</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
