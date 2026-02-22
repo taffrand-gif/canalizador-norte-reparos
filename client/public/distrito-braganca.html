@@ -1,704 +1,233 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canalizador no Distrito de Bragança | 24h</title>
-    <meta name="description" content="Canalizador profissional no Distrito de Bragança. Servimos 12 cidades com equipamento profissional. Disponível 24h. Tel: +351 928 484 451">
-    <link rel="canonical" href="https://norte-reparos.com/distrito-braganca">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canalizador no Distrito de Bragança | 12 Cidades Cobertas</title>
+<meta name="description" content="Canalizador profissional em todo o distrito de Bragança. Cobertura em 12 cidades: Bragança, Macedo, Mirandela, Alfândega, Mogadouro, Torre Moncorvo, Vinhais, Vimioso, Miranda Douro, Freixo, Vila Flor, Carrazeda. Tel: +351 928 484 451" />
+<meta property="og:title" content="Canalizador no Distrito de Bragança | 12 Cidades Cobertas" />
+<meta property="og:description" content="Canalizador certificado em todo o distrito de Bragança. Urgências 24h, desentupimentos, reparação fugas, equipamento profissional. Ligue +351 928 484 451" />
+<meta property="og:url" content="https://norte-reparos.com/distrito-braganca" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="pt_PT" />
+<meta property="og:site_name" content="Norte Reparos - Canalizador Profissional" />
+<meta name="keywords" content="canalizador distrito bragança, canalizador bragança, canalizador macedo cavaleiros, canalizador mirandela, canalizador alfândega fé, canalizador mogadouro, canalizador torre moncorvo, canalizador vinhais, canalizador vimioso, canalizador miranda douro, canalizador freixo espada cinta, canalizador vila flor, canalizador carrazeda ansiaes" />
+<link rel="canonical" href="https://norte-reparos.com/distrito-braganca">
+
+<style>
+body{margin:0;font-family:Arial,sans-serif;color:#333}
+.header{background:#1a1a1a;color:white;padding:20px;text-align:center}
+.content{padding:40px 20px;max-width:1200px;margin:0 auto}
+h1{color:#2193b0;font-size:36px;margin-bottom:10px}
+h2{color:#333;font-size:24px;margin-top:30px}
+h3{color:#2193b0;font-size:20px;margin-top:20px}
+.distance-box{background:#e3f2fd;padding:20px;border-left:4px solid #2193b0;margin:20px 0}
+.urgence-box{background:#f5f5f5;padding:30px;border-radius:10px;margin:30px 0;text-align:center}
+.local-section{background:#fafafa;padding:25px;border-radius:8px;margin:25px 0}
+.pro-equipment{background:linear-gradient(135deg,#e3f2fd 0%,#bbdefb 100%);border:3px solid #2193b0;padding:30px;border-radius:10px;margin:30px 0;box-shadow:0 4px 15px rgba(33,147,176,0.2)}
+.advantages{background:#2193b0;color:white;padding:30px;border-radius:10px;margin:40px 0}
+.cta-btn{display:inline-block;background:#2193b0;color:white;padding:20px 40px;border-radius:50px;font-size:24px;font-weight:bold;text-decoration:none;box-shadow:0 4px 15px rgba(33,147,176,0.3)}
+.footer{background:#1a1a1a;color:white;padding:30px;text-align:center}
+
+.whatsapp-float{position:fixed;bottom:20px;left:20px;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(37,211,102,0.4);z-index:1000;text-decoration:none;font-size:30px}
+.phone-float{position:fixed;bottom:20px;right:20px;width:60px;height:60px;background:#2193b0;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(0,0,0,0.2);z-index:1000;text-decoration:none;font-size:30px}
+.breadcrumb{padding:10px 20px;font-size:14px;color:#666;max-width:1200px;margin:0 auto}
+.breadcrumb a{color:#2193b0;text-decoration:none}
+
+/* Grid de cartes */
+.cities-grid {display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));gap: 20px;margin: 30px 0;}
+.city-card {background: white;border: 1px solid #e0e0e0;border-radius: 10px;padding: 20px;box-shadow: 0 2px 8px rgba(0,0,0,0.1);transition: transform 0.3s;}
+.city-card:hover {transform: translateY(-5px);box-shadow: 0 5px 15px rgba(33,147,176,0.2);}
+.city-card h3 {margin-top: 0;color: #2193b0;}
+.city-card a {color: #2193b0;text-decoration: none;font-weight: bold;}
+.city-card a:hover {text-decoration: underline;}
+.city-info {display: grid;grid-template-columns: 1fr 1fr;gap: 10px;margin-top: 15px;}
+.city-info-item {background: #f9f9f9;padding: 8px 12px;border-radius: 5px;font-size: 14px;}
+.zone-badge {display: inline-block;padding: 4px 10px;border-radius: 20px;font-size: 12px;font-weight: bold;margin-top: 10px;}
+.zone-1 {background: #e8f5e9;color: #2e7d32;}
+.zone-2 {background: #f1f8e9;color: #558b2f;}
+.zone-3 {background: #e3f2fd;color: #1565c0;}
+.zone-4 {background: #e8eaf6;color: #3949ab;}
+.zone-5 {background: #f3e5f5;color: #7b1fa2;}
+.zone-6 {background: #ffebee;color: #d32f2f;}
+
+.faq-item {margin-bottom: 20px;border-bottom: 1px solid #eee;padding-bottom: 20px;}
+.faq-question {font-weight: bold;color: #333;margin-bottom: 10px;}
+.faq-answer {color: #666;}
+
+@media (max-width: 768px) {
+    .cities-grid {grid-template-columns: 1fr;}
+    .city-info {grid-template-columns: 1fr;}
+}
+</style>
     
-    <!-- Open Graph tags -->
-    <meta property="og:title" content="Canalizador no Distrito de Bragança | 24h">
-    <meta property="og:description" content="Canalizador profissional no Distrito de Bragança. Servimos 12 cidades com equipamento profissional.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://norte-reparos.com/distrito-braganca">
-    
-    <!-- Schema.org structured data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Canalizador no Distrito de Bragança",
-        "description": "Canalizador profissional no Distrito de Bragança. Servimos 12 cidades com equipamento profissional.",
-        "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Início",
-                    "item": "https://norte-reparos.com/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": "Distrito de Bragança",
-                    "item": "https://norte-reparos.com/distrito-braganca"
-                }
-            ]
-        }
-    }
-    </script>
-    
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <style>
-        /* Styles de base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Header */
-        header {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-        }
-        
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #2193b0;
-            text-decoration: none;
-        }
-        
-        .logo span {
-            color: #333;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: #2193b0;
-        }
-        
-        /* Boutons flottants */
-        .float-buttons {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            z-index: 1000;
-        }
-        
-        .whatsapp-float, .phone-float {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-decoration: none;
-            font-size: 24px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            transition: transform 0.3s;
-        }
-        
-        .whatsapp-float {
-            background: #25D366;
-        }
-        
-        .phone-float {
-            background: #2193b0;
-        }
-        
-        .whatsapp-float:hover, .phone-float:hover {
-            transform: scale(1.1);
-        }
-        
-        /* Breadcrumb */
-        .breadcrumb {
-            padding: 15px 0;
-            background: #f1f1f1;
-            margin-bottom: 30px;
-        }
-        
-        .breadcrumb a {
-            color: #666;
-            text-decoration: none;
-        }
-        
-        .breadcrumb a:hover {
-            color: #2193b0;
-        }
-        
-        .breadcrumb span {
-            color: #333;
-            font-weight: 500;
-        }
-        
-        /* Contenu principal */
-        .content {
-            padding: 40px 0;
-        }
-        
-        h1 {
-            color: #2193b0;
-            margin-bottom: 20px;
-            font-size: 2.5rem;
-        }
-        
-        .intro {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 40px;
-            color: #555;
-        }
-        
-        /* Grille de villes */
-        .city-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
-        }
-        
-        .city-card {
-            background: white;
-            border: 2px solid #2193b0;
-            border-radius: 10px;
-            padding: 20px;
-            transition: transform 0.2s;
-        }
-        
-        .city-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-        }
-        
-        .city-card h3 {
-            color: #2193b0;
-            margin: 0 0 10px;
-            font-size: 1.3rem;
-        }
-        
-        .city-card .info {
-            font-size: 14px;
-            color: #666;
-            line-height: 1.8;
-        }
-        
-        .city-card .taxa {
-            background: #E3F2FD;
-            padding: 8px 15px;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-            font-weight: bold;
-            color: #2193b0;
-        }
-        
-        .city-card a {
-            display: inline-block;
-            background: #2193b0;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            margin-top: 15px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        
-        .city-card a:hover {
-            background: #2193b0;
-            opacity: 0.9;
-        }
-        
-        /* Avantages */
-        .advantages {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin: 40px 0;
-            border-left: 5px solid #2193b0;
-        }
-        
-        .advantages h3 {
-            color: #2193b0;
-            margin-bottom: 20px;
-        }
-        
-        .advantages ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        
-        .advantages li {
-            padding: 8px 0;
-            padding-left: 30px;
-            position: relative;
-        }
-        
-        .advantages li:before {
-            content: "✓";
-            color: #2193b0;
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-        }
-        
-        /* CTA */
-        .cta {
-            text-align: center;
-            padding: 50px 0;
-            background: linear-gradient(135deg, #2193b0, #2193b0dd);
-            color: white;
-            border-radius: 10px;
-            margin: 40px 0;
-        }
-        
-        .cta h2 {
-            margin-bottom: 20px;
-            font-size: 2rem;
-        }
-        
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-        
-        .cta-button {
-            background: white;
-            color: #2193b0;
-            padding: 15px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: transform 0.3s;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        
-        /* FAQ */
-        .faq {
-            margin: 40px 0;
-        }
-        
-        .faq h3 {
-            color: #2193b0;
-            margin-bottom: 20px;
-        }
-        
-        .faq-item {
-            background: white;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            border-left: 3px solid #2193b0;
-        }
-        
-        .faq-item h4 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        
-        /* Footer */
-        footer {
-            background: #333;
-            color: white;
-            padding: 40px 0;
-            margin-top: 60px;
-        }
-        
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-        }
-        
-        .footer-section h4 {
-            color: #2193b0;
-            margin-bottom: 20px;
-        }
-        
-        .footer-section ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        
-        .footer-section li {
-            margin-bottom: 10px;
-        }
-        
-        .footer-section a {
-            color: #ccc;
-            text-decoration: none;
-        }
-        
-        .footer-section a:hover {
-            color: white;
-        }
-        
-        .copyright {
-            text-align: center;
-            padding-top: 30px;
-            margin-top: 30px;
-            border-top: 1px solid #444;
-            color: #999;
-            font-size: 0.9rem;
-        }
-        
-        /* Responsive */
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                gap: 15px;
-            }
-            
-            nav ul {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 15px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .float-buttons {
-                bottom: 20px;
-                right: 20px;
-            }
-        }
-    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Canalizador no Distrito de Bragança",
+  "description": "Canalizador profissional em todo o distrito de Bragança. Cobertura em 12 cidades com equipamento de última geração.",
+  "url": "https://norte-reparos.com/distrito-braganca",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Início", "item": "https://norte-reparos.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Distrito de Bragança", "item": "https://norte-reparos.com/distrito-braganca"}
+    ]
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://wa.me" />
+<link rel="dns-prefetch" href="https://wa.me" />
 </head>
 <body>
-    <!-- Boutons flottants WhatsApp et Téléphone -->
-    <div class="float-buttons">
-        <a href="https://wa.me/351928484451" class="whatsapp-float" title="Contactar por WhatsApp">
-            <i>💬</i>
-        </a>
-        <a href="tel:+351928484451" class="phone-float" title="Ligar agora">
-            <i>📞</i>
-        </a>
-    </div>
-    
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <a href="/" class="logo">Norte-Reparos<span>.com</span></a>
-                <nav>
-                    <ul>
-                        <li><a href="/">Início</a></li>
-                        <li><a href="/servicos">Serviços</a></li>
-                        <li><a href="/zonas">Zonas de Intervenção</a></li>
-                        <li><a href="/contactos">Contactos</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    
-    <!-- Breadcrumb -->
-    <div class="breadcrumb">
-        <div class="container">
-            <a href="/">Início</a> &gt; <span>Distrito de Bragança</span>
-        </div>
-    </div>
-    
-    <!-- Contenu principal -->
-    <main class="container">
-        <section class="content">
-            <h1>Canalizador no Distrito de Bragança</h1>
-            <p class="intro">A nossa equipa de canalizadors profissionais está presente em todo o distrito de Bragança, 
-    garantindo serviços de alta qualidade em 12 municípios. Com base em Macedo de Cavaleiros, 
-    cobrimos desde as cidades mais próximas até aos concelhos mais distantes, sempre com equipamento profissional 
-    e resposta rápida 24 horas por dia.</p>
-            
-            <div class="city-grid">
-                
-    <div class="city-card">
-        <h3>Bragança</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 27km<br>
-            <strong>Tempo de deslocação:</strong> 25min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-braganca" title="Canalizador em Bragança">Serviços em Bragança</a>
-    </div>
-    
+<a href="https://wa.me/351928484451?text=Olá,%20preciso%20canalizador%20Distrito%20Bragança" class="whatsapp-float" aria-label="WhatsApp">💬</a>
+<a href="tel:+351 928 484 451" class="phone-float" aria-label="Ligar">📞</a>
 
-    <div class="city-card">
-        <h3>Macedo de Cavaleiros</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 0km<br>
-            <strong>Tempo de deslocação:</strong> 0min<br>
-            <strong>Zona de intervenção:</strong> Zona 1
-        </div>
-        <div class="taxa">Taxa de deslocação: 15€</div>
-        <a href="/canalizador-macedo-de-cavaleiros" title="Canalizador em Macedo de Cavaleiros">Serviços em Macedo de Cavaleiros</a>
-    </div>
-    
+<header class="header">
+<h1>Canalizador Profissional Certificado</h1>
+<div style="background:linear-gradient(135deg,#1a1a2e,#16213e);border:2px solid #2193b0;border-radius:12px;padding:20px 25px;margin:25px 0;display:flex;align-items:center;gap:15px;flex-wrap:wrap">
+<div style="font-size:40px">🔬</div>
+<div>
+<div style="color:#2193b0;font-weight:bold;font-size:18px;margin-bottom:3px">DIAGNÓSTICO PREMIUM — Tecnologia de Última Geração</div>
+<div style="color:#ccc;font-size:14px">Câmara de inspeção Ridgid • Detetor de fugas por ultrassons • Endoscópio 5m • Jato de alta pressão — <a href="/tecnologia-premium" style="color:#2193b0;text-decoration:underline">Ver equipamento completo →</a></div>
+</div>
+</div>
+<p style="margin:5px 0;font-size:16px">Macedo de Cavaleiros • Trás-os-Montes</p>
+</header>
 
-    <div class="city-card">
-        <h3>Mirandela</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 30km<br>
-            <strong>Tempo de deslocação:</strong> 25min<br>
-            <strong>Zona de intervenção:</strong> Zona 2
-        </div>
-        <div class="taxa">Taxa de deslocação: 20€</div>
-        <a href="/canalizador-mirandela" title="Canalizador em Mirandela">Serviços em Mirandela</a>
-    </div>
-    
+<nav class="breadcrumb">
+<a href="/">Início</a> &gt; Distrito de Bragança
+</nav>
 
-    <div class="city-card">
-        <h3>Alfândega da Fé</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 20km<br>
-            <strong>Tempo de deslocação:</strong> 15min<br>
-            <strong>Zona de intervenção:</strong> Zona 2
-        </div>
-        <div class="taxa">Taxa de deslocação: 20€</div>
-        <a href="/canalizador-alfândega-da-fe" title="Canalizador em Alfândega da Fé">Serviços em Alfândega da Fé</a>
-    </div>
-    
+<section class="content">
+<h1>Canalizador no Distrito de Bragança</h1>
+<p style="font-size:12px;color:#999;margin:5px 0 15px">📅 Última atualização: 22 de fevereiro de 2026</p>
 
-    <div class="city-card">
-        <h3>Mogadouro</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 50km<br>
-            <strong>Tempo de deslocação:</strong> 45min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-mogadouro" title="Canalizador em Mogadouro">Serviços em Mogadouro</a>
-    </div>
-    
+<div class="distance-box">
+<p style="font-size:16px;margin:0;line-height:1.8">
+💧 <strong>Distrito de Bragança:</strong> 12 cidades cobertas | 🏛️ <strong>Base:</strong> Macedo de Cavaleiros | 📍 <strong>Raio:</strong> Até 100km
+</p>
+</div>
 
-    <div class="city-card">
-        <h3>Torre de Moncorvo</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 55km<br>
-            <strong>Tempo de deslocação:</strong> 50min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-torre-de-moncorvo" title="Canalizador em Torre de Moncorvo">Serviços em Torre de Moncorvo</a>
-    </div>
-    
+<p>Como canalizador profissional certificado, ofereço serviços de canalização completos em todo o distrito de Bragança. Com base em Macedo de Cavaleiros, cubro as 12 principais cidades do distrito com equipamento de última geração e resposta rápida para urgências 24 horas.</p>
 
-    <div class="city-card">
-        <h3>Vinhais</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 60km<br>
-            <strong>Tempo de deslocação:</strong> 55min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-vinhais" title="Canalizador em Vinhais">Serviços em Vinhais</a>
-    </div>
-    
+<p>O distrito de Bragança, no coração de Trás-os-Montes, apresenta desafios específicos nas instalações hidráulicas devido ao clima mais rigoroso, águas mais duras e características das habitações tradicionais. Com experiência local, conheço as particularidades das redes de água e saneamento nesta região.</p>
 
-    <div class="city-card">
-        <h3>Vimioso</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 45km<br>
-            <strong>Tempo de deslocação:</strong> 40min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-vimioso" title="Canalizador em Vimioso">Serviços em Vimioso</a>
-    </div>
-    
+<h2>Cidades Cobertas no Distrito de Bragança</h2>
+<p>Clique em qualquer cidade para ver a página detalhada com serviços específicos:</p>
 
-    <div class="city-card">
-        <h3>Miranda do Douro</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 80km<br>
-            <strong>Tempo de deslocação:</strong> 70min<br>
-            <strong>Zona de intervenção:</strong> Zona 4
-        </div>
-        <div class="taxa">Taxa de deslocação: 35€</div>
-        <a href="/canalizador-miranda-do-douro" title="Canalizador em Miranda do Douro">Serviços em Miranda do Douro</a>
-    </div>
-    
+<div class="cities-grid">
+<!-- Bragança -->
+<div class="city-card">
+<h3><a href="/canalizador-braganca">Bragança</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 27 km</div>
+<div class="city-info-item">⏱️ Tempo: 25 min</div>
+<div class="city-info-item">🏷️ Zona: 3</div>
+<div class="city-info-item">💰 Taxa: 30€</div>
+</div>
+<span class="zone-badge zone-3">Zona 3</span>
+</div>
 
-    <div class="city-card">
-        <h3>Freixo de Espada à Cinta</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 75km<br>
-            <strong>Tempo de deslocação:</strong> 65min<br>
-            <strong>Zona de intervenção:</strong> Zona 3
-        </div>
-        <div class="taxa">Taxa de deslocação: 30€</div>
-        <a href="/canalizador-freixo-de-espada-à-cinta" title="Canalizador em Freixo de Espada à Cinta">Serviços em Freixo de Espada à Cinta</a>
-    </div>
-    
+<!-- Macedo de Cavaleiros -->
+<div class="city-card">
+<h3><a href="/canalizador-macedo-cavaleiros">Macedo de Cavaleiros</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 0 km</div>
+<div class="city-info-item">⏱️ Tempo: 0 min</div>
+<div class="city-info-item">🏷️ Zona: 1</div>
+<div class="city-info-item">💰 Taxa: 15€</div>
+</div>
+<span class="zone-badge zone-1">Zona 1</span>
+</div>
 
-    <div class="city-card">
-        <h3>Vila Flor</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 25km<br>
-            <strong>Tempo de deslocação:</strong> 20min<br>
-            <strong>Zona de intervenção:</strong> Zona 2
-        </div>
-        <div class="taxa">Taxa de deslocação: 20€</div>
-        <a href="/canalizador-vila-flor" title="Canalizador em Vila Flor">Serviços em Vila Flor</a>
-    </div>
-    
+<!-- Mirandela -->
+<div class="city-card">
+<h3><a href="/canalizador-mirandela">Mirandela</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 18 km</div>
+<div class="city-info-item">⏱️ Tempo: 20 min</div>
+<div class="city-info-item">🏷️ Zona: 2</div>
+<div class="city-info-item">💰 Taxa: 20€</div>
+</div>
+<span class="zone-badge zone-2">Zona 2</span>
+</div>
 
-    <div class="city-card">
-        <h3>Carrazeda de Ansiães</h3>
-        <div class="info">
-            <strong>Distância desde Macedo:</strong> 40km<br>
-            <strong>Tempo de deslocação:</strong> 35min<br>
-            <strong>Zona de intervenção:</strong> Zona 2
-        </div>
-        <div class="taxa">Taxa de deslocação: 20€</div>
-        <a href="/canalizador-carrazeda-de-ansiaes" title="Canalizador em Carrazeda de Ansiães">Serviços em Carrazeda de Ansiães</a>
-    </div>
-    
-            </div>
-            
-            <div class="advantages">
-                <h3>Porquê Escolher-nos no Distrito de Bragança?</h3>
-                <ul>
-                    <li>Equipa local com conhecimento profundo da região</li>
-<li>Resposta rápida 24/7 em todo o distrito</li>
-<li>Equipamento profissional Ridgid e Fluke</li>
-<li>Preços transparentes sem custos ocultos</li>
-<li>Garantia em todos os trabalhos realizados</li>
-                </ul>
-            </div>
-            
-            <!-- CTA central -->
-            <div class="cta">
-                <h2>Precisa de um canalizador profissional?</h2>
-                <p>Contacte-nos agora mesmo para uma intervenção rápida e eficaz.</p>
-                <div class="cta-buttons">
-                    <a href="tel:+351928484451" class="cta-button">📞 Ligar +351 928 484 451</a>
-                    <a href="https://wa.me/351928484451" class="cta-button">💬 WhatsApp</a>
-                </div>
-            </div>
-            
-            <!-- FAQ -->
-            <div class="faq">
-                <h3>Perguntas Frequentes - Distrito de Bragança</h3>
-                
-    <div class="faq-item">
-        <h4>Quanto tempo demora a vossa resposta no distrito de Bragança?</h4>
-        <p>A nossa resposta média é de 60-90 minutos, dependendo da localização exata. Nas cidades principais como Bragança e Mirandela, conseguimos chegar em menos de 30 minutos.</p>
-    </div>
-    
+<!-- Alfândega da Fé -->
+<div class="city-card">
+<h3><a href="/canalizador-alfandega-da-fe">Alfândega da Fé</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 22 km</div>
+<div class="city-info-item">⏱️ Tempo: 25 min</div>
+<div class="city-info-item">🏷️ Zona: 2</div>
+<div class="city-info-item">💰 Taxa: 20€</div>
+</div>
+<span class="zone-badge zone-2">Zona 2</span>
+</div>
 
-    <div class="faq-item">
-        <h4>Trabalham em todas as vilas do distrito?</h4>
-        <p>Sim, cobrimos todos os 12 concelhos do distrito de Bragança, desde as sedes de concelho até às freguesias mais remotas.</p>
-    </div>
-    
+<!-- Mogadouro -->
+<div class="city-card">
+<h3><a href="/canalizador-mogadouro">Mogadouro</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 45 km</div>
+<div class="city-info-item">⏱️ Tempo: 40 min</div>
+<div class="city-info-item">🏷️ Zona: 3</div>
+<div class="city-info-item">💰 Taxa: 30€</div>
+</div>
+<span class="zone-badge zone-3">Zona 3</span>
+</div>
 
-    <div class="faq-item">
-        <h4>Os preços são iguais em todo o distrito?</h4>
-        <p>Os preços variam conforme a zona de deslocação. Consulte a tabela de taxas por concelho acima para saber o valor exato para a sua localidade.</p>
-    </div>
-    
+<!-- Torre de Moncorvo -->
+<div class="city-card">
+<h3><a href="/canalizador-torre-moncorvo">Torre de Moncorvo</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 38 km</div>
+<div class="city-info-item">⏱️ Tempo: 35 min</div>
+<div class="city-info-item">🏷️ Zona: 3</div>
+<div class="city-info-item">💰 Taxa: 30€</div>
+</div>
+<span class="zone-badge zone-3">Zona 3</span>
+</div>
 
-    <div class="faq-item">
-        <h4>Fazem serviços de urgência à noite e fins-de-semana?</h4>
-        <p>Sim, estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo feriados. A taxa de urgência aplica-se apenas fora do horário comercial.</p>
-    </div>
-    
-            </div>
-        </section>
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Norte-Reparos</h4>
-                    <p>Canalizador profissional em Trás-os-Montes e Alto Douro.</p>
-                    <p>Base: Macedo de Cavaleiros</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Contactos</h4>
-                    <ul>
-                        <li>📞 <a href="tel:+351928484451">+351 928 484 451</a></li>
-                        <li>💬 <a href="https://wa.me/351928484451">WhatsApp</a></li>
-                        <li>✉️ <a href="mailto:info@norte-reparos.com">info@norte-reparos.com</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="/servicos">Nossos Serviços</a></li>
-                        <li><a href="/zonas">Zonas de Intervenção</a></li>
-                        <li><a href="/blog">Blog & Dicas</a></li>
-                        <li><a href="/contactos">Contacte-nos</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h4>Horário</h4>
-                    <p>24 horas / 7 dias por semana</p>
-                    <p>Urgências atendidas imediatamente</p>
-                </div>
-            </div>
-            
-            <div class="copyright">
-                <p>© Norte-Reparos 2026. Todos os direitos reservados.</p>
-                <p>Serviços de canalizador profissional em Trás-os-Montes e Alto Douro.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+<!-- Vinhais -->
+<div class="city-card">
+<h3><a href="/canalizador-vinhais">Vinhais</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 32 km</div>
+<div class="city-info-item">⏱️ Tempo: 30 min</div>
+<div class="city-info-item">🏷️ Zona: 3</div>
+<div class="city-info-item">💰 Taxa: 30€</div>
+</div>
+<span class="zone-badge zone-3">Zona 3</span>
+</div>
+
+<!-- Vimioso -->
+<div class="city-card">
+<h3><a href="/canalizador-vimioso">Vimioso</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 40 km</div>
+<div class="city-info-item">⏱️ Tempo: 38 min</div>
+<div class="city-info-item">🏷️ Zona: 3</div>
+<div class="city-info-item">💰 Taxa: 30€</div>
+</div>
+<span class="zone-badge zone-3">Zona 3</span>
+</div>
+
+<!-- Miranda do Douro -->
+<div class="city-card">
+<h3><a href="/canalizador-miranda-douro">Miranda do Douro</a></h3>
+<div class="city-info">
+<div class="city-info-item">📏 Distância: 55 km</div>
+<div class="city-info-item">⏱️ Tempo: 50 min</div>
+<div class="city-info-item">🏷️ Zona: 4</div>
+<div class="city-info-item">💰 Taxa: 35€</div>
+</div>
+<span class="zone-badge zone-4">Zona 4</span>
+</div>
+
+<!-- Freixo de Espada à Cinta -->
+<div class="city-card">
+<h3><a href="/canalizador-freixo-espada-cinta">Freixo de Espada à Cinta</a></h3>
+<div class="city-info
