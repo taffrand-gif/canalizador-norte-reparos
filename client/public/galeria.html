@@ -4,16 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Galeria de Trabalhos | Canalizador Trás-os-Montes</title>
-<meta name="description" content="Galeria de trabalhos de canalização em Trás-os-Montes. Desentupimentos, reparações de fugas, instalações sanitárias e muito mais.">
-<meta name="keywords" content="galeria canalizador, trabalhos canalização, antes depois, desentupimentos fotos, canalizador trás-os-montes">
+<meta name="description" content="Galeria de trabalhos de canalização em Trás-os-Montes. Desentupimentos, deteção de fugas, instalação de casas de banho e reparação de esquentadores. Antes e depois.">
+<meta name="keywords" content="galeria canalizador, trabalhos canalização, antes depois canalizador, desentupimentos fotos, canalizador trás-os-montes, norte reparos galeria">
 <link rel="canonical" href="https://norte-reparos.com/galeria">
 <meta property="og:title" content="Galeria de Trabalhos | Canalizador Trás-os-Montes">
-<meta property="og:description" content="Veja exemplos dos nossos trabalhos de canalização em Trás-os-Montes.">
+<meta property="og:description" content="Veja exemplos dos nossos trabalhos de canalização em Trás-os-Montes. Desentupimentos, fugas, instalações e reparações.">
 <meta property="og:url" content="https://norte-reparos.com/galeria">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_PT">
+<link rel="preconnect" href="https://wa.me" />
+<link rel="dns-prefetch" href="https://wa.me" />
 <style>
-body{margin:0;font-family:'Segoe UI',Arial,sans-serif;color:#333;line-height:1.8}
+body{margin:0;font-family:'Segoe UI',Arial,sans-serif;color:#333;line-height:1.8;background:#f9f9f9}
 .header{background:linear-gradient(135deg,#1a1a1a,#2d2d2d);color:white;padding:40px 20px;text-align:center}
 .header h1{margin:0;font-size:36px;color:#2193b0}
 .header p{color:#ccc;font-size:18px}
@@ -21,14 +23,17 @@ body{margin:0;font-family:'Segoe UI',Arial,sans-serif;color:#333;line-height:1.8
 .breadcrumb a{color:#2193b0;text-decoration:none}
 .content{max-width:1200px;margin:0 auto;padding:40px 20px}
 h2{color:#2193b0;font-size:28px;margin-top:40px;text-align:center}
-.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;margin:30px 0}
+.intro-text{font-size:18px;text-align:center;max-width:800px;margin:0 auto 30px;color:#555}
+.category-intro{background:#fff;padding:20px 25px;border-radius:10px;margin:20px 0 25px;box-shadow:0 3px 10px rgba(0,0,0,0.06);border-left:4px solid #2193b0;font-size:16px;color:#555}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;margin:20px 0 40px}
 .gallery-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.08);transition:transform 0.2s}
 .gallery-card:hover{transform:translateY(-5px)}
 .gallery-placeholder{background:linear-gradient(135deg,#e3f2fd,#bbdefb);height:220px;display:flex;align-items:center;justify-content:center;font-size:60px}
 .gallery-card .info{padding:20px}
 .gallery-card .info h3{color:#333;font-size:18px;margin:0 0 8px}
-.gallery-card .info p{color:#666;font-size:14px;margin:0}
-.gallery-card .info .tag{display:inline-block;background:#e3f2fd;color:#2193b0;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-top:10px}
+.gallery-card .info p{color:#666;font-size:14px;margin:0 0 8px}
+.gallery-card .info .tag{display:inline-block;background:#e3f2fd;color:#2193b0;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-top:8px}
+.gallery-card .info .location{font-size:13px;color:#888;margin-top:6px}
 .equip-section{background:#f0f8ff;padding:30px;border-radius:12px;margin:40px 0;text-align:center}
 .equip-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:20px}
 .equip-item{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
@@ -37,14 +42,14 @@ h2{color:#2193b0;font-size:28px;margin-top:40px;text-align:center}
 .cta-btn{display:inline-block;background:white;color:#2193b0;padding:20px 40px;border-radius:50px;font-size:24px;font-weight:bold;text-decoration:none;margin:10px}
 .footer{background:#1a1a1a;color:#ccc;padding:30px;text-align:center;font-size:14px}
 .footer a{color:#2193b0;text-decoration:none}
+a{color:#2193b0;text-decoration:none}
 .whatsapp-float{position:fixed;bottom:20px;left:20px;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(37,211,102,0.4);z-index:1000;text-decoration:none;font-size:30px}
 .phone-float{position:fixed;bottom:20px;right:20px;width:60px;height:60px;background:#2193b0;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(0,0,0,0.2);z-index:1000;text-decoration:none;font-size:30px}
+@media(max-width:600px){.gallery-grid{grid-template-columns:1fr}}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ImageGallery","name":"Galeria de Trabalhos - Canalizador Profissional","description":"Galeria de trabalhos realizados pelo canalizador profissional em Trás-os-Montes.","provider":{"@type":"Plumber","name":"Canalizador Profissional Trás-os-Montes","telephone":"+351 928 484 451","url":"https://norte-reparos.com"}}
+{"@context":"https://schema.org","@type":"ImageGallery","name":"Galeria de Trabalhos - Norte Reparos","description":"Galeria de trabalhos de canalização realizados pela equipa da Norte Reparos em Trás-os-Montes. Desentupimentos, deteção de fugas, instalações e reparações.","provider":{"@type":"Plumber","name":"Norte Reparos — Canalizador Profissional","telephone":"+351 928 484 451","url":"https://norte-reparos.com"}}
 </script>
-<link rel="preconnect" href="https://wa.me" />
-<link rel="dns-prefetch" href="https://wa.me" />
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Início","item":"https://norte-reparos.com/"},
@@ -55,157 +60,216 @@ h2{color:#2193b0;font-size:28px;margin-top:40px;text-align:center}
 <body>
 <a href="https://wa.me/351928484451" class="whatsapp-float" aria-label="WhatsApp">💬</a>
 <a href="tel:+351928484451" class="phone-float" aria-label="Ligar">📞</a>
-<div class="breadcrumb">
+<nav class="breadcrumb">
 <a href="/">Início</a> → Galeria
-</div>
-<div class="header">
+</nav>
+<header class="header">
 <h1>📸 Galeria de Trabalhos</h1>
-<div style="background:linear-gradient(135deg,#1a1a2e,#16213e);border:2px solid #2193b0;border-radius:12px;padding:20px 25px;margin:25px 0;display:flex;align-items:center;gap:15px;flex-wrap:wrap">
-<div style="font-size:40px">🔬</div>
-<div>
-<div style="color:#2193b0;font-weight:bold;font-size:18px;margin-bottom:3px">DIAGNÓSTICO PREMIUM — Tecnologia de Última Geração</div>
-<div style="color:#ccc;font-size:14px">Câmara térmica VEVOR • Ridgid FlexShaft K9-306 • Deteção UV Fluoresceína • Endoscópio HD — <a href="/tecnologia-premium" style="color:#2193b0;text-decoration:underline">Ver equipamento completo →</a></div>
-</div>
-</div>
+<p>Exemplos reais de serviços realizados pela nossa equipa em Trás-os-Montes</p>
+</header>
+<main class="content">
 
-<p>Exemplos de serviços realizados em Trás-os-Montes</p>
-</div>
-<div class="content">
-
-<p style="font-size:18px;text-align:center;max-width:800px;margin:0 auto 40px">
-Veja alguns exemplos dos trabalhos que realizo em toda a região de Trás-os-Montes. Cada intervenção é feita com equipamento profissional e garantia de qualidade.
+<p class="intro-text">
+Cada imagem representa um problema real resolvido pela equipa da Norte Reparos. Desde desentupimentos de emergência com a Ridgid K-6200 até instalações completas de casas de banho, os nossos técnicos documentam os trabalhos para que possa ver a qualidade do serviço antes de nos contactar. Todos os trabalhos incluem garantia e são realizados com equipamento profissional.
 </p>
 
+<!-- CATEGORIA 1: DESENTUPIMENTOS -->
 <h2>🔧 Desentupimentos</h2>
+<div class="category-intro">
+<p>Os desentupimentos são um dos serviços mais solicitados à nossa equipa. Utilizamos a máquina profissional <strong>Ridgid K-6200</strong> para resolver entupimentos graves que métodos caseiros não conseguem — raízes de árvore, acumulação de gordura, calcário e objetos estranhos nas canalizações. Cada intervenção começa com um diagnóstico por <strong>câmara de inspeção CCTV</strong> para identificar a causa exata do entupimento antes de intervir. Saiba mais sobre o nosso serviço de <a href="/desentupimentos-profissionais-tras-os-montes">desentupimentos profissionais</a>.</p>
+</div>
 <div class="gallery-grid">
 <div class="gallery-card">
-<div class="gallery-placeholder">🔧</div>
+<div class="gallery-placeholder" role="img" aria-label="Desentupimento de esgoto principal com máquina Ridgid K-6200 em Bragança">🔧</div>
 <div class="info">
-<h3>Desentupimento de Esgoto — Bragança</h3>
-<p>Desentupimento de esgoto principal com máquina Ridgid K-6200. Raízes de árvore tinham invadido a tubagem.</p>
+<h3>Desentupimento de Esgoto Principal</h3>
+<p>Coluna de esgoto completamente bloqueada por raízes de árvore que tinham invadido a tubagem ao longo de vários anos. A nossa equipa utilizou a Ridgid K-6200 para cortar e remover todas as raízes, restaurando o fluxo normal sem necessidade de escavação.</p>
+<div class="location">📍 Bragança — Zona 3</div>
 <span class="tag">Desentupimento</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">📹</div>
+<div class="gallery-placeholder" role="img" aria-label="Inspeção de canalização com câmara CCTV em Mirandela">📹</div>
 <div class="info">
-<h3>Inspeção com Câmara — Mirandela</h3>
-<p>Diagnóstico com câmara de inspeção CCTV para localizar obstrução em canalização enterrada.</p>
+<h3>Inspeção com Câmara CCTV</h3>
+<p>Diagnóstico completo de canalização enterrada com câmara de inspeção profissional. Identificámos uma obstrução parcial causada por acumulação de calcário a 12 metros de profundidade. O cliente pôde ver o problema em tempo real no ecrã antes de aprovar a intervenção.</p>
+<div class="location">📍 Mirandela — Zona 2</div>
 <span class="tag">Diagnóstico</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">🚿</div>
+<div class="gallery-placeholder" role="img" aria-label="Desentupimento de canalização de cozinha com remoção de gordura em Macedo de Cavaleiros">🚿</div>
 <div class="info">
-<h3>Desentupimento Lava-Loiça — Macedo</h3>
-<p>Remoção de acumulação de gordura em canalização de cozinha com equipamento profissional.</p>
+<h3>Desentupimento Lava-Loiça</h3>
+<p>Canalização de cozinha completamente obstruída por acumulação de gordura solidificada. Os nossos técnicos removeram o bloqueio com equipamento profissional e limparam as paredes internas do tubo com o Ridgid FlexShaft, prevenindo futuros entupimentos.</p>
+<div class="location">📍 Macedo de Cavaleiros — Zona 1</div>
 <span class="tag">Desentupimento</span>
 </div>
 </div>
 </div>
 
-<h2>💧 Reparação de Fugas</h2>
+<!-- CATEGORIA 2: DETEÇÃO DE FUGAS -->
+<h2>💧 Deteção de Fugas</h2>
+<div class="category-intro">
+<p>A deteção de fugas é uma especialidade da Norte Reparos. Muitos clientes contactam-nos quando a conta da água dispara sem explicação ou quando aparecem manchas de humidade nas paredes. A nossa equipa utiliza <strong>câmara térmica VEVOR</strong>, <strong>deteção UV com fluoresceína</strong> e <strong>câmara de inspeção CCTV</strong> para localizar fugas escondidas com precisão — sem partir paredes desnecessariamente. Conheça o nosso serviço de <a href="/detecao-fugas-agua-camera">deteção de fugas com câmara</a>.</p>
+</div>
 <div class="gallery-grid">
 <div class="gallery-card">
-<div class="gallery-placeholder">💧</div>
+<div class="gallery-placeholder" role="img" aria-label="Deteção e reparação de fuga escondida em tubo embutido na parede em Vila Real">💧</div>
 <div class="info">
-<h3>Fuga em Tubo Embutido — Vila Real</h3>
-<p>Deteção e reparação de fuga escondida na parede com mínimo de danos. Câmara de inspeção para localização precisa.</p>
-<span class="tag">Fugas</span>
+<h3>Fuga em Tubo Embutido na Parede</h3>
+<p>O cliente tinha uma mancha de humidade crescente na parede da cozinha há meses. Com a câmara térmica, os nossos técnicos localizaram a fuga exata num tubo de cobre embutido. Reparação cirúrgica com abertura mínima de apenas 20x20cm, em vez de demolir a parede inteira.</p>
+<div class="location">📍 Vila Real — Zona 5</div>
+<span class="tag">Deteção de Fugas</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">🔩</div>
+<div class="gallery-placeholder" role="img" aria-label="Substituição de canalização antiga em ferro galvanizado por multicamada em Chaves">🔩</div>
 <div class="info">
-<h3>Substituição de Tubagem — Chaves</h3>
-<p>Substituição de canalização antiga em ferro galvanizado por tubagem nova em multicamada.</p>
+<h3>Substituição de Tubagem Antiga</h3>
+<p>Casa com mais de 40 anos com canalização original em ferro galvanizado, completamente corroída por dentro. A nossa equipa substituiu toda a rede de água por tubagem nova em multicamada, eliminando as fugas constantes e melhorando a pressão de água em toda a casa.</p>
+<div class="location">📍 Chaves — Zona 6</div>
 <span class="tag">Canalização</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">🏠</div>
+<div class="gallery-placeholder" role="img" aria-label="Reparação de autoclismo com fuga constante em Torre de Moncorvo">🏠</div>
 <div class="info">
-<h3>Reparação Autoclismo — Torre de Moncorvo</h3>
-<p>Substituição de mecanismo de autoclismo com fuga constante. Poupança de milhares de litros por ano.</p>
+<h3>Reparação de Autoclismo com Fuga</h3>
+<p>Autoclismo a perder água continuamente — o cliente estava a desperdiçar mais de 200 litros por dia sem saber. Os nossos técnicos substituíram o mecanismo completo e a válvula de enchimento, eliminando a fuga e poupando dezenas de euros por mês na conta da água.</p>
+<div class="location">📍 Torre de Moncorvo — Zona 3</div>
 <span class="tag">Reparação</span>
 </div>
 </div>
 </div>
 
-<h2>🔥 Esquentadores e Caldeiras</h2>
+<!-- CATEGORIA 3: INSTALAÇÃO CASA DE BANHO -->
+<h2>🚿 Instalação Casa de Banho</h2>
+<div class="category-intro">
+<p>A instalação e remodelação de casas de banho é um dos trabalhos mais completos que a nossa equipa realiza. Desde a demolição da casa de banho antiga até à instalação de toda a canalização, sanita, lavatório, base de duche ou banheira, torneiras e acessórios — tudo feito por um único profissional, sem necessidade de coordenar vários técnicos. Veja detalhes na nossa página de <a href="/instalacao-casa-banho-completa">instalação de casa de banho completa</a>.</p>
+</div>
 <div class="gallery-grid">
 <div class="gallery-card">
-<div class="gallery-placeholder">🔥</div>
+<div class="gallery-placeholder" role="img" aria-label="Instalação completa de casa de banho nova com sanita, lavatório e base de duche em Mirandela">🛁</div>
 <div class="info">
-<h3>Instalação Esquentador — Mogadouro</h3>
-<p>Instalação de esquentador novo com todas as ligações de gás e água conforme normas de segurança.</p>
-<span class="tag">Esquentador</span>
+<h3>Casa de Banho Completa — Antes e Depois</h3>
+<p>Remodelação total de casa de banho em apartamento. A nossa equipa removeu a banheira antiga, instalou base de duche com resguardo, sanita suspensa, lavatório com móvel e toda a canalização nova em PPR. Trabalho concluído em 3 dias com acabamento impecável.</p>
+<div class="location">📍 Mirandela — Zona 2</div>
+<span class="tag">Instalação</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">♨️</div>
+<div class="gallery-placeholder" role="img" aria-label="Instalação de canalização nova para casa de banho em construção em Mogadouro">🏗️</div>
 <div class="info">
-<h3>Manutenção Caldeira — Vinhais</h3>
-<p>Revisão anual de caldeira mural. Limpeza de queimador, verificação de segurança e teste de estanquidade.</p>
-<span class="tag">Caldeira</span>
+<h3>Canalização para Casa de Banho Nova</h3>
+<p>Instalação de toda a rede de água quente e fria e esgotos para casa de banho em construção nova. Tubagem em PPR para água e PVC para esgotos, com todos os pontos de ligação preparados para os equipamentos sanitários.</p>
+<div class="location">📍 Mogadouro — Zona 3</div>
+<span class="tag">Canalização Nova</span>
 </div>
 </div>
 <div class="gallery-card">
-<div class="gallery-placeholder">🛁</div>
+<div class="gallery-placeholder" role="img" aria-label="Adaptação de casa de banho para acessibilidade com base de duche rasa em Lamego">♿</div>
 <div class="info">
-<h3>Instalação Casa de Banho — Mirandela</h3>
-<p>Instalação completa de casa de banho: sanita, lavatório, base de duche e toda a canalização.</p>
+<h3>Adaptação para Acessibilidade</h3>
+<p>Transformação de banheira em base de duche rasa para pessoa com mobilidade reduzida. Os nossos técnicos instalaram base de duche antiderrapante, barras de apoio e torneira termostática, garantindo segurança e conforto.</p>
+<div class="location">📍 Lamego — Zona 5</div>
 <span class="tag">Instalação</span>
 </div>
 </div>
 </div>
 
-<div class="equip-section">
-<h2 style="margin-top:0">🛠️ Equipamento Profissional</h2>
-<p>Utilizo equipamento de referência para garantir resultados de qualidade</p>
-<div class="equip-grid">
-<div class="equip-item">
-<h4>Ridgid K-6200</h4>
-<p>Máquina de desentupimento profissional para canalizações até 150mm de diâmetro.</p>
+<!-- CATEGORIA 4: REPARAÇÃO ESQUENTADORES -->
+<h2>🔥 Reparação Esquentadores e Caldeiras</h2>
+<div class="category-intro">
+<p>Com os invernos rigorosos de Trás-os-Montes, ter o esquentador ou a caldeira a funcionar é essencial. A nossa equipa repara e instala esquentadores e caldeiras de todas as marcas, com diagnóstico profissional e peças originais. Também realizamos manutenção preventiva anual para evitar avarias nos meses mais frios. Consulte a nossa página de <a href="/reparacao-esquentadores-caldeiras">reparação de esquentadores e caldeiras</a>.</p>
 </div>
-<div class="equip-item">
-<h4>Câmara de Inspeção CCTV</h4>
-<p>Diagnóstico visual do interior das canalizações sem necessidade de partir paredes.</p>
+<div class="gallery-grid">
+<div class="gallery-card">
+<div class="gallery-placeholder" role="img" aria-label="Instalação de esquentador novo com ligações de gás e água em Mogadouro">🔥</div>
+<div class="info">
+<h3>Instalação de Esquentador Novo</h3>
+<p>Substituição de esquentador antigo por modelo novo de condensação, mais eficiente e económico. Os nossos técnicos fizeram todas as ligações de gás e água conforme as normas de segurança em vigor, incluindo teste de estanquidade.</p>
+<div class="location">📍 Mogadouro — Zona 3</div>
+<span class="tag">Esquentador</span>
 </div>
-<div class="equip-item">
-<h4>Detetor de Fugas</h4>
-<p>Localização precisa de fugas escondidas em paredes e pavimentos.</p>
+</div>
+<div class="gallery-card">
+<div class="gallery-placeholder" role="img" aria-label="Manutenção anual de caldeira mural com limpeza de queimador em Vinhais">♨️</div>
+<div class="info">
+<h3>Manutenção Anual de Caldeira</h3>
+<p>Revisão completa de caldeira mural antes do inverno. A nossa equipa fez limpeza do queimador, verificação de todos os componentes de segurança, teste de estanquidade do circuito de gás e purga de todos os radiadores da casa.</p>
+<div class="location">📍 Vinhais — Zona 3</div>
+<span class="tag">Caldeira</span>
+</div>
+</div>
+<div class="gallery-card">
+<div class="gallery-placeholder" role="img" aria-label="Reparação urgente de esquentador que deixou de aquecer água no inverno em Bragança">🛠️</div>
+<div class="info">
+<h3>Reparação Urgente de Esquentador</h3>
+<p>Esquentador que deixou de produzir água quente em pleno inverno. Os nossos técnicos diagnosticaram uma membrana do corpo de água danificada, substituíram a peça no local e o equipamento ficou operacional em menos de uma hora.</p>
+<div class="location">📍 Bragança — Zona 3</div>
+<span class="tag">Reparação</span>
 </div>
 </div>
 </div>
 
+<div class="equip-section">
+<h2 style="margin-top:0">🛠️ Equipamento Profissional Utilizado</h2>
+<p style="font-size:16px;color:#555">A nossa equipa utiliza equipamento de referência para garantir resultados de qualidade em cada intervenção</p>
+<div class="equip-grid">
+<div class="equip-item">
+<h4>Ridgid K-6200</h4>
+<p>Máquina de desentupimento profissional para canalizações até 150mm de diâmetro. Corta raízes, gordura e calcário.</p>
+</div>
+<div class="equip-item">
+<h4>Câmara de Inspeção CCTV</h4>
+<p>Diagnóstico visual do interior das canalizações sem necessidade de partir paredes ou escavar.</p>
+</div>
+<div class="equip-item">
+<h4>Câmara Térmica VEVOR</h4>
+<p>Localização precisa de fugas escondidas em paredes e pavimentos através de variações de temperatura.</p>
+</div>
+<div class="equip-item">
+<h4>Deteção UV Fluoresceína</h4>
+<p>Tecnologia avançada para localizar fugas invisíveis em sistemas de aquecimento e canalizações enterradas.</p>
+</div>
+</div>
+<p style="margin-top:20px"><a href="/tecnologia-premium" style="color:#2193b0;font-weight:bold;font-size:16px">Ver todo o equipamento →</a></p>
+</div>
+
+<div style="background:#fff;padding:25px;border-radius:12px;margin:30px 0;box-shadow:0 3px 10px rgba(0,0,0,0.06)">
+<h2 style="text-align:left;margin-top:0">⭐ O Que Dizem os Nossos Clientes</h2>
+<p style="font-size:16px;color:#555">A qualidade dos nossos trabalhos é confirmada pelos testemunhos dos clientes. Com uma nota média de <strong>4.9/5</strong> baseada em dezenas de avaliações, a Norte Reparos é a escolha de confiança em Trás-os-Montes.</p>
+<p><a href="/testemunhos" style="font-weight:bold;font-size:16px">Ler todos os testemunhos →</a></p>
+</div>
+
 <div class="cta-box">
-<h2 style="color:white;margin:0 0 20px">Precisa de Canalizador?</h2>
-<p style="font-size:18px;margin:0 0 20px;opacity:0.9">Disponível 24h/7d em todo o distrito de Bragança e Vila Real</p>
+<h2 style="color:white;margin:0 0 20px">💧 Precisa de Canalizador Profissional?</h2>
+<p style="font-size:18px;margin:0 0 20px;opacity:0.9">Disponível 24h/7d em todo o Trás-os-Montes. Orçamento gratuito.</p>
 <a href="tel:+351928484451" class="cta-btn">📞 +351 928 484 451</a>
 <br>
 <a href="https://wa.me/351928484451" class="cta-btn" style="background:#25D366;color:white">💬 WhatsApp</a>
 </div>
 
-
-<!-- CTA Pedir Orçamento -->
 <div style="text-align:center;padding:40px 20px;margin:30px auto;max-width:600px">
-<a href="/contactos" style="display:inline-block;background:#2193b0;color:white;padding:16px 32px;border-radius:50px;font-size:20px;font-weight:bold;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.2);transition:transform 0.2s">📩 Pedir Orçamento Gratuito</a>
+<a href="/contactos" style="display:inline-block;background:#2193b0;color:white;padding:16px 32px;border-radius:50px;font-size:20px;font-weight:bold;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.2)">📩 Pedir Orçamento Gratuito</a>
 </div>
-</div>
+</main>
 
 <footer class="footer">
-<p>© 2026 Canalizador Profissional Trás-os-Montes</p>
+<p><strong>Norte Reparos — Canalizador Profissional</strong></p>
+<p style="font-size:14px;opacity:0.7">💧 Trás-os-Montes | 📞 24h/7d</p>
 <div style="margin-top:20px;padding:20px;background:#f5f5f5;border-radius:10px">
-<p style="font-size:14px;line-height:2">
+<p style="font-size:14px;line-height:2;color:#333">
 <a href="/" style="color:#2193b0">Início</a> •
 <a href="/servicos" style="color:#2193b0">Serviços</a> •
-<a href="/galeria" style="color:#2193b0">Galeria</a> •
-<a href="/zonas" style="color:#2193b0">Zonas</a> •
+<a href="/sobre-mim" style="color:#2193b0">Sobre Nós</a> •
+<a href="/zona-intervencao" style="color:#2193b0">Zonas</a> •
 <a href="/faq" style="color:#2193b0">FAQ</a> •
-<a href="/blog/" style="color:#2193b0">Blog</a>
+<a href="/blog/" style="color:#2193b0">Blog</a> •
+<a href="/testemunhos" style="color:#2193b0">Testemunhos</a>
 </p>
-<p style="font-size:13px;line-height:2">
+<p style="font-size:13px;line-height:2;color:#333">
 <a href="/canalizador-braganca" style="color:#2193b0">Bragança</a> •
 <a href="/canalizador-mirandela" style="color:#2193b0">Mirandela</a> •
 <a href="/canalizador-chaves" style="color:#2193b0">Chaves</a> •
@@ -214,7 +278,6 @@ Veja alguns exemplos dos trabalhos que realizo em toda a região de Trás-os-Mon
 <a href="/canalizador-lamego" style="color:#2193b0">Lamego</a>
 </p>
 </div>
-<p style="margin-top:15px"><a href="/sobre-mim" style="color:#2193b0;text-decoration:none">Sobre Nós</a></p>
 <div style="text-align:center;margin-top:20px;padding-top:15px;border-top:1px solid rgba(255,255,255,0.2)">
 <a href="/contactos" style="color:#2193b0;text-decoration:none;font-weight:bold;margin:0 10px">📩 Contacte-nos</a> •
 <a href="tel:+351928484451" style="color:#2193b0;text-decoration:none;margin:0 10px">📞 +351 928 484 451</a> •
