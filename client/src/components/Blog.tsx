@@ -59,8 +59,11 @@ export default function Blog() {
               <div className="aspect-[16/9] overflow-hidden">
                 <img
                   src={article.image}
-                  alt={article.title}
+                  alt={`${article.title} - Canalizador Trás-os-Montes`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  width="400"
+                  height="225"
                 />
               </div>
 

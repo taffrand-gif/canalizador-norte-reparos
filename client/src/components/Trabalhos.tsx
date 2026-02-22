@@ -75,7 +75,8 @@ export default function Trabalhos() {
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} - Canalizador profissional em Trás-os-Montes`}
+                  loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   width="400"

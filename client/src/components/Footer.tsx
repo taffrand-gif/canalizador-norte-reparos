@@ -42,24 +42,32 @@ export default function Footer() {
             <h4 className="text-lg font-black mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               {[
-                { id: 'home', label: 'Home' },
-                { id: 'servicos', label: 'Serviços' },
-                { id: 'precos', label: 'Preços' },
-                { id: 'trabalhos', label: 'Trabalhos' },
-                { id: 'faq', label: 'FAQ' },
-                { id: 'testemunhos', label: 'Testemunhos' },
-                { id: 'blog', label: 'Blog' },
-                { id: 'contactos', label: 'Contactos' },
+                { href: '/', label: 'Home' },
+                { href: '/servicos', label: 'Serviços' },
+                { href: '/blog/', label: 'Blog' },
+                { href: '/faq', label: 'FAQ' },
+                { href: '/galeria', label: 'Galeria' },
+                { href: '/tecnologia-premium', label: 'Tecnologia' },
+                { href: '/zonas', label: 'Zonas' },
+                { href: '/contactos', label: 'Contactos' },
               ].map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => scrollToSection(link.id)}
+                <li key={link.href}>
+                  <a
+                    href={link.href}
                     className="text-gray-200 hover:text-white transition-colors"
                   >
                     {link.label}
-                  </button>
+                  </a>
                 </li>
               ))}
+            </ul>
+            <h4 className="text-lg font-black mt-6 mb-3">Serviços</h4>
+            <ul className="space-y-1 text-sm">
+              <li><a href="/desentupimentos-profissionais-tras-os-montes" className="text-gray-300 hover:text-white">Desentupimentos</a></li>
+              <li><a href="/detecao-fugas-agua-camera" className="text-gray-300 hover:text-white">Deteção de Fugas</a></li>
+              <li><a href="/reparacao-esquentadores-caldeiras" className="text-gray-300 hover:text-white">Esquentadores</a></li>
+              <li><a href="/canalizacao-nova-construcao" className="text-gray-300 hover:text-white">Canalização Nova</a></li>
+              <li><a href="/instalacao-casa-banho-completa" className="text-gray-300 hover:text-white">Casa de Banho</a></li>
             </ul>
           </div>
 
