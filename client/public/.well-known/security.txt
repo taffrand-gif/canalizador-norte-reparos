@@ -1,0 +1,9 @@
+# Security Policy for Norte Reparos
+# https://norte-reparos.com
+
+Contact: mailto:Xpvqvmmwp4@privaterelay.appleid.com
+Contact: https://wa.me/351928484451
+Expires: 2027-02-22T18:00:00.000Z
+Preferred-Languages: pt, en
+Canonical: https://norte-reparos.com/.well-known/security.txt
+Policy: https://norte-reparos.com/politica-privacidade

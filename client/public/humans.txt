@@ -1,11 +1,19 @@
 /* TEAM */
 Canalizador: Norte Reparos
+Função: Canalizador Profissional
 Localização: Macedo de Cavaleiros, Trás-os-Montes, Portugal
 Contacto: +351 928 484 451
+WhatsApp: https://wa.me/351928484451
 Site: https://norte-reparos.com
 
 /* SITE */
-Última atualização: 2026-02-19
+Última atualização: 2026-02-22
 Linguagem: Português (pt-PT)
 Tecnologia: React, Vite, Vercel
-Standards: HTML5, CSS3, Schema.org
+Standards: HTML5, CSS3, Schema.org, JSON-LD
+Doctype: HTML5
+IDE: Visual Studio Code
+
+/* OBRIGADO */
+Aos nossos clientes em Trás-os-Montes pela confiança.
+Bragança, Mirandela, Vila Real, Chaves, Lamego e toda a região.
