@@ -4,6 +4,8 @@ Script pour générer les 15 pages service+ville manquantes pour Norte-Reparos.c
 """
 
 import os
+import json
+import random
 from datetime import datetime
 
 # Configuration du site
@@ -683,4 +685,89 @@ Poucos canalizadores em {ville} têm este nível de equipamento. <strong>Resolvo
 
 <footer class="footer">
 <p><strong>{service_info['name']} Profissionais em {ville}</strong></p>
-<p style="font-size:14px;opacity:0.7;margin-top:10px">💧 Equipamento Ridgid Profissional | 📹 Câmara Ins
+<p style="font-size:14px;opacity:0.7;margin-top:10px">💧 Equipamento Ridgid Profissional | 📹 Câmara Inspeção HD | 🔬 Tecnologia Térmica</p>
+
+<div style="margin-top:40px;padding:25px;background:#f5f5f5;border-radius:10px">
+<h3 style="color:#333;margin-top:0">🏙️ Canalizador Noutras Cidades</h3>
+<p style="font-size:15px;line-height:2">
+<a href="/canalizador-braganca.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Bragança</a> • <a href="/canalizador-chaves.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Chaves</a> • <a href="/canalizador-macedo-cavaleiros.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Macedo</a> • <a href="/canalizador-mirandela.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Mirandela</a> • <a href="/canalizador-mogadouro.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Mogadouro</a> • <a href="/canalizador-torre-moncorvo.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Torre de Moncorvo</a> • <a href="/canalizador-vila-real.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Vila Real</a> • <a href="/canalizador-vinhais.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Vinhais</a>
+</p>
+<h3 style="color:#333">📝 Artigos Úteis</h3>
+<p style="font-size:15px;line-height:2">
+<a href="/blog/fuga-agua-casa-o-que-fazer.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Fuga de Água? O Que Fazer</a> • <a href="/blog/preco-canalizador-tras-os-montes.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Preços Canalizador 2026</a> • <a href="/blog/blog-desentupir-sem-quimicos.html" style="color:{SITE_CONFIG['color']};text-decoration:none">Desentupir Sem Químicos</a>
+</p>
+<p style="text-align:center;margin-top:15px"><a href="/sobre-mim" style="color:{SITE_CONFIG['color']};text-decoration:none">Sobre Mim</a> • <a href="/" style="color:{SITE_CONFIG['color']};font-weight:700;text-decoration:none">← Página Inicial</a></p>
+</div>
+</footer>
+
+<!-- Floating buttons -->
+<div class="floating-buttons">
+<a href="{SITE_CONFIG['whatsapp']}?text=Preciso%20{service_info['name'].lower().replace(' ', '%20')}%20{ville}" class="floating-button whatsapp-float" title="WhatsApp">
+💬
+</a>
+<a href="tel:{SITE_CONFIG['tel']}" class="floating-button phone-float" title="Telefone">
+📞
+</a>
+</div>
+
+</body>
+</html>'''
+    
+    return html, slug
+
+def main():
+    """Fonction principale"""
+    import json
+    import os
+    
+    print("🚀 Génération des 15 pages service+ville pour Norte-Reparos.com")
+    print("=" * 60)
+    
+    # Vérifier le répertoire de destination
+    output_dir = os.path.expanduser("~/projects/norte-reparos/dist/public")
+    os.makedirs(output_dir, exist_ok=True)
+    
+    created_pages = []
+    
+    for service_key, ville in PAGES_TO_CREATE:
+        print(f"\n📄 Création: {service_key} - {ville}")
+        
+        # Générer la page
+        html, slug = generate_html_page(service_key, ville)
+        
+        # Sauvegarder le fichier
+        output_path = os.path.join(output_dir, slug)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+        
+        print(f"   ✅ Fichier créé: {slug}")
+        print(f"   📍 Chemin: {output_path}")
+        
+        created_pages.append({
+            "service": service_key,
+            "ville": ville,
+            "slug": slug,
+            "path": output_path
+        })
+    
+    # Générer un rapport
+    print("\n" + "=" * 60)
+    print("📊 RAPPORT DE CRÉATION")
+    print("=" * 60)
+    
+    for page in created_pages:
+        print(f"• {page['service']} - {page['ville']}: {page['slug']}")
+    
+    print(f"\n🎉 Total: {len(created_pages)} pages créées avec succès!")
+    
+    # Instructions pour Git
+    print("\n📝 Pour commiter et pousser les changements:")
+    print("cd ~/projects/norte-reparos")
+    print("git add -A")
+    print('git commit -m "SEO: 15 pages service+ville"')
+    print("git push origin main")
+    
+    return created_pages
+
+if __name__ == "__main__":
+    main()
