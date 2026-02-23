@@ -374,6 +374,214 @@
       "destination": "/distrito-viseu-guarda.html"
     },
     {
+      "source": "/googleabcdef123456",
+      "destination": "/public/googleabcdef123456.html"
+    },
+    {
+      "source": "/maintenance",
+      "destination": "/public/maintenance.html"
+    },
+    {
+      "source": "/melhores-autoclismos",
+      "destination": "/public/melhores-autoclismos.html"
+    },
+    {
+      "source": "/melhores-bombas-agua-domesticas",
+      "destination": "/public/melhores-bombas-agua-domesticas.html"
+    },
+    {
+      "source": "/melhores-cameras-inspecao-canos",
+      "destination": "/public/melhores-cameras-inspecao-canos.html"
+    },
+    {
+      "source": "/melhores-chaves-cano-canalizador",
+      "destination": "/public/melhores-chaves-cano-canalizador.html"
+    },
+    {
+      "source": "/melhores-chuveiros-duche",
+      "destination": "/public/melhores-chuveiros-duche.html"
+    },
+    {
+      "source": "/melhores-corta-tubos",
+      "destination": "/public/melhores-corta-tubos.html"
+    },
+    {
+      "source": "/melhores-detetores-fugas-agua",
+      "destination": "/public/melhores-detetores-fugas-agua.html"
+    },
+    {
+      "source": "/melhores-esquentadores-gas",
+      "destination": "/public/melhores-esquentadores-gas.html"
+    },
+    {
+      "source": "/melhores-filtros-agua-casa",
+      "destination": "/public/melhores-filtros-agua-casa.html"
+    },
+    {
+      "source": "/melhores-kits-reparacao-canalizacao",
+      "destination": "/public/melhores-kits-reparacao-canalizacao.html"
+    },
+    {
+      "source": "/melhores-maquinas-desentupir",
+      "destination": "/public/melhores-maquinas-desentupir.html"
+    },
+    {
+      "source": "/melhores-redutores-pressao",
+      "destination": "/public/melhores-redutores-pressao.html"
+    },
+    {
+      "source": "/melhores-sifoes-cozinha",
+      "destination": "/public/melhores-sifoes-cozinha.html"
+    },
+    {
+      "source": "/melhores-soldadores-cobre",
+      "destination": "/public/melhores-soldadores-cobre.html"
+    },
+    {
+      "source": "/melhores-termoacumuladores",
+      "destination": "/public/melhores-termoacumuladores.html"
+    },
+    {
+      "source": "/melhores-torneiras-casa-banho",
+      "destination": "/public/melhores-torneiras-casa-banho.html"
+    },
+    {
+      "source": "/melhores-torneiras-cozinha",
+      "destination": "/public/melhores-torneiras-cozinha.html"
+    },
+    {
+      "source": "/melhores-tubos-ppr-multicamada",
+      "destination": "/public/melhores-tubos-ppr-multicamada.html"
+    },
+    {
+      "source": "/melhores-valvulas-seguranca",
+      "destination": "/public/melhores-valvulas-seguranca.html"
+    },
+    {
+      "source": "/melhores-vedantes-canalizacao",
+      "destination": "/public/melhores-vedantes-canalizacao.html"
+    },
+    {
+      "source": "/blog/como-desentupir-banheira",
+      "destination": "/public/blog/como-desentupir-banheira.html"
+    },
+    {
+      "source": "/blog/como-desentupir-cano-gordura",
+      "destination": "/public/blog/como-desentupir-cano-gordura.html"
+    },
+    {
+      "source": "/blog/como-desentupir-tubo-queda",
+      "destination": "/public/blog/como-desentupir-tubo-queda.html"
+    },
+    {
+      "source": "/blog/como-instalar-aquecimento-central",
+      "destination": "/public/blog/como-instalar-aquecimento-central.html"
+    },
+    {
+      "source": "/blog/como-instalar-banheira",
+      "destination": "/public/blog/como-instalar-banheira.html"
+    },
+    {
+      "source": "/blog/como-instalar-base-duche",
+      "destination": "/public/blog/como-instalar-base-duche.html"
+    },
+    {
+      "source": "/blog/como-instalar-bide",
+      "destination": "/public/blog/como-instalar-bide.html"
+    },
+    {
+      "source": "/blog/como-instalar-bomba-agua",
+      "destination": "/public/blog/como-instalar-bomba-agua.html"
+    },
+    {
+      "source": "/blog/como-instalar-contador-agua",
+      "destination": "/public/blog/como-instalar-contador-agua.html"
+    },
+    {
+      "source": "/blog/como-instalar-esquentador-gas",
+      "destination": "/public/blog/como-instalar-esquentador-gas.html"
+    },
+    {
+      "source": "/blog/como-instalar-filtro-agua",
+      "destination": "/public/blog/como-instalar-filtro-agua.html"
+    },
+    {
+      "source": "/blog/como-instalar-maquina-lavar-loica",
+      "destination": "/public/blog/como-instalar-maquina-lavar-loica.html"
+    },
+    {
+      "source": "/blog/como-instalar-maquina-lavar-roupa",
+      "destination": "/public/blog/como-instalar-maquina-lavar-roupa.html"
+    },
+    {
+      "source": "/blog/como-instalar-piso-radiante-hidraulico",
+      "destination": "/public/blog/como-instalar-piso-radiante-hidraulico.html"
+    },
+    {
+      "source": "/blog/como-instalar-redutor-pressao",
+      "destination": "/public/blog/como-instalar-redutor-pressao.html"
+    },
+    {
+      "source": "/blog/como-instalar-rega-automatica",
+      "destination": "/public/blog/como-instalar-rega-automatica.html"
+    },
+    {
+      "source": "/blog/como-instalar-sifao-cozinha",
+      "destination": "/public/blog/como-instalar-sifao-cozinha.html"
+    },
+    {
+      "source": "/blog/como-instalar-sistema-osmose-inversa",
+      "destination": "/public/blog/como-instalar-sistema-osmose-inversa.html"
+    },
+    {
+      "source": "/blog/como-instalar-sistema-reaproveitamento-agua",
+      "destination": "/public/blog/como-instalar-sistema-reaproveitamento-agua.html"
+    },
+    {
+      "source": "/blog/como-instalar-termoacumulador",
+      "destination": "/public/blog/como-instalar-termoacumulador.html"
+    },
+    {
+      "source": "/blog/como-instalar-torneira-cozinha",
+      "destination": "/public/blog/como-instalar-torneira-cozinha.html"
+    },
+    {
+      "source": "/blog/como-instalar-torneira-termostatica",
+      "destination": "/public/blog/como-instalar-torneira-termostatica.html"
+    },
+    {
+      "source": "/blog/como-instalar-triturador-sanita",
+      "destination": "/public/blog/como-instalar-triturador-sanita.html"
+    },
+    {
+      "source": "/blog/como-instalar-valvula-seguranca",
+      "destination": "/public/blog/como-instalar-valvula-seguranca.html"
+    },
+    {
+      "source": "/blog/como-limpar-caixa-gordura",
+      "destination": "/public/blog/como-limpar-caixa-gordura.html"
+    },
+    {
+      "source": "/blog/como-proteger-canos-gelo-inverno",
+      "destination": "/public/blog/como-proteger-canos-gelo-inverno.html"
+    },
+    {
+      "source": "/blog/como-reparar-cano-furado",
+      "destination": "/public/blog/como-reparar-cano-furado.html"
+    },
+    {
+      "source": "/blog/como-reparar-fuga-junta-cano",
+      "destination": "/public/blog/como-reparar-fuga-junta-cano.html"
+    },
+    {
+      "source": "/blog/como-reparar-fuga-radiador",
+      "destination": "/public/blog/como-reparar-fuga-radiador.html"
+    },
+    {
+      "source": "/blog/como-reparar-valvula-autoclismo",
+      "destination": "/public/blog/como-reparar-valvula-autoclismo.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
