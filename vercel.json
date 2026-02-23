@@ -1218,6 +1218,622 @@
       "destination": "/public/urgencia-canalizador-vila-pouca-de-aguiar.html"
     },
     {
+      "source": "/caldeira-algoso",
+      "destination": "/public/caldeira-algoso.html"
+    },
+    {
+      "source": "/caldeira-armamar",
+      "destination": "/public/caldeira-armamar.html"
+    },
+    {
+      "source": "/caldeira-boticas",
+      "destination": "/public/caldeira-boticas.html"
+    },
+    {
+      "source": "/caldeira-duas-igrejas",
+      "destination": "/public/caldeira-duas-igrejas.html"
+    },
+    {
+      "source": "/caldeira-figueira-castelo-rodrigo",
+      "destination": "/public/caldeira-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/caldeira-lagoaca",
+      "destination": "/public/caldeira-lagoaca.html"
+    },
+    {
+      "source": "/caldeira-meda",
+      "destination": "/public/caldeira-meda.html"
+    },
+    {
+      "source": "/caldeira-mesao-frio",
+      "destination": "/public/caldeira-mesao-frio.html"
+    },
+    {
+      "source": "/caldeira-miranda-do-douro",
+      "destination": "/public/caldeira-miranda-do-douro.html"
+    },
+    {
+      "source": "/caldeira-moncorvo",
+      "destination": "/public/caldeira-moncorvo.html"
+    },
+    {
+      "source": "/caldeira-mondim-de-basto",
+      "destination": "/public/caldeira-mondim-de-basto.html"
+    },
+    {
+      "source": "/caldeira-monforte-de-rio-livre",
+      "destination": "/public/caldeira-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/caldeira-montalegre",
+      "destination": "/public/caldeira-montalegre.html"
+    },
+    {
+      "source": "/caldeira-penedono",
+      "destination": "/public/caldeira-penedono.html"
+    },
+    {
+      "source": "/caldeira-rebordelo",
+      "destination": "/public/caldeira-rebordelo.html"
+    },
+    {
+      "source": "/caldeira-ribeira-de-pena",
+      "destination": "/public/caldeira-ribeira-de-pena.html"
+    },
+    {
+      "source": "/caldeira-santa-marta-penaguiao",
+      "destination": "/public/caldeira-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/caldeira-sendim",
+      "destination": "/public/caldeira-sendim.html"
+    },
+    {
+      "source": "/caldeira-sernancelhe",
+      "destination": "/public/caldeira-sernancelhe.html"
+    },
+    {
+      "source": "/caldeira-tabuaco",
+      "destination": "/public/caldeira-tabuaco.html"
+    },
+    {
+      "source": "/caldeira-vila-pouca-de-aguiar",
+      "destination": "/public/caldeira-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/desentupimentos-algoso",
+      "destination": "/public/desentupimentos-algoso.html"
+    },
+    {
+      "source": "/desentupimentos-armamar",
+      "destination": "/public/desentupimentos-armamar.html"
+    },
+    {
+      "source": "/desentupimentos-boticas",
+      "destination": "/public/desentupimentos-boticas.html"
+    },
+    {
+      "source": "/desentupimentos-duas-igrejas",
+      "destination": "/public/desentupimentos-duas-igrejas.html"
+    },
+    {
+      "source": "/desentupimentos-figueira-castelo-rodrigo",
+      "destination": "/public/desentupimentos-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/desentupimentos-lagoaca",
+      "destination": "/public/desentupimentos-lagoaca.html"
+    },
+    {
+      "source": "/desentupimentos-meda",
+      "destination": "/public/desentupimentos-meda.html"
+    },
+    {
+      "source": "/desentupimentos-mesao-frio",
+      "destination": "/public/desentupimentos-mesao-frio.html"
+    },
+    {
+      "source": "/desentupimentos-miranda-do-douro",
+      "destination": "/public/desentupimentos-miranda-do-douro.html"
+    },
+    {
+      "source": "/desentupimentos-moncorvo",
+      "destination": "/public/desentupimentos-moncorvo.html"
+    },
+    {
+      "source": "/desentupimentos-mondim-de-basto",
+      "destination": "/public/desentupimentos-mondim-de-basto.html"
+    },
+    {
+      "source": "/desentupimentos-monforte-de-rio-livre",
+      "destination": "/public/desentupimentos-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/desentupimentos-montalegre",
+      "destination": "/public/desentupimentos-montalegre.html"
+    },
+    {
+      "source": "/desentupimentos-penedono",
+      "destination": "/public/desentupimentos-penedono.html"
+    },
+    {
+      "source": "/desentupimentos-rebordelo",
+      "destination": "/public/desentupimentos-rebordelo.html"
+    },
+    {
+      "source": "/desentupimentos-ribeira-de-pena",
+      "destination": "/public/desentupimentos-ribeira-de-pena.html"
+    },
+    {
+      "source": "/desentupimentos-santa-marta-penaguiao",
+      "destination": "/public/desentupimentos-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/desentupimentos-sendim",
+      "destination": "/public/desentupimentos-sendim.html"
+    },
+    {
+      "source": "/desentupimentos-sernancelhe",
+      "destination": "/public/desentupimentos-sernancelhe.html"
+    },
+    {
+      "source": "/desentupimentos-tabuaco",
+      "destination": "/public/desentupimentos-tabuaco.html"
+    },
+    {
+      "source": "/desentupimentos-vila-pouca-de-aguiar",
+      "destination": "/public/desentupimentos-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/esquentador-algoso",
+      "destination": "/public/esquentador-algoso.html"
+    },
+    {
+      "source": "/esquentador-armamar",
+      "destination": "/public/esquentador-armamar.html"
+    },
+    {
+      "source": "/esquentador-boticas",
+      "destination": "/public/esquentador-boticas.html"
+    },
+    {
+      "source": "/esquentador-duas-igrejas",
+      "destination": "/public/esquentador-duas-igrejas.html"
+    },
+    {
+      "source": "/esquentador-figueira-castelo-rodrigo",
+      "destination": "/public/esquentador-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/esquentador-lagoaca",
+      "destination": "/public/esquentador-lagoaca.html"
+    },
+    {
+      "source": "/esquentador-meda",
+      "destination": "/public/esquentador-meda.html"
+    },
+    {
+      "source": "/esquentador-mesao-frio",
+      "destination": "/public/esquentador-mesao-frio.html"
+    },
+    {
+      "source": "/esquentador-miranda-do-douro",
+      "destination": "/public/esquentador-miranda-do-douro.html"
+    },
+    {
+      "source": "/esquentador-moncorvo",
+      "destination": "/public/esquentador-moncorvo.html"
+    },
+    {
+      "source": "/esquentador-mondim-de-basto",
+      "destination": "/public/esquentador-mondim-de-basto.html"
+    },
+    {
+      "source": "/esquentador-monforte-de-rio-livre",
+      "destination": "/public/esquentador-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/esquentador-montalegre",
+      "destination": "/public/esquentador-montalegre.html"
+    },
+    {
+      "source": "/esquentador-penedono",
+      "destination": "/public/esquentador-penedono.html"
+    },
+    {
+      "source": "/esquentador-rebordelo",
+      "destination": "/public/esquentador-rebordelo.html"
+    },
+    {
+      "source": "/esquentador-ribeira-de-pena",
+      "destination": "/public/esquentador-ribeira-de-pena.html"
+    },
+    {
+      "source": "/esquentador-santa-marta-penaguiao",
+      "destination": "/public/esquentador-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/esquentador-sendim",
+      "destination": "/public/esquentador-sendim.html"
+    },
+    {
+      "source": "/esquentador-sernancelhe",
+      "destination": "/public/esquentador-sernancelhe.html"
+    },
+    {
+      "source": "/esquentador-tabuaco",
+      "destination": "/public/esquentador-tabuaco.html"
+    },
+    {
+      "source": "/esquentador-vila-pouca-de-aguiar",
+      "destination": "/public/esquentador-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/fossa-septica-algoso",
+      "destination": "/public/fossa-septica-algoso.html"
+    },
+    {
+      "source": "/fossa-septica-armamar",
+      "destination": "/public/fossa-septica-armamar.html"
+    },
+    {
+      "source": "/fossa-septica-boticas",
+      "destination": "/public/fossa-septica-boticas.html"
+    },
+    {
+      "source": "/fossa-septica-duas-igrejas",
+      "destination": "/public/fossa-septica-duas-igrejas.html"
+    },
+    {
+      "source": "/fossa-septica-figueira-castelo-rodrigo",
+      "destination": "/public/fossa-septica-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/fossa-septica-lagoaca",
+      "destination": "/public/fossa-septica-lagoaca.html"
+    },
+    {
+      "source": "/fossa-septica-meda",
+      "destination": "/public/fossa-septica-meda.html"
+    },
+    {
+      "source": "/fossa-septica-mesao-frio",
+      "destination": "/public/fossa-septica-mesao-frio.html"
+    },
+    {
+      "source": "/fossa-septica-miranda-do-douro",
+      "destination": "/public/fossa-septica-miranda-do-douro.html"
+    },
+    {
+      "source": "/fossa-septica-moncorvo",
+      "destination": "/public/fossa-septica-moncorvo.html"
+    },
+    {
+      "source": "/fossa-septica-mondim-de-basto",
+      "destination": "/public/fossa-septica-mondim-de-basto.html"
+    },
+    {
+      "source": "/fossa-septica-monforte-de-rio-livre",
+      "destination": "/public/fossa-septica-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/fossa-septica-montalegre",
+      "destination": "/public/fossa-septica-montalegre.html"
+    },
+    {
+      "source": "/fossa-septica-penedono",
+      "destination": "/public/fossa-septica-penedono.html"
+    },
+    {
+      "source": "/fossa-septica-rebordelo",
+      "destination": "/public/fossa-septica-rebordelo.html"
+    },
+    {
+      "source": "/fossa-septica-ribeira-de-pena",
+      "destination": "/public/fossa-septica-ribeira-de-pena.html"
+    },
+    {
+      "source": "/fossa-septica-santa-marta-penaguiao",
+      "destination": "/public/fossa-septica-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/fossa-septica-sendim",
+      "destination": "/public/fossa-septica-sendim.html"
+    },
+    {
+      "source": "/fossa-septica-sernancelhe",
+      "destination": "/public/fossa-septica-sernancelhe.html"
+    },
+    {
+      "source": "/fossa-septica-tabuaco",
+      "destination": "/public/fossa-septica-tabuaco.html"
+    },
+    {
+      "source": "/fossa-septica-vila-pouca-de-aguiar",
+      "destination": "/public/fossa-septica-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-algoso",
+      "destination": "/public/remodelacao-casa-banho-algoso.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-armamar",
+      "destination": "/public/remodelacao-casa-banho-armamar.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-boticas",
+      "destination": "/public/remodelacao-casa-banho-boticas.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-duas-igrejas",
+      "destination": "/public/remodelacao-casa-banho-duas-igrejas.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-figueira-castelo-rodrigo",
+      "destination": "/public/remodelacao-casa-banho-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-lagoaca",
+      "destination": "/public/remodelacao-casa-banho-lagoaca.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-meda",
+      "destination": "/public/remodelacao-casa-banho-meda.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-mesao-frio",
+      "destination": "/public/remodelacao-casa-banho-mesao-frio.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-miranda-do-douro",
+      "destination": "/public/remodelacao-casa-banho-miranda-do-douro.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-moncorvo",
+      "destination": "/public/remodelacao-casa-banho-moncorvo.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-mondim-de-basto",
+      "destination": "/public/remodelacao-casa-banho-mondim-de-basto.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-monforte-de-rio-livre",
+      "destination": "/public/remodelacao-casa-banho-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-montalegre",
+      "destination": "/public/remodelacao-casa-banho-montalegre.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-penedono",
+      "destination": "/public/remodelacao-casa-banho-penedono.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-rebordelo",
+      "destination": "/public/remodelacao-casa-banho-rebordelo.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-ribeira-de-pena",
+      "destination": "/public/remodelacao-casa-banho-ribeira-de-pena.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-santa-marta-penaguiao",
+      "destination": "/public/remodelacao-casa-banho-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-sendim",
+      "destination": "/public/remodelacao-casa-banho-sendim.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-sernancelhe",
+      "destination": "/public/remodelacao-casa-banho-sernancelhe.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-tabuaco",
+      "destination": "/public/remodelacao-casa-banho-tabuaco.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-vila-pouca-de-aguiar",
+      "destination": "/public/remodelacao-casa-banho-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/reparacao-fugas-algoso",
+      "destination": "/public/reparacao-fugas-algoso.html"
+    },
+    {
+      "source": "/reparacao-fugas-armamar",
+      "destination": "/public/reparacao-fugas-armamar.html"
+    },
+    {
+      "source": "/reparacao-fugas-boticas",
+      "destination": "/public/reparacao-fugas-boticas.html"
+    },
+    {
+      "source": "/reparacao-fugas-duas-igrejas",
+      "destination": "/public/reparacao-fugas-duas-igrejas.html"
+    },
+    {
+      "source": "/reparacao-fugas-figueira-castelo-rodrigo",
+      "destination": "/public/reparacao-fugas-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/reparacao-fugas-lagoaca",
+      "destination": "/public/reparacao-fugas-lagoaca.html"
+    },
+    {
+      "source": "/reparacao-fugas-meda",
+      "destination": "/public/reparacao-fugas-meda.html"
+    },
+    {
+      "source": "/reparacao-fugas-mesao-frio",
+      "destination": "/public/reparacao-fugas-mesao-frio.html"
+    },
+    {
+      "source": "/reparacao-fugas-miranda-do-douro",
+      "destination": "/public/reparacao-fugas-miranda-do-douro.html"
+    },
+    {
+      "source": "/reparacao-fugas-moncorvo",
+      "destination": "/public/reparacao-fugas-moncorvo.html"
+    },
+    {
+      "source": "/reparacao-fugas-mondim-de-basto",
+      "destination": "/public/reparacao-fugas-mondim-de-basto.html"
+    },
+    {
+      "source": "/reparacao-fugas-monforte-de-rio-livre",
+      "destination": "/public/reparacao-fugas-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/reparacao-fugas-montalegre",
+      "destination": "/public/reparacao-fugas-montalegre.html"
+    },
+    {
+      "source": "/reparacao-fugas-penedono",
+      "destination": "/public/reparacao-fugas-penedono.html"
+    },
+    {
+      "source": "/reparacao-fugas-rebordelo",
+      "destination": "/public/reparacao-fugas-rebordelo.html"
+    },
+    {
+      "source": "/reparacao-fugas-ribeira-de-pena",
+      "destination": "/public/reparacao-fugas-ribeira-de-pena.html"
+    },
+    {
+      "source": "/reparacao-fugas-santa-marta-penaguiao",
+      "destination": "/public/reparacao-fugas-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/reparacao-fugas-sendim",
+      "destination": "/public/reparacao-fugas-sendim.html"
+    },
+    {
+      "source": "/reparacao-fugas-sernancelhe",
+      "destination": "/public/reparacao-fugas-sernancelhe.html"
+    },
+    {
+      "source": "/reparacao-fugas-tabuaco",
+      "destination": "/public/reparacao-fugas-tabuaco.html"
+    },
+    {
+      "source": "/reparacao-fugas-vila-pouca-de-aguiar",
+      "destination": "/public/reparacao-fugas-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/termoacumulador-algoso",
+      "destination": "/public/termoacumulador-algoso.html"
+    },
+    {
+      "source": "/termoacumulador-armamar",
+      "destination": "/public/termoacumulador-armamar.html"
+    },
+    {
+      "source": "/termoacumulador-boticas",
+      "destination": "/public/termoacumulador-boticas.html"
+    },
+    {
+      "source": "/termoacumulador-duas-igrejas",
+      "destination": "/public/termoacumulador-duas-igrejas.html"
+    },
+    {
+      "source": "/termoacumulador-figueira-castelo-rodrigo",
+      "destination": "/public/termoacumulador-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/termoacumulador-lagoaca",
+      "destination": "/public/termoacumulador-lagoaca.html"
+    },
+    {
+      "source": "/termoacumulador-meda",
+      "destination": "/public/termoacumulador-meda.html"
+    },
+    {
+      "source": "/termoacumulador-mesao-frio",
+      "destination": "/public/termoacumulador-mesao-frio.html"
+    },
+    {
+      "source": "/termoacumulador-miranda-do-douro",
+      "destination": "/public/termoacumulador-miranda-do-douro.html"
+    },
+    {
+      "source": "/termoacumulador-moncorvo",
+      "destination": "/public/termoacumulador-moncorvo.html"
+    },
+    {
+      "source": "/termoacumulador-mondim-de-basto",
+      "destination": "/public/termoacumulador-mondim-de-basto.html"
+    },
+    {
+      "source": "/termoacumulador-monforte-de-rio-livre",
+      "destination": "/public/termoacumulador-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/termoacumulador-montalegre",
+      "destination": "/public/termoacumulador-montalegre.html"
+    },
+    {
+      "source": "/termoacumulador-penedono",
+      "destination": "/public/termoacumulador-penedono.html"
+    },
+    {
+      "source": "/termoacumulador-rebordelo",
+      "destination": "/public/termoacumulador-rebordelo.html"
+    },
+    {
+      "source": "/termoacumulador-ribeira-de-pena",
+      "destination": "/public/termoacumulador-ribeira-de-pena.html"
+    },
+    {
+      "source": "/termoacumulador-santa-marta-penaguiao",
+      "destination": "/public/termoacumulador-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/termoacumulador-sendim",
+      "destination": "/public/termoacumulador-sendim.html"
+    },
+    {
+      "source": "/termoacumulador-sernancelhe",
+      "destination": "/public/termoacumulador-sernancelhe.html"
+    },
+    {
+      "source": "/termoacumulador-tabuaco",
+      "destination": "/public/termoacumulador-tabuaco.html"
+    },
+    {
+      "source": "/termoacumulador-vila-pouca-de-aguiar",
+      "destination": "/public/termoacumulador-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/blog/como-desentupir-canos-guia-completo",
+      "destination": "/public/blog/como-desentupir-canos-guia-completo.html"
+    },
+    {
+      "source": "/blog/como-escolher-torneira-guia",
+      "destination": "/public/blog/como-escolher-torneira-guia.html"
+    },
+    {
+      "source": "/blog/como-poupar-agua-dicas-praticas",
+      "destination": "/public/blog/como-poupar-agua-dicas-praticas.html"
+    },
+    {
+      "source": "/blog/ppr-vs-multicamada-tubos",
+      "destination": "/public/blog/ppr-vs-multicamada-tubos.html"
+    },
+    {
+      "source": "/blog/preco-canalizador-portugal",
+      "destination": "/public/blog/preco-canalizador-portugal.html"
+    },
+    {
+      "source": "/blog/pressao-agua-baixa-causas-solucoes",
+      "destination": "/public/blog/pressao-agua-baixa-causas-solucoes.html"
+    },
+    {
+      "source": "/blog/remodelacao-casa-banho-guia-completo",
+      "destination": "/public/blog/remodelacao-casa-banho-guia-completo.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
