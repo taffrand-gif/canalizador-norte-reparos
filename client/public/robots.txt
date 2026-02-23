@@ -6,6 +6,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
+Disallow: /maintenance.html
 
 # Motores de busca principais
 User-agent: Googlebot
@@ -41,6 +42,7 @@ Allow: /.well-known/ai-plugin.json
 
 # Sitemap
 Sitemap: https://norte-reparos.com/sitemap.xml
+Sitemap: https://norte-reparos.com/sitemap-index.xml
 
 # IndexNow - Instant indexing for Bing/Yandex
 # Key: f337afb57be0643c9749ca635c48c0e1
