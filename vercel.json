@@ -582,6 +582,22 @@
       "destination": "/public/blog/como-reparar-valvula-autoclismo.html"
     },
     {
+      "source": "/blog/como-escolher-esquentador-guia",
+      "destination": "/public/blog/como-escolher-esquentador-guia.html"
+    },
+    {
+      "source": "/blog/como-evitar-entupimentos-casa-campo",
+      "destination": "/public/blog/como-evitar-entupimentos-casa-campo.html"
+    },
+    {
+      "source": "/blog/manutencao-fossas-septicas-guia",
+      "destination": "/public/blog/manutencao-fossas-septicas-guia.html"
+    },
+    {
+      "source": "/blog/quanto-custa-canalizador-urgencia",
+      "destination": "/public/blog/quanto-custa-canalizador-urgencia.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
