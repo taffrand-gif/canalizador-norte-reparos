@@ -598,6 +598,506 @@
       "destination": "/public/blog/quanto-custa-canalizador-urgencia.html"
     },
     {
+      "source": "/caldeira-alfandega-da-fe",
+      "destination": "/public/caldeira-alfandega-da-fe.html"
+    },
+    {
+      "source": "/caldeira-braganca",
+      "destination": "/public/caldeira-braganca.html"
+    },
+    {
+      "source": "/caldeira-carrazeda-de-ansiaes",
+      "destination": "/public/caldeira-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/caldeira-chaves",
+      "destination": "/public/caldeira-chaves.html"
+    },
+    {
+      "source": "/caldeira-freixo-de-espada-a-cinta",
+      "destination": "/public/caldeira-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/caldeira-macedo-de-cavaleiros",
+      "destination": "/public/caldeira-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/caldeira-mirandela",
+      "destination": "/public/caldeira-mirandela.html"
+    },
+    {
+      "source": "/caldeira-mogadouro",
+      "destination": "/public/caldeira-mogadouro.html"
+    },
+    {
+      "source": "/caldeira-murca",
+      "destination": "/public/caldeira-murca.html"
+    },
+    {
+      "source": "/caldeira-torre-de-moncorvo",
+      "destination": "/public/caldeira-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/caldeira-valpacos",
+      "destination": "/public/caldeira-valpacos.html"
+    },
+    {
+      "source": "/caldeira-vila-flor",
+      "destination": "/public/caldeira-vila-flor.html"
+    },
+    {
+      "source": "/caldeira-vila-real",
+      "destination": "/public/caldeira-vila-real.html"
+    },
+    {
+      "source": "/caldeira-vimioso",
+      "destination": "/public/caldeira-vimioso.html"
+    },
+    {
+      "source": "/caldeira-vinhais",
+      "destination": "/public/caldeira-vinhais.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-alfandega-da-fe",
+      "destination": "/public/canalizacao-urgencia-alfandega-da-fe.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-braganca",
+      "destination": "/public/canalizacao-urgencia-braganca.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-carrazeda-de-ansiaes",
+      "destination": "/public/canalizacao-urgencia-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-chaves",
+      "destination": "/public/canalizacao-urgencia-chaves.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-freixo-de-espada-a-cinta",
+      "destination": "/public/canalizacao-urgencia-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-macedo-de-cavaleiros",
+      "destination": "/public/canalizacao-urgencia-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-mirandela",
+      "destination": "/public/canalizacao-urgencia-mirandela.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-mogadouro",
+      "destination": "/public/canalizacao-urgencia-mogadouro.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-murca",
+      "destination": "/public/canalizacao-urgencia-murca.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-torre-de-moncorvo",
+      "destination": "/public/canalizacao-urgencia-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-valpacos",
+      "destination": "/public/canalizacao-urgencia-valpacos.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-vila-flor",
+      "destination": "/public/canalizacao-urgencia-vila-flor.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-vila-real",
+      "destination": "/public/canalizacao-urgencia-vila-real.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-vimioso",
+      "destination": "/public/canalizacao-urgencia-vimioso.html"
+    },
+    {
+      "source": "/canalizacao-urgencia-vinhais",
+      "destination": "/public/canalizacao-urgencia-vinhais.html"
+    },
+    {
+      "source": "/canalizador-ao-domicilio",
+      "destination": "/public/canalizador-ao-domicilio.html"
+    },
+    {
+      "source": "/canalizador-braganca-distrito",
+      "destination": "/public/canalizador-braganca-distrito.html"
+    },
+    {
+      "source": "/canalizador-disponivel-hoje",
+      "destination": "/public/canalizador-disponivel-hoje.html"
+    },
+    {
+      "source": "/canalizador-nordeste-portugal",
+      "destination": "/public/canalizador-nordeste-portugal.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim",
+      "destination": "/public/canalizador-perto-de-mim.html"
+    },
+    {
+      "source": "/esquentador-alfandega-da-fe",
+      "destination": "/public/esquentador-alfandega-da-fe.html"
+    },
+    {
+      "source": "/esquentador-braganca",
+      "destination": "/public/esquentador-braganca.html"
+    },
+    {
+      "source": "/esquentador-carrazeda-de-ansiaes",
+      "destination": "/public/esquentador-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/esquentador-chaves",
+      "destination": "/public/esquentador-chaves.html"
+    },
+    {
+      "source": "/esquentador-freixo-de-espada-a-cinta",
+      "destination": "/public/esquentador-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/esquentador-macedo-de-cavaleiros",
+      "destination": "/public/esquentador-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/esquentador-mirandela",
+      "destination": "/public/esquentador-mirandela.html"
+    },
+    {
+      "source": "/esquentador-mogadouro",
+      "destination": "/public/esquentador-mogadouro.html"
+    },
+    {
+      "source": "/esquentador-murca",
+      "destination": "/public/esquentador-murca.html"
+    },
+    {
+      "source": "/esquentador-torre-de-moncorvo",
+      "destination": "/public/esquentador-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/esquentador-valpacos",
+      "destination": "/public/esquentador-valpacos.html"
+    },
+    {
+      "source": "/esquentador-vila-flor",
+      "destination": "/public/esquentador-vila-flor.html"
+    },
+    {
+      "source": "/esquentador-vila-real",
+      "destination": "/public/esquentador-vila-real.html"
+    },
+    {
+      "source": "/esquentador-vimioso",
+      "destination": "/public/esquentador-vimioso.html"
+    },
+    {
+      "source": "/esquentador-vinhais",
+      "destination": "/public/esquentador-vinhais.html"
+    },
+    {
+      "source": "/fossa-septica-alfandega-da-fe",
+      "destination": "/public/fossa-septica-alfandega-da-fe.html"
+    },
+    {
+      "source": "/fossa-septica-braganca",
+      "destination": "/public/fossa-septica-braganca.html"
+    },
+    {
+      "source": "/fossa-septica-carrazeda-de-ansiaes",
+      "destination": "/public/fossa-septica-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/fossa-septica-chaves",
+      "destination": "/public/fossa-septica-chaves.html"
+    },
+    {
+      "source": "/fossa-septica-freixo-de-espada-a-cinta",
+      "destination": "/public/fossa-septica-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/fossa-septica-macedo-de-cavaleiros",
+      "destination": "/public/fossa-septica-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/fossa-septica-mirandela",
+      "destination": "/public/fossa-septica-mirandela.html"
+    },
+    {
+      "source": "/fossa-septica-mogadouro",
+      "destination": "/public/fossa-septica-mogadouro.html"
+    },
+    {
+      "source": "/fossa-septica-murca",
+      "destination": "/public/fossa-septica-murca.html"
+    },
+    {
+      "source": "/fossa-septica-torre-de-moncorvo",
+      "destination": "/public/fossa-septica-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/fossa-septica-valpacos",
+      "destination": "/public/fossa-septica-valpacos.html"
+    },
+    {
+      "source": "/fossa-septica-vila-flor",
+      "destination": "/public/fossa-septica-vila-flor.html"
+    },
+    {
+      "source": "/fossa-septica-vila-real",
+      "destination": "/public/fossa-septica-vila-real.html"
+    },
+    {
+      "source": "/fossa-septica-vimioso",
+      "destination": "/public/fossa-septica-vimioso.html"
+    },
+    {
+      "source": "/fossa-septica-vinhais",
+      "destination": "/public/fossa-septica-vinhais.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-alfandega-da-fe",
+      "destination": "/public/remodelacao-casa-banho-alfandega-da-fe.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-braganca",
+      "destination": "/public/remodelacao-casa-banho-braganca.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-carrazeda-de-ansiaes",
+      "destination": "/public/remodelacao-casa-banho-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-chaves",
+      "destination": "/public/remodelacao-casa-banho-chaves.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-freixo-de-espada-a-cinta",
+      "destination": "/public/remodelacao-casa-banho-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-macedo-de-cavaleiros",
+      "destination": "/public/remodelacao-casa-banho-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-mirandela",
+      "destination": "/public/remodelacao-casa-banho-mirandela.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-mogadouro",
+      "destination": "/public/remodelacao-casa-banho-mogadouro.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-murca",
+      "destination": "/public/remodelacao-casa-banho-murca.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-torre-de-moncorvo",
+      "destination": "/public/remodelacao-casa-banho-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-valpacos",
+      "destination": "/public/remodelacao-casa-banho-valpacos.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-vila-flor",
+      "destination": "/public/remodelacao-casa-banho-vila-flor.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-vila-real",
+      "destination": "/public/remodelacao-casa-banho-vila-real.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-vimioso",
+      "destination": "/public/remodelacao-casa-banho-vimioso.html"
+    },
+    {
+      "source": "/remodelacao-casa-banho-vinhais",
+      "destination": "/public/remodelacao-casa-banho-vinhais.html"
+    },
+    {
+      "source": "/reparacao-fugas-alfandega-da-fe",
+      "destination": "/public/reparacao-fugas-alfandega-da-fe.html"
+    },
+    {
+      "source": "/reparacao-fugas-braganca",
+      "destination": "/public/reparacao-fugas-braganca.html"
+    },
+    {
+      "source": "/reparacao-fugas-carrazeda-de-ansiaes",
+      "destination": "/public/reparacao-fugas-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/reparacao-fugas-chaves",
+      "destination": "/public/reparacao-fugas-chaves.html"
+    },
+    {
+      "source": "/reparacao-fugas-freixo-de-espada-a-cinta",
+      "destination": "/public/reparacao-fugas-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/reparacao-fugas-macedo-de-cavaleiros",
+      "destination": "/public/reparacao-fugas-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/reparacao-fugas-mirandela",
+      "destination": "/public/reparacao-fugas-mirandela.html"
+    },
+    {
+      "source": "/reparacao-fugas-mogadouro",
+      "destination": "/public/reparacao-fugas-mogadouro.html"
+    },
+    {
+      "source": "/reparacao-fugas-murca",
+      "destination": "/public/reparacao-fugas-murca.html"
+    },
+    {
+      "source": "/reparacao-fugas-torre-de-moncorvo",
+      "destination": "/public/reparacao-fugas-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/reparacao-fugas-valpacos",
+      "destination": "/public/reparacao-fugas-valpacos.html"
+    },
+    {
+      "source": "/reparacao-fugas-vila-flor",
+      "destination": "/public/reparacao-fugas-vila-flor.html"
+    },
+    {
+      "source": "/reparacao-fugas-vila-real",
+      "destination": "/public/reparacao-fugas-vila-real.html"
+    },
+    {
+      "source": "/reparacao-fugas-vimioso",
+      "destination": "/public/reparacao-fugas-vimioso.html"
+    },
+    {
+      "source": "/reparacao-fugas-vinhais",
+      "destination": "/public/reparacao-fugas-vinhais.html"
+    },
+    {
+      "source": "/termoacumulador-alfandega-da-fe",
+      "destination": "/public/termoacumulador-alfandega-da-fe.html"
+    },
+    {
+      "source": "/termoacumulador-braganca",
+      "destination": "/public/termoacumulador-braganca.html"
+    },
+    {
+      "source": "/termoacumulador-carrazeda-de-ansiaes",
+      "destination": "/public/termoacumulador-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/termoacumulador-chaves",
+      "destination": "/public/termoacumulador-chaves.html"
+    },
+    {
+      "source": "/termoacumulador-freixo-de-espada-a-cinta",
+      "destination": "/public/termoacumulador-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/termoacumulador-macedo-de-cavaleiros",
+      "destination": "/public/termoacumulador-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/termoacumulador-mirandela",
+      "destination": "/public/termoacumulador-mirandela.html"
+    },
+    {
+      "source": "/termoacumulador-mogadouro",
+      "destination": "/public/termoacumulador-mogadouro.html"
+    },
+    {
+      "source": "/termoacumulador-murca",
+      "destination": "/public/termoacumulador-murca.html"
+    },
+    {
+      "source": "/termoacumulador-torre-de-moncorvo",
+      "destination": "/public/termoacumulador-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/termoacumulador-valpacos",
+      "destination": "/public/termoacumulador-valpacos.html"
+    },
+    {
+      "source": "/termoacumulador-vila-flor",
+      "destination": "/public/termoacumulador-vila-flor.html"
+    },
+    {
+      "source": "/termoacumulador-vila-real",
+      "destination": "/public/termoacumulador-vila-real.html"
+    },
+    {
+      "source": "/termoacumulador-vimioso",
+      "destination": "/public/termoacumulador-vimioso.html"
+    },
+    {
+      "source": "/termoacumulador-vinhais",
+      "destination": "/public/termoacumulador-vinhais.html"
+    },
+    {
+      "source": "/urgencia-canalizador-alfandega-da-fe",
+      "destination": "/public/urgencia-canalizador-alfandega-da-fe.html"
+    },
+    {
+      "source": "/urgencia-canalizador-braganca",
+      "destination": "/public/urgencia-canalizador-braganca.html"
+    },
+    {
+      "source": "/urgencia-canalizador-carrazeda-de-ansiaes",
+      "destination": "/public/urgencia-canalizador-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/urgencia-canalizador-chaves",
+      "destination": "/public/urgencia-canalizador-chaves.html"
+    },
+    {
+      "source": "/urgencia-canalizador-freixo-de-espada-a-cinta",
+      "destination": "/public/urgencia-canalizador-freixo-de-espada-a-cinta.html"
+    },
+    {
+      "source": "/urgencia-canalizador-macedo-de-cavaleiros",
+      "destination": "/public/urgencia-canalizador-macedo-de-cavaleiros.html"
+    },
+    {
+      "source": "/urgencia-canalizador-mirandela",
+      "destination": "/public/urgencia-canalizador-mirandela.html"
+    },
+    {
+      "source": "/urgencia-canalizador-mogadouro",
+      "destination": "/public/urgencia-canalizador-mogadouro.html"
+    },
+    {
+      "source": "/urgencia-canalizador-murca",
+      "destination": "/public/urgencia-canalizador-murca.html"
+    },
+    {
+      "source": "/urgencia-canalizador-torre-de-moncorvo",
+      "destination": "/public/urgencia-canalizador-torre-de-moncorvo.html"
+    },
+    {
+      "source": "/urgencia-canalizador-valpacos",
+      "destination": "/public/urgencia-canalizador-valpacos.html"
+    },
+    {
+      "source": "/urgencia-canalizador-vila-flor",
+      "destination": "/public/urgencia-canalizador-vila-flor.html"
+    },
+    {
+      "source": "/urgencia-canalizador-vila-real",
+      "destination": "/public/urgencia-canalizador-vila-real.html"
+    },
+    {
+      "source": "/urgencia-canalizador-vimioso",
+      "destination": "/public/urgencia-canalizador-vimioso.html"
+    },
+    {
+      "source": "/urgencia-canalizador-vinhais",
+      "destination": "/public/urgencia-canalizador-vinhais.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
