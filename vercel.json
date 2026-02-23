@@ -396,6 +396,694 @@
     {
       "source": "/equipa-certificacoes",
       "destination": "/equipa-certificacoes.html"
+    },
+    {
+      "source": "/canalizacao-nova-lamego",
+      "destination": "/public/canalizacao-nova-lamego.html"
+    },
+    {
+      "source": "/fugas-agua-torre-moncorvo",
+      "destination": "/public/fugas-agua-torre-moncorvo.html"
+    },
+    {
+      "source": "/fugas-agua-valpacos",
+      "destination": "/public/fugas-agua-valpacos.html"
+    },
+    {
+      "source": "/canalizador-urgente-murca",
+      "destination": "/public/canalizador-urgente-murca.html"
+    },
+    {
+      "source": "/zona-intervencao",
+      "destination": "/public/zona-intervencao.html"
+    },
+    {
+      "source": "/fugas-agua-chaves",
+      "destination": "/public/fugas-agua-chaves.html"
+    },
+    {
+      "source": "/canalizacao-nova-vila-real",
+      "destination": "/public/canalizacao-nova-vila-real.html"
+    },
+    {
+      "source": "/fugas-agua-mogadouro",
+      "destination": "/public/fugas-agua-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-urgente-vila-pouca-de-aguiar",
+      "destination": "/public/canalizador-urgente-vila-pouca-de-aguiar.html"
+    },
+    {
+      "source": "/canalizador-lebução",
+      "destination": "/public/canalizador-lebução.html"
+    },
+    {
+      "source": "/esquentadores-vila-real",
+      "destination": "/public/esquentadores-vila-real.html"
+    },
+    {
+      "source": "/canalizador-urgente-santa-marta-de-penaguiao",
+      "destination": "/public/canalizador-urgente-santa-marta-de-penaguiao.html"
+    },
+    {
+      "source": "/desentupimentos-mogadouro",
+      "destination": "/public/desentupimentos-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-romeu",
+      "destination": "/public/canalizador-romeu.html"
+    },
+    {
+      "source": "/faq-canalizador-mirandela",
+      "destination": "/public/faq-canalizador-mirandela.html"
+    },
+    {
+      "source": "/canalizador-urgente-freixo-espada-cinta",
+      "destination": "/public/canalizador-urgente-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/canalizador-vilarelho-da-raia",
+      "destination": "/public/canalizador-vilarelho-da-raia.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-miranda-douro",
+      "destination": "/public/instalacao-casa-banho-miranda-douro.html"
+    },
+    {
+      "source": "/esquentadores-alfandega",
+      "destination": "/public/esquentadores-alfandega.html"
+    },
+    {
+      "source": "/canalizador-vinhas",
+      "destination": "/public/canalizador-vinhas.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-valpacos",
+      "destination": "/public/instalacao-casa-banho-valpacos.html"
+    },
+    {
+      "source": "/canalizador-lagoa",
+      "destination": "/public/canalizador-lagoa.html"
+    },
+    {
+      "source": "/desentupimentos-valpacos",
+      "destination": "/public/desentupimentos-valpacos.html"
+    },
+    {
+      "source": "/canalizacao-nova-alfandega",
+      "destination": "/public/canalizacao-nova-alfandega.html"
+    },
+    {
+      "source": "/canalizador-abreiro",
+      "destination": "/public/canalizador-abreiro.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-mirandela",
+      "destination": "/public/instalacao-casa-banho-mirandela.html"
+    },
+    {
+      "source": "/canalizador-deilão",
+      "destination": "/public/canalizador-deilão.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-mogadouro",
+      "destination": "/public/instalacao-casa-banho-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-urgente-torre-moncorvo",
+      "destination": "/public/canalizador-urgente-torre-moncorvo.html"
+    },
+    {
+      "source": "/canalizador-ervededo",
+      "destination": "/public/canalizador-ervededo.html"
+    },
+    {
+      "source": "/canalizador-rebordelo",
+      "destination": "/public/canalizador-rebordelo.html"
+    },
+    {
+      "source": "/desentupimentos-mirandela",
+      "destination": "/public/desentupimentos-mirandela.html"
+    },
+    {
+      "source": "/canalizador-favaios",
+      "destination": "/public/canalizador-favaios.html"
+    },
+    {
+      "source": "/testemunhos",
+      "destination": "/public/testemunhos.html"
+    },
+    {
+      "source": "/canalizador-urgente-miranda-douro",
+      "destination": "/public/canalizador-urgente-miranda-douro.html"
+    },
+    {
+      "source": "/fugas-agua-mirandela",
+      "destination": "/public/fugas-agua-mirandela.html"
+    },
+    {
+      "source": "/canalizador-quintanilha",
+      "destination": "/public/canalizador-quintanilha.html"
+    },
+    {
+      "source": "/canalizador-tarouca",
+      "destination": "/public/canalizador-tarouca.html"
+    },
+    {
+      "source": "/canalizador-sendim",
+      "destination": "/public/canalizador-sendim.html"
+    },
+    {
+      "source": "/fugas-agua-macedo",
+      "destination": "/public/fugas-agua-macedo.html"
+    },
+    {
+      "source": "/canalizador-vidago",
+      "destination": "/public/canalizador-vidago.html"
+    },
+    {
+      "source": "/canalizador-vale-de-prados",
+      "destination": "/public/canalizador-vale-de-prados.html"
+    },
+    {
+      "source": "/esquentadores-chaves",
+      "destination": "/public/esquentadores-chaves.html"
+    },
+    {
+      "source": "/canalizador-urgente-peso-da-regua",
+      "destination": "/public/canalizador-urgente-peso-da-regua.html"
+    },
+    {
+      "source": "/canalizador-britiande",
+      "destination": "/public/canalizador-britiande.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-macedo",
+      "destination": "/public/instalacao-casa-banho-macedo.html"
+    },
+    {
+      "source": "/canalizador-sanfins-do-douro",
+      "destination": "/public/canalizador-sanfins-do-douro.html"
+    },
+    {
+      "source": "/canalizador-genísio",
+      "destination": "/public/canalizador-genísio.html"
+    },
+    {
+      "source": "/fugas-agua-braganca",
+      "destination": "/public/fugas-agua-braganca.html"
+    },
+    {
+      "source": "/canalizador-urgente-tabuaco",
+      "destination": "/public/canalizador-urgente-tabuaco.html"
+    },
+    {
+      "source": "/canalizador-moncorvo",
+      "destination": "/public/canalizador-moncorvo.html"
+    },
+    {
+      "source": "/desentupimentos-braganca",
+      "destination": "/public/desentupimentos-braganca.html"
+    },
+    {
+      "source": "/desentupimentos-vinhais",
+      "destination": "/public/desentupimentos-vinhais.html"
+    },
+    {
+      "source": "/canalizador-urgente-vila-nova-foz-coa",
+      "destination": "/public/canalizador-urgente-vila-nova-foz-coa.html"
+    },
+    {
+      "source": "/canalizador-urgente-mondim-de-basto",
+      "destination": "/public/canalizador-urgente-mondim-de-basto.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-braganca",
+      "destination": "/public/instalacao-casa-banho-braganca.html"
+    },
+    {
+      "source": "/canalizador-talhas",
+      "destination": "/public/canalizador-talhas.html"
+    },
+    {
+      "source": "/canalizador-urgente-carrazeda-de-ansiaes",
+      "destination": "/public/canalizador-urgente-carrazeda-de-ansiaes.html"
+    },
+    {
+      "source": "/canalizador-frechas",
+      "destination": "/public/canalizador-frechas.html"
+    },
+    {
+      "source": "/canalizacao-nova-torre-moncorvo",
+      "destination": "/public/canalizacao-nova-torre-moncorvo.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-torre-moncorvo",
+      "destination": "/public/instalacao-casa-banho-torre-moncorvo.html"
+    },
+    {
+      "source": "/quanto-custa-canalizador-2026",
+      "destination": "/public/quanto-custa-canalizador-2026.html"
+    },
+    {
+      "source": "/canalizador-palaçoulo",
+      "destination": "/public/canalizador-palaçoulo.html"
+    },
+    {
+      "source": "/desentupimentos-lamego",
+      "destination": "/public/desentupimentos-lamego.html"
+    },
+    {
+      "source": "/canalizador-urgente-mogadouro",
+      "destination": "/public/canalizador-urgente-mogadouro.html"
+    },
+    {
+      "source": "/desentupimentos-torre-moncorvo",
+      "destination": "/public/desentupimentos-torre-moncorvo.html"
+    },
+    {
+      "source": "/canalizador-vila-verde-da-raia",
+      "destination": "/public/canalizador-vila-verde-da-raia.html"
+    },
+    {
+      "source": "/canalizador-urgente-alijo",
+      "destination": "/public/canalizador-urgente-alijo.html"
+    },
+    {
+      "source": "/canalizacao-nova-vinhais",
+      "destination": "/public/canalizacao-nova-vinhais.html"
+    },
+    {
+      "source": "/canalizador-urgente-moimenta-da-beira",
+      "destination": "/public/canalizador-urgente-moimenta-da-beira.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-chaves",
+      "destination": "/public/instalacao-casa-banho-chaves.html"
+    },
+    {
+      "source": "/esquentadores-vinhais",
+      "destination": "/public/esquentadores-vinhais.html"
+    },
+    {
+      "source": "/esquentadores-macedo",
+      "destination": "/public/esquentadores-macedo.html"
+    },
+    {
+      "source": "/canalizador-felgar",
+      "destination": "/public/canalizador-felgar.html"
+    },
+    {
+      "source": "/canalizador-sendas",
+      "destination": "/public/canalizador-sendas.html"
+    },
+    {
+      "source": "/canalizacao-nova-valpacos",
+      "destination": "/public/canalizacao-nova-valpacos.html"
+    },
+    {
+      "source": "/canalizacao-nova-macedo",
+      "destination": "/public/canalizacao-nova-macedo.html"
+    },
+    {
+      "source": "/canalizador-urgente-vimioso",
+      "destination": "/public/canalizador-urgente-vimioso.html"
+    },
+    {
+      "source": "/canalizador-morais",
+      "destination": "/public/canalizador-morais.html"
+    },
+    {
+      "source": "/faq-canalizador-vila-real",
+      "destination": "/public/faq-canalizador-vila-real.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-vila-real",
+      "destination": "/public/instalacao-casa-banho-vila-real.html"
+    },
+    {
+      "source": "/canalizador-faiões",
+      "destination": "/public/canalizador-faiões.html"
+    },
+    {
+      "source": "/desentupimentos-miranda-douro",
+      "destination": "/public/desentupimentos-miranda-douro.html"
+    },
+    {
+      "source": "/esquentadores-braganca",
+      "destination": "/public/esquentadores-braganca.html"
+    },
+    {
+      "source": "/canalizador-cortiços",
+      "destination": "/public/canalizador-cortiços.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-alfandega",
+      "destination": "/public/instalacao-casa-banho-alfandega.html"
+    },
+    {
+      "source": "/canalizacao-nova-mirandela",
+      "destination": "/public/canalizacao-nova-mirandela.html"
+    },
+    {
+      "source": "/canalizador-urgente-macedo-cavaleiros",
+      "destination": "/public/canalizador-urgente-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/canalizador-urgente-vila-flor",
+      "destination": "/public/canalizador-urgente-vila-flor.html"
+    },
+    {
+      "source": "/canalizador-urgente-alfandega-da-fe",
+      "destination": "/public/canalizador-urgente-alfandega-da-fe.html"
+    },
+    {
+      "source": "/esquentadores-mirandela",
+      "destination": "/public/esquentadores-mirandela.html"
+    },
+    {
+      "source": "/canalizador-podence",
+      "destination": "/public/canalizador-podence.html"
+    },
+    {
+      "source": "/fugas-agua-vinhais",
+      "destination": "/public/fugas-agua-vinhais.html"
+    },
+    {
+      "source": "/faq-canalizador-braganca",
+      "destination": "/public/faq-canalizador-braganca.html"
+    },
+    {
+      "source": "/canalizador-pedras-salgadas",
+      "destination": "/public/canalizador-pedras-salgadas.html"
+    },
+    {
+      "source": "/canalizador-nozelos",
+      "destination": "/public/canalizador-nozelos.html"
+    },
+    {
+      "source": "/canalizador-mondim-da-beira",
+      "destination": "/public/canalizador-mondim-da-beira.html"
+    },
+    {
+      "source": "/sobre-mim",
+      "destination": "/public/sobre-mim.html"
+    },
+    {
+      "source": "/esquentadores-mogadouro",
+      "destination": "/public/esquentadores-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-duas-igrejas",
+      "destination": "/public/canalizador-duas-igrejas.html"
+    },
+    {
+      "source": "/canalizador-vila-chã",
+      "destination": "/public/canalizador-vila-chã.html"
+    },
+    {
+      "source": "/desentupimentos-alfandega",
+      "destination": "/public/desentupimentos-alfandega.html"
+    },
+    {
+      "source": "/fugas-agua-vila-real",
+      "destination": "/public/fugas-agua-vila-real.html"
+    },
+    {
+      "source": "/canalizador-urgente-valpacos",
+      "destination": "/public/canalizador-urgente-valpacos.html"
+    },
+    {
+      "source": "/canalizador-urgente-ribeira-de-pena",
+      "destination": "/public/canalizador-urgente-ribeira-de-pena.html"
+    },
+    {
+      "source": "/canalizacao-nova-mogadouro",
+      "destination": "/public/canalizacao-nova-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-gimonde",
+      "destination": "/public/canalizador-gimonde.html"
+    },
+    {
+      "source": "/canalizador-torre-dona-chama",
+      "destination": "/public/canalizador-torre-dona-chama.html"
+    },
+    {
+      "source": "/canalizador-ferreiros-de-avões",
+      "destination": "/public/canalizador-ferreiros-de-avões.html"
+    },
+    {
+      "source": "/canalizador-urgente-sernancelhe",
+      "destination": "/public/canalizador-urgente-sernancelhe.html"
+    },
+    {
+      "source": "/canalizador-urgente-boticas",
+      "destination": "/public/canalizador-urgente-boticas.html"
+    },
+    {
+      "source": "/canalizacao-nova-chaves",
+      "destination": "/public/canalizacao-nova-chaves.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-vinhais",
+      "destination": "/public/instalacao-casa-banho-vinhais.html"
+    },
+    {
+      "source": "/fugas-agua-alfandega",
+      "destination": "/public/fugas-agua-alfandega.html"
+    },
+    {
+      "source": "/fugas-agua-lamego",
+      "destination": "/public/fugas-agua-lamego.html"
+    },
+    {
+      "source": "/desentupimentos-vila-real",
+      "destination": "/public/desentupimentos-vila-real.html"
+    },
+    {
+      "source": "/canalizador-larinho",
+      "destination": "/public/canalizador-larinho.html"
+    },
+    {
+      "source": "/canalizacao-nova-miranda-douro",
+      "destination": "/public/canalizacao-nova-miranda-douro.html"
+    },
+    {
+      "source": "/canalizador-urgente-penedono",
+      "destination": "/public/canalizador-urgente-penedono.html"
+    },
+    {
+      "source": "/instalacao-casa-banho-lamego",
+      "destination": "/public/instalacao-casa-banho-lamego.html"
+    },
+    {
+      "source": "/fugas-agua-miranda-douro",
+      "destination": "/public/fugas-agua-miranda-douro.html"
+    },
+    {
+      "source": "/esquentadores-valpacos",
+      "destination": "/public/esquentadores-valpacos.html"
+    },
+    {
+      "source": "/esquentadores-miranda-douro",
+      "destination": "/public/esquentadores-miranda-douro.html"
+    },
+    {
+      "source": "/canalizacao-nova-braganca",
+      "destination": "/public/canalizacao-nova-braganca.html"
+    },
+    {
+      "source": "/canalizador-lamas-de-orelhão",
+      "destination": "/public/canalizador-lamas-de-orelhão.html"
+    },
+    {
+      "source": "/canalizador-urgente-sao-joao-da-pesqueira",
+      "destination": "/public/canalizador-urgente-sao-joao-da-pesqueira.html"
+    },
+    {
+      "source": "/canalizador-penajóia",
+      "destination": "/public/canalizador-penajóia.html"
+    },
+    {
+      "source": "/equipamento-recomendado",
+      "destination": "/public/equipamento-recomendado.html"
+    },
+    {
+      "source": "/canalizador-urgente-sabrosa",
+      "destination": "/public/canalizador-urgente-sabrosa.html"
+    },
+    {
+      "source": "/politica-privacidade",
+      "destination": "/public/politica-privacidade.html"
+    },
+    {
+      "source": "/canalizador-vilar-de-ossos",
+      "destination": "/public/canalizador-vilar-de-ossos.html"
+    },
+    {
+      "source": "/canalizador-grijó-de-parada",
+      "destination": "/public/canalizador-grijó-de-parada.html"
+    },
+    {
+      "source": "/canalizador-urgente-armamar",
+      "destination": "/public/canalizador-urgente-armamar.html"
+    },
+    {
+      "source": "/canalizador-urgente-alfandega",
+      "destination": "/public/canalizador-urgente-alfandega.html"
+    },
+    {
+      "source": "/canalizador-vs-fazer-sozinho",
+      "destination": "/public/canalizador-vs-fazer-sozinho.html"
+    },
+    {
+      "source": "/desentupimentos-chaves",
+      "destination": "/public/desentupimentos-chaves.html"
+    },
+    {
+      "source": "/canalizador-vilarandelo",
+      "destination": "/public/canalizador-vilarandelo.html"
+    },
+    {
+      "source": "/canalizador-cambres",
+      "destination": "/public/canalizador-cambres.html"
+    },
+    {
+      "source": "/canalizador-urgente-vinhais",
+      "destination": "/public/canalizador-urgente-vinhais.html"
+    },
+    {
+      "source": "/guia-precos-canalizador",
+      "destination": "/public/guia-precos-canalizador.html"
+    },
+    {
+      "source": "/canalizador-ucanha",
+      "destination": "/public/canalizador-ucanha.html"
+    },
+    {
+      "source": "/desentupimentos-macedo",
+      "destination": "/public/desentupimentos-macedo.html"
+    },
+    {
+      "source": "/contactos",
+      "destination": "/public/contactos.html"
+    },
+    {
+      "source": "/canalizador-urgente-mesao-frio",
+      "destination": "/public/canalizador-urgente-mesao-frio.html"
+    },
+    {
+      "source": "/canalizador-atenor",
+      "destination": "/public/canalizador-atenor.html"
+    },
+    {
+      "source": "/canalizador-urgente-montalegre",
+      "destination": "/public/canalizador-urgente-montalegre.html"
+    },
+    {
+      "source": "/canalizador-izeda",
+      "destination": "/public/canalizador-izeda.html"
+    },
+    {
+      "source": "/canalizador-salzedas",
+      "destination": "/public/canalizador-salzedas.html"
+    },
+    {
+      "source": "/canalizador-alijó-centro",
+      "destination": "/public/canalizador-alijó-centro.html"
+    },
+    {
+      "source": "/esquentadores-lamego",
+      "destination": "/public/esquentadores-lamego.html"
+    },
+    {
+      "source": "/esquentadores-torre-moncorvo",
+      "destination": "/public/esquentadores-torre-moncorvo.html"
+    },
+    {
+      "source": "/canalizador-rio-de-onor",
+      "destination": "/public/canalizador-rio-de-onor.html"
+    },
+    {
+      "source": "/blog/como-limpar-esquentador",
+      "destination": "/public/blog/como-limpar-esquentador.html"
+    },
+    {
+      "source": "/blog/desentupir-canos-camera-inspecao",
+      "destination": "/public/blog/desentupir-canos-camera-inspecao.html"
+    },
+    {
+      "source": "/blog/preparar-canalizacao-inverno-guia",
+      "destination": "/public/blog/preparar-canalizacao-inverno-guia.html"
+    },
+    {
+      "source": "/blog/index",
+      "destination": "/public/blog/index.html"
+    },
+    {
+      "source": "/blog/detecao-fugas-agua-sem-partir-paredes",
+      "destination": "/public/blog/detecao-fugas-agua-sem-partir-paredes.html"
+    },
+    {
+      "source": "/blog/piscina-manutencao-canalizacao-guia",
+      "destination": "/public/blog/piscina-manutencao-canalizacao-guia.html"
+    },
+    {
+      "source": "/blog/como-desentupir-lava-loica-cozinha",
+      "destination": "/public/blog/como-desentupir-lava-loica-cozinha.html"
+    },
+    {
+      "source": "/blog/quanto-custa-desentupimento-2026",
+      "destination": "/public/blog/quanto-custa-desentupimento-2026.html"
+    },
+    {
+      "source": "/blog/como-poupar-agua-casa",
+      "destination": "/public/blog/como-poupar-agua-casa.html"
+    },
+    {
+      "source": "/blog/canos-ppr-vs-multicamada-vs-cobre",
+      "destination": "/public/blog/canos-ppr-vs-multicamada-vs-cobre.html"
+    },
+    {
+      "source": "/blog/esquentador-nao-liga-causas-solucoes",
+      "destination": "/public/blog/esquentador-nao-liga-causas-solucoes.html"
+    },
+    {
+      "source": "/blog/como-prevenir-humidade-paredes-casa",
+      "destination": "/public/blog/como-prevenir-humidade-paredes-casa.html"
+    },
+    {
+      "source": "/blog/como-reparar-autoclismo",
+      "destination": "/public/blog/como-reparar-autoclismo.html"
+    },
+    {
+      "source": "/blog/fuga-agua-parede-como-encontrar",
+      "destination": "/public/blog/fuga-agua-parede-como-encontrar.html"
+    },
+    {
+      "source": "/blog/como-desentupir-ralo-chuveiro",
+      "destination": "/public/blog/como-desentupir-ralo-chuveiro.html"
+    },
+    {
+      "source": "/blog/como-encontrar-fuga-agua-escondida",
+      "destination": "/public/blog/como-encontrar-fuga-agua-escondida.html"
+    },
+    {
+      "source": "/blog/como-substituir-chuveiro",
+      "destination": "/public/blog/como-substituir-chuveiro.html"
+    },
+    {
+      "source": "/blog/como-reparar-torneira-pingar",
+      "destination": "/public/blog/como-reparar-torneira-pingar.html"
+    },
+    {
+      "source": "/blog/manutencao-canalizacao-primavera",
+      "destination": "/public/blog/manutencao-canalizacao-primavera.html"
+    },
+    {
+      "source": "/blog/como-desentupir-sanita",
+      "destination": "/public/blog/como-desentupir-sanita.html"
     }
   ],
   "headers": [
