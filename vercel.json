@@ -1098,6 +1098,126 @@
       "destination": "/public/urgencia-canalizador-vinhais.html"
     },
     {
+      "source": "/canalizador-algoso",
+      "destination": "/public/canalizador-algoso.html"
+    },
+    {
+      "source": "/canalizador-figueira-castelo-rodrigo",
+      "destination": "/public/canalizador-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/canalizador-lagoaca",
+      "destination": "/public/canalizador-lagoaca.html"
+    },
+    {
+      "source": "/canalizador-meda",
+      "destination": "/public/canalizador-meda.html"
+    },
+    {
+      "source": "/canalizador-miranda-do-douro",
+      "destination": "/public/canalizador-miranda-do-douro.html"
+    },
+    {
+      "source": "/canalizador-monforte-de-rio-livre",
+      "destination": "/public/canalizador-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/canalizador-santa-marta-penaguiao",
+      "destination": "/public/canalizador-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/empresa-canalizacao",
+      "destination": "/public/empresa-canalizacao.html"
+    },
+    {
+      "source": "/melhor-canalizador",
+      "destination": "/public/melhor-canalizador.html"
+    },
+    {
+      "source": "/urgencia-canalizador-algoso",
+      "destination": "/public/urgencia-canalizador-algoso.html"
+    },
+    {
+      "source": "/urgencia-canalizador-armamar",
+      "destination": "/public/urgencia-canalizador-armamar.html"
+    },
+    {
+      "source": "/urgencia-canalizador-boticas",
+      "destination": "/public/urgencia-canalizador-boticas.html"
+    },
+    {
+      "source": "/urgencia-canalizador-duas-igrejas",
+      "destination": "/public/urgencia-canalizador-duas-igrejas.html"
+    },
+    {
+      "source": "/urgencia-canalizador-figueira-castelo-rodrigo",
+      "destination": "/public/urgencia-canalizador-figueira-castelo-rodrigo.html"
+    },
+    {
+      "source": "/urgencia-canalizador-lagoaca",
+      "destination": "/public/urgencia-canalizador-lagoaca.html"
+    },
+    {
+      "source": "/urgencia-canalizador-meda",
+      "destination": "/public/urgencia-canalizador-meda.html"
+    },
+    {
+      "source": "/urgencia-canalizador-mesao-frio",
+      "destination": "/public/urgencia-canalizador-mesao-frio.html"
+    },
+    {
+      "source": "/urgencia-canalizador-miranda-do-douro",
+      "destination": "/public/urgencia-canalizador-miranda-do-douro.html"
+    },
+    {
+      "source": "/urgencia-canalizador-moncorvo",
+      "destination": "/public/urgencia-canalizador-moncorvo.html"
+    },
+    {
+      "source": "/urgencia-canalizador-mondim-de-basto",
+      "destination": "/public/urgencia-canalizador-mondim-de-basto.html"
+    },
+    {
+      "source": "/urgencia-canalizador-monforte-de-rio-livre",
+      "destination": "/public/urgencia-canalizador-monforte-de-rio-livre.html"
+    },
+    {
+      "source": "/urgencia-canalizador-montalegre",
+      "destination": "/public/urgencia-canalizador-montalegre.html"
+    },
+    {
+      "source": "/urgencia-canalizador-penedono",
+      "destination": "/public/urgencia-canalizador-penedono.html"
+    },
+    {
+      "source": "/urgencia-canalizador-rebordelo",
+      "destination": "/public/urgencia-canalizador-rebordelo.html"
+    },
+    {
+      "source": "/urgencia-canalizador-ribeira-de-pena",
+      "destination": "/public/urgencia-canalizador-ribeira-de-pena.html"
+    },
+    {
+      "source": "/urgencia-canalizador-santa-marta-penaguiao",
+      "destination": "/public/urgencia-canalizador-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/urgencia-canalizador-sendim",
+      "destination": "/public/urgencia-canalizador-sendim.html"
+    },
+    {
+      "source": "/urgencia-canalizador-sernancelhe",
+      "destination": "/public/urgencia-canalizador-sernancelhe.html"
+    },
+    {
+      "source": "/urgencia-canalizador-tabuaco",
+      "destination": "/public/urgencia-canalizador-tabuaco.html"
+    },
+    {
+      "source": "/urgencia-canalizador-vila-pouca-de-aguiar",
+      "destination": "/public/urgencia-canalizador-vila-pouca-de-aguiar.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     },
