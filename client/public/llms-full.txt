@@ -81,3 +81,8 @@ Sim, orçamento gratuito e sem compromisso para todos os serviços.
 
 ### Consegue desentupir sem partir nada?
 Sim, com o equipamento Ridgid K-6200 e câmara de inspeção, faço desentupimentos profissionais sem necessidade de partir paredes ou pavimentos.
+
+## Novas Páginas (fevereiro 2026)
+- Áreas de Atuação (mapa SVG interativo + tarifas por zona): https://norte-reparos.com/areas-atuacao
+- Pedir Orçamento (formulário WhatsApp pré-preenchido): https://norte-reparos.com/orcamento
+- Equipa e Certificações (E-E-A-T, certificações, equipamento): https://norte-reparos.com/equipa-certificacoes
