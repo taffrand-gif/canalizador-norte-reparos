@@ -1834,10 +1834,6 @@
       "destination": "/public/blog/remodelacao-casa-banho-guia-completo.html"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    },
-    {
       "source": "/404",
       "destination": "/public/404.html"
     },
