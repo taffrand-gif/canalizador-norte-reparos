@@ -3208,6 +3208,158 @@
     {
       "source": "/canalizador-urgente-perto-de-mim",
       "destination": "/canalizador-urgente-perto-de-mim.html"
+    },
+    {
+      "source": "/blog/cobertura-piscina-vantagens",
+      "destination": "/blog/cobertura-piscina-vantagens.html"
+    },
+    {
+      "source": "/blog/mudar-banheira-para-duche",
+      "destination": "/blog/mudar-banheira-para-duche.html"
+    },
+    {
+      "source": "/blog/remodelar-cozinha-canalizacao",
+      "destination": "/blog/remodelar-cozinha-canalizacao.html"
+    },
+    {
+      "source": "/blog/robot-piscina-vale-pena",
+      "destination": "/blog/robot-piscina-vale-pena.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-alfandega-fe",
+      "destination": "/canalizador-perto-de-mim-alfandega-fe.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-alijo",
+      "destination": "/canalizador-perto-de-mim-alijo.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-armamar",
+      "destination": "/canalizador-perto-de-mim-armamar.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-boticas",
+      "destination": "/canalizador-perto-de-mim-boticas.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-braganca",
+      "destination": "/canalizador-perto-de-mim-braganca.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-carrazeda-ansiaes",
+      "destination": "/canalizador-perto-de-mim-carrazeda-ansiaes.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-chaves",
+      "destination": "/canalizador-perto-de-mim-chaves.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-foz-coa",
+      "destination": "/canalizador-perto-de-mim-foz-coa.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-freixo-espada-cinta",
+      "destination": "/canalizador-perto-de-mim-freixo-espada-cinta.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-lamego",
+      "destination": "/canalizador-perto-de-mim-lamego.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-macedo-cavaleiros",
+      "destination": "/canalizador-perto-de-mim-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-mesao-frio",
+      "destination": "/canalizador-perto-de-mim-mesao-frio.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-miranda-douro",
+      "destination": "/canalizador-perto-de-mim-miranda-douro.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-mirandela",
+      "destination": "/canalizador-perto-de-mim-mirandela.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-mogadouro",
+      "destination": "/canalizador-perto-de-mim-mogadouro.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-moimenta-beira",
+      "destination": "/canalizador-perto-de-mim-moimenta-beira.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-mondim-basto",
+      "destination": "/canalizador-perto-de-mim-mondim-basto.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-montalegre",
+      "destination": "/canalizador-perto-de-mim-montalegre.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-murca",
+      "destination": "/canalizador-perto-de-mim-murca.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-penedono",
+      "destination": "/canalizador-perto-de-mim-penedono.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-regua",
+      "destination": "/canalizador-perto-de-mim-regua.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-ribeira-pena",
+      "destination": "/canalizador-perto-de-mim-ribeira-pena.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-sabrosa",
+      "destination": "/canalizador-perto-de-mim-sabrosa.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-santa-marta-penaguiao",
+      "destination": "/canalizador-perto-de-mim-santa-marta-penaguiao.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-sao-joao-pesqueira",
+      "destination": "/canalizador-perto-de-mim-sao-joao-pesqueira.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-sernancelhe",
+      "destination": "/canalizador-perto-de-mim-sernancelhe.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-tabuaco",
+      "destination": "/canalizador-perto-de-mim-tabuaco.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-torre-moncorvo",
+      "destination": "/canalizador-perto-de-mim-torre-moncorvo.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-valpacos",
+      "destination": "/canalizador-perto-de-mim-valpacos.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-vila-flor",
+      "destination": "/canalizador-perto-de-mim-vila-flor.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-vila-pouca-aguiar",
+      "destination": "/canalizador-perto-de-mim-vila-pouca-aguiar.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-vila-real",
+      "destination": "/canalizador-perto-de-mim-vila-real.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-vimioso",
+      "destination": "/canalizador-perto-de-mim-vimioso.html"
+    },
+    {
+      "source": "/canalizador-perto-de-mim-vinhais",
+      "destination": "/canalizador-perto-de-mim-vinhais.html"
     }
   ],
   "headers": [
