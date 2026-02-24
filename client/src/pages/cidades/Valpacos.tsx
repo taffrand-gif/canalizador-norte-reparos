@@ -317,7 +317,7 @@ export default function Valpacos() {
             {/* Cross-link subtil */}
             <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
               <p className="text-lg">
-                ⚡ <strong>Precisa de um electricista em Valpaços?</strong> Recomendamos:{' '}
+                ⚡ <strong>Precisa de um eletricista em Valpaços?</strong> Recomendamos:{' '}
                 <a href="https://staff-seekers.com/canalizador-valpacos" className="underline font-bold">
                   staff-seekers.com
                 </a>

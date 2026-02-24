@@ -318,8 +318,8 @@ export default function Mirandela() {
             {/* Cross-link subtil */}
             <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
               <p className="text-lg">
-                ⚡ <strong>Precisa de um electricista em Mirandela?</strong> Recomendamos:{' '}
-                <a href="https://staff-seekers.com/electricista-mirandela" className="underline font-bold">
+                ⚡ <strong>Precisa de um eletricista em Mirandela?</strong> Recomendamos:{' '}
+                <a href="https://staff-seekers.com/eletricista-mirandela" className="underline font-bold">
                   staff-seekers.com
                 </a>
               </p>

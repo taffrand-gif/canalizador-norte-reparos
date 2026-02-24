@@ -21,9 +21,9 @@ export async function sendAutoResponse(params: AutoResponseParams): Promise<bool
   const { clientName, clientEmail, serviceType, urgency, phone, city } = params;
 
   // Déterminer le nom de l'entreprise selon le domaine
-  const isStaffSeekers = process.env.VITE_APP_TITLE?.includes('Electricista');
+  const isStaffSeekers = process.env.VITE_APP_TITLE?.includes('Eletricista');
   const companyName = isStaffSeekers 
-    ? 'Electricista de Trás-os-Montes' 
+    ? 'Eletricista de Trás-os-Montes' 
     : 'Canalizador de Trás-os-Montes';
   const companyPhone = isStaffSeekers ? '932 321 892' : '928 484 451';
   const whatsappNumber = isStaffSeekers ? '351932321892' : '351928484451';
