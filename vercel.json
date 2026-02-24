@@ -3360,6 +3360,54 @@
     {
       "source": "/canalizador-perto-de-mim-vinhais",
       "destination": "/canalizador-perto-de-mim-vinhais.html"
+    },
+    {
+      "source": "/blog/agua-no-teto-vizinho-cima",
+      "destination": "/blog/agua-no-teto-vizinho-cima.html"
+    },
+    {
+      "source": "/blog/ampliar-casa-banho-dicas",
+      "destination": "/blog/ampliar-casa-banho-dicas.html"
+    },
+    {
+      "source": "/blog/caldeira-erro-codigos-comuns",
+      "destination": "/blog/caldeira-erro-codigos-comuns.html"
+    },
+    {
+      "source": "/blog/caldeira-perde-pressao",
+      "destination": "/blog/caldeira-perde-pressao.html"
+    },
+    {
+      "source": "/blog/cano-rebentou-o-que-fazer-agora",
+      "destination": "/blog/cano-rebentou-o-que-fazer-agora.html"
+    },
+    {
+      "source": "/blog/casa-banho-acessivel-idosos",
+      "destination": "/blog/casa-banho-acessivel-idosos.html"
+    },
+    {
+      "source": "/blog/fuga-gas-esquentador-perigos",
+      "destination": "/blog/fuga-gas-esquentador-perigos.html"
+    },
+    {
+      "source": "/blog/purgar-radiadores-passo-a-passo",
+      "destination": "/blog/purgar-radiadores-passo-a-passo.html"
+    },
+    {
+      "source": "/blog/quanto-custa-desentupimento",
+      "destination": "/blog/quanto-custa-desentupimento.html"
+    },
+    {
+      "source": "/blog/reaproveitamento-agua-chuva-casa",
+      "destination": "/blog/reaproveitamento-agua-chuva-casa.html"
+    },
+    {
+      "source": "/blog/sistema-aguas-cinzentas",
+      "destination": "/blog/sistema-aguas-cinzentas.html"
+    },
+    {
+      "source": "/blog/termostato-nao-funciona",
+      "destination": "/blog/termostato-nao-funciona.html"
     }
   ],
   "headers": [
