@@ -1,66 +1,143 @@
-# Posts Facebook — Norte Reparos 💧 (Canalizador)
+# Posts Facebook — Norte Reparos 💧 Canalizador
 
-## Post 1 — Nouvelle page Orçamento
-📋 Precisa de canalizador? Peça orçamento gratuito!
-Preencha o formulário e receba resposta por WhatsApp em minutos.
-💧 Canalizador profissional com equipamento Ridgid
-📍 Trás-os-Montes — Raio 100km
-👉 https://norte-reparos.com/orcamento
-#canalizador #trasosmontes #orcamento #braganca
+## Post 1 — Présentation
+💧 Precisa de um canalizador em Trás-os-Montes?
 
-## Post 2 — Áreas de Atuação
-📍 Cobrimos TODA a região de Trás-os-Montes!
-De Bragança a Lamego, de Chaves a Miranda do Douro.
-Consulte as nossas zonas e tarifas:
-👉 https://norte-reparos.com/areas-atuacao
-#canalizador #trasosmontes #macedodecavaleiros
+A Norte Reparos é a sua equipa de canalizadores profissionais. Cobrimos Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros e toda a região num raio de 100 km.
 
-## Post 3 — Equipa e Certificações
-🔬 Equipamento profissional Ridgid K-6200!
-Câmara de inspeção, detetor de fugas — diagnóstico preciso sem partir paredes.
-Conheça-nos: https://norte-reparos.com/equipa-certificacoes
-#canalizador #ridgid #profissional
+✅ Deteção de fugas sem partir paredes
+✅ Desentupimentos com câmara de inspeção
+✅ Disponíveis 24h/7d para urgências
 
-## Post 4 — Urgências 24h
-🚨 Cano rebentado? Fuga de água?
-Estamos disponíveis 24 horas, 7 dias por semana!
 📞 +351 928 484 451
-💬 WhatsApp: https://wa.me/351928484451
-#urgencia #canalizador #24horas #braganca
+💬 WhatsApp: wa.me/351928484451
+🌐 norte-reparos.com
 
-## Post 5 — Desentupimentos
-🚽 Sanita entupida? Ralo bloqueado?
-Com o Ridgid K-6200 resolvemos os entupimentos mais difíceis!
-Leia mais: https://norte-reparos.com/blog/desentupir-wc-metodos-caseiros
-#desentupimento #canalizador #trasosmontes
+## Post 2 — Urgências
+🚨 Cano rebentado? Fuga de água em casa?
 
-## Post 6 — Fugas de Água
-💧 Conta da água a subir sem razão?
-Pode ter uma fuga escondida! Detetamos fugas sem partir paredes.
-Saiba mais: https://norte-reparos.com/blog/sinais-fugas-agua-escondidas
-#fugadeagua #detecao #canalizador
+Cada minuto conta! Uma fuga pode causar milhares de euros em danos.
 
-## Post 7 — Esquentadores
-🔥 O esquentador não liga? Água fria no inverno?
-Reparamos e instalamos esquentadores e termoacumuladores.
-👉 https://norte-reparos.com/blog/esquentador-nao-liga-causas-solucoes
-#esquentador #reparacao #canalizador
+O que fazer AGORA:
+1️⃣ Feche a torneira geral
+2️⃣ Desligue a eletricidade na zona afetada
+3️⃣ Ligue-nos imediatamente
 
-## Post 8 — Manutenção Preventiva
-🔧 Prevenir é melhor que remediar!
-Manutenção preventiva da canalização evita fugas e entupimentos.
-Saiba mais: https://norte-reparos.com/blog/evitar-fugas-agua-prevencao
-#manutencao #prevencao #canalizador
+Estamos disponíveis 24h/7d.
 
-## Post 9 — Casa de Banho
-🛁 Renovar a casa de banho?
-Instalação completa: sanita, lavatório, base de duche, torneiras.
-👉 https://norte-reparos.com/instalacao-casa-banho-completa
-#casadebanho #renovacao #canalizador
-
-## Post 10 — Testemunho / Confiança
-⭐ A confiança dos nossos clientes é o nosso maior orgulho!
-Mais de 100 trabalhos realizados em Trás-os-Montes.
-Peça orçamento gratuito: https://norte-reparos.com/orcamento
 📞 +351 928 484 451
-#canalizador #trasosmontes #confianca
+🔗 norte-reparos.com/blog/fuga-agua-casa-o-que-fazer
+
+## Post 3 — Tecnologia
+🔬 Deteção de fugas SEM partir paredes!
+
+Com o nosso equipamento profissional:
+📷 Câmara de inspeção Ridgid — vemos dentro dos canos
+🔊 Deteção acústica — ouvimos fugas escondidas
+💜 UV Fluoresceína — encontramos fugas invisíveis
+
+Diagnóstico preciso = menos obra, menos custo.
+
+📞 +351 928 484 451
+🌐 norte-reparos.com/tecnologia-premium
+
+## Post 4 — Desentupimentos
+🚽 Sanita entupida? Ralo da cozinha não escoa?
+
+Antes de usar químicos (que danificam os canos!), ligue-nos.
+
+Os nossos métodos profissionais:
+✅ Máquina de desentupimento Ridgid FlexShaft
+✅ Câmara de inspeção (vemos o problema)
+✅ Hidrojato de alta pressão
+✅ Sem químicos, sem danos
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/como-desentupir-canos-guia-completo
+
+## Post 5 — Dica prática
+💡 DICA: Como saber se tem uma fuga de água escondida?
+
+5 sinais de alerta:
+1️⃣ Conta da água subiu sem razão
+2️⃣ Manchas de humidade nas paredes
+3️⃣ Cheiro a mofo
+4️⃣ Contador da água roda com tudo fechado
+5️⃣ Pressão da água diminuiu
+
+Se reconhece algum sinal, contacte-nos para uma inspeção.
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/sinais-fugas-agua-escondidas
+
+## Post 6 — Remodelação casa de banho
+🛁 A pensar em remodelar a casa de banho?
+
+A nossa equipa faz tudo:
+✅ Canalização nova
+✅ Instalação de louças sanitárias
+✅ Torneiras e acessórios
+✅ Base de duche ou banheira
+✅ Aquecimento de água
+
+Orçamento gratuito e sem compromisso.
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/remodelacao-casa-banho-guia-completo
+
+## Post 7 — Esquentador
+🔥 O seu esquentador não aquece bem?
+
+Pode ser:
+❌ Calcário acumulado
+❌ Membrana gasta
+❌ Problema no gás
+❌ Necessidade de manutenção
+
+A manutenção anual do esquentador prolonga a vida útil e poupa gás.
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/manutencao-esquentador-guia
+
+## Post 8 — Inverno
+❄️ Proteja os canos do gelo este inverno!
+
+Em Trás-os-Montes, temperaturas abaixo de -5°C podem rebentar canos.
+
+Prevenção:
+🧊 Isolar canos exteriores
+🔥 Instalar cabo aquecedor
+💧 Drenar canos de casas desocupadas
+🚰 Deixar torneira a pingar em noites muito frias
+
+Preparamos a sua casa para o inverno.
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/proteger-canos-gelo-montanha
+
+## Post 9 — Turismo rural
+🏡 Vai abrir um alojamento de turismo rural?
+
+A canalização tem requisitos específicos:
+✅ Água quente em todas as casas de banho
+✅ Pressão adequada em todos os pisos
+✅ Sistema de esgotos conforme
+✅ Fossa séptica ou ETAR se necessário
+
+Temos experiência em projetos de turismo rural.
+
+📞 +351 928 484 451
+🔗 norte-reparos.com/blog/canalizacao-turismo-rural
+
+## Post 10 — Testemunho
+⭐⭐⭐⭐⭐
+
+"Tínhamos uma fuga escondida há meses. A Norte Reparos encontrou-a em 30 minutos com a câmara de inspeção, sem partir nenhuma parede. Excelente trabalho!"
+
+— Cliente em Mirandela
+
+Quando precisar, estamos cá. 24h/7d.
+
+📞 +351 928 484 451
+💬 wa.me/351928484451
+🌐 norte-reparos.com
