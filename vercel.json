@@ -3164,6 +3164,50 @@
     {
       "source": "/perguntas-frequentes-canalizador-vinhais",
       "destination": "/perguntas-frequentes-canalizador-vinhais.html"
+    },
+    {
+      "source": "/blog/aquecimento-piscina-solar",
+      "destination": "/blog/aquecimento-piscina-solar.html"
+    },
+    {
+      "source": "/blog/aquecimento-solar-termico-guia",
+      "destination": "/blog/aquecimento-solar-termico-guia.html"
+    },
+    {
+      "source": "/blog/fuga-agua-piscina-detetar",
+      "destination": "/blog/fuga-agua-piscina-detetar.html"
+    },
+    {
+      "source": "/blog/inundacao-casa-primeiros-passos",
+      "destination": "/blog/inundacao-casa-primeiros-passos.html"
+    },
+    {
+      "source": "/blog/ph-piscina-como-regular",
+      "destination": "/blog/ph-piscina-como-regular.html"
+    },
+    {
+      "source": "/blog/piscina-agua-verde-solucoes",
+      "destination": "/blog/piscina-agua-verde-solucoes.html"
+    },
+    {
+      "source": "/blog/quanto-custa-instalar-casa-banho",
+      "destination": "/blog/quanto-custa-instalar-casa-banho.html"
+    },
+    {
+      "source": "/blog/quanto-custa-substituir-esquentador",
+      "destination": "/blog/quanto-custa-substituir-esquentador.html"
+    },
+    {
+      "source": "/canalizador-24-horas",
+      "destination": "/canalizador-24-horas.html"
+    },
+    {
+      "source": "/canalizador-barato",
+      "destination": "/canalizador-barato.html"
+    },
+    {
+      "source": "/canalizador-urgente-perto-de-mim",
+      "destination": "/canalizador-urgente-perto-de-mim.html"
     }
   ],
   "headers": [
