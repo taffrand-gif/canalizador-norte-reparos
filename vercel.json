@@ -3060,6 +3060,110 @@
     {
       "source": "/blog/ventilacao-casa-banho",
       "destination": "/blog/ventilacao-casa-banho.html"
+    },
+    {
+      "source": "/blog/bomba-agua-jardim-escolher",
+      "destination": "/blog/bomba-agua-jardim-escolher.html"
+    },
+    {
+      "source": "/blog/bomba-piscina-como-escolher",
+      "destination": "/blog/bomba-piscina-como-escolher.html"
+    },
+    {
+      "source": "/blog/canalizacao-piscina-guia",
+      "destination": "/blog/canalizacao-piscina-guia.html"
+    },
+    {
+      "source": "/blog/filtro-agua-rega",
+      "destination": "/blog/filtro-agua-rega.html"
+    },
+    {
+      "source": "/blog/filtro-piscina-areia-vs-cartucho",
+      "destination": "/blog/filtro-piscina-areia-vs-cartucho.html"
+    },
+    {
+      "source": "/blog/mangueira-vs-rega-automatica",
+      "destination": "/blog/mangueira-vs-rega-automatica.html"
+    },
+    {
+      "source": "/blog/manutencao-piscina-inverno",
+      "destination": "/blog/manutencao-piscina-inverno.html"
+    },
+    {
+      "source": "/blog/poco-agua-rega-jardim",
+      "destination": "/blog/poco-agua-rega-jardim.html"
+    },
+    {
+      "source": "/blog/poupanca-agua-jardim",
+      "destination": "/blog/poupanca-agua-jardim.html"
+    },
+    {
+      "source": "/blog/programador-rega-como-usar",
+      "destination": "/blog/programador-rega-como-usar.html"
+    },
+    {
+      "source": "/blog/rega-enterrada-instalacao",
+      "destination": "/blog/rega-enterrada-instalacao.html"
+    },
+    {
+      "source": "/blog/rega-gota-a-gota-horta",
+      "destination": "/blog/rega-gota-a-gota-horta.html"
+    },
+    {
+      "source": "/blog/sistema-rega-automatica-jardim",
+      "destination": "/blog/sistema-rega-automatica-jardim.html"
+    },
+    {
+      "source": "/blog/torneira-jardim-instalacao",
+      "destination": "/blog/torneira-jardim-instalacao.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-alfandega-fe",
+      "destination": "/perguntas-frequentes-canalizador-alfandega-fe.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-braganca",
+      "destination": "/perguntas-frequentes-canalizador-braganca.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-chaves",
+      "destination": "/perguntas-frequentes-canalizador-chaves.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-lamego",
+      "destination": "/perguntas-frequentes-canalizador-lamego.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-macedo-cavaleiros",
+      "destination": "/perguntas-frequentes-canalizador-macedo-cavaleiros.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-mirandela",
+      "destination": "/perguntas-frequentes-canalizador-mirandela.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-mogadouro",
+      "destination": "/perguntas-frequentes-canalizador-mogadouro.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-montalegre",
+      "destination": "/perguntas-frequentes-canalizador-montalegre.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-torre-moncorvo",
+      "destination": "/perguntas-frequentes-canalizador-torre-moncorvo.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-valpacos",
+      "destination": "/perguntas-frequentes-canalizador-valpacos.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-vila-real",
+      "destination": "/perguntas-frequentes-canalizador-vila-real.html"
+    },
+    {
+      "source": "/perguntas-frequentes-canalizador-vinhais",
+      "destination": "/perguntas-frequentes-canalizador-vinhais.html"
     }
   ],
   "headers": [
