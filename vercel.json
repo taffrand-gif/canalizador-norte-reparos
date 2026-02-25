@@ -3740,4 +3740,103 @@
       "statusCode": 301
     }
   ]
-}
+}    {
+      "source": "/amazon/chave-inglesa",
+      "destination": "/amazon/chave-inglesa.html"
+    },
+    {
+      "source": "/amazon/maquina-desentupir",
+      "destination": "/amazon/maquina-desentupir.html"
+    },
+    {
+      "source": "/amazon/camera-inspecao",
+      "destination": "/amazon/camera-inspecao.html"
+    },
+    {
+      "source": "/amazon/detetor-fugas",
+      "destination": "/amazon/detetor-fugas.html"
+    },
+    {
+      "source": "/amazon/chave-stilson",
+      "destination": "/amazon/chave-stilson.html"
+    },
+    {
+      "source": "/amazon/fita-teflon",
+      "destination": "/amazon/fita-teflon.html"
+    },
+    {
+      "source": "/amazon/cola-pvc",
+      "destination": "/amazon/cola-pvc.html"
+    },
+    {
+      "source": "/amazon/tubo-multicamada",
+      "destination": "/amazon/tubo-multicamada.html"
+    },
+    {
+      "source": "/amazon/tubo-ppr",
+      "destination": "/amazon/tubo-ppr.html"
+    },
+    {
+      "source": "/amazon/torneira-cozinha",
+      "destination": "/amazon/torneira-cozinha.html"
+    },
+    {
+      "source": "/amazon/torneira-casa-banho",
+      "destination": "/amazon/torneira-casa-banho.html"
+    },
+    {
+      "source": "/amazon/autoclismo-encastrar",
+      "destination": "/amazon/autoclismo-encastrar.html"
+    },
+    {
+      "source": "/amazon/base-duche",
+      "destination": "/amazon/base-duche.html"
+    },
+    {
+      "source": "/amazon/esquentador-gas",
+      "destination": "/amazon/esquentador-gas.html"
+    },
+    {
+      "source": "/amazon/termoacumulador",
+      "destination": "/amazon/termoacumulador.html"
+    },
+    {
+      "source": "/amazon/caldeira-condensacao",
+      "destination": "/amazon/caldeira-condensacao.html"
+    },
+    {
+      "source": "/amazon/radiador-aquecimento",
+      "destination": "/amazon/radiador-aquecimento.html"
+    },
+    {
+      "source": "/amazon/bomba-circulacao",
+      "destination": "/amazon/bomba-circulacao.html"
+    },
+    {
+      "source": "/amazon/valvula-seguranca",
+      "destination": "/amazon/valvula-seguranca.html"
+    },
+    {
+      "source": "/amazon/sifao-anti-odores",
+      "destination": "/amazon/sifao-anti-odores.html"
+    },
+    {
+      "source": "/amazon/filtro-agua",
+      "destination": "/amazon/filtro-agua.html"
+    },
+    {
+      "source": "/amazon/mangueira-inox",
+      "destination": "/amazon/mangueira-inox.html"
+    },
+    {
+      "source": "/amazon/descalcificador",
+      "destination": "/amazon/descalcificador.html"
+    },
+    {
+      "source": "/amazon/bomba-submersivel",
+      "destination": "/amazon/bomba-submersivel.html"
+    },
+    {
+      "source": "/amazon/kit-ferramentas-canalizador",
+      "destination": "/amazon/kit-ferramentas-canalizador.html"
+    }
