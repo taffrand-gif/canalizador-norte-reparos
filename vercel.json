@@ -3408,6 +3408,74 @@
     {
       "source": "/blog/termostato-nao-funciona",
       "destination": "/blog/termostato-nao-funciona.html"
+    },
+    {
+      "source": "/tuto",
+      "destination": "/tuto/index.html"
+    },
+    {
+      "source": "/tuto/",
+      "destination": "/tuto/index.html"
+    },
+    {
+      "source": "/tuto/como-desentupir-lava-loica",
+      "destination": "/tuto/como-desentupir-lava-loica.html"
+    },
+    {
+      "source": "/tuto/como-trocar-torneira",
+      "destination": "/tuto/como-trocar-torneira.html"
+    },
+    {
+      "source": "/tuto/como-reparar-autoclismo",
+      "destination": "/tuto/como-reparar-autoclismo.html"
+    },
+    {
+      "source": "/tuto/como-desentupir-sanita",
+      "destination": "/tuto/como-desentupir-sanita.html"
+    },
+    {
+      "source": "/tuto/como-reparar-fuga-agua",
+      "destination": "/tuto/como-reparar-fuga-agua.html"
+    },
+    {
+      "source": "/tuto/como-trocar-chuveiro",
+      "destination": "/tuto/como-trocar-chuveiro.html"
+    },
+    {
+      "source": "/tuto/como-purgar-radiadores",
+      "destination": "/tuto/como-purgar-radiadores.html"
+    },
+    {
+      "source": "/tuto/como-manter-esquentador",
+      "destination": "/tuto/como-manter-esquentador.html"
+    },
+    {
+      "source": "/tuto/como-desentupir-ralo-duche",
+      "destination": "/tuto/como-desentupir-ralo-duche.html"
+    },
+    {
+      "source": "/tuto/como-verificar-pressao-agua",
+      "destination": "/tuto/como-verificar-pressao-agua.html"
+    },
+    {
+      "source": "/tuto/como-instalar-maquina-lavar",
+      "destination": "/tuto/como-instalar-maquina-lavar.html"
+    },
+    {
+      "source": "/tuto/como-evitar-canos-congelados",
+      "destination": "/tuto/como-evitar-canos-congelados.html"
+    },
+    {
+      "source": "/tuto/como-trocar-sifao",
+      "destination": "/tuto/como-trocar-sifao.html"
+    },
+    {
+      "source": "/tuto/como-limpar-fossa-septica",
+      "destination": "/tuto/como-limpar-fossa-septica.html"
+    },
+    {
+      "source": "/tuto/como-instalar-filtro-agua",
+      "destination": "/tuto/como-instalar-filtro-agua.html"
     }
   ],
   "headers": [
