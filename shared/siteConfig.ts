@@ -156,24 +156,7 @@ export const siteConfig: SiteConfig = {
     }
   ],
 
-  team: [
-    {
-      name: "João 'O Salvador'",
-      role: "Chefe de Equipa Canalização",
-      location: "Miranda do Douro",
-      bio: "45 anos. Conduz um 4x4 para chegar às quintas isoladas. Forte, tranquilizador, não tem medo de se sujar. Especialista em fugas graves.",
-      quote: "\"Não se preocupe dona Maria, a água para já.\"",
-      image: "/images/team/joao-plumber.jpg"
-    },
-    {
-      name: "Rui",
-      role: "Técnico de Aquecimento",
-      location: "Chaves",
-      bio: "34 anos. Especialista em aquecimento e caldeiras. Calmo, pedagógico, explica tudo antes de faturar.",
-      quote: "\"Primeiro vemos o que é, depois falamos do preço.\"",
-      image: "/images/team/rui-heating.jpg"
-    }
-  ],
+  team: [],
 
   pricingZones: [
     { name: "Zona 1 (Sede)", cities: "Macedo de Cavaleiros e concelho", price: "15€", time: "< 30 min" },
