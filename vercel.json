@@ -3508,6 +3508,14 @@
     {
       "source": "/amazon/kit-ferramentas-canalizador",
       "destination": "/amazon/kit-ferramentas-canalizador.html"
+    },
+    {
+      "source": "/porque-escolher-nos",
+      "destination": "/porque-escolher-nos.html"
+    },
+    {
+      "source": "/precos-canalizador",
+      "destination": "/precos-canalizador.html"
     }
   ],
   "headers": [
