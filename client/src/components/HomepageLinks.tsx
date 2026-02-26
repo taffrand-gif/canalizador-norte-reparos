@@ -9,14 +9,14 @@ export default function HomepageLinks() {
         <h2 className="text-3xl font-black mb-6 text-center">🔧 Os Nossos Serviços de Canalização</h2>
         <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-4xl mx-auto">
           A nossa equipa oferece serviços completos de canalização em Trás-os-Montes. Desde{' '}
-          <a href="/desentupimentos-profissionais-tras-os-montes" className="text-[#2193b0] font-bold hover:underline">desentupimentos profissionais</a> com equipamento Ridgid, até{' '}
-          <a href="/detecao-fugas-agua-camera" className="text-[#2193b0] font-bold hover:underline">deteção de fugas com câmara térmica</a> sem partir paredes. Realizamos{' '}
-          <a href="/reparacao-esquentadores-caldeiras" className="text-[#2193b0] font-bold hover:underline">reparação de esquentadores e caldeiras</a>,{' '}
-          <a href="/canalizacao-nova-construcao" className="text-[#2193b0] font-bold hover:underline">canalização nova para construção</a>,{' '}
-          <a href="/instalacao-casa-banho-completa" className="text-[#2193b0] font-bold hover:underline">instalação completa de casa de banho</a> e{' '}
-          <a href="/manutencao-preventiva-canalizacao" className="text-[#2193b0] font-bold hover:underline">manutenção preventiva</a>. Consulte a nossa{' '}
-          <a href="/tecnologia-premium" className="text-[#2193b0] font-bold hover:underline">tecnologia premium</a> e{' '}
-          <a href="/galeria" className="text-[#2193b0] font-bold hover:underline">galeria de trabalhos</a>.
+          <a href="/desentupimentos-profissionais-tras-os-montes" className="text-[#0e7490] font-bold hover:underline">desentupimentos profissionais</a> com equipamento Ridgid, até{' '}
+          <a href="/detecao-fugas-agua-camera" className="text-[#0e7490] font-bold hover:underline">deteção de fugas com câmara térmica</a> sem partir paredes. Realizamos{' '}
+          <a href="/reparacao-esquentadores-caldeiras" className="text-[#0e7490] font-bold hover:underline">reparação de esquentadores e caldeiras</a>,{' '}
+          <a href="/canalizacao-nova-construcao" className="text-[#0e7490] font-bold hover:underline">canalização nova para construção</a>,{' '}
+          <a href="/instalacao-casa-banho-completa" className="text-[#0e7490] font-bold hover:underline">instalação completa de casa de banho</a> e{' '}
+          <a href="/manutencao-preventiva-canalizacao" className="text-[#0e7490] font-bold hover:underline">manutenção preventiva</a>. Consulte a nossa{' '}
+          <a href="/tecnologia-premium" className="text-[#0e7490] font-bold hover:underline">tecnologia premium</a> e{' '}
+          <a href="/galeria" className="text-[#0e7490] font-bold hover:underline">galeria de trabalhos</a>.
         </p>
 
         {/* Urgency Links */}
@@ -33,7 +33,7 @@ export default function HomepageLinks() {
             <a
               key={link.href}
               href={link.href}
-              className="inline-block bg-blue-50 border-2 border-[#2193b0] px-5 py-3 rounded-lg text-[#2193b0] font-bold hover:bg-[#2193b0] hover:text-white transition-colors"
+              className="inline-block bg-blue-50 border-2 border-[#0e7490] px-5 py-3 rounded-lg text-[#0e7490] font-bold hover:bg-[#0e7490] hover:text-white transition-colors"
             >
               {link.label}
             </a>
@@ -54,15 +54,15 @@ export default function HomepageLinks() {
             <a
               key={article.href}
               href={article.href}
-              className="block bg-white p-4 rounded-lg border-l-4 border-[#2193b0] shadow-sm hover:shadow-md transition-shadow"
+              className="block bg-white p-4 rounded-lg border-l-4 border-[#0e7490] shadow-sm hover:shadow-md transition-shadow"
             >
-              <span className="font-bold text-[#2193b0] block mb-1">{article.title}</span>
+              <span className="font-bold text-[#0e7490] block mb-1">{article.title}</span>
               <span className="text-sm text-gray-600">{article.desc}</span>
             </a>
           ))}
         </div>
         <p className="text-center">
-          <a href="/blog/" className="text-[#2193b0] font-bold text-lg hover:underline">
+          <a href="/blog/" className="text-[#0e7490] font-bold text-lg hover:underline">
             Ver todos os artigos do blog →
           </a>
         </p>
@@ -70,16 +70,16 @@ export default function HomepageLinks() {
         {/* City-specific services */}
         <h2 className="text-3xl font-black mb-6 mt-12 text-center">🏗️ Serviços por Cidade</h2>
         <p className="text-gray-700 text-center leading-relaxed max-w-4xl mx-auto">
-          <a href="/desentupimentos-braganca" className="text-[#2193b0] hover:underline">Desentupimentos em Bragança</a> •{' '}
-          <a href="/desentupimentos-mirandela" className="text-[#2193b0] hover:underline">Desentupimentos em Mirandela</a> •{' '}
-          <a href="/desentupimentos-vila-real" className="text-[#2193b0] hover:underline">Desentupimentos em Vila Real</a> •{' '}
-          <a href="/fugas-agua-braganca" className="text-[#2193b0] hover:underline">Fugas de Água em Bragança</a> •{' '}
-          <a href="/fugas-agua-mirandela" className="text-[#2193b0] hover:underline">Fugas de Água em Mirandela</a> •{' '}
-          <a href="/fugas-agua-vila-real" className="text-[#2193b0] hover:underline">Fugas de Água em Vila Real</a> •{' '}
-          <a href="/esquentadores-braganca" className="text-[#2193b0] hover:underline">Esquentadores em Bragança</a> •{' '}
-          <a href="/esquentadores-vila-real" className="text-[#2193b0] hover:underline">Esquentadores em Vila Real</a> •{' '}
-          <a href="/canalizacao-nova-braganca" className="text-[#2193b0] hover:underline">Canalização Nova em Bragança</a> •{' '}
-          <a href="/canalizacao-nova-vila-real" className="text-[#2193b0] hover:underline">Canalização Nova em Vila Real</a>
+          <a href="/desentupimentos-braganca" className="text-[#0e7490] hover:underline">Desentupimentos em Bragança</a> •{' '}
+          <a href="/desentupimentos-mirandela" className="text-[#0e7490] hover:underline">Desentupimentos em Mirandela</a> •{' '}
+          <a href="/desentupimentos-vila-real" className="text-[#0e7490] hover:underline">Desentupimentos em Vila Real</a> •{' '}
+          <a href="/fugas-agua-braganca" className="text-[#0e7490] hover:underline">Fugas de Água em Bragança</a> •{' '}
+          <a href="/fugas-agua-mirandela" className="text-[#0e7490] hover:underline">Fugas de Água em Mirandela</a> •{' '}
+          <a href="/fugas-agua-vila-real" className="text-[#0e7490] hover:underline">Fugas de Água em Vila Real</a> •{' '}
+          <a href="/esquentadores-braganca" className="text-[#0e7490] hover:underline">Esquentadores em Bragança</a> •{' '}
+          <a href="/esquentadores-vila-real" className="text-[#0e7490] hover:underline">Esquentadores em Vila Real</a> •{' '}
+          <a href="/canalizacao-nova-braganca" className="text-[#0e7490] hover:underline">Canalização Nova em Bragança</a> •{' '}
+          <a href="/canalizacao-nova-vila-real" className="text-[#0e7490] hover:underline">Canalização Nova em Vila Real</a>
         </p>
       </div>
     </section>
