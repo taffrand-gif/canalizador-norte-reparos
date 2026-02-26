@@ -3682,6 +3682,186 @@
       "source": "/picheleiro-boticas",
       "destination": "/canalizador-boticas",
       "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-moncorvo",
+      "destination": "/canalizador-urgente-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-miranda-do-douro",
+      "destination": "/canalizador-urgente-miranda-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-penedono",
+      "destination": "/canalizador-urgente-penedono",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-macedo-de-cavaleiros",
+      "destination": "/canalizador-urgente-macedo-de-cavaleiros",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-algoso",
+      "destination": "/canalizador-urgente-algoso",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-mirandela",
+      "destination": "/canalizador-urgente-mirandela",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-carrazeda-de-ansiaes",
+      "destination": "/canalizador-urgente-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-braganca",
+      "destination": "/canalizador-urgente-braganca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-tabuaco",
+      "destination": "/canalizador-urgente-tabuaco",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-mogadouro",
+      "destination": "/canalizador-urgente-mogadouro",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-lagoaca",
+      "destination": "/canalizador-urgente-lagoaca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-monforte-de-rio-livre",
+      "destination": "/canalizador-urgente-monforte-de-rio-livre",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-rebordelo",
+      "destination": "/canalizador-urgente-rebordelo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-figueira-castelo-rodrigo",
+      "destination": "/canalizador-urgente-figueira-castelo-rodrigo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-chaves",
+      "destination": "/canalizador-urgente-chaves",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-valpacos",
+      "destination": "/canalizador-urgente-valpacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-vila-pouca-de-aguiar",
+      "destination": "/canalizador-urgente-vila-pouca-de-aguiar",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-mondim-de-basto",
+      "destination": "/canalizador-urgente-mondim-de-basto",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-urgente-freixo-de-espada-a-cinta",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-ribeira-de-pena",
+      "destination": "/canalizador-urgente-ribeira-de-pena",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-vila-real",
+      "destination": "/canalizador-urgente-vila-real",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-sendim",
+      "destination": "/canalizador-urgente-sendim",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-santa-marta-penaguiao",
+      "destination": "/canalizador-urgente-santa-marta-penaguiao",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-montalegre",
+      "destination": "/canalizador-urgente-montalegre",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-meda",
+      "destination": "/canalizador-urgente-meda",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-vinhais",
+      "destination": "/canalizador-urgente-vinhais",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-mesao-frio",
+      "destination": "/canalizador-urgente-mesao-frio",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-armamar",
+      "destination": "/canalizador-urgente-armamar",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-alfandega-da-fe",
+      "destination": "/canalizador-urgente-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-torre-de-moncorvo",
+      "destination": "/canalizador-urgente-torre-de-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-boticas",
+      "destination": "/canalizador-urgente-boticas",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-vila-flor",
+      "destination": "/canalizador-urgente-vila-flor",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-murca",
+      "destination": "/canalizador-urgente-murca",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-duas-igrejas",
+      "destination": "/canalizador-urgente-duas-igrejas",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-vimioso",
+      "destination": "/canalizador-urgente-vimioso",
+      "statusCode": 301
+    },
+    {
+      "source": "/urgencia-canalizador-sernancelhe",
+      "destination": "/canalizador-urgente-sernancelhe",
+      "statusCode": 301
     }
   ],
   "cleanUrls": true
