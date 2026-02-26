@@ -122,7 +122,7 @@ const InnovativeHero: React.FC = () => {
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge professionnel */}
-          <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-xl border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
+          <div className="inline-flex items-center gap-3 bg-white/15  border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
             <span className="text-3xl">💧</span>
             <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
               CANALIZADOR CERTIFICADO EM TRÁS-OS-MONTES
@@ -218,7 +218,7 @@ const InnovativeHero: React.FC = () => {
                 key={index}
                 className="relative group"
               >
-                <div className={`bg-gradient-to-br ${stat.color} rounded-2xl p-6 border-2 border-white/20 backdrop-blur-sm transition-all duration-500 transform group-hover:-translate-y-3 group-hover:scale-105 group-hover:shadow-2xl`}>
+                <div className={`bg-gradient-to-br ${stat.color} rounded-2xl p-6 border-2 border-white/20  transition-all duration-500 transform group-hover:-translate-y-3 group-hover:scale-105 group-hover:shadow-2xl`}>
                   <div className="text-4xl mb-4 animate-float">{stat.icon}</div>
                   <div className="text-4xl font-bold text-white mb-2">{stat.value}</div>
                   <div className="text-white/90 text-sm font-medium">{stat.label}</div>
