@@ -40,7 +40,7 @@ export default function ReparacaoFugasAgua() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">Deteção e reparação profissional de fugas de água. Equipamento moderno, resposta rápida 24h/7d em toda a região.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
-            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
+            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function ReparacaoFugasAgua() {
           <p className="text-xl mb-8">Contacte-nos agora para reparação urgente. Orçamento gratuito.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
-            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp Urgente</a>
+            <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp Urgente</a>
           </div>
         </div>
       </section>

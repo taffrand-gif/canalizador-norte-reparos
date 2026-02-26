@@ -67,7 +67,7 @@ export default function RibeiraDePena() {
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Canalização profissional em Ribeira de Pena, junto à barragem. Especializados em turismo rural, casas de campo e habitações de todo o concelho.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
-              <a href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20um%20canalizador%20em%20Ribeira%20de%20Pena" className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
+              <a href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20um%20canalizador%20em%20Ribeira%20de%20Pena" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
             </div>
           </div>
         </section>

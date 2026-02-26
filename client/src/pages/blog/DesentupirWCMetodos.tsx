@@ -221,7 +221,7 @@ export default function DesentupirWCMetodos() {
                 <Phone className="w-6 h-6" />
                 928 484 451
               </a>
-              <a href="https://wa.me/351928484451?text=Olá,%20tenho%20o%20WC%20entupido%20e%20preciso%20de%20ajuda" className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351928484451?text=Olá,%20tenho%20o%20WC%20entupido%20e%20preciso%20de%20ajuda" className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>

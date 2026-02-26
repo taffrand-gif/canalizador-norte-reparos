@@ -16,7 +16,7 @@ export default function FloatingButtons() {
       {/* WhatsApp button - bottom left */}
       <Button
         onClick={() => window.open(`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`, '_blank')}
-        className="fixed bottom-6 left-6 w-14 h-14 rounded-full bg-green-600 hover:bg-green-700 text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all z-40"
+        className="fixed bottom-6 left-6 w-14 h-14 rounded-full bg-green-700 hover:bg-green-800 text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.3)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.3)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all z-40"
         aria-label="Contactar via WhatsApp"
       >
         <svg

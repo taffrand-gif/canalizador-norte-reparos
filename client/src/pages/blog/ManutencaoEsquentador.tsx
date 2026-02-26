@@ -94,7 +94,7 @@ export default function ManutencaoEsquentador() {
                       <strong>Antes do Inverno</strong>
                       <p className="text-sm text-gray-600">Ideal fazer em Setembro/Outubro</p>
                     </div>
-                    <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold">Recomendado</span>
+                    <span className="bg-green-700 text-white px-3 py-1 rounded-full text-sm font-bold">Recomendado</span>
                   </div>
                   <div className="flex items-center justify-between p-4 bg-white rounded-lg">
                     <div>
@@ -213,7 +213,7 @@ export default function ManutencaoEsquentador() {
                 <Phone className="w-6 h-6" />
                 928 484 451
               </a>
-              <a href="https://wa.me/351928484451?text=Olá,%20quero%20agendar%20manutenção%20do%20esquentador" className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351928484451?text=Olá,%20quero%20agendar%20manutenção%20do%20esquentador" className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>

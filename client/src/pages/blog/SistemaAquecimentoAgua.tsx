@@ -349,7 +349,7 @@ export default function SistemaAquecimentoAgua() {
                 <Phone className="w-6 h-6" />
                 928 484 451
               </a>
-              <a href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20ajuda%20a%20escolher%20sistema%20de%20aquecimento%20de%20água." className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20ajuda%20a%20escolher%20sistema%20de%20aquecimento%20de%20água." className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>

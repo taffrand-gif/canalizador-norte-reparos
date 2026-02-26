@@ -395,7 +395,7 @@ export default function PouparAguaCasa() {
                 <Phone className="w-6 h-6" />
                 928 484 451
               </a>
-              <a href="https://wa.me/351928484451?text=Olá,%20quero%20instalar%20equipamentos%20para%20poupar%20água." className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-600 transition-all shadow-lg">
+              <a href="https://wa.me/351928484451?text=Olá,%20quero%20instalar%20equipamentos%20para%20poupar%20água." className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
                 💬 WhatsApp
               </a>
             </div>
