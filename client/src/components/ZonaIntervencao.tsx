@@ -52,10 +52,10 @@ export default function ZonaIntervencao() {
               }`}
             >
               <div className="flex items-center gap-2 mb-1">
-                <MapPin className={`w-4 h-4 ${cidade.destaque ? 'text-blue-200' : 'text-blue-500'}`} />
+                <MapPin className={`w-4 h-4 ${cidade.destaque ? 'text-white' : 'text-blue-500'}`} />
                 <span className="font-bold text-sm md:text-base">{cidade.nome}</span>
               </div>
-              <span className={`text-xs ${cidade.destaque ? 'text-blue-200' : 'text-gray-500'}`}>
+              <span className={`text-xs ${cidade.destaque ? 'text-white' : 'text-gray-500'}`}>
                 {cidade.distancia}
               </span>
             </div>

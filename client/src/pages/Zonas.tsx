@@ -252,7 +252,7 @@ export default function Zonas() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href={`tel:+351${config.phone.replace(/\s/g, '')}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#2193b0] text-white font-semibold rounded-lg hover:bg-[#1a7a8f] transition-colors"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-[#0e7490] text-white font-semibold rounded-lg hover:bg-[#1a7a8f] transition-colors"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Ligar Agora: {config.phone}

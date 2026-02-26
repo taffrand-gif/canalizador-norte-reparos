@@ -44,7 +44,7 @@ export default function LatestBlog() {
               href={a.href}
               className="group bg-white rounded-xl border-2 border-gray-100 p-6 hover:border-[#2193b0] hover:shadow-lg transition-all flex flex-col"
             >
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#2193b0]/10 text-[#0e7490] mb-4">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#0e7490]/10 text-[#0e7490] mb-4">
                 <BookOpen className="w-5 h-5" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-[#0e7490] transition-colors">
@@ -61,7 +61,7 @@ export default function LatestBlog() {
         <div className="text-center mt-10">
           <a
             href="/blog"
-            className="inline-flex items-center gap-2 bg-[#2193b0] hover:bg-[#1a7a94] text-white font-bold py-3 px-8 rounded-lg transition-colors"
+            className="inline-flex items-center gap-2 bg-[#0e7490] hover:bg-[#1a7a94] text-white font-bold py-3 px-8 rounded-lg transition-colors"
           >
             Ver Todos os Artigos <ArrowRight className="w-4 h-4" />
           </a>
