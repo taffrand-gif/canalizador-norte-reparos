@@ -28,6 +28,7 @@ export default function OptimizedHome() {
       <SEOHead />
       
       <Header />
+      <main>
       <InnovativeHero />
       <TrustBanner />
       <OptimizedServices />
@@ -79,7 +80,7 @@ export default function OptimizedHome() {
       
       {/* Section contact */}
       <Contactos />
-      
+      </main>
       <Footer />
       
       <ScrollToTop />
