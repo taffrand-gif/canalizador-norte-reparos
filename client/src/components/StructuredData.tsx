@@ -263,7 +263,7 @@ export default function StructuredData() {
         }
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(config.whatsappMessage)}`
+        `https://wa.me/${config.whatsapp || '351928484451'}?text=${encodeURIComponent(config.whatsappMessage)}`
       ]
     };
 
