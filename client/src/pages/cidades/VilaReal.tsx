@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 
 export default function VilaReal() {
   useEffect(() => {
-    document.title = "Canalizador Vila Real 24h - Canalização e Desentupimentos - +351 928 484 451";
+    document.title = "Canalizador Urgente Vila Real 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function VilaReal() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Vila Real. Capital de distrito com serviço 24h: desentupimentos, fugas de água, instalação sanitários, esquentadores. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Torneira a pingar em Vila Real? A nossa equipa resolve hoje. Desentupimentos, fugas, esquentadores. Orçamento gratuito. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

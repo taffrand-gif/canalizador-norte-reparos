@@ -14,7 +14,7 @@ export default function Braganca() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Braganca, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
+    document.title = "Canalizador Urgente Bragança 💧 24h | 928 484 451";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Braganca() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Bragança, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Fuga de água em Bragança? Respondemos em 30 minutos. Desentupimentos e reparações urgentes, orçamento sem compromisso. Ligue: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

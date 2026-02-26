@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 
 export default function MirandaDouro() {
   useEffect(() => {
-    document.title = "Canalizador Miranda do Douro 24h - Desentupimentos - +351 928 484 451";
+    document.title = "Canalizador Miranda do Douro 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function MirandaDouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Miranda do Douro disponível 24h. Desentupimentos, reparação de fugas, esquentadores. Servimos Miranda, Sendim, Duas Igrejas. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Cano rebentado em Miranda do Douro? Estamos aí hoje. Desentupimentos e reparações urgentes. Ligue agora: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

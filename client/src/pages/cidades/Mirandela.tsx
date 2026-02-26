@@ -14,7 +14,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Mirandela, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
+    document.title = "Canalizador Urgente Mirandela 💧 24h | 928 484 451";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Mirandela() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Mirandela, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Entupimento urgente em Mirandela? Resolvemos hoje. Desentupimentos, fugas de água, orçamento sem compromisso. Ligue: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

@@ -14,7 +14,7 @@ export default function Valpacos() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Valpacos, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
+    document.title = "Canalizador Urgente Valpaços 💧 24h | 928 484 451";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Valpacos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Valpaços, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Esquentador avariado em Valpaços? A nossa equipa repara hoje. Desentupimentos e fugas, orçamento gratuito. Ligue: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

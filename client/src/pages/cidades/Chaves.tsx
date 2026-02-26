@@ -15,7 +15,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador em Chaves, Macedo, Mirandela, Bragança - Canalizador Profissional - +351 928 484 451";
+    document.title = "Canalizador Urgente Chaves 💧 24h | 928 484 451";
     
     // Optimized meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -24,7 +24,7 @@ export default function Chaves() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador profissional em Chaves, Trás-os-Montes. Serviços de desentupimento, reparação de fugas, instalação sanitários e aquecimento central. Urgências 24h, orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Cano entupido em Chaves? Intervenção rápida com equipamento Ridgid. Orçamento sem compromisso. Ligue agora: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {

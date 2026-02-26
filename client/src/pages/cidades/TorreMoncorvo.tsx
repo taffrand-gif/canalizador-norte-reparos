@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 
 export default function TorreMoncorvo() {
   useEffect(() => {
-    document.title = "Canalizador Torre de Moncorvo 24h - Desentupimentos - +351 928 484 451";
+    document.title = "Canalizador Torre Moncorvo 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function TorreMoncorvo() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Torre de Moncorvo disponível 24h. Desentupimentos, reparação de fugas, esquentadores. Servimos todo o concelho e Douro Superior.');
+    metaDescription.setAttribute('content', 'Entupimento em Torre de Moncorvo? Resolvemos no próprio dia. Equipamento Ridgid, orçamento gratuito. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

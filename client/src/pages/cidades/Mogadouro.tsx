@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 
 export default function Mogadouro() {
   useEffect(() => {
-    document.title = "Canalizador Mogadouro 24h - Desentupimentos e Fugas - +351 928 484 451";
+    document.title = "Canalizador Urgente Mogadouro 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function Mogadouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Mogadouro disponível 24h. Desentupimentos, reparação de fugas, esquentadores. Servimos todo o concelho. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Fuga de água em Mogadouro? Intervenção rápida com equipamento profissional. Orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

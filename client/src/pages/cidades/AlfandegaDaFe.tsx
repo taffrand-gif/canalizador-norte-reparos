@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 
 export default function AlfandegaDaFe() {
   useEffect(() => {
-    document.title = "Canalizador Alfândega da Fé 24h - Desentupimentos e Reparações - +351 928 484 451";
+    document.title = "Canalizador Alfândega da Fé 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function AlfandegaDaFe() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Alfândega da Fé com serviço rápido. Desentupimentos, fugas de água, canalização para quintas e lagares. A apenas 30km de Macedo de Cavaleiros. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Problema de canalização em Alfândega da Fé? A 30km de Macedo, chegamos rápido. Orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

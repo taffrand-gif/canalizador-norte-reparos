@@ -8,7 +8,7 @@ import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 
 export default function Lamego() {
   useEffect(() => {
-    document.title = "Canalizador Lamego 24h - Canalização Patrimônio e Douro - +351 928 484 451";
+    document.title = "Canalizador Urgente Lamego 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -16,7 +16,7 @@ export default function Lamego() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Lamego disponível 24h. Renovação de plomberie em edifícios históricos, canalização para caves de espumante. Serviço profissional. Orçamento gratuito.');
+    metaDescription.setAttribute('content', 'Fuga de água em Lamego? Reparação urgente no próprio dia. Canalização profissional, orçamento gratuito. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
