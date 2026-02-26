@@ -95,8 +95,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   id: 'norte-reparos',
   name: 'Canalizador Profissional',
-  title: 'Canalizador Profissional em Trás-os-Montes | Canalizador Profissional — Desentupimentos & Reparações 24h',
-  description: 'Canalizador profissional em Trás-os-Montes. Desentupimentos, reparação de fugas, instalação de esquentadores. Serviço rápido e orçamento gratuito em Bragança e região.',
+  title: 'Canalizador Urgente Trás-os-Montes 💧 24h | 928 484 451',
+  description: 'Fuga de água ou entupimento? Chegamos em menos de 1h em Bragança, Macedo, Mirandela e Vila Real. Orçamento sem compromisso. Ligue agora: 928 484 451',
   phone: '928 484 451',
   whatsapp: '351928484451',
   whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
