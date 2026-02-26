@@ -108,10 +108,10 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
           © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
-          <div className="mt-2 text-xs text-gray-400">
+          <div className="mt-2 text-xs text-gray-200">
             Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
           </div>
-          <div className="mt-3 text-xs text-gray-500">
+          <div className="mt-3 text-xs text-gray-300">
             Precisa de eletricista? <a href="https://staff-seekers.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Eletricista 24h Trás-os-Montes</a>
           </div>
         </div>
