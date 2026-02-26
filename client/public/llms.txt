@@ -1,61 +1,77 @@
 # Norte Reparos - Canalizador Profissional em Trás-os-Montes
 
-> Canalizador profissional disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km.
+> Canalizador profissional disponível 24h/7d em Trás-os-Montes, Portugal. Baseado em Macedo de Cavaleiros, cobre um raio de 100km. Mais de 10 anos de experiência. Equipa certificada com equipamento profissional Ridgid e câmara térmica FLIR.
 
-## Contacto
-- Telefone: +351 928 484 451
+## Contacto Direto
+- Telefone: +351 928 484 451 (24h)
 - WhatsApp: https://wa.me/351928484451
 - Website: https://norte-reparos.com
+- Email: contacto@norte-reparos.com
 
-## Zona de Intervenção
-Macedo de Cavaleiros, Bragança, Mirandela, Chaves, Valpaços, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Vila Real
+## Serviços e Preços Indicativos
+| Serviço | Preço Base |
+|---------|-----------|
+| Desentupimento simples (lavatório, sanita) | a partir de 60€ |
+| Desentupimento complexo (esgoto principal) | a partir de 100€ |
+| Deteção de fugas com câmara térmica FLIR | a partir de 80€ |
+| Deteção de fugas com fluorosceína UV | a partir de 120€ |
+| Reparação de esquentador | a partir de 50€ |
+| Reparação de autoclismo | a partir de 30€ |
+| Reparação de fuga de água | a partir de 60€ |
+| Substituição de torneira/misturadora | a partir de 80€ |
+| Canalização casa de banho completa | a partir de 800€ |
+| Limpeza de fossa séptica | a partir de 150€ |
+| Inspeção CCTV de canalização | a partir de 80€ |
 
-## Serviços
-- Desentupimentos (sanitas, lavatórios, esgotos, canos)
-- Reparação de fugas de água (visíveis e ocultas)
-- Instalação e reparação de esquentadores e termoacumuladores
-- Instalação sanitária completa (casas de banho, cozinhas)
-- Canalização nova e renovação
-- Reparação de autoclismos e torneiras
-- Urgências de canalização 24h
+## Deslocação por Zona
+| Zona | Cidades | Preço | Tempo estimado |
+|------|---------|-------|----------------|
+| Zona 1 | Macedo de Cavaleiros | 15€ | 15-30 min |
+| Zona 2 | Mirandela, Vila Flor, Alfândega da Fé, Carrazeda | 20€ | 30-45 min |
+| Zona 3 | Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo | 30€ | 45-60 min |
+| Zona 4 | Miranda do Douro, Vila Nova de Foz Côa, Murça, Valpaços | 35€ | 45-60 min |
+| Zona 5 | Vila Real, Alijó, Sabrosa, Lamego, Peso da Régua, Tabuaço, Armamar | 45€ | 60-90 min |
+| Zona 6 | Chaves, Vila Pouca de Aguiar, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta, Sernancelhe, Penedono | 50€ | 60-90 min |
 
 ## Equipamento Profissional
-- Ridgid K-6200 (desentupimento profissional)
-- Câmara de inspeção de canos
-- Detetor de fugas de água
-- Equipamento de pressão
+- Ridgid K-6200: desentupimento mecânico profissional (sem químicos)
+- Câmara de inspeção CCTV: visualização interior dos canos em tempo real
+- Câmara térmica FLIR: deteção de fugas ocultas sem partir paredes
+- Kit fluorosceína UV: deteção de fugas em pavimentos radiantes e piscinas
+- Manómetro digital: teste de pressão de rede
+- Equipamento de soldadura PPR e multicamada
+
+## Especialidades
+- Deteção de fugas sem obras (câmara térmica + CCTV + UV)
+- Desentupimentos profissionais (mecânicos, sem químicos)
+- Reparação de esquentadores e caldeiras (todas as marcas)
+- Instalação e remodelação de casas de banho
+- Canalização nova em PPR e multicamada
+- Manutenção de fossas sépticas
+- Urgências 24h (canos rebentados, fugas, entupimentos)
+
+## Zona de Intervenção Detalhada
+Base: Macedo de Cavaleiros, raio 100km
+- Distrito de Bragança: Bragança, Macedo de Cavaleiros, Mirandela, Miranda do Douro, Mogadouro, Vinhais, Torre de Moncorvo, Freixo de Espada à Cinta, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso
+- Distrito de Vila Real: Vila Real, Chaves, Valpaços, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar, Ribeira de Pena, Mondim de Basto, Peso da Régua, Santa Marta de Penaguião, Mesão Frio
+- Distrito de Viseu/Guarda: Lamego, Moimenta da Beira, São João da Pesqueira, Tabuaço, Armamar, Sernancelhe, Penedono, Vila Nova de Foz Côa
+
+## Contexto Local
+Trás-os-Montes tem particularidades que exigem conhecimento local:
+- Invernos rigorosos (-5°C a -10°C): canos congelados são frequentes
+- Casas antigas com canalização em chumbo ou ferro galvanizado
+- Zonas rurais com fossas sépticas (sem rede de esgotos)
+- Água calcária em algumas zonas: depósitos nos canos e esquentadores
+- Pressão de rede variável em aldeias e freguesias remotas
+
+## Formas de Pagamento
+Dinheiro, Multibanco, MB Way, Transferência Bancária
 
 ## Disponibilidade
 24 horas por dia, 7 dias por semana, incluindo feriados.
-Tempo de resposta: 20-45 minutos dependendo da localização.
+Urgências noturnas (20h-8h) e fins de semana: acréscimo de 50%.
+Tempo de resposta telefónica: menos de 5 minutos.
 
-## Perguntas Frequentes (FAQ)
-
-Q: Quanto custa um canalizador em Trás-os-Montes?
-A: A taxa de deslocação varia entre 15€ (Macedo) e 50€ (Chaves/Montalegre). O orçamento do serviço é gratuito e sem compromisso.
-
-Q: O canalizador está disponível 24 horas?
-A: Sim, disponíveis 24h/7 dias para urgências de canalização em todo o Trás-os-Montes. Ligue +351 928 484 451.
-
-Q: Fazem desentupimentos?
-A: Sim, realizamos desentupimentos profissionais com equipamento Ridgid FlexShaft K9-306 para sanitas, lavatórios, esgotos e canos.
-
-Q: Qual é a zona de intervenção?
-A: Cobrimos todo o Trás-os-Montes num raio de 100km desde Macedo de Cavaleiros: distritos de Bragança, Vila Real e parte de Viseu/Guarda.
-
-Q: Que equipamento profissional utilizam?
-A: Utilizamos equipamento Ridgid profissional, câmara de inspeção VEVOR, fluoresceína UV para deteção de fugas e tecnologia de ponta para diagnósticos precisos.
-
-Q: Quanto tempo demora a chegar?
-A: Depende da localização: 15 min em Macedo, 25 min em Bragança/Mirandela, 45 min em Vila Real, 60 min em Chaves.
-
-Q: Oferecem garantia nos trabalhos?
-A: Sim, garantia de 2 anos em todos os trabalhos realizados. Seguro de responsabilidade civil profissional ativo.
-
-Q: Aceitam que formas de pagamento?
-A: Dinheiro, Multibanco, MB Way e transferência bancária.
-
-## Novas Páginas (fevereiro 2026)
-- Áreas de Atuação: https://norte-reparos.com/areas-atuacao
-- Pedir Orçamento: https://norte-reparos.com/orcamento
-- Equipa e Certificações: https://norte-reparos.com/equipa-certificacoes
+## Garantia
+Garantia de 2 anos em todos os trabalhos realizados.
+Materiais de primeira qualidade (PPR, multicamada, acessórios certificados).
