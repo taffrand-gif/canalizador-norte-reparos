@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://norte-reparos.com/</loc><lastmod>2026-02-24</lastmod><priority>1.0</priority></url>
+<url><loc>https://norte-reparos.com/</loc><lastmod>2026-02-26</lastmod><priority>1.0</priority></url>
 <url><loc>https://norte-reparos.com/404</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
 <url><loc>https://norte-reparos.com/areas-atuacao</loc><lastmod>2026-02-24</lastmod><priority>0.9</priority></url>
+<url><loc>https://norte-reparos.com/garantia</loc><lastmod>2026-02-26</lastmod><priority>0.9</priority></url>
 <url><loc>https://norte-reparos.com/blog/agua-amarela-torneira</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/blog/preparar-canalizacao-inverno-tras-os-montes</loc><lastmod>2026-02-26</lastmod><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/blog/problemas-canalizacao-verao-piscinas-rega</loc><lastmod>2026-02-26</lastmod><priority>0.8</priority></url>
 <url><loc>https://norte-reparos.com/blog/agua-calcario-solucoes</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
 <url><loc>https://norte-reparos.com/blog/agua-castanha-torneira-causas</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
 <url><loc>https://norte-reparos.com/blog/agua-no-teto-vizinho-cima</loc><lastmod>2026-02-24</lastmod><priority>0.8</priority></url>
@@ -956,4 +959,11 @@
 <url><loc>https://norte-reparos.com/blog/problemas-canalizacao-verao-piscinas-rega</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://norte-reparos.com/plombier-tras-os-montes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 <url><loc>https://norte-reparos.com/plumber-tras-os-montes</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-2026</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-braganca</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-chaves</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-lamego</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-macedo-de-cavaleiros</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-mirandela</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://norte-reparos.com/quanto-custa-canalizador-vila-real</loc><lastmod>2026-02-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
