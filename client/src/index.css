@@ -274,6 +274,13 @@ img[loading="lazy"][complete] {
   opacity: 1;
 }
 
+/* Padding bottom pour la barre mobile fixe */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 60px;
+  }
+}
+
 /* Réduire les animations pour les utilisateurs qui le préfèrent */
 @media (prefers-reduced-motion: reduce) {
   *,

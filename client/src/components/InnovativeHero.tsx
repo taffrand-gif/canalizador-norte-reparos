@@ -154,12 +154,13 @@ const InnovativeHero: React.FC = () => {
           {/* Botões CTA */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-20">
             <a
-              href={`tel:${ACTIVE_CONFIG.phone.replace(/\s/g, '')}`}
-              className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 min-w-[300px]"
+              href={`tel:+351${ACTIVE_CONFIG.phone.replace(/\s/g, '')}`}
+              className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 w-full sm:w-auto sm:min-w-[300px]"
+              style={{ minHeight: '56px' }}
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-3xl group-hover:animate-spin-slow">📞</span>
-                <span className="text-xl tracking-wide">PEDIR ORÇAMENTO</span>
+                <span className="text-xl tracking-wide">LIGAR AGORA: {ACTIVE_CONFIG.phone}</span>
               </span>
               
               {/* Effet d'ondulation */}
@@ -176,7 +177,8 @@ const InnovativeHero: React.FC = () => {
               href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 min-w-[300px] border-2 border-white/30"
+              className="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 w-full sm:w-auto sm:min-w-[300px] border-2 border-white/30"
+              style={{ minHeight: '56px' }}
             >
               <span className="relative z-10 flex items-center justify-center gap-4">
                 <span className="text-3xl group-hover:animate-bounce">💬</span>

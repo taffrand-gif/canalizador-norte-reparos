@@ -16,7 +16,6 @@ import ContactForm from '@/components/ContactForm';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 
-import FloatingCTA from '@/components/FloatingCTA';
 import SEOHead from '@/components/SEOHead';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
@@ -84,7 +83,6 @@ export default function OptimizedHome() {
       <Footer />
       
       <ScrollToTop />
-      <FloatingCTA />
     </>
   );
 }
