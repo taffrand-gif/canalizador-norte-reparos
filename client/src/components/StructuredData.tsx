@@ -70,9 +70,9 @@ export default function StructuredData() {
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "ratingCount": "52",
-        "reviewCount": "52",
+        "ratingValue": "4.8",
+        "ratingCount": "38",
+        "reviewCount": "38",
         "bestRating": "5",
         "worstRating": "1"
       },
