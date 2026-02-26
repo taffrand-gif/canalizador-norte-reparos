@@ -3,20 +3,21 @@ import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
 
 const cidades = [
-  { nome: 'Bragança', distancia: '40 km', destaque: true },
-  { nome: 'Mirandela', distancia: '25 km', destaque: true },
-  { nome: 'Macedo de Cavaleiros', distancia: 'Sede', destaque: true },
-  { nome: 'Vila Real', distancia: '90 km', destaque: true },
-  { nome: 'Chaves', distancia: '85 km', destaque: true },
-  { nome: 'Mogadouro', distancia: '55 km', destaque: false },
-  { nome: 'Vila Flor', distancia: '30 km', destaque: false },
-  { nome: 'Carrazeda de Ansiães', distancia: '50 km', destaque: false },
-  { nome: 'Torre de Moncorvo', distancia: '60 km', destaque: false },
-  { nome: 'Alfândega da Fé', distancia: '35 km', destaque: false },
-  { nome: 'Vinhais', distancia: '65 km', destaque: false },
-  { nome: 'Vimioso', distancia: '70 km', destaque: false },
-  { nome: 'Miranda do Douro', distancia: '80 km', destaque: false },
-  { nome: 'Freixo de Espada à Cinta', distancia: '75 km', destaque: false },
+  { nome: 'Bragança', slug: 'braganca', distancia: '40 km', destaque: true },
+  { nome: 'Mirandela', slug: 'mirandela', distancia: '25 km', destaque: true },
+  { nome: 'Macedo de Cavaleiros', slug: 'macedo-de-cavaleiros', distancia: 'Sede', destaque: true },
+  { nome: 'Vila Real', slug: 'vila-real', distancia: '90 km', destaque: true },
+  { nome: 'Chaves', slug: 'chaves', distancia: '85 km', destaque: true },
+  { nome: 'Lamego', slug: 'lamego', distancia: '95 km', destaque: true },
+  { nome: 'Mogadouro', slug: 'mogadouro', distancia: '55 km', destaque: false },
+  { nome: 'Vila Flor', slug: 'vila-flor', distancia: '30 km', destaque: false },
+  { nome: 'Carrazeda de Ansiães', slug: 'carrazeda-de-ansiaes', distancia: '50 km', destaque: false },
+  { nome: 'Torre de Moncorvo', slug: 'torre-de-moncorvo', distancia: '60 km', destaque: false },
+  { nome: 'Alfândega da Fé', slug: 'alfandega-da-fe', distancia: '35 km', destaque: false },
+  { nome: 'Vinhais', slug: 'vinhais', distancia: '65 km', destaque: false },
+  { nome: 'Vimioso', slug: 'vimioso', distancia: '70 km', destaque: false },
+  { nome: 'Miranda do Douro', slug: 'miranda-douro', distancia: '80 km', destaque: false },
+  { nome: 'Freixo de Espada à Cinta', slug: 'freixo-espada-cinta', distancia: '75 km', destaque: false },
 ];
 
 export default function ZonaIntervencao() {
@@ -42,10 +43,11 @@ export default function ZonaIntervencao() {
 
         {/* Grille des villes */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-12">
-          {cidades.map((cidade, index) => (
-            <div
-              key={index}
-              className={`relative p-4 rounded-xl border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${
+          {cidades.map((cidade) => (
+            <a
+              key={cidade.slug}
+              href={`/canalizador-${cidade.slug}`}
+              className={`relative p-4 rounded-xl border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 no-underline ${
                 cidade.destaque
                   ? 'bg-blue-600 text-white border-blue-700 shadow-md'
                   : 'bg-white text-gray-800 border-gray-200 hover:border-blue-400'
@@ -58,7 +60,7 @@ export default function ZonaIntervencao() {
               <span className={`text-xs ${cidade.destaque ? 'text-white' : 'text-gray-500'}`}>
                 {cidade.distancia}
               </span>
-            </div>
+            </a>
           ))}
         </div>
 
