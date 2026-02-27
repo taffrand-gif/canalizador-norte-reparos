@@ -82,7 +82,9 @@
     ];
 
     // Replace existing floating WhatsApp button
-    var existing = document.querySelector('.floating-buttons, [class*="floating"]');
+    // Hide duplicate float buttons
+    document.querySelectorAll('.whatsapp-float, .phone-float').forEach(function(el) { el.style.display = 'none'; });
+    var existing = document.querySelector('.floating-buttons, [class*="floating-buttons"]');
     if (!existing) return;
 
     var container = document.createElement('div');
@@ -173,9 +175,11 @@
     badge.innerHTML = '🔧 <strong>Última intervenção em ' + cityName + ':</strong> há ' + daysAgo + ' dia' + (daysAgo > 1 ? 's' : '') + ' — ' + work;
 
     // Insert after the hero section
-    var hero = document.querySelector('.hero, [class*="hero"]');
+    var hero = document.querySelector('.hero, [class*="hero"], .header, .urgence-box, .distance-box, .content');
     if (hero && hero.nextSibling) {
       hero.parentNode.insertBefore(badge, hero.nextSibling);
+    } else if (hero) {
+      hero.appendChild(badge);
     }
   }
 
