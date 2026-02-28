@@ -37,21 +37,29 @@ export default function OptimizedHome() {
       <PremiumBar />
       <InnovativeHero />
       <TrustBanner />
+      <Diagnostico />
       <OptimizedServices />
+      <StatsCounters />
       
-      {/* Section tarifs transparents */}
+      <CalculadorPreco />
+      
+      {/* Secção tabela de preços */}
       <PriceTable />
       
-      {/* Section trabalhos */}
+      {/* Secção Zona de Intervenção */}
+      <ZonaIntervencao />
+      
+      {/* Secção Equipa */}
+      <Equipa />
+      <Garantias />
+      
+      {/* Secção Trabalhos */}
       <Trabalhos />
       
       {/* Últimos Artigos do Blog */}
       <LatestBlog />
       
-      {/* Section equipa */}
-      <Equipa />
-      
-      {/* Section FAQ optimisée */}
+      {/* Secção FAQ */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -69,22 +77,19 @@ export default function OptimizedHome() {
         </div>
       </section>
       
-      {/* Section témoignages */}
+      {/* Secção testemunhos */}
       <Testimonials />
       
       {/* Avaliações Google */}
       <GoogleReviews />
       
-      {/* Section blog */}
+      {/* Secção Blog */}
       <Blog />
-      
-      {/* Section zona de intervenção */}
-      <ZonaIntervencao />
       
       {/* Formulário de contacto rápido */}
       <ContactForm />
       
-      {/* Section contact */}
+      {/* Secção contactos */}
       <Contactos />
       </main>
       <Footer />
