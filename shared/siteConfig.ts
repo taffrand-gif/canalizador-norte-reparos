@@ -113,7 +113,7 @@ export const siteConfig: SiteConfig = {
   
   hero: {
     title: 'Água a Pingar? Cano Rebentado?',
-    subtitle: 'Canalizador em Bragança em 40 Minutos — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
+    subtitle: 'Canalizador em Bragança em 40 Minutos — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair. Relatório para seguro incluído.',
     backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
   },

@@ -1,6 +1,7 @@
 // Página principal otimizada para SEO e conversões
 import Header from '@/components/Header';
 import InnovativeHero from '@/components/InnovativeHero';
+import PremiumBar from '@/components/PremiumBar';
 import TrustBanner from '@/components/TrustBanner';
 import Diagnostico from '@/components/Diagnostico';
 import OptimizedServices from '@/components/OptimizedServices';
@@ -33,6 +34,7 @@ export default function OptimizedHome() {
       
       <Header />
       <main>
+      <PremiumBar />
       <InnovativeHero />
       <TrustBanner />
       <OptimizedServices />

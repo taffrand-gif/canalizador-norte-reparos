@@ -13,7 +13,7 @@ const serviceImages = {
 
 const serviceDescriptions = {
   'Desentupimentos': 'Desentupimento rápido e eficiente de canalizações, WC, pias, ralos e esgotos. Utilizamos equipamento moderno e técnicas não invasivas.',
-  'Reparação de Fugas de Água': 'Localização e reparação de fugas de água em canalizações, torneiras, autoclismos e sistemas de aquecimento. Minimizamos danos na propriedade.',
+  'Reparação de Fugas de Água': 'Deteção com câmara térmica FLIR, endoscópio HD e geofone. Reparação sem partir paredes. Relatório técnico para seguro e condomínio incluído.',
   'Instalação Sanitários': 'Instalação completa de casas de banho, cozinhas e áreas de serviço. Torneiras, autoclismos, chuveiros, banheiras e sistemas de drenagem.',
   'Aquecimento Central': 'Instalação, manutenção e reparação de sistemas de aquecimento central, caldeiras, esquentadores e radiadores.',
   'Canalização Nova': 'Instalação de nova canalização para construções, renovações ou ampliações. Materiais de qualidade e instalação profissional.',
@@ -27,9 +27,11 @@ const serviceFeatures = {
     'Garantia 6 meses contra reentupimento'
   ],
   'Reparação de Fugas de Água': [
-    'Detecção eletrónica de fugas (geofone)',
-    'Reparação mínima invasiva',
-    'Secagem e limpeza da área afetada'
+    'Câmara térmica FLIR — vemos a fuga sem partir paredes',
+    'Endoscópio HD Ridgid — inspeção visual dentro dos canos',
+    'Geofone profissional — deteção acústica de fugas ocultas',
+    'Reparação mínima invasiva — sem quebrar azulejos',
+    'Relatório técnico para seguro e condomínio incluído',
   ],
   'Instalação Sanitários': [
     'Materiais de marcas premium (Grohe, Sanindusa)',
