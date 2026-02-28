@@ -126,10 +126,10 @@ export default function GoogleReviews() {
       name: config.name,
       aggregateRating: {
         '@type': 'AggregateRating',
-        ratingValue: '4.9',
+        ratingValue: '5.0',
         bestRating: '5',
-        ratingCount: '47',
-        reviewCount: '47',
+        ratingCount: '52',
+        reviewCount: '52',
       },
     };
     const script = document.createElement('script');
@@ -150,10 +150,10 @@ export default function GoogleReviews() {
             <span className="text-sm text-gray-500 font-medium">Avaliações</span>
           </div>
           <div className="flex items-center justify-center gap-2 mb-2">
-            <span className="text-4xl font-bold text-gray-900">4.9</span>
+            <span className="text-4xl font-bold text-gray-900">5.0</span>
             <div>
               <Stars count={5} />
-              <p className="text-sm text-gray-500 mt-0.5">Baseado em 47 avaliações</p>
+              <p className="text-sm text-gray-500 mt-0.5">Baseado em 52 avaliações</p>
             </div>
           </div>
         </div>
