@@ -53,8 +53,8 @@ export const plumberieConfig: ServiceConfig = {
   },
   accentColor: '#FF6D00',  // Orange pour CTA
   
-  heroTitle: 'Canalizador Profissional em Trás-os-Montes',
-  heroSubtitle: 'Reparações, instalações e manutenção — serviço rápido e profissional',
+  heroTitle: 'Água a Pingar? Cano Rebentado?',
+  heroSubtitle: 'Canalizador em Bragança em 40 Minutos — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
   heroEmoji: '💧',
   serviceEmoji: '🔧',
   
