@@ -11,6 +11,7 @@ import FAQ from '@/components/FAQ';
 import Trabalhos from '@/components/Trabalhos';
 import LatestBlog from '@/components/LatestBlog';
 import Equipa from '@/components/Equipa';
+import Garantias from '@/components/Garantias';
 import Testimonials from '@/components/Testimonials';
 import GoogleReviews from '@/components/GoogleReviews';
 import Blog from '@/components/Blog';
