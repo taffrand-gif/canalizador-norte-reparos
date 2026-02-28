@@ -4,6 +4,7 @@ import InnovativeHero from '@/components/InnovativeHero';
 import TrustBanner from '@/components/TrustBanner';
 import Diagnostico from '@/components/Diagnostico';
 import OptimizedServices from '@/components/OptimizedServices';
+import StatsCounters from '@/components/StatsCounters';
 import CalculadorPreco from '@/components/CalculadorPreco';
 import PriceTable from '@/components/PriceTable';
 import FAQ from '@/components/FAQ';
