@@ -257,7 +257,8 @@
 
   function init() {
     createAvailabilityWidget();
-    createWhatsAppButtons();
+    // createWhatsAppButtons() removed — inline .whatsapp-float + .phone-float buttons
+    // in HTML pages are sufficient. This eliminates duplicate floating buttons.
     createLastWorkBadge();
     createExitIntent();
   }
