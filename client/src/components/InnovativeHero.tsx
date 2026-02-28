@@ -125,7 +125,7 @@ const InnovativeHero: React.FC = () => {
           <div className="inline-flex items-center gap-3 bg-white/15  border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
             <span className="text-3xl">💧</span>
             <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
-              CANALIZADOR CERTIFICADO EM TRÁS-OS-MONTES
+              CANALIZADOR DISPONÍVEL AGORA — RESPOSTA EM 2 MIN
             </span>
             <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
           </div>
@@ -209,10 +209,10 @@ const InnovativeHero: React.FC = () => {
           {/* Stats avec effet de flottement */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {[
-              { icon: '🏆', value: '10+', label: 'Anos Experiência', color: 'from-blue-400 to-blue-600' },
-              { icon: '🚨', value: '24/7', label: 'Urgências', color: 'from-orange-400 to-orange-600' },
-              { icon: '👨‍🔧', value: '500+', label: 'Clientes Satisfeitos', color: 'from-blue-500 to-blue-700' },
-              { icon: '💰', value: 'Grátis', label: 'Orçamento', color: 'from-orange-500 to-orange-700' }
+              { icon: '💧', value: 'Certificado', label: 'Seguro Ativo', color: 'from-blue-400 to-blue-600' },
+              { icon: '🔬', value: 'Ridgid', label: 'Câmara Inspeção', color: 'from-orange-400 to-orange-600' },
+              { icon: '🛡️', value: '500+', label: 'Intervenções', color: 'from-blue-500 to-blue-700' },
+              { icon: '📞', value: '40 min', label: 'Chegada Bragança', color: 'from-orange-500 to-orange-700' }
             ].map((stat, index) => (
               <div 
                 key={index}

@@ -112,8 +112,8 @@ export const siteConfig: SiteConfig = {
   },
   
   hero: {
-    title: 'O Seu Canalizador Local. Sem surpresas.',
-    subtitle: 'Fugas, entupimentos e caldeiras. Atendemos aldeias e cidades com o même respeito.',
+    title: 'Água a Pingar? Cano Rebentado?',
+    subtitle: 'Canalizador em Bragança em 40 Minutos — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
     backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
   },
