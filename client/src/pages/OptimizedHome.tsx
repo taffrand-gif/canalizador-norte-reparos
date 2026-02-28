@@ -4,11 +4,13 @@ import InnovativeHero from '@/components/InnovativeHero';
 import PremiumBar from '@/components/PremiumBar';
 import TrustBanner from '@/components/TrustBanner';
 import Diagnostico from '@/components/Diagnostico';
+import OrcamentoGratuitoBadge from '@/components/OrcamentoGratuitoBadge';
 import OptimizedServices from '@/components/OptimizedServices';
 import StatsCounters from '@/components/StatsCounters';
 import CalculadorPreco from '@/components/CalculadorPreco';
 import PriceTable from '@/components/PriceTable';
 import FAQ from '@/components/FAQ';
+import FAQLocal from '@/components/FAQLocal';
 import Trabalhos from '@/components/Trabalhos';
 import LatestBlog from '@/components/LatestBlog';
 import Equipa from '@/components/Equipa';
@@ -38,6 +40,7 @@ export default function OptimizedHome() {
       <InnovativeHero />
       <TrustBanner />
       <Diagnostico />
+      <OrcamentoGratuitoBadge />
       <OptimizedServices />
       <StatsCounters />
       
@@ -76,6 +79,9 @@ export default function OptimizedHome() {
           </div>
         </div>
       </section>
+      
+      {/* FAQ Local SEO */}
+      <FAQLocal />
       
       {/* Secção testemunhos */}
       <Testimonials />
