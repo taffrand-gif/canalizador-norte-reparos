@@ -12,7 +12,7 @@ export default function MinimalHome() {
         <p>Erreur actuelle : <code>i.toLowerCase is not a function</code></p>
         <button onclick="alert('Test')">Test Button</button>
         <script>
-          console.log('Page loaded successfully');
+          // console.log('Page loaded successfully');
         </script>
       </body>
     </html>
