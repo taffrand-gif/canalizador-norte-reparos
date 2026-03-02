@@ -72,6 +72,7 @@ const PouparAguaCasa = lazy(() => import("@/pages/blog/PouparAguaCasa"));
 const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCanalizacaoInverno"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
+const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -143,6 +144,12 @@ function Router() {
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
+        {/* Service hub pages */}
+        <Route path={"/fugas-agua"} component={ServiceHub} />
+        <Route path={"/desentupimentos"} component={ServiceHub} />
+        <Route path={"/esquentadores"} component={ServiceHub} />
+        <Route path={"/casas-banho"} component={ServiceHub} />
+        <Route path={"/canalizacao"} component={ServiceHub} />
         {/* Dynamic city-service pages (100+ pages) */}
         <Route path={"/:service-:city"} component={CityServicePage} />
         {/* Final fallback route */}
