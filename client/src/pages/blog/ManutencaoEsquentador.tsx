@@ -22,7 +22,7 @@ export default function ManutencaoEsquentador() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/blog/manutencao-esquentador-guia');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/manutencao-esquentador-guia');
   }, []);
 
   return (

@@ -24,7 +24,7 @@ export default function VilaPouca() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vila-pouca-de-aguiar');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

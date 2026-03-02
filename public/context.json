@@ -9,7 +9,7 @@
   "contact": {
     "phone": "+351 928 484 451",
     "whatsapp": "https://wa.me/351928484451",
-    "website": "https://norte-reparos.com",
+    "website": "https://canalizador-norte-reparos.pt",
     "email": null,
     "hours": "24/7 including holidays",
     "response_time": "Less than 1 hour for emergencies"
@@ -18,172 +18,172 @@
     {
       "name": "Bragança",
       "type": "main",
-      "url": "https://norte-reparos.com/canalizador-braganca"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-braganca"
     },
     {
       "name": "Mirandela",
       "type": "main",
-      "url": "https://norte-reparos.com/canalizador-mirandela"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-mirandela"
     },
     {
       "name": "Macedo de Cavaleiros",
       "type": "headquarters",
-      "url": "https://norte-reparos.com/canalizador-macedo-de-cavaleiros"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-macedo-de-cavaleiros"
     },
     {
       "name": "Chaves",
       "type": "main",
-      "url": "https://norte-reparos.com/canalizador-chaves"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-chaves"
     },
     {
       "name": "Vila Real",
       "type": "main",
-      "url": "https://norte-reparos.com/canalizador-vila-real"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vila-real"
     },
     {
       "name": "Vinhais",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-vinhais"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vinhais"
     },
     {
       "name": "Miranda do Douro",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-miranda-do-douro"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-miranda-do-douro"
     },
     {
       "name": "Mogadouro",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-mogadouro"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-mogadouro"
     },
     {
       "name": "Torre de Moncorvo",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-torre-de-moncorvo"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-torre-de-moncorvo"
     },
     {
       "name": "Freixo de Espada à Cinta",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-freixo-de-espada-a-cinta"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-freixo-de-espada-a-cinta"
     },
     {
       "name": "Valpaços",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-valpacos"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-valpacos"
     },
     {
       "name": "Alfândega da Fé",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-alfandega-da-fe"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-alfandega-da-fe"
     },
     {
       "name": "Vila Flor",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-vila-flor"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vila-flor"
     },
     {
       "name": "Carrazeda de Ansiães",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-carrazeda-de-ansiaes"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-carrazeda-de-ansiaes"
     },
     {
       "name": "Vimioso",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-vimioso"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vimioso"
     },
     {
       "name": "Montalegre",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-montalegre"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-montalegre"
     },
     {
       "name": "Boticas",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-boticas"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-boticas"
     },
     {
       "name": "Murça",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-murca"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-murca"
     },
     {
       "name": "Alijó",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-alijo"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-alijo"
     },
     {
       "name": "Sabrosa",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-sabrosa"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-sabrosa"
     },
     {
       "name": "Vila Pouca de Aguiar",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-vila-pouca-de-aguiar"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar"
     },
     {
       "name": "Ribeira de Pena",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-ribeira-de-pena"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-ribeira-de-pena"
     },
     {
       "name": "Mondim de Basto",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-mondim-de-basto"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-mondim-de-basto"
     },
     {
       "name": "Peso da Régua",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-peso-da-regua"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-peso-da-regua"
     },
     {
       "name": "Lamego",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-lamego"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-lamego"
     },
     {
       "name": "Moimenta da Beira",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-moimenta-da-beira"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-moimenta-da-beira"
     },
     {
       "name": "Vila Nova de Foz Côa",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-vila-nova-foz-coa"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-vila-nova-foz-coa"
     },
     {
       "name": "Sernancelhe",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-sernancelhe"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-sernancelhe"
     },
     {
       "name": "Penedono",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-penedono"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-penedono"
     },
     {
       "name": "São João da Pesqueira",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-sao-joao-da-pesqueira"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira"
     },
     {
       "name": "Tabuaço",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-tabuaco"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-tabuaco"
     },
     {
       "name": "Armamar",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-armamar"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-armamar"
     },
     {
       "name": "Santa Marta de Penaguião",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-santa-marta-de-penaguiao"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-santa-marta-de-penaguiao"
     },
     {
       "name": "Mesão Frio",
       "type": "secondary",
-      "url": "https://norte-reparos.com/canalizador-mesao-frio"
+      "url": "https://canalizador-norte-reparos.pt/canalizador-mesao-frio"
     }
   ],
   "services": [

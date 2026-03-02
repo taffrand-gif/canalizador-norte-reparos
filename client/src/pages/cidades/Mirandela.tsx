@@ -41,7 +41,7 @@ export default function Mirandela() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-mirandela');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mirandela');
     
     // Schema.org LocalBusiness para Mirandela
     const schemaScript = document.createElement('script');
@@ -49,7 +49,7 @@ export default function Mirandela() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://norte-reparos.com/#organization",
+      "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Mirandela",
       "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Mirandela, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",

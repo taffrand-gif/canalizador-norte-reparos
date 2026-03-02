@@ -24,7 +24,7 @@ export default function VilaFlor() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vila-flor');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-flor');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

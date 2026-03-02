@@ -11,7 +11,7 @@ A Norte Reparos é a sua equipa de canalizadores profissionais. Cobrimos Bragan�
 
 📞 +351 928 484 451
 💬 WhatsApp: wa.me/351928484451
-🌐 norte-reparos.com
+🌐 canalizador-norte-reparos.pt
 
 ## Post 2 — Urgências
 🚨 Cano rebentado? Fuga de água em casa?
@@ -26,7 +26,7 @@ O que fazer AGORA:
 Estamos disponíveis 24h/7d.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/fuga-agua-casa-o-que-fazer
+🔗 canalizador-norte-reparos.pt/blog/fuga-agua-casa-o-que-fazer
 
 ## Post 3 — Tecnologia
 🔬 Deteção de fugas SEM partir paredes!
@@ -39,7 +39,7 @@ Com o nosso equipamento profissional:
 Diagnóstico preciso = menos obra, menos custo.
 
 📞 +351 928 484 451
-🌐 norte-reparos.com/tecnologia-premium
+🌐 canalizador-norte-reparos.pt/tecnologia-premium
 
 ## Post 4 — Desentupimentos
 🚽 Sanita entupida? Ralo da cozinha não escoa?
@@ -53,7 +53,7 @@ Os nossos métodos profissionais:
 ✅ Sem químicos, sem danos
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/como-desentupir-canos-guia-completo
+🔗 canalizador-norte-reparos.pt/blog/como-desentupir-canos-guia-completo
 
 ## Post 5 — Dica prática
 💡 DICA: Como saber se tem uma fuga de água escondida?
@@ -68,7 +68,7 @@ Os nossos métodos profissionais:
 Se reconhece algum sinal, contacte-nos para uma inspeção.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/sinais-fugas-agua-escondidas
+🔗 canalizador-norte-reparos.pt/blog/sinais-fugas-agua-escondidas
 
 ## Post 6 — Remodelação casa de banho
 🛁 A pensar em remodelar a casa de banho?
@@ -83,7 +83,7 @@ A nossa equipa faz tudo:
 Orçamento gratuito e sem compromisso.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/remodelacao-casa-banho-guia-completo
+🔗 canalizador-norte-reparos.pt/blog/remodelacao-casa-banho-guia-completo
 
 ## Post 7 — Esquentador
 🔥 O seu esquentador não aquece bem?
@@ -97,7 +97,7 @@ Pode ser:
 A manutenção anual do esquentador prolonga a vida útil e poupa gás.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/manutencao-esquentador-guia
+🔗 canalizador-norte-reparos.pt/blog/manutencao-esquentador-guia
 
 ## Post 8 — Inverno
 ❄️ Proteja os canos do gelo este inverno!
@@ -113,7 +113,7 @@ Prevenção:
 Preparamos a sua casa para o inverno.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/proteger-canos-gelo-montanha
+🔗 canalizador-norte-reparos.pt/blog/proteger-canos-gelo-montanha
 
 ## Post 9 — Turismo rural
 🏡 Vai abrir um alojamento de turismo rural?
@@ -127,7 +127,7 @@ A canalização tem requisitos específicos:
 Temos experiência em projetos de turismo rural.
 
 📞 +351 928 484 451
-🔗 norte-reparos.com/blog/canalizacao-turismo-rural
+🔗 canalizador-norte-reparos.pt/blog/canalizacao-turismo-rural
 
 ## Post 10 — Testemunho
 ⭐⭐⭐⭐⭐
@@ -140,4 +140,4 @@ Quando precisar, estamos cá. 24h/7d.
 
 📞 +351 928 484 451
 💬 wa.me/351928484451
-🌐 norte-reparos.com
+🌐 canalizador-norte-reparos.pt

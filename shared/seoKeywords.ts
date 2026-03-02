@@ -26,7 +26,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova macedo de cavaleiros',
       'reparação esquentador macedo de cavaleiros'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-macedo-de-cavaleiros'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-macedo-de-cavaleiros'
   },
   'braganca': {
     cityName: 'Bragança',
@@ -42,7 +42,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova bragança',
       'reparação esquentador bragança'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-braganca'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-braganca'
   },
   'mirandela': {
     cityName: 'Mirandela',
@@ -58,7 +58,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova mirandela',
       'reparação esquentador mirandela'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-mirandela'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-mirandela'
   },
   'chaves': {
     cityName: 'Chaves',
@@ -74,7 +74,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova chaves',
       'reparação esquentador chaves'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-chaves'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-chaves'
   },
   'valpacos': {
     cityName: 'Valpaços',
@@ -90,7 +90,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova valpaços',
       'reparação esquentador valpaços'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-valpacos'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-valpacos'
   },
   'vinhais': {
     cityName: 'Vinhais',
@@ -106,7 +106,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova vinhais',
       'reparação esquentador vinhais'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-vinhais'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-vinhais'
   },
   'miranda-do-douro': {
     cityName: 'Miranda do Douro',
@@ -122,7 +122,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova miranda do douro',
       'reparação esquentador miranda do douro'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-miranda-do-douro'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-miranda-do-douro'
   },
   'mogadouro': {
     cityName: 'Mogadouro',
@@ -138,7 +138,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova mogadouro',
       'reparação esquentador mogadouro'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-mogadouro'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-mogadouro'
   },
   'torre-de-moncorvo': {
     cityName: 'Torre de Moncorvo',
@@ -154,7 +154,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova torre de moncorvo',
       'reparação esquentador torre de moncorvo'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-torre-de-moncorvo'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-torre-de-moncorvo'
   },
   'freixo-de-espada-a-cinta': {
     cityName: 'Freixo de Espada à Cinta',
@@ -170,7 +170,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalização nova freixo de espada à cinta',
       'reparação esquentador freixo de espada à cinta'
     ],
-    canonicalUrl: 'https://norte-reparos.com/canalizador-freixo-de-espada-a-cinta'
+    canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-freixo-de-espada-a-cinta'
   }
 };
 

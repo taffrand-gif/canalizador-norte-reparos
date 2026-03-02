@@ -24,7 +24,7 @@ export default function CarrazedaDeAnsiaes() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-carrazeda-de-ansiaes');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-carrazeda-de-ansiaes');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

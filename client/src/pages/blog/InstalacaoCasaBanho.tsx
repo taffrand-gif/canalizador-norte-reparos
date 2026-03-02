@@ -22,7 +22,7 @@ export default function InstalacaoCasaBanho() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/blog/instalacao-casa-banho-completa-guia');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/instalacao-casa-banho-completa-guia');
 
     // JSON-LD Article Schema
     const script = document.createElement('script');
@@ -41,7 +41,7 @@ export default function InstalacaoCasaBanho() {
         "name": "Norte Reparos",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://norte-reparos.com/logo.png"
+          "url": "https://canalizador-norte-reparos.pt/logo.png"
         }
       },
       "datePublished": "2026-02-19",

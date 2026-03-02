@@ -86,7 +86,7 @@ export default function Zonas() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/zonas');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/zonas');
 
     // Schema.org ServiceArea
     const schemaScript = document.createElement('script');

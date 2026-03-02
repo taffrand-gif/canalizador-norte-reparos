@@ -42,7 +42,7 @@ export default function Chaves() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-chaves');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-chaves');
     
     // Schema.org LocalBusiness para Chaves
     const schemaScript = document.createElement('script');
@@ -50,7 +50,7 @@ export default function Chaves() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://norte-reparos.com/#organization",
+      "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Chaves",
       "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Chaves, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",

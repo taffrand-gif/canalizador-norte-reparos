@@ -24,7 +24,7 @@ export default function Vinhais() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vinhais');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vinhais');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

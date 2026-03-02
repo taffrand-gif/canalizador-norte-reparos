@@ -14,7 +14,7 @@ export default function Armamar() {
     metaDescription.setAttribute('content', 'Canalizador em Armamar disponível 24h. Canalização para pomares de cereja, quintas do Douro, desentupimentos e fugas de água. Orçamento gratuito.');
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-armamar');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-armamar');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-armamar';

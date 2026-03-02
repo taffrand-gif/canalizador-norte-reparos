@@ -24,7 +24,7 @@ export default function MirandaDouro() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-miranda-douro');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-miranda-douro');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

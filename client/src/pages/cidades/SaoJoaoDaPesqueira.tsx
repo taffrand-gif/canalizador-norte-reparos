@@ -14,7 +14,7 @@ export default function SaoJoaoDaPesqueira() {
     metaDescription.setAttribute('content', 'Canalizador em São João da Pesqueira, coração do Douro. Canalização para quintas vinícolas, caves de vinho, desentupimentos 24h. Orçamento gratuito.');
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-sao-joao-da-pesqueira');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-pesqueira';

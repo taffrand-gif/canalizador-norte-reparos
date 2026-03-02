@@ -14,7 +14,7 @@ export default function Penedono() {
     metaDescription.setAttribute('content', 'Canalizador em Penedono disponível 24h. Canalização para casas medievais de granito, desentupimentos, fugas de água. Terra do castelo. Orçamento gratuito.');
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-penedono');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-penedono');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-penedono';

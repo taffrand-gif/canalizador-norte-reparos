@@ -24,7 +24,7 @@ export default function Mogadouro() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-mogadouro');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mogadouro');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

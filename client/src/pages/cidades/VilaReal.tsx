@@ -24,7 +24,7 @@ export default function VilaReal() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vila-real');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-real');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

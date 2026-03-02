@@ -52,7 +52,7 @@ export const plumberieConfig: ServiceConfig = {
   businessName: 'Norte Reparos',
   phone: '928484451',
   whatsappNumber: '351928484451',
-  domain: 'norte-reparos.com',
+  domain: 'canalizador-norte-reparos.pt',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   
@@ -183,7 +183,7 @@ pnpm build
 
 ### Prérequis
 - Compte Cloudflare
-- Domaine acheté sur Cloudflare (ex: norte-reparos.com, staff-seekers.com)
+- Domaine acheté sur Cloudflare (ex: canalizador-norte-reparos.pt, staff-seekers.com)
 - Repository GitHub
 
 ### Étapes
@@ -204,7 +204,7 @@ pnpm build
 
 4. **Domaine Personnalisé**
    - Aller sur Cloudflare Pages > Votre projet > Custom domains
-   - Ajouter votre domaine (ex: norte-reparos.com)
+   - Ajouter votre domaine (ex: canalizador-norte-reparos.pt)
    - Cloudflare configurera automatiquement le DNS
 
 ### Déploiement Automatique

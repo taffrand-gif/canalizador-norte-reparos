@@ -42,7 +42,7 @@ export const plumberieConfig: ServiceConfig = {
   businessName: 'Canalizador Profissional 24h',
   phone: '+351928484451',
   whatsappNumber: '351928484451',
-  domain: 'norte-reparos.com',
+  domain: 'canalizador-norte-reparos.pt',
   googleAdsId: 'AW-17915870228',
   googleAdsConversionLabel: '+Lk1CO3R64gZEKvwk8c9',
   

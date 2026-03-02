@@ -24,7 +24,7 @@ export default function MondimDeBasto() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-mondim-de-basto');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mondim-de-basto');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

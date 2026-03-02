@@ -41,7 +41,7 @@ export default function Braganca() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-bragança');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-bragança');
     
     // Schema.org LocalBusiness para Bragança
     const schemaScript = document.createElement('script');
@@ -49,7 +49,7 @@ export default function Braganca() {
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://norte-reparos.com/#organization",
+      "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Bragança",
       "image": "/images/hero/hero-plumber-portugal.png",
       "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",

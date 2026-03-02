@@ -5,8 +5,8 @@
   "description_for_human": "Canalizador profissional em Trás-os-Montes, Portugal. Desentupimentos, fugas de água, esquentadores. Urgências 24h.",
   "description_for_model": "Professional plumber in Trás-os-Montes, Portugal. Available 24/7 for plumbing emergencies, drain unblocking, water leak repair, water heater installation. Covers 100km radius from Macedo de Cavaleiros including Bragança, Mirandela, Chaves, Valpaços. Phone: +351 928 484 451",
   "auth": { "type": "none" },
-  "api": { "type": "openapi", "url": "https://norte-reparos.com/llms.txt" },
-  "logo_url": "https://norte-reparos.com/favicon.svg",
-  "contact_email": "contact@norte-reparos.com",
-  "legal_info_url": "https://norte-reparos.com/"
+  "api": { "type": "openapi", "url": "https://canalizador-norte-reparos.pt/llms.txt" },
+  "logo_url": "https://canalizador-norte-reparos.pt/favicon.svg",
+  "contact_email": "contact@canalizador-norte-reparos.pt",
+  "legal_info_url": "https://canalizador-norte-reparos.pt/"
 }

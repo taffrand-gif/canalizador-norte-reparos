@@ -28,7 +28,7 @@ Le système d'automatisation email comprend :
 2. Nom: "Norte-Reparos Subscribers" (ou "Staff-Seekers Subscribers")
 3. Remplissez les informations requises :
    - **From name**: Canalizador de Trás-os-Montes
-   - **From email**: contact@norte-reparos.com
+   - **From email**: contact@canalizador-norte-reparos.pt
    - **Adresse**: Votre adresse professionnelle
 4. Cliquez sur **Save**
 
@@ -380,7 +380,7 @@ Email 4: Oferta Limitada
     <!-- Footer -->
     <div style="background: #1F2937; padding: 20px; text-align: center; color: white;">
         <p style="margin: 0;">
-            📞 928 484 451 | 📧 contact@norte-reparos.com
+            📞 928 484 451 | 📧 contact@canalizador-norte-reparos.pt
         </p>
         <p style="margin: 10px 0 0 0; font-size: 12px;">
             <a href="*|UNSUB|*" style="color: #9CA3AF;">Cancelar subscrição</a>

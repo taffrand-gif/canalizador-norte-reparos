@@ -7,7 +7,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 ## 📋 Prérequis
 
 - Avoir déployé le site sur Cloudflare Pages
-- Avoir configuré le domaine personnalisé (norte-reparos.com ou staff-seekers.com)
+- Avoir configuré le domaine personnalisé (canalizador-norte-reparos.pt ou staff-seekers.com)
 - Avoir un compte Google
 
 ---
@@ -25,7 +25,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 **Option A : Vérification par domaine (Recommandé)**
 
 1. Sélectionnez **"Domaine"**
-2. Entrez votre domaine : `norte-reparos.com` ou `staff-seekers.com`
+2. Entrez votre domaine : `canalizador-norte-reparos.pt` ou `staff-seekers.com`
 3. Cliquez sur **"Continuer"**
 4. Google vous donnera un enregistrement TXT DNS
 5. Allez sur Cloudflare → DNS → Ajoutez l'enregistrement TXT
@@ -34,7 +34,7 @@ Ce guide vous explique comment soumettre votre sitemap à Google Search Console 
 **Option B : Vérification par préfixe d'URL (Plus rapide)**
 
 1. Sélectionnez **"Préfixe d'URL"**
-2. Entrez : `https://norte-reparos.com` ou `https://staff-seekers.com`
+2. Entrez : `https://canalizador-norte-reparos.pt` ou `https://staff-seekers.com`
 3. Cliquez sur **"Continuer"**
 4. Choisissez la méthode **"Balise HTML"**
 5. Copiez la balise meta fournie
@@ -73,7 +73,7 @@ Une fois la propriété vérifiée :
 Pour accélérer l'indexation de pages spécifiques :
 
 1. Allez dans **Inspection d'URL**
-2. Entrez l'URL complète (ex: `https://norte-reparos.com/servicos/braganca`)
+2. Entrez l'URL complète (ex: `https://canalizador-norte-reparos.pt/servicos/braganca`)
 3. Cliquez sur **"Demander une indexation"**
 4. Répétez pour les pages prioritaires (home, services, villes principales)
 
@@ -84,13 +84,13 @@ Pour accélérer l'indexation de pages spécifiques :
 ### Norte Reparos (Plomberie)
 
 ```
-https://norte-reparos.com/
-https://norte-reparos.com/servicos
-https://norte-reparos.com/servicos/braganca
-https://norte-reparos.com/servicos/mirandela
-https://norte-reparos.com/servicos/macedo-de-cavaleiros
-https://norte-reparos.com/blog
-https://norte-reparos.com/blog/5-sinais-precisa-canalizador-urgente
+https://canalizador-norte-reparos.pt/
+https://canalizador-norte-reparos.pt/servicos
+https://canalizador-norte-reparos.pt/servicos/braganca
+https://canalizador-norte-reparos.pt/servicos/mirandela
+https://canalizador-norte-reparos.pt/servicos/macedo-de-cavaleiros
+https://canalizador-norte-reparos.pt/blog
+https://canalizador-norte-reparos.pt/blog/5-sinais-precisa-canalizador-urgente
 ```
 
 ### Staff Seekers (Électricité)

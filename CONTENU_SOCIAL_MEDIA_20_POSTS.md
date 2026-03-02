@@ -237,7 +237,7 @@ Profissionalismo e confiança garantidos.
 
 Próximo projeto?
 📞 928 484 451
-🌐 norte-reparos.com
+🌐 canalizador-norte-reparos.pt
 
 #Certificação #Garantia #Bragança #Profissional
 ```
@@ -293,7 +293,7 @@ RESOLVA HOJE:
 
 📞 Ligue: 928 484 451
 💬 WhatsApp: [link]
-🌐 Orçamento online: norte-reparos.com
+🌐 Orçamento online: canalizador-norte-reparos.pt
 
 ✅ Atendimento 24/7
 ✅ Chegada em 30-40 min

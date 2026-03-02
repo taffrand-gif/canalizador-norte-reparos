@@ -24,7 +24,7 @@ export default function MoimentaDaBeira() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-moimenta-da-beira');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-moimenta-da-beira');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

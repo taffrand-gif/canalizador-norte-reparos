@@ -14,7 +14,7 @@ export default function Sernancelhe() {
     metaDescription.setAttribute('content', 'Canalizador em Sernancelhe disponível 24h. Canalização para casas de granito, turismo religioso, desentupimentos e fugas. Terra da castanha. Orçamento gratuito.');
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-sernancelhe');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sernancelhe');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-sernancelhe';

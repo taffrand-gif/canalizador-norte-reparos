@@ -14,7 +14,7 @@ export default function SantaMartaDePenaguiao() {
     metaDescription.setAttribute('content', 'Canalizador em Santa Marta de Penaguião. Canalização para quintas de vinho verde e Douro, desentupimentos, fugas de água 24h. Orçamento gratuito.');
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-santa-marta-de-penaguiao');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-santa-marta-de-penaguiao');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-santa-marta';

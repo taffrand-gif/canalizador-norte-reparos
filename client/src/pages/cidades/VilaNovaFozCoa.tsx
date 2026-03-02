@@ -24,7 +24,7 @@ export default function VilaNovaFozCoa() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vila-nova-foz-coa');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-nova-foz-coa');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

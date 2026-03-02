@@ -22,7 +22,7 @@ export default function CanalizacaoCasaAntiga() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/blog/canalizacao-casa-antiga-renovacao');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/canalizacao-casa-antiga-renovacao');
 
     // JSON-LD Article Schema
     const script = document.createElement('script');
@@ -41,7 +41,7 @@ export default function CanalizacaoCasaAntiga() {
         "name": "Norte Reparos",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://norte-reparos.com/logo.png"
+          "url": "https://canalizador-norte-reparos.pt/logo.png"
         }
       },
       "datePublished": "2026-02-19",

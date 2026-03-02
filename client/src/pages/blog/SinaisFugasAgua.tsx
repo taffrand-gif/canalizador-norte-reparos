@@ -22,7 +22,7 @@ export default function SinaisFugasAgua() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/blog/sinais-fugas-agua-escondidas');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/sinais-fugas-agua-escondidas');
   }, []);
 
   const sinais = [

@@ -5,7 +5,7 @@
 ### 1. Google Ads Tracking
 **ID commun aux deux sites** : `AW-17915870228`
 
-### 2. Meta tags (norte-reparos.com)
+### 2. Meta tags (canalizador-norte-reparos.pt)
 ```html
 <title>Canalizador 24h | Canalizador de Trás-os-Montes | Urgências Bragança</title>
 <meta name="description" content="Canalizador 24h - instalação, reparação e manutenção técnica de canalizações e fugas de água. Equipa de canalizadores profissionais certificados." />

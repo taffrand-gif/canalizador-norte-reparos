@@ -24,7 +24,7 @@ export default function FreixoEspadaCinta() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-freixo-espada-cinta');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-freixo-espada-cinta');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

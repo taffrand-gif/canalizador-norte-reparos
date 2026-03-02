@@ -24,7 +24,7 @@ export default function TorreMoncorvo() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-torre-moncorvo');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-torre-moncorvo');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

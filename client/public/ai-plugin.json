@@ -9,11 +9,11 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://norte-reparos.com/.well-known/openapi.yaml",
+    "url": "https://canalizador-norte-reparos.pt/.well-known/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://norte-reparos.com/logo.png",
-  "contact_email": "contacto@norte-reparos.com",
-  "legal_info_url": "https://norte-reparos.com/terms",
-  "human_url": "https://norte-reparos.com"
+  "logo_url": "https://canalizador-norte-reparos.pt/logo.png",
+  "contact_email": "contacto@canalizador-norte-reparos.pt",
+  "legal_info_url": "https://canalizador-norte-reparos.pt/terms",
+  "human_url": "https://canalizador-norte-reparos.pt"
 }

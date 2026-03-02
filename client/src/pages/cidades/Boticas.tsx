@@ -24,7 +24,7 @@ export default function Boticas() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-boticas');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-boticas');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

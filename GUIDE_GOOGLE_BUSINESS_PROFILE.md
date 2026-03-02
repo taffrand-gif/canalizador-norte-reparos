@@ -38,7 +38,7 @@ Google Business Profile (anteriormente Google My Business) é a ferramenta mais 
 2. Clique em "Gerir agora" ou "Manage now"
 3. Faça login com conta Google (ou crie uma se não tiver)
 
-**Recomendação:** Use email profissional (ex: contato@norte-reparos.com) em vez de email pessoal. Facilita gestão futura.
+**Recomendação:** Use email profissional (ex: contato@canalizador-norte-reparos.pt) em vez de email pessoal. Facilita gestão futura.
 
 ### 1.2 Adicionar Negócio
 
@@ -114,7 +114,7 @@ Aqui define onde presta serviços. Pode escolher:
 - Staff-Seekers: +351 932 321 892
 
 **Website:**
-- Norte-Reparos: https://norte-reparos.com
+- Norte-Reparos: https://canalizador-norte-reparos.pt
 - Staff-Seekers: https://staff-seekers.com
 
 **IMPORTANTE:** Use formato internacional (+351) para telefone.
@@ -210,10 +210,10 @@ Indique quando o negócio iniciou atividade. Se tem 10+ anos, demonstra experiê
 Adicione links para páginas específicas do site:
 
 **Norte-Reparos:**
-- Serviços: https://norte-reparos.com/servicos
-- Urgências: https://norte-reparos.com/urgencias
-- Orçamento: https://norte-reparos.com/orcamento
-- FAQ: https://norte-reparos.com/faq
+- Serviços: https://canalizador-norte-reparos.pt/servicos
+- Urgências: https://canalizador-norte-reparos.pt/urgencias
+- Orçamento: https://canalizador-norte-reparos.pt/orcamento
+- FAQ: https://canalizador-norte-reparos.pt/faq
 
 **Staff-Seekers:**
 - Serviços: https://staff-seekers.com/servicos

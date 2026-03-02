@@ -22,7 +22,7 @@ export default function PiscinaTanqueAgua() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/blog/piscina-tanque-agua-canalizacao');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/piscina-tanque-agua-canalizacao');
 
     // JSON-LD Article Schema
     const script = document.createElement('script');
@@ -41,7 +41,7 @@ export default function PiscinaTanqueAgua() {
         "name": "Norte Reparos",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://norte-reparos.com/logo.png"
+          "url": "https://canalizador-norte-reparos.pt/logo.png"
         }
       },
       "datePublished": "2026-02-19",

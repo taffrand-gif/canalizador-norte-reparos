@@ -24,7 +24,7 @@ export default function Vimioso() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://norte-reparos.com/canalizador-vimioso');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vimioso');
 
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';

@@ -3,7 +3,7 @@ import { CITIES } from '../shared/serviceConfig';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const DOMAIN = 'https://norte-reparos.com';
+const DOMAIN = 'https://canalizador-norte-reparos.pt';
 
 function generateSitemap() {
   const urls: Array<{ loc: string; priority: number; changefreq: string }> = [];
