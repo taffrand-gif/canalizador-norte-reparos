@@ -9,6 +9,7 @@ import FloatingCTA from "./components/FloatingCTA";
 import SocialProofTicker from "./components/SocialProofTicker";
 import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
+import SkipLink from "./components/SkipLink";
 import OptimizedHome from "./pages/OptimizedHome";
 
 // Lazy load all pages except homepage for better LCP
@@ -159,6 +160,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <SiteProvider>
           <TooltipProvider>
+            <SkipLink />
             <Toaster />
             <StructuredData />
             <Router />

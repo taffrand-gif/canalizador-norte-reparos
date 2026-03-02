@@ -7,6 +7,35 @@ import { defineConfig, type Plugin, type ViteDevServer } from "vite";
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 // =============================================================================
+// Image Optimization Plugin
+// Optimise les images au build (conversion WebP, compression)
+// =============================================================================
+
+function vitePluginImageOptimization(): Plugin {
+  return {
+    name: 'image-optimization',
+
+    // Transformer les imports d'images
+    transform(code, id) {
+      // Traiter uniquement les fichiers d'images
+      if (!/\.(jpe?g|png|gif|svg|webp)$/i.test(id)) {
+        return null;
+      }
+
+      // Pour le moment, laisser Vite gérer les images normalement
+      // L'optimisation se fera via le script optimize-images.js
+      return null;
+    },
+
+    // Configurer les assets
+    configResolved(config) {
+      // Configurer la taille limite pour inline des images
+      config.build.assetsInlineLimit = 4096; // 4kb
+    },
+  };
+}
+
+// =============================================================================
 // Manus Debug Collector - Vite Plugin
 // Writes browser logs directly to files, trimmed when exceeding size limit
 // =============================================================================
@@ -150,7 +179,14 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+const plugins = [
+  react(),
+  tailwindcss(),
+  jsxLocPlugin(),
+  vitePluginManusRuntime(),
+  vitePluginManusDebugCollector(),
+  vitePluginImageOptimization(),
+];
 
 export default defineConfig({
   plugins,

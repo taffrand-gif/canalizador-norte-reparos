@@ -35,7 +35,7 @@ export default function OptimizedHome() {
       <SEOHead />
       
       <Header />
-      <main>
+      <main id="main-content">
       <PremiumBar />
       <InnovativeHero />
       <TrustBanner />

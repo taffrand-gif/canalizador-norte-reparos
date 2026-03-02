@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+import OptimizedImage from './OptimizedImage';
 
 const serviceImages = {
   'Desentupimentos': 'service-desentupimentos.jpg',
@@ -84,13 +85,14 @@ const OptimizedServices: React.FC = () => {
               >
                 {/* Image du service */}
                 <div className="h-48 overflow-hidden">
-                  <img
+                  <OptimizedImage
                     src={`/images-optimized/services/${imageName}`}
                     alt={`Serviço de ${service.toLowerCase()} em Trás-os-Montes`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                    width="400"
-                    height="300"
+                    className="w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    width={400}
+                    height={300}
+                    objectFit="cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
 

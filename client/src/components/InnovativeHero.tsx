@@ -122,8 +122,8 @@ const InnovativeHero: React.FC = () => {
       <div className="container relative z-10 mx-auto px-4 py-16 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Badge professionnel */}
-          <div className="inline-flex items-center gap-3 bg-white/15  border-2 border-white/40 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
-            <span className="text-3xl">💧</span>
+          <div className="inline-flex items-center gap-3 bg-blue-900/80 border-2 border-white/60 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
+            <span className="text-3xl" role="img" aria-label="Goutte d'eau">💧</span>
             <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
               CANALIZADOR DISPONÍVEL AGORA — RESPOSTA EM 2 MIN
             </span>

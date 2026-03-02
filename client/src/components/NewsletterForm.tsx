@@ -51,7 +51,11 @@ export function NewsletterForm({ source = 'footer_form', className = '' }: Newsl
 
   return (
     <form onSubmit={handleSubmit} className={`flex flex-col sm:flex-row gap-2 ${className}`}>
+      <label htmlFor="newsletter-email" className="sr-only">
+        Endereço de email para newsletter
+      </label>
       <Input
+        id="newsletter-email"
         type="email"
         placeholder="O seu email"
         value={email}
@@ -59,6 +63,7 @@ export function NewsletterForm({ source = 'footer_form', className = '' }: Newsl
         className="flex-1 bg-white/10 border-white/20 text-white placeholder:text-white/60"
         disabled={isSubmitting}
         required
+        aria-label="Endereço de email para newsletter"
       />
       <Button 
         type="submit" 

@@ -6,13 +6,18 @@ interface OptimizedImageProps {
   className?: string;
   width?: number;
   height?: number;
-  priority?: boolean; // Pour les images above-the-fold
+  priority?: boolean;
   objectFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
+  sizes?: string;
 }
 
 /**
- * Composant d'image optimisé avec lazy loading et placeholder
- * Améliore les Core Web Vitals (LCP, CLS)
+ * Composant d'image optimisé avec:
+ * - Support WebP avec fallback
+ * - Srcset responsive (320w, 640w, 1024w, 1920w)
+ * - Lazy loading (sauf si priority=true)
+ * - Dimensions explicites pour éviter CLS
+ * - Placeholder pendant le chargement
  */
 export default function OptimizedImage({
   src,
@@ -22,13 +27,15 @@ export default function OptimizedImage({
   height,
   priority = false,
   objectFit = 'cover',
+  sizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw',
 }: OptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [isInView, setIsInView] = useState(priority); // Si priority=true, charger immédiatement
-  const imgRef = useRef<HTMLImageElement>(null);
+  const [isInView, setIsInView] = useState(priority);
+  const [hasError, setHasError] = useState(false);
+  const imgRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (priority) return; // Pas de lazy loading pour les images prioritaires
+    if (priority) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -40,7 +47,7 @@ export default function OptimizedImage({
         });
       },
       {
-        rootMargin: '50px', // Commencer à charger 50px avant que l'image soit visible
+        rootMargin: '50px',
       }
     );
 
@@ -53,10 +60,60 @@ export default function OptimizedImage({
     };
   }, [priority]);
 
+  // Déterminer si l'image est externe (CDN)
+  const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
+  const isManuscdn = src.includes('manuscdn.com');
+
+  // Générer srcset pour images responsives
+  const generateSrcSet = (imagePath: string): string => {
+    if (isExternalImage) {
+      if (isManuscdn) {
+        const baseUrl = imagePath.split('?')[0];
+        return [
+          `${baseUrl}?x-oss-process=image/resize,w_320/format,webp/quality,q_80 320w`,
+          `${baseUrl}?x-oss-process=image/resize,w_640/format,webp/quality,q_80 640w`,
+          `${baseUrl}?x-oss-process=image/resize,w_1024/format,webp/quality,q_80 1024w`,
+          `${baseUrl}?x-oss-process=image/resize,w_1920/format,webp/quality,q_80 1920w`,
+        ].join(', ');
+      }
+      return '';
+    }
+
+    // Pour images locales
+    const pathParts = imagePath.split('.');
+    const extension = pathParts.pop();
+    const basePath = pathParts.join('.');
+
+    return [
+      `${basePath}-320w.webp 320w`,
+      `${basePath}-640w.webp 640w`,
+      `${basePath}-1024w.webp 1024w`,
+      `${basePath}-1920w.webp 1920w`,
+    ].join(', ');
+  };
+
+  // Générer URL WebP
+  const getWebPSrc = (imagePath: string): string => {
+    if (isExternalImage) {
+      if (isManuscdn) {
+        const baseUrl = imagePath.split('?')[0];
+        return `${baseUrl}?x-oss-process=image/format,webp/quality,q_80`;
+      }
+      return imagePath;
+    }
+
+    const pathParts = imagePath.split('.');
+    pathParts.pop();
+    return `${pathParts.join('.')}.webp`;
+  };
+
+  const srcSet = generateSrcSet(src);
+  const webpSrc = getWebPSrc(src);
+
   const containerStyle: React.CSSProperties = {
     position: 'relative',
     overflow: 'hidden',
-    backgroundColor: '#f3f4f6', // Placeholder gris clair
+    backgroundColor: '#f3f4f6',
     ...(width && height ? { aspectRatio: `${width} / ${height}` } : {}),
   };
 
@@ -68,21 +125,40 @@ export default function OptimizedImage({
     opacity: isLoaded ? 1 : 0,
   };
 
+  const handleLoad = () => {
+    setIsLoaded(true);
+  };
+
+  const handleError = () => {
+    setHasError(true);
+    setIsLoaded(true);
+  };
+
   return (
     <div ref={imgRef} style={containerStyle} className={className}>
       {isInView && (
         <>
-          <img
-            src={src}
-            alt={alt}
-            style={imgStyle}
-            loading={priority ? 'eager' : 'lazy'}
-            decoding="async"
-            onLoad={() => setIsLoaded(true)}
-            {...(width && { width })}
-            {...(height && { height })}
-          />
-          {!isLoaded && (
+          <picture>
+            {srcSet && (
+              <source
+                type="image/webp"
+                srcSet={srcSet}
+                sizes={sizes}
+              />
+            )}
+            <img
+              src={hasError ? '/images/placeholder.svg' : webpSrc}
+              alt={alt}
+              style={imgStyle}
+              loading={priority ? 'eager' : 'lazy'}
+              decoding={priority ? 'sync' : 'async'}
+              onLoad={handleLoad}
+              onError={handleError}
+              {...(width && { width })}
+              {...(height && { height })}
+            />
+          </picture>
+          {!isLoaded && !hasError && (
             <div
               style={{
                 position: 'absolute',
