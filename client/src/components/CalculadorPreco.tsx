@@ -204,7 +204,7 @@ export default function CalculadorPreco() {
               <hr />
               <div className="flex justify-between items-center">
                 <span className="text-lg font-bold text-gray-900">TOTAL ESTIMADO:</span>
-                <span className="text-3xl font-black" style={{ color: accentColor }}>
+                <span className="text-3xl font-black text-gray-900">
                   {result.totalMin}€ - {result.totalMax}€
                 </span>
               </div>
