@@ -5,6 +5,7 @@
 // - SEO-optimized Q&A content
 
 import { useSite } from '@/contexts/SiteContext';
+import { memo } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -12,7 +13,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
-export default function FAQ() {
+function FAQ() {
   const { config } = useSite();
 
   const faqs = [
@@ -94,3 +95,5 @@ export default function FAQ() {
     </section>
   );
 }
+
+export default memo(FAQ);

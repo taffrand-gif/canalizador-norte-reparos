@@ -7,8 +7,9 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Star, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
+import { memo } from 'react';
 
-export default function Testimonials() {
+function Testimonials() {
   const { config } = useSite();
 
   return (
@@ -97,3 +98,5 @@ export default function Testimonials() {
     </section>
   );
 }
+
+export default memo(Testimonials);
