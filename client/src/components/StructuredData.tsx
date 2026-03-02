@@ -315,49 +315,78 @@ export default function StructuredData() {
       ]
     };
 
-    // BreadcrumbList Schema
-    const breadcrumbSchema = {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+    // BreadcrumbList Schema dynamique
+    const getBreadcrumbSchema = () => {
+      const breadcrumbItems = [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
           "item": `https://${config.domain}`
-        },
-        {
+        }
+      ];
+
+      // Pages ville
+      const cityPages = [
+        { path: '/canalizador-chaves', city: 'Chaves' },
+        { path: '/canalizador-braganca', city: 'Bragança' },
+        { path: '/canalizador-mirandela', city: 'Mirandela' },
+        { path: '/canalizador-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+        { path: '/canalizador-valpacos', city: 'Valpaços' },
+        { path: '/canalizador-vinhais', city: 'Vinhais' },
+        { path: '/canalizador-miranda-douro', city: 'Miranda do Douro' },
+        { path: '/canalizador-mogadouro', city: 'Mogadouro' },
+        { path: '/canalizador-torre-moncorvo', city: 'Torre de Moncorvo' },
+        { path: '/canalizador-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
+      ];
+
+      const currentCity = cityPages.find(page => location === page.path);
+
+      if (currentCity) {
+        breadcrumbItems.push({
           "@type": "ListItem",
           "position": 2,
           "name": config.serviceType,
           "item": `https://${config.domain}/servicos`
+        });
+        breadcrumbItems.push({
+          "@type": "ListItem",
+          "position": 3,
+          "name": `${serviceName} em ${currentCity.city}`,
+          "item": `https://${config.domain}${location}`
+        });
+      } else if (location !== '/') {
+        // Pour toutes les autres pages
+        const pageTitles: Record<string, string> = {
+          '/urgencias-24h': 'Urgências 24h',
+          '/simulador-preco': 'Simulador de Preço',
+          '/servicos-restauracao': 'Serviços para Restauração',
+          '/servicos-hotelaria': 'Serviços para Hotelaria',
+          '/servicos-condominios': 'Serviços para Condomínios',
+          '/contactos': 'Contactos',
+          '/sobre': 'Sobre Nós',
+          '/blog': 'Blog'
+        };
+
+        const pageTitle = pageTitles[location] || location.split('/').pop()?.replace(/-/g, ' ');
+        if (pageTitle) {
+          breadcrumbItems.push({
+            "@type": "ListItem",
+            "position": 2,
+            "name": pageTitle.charAt(0).toUpperCase() + pageTitle.slice(1),
+            "item": `https://${config.domain}${location}`
+          });
         }
-      ]
+      }
+
+      return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": breadcrumbItems
+      };
     };
 
-    // Ajouter la ville actuelle au breadcrumb si on est sur une page ville
-    const cityPages = [
-      { path: '/canalizador-chaves', city: 'Chaves' },
-      { path: '/canalizador-braganca', city: 'Bragança' },
-      { path: '/canalizador-mirandela', city: 'Mirandela' },
-      { path: '/canalizador-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
-      { path: '/canalizador-valpacos', city: 'Valpaços' },
-      { path: '/canalizador-vinhais', city: 'Vinhais' },
-      { path: '/canalizador-miranda-douro', city: 'Miranda do Douro' },
-      { path: '/canalizador-mogadouro', city: 'Mogadouro' },
-      { path: '/canalizador-torre-moncorvo', city: 'Torre de Moncorvo' },
-      { path: '/canalizador-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
-    ];
-
-    const currentCity = cityPages.find(page => location === page.path);
-    if (currentCity) {
-      breadcrumbSchema.itemListElement.push({
-        "@type": "ListItem",
-        "position": 3,
-        "name": `${serviceName} em ${currentCity.city}`,
-        "item": `https://${config.domain}${location}`
-      });
-    }
+    const breadcrumbSchema = getBreadcrumbSchema();
 
     // Inserir todos les schemas
     const schemas = [
