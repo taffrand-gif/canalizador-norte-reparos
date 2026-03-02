@@ -19,9 +19,13 @@ const servicesElec = [
 ];
 
 const servicesPlumb = [
+  { label: 'Reparação de Torneira', min: 60, max: 80 },
+  { label: 'Deteção de Fuga', min: 100, max: 150 },
+  { label: 'Substituição de Cano', min: 150, max: 250 },
   { label: 'Desentupimento Simples', min: 40, max: 60 },
   { label: 'Fuga de Água Visível', min: 60, max: 90 },
   { label: 'Fuga Oculta (deteção + reparação)', min: 120, max: 250 },
+  { label: 'Esquentador (instalação)', min: 200, max: 400 },
   { label: 'Esquentador (reparação)', min: 50, max: 120 },
   { label: 'Casa de Banho Completa', min: 800, max: 1800 },
 ];
