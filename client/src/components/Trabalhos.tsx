@@ -6,9 +6,12 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
+import { useAnalytics } from '@/hooks/useAnalytics';
+import { memo } from 'react';
 
-export default function Trabalhos() {
+function Trabalhos() {
   const { config } = useSite();
+  const { trackPhoneClick } = useAnalytics();
 
   // Placeholder projects - will be replaced with real images
   const projects = [
@@ -75,10 +78,9 @@ export default function Trabalhos() {
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={project.image}
-                  alt={`${project.title} - Canalizador profissional em Trás-os-Montes`}
+                  alt={`${project.title} em ${project.location} - Trabalho realizado por canalizador profissional certificado`}
                   loading="lazy"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
                   width="400"
                   height="300"
                 />
@@ -119,8 +121,10 @@ export default function Trabalhos() {
             </p>
             <a
               href={`tel:${config.phone.replace(/\s/g, '')}`}
+              onClick={() => trackPhoneClick(config.phone)}
               className="inline-flex items-center gap-2 px-8 py-4 font-bold text-white shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,0.2)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
               style={{ backgroundColor: config.colors.primary }}
+              aria-label={`Ligar agora para ${config.phone}`}
             >
               📞 LIGUE AGORA: {config.phone}
             </a>
@@ -130,3 +134,5 @@ export default function Trabalhos() {
     </section>
   );
 }
+
+export default memo(Trabalhos);
