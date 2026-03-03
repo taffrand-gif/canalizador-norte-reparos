@@ -201,7 +201,7 @@ function Header() {
           {/* Mobile: phone button + hamburger */}
           <div className="flex items-center gap-2 lg:hidden">
             <a
-              href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+              href={`tel:${config.phone.replace(/\s/g, '')}`}
               className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg text-white transition-colors"
               style={{ backgroundColor: config.colors.primary }}
               aria-label={`Ligar para ${config.phone}`}
