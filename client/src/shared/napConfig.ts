@@ -14,7 +14,7 @@ export interface CityNAP {
 // Base business information
 export const businessInfo = {
   name: 'Norte Reparos',
-  fullName: 'Norte Reparos - Canalizador Profissional',
+  fullName: 'Norte Reparos — Canalizador',
   phone: '+351 928 484 451',
   phoneFormatted: '928 484 451',
   whatsapp: '351928484451',
