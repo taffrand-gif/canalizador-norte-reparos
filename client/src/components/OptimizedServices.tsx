@@ -140,7 +140,7 @@ const OptimizedServices: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                Porque escolher a <span className="text-blue-600">Canalizador Profissional</span>?
+                Porque escolher a <span className="text-blue-600">Norte Reparos</span>?
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">

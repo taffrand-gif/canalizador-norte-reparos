@@ -95,7 +95,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} {config.name} - Canalizador Profissional em Trás-os-Montes
+            © {new Date().getFullYear()} {config.name} - Norte Reparos em Trás-os-Montes
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Todos os artigos são informativos. Para intervenções de canalização, consulte sempre um profissional certificado.
