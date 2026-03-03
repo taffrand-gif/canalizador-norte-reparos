@@ -78,6 +78,136 @@ export default function MacedoCavaleiros() {
           </div>
         </section>
 
+        {/* Sobre Macedo de Cavaleiros - Conteúdo Único */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Sobre Macedo de Cavaleiros - Terra da Caça e Agricultura
+            </h2>
+            <div className="max-w-4xl mx-auto prose prose-lg">
+              <p className="text-gray-700 mb-4">
+                Macedo de Cavaleiros, com cerca de 15.000 habitantes, é uma cidade transmontana situada
+                entre as serras de Bornes e Mogadouro. Conhecida como a "Terra da Caça", a cidade é famosa
+                pela Albufeira do Azibo, uma das praias fluviais mais premiadas de Portugal, e pela sua
+                forte tradição agrícola e pecuária. O castelo medieval domina a paisagem urbana.
+              </p>
+              <p className="text-gray-700 mb-4">
+                A economia local baseia-se fortemente na agricultura (cereais, oliveiras, amendoeiras),
+                pecuária (bovinos, ovinos) e turismo rural. Esta vocação agrícola cria necessidades
+                específicas em sistemas de água: irrigação de culturas, bebedouros para gado, sistemas
+                de lavagem de equipamentos agrícolas e tratamento de águas residuais de explorações
+                pecuárias. Muitas propriedades rurais têm furos e poços próprios.
+              </p>
+              <p className="text-gray-700">
+                O clima é tipicamente transmontano, com invernos frios (frequentemente com neve) e verões
+                muito quentes e secos. A albufeira do Azibo influencia a humidade local, mas as zonas
+                rurais enfrentam problemas de escassez de água no verão. Os sistemas de canalização devem
+                ser eficientes e resistentes a variações térmicas extremas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Bairros Servidos em Macedo de Cavaleiros */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Bairros e Zonas Servidas em Macedo de Cavaleiros
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Centro Urbano</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Praça do Município</li>
+                  <li>• Avenida dos Combatentes</li>
+                  <li>• Rua Conselheiro Albuquerque</li>
+                  <li>• Zona do Castelo</li>
+                  <li>• Largo da Feira</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Residenciais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Bairro de São João</li>
+                  <li>• Bairro da Estação</li>
+                  <li>• Urbanização Nova</li>
+                  <li>• Zona da Escola Secundária</li>
+                  <li>• Bairro Social</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Rurais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Ala</li>
+                  <li>• Vilarinho</li>
+                  <li>• Podence</li>
+                  <li>• Morais</li>
+                  <li>• Zona do Azibo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Porquê Escolher-nos em Macedo de Cavaleiros */}
+        <section className="py-16 bg-blue-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Porquê Escolher-nos em Macedo de Cavaleiros
+            </h2>
+            <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏠</span>
+                  Sede em Macedo de Cavaleiros
+                </h3>
+                <p className="text-gray-600">
+                  A nossa sede está em Macedo de Cavaleiros, o que significa resposta imediata em menos
+                  de 30 minutos para qualquer urgência na cidade. Conhecemos cada rua, cada bairro e
+                  as particularidades da rede de água municipal. Temos stock permanente de materiais
+                  e equipamento completo sempre disponível. Deslocação apenas 10€.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🚜</span>
+                  Especialistas em Sistemas Agrícolas
+                </h3>
+                <p className="text-gray-600">
+                  Trabalhamos com dezenas de explorações agrícolas e pecuárias da região. Instalamos
+                  sistemas de irrigação gota-a-gota, aspersores, bebedouros automáticos para gado,
+                  sistemas de bombagem de furos e poços, e tratamento de águas residuais agrícolas.
+                  Conhecemos as necessidades específicas de olivais, amendoais e explorações pecuárias.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">💧</span>
+                  Gestão de Recursos Hídricos
+                </h3>
+                <p className="text-gray-600">
+                  Em zonas rurais com escassez de água no verão, otimizamos sistemas para máxima
+                  eficiência. Instalamos reservatórios, sistemas de aproveitamento de águas pluviais,
+                  bombas solares para furos, e sistemas de rega automática com temporizadores.
+                  Ajudamos a reduzir consumos e aproveitar melhor os recursos disponíveis.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏞️</span>
+                  Experiência em Turismo Rural
+                </h3>
+                <p className="text-gray-600">
+                  Com o crescimento do turismo no Azibo e em casas rurais, trabalhamos em unidades
+                  de turismo rural, casas de campo e alojamentos locais. Instalamos sistemas de água
+                  quente solar, piscinas, jacuzzis, e garantimos conformidade com requisitos de
+                  turismo e saúde pública para licenciamento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Conteúdo específico de Macedo de Cavaleiros */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -86,7 +216,7 @@ export default function MacedoCavaleiros() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Especialistas em Sistemas de Água para Agricultura em Macedo de Cavaleiros
                 </h2>
-                
+
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -100,7 +230,7 @@ export default function MacedoCavaleiros() {
                       às exigências do ambiente rural.
                     </p>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
                       <span className="text-blue-600">🏘️</span>
@@ -155,6 +285,53 @@ export default function MacedoCavaleiros() {
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testemunhos Locais de Macedo de Cavaleiros */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              O Que Dizem os Nossos Clientes em Macedo de Cavaleiros
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Exploração agrícola em Ala com sistema de irrigação avariado. Como têm a sede
+                  aqui em Macedo, chegaram em 20 minutos e salvaram a colheita. Resposta rápida
+                  e eficaz. São os melhores!"
+                </p>
+                <p className="text-gray-900 font-bold">José A.</p>
+                <p className="text-gray-600 text-sm">Ala, Macedo de Cavaleiros</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Casa de turismo rural perto do Azibo. Instalaram sistema completo de água quente
+                  solar e piscina. Ajudaram com toda a documentação para o licenciamento. Serviço
+                  5 estrelas!"
+                </p>
+                <p className="text-gray-900 font-bold">Ana B.</p>
+                <p className="text-gray-600 text-sm">Zona do Azibo</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Apartamento no centro com fuga urgente. Liguei às 22h e vieram logo. Como são
+                  daqui de Macedo, conhecem bem os prédios antigos. Resolveram tudo na hora.
+                  Muito obrigado!"
+                </p>
+                <p className="text-gray-900 font-bold">Teresa M.</p>
+                <p className="text-gray-600 text-sm">Rua Conselheiro Albuquerque</p>
               </div>
             </div>
           </div>

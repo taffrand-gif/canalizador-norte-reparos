@@ -157,6 +157,134 @@ export default function Mirandela() {
           </div>
         </section>
 
+        {/* Sobre Mirandela - Conteúdo Único */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Sobre Mirandela - Terra dos Alheiras
+            </h2>
+            <div className="max-w-4xl mx-auto prose prose-lg">
+              <p className="text-gray-700 mb-4">
+                Mirandela, conhecida como a "Terra dos Alheiras", é uma cidade histórica situada nas margens do Rio Tua,
+                no coração de Trás-os-Montes. Com uma população de cerca de 23.000 habitantes, esta cidade combina
+                tradição gastronómica com desenvolvimento industrial, sendo um importante centro de produção alimentar
+                na região. A famosa Ponte Romana sobre o Rio Tua é um dos ex-libris da cidade.
+              </p>
+              <p className="text-gray-700 mb-4">
+                A economia local é fortemente marcada pela indústria de enchidos e produtos alimentares, com destaque
+                para a produção de alheiras, chouriças e presuntos. Esta especialização industrial cria necessidades
+                específicas em termos de sistemas de canalização, especialmente no tratamento de águas residuais
+                oleosas e na manutenção de sistemas de refrigeração industrial.
+              </p>
+              <p className="text-gray-700">
+                O clima transmontano, com invernos rigorosos e verões quentes, exige sistemas de aquecimento robustos
+                e canalizações preparadas para variações térmicas extremas. As propriedades junto ao Rio Tua requerem
+                atenção especial à humidade e prevenção de infiltrações.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Bairros Servidos em Mirandela */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Bairros e Zonas Servidas em Mirandela
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Centro Histórico</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Praça da República</li>
+                  <li>• Rua da República</li>
+                  <li>• Avenida Nossa Senhora do Amparo</li>
+                  <li>• Zona da Ponte Romana</li>
+                  <li>• Rua 25 de Abril</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Residenciais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Bairro da Estação</li>
+                  <li>• Urbanização do Pinheiro</li>
+                  <li>• Bairro do Calvário</li>
+                  <li>• Santa Cruz</li>
+                  <li>• Bairro de São Francisco</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Industriais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Zona Industrial de Mirandela</li>
+                  <li>• Parque Empresarial</li>
+                  <li>• Fábricas de Enchidos</li>
+                  <li>• Lagares de Azeite</li>
+                  <li>• Armazéns Frigoríficos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Porquê Escolher-nos em Mirandela */}
+        <section className="py-16 bg-blue-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Porquê Escolher-nos em Mirandela
+            </h2>
+            <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏭</span>
+                  Experiência em Indústria Alimentar
+                </h3>
+                <p className="text-gray-600">
+                  Trabalhamos com as principais fábricas de enchidos e lagares de azeite de Mirandela.
+                  Conhecemos os requisitos específicos de higiene industrial, sistemas de tratamento de
+                  águas residuais oleosas e instalações de refrigeração. Utilizamos materiais certificados
+                  para contacto alimentar e cumprimos todas as normas HACCP.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🌊</span>
+                  Especialistas em Zonas Ribeirinhas
+                </h3>
+                <p className="text-gray-600">
+                  As propriedades junto ao Rio Tua requerem soluções especiais contra humidade e infiltrações.
+                  Instalamos sistemas de drenagem eficientes, impermeabilizações e bombas de águas pluviais
+                  adaptadas ao nível freático elevado da zona ribeirinha. Prevenimos problemas de retorno
+                  de esgotos em cheias.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">❄️</span>
+                  Preparados para Invernos Rigorosos
+                </h3>
+                <p className="text-gray-600">
+                  Mirandela regista temperaturas negativas frequentes no inverno. Instalamos isolamentos
+                  térmicos em tubagens exteriores, sistemas anticongelamento em contadores e proteções
+                  especiais para esquentadores e caldeiras. Evitamos ruturas por gelo que são comuns
+                  na região durante janeiro e fevereiro.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏰</span>
+                  Respeito pelo Património
+                </h3>
+                <p className="text-gray-600">
+                  No centro histórico de Mirandela, trabalhamos com técnicas não invasivas que preservam
+                  a arquitetura tradicional. Utilizamos equipamento de deteção de fugas sem quebras,
+                  restauramos canalizações em granito e respeitamos as fachadas dos edifícios antigos
+                  próximos à Ponte Romana e Praça da República.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Conteúdo específico de Mirandela */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -165,7 +293,7 @@ export default function Mirandela() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Especialistas em Sistemas de Água em Mirandela
                 </h2>
-                
+
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -179,7 +307,7 @@ export default function Mirandela() {
                       aos produtos químicos utilizados na região.
                     </p>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
                       <span className="text-blue-600">🏘️</span>
@@ -234,6 +362,51 @@ export default function Mirandela() {
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testemunhos Locais de Mirandela */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              O Que Dizem os Nossos Clientes em Mirandela
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Tivemos uma fuga grave no nosso lagar de azeite na zona industrial. Vieram em menos
+                  de 40 minutos e resolveram tudo sem parar a produção. Conhecem bem os sistemas para
+                  indústria alimentar."
+                </p>
+                <p className="text-gray-900 font-bold">João M.</p>
+                <p className="text-gray-600 text-sm">Zona Industrial de Mirandela</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Apartamento na Avenida Nossa Senhora do Amparo com canalização antiga. Fizeram
+                  a substituição toda sem estragar as paredes. Trabalho impecável e preço justo."
+                </p>
+                <p className="text-gray-900 font-bold">Maria S.</p>
+                <p className="text-gray-600 text-sm">Av. Nossa Senhora do Amparo</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Entupimento grave no restaurante junto à Ponte Romana. Atenderam a urgência
+                  ao sábado à noite e resolveram antes da hora de jantar. Salvaram o nosso fim de semana!"
+                </p>
+                <p className="text-gray-900 font-bold">Carlos R.</p>
+                <p className="text-gray-600 text-sm">Centro Histórico, junto à Ponte Romana</p>
               </div>
             </div>
           </div>

@@ -157,6 +157,135 @@ export default function Chaves() {
           </div>
         </section>
 
+        {/* Sobre Chaves - Conteúdo Único */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Sobre Chaves - Cidade das Águas Termais
+            </h2>
+            <div className="max-w-4xl mx-auto prose prose-lg">
+              <p className="text-gray-700 mb-4">
+                Chaves, situada no Alto Tâmega, é uma das cidades mais antigas de Portugal, fundada pelos romanos
+                como "Aquae Flaviae". Com cerca de 41.000 habitantes, é conhecida mundialmente pelas suas águas
+                termais hipersalinas, que brotam a 73°C, sendo das mais quentes da Europa. O Castelo de Chaves
+                e a Ponte Romana são testemunhos da rica história milenar da cidade.
+              </p>
+              <p className="text-gray-700 mb-4">
+                A presença de águas termais cria desafios únicos para os sistemas de canalização locais. A elevada
+                concentração de minerais (especialmente sódio, cloreto e bicarbonato) exige materiais resistentes
+                à corrosão. Muitos hotéis, termas e propriedades particulares utilizam estas águas, necessitando
+                de sistemas especializados de filtragem e tratamento.
+              </p>
+              <p className="text-gray-700">
+                O clima de Chaves é um dos mais rigorosos de Portugal, com invernos muito frios (frequentemente
+                abaixo de -5°C) e verões quentes. Esta amplitude térmica extrema exige canalizações com isolamento
+                reforçado e sistemas anticongelamento. A cidade é também um importante centro agrícola, conhecido
+                pelo presunto de Chaves e vinhos da região.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Bairros Servidos em Chaves */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Bairros e Zonas Servidas em Chaves
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Centro Histórico</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Praça de Camões</li>
+                  <li>• Rua Direita</li>
+                  <li>• Zona do Castelo</li>
+                  <li>• Ponte Romana</li>
+                  <li>• Jardim Público</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Residenciais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Santa Maria Maior</li>
+                  <li>• Madalena</li>
+                  <li>• Santa Cruz/Trindade</li>
+                  <li>• Bairro da Estação</li>
+                  <li>• Urbanização do Pinheiro</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Zonas Termais</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Termas de Chaves</li>
+                  <li>• Hotéis Termais</li>
+                  <li>• Zona de Vidago (próxima)</li>
+                  <li>• Pedras Salgadas (próxima)</li>
+                  <li>• Zona Industrial</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Porquê Escolher-nos em Chaves */}
+        <section className="py-16 bg-blue-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Porquê Escolher-nos em Chaves
+            </h2>
+            <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">♨️</span>
+                  Especialistas em Águas Termais
+                </h3>
+                <p className="text-gray-600">
+                  Somos especialistas em sistemas de canalização para águas termais hipersalinas. Utilizamos
+                  tubagens de polipropileno PP-R, aço inoxidável AISI 316L e componentes resistentes à corrosão
+                  por minerais. Trabalhamos com hotéis termais, spas e propriedades que utilizam as águas de
+                  Chaves, garantindo durabilidade e segurança dos sistemas.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">❄️</span>
+                  Proteção Contra Frio Extremo
+                </h3>
+                <p className="text-gray-600">
+                  Chaves regista as temperaturas mais baixas de Portugal continental. Instalamos isolamentos
+                  térmicos de alta densidade, cabos de aquecimento elétrico em tubagens exteriores, caixas
+                  de contador aquecidas e válvulas anticongelamento. Prevenimos ruturas por gelo que causam
+                  prejuízos significativos durante os meses de inverno rigoroso.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏰</span>
+                  Preservação do Património Romano
+                </h3>
+                <p className="text-gray-600">
+                  No centro histórico de Chaves, com mais de 2000 anos de história, utilizamos técnicas
+                  arqueológicas de intervenção. Trabalhamos próximo à Ponte Romana, Castelo e termas romanas,
+                  respeitando as camadas arqueológicas. Utilizamos câmaras de inspeção e deteção eletrónica
+                  para evitar escavações desnecessárias em zonas protegidas.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
+                  <span className="text-blue-600">🏨</span>
+                  Experiência em Hotelaria Termal
+                </h3>
+                <p className="text-gray-600">
+                  Trabalhamos com os principais hotéis e unidades termais de Chaves. Conhecemos os requisitos
+                  específicos de sistemas de água quente a alta temperatura, circuitos de água termal,
+                  piscinas aquecidas e sistemas de climatização. Garantimos conformidade com normas de
+                  saúde pública e turismo termal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Conteúdo específico de Chaves */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -165,7 +294,7 @@ export default function Chaves() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Especialistas em Sistemas de Água em Chaves
                 </h2>
-                
+
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -179,7 +308,7 @@ export default function Chaves() {
                       aos minerais específicos da região.
                     </p>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
                       <span className="text-blue-600">🏘️</span>
@@ -234,6 +363,52 @@ export default function Chaves() {
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testemunhos Locais de Chaves */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              O Que Dizem os Nossos Clientes em Chaves
+            </h2>
+            <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-6">
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Hotel termal na zona das Caldas com problema no sistema de água termal. Vieram
+                  preparados com materiais resistentes aos minerais. Resolveram sem interromper
+                  o serviço aos hóspedes. Profissionais de excelência!"
+                </p>
+                <p className="text-gray-900 font-bold">António P.</p>
+                <p className="text-gray-600 text-sm">Zona das Termas de Chaves</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Casa antiga na Rua Direita com canalização em granito. Fizeram a reparação
+                  respeitando a estrutura histórica. Trabalho cuidadoso e com atenção ao detalhe.
+                  Recomendo vivamente!"
+                </p>
+                <p className="text-gray-900 font-bold">Isabel C.</p>
+                <p className="text-gray-600 text-sm">Rua Direita, Centro Histórico</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-2xl">⭐⭐⭐⭐⭐</span>
+                </div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Rutura de cano por gelo em janeiro na Madalena. Atenderam a urgência mesmo
+                  com neve e -7°C. Instalaram proteção anticongelamento. Nunca mais tive problemas!"
+                </p>
+                <p className="text-gray-900 font-bold">Manuel F.</p>
+                <p className="text-gray-600 text-sm">Bairro da Madalena</p>
               </div>
             </div>
           </div>
