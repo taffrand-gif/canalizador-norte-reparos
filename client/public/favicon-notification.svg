@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Goutte d'eau bleue -->
+  <path d="M50 10 C50 10, 30 35, 30 55 C30 70, 38 80, 50 80 C62 80, 70 70, 70 55 C70 35, 50 10, 50 10 Z" 
+        fill="#2193b0" stroke="#1a7a94" stroke-width="2"/>
+  
+  <!-- Badge notification rouge -->
+  <circle cx="75" cy="25" r="15" fill="#FF4500"/>
+  <text x="75" y="30" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">!</text>
+</svg>
