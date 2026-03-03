@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Sabrosa() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Sabrosa() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sabrosa');
 
+    const cityAddress = getCityAddress('sabrosa');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-sabrosa';
@@ -34,9 +37,16 @@ export default function Sabrosa() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Sabrosa",
       "description": "Canalizador em Sabrosa. Canalização para quintas do Douro e habitações na terra de Fernão de Magalhães.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Sabrosa", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.2667", "longitude": "-7.5667" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

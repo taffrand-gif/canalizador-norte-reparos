@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Vimioso() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Vimioso() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vimioso');
 
+    const cityAddress = getCityAddress('vimioso');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-vimioso';
@@ -34,9 +37,16 @@ export default function Vimioso() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vimioso",
       "description": "Canalizador profissional em Vimioso. Serviço 24h na zona raiana, desentupimentos e canalização rural.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vimioso", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.5833", "longitude": "-6.5333" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

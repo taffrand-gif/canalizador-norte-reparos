@@ -4,6 +4,7 @@
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocation } from 'wouter';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function StructuredData() {
   const { config } = useSite();
@@ -33,18 +34,18 @@ export default function StructuredData() {
       "legalName": config.company.fullName,
       "description": config.description,
       "url": `https://${config.domain}`,
-      "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+      "telephone": businessInfo.phone,
       "email": config.email,
       "priceRange": "€€ - €€€",
       "image": `https://${config.domain}${config.seo.ogImage}`,
       "logo": `https://${config.domain}/logo.png`,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Macedo de Cavaleiros",
-        "addressLocality": "Macedo de Cavaleiros",
-        "addressRegion": "Bragança",
-        "postalCode": "5340",
-        "addressCountry": "PT"
+        "streetAddress": businessInfo.baseAddress.streetAddress,
+        "addressLocality": businessInfo.baseAddress.addressLocality,
+        "addressRegion": businessInfo.baseAddress.addressRegion,
+        "postalCode": businessInfo.baseAddress.postalCode,
+        "addressCountry": businessInfo.baseAddress.addressCountry
       },
       "geo": {
         "@type": "GeoCoordinates",
@@ -129,7 +130,7 @@ export default function StructuredData() {
         "@type": "ServiceChannel",
         "servicePhone": {
           "@type": "ContactPoint",
-          "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+          "telephone": businessInfo.phone,
           "contactType": "customer service",
           "areaServed": "PT",
           "availableLanguage": "Portuguese",
@@ -189,7 +190,7 @@ export default function StructuredData() {
           "@type": "ServiceChannel",
           "servicePhone": {
             "@type": "ContactPoint",
-            "telephone": `+351${config.phone.replace(/\s/g, '')}`,
+            "telephone": businessInfo.phone,
             "contactType": "customer service"
           }
         }

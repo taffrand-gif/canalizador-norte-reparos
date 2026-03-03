@@ -9,6 +9,7 @@ import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Valpacos() {
   const { config } = useSite();
@@ -44,6 +45,7 @@ export default function Valpacos() {
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-valpacos');
     
     // Schema.org LocalBusiness para Valpaços
+    const cityAddress = getCityAddress('valpacos');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.text = JSON.stringify({
@@ -55,17 +57,18 @@ export default function Valpacos() {
       "description": "Canalizador profissional em Valpaços, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Valpaços",
-        "addressRegion": "Trás-os-Montes",
-        "addressCountry": "PT",
-        "postalCode": "5430"
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
       },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "41.6075",
         "longitude": "-7.3108"
       },
-      "telephone": config.phone,
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -82,7 +85,7 @@ export default function Valpacos() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${businessInfo.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);

@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function VilaFlor() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function VilaFlor() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-flor');
 
+    const cityAddress = getCityAddress('vila-flor');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-vila-flor';
@@ -34,9 +37,16 @@ export default function VilaFlor() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vila Flor",
       "description": "Canalizador profissional em Vila Flor. Serviço 24h, desentupimentos, canalização para adegas e quintas.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vila Flor", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.3000", "longitude": "-7.1500" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

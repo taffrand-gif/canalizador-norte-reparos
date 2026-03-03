@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function FreixoEspadaCinta() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function FreixoEspadaCinta() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-freixo-espada-cinta');
 
+    const cityAddress = getCityAddress('freixo-espada-cinta');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-freixo';
@@ -33,8 +35,15 @@ export default function FreixoEspadaCinta() {
       "@context": "https://schema.org",
       "@type": "Plumber",
       "name": "Canalizador Profissional Freixo de Espada à Cinta",
-      "address": { "@type": "PostalAddress", "addressLocality": "Freixo de Espada à Cinta", "addressRegion": "Bragança", "addressCountry": "PT" },
-      "telephone": "+351928484451",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
     document.head.appendChild(schemaScript);

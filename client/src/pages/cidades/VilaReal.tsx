@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function VilaReal() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function VilaReal() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-real');
 
+    const cityAddress = getCityAddress('vila-real');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-vila-real';
@@ -34,9 +36,16 @@ export default function VilaReal() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vila Real",
       "description": "Canalizador profissional em Vila Real. Serviço 24h, desentupimentos, fugas de água, canalização urbana.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vila Real", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.3000", "longitude": "-7.7500" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Murca() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Murca() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-murca');
 
+    const cityAddress = getCityAddress('murca');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-murca';
@@ -34,9 +37,16 @@ export default function Murca() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Murça",
       "description": "Canalizador em Murça. Serviço 24h, canalização para lagares de azeite e quintas vinícolas.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Murça", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.4000", "longitude": "-7.4500" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

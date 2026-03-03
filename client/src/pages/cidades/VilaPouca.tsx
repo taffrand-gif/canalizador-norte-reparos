@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function VilaPouca() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function VilaPouca() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar');
 
+    const cityAddress = getCityAddress('vila-pouca-aguiar');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-vila-pouca';
@@ -34,9 +37,16 @@ export default function VilaPouca() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vila Pouca de Aguiar",
       "description": "Canalizador em Vila Pouca de Aguiar. Canalização termal, redes de água quente e desentupimentos.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vila Pouca de Aguiar", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.5000", "longitude": "-7.6333" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

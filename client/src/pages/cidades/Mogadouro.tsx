@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Mogadouro() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Mogadouro() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mogadouro');
 
+    const cityAddress = getCityAddress('mogadouro');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-mogadouro';
@@ -34,9 +37,16 @@ export default function Mogadouro() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Mogadouro",
       "description": "Canalizador profissional em Mogadouro. Serviço 24h, desentupimentos.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Mogadouro", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.3333", "longitude": "-6.7167" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

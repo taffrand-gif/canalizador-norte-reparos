@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Vinhais() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Vinhais() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vinhais');
 
+    const cityAddress = getCityAddress('vinhais');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-vinhais';
@@ -34,9 +37,16 @@ export default function Vinhais() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vinhais",
       "description": "Canalizador profissional em Vinhais. Serviço 24h, desentupimentos, fugas de água.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vinhais", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.8333", "longitude": "-7.0000" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

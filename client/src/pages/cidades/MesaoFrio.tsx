@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function MesaoFrio() {
   useEffect(() => {
@@ -15,6 +16,8 @@ export default function MesaoFrio() {
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mesao-frio');
+
+    const cityAddress = getCityAddress('mesao-frio');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-mesao-frio';
@@ -22,9 +25,16 @@ export default function MesaoFrio() {
       "@context": "https://schema.org", "@type": "Plumber",
       "name": "Canalizador Profissional Mesão Frio",
       "description": "Canalizador em Mesão Frio. Canalização para turismo fluvial e quintas do Douro.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Mesão Frio", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.1500", "longitude": "-7.8833" },
-      "telephone": "+351928484451", "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
+      "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
     });
     document.head.appendChild(schemaScript);
     return () => { const s = document.getElementById('schema-mesao-frio'); if (s) s.remove(); };

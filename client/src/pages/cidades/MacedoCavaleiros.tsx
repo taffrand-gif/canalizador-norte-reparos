@@ -8,6 +8,7 @@ import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
 import FAQSection from '@/components/FAQSection';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function MacedoCavaleiros() {
   const { config } = useSite();

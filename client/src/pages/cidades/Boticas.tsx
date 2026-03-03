@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Boticas() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Boticas() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-boticas');
 
+    const cityAddress = getCityAddress('boticas');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-boticas';
@@ -34,9 +36,16 @@ export default function Boticas() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Boticas",
       "description": "Canalizador em Boticas. Serviço 24h, aquecimento central e canalização para explorações agrícolas.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Boticas", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.6833", "longitude": "-7.6667" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

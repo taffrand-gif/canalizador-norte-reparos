@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function MirandaDouro() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function MirandaDouro() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-miranda-douro');
 
+    const cityAddress = getCityAddress('miranda-douro');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-miranda';
@@ -34,9 +37,16 @@ export default function MirandaDouro() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Miranda do Douro",
       "description": "Canalizador profissional em Miranda do Douro. Serviço 24h, desentupimentos.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Miranda do Douro", "addressRegion": "Bragança", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.4833", "longitude": "-6.2667" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

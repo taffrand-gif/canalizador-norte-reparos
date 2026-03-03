@@ -8,8 +8,8 @@ import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
-import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Chaves() {
   const { config } = useSite();
@@ -45,6 +45,7 @@ export default function Chaves() {
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-chaves');
     
     // Schema.org LocalBusiness para Chaves
+    const cityAddress = getCityAddress('chaves');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.text = JSON.stringify({
@@ -56,17 +57,18 @@ export default function Chaves() {
       "description": "Canalizador profissional em Chaves, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Chaves",
-        "addressRegion": "Trás-os-Montes",
-        "addressCountry": "PT",
-        "postalCode": "5400"
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
       },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "41.7402",
         "longitude": "-7.4687"
       },
-      "telephone": config.phone,
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€",
       "areaServed": {
@@ -83,7 +85,7 @@ export default function Chaves() {
         "geoRadius": "20000"
       },
       "sameAs": [
-        `https://wa.me/${config.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
+        `https://wa.me/${businessInfo.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
       ]
     });
     document.head.appendChild(schemaScript);

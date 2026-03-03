@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function VilaNovaFozCoa() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function VilaNovaFozCoa() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-nova-foz-coa');
 
+    const cityAddress = getCityAddress('vila-nova-foz-coa');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-foz-coa';
@@ -34,9 +37,16 @@ export default function VilaNovaFozCoa() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Vila Nova de Foz Côa",
       "description": "Canalizador em Vila Nova de Foz Côa. Canalização para museus, quintas do Douro e habitações.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Vila Nova de Foz Côa", "addressRegion": "Guarda", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.0833", "longitude": "-7.1333" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });

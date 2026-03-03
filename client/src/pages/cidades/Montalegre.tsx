@@ -5,6 +5,7 @@ import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
+import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function Montalegre() {
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Montalegre() {
     }
     canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-montalegre');
 
+    const cityAddress = getCityAddress('montalegre');
+
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.id = 'schema-montalegre';
@@ -34,9 +37,16 @@ export default function Montalegre() {
       "@type": "Plumber",
       "name": "Canalizador Profissional Montalegre",
       "description": "Canalizador em Montalegre. Aquecimento central, proteção contra gelo e canalização para o Barroso.",
-      "address": { "@type": "PostalAddress", "addressLocality": "Montalegre", "addressRegion": "Vila Real", "addressCountry": "PT" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": cityAddress.streetAddress,
+        "addressLocality": cityAddress.addressLocality,
+        "addressRegion": cityAddress.addressRegion,
+        "addressCountry": cityAddress.addressCountry,
+        "postalCode": cityAddress.postalCode
+      },
       "geo": { "@type": "GeoCoordinates", "latitude": "41.8167", "longitude": "-7.7833" },
-      "telephone": "+351928484451",
+      "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€"
     });
