@@ -69,7 +69,7 @@ export default function FloatingCTA() {
                 aria-label={`Ligar para ${config.phone}`}
               >
                 <Phone className="w-5 h-5" />
-                <span>LIGAR AGORA</span>
+                <span>📞 Ligar → Técnico em 30min</span>
               </a>
 
               {/* Botão WhatsApp */}
@@ -83,12 +83,12 @@ export default function FloatingCTA() {
                 aria-label="Contactar via WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />
-                <span>WhatsApp</span>
+                <span>💬 WhatsApp → Resposta 5min</span>
               </a>
 
               {/* Petit texte */}
               <p className="text-xs text-gray-500 text-center mt-2">
-                Resposta em menos de 2 minutos
+                ⚡ Orçamento grátis sem compromisso
               </p>
             </div>
           </div>

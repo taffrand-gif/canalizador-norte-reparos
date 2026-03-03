@@ -31,7 +31,7 @@ export default function MobileStickyBar() {
         aria-label={`Ligar agora para ${config.phone}`}
       >
         <Phone className="w-5 h-5" />
-        <span>📞 Ligar Agora</span>
+        <span>📞 Ligar → 30min</span>
       </a>
 
       {/* Bouton WhatsApp — 50% droite */}
@@ -49,7 +49,7 @@ export default function MobileStickyBar() {
         aria-label="Contactar via WhatsApp"
       >
         <MessageCircle className="w-5 h-5" />
-        <span>💬 WhatsApp</span>
+        <span>💬 WhatsApp → 5min</span>
       </a>
     </div>
   );

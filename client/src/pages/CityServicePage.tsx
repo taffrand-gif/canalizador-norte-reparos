@@ -81,13 +81,13 @@ export default function CityServicePage() {
               className="bg-white hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               style={{ color: accentColor }}
             >
-              📞 Ligar Agora
+              📞 Ligar Agora → Técnico em 30min
             </a>
             <a
               href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
               className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
             >
-              💬 WhatsApp
+              💬 WhatsApp → Resposta em 5min
             </a>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function CityServicePage() {
               className="block w-full text-center text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
               style={{ backgroundColor: '#25D366' }}
             >
-              💬 Pedir Orçamento Gratuito
+              💬 Orçamento Grátis em 2min → Sem Compromisso
             </a>
           </div>
         </div>
@@ -152,13 +152,13 @@ export default function CityServicePage() {
               className="bg-white hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               style={{ color: accentColor }}
             >
-              📞 {ACTIVE_CONFIG.phone}
+              📞 Ligar → Atendemos em 30min
             </a>
             <a
               href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
               className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
             >
-              💬 WhatsApp
+              💬 WhatsApp → Orçamento Grátis
             </a>
           </div>
         </div>

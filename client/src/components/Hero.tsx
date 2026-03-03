@@ -50,7 +50,7 @@ export default function Hero() {
             aria-label={`Ligar agora para ${config.phone}`}
           >
             <Phone className="w-6 h-6 mr-3" />
-            LIGAR AGORA: {config.phone}
+            📞 Ligar Agora → Técnico em 30min
           </a>
           <a
             href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`}
@@ -64,7 +64,7 @@ export default function Hero() {
             }}
             aria-label="Contactar via WhatsApp"
           >
-            💬 WhatsApp
+            💬 WhatsApp → Resposta em 5min
           </a>
         </div>
       </div>

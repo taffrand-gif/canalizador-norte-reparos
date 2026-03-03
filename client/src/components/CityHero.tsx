@@ -51,10 +51,10 @@ export default function CityHero({
             className="bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors inline-flex items-center gap-3"
           >
             <span>📞</span>
-            <span>LIGUE AGORA: {formattedPhone}</span>
+            <span>Ligar Agora → Técnico em 30min</span>
           </button>
           <p className="mt-6 text-lg opacity-90">
-            ✅ Mais de {interventionsCount} intervenções realizadas em {cityName}
+            ✅ Mais de {interventionsCount} intervenções em {cityName} • ⚡ Resposta garantida em 40min
           </p>
         </div>
       </div>
