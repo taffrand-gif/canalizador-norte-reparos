@@ -170,13 +170,13 @@ export default function Braganca() {
                   <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
                       <span className="text-blue-600">♨️</span>
-                      Conhecimento em Sistema de Água
+                      Conhecimento em Águas Termais
                     </h3>
                     <p className="text-gray-600">
-                      Bragança é famosa pelas suas sistema de água. Especializamo-nos em:
-                      sistemas de canalização para propriedades com sistema de água,
-                      tratamento de água mineral natural, e instalações resistentes
-                      aos minerais específicos da região.
+                      Bragança possui águas com características minerais específicas.
+                      Especializamo-nos em sistemas de canalização adaptados à qualidade
+                      da água local, tratamento adequado, e instalações resistentes
+                      aos minerais presentes na região.
                     </p>
                   </div>
                   

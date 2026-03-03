@@ -495,8 +495,8 @@ export default function Mirandela() {
             <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
               <p className="text-lg">
                 ⚡ <strong>Precisa de um eletricista em Mirandela?</strong> Recomendamos:{' '}
-                <a href="https://staff-seekers.com/eletricista-mirandela" className="underline font-bold">
-                  staff-seekers.com
+                <a href="https://eletricista-norte-reparos.pt/eletricista-mirandela" className="underline font-bold">
+                  eletricista-norte-reparos.pt
                 </a>
               </p>
             </div>
