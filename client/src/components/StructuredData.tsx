@@ -32,11 +32,13 @@ export default function StructuredData() {
       "@id": `https://${config.domain}/#organization`,
       "name": config.name,
       "legalName": config.company.fullName,
+      "alternateName": serviceName,
       "description": config.description,
+      "slogan": "Serviço 24h/7d em Trás-os-Montes • Chegamos em 40 minutos",
       "url": `https://${config.domain}`,
       "telephone": businessInfo.phone,
       "email": config.email,
-      "priceRange": "€€ - €€€",
+      "priceRange": "€€",
       "image": `https://${config.domain}${config.seo.ogImage}`,
       "logo": `https://${config.domain}/logo.png`,
       "address": {
@@ -52,15 +54,25 @@ export default function StructuredData() {
         "latitude": "41.5382",
         "longitude": "-6.9667"
       },
-      "areaServed": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": "41.5382",
-          "longitude": "-6.9667"
+      "areaServed": [
+        {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "41.5382",
+            "longitude": "-6.9667"
+          },
+          "geoRadius": "100000"
         },
-        "geoRadius": "100000"
-      },
+        ...citiesServed.map(city => ({
+          "@type": "City",
+          "name": city,
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Trás-os-Montes"
+          }
+        }))
+      ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
@@ -78,17 +90,37 @@ export default function StructuredData() {
         "worstRating": "1"
       },
       "foundingDate": config.company.yearEstablished,
-      "knowsLanguage": "pt-PT",
+      "knowsLanguage": ["pt-PT"],
       "currenciesAccepted": "EUR",
-      "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
+      "hasMap": `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(businessInfo.baseAddress.addressLocality + ', Portugal')}`,
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.5382",
+          "longitude": "-6.9667"
+        },
+        "geoRadius": "100000"
+      },
       "makesOffer": config.services.map(service => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
           "name": service.label,
+          "description": `${service.label} profissional em Trás-os-Montes`,
           "provider": {
             "@id": `https://${config.domain}/#organization`
           }
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "EUR",
+          "price": service.basePrice
+        },
+        "availability": "https://schema.org/InStock",
+        "availableAtOrFrom": {
+          "@id": `https://${config.domain}/#organization`
         }
       }))
     };
