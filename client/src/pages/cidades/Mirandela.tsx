@@ -139,7 +139,7 @@ export default function Mirandela() {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={`tel:${config.phone}`}
+                  href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
                 >
                   📞 Canalizador Mirandela: {config.phone}
@@ -472,7 +472,7 @@ export default function Mirandela() {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <a
-                href={`tel:${config.phone}`}
+                href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
                 📞 {config.phone} (Mirandela)

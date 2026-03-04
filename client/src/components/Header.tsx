@@ -113,7 +113,7 @@ function Header() {
       <div className="text-white py-2" style={{ backgroundColor: config.colors.primary }}>
         <div className="container flex items-center justify-center gap-2 text-sm font-semibold">
           <Phone className="w-4 h-4" />
-          <a href={`tel:${config.phone.replace(/\s/g, '')}`} className="hover:underline">
+          <a href={`tel:+351${config.phone.replace(/\s/g, '')}`} className="hover:underline">
             LIGUE AGORA: {config.phone}
           </a>
         </div>
@@ -201,7 +201,7 @@ function Header() {
           {/* Mobile: phone button + hamburger */}
           <div className="flex items-center gap-2 lg:hidden">
             <a
-              href={`tel:${config.phone.replace(/\s/g, '')}`}
+              href={`tel:+351${config.phone.replace(/\s/g, '')}`}
               className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg text-white transition-colors"
               style={{ backgroundColor: config.colors.primary }}
               aria-label={`Ligar para ${config.phone}`}

@@ -132,7 +132,7 @@ export default function PriceCalculator() {
                   Quer um orçamento exato?
                 </p>
                 <a
-                  href={`tel:${config.phone.replace(/\s/g, '')}`}
+                  href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                   className="inline-flex items-center justify-center gap-2 font-bold text-white px-6 py-3 rounded-md shadow-[3px_3px_0_0_rgba(0,0,0,0.2)] min-h-[48px] min-w-[48px] bg-red-600 hover:bg-red-700 transition-colors"
                 >
                   <Phone className="w-4 h-4" />

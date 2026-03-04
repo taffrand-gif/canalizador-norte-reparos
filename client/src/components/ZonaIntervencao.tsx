@@ -75,7 +75,7 @@ export default function ZonaIntervencao() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={`tel:${config.phone.replace(/\s/g, '')}`}
+                href={`tel:+351${config.phone.replace(/\s/g, '')}`}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 font-bold text-white rounded-lg shadow-lg transition-all hover:shadow-xl hover:-translate-y-1"
                 style={{ backgroundColor: config.colors.primary }}
               >
