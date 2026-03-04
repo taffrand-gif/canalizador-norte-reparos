@@ -1,461 +1,420 @@
 ---
-title: "Autoclismo Não Enche: Reparar em 15 Minutos e Poupar €80"
+title: "Autoclismo Não Enche: 6 Causas e Como Reparar (2026)"
 slug: "autoclismo-nao-enche"
-category: "reparacao"
+category: "Reparações"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Autoclismo não enche: boia avariada (€5-15), válvula entrada entupida, pressão baixa. Repara 15 minutos DIY ou picheleiro €50-80. Descubra causas e soluções."
-keywords: ["autoclismo não enche", "reparar autoclismo", "boia autoclismo", "picheleiro", "Trás-os-Montes"]
+excerpt: "Autoclismo não enche ou enche muito devagar? Descubra as 6 causas principais (desde válvula entupida até flutuador avariado) e como reparar. Guia completo com soluções DIY."
+keywords: ["autoclismo não enche", "autoclismo demora encher", "válvula autoclismo", "flutuador avariado", "picheleiro Bragança", "reparar autoclismo"]
+priority: "HIGH DEMAND"
 ---
 
-# Autoclismo Não Enche: Reparar em 15 Minutos e Poupar €80
+# Autoclismo Não Enche: 6 Causas e Como Reparar (2026)
 
-**Autoclismo não enche? Água não sobe? Demora muito?** Autoclismo que não enche **causa: boia avariada (€5-15), válvula entrada entupida, pressão água baixa**. Reparação DIY 15 minutos ou picheleiro €50-80. Problema comum, solução fácil. Neste guia prático, explicamos causas, diagnóstico passo-a-passo, reparação DIY e quando chamar profissional.
+**O autoclismo não enche ou demora muito tempo a encher?** Este é um problema comum mas irritante que geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de autoclismos que não enchem e **como reparar cada uma**.
 
-## 🚽 Como Funciona Autoclismo
+> ⚠️ **Precisa de ajuda profissional?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida em 30 minutos, garantia incluída.
 
-### Componentes
+## 🔍 Como Funciona um Autoclismo?
 
-**Boia** (flutuador):
-- Controla nível água
-- Sobe com água
-- Fecha válvula quando cheio
-- **Peça crítica**
+### Componentes Principais
 
-**Válvula entrada** (torneira):
-- Deixa água entrar
-- Controlada pela boia
-- Pode entupir (calcário)
+**1. Válvula de entrada (torneira de boia)**
+- Controla entrada de água
+- Abre quando nível baixa
+- Fecha quando nível sobe
 
-**Mecanismo descarga**:
-- Botão/puxador
-- Válvula descarga
-- Esvazia autoclismo
+**2. Flutuador (boia)**
+- Sobe e desce com o nível da água
+- Aciona a válvula de entrada
+- Tipos: bola ou pistão
 
-**Tubo enchimento**:
-- Liga válvula ao autoclismo
-- Pode ter filtro
+**3. Válvula de descarga**
+- Liberta água para a sanita
+- Acionada pelo botão ou puxador
+- Tipos: sifão ou válvula de fundo
+
+**4. Tubo de transbordamento**
+- Evita que água transborde
+- Drena excesso para a sanita
 
 ### Funcionamento Normal
 
-1. Puxar descarga
-2. Água esvazia
-3. Boia desce
-4. Válvula abre
-5. Água enche
-6. Boia sobe
-7. Válvula fecha
-8. **Ciclo completo: 30-60 segundos**
+1. Puxa-se o autoclismo
+2. Válvula de descarga abre
+3. Água desce para a sanita
+4. Flutuador desce
+5. Válvula de entrada abre
+6. Água enche o autoclismo
+7. Flutuador sobe
+8. Válvula de entrada fecha
+9. Pronto para novo uso
+
+**Tempo normal de enchimento:** 30-90 segundos
 
-## 🔍 Causas Autoclismo Não Enche
+## 🔧 6 Causas Principais e Soluções
 
-### 1. Boia Avariada (40% Casos)
+### Causa 1: Válvula de Corte Fechada ou Parcialmente Fechada (30% dos casos)
 
-**Sintomas**:
-- Não enche nada
-- Enche pouco
-- Não para encher (transborda)
+**Como identificar:**
+- Autoclismo não enche nada
+- Ou enche muito devagar
+- Problema começou após trabalhos de canalização
+- Outras torneiras funcionam normalmente
 
-**Causas**:
-- Boia furada (enche água)
-- Haste boia partida
-- Mecanismo preso
-- Calcário
+**Por que acontece:**
+Alguém fechou a válvula de corte (debaixo ou atrás do autoclismo) e não abriu completamente depois.
 
-**Solução**: Substituir boia (€5-15)
+**Solução: Abrir válvula completamente (Grátis)**
 
-### 2. Válvula Entrada Entupida (30%)
+**Passo a passo:**
+1. Localize a válvula de corte (geralmente debaixo do autoclismo, à esquerda)
+2. Rode no sentido contrário aos ponteiros do relógio
+3. Rode até não rodar mais (totalmente aberta)
+4. Puxe o autoclismo e verifique
 
-**Sintomas**:
-- Enche muito devagar
-- Fio água fino
-- Ruído estranho
+**Muito simples mas resolve 30% dos casos!**
 
-**Causa**:
-- Calcário acumula
-- Filtro entupido
-- Sujidade
+### Causa 2: Filtro da Válvula Entupido (25% dos casos)
 
-**Solução**: Limpar válvula (grátis) ou substituir (€10-20)
+**Como identificar:**
+- Autoclismo enche muito devagar (5-10 minutos)
+- Água sai em fio fino
+- Problema gradual (piorou com o tempo)
+- Água calcária na região
 
-### 3. Pressão Água Baixa (15%)
+**Por que acontece:**
+Calcário, ferrugem e sedimentos acumulam no filtro da válvula de entrada, bloqueando o fluxo de água.
 
-**Sintomas**:
-- Enche devagar
-- Todas torneiras fracas
-- Problema geral casa
+**Solução: Limpar filtro (Grátis - €5)**
 
-**Causas**:
-- Válvula geral semi-fechada
-- Problema rede pública
-- Fuga tubagem
+**Passo a passo:**
 
-**Solução**: Verificar válvula geral, contactar empresa águas
+1. **Feche a válvula de corte** (debaixo do autoclismo)
 
-### 4. Válvula Geral Autoclismo Fechada (10%)
+2. **Puxe o autoclismo** para esvaziar
 
-**Sintomas**:
-- Não enche nada
-- Válvula debaixo autoclismo fechada
+3. **Desmonte a válvula de entrada:**
+   - Desaperte a porca que prende a válvula
+   - Retire a válvula cuidadosamente
+   - Tenha um balde à mão (vai pingar água)
 
-**Causa**:
-- Alguém fechou (limpeza, reparação)
-- Esqueceu abrir
+4. **Localize o filtro:**
+   - Pequena rede/malha na entrada da válvula
+   - Geralmente na base onde entra o tubo
 
-**Solução**: Abrir válvula (grátis, 5 segundos)
+5. **Limpe o filtro:**
+   - Retire o filtro (pode estar encaixado)
+   - Lave com água corrente
+   - Se tiver calcário, deixe de molho em vinagre 30 minutos
+   - Escove com escova de dentes velha
+   - Enxague bem
 
-### 5. Tubo Entrada Dobrado/Partido (5%)
+6. **Volte a montar:**
+   - Coloque o filtro de volta
+   - Reinstale a válvula
+   - Aperte a porca (firme mas sem forçar)
+   - Abra a válvula de corte
+   - Teste o enchimento
 
-**Sintomas**:
-- Não enche
-- Fuga água visível
+**Frequência:** Limpar a cada 6-12 meses em Trás-os-Montes (água calcária).
 
-**Causa**:
-- Tubo flexível dobrado
-- Tubo partido
+### Causa 3: Flutuador Avariado ou Mal Ajustado (20% dos casos)
 
-**Solução**: Endireitar ou substituir tubo (€5-10)
+**Como identificar:**
+- Autoclismo enche mas para antes de estar cheio
+- Ou enche demais e transborda
+- Flutuador não sobe/desce corretamente
+- Flutuador com água dentro (se for bola)
 
-## 🔧 Diagnóstico Passo-a-Passo
+**Por que acontece:**
+- Flutuador furado (enche de água e não flutua)
+- Haste do flutuador dobrada
+- Ajuste incorreto (fecha válvula cedo demais)
 
-### Passo 1: Verificar Válvula Geral (5 segundos)
+**Solução A: Ajustar flutuador (Grátis)**
 
-**Localização**: Debaixo autoclismo, parede ou chão
+**Se flutuador fecha válvula cedo demais:**
+1. Dobre a haste do flutuador ligeiramente para baixo
+2. Ou ajuste o parafuso de regulação (se tiver)
+3. Teste puxando o autoclismo
+4. Ajuste até nível correto (2-3cm abaixo do transbordamento)
 
-**Verificar**:
-- Válvula aberta? (paralela ao tubo)
-- Se fechada: Abrir rodando
+**Solução B: Substituir flutuador (€8-20)**
 
-**Se resolve**: Problema resolvido!
-**Se não**: Continuar diagnóstico
+**Se flutuador está furado ou partido:**
+1. Feche a válvula de corte
+2. Esvazie o autoclismo
+3. Desenrosque o flutuador velho
+4. Enrosque o flutuador novo
+5. Ajuste a altura
+6. Abra a válvula e teste
 
-### Passo 2: Verificar Pressão Água (10 segundos)
+**Custo:** Flutuador novo €8-20 (universal, vende em qualquer loja de bricolage).
 
-**Teste**:
-- Abrir torneira lavatório
-- Pressão normal?
+### Causa 4: Válvula de Entrada Avariada (15% dos casos)
 
-**Se pressão baixa todas torneiras**:
-- Problema geral (não é autoclismo)
-- Verificar válvula geral casa
-- Contactar empresa águas
+**Como identificar:**
+- Autoclismo não enche mesmo com válvula de corte aberta
+- Ou enche continuamente e transborda
+- Válvula faz ruído estranho
+- Água pinga constantemente
 
-**Se pressão normal outras torneiras**:
-- Problema é autoclismo
-- Continuar diagnóstico
+**Por que acontece:**
+Válvula de entrada (mecanismo interno) está gasta, calcificada ou partida. Vida útil: 5-10 anos.
 
-### Passo 3: Abrir Autoclismo (30 segundos)
+**Solução: Substituir válvula de entrada (€15-40)**
 
-**Como**:
-- Remover tampa (puxar vertical)
-- Ver interior
+**Passo a passo:**
 
-**Observar**:
-- Água entra? (fio água)
-- Boia move?
-- Válvula abre?
+1. **Feche a válvula de corte**
 
-### Passo 4: Testar Boia (1 minuto)
+2. **Esvazie o autoclismo**
 
-**Teste manual**:
-- Levantar boia manualmente
-- Água para entrar?
+3. **Desmonte a válvula velha:**
+   - Desaperte a porca por baixo do autoclismo
+   - Retire o tubo de alimentação
+   - Levante a válvula para fora
 
-**Se para**: Boia OK, problema é válvula
-**Se não para**: Boia avariada
+4. **Instale a válvula nova:**
+   - Coloque a junta de borracha na base
+   - Insira a válvula no furo
+   - Aperte a porca por baixo (firme mas sem forçar)
+   - Ligue o tubo de alimentação
 
-**Teste água boia**:
-- Retirar boia
-- Agitar
-- Ouve água dentro?
+5. **Ajuste a altura:**
+   - Válvulas modernas têm ajuste telescópico
+   - Ajuste para que o nível de água fique 2-3cm abaixo do transbordamento
 
-**Se sim**: Boia furada, substituir
+6. **Teste:**
+   - Abra a válvula de corte
+   - Deixe encher
+   - Verifique que fecha corretamente
+   - Puxe o autoclismo e verifique enchimento
 
-### Passo 5: Verificar Válvula Entrada (2 minutos)
+**Custo:**
+- Válvula universal: €15-25
+- Válvula de marca (Geberit, Roca): €25-40
 
-**Observar**:
-- Água entra devagar? Entupida
-- Não entra nada? Bloqueada
-- Fuga? Junta gasta
+**Tempo:** 30-45 minutos (primeira vez)
 
-**Teste**:
-- Fechar válvula geral autoclismo
-- Desmontar válvula
-- Ver calcário/sujidade
+### Causa 5: Pressão de Água Baixa (8% dos casos)
 
-## 🛠️ Reparação DIY
+**Como identificar:**
+- Autoclismo enche mas muito devagar (> 5 minutos)
+- Outras torneiras também têm pressão baixa
+- Mora em andar alto
+- Problema piorou recentemente
 
-### Substituir Boia (15 minutos, €5-15)
+**Por que acontece:**
+Pressão de água insuficiente na rede. Autoclismo precisa de mínimo 0,5 bar para encher adequadamente.
 
-**Ferramentas**:
-- Chave inglesa ou alicate
-- Boia nova (levar velha loja)
+**Solução: Ver artigo específico sobre pressão baixa**
 
-**Passos**:
-1. Fechar válvula geral autoclismo
-2. Esvaziar autoclismo (puxar descarga)
-3. Desaparafusar boia velha (rosca)
-4. Aparafusar boia nova
-5. Abrir válvula
-6. Testar
+**Soluções possíveis:**
+- Limpar filtros de todas as torneiras
+- Verificar válvula geral da casa
+- Instalar bomba pressurizadora (€200-600)
+- Contactar entidade gestora de água
 
-**Custo**: €5-15 (boia) + 15 minutos
+**Ver artigo completo:** [Pressão de Água Baixa: 9 Causas e Soluções](/blog/pressao-agua-baixa)
 
-### Limpar Válvula Entrada (20 minutos, €0)
+### Causa 6: Tubo de Alimentação Dobrado ou Entupido (2% dos casos)
 
-**Ferramentas**:
-- Chave inglesa
-- Vinagre
-- Escova velha
+**Como identificar:**
+- Autoclismo enche muito devagar
+- Tubo flexível visualmente dobrado ou esmagado
+- Tubo muito antigo (> 10 anos)
 
-**Passos**:
-1. Fechar válvula geral autoclismo
-2. Esvaziar autoclismo
-3. Desmontar válvula entrada
-4. Remover filtro (se existe)
-5. Limpar calcário (vinagre + escova)
-6. Montar tudo
-7. Abrir válvula
-8. Testar
+**Por que acontece:**
+Tubo flexível que liga a válvula de corte ao autoclismo está dobrado, esmagado ou calcificado internamente.
 
-**Custo**: €0 + 20 minutos
+**Solução: Substituir tubo flexível (€5-15)**
 
-### Substituir Válvula Entrada (30 minutos, €10-20)
+**Passo a passo:**
+1. Feche a válvula de corte
+2. Desaperte o tubo da válvula de corte (use chave inglesa)
+3. Desaperte o tubo da válvula do autoclismo
+4. Instale tubo novo (aperte à mão primeiro, depois 1/4 volta com chave)
+5. Abra a válvula de corte
+6. Verifique fugas
+7. Teste o enchimento
 
-**Se limpar não resolve**:
-1. Fechar válvula geral
-2. Esvaziar autoclismo
-3. Desmontar válvula velha
-4. Levar loja (comprar igual)
-5. Montar válvula nova
-6. Testar
+**Custo:** Tubo flexível 3/8" × 30-50cm: €5-15
 
-**Custo**: €10-20 + 30 minutos
+## 💰 Custos de Reparação
 
-## 💰 Custos Reparação
+### Soluções DIY (Faça Você Mesmo)
 
-### DIY
+| Solução | Custo | Dificuldade | Tempo |
+|---------|-------|-------------|-------|
+| Abrir válvula de corte | Grátis | Muito fácil | 2 min |
+| Limpar filtro | Grátis | Fácil | 20 min |
+| Ajustar flutuador | Grátis | Fácil | 5 min |
+| Substituir flutuador | €8-20 | Fácil | 15 min |
+| Substituir válvula entrada | €15-40 | Moderada | 30-45 min |
+| Substituir tubo flexível | €5-15 | Fácil | 15 min |
 
-**Boia nova**: €5-15
-**Válvula entrada**: €10-20
-**Tubo flexível**: €5-10
-**Ferramentas** (se não tem): €10-20
-**Tempo**: 15-30 minutos
+**Total DIY:** €0-40 (maioria dos casos)
 
-**Total**: €5-45
+### Soluções Profissionais
 
-### Picheleiro
+| Serviço | Preço em Trás-os-Montes |
+|---------|-------------------------|
+| Diagnóstico | €40-60 |
+| Limpar filtro | €40-70 |
+| Ajustar/substituir flutuador | €50-90 |
+| Substituir válvula entrada | €60-120 |
+| Substituir mecanismo completo | €80-150 |
+| Reparar fuga | €50-100 |
+| Urgência 24h | +€30-50 |
 
-**Reparação simples** (boia):
-- Mão obra: €40-60
-- Peça: €10-15
-- **Total**: €50-75
+> 💡 **Precisa de picheleiro?** Certificado em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida, peças em stock, garantia incluída.
 
-**Substituir válvula**:
-- Mão obra: €50-80
-- Válvula: €15-25
-- **Total**: €65-105
+## 🔍 Diagnóstico Rápido
 
-**Autoclismo novo** (se muito velho):
-- Autoclismo: €80-200
-- Instalação: €80-150
-- **Total**: €160-350
+### Fluxograma de Diagnóstico
 
-### Comparação
+**1. Autoclismo não enche NADA:**
+- Verifique válvula de corte → Abrir completamente
+- Se continuar: válvula de entrada avariada → Substituir
 
-**DIY**: €5-45 + 30 minutos
-**Picheleiro**: €50-105 + 0 minutos
+**2. Autoclismo enche MUITO DEVAGAR (> 3 minutos):**
+- Limpe filtro da válvula
+- Verifique pressão de água (outras torneiras)
+- Verifique tubo flexível (dobrado?)
 
-**Poupança DIY**: €45-100
+**3. Autoclismo enche mas PARA ANTES DE ESTAR CHEIO:**
+- Ajuste flutuador (dobrar haste para baixo)
+- Ou substitua flutuador (se furado)
 
-## 🏠 Situações Específicas
+**4. Autoclismo enche DEMAIS e TRANSBORDA:**
+- Ajuste flutuador (dobrar haste para cima)
+- Ou válvula de entrada não fecha → Substituir
 
-### Água Calcária Trás-os-Montes
+**5. Autoclismo enche mas ÁGUA PINGA CONSTANTEMENTE:**
+- Válvula de entrada não fecha bem → Substituir
+- Ou válvula de descarga com fuga → Ver outro artigo
 
-**Problema**:
-- Água muito calcária região
-- Válvulas entopem rápido
-- Boia calcifica
-- **Manutenção mais frequente**
+## 🛡️ Manutenção Preventiva
 
-**Soluções**:
-- Limpar válvula anual (vinagre)
-- Descalcificador água (€500-1,500)
-- Substituir peças preventivo
+### Limpeza Regular
 
-### Autoclismos Antigos
+**Trimestral:**
+- Limpe o interior do autoclismo (algas, calcário)
+- Verifique que flutuador se move livremente
+- Teste o enchimento (deve ser 30-90 segundos)
 
-**Desafio**:
-- Peças não existem
-- Mecanismo obsoleto
-- Gasta muita água
+**Semestral:**
+- Limpe o filtro da válvula de entrada
+- Verifique tubo flexível (sinais de desgaste)
+- Teste válvula de corte (abrir e fechar)
 
-**Solução**:
-- Tentar adaptar peças universais
-- Se impossível: Substituir autoclismo completo (€160-350)
-- **Oportunidade modernizar** (dupla descarga, poupa água)
+**Anual:**
+- Descalcifique a válvula de entrada (vinagre)
+- Verifique todas as juntas (sinais de fuga)
+- Ajuste o flutuador se necessário
 
-### Autoclismo Embutido
+### Cuidados Especiais em Trás-os-Montes
 
-**Mais complexo**:
-- Acesso difícil
-- Precisa abrir parede (às vezes)
-- **Chamar picheleiro recomendado**
+**Água muito calcária:**
+- Limpe filtro mensalmente (não trimestralmente)
+- Descalcifique válvula a cada 6 meses
+- Use produtos anti-calcário no autoclismo (€3-8)
+- Considere descalcificador de água (€300-800)
 
-**Custo**: €80-150
+**Inverno rigoroso (-5°C a -10°C):**
+- Isole tubagem se autoclismo em zona fria
+- Não deixe casa vazia sem drenar autoclismo
+- Verifique após geadas (tubos podem partir)
 
-### Pressão Água Muito Alta
+### Quando Substituir Componentes
 
-**Problema**:
-- Pressão >4 bar
-- Válvula não fecha bem
-- Transborda
+**Válvula de entrada:**
+- A cada 5-10 anos (preventivo)
+- Se calcificada e limpeza não resolve
+- Se faz ruído excessivo
+- Se não fecha corretamente
 
-**Solução**:
-- Redutor pressão (€30-60)
-- Ajustar boia
+**Flutuador:**
+- Se furado (enche de água)
+- Se partido ou rachado
+- Se não flutua corretamente
 
-## 📋 Prevenção Problemas
-
-### Manutenção Anual
-
-**Verificar**:
-- Boia funciona
-- Válvula não entupida
-- Sem fugas
-- Descarga eficaz
-
-**Limpar**:
-- Válvula entrada (vinagre)
-- Interior autoclismo
-- Remover calcário
-
-**Custo**: €0 (DIY) ou €50-80 (picheleiro)
-
-### Uso Correto
-
-**Fazer**:
-- Puxar descarga completamente
-- Não forçar mecanismo
-- Limpar regular
-
-**Não fazer**:
-- ❌ Deitar objetos sanita
-- ❌ Forçar botão descarga
-- ❌ Ignorar problemas (piora)
-
-### Qualidade Água
-
-**Descalcificador** (€500-1,500):
-- Remove calcário
-- Protege autoclismo
-- Prolonga vida peças 2-3x
-- **Vale pena se água muito dura**
-
-## 🚨 Quando Chamar Picheleiro
-
-### DIY Possível
-
-✅ Boia avariada (simples)
-✅ Válvula entupida (limpar)
-✅ Tem ferramentas básicas
-✅ Autoclismo acessível
-✅ Tempo disponível
-
-### Chamar Picheleiro
-
-✅ Autoclismo embutido
-✅ Não consegue diagnosticar
-✅ Peça não encontra
-✅ Fuga além autoclismo
-✅ Problema tubagem
-✅ Sem tempo/vontade
-✅ Quer garantia
-
-### Urgente
-
-✅ Fuga grande
-✅ Transborda constantemente
-✅ Não consegue fechar água
-✅ Inundação
-
-## ✅ Por Que Escolher Norte Reparos
-
-### Reparação Rápida
-
-- Diagnóstico imediato
-- Peças stock (boias, válvulas)
-- Reparação 15-30 minutos
-- Garantia 6 meses
-
-### Todas Marcas
-
-- Roca, Sanindusa, Ideal Standard
-- Marcas portuguesas
-- Autoclismos antigos
-- Importação (se necessário)
-
-### Preços Justos
-
-- Reparação: €50-80
-- Autoclismo novo: €160-350
-- Sem surpresas
-- Orçamento grátis
-
-### Conhecimento Local
-
-- Experiência Trás-os-Montes
-- Água calcária especialidade
-- Casas antigas
-- Soluções adaptadas
-
-### Resposta Rápida
-
-- **30-60 minutos** em Bragança, Mirandela, Macedo
-- 24h/7d incluindo feriados
-- Urgências prioritárias
-- Stock peças
-
-## 🌍 Cobertura
-
-Atendemos **86 cidades** em Trás-os-Montes:
-- Bragança, Mirandela, Macedo de Cavaleiros
-- Vila Real, Chaves, Vinhais
-- Vimioso, Miranda do Douro, Mogadouro
-- E mais 77 cidades
-
-## 💬 Contacte-nos
-
-### Reparação Autoclismo
-📞 **+351 928 484 451**
-💬 **[WhatsApp](https://wa.me/351928484451?text=Autoclismo%20não%20enche)**
-
-**Resposta em 5 minutos. Reparação rápida e garantida.**
-
----
+**Mecanismo completo:**
+- Se autoclismo tem > 15 anos
+- Se múltiplos componentes avariados
+- Custo: €30-80 (kit completo)
 
 ## ❓ Perguntas Frequentes
 
-### Por que autoclismo não enche?
-**Causas**: Boia avariada (40%), válvula entrada entupida (30%), pressão baixa (15%), válvula fechada (10%), tubo dobrado (5%). Diagnóstico: verificar válvula geral, testar boia, limpar válvula.
+**1. Autoclismo demora 5 minutos a encher, é normal?**
+Não. Normal é 30-90 segundos. 5 minutos indica: filtro entupido, válvula parcialmente fechada, ou pressão de água baixa. Comece por limpar o filtro.
 
-### Como reparar autoclismo não enche?
-**DIY**: Substituir boia (€5-15, 15 min) ou limpar válvula entrada (€0, 20 min). Ferramentas: chave inglesa, vinagre. **Picheleiro**: €50-105. Fácil reparar sozinho.
+**2. Posso usar o autoclismo enquanto está a encher?**
+Sim, mas não é recomendado. Descarga será fraca (pouca água). Melhor aguardar enchimento completo para descarga eficaz.
 
-### Quanto custa reparar?
-**DIY**: €5-45 (boia €5-15, válvula €10-20). **Picheleiro**: €50-105 (reparação €50-80, autoclismo novo €160-350). Poupança DIY: €45-100.
+**3. Autoclismo faz barulho ao encher, é normal?**
+Barulho leve (água a correr) é normal. Barulho alto (assobio, vibração) indica: válvula de entrada gasta, pressão excessiva, ou tubo a vibrar. Substitua válvula ou instale redutor de pressão.
 
-### Boia autoclismo avariada sintomas?
-**Sintomas**: Não enche, enche pouco, não para encher (transborda). **Teste**: Levantar boia manualmente - se água não para = boia avariada. Agitar boia - se ouve água dentro = furada. Substituir €5-15.
+**4. Água do autoclismo fica amarela/castanha, porquê?**
+Ferrugem da tubagem ou do depósito. Limpe o autoclismo, deixe correr água até sair limpa. Se persistir, pode ser tubagem velha (ferro galvanizado) que precisa substituição.
 
-### Válvula entrada entupida como limpar?
-**Passos**: Fechar válvula geral, esvaziar autoclismo, desmontar válvula, remover filtro, limpar calcário (vinagre + escova), montar, testar. Tempo: 20 minutos. Custo: €0. Fazer anual preventivo.
+**5. Posso desligar a água do autoclismo à noite?**
+Sim, pode fechar a válvula de corte. Útil se: autoclismo pinga (economiza água), vai fazer trabalhos, ou vai ausentar-se. Não há problema em deixar fechada.
 
-### Autoclismo enche devagar?
-**Causa**: Válvula entrada entupida (calcário). **Solução**: Limpar válvula (€0, 20 min) ou substituir (€10-20). Água calcária Trás-os-Montes entope rápido - limpar anual preventivo.
+**6. Autoclismo enche mas água continua a correr, o que fazer?**
+Problema diferente: válvula de descarga com fuga (não válvula de entrada). Ver artigo específico sobre autoclismo que pinga. Solução: substituir válvula de descarga (€15-40).
+
+**7. Vale a pena reparar ou comprar autoclismo novo?**
+**Reparar se:** Problema simples (válvula, flutuador), autoclismo < 15 anos, custo < €50. **Substituir se:** Múltiplos problemas, autoclismo > 20 anos, rachado, ou modelo muito antigo (gasta muita água). Autoclismo novo: €80-250.
+
+**8. Autoclismo de dupla descarga não enche, é diferente?**
+Mecanismo é similar. Diagnóstico é o mesmo: válvula de corte, filtro, flutuador, válvula de entrada. Peças podem ser mais caras (€25-60) mas reparação é igual.
+
+## 🎯 Conclusão: Autoclismo Que Não Enche Tem Solução Simples
+
+Na maioria dos casos, autoclismo que não enche tem **solução fácil e barata**:
+
+**Causas mais comuns:**
+1. **Válvula de corte fechada** (30%) → Abrir (grátis)
+2. **Filtro entupido** (25%) → Limpar (grátis)
+3. **Flutuador mal ajustado** (20%) → Ajustar (grátis) ou substituir (€8-20)
+4. **Válvula de entrada avariada** (15%) → Substituir (€15-40)
+
+**90% dos casos resolvem-se com menos de €40!**
+
+**Quando chamar picheleiro:**
+- Não consegue identificar o problema
+- Não tem ferramentas ou experiência
+- Problema persiste após tentativas DIY
+- Precisa substituir mecanismo completo
+- Quer garantia profissional
+
+**Manutenção:** Limpar filtro a cada 6 meses = evita 80% dos problemas.
+
+### 🚨 Autoclismo Não Enche? Ajuda Profissional em Trás-os-Montes
+
+**Norte Reparos — Picheleiro Certificado em Bragança**
+
+📞 **Ligue agora: [928 484 451](tel:+351928484451)**  
+💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20autoclismo%20não%20enche.%20Pode%20ajudar%3F)**
+
+✅ Reparação rápida (30-45 minutos)  
+✅ Peças de substituição em stock  
+✅ Diagnóstico grátis  
+✅ Garantia 1 ano no serviço  
+✅ Preços transparentes  
+✅ Técnico em sua casa em 30-45 minutos  
+✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
+
+**Não fique sem autoclismo funcional!** Contacte-nos já para reparação rápida e garantida.
 
 ---
 
-**Autoclismo não enche? Boia €5-15 ou limpar válvula grátis. Repara 15 minutos DIY.**
-
-📞 +351 928 484 451 | 💬 WhatsApp | 🌐 canalizador-norte-reparos.pt
+**Artigos relacionados:**
+- [Pressão de Água Baixa: 9 Causas e Soluções](/blog/pressao-agua-baixa)
+- [Aquecedor de Água Não Aquece: 8 Causas](/blog/aquecedor-agua-nao-aquece)
+- [Substituir Torneira de Cozinha: Guia Completo](/blog/substituir-torneira-cozinha)
+- [Desentupir Ralo de Chuveiro: 7 Métodos](/blog/desentupir-ralo-chuveiro)
+- [Picheleiro em Bragança 24h](/canalizador-braganca)
