@@ -1,381 +1,410 @@
 ---
-title: "Torneira Pinga: Como Reparar e Poupar €200/Ano em Água"
+title: "Torneira Pinga: Reparar em 10 Minutos e Poupar €200/Ano"
 slug: "torneira-pinga-reparar"
-category: "problemas-comuns"
-date: "2026-03-03"
+category: "reparacao"
+date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Torneira pinga constantemente? Descubra como uma torneira a pingar desperdiça 30L/dia, aprenda a reparar sozinho ou quando chamar canalizador."
-keywords: ["torneira pinga", "reparar torneira", "poupar água", "canalizador", "Trás-os-Montes"]
+excerpt: "Torneira pinga: desperdiça 20,000L/ano (€40-80), repara 10 minutos €5-15. Descubra causas (junta gasta, cartucho), reparação DIY e quando chamar picheleiro."
+keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro", "Trás-os-Montes"]
 ---
 
-# Torneira Pinga: Como Reparar e Poupar €200/Ano em Água
+# Torneira Pinga: Reparar em 10 Minutos e Poupar €200/Ano
 
-**Torneira pinga constantemente? "É só uma gota..."** Errado. Uma torneira a pingar desperdiça **30 litros/dia** = **11,000 litros/ano** = **€150-200 em água desperdiçada**. Neste guia completo, explicamos como reparar sozinho ou quando chamar profissional.
+**Torneira pinga? Barulho irritante? Conta água alta?** Torneira que pinga **desperdiça 20,000L/ano (€40-80 água + €30-50 saneamento), repara 10 minutos €5-15**. Causa: junta gasta (90%), cartucho avariado, calcário. Reparação DIY fácil ou picheleiro €50-80. Em Trás-os-Montes, com água calcária, juntas gastam mais rápido. Neste guia prático, explicamos causas, reparação passo-a-passo, custos e quando chamar profissional.
 
-## 💧 O Custo Real de Uma Torneira a Pingar
+## 💧 Quanto Desperdiça Torneira Pinga
 
-### Desperdício por Velocidade
+### Cálculo Desperdício
 
-**1 gota/segundo** (pinga lento):
-- 30 litros/dia
-- 900 litros/mês
-- 10,950 litros/ano
-- **Custo**: €150-180/ano
+**1 gota/segundo**:
+- 1 gota = 0.05 mL
+- 1 segundo = 1 gota
+- 1 minuto = 60 gotas = 3 mL
+- 1 hora = 180 mL
+- 1 dia = 4.3 L
+- 1 ano = 1,570 L
 
-**2 gotas/segundo** (pinga médio):
-- 60 litros/dia
-- 1,800 litros/mês
-- 21,900 litros/ano
-- **Custo**: €300-360/ano
+**10 gotas/segundo** (pinga rápido):
+- 1 ano = 15,700 L
 
-**Fio de água** (pinga rápido):
-- 200+ litros/dia
-- 6,000+ litros/mês
-- 73,000+ litros/ano
-- **Custo**: €1,000-1,200/ano
+**Pinga constante** (fio água):
+- 1 ano = 30,000-50,000 L
 
-### Impacto Ambiental
+### Custo Anual
 
-**11,000 litros/ano** =
-- 73 banheiras cheias
-- 183 duches de 10 minutos
-- Água potável desperdiçada
+**1 gota/segundo**:
+- Água: €3-6/ano
+- Saneamento: €2-4/ano
+- **Total**: €5-10/ano
 
-**Em Trás-os-Montes** (verões secos):
-- Água é recurso precioso
-- Restrições no verão
-- Responsabilidade ambiental
+**10 gotas/segundo**:
+- Água: €30-60/ano
+- Saneamento: €20-40/ano
+- **Total**: €50-100/ano
 
-## 🔍 5 Causas de Torneira a Pingar
+**Fio água**:
+- Água: €60-120/ano
+- Saneamento: €40-80/ano
+- **Total**: €100-200/ano
 
-### 1. Vedante (Borracha) Gasto
+**Reparação**: €5-15 (DIY) ou €50-80 (picheleiro)
+**ROI**: Imediato
 
-**Causa mais comum** (60% dos casos):
-- Vedante deteriora com uso
-- Vida útil: 3-5 anos
-- Água dura acelera desgaste
+## 🔍 Causas Torneira Pinga
 
-**Sinais**:
-- Pinga pela bica
-- Começou gradualmente
-- Piora ao longo do tempo
-- Torneira tem 3+ anos
+### 1. Junta Gasta (90% Casos)
 
-**Tipo de torneira**:
-- **Torneira clássica** (2 volantes): 2 vedantes
-- **Monocomando**: cartucho cerâmico
+**O que é**:
+- Borracha vedação
+- Dentro torneira
+- Veda passagem água
+- **Gasta com tempo**
 
-**Solução**: Substituir vedante (€5-15 DIY) ou cartucho (€20-40)
+**Sintomas**:
+- Pinga quando fechada
+- Pinga constante
+- Aumenta gradualmente
 
-### 2. Assento Danificado
+**Vida útil**:
+- Água normal: 5-10 anos
+- Água calcária: 2-5 anos
+- Uso intenso: 2-3 anos
 
-**O que é**: Superfície metálica onde vedante encosta
+**Solução**: Substituir junta (€2-5)
 
-**Como danifica**:
-- Vedante gasto não veda
-- Água corrói assento
-- Cria sulco ou rugosidade
-- Vedante novo não resolve
+### 2. Cartucho Avariado (Torneiras Modernas)
 
-**Sinais**:
-- Trocou vedante mas continua a pingar
-- Torneira antiga (10+ anos)
-- Água dura (calcário)
+**O que é**:
+- Mecanismo cerâmico
+- Controla água
+- Torneiras monocomando
+- **Mais durável que junta**
 
-**Solução**:
-- Polir assento (€40-80 profissional)
-- Ou substituir torneira (€50-150)
+**Sintomas**:
+- Pinga
+- Duro rodar
+- Não fecha completamente
+- Água sai morna sempre
 
-### 3. Junta Tórica (O-Ring) Danificada
+**Vida útil**: 10-20 anos
 
-**O que é**: Anel borracha que veda base da torneira
+**Solução**: Substituir cartucho (€15-40)
 
-**Sinais**:
-- Pinga pela **base** (não pela bica)
-- Água acumula em volta da torneira
-- Piora ao abrir torneira
+### 3. Calcário Acumulado
 
-**Solução**: Substituir junta tórica (€3-10 DIY)
+**Como acontece**:
+- Água calcária (Trás-os-Montes)
+- Depósitos calcário
+- Impede fecho completo
+- **Comum região**
 
-### 4. Cartucho Cerâmico Avariado
+**Sintomas**:
+- Pinga intermitente
+- Duro rodar
+- Ruído
 
-**Torneiras monocomando modernas**:
-- Cartucho cerâmico controla água
-- Vida útil: 5-10 anos
-- Calcário danifica discos cerâmicos
+**Solução**: Limpar calcário (vinagre) ou substituir peça
 
-**Sinais**:
-- Monocomando pinga
-- Difícil regular temperatura
-- Movimento áspero da alavanca
+### 4. Rosca Gasta
 
-**Solução**: Substituir cartucho (€20-40 + instalação €40-80)
+**Torneiras antigas**:
+- Rosca metal
+- Desgasta com tempo
+- Não aperta completamente
 
-### 5. Pressão Excessiva
+**Solução**: Substituir torneira (€20-80)
 
-**Pressão alta** (>6 bar):
-- Força água através de pequenas imperfeições
-- Desgasta vedantes rapidamente
-- Causa múltiplas torneiras a pingar
+### 5. Pressão Água Excessiva
 
-**Sinais**:
-- Múltiplas torneiras pingam
-- Torneiras "cospem" água
-- Ruídos na canalização
+**Raro mas possível**:
+- Pressão >4 bar
+- Força junta
+- Pinga
 
-**Solução**: Instalar válvula redutora pressão (€80-150)
+**Solução**: Redutor pressão (€30-60)
 
-## 🛠️ Como Reparar Torneira Clássica (DIY)
+## 🔧 Reparar Torneira DIY
 
 ### Ferramentas Necessárias
 
+**Básico**:
 - Chave inglesa ou alicate
-- Chave de fendas
-- Vedantes novos (€2-5)
-- Massa vedante ou fita PTFE
-- Balde
-- Pano
+- Chave fendas
+- Pano (proteger)
 
-### Passo a Passo (15-30 minutos)
+**Opcional**:
+- Vinagre (calcário)
+- Massa lubrificante
+- Lanterna
 
-**Passo 1: Feche a Água** (1 minuto)
-1. Localize torneira de corte (sob lavatório)
-2. Rode no sentido horário até ao fim
-3. Abra torneira para esvaziar
+**Custo**: €0 (já tem) ou €10-20 (comprar)
 
-**Passo 2: Desmonte a Torneira** (5 minutos)
-1. Retire tampa decorativa do volante
-2. Desaperte parafuso central
-3. Retire volante
-4. Desaperte porca hexagonal (chave inglesa)
-5. Retire mecanismo completo
+### Passo 1: Identificar Tipo Torneira
 
-**Passo 3: Substitua o Vedante** (5 minutos)
-1. Retire vedante velho (na base do mecanismo)
-2. Limpe assento com pano
-3. Coloque vedante novo
-4. Aplique massa vedante na rosca
+**Torneira tradicional** (2 manípulos):
+- Quente + frio separados
+- Rosca + junta
+- **Mais fácil reparar**
 
-**Passo 4: Remonte** (5 minutos)
-1. Aperte mecanismo (firme mas não excessivo)
-2. Coloque volante
-3. Aperte parafuso
-4. Coloque tampa decorativa
+**Torneira monocomando**:
+- 1 manípulo
+- Cartucho cerâmico
+- **Mais complexo**
 
-**Passo 5: Teste** (2 minutos)
-1. Abra torneira de corte
-2. Teste torneira
-3. Verifique fugas
-4. Ajuste se necessário
+### Passo 2: Fechar Água
 
-### Vídeo Tutorial
+**OBRIGATÓRIO**:
+1. Fechar válvula torneira (debaixo lavatório)
+2. Ou fechar válvula geral casa
+3. Abrir torneira (esvaziar)
+4. **Nunca reparar com água aberta**
 
-Procure no YouTube: "como trocar vedante torneira"
+### Passo 3: Desmontar Torneira Tradicional
 
-## 🔧 Como Reparar Monocomando (DIY)
+**Passos**:
+1. Remover tampa decorativa (puxar ou desaparafusar)
+2. Desaparafusar parafuso central (chave fendas)
+3. Remover manípulo (puxar)
+4. Desaparafusar cabeça torneira (chave inglesa)
+5. Retirar cabeça
+6. **Ver junta no fundo**
 
-### Ferramentas Necessárias
+### Passo 4: Substituir Junta
 
-- Chave Allen (geralmente 3mm ou 4mm)
-- Chave inglesa
-- Cartucho novo (€20-40)
-- Pano
+**Passos**:
+1. Remover junta velha (pode estar colada)
+2. Limpar sede (vinagre se calcário)
+3. Colocar junta nova (mesmo tamanho)
+4. Aplicar massa lubrificante (opcional)
+5. Montar tudo ordem inversa
+6. Apertar bem (sem forçar)
 
-### Passo a Passo (20-40 minutos)
+**Junta**: €2-5 (ferreteria)
 
-**Passo 1: Feche a Água** (1 minuto)
+### Passo 5: Desmontar Monocomando
 
-**Passo 2: Desmonte** (10 minutos)
-1. Retire tampa decorativa (alavanca)
-2. Desaperte parafuso Allen
-3. Retire alavanca
-4. Desaperte porca de fixação
-5. Retire cartucho (pode estar apertado)
+**Mais complexo**:
+1. Remover tampa decorativa
+2. Desaparafusar parafuso (pode estar escondido)
+3. Remover manípulo
+4. Desaparafusar anel fixação
+5. Retirar cartucho (puxar vertical)
+6. **Levar cartucho loja (comprar igual)**
 
-**Passo 3: Identifique o Cartucho** (5 minutos)
-- Tire foto do cartucho
-- Meça diâmetro (35mm ou 40mm comum)
-- Leve à loja de canalização
-- **IMPORTANTE**: Cartucho deve ser exatamente igual
+### Passo 6: Substituir Cartucho
 
-**Passo 4: Instale Cartucho Novo** (5 minutos)
-1. Limpe interior da torneira
-2. Insira cartucho novo (orientação correta)
-3. Aperte porca de fixação
-4. Coloque alavanca
-5. Aperte parafuso Allen
+**Passos**:
+1. Comprar cartucho igual (€15-40)
+2. Limpar sede (calcário)
+3. Inserir cartucho novo (orientação correta)
+4. Montar tudo ordem inversa
+5. Apertar bem
 
-**Passo 5: Teste** (2 minutos)
+### Passo 7: Testar
 
-### Marcas Comuns de Cartuchos
+**Verificar**:
+1. Abrir água devagar
+2. Verificar não pinga
+3. Verificar não fuga
+4. Testar quente/frio
+5. **Se pinga ainda: apertar mais ou repetir**
 
-- Grohe (€30-50)
-- Hansgrohe (€35-60)
-- Roca (€20-35)
-- Genérico (€15-25)
+## 💰 Custos Reparação
 
-## 💰 Custos de Reparação
+### DIY
 
-### DIY (Faça Você Mesmo)
+**Junta**: €2-5
+**Cartucho**: €15-40
+**Ferramentas** (se não tem): €10-20
+**Tempo**: 10-30 minutos
 
-**Torneira clássica**:
-- Vedantes: €2-5
-- Massa vedante: €3-5
-- **Total**: €5-10
-- **Tempo**: 15-30 minutos
+**Total**: €5-60
 
-**Monocomando**:
-- Cartucho: €20-40
-- **Total**: €20-40
-- **Tempo**: 20-40 minutos
+### Picheleiro
 
-### Profissional
+**Reparação simples** (junta):
+- Mão obra: €40-60
+- Junta: €5-10
+- Deslocação: €0-20
+- **Total**: €45-90
 
-**Torneira clássica**:
-- Mão de obra: €40-60
-- Materiais: €5-10
-- **Total**: €45-70
+**Substituir cartucho**:
+- Mão obra: €50-80
+- Cartucho: €20-50
+- **Total**: €70-130
 
-**Monocomando**:
-- Mão de obra: €40-80
-- Cartucho: €20-40
-- **Total**: €60-120
+**Torneira nova**:
+- Torneira: €20-150
+- Instalação: €50-100
+- **Total**: €70-250
 
-**Substituir torneira completa**:
-- Torneira básica: €30-60
-- Torneira média: €60-120
-- Torneira premium: €120-300
-- Instalação: €40-80
-- **Total**: €70-380
+### Comparação
 
-## 🏠 Quando DIY vs Profissional
+**DIY**: €5-60 + 30 minutos
+**Picheleiro**: €45-130 + 0 minutos
 
-### Faça Você Mesmo Se:
+**Poupança DIY**: €40-120
 
-✅ Torneira clássica simples
-✅ Tem ferramentas básicas
-✅ Confortável com trabalhos manuais
-✅ Acesso fácil à torneira de corte
-✅ Tempo disponível (1-2 horas)
+## 🏠 Situações Específicas
 
-### Chame Profissional Se:
+### Água Calcária Trás-os-Montes
 
-✅ Monocomando complexo
-✅ Não encontra cartucho correto
-✅ Trocou vedante mas continua a pingar
-✅ Torneira muito antiga (15+ anos)
-✅ Múltiplas torneiras pingam (problema pressão)
-✅ Pinga pela base (pode precisar desmontar lavatório)
-✅ Não tem ferramentas
-✅ Não se sente confortável
+**Problema**:
+- Água muito calcária região
+- Juntas gastam rápido (2-5 anos)
+- Calcário entope
+- **Manutenção mais frequente**
 
-## 🔍 Problemas Comuns e Soluções
+**Soluções**:
+- Descalcificador água (€500-1,500)
+- Limpar calcário regular (vinagre)
+- Juntas qualidade (silicone)
+- Substituir preventivo
 
-### "Troquei Vedante Mas Continua a Pingar"
+### Torneiras Antigas
 
-**Causas**:
-1. Vedante errado (tamanho/tipo)
-2. Assento danificado
-3. Não apertou suficiente
-4. Pressão excessiva
-
-**Solução**: Chame profissional para polir assento
-
-### "Não Consigo Desmontar"
-
-**Causas**:
-- Calcário colou peças
-- Parafuso oxidado
-- Rosca danificada
+**Desafio**:
+- Peças não existem
+- Roscas gastas
+- Corrosão
 
 **Solução**:
-1. Aplique WD-40 ou vinagre (30 min)
-2. Use mais força (cuidado para não partir)
-3. Se não consegue, chame profissional
+- Tentar reparar
+- Se impossível: Substituir torneira (€20-80)
+- **Oportunidade modernizar**
 
-### "Não Encontro Cartucho Igual"
+### Torneiras Exterior
 
-**Solução**:
-1. Tire foto do cartucho
-2. Meça dimensões
-3. Procure online: "cartucho [marca] [modelo]"
-4. Lojas especializadas: Leroy Merlin, Aki
-5. Ou chame profissional (tem acesso a fornecedores)
+**Inverno rigoroso**:
+- Congelam
+- Rebentam
+- Pingam depois
 
-### "Pinga Mais Depois de Reparar"
+**Prevenção**:
+- Fechar válvula interior inverno
+- Esvaziar torneira
+- Isolar (se não pode fechar)
 
-**Causas**:
-- Vedante mal colocado
-- Apertou demais (danificou vedante)
-- Peça partiu durante montagem
+**Reparação**: Igual interior
 
-**Solução**: Desmonte e verifique
+### Torneiras Termostáticas
 
-## 💡 Prevenção
+**Mais complexas**:
+- Cartucho termostático
+- Reparação difícil
+- **Chamar picheleiro**
 
-### Manutenção Preventiva
+**Custo**: €100-200
 
-**A cada 3-5 anos**:
-- Substitua vedantes preventivamente
-- Limpe calcário com vinagre
-- Verifique juntas tóricas
-- Lubrifique mecanismos
+## 📋 Prevenção Torneira Pinga
 
-**Água dura** (Trás-os-Montes):
-- Instale filtro anti-calcário (€150-300)
-- Limpe arejadores mensalmente
-- Descalcifique torneiras anualmente
+### Manutenção Regular
+
+**Anual**:
+- Verificar não pinga
+- Limpar calcário (vinagre)
+- Lubrificar (massa)
+- Apertar se necessário
+
+**3-5 anos**:
+- Substituir juntas preventivo (€10-20)
+- Antes gastar completamente
+- **Previne pingos**
 
 ### Uso Correto
 
-**Evite**:
-- Fechar com força excessiva
-- Abrir/fechar bruscamente
-- Deixar calcário acumular
+**Fazer**:
+- Fechar suavemente
+- Não forçar
+- Limpar regular
 
-**Faça**:
-- Feche suavemente
-- Limpe regularmente
-- Repare logo que começar a pingar
+**Não fazer**:
+- ❌ Apertar excessivo (gasta junta)
+- ❌ Forçar se duro (calcário)
+- ❌ Ignorar pingo (piora)
 
-## 📞 Quando Chamar Canalizador
+### Qualidade Água
 
-### Ligue Normal (2-7 dias) se:
+**Descalcificador** (€500-1,500):
+- Remove calcário
+- Protege torneiras
+- Prolonga vida 2-3x
+- **Vale pena se água muito dura**
 
-✅ Tentou DIY mas não conseguiu
-✅ Não encontra peças
-✅ Torneira muito antiga
-✅ Quer substituir torneira
-✅ Múltiplas torneiras pingam
-✅ Pinga pela base (complexo)
+### Torneiras Qualidade
 
-### Ligue Urgente (24h) se:
+**Investir**:
+- Marcas fiáveis (Grohe, Hansgrohe, Roca)
+- Cartucho cerâmico
+- Garantia 5-10 anos
+- **Duram mais**
 
+**Custo**: €50-200 (vs €20-50 básicas)
+**Vida útil**: 15-25 anos (vs 5-10 anos)
+
+## 🚨 Quando Chamar Picheleiro
+
+### DIY Possível
+
+✅ Torneira tradicional pinga
+✅ Tem ferramentas básicas
+✅ Consegue desmontar
+✅ Junta disponível loja
+✅ Tempo disponível
+
+### Chamar Picheleiro
+
+✅ Torneira monocomando (primeira vez)
+✅ Não consegue desmontar
+✅ Peça não encontra
+✅ Fuga além pingo
+✅ Torneira antiga (substituir)
+✅ Sem tempo/vontade
+✅ Múltiplas torneiras
+
+### Urgente
+
+✅ Fuga grande (não só pingo)
 ✅ Não consegue fechar água
-✅ Fuga grande (não só pinga)
-✅ Partiu peça durante reparação
-✅ Água jorra sem controlo
+✅ Inundação
+✅ Torneira partida
 
 ## ✅ Por Que Escolher Norte Reparos
 
 ### Reparação Rápida
-- Diagnóstico em 5 minutos
-- Reparação em 15-30 minutos
-- Peças em stock (vedantes, cartuchos)
 
-### Preços Transparentes
-- Orçamento antes de começar
+- Diagnóstico imediato
+- Peças stock (juntas, cartuchos)
+- Reparação 15-30 minutos
+- Garantia 6 meses
+
+### Todas Marcas
+
+- Grohe, Hansgrohe, Roca
+- Marcas portuguesas
+- Torneiras antigas
+- Importação (se necessário)
+
+### Preços Justos
+
+- Reparação: €45-90
+- Substituir cartucho: €70-130
+- Torneira nova: €70-250
 - Sem surpresas
-- Garantia 1 ano
 
-### Experiência Comprovada
-- 10+ anos experiência
-- 1000+ torneiras reparadas
-- 4.9/5 estrelas (500+ avaliações)
+### Conhecimento Local
+
+- Experiência Trás-os-Montes
+- Água calcária especialidade
+- Casas antigas
+- Soluções adaptadas
 
 ### Resposta Rápida
+
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
+- Urgências prioritárias
+- Stock peças
 
 ## 🌍 Cobertura
 
@@ -387,36 +416,36 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-### Orçamento Grátis
+### Reparação Torneira
 📞 **+351 928 484 451**
-💬 **[WhatsApp](https://wa.me/351928484451?text=Torneira%20pinga%20orçamento)**
+💬 **[WhatsApp](https://wa.me/351928484451?text=Torneira%20pinga)**
 
-**Resposta em 5 minutos. Sem compromisso.**
+**Resposta em 5 minutos. Reparação rápida e garantida.**
 
 ---
 
 ## ❓ Perguntas Frequentes
 
-### Quanto desperdiça uma torneira a pingar?
-**30 litros/dia** (1 gota/segundo) = **€150-200/ano**. Fio de água: €1000+/ano.
+### Quanto desperdiça torneira pinga?
+**1 gota/segundo**: 1,570L/ano (€5-10). **10 gotas/segundo**: 15,700L/ano (€50-100). **Fio água**: 30,000-50,000L/ano (€100-200). Reparação €5-15 DIY ou €45-90 picheleiro. ROI imediato.
 
-### Posso reparar sozinho?
-**Sim**, torneira clássica é simples (15-30 min). Monocomando é mais complexo mas possível.
+### Como reparar torneira pinga?
+**Tradicional**: Fechar água, desmontar, substituir junta (€2-5), montar. **Monocomando**: Substituir cartucho (€15-40). DIY 10-30 minutos. Ferramentas: chave inglesa, chave fendas. Fácil.
 
 ### Quanto custa reparar?
-**DIY**: €5-40. **Profissional**: €45-120. Muito mais barato que desperdiçar €150-200/ano.
+**DIY**: €5-60 (junta €2-5, cartucho €15-40). **Picheleiro**: €45-130 (reparação €45-90, cartucho €70-130). Torneira nova: €70-250. Poupança DIY: €40-120.
 
-### Quanto tempo dura a reparação?
-**DIY**: 15-40 minutos. **Profissional**: 15-30 minutos no local.
+### Por que pinga?
+**90% casos**: Junta gasta (vida útil 2-10 anos). **Outros**: Cartucho avariado, calcário, rosca gasta, pressão excessiva. Água calcária Trás-os-Montes gasta juntas mais rápido (2-5 anos).
 
-### Vale a pena reparar torneira antiga?
-Se tem **15+ anos**, considere substituir (€70-200 instalada). Torneiras modernas poupam água (30-50%).
+### Posso reparar sozinho?
+**Sim** se: torneira tradicional, ferramentas básicas, junta disponível. **Não** se: monocomando (primeira vez), não consegue desmontar, peça não encontra. Picheleiro €45-90 se preferir.
 
-### Como evitar que volte a pingar?
-**Manutenção preventiva**: trocar vedantes a cada 3-5 anos, limpar calcário, não fechar com força.
+### Como prevenir?
+**Manutenção**: Verificar anual, limpar calcário (vinagre), substituir juntas 3-5 anos preventivo. **Uso**: Fechar suavemente, não forçar. **Qualidade**: Torneiras boas (€50-200) duram 15-25 anos.
 
 ---
 
-**Torneira pinga = €150-200/ano desperdiçados. Repare hoje e comece a poupar.**
+**Torneira pinga desperdiça €100-200/ano. Repara 10 minutos €5-15 ou picheleiro €45-90.**
 
 📞 +351 928 484 451 | 💬 WhatsApp | 🌐 canalizador-norte-reparos.pt
