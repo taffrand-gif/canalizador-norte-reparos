@@ -5,7 +5,7 @@
 // - SEO-optimized Q&A content
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo } from 'react';
+import { memo, useEffect } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -50,6 +50,41 @@ function FAQ() {
       answer: 'Sim, aceitamos pagamento em dinheiro, multibanco e transferência bancária. Para sua comodidade, também aceitamos pagamento por MB WAY.',
     },
   ];
+
+  // Inject FAQPage Schema
+  useEffect(() => {
+    const schemaId = 'faq-schema';
+    let script = document.getElementById(schemaId) as HTMLScriptElement;
+    
+    if (!script) {
+      script = document.createElement('script');
+      script.id = schemaId;
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    };
+
+    script.textContent = JSON.stringify(faqSchema);
+
+    return () => {
+      const existingScript = document.getElementById(schemaId);
+      if (existingScript) {
+        existingScript.remove();
+      }
+    };
+  }, [faqs]);
 
   return (
     <section id="faq" className="py-20 bg-gray-50">
