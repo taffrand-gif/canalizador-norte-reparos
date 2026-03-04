@@ -137,7 +137,8 @@ export function generateMetaDescription(ville?: string): string {
   const config = ACTIVE_CONFIG;
   
   if (ville) {
-    return `${config.name} em ${ville} - Reparação de fugas de água, entupimentos e instalações. Atendemos urgências 24h. Piquete 24h. Ligue ${config.phone}`;
+    // Meta descriptions optimisées par ville (<160 chars, mots-clés locaux, CTA)
+    return `Canalizador urgente em ${ville} 24h/7d. Desentupimentos, fugas água, esquentadores. Chegamos 40min. ☎️ ${config.phone}`;
   }
   
   // Page d'accueil - Meta description renforcée SEO
