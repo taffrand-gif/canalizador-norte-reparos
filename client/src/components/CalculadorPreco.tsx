@@ -1,5 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
+import { memo } from 'react';
 
 const zones = [
   { label: 'Macedo de Cavaleiros (Zona 1)', price: 15 },
@@ -46,6 +48,7 @@ const examplesElec = [
 
 function CalculadorPreco() {
   const { config } = useSite();
+  const { city, priceAdjustment } = useLocationContent();
   const isPlumber = config.id === 'norte-reparos';
   const [zoneIdx, setZoneIdx] = useState(0);
   const [serviceIdx, setServiceIdx] = useState(0);
@@ -61,12 +64,17 @@ function CalculadorPreco() {
     const zone = zones[zoneIdx];
     const service = services[serviceIdx];
     const mult = isUrgent ? 1.5 : 1;
-    const travel = Math.round(zone.price * mult);
+
+    // Apply location-based price adjustment
+    const travelBase = zone.price + priceAdjustment;
+    const travel = Math.round(travelBase * mult);
     const laborMin = Math.round(service.min * mult);
     const laborMax = Math.round(service.max * mult);
+
     return {
       travel,
       travelBase: zone.price,
+      locationAdjustment: priceAdjustment,
       laborMin,
       laborMax,
       totalMin: travel + laborMin,
@@ -74,10 +82,10 @@ function CalculadorPreco() {
       zoneName: zone.label,
       serviceName: service.label,
     };
-  }, [zoneIdx, serviceIdx, isUrgent, services]);
+  }, [zoneIdx, serviceIdx, isUrgent, services, priceAdjustment]);
 
   const waMsg = encodeURIComponent(
-    `Olá! Preciso de ${result.serviceName} em ${result.zoneName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
+    `Olá! Estou em ${city}. Preciso de ${result.serviceName} em ${result.zoneName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
   );
 
   return (
@@ -193,6 +201,12 @@ function CalculadorPreco() {
                 <span>Deslocação:</span>
                 <span className="font-bold">{result.travel}€</span>
               </div>
+              {result.locationAdjustment > 0 && (
+                <div className="flex justify-between text-sm text-blue-600">
+                  <span>Ajuste distância ({city}):</span>
+                  <span className="font-bold">+{result.locationAdjustment}€</span>
+                </div>
+              )}
               <div className="flex justify-between text-gray-600">
                 <span>Mão de obra (estimativa):</span>
                 <span className="font-bold">{result.laborMin}€ - {result.laborMax}€</span>
@@ -211,7 +225,7 @@ function CalculadorPreco() {
               </div>
             </div>
             <p className="text-xs text-gray-500 mb-6">
-              * Estimativa. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Noturno/fim de semana: +50% sobre deslocação e mão de obra.
+              * Estimativa para {city}. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Noturno/fim de semana: +50% sobre deslocação e mão de obra.
             </p>
             <a
               href={`https://wa.me/${whatsapp}?text=${waMsg}`}
