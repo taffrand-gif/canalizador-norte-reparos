@@ -1,7 +1,8 @@
+import React from 'react';
 // Footer com navegação funcional e informações de contacto
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, MapPin } from 'lucide-react';
-import { memo } from 'react';
+// memo removed from 'react';
 
 function Footer() {
   const { config } = useSite();
@@ -129,4 +130,4 @@ function Footer() {
   );
 }
 
-export default memo(Footer);
+export default React.memo(Footer);

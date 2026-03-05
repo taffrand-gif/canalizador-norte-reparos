@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import React from 'react';
+// memo removed from 'react';
 import { AlertTriangle, TrendingDown, DollarSign, Clock } from 'lucide-react';
 
 interface PainPoint {
@@ -86,4 +87,4 @@ function PainPointSection({
   );
 }
 
-export default memo(PainPointSection);
+export default React.memo(PainPointSection);

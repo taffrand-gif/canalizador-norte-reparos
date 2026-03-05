@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import React from 'react';
+// memo removed from 'react';
 import { Phone, MapPin, Wrench, CheckCircle, Clock } from 'lucide-react';
 
 interface TimelineStep {
@@ -113,4 +114,4 @@ function SolutionTimeline({
   );
 }
 
-export default memo(SolutionTimeline);
+export default React.memo(SolutionTimeline);

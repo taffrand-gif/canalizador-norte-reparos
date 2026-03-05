@@ -1,3 +1,4 @@
+import React from 'react';
 // Design: Professional Service Layout
 // Portfolio section showcasing completed work
 // - Grid layout with project cards
@@ -7,7 +8,7 @@
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { memo } from 'react';
+// memo removed from 'react';
 
 function Trabalhos() {
   const { config } = useSite();
@@ -135,4 +136,4 @@ function Trabalhos() {
   );
 }
 
-export default memo(Trabalhos);
+export default React.memo(Trabalhos);

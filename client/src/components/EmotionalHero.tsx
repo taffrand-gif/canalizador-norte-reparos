@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import React from 'react';
+// memo removed from 'react';
 import { Phone, Clock, Shield, AlertCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
@@ -112,4 +113,4 @@ function EmotionalHero({
   );
 }
 
-export default memo(EmotionalHero);
+export default React.memo(EmotionalHero);

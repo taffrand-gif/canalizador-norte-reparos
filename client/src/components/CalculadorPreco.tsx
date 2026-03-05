@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
-import { memo } from 'react';
+// memo removed from 'react';
 
 const zones = [
   { label: 'Macedo de Cavaleiros (Zona 1)', price: 15 },
@@ -243,4 +243,4 @@ function CalculadorPreco() {
   );
 }
 
-export default memo(CalculadorPreco);
+export default React.memo(CalculadorPreco);

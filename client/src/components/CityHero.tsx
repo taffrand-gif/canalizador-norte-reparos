@@ -1,5 +1,6 @@
+import React from 'react';
 import OptimizedImage from './OptimizedImage';
-import { memo } from 'react';
+// memo removed from 'react';
 
 interface CityHeroProps {
   cityName: string;
@@ -63,4 +64,4 @@ function CityHero({
   );
 }
 
-export default memo(CityHero);
+export default React.memo(CityHero);

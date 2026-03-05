@@ -1,3 +1,4 @@
+import React from 'react';
 // Design: Professional Service Layout
 // - Cards with thick borders and hard shadows
 // - Bold rating badge
@@ -7,7 +8,7 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Star, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
-import { memo } from 'react';
+// memo removed from 'react';
 import { useLocalTestimonials } from '@/hooks/useLocationContent';
 
 function Testimonials() {
@@ -101,4 +102,4 @@ function Testimonials() {
   );
 }
 
-export default memo(Testimonials);
+export default React.memo(Testimonials);

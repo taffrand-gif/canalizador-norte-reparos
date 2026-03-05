@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Urgency Timer
 // Creates time-based urgency with limited-time offers
 // Psychological trigger: scarcity + FOMO
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function UrgencyTimer() {
   const { config } = useSite();
@@ -159,4 +160,4 @@ function UrgencyTimer() {
   );
 }
 
-export default memo(UrgencyTimer);
+export default React.memo(UrgencyTimer);

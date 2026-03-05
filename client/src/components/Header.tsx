@@ -1,3 +1,4 @@
+import React from 'react';
 // Header com mega-menu de cidades agrupadas por distrito
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
@@ -309,4 +310,4 @@ function Header() {
   );
 }
 
-export default memo(Header);
+export default React.memo(Header);

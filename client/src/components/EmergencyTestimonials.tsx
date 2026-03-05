@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import React from 'react';
+// memo removed from 'react';
 import { Star, Clock, MapPin } from 'lucide-react';
 
 interface Testimonial {
@@ -130,4 +131,4 @@ function EmergencyTestimonials({
   );
 }
 
-export default memo(EmergencyTestimonials);
+export default React.memo(EmergencyTestimonials);

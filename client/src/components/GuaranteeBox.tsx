@@ -1,4 +1,5 @@
-import { memo } from 'react';
+import React from 'react';
+// memo removed from 'react';
 import { Shield, CheckCircle, Clock, Award, Phone } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
@@ -128,4 +129,4 @@ function GuaranteeBox({
   );
 }
 
-export default memo(GuaranteeBox);
+export default React.memo(GuaranteeBox);

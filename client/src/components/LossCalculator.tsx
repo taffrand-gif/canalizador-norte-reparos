@@ -1,9 +1,10 @@
+import React from 'react';
 // Component: Loss Calculator
 // Interactive calculator showing how much money customer is wasting
 // Creates urgency and demonstrates value of fixing problems
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useState } from 'react';
+import { useState } from 'react';
 
 interface CalculatorResult {
   monthly: number;
@@ -260,4 +261,4 @@ function LossCalculator() {
   );
 }
 
-export default memo(LossCalculator);
+export default React.memo(LossCalculator);
