@@ -81,6 +81,20 @@ const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 
+// Emotional Landing Pages (SEO Premium) - Canalizador
+const FugaAguaUrgente = lazy(() => import("@/pages/FugaAguaUrgente"));
+const SanitaEntupida = lazy(() => import("@/pages/SanitaEntupida"));
+const CanoRebentado = lazy(() => import("@/pages/CanoRebentado"));
+const EsquentadorAvariado = lazy(() => import("@/pages/EsquentadorAvariado"));
+const CheiroMauCanalizacao = lazy(() => import("@/pages/CheiroMauCanalizacao"));
+
+// Emotional Landing Pages (SEO Premium) - Eletricista
+const CurtoCircuitoUrgente = lazy(() => import("@/pages/CurtoCircuitoUrgente"));
+const DisjuntorDispara = lazy(() => import("@/pages/DisjuntorDispara"));
+const TomadaNaoFunciona = lazy(() => import("@/pages/TomadaNaoFunciona"));
+const QuadroEletricoAntigo = lazy(() => import("@/pages/QuadroEletricoAntigo"));
+const FaltaLuzUrgente = lazy(() => import("@/pages/FaltaLuzUrgente"));
+
 // Simple loading fallback component
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-[400px]">
@@ -151,6 +165,18 @@ function Router() {
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/zonas"} component={Zonas} />
         <Route path={"/404"} component={NotFound} />
+        {/* Emotional Landing Pages - SEO Premium - Canalizador */}
+        <Route path={"/fuga-agua-urgente"} component={FugaAguaUrgente} />
+        <Route path={"/sanita-entupida"} component={SanitaEntupida} />
+        <Route path={"/cano-rebentado"} component={CanoRebentado} />
+        <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
+        <Route path={"/cheiro-mau-canalizacao"} component={CheiroMauCanalizacao} />
+        {/* Emotional Landing Pages - SEO Premium - Eletricista */}
+        <Route path={"/curto-circuito-urgente"} component={CurtoCircuitoUrgente} />
+        <Route path={"/disjuntor-dispara"} component={DisjuntorDispara} />
+        <Route path={"/tomada-nao-funciona"} component={TomadaNaoFunciona} />
+        <Route path={"/quadro-eletrico-antigo"} component={QuadroEletricoAntigo} />
+        <Route path={"/falta-luz-urgente"} component={FaltaLuzUrgente} />
         {/* Service hub pages */}
         <Route path={"/fugas-agua"} component={ServiceHub} />
         <Route path={"/desentupimentos"} component={ServiceHub} />
