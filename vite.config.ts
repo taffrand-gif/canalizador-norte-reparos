@@ -183,7 +183,7 @@ const plugins = [
   react(),
   tailwindcss(),
   jsxLocPlugin(),
-  vitePluginManusRuntime(),
+  /* vitePluginManusRuntime(), */
   vitePluginManusDebugCollector(),
   vitePluginImageOptimization(),
 ];
