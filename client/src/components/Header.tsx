@@ -2,7 +2,7 @@
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from './ui/button';
-import { useState, useRef, useEffect, memo } from 'react';
+import { useState, useRef, useEffect, memo, useMemo } from 'react';
 
 interface CityItem {
   name: string;

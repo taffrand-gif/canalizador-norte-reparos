@@ -1,12 +1,13 @@
 // Composant RelatedCities - Affiche les villes connexes pour le maillage interne SEO
 import { Link } from 'wouter';
+import { memo } from 'react';
 
 interface RelatedCitiesProps {
   currentCity: string;
   currentCitySlug: string;
 }
 
-export default function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
+function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
   // Liste des villes avec leurs slugs et régions
   const allCities = [
     { name: 'Bragança', slug: 'canalizador-braganca', region: 'Norte' },
@@ -104,3 +105,5 @@ export default function RelatedCities({ currentCity, currentCitySlug }: RelatedC
     </section>
   );
 }
+
+export default memo(RelatedCities);

@@ -1,4 +1,5 @@
 import OptimizedImage from './OptimizedImage';
+import { memo } from 'react';
 
 interface CityHeroProps {
   cityName: string;
@@ -12,7 +13,7 @@ interface CityHeroProps {
  * Composant Hero réutilisable pour les pages de villes
  * Utilise OptimizedImage pour les performances optimales
  */
-export default function CityHero({
+function CityHero({
   cityName,
   phone,
   interventionsCount,
@@ -61,3 +62,5 @@ export default function CityHero({
     </section>
   );
 }
+
+export default memo(CityHero);

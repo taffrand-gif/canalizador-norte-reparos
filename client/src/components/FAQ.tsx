@@ -5,7 +5,7 @@
 // - SEO-optimized Q&A content
 
 import { useSite } from '@/contexts/SiteContext';
-import { memo, useEffect } from 'react';
+import { memo, useEffect, useMemo } from 'react';
 import {
   Accordion,
   AccordionContent,
@@ -16,7 +16,7 @@ import {
 function FAQ() {
   const { config } = useSite();
 
-  const faqs = [
+  const faqs = useMemo(() => [
     {
       question: 'Quanto custa um canalizador urgente em Bragança?',
       answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Reparação de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.',
@@ -57,7 +57,7 @@ function FAQ() {
       question: 'Aceitam pagamento com cartão e MB WAY?',
       answer: 'Sim, aceitamos pagamento por multibanco, MB WAY, transferência bancária, e dinheiro. Pagamento apenas após conclusão do serviço e sua total satisfação. Fatura fornecida. Sem IVA (Art. 53º CIVA).',
     },
-  ];
+  ], []);
 
   // Inject FAQPage Schema
   useEffect(() => {

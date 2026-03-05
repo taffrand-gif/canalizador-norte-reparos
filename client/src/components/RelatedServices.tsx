@@ -1,7 +1,8 @@
 import { SERVICES_NORTE_REPAROS } from '@/../../shared/cityServiceMatrix';
+import { memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
-export default function RelatedServices({ currentService, city }: { currentService: string; city: string }) {
+function RelatedServices({ currentService, city }: { currentService: string; city: string }) {
   const services = SERVICES_NORTE_REPAROS.filter(s => s.slug !== currentService);
   const accentColor = '#0e7490';
 
@@ -32,3 +33,5 @@ export default function RelatedServices({ currentService, city }: { currentServi
     </section>
   );
 }
+
+export default memo(RelatedServices);

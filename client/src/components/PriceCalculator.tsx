@@ -6,7 +6,7 @@
 
 import { useSite } from '@/contexts/SiteContext';
 import { Calculator, Phone } from 'lucide-react';
-import { useState } from 'react';
+import { useState, memo } { useState, memo, useCallback } from 'react';
 import { Button } from './ui/button';
 import {
   Select,
@@ -18,20 +18,20 @@ import {
 import { Label } from './ui/label';
 import { RadioGroup, RadioGroupItem } from './ui/radio-group';
 
-export default function PriceCalculator() {
+function PriceCalculator() {
   const { config } = useSite();
   const [selectedService, setSelectedService] = useState<string>('');
   const [urgency, setUrgency] = useState<'normal' | 'urgent'>('normal');
   const [calculatedPrice, setCalculatedPrice] = useState<number | null>(null);
 
-  const handleCalculate = () => {
+  const handleCalculate = useCallback(() => {
     const service = config.services.find(s => s.id === selectedService);
     if (service) {
       const basePrice = service.basePrice;
       const finalPrice = urgency === 'urgent' ? basePrice * 1.3 : basePrice;
       setCalculatedPrice(finalPrice);
     }
-  };
+  }, [selectedService, urgency, config]);
 
   return (
     <section id="calculador-preco" className="py-20 bg-gray-50">
@@ -146,3 +146,5 @@ export default function PriceCalculator() {
     </section>
   );
 }
+
+export default memo(PriceCalculator);
