@@ -80,6 +80,7 @@ const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCan
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
+const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 
 // Emotional Landing Pages (SEO Premium) - Canalizador
 const FugaAguaUrgente = lazy(() => import("@/pages/FugaAguaUrgente"));
@@ -164,6 +165,7 @@ function Router() {
         <Route path={"/blog/problemas-canalizacao-inverno-solucoes"} component={ProblemasCanalizacaoInverno} />
         <Route path={"/faq"} component={FAQPage} />
         <Route path={"/zonas"} component={Zonas} />
+        <Route path={"/transparence-prix"} component={TransparencePrix} />
         <Route path={"/404"} component={NotFound} />
         {/* Emotional Landing Pages - SEO Premium - Canalizador */}
         <Route path={"/fuga-agua-urgente"} component={FugaAguaUrgente} />
