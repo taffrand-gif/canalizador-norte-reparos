@@ -36,7 +36,7 @@ const examplesPlumb = [
   { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
   { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
   { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
-  { icon: '🔍', label: 'Deteção de fuga', price: '80-150€' },
+  { icon: '🔍', label: 'Deteção de fuga', price: '150€ (FLIR: 280€)' },
 ];
 
 const examplesElec = [
