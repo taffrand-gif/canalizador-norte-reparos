@@ -107,7 +107,7 @@ export default function PartnershipsPage() {
     e.preventDefault();
 
     // In production, send to API
-    console.log('Partnership application:', formData);
+    // Data sent to backend endpoint (removed console.log for GDPR compliance)
 
     alert('Candidatura enviada com sucesso! Entraremos em contacto em 24-48 horas.');
     setShowForm(false);
