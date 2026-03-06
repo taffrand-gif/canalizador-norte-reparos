@@ -28,7 +28,7 @@ export default function DesentupirSanitaMetodosEficazes() {
         "name": "Quanto custa chamar um canalizador para desentupir sanita em Bragança?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em Bragança e Trás-os-Montes, o desentupimento de sanita custa entre 60€ e 120€, dependendo da gravidade. Entupimentos simples: 60-80€. Entupimentos graves: 100-120€."
+          "text": "Em Bragança e Trás-os-Montes, o desentupimento de sanita custa 120€ (urgência noite: 180€). Preço fixo garantido, sem surpresas."
         }
       },
       {
@@ -95,7 +95,7 @@ export default function DesentupirSanitaMetodosEficazes() {
       nome: "Canalizador Profissional",
       eficacia: "99%",
       tempo: "30-60 min",
-      custo: "60-120€",
+      custo: "120€ (noite: 180€)",
       como: "Ligue para +351 928 484 451. Canalizador chega em 30-60 min com equipamento profissional (mola elétrica, câmara de inspeção). Resolve o problema e identifica a causa.",
       quando: "Métodos caseiros falharam, entupimentos recorrentes, objetos sólidos",
       pros: ["Eficácia garantida", "Identifica causa raiz", "Equipamento profissional", "Garantia"],
