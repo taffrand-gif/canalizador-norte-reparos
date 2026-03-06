@@ -16,7 +16,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 1,
     question: "Quanto custa chamar um canalizador em Bragança?",
-    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Para uma visita de diagnóstico, o preço médio é de 45€ a 60€. Intervenções simples como desentupimentos começam em 65€, enquanto reparações de fugas podem variar entre 80€ e 200€ dependendo da complexidade. Instalações de esquentadores custam entre 150€ e 400€ (sem incluir o equipamento). Trabalhamos com orçamentos gratuitos e transparentes - contacte-nos para um orçamento personalizado sem compromisso.",
+    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Reparações de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
     category: "Preços"
   },
   {
@@ -82,7 +82,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 12,
     question: "O que é uma válvula de segurança e para que serve?",
-    answer: "A válvula de segurança (ou válvula de alívio) é um dispositivo obrigatório em esquentadores e termoacumuladores que evita explosões por excesso de pressão. Funciona libertando água automaticamente quando a pressão interna ultrapassa o limite seguro. É normal ver algumas gotas a pingar ocasionalmente - significa que está a funcionar corretamente. Sinais de problema: gotejamento constante (válvula danificada), nenhum gotejamento em meses (válvula entupida ou bloqueada), ou ruídos de assobio. Válvulas defeituosas são perigosas e devem ser substituídas imediatamente. Verificamos e substituímos válvulas de segurança por 35-50€. Nunca bloqueie ou remova uma válvula de segurança.",
+    answer: "A válvula de segurança (ou válvula de alívio) é um dispositivo obrigatório em esquentadores e termoacumuladores que evita explosões por excesso de pressão. Funciona libertando água automaticamente quando a pressão interna ultrapassa o limite seguro. É normal ver algumas gotas a pingar ocasionalmente - significa que está a funcionar corretamente. Sinais de problema: gotejamento constante (válvula danificada), nenhum gotejamento em meses (válvula entupida ou bloqueada), ou ruídos de assobio. Válvulas defeituosas são perigosas e devem ser substituídas imediatamente. Verificamos e substituímos válvulas de segurança por 58-74€. Nunca bloqueie ou remova uma válvula de segurança.",
     category: "Segurança"
   },
   {
@@ -100,7 +100,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 15,
     question: "O que fazer se o autoclismo não para de correr?",
-    answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 40-60€). Reparamos 90% dos casos em 30 minutos. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
+    answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Reparamos 90% dos casos em 30 minutos. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
     category: "Reparações"
   },
   {
