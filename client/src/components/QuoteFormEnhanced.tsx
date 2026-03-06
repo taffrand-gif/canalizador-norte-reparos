@@ -22,7 +22,6 @@ interface QuoteFormData {
 }
 
 export default function QuoteFormEnhanced() {
-  const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   
   const [formData, setFormData] = useState<QuoteFormData>({
@@ -155,68 +154,76 @@ export default function QuoteFormEnhanced() {
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Nome */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="name-input" className="block text-sm font-medium text-gray-700 mb-2">
             Nome Completo *
           </label>
           <input
+            id="name-input"
             type="text"
             required
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
             placeholder="O seu nome completo"
+            aria-required="true"
           />
         </div>
 
         {/* Email */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="email-input" className="block text-sm font-medium text-gray-700 mb-2">
             Email *
           </label>
           <input
+            id="email-input"
             type="email"
             required
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
             placeholder="o.seu.email@exemplo.com"
+            aria-required="true"
           />
         </div>
 
         {/* Telefone */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="phone-input" className="block text-sm font-medium text-gray-700 mb-2">
             Telefone *
           </label>
           <input
+            id="phone-input"
             type="tel"
             required
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
             placeholder="912 345 678"
+            aria-required="true"
           />
         </div>
 
         {/* NIF */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="nif-input" className="block text-sm font-medium text-gray-700 mb-2">
             NIF (Número de Identificação Fiscal)
           </label>
           <input
+            id="nif-input"
             type="text"
             maxLength={9}
             value={formData.nif}
             onChange={(e) => setFormData({ ...formData, nif: e.target.value.replace(/\D/g, '') })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
             placeholder="123456789"
+            aria-describedby="nif-description"
           />
-          <p className="text-xs text-gray-500 mt-1">Opcional - para faturação</p>
+          <p id="nif-description" className="text-xs text-gray-500 mt-1">Opcional - para faturação</p>
         </div>
 
         {/* Endereço - Google Maps Autocomplete */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="street-input" className="block text-sm font-medium text-gray-700 mb-2">
             Morada *
           </label>
           <div className="space-y-2">
@@ -229,11 +236,13 @@ export default function QuoteFormEnhanced() {
                 onChange={(e) => setFormData({ ...formData, street: e.target.value })}
                 className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
                 placeholder="Rua/Avenida (comece a escrever...)"
+                aria-required="true"
               />
               <button
                 type="button"
                 onClick={() => setShowMap(!showMap)}
-                className="px-4 py-3  text-white rounded-lg hover: transition-colors" style={{backgroundColor: gradient.from}}
+                className="px-4 py-3 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                style={{backgroundColor: ACTIVE_CONFIG.gradient.from}}
               >
                 📍 Mapa
               </button>
@@ -247,38 +256,49 @@ export default function QuoteFormEnhanced() {
 
             <div className="grid grid-cols-2 gap-2">
               <input
+                id="street-number-input"
                 type="text"
                 required
                 value={formData.streetNumber}
                 onChange={(e) => setFormData({ ...formData, streetNumber: e.target.value })}
                 className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
                 placeholder="Nº *"
+                aria-label="Número da porta"
+                aria-required="true"
               />
               <input
+                id="complement-input"
                 type="text"
                 value={formData.complement}
                 onChange={(e) => setFormData({ ...formData, complement: e.target.value })}
                 className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
                 placeholder="Andar, Porta (opcional)"
+                aria-label="Complemento de morada"
               />
             </div>
 
             <div className="grid grid-cols-2 gap-2">
               <input
+                id="postal-code-input"
                 type="text"
                 required
                 value={formData.postalCode}
                 onChange={(e) => setFormData({ ...formData, postalCode: e.target.value })}
                 className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
                 placeholder="Código Postal *"
+                aria-label="Código postal"
+                aria-required="true"
               />
               <input
+                id="city-input"
                 type="text"
                 required
                 value={formData.city}
                 onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                 className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
                 placeholder="Cidade *"
+                aria-label="Cidade"
+                aria-required="true"
               />
             </div>
           </div>
@@ -286,17 +306,19 @@ export default function QuoteFormEnhanced() {
 
         {/* Tipo de Serviço */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="service-type-select" className="block text-sm font-medium text-gray-700 mb-2">
             Tipo de Serviço *
           </label>
           <select
+            id="service-type-select"
             required
             value={formData.serviceType}
             onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+            aria-required="true"
           >
-            {config.services.map((service) => (
-              <option key={service} value={service}>
+            {config.services.map((service, index) => (
+              <option key={index} value={service}>
                 {service}
               </option>
             ))}
@@ -305,10 +327,10 @@ export default function QuoteFormEnhanced() {
 
         {/* Urgência */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label id="urgency-label" className="block text-sm font-medium text-gray-700 mb-2">
             Urgência *
           </label>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4" role="group" aria-labelledby="urgency-label">
             <button
               type="button"
               onClick={() => setFormData({ ...formData, urgency: "normal" })}
@@ -318,6 +340,7 @@ export default function QuoteFormEnhanced() {
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
               style={formData.urgency === "normal" ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
+              aria-pressed={formData.urgency === "normal"}
             >
               📅 Normal
             </button>
@@ -330,6 +353,7 @@ export default function QuoteFormEnhanced() {
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
               style={formData.urgency === "urgent" ? {backgroundColor: ACTIVE_CONFIG.gradient.from} : {}}
+              aria-pressed={formData.urgency === "urgent"}
             >
               🚨 Urgente
             </button>
@@ -338,16 +362,18 @@ export default function QuoteFormEnhanced() {
 
         {/* Descrição */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="description-textarea" className="block text-sm font-medium text-gray-700 mb-2">
             Descrição do Problema *
           </label>
           <textarea
+            id="description-textarea"
             required
             rows={4}
             value={formData.description}
             onChange={(e) => setFormData({ ...formData, description: e.target.value })}
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
             placeholder="Descreva o problema com o máximo de detalhe possível..."
+            aria-required="true"
           />
         </div>
 
@@ -355,7 +381,7 @@ export default function QuoteFormEnhanced() {
         <button
           type="submit"
           disabled={createQuote.isPending}
-          className="w-full  hover: disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg" style={{backgroundColor: gradient.from}}
+          className="w-full dynamic-bg hover:bg-red-700 disabled:bg-gray-400 text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg"
         >
           {createQuote.isPending ? "A enviar..." : "📧 Enviar Pedido de Orçamento"}
         </button>
