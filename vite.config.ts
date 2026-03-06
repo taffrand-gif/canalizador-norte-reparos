@@ -179,6 +179,31 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
+// Plugin to inject scripts at end of body instead of head
+function vitePluginInjectScriptsToBody(): Plugin {
+  return {
+    name: 'inject-scripts-to-body',
+    transformIndexHtml: {
+      order: 'post',
+      handler(html) {
+        // Move script tags from head to end of body
+        const scriptRegex = /<script\s+type="module"[^>]*><\/script>/g;
+        const scripts = html.match(scriptRegex) || [];
+
+        // Remove scripts from head
+        html = html.replace(scriptRegex, '');
+
+        // Insert scripts before </body>
+        if (scripts.length > 0) {
+          html = html.replace('</body>', `${scripts.join('\n    ')}\n  </body>`);
+        }
+
+        return html;
+      }
+    }
+  };
+}
+
 const plugins = [
   react(),
   tailwindcss(),
@@ -186,6 +211,7 @@ const plugins = [
   /* vitePluginManusRuntime(), */
   vitePluginManusDebugCollector(),
   vitePluginImageOptimization(),
+  vitePluginInjectScriptsToBody(),
 ];
 
 export default defineConfig({
