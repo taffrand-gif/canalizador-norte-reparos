@@ -62,7 +62,7 @@ export default function VilaReal() {
     { question: "Fazem trabalhos em prédios e apartamentos em Vila Real?", answer: "Sim, temos vasta experiência em canalização de prédios urbanos, incluindo reparação de colunas de água, substituição de tubagens antigas e desentupimentos em edifícios de vários andares." },
     {
       question: "Qual o custo de deslocação a Vila Real?",
-      answer: "A deslocação a Vila Real é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
     }];
 
   return (

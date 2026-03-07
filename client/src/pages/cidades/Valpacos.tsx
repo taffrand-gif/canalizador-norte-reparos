@@ -92,7 +92,7 @@ export default function Valpacos() {
   const faqs = [
     {
       question: "Qual o custo de deslocação a Valpaços?",
-      answer: "A deslocação a Valpaços é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem urgências 24 horas em Valpaços?",

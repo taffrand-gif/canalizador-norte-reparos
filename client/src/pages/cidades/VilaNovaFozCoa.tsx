@@ -63,7 +63,7 @@ export default function VilaNovaFozCoa() {
     { question: "Fazem canalização para equipamentos culturais?", answer: "Sim, temos experiência em canalização para museus e espaços culturais, incluindo sistemas de climatização e controlo de humidade essenciais para a preservação de acervos." },
     {
       question: "Qual o custo de deslocação a Vila Nova de Foz Côa?",
-      answer: "A deslocação a Vila Nova de Foz Côa é de 30€. Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6). Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
     }];
 
   return (

@@ -44,7 +44,7 @@ export default function Armamar() {
     { question: "Fazem canalização para pomares e sistemas de rega?", answer: "Sim, instalamos redes de água e sistemas de rega para pomares de cereja e outras frutas, com tubagens enterradas e sistemas de gotejamento." },
     {
       question: "Qual o custo de deslocação a Armamar?",
-      answer: "A deslocação a Armamar é de 35€. Chegamos em aproximadamente 75-85 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 75-85 minutos. Inclui todo o concelho."
     }];
 
   return (

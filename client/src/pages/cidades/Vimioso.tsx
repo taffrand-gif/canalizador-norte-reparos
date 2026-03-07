@@ -63,7 +63,7 @@ export default function Vimioso() {
     { question: "Cobrem as aldeias junto à fronteira espanhola?", answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as localidades junto à raia como Algoso, Angueira e Caçarelhos." },
     {
       question: "Qual o custo de deslocação a Vimioso?",
-      answer: "A deslocação a Vimioso é de 25€. Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
     }];
 
   return (

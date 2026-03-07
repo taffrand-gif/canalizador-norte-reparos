@@ -63,7 +63,7 @@ export default function Sabrosa() {
     { question: "Fazem canalização para casas históricas?", answer: "Sim, temos experiência em modernizar a canalização de casas históricas e solares, preservando a arquitetura original enquanto instalamos tubagens modernas." },
     {
       question: "Qual o custo de deslocação a Sabrosa?",
-      answer: "A deslocação a Sabrosa é de 35€. Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
     }];
 
   return (

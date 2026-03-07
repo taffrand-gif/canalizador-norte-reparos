@@ -57,7 +57,7 @@ export default function TorreMoncorvo() {
     { question: "Chegam a Torre de Moncorvo?", answer: "Sim, cobrimos todo o concelho. Tempo de chegada: 50-60 minutos." },
     {
       question: "Qual o custo de deslocação a Torre de Moncorvo?",
-      answer: "A deslocação a Torre de Moncorvo é de 25€. Chegamos em aproximadamente 45-50 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 45-50 minutos. Inclui todo o concelho."
     },
     { question: "Fazem canalização para quintas?", answer: "Sim, temos experiência em quintas vinícolas e adegas do Douro Superior." }
   ];

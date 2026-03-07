@@ -63,7 +63,7 @@ export default function Montalegre() {
     { question: "Fazem proteção de canos contra o gelo?", answer: "Sim, somos especializados em isolamento térmico de tubagens para prevenir rebentamentos no inverno rigoroso do Barroso, onde as temperaturas podem descer abaixo dos -10°C." },
     {
       question: "Qual o custo de deslocação a Montalegre?",
-      answer: "A deslocação a Montalegre é de 40€, sob marcação prévia. Estamos a cerca de 110km de Macedo de Cavaleiros. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 110km de Macedo de Cavaleiros. Inclui todo o concelho."
     }];
 
   return (

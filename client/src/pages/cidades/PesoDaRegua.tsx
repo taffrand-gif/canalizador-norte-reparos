@@ -63,7 +63,7 @@ export default function PesoDaRegua() {
     { question: "Fazem canalização para caves de Vinho do Porto?", answer: "Sim, somos especializados em redes de água e drenagem para caves de vinho, armazéns de envelhecimento e instalações de vinificação na capital do Douro." },
     {
       question: "Qual o custo de deslocação a Peso da Régua?",
-      answer: "A deslocação a Peso da Régua é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
     }];
 
   return (

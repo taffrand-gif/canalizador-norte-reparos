@@ -63,7 +63,7 @@ export default function VilaPouca() {
     { question: "Fazem canalização para estabelecimentos termais?", answer: "Sim, temos experiência em redes de água termal, tubagens resistentes a águas minerais e sistemas de canalização para spas e termas, incluindo Pedras Salgadas." },
     {
       question: "Qual o custo de deslocação a Vila Pouca de Aguiar?",
-      answer: "A deslocação a Vila Pouca de Aguiar é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
     }];
 
   return (

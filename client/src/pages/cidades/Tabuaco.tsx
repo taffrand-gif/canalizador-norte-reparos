@@ -45,7 +45,7 @@ export default function Tabuaco() {
     { question: "Fazem canalização para quintas vinícolas?", answer: "Sim, instalamos redes de água para quintas vinícolas do Douro, incluindo caves de vinificação, sistemas de lavagem e drenagem de terrenos em socalcos." },
     {
       question: "Qual o custo de deslocação a Tabuaço?",
-      answer: "A deslocação a Tabuaço é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
     }];
 
   return (

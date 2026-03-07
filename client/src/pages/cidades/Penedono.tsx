@@ -45,7 +45,7 @@ export default function Penedono() {
     { question: "Fazem canalização em casas medievais de granito?", answer: "Sim, somos especializados em instalar canalização moderna em casas de granito centenárias, respeitando a arquitetura medieval enquanto garantimos conforto moderno." },
     {
       question: "Qual o custo de deslocação a Penedono?",
-      answer: "A deslocação a Penedono é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
     }];
 
   return (

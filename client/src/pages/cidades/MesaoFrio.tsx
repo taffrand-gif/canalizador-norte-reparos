@@ -45,7 +45,7 @@ export default function MesaoFrio() {
     { question: "Fazem canalização para embarcadouros e turismo fluvial?", answer: "Sim, instalamos redes de água para infraestruturas de turismo fluvial, restaurantes ribeirinhos e alojamentos junto ao rio Douro." },
     {
       question: "Qual o custo de deslocação a Mesão Frio?",
-      answer: "A deslocação a Mesão Frio é de 35€. Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
     }];
 
   return (

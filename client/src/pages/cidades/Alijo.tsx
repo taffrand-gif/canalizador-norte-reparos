@@ -62,7 +62,7 @@ export default function Alijo() {
     { question: "Fazem canalização para quintas vinícolas do Douro?", answer: "Sim, somos especializados em redes de água para quintas do Douro, incluindo caves de vinificação, sistemas de lavagem de cubas e drenagem de terrenos em socalcos." },
     {
       question: "Qual o custo de deslocação a Alijó?",
-      answer: "A deslocação a Alijó é de 35€. Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
     }];
 
   return (

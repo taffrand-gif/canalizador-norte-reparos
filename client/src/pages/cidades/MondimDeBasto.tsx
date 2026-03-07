@@ -63,7 +63,7 @@ export default function MondimDeBasto() {
     { question: "Fazem canalização para alojamentos de montanha?", answer: "Sim, instalamos canalização para hotéis de montanha, casas de turismo rural e refúgios na Serra do Alvão, com proteção contra gelo e sistemas de aquecimento adequados." },
     {
       question: "Qual o custo de deslocação a Mondim de Basto?",
-      answer: "A deslocação a Mondim de Basto é de 40€, sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
+      answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
     }];
 
   return (

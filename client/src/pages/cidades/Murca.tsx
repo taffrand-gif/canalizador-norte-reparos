@@ -63,7 +63,7 @@ export default function Murca() {
     { question: "Fazem canalização para lagares de azeite?", answer: "Sim, instalamos redes de água e drenagem para lagares de azeite, com tubagens resistentes e sistemas de escoamento adequados ao processamento de azeitona." },
     {
       question: "Qual o custo de deslocação a Murça?",
-      answer: "A deslocação a Murça é de 30€. Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
     }];
 
   return (

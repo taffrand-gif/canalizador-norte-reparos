@@ -62,7 +62,7 @@ export default function Lamego() {
     { question: "Fazem renovação de canalização em edifícios históricos?", answer: "Sim, somos especializados em modernizar a canalização de edifícios antigos e patrimônio classificado, como os que rodeiam o Santuário de Nossa Senhora dos Remédios, preservando a estrutura original." },
     {
       question: "Qual o custo de deslocação a Lamego?",
-      answer: "A deslocação a Lamego é de 35€. Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
+      answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
     }];
 
   return (

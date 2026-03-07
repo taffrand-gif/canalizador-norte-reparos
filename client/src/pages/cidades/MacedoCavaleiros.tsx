@@ -15,7 +15,7 @@ export default function MacedoCavaleiros() {
   const faqs = [
     {
       question: "Qual o custo de deslocação a Macedo de Cavaleiros?",
-      answer: "A deslocação a Macedo de Cavaleiros é de 10€, pois é a nossa sede. Atendemos em menos de 30 minutos. Inclui todo o concelho."
+      answer: "A deslocação a Macedo de Cavaleiros é de 15€ (Zona 1), pois é a nossa sede. Atendemos em menos de 30 minutos. Inclui todo o concelho."
     },
     {
       question: "Fazem urgências 24 horas em Macedo de Cavaleiros?",
