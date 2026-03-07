@@ -4,14 +4,45 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
 import { useSite } from '@/contexts/SiteContext';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { useEffect } from 'react';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function MacedoCavaleiros() {
   const { config } = useSite();
+
+  useEffect(() => {
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
+    return () => {
+      document.head.removeChild(faqSchema);
+    };
+  }, []);
+
+  const cidadesProximas = getCidadesProximas('macedo-cavaleiros');
+
   const faqs = [
     {
       question: "Qual o custo de deslocação a Macedo de Cavaleiros?",
@@ -43,11 +74,11 @@ export default function MacedoCavaleiros() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
-              <nav className="mb-6 text-blue-200">
-                <a href="/" className="hover:text-white">Canalizador Profissional</a> &gt; 
-                <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
-                <span className="ml-2">Macedo de Cavaleiros</span>
-              </nav>
+              <Breadcrumbs items={[
+                { label: 'Canalizador', href: '/' },
+                { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+                { label: 'Macedo de Cavaleiros', href: '/canalizador-macedo-cavaleiros' }
+              ]} />
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Canalizador Profissional em <span className="text-orange-400">Macedo de Cavaleiros</span>
@@ -436,9 +467,16 @@ export default function MacedoCavaleiros() {
           </div>
         </section>
 
-        <RelatedCities 
-          currentCity="Macedo de Cavaleiros" 
-          currentCitySlug="canalizador-macedocavaleiros" 
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Macedo de Cavaleiros"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        <RelatedCities
+          currentCity="Macedo de Cavaleiros"
+          currentCitySlug="canalizador-macedocavaleiros"
         />
       </main>
       
