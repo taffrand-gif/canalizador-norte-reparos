@@ -35,7 +35,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
               <h4 className="font-bold text-gray-900 mb-2">Horário Normal</h4>
               <p className="text-sm text-gray-600 mb-3">Seg-Sex 08h-18h</p>
               <div className="text-4xl font-black" style={{ color: accentColor }}>
-                60€<span className="text-xl text-gray-600">/h</span>
+                65€<span className="text-xl text-gray-600">/h</span>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
                   </div>
                   <div className="bg-white rounded-lg p-4">
                     <p className="text-sm text-gray-600 mb-1">Deslocação adicional</p>
-                    <p className="text-2xl font-bold text-indigo-600">+20€</p>
+                    <p className="text-2xl font-bold text-indigo-600">+50%</p>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-blue-50 rounded-xl p-5 border-2 border-blue-200">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-gray-900">Zona 2</span>
-                <span className="text-2xl font-black text-blue-600">20€</span>
+                <span className="text-2xl font-black text-blue-600">25€</span>
               </div>
               <p className="text-sm text-gray-600">15-35 km</p>
               <p className="text-xs text-gray-500 mt-2">Mirandela, Vila Flor</p>
@@ -115,7 +115,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-yellow-50 rounded-xl p-5 border-2 border-yellow-200">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-gray-900">Zona 3</span>
-                <span className="text-2xl font-black text-yellow-600">30€</span>
+                <span className="text-2xl font-black text-yellow-600">35€</span>
               </div>
               <p className="text-sm text-gray-600">35-60 km</p>
               <p className="text-xs text-gray-500 mt-2">Bragança, Vinhais</p>
@@ -125,7 +125,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-orange-50 rounded-xl p-5 border-2 border-orange-200">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-gray-900">Zona 4</span>
-                <span className="text-2xl font-black text-orange-600">35€</span>
+                <span className="text-2xl font-black text-orange-600">45€</span>
               </div>
               <p className="text-sm text-gray-600">60-90 km</p>
               <p className="text-xs text-gray-500 mt-2">Miranda do Douro</p>
@@ -135,7 +135,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-red-50 rounded-xl p-5 border-2 border-red-200">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-gray-900">Zona 5</span>
-                <span className="text-2xl font-black text-red-600">45€</span>
+                <span className="text-2xl font-black text-red-600">55€</span>
               </div>
               <p className="text-sm text-gray-600">90-120 km</p>
               <p className="text-xs text-gray-500 mt-2">Vila Real, Lamego</p>
@@ -145,7 +145,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-purple-50 rounded-xl p-5 border-2 border-purple-200">
               <div className="flex justify-between items-center mb-2">
                 <span className="font-bold text-gray-900">Zona 6</span>
-                <span className="text-2xl font-black text-purple-600">50€</span>
+                <span className="text-2xl font-black text-purple-600">65€</span>
               </div>
               <p className="text-sm text-gray-600">> 120 km</p>
               <p className="text-xs text-gray-500 mt-2">Chaves, Montalegre</p>
@@ -169,11 +169,11 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
             <div className="bg-white rounded-xl p-6 space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-gray-700">Intervenção em Bragança (Zona 3)</span>
-                <span className="font-bold text-gray-900">30€</span>
+                <span className="font-bold text-gray-900">35€</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-gray-700">Mão de obra (2h, horário normal)</span>
-                <span className="font-bold text-gray-900">120€</span>
+                <span className="font-bold text-gray-900">130€</span>
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-gray-700">Material (tubo + conexões)</span>
@@ -182,7 +182,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
               <hr className="border-gray-300" />
               <div className="flex justify-between items-center text-lg">
                 <span className="font-bold text-gray-900">TOTAL</span>
-                <span className="text-3xl font-black" style={{ color: accentColor }}>185€</span>
+                <span className="text-3xl font-black" style={{ color: accentColor }}>200€</span>
               </div>
             </div>
             <p className="text-sm text-gray-600 text-center mt-4">
