@@ -19,7 +19,6 @@ import Testimonials from '@/components/Testimonials';
 import GoogleReviews from '@/components/GoogleReviews';
 import Blog from '@/components/Blog';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
-import ContactForm from '@/components/ContactForm';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
 
@@ -91,9 +90,6 @@ export default function OptimizedHome() {
       
       {/* Secção Blog */}
       <Blog />
-      
-      {/* Formulário de contacto rápido */}
-      <ContactForm />
       
       {/* Secção contactos */}
       <Contactos />
