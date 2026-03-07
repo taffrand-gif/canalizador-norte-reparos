@@ -80,6 +80,7 @@ const PouparAguaCasa = lazy(() => import("@/pages/blog/PouparAguaCasa"));
 const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCanalizacaoInverno"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
+const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 
@@ -186,6 +187,8 @@ function Router() {
         <Route path={"/esquentadores"} component={ServiceHub} />
         <Route path={"/casas-banho"} component={ServiceHub} />
         <Route path={"/canalizacao"} component={ServiceHub} />
+        {/* Dynamic freguesia pages (498 pages) */}
+        <Route path={"/:service-:freguesia-:parentCity"} component={FreguesiasPage} />
         {/* Dynamic city-service pages (100+ pages) */}
         <Route path={"/:service-:city"} component={CityServicePage} />
         {/* Final fallback route */}
