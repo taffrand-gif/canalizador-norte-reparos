@@ -21,22 +21,22 @@ const servicesElec = [
 ];
 
 const servicesPlumb = [
-  { label: 'Reparação de Torneira', min: 60, max: 80 },
-  { label: 'Deteção de Fuga', min: 100, max: 150 },
-  { label: 'Substituição de Cano', min: 150, max: 250 },
-  { label: 'Desentupimento Simples', min: 40, max: 60 },
-  { label: 'Fuga de Água Visível', min: 60, max: 90 },
-  { label: 'Fuga Oculta (deteção + reparação)', min: 120, max: 250 },
-  { label: 'Esquentador (instalação)', min: 200, max: 400 },
-  { label: 'Esquentador (reparação)', min: 50, max: 120 },
-  { label: 'Casa de Banho Completa', min: 800, max: 1800 },
+  { label: 'Reparação de Torneira', min: 65, max: 130 },
+  { label: 'Deteção de Fuga', min: 130, max: 195 },
+  { label: 'Substituição de Cano', min: 195, max: 325 },
+  { label: 'Desentupimento Simples', min: 65, max: 130 },
+  { label: 'Fuga de Água Visível', min: 65, max: 130 },
+  { label: 'Fuga Oculta (deteção + reparação)', min: 195, max: 390 },
+  { label: 'Esquentador (instalação)', min: 260, max: 520 },
+  { label: 'Esquentador (reparação)', min: 65, max: 195 },
+  { label: 'Casa de Banho Completa', min: 1300, max: 2600 },
 ];
 
 const examplesPlumb = [
-  { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
-  { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
-  { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
-  { icon: '🔍', label: 'Deteção de fuga', price: '150€ (FLIR: 280€)' },
+  { icon: '🚰', label: 'Desentupimento de canalização', price: '80-150€' },
+  { icon: '💧', label: 'Reparação de torneira', price: '65-130€' },
+  { icon: '🔥', label: 'Instalação de esquentador', price: '260-520€' },
+  { icon: '🔍', label: 'Deteção de fuga', price: '130-195€' },
 ];
 
 const examplesElec = [
