@@ -36,7 +36,7 @@ const examplesPlumb = [
   { icon: '🚰', label: 'Desentupimento de canalização', price: '60-120€' },
   { icon: '💧', label: 'Reparação de torneira', price: '40-80€' },
   { icon: '🔥', label: 'Instalação de esquentador', price: '200-400€' },
-  { icon: '🔍', label: 'Deteção de fuga', price: '150€ (FLIR: 280€)' },
+  { icon: '🔍', label: 'Deteção de fuga', price: '80-150€' },
 ];
 
 const examplesElec = [
@@ -232,7 +232,7 @@ function CalculadorPreco() {
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
-              style={{ backgroundColor: '#0D7C66', color: '#ffffff' }}
+              style={{ backgroundColor: '#128C7E', color: '#ffffff' }}
             >
               💬 Confirmar Disponibilidade no WhatsApp
             </a>

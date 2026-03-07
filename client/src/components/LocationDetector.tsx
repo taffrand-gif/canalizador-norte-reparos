@@ -67,7 +67,7 @@ export default function LocationDetector() {
                 </button>
                 <button
                   onClick={() => setIsOpen(true)}
-                  className="px-4 py-1.5 bg-blue-500 text-white rounded-lg text-sm font-medium hover:bg-blue-400 transition-colors"
+                  className="px-4 py-1.5 bg-blue-700 text-white rounded-lg text-sm font-medium hover:bg-blue-600 transition-colors"
                 >
                   Alterar
                 </button>
@@ -87,7 +87,7 @@ export default function LocationDetector() {
       {/* Location Badge - always visible */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-24 right-4 md:bottom-6 md:right-6 z-40 bg-white shadow-lg rounded-full px-4 py-2 flex items-center gap-2 hover:shadow-xl transition-shadow border border-gray-200"
+        className="fixed bottom-24 right-4 md:bottom-6 md:right-6 z-40 bg-white shadow-lg rounded-full px-4 py-3 flex items-center gap-2 hover:shadow-xl transition-shadow border border-gray-200 min-h-[48px]"
         aria-label="Alterar localização"
       >
         <MapPin className="w-4 h-4 text-blue-600" />
