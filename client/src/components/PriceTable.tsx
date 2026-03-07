@@ -10,14 +10,14 @@ export default function PriceTable() {
     {
       service: "Desentupimento Simples",
       description: "Lava-loiça, bidé, lavatório",
-      price: "40€ - 60€",
+      price: "65€ - 130€",
       details: ["Uso de bomba/mola", "Limpeza da zona", "Teste de escoamento"],
     },
     {
       service: "Fuga de Água / Urgência",
       description: "Reparação de fugas visíveis ou ocultas",
-      price: "60€ - 90€",
-      details: ["1h de trabalho", "Estancamento imediato", "Substituição peças base"],
+      price: "65€ - 130€",
+      details: ["1-2h de trabalho", "Estancamento imediato", "Substituição peças base"],
     },
     {
       service: "Instalação Equipamento",
@@ -115,17 +115,17 @@ export default function PriceTable() {
                         <h4 className="font-bold text-blue-900 mb-2">"Moro em Macedo e tenho a pia da cozinha entupida."</h4>
                         <ul className="space-y-1 text-blue-800 text-sm">
                             <li className="flex justify-between"><span>Deslocação (Zona 1):</span> <span>15€</span></li>
-                            <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>35€</span></li>
-                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>45€</span></li>
+                            <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>33€</span></li>
+                            <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>48€</span></li>
                         </ul>
                     </div>
 
                     <div className="bg-amber-50 p-6 rounded-lg border border-amber-100">
                         <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
                         <ul className="space-y-1 text-amber-800 text-sm">
-                            <li className="flex justify-between"><span>Deslocação (Zona 3):</span> <span>30€</span></li>
-                            <li className="flex justify-between"><span>Intervenção Urgência:</span> <span>90€</span></li>
-                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>120€</span></li>
+                            <li className="flex justify-between"><span>Deslocação (Zona 3):</span> <span>35€</span></li>
+                            <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>90€</span></li>
+                            <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>125€</span></li>
                         </ul>
                          <p className="text-xs text-amber-700 mt-2 italic">Preço anunciado ao telefone ANTES de sair.</p>
                     </div>
