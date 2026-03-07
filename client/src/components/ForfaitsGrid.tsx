@@ -23,24 +23,24 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🚰',
       title: 'Desentupimento Simples',
       description: 'Desobstrução de canalização básica',
-      priceRange: '55-75€',
+      priceRange: '80-145€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Desentupimento mecânico',
         'Teste de escoamento',
-        'Garantia 1 mês'
+        'Garantia 3 meses'
       ]
     },
     {
       icon: '💧',
       title: 'Fuga de Água Visível',
       description: 'Reparação de fuga identificada',
-      priceRange: '75-120€',
+      priceRange: '80-145€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Reparação completa',
         'Material incluído',
-        'Garantia 2 anos'
+        'Garantia 3 meses'
       ],
       popular: true
     },
@@ -48,7 +48,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🔍',
       title: 'Fuga Oculta',
       description: 'Deteção + reparação de fuga escondida',
-      priceRange: '150-300€',
+      priceRange: '210-405€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Deteção com equipamento',
@@ -61,19 +61,19 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🔥',
       title: 'Reparação Esquentador',
       description: 'Diagnóstico e reparação',
-      priceRange: '65-150€',
+      priceRange: '80-210€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Diagnóstico completo',
         'Reparação ou substituição peças',
-        'Garantia 1 ano'
+        'Garantia 3 meses'
       ]
     },
     {
       icon: '🚿',
       title: 'Instalação Torneira',
       description: 'Substituição ou instalação nova',
-      priceRange: '50-85€',
+      priceRange: '80-145€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Instalação completa',
@@ -85,24 +85,24 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
       icon: '🚽',
       title: 'Reparação Sanita',
       description: 'Autoclismo, mecanismo ou vedação',
-      priceRange: '60-110€',
+      priceRange: '80-145€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Substituição mecanismo',
         'Regulação completa',
-        'Garantia 2 anos'
+        'Garantia 3 meses'
       ]
     },
     {
       icon: '🏠',
       title: 'Casa de Banho Completa',
       description: 'Renovação total de canalização',
-      priceRange: '900-2200€',
+      priceRange: '1315-2615€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Sanita + lavatório + duche',
         'Tubagem completa',
-        'Garantia 5 anos'
+        'Garantia 3 meses'
       ]
     },
     {
@@ -114,7 +114,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
         'Estudo personalizado',
         'Plano de canalização',
         'Material de qualidade',
-        'Garantia decenal'
+        'Garantia 3 meses'
       ]
     }
   ];
