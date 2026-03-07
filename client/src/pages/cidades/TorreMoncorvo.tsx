@@ -1,11 +1,14 @@
 // SEO optimized page for "Canalizador Torre de Moncorvo"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function TorreMoncorvo() {
   useEffect(() => {
@@ -50,8 +53,28 @@ export default function TorreMoncorvo() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => { document.getElementById('schema-torre')?.remove(); };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('torre-moncorvo');
 
   const faqs = [
     { question: "Chegam a Torre de Moncorvo?", answer: "Sim, cobrimos todo o concelho. Tempo de chegada: 50-60 minutos." },
@@ -107,6 +130,14 @@ export default function TorreMoncorvo() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Torre de Moncorvo"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
         <RelatedCities 
           currentCity="Torre de Moncorvo" 
           currentCitySlug="canalizador-torremoncorvo" 

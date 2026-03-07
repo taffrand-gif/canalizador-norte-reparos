@@ -1,11 +1,14 @@
 // SEO optimized page for "Canalizador Ribeira de Pena"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function RibeiraDePena() {
   useEffect(() => {
@@ -52,11 +55,31 @@ export default function RibeiraDePena() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-ribeira-pena');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('ribeira-pena');
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Ribeira de Pena?", answer: "Chegamos a Ribeira de Pena em aproximadamente 1h20 a 1h30, percorrendo cerca de 95km desde Macedo de Cavaleiros." },
@@ -110,6 +133,14 @@ export default function RibeiraDePena() {
             <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
           </div>
         </section>
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Ribeira de Pena"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
 
         <RelatedCities currentCity="Ribeira de Pena" currentCitySlug="canalizador-ribeira-de-pena" />
       </main>

@@ -1,11 +1,14 @@
 // SEO optimized page for "Canalizador Mogadouro"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Mogadouro() {
   useEffect(() => {
@@ -52,11 +55,31 @@ export default function Mogadouro() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-mogadouro');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('mogadouro');
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Mogadouro?", answer: "Chegamos a Mogadouro em aproximadamente 50-60 minutos a partir de Macedo de Cavaleiros." },
@@ -113,6 +136,14 @@ export default function Mogadouro() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Mogadouro"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
         <RelatedCities 
           currentCity="Mogadouro" 
           currentCitySlug="canalizador-mogadouro" 

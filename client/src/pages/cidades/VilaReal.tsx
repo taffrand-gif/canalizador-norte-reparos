@@ -1,11 +1,14 @@
 // SEO optimized page for "Canalizador Vila Real"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function VilaReal() {
   useEffect(() => {
@@ -51,11 +54,31 @@ export default function VilaReal() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-vila-real');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('vila-real');
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Real?", answer: "Chegamos a Vila Real em aproximadamente 1h15 a partir de Macedo de Cavaleiros, percorrendo cerca de 85km pela A4 e IP4." },
@@ -285,6 +308,14 @@ export default function VilaReal() {
             <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
           </div>
         </section>
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Vila Real"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
 
         <RelatedCities currentCity="Vila Real" currentCitySlug="canalizador-vila-real" />
       </main>

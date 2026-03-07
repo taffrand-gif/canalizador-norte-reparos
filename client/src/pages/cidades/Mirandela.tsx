@@ -2,6 +2,8 @@
 // 100% unique content, conforme políticas Google
 
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import SEOHead from '@/components/SEOHead';
@@ -10,6 +12,7 @@ import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Mirandela() {
   const { config } = useSite();
@@ -89,6 +92,24 @@ export default function Mirandela() {
       ]
     });
     document.head.appendChild(schemaScript);
+
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
   const faqs = [
     {
       question: "Qual o custo de deslocação a Mirandela?",
@@ -107,8 +128,11 @@ export default function Mirandela() {
     
     return () => {
       document.head.removeChild(schemaScript);
+      document.head.removeChild(faqSchema);
     };
   }, [config]);
+
+  const cidadesProximas = getCidadesProximas('mirandela');
 
   return (
     <>
@@ -122,13 +146,12 @@ export default function Mirandela() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
-              <nav className="mb-6 text-blue-200">
-                <a href="/" className="hover:text-white">Canalizador Profissional</a> &gt; 
-                <a href="/servicos" className="hover:text-white mx-2">Serviços</a> &gt; 
-                <span className="ml-2">Mirandela</span>
-              </nav>
-              
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                            <Breadcrumbs items={[
+                { label: 'Canalizador', href: '/' },
+                { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+                { label: 'Mirandela', href: '/canalizador-mirandela' }
+              ]} />
+<h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Canalizador Profissional em <span className="text-orange-400">Mirandela</span>
               </h1>
               
@@ -511,6 +534,14 @@ export default function Mirandela() {
             <FAQSection faqs={faqs} />
           </div>
         </section>
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Mirandela"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
 
         <RelatedCities 
           currentCity="Mirandela" 

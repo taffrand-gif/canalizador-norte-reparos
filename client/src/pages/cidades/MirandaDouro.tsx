@@ -1,11 +1,14 @@
 // SEO optimized page for "Canalizador Miranda do Douro"
 import Header from '@/components/Header';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import CidadesProximas from '@/components/CidadesProximas';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function MirandaDouro() {
   useEffect(() => {
@@ -52,11 +55,31 @@ export default function MirandaDouro() {
     });
     document.head.appendChild(schemaScript);
 
+    // FAQ Schema
+    const faqSchema = document.createElement('script');
+    faqSchema.type = 'application/ld+json';
+    faqSchema.setAttribute('data-faq-schema', 'true');
+    faqSchema.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+    document.head.appendChild(faqSchema);
+
     return () => {
       const existingSchema = document.getElementById('schema-miranda');
       if (existingSchema) existingSchema.remove();
     };
   }, []);
+
+  const cidadesProximas = getCidadesProximas('miranda-douro');
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Miranda do Douro?", answer: "Chegamos a Miranda do Douro em aproximadamente 45-60 minutos. Cobrimos todo o concelho." },
@@ -113,6 +136,14 @@ export default function MirandaDouro() {
         </section>
 
         {/* Related Cities - Maillage interno SEO */}
+        {/* Cidades Próximas - Internal Linking */}
+        <CidadesProximas
+          currentCity="Miranda do Douro"
+          cidades={cidadesProximas}
+          serviceType="canalizador"
+        />
+
+        
         <RelatedCities 
           currentCity="Miranda do Douro" 
           currentCitySlug="canalizador-mirandadouro" 
