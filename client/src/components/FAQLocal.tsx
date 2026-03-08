@@ -22,7 +22,7 @@ function FAQLocal() {
     },
     {
       question: 'Quanto custa um canalizador em Bragança para desentupimento?',
-      answer: 'O preço de um desentupimento em Bragança: sanita 120€, lavatório 100€, lava-loiça 110€ (sem IVA). Urgência noturna: +50%. Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Orçamento gratuito por telefone.',
+      answer: 'O preço de um desentupimento em Bragança: sanita 80-120€, lavatório 100€, lava-loiça 110€ (sem IVA). Urgência noturna: +50%. Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Orçamento gratuito por telefone.',
     },
     {
       question: 'Fazem arranjo de fugas de água em Macedo de Cavaleiros?',

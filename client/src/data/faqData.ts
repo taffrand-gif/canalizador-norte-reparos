@@ -16,7 +16,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 1,
     question: "Quanto custa chamar um canalizador em Bragança?",
-    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
+    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
     category: "Preços"
   },
   {

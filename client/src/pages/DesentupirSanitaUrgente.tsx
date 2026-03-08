@@ -8,10 +8,10 @@ export default function DesentupirSanitaUrgente() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 65€ Fixo';
+    document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 80-120€';
     const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
     meta.setAttribute('name', 'description');
-    meta.setAttribute('content', 'Sanita entupida? Resolvemos em 1 hora ou não paga! Preço fixo 65€. Atendimento 24h. Ligue: 928 484 451');
+    meta.setAttribute('content', 'Sanita entupida? Resolvemos em 1 hora ou não paga! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
     if (!meta.parentElement) document.head.appendChild(meta);
   }, []);
 
@@ -31,7 +31,7 @@ export default function DesentupirSanitaUrgente() {
         },
         "offers": {
           "@type": "Offer",
-          "price": "65",
+          "price": "80-120",
           "priceCurrency": "EUR"
         }
       }) }} />
@@ -51,9 +51,9 @@ export default function DesentupirSanitaUrgente() {
           </h1>
 
           <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
-            <p className="text-sm font-semibold mb-1">PREÇO FIXO</p>
-            <p className="text-5xl font-bold">65€</p>
-            <p className="text-sm text-gray-600 mt-1">(90% dos casos)</p>
+            <p className="text-sm font-semibold mb-1">PREÇO</p>
+            <p className="text-5xl font-bold">80-120€</p>
+            <p className="text-sm text-gray-600 mt-1">(conforme complexidade)</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-4 mb-8 text-left">
@@ -155,7 +155,7 @@ export default function DesentupirSanitaUrgente() {
                 MAIS COMUM
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-2">Desentupimento Simples</h3>
-              <div className="text-5xl font-bold text-green-700 mb-4">65€</div>
+              <div className="text-5xl font-bold text-green-700 mb-4">80€</div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -175,13 +175,13 @@ export default function DesentupirSanitaUrgente() {
                 </li>
               </ul>
               <p className="text-sm text-gray-600 italic">
-                Cobre 90% dos casos de entupimentos domésticos
+                Cobre 70% dos casos de entupimentos domésticos
               </p>
             </div>
 
             <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Casos Complexos</h3>
-              <div className="text-5xl font-bold text-gray-700 mb-4">95-150€</div>
+              <div className="text-5xl font-bold text-gray-700 mb-4">120-150€</div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-gray-600 flex-shrink-0 mt-0.5" />
@@ -201,7 +201,7 @@ export default function DesentupirSanitaUrgente() {
                 </li>
               </ul>
               <p className="text-sm text-gray-600 italic">
-                Apenas 10% dos casos. Orçamento antes de começar.
+                Apenas 30% dos casos. Orçamento antes de começar.
               </p>
             </div>
           </div>
@@ -304,7 +304,7 @@ export default function DesentupirSanitaUrgente() {
             {[
               {
                 q: 'Quanto custa desentupir uma sanita?',
-                a: '65€ para desentupimentos simples (90% dos casos). Casos complexos: 95-150€. Preço sempre comunicado antes de começar.'
+                a: '80€ para desentupimentos simples (70% dos casos). Casos complexos: 120-150€. Preço sempre comunicado antes de começar.'
               },
               {
                 q: 'Quanto tempo demora?',
@@ -348,8 +348,8 @@ export default function DesentupirSanitaUrgente() {
           </p>
 
           <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
-            <p className="text-sm font-semibold mb-1">PREÇO FIXO</p>
-            <p className="text-5xl font-bold">65€</p>
+            <p className="text-sm font-semibold mb-1">PREÇO</p>
+            <p className="text-5xl font-bold">80-120€</p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
