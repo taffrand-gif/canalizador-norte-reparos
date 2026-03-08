@@ -103,6 +103,7 @@ const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaAr
 const ValePenaArranjarVsSubstituir = lazy(() => import("@/pages/ValePenaArranjarVsSubstituir"));
 const ComoDesentupirSanitaSozinho = lazy(() => import("@/pages/ComoDesentupirSanitaSozinho"));
 const QuantoTempoDemoraArranjarFugaAgua = lazy(() => import("@/pages/QuantoTempoDemoraArranjarFugaAgua"));
+const QuantoTempoDemoraDesentupirSanita = lazy(() => import("@/pages/QuantoTempoDemoraDesentupirSanita"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -192,6 +193,7 @@ function Router() {
         <Route path={"/vale-pena-arranjar-vs-substituir"} component={ValePenaArranjarVsSubstituir} />
         <Route path={"/como-desentupir-sanita-sozinho"} component={ComoDesentupirSanitaSozinho} />
         <Route path={"/quanto-tempo-demora-arranjar-fuga-agua"} component={QuantoTempoDemoraArranjarFugaAgua} />
+        <Route path={"/quanto-tempo-demora-desentupir-sanita"} component={QuantoTempoDemoraDesentupirSanita} />
         {/* Service hub pages */}
         <Route path={"/fugas-agua"} component={ServiceHub} />
         <Route path={"/desentupimentos"} component={ServiceHub} />
