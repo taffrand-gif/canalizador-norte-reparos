@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Sernancelhe() {
   useEffect(() => {
-    document.title = "Canalizador Sernancelhe 24h - Canalização e Desentupimentos - +351 928 484 451";
+    document.title = "Canalizador Sernancelhe 24h | 928 484 451";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
     metaDescription.setAttribute('content', 'Canalizador em Sernancelhe disponível 24h. Canalização para casas de granito, turismo religioso, desentupimentos e fugas. Terra da castanha. Orçamento gratuito.');

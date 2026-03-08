@@ -9,7 +9,7 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 
 export default function VilaPouca() {
   useEffect(() => {
-    document.title = "Canalizador Vila Pouca de Aguiar 24h - Termas e Canalização - +351 928 484 451";
+    document.title = "Canalizador Vila Pouca Aguiar 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

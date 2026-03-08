@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Tabuaco() {
   useEffect(() => {
-    document.title = "Canalizador Tabuaço 24h - Quintas Vinícolas do Douro - +351 928 484 451";
+    document.title = "Canalizador Tabuaço 24h | 928 484 451";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
     metaDescription.setAttribute('content', 'Canalizador em Tabuaço disponível 24h. Canalização para quintas vinícolas do Douro, desentupimentos, fugas de água, esquentadores. Orçamento gratuito.');

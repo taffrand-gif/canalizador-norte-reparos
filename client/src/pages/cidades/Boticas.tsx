@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Boticas() {
   useEffect(() => {
-    document.title = "Canalizador Boticas 24h - Desentupimentos e Arranjos - +351 928 484 451";
+    document.title = "Canalizador Boticas 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function FreixoEspadaCinta() {
   useEffect(() => {
-    document.title = "Canalizador Freixo de Espada à Cinta 24h - +351 928 484 451";
+    document.title = "Canalizador Freixo Espada à Cinta 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function SaoJoaoDaPesqueira() {
   useEffect(() => {
-    document.title = "Canalizador São João da Pesqueira 24h - Douro Vinhateiro - +351 928 484 451";
+    document.title = "Canalizador São João Pesqueira 24h | 928 484 451";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
     metaDescription.setAttribute('content', 'Canalizador em São João da Pesqueira, coração do Douro. Canalização para quintas vinícolas, caves de vinho, desentupimentos 24h. Orçamento gratuito.');

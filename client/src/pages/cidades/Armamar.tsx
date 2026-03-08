@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Armamar() {
   useEffect(() => {
-    document.title = "Canalizador Armamar 24h - Cereja e Douro - +351 928 484 451";
+    document.title = "Canalizador Armamar 24h | 928 484 451";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
     metaDescription.setAttribute('content', 'Canalizador em Armamar disponível 24h. Canalização para pomares de cereja, quintas do Douro, desentupimentos e fugas de água. Orçamento gratuito.');

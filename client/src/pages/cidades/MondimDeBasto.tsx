@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function MondimDeBasto() {
   useEffect(() => {
-    document.title = "Canalizador Mondim de Basto 24h - Serra do Alvão - +351 928 484 451";
+    document.title = "Canalizador Mondim de Basto 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

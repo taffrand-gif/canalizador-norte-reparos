@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function VilaNovaFozCoa() {
   useEffect(() => {
-    document.title = "Canalizador Vila Nova de Foz Côa 24h - UNESCO e Douro - +351 928 484 451";
+    document.title = "Canalizador Vila Nova Foz Côa 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

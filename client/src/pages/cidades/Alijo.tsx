@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Alijo() {
   useEffect(() => {
-    document.title = "Canalizador Alijó 24h - Canalização Quintas Douro - +351 928 484 451";
+    document.title = "Canalizador Alijó 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Sabrosa() {
   useEffect(() => {
-    document.title = "Canalizador Sabrosa 24h - Canalização no Douro - +351 928 484 451";
+    document.title = "Canalizador Sabrosa 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function Montalegre() {
   useEffect(() => {
-    document.title = "Canalizador Montalegre 24h - Canalização e Aquecimento - +351 928 484 451";
+    document.title = "Canalizador Montalegre 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
