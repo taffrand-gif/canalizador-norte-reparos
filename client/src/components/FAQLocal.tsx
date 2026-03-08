@@ -42,28 +42,8 @@ function FAQLocal() {
     },
   ] : [
     {
-      question: 'Existe eletricista disponível em Mirandela ao fim de semana?',
-      answer: 'Sim, a Eletricista Profissional disponibiliza eletricista certificado em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de chegada a Mirandela: aproximadamente 30 minutos.',
-    },
-    {
-      question: 'Quanto custa um eletricista em Bragança?',
-      answer: 'O preço de um eletricista em Bragança varia conforme o serviço: diagnóstico (40-55€), arranjo de curto-circuito (70-120€), substituição de quadro elétrico (250-450€), certificação CERTIEL (150-300€). Todos os preços sem IVA. Orçamento gratuito e sem compromisso.',
-    },
-    {
-      question: 'Fazem certificação CERTIEL em Macedo de Cavaleiros?',
-      answer: 'Sim, Macedo de Cavaleiros é a nossa base. Fazemos certificação CERTIEL para venda de imóveis, arrendamento e instalações novas. Prazo: 3-5 dias úteis. Preço: a partir de 150€ (sem IVA). Tratamos de toda a documentação e submissão na plataforma DGEG.',
-    },
-    {
-      question: 'Há eletricista de urgência em Miranda do Douro?',
-      answer: 'Sim, prestamos serviço de eletricidade de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como curtos-circuitos, falhas de energia ou situações de perigo. Ligue 928 484 451.',
-    },
-    {
-      question: 'Instalam quadros elétricos em Vila Flor e Torre de Moncorvo?',
-      answer: 'Sim, fazemos substituição e modernização de quadros elétricos em Vila Flor, Torre de Moncorvo e todas as localidades do distrito de Bragança. Preço: 250-450€ (sem IVA). Inclui quadro novo, disjuntores diferenciais, instalação completa e certificação.',
-    },
-    {
-      question: 'Qual o eletricista mais perto de Mogadouro?',
-      answer: 'A Eletricista Profissional é o eletricista certificado mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
+      question: 'Qual o canalizador mais perto de Mogadouro?',
+      answer: 'A Norte Reparos é o canalizador profissional mais próximo de Mogadouro, com base em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com orçamento gratuito.',
     },
   ];
 

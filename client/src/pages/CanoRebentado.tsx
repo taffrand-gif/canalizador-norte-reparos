@@ -80,9 +80,9 @@ export default function CanoRebentado() {
           },
           {
             icon: 'trending',
-            title: 'Risco de Curto Circuito',
-            description: 'Água perto de tomadas, quadro elétrico em risco. Medo de choque elétrico ou incêndio.',
-            consequence: 'Perigo real para a família. Pode causar incêndio.'
+            title: 'Risco de Danos Estruturais',
+            description: 'Água infiltra paredes, tetos e fundações. Humidade causa mofo e deterioração.',
+            consequence: 'Danos estruturais podem custar milhares de euros.'
           },
           {
             icon: 'time',
