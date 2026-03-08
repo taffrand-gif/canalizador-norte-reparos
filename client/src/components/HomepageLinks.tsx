@@ -11,7 +11,7 @@ export default function HomepageLinks() {
           A nossa equipa oferece serviços completos de canalização em Trás-os-Montes. Desde{' '}
           <a href="/desentupimentos-profissionais-tras-os-montes" className="text-[#0e7490] font-bold hover:underline">desentupimentos profissionais</a> com equipamento Ridgid, até{' '}
           <a href="/detecao-fugas-agua-camera" className="text-[#0e7490] font-bold hover:underline">deteção de fugas com câmara térmica</a> sem partir paredes. Realizamos{' '}
-          <a href="/reparacao-esquentadores-caldeiras" className="text-[#0e7490] font-bold hover:underline">reparação de esquentadores e caldeiras</a>,{' '}
+          <a href="/arranjacao-esquentadores-caldeiras" className="text-[#0e7490] font-bold hover:underline">arranjo de esquentadores e caldeiras</a>,{' '}
           <a href="/canalizacao-nova-construcao" className="text-[#0e7490] font-bold hover:underline">canalização nova para construção</a>,{' '}
           <a href="/instalacao-casa-banho-completa" className="text-[#0e7490] font-bold hover:underline">instalação completa de casa de banho</a> e{' '}
           <a href="/manutencao-preventiva-canalizacao" className="text-[#0e7490] font-bold hover:underline">manutenção preventiva</a>. Consulte a nossa{' '}

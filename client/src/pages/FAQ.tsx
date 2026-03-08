@@ -22,7 +22,7 @@ export default function FAQPage() {
   const faqs = [
     {
       question: "Quanto custa um canalizador em Trás-os-Montes?",
-      answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, reparação de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
+      answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
     },
     {
       question: "Como funciona o orçamento gratuito?",
@@ -42,11 +42,11 @@ export default function FAQPage() {
     },
     {
       question: "Quais os serviços de canalização que oferecem?",
-      answer: "Desentupimentos (esgotos, sanitas, lava-loiças), reparação de fugas de água, instalação e reparação de caldeiras/esquentadores, canalização nova (obra), aquecimento central, instalação de sanitários, inspeção por câmara, manutenção preventiva."
+      answer: "Desentupimentos (esgotos, sanitas, lava-loiças), arranjo de fugas de água, instalação e arranjo de caldeiras/esquentadores, canalização nova (obra), aquecimento central, instalação de sanitários, inspeção por câmara, manutenção preventiva."
     },
     {
-      question: "Reparam caldeiras e esquentadores?",
-      answer: "Sim, somos especialistas em reparação de caldeiras, esquentadores e termoacumuladores de todas as marcas (Vaillant, Bosch, Junkers, etc.). Fazemos manutenção anual obrigatória e reparação de avarias com peças originais."
+      question: "Arranjam caldeiras e esquentadores?",
+      answer: "Sim, somos especialistas em arranjo de caldeiras, esquentadores e termoacumuladores de todas as marcas (Vaillant, Bosch, Junkers, etc.). Fazemos manutenção anual obrigatória e arranjo de avarias com peças originais."
     },
     {
       question: "Instalam canalização nova em obra?",
@@ -120,7 +120,7 @@ export default function FAQPage() {
     <>
       <SEOHead 
         title="Perguntas Frequentes | Norte Reparos | Canalizador Trás-os-Montes"
-        description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, reparação caldeiras, zonas servidas. Canalizador certificado em Bragança."
+        description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, arranjo caldeiras, zonas servidas. Canalizador certificado em Bragança."
         canonical="/faq"
       />
       
@@ -236,7 +236,7 @@ export default function FAQPage() {
                       <li><Link href="/servicos" className="text-blue-600 hover:underline">Todos os Serviços</Link></li>
                       <li><Link href="/blog/custo-canalizador-tras-os-montes-precos" className="text-blue-600 hover:underline">Preços Canalizador</Link></li>
                       <li><Link href="/blog/desentupir-wc-metodos-caseiros" className="text-blue-600 hover:underline">Desentupir WC</Link></li>
-                      <li><Link href="/blog/reparacao-caldeira-esquentador-manutencao" className="text-blue-600 hover:underline">Reparação Caldeira</Link></li>
+                      <li><Link href="/blog/arranjacao-caldeira-esquentador-manutencao" className="text-blue-600 hover:underline">Arranjo Caldeira</Link></li>
                       <li><Link href="/blog" className="text-blue-600 hover:underline">Blog com Dicas</Link></li>
                     </ul>
                   </div>

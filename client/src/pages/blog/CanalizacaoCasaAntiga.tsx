@@ -298,7 +298,7 @@ export default function CanalizacaoCasaAntiga() {
                 </li>
               </ul>
               <p className="text-sm text-gray-600">
-                <strong>Custo do isolamento:</strong> €2-4/metro. Investimento pequeno que evita reparações caras.
+                <strong>Custo do isolamento:</strong> €2-4/metro. Investimento pequeno que evita arranjos caras.
               </p>
             </div>
           </div>

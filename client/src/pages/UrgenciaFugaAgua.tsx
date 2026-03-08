@@ -172,7 +172,7 @@ export default function UrgenciaFugaAgua() {
               { step: '1', title: 'Liga ou envia WhatsApp', time: '2 min', desc: 'Atendemos imediatamente. Explicamos o processo.' },
               { step: '2', title: 'Técnico a caminho', time: '30-90 min', desc: 'Confirmamos hora de chegada por SMS/WhatsApp.' },
               { step: '3', title: 'Diagnóstico + Orçamento', time: '15 min', desc: 'Identificamos o problema. Preço fixo antes de começar.' },
-              { step: '4', title: 'Reparação imediata', time: '1-3 horas', desc: 'Resolvemos com equipamento profissional.' },
+              { step: '4', title: 'Arranjo imediata', time: '1-3 horas', desc: 'Resolvemos com equipamento profissional.' },
               { step: '5', title: 'Garantia 2 anos', time: 'Por escrito', desc: 'Certificado de garantia entregue no final.' }
             ].map((item, i) => (
               <div key={i} className="flex gap-6 items-start bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-shadow">
@@ -276,7 +276,7 @@ export default function UrgenciaFugaAgua() {
           <div className="space-y-4">
             {[
               {
-                q: 'Quanto custa reparar uma fuga de água?',
+                q: 'Quanto custa arranjar uma fuga de água?',
                 a: '80-200€ dependendo da complexidade. Fugas simples (torneiras, ligações): 80-120€. Fugas em canalizações: 120-200€. Orçamento gratuito antes de começar.'
               },
               {
@@ -293,7 +293,7 @@ export default function UrgenciaFugaAgua() {
               },
               {
                 q: 'Têm garantia?',
-                a: 'Sim, 2 anos de garantia por escrito em todas as reparações. Se o problema voltar, reparamos gratuitamente.'
+                a: 'Sim, 2 anos de garantia por escrito em todas as arranjos. Se o problema voltar, arranjamos gratuitamente.'
               },
               {
                 q: 'Aceitam pagamento com cartão?',

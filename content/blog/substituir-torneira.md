@@ -1,7 +1,7 @@
 ---
 title: "Como Substituir Torneira: Guia Completo Passo a Passo (2026)"
 slug: "substituir-torneira"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Quer substituir torneira da cozinha ou casa de banho? Guia completo: escolha do modelo, instalação passo a passo, custos €60-200, ferramentas necessárias. DIY ou profissional em Trás-os-Montes."
@@ -25,9 +25,9 @@ Neste guia completo, vamos explicar **como escolher a torneira adequada**, insta
 ### Sinais de Que Precisa Substituir
 
 **1. Goteja Constantemente**
-- Reparação custa >60% de torneira nova
+- Arranjo custa >60% de torneira nova
 - Peças de substituição indisponíveis
-- Já reparou 2+ vezes
+- Já arranjou 2+ vezes
 
 **2. Corrosão ou Ferrugem Visível**
 - Manchas verdes (cobre oxidado)
@@ -267,7 +267,7 @@ Neste guia completo, vamos explicar **como escolher a torneira adequada**, insta
 
 ### PARTE 2: Instalar Torneira Nova
 
-#### Passo 5: Preparar Torneira Nova
+#### Passo 5: Parranjar Torneira Nova
 
 **Verifique conteúdo da embalagem:**
 - Torneira
@@ -372,7 +372,7 @@ Neste guia completo, vamos explicar **como escolher a torneira adequada**, insta
 | Substituir torneira (complexa) | €100-180 |
 | Instalar registos (se não existem) | +€40-80 |
 | Adaptar tubagem | +€40-100 |
-| Reparar danos (azulejo, bancada) | +€30-150 |
+| Arranjar danos (azulejo, bancada) | +€30-150 |
 | **TOTAL TÍPICO:** | **€100-250** |
 
 **Fatores que aumentam custo:**
@@ -544,7 +544,7 @@ Substituir uma torneira é uma tarefa **acessível para DIY** se tiver ferrament
 - Substituição de torneiras (todas as localizações)
 - Instalação de registos
 - Adaptação de tubagem
-- Reparação de danos
+- Arranjo de danos
 - Garantia de 1 ano
 
 **Cobertura:**
@@ -567,7 +567,7 @@ Substituir uma torneira é uma tarefa **acessível para DIY** se tiver ferrament
 ---
 
 **Artigos relacionados:**
-- [Torneira Goteja: 5 Causas e Como Reparar](/blog/torneira-goteja)
+- [Torneira Goteja: 5 Causas e Como Arranjar](/blog/torneira-goteja)
 - [Pressão de Água Fraca: 8 Causas e Soluções](/blog/pressao-agua-fraca)
 - [Quanto Custa um Picheleiro em Trás-os-Montes?](/blog/custo-canalizador-tras-os-montes-precos)
 

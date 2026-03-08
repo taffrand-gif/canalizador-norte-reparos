@@ -93,7 +93,7 @@ Disjuntor é um **interruptor automático de segurança** que:
 **Solução**:
 - **NÃO tente religar**
 - Ligue eletricista urgente
-- Reparação: €100-500
+- Arranjo: €100-500
 
 ### 3. Fuga de Corrente para Terra
 
@@ -117,7 +117,7 @@ Disjuntor é um **interruptor automático de segurança** que:
 3. Ligue disjuntores um a um
 4. O que faz diferencial disparar = circuito com fuga
 
-**Solução**: Identificar e reparar fuga (€80-300)
+**Solução**: Identificar e arranjar fuga (€80-300)
 
 ### 4. Disjuntor Subdimensionado
 
@@ -271,12 +271,12 @@ Disjuntor é um **interruptor automático de segurança** que:
 - Upgrade disjuntor + cablagem: €200-400
 
 ### Curto-Circuito
-- Reparar fio danificado: €80-200
+- Arranjar fio danificado: €80-200
 - Substituir tomada/interruptor: €40-80
-- Reparar aparelho: €50-150
+- Arranjar aparelho: €50-150
 
 ### Fuga Corrente
-- Reparar isolamento: €100-300
+- Arranjar isolamento: €100-300
 - Substituir troço cabo: €150-400
 - Secar humidade: €60-120
 
@@ -288,24 +288,24 @@ Disjuntor é um **interruptor automático de segurança** que:
 - Renovação completa: €2000-5000
 - Certificação DGEG: incluída
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa: €60-100
 - Teste isolamento: €80-120
 - Identificação problema: incluído
 
-### Reparações Simples
+### Arranjos Simples
 - Substituir disjuntor: €30-80
 - Apertar ligações: €60-120
-- Reparar tomada: €40-80
+- Arranjar tomada: €40-80
 
-### Reparações Médias
+### Arranjos Médias
 - Circuito dedicado novo: €150-300
-- Reparar curto-circuito: €100-300
+- Arranjar curto-circuito: €100-300
 - Substituir troço cabo: €150-400
 
-### Reparações Complexas
+### Arranjos Complexas
 - Quadro elétrico novo: €300-800
 - Renovação instalação: €2000-5000
 - Certificação DGEG: €200-400
@@ -414,16 +414,16 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **7 causas principais**: sobrecarga, curto-circuito, fuga corrente, disjuntor subdimensionado, disjuntor avariado, ligações soltas, instalação antiga.
 
 ### Posso religar o disjuntor?
-**Sim, 1-2 vezes**. Se disparar 3+ vezes, PARE e ligue eletricista. Há problema que precisa reparação.
+**Sim, 1-2 vezes**. Se disparar 3+ vezes, PARE e ligue eletricista. Há problema que precisa arranjo.
 
-### Quanto custa reparar?
-**€60-500** para maioria dos casos. Diagnóstico: €60-100. Reparações simples: €80-200. Renovação: €2000-5000.
+### Quanto custa arranjar?
+**€60-500** para maioria dos casos. Diagnóstico: €60-100. Arranjos simples: €80-200. Renovação: €2000-5000.
 
 ### Posso colocar disjuntor maior?
 **NÃO**. Disjuntor deve corresponder à cablagem. Colocar maior = risco incêndio fatal.
 
 ### Diferencial dispara em dias de chuva?
-**Sim**, indica humidade causa fuga de corrente. Precisa reparação urgente - risco choque elétrico.
+**Sim**, indica humidade causa fuga de corrente. Precisa arranjo urgente - risco choque elétrico.
 
 ### Quanto tempo dura um disjuntor?
 **15-25 anos** com uso normal. Marcas qualidade (Schneider, ABB): 20-30 anos.

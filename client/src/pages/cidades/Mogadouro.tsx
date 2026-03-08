@@ -113,8 +113,8 @@ export default function Mogadouro() {
               {[
                 { icon: Droplets, title: "Desentupimentos 24h", desc: "WC, lavatórios, esgotos, fossas sépticas" },
                 { icon: Shield, title: "Instalações Agrícolas", desc: "Lagares de azeite, adegas, sistemas de rega" },
-                { icon: CheckCircle, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas de água" },
-                { icon: Droplets, title: "Esquentadores", desc: "Instalação e reparação de esquentadores e caldeiras" },
+                { icon: CheckCircle, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas de água" },
+                { icon: Droplets, title: "Esquentadores", desc: "Instalação e arranjo de esquentadores e caldeiras" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

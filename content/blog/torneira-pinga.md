@@ -1,19 +1,19 @@
 ---
-title: "Torneira Pinga: 5 Causas e Como Reparar Facilmente (2026)"
-slug: "torneira-pinga-causas-reparar"
-category: "Reparações"
+title: "Torneira Pinga: 5 Causas e Como Arranjar Facilmente (2026)"
+slug: "torneira-pinga-causas-arranjar"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Torneira a pingar desperdiça 30-50 litros/dia! Descubra as 5 causas principais (desde junta gasta até cartucho avariado) e como reparar. Guia completo com custos e passo a passo."
-keywords: ["torneira pinga", "torneira a pingar", "reparar torneira", "junta torneira", "cartucho torneira", "picheleiro Bragança"]
+excerpt: "Torneira a pingar desperdiça 30-50 litros/dia! Descubra as 5 causas principais (desde junta gasta até cartucho avariado) e como arranjar. Guia completo com custos e passo a passo."
+keywords: ["torneira pinga", "torneira a pingar", "arranjar torneira", "junta torneira", "cartucho torneira", "picheleiro Bragança"]
 priority: "HIGH DEMAND"
 ---
 
-# Torneira Pinga: 5 Causas e Como Reparar Facilmente (2026)
+# Torneira Pinga: 5 Causas e Como Arranjar Facilmente (2026)
 
-**A torneira está a pingar constantemente?** Uma torneira que pinga pode desperdiçar **30-50 litros de água por dia** (€10-15/mês na conta da água). Neste guia completo, vou mostrar-lhe **as 5 causas principais** de torneiras que pingam e **como reparar cada uma facilmente**.
+**A torneira está a pingar constantemente?** Uma torneira que pinga pode desperdiçar **30-50 litros de água por dia** (€10-15/mês na conta da água). Neste guia completo, vou mostrar-lhe **as 5 causas principais** de torneiras que pingam e **como arranjar cada uma facilmente**.
 
-> ⚠️ **Torneira pinga muito?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida em 30 minutos, garantia incluída.
+> ⚠️ **Torneira pinga muito?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Arranjo rápida em 30 minutos, garantia incluída.
 
 ## 🔍 Tipos de Torneiras e Como Funcionam
 
@@ -306,11 +306,11 @@ Se descalcificação não resolver, substitua (ver Causa 1 ou 2).
 - Considere descalcificador de água (€300-800)
 - Substitua cartucho/vedantes preventivamente a cada 5-8 anos
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY (Faça Você Mesmo)
 
-| Reparação | Custo Materiais | Dificuldade | Tempo |
+| Arranjo | Custo Materiais | Dificuldade | Tempo |
 |-----------|-----------------|-------------|-------|
 | Substituir vedante (bicomando) | €1-10 | Fácil | 20-30 min |
 | Substituir cartucho (monocomando) | €15-40 | Moderada | 30-45 min |
@@ -331,7 +331,7 @@ Se descalcificação não resolver, substitua (ver Causa 1 ou 2).
 | Substituir torneira completa | €130-350 |
 | Urgência 24h | +€30-50 |
 
-> 💡 **Torneira pinga muito?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida, peças em stock, garantia incluída.
+> 💡 **Torneira pinga muito?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Arranjo rápida, peças em stock, garantia incluída.
 
 ## 💧 Quanto Desperdiça uma Torneira Que Pinga?
 
@@ -356,10 +356,10 @@ Se descalcificação não resolver, substitua (ver Causa 1 ou 2).
 - **Custo:** €30-50/mês, €360-600/ano
 
 **Retorno do investimento:**
-- Reparação DIY (€15-40): recupera em 1-3 meses
-- Reparação profissional (€60-120): recupera em 2-8 meses
+- Arranjo DIY (€15-40): recupera em 1-3 meses
+- Arranjo profissional (€60-120): recupera em 2-8 meses
 
-**Vale sempre a pena reparar!**
+**Vale sempre a pena arranjar!**
 
 ## 🛡️ Prevenção e Manutenção
 
@@ -412,7 +412,7 @@ Se descalcificação não resolver, substitua (ver Causa 1 ou 2).
 **1. Torneira pinga só com água quente, porquê?**
 Vedante/cartucho do lado quente está gasto. Água quente degrada borracha mais rápido que fria. Substitua vedante/cartucho (ver Causa 1 ou 2).
 
-**2. Reparei mas continua a pingar, o que fazer?**
+**2. Arranjei mas continua a pingar, o que fazer?**
 Possíveis causas: (1) peça nova defeituosa (troque), (2) sede da válvula danificada (precisa polir ou substituir torneira), (3) pressão excessiva (instalar redutor), (4) montagem incorreta (verifique).
 
 **3. Quanto tempo dura um cartucho/vedante novo?**
@@ -421,10 +421,10 @@ Cartucho: 5-10 anos. Vedante: 8-15 anos. Depende de: qualidade da água (calcár
 **4. Posso usar vedante universal?**
 Sim, mas específico é melhor. Vedantes universais (€3-10 kit) servem para maioria das torneiras. Mas vedante original dura mais. Leve o velho à loja para garantir compatibilidade.
 
-**5. Torneira pinga pela haste (alavanca), como reparar?**
+**5. Torneira pinga pela haste (alavanca), como arranjar?**
 Junta da haste está gasta. Desmonte a alavanca, substitua a junta (€1-3). Ou aperte a porca de fixação (pode estar solta).
 
-**6. Vale a pena reparar torneira antiga (> 15 anos)?**
+**6. Vale a pena arranjar torneira antiga (> 15 anos)?**
 Depende. Se só precisa vedante/cartucho: sim (€15-60). Se precisa múltiplas peças ou corpo está danificado: substitua (€80-250 nova instalada). Torneiras novas são mais eficientes (economizam água).
 
 **7. Descalcificador de água vale a pena?**
@@ -449,23 +449,23 @@ Torneira que pinga é **problema simples de resolver** na maioria dos casos:
 - Pinga moderado: €108-180/ano
 - Pinga rápido: €360-600/ano
 
-**Reparação compensa sempre!**
+**Arranjo compensa sempre!**
 
 **Quando chamar picheleiro:**
 - Não consegue identificar o tipo de torneira
 - Não tem ferramentas adequadas
-- Reparação DIY não resolveu
+- Arranjo DIY não resolveu
 - Quer garantia profissional
 - Precisa substituir torneira completa
 
-### 🚨 Torneira Pinga? Reparação Rápida em Trás-os-Montes
+### 🚨 Torneira Pinga? Arranjo Rápida em Trás-os-Montes
 
 **Norte Reparos — Picheleiro Certificado em Bragança**
 
 📞 **Ligue agora: [928 484 451](tel:+351928484451)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20uma%20torneira%20a%20pingar.%20Pode%20ajudar%3F)**
 
-✅ Reparação rápida (30 minutos)  
+✅ Arranjo rápida (30 minutos)  
 ✅ Peças de substituição em stock  
 ✅ Diagnóstico grátis  
 ✅ Garantia 1 ano no serviço  
@@ -473,7 +473,7 @@ Torneira que pinga é **problema simples de resolver** na maioria dos casos:
 ✅ Técnico em sua casa em 30-45 minutos  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-**Não desperdice água e dinheiro!** Uma torneira que pinga pode custar €360-600/ano. Contacte-nos já para reparação rápida.
+**Não desperdice água e dinheiro!** Uma torneira que pinga pode custar €360-600/ano. Contacte-nos já para arranjo rápida.
 
 ---
 

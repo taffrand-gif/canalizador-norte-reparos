@@ -1,7 +1,7 @@
 ---
 title: "Pressão de Água Baixa: 9 Causas e Soluções (2026)"
 slug: "pressao-agua-baixa-resolver"
-category: "Reparações Urgentes"
+category: "Arranjos Urgentes"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Pressão de água baixa em casa? Descubra as 9 causas principais e como resolver. Guia completo com soluções DIY e quando chamar picheleiro em Trás-os-Montes."
@@ -84,7 +84,7 @@ priority: "HIGH DEMAND"
 
 **Como acontece:**
 - Alguém fechou parcialmente
-- Obras/reparações
+- Obras/arranjos
 - Válvula antiga emperrada
 - Nunca foi totalmente aberta
 
@@ -206,7 +206,7 @@ priority: "HIGH DEMAND"
 
 **Solução:**
 - Detetar fuga (câmara termográfica €150-300)
-- Reparar fuga €100-500
+- Arranjar fuga €100-500
 - **Urgência:** Fuga desperdiça água e causa danos
 
 ### 6. Tubagem Subdimensionada (5% dos casos)
@@ -432,7 +432,7 @@ priority: "HIGH DEMAND"
 
 **2. Fuga de água escondida**
 - Deteção com câmara termográfica
-- Reparação
+- Arranjo
 - **Custo:** €250-800
 
 **3. Substituir tubagem**

@@ -93,7 +93,7 @@ export default function SantaMartaDePenaguiao() {
               {[
                 { icon: Droplets, title: "Canalização Vinícola", desc: "Redes de água para adegas de vinho verde e quintas do Douro" },
                 { icon: Shield, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações de quintas e adegas" },
-                { icon: Wrench, title: "Reparação de Fugas", desc: "Deteção e reparação em casas antigas e quintas nos socalcos" },
+                { icon: Wrench, title: "Arranjo de Fugas", desc: "Deteção e arranjo em casas antigas e quintas nos socalcos" },
                 { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação e manutenção de sistemas de aquecimento" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">

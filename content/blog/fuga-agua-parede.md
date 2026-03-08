@@ -1,16 +1,16 @@
 ---
 title: "Fuga de Água na Parede: 6 Sinais e Como Detetar Antes de Ser Tarde"
 slug: fuga-agua-parede
-category: Reparações Urgentes
+category: Arranjos Urgentes
 date: 2026-03-04
 author: Norte Reparos
-excerpt: "Manchas de humidade na parede? Pode ser uma fuga de água escondida. Descubra os 6 sinais de alerta, como detetar fugas invisíveis e quanto custa reparar antes que cause danos graves na sua casa."
+excerpt: "Manchas de humidade na parede? Pode ser uma fuga de água escondida. Descubra os 6 sinais de alerta, como detetar fugas invisíveis e quanto custa arranjar antes que cause danos graves na sua casa."
 keywords: 
   - fuga de água na parede
   - humidade na parede
   - detetar fuga escondida
   - picheleiro Trás-os-Montes
-  - reparar fuga parede
+  - arranjar fuga parede
   - manchas humidade
   - cano rebentado parede
 priority: CRITICAL
@@ -22,7 +22,7 @@ priority: CRITICAL
 
 Em Trás-os-Montes, onde muitas casas têm **30-40 anos e canalização antiga**, as fugas nas paredes são mais comuns do que pensa. O problema é que **90% das fugas começam pequenas e invisíveis**, mas crescem silenciosamente durante meses até causarem estragos irreversíveis.
 
-Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve ignorar**, como detetar fugas escondidas (mesmo sem quebrar paredes), quanto custa reparar e como prevenir este pesadelo.
+Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve ignorar**, como detetar fugas escondidas (mesmo sem quebrar paredes), quanto custa arranjar e como prevenir este pesadelo.
 
 **⚠️ ATENÇÃO:** Se vir água a escorrer pela parede ou teto, **feche a água IMEDIATAMENTE** e ligue para um picheleiro de urgência: **[928 484 451](tel:+351928484451)** — Intervenção em 30-45 minutos em Bragança e arredores.
 
@@ -199,26 +199,26 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 
 ---
 
-## 💰 Quanto Custa Reparar uma Fuga na Parede?
+## 💰 Quanto Custa Arranjar uma Fuga na Parede?
 
-### Custos por Tipo de Reparação
+### Custos por Tipo de Arranjo
 
-| Tipo de Reparação | Custo Materiais | Custo Mão de Obra | Total |
+| Tipo de Arranjo | Custo Materiais | Custo Mão de Obra | Total |
 |-------------------|-----------------|-------------------|-------|
 | **Fuga pequena (junta)** | €5-15 | €60-120 | **€65-135** |
 | **Substituir troço de cano (1-2m)** | €20-50 | €120-250 | **€140-300** |
 | **Fuga em parede de casa de banho** | €50-100 | €200-400 | **€250-500** |
 | **Cano rebentado (obra grande)** | €100-300 | €400-800 | **€500-1,100** |
 | **Inspeção termográfica** | — | €80-150 | **€80-150** |
-| **Reparação de reboco/pintura** | €30-80 | €100-250 | **€130-330** |
+| **Arranjo de reboco/pintura** | €30-80 | €100-250 | **€130-330** |
 
 **Nota:** Preços para Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros). Valores podem variar conforme gravidade e acessibilidade.
 
 ---
 
-### Custos Adicionais (Se Não Reparar a Tempo)
+### Custos Adicionais (Se Não Arranjar a Tempo)
 
-| Dano | Custo de Reparação |
+| Dano | Custo de Arranjo |
 |------|-------------------|
 | **Bolor nas paredes** | €200-600 (tratamento + pintura) |
 | **Danos no piso** | €300-1,500 (substituir chão) |
@@ -226,15 +226,15 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 | **Mobília estragada** | €500-3,000+ |
 | **Conta de água (6 meses)** | €300-1,200 (desperdício) |
 
-**Total de prejuízos se não reparar:** **€2,300-10,000+**
+**Total de prejuízos se não arranjar:** **€2,300-10,000+**
 
-**💡 Conclusão:** Reparar logo que deteta a fuga **poupa 80-90% dos custos**.
+**💡 Conclusão:** Arranjar logo que deteta a fuga **poupa 80-90% dos custos**.
 
 ---
 
-## 🛠️ Reparar Sozinho ou Chamar Picheleiro?
+## 🛠️ Arranjar Sozinho ou Chamar Picheleiro?
 
-### ❌ NÃO Tente Reparar Sozinho Se:
+### ❌ NÃO Tente Arranjar Sozinho Se:
 
 - Fuga está dentro da parede (precisa abrir parede)
 - Cano rebentado ou com fissura grande
@@ -247,7 +247,7 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 
 ---
 
-### ✅ Pode Tentar Reparar Se:
+### ✅ Pode Tentar Arranjar Se:
 
 - Fuga é numa junta visível (ex: torneira, sifão)
 - Tem acesso fácil ao cano
@@ -266,7 +266,7 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 4. Aperte bem a junta
 5. Abra a água devagar e verifique
 
-**Atenção:** Esta é uma **solução temporária**. Para reparação definitiva, chame um picheleiro.
+**Atenção:** Esta é uma **solução temporária**. Para arranjo definitiva, chame um picheleiro.
 
 ---
 
@@ -348,7 +348,7 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 
 ---
 
-### 2. Quanto tempo demora a reparar uma fuga na parede?
+### 2. Quanto tempo demora a arranjar uma fuga na parede?
 
 **Depende da gravidade:**
 - Fuga pequena (junta): 30min-1h
@@ -362,22 +362,22 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 
 **Depende da apólice:**
 - Maioria cobre **danos causados pela fuga** (mobília, piso, paredes)
-- Alguns NÃO cobrem **reparação da fuga em si**
+- Alguns NÃO cobrem **arranjo da fuga em si**
 - Leia a apólice ou contacte a seguradora
 
-**Dica:** Tire fotos dos danos ANTES de reparar (para comprovar ao seguro).
+**Dica:** Tire fotos dos danos ANTES de arranjar (para comprovar ao seguro).
 
 ---
 
 ### 4. Posso pintar por cima da mancha de humidade?
 
-**❌ NÃO!** Pintar sem reparar a fuga é **desperdício de dinheiro**:
+**❌ NÃO!** Pintar sem arranjar a fuga é **desperdício de dinheiro**:
 - Mancha volta a aparecer em dias/semanas
 - Humidade continua a danificar a parede
 - Bolor cresce atrás da tinta nova
 
 **Ordem correta:**
-1. Reparar a fuga
+1. Arranjar a fuga
 2. Deixar parede secar completamente (1-2 semanas)
 3. Tratar bolor (se houver)
 4. Aplicar primário anti-humidade
@@ -418,12 +418,12 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 
 ---
 
-## 📍 Serviço de Deteção e Reparação de Fugas em Trás-os-Montes
+## 📍 Serviço de Deteção e Arranjo de Fugas em Trás-os-Montes
 
 **Norte Reparos — Picheleiro Certificado**
 
 ✅ Inspeção termográfica (deteta fugas escondidas)  
-✅ Reparação de fugas em paredes, tetos, pisos  
+✅ Arranjo de fugas em paredes, tetos, pisos  
 ✅ Substituição de canalização antiga  
 ✅ Tratamento de humidade e bolor  
 ✅ Orçamento grátis sem compromisso  
@@ -442,11 +442,11 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 Uma fuga de água na parede **nunca se resolve sozinha** — só piora com o tempo. O que hoje é uma pequena mancha de humidade, amanhã pode ser:
 
 - **Bolor tóxico** (risco para a saúde)
-- **Danos estruturais** (€1,000-5,000+ para reparar)
+- **Danos estruturais** (€1,000-5,000+ para arranjar)
 - **Conta de água astronómica** (€300-1,200 em 6 meses)
 - **Mobília e eletrodomésticos estragados**
 
-**A boa notícia?** Se detetar e reparar logo, o custo é **10x menor** (€65-300 vs €2,000-10,000).
+**A boa notícia?** Se detetar e arranjar logo, o custo é **10x menor** (€65-300 vs €2,000-10,000).
 
 **👉 Viu algum dos 6 sinais de alerta neste artigo?**
 

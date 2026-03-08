@@ -53,7 +53,7 @@ keywords: ["manutenção piscina", "água verde", "pH piscina", "cloro piscina",
 ### Economia
 
 **Manutenção preventiva**: €50-200/mês
-**Reparações negligência**: €500-5,000
+**Arranjos negligência**: €500-5,000
 **Esvaziar/encher**: €200-800
 **Substituir equipamentos**: €1,000-10,000
 
@@ -228,7 +228,7 @@ keywords: ["manutenção piscina", "água verde", "pH piscina", "cloro piscina",
 
 ### Início Época (Abril/Maio)
 
-**Preparar piscina**:
+**Parranjar piscina**:
 1. Remover cobertura inverno
 2. Limpar folhas/sujidade
 3. Encher (se esvaziou)
@@ -514,7 +514,7 @@ keywords: ["manutenção piscina", "água verde", "pH piscina", "cloro piscina",
 
 ### Manutenção Regular
 
-✅ Início época (preparar)
+✅ Início época (parranjar)
 ✅ Fim época (hibernar)
 ✅ Mensal (verificação)
 ✅ Problemas persistentes
@@ -538,7 +538,7 @@ keywords: ["manutenção piscina", "água verde", "pH piscina", "cloro piscina",
 **Contrato época**: €400-800/mês
 - Visitas semanais
 - Produtos incluídos
-- Reparações prioritárias
+- Arranjos prioritárias
 - Tranquilidade total
 
 ## ✅ Por Que Escolher Norte Reparos
@@ -555,8 +555,8 @@ keywords: ["manutenção piscina", "água verde", "pH piscina", "cloro piscina",
 - Química água
 - Limpeza
 - Equipamentos
-- Reparações
-- Hibernação/preparação
+- Arranjos
+- Hibernação/parranjo
 
 ### Produtos Qualidade
 

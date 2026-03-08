@@ -20,7 +20,7 @@ export default function MirandaDouro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Cano rebentado em Miranda do Douro? Estamos aí hoje. Desentupimentos e reparações urgentes. Ligue agora: 928 484 451');
+    metaDescription.setAttribute('content', 'Cano rebentado em Miranda do Douro? Estamos aí hoje. Desentupimentos e arranjos urgentes. Ligue agora: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -98,7 +98,7 @@ export default function MirandaDouro() {
           <div className="container text-center text-white">
             <span className="inline-block bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">💧 MIRANDA DO DOURO - TERRA DE MIRANDA</span>
             <h1 className="text-4xl md:text-6xl font-black mb-6">Canalizador em Miranda do Douro</h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos toda a Terra de Miranda. De Sendim a Duas Igrejas. Desentupimentos e reparações 24h.</p>
+            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Servimos toda a Terra de Miranda. De Sendim a Duas Igrejas. Desentupimentos e arranjos 24h.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
               <a href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20um%20canalizador%20em%20Miranda%20do%20Douro" className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-xl font-bold transition-all shadow-lg">💬 WhatsApp</a>
@@ -112,9 +112,9 @@ export default function MirandaDouro() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Desentupimentos 24h", desc: "WC, lavatórios, esgotos, fossas sépticas" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas de água" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas de água" },
                 { icon: CheckCircle, title: "Turismo Rural", desc: "Canalização para alojamento local e casas de férias" },
-                { icon: Droplets, title: "Esquentadores", desc: "Instalação e reparação, essencial no inverno rigoroso" },
+                { icon: Droplets, title: "Esquentadores", desc: "Instalação e arranjo, essencial no inverno rigoroso" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

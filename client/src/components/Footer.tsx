@@ -67,7 +67,7 @@ function Footer() {
             <ul className="space-y-1 text-sm">
               <li><a href="/desentupimentos-profissionais-tras-os-montes" className="text-gray-300 hover:text-white">Desentupimentos</a></li>
               <li><a href="/detecao-fugas-agua-camera" className="text-gray-300 hover:text-white">Deteção de Fugas</a></li>
-              <li><a href="/reparacao-esquentadores-caldeiras" className="text-gray-300 hover:text-white">Esquentadores</a></li>
+              <li><a href="/arranjacao-esquentadores-caldeiras" className="text-gray-300 hover:text-white">Esquentadores</a></li>
               <li><a href="/canalizacao-nova-construcao" className="text-gray-300 hover:text-white">Canalização Nova</a></li>
               <li><a href="/instalacao-casa-banho-completa" className="text-gray-300 hover:text-white">Casa de Banho</a></li>
             </ul>

@@ -92,7 +92,7 @@ function getDicas(): Dica[] {
     {
       icon: '🔍',
       title: 'Verifique o contador de água',
-      content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser reparada urgentemente.',
+      content: 'Feche todas as torneiras e verifique se o contador continua a rodar. Se sim, pode ter uma fuga escondida que precisa de ser arranjada urgentemente.',
     },
     {
       icon: '🧼',

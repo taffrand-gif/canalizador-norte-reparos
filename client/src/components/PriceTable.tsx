@@ -15,7 +15,7 @@ export default function PriceTable() {
     },
     {
       service: "Fuga de Água / Urgência",
-      description: "Reparação de fugas visíveis ou ocultas",
+      description: "Arranjo de fugas visíveis ou ocultas",
       price: "65€ - 130€",
       details: ["1-2h de trabalho", "Estancamento imediato", "Substituição peças base"],
     },

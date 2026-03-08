@@ -79,7 +79,7 @@ Curto-circuito acontece quando **corrente elétrica toma caminho não previsto**
 - Cozinhas com tomadas perto de água
 - Caves húmidas
 
-**Solução**: Tomadas IP44+ em zonas húmidas, reparar infiltrações.
+**Solução**: Tomadas IP44+ em zonas húmidas, arranjar infiltrações.
 
 ### 4. Roedores
 **Comum em casas rurais de Trás-os-Montes**:
@@ -118,26 +118,26 @@ Curto-circuito acontece quando **corrente elétrica toma caminho não previsto**
 ### Passo 4: Ligue Eletricista Urgente (30 segundos)
 📞 **+351 932 321 892** (24h/7d)
 
-**NÃO tente reparar sozinho** - risco de choque elétrico fatal.
+**NÃO tente arranjar sozinho** - risco de choque elétrico fatal.
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa com multímetro Fluke
 - Identificação de curto-circuito
 - **€80-120**
 
-### Reparação Simples
+### Arranjo Simples
 - Substituir tomada/interruptor
-- Reparar fio danificado acessível
+- Arranjar fio danificado acessível
 - **€80-150**
 
-### Reparação Média
+### Arranjo Média
 - Substituir troço de cabo
-- Reparar quadro elétrico
+- Arranjar quadro elétrico
 - **€150-300**
 
-### Reparação Complexa
+### Arranjo Complexa
 - Renovação circuito completo
 - Substituir quadro elétrico
 - **€300-800**
@@ -183,12 +183,12 @@ Curto-circuito acontece quando **corrente elétrica toma caminho não previsto**
 2. Usar benjamins em cadeia
 3. Sobrecarregar tomadas
 4. Ignorar disjuntor que dispara
-5. Fazer reparações sem desligar disjuntor
+5. Fazer arranjos sem desligar disjuntor
 6. Usar equipamento danificado
 7. Molhar equipamento elétrico
 
 ### ✅ SEMPRE Faça Isto
-1. Desligue disjuntor antes de reparações
+1. Desligue disjuntor antes de arranjos
 2. Use equipamento certificado (CE)
 3. Chame eletricista certificado
 4. Teste disjuntores mensalmente
@@ -260,20 +260,20 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## ❓ Perguntas Frequentes
 
-### Quanto custa reparar um curto-circuito?
+### Quanto custa arranjar um curto-circuito?
 **€80-800** dependendo da causa e extensão. Diagnóstico: €80-120.
 
 ### É perigoso religar o disjuntor?
 **Sim**, se disparou por curto-circuito. Pode causar incêndio. Chame eletricista primeiro.
 
-### Posso reparar sozinho?
+### Posso arranjar sozinho?
 **NÃO**. Risco de choque elétrico fatal (230V). Apenas eletricista certificado.
 
-### Quanto tempo demora a reparação?
+### Quanto tempo demora a arranjo?
 **1-4 horas** para maioria dos casos. Renovação completa: 2-5 dias.
 
 ### O seguro cobre?
-Depende da apólice. Geralmente cobre danos causados por curto-circuito, mas não a reparação da instalação antiga.
+Depende da apólice. Geralmente cobre danos causados por curto-circuito, mas não a arranjo da instalação antiga.
 
 ---
 

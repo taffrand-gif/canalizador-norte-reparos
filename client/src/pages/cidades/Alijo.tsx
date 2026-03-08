@@ -110,7 +110,7 @@ export default function Alijo() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização para Caves", desc: "Redes de água para caves de vinificação, lavagem de cubas e drenagem" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação em quintas, casas de granito e edifícios antigos" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo em quintas, casas de granito e edifícios antigos" },
                 { icon: Wrench, title: "Canalização Turismo Rural", desc: "Instalação para hotéis rurais, piscinas e sistemas de aquecimento" },
                 { icon: CheckCircle, title: "Desentupimentos 24h", desc: "Esgotos, fossas sépticas e canalizações de quintas e adegas" },
               ].map((service, index) => (

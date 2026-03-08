@@ -301,7 +301,7 @@ keywords: ["entupimento grave", "desentupir canalização", "canalizador urgente
 **Consequências**:
 - Problema piora
 - Danos estruturais (infiltrações)
-- Reparação mais cara
+- Arranjo mais cara
 - Risco sanitário
 
 ## 📞 Quando Chamar Canalizador URGENTE

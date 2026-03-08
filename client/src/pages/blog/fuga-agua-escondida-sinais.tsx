@@ -28,7 +28,7 @@ export default function FugaAguaEscondidaSinais() {
         "name": "Quanto custa detetar uma fuga de água escondida?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em Trás-os-Montes, a deteção de fugas com equipamento térmico custa 80-150€. Inclui inspeção completa, localização exata da fuga e orçamento de reparação. Investimento que evita danos de milhares de euros."
+          "text": "Em Trás-os-Montes, a deteção de fugas com equipamento térmico custa 80-150€. Inclui inspeção completa, localização exata da fuga e orçamento de arranjo. Investimento que evita danos de milhares de euros."
         }
       },
       {
@@ -36,7 +36,7 @@ export default function FugaAguaEscondidaSinais() {
         "name": "Uma fuga pequena é grave?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim. Uma fuga de apenas 1 gota por segundo desperdiça 25 litros por dia (9.000 litros/ano). Além do desperdício, causa danos estruturais, mofo, e pode custar centenas de euros em reparações se não for resolvida rapidamente."
+          "text": "Sim. Uma fuga de apenas 1 gota por segundo desperdiça 25 litros por dia (9.000 litros/ano). Além do desperdício, causa danos estruturais, mofo, e pode custar centenas de euros em arranjos se não for resolvida rapidamente."
         }
       },
       {
@@ -89,7 +89,7 @@ export default function FugaAguaEscondidaSinais() {
       descricao: "Humidade constante cria ambiente perfeito para fungos. Mofo é sintoma, não a causa.",
       urgencia: "media",
       detalhes: "Cheiro a mofo persistente mesmo com ventilação. Bolor preto ou verde nas paredes, especialmente cantos e rodapés. Problema de saúde (alergias, asma).",
-      acao: "Limpar o mofo não resolve. Precisa encontrar e reparar a fuga de água."
+      acao: "Limpar o mofo não resolve. Precisa encontrar e arranjar a fuga de água."
     },
     {
       numero: 6,
@@ -163,7 +163,7 @@ export default function FugaAguaEscondidaSinais() {
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>25 litros por dia</strong> = 750 litros/mês</li>
                   <li>• <strong>9.000 litros por ano</strong> = +100€ na conta de água</li>
-                  <li>• Danos estruturais: 500-5.000€ em reparações</li>
+                  <li>• Danos estruturais: 500-5.000€ em arranjos</li>
                   <li>• Mofo e problemas de saúde</li>
                   <li>• Desvalorização do imóvel</li>
                 </ul>
@@ -360,7 +360,7 @@ export default function FugaAguaEscondidaSinais() {
               </a>
             </div>
             <p className="text-sm opacity-75">
-              Resposta em 30 minutos • Deteção 80-150€ • Orçamento de reparação gratuito
+              Resposta em 30 minutos • Deteção 80-150€ • Orçamento de arranjo gratuito
             </p>
           </div>
         </article>

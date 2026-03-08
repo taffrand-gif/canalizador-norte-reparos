@@ -17,7 +17,7 @@ export default function CanoRebentado() {
       meta.setAttribute('name', 'description');
       document.head.appendChild(meta);
     }
-    meta.setAttribute('content', 'Cano rebentado? Inundação em casa? Paramos a água em 20 minutos. Disponível 24h. Reparação urgente. Ligue +351 928 484 451.');
+    meta.setAttribute('content', 'Cano rebentado? Inundação em casa? Paramos a água em 20 minutos. Disponível 24h. Arranjo urgente. Ligue +351 928 484 451.');
   }, []);
 
   const faqSchema = {
@@ -34,10 +34,10 @@ export default function CanoRebentado() {
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar um cano rebentado?",
+        "name": "Quanto custa arranjar um cano rebentado?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Reparações simples desde €120. Substituição de canos €200-400. Reparações complexas €400-800. Orçamento gratuito no local. Preço fixo antes de começar."
+          "text": "Arranjos simples desde €120. Substituição de canos €200-400. Arranjos complexas €400-800. Orçamento gratuito no local. Preço fixo antes de começar."
         }
       }
     ]
@@ -76,7 +76,7 @@ export default function CanoRebentado() {
             icon: 'money',
             title: 'Danos Massivos na Casa',
             description: 'Chão inundado, móveis estragados, paredes encharcadas, tetos a pingar. Danos multiplicam-se a cada minuto.',
-            consequence: 'Reparações podem custar €5.000-20.000 se não parar rapidamente.'
+            consequence: 'Arranjos podem custar €5.000-20.000 se não parar rapidamente.'
           },
           {
             icon: 'trending',
@@ -119,8 +119,8 @@ export default function CanoRebentado() {
           },
           {
             time: '25-60 min',
-            title: 'Reparação de Emergência',
-            description: 'Reparamos ou substituímos o cano. Testamos. Restauramos o fornecimento de água. Casa salva.',
+            title: 'Arranjo de Emergência',
+            description: 'Arranjamos ou substituímos o cano. Testamos. Restauramos o fornecimento de água. Casa salva.',
             icon: 'check'
           }
         ]}
@@ -143,7 +143,7 @@ export default function CanoRebentado() {
             name: 'Luísa Gomes',
             city: 'Mirandela',
             problem: 'Inundação urgente',
-            solution: 'Cano rebentou na parede. Casa a inundar, móveis a flutuar. Chegaram rapidíssimo, pararam tudo, repararam no mesmo dia. Salvaram a minha casa!',
+            solution: 'Cano rebentou na parede. Casa a inundar, móveis a flutuar. Chegaram rapidíssimo, pararam tudo, arranjaram no mesmo dia. Salvaram a minha casa!',
             timeframe: '45 minutos',
             rating: 5,
             verified: true
@@ -201,7 +201,7 @@ export default function CanoRebentado() {
           {
             icon: 'shield',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações de emergência têm garantia de 2 anos. Trabalho profissional.'
+            description: 'Todas as arranjos de emergência têm garantia de 2 anos. Trabalho profissional.'
           },
           {
             icon: 'check',
@@ -211,7 +211,7 @@ export default function CanoRebentado() {
           {
             icon: 'award',
             title: 'Equipamento Completo',
-            description: 'Carrinhas equipadas com todas as ferramentas e peças para reparações de emergência.'
+            description: 'Carrinhas equipadas com todas as ferramentas e peças para arranjos de emergência.'
           }
         ]}
       />
@@ -229,15 +229,15 @@ export default function CanoRebentado() {
                 a: '1) FECHE IMEDIATAMENTE a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e aparelhos elétricos da água. 4) Desligue a eletricidade se a água estiver perto de tomadas. 5) Coloque baldes/toalhas para minimizar danos. Chegamos em 15 minutos e paramos a inundação.'
               },
               {
-                q: 'Quanto custa reparar um cano rebentado?',
-                a: 'Reparações simples (soldar, vedar) desde €120. Substituição de troço de cano €200-400. Reparações complexas (canos em paredes/chão) €400-800. Damos sempre orçamento gratuito no local antes de começar. Em emergências, paramos primeiro a água, depois fazemos orçamento para reparação definitiva.'
+                q: 'Quanto custa arranjar um cano rebentado?',
+                a: 'Arranjos simples (soldar, vedar) desde €120. Substituição de troço de cano €200-400. Arranjos complexas (canos em paredes/chão) €400-800. Damos sempre orçamento gratuito no local antes de começar. Em emergências, paramos primeiro a água, depois fazemos orçamento para arranjo definitiva.'
               },
               {
                 q: 'Porque é que os canos rebentam?',
                 a: 'Causas principais: 1) Gelo no inverno (água congela e expande). 2) Canos antigos corroídos. 3) Pressão excessiva. 4) Obras/perfurações acidentais. 5) Má instalação anterior. Identificamos sempre a causa para evitar repetições.'
               },
               {
-                q: 'Conseguem reparar canos em paredes sem partir tudo?',
+                q: 'Conseguem arranjar canos em paredes sem partir tudo?',
                 a: 'Depende da localização e gravidade. Em muitos casos conseguimos aceder com cortes mínimos. Usamos detetores para localizar exatamente o problema. Quando necessário partir, fazemos o mínimo possível e deixamos tudo arrumado.'
               },
               {
@@ -245,8 +245,8 @@ export default function CanoRebentado() {
                 a: 'SIM! Canos rebentados são emergências reais. Atendemos 24h/7d incluindo madrugadas (2h, 3h, 4h...), fins de semana e feriados. Técnico de emergência está sempre de prevenção. Ligue a qualquer hora.'
               },
               {
-                q: 'Dão garantia em reparações de emergência?',
-                a: 'Sim! Todas as reparações têm garantia de 2 anos, incluindo reparações de emergência. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Trabalho profissional com garantia total.'
+                q: 'Dão garantia em arranjos de emergência?',
+                a: 'Sim! Todas as arranjos têm garantia de 2 anos, incluindo arranjos de emergência. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Trabalho profissional com garantia total.'
               }
             ].map((item, i) => (
               <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

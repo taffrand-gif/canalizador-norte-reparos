@@ -21,10 +21,10 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
       category: 'Preços'
     },
     { 
-      slug: 'reparacao-caldeira-esquentador-manutencao', 
-      title: 'Reparação de Caldeira e Esquentador', 
-      excerpt: 'Manutenção preventiva e reparação de sistemas de aquecimento de água.',
-      category: 'Reparação'
+      slug: 'arranjacao-caldeira-esquentador-manutencao', 
+      title: 'Arranjo de Caldeira e Esquentador', 
+      excerpt: 'Manutenção preventiva e arranjo de sistemas de aquecimento de água.',
+      category: 'Arranjo'
     },
     { 
       slug: 'evitar-fugas-agua-prevencao', 

@@ -12,7 +12,7 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
 
   const scenarios = {
     fuga: {
-      title: 'Calculador: Custo de Adiar Reparação de Fuga',
+      title: 'Calculador: Custo de Adiar Arranjo de Fuga',
       icon: '💧',
       dailyCost: 15,
       escalationFactor: 1.2,
@@ -20,11 +20,11 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
         'Conta de água aumenta €15-30/dia',
         'Danos estruturais (humidade, bolor)',
         'Risco de infiltração nos vizinhos',
-        'Reparação 3× mais cara após 1 mês'
+        'Arranjo 3× mais cara após 1 mês'
       ]
     },
     eletricidade: {
-      title: 'Calculador: Custo de Adiar Reparação Elétrica',
+      title: 'Calculador: Custo de Adiar Arranjo Elétrica',
       icon: '⚡',
       dailyCost: 25,
       escalationFactor: 1.5,
@@ -100,7 +100,7 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
             </p>
           </div>
           <div>
-            <p className="text-sm text-gray-600 mb-1">Custo Reparação</p>
+            <p className="text-sm text-gray-600 mb-1">Custo Arranjo</p>
             <p className="text-3xl font-black text-green-600">
               €{repairCost}
             </p>

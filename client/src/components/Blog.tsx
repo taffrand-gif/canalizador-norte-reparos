@@ -27,7 +27,7 @@ export default function Blog() {
     },
     {
       title: 'Manutenção Preventiva: Poupe Dinheiro',
-      excerpt: 'Saiba como a manutenção preventiva pode evitar avarias graves e poupar centenas de euros em reparações urgentes.',
+      excerpt: 'Saiba como a manutenção preventiva pode evitar avarias graves e poupar centenas de euros em arranjos urgentes.',
       date: '5 Jan 2026',
       readTime: '6 min',
       image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop',

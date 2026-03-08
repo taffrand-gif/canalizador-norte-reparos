@@ -20,7 +20,7 @@ function FAQ() {
   const faqs = useMemo(() => [
     {
       question: 'Quanto custa um canalizador urgente em Bragança?',
-      answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Reparação de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.',
+      answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.',
     },
     {
       question: 'Quanto tempo demora a chegar um canalizador urgente?',
@@ -39,8 +39,8 @@ function FAQ() {
       answer: 'Sim, o serviço de canalizador urgente está disponível 24 horas por dia, 7 dias por semana, incluindo sábados, domingos e feriados. Não há majoração de preço aos fins de semana. Ligue 928 484 451 a qualquer hora.',
     },
     {
-      question: 'Quanto custa reparar uma fuga de água?',
-      answer: 'Reparar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.',
+      question: 'Quanto custa arranjar uma fuga de água?',
+      answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.',
     },
     {
       question: 'Como detetar uma fuga de água escondida?',
@@ -48,7 +48,7 @@ function FAQ() {
     },
     {
       question: 'Qual a garantia do trabalho de canalizador?',
-      answer: 'Oferecemos garantia de 6 meses em todos os trabalhos de reparação e 12 meses em instalações novas. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais utilizados. Certificado de garantia fornecido após conclusão do serviço.',
+      answer: 'Oferecemos garantia de 6 meses em todos os trabalhos de arranjo e 12 meses em instalações novas. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais utilizados. Certificado de garantia fornecido após conclusão do serviço.',
     },
     {
       question: 'O que está incluído no serviço de canalizador?',

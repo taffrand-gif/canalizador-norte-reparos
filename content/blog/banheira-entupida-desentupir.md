@@ -319,7 +319,7 @@ Uma banheira entupida não é apenas inconveniente - pode causar **maus cheiros,
 
 ### 8. Vale a pena chamar picheleiro ou faço eu?
 
-**Resposta:** Tente primeiro ventosa e desmontar sifão (95% de sucesso combinados). Se não resolver ou não se sentir confortável, chame picheleiro. Custo: €60-90 vs risco de danificar (€200-500 reparação).
+**Resposta:** Tente primeiro ventosa e desmontar sifão (95% de sucesso combinados). Se não resolver ou não se sentir confortável, chame picheleiro. Custo: €60-90 vs risco de danificar (€200-500 arranjo).
 
 ---
 
@@ -331,7 +331,7 @@ Uma banheira entupida não é apenas inconveniente - pode causar **maus cheiros,
 2. **Escalar se necessário:** Desmontar sifão (30 min, €0)
 3. **Chamar profissional** se não resolver ou não se sentir confortável
 
-**Prevenção é mais barata que reparação:** Uma grelha protectora de €5 e limpeza semanal de 2 minutos previnem 80% dos entupimentos.
+**Prevenção é mais barata que arranjo:** Uma grelha protectora de €5 e limpeza semanal de 2 minutos previnem 80% dos entupimentos.
 
 ### 📞 Precisa de Ajuda Profissional?
 

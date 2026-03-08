@@ -1,28 +1,28 @@
 ---
-title: "Torneira Goteja? 5 Causas e Como Reparar (Poupa €200/Ano)"
+title: "Torneira Goteja? 5 Causas e Como Arranjar (Poupa €200/Ano)"
 slug: "torneira-goteja"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Torneira a pingar desperdiça 20.000 litros/ano (€60-200). Descubra as 5 causas principais (junta gasta 70%, cartucho defeituoso 20%) e como reparar. Guia completo para Trás-os-Montes."
-keywords: ["torneira goteja", "torneira pinga", "reparar torneira", "picheleiro Bragança", "junta torneira", "cartucho torneira"]
+excerpt: "Torneira a pingar desperdiça 20.000 litros/ano (€60-200). Descubra as 5 causas principais (junta gasta 70%, cartucho defeituoso 20%) e como arranjar. Guia completo para Trás-os-Montes."
+keywords: ["torneira goteja", "torneira pinga", "arranjar torneira", "picheleiro Bragança", "junta torneira", "cartucho torneira"]
 priority: "HIGH DEMAND"
 ---
 
-# Torneira Goteja? 5 Causas e Como Reparar (Poupa €200/Ano)
+# Torneira Goteja? 5 Causas e Como Arranjar (Poupa €200/Ano)
 
 **A sua torneira não para de pingar?** Aquele "plic, plic, plic" constante não é apenas irritante — está a **desperdiçar água e dinheiro**. Uma torneira que goteja 1 gota por segundo desperdiça cerca de **20.000 litros por ano**, o que representa **€60-200 na fatura da água** em Trás-os-Montes.
 
-Neste guia completo, vamos explicar as **5 causas principais** que fazem uma torneira gotejar, como identificar cada uma, e como reparar (DIY ou profissional). Com mais de 15 anos de experiência em reparações de canalizações na região de Bragança, já resolvemos milhares de torneiras a pingar.
+Neste guia completo, vamos explicar as **5 causas principais** que fazem uma torneira gotejar, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 15 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de torneiras a pingar.
 
-**📞 Torneira goteja e não consegue reparar? Ligue já: [928 484 451](tel:+351928484451)**  
+**📞 Torneira goteja e não consegue arranjar? Ligue já: [928 484 451](tel:+351928484451)**  
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20torneira%20não%20para%20de%20gotejar.%20Podem%20ajudar%3F)**
 
 ---
 
 ## Quanto Desperdiça Uma Torneira Que Goteja?
 
-Antes de reparar, veja quanto está a perder:
+Antes de arranjar, veja quanto está a perder:
 
 ### Desperdício de Água
 
@@ -41,7 +41,7 @@ Antes de reparar, veja quanto está a perder:
 - 7.300 litros/ano desperdiçados
 - Tarifa: €4.50/m³
 - **Custo: €33/ano**
-- **Reparação: €15-60**
+- **Arranjo: €15-60**
 - **Retorno: 6 meses a 2 anos**
 
 ### Impacto Ambiental
@@ -57,7 +57,7 @@ Antes de reparar, veja quanto está a perder:
 
 ## As 5 Causas Principais (Com Percentagens Reais)
 
-Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
+Com base na nossa experiência de 1.000+ arranjos em Trás-os-Montes:
 
 ### 1. Junta (Vedante) Gasta (70% dos Casos)
 
@@ -223,9 +223,9 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 
 ---
 
-## Como Reparar: Guia Passo a Passo
+## Como Arranjar: Guia Passo a Passo
 
-### Reparação 1: Substituir Junta (Torneira de Rosca)
+### Arranjo 1: Substituir Junta (Torneira de Rosca)
 
 **Materiais:**
 - Junta nova (€0.50-2) - leve a antiga à loja
@@ -274,7 +274,7 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 **Dificuldade:** Fácil  
 **Custo:** €0.50-2
 
-### Reparação 2: Substituir Cartucho (Torneira Monocomando)
+### Arranjo 2: Substituir Cartucho (Torneira Monocomando)
 
 **Materiais:**
 - Cartucho novo (€15-45) - específico da marca
@@ -328,7 +328,7 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 - Leve cartucho antigo à loja (garantir compatibilidade)
 - Marcas comuns: Grohe, Hansgrohe, Roca, Bristan
 
-### Reparação 3: Polir Assento da Válvula
+### Arranjo 3: Polir Assento da Válvula
 
 **Materiais:**
 - Ferramenta de polir assento (€20-40)
@@ -337,7 +337,7 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 
 **Passo a passo:**
 
-1. Remova eixo (como em Reparação 1)
+1. Remova eixo (como em Arranjo 1)
 2. Insira ferramenta de polir no assento
 3. Gire 5-10 vezes sentido horário
 4. Limpe resíduos com pano húmido
@@ -353,11 +353,11 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 
 ---
 
-## Custos de Reparação em Trás-os-Montes
+## Custos de Arranjo em Trás-os-Montes
 
 ### DIY (Faça Você Mesmo)
 
-| Reparação | Materiais | Tempo | Dificuldade |
+| Arranjo | Materiais | Tempo | Dificuldade |
 |-----------|-----------|-------|-------------|
 | Substituir junta | €0.50-2 | 15-30 min | Fácil |
 | Substituir cartucho | €15-45 | 30-60 min | Média |
@@ -384,14 +384,14 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 
 ---
 
-## Quando Substituir em Vez de Reparar?
+## Quando Substituir em Vez de Arranjar?
 
 ### Substitua a Torneira Se:
 
 - ✅ Torneira com 15+ anos
 - ✅ Corpo fissurado ou corrosão visível
 - ✅ Peças de substituição indisponíveis
-- ✅ Reparação custa >60% de torneira nova
+- ✅ Arranjo custa >60% de torneira nova
 - ✅ Estilo desatualizado (aproveite para modernizar)
 - ✅ Quer melhorar eficiência (torneiras modernas poupam 30-50% água)
 
@@ -400,7 +400,7 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 - ✅ Torneira com menos de 10 anos
 - ✅ Boa qualidade (Grohe, Hansgrohe, Roca)
 - ✅ Peças disponíveis
-- ✅ Reparação <€60
+- ✅ Arranjo <€60
 - ✅ Estilo ainda agrada
 
 **Custo de torneiras novas:**
@@ -452,10 +452,10 @@ Com base na nossa experiência de 1.000+ reparações em Trás-os-Montes:
 **1. Quanto desperdiça uma torneira que goteja?**  
 1 gota/segundo = 7.300 litros/ano = €22-73 na fatura. Fio fino = 36.500 litros/ano = €110-365.
 
-**2. Posso reparar torneira sozinho?**  
+**2. Posso arranjar torneira sozinho?**  
 Sim, substituir junta é fácil (15-30 min). Substituir cartucho é médio (30-60 min). Se não se sentir confortável, chame picheleiro.
 
-**3. Quanto custa reparar torneira em Bragança?**  
+**3. Quanto custa arranjar torneira em Bragança?**  
 DIY: €0.50-45 (materiais). Profissional: €30-100 (completo com mão de obra).
 
 **4. Por que torneira goteja só com água quente?**  
@@ -470,7 +470,7 @@ Pressão de água excessiva (>4 bar). Instale redutor de pressão (€80-200).
 **7. Quanto tempo dura uma junta nova?**  
 5-10 anos (depende de qualidade, uso, dureza da água). Em Trás-os-Montes (água dura): 5-7 anos.
 
-**8. Vale a pena reparar torneira antiga?**  
+**8. Vale a pena arranjar torneira antiga?**  
 Se <15 anos e boa qualidade: sim. Se >15 anos ou baixa qualidade: substitua (torneiras modernas poupam água).
 
 ---
@@ -479,9 +479,9 @@ Se <15 anos e boa qualidade: sim. Se >15 anos ou baixa qualidade: substitua (tor
 
 Uma torneira que goteja é um **problema simples com solução fácil**, mas que **custa caro se ignorado**. Desperdiça 7.000-73.000 litros/ano (€22-730 na fatura), danifica louças e lavatórios (manchas de calcário), e é prejudicial ao ambiente.
 
-**A boa notícia:** 90% dos casos resolvem-se com reparação simples (€0.50-45 DIY ou €30-100 profissional) que se paga em 6 meses a 2 anos através da poupança de água.
+**A boa notícia:** 90% dos casos resolvem-se com arranjo simples (€0.50-45 DIY ou €30-100 profissional) que se paga em 6 meses a 2 anos através da poupança de água.
 
-**Em Trás-os-Montes**, onde a água dura acelera o desgaste, a **manutenção preventiva** (substituir juntas a cada 5-7 anos, limpar arejadores) prolonga a vida das torneiras e evita reparações urgentes.
+**Em Trás-os-Montes**, onde a água dura acelera o desgaste, a **manutenção preventiva** (substituir juntas a cada 5-7 anos, limpar arejadores) prolonga a vida das torneiras e evita arranjos urgentes.
 
 ### Não Desperdice Mais Água
 
@@ -496,10 +496,10 @@ Uma torneira que goteja é um **problema simples com solução fácil**, mas que
 
 **✅ Garantias Norte Reparos:**
 - Picheleiros certificados com 15+ anos de experiência
-- Reparação rápida (30-60 minutos)
+- Arranjo rápida (30-60 minutos)
 - Peças de qualidade (Grohe, Hansgrohe, Roca)
 - Orçamento transparente antes de iniciar
-- Garantia de 6 meses na reparação
+- Garantia de 6 meses na arranjo
 - Disponível 24/7 para urgências
 
 **Cada gota conta. Repare hoje e comece a poupar amanhã.**
@@ -513,4 +513,4 @@ Uma torneira que goteja é um **problema simples com solução fácil**, mas que
 
 ---
 
-*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Reparações Rápidas | 928 484 451*
+*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Arranjos Rápidas | 928 484 451*

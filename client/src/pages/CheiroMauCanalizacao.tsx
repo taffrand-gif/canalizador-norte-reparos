@@ -29,7 +29,7 @@ export default function CheiroMauCanalizacao() {
         "name": "Como eliminar cheiro mau na canalização?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Identificamos a origem (sifão seco, entupimento, falta de ventilação). Limpamos, desentupimos ou reparamos. Eliminamos o cheiro definitivamente em 1 hora. Ligue +351 928 484 451."
+          "text": "Identificamos a origem (sifão seco, entupimento, falta de ventilação). Limpamos, desentupimos ou arranjamos. Eliminamos o cheiro definitivamente em 1 hora. Ligue +351 928 484 451."
         }
       },
       {
@@ -37,7 +37,7 @@ export default function CheiroMauCanalizacao() {
         "name": "Quanto custa eliminar cheiro mau na canalização?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Soluções simples desde €60. Limpeza profunda €100-150. Reparações complexas €150-300. Orçamento gratuito."
+          "text": "Soluções simples desde €60. Limpeza profunda €100-150. Arranjos complexas €150-300. Orçamento gratuito."
         }
       }
     ]
@@ -114,7 +114,7 @@ export default function CheiroMauCanalizacao() {
           {
             time: '40-70 min',
             title: 'Identificamos e Resolvemos',
-            description: 'Encontramos a origem (sifão seco, entupimento, falta ventilação). Reparamos ou limpamos.',
+            description: 'Encontramos a origem (sifão seco, entupimento, falta ventilação). Arranjamos ou limpamos.',
             icon: 'wrench'
           },
           {
@@ -282,7 +282,7 @@ export default function CheiroMauCanalizacao() {
               },
               {
                 q: 'Quanto custa eliminar o cheiro?',
-                a: 'Soluções simples (encher sifão, limpeza básica) desde €60. Limpeza profunda com máquina €100-150. Reparações (substituir sifão, instalar ventilação) €150-300. Orçamento gratuito no local.'
+                a: 'Soluções simples (encher sifão, limpeza básica) desde €60. Limpeza profunda com máquina €100-150. Arranjos (substituir sifão, instalar ventilação) €150-300. Orçamento gratuito no local.'
               },
               {
                 q: 'Porque é que o cheiro volta sempre?',

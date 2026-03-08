@@ -5,23 +5,23 @@ import { useEffect } from 'react';
 
 const faqItems = [
   { question: "Como detetar uma fuga de água escondida?", answer: "Sinais comuns incluem manchas de humidade, aumento inexplicável da conta de água, som de água a correr e bolhas na pintura. Utilizamos câmaras de inspeção e detetores acústicos para localização precisa." },
-  { question: "Quanto custa reparar uma fuga de água?", answer: "O preço varia entre €80 e €300 dependendo da complexidade. Fugas visíveis são mais económicas. Oferecemos orçamento gratuito e sem compromisso." },
-  { question: "Fazem reparação de fugas ao fim de semana?", answer: "Sim, estamos disponíveis 24h/7d incluindo fins de semana e feriados para urgências de fugas de água em toda a região de Trás-os-Montes." }
+  { question: "Quanto custa arranjar uma fuga de água?", answer: "O preço varia entre €80 e €300 dependendo da complexidade. Fugas visíveis são mais económicas. Oferecemos orçamento gratuito e sem compromisso." },
+  { question: "Fazem arranjo de fugas ao fim de semana?", answer: "Sim, estamos disponíveis 24h/7d incluindo fins de semana e feriados para urgências de fugas de água em toda a região de Trás-os-Montes." }
 ];
 
-export default function ReparacaoFugasAgua() {
+export default function ArranjacaoFugasAgua() {
   useEffect(() => {
-    document.title = "Reparação de Fugas de Água em Trás-os-Montes | Deteção e Reparação 24h";
+    document.title = "Arranjo de Fugas de Água em Trás-os-Montes | Deteção e Arranjo 24h";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
-    meta.setAttribute('content', 'Reparação de fugas de água em Trás-os-Montes. Deteção com câmara de inspeção, reparação urgente 24h. Orçamento gratuito. Ligue +351 928 484 451.');
+    meta.setAttribute('content', 'Arranjo de fugas de água em Trás-os-Montes. Deteção com câmara de inspeção, arranjo urgente 24h. Orçamento gratuito. Ligue +351 928 484 451.');
   }, []);
 
   const serviceSchema = {
     "@context": "https://schema.org", "@type": "Service",
-    "name": "Reparação de Fugas de Água", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
+    "name": "Arranjo de Fugas de Água", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
     "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "100000" },
-    "description": "Serviço profissional de deteção e reparação de fugas de água em Trás-os-Montes."
+    "description": "Serviço profissional de deteção e arranjo de fugas de água em Trás-os-Montes."
   };
 
   return (
@@ -36,8 +36,8 @@ export default function ReparacaoFugasAgua() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Reparação de Fugas de Água em Trás-os-Montes</h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">Deteção e reparação profissional de fugas de água. Equipamento moderno, resposta rápida 24h/7d em toda a região.</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Arranjo de Fugas de Água em Trás-os-Montes</h1>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">Deteção e arranjo profissional de fugas de água. Equipamento moderno, resposta rápida 24h/7d em toda a região.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
             <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
@@ -48,12 +48,12 @@ export default function ReparacaoFugasAgua() {
       {/* Services */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Os Nossos Serviços de Reparação de Fugas</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Os Nossos Serviços de Arranjo de Fugas</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               { title: "Deteção de Fugas", desc: "Utilizamos câmaras de inspeção CCTV e detetores acústicos para localizar fugas escondidas sem destruir paredes ou pavimentos.", icon: "🔍" },
-              { title: "Reparação de Canos", desc: "Reparação e substituição de canos danificados, incluindo canos de cobre, PVC e polietileno. Trabalho limpo e garantido.", icon: "🔧" },
-              { title: "Fugas em Casas de Banho", desc: "Reparação de fugas em torneiras, autoclismos, bases de duche e banheiras. Substituição de vedantes e juntas.", icon: "🚿" },
+              { title: "Arranjo de Canos", desc: "Arranjo e substituição de canos danificados, incluindo canos de cobre, PVC e polietileno. Trabalho limpo e garantido.", icon: "🔧" },
+              { title: "Fugas em Casas de Banho", desc: "Arranjo de fugas em torneiras, autoclismos, bases de duche e banheiras. Substituição de vedantes e juntas.", icon: "🚿" },
               { title: "Fugas Urgentes 24h", desc: "Serviço de urgência disponível 24 horas para fugas graves que necessitam intervenção imediata. Tempo de resposta rápido.", icon: "🚨" }
             ].map((service, i) => (
               <div key={i} className="p-6 border border-gray-200 rounded-xl hover:shadow-lg transition-shadow">
@@ -75,7 +75,7 @@ export default function ReparacaoFugasAgua() {
               { step: "1", title: "Contacto", desc: "Ligue ou envie mensagem WhatsApp" },
               { step: "2", title: "Diagnóstico", desc: "Inspeção no local com equipamento profissional" },
               { step: "3", title: "Orçamento", desc: "Orçamento gratuito e transparente" },
-              { step: "4", title: "Reparação", desc: "Trabalho rápido com garantia" }
+              { step: "4", title: "Arranjo", desc: "Trabalho rápido com garantia" }
             ].map((item, i) => (
               <div key={i} className="text-center p-4">
                 <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-3">{item.step}</div>
@@ -93,7 +93,7 @@ export default function ReparacaoFugasAgua() {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { service: "Reparação torneira", price: "Desde €60" },
+              { service: "Arranjo torneira", price: "Desde €60" },
               { service: "Deteção de fuga", price: "Desde €100" },
               { service: "Substituição cano", price: "Desde €150" }
             ].map((item, i) => (
@@ -126,7 +126,7 @@ export default function ReparacaoFugasAgua() {
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Tem uma Fuga de Água? Não Espere!</h2>
-          <p className="text-xl mb-8">Contacte-nos agora para reparação urgente. Orçamento gratuito.</p>
+          <p className="text-xl mb-8">Contacte-nos agora para arranjo urgente. Orçamento gratuito.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
             <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp Urgente</a>

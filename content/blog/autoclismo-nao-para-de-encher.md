@@ -1,19 +1,19 @@
 ---
-title: "Autoclismo Não Para de Encher? 6 Causas e Como Reparar"
+title: "Autoclismo Não Para de Encher? 6 Causas e Como Arranjar"
 slug: "autoclismo-nao-para-de-encher"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Autoclismo enche constantemente e desperdiça água? Descubra as 6 causas principais (boia desregulada 45%, válvula de enchimento 30%, fuga no flapper 20%) e como reparar. Poupa €100-300/ano."
-keywords: ["autoclismo não para de encher", "autoclismo enche sempre", "sanita perde água", "picheleiro Bragança", "reparar autoclismo", "boia autoclismo"]
+excerpt: "Autoclismo enche constantemente e desperdiça água? Descubra as 6 causas principais (boia desregulada 45%, válvula de enchimento 30%, fuga no flapper 20%) e como arranjar. Poupa €100-300/ano."
+keywords: ["autoclismo não para de encher", "autoclismo enche sempre", "sanita perde água", "picheleiro Bragança", "arranjar autoclismo", "boia autoclismo"]
 priority: "HIGH DEMAND"
 ---
 
-# Autoclismo Não Para de Encher? 6 Causas e Como Reparar
+# Autoclismo Não Para de Encher? 6 Causas e Como Arranjar
 
 **O seu autoclismo não para de encher ou faz barulho constantemente?** Este é um dos problemas mais comuns e caros em casas de banho de Trás-os-Montes. Um autoclismo que enche continuamente pode **desperdiçar 200-400 litros por dia**, representando **€100-300/ano na fatura da água** — e o barulho constante é extremamente irritante.
 
-Neste guia completo, vamos explicar as **6 causas principais** que fazem um autoclismo encher constantemente, como identificar cada uma, e como reparar (DIY ou profissional). Com mais de 15 anos de experiência em reparações de canalizações na região de Bragança, já resolvemos milhares de autoclismos problemáticos.
+Neste guia completo, vamos explicar as **6 causas principais** que fazem um autoclismo encher constantemente, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 15 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de autoclismos problemáticos.
 
 **📞 Autoclismo não para de encher? Ligue já: [928 484 451](tel:+351928484451)**  
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20autoclismo%20não%20para%20de%20encher.%20Podem%20ajudar%3F)**
@@ -39,7 +39,7 @@ Neste guia completo, vamos explicar as **6 causas principais** que fazem um auto
 - 54.750 litros/ano
 - Tarifa: €4.50/m³
 - **Custo: €246/ano**
-- **Reparação: €15-80**
+- **Arranjo: €15-80**
 - **Retorno: 3 semanas a 4 meses**
 
 ### Impacto Ambiental
@@ -55,7 +55,7 @@ Neste guia completo, vamos explicar as **6 causas principais** que fazem um auto
 
 ## Como Funciona Um Autoclismo?
 
-Antes de reparar, é importante entender os componentes:
+Antes de arranjar, é importante entender os componentes:
 
 ### Componentes Principais
 
@@ -87,7 +87,7 @@ Antes de reparar, é importante entender os componentes:
 
 ## As 6 Causas Principais (Com Percentagens Reais)
 
-Com base na nossa experiência de 1.200+ reparações em Trás-os-Montes:
+Com base na nossa experiência de 1.200+ arranjos em Trás-os-Montes:
 
 ### 1. Boia Desregulada ou Defeituosa (45% dos Casos)
 
@@ -286,7 +286,7 @@ Com base na nossa experiência de 1.200+ reparações em Trás-os-Montes:
 **Sintomas:**
 - Autoclismo enche muito lentamente (5-10 minutos)
 - Fio de água muito fino
-- Problema após obra ou reparação
+- Problema após obra ou arranjo
 
 **Como identificar:**
 1. Localize registo (atrás ou ao lado da sanita)
@@ -342,7 +342,7 @@ Com base na nossa experiência de 1.200+ reparações em Trás-os-Montes:
 
 ### Soluções DIY
 
-| Reparação | Materiais | Tempo | Dificuldade |
+| Arranjo | Materiais | Tempo | Dificuldade |
 |-----------|-----------|-------|-------------|
 | Ajustar boia | €0 | 5 min | Muito fácil |
 | Limpar válvula | €0 | 20 min | Fácil |
@@ -365,7 +365,7 @@ Com base na nossa experiência de 1.200+ reparações em Trás-os-Montes:
 
 ---
 
-## Kits de Reparação Recomendados
+## Kits de Arranjo Recomendados
 
 ### Kit Básico (€25-45)
 **Inclui:**
@@ -424,10 +424,10 @@ Com base na nossa experiência de 1.200+ reparações em Trás-os-Montes:
 **1. Quanto desperdiça um autoclismo que não para?**  
 50-400 litros/dia = €54-730/ano. Fuga silenciosa no flapper: 150-300 litros/dia = €165-550/ano.
 
-**2. Posso reparar autoclismo sozinho?**  
+**2. Posso arranjar autoclismo sozinho?**  
 Sim. Ajustar boia ou substituir flapper é fácil (15-30 min). Substituir válvula é médio (45 min).
 
-**3. Quanto custa reparar autoclismo em Bragança?**  
+**3. Quanto custa arranjar autoclismo em Bragança?**  
 DIY: €0-60 (materiais). Profissional: €40-140 (completo com mão de obra).
 
 **4. Como sei se há fuga no flapper?**  
@@ -437,7 +437,7 @@ Teste do corante: coloque corante no autoclismo, aguarde 30 min. Se água na san
 Fuga no flapper (80% dos casos). Água escapa lentamente, autoclismo enche para compensar.
 
 **6. Válvula faz barulho (assobio). É grave?**  
-Não urgente mas deve reparar. Indica válvula gasta ou pressão excessiva. Pode falhar completamente.
+Não urgente mas deve arranjar. Indica válvula gasta ou pressão excessiva. Pode falhar completamente.
 
 **7. Quanto tempo dura um flapper?**  
 5-7 anos (água normal), 3-5 anos (água dura). Substitua preventivamente.
@@ -451,7 +451,7 @@ Sim, se autoclismo tem 15+ anos. Kit completo (€40-80) garante funcionamento p
 
 Um autoclismo que não para de encher é um **problema simples com solução fácil**, mas que **custa caro se ignorado**. Desperdiça 18.000-146.000 litros/ano (€54-730 na fatura), e o barulho constante é extremamente irritante.
 
-**A boa notícia:** 75% dos casos resolvem-se com reparação simples (€0-35 DIY ou €40-115 profissional) que se paga em 3 semanas a 4 meses através da poupança de água.
+**A boa notícia:** 75% dos casos resolvem-se com arranjo simples (€0-35 DIY ou €40-115 profissional) que se paga em 3 semanas a 4 meses através da poupança de água.
 
 **Estratégia recomendada:**
 1. **Teste primeiro:** Ajuste boia (€0, 5 min)
@@ -474,10 +474,10 @@ Um autoclismo que não para de encher é um **problema simples com solução fá
 
 **✅ Garantias Norte Reparos:**
 - Picheleiros certificados com 15+ anos de experiência
-- Reparação rápida (30-60 minutos)
+- Arranjo rápida (30-60 minutos)
 - Peças de qualidade (Geberit, Roca, Wirquin)
 - Orçamento transparente antes de iniciar
-- Garantia de 1 ano na reparação
+- Garantia de 1 ano na arranjo
 - Disponível 24/7 para urgências
 
 **Cada litro conta. Repare hoje e comece a poupar amanhã.**
@@ -485,10 +485,10 @@ Um autoclismo que não para de encher é um **problema simples com solução fá
 ---
 
 **Artigos relacionados:**
-- [Torneira Goteja: 5 Causas e Como Reparar](/blog/torneira-goteja)
+- [Torneira Goteja: 5 Causas e Como Arranjar](/blog/torneira-goteja)
 - [Pressão de Água Fraca: 8 Causas e Soluções](/blog/pressao-agua-fraca)
 - [Quanto Custa um Picheleiro em Trás-os-Montes?](/blog/custo-canalizador-tras-os-montes-precos)
 
 ---
 
-*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Reparações Rápidas | 928 484 451*
+*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Arranjos Rápidas | 928 484 451*

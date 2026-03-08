@@ -111,9 +111,9 @@ export default function MoimentaDaBeira() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização Agrícola", desc: "Redes de água para pomares de maçã, armazéns de frio e câmaras" },
-                { icon: Shield, title: "Reparação em Casas de Granito", desc: "Substituição de tubagens antigas em casas tradicionais de pedra" },
+                { icon: Shield, title: "Arranjo em Casas de Granito", desc: "Substituição de tubagens antigas em casas tradicionais de pedra" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações rurais entupidas" },
-                { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação e reparação de sistemas de aquecimento" },
+                { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação e arranjo de sistemas de aquecimento" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

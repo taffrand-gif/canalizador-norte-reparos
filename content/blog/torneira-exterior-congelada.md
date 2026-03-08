@@ -20,7 +20,7 @@ priority: "SEASONAL"
 - ✅ Sinais de que o cano pode ter rebentado
 - ✅ Como prevenir congelamento (5 técnicas eficazes)
 - ✅ Proteção para inverno rigoroso em Trás-os-Montes
-- ✅ Custos de reparação se cano rebentar
+- ✅ Custos de arranjo se cano rebentar
 - ✅ Quando chamar picheleiro urgente
 
 **📞 Picheleiro 24h:** [928 484 451](tel:+351928484451)  
@@ -52,7 +52,7 @@ priority: "SEASONAL"
 - Danos invisíveis até descongelar
 - Fuga grave quando temperatura sobe
 
-**Custos de reparação:**
+**Custos de arranjo:**
 - Cano rebentado: €150-500
 - Infiltração em parede: €500-2.000
 - Danos estruturais: €2.000-10.000+
@@ -184,7 +184,7 @@ priority: "SEASONAL"
 **Se notar qualquer sinal:**
 1. **Feche a torneira de corte geral** IMEDIATAMENTE
 2. **Chame picheleiro** URGENTE
-3. **Não use água** até reparar
+3. **Não use água** até arranjar
 
 ---
 
@@ -304,7 +304,7 @@ priority: "SEASONAL"
 
 ---
 
-## 💰 Custos de Reparação em Trás-os-Montes (2026)
+## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
 ### Prevenção (Muito Mais Barato!)
 
@@ -318,18 +318,18 @@ priority: "SEASONAL"
 
 **Total prevenção:** €5-150 (uma vez)
 
-### Reparação (Se Cano Rebentar)
+### Arranjo (Se Cano Rebentar)
 
 | Problema | Custo | Tempo | Urgência |
 |----------|-------|-------|----------|
 | Descongelar torneira | €60-100 | 1h | Média |
 | Substituir torneira exterior | €80-150 | 1-2h | Média |
-| Reparar cano rebentado (acessível) | €150-300 | 2-4h | Alta |
-| Reparar cano dentro parede | €300-800 | 4-8h | Alta |
-| Reparar infiltração + parede | €500-2.000 | 1-3 dias | Alta |
+| Arranjar cano rebentado (acessível) | €150-300 | 2-4h | Alta |
+| Arranjar cano dentro parede | €300-800 | 4-8h | Alta |
+| Arranjar infiltração + parede | €500-2.000 | 1-3 dias | Alta |
 | Danos estruturais graves | €2.000-10.000+ | Semanas | Crítica |
 
-**💡 Conclusão:** €10 de isolamento previne €500-2.000 de reparação!
+**💡 Conclusão:** €10 de isolamento previne €500-2.000 de arranjo!
 
 ---
 
@@ -378,7 +378,7 @@ priority: "SEASONAL"
 
 ### 5. Vale a pena instalar torneira anti-congelamento?
 
-**Resposta:** **SIM** se: (1) zona muito fria, (2) usa torneira no inverno, (3) já teve problemas antes. Custo €80-150 vs €500-2.000 de reparação se rebentar.
+**Resposta:** **SIM** se: (1) zona muito fria, (2) usa torneira no inverno, (3) já teve problemas antes. Custo €80-150 vs €500-2.000 de arranjo se rebentar.
 
 ### 6. Quando devo isolar as torneiras?
 
@@ -392,7 +392,7 @@ priority: "SEASONAL"
 
 ## 🎯 Conclusão: Prevenção é 10x Mais Barata
 
-**Reparar cano rebentado:** €500-2.000  
+**Arranjar cano rebentado:** €500-2.000  
 **Prevenir congelamento:** €5-20 (isolamento)
 
 **Em Trás-os-Montes**, onde invernos são rigorosos (-5°C ou menos), proteger torneiras exteriores **NÃO é opcional** - é essencial.

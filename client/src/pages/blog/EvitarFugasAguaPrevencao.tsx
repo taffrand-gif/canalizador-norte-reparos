@@ -194,7 +194,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
                   <li className="flex items-center gap-2">✅ Isolar tubos exteriores com espuma</li>
                   <li className="flex items-center gap-2">✅ Drenar torneiras de jardim</li>
                   <li className="flex items-center gap-2">✅ Verificar isolamento do contador</li>
-                  <li className="flex items-center gap-2">✅ Reparar torneiras que pingam</li>
+                  <li className="flex items-center gap-2">✅ Arranjar torneiras que pingam</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl border border-gray-200">
@@ -248,12 +248,12 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-xl border border-gray-200">
-              <h3 className="font-bold text-gray-900 mb-2">Quanto custa reparar uma fuga de água?</h3>
-              <p className="text-gray-700">Em Trás-os-Montes, a reparação de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano.</p>
+              <h3 className="font-bold text-gray-900 mb-2">Quanto custa arranjar uma fuga de água?</h3>
+              <p className="text-gray-700">Em Trás-os-Montes, a arranjo de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano.</p>
             </div>
             <div className="bg-white p-6 rounded-xl border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">O seguro da casa cobre fugas de água?</h3>
-              <p className="text-gray-700">A maioria dos seguros multirriscos cobre danos causados por fugas de água, mas geralmente não cobre a reparação da canalização em si. Verifique as condições da sua apólice e documente sempre os danos com fotografias.</p>
+              <p className="text-gray-700">A maioria dos seguros multirriscos cobre danos causados por fugas de água, mas geralmente não cobre a arranjo da canalização em si. Verifique as condições da sua apólice e documente sempre os danos com fotografias.</p>
             </div>
             <div className="bg-white p-6 rounded-xl border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">De quanto em quanto tempo devo fazer manutenção à canalização?</h3>
@@ -265,8 +265,8 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": [
-                { "@type": "Question", "name": "Quanto custa reparar uma fuga de água?", "acceptedAnswer": { "@type": "Answer", "text": "Em Trás-os-Montes, a reparação de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano." } },
-                { "@type": "Question", "name": "O seguro da casa cobre fugas de água?", "acceptedAnswer": { "@type": "Answer", "text": "A maioria dos seguros multirriscos cobre danos causados por fugas de água, mas geralmente não cobre a reparação da canalização em si. Verifique as condições da sua apólice e documente sempre os danos com fotografias." } },
+                { "@type": "Question", "name": "Quanto custa arranjar uma fuga de água?", "acceptedAnswer": { "@type": "Answer", "text": "Em Trás-os-Montes, a arranjo de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano." } },
+                { "@type": "Question", "name": "O seguro da casa cobre fugas de água?", "acceptedAnswer": { "@type": "Answer", "text": "A maioria dos seguros multirriscos cobre danos causados por fugas de água, mas geralmente não cobre a arranjo da canalização em si. Verifique as condições da sua apólice e documente sempre os danos com fotografias." } },
                 { "@type": "Question", "name": "De quanto em quanto tempo devo fazer manutenção à canalização?", "acceptedAnswer": { "@type": "Answer", "text": "Recomendamos inspeção visual mensal, manutenção do esquentador/caldeira anual, e inspeção profissional completa a cada 5 anos. Em casas com mais de 30 anos, a inspeção profissional deve ser mais frequente." } }
               ]
             })}
@@ -284,7 +284,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
             <div className="md:w-3/4">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
               <p className="text-gray-700 mb-4">
-                <strong>Carlos Mendes</strong> é canalizador certificado com mais de 12 anos de experiência em Trás-os-Montes. Especialista em deteção e reparação de fugas de água, já resolveu mais de 800 casos na região, incluindo situações de emergência no inverno.
+                <strong>Carlos Mendes</strong> é canalizador certificado com mais de 12 anos de experiência em Trás-os-Montes. Especialista em deteção e arranjo de fugas de água, já resolveu mais de 800 casos na região, incluindo situações de emergência no inverno.
               </p>
               <p className="text-gray-600">Para emergências ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
             </div>

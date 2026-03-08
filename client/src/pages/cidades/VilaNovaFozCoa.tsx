@@ -113,7 +113,7 @@ export default function VilaNovaFozCoa() {
                 { icon: Droplets, title: "Canalização Cultural", desc: "Redes de água para museus, centros interpretativos e espaços culturais" },
                 { icon: Shield, title: "Quintas do Douro", desc: "Canalização para quintas vinícolas, caves e sistemas de rega" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações antigas do concelho" },
-                { icon: CheckCircle, title: "Reparação de Fugas", desc: "Deteção e reparação urgente de fugas em casas e quintas" },
+                { icon: CheckCircle, title: "Arranjo de Fugas", desc: "Deteção e arranjo urgente de fugas em casas e quintas" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

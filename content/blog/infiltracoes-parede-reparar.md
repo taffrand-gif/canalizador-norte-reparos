@@ -1,16 +1,16 @@
 ---
-title: "Infiltrações na Parede: Como Reparar e Prevenir Definitivamente"
-slug: "infiltracoes-parede-reparar"
+title: "Infiltrações na Parede: Como Arranjar e Prevenir Definitivamente"
+slug: "infiltracoes-parede-arranjar"
 category: "problemas-comuns"
 date: "2026-03-03"
 author: "Norte Reparos"
-excerpt: "Infiltrações na parede causam bolor, mofo e danos estruturais. Descubra as 6 causas principais, como reparar definitivamente e custos €150-2000."
+excerpt: "Infiltrações na parede causam bolor, mofo e danos estruturais. Descubra as 6 causas principais, como arranjar definitivamente e custos €150-2000."
 keywords: ["infiltrações parede", "humidade parede", "bolor parede", "picheleiro", "Trás-os-Montes"]
 ---
 
-# Infiltrações na Parede: Como Reparar e Prevenir Definitivamente
+# Infiltrações na Parede: Como Arranjar e Prevenir Definitivamente
 
-**Manchas na parede? Bolor? Tinta descasca?** Infiltrações são um pesadelo - destroem paredes, criam mofo tóxico e podem custar milhares em reparações. Em Trás-os-Montes, com chuvas intensas e casas antigas de pedra, infiltrações são comuns. Neste guia, explicamos as 6 causas principais, como reparar definitivamente (não tapar o problema!) e custos reais €150-2000.
+**Manchas na parede? Bolor? Tinta descasca?** Infiltrações são um pesadelo - destroem paredes, criam mofo tóxico e podem custar milhares em arranjos. Em Trás-os-Montes, com chuvas intensas e casas antigas de pedra, infiltrações são comuns. Neste guia, explicamos as 6 causas principais, como arranjar definitivamente (não tapar o problema!) e custos reais €150-2000.
 
 ## 🚨 Sinais de Infiltração
 
@@ -75,7 +75,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Sótão húmido
 
 **Solução**:
-- Reparar telhas: €200-600
+- Arranjar telhas: €200-600
 - Limpar caleiras: €80-150
 - Substituir rufos: €300-800
 - Impermeabilizar: €500-1500
@@ -98,7 +98,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 
 **Solução**:
 - [Deteção câmara térmica FLIR](/blog/fuga-agua-escondida-detetar): €80-120
-- Reparar fuga: €150-400
+- Arranjar fuga: €150-400
 - Substituir troço: €200-600
 
 **Dica**: Câmara térmica identifica sem partir parede!
@@ -161,7 +161,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Reboco exterior danificado
 
 **Solução**:
-- Reparar reboco: €20-40/m²
+- Arranjar reboco: €20-40/m²
 - Impermeabilizar fachada: €30-60/m²
 - Pintura impermeável: €15-30/m²
 
@@ -186,7 +186,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Silicone exterior: €30-80
 - Substituir janelas: €300-800 cada
 
-## 🛠️ Como Reparar Infiltração
+## 🛠️ Como Arranjar Infiltração
 
 ### ⚠️ IMPORTANTE: Não Tapar Só!
 
@@ -199,7 +199,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 
 **Correto**: Resolver causa raiz primeiro!
 
-### Passo a Passo Reparação
+### Passo a Passo Arranjo
 
 **Passo 1: Identificar Causa** (1-2 dias)
 1. Observar padrão humidade
@@ -208,9 +208,9 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 4. Teste água (fechar geral, contador roda?)
 5. Câmara térmica se necessário
 
-**Passo 2: Reparar Origem** (1-7 dias)
-- Telhado: reparar telhas/caleiras
-- Fuga: reparar cano
+**Passo 2: Arranjar Origem** (1-7 dias)
+- Telhado: arranjar telhas/caleiras
+- Fuga: arranjar cano
 - Fachada: impermeabilizar
 - Janelas: vedar
 - **Esperar secar** (2-4 semanas!)
@@ -228,7 +228,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Secar
 - Produto anti-mofo
 
-**Passo 5: Reparar Parede** (2-3 dias)
+**Passo 5: Arranjar Parede** (2-3 dias)
 - Remover reboco danificado
 - Aplicar primário anti-humidade
 - Rebocar
@@ -237,18 +237,18 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 
 **Total**: 4-8 semanas (não apressar!)
 
-## 💰 Custos Reparação
+## 💰 Custos Arranjo
 
 ### Por Causa
 
 **Telhado**:
-- Reparação simples: €200-600
+- Arranjo simples: €200-600
 - Impermeabilização: €500-1500
 - Substituição completa: €3000-8000
 
 **Fuga cano**:
 - Deteção: €80-120
-- Reparação: €150-400
+- Arranjo: €150-400
 - Substituir troço: €200-600
 
 **Humidade ascendente**:
@@ -263,7 +263,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Vedação: €50-150 por janela
 - Substituir: €300-800 por janela
 
-### Reparação Parede
+### Arranjo Parede
 
 **Pequena** (1-2m²):
 - Materiais: €30-60
@@ -370,7 +370,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 
 ✅ Pequenas manchas
 ✅ Causa óbvia (janela)
-✅ Reparação simples
+✅ Arranjo simples
 ✅ Pintura final
 
 ### Chame Profissional
@@ -411,7 +411,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 ### Serviço Completo
 
 - Deteção
-- Reparação origem
+- Arranjo origem
 - Tratamento parede
 - Acabamento final
 
@@ -444,11 +444,11 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Como sei se é infiltração ou condensação?
 **Infiltração**: Mancha localizada, piora chuva, parede fria/húmida. **Condensação**: Bolor cantos/janelas, toda casa, pior inverno, vidros embaciados.
 
-### Quanto custa reparar infiltração?
-**€130-260** (pequena). **€400-800** (média). **€1000-2000** (grande). Mais custo reparar origem: €150-4000 dependendo causa.
+### Quanto custa arranjar infiltração?
+**€130-260** (pequena). **€400-800** (média). **€1000-2000** (grande). Mais custo arranjar origem: €150-4000 dependendo causa.
 
 ### Posso pintar por cima?
-**NÃO!** Problema piora. Resolver causa primeiro, secar 2-4 semanas, depois reparar parede corretamente.
+**NÃO!** Problema piora. Resolver causa primeiro, secar 2-4 semanas, depois arranjar parede corretamente.
 
 ### Bolor é perigoso?
 **Sim**. Causa alergias, asma, problemas respiratórios. Remover com lixívia, resolver humidade, ventilar bem.

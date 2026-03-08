@@ -169,7 +169,7 @@ keywords: ["ar condicionado", "manutenção AC", "limpar ar condicionado", "gás
 - R410A: €100-150
 - Inclui mão obra
 
-**Reparar fuga**:
+**Arranjar fuga**:
 - Simples: €60-150
 - Complexa: €150-400
 
@@ -199,17 +199,17 @@ keywords: ["ar condicionado", "manutenção AC", "limpar ar condicionado", "gás
 
 **Primavera** (Abril-Maio):
 - Antes verão
-- Prepara AC para calor
+- Parranja AC para calor
 - Técnicos menos ocupados
 - **Mais recomendado**
 
 **Outono** (Setembro-Outubro):
 - Após verão
 - Limpa uso intenso
-- Prepara inverno (bomba calor)
+- Parranja inverno (bomba calor)
 
 **Bianual** (ideal):
-- Primavera: preparação verão
+- Primavera: parranjo verão
 - Outono: limpeza pós-verão
 
 ### Frequência por Uso
@@ -354,7 +354,7 @@ Não espere manutenção anual se:
 
 **Solução**:
 - Limpeza: €60-90
-- Reparação: €100-400
+- Arranjo: €100-400
 
 ### Gelo no Evaporador
 
@@ -420,7 +420,7 @@ Não espere manutenção anual se:
 - Anual: €60-90 por split
 - Bianual: €100-150 por split
 - Prioridade avarias
-- Descontos reparações
+- Descontos arranjos
 
 ### Resposta Rápida
 
@@ -455,13 +455,13 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **Mínimo 1x/ano** (primavera). **Ideal 2x/ano** (primavera + outono). Filtros: limpar mensal (verão).
 
 ### Posso fazer manutenção sozinho?
-**Parcialmente**. Pode limpar filtros, exterior. Mas limpeza profunda, verificação gás, reparações: **só técnico certificado F-Gas**.
+**Parcialmente**. Pode limpar filtros, exterior. Mas limpeza profunda, verificação gás, arranjos: **só técnico certificado F-Gas**.
 
 ### Manutenção poupa dinheiro?
 **Sim**. Custo €60-90/ano. Previne avarias €200-800. Poupa 10-15% energia = €50-100/ano. **ROI positivo**.
 
 ### Quando fazer manutenção?
-**Primavera** (Abril-Maio) é ideal. Antes verão, técnicos menos ocupados, prepara AC para calor.
+**Primavera** (Abril-Maio) é ideal. Antes verão, técnicos menos ocupados, parranja AC para calor.
 
 ### AC pinga água, o que fazer?
 **Causa comum**: Drenagem entupida. **Solução**: Limpar tubo drenagem (DIY) ou chamar técnico (€40-80). Não ignorar - pode danificar parede.

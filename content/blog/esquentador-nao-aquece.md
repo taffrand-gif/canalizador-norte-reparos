@@ -1,11 +1,11 @@
 ---
 title: "Esquentador Não Aquece Água? 8 Causas e Como Resolver"
 slug: "esquentador-nao-aquece"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Esquentador não aquece água ou água sai fria? Descubra as 8 causas principais (pilha gasta 30%, pressão baixa 25%, queimador sujo 20%) e como resolver em Trás-os-Montes."
-keywords: ["esquentador não aquece", "esquentador água fria", "esquentador avariado", "reparar esquentador", "picheleiro Trás-os-Montes", "esquentador não acende", "manutenção esquentador"]
+keywords: ["esquentador não aquece", "esquentador água fria", "esquentador avariado", "arranjar esquentador", "picheleiro Trás-os-Montes", "esquentador não acende", "manutenção esquentador"]
 priority: "HIGH DEMAND"
 ---
 
@@ -19,9 +19,9 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 - ✅ As 8 causas principais de esquentador que não aquece
 - ✅ Diagnóstico passo a passo (10 minutos)
 - ✅ Soluções DIY vs quando chamar picheleiro
-- ✅ Custos de reparação em Trás-os-Montes
+- ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Manutenção preventiva (evitar problemas)
-- ✅ Quando substituir vs reparar
+- ✅ Quando substituir vs arranjar
 
 **📞 Picheleiro 24h:** [928 484 451](tel:+351928484451)  
 **💬 WhatsApp Urgente:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20esquentador%20não%20aquece%20e%20preciso%20de%20ajuda!)
@@ -183,7 +183,7 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 **Sintomas:**
 - Múltiplos problemas simultâneos
-- Reparações frequentes (3+ vezes/ano)
+- Arranjos frequentes (3+ vezes/ano)
 - Esquentador com 15+ anos
 - Peças de substituição difíceis de encontrar
 
@@ -262,7 +262,7 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 ---
 
-## 💰 Custos de Reparação em Trás-os-Montes (2026)
+## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
 ### Soluções DIY
 
@@ -275,7 +275,7 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 **Total DIY:** €0-35
 
-### Reparações Profissionais
+### Arranjos Profissionais
 
 | Serviço | Custo | Tempo | Garantia |
 |---------|-------|-------|----------|
@@ -284,7 +284,7 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 | Substituir termóstato | €80-150 | 1-2h | 1 ano |
 | Substituir válvula gás | €100-200 | 2-3h | 1 ano |
 | Descalcificação | €80-150 | 2-3h | 1 ano |
-| Reparação urgência 24h | +50% | Imediato | 6 meses |
+| Arranjo urgência 24h | +50% | Imediato | 6 meses |
 
 ### Substituição Completa
 
@@ -342,13 +342,13 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 ---
 
-## ⚠️ Quando Substituir vs Reparar?
+## ⚠️ Quando Substituir vs Arranjar?
 
-### Reparar Se:
+### Arranjar Se:
 
 ✅ Esquentador com menos de 10 anos  
 ✅ Problema simples (pilhas, membrana, termóstato)  
-✅ Custo reparação < 40% do preço de novo  
+✅ Custo arranjo < 40% do preço de novo  
 ✅ Peças disponíveis  
 ✅ Teve manutenção regular  
 
@@ -360,8 +360,8 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 ❌ Esquentador com 15+ anos  
 ❌ Múltiplos problemas simultâneos  
-❌ Reparações frequentes (3+ vezes/ano)  
-❌ Custo reparação > 50% do preço de novo  
+❌ Arranjos frequentes (3+ vezes/ano)  
+❌ Custo arranjo > 50% do preço de novo  
 ❌ Peças descontinuadas  
 ❌ Consumo excessivo de gás  
 
@@ -379,7 +379,7 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 **Resposta:** Pode acontecer se água de entrada estiver muito fria (<5°C). Esquentador precisa de maior caudal para aquecer. Solução: abra torneira mais (maior caudal) ou aumente temperatura no regulador.
 
-### 3. Posso reparar o esquentador eu mesmo?
+### 3. Posso arranjar o esquentador eu mesmo?
 
 **Resposta:** Apenas trocar pilhas e limpar filtros. **NUNCA** abra o esquentador ou mexa em componentes de gás - é **ILEGAL** e **PERIGOSO**. Risco de explosão e intoxicação.
 
@@ -405,14 +405,14 @@ A boa notícia? **60% dos problemas de esquentador** têm solução simples que 
 
 **60% dos problemas** são pilhas gastas (€3-6) ou pressão baixa (€0). Vale a pena fazer diagnóstico simples antes de chamar picheleiro.
 
-**Mas NUNCA tente reparar sozinho** componentes internos - risco de explosão e intoxicação. Esquentadores a gás requerem técnico certificado.
+**Mas NUNCA tente arranjar sozinho** componentes internos - risco de explosão e intoxicação. Esquentadores a gás requerem técnico certificado.
 
 **Manutenção anual** (€60-100) previne 80% dos problemas e é obrigatória por lei.
 
 ### 📞 Precisa de Ajuda Profissional?
 
 **Norte Reparos** - Picheleiro Certificado em Trás-os-Montes  
-✅ Reparação de esquentadores (todas as marcas)  
+✅ Arranjo de esquentadores (todas as marcas)  
 ✅ Manutenção anual obrigatória  
 ✅ Descalcificação profissional  
 ✅ Instalação de esquentadores novos  

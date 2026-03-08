@@ -35,7 +35,7 @@ export default function Chaves() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador urgente chaves, canalizador 24 horas chaves, canalizador chaves, canalizador profissional chaves, desentupimento chaves, fuga água chaves, reparação canalização chaves, instalação sanitários chaves, canalizador trás-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador urgente chaves, canalizador 24 horas chaves, canalizador chaves, canalizador profissional chaves, desentupimento chaves, fuga água chaves, arranjo canalização chaves, instalação sanitários chaves, canalizador trás-os-montes');
     
     
     // Canonical URL
@@ -57,7 +57,7 @@ export default function Chaves() {
       "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Chaves",
       "image": "/images/hero/hero-plumber-portugal.png",
-      "description": "Canalizador profissional em Chaves, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
+      "description": "Canalizador profissional em Chaves, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -404,7 +404,7 @@ export default function Chaves() {
                 </div>
                 <p className="text-gray-700 mb-4 italic">
                   "Hotel termal na zona das Caldas com problema no sistema de água termal. Vieram
-                  preparados com materiais resistentes aos minerais. Resolveram sem interromper
+                  parranjados com materiais resistentes aos minerais. Resolveram sem interromper
                   o serviço aos hóspedes. Profissionais de excelência!"
                 </p>
                 <p className="text-gray-900 font-bold">António P.</p>
@@ -415,7 +415,7 @@ export default function Chaves() {
                   <span className="text-2xl">⭐⭐⭐⭐⭐</span>
                 </div>
                 <p className="text-gray-700 mb-4 italic">
-                  "Casa antiga na Rua Direita com canalização em granito. Fizeram a reparação
+                  "Casa antiga na Rua Direita com canalização em granito. Fizeram a arranjo
                   respeitando a estrutura histórica. Trabalho cuidadoso e com atenção ao detalhe.
                   Recomendo vivamente!"
                 </p>

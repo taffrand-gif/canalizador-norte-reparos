@@ -286,7 +286,7 @@ export default function EletricistaUrgenteSemLuz() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span>Garantia 2 anos em reparações</span>
+                  <span>Garantia 2 anos em arranjos</span>
                 </li>
               </ul>
             </div>
@@ -323,12 +323,12 @@ export default function EletricistaUrgenteSemLuz() {
                 </li>
               </ul>
               <p className="text-sm text-gray-600 italic">
-                Valor descontado se aprovar reparação
+                Valor descontado se aprovar arranjo
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-600">
-              <h3 className="font-bold text-xl mb-4 text-gray-900">Reparações Comuns</h3>
+              <h3 className="font-bold text-xl mb-4 text-gray-900">Arranjos Comuns</h3>
               <div className="text-4xl font-bold text-green-600 mb-4">100-300€</div>
               <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-start gap-2">
@@ -337,7 +337,7 @@ export default function EletricistaUrgenteSemLuz() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                  <span>Reparar curto circuito: 120-250€</span>
+                  <span>Arranjar curto circuito: 120-250€</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -353,7 +353,7 @@ export default function EletricistaUrgenteSemLuz() {
           <div className="mt-8 bg-blue-50 border border-blue-200 p-6 rounded-xl text-center">
             <p className="text-gray-800">
               <strong className="text-blue-900">Garantia:</strong> Todos os trabalhos têm garantia de 2 anos.
-              Se o problema voltar, reparamos gratuitamente.
+              Se o problema voltar, arranjamos gratuitamente.
             </p>
           </div>
         </div>
@@ -424,7 +424,7 @@ export default function EletricistaUrgenteSemLuz() {
               },
               {
                 q: 'Quanto custa uma urgência elétrica?',
-                a: 'Diagnóstico: 50-80€. Reparações: 100-300€ (maioria casos). Orçamento gratuito antes de começar.'
+                a: 'Diagnóstico: 50-80€. Arranjos: 100-300€ (maioria casos). Orçamento gratuito antes de começar.'
               },
               {
                 q: 'Têm peças em stock?',

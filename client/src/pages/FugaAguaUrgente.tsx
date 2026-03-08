@@ -34,7 +34,7 @@ export default function FugaAguaUrgente() {
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar uma fuga de água urgente?",
+        "name": "Quanto custa arranjar uma fuga de água urgente?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Fugas simples desde €80. Fugas complexas €150-300. Orçamento gratuito no local. Preço fixo antes de começar. Sem surpresas na fatura."
@@ -45,7 +45,7 @@ export default function FugaAguaUrgente() {
         "name": "Quanto tempo demora a parar uma fuga de água?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Reparação completa em 1-2 horas dependendo da gravidade."
+          "text": "Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa em 1-2 horas dependendo da gravidade."
         }
       }
     ]
@@ -90,7 +90,7 @@ export default function FugaAguaUrgente() {
             icon: 'trending',
             title: 'Danos na Casa',
             description: 'Paredes húmidas, tetos manchados, chão inundado, móveis estragados. Os danos multiplicam-se rapidamente.',
-            consequence: 'Reparações podem custar €1000-5000 se não parar a fuga rapidamente.'
+            consequence: 'Arranjos podem custar €1000-5000 se não parar a fuga rapidamente.'
           },
           {
             icon: 'time',
@@ -127,8 +127,8 @@ export default function FugaAguaUrgente() {
           },
           {
             time: '30-60 min',
-            title: 'Reparação Completa',
-            description: 'Reparamos definitivamente. Testamos. Limpamos. Garantia de 2 anos. Problema resolvido.',
+            title: 'Arranjo Completa',
+            description: 'Arranjamos definitivamente. Testamos. Limpamos. Garantia de 2 anos. Problema resolvido.',
             icon: 'check'
           }
         ]}
@@ -142,7 +142,7 @@ export default function FugaAguaUrgente() {
             name: 'Maria Silva',
             city: 'Bragança',
             problem: 'Fuga de água urgente',
-            solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram em 20 minutos, pararam a fuga e repararam tudo. Salvaram a minha casa!',
+            solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram em 20 minutos, pararam a fuga e arranjaram tudo. Salvaram a minha casa!',
             timeframe: '45 minutos',
             rating: 5,
             verified: true
@@ -151,7 +151,7 @@ export default function FugaAguaUrgente() {
             name: 'João Pereira',
             city: 'Mirandela',
             problem: 'Fuga no autoclismo',
-            solution: 'Conta de água subiu €200. Descobriram fuga escondida no autoclismo. Repararam no mesmo dia. Profissionais top!',
+            solution: 'Conta de água subiu €200. Descobriram fuga escondida no autoclismo. Arranjaram no mesmo dia. Profissionais top!',
             timeframe: '1 hora',
             rating: 5,
             verified: true
@@ -169,7 +169,7 @@ export default function FugaAguaUrgente() {
             name: 'Carlos Rodrigues',
             city: 'Vila Real',
             problem: 'Fuga na parede',
-            solution: 'Parede húmida há semanas. Usaram câmara térmica, encontraram a fuga escondida. Repararam sem partir tudo. Excelente trabalho.',
+            solution: 'Parede húmida há semanas. Usaram câmara térmica, encontraram a fuga escondida. Arranjaram sem partir tudo. Excelente trabalho.',
             timeframe: '2 horas',
             rating: 5,
             verified: true
@@ -197,14 +197,14 @@ export default function FugaAguaUrgente() {
 
       <GuaranteeBox
         title="Garantias Que Dão Paz de Espírito"
-        subtitle="Não arriscamos a sua confiança. Todas as reparações têm garantia total."
+        subtitle="Não arriscamos a sua confiança. Todas as arranjos têm garantia total."
         mainGuarantee="Paramos a Fuga ou Não Paga"
         phone={ACTIVE_CONFIG.phone}
         guarantees={[
           {
             icon: 'shield',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações têm garantia de 2 anos. Se voltar a ter problemas, voltamos grátis.'
+            description: 'Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas, voltamos grátis.'
           },
           {
             icon: 'check',
@@ -237,7 +237,7 @@ export default function FugaAguaUrgente() {
                 a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Desligue aparelhos elétricos próximos da água. 5) Tire fotos para seguro se necessário. Chegamos em 15-30 minutos e paramos a fuga.'
               },
               {
-                q: 'Quanto custa reparar uma fuga de água urgente?',
+                q: 'Quanto custa arranjar uma fuga de água urgente?',
                 a: 'Fugas simples (torneiras, autoclismos) desde €80. Fugas em canos €150-250. Fugas complexas (paredes, chão) €250-400. Damos sempre orçamento gratuito no local antes de começar. Preço fixo, sem surpresas.'
               },
               {
@@ -246,15 +246,15 @@ export default function FugaAguaUrgente() {
               },
               {
                 q: 'Quanto tempo demora a parar uma fuga?',
-                a: 'Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Reparação completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
+                a: 'Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
               },
               {
                 q: 'Têm equipamento para detetar fugas escondidas?',
                 a: 'Sim! Usamos câmaras térmicas, detetores acústicos e equipamento de inspeção CCTV para encontrar fugas escondidas em paredes, tetos e chão sem destruir tudo.'
               },
               {
-                q: 'Dão garantia na reparação?',
-                a: 'Sim! Todas as reparações têm garantia de 2 anos. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Garantia 100% satisfação ou dinheiro de volta.'
+                q: 'Dão garantia na arranjo?',
+                a: 'Sim! Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Garantia 100% satisfação ou dinheiro de volta.'
               }
             ].map((item, i) => (
               <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

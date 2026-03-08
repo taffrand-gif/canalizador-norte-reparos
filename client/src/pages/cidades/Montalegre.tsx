@@ -82,7 +82,7 @@ export default function Montalegre() {
   const cidadesProximas = getCidadesProximas('montalegre');
 
   const faqs = [
-    { question: "Quanto tempo demora a chegar a Montalegre?", answer: "Chegamos a Montalegre em aproximadamente 1h30 a 1h45, percorrendo cerca de 100km. Para urgências no inverno, temos veículo preparado para neve." },
+    { question: "Quanto tempo demora a chegar a Montalegre?", answer: "Chegamos a Montalegre em aproximadamente 1h30 a 1h45, percorrendo cerca de 100km. Para urgências no inverno, temos veículo parranjado para neve." },
     { question: "Fazem proteção de canos contra o gelo?", answer: "Sim, somos especializados em isolamento térmico de tubagens para prevenir rebentamentos no inverno rigoroso do Barroso, onde as temperaturas podem descer abaixo dos -10°C." },
     {
       question: "Qual o custo de deslocação a Montalegre?",
@@ -129,7 +129,7 @@ export default function Montalegre() {
         <section className="py-16 bg-blue-600 text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Montalegre?</h2>
-            <p className="text-xl mb-8 opacity-90">Ligue agora. Preparados para o clima do Barroso.</p>
+            <p className="text-xl mb-8 opacity-90">Ligue agora. Parranjados para o clima do Barroso.</p>
             <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
           </div>
         </section>

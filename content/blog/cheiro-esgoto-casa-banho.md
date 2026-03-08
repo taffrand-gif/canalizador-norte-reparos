@@ -173,7 +173,7 @@ Com base na nossa experiência de 1.100+ intervenções em Trás-os-Montes:
 - **Apertar ligação solta:** €0-40
 - **Vedar com silicone:** €5-15 (material) + €40-80 (instalação)
 - **Substituir tubo:** €80-300 (depende da localização)
-- **Reparar fuga oculta:** €150-600
+- **Arranjar fuga oculta:** €150-600
 - **Dificuldade:** Média a Difícil
 
 ### 4. Ventilação Inadequada do Esgoto (8% dos Casos)
@@ -304,7 +304,7 @@ Com base na nossa experiência de 1.100+ intervenções em Trás-os-Montes:
 **Solução:**
 - **Limpar fossa séptica:** €80-200
 - **Desentupir rede:** €150-500
-- **Reparar tubo enterrado:** €300-1.500
+- **Arranjar tubo enterrado:** €300-1.500
 - **Dificuldade:** Profissional obrigatório
 
 ---
@@ -364,7 +364,7 @@ Com base na nossa experiência de 1.100+ intervenções em Trás-os-Montes:
 | Diagnóstico | €40-80 |
 | Limpar sifão | €60-100 |
 | Substituir sifão | €75-140 |
-| Reparar fuga | €100-400 |
+| Arranjar fuga | €100-400 |
 | Instalar ventilação | €200-600 |
 | Limpar fossa | €80-200 |
 | Desentupir rede | €150-500 |
@@ -421,7 +421,7 @@ Problema geral: ventilação (50%), fossa (40%), rede (10%). Chame picheleiro.
 Temporariamente sim (mata bactérias). Mas não resolve causa raiz (sifão seco, fuga, etc.).
 
 **7. Quanto tempo demora resolver?**  
-Sifão seco: 2 minutos. Limpar sifão: 30 minutos. Reparar fuga: 1-4 horas. Instalar ventilação: 1-2 dias.
+Sifão seco: 2 minutos. Limpar sifão: 30 minutos. Arranjar fuga: 1-4 horas. Instalar ventilação: 1-2 dias.
 
 **8. É perigoso respirar cheiro a esgoto?**  
 Curto prazo: desconfortável, pode causar náuseas. Longo prazo: pode ser tóxico. Resolva rapidamente.

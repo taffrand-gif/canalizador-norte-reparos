@@ -14,7 +14,7 @@ export default function Servicos() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Serviços de Canalizador em Trás-os-Montes | Desentupimento, Reparação, Instalação";
+    document.title = "Serviços de Canalizador em Trás-os-Montes | Desentupimento, Arranjo, Instalação";
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]');
@@ -23,7 +23,7 @@ export default function Servicos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, reparação de fugas, instalação sanitários, aquecimento central. Profissionais certificados, orçamento gratuito, urgências 24h.');
+    metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, arranjo de fugas, instalação sanitários, aquecimento central. Profissionais certificados, orçamento gratuito, urgências 24h.');
   }, [config]);
 
   const servicesDetails = [
@@ -41,14 +41,14 @@ export default function Servicos() {
       priceRange: 'A partir de €60'
     },
     {
-      title: 'Reparação de Fugas de Água',
-      description: 'Localização e reparação de fugas de água em canalizações, torneiras, autoclismos e sistemas de aquecimento. Utilizamos tecnologia de deteção sem quebra para minimizar danos na propriedade.',
+      title: 'Arranjo de Fugas de Água',
+      description: 'Localização e arranjo de fugas de água em canalizações, torneiras, autoclismos e sistemas de aquecimento. Utilizamos tecnologia de deteção sem quebra para minimizar danos na propriedade.',
       features: [
         'Deteção de fugas com equipamento especializado',
-        'Reparação sem quebra quando possível',
+        'Arranjo sem quebra quando possível',
         'Substituição de torneiras e válvulas',
         'Correção de pressão na rede',
-        'Garantia na reparação'
+        'Garantia na arranjo'
       ],
       image: '/images-optimized/services/service-desentupimentos.jpg',
       priceRange: 'A partir de €80'
@@ -68,11 +68,11 @@ export default function Servicos() {
     },
     {
       title: 'Aquecimento Central e Água Quente',
-      description: 'Instalação, manutenção e reparação de sistemas de aquecimento central, caldeiras, esquentadores, bombas de calor e radiadores. Garantimos eficiência energética e conforto térmico.',
+      description: 'Instalação, manutenção e arranjo de sistemas de aquecimento central, caldeiras, esquentadores, bombas de calor e radiadores. Garantimos eficiência energética e conforto térmico.',
       features: [
         'Instalação de caldeiras e esquentadores',
         'Manutenção preventiva anual',
-        'Reparação de avarias no aquecimento',
+        'Arranjo de avarias no aquecimento',
         'Sistemas solares térmicos',
         'Optimização energética'
       ],
@@ -190,7 +190,7 @@ export default function Servicos() {
               },
               {
                 question: "Como detetam fugas de água sem quebrar paredes?",
-                answer: "Utilizamos equipamento de deteção por ultrassons, câmaras térmicas e gases traçadores. Em 80% dos casos, conseguimos localizar e reparar sem necessidade de obras."
+                answer: "Utilizamos equipamento de deteção por ultrassons, câmaras térmicas e gases traçadores. Em 80% dos casos, conseguimos localizar e arranjar sem necessidade de obras."
               },
               {
                 question: "Oferecem garantia nos serviços?",

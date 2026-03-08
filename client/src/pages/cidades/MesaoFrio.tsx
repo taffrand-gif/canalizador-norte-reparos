@@ -94,7 +94,7 @@ export default function MesaoFrio() {
                 { icon: Droplets, title: "Turismo Fluvial", desc: "Canalização para embarcadouros, restaurantes e alojamentos ribeirinhos" },
                 { icon: Shield, title: "Quintas do Douro", desc: "Redes de água para quintas vinícolas e caves de vinho" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações antigas do concelho" },
-                { icon: CheckCircle, title: "Reparação de Fugas", desc: "Deteção e reparação urgente em casas e quintas" },
+                { icon: CheckCircle, title: "Arranjo de Fugas", desc: "Deteção e arranjo urgente em casas e quintas" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

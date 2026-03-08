@@ -51,7 +51,7 @@ tags: ['canalizador condomínios', 'preços especiais', 'manutenção', 'condom�
 | Serviço | Preço Unitário | Preço Condomínio | Economia |
 |---------|---------------|------------------|----------|
 | **Desentupimento** | €60-€120 | €50-€100 | 15-20% |
-| **Reparação fuga** | €80-€180 | €70-€150 | 12-18% |
+| **Arranjo fuga** | €80-€180 | €70-€150 | 12-18% |
 | **Instalação sanitário** | €150-€300 | €130-€250 | 13-17% |
 | **Manutenção preventiva** | €45/hora | €35/hora | 22% |
 

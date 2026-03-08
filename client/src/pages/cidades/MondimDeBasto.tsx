@@ -129,7 +129,7 @@ export default function MondimDeBasto() {
         <section className="py-16 bg-blue-600 text-white">
           <div className="container text-center">
             <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Mondim de Basto?</h2>
-            <p className="text-xl mb-8 opacity-90">Ligue agora. Preparados para a Serra do Alvão.</p>
+            <p className="text-xl mb-8 opacity-90">Ligue agora. Parranjados para a Serra do Alvão.</p>
             <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
           </div>
         </section>

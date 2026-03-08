@@ -50,14 +50,14 @@ keywords: ["canalização velha", "substituir canos", "renovar canalização", "
 ### 3. Fugas Frequentes
 
 **Padrão**:
-- Fuga reparada
+- Fuga arranjada
 - Outra fuga semanas depois
 - Múltiplas fugas/ano
 - **Canalização fim vida**
 
 **Por quê**:
 - Corrosão generalizada
-- Reparar 1 ponto não resolve
+- Arranjar 1 ponto não resolve
 - Resto também corroído
 - **Substituir tudo**
 
@@ -101,7 +101,7 @@ keywords: ["canalização velha", "substituir canos", "renovar canalização", "
 - Fugas lentas escondidas
 - Canos suam (condensação)
 - Corrosão perfura
-- [Ver guia infiltrações](/blog/infiltracoes-parede-reparar)
+- [Ver guia infiltrações](/blog/infiltracoes-parede-arranjar)
 
 ### 7. Conta Água Alta
 
@@ -347,7 +347,7 @@ keywords: ["canalização velha", "substituir canos", "renovar canalização", "
 - Canalização antiga
 - Abrir regos paredes (se necessário)
 - Remover entulho
-- Preparar
+- Parranjar
 
 ### Instalação (3-7 dias)
 

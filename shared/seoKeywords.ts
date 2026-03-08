@@ -20,155 +20,155 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
       'canalizador macedo de cavaleiros',
       'canalizador urgente macedo de cavaleiros',
       'desentupimentos macedo de cavaleiros',
-      'reparação fugas água macedo de cavaleiros',
+      'arranjo fugas água macedo de cavaleiros',
       'canalizador 24 horas macedo de cavaleiros',
       'preço canalizador macedo de cavaleiros',
       'canalização nova macedo de cavaleiros',
-      'reparação esquentador macedo de cavaleiros'
+      'arranjo esquentador macedo de cavaleiros'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-macedo-de-cavaleiros'
   },
   'braganca': {
     cityName: 'Bragança',
     title: 'Canalizador em Bragança | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Bragança. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Bragança. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador bragança',
       'canalizador urgente bragança',
       'desentupimentos bragança',
-      'reparação fugas água bragança',
+      'arranjo fugas água bragança',
       'canalizador 24 horas bragança',
       'preço canalizador bragança',
       'canalização nova bragança',
-      'reparação esquentador bragança'
+      'arranjo esquentador bragança'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-braganca'
   },
   'mirandela': {
     cityName: 'Mirandela',
     title: 'Canalizador em Mirandela | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Mirandela. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Mirandela. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador mirandela',
       'canalizador urgente mirandela',
       'desentupimentos mirandela',
-      'reparação fugas água mirandela',
+      'arranjo fugas água mirandela',
       'canalizador 24 horas mirandela',
       'preço canalizador mirandela',
       'canalização nova mirandela',
-      'reparação esquentador mirandela'
+      'arranjo esquentador mirandela'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-mirandela'
   },
   'chaves': {
     cityName: 'Chaves',
     title: 'Canalizador em Chaves | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Chaves. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Chaves. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador chaves',
       'canalizador urgente chaves',
       'desentupimentos chaves',
-      'reparação fugas água chaves',
+      'arranjo fugas água chaves',
       'canalizador 24 horas chaves',
       'preço canalizador chaves',
       'canalização nova chaves',
-      'reparação esquentador chaves'
+      'arranjo esquentador chaves'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-chaves'
   },
   'valpacos': {
     cityName: 'Valpaços',
     title: 'Canalizador em Valpaços | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Valpaços. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Valpaços. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador valpaços',
       'canalizador urgente valpaços',
       'desentupimentos valpaços',
-      'reparação fugas água valpaços',
+      'arranjo fugas água valpaços',
       'canalizador 24 horas valpaços',
       'preço canalizador valpaços',
       'canalização nova valpaços',
-      'reparação esquentador valpaços'
+      'arranjo esquentador valpaços'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-valpacos'
   },
   'vinhais': {
     cityName: 'Vinhais',
     title: 'Canalizador em Vinhais | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Vinhais. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Vinhais. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador vinhais',
       'canalizador urgente vinhais',
       'desentupimentos vinhais',
-      'reparação fugas água vinhais',
+      'arranjo fugas água vinhais',
       'canalizador 24 horas vinhais',
       'preço canalizador vinhais',
       'canalização nova vinhais',
-      'reparação esquentador vinhais'
+      'arranjo esquentador vinhais'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-vinhais'
   },
   'miranda-do-douro': {
     cityName: 'Miranda do Douro',
     title: 'Canalizador em Miranda do Douro | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Miranda do Douro. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Miranda do Douro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador miranda do douro',
       'canalizador urgente miranda do douro',
       'desentupimentos miranda do douro',
-      'reparação fugas água miranda do douro',
+      'arranjo fugas água miranda do douro',
       'canalizador 24 horas miranda do douro',
       'preço canalizador miranda do douro',
       'canalização nova miranda do douro',
-      'reparação esquentador miranda do douro'
+      'arranjo esquentador miranda do douro'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-miranda-do-douro'
   },
   'mogadouro': {
     cityName: 'Mogadouro',
     title: 'Canalizador em Mogadouro | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Mogadouro. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Mogadouro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador mogadouro',
       'canalizador urgente mogadouro',
       'desentupimentos mogadouro',
-      'reparação fugas água mogadouro',
+      'arranjo fugas água mogadouro',
       'canalizador 24 horas mogadouro',
       'preço canalizador mogadouro',
       'canalização nova mogadouro',
-      'reparação esquentador mogadouro'
+      'arranjo esquentador mogadouro'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-mogadouro'
   },
   'torre-de-moncorvo': {
     cityName: 'Torre de Moncorvo',
     title: 'Canalizador em Torre de Moncorvo | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Torre de Moncorvo. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Torre de Moncorvo. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador torre de moncorvo',
       'canalizador urgente torre de moncorvo',
       'desentupimentos torre de moncorvo',
-      'reparação fugas água torre de moncorvo',
+      'arranjo fugas água torre de moncorvo',
       'canalizador 24 horas torre de moncorvo',
       'preço canalizador torre de moncorvo',
       'canalização nova torre de moncorvo',
-      'reparação esquentador torre de moncorvo'
+      'arranjo esquentador torre de moncorvo'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-torre-de-moncorvo'
   },
   'freixo-de-espada-a-cinta': {
     cityName: 'Freixo de Espada à Cinta',
     title: 'Canalizador em Freixo de Espada à Cinta | Canalizador Profissional | 24h Urgências',
-    description: 'Canalizador profissional em Freixo de Espada à Cinta. Desentupimentos, reparação fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+    description: 'Canalizador profissional em Freixo de Espada à Cinta. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
     keywords: [
       'canalizador freixo de espada à cinta',
       'canalizador urgente freixo de espada à cinta',
       'desentupimentos freixo de espada à cinta',
-      'reparação fugas água freixo de espada à cinta',
+      'arranjo fugas água freixo de espada à cinta',
       'canalizador 24 horas freixo de espada à cinta',
       'preço canalizador freixo de espada à cinta',
       'canalização nova freixo de espada à cinta',
-      'reparação esquentador freixo de espada à cinta'
+      'arranjo esquentador freixo de espada à cinta'
     ],
     canonicalUrl: 'https://canalizador-norte-reparos.pt/canalizador-freixo-de-espada-a-cinta'
   }

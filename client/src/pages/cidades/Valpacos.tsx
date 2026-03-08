@@ -27,7 +27,7 @@ export default function Valpacos() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Esquentador avariado em Valpaços? A nossa equipa repara hoje. Desentupimentos e fugas, orçamento gratuito. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Esquentador avariado em Valpaços? A nossa equipa arranja hoje. Desentupimentos e fugas, orçamento gratuito. Ligue: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -35,7 +35,7 @@ export default function Valpacos() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador urgente valpaços, canalizador 24 horas valpaços, canalizador valpaços, canalizador profissional valpaços, desentupimento valpaços, fuga água valpaços, reparação canalização valpaços, instalação sanitários valpaços, canalizador trás-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador urgente valpaços, canalizador 24 horas valpaços, canalizador valpaços, canalizador profissional valpaços, desentupimento valpaços, fuga água valpaços, arranjo canalização valpaços, instalação sanitários valpaços, canalizador trás-os-montes');
     
     
     // Canonical URL
@@ -57,7 +57,7 @@ export default function Valpacos() {
       "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Valpaços",
       "image": "/images/hero/hero-plumber-portugal.png",
-      "description": "Canalizador profissional em Valpaços, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
+      "description": "Canalizador profissional em Valpaços, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,

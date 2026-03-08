@@ -1,16 +1,16 @@
 ---
-title: "Bomba de Água Avariada: Diagnóstico e Reparação Urgente"
+title: "Bomba de Água Avariada: Diagnóstico e Arranjo Urgente"
 slug: "bomba-agua-avariada"
 category: "problemas-comuns"
 date: "2026-03-03"
 author: "Norte Reparos"
-excerpt: "Bomba de água não liga? Sem pressão? Faz barulho? Descubra as 7 causas principais, como diagnosticar e reparar. Essencial em Trás-os-Montes rural."
+excerpt: "Bomba de água não liga? Sem pressão? Faz barulho? Descubra as 7 causas principais, como diagnosticar e arranjar. Essencial em Trás-os-Montes rural."
 keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgente", "Trás-os-Montes"]
 ---
 
-# Bomba de Água Avariada: Diagnóstico e Reparação Urgente
+# Bomba de Água Avariada: Diagnóstico e Arranjo Urgente
 
-**Bomba não liga? Sem água em casa? Bomba faz barulho mas não tira água?** Em Trás-os-Montes, onde muitas casas dependem de poços e furos, uma bomba avariada significa **ficar sem água** - emergência absoluta. Neste guia completo, explicamos as 7 causas principais, como diagnosticar, reparar urgente e custos €80-800.
+**Bomba não liga? Sem água em casa? Bomba faz barulho mas não tira água?** Em Trás-os-Montes, onde muitas casas dependem de poços e furos, uma bomba avariada significa **ficar sem água** - emergência absoluta. Neste guia completo, explicamos as 7 causas principais, como diagnosticar, arranjar urgente e custos €80-800.
 
 ## 🚨 Sinais Bomba Avariada
 
@@ -85,7 +85,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 - Condensador inchado
 
 **Solução**:
-- Reparar motor: €150-400
+- Arranjar motor: €150-400
 - Substituir motor: €200-600
 - Bomba nova: €300-1200
 
@@ -107,7 +107,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 **Solução**:
 - Substituir condensador: €30-80
 - Rápido (30 min)
-- **Reparação mais barata**
+- **Arranjo mais barata**
 
 ### 4. Turbina/Impulsor Gasto
 
@@ -162,7 +162,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 
 **Solução**:
 - Localizar fuga: €80-120
-- Reparar: €100-400
+- Arranjar: €100-400
 - Substituir válvula: €40-100
 
 ### 7. Válvula Anti-Retorno Bloqueada
@@ -217,14 +217,14 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 **Dispara**: Curto-circuito, motor queimado
 **OK**: Condensador ou mecânico
 
-## 💰 Custos Reparação
+## 💰 Custos Arranjo
 
 ### Diagnóstico
 
 **Visita técnica**: €60-100
 **Inclui**: Identificação problema, orçamento
 
-### Reparações Comuns
+### Arranjos Comuns
 
 **Condensador**: €30-80 (30 min)
 **Pressostato**: €60-150 (1h)
@@ -232,7 +232,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 **Turbina**: €80-200 (2-3h)
 **Limpar bomba**: €60-120 (1-2h)
 
-### Reparações Grandes
+### Arranjos Grandes
 
 **Motor**: €150-400 (4-6h)
 **Bomba completa**: €300-1200 + instalação €100-200
@@ -418,7 +418,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 ### Serviço Completo
 
 - Diagnóstico
-- Reparação urgente
+- Arranjo urgente
 - Manutenção preventiva
 - Instalação bombas novas
 - Aprofundar furos (parceiros)
@@ -427,7 +427,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 
 - Orçamento antes começar
 - Sem surpresas
-- Garantia 1 ano reparações
+- Garantia 1 ano arranjos
 - Garantia 2 anos bombas novas
 
 ## 🌍 Cobertura
@@ -455,17 +455,17 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Bomba não liga, o que fazer?
 **1)** Verificar disjuntor. **2)** Verificar nível água poço. **3)** Ligar picheleiro urgente. Pode ser condensador (€30-80) ou motor (€150-400).
 
-### Quanto custa reparar bomba?
+### Quanto custa arranjar bomba?
 **€30-80** (condensador). **€60-150** (pressostato). **€80-200** (turbina). **€150-400** (motor). **€300-1200** (bomba nova).
 
 ### Bomba funciona mas sem água?
-**Causas**: Poço seco, válvula anti-retorno, turbina gasta. Verificar nível água primeiro. Reparação: €60-200 ou baixar bomba €80-150.
+**Causas**: Poço seco, válvula anti-retorno, turbina gasta. Verificar nível água primeiro. Arranjo: €60-200 ou baixar bomba €80-150.
 
 ### Quanto tempo dura bomba?
 **10-15 anos** com manutenção. **5-10 anos** sem manutenção. Manutenção anual €80-120 prolonga vida e previne avarias.
 
 ### Bomba liga/desliga constantemente?
-**Causas**: Pressostato desregulado, fuga sistema, depósito sem ar. Reparação: €40-150. Não ignorar - desgasta bomba.
+**Causas**: Pressostato desregulado, fuga sistema, depósito sem ar. Arranjo: €40-150. Não ignorar - desgasta bomba.
 
 ### Preciso bomba backup?
 **Sim** se: zona rural, sem rede pública, família grande, verão seco. Bomba usada backup: €100-200. Ou depósito 1000L: €200-500.

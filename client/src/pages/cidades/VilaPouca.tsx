@@ -88,7 +88,7 @@ export default function VilaPouca() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização Termal", desc: "Redes de água para termas, spas e estabelecimentos com águas minerais" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas em redes de água quente e fria" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas em redes de água quente e fria" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, canalizações com depósitos minerais e fossas sépticas" },
                 { icon: CheckCircle, title: "Aquecimento Central", desc: "Instalação de caldeiras e radiadores para casas e hotéis" },
               ].map((service, index) => (

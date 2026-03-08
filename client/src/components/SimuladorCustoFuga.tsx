@@ -174,11 +174,11 @@ export default function SimuladorCustoFuga({
       {/* Comparison */}
       <div className="bg-white rounded-lg p-6 mb-6 border-2 border-green-200">
         <h3 className="font-bold text-gray-900 mb-4 text-center">
-          💰 Comparação: Reparar Agora vs Esperar
+          💰 Comparação: Arranjar Agora vs Esperar
         </h3>
         <div className="grid grid-cols-2 gap-4">
           <div className="text-center">
-            <p className="text-sm text-gray-600 mb-1">Custo Reparação</p>
+            <p className="text-sm text-gray-600 mb-1">Custo Arranjo</p>
             <p className="text-3xl font-black text-green-600">€{repairCost}</p>
             <p className="text-xs text-green-700 mt-1">✅ Resolver hoje</p>
           </div>
@@ -215,7 +215,7 @@ export default function SimuladorCustoFuga({
 
       {/* CTA */}
       <a
-        href="https://wa.me/351928484451?text=Tenho%20uma%20fuga%20de%20água%20urgente.%20Preciso%20de%20reparação%20hoje!"
+        href="https://wa.me/351928484451?text=Tenho%20uma%20fuga%20de%20água%20urgente.%20Preciso%20de%20arranjo%20hoje!"
         target="_blank"
         rel="noopener noreferrer"
         className="block w-full bg-red-600 hover:bg-red-700 text-white font-bold text-center px-6 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
@@ -224,7 +224,7 @@ export default function SimuladorCustoFuga({
       </a>
 
       <p className="text-xs text-center text-gray-600 mt-3">
-        ⚡ Técnico disponível em 30min • Reparação definitiva • Garantia 2 anos
+        ⚡ Técnico disponível em 30min • Arranjo definitiva • Garantia 2 anos
       </p>
     </div>
   );

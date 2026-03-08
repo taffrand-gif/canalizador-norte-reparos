@@ -13,7 +13,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
   return (
     <BlogLayout
       title="Como Prevenir Canos Rebentados no Inverno em Trás-os-Montes"
-      description="Guia completo para proteger a sua canalização do frio intenso e evitar custos elevados com reparações"
+      description="Guia completo para proteger a sua canalização do frio intenso e evitar custos elevados com arranjos"
     >
       <article className="max-w-4xl mx-auto">
         {/* Meta info */}
@@ -83,7 +83,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
             <li><a href="#isolamento-canos" className="text-blue-600 hover:text-blue-700">Isolamento Térmico de Canos (Passo a Passo)</a></li>
             <li><a href="#medidas-preventivas" className="text-blue-600 hover:text-blue-700">7 Medidas Preventivas Essenciais</a></li>
             <li><a href="#emergencia" className="text-blue-600 hover:text-blue-700">O Que Fazer em Caso de Emergência</a></li>
-            <li><a href="#custo-reparacao" className="text-blue-600 hover:text-blue-700">Custo Médio de Reparação em Trás-os-Montes</a></li>
+            <li><a href="#custo-arranjacao" className="text-blue-600 hover:text-blue-700">Custo Médio de Arranjo em Trás-os-Montes</a></li>
           </ul>
         </div>
 
@@ -223,7 +223,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
               <h3 className="font-bold text-green-800 text-lg mb-2">💰 Retorno do Investimento:</h3>
               <p className="text-green-700">
                 O isolamento de canos custa em média <strong>150-300€</strong> para uma casa média em Trás-os-Montes. 
-                Comparado com o custo médio de reparação de canos rebentados (<strong>800-2.500€</strong>), 
+                Comparado com o custo médio de arranjo de canos rebentados (<strong>800-2.500€</strong>), 
                 é um investimento que se paga na primeira emergência evitada.
               </p>
             </div>
@@ -309,13 +309,13 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
               </div>
 
               <div className="bg-white p-6 rounded-xl border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2">Quanto custa em média reparar canos rebentados em Trás-os-Montes?</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Quanto custa em média arranjar canos rebentados em Trás-os-Montes?</h3>
                 <p className="text-gray-700">
                   O custo varia consoante a extensão dos danos:
                   <ul className="mt-2 space-y-1">
-                    <li>• <strong>Reparação simples</strong> (substituição de 1-2 metros de cano): 150-350€</li>
-                    <li>• <strong>Reparação média</strong> (vários canos em parede): 500-900€</li>
-                    <li>• <strong>Reparação complexa</strong> (danos estruturais + humidades): 1.200-2.500€+</li>
+                    <li>• <strong>Arranjo simples</strong> (substituição de 1-2 metros de cano): 150-350€</li>
+                    <li>• <strong>Arranjo média</strong> (vários canos em parede): 500-900€</li>
+                    <li>• <strong>Arranjo complexa</strong> (danos estruturais + humidades): 1.200-2.500€+</li>
                     <li>• <strong>Emergência noturna/fim-de-semana</strong>: +30-50% sobre os valores acima</li>
                   </ul>
                   Estes valores incluem mão-de-obra e materiais, mas excluem trabalhos de reconstrução (reboco, pintura, etc.).
@@ -347,10 +347,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
                   },
                   {
                     "@type": "Question",
-                    "name": "Quanto custa em média reparar canos rebentados em Trás-os-Montes?",
+                    "name": "Quanto custa em média arranjar canos rebentados em Trás-os-Montes?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "O custo varia consoante a extensão dos danos: Reparação simples (substituição de 1-2 metros de cano): 150-350€; Reparação média (vários canos em parede): 500-900€; Reparação complexa (danos estruturais + humidades): 1.200-2.500€+; Emergência noturna/fim-de-semana: +30-50% sobre os valores acima. Estes valores incluem mão-de-obra e materiais, mas excluem trabalhos de reconstrução (reboco, pintura, etc.)."
+                      "text": "O custo varia consoante a extensão dos danos: Arranjo simples (substituição de 1-2 metros de cano): 150-350€; Arranjo média (vários canos em parede): 500-900€; Arranjo complexa (danos estruturais + humidades): 1.200-2.500€+; Emergência noturna/fim-de-semana: +30-50% sobre os valores acima. Estes valores incluem mão-de-obra e materiais, mas excluem trabalhos de reconstrução (reboco, pintura, etc.)."
                     }
                   }
                 ]

@@ -1,7 +1,7 @@
 ---
 title: "Lavatório Entupido: Como Desentupir em 15 Minutos (2026)"
 slug: "lavatorio-entupido-desentupir"
-category: "Reparações DIY"
+category: "Arranjos DIY"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Lavatório entupido com água parada? Descubra 6 métodos eficazes para desentupir em 15 minutos. Guia completo DIY para Trás-os-Montes."

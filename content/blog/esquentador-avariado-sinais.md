@@ -1,14 +1,14 @@
 ---
-title: "Esquentador Avariado: 7 Sinais de Que Precisa Reparação Urgente"
+title: "Esquentador Avariado: 7 Sinais de Que Precisa Arranjo Urgente"
 slug: "esquentador-avariado-sinais"
 category: "problemas-comuns"
 date: "2026-03-03"
 author: "Norte Reparos"
 excerpt: "Esquentador não aquece? Faz ruídos estranhos? Aprenda a identificar 7 sinais de avaria e quando chamar canalizador urgente em Trás-os-Montes."
-keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgente", "reparação esquentador", "Trás-os-Montes"]
+keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgente", "arranjo esquentador", "Trás-os-Montes"]
 ---
 
-# Esquentador Avariado: 7 Sinais de Que Precisa Reparação Urgente
+# Esquentador Avariado: 7 Sinais de Que Precisa Arranjo Urgente
 
 **Água fria no duche? Esquentador faz ruídos estranhos?** Um esquentador avariado pode deixá-lo sem água quente e, em casos graves, representar risco de fuga de gás. Neste guia, explicamos os 7 sinais de avaria mais comuns e quando chamar um profissional.
 
@@ -73,7 +73,7 @@ keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgen
 - Queimador danificado
 - Vedantes deteriorados
 
-**Solução**: Reparação urgente obrigatória. **€100-300**.
+**Solução**: Arranjo urgente obrigatória. **€100-300**.
 
 ### 5. Chama Amarela ou Laranja
 
@@ -160,14 +160,14 @@ keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgen
 - Água demora a aquecer
 - Temperatura inconsistente
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa
 - Identificação avaria
 - **€50-80**
 
-### Reparações Comuns
+### Arranjos Comuns
 
 **Limpeza completa**: €60-100
 **Substituir membrana**: €80-150
@@ -186,18 +186,18 @@ keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgen
 
 **Total**: €350-1500
 
-## ⚠️ Quando Substituir vs Reparar
+## ⚠️ Quando Substituir vs Arranjar
 
-### Reparar Se:
+### Arranjar Se:
 - ✅ Esquentador tem menos de 10 anos
 - ✅ Avaria simples (limpeza, pilhas, filtros)
-- ✅ Custo reparação < 40% preço novo
+- ✅ Custo arranjo < 40% preço novo
 - ✅ Marca com peças disponíveis
 
 ### Substituir Se:
 - ❌ Esquentador tem 15+ anos
 - ❌ Múltiplas avarias recorrentes
-- ❌ Custo reparação > 50% preço novo
+- ❌ Custo arranjo > 50% preço novo
 - ❌ Consumo excessivo de gás
 - ❌ Não cumpre normas atuais
 
@@ -276,13 +276,13 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## ❓ Perguntas Frequentes
 
-### Quanto custa reparar um esquentador?
+### Quanto custa arranjar um esquentador?
 **€60-300** dependendo da avaria. Limpeza simples: €60-100. Substituição componentes: €100-300.
 
 ### Quanto tempo dura um esquentador?
 **10-15 anos** com manutenção adequada. Sem manutenção: 7-10 anos.
 
-### Posso reparar sozinho?
+### Posso arranjar sozinho?
 **NÃO recomendado**. Risco de fuga de gás, explosão, intoxicação CO. Apenas técnico certificado.
 
 ### Com que frequência fazer manutenção?

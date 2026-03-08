@@ -10,14 +10,14 @@ import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 
 export default function TomadaNaoFunciona() {
   useEffect(() => {
-    document.title = "Tomada Não Funciona? Reparamos em 1 Hora | Eletricista 24h";
+    document.title = "Tomada Não Funciona? Arranjamos em 1 Hora | Eletricista 24h";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
       meta.setAttribute('name', 'description');
       document.head.appendChild(meta);
     }
-    meta.setAttribute('content', 'Tomada não funciona? Telétrabaho impossível? Reparamos em 1 hora. Eletricista certificado. Ligue +351 932 321 892.');
+    meta.setAttribute('content', 'Tomada não funciona? Telétrabaho impossível? Arranjamos em 1 hora. Eletricista certificado. Ligue +351 932 321 892.');
   }, []);
 
   const faqSchema = {
@@ -26,10 +26,10 @@ export default function TomadaNaoFunciona() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto custa reparar uma tomada que não funciona?",
+        "name": "Quanto custa arranjar uma tomada que não funciona?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Reparações simples desde €60. Substituição tomada €80-120. Reparação circuito €120-250. Orçamento gratuito no local."
+          "text": "Arranjos simples desde €60. Substituição tomada €80-120. Arranjo circuito €120-250. Orçamento gratuito no local."
         }
       },
       {
@@ -37,7 +37,7 @@ export default function TomadaNaoFunciona() {
         "name": "Porque é que a tomada não funciona?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Causas comuns: disjuntor disparado, fio solto, tomada queimada, curto circuito. Identificamos e reparamos. Ligue +351 932 321 892."
+          "text": "Causas comuns: disjuntor disparado, fio solto, tomada queimada, curto circuito. Identificamos e arranjamos. Ligue +351 932 321 892."
         }
       }
     ]
@@ -50,12 +50,12 @@ export default function TomadaNaoFunciona() {
 
       <EmotionalHero
         painPoint="TOMADA NÃO FUNCIONA"
-        headline="Tomada Não Funciona? Reparamos em 1 Hora"
+        headline="Tomada Não Funciona? Arranjamos em 1 Hora"
         subheadline="Sabemos a frustração que sente. Teletrabalho impossível, telemóvel sem bateria, vida digital parada. Resolvemos hoje."
         urgencyText="Eletricista disponível AGORA • Tomada funcional em 1 hora"
         phone={ACTIVE_CONFIG.phone}
         whatsapp={ACTIVE_CONFIG.whatsappNumber}
-        whatsappMessage="Olá! Tenho uma tomada que não funciona. Preciso de reparação!"
+        whatsappMessage="Olá! Tenho uma tomada que não funciona. Preciso de arranjo!"
         ctaPrimary="REPARAR AGORA"
         ctaSecondary="WhatsApp Urgente"
         responseTime="30 minutos"
@@ -64,7 +64,7 @@ export default function TomadaNaoFunciona() {
       <PainPointSection
         title="Sabemos o Impacto Que Isto Tem"
         subtitle="Uma tomada que não funciona não é detalhe. É trabalho parado e vida digital impossível."
-        empathyStatement="Já reparámos milhares de tomadas em Trás-os-Montes. Sabemos que no mundo de hoje, uma tomada avariada paralisa tudo. Reparamos em 1 hora."
+        empathyStatement="Já reparámos milhares de tomadas em Trás-os-Montes. Sabemos que no mundo de hoje, uma tomada avariada paralisa tudo. Arranjamos em 1 hora."
         painPoints={[
           {
             icon: 'time',
@@ -94,8 +94,8 @@ export default function TomadaNaoFunciona() {
       />
 
       <SolutionTimeline
-        title="Como Reparamos em 1 Hora"
-        subtitle="Diagnóstico rápido, reparação eficaz, tomada funcional."
+        title="Como Arranjamos em 1 Hora"
+        subtitle="Diagnóstico rápido, arranjo eficaz, tomada funcional."
         totalTime="1-2 horas"
         guaranteeText="Tomada funcional ou não paga. Garantia 2 anos."
         steps={[
@@ -108,13 +108,13 @@ export default function TomadaNaoFunciona() {
           {
             time: '10-40 min',
             title: 'Chegamos Equipados',
-            description: 'Eletricista chega com testador, tomadas novas, ferramentas. Pronto para reparar.',
+            description: 'Eletricista chega com testador, tomadas novas, ferramentas. Pronto para arranjar.',
             icon: 'map'
           },
           {
             time: '40-70 min',
-            title: 'Identificamos e Reparamos',
-            description: 'Testamos, identificamos o problema, reparamos ou substituímos. Trabalho limpo.',
+            title: 'Identificamos e Arranjamos',
+            description: 'Testamos, identificamos o problema, arranjamos ou substituímos. Trabalho limpo.',
             icon: 'wrench'
           },
           {
@@ -134,7 +134,7 @@ export default function TomadaNaoFunciona() {
             name: 'David Lopes',
             city: 'Bragança',
             problem: 'Tomada escritório',
-            solution: 'Trabalho em casa, tomada do escritório parou. Reunião importante em 2 horas. Vieram urgente, repararam em 45 minutos. Salvaram o meu dia!',
+            solution: 'Trabalho em casa, tomada do escritório parou. Reunião importante em 2 horas. Vieram urgente, arranjaram em 45 minutos. Salvaram o meu dia!',
             timeframe: '45 minutos',
             rating: 5,
             verified: true
@@ -143,7 +143,7 @@ export default function TomadaNaoFunciona() {
             name: 'Patrícia Sousa',
             city: 'Mirandela',
             problem: 'Tomada não funciona',
-            solution: 'Tomada da cozinha não funcionava. Descobriram fio solto. Repararam, testaram todas as outras. Preço justo, serviço rápido!',
+            solution: 'Tomada da cozinha não funcionava. Descobriram fio solto. Arranjaram, testaram todas as outras. Preço justo, serviço rápido!',
             timeframe: '1 hora',
             rating: 5,
             verified: true
@@ -152,7 +152,7 @@ export default function TomadaNaoFunciona() {
             name: 'Bruno Martins',
             city: 'Chaves',
             problem: 'Várias tomadas',
-            solution: 'Metade das tomadas da casa não funcionavam. Descobriram problema no quadro. Repararam, testaram tudo. Excelente trabalho!',
+            solution: 'Metade das tomadas da casa não funcionavam. Descobriram problema no quadro. Arranjaram, testaram tudo. Excelente trabalho!',
             timeframe: '1h30',
             rating: 5,
             verified: true
@@ -170,7 +170,7 @@ export default function TomadaNaoFunciona() {
             name: 'Nuno Costa',
             city: 'Macedo de Cavaleiros',
             problem: 'Tomada urgente',
-            solution: 'Sábado, tomada parou, telemóvel sem bateria. Atenderam, vieram no mesmo dia. Repararam rápido. Recomendo!',
+            solution: 'Sábado, tomada parou, telemóvel sem bateria. Atenderam, vieram no mesmo dia. Arranjaram rápido. Recomendo!',
             timeframe: '1 hora',
             rating: 5,
             verified: true
@@ -179,7 +179,7 @@ export default function TomadaNaoFunciona() {
             name: 'Vera Alves',
             city: 'Mogadouro',
             problem: 'Tomada sala',
-            solution: 'Tomada da sala não funcionava há semanas. Vieram, descobriram que era disjuntor. Repararam, testaram. Simples e eficaz!',
+            solution: 'Tomada da sala não funcionava há semanas. Vieram, descobriram que era disjuntor. Arranjaram, testaram. Simples e eficaz!',
             timeframe: '40 minutos',
             rating: 5,
             verified: true
@@ -188,20 +188,20 @@ export default function TomadaNaoFunciona() {
       />
 
       <GuaranteeBox
-        title="Garantias de Reparação"
-        subtitle="Reparamos com garantia total. Tomada funcional ou dinheiro de volta."
+        title="Garantias de Arranjo"
+        subtitle="Arranjamos com garantia total. Tomada funcional ou dinheiro de volta."
         mainGuarantee="Tomada Funcional ou Não Paga"
         phone={ACTIVE_CONFIG.phone}
         guarantees={[
           {
             icon: 'shield',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações e substituições têm garantia de 2 anos. Peças e mão de obra.'
+            description: 'Todas as arranjos e substituições têm garantia de 2 anos. Peças e mão de obra.'
           },
           {
             icon: 'check',
-            title: 'Reparação em 1h',
-            description: 'Na maioria dos casos reparamos em 1 hora. Tomada funcional no mesmo dia.'
+            title: 'Arranjo em 1h',
+            description: 'Na maioria dos casos arranjamos em 1 hora. Tomada funcional no mesmo dia.'
           },
           {
             icon: 'clock',
@@ -247,13 +247,13 @@ export default function TomadaNaoFunciona() {
               },
               {
                 title: 'Curto Circuito',
-                desc: 'Curto no circuito da tomada. Disjuntor dispara. Solução: identificar e reparar curto.',
+                desc: 'Curto no circuito da tomada. Disjuntor dispara. Solução: identificar e arranjar curto.',
                 icon: '⚡',
                 time: '1-2h'
               },
               {
                 title: 'Problema no Quadro',
-                desc: 'Disjuntor ou ligação no quadro com problema. Afeta várias tomadas. Solução: reparar quadro.',
+                desc: 'Disjuntor ou ligação no quadro com problema. Afeta várias tomadas. Solução: arranjar quadro.',
                 icon: '📦',
                 time: '1-2h'
               },
@@ -289,15 +289,15 @@ export default function TomadaNaoFunciona() {
             {[
               {
                 q: 'Porque é que a tomada não funciona?',
-                a: 'Causas comuns: 1) Disjuntor disparado - vá ao quadro e verifique. 2) Fio solto - comum em tomadas antigas. 3) Tomada queimada - sobrecarga ou curto. 4) Curto circuito - problema no circuito. 5) Problema no quadro - afeta várias tomadas. Ligue +351 932 321 892. Identificamos e reparamos em 1 hora.'
+                a: 'Causas comuns: 1) Disjuntor disparado - vá ao quadro e verifique. 2) Fio solto - comum em tomadas antigas. 3) Tomada queimada - sobrecarga ou curto. 4) Curto circuito - problema no circuito. 5) Problema no quadro - afeta várias tomadas. Ligue +351 932 321 892. Identificamos e arranjamos em 1 hora.'
               },
               {
-                q: 'Quanto custa reparar uma tomada?',
-                a: 'Reparações simples (reconectar fio) €60-80. Substituição tomada €80-120. Reparação circuito €120-250. Problema no quadro €150-300. Damos sempre orçamento gratuito no local antes de começar. Preço fixo, sem surpresas.'
+                q: 'Quanto custa arranjar uma tomada?',
+                a: 'Arranjos simples (reconectar fio) €60-80. Substituição tomada €80-120. Arranjo circuito €120-250. Problema no quadro €150-300. Damos sempre orçamento gratuito no local antes de começar. Preço fixo, sem surpresas.'
               },
               {
-                q: 'Posso reparar eu mesmo?',
-                a: 'NÃO recomendamos. Trabalhar com eletricidade sem conhecimento é perigoso: risco de choque elétrico fatal, risco de incêndio, pode piorar o problema. Eletricistas certificados têm equipamento de teste e segurança. Ligue-nos - reparamos em 1 hora com segurança e garantia.'
+                q: 'Posso arranjar eu mesmo?',
+                a: 'NÃO recomendamos. Trabalhar com eletricidade sem conhecimento é perigoso: risco de choque elétrico fatal, risco de incêndio, pode piorar o problema. Eletricistas certificados têm equipamento de teste e segurança. Ligue-nos - arranjamos em 1 hora com segurança e garantia.'
               },
               {
                 q: 'A tomada faz faíscas, é perigoso?',
@@ -308,8 +308,8 @@ export default function TomadaNaoFunciona() {
                 a: 'Pode ser. Se várias tomadas do mesmo circuito não funcionam, pode ser: disjuntor disparado (simples), problema no quadro (médio), ou curto no circuito (complexo). Ligue-nos para diagnóstico. Identificamos a causa e resolvemos.'
               },
               {
-                q: 'Dão garantia na reparação?',
-                a: 'Sim! Garantia de 2 anos em todas as reparações. Se a tomada voltar a ter problemas, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
+                q: 'Dão garantia na arranjo?',
+                a: 'Sim! Garantia de 2 anos em todas as arranjos. Se a tomada voltar a ter problemas, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
               }
             ].map((item, i) => (
               <div key={i} className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">
@@ -328,7 +328,7 @@ export default function TomadaNaoFunciona() {
             Recupere a Produtividade Hoje
           </h2>
           <p className="text-xl md:text-2xl mb-8 font-semibold">
-            Eletricista disponível AGORA. Reparamos em 1 hora. Tomada funcional garantida.
+            Eletricista disponível AGORA. Arranjamos em 1 hora. Tomada funcional garantida.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <a
@@ -338,7 +338,7 @@ export default function TomadaNaoFunciona() {
               📞 {ACTIVE_CONFIG.phone}
             </a>
             <a
-              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent('Olá! Tenho uma tomada que não funciona. Preciso de reparação!')}`}
+              href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent('Olá! Tenho uma tomada que não funciona. Preciso de arranjo!')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center text-2xl px-12 py-6 font-black text-white bg-green-600 hover:bg-green-700 rounded-xl shadow-xl transition-all active:scale-95"
@@ -347,7 +347,7 @@ export default function TomadaNaoFunciona() {
             </a>
           </div>
           <p className="text-lg opacity-90">
-            ✓ Orçamento Gratuito • ✓ Reparação em 1h • ✓ Garantia 2 Anos
+            ✓ Orçamento Gratuito • ✓ Arranjo em 1h • ✓ Garantia 2 Anos
           </p>
         </div>
       </section>

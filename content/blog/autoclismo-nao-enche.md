@@ -1,19 +1,19 @@
 ---
-title: "Autoclismo Não Enche: 6 Causas e Como Reparar (2026)"
+title: "Autoclismo Não Enche: 6 Causas e Como Arranjar (2026)"
 slug: "autoclismo-nao-enche"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Autoclismo não enche ou enche muito devagar? Descubra as 6 causas principais (desde válvula entupida até flutuador avariado) e como reparar. Guia completo com soluções DIY."
-keywords: ["autoclismo não enche", "autoclismo demora encher", "válvula autoclismo", "flutuador avariado", "picheleiro Bragança", "reparar autoclismo"]
+excerpt: "Autoclismo não enche ou enche muito devagar? Descubra as 6 causas principais (desde válvula entupida até flutuador avariado) e como arranjar. Guia completo com soluções DIY."
+keywords: ["autoclismo não enche", "autoclismo demora encher", "válvula autoclismo", "flutuador avariado", "picheleiro Bragança", "arranjar autoclismo"]
 priority: "HIGH DEMAND"
 ---
 
-# Autoclismo Não Enche: 6 Causas e Como Reparar (2026)
+# Autoclismo Não Enche: 6 Causas e Como Arranjar (2026)
 
-**O autoclismo não enche ou demora muito tempo a encher?** Este é um problema comum mas irritante que geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de autoclismos que não enchem e **como reparar cada uma**.
+**O autoclismo não enche ou demora muito tempo a encher?** Este é um problema comum mas irritante que geralmente tem solução simples. Neste guia completo, vou mostrar-lhe **as 6 causas principais** de autoclismos que não enchem e **como arranjar cada uma**.
 
-> ⚠️ **Precisa de ajuda profissional?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida em 30 minutos, garantia incluída.
+> ⚠️ **Precisa de ajuda profissional?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Arranjo rápida em 30 minutos, garantia incluída.
 
 ## 🔍 Como Funciona um Autoclismo?
 
@@ -242,7 +242,7 @@ Tubo flexível que liga a válvula de corte ao autoclismo está dobrado, esmagad
 
 **Custo:** Tubo flexível 3/8" × 30-50cm: €5-15
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Soluções DIY (Faça Você Mesmo)
 
@@ -266,10 +266,10 @@ Tubo flexível que liga a válvula de corte ao autoclismo está dobrado, esmagad
 | Ajustar/substituir flutuador | €50-90 |
 | Substituir válvula entrada | €60-120 |
 | Substituir mecanismo completo | €80-150 |
-| Reparar fuga | €50-100 |
+| Arranjar fuga | €50-100 |
 | Urgência 24h | +€30-50 |
 
-> 💡 **Precisa de picheleiro?** Certificado em Bragança: **[928 484 451](tel:+351928484451)** — Reparação rápida, peças em stock, garantia incluída.
+> 💡 **Precisa de picheleiro?** Certificado em Bragança: **[928 484 451](tel:+351928484451)** — Arranjo rápida, peças em stock, garantia incluída.
 
 ## 🔍 Diagnóstico Rápido
 
@@ -366,11 +366,11 @@ Sim, pode fechar a válvula de corte. Útil se: autoclismo pinga (economiza águ
 **6. Autoclismo enche mas água continua a correr, o que fazer?**
 Problema diferente: válvula de descarga com fuga (não válvula de entrada). Ver artigo específico sobre autoclismo que pinga. Solução: substituir válvula de descarga (€15-40).
 
-**7. Vale a pena reparar ou comprar autoclismo novo?**
-**Reparar se:** Problema simples (válvula, flutuador), autoclismo < 15 anos, custo < €50. **Substituir se:** Múltiplos problemas, autoclismo > 20 anos, rachado, ou modelo muito antigo (gasta muita água). Autoclismo novo: €80-250.
+**7. Vale a pena arranjar ou comprar autoclismo novo?**
+**Arranjar se:** Problema simples (válvula, flutuador), autoclismo < 15 anos, custo < €50. **Substituir se:** Múltiplos problemas, autoclismo > 20 anos, rachado, ou modelo muito antigo (gasta muita água). Autoclismo novo: €80-250.
 
 **8. Autoclismo de dupla descarga não enche, é diferente?**
-Mecanismo é similar. Diagnóstico é o mesmo: válvula de corte, filtro, flutuador, válvula de entrada. Peças podem ser mais caras (€25-60) mas reparação é igual.
+Mecanismo é similar. Diagnóstico é o mesmo: válvula de corte, filtro, flutuador, válvula de entrada. Peças podem ser mais caras (€25-60) mas arranjo é igual.
 
 ## 🎯 Conclusão: Autoclismo Que Não Enche Tem Solução Simples
 
@@ -400,7 +400,7 @@ Na maioria dos casos, autoclismo que não enche tem **solução fácil e barata*
 📞 **Ligue agora: [928 484 451](tel:+351928484451)**  
 💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20autoclismo%20não%20enche.%20Pode%20ajudar%3F)**
 
-✅ Reparação rápida (30-45 minutos)  
+✅ Arranjo rápida (30-45 minutos)  
 ✅ Peças de substituição em stock  
 ✅ Diagnóstico grátis  
 ✅ Garantia 1 ano no serviço  
@@ -408,7 +408,7 @@ Na maioria dos casos, autoclismo que não enche tem **solução fácil e barata*
 ✅ Técnico em sua casa em 30-45 minutos  
 ✅ Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região
 
-**Não fique sem autoclismo funcional!** Contacte-nos já para reparação rápida e garantida.
+**Não fique sem autoclismo funcional!** Contacte-nos já para arranjo rápida e garantida.
 
 ---
 

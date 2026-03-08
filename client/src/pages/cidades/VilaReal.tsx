@@ -82,7 +82,7 @@ export default function VilaReal() {
 
   const faqs = [
     { question: "Quanto tempo demora a chegar a Vila Real?", answer: "Chegamos a Vila Real em aproximadamente 1h15 a partir de Macedo de Cavaleiros, percorrendo cerca de 85km pela A4 e IP4." },
-    { question: "Fazem trabalhos em prédios e apartamentos em Vila Real?", answer: "Sim, temos vasta experiência em canalização de prédios urbanos, incluindo reparação de colunas de água, substituição de tubagens antigas e desentupimentos em edifícios de vários andares." },
+    { question: "Fazem trabalhos em prédios e apartamentos em Vila Real?", answer: "Sim, temos vasta experiência em canalização de prédios urbanos, incluindo arranjo de colunas de água, substituição de tubagens antigas e desentupimentos em edifícios de vários andares." },
     {
       question: "Qual o custo de deslocação a Vila Real?",
       answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
@@ -188,7 +188,7 @@ export default function VilaReal() {
                 </h3>
                 <p className="text-gray-600">
                   Vila Real tem muitos edifícios de vários andares com sistemas complexos de canalização.
-                  Somos especialistas em reparação de colunas de água, substituição de tubagens em prédios,
+                  Somos especialistas em arranjo de colunas de água, substituição de tubagens em prédios,
                   desentupimentos de esgotos coletivos e instalação de contadores individuais. Trabalhamos
                   com condomínios, respeitando horários e minimizando transtornos aos moradores.
                 </p>
@@ -239,7 +239,7 @@ export default function VilaReal() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Desentupimentos Urbanos", desc: "Esgotos, colunas de prédios, redes pluviais e sanitárias da cidade" },
-                { icon: Shield, title: "Reparação de Fugas em Edifícios", desc: "Deteção eletrónica de fugas em apartamentos e condomínios" },
+                { icon: Shield, title: "Arranjo de Fugas em Edifícios", desc: "Deteção eletrónica de fugas em apartamentos e condomínios" },
                 { icon: Wrench, title: "Canalização Nova e Remodelações", desc: "Instalação completa para construções novas e remodelações urbanas" },
                 { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação e manutenção de sistemas de aquecimento central" },
               ].map((service, index) => (

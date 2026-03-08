@@ -1,16 +1,16 @@
 ---
-title: "Torneira Pinga: Reparar em 10 Minutos e Poupar €200/Ano"
-slug: "torneira-pinga-reparar"
-category: "reparacao"
+title: "Torneira Pinga: Arranjar em 10 Minutos e Poupar €200/Ano"
+slug: "torneira-pinga-arranjar"
+category: "arranjacao"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Torneira pinga: desperdiça 20,000L/ano (€40-80), repara 10 minutos €5-15. Descubra causas (junta gasta, cartucho), reparação DIY e quando chamar picheleiro."
-keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro", "Trás-os-Montes"]
+excerpt: "Torneira pinga: desperdiça 20,000L/ano (€40-80), arranja 10 minutos €5-15. Descubra causas (junta gasta, cartucho), arranjo DIY e quando chamar picheleiro."
+keywords: ["torneira pinga", "arranjar torneira", "junta torneira", "picheleiro", "Trás-os-Montes"]
 ---
 
-# Torneira Pinga: Reparar em 10 Minutos e Poupar €200/Ano
+# Torneira Pinga: Arranjar em 10 Minutos e Poupar €200/Ano
 
-**Torneira pinga? Barulho irritante? Conta água alta?** Torneira que pinga **desperdiça 20,000L/ano (€40-80 água + €30-50 saneamento), repara 10 minutos €5-15**. Causa: junta gasta (90%), cartucho avariado, calcário. Reparação DIY fácil ou picheleiro €50-80. Em Trás-os-Montes, com água calcária, juntas gastam mais rápido. Neste guia prático, explicamos causas, reparação passo-a-passo, custos e quando chamar profissional.
+**Torneira pinga? Barulho irritante? Conta água alta?** Torneira que pinga **desperdiça 20,000L/ano (€40-80 água + €30-50 saneamento), arranja 10 minutos €5-15**. Causa: junta gasta (90%), cartucho avariado, calcário. Arranjo DIY fácil ou picheleiro €50-80. Em Trás-os-Montes, com água calcária, juntas gastam mais rápido. Neste guia prático, explicamos causas, arranjo passo-a-passo, custos e quando chamar profissional.
 
 ## 💧 Quanto Desperdiça Torneira Pinga
 
@@ -47,7 +47,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 - Saneamento: €40-80/ano
 - **Total**: €100-200/ano
 
-**Reparação**: €5-15 (DIY) ou €50-80 (picheleiro)
+**Arranjo**: €5-15 (DIY) ou €50-80 (picheleiro)
 **ROI**: Imediato
 
 ## 🔍 Causas Torneira Pinga
@@ -123,7 +123,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 
 **Solução**: Redutor pressão (€30-60)
 
-## 🔧 Reparar Torneira DIY
+## 🔧 Arranjar Torneira DIY
 
 ### Ferramentas Necessárias
 
@@ -144,7 +144,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 **Torneira tradicional** (2 manípulos):
 - Quente + frio separados
 - Rosca + junta
-- **Mais fácil reparar**
+- **Mais fácil arranjar**
 
 **Torneira monocomando**:
 - 1 manípulo
@@ -157,7 +157,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 1. Fechar válvula torneira (debaixo lavatório)
 2. Ou fechar válvula geral casa
 3. Abrir torneira (esvaziar)
-4. **Nunca reparar com água aberta**
+4. **Nunca arranjar com água aberta**
 
 ### Passo 3: Desmontar Torneira Tradicional
 
@@ -209,7 +209,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 4. Testar quente/frio
 5. **Se pinga ainda: apertar mais ou repetir**
 
-## 💰 Custos Reparação
+## 💰 Custos Arranjo
 
 ### DIY
 
@@ -222,7 +222,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 
 ### Picheleiro
 
-**Reparação simples** (junta):
+**Arranjo simples** (junta):
 - Mão obra: €40-60
 - Junta: €5-10
 - Deslocação: €0-20
@@ -269,7 +269,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 - Corrosão
 
 **Solução**:
-- Tentar reparar
+- Tentar arranjar
 - Se impossível: Substituir torneira (€20-80)
 - **Oportunidade modernizar**
 
@@ -285,13 +285,13 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 - Esvaziar torneira
 - Isolar (se não pode fechar)
 
-**Reparação**: Igual interior
+**Arranjo**: Igual interior
 
 ### Torneiras Termostáticas
 
 **Mais complexas**:
 - Cartucho termostático
-- Reparação difícil
+- Arranjo difícil
 - **Chamar picheleiro**
 
 **Custo**: €100-200
@@ -371,11 +371,11 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 
 ## ✅ Por Que Escolher Norte Reparos
 
-### Reparação Rápida
+### Arranjo Rápida
 
 - Diagnóstico imediato
 - Peças stock (juntas, cartuchos)
-- Reparação 15-30 minutos
+- Arranjo 15-30 minutos
 - Garantia 6 meses
 
 ### Todas Marcas
@@ -387,7 +387,7 @@ keywords: ["torneira pinga", "reparar torneira", "junta torneira", "picheleiro",
 
 ### Preços Justos
 
-- Reparação: €45-90
+- Arranjo: €45-90
 - Substituir cartucho: €70-130
 - Torneira nova: €70-250
 - Sem surpresas
@@ -416,29 +416,29 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-### Reparação Torneira
+### Arranjo Torneira
 📞 **+351 928 484 451**
 💬 **[WhatsApp](https://wa.me/351928484451?text=Torneira%20pinga)**
 
-**Resposta em 5 minutos. Reparação rápida e garantida.**
+**Resposta em 5 minutos. Arranjo rápida e garantida.**
 
 ---
 
 ## ❓ Perguntas Frequentes
 
 ### Quanto desperdiça torneira pinga?
-**1 gota/segundo**: 1,570L/ano (€5-10). **10 gotas/segundo**: 15,700L/ano (€50-100). **Fio água**: 30,000-50,000L/ano (€100-200). Reparação €5-15 DIY ou €45-90 picheleiro. ROI imediato.
+**1 gota/segundo**: 1,570L/ano (€5-10). **10 gotas/segundo**: 15,700L/ano (€50-100). **Fio água**: 30,000-50,000L/ano (€100-200). Arranjo €5-15 DIY ou €45-90 picheleiro. ROI imediato.
 
-### Como reparar torneira pinga?
+### Como arranjar torneira pinga?
 **Tradicional**: Fechar água, desmontar, substituir junta (€2-5), montar. **Monocomando**: Substituir cartucho (€15-40). DIY 10-30 minutos. Ferramentas: chave inglesa, chave fendas. Fácil.
 
-### Quanto custa reparar?
-**DIY**: €5-60 (junta €2-5, cartucho €15-40). **Picheleiro**: €45-130 (reparação €45-90, cartucho €70-130). Torneira nova: €70-250. Poupança DIY: €40-120.
+### Quanto custa arranjar?
+**DIY**: €5-60 (junta €2-5, cartucho €15-40). **Picheleiro**: €45-130 (arranjo €45-90, cartucho €70-130). Torneira nova: €70-250. Poupança DIY: €40-120.
 
 ### Por que pinga?
 **90% casos**: Junta gasta (vida útil 2-10 anos). **Outros**: Cartucho avariado, calcário, rosca gasta, pressão excessiva. Água calcária Trás-os-Montes gasta juntas mais rápido (2-5 anos).
 
-### Posso reparar sozinho?
+### Posso arranjar sozinho?
 **Sim** se: torneira tradicional, ferramentas básicas, junta disponível. **Não** se: monocomando (primeira vez), não consegue desmontar, peça não encontra. Picheleiro €45-90 se preferir.
 
 ### Como prevenir?
@@ -446,6 +446,6 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ---
 
-**Torneira pinga desperdiça €100-200/ano. Repara 10 minutos €5-15 ou picheleiro €45-90.**
+**Torneira pinga desperdiça €100-200/ano. Arranja 10 minutos €5-15 ou picheleiro €45-90.**
 
 📞 +351 928 484 451 | 💬 WhatsApp | 🌐 canalizador-norte-reparos.pt

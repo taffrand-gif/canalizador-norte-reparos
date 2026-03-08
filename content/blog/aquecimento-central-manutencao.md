@@ -172,7 +172,7 @@ keywords: ["aquecimento central", "manutenção caldeira", "radiadores", "poupar
 
 **Com cobertura avarias**:
 - €200-400/ano
-- Manutenção + reparações incluídas
+- Manutenção + arranjos incluídas
 - Peças à parte
 
 ## 📅 Quando Fazer Manutenção
@@ -180,7 +180,7 @@ keywords: ["aquecimento central", "manutenção caldeira", "radiadores", "poupar
 ### Melhor Época
 
 **Setembro/Outubro** (antes inverno):
-- Prepara sistema para inverno
+- Parranja sistema para inverno
 - Deteta problemas antes frio
 - Técnicos menos ocupados
 - **Mais recomendado**
@@ -188,10 +188,10 @@ keywords: ["aquecimento central", "manutenção caldeira", "radiadores", "poupar
 **Março/Abril** (após inverno):
 - Verifica desgaste inverno
 - Limpa acumulação
-- Prepara para próximo ano
+- Parranja para próximo ano
 
 **Bianual** (ideal):
-- Setembro: preparação inverno
+- Setembro: parranjo inverno
 - Março: verificação pós-inverno
 
 ### Frequência por Tipo
@@ -272,7 +272,7 @@ Não espere manutenção anual se:
 ❌ Abrir caldeira (risco gás)
 ❌ Ajustar queimador
 ❌ Mexer válvulas gás
-❌ Reparações internas
+❌ Arranjos internas
 
 ## 🛠️ Como Purgar Radiadores (DIY)
 
@@ -347,7 +347,7 @@ Não espere manutenção anual se:
 
 ### Manutenção Anual
 
-✅ Setembro/Outubro (preparação)
+✅ Setembro/Outubro (parranjo)
 ✅ Março/Abril (verificação)
 ✅ Antes garantia expirar
 
@@ -436,7 +436,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **Sim**. Custo €80-150/ano. Previne avarias €300-1500. Poupa 10-15% energia = €100-200/ano. **ROI positivo**.
 
 ### Quando fazer manutenção?
-**Setembro/Outubro** (antes inverno) é ideal. Técnicos menos ocupados, prepara sistema, deteta problemas antes frio.
+**Setembro/Outubro** (antes inverno) é ideal. Técnicos menos ocupados, parranja sistema, deteta problemas antes frio.
 
 ### Manutenção é obrigatória?
 **Caldeira gasóleo**: sim (anual, com certificado). **Caldeira gás**: não obrigatório mas fortemente recomendado. **Garantia**: maioria exige manutenção anual.

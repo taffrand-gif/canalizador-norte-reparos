@@ -92,7 +92,7 @@ export default function Tabuaco() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização Vinícola", desc: "Redes de água para quintas, caves de vinificação e sistemas de lavagem" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação em quintas antigas e casas de granito" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo em quintas antigas e casas de granito" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações de adegas" },
                 { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação de aquecimento para casas e alojamentos turísticos" },
               ].map((service, index) => (

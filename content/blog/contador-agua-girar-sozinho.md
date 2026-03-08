@@ -19,7 +19,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 - ✅ Como confirmar que tem fuga (teste simples)
 - ✅ 5 causas principais de contador que gira sozinho
 - ✅ Como localizar fuga invisível (passo a passo)
-- ✅ Custos de reparação em Trás-os-Montes
+- ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Como prevenir fugas futuras
 - ✅ Quanto desperdiça por dia
 
@@ -85,7 +85,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 - Pavimento quente (água quente)
 - Som de água a correr
 
-**Solução:** Deteção profissional + reparação (€150-500)
+**Solução:** Deteção profissional + arranjo (€150-500)
 
 ---
 
@@ -238,15 +238,15 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 - Correlacionador acústico (localiza exata)
 - Gás traçador (fugas difíceis)
 
-**Custo:** €100-300 (deteção) + reparação
+**Custo:** €100-300 (deteção) + arranjo
 
 **💡 Compensa:** Fuga de 100 L/dia = €180/ano desperdiçado. Deteção paga-se em 2-6 meses!
 
 ---
 
-## 💰 Custos de Reparação em Trás-os-Montes (2026)
+## 💰 Custos de Arranjo em Trás-os-Montes (2026)
 
-### Reparações Simples (DIY Possível)
+### Arranjos Simples (DIY Possível)
 
 | Problema | Solução | Custo DIY | Custo Profissional |
 |----------|---------|-----------|-------------------|
@@ -255,26 +255,26 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 | Válvula máquina lavar | Substituir válvula | €15-30 | €50-100 |
 | Mangueira rachada | Substituir mangueira | €10-20 | €40-80 |
 
-### Reparações Profissionais
+### Arranjos Profissionais
 
 | Problema | Custo | Tempo | Inclui |
 |----------|-------|-------|--------|
 | Deteção de fuga | €100-300 | 1-2h | Localização exata |
-| Reparar cano acessível | €80-150 | 1-2h | Reparação |
-| Reparar cano enterrado | €200-500 | 3-6h | Escavar + reparar + tapar |
-| Reparar cano em parede | €150-400 | 2-4h | Abrir + reparar + tapar |
+| Arranjar cano acessível | €80-150 | 1-2h | Arranjo |
+| Arranjar cano enterrado | €200-500 | 3-6h | Escavar + arranjar + tapar |
+| Arranjar cano em parede | €150-400 | 2-4h | Abrir + arranjar + tapar |
 | Substituir troço de cano | €150-300 | 2-4h | Cano novo |
 | Instalar vaso expansão | €80-150 | 1h | Vaso + instalação |
 | Instalar redutor pressão | €120-220 | 1-2h | Redutor + instalação |
 
-### Desperdício vs Custo Reparação
+### Desperdício vs Custo Arranjo
 
 **Exemplo: Fuga 100 L/dia**
 - Desperdício: €180/ano
-- Reparação: €200-500 (uma vez)
+- Arranjo: €200-500 (uma vez)
 - **ROI: 1-3 anos**
 
-**Conclusão:** Reparar SEMPRE compensa!
+**Conclusão:** Arranjar SEMPRE compensa!
 
 ---
 
@@ -374,7 +374,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 
 ### 5. Posso ignorar fuga pequena?
 
-**Resposta:** **NÃO!** Fuga pequena hoje = fuga grande amanhã. Além disso, 1 gota/segundo = €50-100/ano desperdiçados. Reparar custa €40-150 (paga-se em 1 ano).
+**Resposta:** **NÃO!** Fuga pequena hoje = fuga grande amanhã. Além disso, 1 gota/segundo = €50-100/ano desperdiçados. Arranjar custa €40-150 (paga-se em 1 ano).
 
 ### 6. Autoclismo faz barulho mas não vejo água. É fuga?
 
@@ -397,15 +397,15 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos), 
 **Ação imediata:**
 1. Teste do contador (5 min) - confirma fuga
 2. Localizar fuga (30 min) - DIY ou profissional
-3. Reparar (€40-500) - investimento que se paga
+3. Arranjar (€40-500) - investimento que se paga
 
 **Não espere:** Fuga não se resolve sozinha, só piora!
 
-### 📞 Precisa de Detetar e Reparar Fuga?
+### 📞 Precisa de Detetar e Arranjar Fuga?
 
 **Norte Reparos** - Picheleiro Certificado em Trás-os-Montes  
 ✅ Deteção profissional de fugas (equipamento especializado)  
-✅ Reparação de fugas invisíveis  
+✅ Arranjo de fugas invisíveis  
 ✅ Substituição de autoclismos e torneiras  
 ✅ Instalação de redutores de pressão  
 ✅ Orçamento grátis sem compromisso  

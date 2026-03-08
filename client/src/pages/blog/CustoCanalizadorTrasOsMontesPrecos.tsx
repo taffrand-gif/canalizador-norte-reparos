@@ -6,7 +6,7 @@ import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
   useSEO({
     title: 'Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026',
-    description: 'Tabela completa de preços para serviços de canalização em Trás-os-Montes. Descubra quanto custa desentupimentos, reparações e instalações.',
+    description: 'Tabela completa de preços para serviços de canalização em Trás-os-Montes. Descubra quanto custa desentupimentos, arranjos e instalações.',
     keywords: 'preço canalizador, custo desentupimento, preços canalização Trás-os-Montes, quanto custa canalizador, orçamento canalização'
   });
 
@@ -81,7 +81,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
             <li><a href="#tabela-precos" className="text-blue-600 hover:text-blue-700">Tabela Completa de Preços 2026</a></li>
             <li><a href="#fatores-custo" className="text-blue-600 hover:text-blue-700">7 Fatores que Influenciam o Preço</a></li>
             <li><a href="#desentupimentos" className="text-blue-600 hover:text-blue-700">Preços de Desentupimentos (Detalhado)</a></li>
-            <li><a href="#reparacoes" className="text-blue-600 hover:text-blue-700">Preços de Reparações e Substituições</a></li>
+            <li><a href="#arranjacoes" className="text-blue-600 hover:text-blue-700">Preços de Arranjos e Substituições</a></li>
             <li><a href="#instalacoes" className="text-blue-600 hover:text-blue-700">Preços de Instalações Novas</a></li>
             <li><a href="#orcamento-justo" className="text-blue-600 hover:text-blue-700">Como Obter um Orçamento Justo</a></li>
           </ul>
@@ -126,7 +126,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
                     <td className="py-4 px-6">2-4 horas</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-blue-50">
-                    <td className="py-4 px-6 font-semibold">Reparação fuga de água simples</td>
+                    <td className="py-4 px-6 font-semibold">Arranjo fuga de água simples</td>
                     <td className="py-4 px-6">70€</td>
                     <td className="py-4 px-6">110€</td>
                     <td className="py-4 px-6">180€</td>
@@ -161,7 +161,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
                     <td className="py-4 px-6">1-1.5 horas</td>
                   </tr>
                   <tr className="hover:bg-blue-50">
-                    <td className="py-4 px-6 font-semibold">Reparação caldeira</td>
+                    <td className="py-4 px-6 font-semibold">Arranjo caldeira</td>
                     <td className="py-4 px-6">90€</td>
                     <td className="py-4 px-6">160€</td>
                     <td className="py-4 px-6">350€</td>
@@ -416,7 +416,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
                 <h3 className="font-bold text-gray-900 mb-2">Os preços da tabela incluem IVA?</h3>
                 <p className="text-gray-700">
                   Sim, todos os preços apresentados nesta tabela <strong>incluem IVA a 23%</strong>, que é a taxa normal 
-                  para serviços de construção e reparação em Portugal. Alguns profissionais podem apresentar preços sem IVA 
+                  para serviços de construção e arranjo em Portugal. Alguns profissionais podem apresentar preços sem IVA 
                   em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA. 
                   Exija sempre fatura-recibo com NIF para garantir conformidade fiscal.
                 </p>
@@ -453,7 +453,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
                     "name": "Os preços da tabela incluem IVA?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Sim, todos os preços apresentados nesta tabela incluem IVA a 23%, que é a taxa normal para serviços de construção e reparação em Portugal. Alguns profissionais podem apresentar preços sem IVA em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA. Exija sempre fatura-recibo com NIF para garantir conformidade fiscal."
+                      "text": "Sim, todos os preços apresentados nesta tabela incluem IVA a 23%, que é a taxa normal para serviços de construção e arranjo em Portugal. Alguns profissionais podem apresentar preços sem IVA em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA. Exija sempre fatura-recibo com NIF para garantir conformidade fiscal."
                     }
                   },
                   {

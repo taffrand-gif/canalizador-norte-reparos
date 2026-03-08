@@ -20,7 +20,7 @@ export default function VilaFlor() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Vila Flor disponível 24h. Desentupimentos, reparação de fugas, canalização para adegas e quintas vinícolas. A 25km de Macedo de Cavaleiros.');
+    metaDescription.setAttribute('content', 'Canalizador em Vila Flor disponível 24h. Desentupimentos, arranjo de fugas, canalização para adegas e quintas vinícolas. A 25km de Macedo de Cavaleiros.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -112,7 +112,7 @@ export default function VilaFlor() {
               {[
                 { icon: Droplets, title: "Desentupimentos 24h", desc: "Esgotos domésticos, fossas sépticas e canalizações de adegas" },
                 { icon: Shield, title: "Canalização para Adegas", desc: "Redes de água e drenagem para caves vinícolas e lagares de azeite" },
-                { icon: Wrench, title: "Reparação de Tubagens Antigas", desc: "Substituição de canos em ferro e chumbo por materiais modernos" },
+                { icon: Wrench, title: "Arranjo de Tubagens Antigas", desc: "Substituição de canos em ferro e chumbo por materiais modernos" },
                 { icon: CheckCircle, title: "Instalação Sanitários", desc: "Montagem completa de casas de banho e cozinhas" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">

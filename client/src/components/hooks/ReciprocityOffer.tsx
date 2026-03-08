@@ -30,7 +30,7 @@ export default function ReciprocityOffer({
     },
     guide: {
       icon: Download,
-      title: title || 'Guia Grátis: Como Poupar 30% em Reparações',
+      title: title || 'Guia Grátis: Como Poupar 30% em Arranjos',
       description: 'PDF exclusivo com dicas de especialistas',
       benefits: [
         '15 páginas de conteúdo prático',

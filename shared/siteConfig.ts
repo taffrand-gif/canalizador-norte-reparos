@@ -119,7 +119,7 @@ export const siteConfig: SiteConfig = {
   },
   
   services: [
-    { id: 'fuga-agua', label: 'Reparação Fuga Água', basePrice: 80 },
+    { id: 'fuga-agua', label: 'Arranjo Fuga Água', basePrice: 80 },
     { id: 'desentupimento', label: 'Desentupimento', basePrice: 60 },
     { id: 'esquentador', label: 'Instalação Esquentador', basePrice: 150 },
     { id: 'substituicao', label: 'Substituição Canalização', basePrice: 120 },
@@ -131,7 +131,7 @@ export const siteConfig: SiteConfig = {
       location: "Chaves",
       situation: "Mancha de humidade a crescer no teto da sala.",
       emotion: "Stress com os danos, medo do custo das obras.",
-      solution: "Deteção térmica sem partir a parede. Reparação localizada."
+      solution: "Deteção térmica sem partir a parede. Arranjo localizada."
     },
     {
       title: "A Água Gelada",
@@ -172,7 +172,7 @@ export const siteConfig: SiteConfig = {
       id: '1',
       name: 'João Silva',
       location: 'Bragança',
-      service: 'Reparação Fuga de Água',
+      service: 'Arranjo Fuga de Água',
       text: 'Tive uma fuga de água grave às 23h e liguei em desespero. Chegaram em 25 minutos! Resolveram o problema rapidamente e o preço foi justo. Profissionais de confiança, recomendo sem hesitar.',
       rating: 5,
     },
@@ -214,13 +214,13 @@ export const siteConfig: SiteConfig = {
       'cano rebentado', 'canalizador profissional trás-os-montes',
       // Mots-clés longue traîne SEO plomberie
       'desentupimento urgente bragança', 'canalizador 24 horas mirandela', 'fuga de água urgente',
-      'cano entupido macedo de cavaleiros', 'reparação caldeira trás-os-montes',
+      'cano entupido macedo de cavaleiros', 'arranjo caldeira trás-os-montes',
       'desentupir sanita preço', 'canalizador perto de mim bragança',
-      'desentupimento esgotos bragança', 'reparação autoclismo',
+      'desentupimento esgotos bragança', 'arranjo autoclismo',
       'canalizador urgente chaves', 'desentupimento sanitário mirandela',
-      'fuga água parede bragança', 'reparação esquentador vila real',
+      'fuga água parede bragança', 'arranjo esquentador vila real',
       'canalizador emergência 24h', 'desentupimento urgente domingo',
-      'canalizador barato trás-os-montes', 'reparação canalização antiga',
+      'canalizador barato trás-os-montes', 'arranjo canalização antiga',
       'desentupimento pia cozinha', 'canalizador para aldeias remotas'
     ],
     ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg',

@@ -20,7 +20,7 @@ export default function FreixoEspadaCinta() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Freixo de Espada à Cinta disponível 24h. Desentupimentos, reparação de fugas. Servimos todo o concelho.');
+    metaDescription.setAttribute('content', 'Canalizador em Freixo de Espada à Cinta disponível 24h. Desentupimentos, arranjo de fugas. Servimos todo o concelho.');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -104,9 +104,9 @@ export default function FreixoEspadaCinta() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Desentupimentos 24h", desc: "WC, lavatórios, esgotos" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo" },
                 { icon: CheckCircle, title: "Casas de Aldeia", desc: "Reabilitação de canalização antiga" },
-                { icon: Droplets, title: "Esquentadores", desc: "Instalação e reparação" },
+                { icon: Droplets, title: "Esquentadores", desc: "Instalação e arranjo" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

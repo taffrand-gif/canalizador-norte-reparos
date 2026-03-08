@@ -48,7 +48,7 @@ function BeforeAfter() {
     {
       id: 'heater',
       title: 'Esquentador Avariava Sempre',
-      problem: 'Esquentador parava no inverno. Já tinha pago €200 em reparações.',
+      problem: 'Esquentador parava no inverno. Já tinha pago €200 em arranjos.',
       solution: 'Descalcificação completa + peças originais.',
       time: '2 horas',
       cost: '€150',
@@ -60,7 +60,7 @@ function BeforeAfter() {
       id: 'leak',
       title: 'Fuga Escondida Na Parede',
       problem: 'Conta água €120/mês. Não sabia onde era fuga.',
-      solution: 'Deteção térmica + reparação sem partir azulejos.',
+      solution: 'Deteção térmica + arranjo sem partir azulejos.',
       time: '3 horas',
       cost: '€180',
       savings: '€70/mês = €840/ano',

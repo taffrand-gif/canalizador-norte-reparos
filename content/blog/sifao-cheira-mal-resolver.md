@@ -429,7 +429,7 @@ O **sifão** é aquele tubo em forma de "U" ou "S" debaixo do lavatório, banhei
 
 ### 4. Quanto tempo demora a eliminar o cheiro?
 
-**Resposta:** Sifão seco: imediato (2 min). Limpeza de sifão: 30 min. Biofilme: 1-2 dias após desinfecção. Problema de instalação: após reparação profissional.
+**Resposta:** Sifão seco: imediato (2 min). Limpeza de sifão: 30 min. Biofilme: 1-2 dias após desinfecção. Problema de instalação: após arranjo profissional.
 
 ### 5. O cheiro pode ser perigoso para a saúde?
 

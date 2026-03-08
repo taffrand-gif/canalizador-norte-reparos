@@ -25,7 +25,7 @@ const reviews: Review[] = [
     initial: 'S',
     city: 'Mirandela',
     rating: 5,
-    text: 'Reparou a fuga de água no mesmo dia. Muito profissional e limpo.',
+    text: 'Arranjou a fuga de água no mesmo dia. Muito profissional e limpo.',
     date: 'há 2 semanas',
   },
   {

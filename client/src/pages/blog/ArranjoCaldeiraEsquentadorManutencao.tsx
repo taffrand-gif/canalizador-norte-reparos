@@ -9,12 +9,12 @@ const faqItems = [
   { question: "Quanto custa substituir um esquentador antigo?", answer: "A substituição de um esquentador custa entre €400 e €800, incluindo equipamento e instalação. Esquentadores modernos são mais eficientes e podem reduzir a conta de gás em 20-30%." }
 ];
 
-export default function ReparacaoCaldeiraEsquentadorManutencao() {
+export default function ArranjacaoCaldeiraEsquentadorManutencao() {
   useEffect(() => {
-    document.title = "Reparação de Caldeira e Esquentador: Guia Completo de Manutenção | Norte Reparos";
+    document.title = "Arranjo de Caldeira e Esquentador: Guia Completo de Manutenção | Norte Reparos";
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
-    meta.setAttribute('content', 'Guia completo sobre reparação e manutenção de caldeiras e esquentadores em Trás-os-Montes. Dicas, preços, quando reparar vs substituir. Norte Reparos 24h.');
+    meta.setAttribute('content', 'Guia completo sobre arranjo e manutenção de caldeiras e esquentadores em Trás-os-Montes. Dicas, preços, quando arranjar vs substituir. Norte Reparos 24h.');
   }, []);
 
   return (
@@ -22,7 +22,7 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
       <Header />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "Article",
-        "headline": "Reparação de Caldeira e Esquentador: Guia Completo de Manutenção",
+        "headline": "Arranjo de Caldeira e Esquentador: Guia Completo de Manutenção",
         "author": { "@type": "Organization", "name": "Norte Reparos" },
         "datePublished": "2026-02-18", "dateModified": "2026-02-18"
       }) }} />
@@ -34,8 +34,8 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
       <article className="max-w-4xl mx-auto px-4 py-12">
         <header className="mb-12">
           <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Guia Completo</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Reparação de Caldeira e Esquentador: Guia Completo de Manutenção</h1>
-          <p className="text-xl text-gray-600">Tudo o que precisa saber sobre manutenção, reparação e substituição de caldeiras e esquentadores em Trás-os-Montes.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Arranjo de Caldeira e Esquentador: Guia Completo de Manutenção</h1>
+          <p className="text-xl text-gray-600">Tudo o que precisa saber sobre manutenção, arranjo e substituição de caldeiras e esquentadores em Trás-os-Montes.</p>
           <div className="mt-4 text-sm text-gray-500">Publicado em 18 de fevereiro de 2026 · Leitura de 5 minutos</div>
         </header>
 
@@ -44,7 +44,7 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
           <p className="text-gray-700 mb-4">A manutenção regular do esquentador e da caldeira não é apenas uma questão de conforto — é uma questão de segurança. Equipamentos mal mantidos podem causar fugas de monóxido de carbono, um gás inodoro e potencialmente fatal.</p>
           <p className="text-gray-700 mb-4">Em Trás-os-Montes, onde os invernos são rigorosos e as temperaturas podem descer abaixo de zero, ter água quente e aquecimento funcional é essencial. Uma avaria no pico do inverno pode ser mais do que um incómodo — pode ser um risco para a saúde.</p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Sinais de que o Seu Esquentador Precisa de Reparação</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Sinais de que o Seu Esquentador Precisa de Arranjo</h2>
           <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
             <li><strong>Água não aquece o suficiente</strong> — pode indicar problemas no queimador ou no permutador de calor</li>
             <li><strong>Chama amarela ou laranja</strong> — a chama deve ser azul; cores diferentes indicam combustão incompleta</li>
@@ -54,11 +54,11 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
             <li><strong>Consumo de gás elevado</strong> — perda de eficiência por falta de manutenção</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reparar ou Substituir? Como Decidir</h2>
-          <p className="text-gray-700 mb-4">A regra geral é simples: se o custo da reparação ultrapassa 50% do preço de um equipamento novo, é melhor substituir. Outros fatores a considerar:</p>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Arranjar ou Substituir? Como Decidir</h2>
+          <p className="text-gray-700 mb-4">A regra geral é simples: se o custo da arranjo ultrapassa 50% do preço de um equipamento novo, é melhor substituir. Outros fatores a considerar:</p>
           <div className="grid md:grid-cols-2 gap-6 my-6">
             <div className="p-6 bg-green-50 rounded-xl border border-green-200">
-              <h3 className="font-bold text-green-800 mb-2">✅ Reparar quando:</h3>
+              <h3 className="font-bold text-green-800 mb-2">✅ Arranjar quando:</h3>
               <ul className="text-green-700 space-y-1 text-sm">
                 <li>• Equipamento tem menos de 10 anos</li>
                 <li>• Primeira avaria</li>
@@ -83,7 +83,7 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
               {[
                 { service: "Manutenção anual esquentador", price: "€80 - €120" },
                 { service: "Manutenção anual caldeira", price: "€100 - €150" },
-                { service: "Reparação avaria simples", price: "€100 - €200" },
+                { service: "Arranjo avaria simples", price: "€100 - €200" },
                 { service: "Substituição esquentador", price: "€400 - €800" },
                 { service: "Substituição caldeira", price: "€800 - €2.000" },
                 { service: "Limpeza de calcário", price: "€80 - €150" }
@@ -112,8 +112,8 @@ export default function ReparacaoCaldeiraEsquentadorManutencao() {
 
         {/* CTA */}
         <section className="mt-12 p-8 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl text-white text-center">
-          <h2 className="text-2xl font-bold mb-4">Precisa de Reparação de Esquentador ou Caldeira?</h2>
-          <p className="mb-6">Contacte a Norte Reparos para diagnóstico e reparação rápida em Trás-os-Montes.</p>
+          <h2 className="text-2xl font-bold mb-4">Precisa de Arranjo de Esquentador ou Caldeira?</h2>
+          <p className="mb-6">Contacte a Norte Reparos para diagnóstico e arranjo rápida em Trás-os-Montes.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-3 rounded-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
             <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-3 rounded-lg transition-colors">💬 WhatsApp</a>

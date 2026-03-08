@@ -1,7 +1,7 @@
 ---
 title: "Como Substituir Torneira de Cozinha: Guia Passo a Passo (2026)"
 slug: "substituir-torneira-cozinha"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Torneira da cozinha a pingar ou partida? Aprenda a substituir torneira de cozinha em 8 passos simples. Guia completo com tipos, custos e instalação DIY vs profissional."
@@ -46,7 +46,7 @@ priority: "HIGH DEMAND"
 
 **Vantagens:**
 ✅ Estilo tradicional  
-✅ Reparação mais fácil (trocar só uma válvula)  
+✅ Arranjo mais fácil (trocar só uma válvula)  
 ✅ Durabilidade (menos peças móveis)
 
 **Desvantagens:**
@@ -127,7 +127,7 @@ priority: "HIGH DEMAND"
 
 ## 🔧 Passo a Passo: Como Substituir Torneira
 
-### Preparação (10-15 minutos)
+### Parranjo (10-15 minutos)
 
 **1. Feche a água**
 - Localize as torneiras de corte debaixo do lava-loiça
@@ -179,7 +179,7 @@ priority: "HIGH DEMAND"
 
 ### Instalação da Torneira Nova (20-30 minutos)
 
-**Passo 3: Preparar a torneira nova**
+**Passo 3: Parranjar a torneira nova**
 
 1. Retire a torneira da embalagem
 2. Verifique que tem todas as peças:
@@ -291,7 +291,7 @@ priority: "HIGH DEMAND"
 | Substituição torneira simples | €60-100 |
 | Com fornecimento de torneira média | €130-250 |
 | Torneira alta qualidade instalada | €210-350 |
-| Reparação de fugas após instalação | €40-80 |
+| Arranjo de fugas após instalação | €40-80 |
 | Urgência 24h | +€30-50 |
 
 **Incluído no serviço profissional:**
@@ -463,7 +463,7 @@ Substituir uma torneira de cozinha é um trabalho **relativamente simples** que 
 ---
 
 **Artigos relacionados:**
-- [Torneira Pinga: 5 Causas e Como Reparar](/blog/torneira-pinga-causas-reparar)
+- [Torneira Pinga: 5 Causas e Como Arranjar](/blog/torneira-pinga-causas-arranjar)
 - [Como Desentupir Ralo de Chuveiro](/blog/desentupir-ralo-chuveiro)
 - [Instalar Banheira: Guia Completo](/blog/instalar-banheira)
 - [Fossa Séptica Cheia: Sinais e Limpeza](/blog/fossa-septica-cheia)

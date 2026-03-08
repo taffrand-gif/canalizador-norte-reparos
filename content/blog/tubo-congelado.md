@@ -247,13 +247,13 @@ Neste guia completo, vamos explicar **como descongelar tubos com segurança**, p
 4. Coloque baldes/toalhas
 5. **Chame picheleiro urgente**
 
-**Não tente reparar sozinho** (requer substituição de tubo)
+**Não tente arranjar sozinho** (requer substituição de tubo)
 
 ---
 
 ## Prevenção: Evite Congelamento
 
-### Antes do Inverno (Preparação)
+### Antes do Inverno (Parranjo)
 
 **1. Isole Tubos Expostos**
 - Espuma isolante: €2-5/metro
@@ -331,16 +331,16 @@ Neste guia completo, vamos explicar **como descongelar tubos com segurança**, p
 | Picheleiro (descongelar) | €80-150 |
 | Urgência 24h | +50-100% |
 
-### Reparar Tubo Rebentado
+### Arranjar Tubo Rebentado
 
 | Serviço | Preço |
 |---------|-------|
-| Reparar tubo acessível | €80-200 |
+| Arranjar tubo acessível | €80-200 |
 | Substituir secção (parede) | €150-500 |
-| Reparar danos (parede, teto) | €100-1.000+ |
+| Arranjar danos (parede, teto) | €100-1.000+ |
 | **TOTAL:** | **€330-1.700+** |
 
-**Prevenção (€60-200) vs Reparação (€330-1.700+)**  
+**Prevenção (€60-200) vs Arranjo (€330-1.700+)**  
 **Investir em prevenção poupa muito dinheiro!**
 
 ---
@@ -377,7 +377,7 @@ Sim. Água expande 9% ao congelar. Pressão pode rachar ou rebentar tubo.
 **5. Como prevenir tubos congelados?**  
 Isole tubos expostos (€2-5/m), deixe torneiras pingar, mantenha aquecimento mínimo 15°C.
 
-**6. Quanto custa reparar tubo rebentado?**  
+**6. Quanto custa arranjar tubo rebentado?**  
 €330-1.700+ (depende de localização e danos). Prevenção custa €60-200.
 
 **7. Posso usar maçarico para descongelar?**  
@@ -390,7 +390,7 @@ Sim. Água em movimento não congela. Fio fino suficiente (não desperdício sig
 
 ## Conclusão: Previna e Proteja
 
-Tubos congelados são um **problema sério mas evitável** em Trás-os-Montes. **Prevenção** (isolar tubos €60-200, deixar torneiras pingar €0) é muito mais barata que **reparação** (tubo rebentado €330-1.700+).
+Tubos congelados são um **problema sério mas evitável** em Trás-os-Montes. **Prevenção** (isolar tubos €60-200, deixar torneiras pingar €0) é muito mais barata que **arranjo** (tubo rebentado €330-1.700+).
 
 **Se congelar:**
 - Descongele com segurança (secador, toalhas quentes)
@@ -419,7 +419,7 @@ Tubos congelados são um **problema sério mas evitável** em Trás-os-Montes. *
 - Picheleiros certificados com 15+ anos de experiência
 - Disponível 24/7 durante vaga de frio
 - Equipamento profissional (descongelamento rápido)
-- Reparação de tubos rebentados
+- Arranjo de tubos rebentados
 - Isolamento preventivo
 - Orçamento transparente
 
@@ -429,7 +429,7 @@ Tubos congelados são um **problema sério mas evitável** em Trás-os-Montes. *
 
 **Artigos relacionados:**
 - [Pressão de Água Fraca: 8 Causas e Soluções](/blog/pressao-agua-fraca)
-- [Torneira Goteja: 5 Causas e Como Reparar](/blog/torneira-goteja)
+- [Torneira Goteja: 5 Causas e Como Arranjar](/blog/torneira-goteja)
 - [Quanto Custa um Picheleiro em Trás-os-Montes?](/blog/custo-canalizador-tras-os-montes-precos)
 
 ---

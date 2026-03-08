@@ -180,7 +180,7 @@ function LossCalculator() {
                 <div className="space-y-3 text-lg">
                   <p className="flex items-start gap-3">
                     <span className="text-green-600 font-bold">→</span>
-                    <span>Reparação custa aproximadamente <strong>€{result.repairCost}</strong></span>
+                    <span>Arranjo custa aproximadamente <strong>€{result.repairCost}</strong></span>
                   </p>
                   <p className="flex items-start gap-3">
                     <span className="text-green-600 font-bold">→</span>
@@ -214,7 +214,7 @@ function LossCalculator() {
                     📞 Ligue: {config.phone}
                   </a>
                   <a
-                    href={`https://wa.me/351${config.phone.replace(/\s/g, '')}?text=Olá, calculei que estou a perder €${result.monthly}/mês. Preciso de reparação urgente!`}
+                    href={`https://wa.me/351${config.phone.replace(/\s/g, '')}?text=Olá, calculei que estou a perder €${result.monthly}/mês. Preciso de arranjo urgente!`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 px-8 py-5 font-bold text-white bg-green-500 rounded-lg shadow-lg hover:shadow-xl transition-all text-xl"

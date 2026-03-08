@@ -16,7 +16,7 @@ interface AnchoringPriceProps {
 export default function AnchoringPrice({ serviceType = 'standard' }: AnchoringPriceProps) {
   const priceData = {
     standard: {
-      title: 'Reparação Standard',
+      title: 'Arranjo Standard',
       comparisons: [
         {
           label: 'Fuga de água simples',

@@ -21,11 +21,11 @@
     "services": [
       {"name": "Desentupimento simples (sanita/lavatório)", "price_range": "40€-80€"},
       {"name": "Desentupimento esgoto principal", "price_range": "80€-200€"},
-      {"name": "Reparação fuga de água", "price_range": "50€-250€"},
+      {"name": "Arranjo fuga de água", "price_range": "50€-250€"},
       {"name": "Instalação esquentador", "price_range": "150€-400€"},
-      {"name": "Reparação esquentador", "price_range": "60€-200€"},
+      {"name": "Arranjo esquentador", "price_range": "60€-200€"},
       {"name": "Instalação sanitária completa", "price_range": "500€-3000€"},
-      {"name": "Reparação torneira/autoclismo", "price_range": "30€-60€"}
+      {"name": "Arranjo torneira/autoclismo", "price_range": "30€-60€"}
     ],
     "equipment": ["Ridgid K-6200", "Câmara de inspeção de canos", "Detetor de fugas", "Equipamento de pressão"],
     "cities_served": [

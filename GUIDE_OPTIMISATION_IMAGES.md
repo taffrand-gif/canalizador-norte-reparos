@@ -182,7 +182,7 @@ sizes="(max-width: 768px) 100vw, 25vw"
 // ✅ BON - Descriptif et contextualisé
 <OptimizedImage
   src="/plumber.jpg"
-  alt="Canalizador profissional reparando fuga de água em Vila Real"
+  alt="Canalizador profissional arranjando fuga de água em Vila Real"
 />
 
 // ❌ MAUVAIS - Trop générique

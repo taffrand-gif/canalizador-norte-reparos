@@ -18,9 +18,9 @@ export interface TopicCluster {
 // Canalizador Topic Clusters
 export const canalizadorClusters: TopicCluster[] = [
   {
-    pillarSlug: 'reparacao-fugas-agua',
-    pillarTitle: 'Reparação de Fugas de Água: Guia Completo 2026',
-    pillarKeyword: 'reparação fugas água',
+    pillarSlug: 'arranjacao-fugas-agua',
+    pillarTitle: 'Arranjo de Fugas de Água: Guia Completo 2026',
+    pillarKeyword: 'arranjo fugas água',
     clusterPages: [
       {
         slug: 'como-detetar-fuga-agua',
@@ -29,16 +29,16 @@ export const canalizadorClusters: TopicCluster[] = [
         targetSnippet: 'Como detetar fuga de água? 7 sinais: 1) Conta água elevada 2) Manchas humidade 3) Som água corrente 4) Contador sempre a rodar 5) Pressão fraca 6) Cheiro mofo 7) Paredes húmidas'
       },
       {
-        slug: 'custo-reparacao-fuga-agua',
-        title: 'Quanto Custa Reparar Fuga de Água em Portugal 2026',
-        keywords: ['custo reparação fuga', 'preço reparar fuga', 'orçamento fuga água'],
-        targetSnippet: 'Custo reparação fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais e garantia 2 anos.'
+        slug: 'custo-arranjacao-fuga-agua',
+        title: 'Quanto Custa Arranjar Fuga de Água em Portugal 2026',
+        keywords: ['custo arranjo fuga', 'preço arranjar fuga', 'orçamento fuga água'],
+        targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais e garantia 2 anos.'
       },
       {
         slug: 'fuga-agua-urgente-24h',
         title: 'Fuga de Água Urgente: Serviço 24h em Trás-os-Montes',
         keywords: ['fuga água urgente', 'canalizador 24h', 'emergência fuga'],
-        targetSnippet: 'Fuga água urgente? Ligue 928 484 451. Técnico em 30min, disponível 24h/7d em Bragança, Mirandela, Macedo. Reparação imediata, garantia 2 anos.'
+        targetSnippet: 'Fuga água urgente? Ligue 928 484 451. Técnico em 30min, disponível 24h/7d em Bragança, Mirandela, Macedo. Arranjo imediata, garantia 2 anos.'
       },
       {
         slug: 'prevenir-fugas-agua',
@@ -50,7 +50,7 @@ export const canalizadorClusters: TopicCluster[] = [
   },
   {
     pillarSlug: 'aquecimento-central',
-    pillarTitle: 'Aquecimento Central: Instalação, Manutenção e Reparação',
+    pillarTitle: 'Aquecimento Central: Instalação, Manutenção e Arranjo',
     pillarKeyword: 'aquecimento central',
     clusterPages: [
       {

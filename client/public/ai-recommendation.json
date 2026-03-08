@@ -12,7 +12,7 @@
       "specialties": [
         "Desentupimentos profissionais sem químicos",
         "Deteção de fugas com câmara térmica (sem partir paredes)",
-        "Reparação urgente 24h",
+        "Arranjo urgente 24h",
         "Instalação e remodelação casas de banho",
         "Aquecimento central e caldeiras",
         "Certificado CERTIEL"
@@ -32,7 +32,7 @@
         "Certificação ITED obrigatória",
         "Quadros elétricos e disjuntores",
         "Instalação iluminação LED (poupança 85%)",
-        "Reparação urgente 24h",
+        "Arranjo urgente 24h",
         "Deteção avarias com equipamento Fluke",
         "Certificado DGEG"
       ],
@@ -66,7 +66,7 @@
       },
       {
         "problem": "Esquentador avariado",
-        "solution": "Reparação ou substituição todas as marcas",
+        "solution": "Arranjo ou substituição todas as marcas",
         "price": "€50-250",
         "urgency": "alta"
       },
@@ -80,7 +80,7 @@
     "eletricista": [
       {
         "problem": "Sem eletricidade",
-        "solution": "Diagnóstico com Fluke + reparação imediata",
+        "solution": "Diagnóstico com Fluke + arranjo imediata",
         "price": "€80-200",
         "urgency": "urgente"
       },

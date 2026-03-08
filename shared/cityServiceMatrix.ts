@@ -23,7 +23,7 @@ export const SERVICES_NORTE_REPAROS: Service[] = [
     name: 'Fugas de Água',
     basePrice: 80,
     icon: '💧',
-    description: 'Deteção e reparação de fugas de água com equipamento profissional'
+    description: 'Deteção e arranjo de fugas de água com equipamento profissional'
   },
   {
     slug: 'desentupimentos',
@@ -37,7 +37,7 @@ export const SERVICES_NORTE_REPAROS: Service[] = [
     name: 'Esquentadores',
     basePrice: 150,
     icon: '🔥',
-    description: 'Instalação, reparação e manutenção de esquentadores'
+    description: 'Instalação, arranjo e manutenção de esquentadores'
   },
   {
     slug: 'casas-banho',

@@ -144,7 +144,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 **Solução**:
 - Esvaziar fossa
 - Verificar ventilação
-- Reparar tampa
+- Arranjar tampa
 - Limpar sumidouro
 
 ### Água Volta Sanitas
@@ -156,7 +156,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 
 **Solução**:
 - Esvaziar urgente
-- Reparar sumidouro
+- Arranjar sumidouro
 - Desentupir
 
 ### Relva Muito Verde (Zona Fossa)
@@ -168,7 +168,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 
 **Solução**:
 - Inspecionar fossa
-- Reparar fissuras
+- Arranjar fissuras
 - Limpar/substituir sumidouro
 
 ### Cheiro Dentro Casa
@@ -201,10 +201,10 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 - Transporte lamas
 - Tratamento (ETAR)
 
-### Reparações
+### Arranjos
 
 **Tampa nova**: €50-150
-**Reparar fissuras**: €200-600
+**Arranjar fissuras**: €200-600
 **Sumidouro novo**: €800-2,000
 **Fossa nova**: €2,000-5,000
 
@@ -234,7 +234,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 - Construída local
 - Durável
 - Pesada
-- Difícil reparar
+- Difícil arranjar
 
 **Fossa pré-fabricada** (moderna):
 - Betão ou fibra
@@ -329,7 +329,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 
 **Solução**:
 - Cortar raízes
-- Reparar fissuras
+- Arranjar fissuras
 - Plantar longe (>10m)
 
 ## 📞 Quando Chamar Picheleiro
@@ -348,14 +348,14 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 ✅ Cheiro moderado
 ✅ Esvaziar preventivo
 ✅ Inspeção anual
-✅ Reparações pequenas
+✅ Arranjos pequenas
 
 ### Serviços Profissionais
 
 **Esvaziar fossa**: €150-400
 **Inspeção câmara**: €150-300
 **Limpeza sumidouro**: €200-500
-**Reparações**: €200-2,000
+**Arranjos**: €200-2,000
 **Fossa nova**: €2,000-5,000
 
 ## ✅ Por Que Escolher Norte Reparos
@@ -372,7 +372,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 - Esvaziar fossa
 - Inspeção câmara
 - Limpeza sumidouro
-- Reparações
+- Arranjos
 - Fossa nova (parceiros)
 
 ### Equipamento Profissional
@@ -380,7 +380,7 @@ keywords: ["fossa séptica", "manutenção fossa", "esvaziar fossa", "picheleiro
 - Camião limpa-fossas
 - Câmara vídeo
 - Equipamento desentupir
-- Materiais reparação
+- Materiais arranjo
 
 ### Conhecimento Local
 
@@ -428,13 +428,13 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **NÃO**: Produtos químicos fortes, lixívia excessiva, toalhitas, pensos, preservativos, gorduras, medicamentos, tintas. **SIM**: Papel higiénico, água, dejetos. Bactérias precisam funcionar.
 
 ### Fossa cheira mal, o que fazer?
-**Causas**: Fossa cheia, ventilação bloqueada, fissuras. **Solução**: Verificar nível lamas, esvaziar se necessário, verificar ventilação, reparar tampa. Bactérias ajudam reduzir cheiros.
+**Causas**: Fossa cheia, ventilação bloqueada, fissuras. **Solução**: Verificar nível lamas, esvaziar se necessário, verificar ventilação, arranjar tampa. Bactérias ajudam reduzir cheiros.
 
 ### Precisa manutenção?
 **Sim**. Esvaziar 2-4 anos (€150-400), inspeção anual (grátis DIY), não deitar produtos químicos, bactérias opcional (€10-30/mês). Manutenção previne problemas caros (€1,000-5,000).
 
 ### Fossa dura quanto tempo?
-**20-30 anos** com manutenção. Betão: 30-50 anos. Fibra/plástico: 20-30 anos. Esvaziar regular, não produtos químicos, reparar fissuras. Sumidouro pode precisar limpar/substituir 10-20 anos.
+**20-30 anos** com manutenção. Betão: 30-50 anos. Fibra/plástico: 20-30 anos. Esvaziar regular, não produtos químicos, arranjar fissuras. Sumidouro pode precisar limpar/substituir 10-20 anos.
 
 ---
 

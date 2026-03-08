@@ -47,7 +47,7 @@ A **Norte Reparos** usa câmara térmica FLIR de €5000+ que:
 - **Não precisa partir paredes, chão ou azulejos**
 - Precisão 95%+
 
-**Preço**: €80-120 (vs €500-2000 para partir e reparar paredes)
+**Preço**: €80-120 (vs €500-2000 para partir e arranjar paredes)
 
 ### Teste de Pressão
 Pressurizamos o sistema de água e medimos perda de pressão. Se a pressão cai, há fuga. Identifica gravidade mas não localização exata.
@@ -74,12 +74,12 @@ Para fugas em canalização enterrada:
 ### Médio Prazo (3-12 meses)
 - Danos estruturais: paredes, tetos
 - Infiltrações em vizinhos (responsabilidade sua)
-- Reparações: €500-2000
+- Arranjos: €500-2000
 
 ### Longo Prazo (1+ ano)
 - Estrutura comprometida: vigas, fundações
 - Risco de colapso parcial
-- Reparações: €5000-20,000+
+- Arranjos: €5000-20,000+
 
 **Detetar cedo poupa milhares de euros.**
 
@@ -146,7 +146,7 @@ Resposta em 5 minutos. Sem compromisso.
 **€80-120** com câmara térmica FLIR. Muito mais barato que partir paredes (€500-2000).
 
 ### Quanto tempo demora?
-**15-30 minutos** para detetar com câmara térmica. Reparação depende da gravidade (1-4 horas).
+**15-30 minutos** para detetar com câmara térmica. Arranjo depende da gravidade (1-4 horas).
 
 ### Precisa partir paredes?
 **Não** com câmara térmica FLIR. Identificamos localização exata sem obras.

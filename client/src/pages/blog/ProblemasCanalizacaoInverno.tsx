@@ -226,7 +226,7 @@ export default function ProblemasCanalizacaoInverno() {
             <div className="bg-white rounded-xl p-6 shadow-lg mb-6">
               <p className="text-gray-700 mb-4">
                 O isolamento térmico é a forma mais eficaz de proteger tubagens. Invista €100-300 e evite 
-                reparações de €1.000-5.000.
+                arranjos de €1.000-5.000.
               </p>
               <h3 className="font-bold text-lg mb-3">Tipos de Isolamento:</h3>
               <div className="space-y-4">
@@ -369,7 +369,7 @@ export default function ProblemasCanalizacaoInverno() {
                   <span className="w-10 h-10 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</span>
                   <div>
                     <strong className="text-red-600">LIGUE CANALIZADOR DE URGÊNCIA</strong>
-                    <p className="text-sm text-gray-700 mt-1">Não tente reparar sozinho. Tubo rebentado requer substituição.</p>
+                    <p className="text-sm text-gray-700 mt-1">Não tente arranjar sozinho. Tubo rebentado requer substituição.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">

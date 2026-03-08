@@ -43,7 +43,7 @@ keywords: ["caldeira antiga", "trocar caldeira", "caldeira condensação", "bomb
 ### 3. Avarias Frequentes
 
 **Padrão**:
-- Reparação anual
+- Arranjo anual
 - Custo €150-400 cada
 - Peças indisponíveis
 - Técnico difícil encontrar
@@ -85,7 +85,7 @@ keywords: ["caldeira antiga", "trocar caldeira", "caldeira condensação", "bomb
 - Marca saiu mercado
 - Modelo antigo
 - Peças indisponíveis
-- **Impossível reparar**
+- **Impossível arranjar**
 
 ### 8. Não Cumpre Normas
 

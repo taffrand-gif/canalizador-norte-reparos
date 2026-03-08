@@ -18,7 +18,7 @@ As emergências de canalização podem causar danos significativos em poucas hor
 
 ### Principais Emergências que Resolvemos 24/7:
 
-1. **Fugas de água visíveis ou ocultas** - Deteção e reparação urgente
+1. **Fugas de água visíveis ou ocultas** - Deteção e arranjo urgente
 2. **Canalizações totalmente entupidas** - Desentupimento com equipamento profissional
 3. **Falta de água em toda a casa** - Diagnóstico e restauro rápido
 4. **Retorno de águas residuais** - Situações de risco sanitário
@@ -39,7 +39,7 @@ Chegamos em até **1 hora** na zona urbana de Vila Real com tecnologia de ponta:
 ### 3. Orçamento Transparente Antes da Intervenção
 Apresentamos um **orçamento detalhado e grátis** com todas as opções possíveis. Sem surpresas, apenas soluções.
 
-### 4. Reparação Imediata com Garantia
+### 4. Arranjo Imediata com Garantia
 Com peças de reposição no veículo e técnicas minimamente invasivas, resolvemos a maioria das emergências na primeira visita.
 
 ## Tabela de Preços Referenciais - Canalizador Urgente Vila Real
@@ -49,8 +49,8 @@ Com peças de reposição no veículo e técnicas minimamente invasivas, resolve
 | Diagnóstico de emergência | €35-€60 | €45 | 30-60 min |
 | Desentupimento simples (pia/lavatório) | €40-€80 | €60 | 30-45 min |
 | Desentupimento complexo (esgoto principal) | €120-€250 | €180 | 2-4 horas |
-| Reparação de fuga visível | €65-€130 | €95 | 1-2 horas |
-| Localização e reparação fuga oculta | €150-€300 | €220 | 2-5 horas |
+| Arranjo de fuga visível | €65-€130 | €95 | 1-2 horas |
+| Localização e arranjo fuga oculta | €150-€300 | €220 | 2-5 horas |
 | Intervenção em sistema aquecimento | €80-€180 | €130 | 1-3 horas |
 
 *Nota: Preços podem variar conforme complexidade e materiais necessários. Orçamento sempre gratuito e sem compromisso.*
@@ -109,11 +109,11 @@ Quando a água se torna um problema, cada minuto conta para evitar danos maiores
 
 ---
 
-*Este artigo foi escrito pela equipa da **Norte Reparos - Canalizador Profissional em Vila Real**. Especialistas em emergências de canalização, desentupimentos e reparações urgentes na região de Trás-os-Montes.*
+*Este artigo foi escrito pela equipa da **Norte Reparos - Canalizador Profissional em Vila Real**. Especialistas em emergências de canalização, desentupimentos e arranjos urgentes na região de Trás-os-Montes.*
 
 **Artigos Relacionados:**
 - [Preço Desentupimento Canalizações - Orçamento Grátis](/preco-desentupimento-canalizacoes)
-- [Reparação Fugas Água - Técnicas Profissionais](/reparacao-fugas-agua)
+- [Arranjo Fugas Água - Técnicas Profissionais](/arranjacao-fugas-agua)
 - [Instalação Sanitários - Preço por Unidade](/instalacao-sanitarios-preco)
 
 **Fontes e Referências:**

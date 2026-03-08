@@ -92,7 +92,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 
 **Como limpar filtro (passo a passo):**
 
-1. **Preparação:**
+1. **Parranjo:**
    - Desligue máquina da tomada
    - Coloque toalhas no chão (água vai sair)
    - Prepare balde ou tabuleiro raso
@@ -292,7 +292,7 @@ Com base na nossa experiência de 800+ intervenções em Trás-os-Montes:
 - Requer multímetro e conhecimento
 
 **Solução:**
-- **Reparar cabo:** €40-100
+- **Arranjar cabo:** €40-100
 - **Substituir placa:** €80-250 (peça) + €60-120 (instalação)
 - **Dificuldade:** Profissional obrigatório
 
@@ -386,7 +386,7 @@ Se não identificou o problema:
 | Substituir bomba | €100-200 |
 | Desentupir esgoto | €80-200 |
 | Substituir pressostato | €90-180 |
-| Reparar problema elétrico | €80-250 |
+| Arranjar problema elétrico | €80-250 |
 | Substituir placa eletrónica | €140-370 |
 
 ---
@@ -428,7 +428,7 @@ Limpe o filtro (45% dos casos). Localização: parte inferior frontal, atrás de
 **2. Posso drenar água manualmente?**  
 Sim. Use mangueira de emergência (se existir) ou abra filtro (água vai sair).
 
-**3. Quanto custa reparar máquina que não drena?**  
+**3. Quanto custa arranjar máquina que não drena?**  
 DIY: €0-25. Profissional: €40-370 (depende da causa).
 
 **4. Bomba faz ruído mas não drena. O que é?**  
@@ -437,10 +437,10 @@ Filtro entupido (60%), mangueira obstruída (25%), ou esgoto entupido (15%).
 **5. Bomba não faz ruído. Está queimada?**  
 Provavelmente. Teste: limpe filtro, inicie drenagem. Se silêncio total → bomba defeituosa.
 
-**6. Vale a pena reparar ou comprar nova?**  
-Reparar se: máquina <7 anos, reparação <50% do preço de nova. Substituir se: >10 anos ou reparação cara.
+**6. Vale a pena arranjar ou comprar nova?**  
+Arranjar se: máquina <7 anos, arranjo <50% do preço de nova. Substituir se: >10 anos ou arranjo cara.
 
-**7. Quanto tempo demora reparar?**  
+**7. Quanto tempo demora arranjar?**  
 Limpar filtro: 15 min. Substituir bomba: 1-2 horas. Desentupir esgoto: 1-3 horas.
 
 **8. Como evitar que filtro entupa?**  
@@ -452,7 +452,7 @@ Esvazie bolsos, use sacos de rede para peças pequenas, limpe filtro mensalmente
 
 Uma máquina de lavar que não drena é **frustrante mas geralmente tem solução simples**. Em 45% dos casos, basta **limpar o filtro** (€0, 15 minutos). Outros 30% resolvem-se com limpeza de mangueira ou desentupimento de esgoto.
 
-**Apenas 25% requerem substituição de componentes** (bomba, pressostato, placa), e mesmo nesses casos, a reparação é viável se a máquina tiver menos de 7-10 anos.
+**Apenas 25% requerem substituição de componentes** (bomba, pressostato, placa), e mesmo nesses casos, a arranjo é viável se a máquina tiver menos de 7-10 anos.
 
 **Estratégia recomendada:**
 1. **Limpe filtro** (€0, 15 min)
@@ -476,7 +476,7 @@ Uma máquina de lavar que não drena é **frustrante mas geralmente tem soluçã
 **✅ Garantias Norte Reparos:**
 - Picheleiros certificados com 15+ anos de experiência
 - Diagnóstico preciso (identifica causa exata)
-- Reparação rápida (1-2 horas)
+- Arranjo rápida (1-2 horas)
 - Peças de qualidade (originais ou equivalentes)
 - Garantia de 6 meses no trabalho
 - Orçamento transparente antes de iniciar
@@ -492,4 +492,4 @@ Uma máquina de lavar que não drena é **frustrante mas geralmente tem soluçã
 
 ---
 
-*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Reparações Rápidas | 928 484 451*
+*Norte Reparos - Picheleiro Certificado em Trás-os-Montes | Arranjos Rápidas | 928 484 451*

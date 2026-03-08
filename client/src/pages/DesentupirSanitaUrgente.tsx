@@ -65,7 +65,7 @@ export default function DesentupirSanitaUrgente() {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
               <Shield className="w-8 h-8 text-yellow-300 mb-2" />
               <p className="font-bold">Garantia 6 meses</p>
-              <p className="text-sm text-orange-100">Se voltar, reparamos grátis</p>
+              <p className="text-sm text-orange-100">Se voltar, arranjamos grátis</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
               <CheckCircle className="w-8 h-8 text-yellow-300 mb-2" />
@@ -316,7 +316,7 @@ export default function DesentupirSanitaUrgente() {
               },
               {
                 q: 'E se o problema voltar?',
-                a: 'Garantia de 6 meses. Se o entupimento voltar, reparamos gratuitamente. Sem perguntas.'
+                a: 'Garantia de 6 meses. Se o entupimento voltar, arranjamos gratuitamente. Sem perguntas.'
               },
               {
                 q: 'Aceitam que formas de pagamento?',

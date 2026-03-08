@@ -1,6 +1,6 @@
 ---
 title: "Prevenção Entupimentos - Dicas Práticas e Eficazes"
-description: "Aprenda a prevenir entupimentos nas canalizações com dicas práticas e eficazes. Evite problemas e economize em reparações."
+description: "Aprenda a prevenir entupimentos nas canalizações com dicas práticas e eficazes. Evite problemas e economize em arranjos."
 slug: prevencao-entupimentos
 date: 2026-03-09
 author: Norte Reparos

@@ -34,10 +34,10 @@ export default function FaltaLuzUrgente() {
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar falta de luz?",
+        "name": "Quanto custa arranjar falta de luz?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Diagnóstico gratuito. Reparações desde €80. Problema no quadro €150-300. Problema na instalação €200-500. Orçamento no local."
+          "text": "Diagnóstico gratuito. Arranjos desde €80. Problema no quadro €150-300. Problema na instalação €200-500. Orçamento no local."
         }
       }
     ]
@@ -87,7 +87,7 @@ export default function FaltaLuzUrgente() {
           {
             icon: 'money',
             title: 'Medo de Gastar Muito',
-            description: 'Não sabe se é reparação de €100 ou €1000. Medo de chamar eletricista à noite e pagar fortuna.',
+            description: 'Não sabe se é arranjo de €100 ou €1000. Medo de chamar eletricista à noite e pagar fortuna.',
             consequence: 'Adia a chamada. Família passa a noite às escuras. Inaceitável.'
           }
         ]}
@@ -120,7 +120,7 @@ export default function FaltaLuzUrgente() {
           {
             time: '60-90 min',
             title: 'Luz Restaurada',
-            description: 'Reparamos o problema. Testamos tudo. Luz volta. Família tranquila novamente.',
+            description: 'Arranjamos o problema. Testamos tudo. Luz volta. Família tranquila novamente.',
             icon: 'check'
           }
         ]}
@@ -152,7 +152,7 @@ export default function FaltaLuzUrgente() {
             name: 'Catarina Lopes',
             city: 'Chaves',
             problem: 'Casa às escuras',
-            solution: 'Inverno, frio, sem luz, sem aquecimento. Crianças com frio. Vieram urgente, descobriram curto no quadro. Repararam. Salvaram a nossa noite!',
+            solution: 'Inverno, frio, sem luz, sem aquecimento. Crianças com frio. Vieram urgente, descobriram curto no quadro. Arranjaram. Salvaram a nossa noite!',
             timeframe: '1h15',
             rating: 5,
             verified: true
@@ -161,7 +161,7 @@ export default function FaltaLuzUrgente() {
             name: 'Vasco Fernandes',
             city: 'Vila Real',
             problem: 'Falta luz parcial',
-            solution: 'Metade da casa sem luz. Descobriram problema no quadro. Repararam, testaram tudo. Trabalho rápido e eficiente. Top!',
+            solution: 'Metade da casa sem luz. Descobriram problema no quadro. Arranjaram, testaram tudo. Trabalho rápido e eficiente. Top!',
             timeframe: '1 hora',
             rating: 5,
             verified: true
@@ -170,7 +170,7 @@ export default function FaltaLuzUrgente() {
             name: 'Diana Costa',
             city: 'Macedo de Cavaleiros',
             problem: 'Emergência noturna',
-            solution: 'Meia-noite, tudo às escuras, idosos em casa. Atenderam, vieram na hora. Descobriram fio partido. Repararam. Muito obrigada!',
+            solution: 'Meia-noite, tudo às escuras, idosos em casa. Atenderam, vieram na hora. Descobriram fio partido. Arranjaram. Muito obrigada!',
             timeframe: '1h30',
             rating: 5,
             verified: true
@@ -201,7 +201,7 @@ export default function FaltaLuzUrgente() {
           {
             icon: 'shield',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações têm garantia de 2 anos. Se voltar a falhar, voltamos grátis.'
+            description: 'Todas as arranjos têm garantia de 2 anos. Se voltar a falhar, voltamos grátis.'
           },
           {
             icon: 'check',
@@ -284,8 +284,8 @@ export default function FaltaLuzUrgente() {
                 a: '1) Verifique se vizinhos têm luz. Se não, é problema da EDP (ligue 800 506 506). 2) Se só você não tem, vá ao quadro e verifique o disjuntor principal. 3) Se disjuntor está ligado mas não há luz, LIGUE +351 932 321 892 imediatamente. 4) Use lanternas, não velas. 5) Mantenha família segura. Chegamos em 20 minutos e resolvemos.'
               },
               {
-                q: 'Quanto custa reparar falta de luz?',
-                a: 'Diagnóstico gratuito. Reparações simples (disjuntor, fusível) €80-120. Problema no quadro €150-300. Problema na instalação €200-500. Reparações complexas €500-1000. Damos sempre orçamento antes de começar. Em emergências, garantimos luz restaurada.'
+                q: 'Quanto custa arranjar falta de luz?',
+                a: 'Diagnóstico gratuito. Arranjos simples (disjuntor, fusível) €80-120. Problema no quadro €150-300. Problema na instalação €200-500. Arranjos complexas €500-1000. Damos sempre orçamento antes de começar. Em emergências, garantimos luz restaurada.'
               },
               {
                 q: 'Atendem emergências de madrugada?',
@@ -293,15 +293,15 @@ export default function FaltaLuzUrgente() {
               },
               {
                 q: 'Quanto tempo demora a resolver?',
-                a: 'Chegamos em 20 minutos. Diagnóstico 15-30 minutos. Reparação 30-60 minutos. Total: 1-2 horas na maioria dos casos. Problemas complexos podem demorar mais, mas fazemos reparação temporária para ter luz enquanto resolvemos definitivamente.'
+                a: 'Chegamos em 20 minutos. Diagnóstico 15-30 minutos. Arranjo 30-60 minutos. Total: 1-2 horas na maioria dos casos. Problemas complexos podem demorar mais, mas fazemos arranjo temporária para ter luz enquanto resolvemos definitivamente.'
               },
               {
                 q: 'Pode ser problema da EDP?',
                 a: 'Sim, pode. Se TODOS os vizinhos também não têm luz, é problema da rede EDP. Ligue 800 506 506 (linha de avarias EDP). Se só você não tem luz, é problema na sua instalação - ligue-nos +351 932 321 892.'
               },
               {
-                q: 'Dão garantia na reparação?',
-                a: 'Sim! Garantia de 2 anos em todas as reparações. Se voltar a faltar luz pela mesma causa, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
+                q: 'Dão garantia na arranjo?',
+                a: 'Sim! Garantia de 2 anos em todas as arranjos. Se voltar a faltar luz pela mesma causa, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
               }
             ].map((item, i) => (
               <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

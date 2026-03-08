@@ -34,11 +34,11 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
     {
       icon: '💧',
       title: 'Fuga de Água Visível',
-      description: 'Reparação de fuga identificada',
+      description: 'Arranjo de fuga identificada',
       priceRange: '80-145€',
       details: [
         'Deslocação incluída (Zona 1)',
-        'Reparação completa',
+        'Arranjo completa',
         'Material incluído',
         'Garantia 3 meses'
       ],
@@ -47,25 +47,25 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
     {
       icon: '🔍',
       title: 'Fuga Oculta',
-      description: 'Deteção + reparação de fuga escondida',
+      description: 'Deteção + arranjo de fuga escondida',
       priceRange: '210-405€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Deteção com equipamento',
-        'Reparação incluída',
+        'Arranjo incluída',
         'Relatório detalhado'
       ],
       popular: true
     },
     {
       icon: '🔥',
-      title: 'Reparação Esquentador',
-      description: 'Diagnóstico e reparação',
+      title: 'Arranjo Esquentador',
+      description: 'Diagnóstico e arranjo',
       priceRange: '80-210€',
       details: [
         'Deslocação incluída (Zona 1)',
         'Diagnóstico completo',
-        'Reparação ou substituição peças',
+        'Arranjo ou substituição peças',
         'Garantia 3 meses'
       ]
     },
@@ -83,7 +83,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
     },
     {
       icon: '🚽',
-      title: 'Reparação Sanita',
+      title: 'Arranjo Sanita',
       description: 'Autoclismo, mecanismo ou vedação',
       priceRange: '80-145€',
       details: [

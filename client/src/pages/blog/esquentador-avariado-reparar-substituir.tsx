@@ -2,25 +2,25 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, AlertTriangle, CheckCircle, Wrench, Euro, TrendingUp, Clock } from 'lucide-react';
 
-export default function EsquentadorAvariadoRepararSubstituir() {
+export default function EsquentadorAvariadoArranjarSubstituir() {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quando devo reparar ou substituir o esquentador?",
+        "name": "Quando devo arranjar ou substituir o esquentador?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Repare se: esquentador tem menos de 8 anos, avaria simples (termóstato, pilhas), custo reparação <50% do novo. Substitua se: mais de 10 anos, avarias frequentes, custo reparação >60% do novo, ou consumo excessivo de gás."
+          "text": "Repare se: esquentador tem menos de 8 anos, avaria simples (termóstato, pilhas), custo arranjo <50% do novo. Substitua se: mais de 10 anos, avarias frequentes, custo arranjo >60% do novo, ou consumo excessivo de gás."
         }
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar um esquentador em Bragança?",
+        "name": "Quanto custa arranjar um esquentador em Bragança?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Reparações comuns em Bragança: trocar termóstato 60-90€, limpar queimador 50-70€, substituir membrana 70-100€, trocar válvula gás 80-120€. Diagnóstico: 30-40€ (descontado se autorizar reparação)."
+          "text": "Arranjos comuns em Bragança: trocar termóstato 60-90€, limpar queimador 50-70€, substituir membrana 70-100€, trocar válvula gás 80-120€. Diagnóstico: 30-40€ (descontado se autorizar arranjo)."
         }
       },
       {
@@ -41,20 +41,20 @@ export default function EsquentadorAvariadoRepararSubstituir() {
       },
       {
         "@type": "Question",
-        "name": "Vale a pena reparar um esquentador com 12 anos?",
+        "name": "Vale a pena arranjar um esquentador com 12 anos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Geralmente não. Com 12 anos, o esquentador está no fim da vida útil. Mesmo reparado, outras peças vão falhar em breve. Esquentadores novos são 30-40% mais eficientes, poupando gás. Melhor investir num novo com garantia de 2-5 anos."
+          "text": "Geralmente não. Com 12 anos, o esquentador está no fim da vida útil. Mesmo arranjado, outras peças vão falhar em breve. Esquentadores novos são 30-40% mais eficientes, poupando gás. Melhor investir num novo com garantia de 2-5 anos."
         }
       }
     ]
   };
 
   const criterios = {
-    reparar: [
+    arranjar: [
       { criterio: "Idade do esquentador", valor: "Menos de 8 anos" },
       { criterio: "Tipo de avaria", valor: "Simples (termóstato, pilhas, membrana)" },
-      { criterio: "Custo da reparação", valor: "Menos de 50% do preço de um novo" },
+      { criterio: "Custo da arranjo", valor: "Menos de 50% do preço de um novo" },
       { criterio: "Histórico de avarias", valor: "Primeira ou segunda avaria" },
       { criterio: "Eficiência energética", valor: "Ainda consome pouco gás" },
       { criterio: "Garantia", valor: "Ainda dentro da garantia" }
@@ -62,7 +62,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
     substituir: [
       { criterio: "Idade do esquentador", valor: "Mais de 10 anos" },
       { criterio: "Tipo de avaria", valor: "Grave (permutador, válvula principal)" },
-      { criterio: "Custo da reparação", valor: "Mais de 60% do preço de um novo" },
+      { criterio: "Custo da arranjo", valor: "Mais de 60% do preço de um novo" },
       { criterio: "Histórico de avarias", valor: "Avarias frequentes (3+ por ano)" },
       { criterio: "Eficiência energética", valor: "Consumo excessivo de gás" },
       { criterio: "Peças de substituição", valor: "Difíceis de encontrar ou caras" }
@@ -72,10 +72,10 @@ export default function EsquentadorAvariadoRepararSubstituir() {
   return (
     <>
       <Helmet>
-        <title>Esquentador Avariado: Reparar ou Substituir? [Guia 2026] | Norte Reparos</title>
-        <meta name="description" content="Esquentador avariado? Descubra quando vale a pena reparar ou substituir. Critérios, custos reais em Bragança e calculadora de decisão. Guia completo 2026." />
-        <meta name="keywords" content="esquentador avariado, reparar esquentador, substituir esquentador, canalizador Bragança, preço esquentador" />
-        <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/esquentador-avariado-reparar-substituir" />
+        <title>Esquentador Avariado: Arranjar ou Substituir? [Guia 2026] | Norte Reparos</title>
+        <meta name="description" content="Esquentador avariado? Descubra quando vale a pena arranjar ou substituir. Critérios, custos reais em Bragança e calculadora de decisão. Guia completo 2026." />
+        <meta name="keywords" content="esquentador avariado, arranjar esquentador, substituir esquentador, canalizador Bragança, preço esquentador" />
+        <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/esquentador-avariado-arranjar-substituir" />
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
         </script>
@@ -89,7 +89,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
               Guia de Decisão 2026
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Esquentador Avariado: Reparar ou Substituir?
+              Esquentador Avariado: Arranjar ou Substituir?
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               Tome a decisão certa com base em critérios objetivos: idade, custo, eficiência e histórico de avarias.
@@ -106,8 +106,8 @@ export default function EsquentadorAvariadoRepararSubstituir() {
             <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
             <p className="text-gray-700 leading-relaxed">
               <strong>Regra geral:</strong> Repare se o esquentador tem menos de 8 anos e o custo é inferior a 50% de um novo.
-              Substitua se tem mais de 10 anos, avarias frequentes, ou reparação custa mais de 60% de um novo.
-              <strong>Em Bragança:</strong> reparação 50-120€, esquentador novo instalado 250-900€.
+              Substitua se tem mais de 10 anos, avarias frequentes, ou arranjo custa mais de 60% de um novo.
+              <strong>Em Bragança:</strong> arranjo 50-120€, esquentador novo instalado 250-900€.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                 </div>
 
                 <div className="border-l-4 border-orange-600 pl-6">
-                  <h3 className="font-bold text-lg mb-2">2. Quanto custa a reparação?</h3>
+                  <h3 className="font-bold text-lg mb-2">2. Quanto custa a arranjo?</h3>
                   <div className="space-y-2 text-sm">
                     <p>• <strong>Menos de 100€:</strong> <span className="text-green-600 font-bold">REPARAR</span> (vale a pena)</p>
                     <p>• <strong>100-200€:</strong> <span className="text-yellow-600 font-bold">AVALIAR</span> (considere idade)</p>
@@ -149,9 +149,9 @@ export default function EsquentadorAvariadoRepararSubstituir() {
 
           {/* Tabela Comparativa */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Quando Reparar vs Quando Substituir</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Quando Arranjar vs Quando Substituir</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Reparar */}
+              {/* Arranjar */}
               <div className="bg-green-50 border-2 border-green-200 rounded-xl overflow-hidden">
                 <div className="bg-green-600 text-white px-6 py-4">
                   <h3 className="text-xl font-bold flex items-center gap-2">
@@ -161,7 +161,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                 </div>
                 <div className="p-6">
                   <ul className="space-y-3">
-                    {criterios.reparar.map((item, i) => (
+                    {criterios.arranjar.map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                         <div>
@@ -203,9 +203,9 @@ export default function EsquentadorAvariadoRepararSubstituir() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Custos Reais em Bragança (2026)</h2>
 
-            {/* Reparações */}
+            {/* Arranjos */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Reparações Comuns</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Arranjos Comuns</h3>
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <table className="w-full">
                   <thead className="bg-gray-100">
@@ -222,7 +222,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                       { avaria: "Trocar termóstato", custo: "60-90€", tempo: "45-60 min" },
                       { avaria: "Substituir membrana", custo: "70-100€", tempo: "1h" },
                       { avaria: "Trocar válvula gás", custo: "80-120€", tempo: "1-1.5h" },
-                      { avaria: "Reparar permutador", custo: "120-180€", tempo: "2h" }
+                      { avaria: "Arranjar permutador", custo: "120-180€", tempo: "2h" }
                     ].map((item, i) => (
                       <tr key={i} className="hover:bg-gray-50">
                         <td className="px-4 py-3 text-gray-900">{item.avaria}</td>
@@ -234,7 +234,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                 </table>
               </div>
               <p className="text-sm text-gray-600 mt-2">
-                * Diagnóstico: 30-40€ (descontado se autorizar reparação)
+                * Diagnóstico: 30-40€ (descontado se autorizar arranjo)
               </p>
             </div>
 
@@ -273,7 +273,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
 
           {/* CTA Meio */}
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
-            <h3 className="text-2xl font-bold mb-4">Não Sabe Se Deve Reparar ou Substituir?</h3>
+            <h3 className="text-2xl font-bold mb-4">Não Sabe Se Deve Arranjar ou Substituir?</h3>
             <p className="text-lg mb-6 opacity-90">
               Diagnóstico gratuito. Avaliamos o esquentador e damos-lhe a melhor recomendação.
             </p>
@@ -307,7 +307,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                 },
                 {
                   titulo: "Garantia 2-5 Anos",
-                  descricao: "Reparações gratuitas durante a garantia. Paz de espírito sem custos inesperados.",
+                  descricao: "Arranjos gratuitas durante a garantia. Paz de espírito sem custos inesperados.",
                   icon: <CheckCircle className="w-8 h-8 text-blue-600" />
                 },
                 {
@@ -317,7 +317,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                 },
                 {
                   titulo: "Sem Avarias Frequentes",
-                  descricao: "Esquentador novo = sem chatices durante 5-8 anos. Reparado pode avariar novamente em meses.",
+                  descricao: "Esquentador novo = sem chatices durante 5-8 anos. Arranjado pode avariar novamente em meses.",
                   icon: <Clock className="w-8 h-8 text-orange-600" />
                 }
               ].map((item, i) => (
@@ -418,9 +418,9 @@ export default function EsquentadorAvariadoRepararSubstituir() {
                   <p className="text-sm text-gray-600">Qual a melhor opção para sua casa?</p>
                 </a>
               </Link>
-              <Link href="/servicos/reparacao-esquentadores">
+              <Link href="/servicos/arranjacao-esquentadores">
                 <a className="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <h3 className="font-bold text-gray-900 mb-2">Reparação de Esquentadores</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">Arranjo de Esquentadores</h3>
                   <p className="text-sm text-gray-600">Serviço profissional em Trás-os-Montes</p>
                 </a>
               </Link>
@@ -437,7 +437,7 @@ export default function EsquentadorAvariadoRepararSubstituir() {
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
             <h3 className="text-3xl font-bold mb-4">Diagnóstico e Orçamento Gratuito</h3>
             <p className="text-lg mb-6 opacity-90 max-w-2xl mx-auto">
-              Avaliamos o seu esquentador e recomendamos a melhor solução: reparar ou substituir.
+              Avaliamos o seu esquentador e recomendamos a melhor solução: arranjar ou substituir.
               Atendimento em Bragança, Mirandela, Chaves e toda a região.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">

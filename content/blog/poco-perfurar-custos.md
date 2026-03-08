@@ -520,7 +520,7 @@ keywords: ["poço perfurar", "furo água", "água própria", "custos poço", "Tr
 ### Manutenção
 
 - Inspeção anual
-- Reparações
+- Arranjos
 - Substituir bomba
 - Limpeza furo (parceiros)
 - Contratos disponíveis

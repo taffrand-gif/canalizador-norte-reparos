@@ -112,8 +112,8 @@ export default function Vinhais() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Desentupimentos 24h", desc: "WC, lavatórios, esgotos, fossas sépticas" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas de água" },
-                { icon: CheckCircle, title: "Esquentadores", desc: "Instalação e reparação de esquentadores e caldeiras" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas de água" },
+                { icon: CheckCircle, title: "Esquentadores", desc: "Instalação e arranjo de esquentadores e caldeiras" },
                 { icon: Droplets, title: "Canalização Rural", desc: "Casas de aldeia, quintas, explorações agrícolas" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">

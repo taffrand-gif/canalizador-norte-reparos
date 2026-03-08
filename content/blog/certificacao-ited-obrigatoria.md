@@ -50,7 +50,7 @@ keywords: ["certificação ITED", "ITED obrigatório", "certificado telecomunica
 
 ❌ Casa construída antes 2004 (sem obras)
 ❌ Obras pequenas (pintura, cozinha, casa banho)
-❌ Reparações elétricas simples
+❌ Arranjos elétricas simples
 ❌ Manutenção
 
 **MAS**: Mesmo não obrigatório, certificação valoriza imóvel e facilita venda/arrendamento.
@@ -288,7 +288,7 @@ keywords: ["certificação ITED", "ITED obrigatório", "certificado telecomunica
 
 3. **Fibra ótica**
    - Instalar tubagem fibra
-   - Preparar para futuro
+   - Parranjar para futuro
    - Valorização imediata
 
 ## 🔧 ITED vs ITED2 vs ITED3
@@ -309,7 +309,7 @@ keywords: ["certificação ITED", "ITED obrigatório", "certificado telecomunica
 
 - **Versão atual**
 - Cat6 mínimo (recomendado Cat7)
-- Fibra ótica preparada
+- Fibra ótica parranjada
 - Requisitos mais rigorosos
 
 **Importante**: Certificação deve cumprir versão vigente na data construção/obras.

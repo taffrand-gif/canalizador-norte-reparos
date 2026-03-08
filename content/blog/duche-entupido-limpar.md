@@ -1,7 +1,7 @@
 ---
 title: "Duche Entupido: Como Limpar em 15 Minutos (Guia 2026)"
 slug: "duche-entupido-limpar"
-category: "Reparações DIY"
+category: "Arranjos DIY"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Duche entupido com água parada? Descubra 6 métodos eficazes para limpar em 15 minutos. Guia completo com soluções caseiras e quando chamar picheleiro em Trás-os-Montes."
@@ -403,7 +403,7 @@ R: Desentupimento simples €60-80 (normal) ou €100-120 (urgente 24h). Norte R
 **P: Produtos químicos são seguros?**
 R: Use apenas como último recurso. Nunca misture produtos. Ventile bem. Prefira métodos naturais (bicarbonato + vinagre).
 
-## Conclusão: Prevenção é Melhor que Reparação
+## Conclusão: Prevenção é Melhor que Arranjo
 
 **Duche entupido tem solução simples na maioria dos casos.** Remoção manual de cabelos resolve 80% dos problemas em 15 minutos. Para entupimentos persistentes ou problemas estruturais, não hesite em chamar um picheleiro profissional.
 
@@ -426,4 +426,4 @@ R: Use apenas como último recurso. Nunca misture produtos. Ventile bem. Prefira
 
 ---
 
-**Invista 5 minutos por semana em prevenção. Poupe centenas de euros em reparações!**
+**Invista 5 minutos por semana em prevenção. Poupe centenas de euros em arranjos!**

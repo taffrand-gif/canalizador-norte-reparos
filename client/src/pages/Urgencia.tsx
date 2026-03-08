@@ -96,7 +96,7 @@ function Urgencia() {
               </h3>
 
               <div className="space-y-3 mb-6">
-                <p className="text-gray-700"><strong>Cada hora sem reparação:</strong></p>
+                <p className="text-gray-700"><strong>Cada hora sem arranjo:</strong></p>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start gap-2">
                     <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
@@ -119,7 +119,7 @@ function Urgencia() {
 
               <div className="bg-red-50 rounded-lg p-4 mb-4">
                 <p className="text-sm font-bold text-red-900">
-                  💰 Dia 1: €100 reparação<br />
+                  💰 Dia 1: €100 arranjo<br />
                   💰 Semana 1: €500+ em danos
                 </p>
               </div>

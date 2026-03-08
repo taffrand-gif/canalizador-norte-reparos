@@ -288,7 +288,7 @@ priority: "SEASONAL"
 
 **Solução:** Técnico certificado
 - Diagnóstico €60-120
-- Reparação €80-300
+- Arranjo €80-300
 
 ## Como Purgar Radiadores (Guia Detalhado)
 
@@ -309,7 +309,7 @@ priority: "SEASONAL"
 
 ### Procedimento Completo:
 
-**Preparação:**
+**Parranjo:**
 1. Ligue aquecimento (caldeira quente)
 2. Aguarde 30 minutos (sistema quente)
 3. Identifique todos os radiadores
@@ -403,7 +403,7 @@ priority: "SEASONAL"
 - **Custo:** €250-550
 
 **2. Fuga no sistema:**
-- Localizar e reparar
+- Localizar e arranjar
 - **Custo:** €80-300
 
 **3. Limpeza química:**
@@ -465,7 +465,7 @@ R: Purgar radiadores €60-100, substituir bomba €250-550, limpeza química �
 
 📞 **Ligue Agora: 928 484 451**
 - ✅ Purgar radiadores €60-100
-- ✅ Reparar bomba circuladora €250-550
+- ✅ Arranjar bomba circuladora €250-550
 - ✅ Limpeza química sistema €150-300
 - ✅ Equilibrar sistema €80-150
 - ✅ Manutenção caldeira €80-150

@@ -1,11 +1,11 @@
 ---
 title: "Aquecedor de Água Não Aquece: 8 Causas e Soluções (2026)"
 slug: "aquecedor-agua-nao-aquece"
-category: "Reparações"
+category: "Arranjos"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Termoacumulador ou esquentador não aquece água? Descubra as 8 causas principais (desde resistência queimada até calcário) e como resolver. Guia completo com custos e prevenção."
-keywords: ["aquecedor água não aquece", "termoacumulador não funciona", "esquentador avariado", "água fria", "picheleiro Bragança", "reparar termoacumulador"]
+keywords: ["aquecedor água não aquece", "termoacumulador não funciona", "esquentador avariado", "água fria", "picheleiro Bragança", "arranjar termoacumulador"]
 priority: "CRITICAL"
 ---
 
@@ -186,7 +186,7 @@ Sobrecarga, curto-circuito, ou disjuntor defeituoso.
 - NÃO force
 - Há curto-circuito ou sobrecarga
 - Chame eletricista: **[932 321 892](tel:+351932321892)**
-- Custo reparação: €60-150
+- Custo arranjo: €60-150
 
 ### Causa 5: Cabo Elétrico Danificado (3% dos casos)
 
@@ -224,7 +224,7 @@ Corrosão interna do tanque. Mais comum em termoacumuladores com 10+ anos sem an
 
 **Solução: Substituir termoacumulador (€150-500)**
 
-**Não compensa reparar.** Tanque furado = fim de vida útil.
+**Não compensa arranjar.** Tanque furado = fim de vida útil.
 
 **Custos:**
 - Termoacumulador 50L: €150-300
@@ -320,7 +320,7 @@ Válvula de segurança bloqueada não alivia pressão. **MUITO PERIGOSO** - risc
 
 **Solução: Descalcificação ou substituição (€100-300)**
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Termoacumulador
 
@@ -349,7 +349,7 @@ Válvula de segurança bloqueada não alivia pressão. **MUITO PERIGOSO** - risc
 
 **Urgência 24h:** +€50-80
 
-> 💡 **Precisa de reparação urgente?** Picheleiro certificado: **[928 484 451](tel:+351928484451)** — Diagnóstico grátis, intervenção rápida.
+> 💡 **Precisa de arranjo urgente?** Picheleiro certificado: **[928 484 451](tel:+351928484451)** — Diagnóstico grátis, intervenção rápida.
 
 ## 🛡️ Prevenção e Manutenção
 
@@ -407,8 +407,8 @@ Válvula de segurança bloqueada não alivia pressão. **MUITO PERIGOSO** - risc
 **1. Quanto tempo dura um termoacumulador?**
 Com manutenção adequada: 10-15 anos. Sem manutenção: 5-8 anos. Fatores: qualidade da água (calcário), anilha de magnésio, temperatura ajustada.
 
-**2. Vale a pena reparar ou comprar novo?**
-**Reparar se:** < 8 anos, problema simples (resistência, termóstato), custo < 50% do novo. **Substituir se:** > 10 anos, tanque furado, múltiplos problemas, consumo excessivo.
+**2. Vale a pena arranjar ou comprar novo?**
+**Arranjar se:** < 8 anos, problema simples (resistência, termóstato), custo < 50% do novo. **Substituir se:** > 10 anos, tanque furado, múltiplos problemas, consumo excessivo.
 
 **3. Termoacumulador consome muita eletricidade?**
 Sim. 50L consome ~2-3 kWh/dia (€0,60-0,90/dia, €18-27/mês). Dicas: temperatura 60-65°C, isolamento térmico, desligar se ausente > 3 dias, descalcificar regularmente.
@@ -454,7 +454,7 @@ Aquecedor de água que não funciona é **problema crítico**, especialmente no 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20aquecedor%20de%20água%20não%20está%20a%20funcionar.%20Preciso%20de%20ajuda%20urgente!)**
 
 ✅ Atendimento 24 horas (urgências)  
-✅ Reparação de termoacumuladores e esquentadores  
+✅ Arranjo de termoacumuladores e esquentadores  
 ✅ Diagnóstico grátis  
 ✅ Peças de substituição em stock  
 ✅ Garantia 1 ano no serviço  

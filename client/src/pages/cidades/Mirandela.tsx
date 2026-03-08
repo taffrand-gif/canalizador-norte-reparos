@@ -35,7 +35,7 @@ export default function Mirandela() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador urgente mirandela, canalizador 24 horas mirandela, canalizador mirandela, canalizador profissional mirandela, desentupimento mirandela, fuga água mirandela, reparação canalização mirandela, instalação sanitários mirandela, canalizador trás-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador urgente mirandela, canalizador 24 horas mirandela, canalizador mirandela, canalizador profissional mirandela, desentupimento mirandela, fuga água mirandela, arranjo canalização mirandela, instalação sanitários mirandela, canalizador trás-os-montes');
     
     
     // Canonical URL
@@ -57,7 +57,7 @@ export default function Mirandela() {
       "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Mirandela",
       "image": "/images/hero/hero-plumber-portugal.png",
-      "description": "Canalizador profissional em Mirandela, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
+      "description": "Canalizador profissional em Mirandela, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -201,7 +201,7 @@ export default function Mirandela() {
               </p>
               <p className="text-gray-700">
                 O clima transmontano, com invernos rigorosos e verões quentes, exige sistemas de aquecimento robustos
-                e canalizações preparadas para variações térmicas extremas. As propriedades junto ao Rio Tua requerem
+                e canalizações parranjadas para variações térmicas extremas. As propriedades junto ao Rio Tua requerem
                 atenção especial à humidade e prevenção de infiltrações.
               </p>
             </div>
@@ -283,7 +283,7 @@ export default function Mirandela() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
                   <span className="text-blue-600">❄️</span>
-                  Preparados para Invernos Rigorosos
+                  Parranjados para Invernos Rigorosos
                 </h3>
                 <p className="text-gray-600">
                   Mirandela regista temperaturas negativas frequentes no inverno. Instalamos isolamentos

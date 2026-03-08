@@ -110,7 +110,7 @@ Prevenção:
 💧 Drenar canos de casas desocupadas
 🚰 Deixar torneira a pingar em noites muito frias
 
-Preparamos a sua casa para o inverno.
+Parranjamos a sua casa para o inverno.
 
 📞 +351 928 484 451
 🔗 canalizador-norte-reparos.pt/blog/proteger-canos-gelo-montanha

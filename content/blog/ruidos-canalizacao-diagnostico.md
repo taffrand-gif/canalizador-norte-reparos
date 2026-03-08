@@ -237,7 +237,7 @@ keywords: ["ruídos canalização", "canos fazem barulho", "golpe de aríete", "
 **Solução**:
 - Localizar origem do som
 - Verificar todas as válvulas
-- Reparar fuga (€80-200)
+- Arranjar fuga (€80-200)
 
 ## 🔍 Como Diagnosticar
 
@@ -313,7 +313,7 @@ Use a tabela acima para identificar o tipo de ruído.
 
 **Assobios**:
 - Substituir vedantes: €30-60
-- Reparar torneiras: €50-100
+- Arranjar torneiras: €50-100
 
 **Vibração**:
 - Fixar canos: €80-150
@@ -322,7 +322,7 @@ Use a tabela acima para identificar o tipo de ruído.
 ### Ruídos Graves (URGENTE)
 
 **Fuga escondida**:
-- Deteção + reparação: €150-800
+- Deteção + arranjo: €150-800
 
 **Esquentador explosões**:
 - Limpeza urgente: €80-150
@@ -330,19 +330,19 @@ Use a tabela acima para identificar o tipo de ruído.
 **Golpe aríete severo**:
 - Sistema completo: €200-400
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa: €50-80
 - Teste pressão: €30-50
 - Deteção fugas: €80-120
 
-### Reparações Comuns
+### Arranjos Comuns
 - Amortecedor golpe aríete: €80-150
 - Válvula redutora pressão: €80-150
 - Fixar canos soltos: €60-120
 - Isolar canos: €50-150
-- Reparar fuga: €150-400
+- Arranjar fuga: €150-400
 
 ### Preventivas
 - Manutenção anual: €80-120
@@ -405,7 +405,7 @@ Use a tabela acima para identificar o tipo de ruído.
 
 ### Experiência Comprovada
 - 10+ anos experiência
-- 500+ sistemas reparados
+- 500+ sistemas arranjados
 - 4.9/5 estrelas
 - Especialistas em casas antigas
 
@@ -438,7 +438,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **Depende do tipo**. Estalos térmicos são normais. Golpe de aríete e explosões esquentador são perigosos.
 
 ### Quanto custa resolver?
-**€50-400** para maioria dos casos. Diagnóstico: €50-80. Amortecedores: €80-150. Reparações: €100-400.
+**€50-400** para maioria dos casos. Diagnóstico: €50-80. Amortecedores: €80-150. Arranjos: €100-400.
 
 ### Posso ignorar?
 **Não recomendado**. Ruídos indicam stress no sistema. Podem causar fugas e danos ao longo do tempo.

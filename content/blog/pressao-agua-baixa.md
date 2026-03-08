@@ -151,7 +151,7 @@ Fuga em tubo enterrado, parede, ou ligação solta. A água escapa antes de cheg
 5. Aguarde 1 hora sem usar água
 6. Se consumo aumentou = fuga confirmada
 
-**Solução: Localizar e reparar fuga (€80-500)**
+**Solução: Localizar e arranjar fuga (€80-500)**
 
 **Como localizar:**
 - Verifique pontos visíveis (debaixo de lava-loiças, autoclismos)
@@ -159,7 +159,7 @@ Fuga em tubo enterrado, parede, ou ligação solta. A água escapa antes de cheg
 - Ouça ruído de água (use estetoscópio ou copo de vidro na parede)
 - Chame profissional com equipamento de deteção (€60-120)
 
-**Custo reparação:**
+**Custo arranjo:**
 - Fuga visível simples: €60-150
 - Fuga em parede (precisa abrir): €150-400
 - Fuga enterrada: €200-800
@@ -289,9 +289,9 @@ Contador DN15 (diâmetro 15mm) limita o caudal. Casa grande precisa DN20 ou DN25
 |---------|-------------------------|
 | Diagnóstico completo | €40-80 |
 | Limpar tubagem (descalcificação) | €150-400 |
-| Reparar fuga visível | €60-150 |
-| Reparar fuga em parede | €150-400 |
-| Reparar fuga enterrada | €200-800 |
+| Arranjar fuga visível | €60-150 |
+| Arranjar fuga em parede | €150-400 |
+| Arranjar fuga enterrada | €200-800 |
 | Instalar bomba pressurizadora | €230-600 |
 | Substituir tubagem (T3) | €1.200-2.500 |
 | Substituir redutor de pressão | €80-180 |
@@ -406,7 +406,7 @@ Não. Bomba compensa pressão baixa mas não resolve: fugas, tubos entupidos, ou
 Bomba: €150-400. Instalação: €80-200. Total: €230-600. Consumo elétrico: 100-300W quando funciona (€0,02-0,06/hora). Liga automaticamente quando abre torneira.
 
 **4. Posso aumentar a pressão sozinho?**
-Depende da causa. Limpar filtros, abrir válvulas: sim. Instalar bomba, reparar fugas, substituir tubagem: recomendo profissional (risco de inundação, instalação incorreta).
+Depende da causa. Limpar filtros, abrir válvulas: sim. Instalar bomba, arranjar fugas, substituir tubagem: recomendo profissional (risco de inundação, instalação incorreta).
 
 **5. Pressão baixa só de manhã, porquê?**
 Hora de pico (7-9h). Muita gente usa água ao mesmo tempo, pressão da rede cai. Normal em prédios e zonas densas. Solução: bomba pressurizadora ou reservatório.
@@ -428,7 +428,7 @@ Pressão de água baixa tem **múltiplas causas**, desde simples (filtro entupid
 1. **Filtros entupidos** (35%) → Limpar (grátis)
 2. **Válvula parcialmente fechada** (20%) → Abrir (grátis)
 3. **Tubagem entupida** (15%) → Substituir (€1.200-2.500) ou bomba (€230-600)
-4. **Fuga de água** (10%) → Reparar (€60-800)
+4. **Fuga de água** (10%) → Arranjar (€60-800)
 5. **Problema na rede** (10%) → Contactar entidade gestora
 
 **Diagnóstico:**

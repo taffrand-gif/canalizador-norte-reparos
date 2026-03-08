@@ -184,7 +184,7 @@ export default function ManutencaoEsquentador() {
                     <p className="text-sm text-gray-600">Limpeza + verificação completa</p>
                   </div>
                   <div>
-                    <h3 className="font-bold mb-2">Reparação</h3>
+                    <h3 className="font-bold mb-2">Arranjo</h3>
                     <div className="text-3xl font-black text-blue-600">80€ - 150€</div>
                     <p className="text-sm text-gray-600">Depende da peça a substituir</p>
                   </div>

@@ -6,7 +6,7 @@ export default function Equipa() {
     {
       icon: <Award className="w-10 h-10" />,
       stat: '500+',
-      label: 'Canalizações Reparadas',
+      label: 'Canalizações Arranjadas',
       desc: 'Fugas ocultas encontradas sem partir um único azulejo — câmara de inspeção Ridgid.',
     },
     {

@@ -41,7 +41,7 @@ Se a água está perto de tomadas ou quadro elétrico:
 
 - Tire fotos/vídeos dos danos
 - Necessário para seguro
-- Ajuda o canalizador a preparar-se
+- Ajuda o canalizador a parranjar-se
 
 ### 5. Ligue para Canalizador Urgente (30 segundos)
 
@@ -91,19 +91,19 @@ Canos têm vida útil limitada:
 - Ferro galvanizado: 40-50 anos
 - Chumbo: 30-40 anos (SUBSTITUIR)
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
-### Reparação Simples
+### Arranjo Simples
 - Cano acessível (visível)
 - Substituição 1-2 metros
 - **€80-150** + deslocação
 
-### Reparação Média
+### Arranjo Média
 - Cano semi-oculto (teto falso, armário)
 - Substituição 2-5 metros
 - **€150-300** + deslocação
 
-### Reparação Complexa
+### Arranjo Complexa
 - Cano oculto (parede, chão)
 - Partir azulejos/parede
 - Substituição 5+ metros
@@ -117,7 +117,7 @@ Canos têm vida útil limitada:
 
 **Seguro habitação normalmente cobre** (verifique apólice).
 
-## 🛠️ Reparação Temporária (Até Canalizador Chegar)
+## 🛠️ Arranjo Temporária (Até Canalizador Chegar)
 
 ### Método 1: Fita Autofusível
 1. Seque bem o cano
@@ -211,7 +211,7 @@ Em Trás-os-Montes, temperaturas chegam a **-10°C**:
 ### Isolamento Térmico
 - Espuma térmica em canos exteriores: €2-5/metro
 - Caixa isolada para contador: €30-50
-- **Investimento: €50-150 vs €500-2000 reparação**
+- **Investimento: €50-150 vs €500-2000 arranjo**
 
 ### Drenagem (Casas Desocupadas)
 Se casa fica vazia no inverno:
@@ -224,7 +224,7 @@ Se casa fica vazia no inverno:
 Em noites muito frias (-5°C ou menos):
 - Deixe torneira a pingar (1 gota/segundo)
 - Água em movimento não congela
-- Custa €0.50-1/noite vs €500+ reparação
+- Custa €0.50-1/noite vs €500+ arranjo
 
 ## 💬 Contacte-nos Agora
 
@@ -238,10 +238,10 @@ Em noites muito frias (-5°C ou menos):
 
 ## ❓ Perguntas Frequentes
 
-### Quanto custa reparar um cano rebentado?
+### Quanto custa arranjar um cano rebentado?
 **€80-800** dependendo da localização e extensão do dano. Orçamento grátis por telefone.
 
-### Quanto tempo demora a reparação?
+### Quanto tempo demora a arranjo?
 **1-4 horas** para maioria dos casos. Emergências são prioridade máxima.
 
 ### O seguro cobre?

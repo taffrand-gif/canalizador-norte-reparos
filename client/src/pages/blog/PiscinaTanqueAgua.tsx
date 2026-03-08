@@ -366,7 +366,7 @@ export default function PiscinaTanqueAgua() {
           <div className="container text-center">
             <Droplets className="w-16 h-16 mx-auto mb-6 opacity-80" />
             <h2 className="text-3xl font-black mb-4">
-              Precisa de Instalar ou Reparar Sistema de Água?
+              Precisa de Instalar ou Arranjar Sistema de Água?
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Instalamos e fazemos manutenção de piscinas, tanques e sistemas de irrigação em 

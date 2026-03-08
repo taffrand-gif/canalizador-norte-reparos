@@ -1,7 +1,7 @@
 ---
 title: "Sanita Entupida: Como Desentupir Rápido (Guia 2026)"
 slug: "sanita-entupida-desentupir"
-category: "Reparações Urgentes"
+category: "Arranjos Urgentes"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Sanita entupida? Descubra 5 métodos eficazes para desentupir em 10 minutos. Guia completo com técnicas profissionais e quando chamar picheleiro em Trás-os-Montes."

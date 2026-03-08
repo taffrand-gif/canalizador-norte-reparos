@@ -17,7 +17,7 @@ export default function TransparencePrix() {
   // Prix détaillés par service (Canalizador)
   const forfaits = [
     {
-      title: "Pequena Reparação",
+      title: "Pequena Arranjo",
       price: "35€ - 50€",
       duration: "30 min",
       includes: [
@@ -33,7 +33,7 @@ export default function TransparencePrix() {
       duration: "1h",
       includes: [
         "Desentupimento canalização",
-        "Reparação tubagens",
+        "Arranjo tubagens",
         "Substituição válvulas",
         "Garantia 6 meses"
       ]
@@ -55,7 +55,7 @@ export default function TransparencePrix() {
       duration: "1-2h",
       includes: [
         "Diagnóstico completo",
-        "Reparação ou substituição",
+        "Arranjo ou substituição",
         "Teste de segurança",
         "Certificação gás (se aplicável)"
       ]
@@ -79,7 +79,7 @@ export default function TransparencePrix() {
         "Câmara de inspeção HD",
         "Localização exata problema",
         "Relatório com imagens",
-        "Orçamento reparação"
+        "Orçamento arranjo"
       ]
     }
   ];
@@ -96,7 +96,7 @@ export default function TransparencePrix() {
   const faqPrix = [
     {
       question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
-      answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida em 40 minutos, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal reparada pode causar infiltrações e danos estruturais."
+      answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida em 40 minutos, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
     },
     {
       question: "O preço final pode ser diferente do orçamento?",
@@ -128,7 +128,7 @@ export default function TransparencePrix() {
     <>
       <SEOHead
         title={`Transparência de Preços - O ÚNICO Canalizador de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
-        description="Somos o ÚNICO canalizador em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena reparação desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
+        description="Somos o ÚNICO canalizador em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
       />
 
       <Header />
@@ -351,8 +351,8 @@ export default function TransparencePrix() {
                   O Barato Sai Caro em Canalização
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
-                  Uma fuga mal reparada pode causar infiltrações, danos estruturais, e bolor.
-                  Poupar 30€ hoje pode custar-lhe milhares em reparações amanhã. Nós garantimos qualidade e durabilidade.
+                  Uma fuga mal arranjada pode causar infiltrações, danos estruturais, e bolor.
+                  Poupar 30€ hoje pode custar-lhe milhares em arranjos amanhã. Nós garantimos qualidade e durabilidade.
                 </p>
               </div>
             </div>
@@ -379,7 +379,7 @@ export default function TransparencePrix() {
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <div className="text-3xl font-black mb-2">6 meses</div>
-                  <div className="text-white/80">Garantia Reparações</div>
+                  <div className="text-white/80">Garantia Arranjos</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                   <div className="text-3xl font-black mb-2">500.000€</div>

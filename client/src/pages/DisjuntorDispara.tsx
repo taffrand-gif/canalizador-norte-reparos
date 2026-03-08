@@ -34,10 +34,10 @@ export default function DisjuntorDispara() {
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar disjuntor que dispara?",
+        "name": "Quanto custa arranjar disjuntor que dispara?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Diagnóstico gratuito. Reparações desde €80. Substituição disjuntor €120-200. Reparação circuitos €150-400. Orçamento no local."
+          "text": "Diagnóstico gratuito. Arranjos desde €80. Substituição disjuntor €120-200. Arranjo circuitos €150-400. Orçamento no local."
         }
       }
     ]
@@ -107,7 +107,7 @@ export default function DisjuntorDispara() {
           },
           {
             time: '10-40 min',
-            title: 'Chegamos Preparados',
+            title: 'Chegamos Parranjados',
             description: 'Eletricista certificado chega com equipamento de teste. Pronto para diagnosticar.',
             icon: 'map'
           },
@@ -120,7 +120,7 @@ export default function DisjuntorDispara() {
           {
             time: '90-180 min',
             title: 'Problema Resolvido',
-            description: 'Reparamos ou substituímos o necessário. Testamos tudo. Disjuntor não dispara mais.',
+            description: 'Arranjamos ou substituímos o necessário. Testamos tudo. Disjuntor não dispara mais.',
             icon: 'check'
           }
         ]}
@@ -161,7 +161,7 @@ export default function DisjuntorDispara() {
             name: 'Lurdes Fernandes',
             city: 'Vila Real',
             problem: 'Curto circuito',
-            solution: 'Disjuntor disparava constantemente. Descobriram curto numa tomada da cozinha. Repararam, testaram tudo. Excelente trabalho!',
+            solution: 'Disjuntor disparava constantemente. Descobriram curto numa tomada da cozinha. Arranjaram, testaram tudo. Excelente trabalho!',
             timeframe: '1h45',
             rating: 5,
             verified: true
@@ -179,7 +179,7 @@ export default function DisjuntorDispara() {
             name: 'Conceição Alves',
             city: 'Mogadouro',
             problem: 'Disjuntor dispara noite',
-            solution: 'Disjuntor disparava sempre à noite. Descobriram aquecedor com problema. Repararam, explicaram tudo. Muito profissionais!',
+            solution: 'Disjuntor disparava sempre à noite. Descobriram aquecedor com problema. Arranjaram, explicaram tudo. Muito profissionais!',
             timeframe: '1h30',
             rating: 5,
             verified: true
@@ -201,7 +201,7 @@ export default function DisjuntorDispara() {
           {
             icon: 'shield',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações têm garantia de 2 anos. Se voltar a disparar, voltamos grátis.'
+            description: 'Todas as arranjos têm garantia de 2 anos. Se voltar a disparar, voltamos grátis.'
           },
           {
             icon: 'clock',
@@ -234,7 +234,7 @@ export default function DisjuntorDispara() {
               },
               {
                 title: 'Curto Circuito',
-                desc: 'Fio descarnado toca em metal ou outro fio. Corrente dispara. Solução: identificar e reparar curto.',
+                desc: 'Fio descarnado toca em metal ou outro fio. Corrente dispara. Solução: identificar e arranjar curto.',
                 icon: '🔥'
               },
               {
@@ -281,8 +281,8 @@ export default function DisjuntorDispara() {
                 a: 'Causas principais: 1) Sobrecarga - muitos aparelhos ligados. 2) Curto circuito - fio descarnado. 3) Aparelho avariado - frigorífico, máquina lavar. 4) Disjuntor defeituoso - antigo ou avariado. 5) Instalação antiga - fios degradados. 6) Humidade - água em tomadas. Ligue +351 932 321 892. Identificamos a causa exata com equipamento profissional.'
               },
               {
-                q: 'Quanto custa reparar?',
-                a: 'Diagnóstico gratuito (só paga se resolver). Reparações simples €80-120. Substituição disjuntor €120-200. Reparação circuitos €150-400. Reforço instalação €300-800. Damos sempre orçamento no local antes de começar. Preço fixo, sem surpresas.'
+                q: 'Quanto custa arranjar?',
+                a: 'Diagnóstico gratuito (só paga se resolver). Arranjos simples €80-120. Substituição disjuntor €120-200. Arranjo circuitos €150-400. Reforço instalação €300-800. Damos sempre orçamento no local antes de começar. Preço fixo, sem surpresas.'
               },
               {
                 q: 'Posso forçar o disjuntor a ficar ligado?',
@@ -294,11 +294,11 @@ export default function DisjuntorDispara() {
               },
               {
                 q: 'Resolvem no mesmo dia?',
-                a: 'Sim! Na maioria dos casos (80%) resolvemos no mesmo dia. Trazemos disjuntores, ferramentas e peças comuns. Casos complexos (renovar instalação) podem demorar 2-3 dias, mas fazemos reparação temporária para ter eletricidade enquanto isso.'
+                a: 'Sim! Na maioria dos casos (80%) resolvemos no mesmo dia. Trazemos disjuntores, ferramentas e peças comuns. Casos complexos (renovar instalação) podem demorar 2-3 dias, mas fazemos arranjo temporária para ter eletricidade enquanto isso.'
               },
               {
                 q: 'Dão garantia?',
-                a: 'Sim! Garantia de 2 anos em todas as reparações. Se o disjuntor voltar a disparar pela mesma causa, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
+                a: 'Sim! Garantia de 2 anos em todas as arranjos. Se o disjuntor voltar a disparar pela mesma causa, voltamos gratuitamente e resolvemos. Trabalho certificado e garantido.'
               }
             ].map((item, i) => (
               <div key={i} className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

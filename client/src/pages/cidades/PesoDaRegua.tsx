@@ -113,7 +113,7 @@ export default function PesoDaRegua() {
                 { icon: Droplets, title: "Canalização para Caves", desc: "Redes de água e drenagem para caves de Vinho do Porto e armazéns" },
                 { icon: Shield, title: "Canalização Hoteleira", desc: "Instalação e manutenção para hotéis, restaurantes e cozinhas industriais" },
                 { icon: Wrench, title: "Desentupimentos Urbanos", desc: "Esgotos, colunas de prédios e redes pluviais da cidade" },
-                { icon: CheckCircle, title: "Reparação de Fugas", desc: "Deteção eletrónica e reparação de fugas em edifícios e caves" },
+                { icon: CheckCircle, title: "Arranjo de Fugas", desc: "Deteção eletrónica e arranjo de fugas em edifícios e caves" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

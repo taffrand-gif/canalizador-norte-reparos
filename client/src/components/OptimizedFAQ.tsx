@@ -3,15 +3,15 @@ import React, { useState } from 'react';
 const faqItems = [
   {
     question: "Quanto custa chamar um canalizador em Trás-os-Montes?",
-    answer: "O valor depende do tipo de serviço. Oferecemos orçamento gratuito e sem compromisso. Para serviços básicos como desentupimentos simples, os preços começam em €60. Para reparações mais complexas, o valor é avaliado no local."
+    answer: "O valor depende do tipo de serviço. Oferecemos orçamento gratuito e sem compromisso. Para serviços básicos como desentupimentos simples, os preços começam em €60. Para arranjos mais complexas, o valor é avaliado no local."
   },
   {
     question: "Fazem serviço de urgência ao fim de semana?",
     answer: "Sim, estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados, para urgências de canalização como fugas de água graves, entupimentos totais e outros problemas urgentes."
   },
   {
-    question: "Quanto tempo demora uma reparação de fuga de água?",
-    answer: "A maioria das reparações são resolvidas no próprio dia. Fugas mais complexas que exigem abertura de paredes ou substituição de canalizações extensas podem demorar até 48 horas. Utilizamos equipamento de deteção de fugas para localização precisa."
+    question: "Quanto tempo demora uma arranjo de fuga de água?",
+    answer: "A maioria das arranjos são resolvidas no próprio dia. Fugas mais complexas que exigem abertura de paredes ou substituição de canalizações extensas podem demorar até 48 horas. Utilizamos equipamento de deteção de fugas para localização precisa."
   },
   {
     question: "Fazem instalação de aquecimento central?",

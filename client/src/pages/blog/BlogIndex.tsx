@@ -6,8 +6,8 @@ import { useSEO } from '@/hooks/useSEO';
 const BlogIndex: React.FC = () => {
   useSEO({
     title: 'Blog do Canalizador - Dicas e Guias para Canalização em Trás-os-Montes',
-    description: 'Artigos informativos sobre canalização, reparações, desentupimentos e manutenção para residências e empresas na região de Trás-os-Montes.',
-    keywords: 'blog canalizador, dicas canalização, desentupimentos, reparações água, Trás-os-Montes'
+    description: 'Artigos informativos sobre canalização, arranjos, desentupimentos e manutenção para residências e empresas na região de Trás-os-Montes.',
+    keywords: 'blog canalizador, dicas canalização, desentupimentos, arranjos água, Trás-os-Montes'
   });
 
   // Articles data - à remplacer par API/database plus tard
@@ -98,7 +98,7 @@ const BlogIndex: React.FC = () => {
   return (
     <BlogLayout
       title="Blog do Canalizador Profissional"
-      description="Dicas, guias e informações úteis sobre canalização e reparações para residências e empresas em Trás-os-Montes"
+      description="Dicas, guias e informações úteis sobre canalização e arranjos para residências e empresas em Trás-os-Montes"
     >
       {/* Hero section */}
       <div className="text-center mb-12">
@@ -167,7 +167,7 @@ const BlogIndex: React.FC = () => {
           </h3>
           <p className="text-gray-700 mb-6">
             Inscreva-se na nossa newsletter e receba mensalmente dicas de manutenção preventiva, 
-            informações sobre reparações e promoções exclusivas.
+            informações sobre arranjos e promoções exclusivas.
           </p>
           <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input

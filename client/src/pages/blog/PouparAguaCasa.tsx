@@ -308,7 +308,7 @@ export default function PouparAguaCasa() {
                     <span className="font-bold text-green-600">-€5</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>✅ Reparar fugas (-5%)</span>
+                    <span>✅ Arranjar fugas (-5%)</span>
                     <span className="font-bold text-green-600">-€2</span>
                   </div>
                 </div>

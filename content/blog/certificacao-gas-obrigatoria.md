@@ -60,7 +60,7 @@ keywords: ["certificação gás", "certificado gás", "instalação gás", "cana
 
 ❌ Casa construída antes 1999 (sem obras)
 ❌ Manutenção simples (limpeza esquentador)
-❌ Reparação sem alterar instalação
+❌ Arranjo sem alterar instalação
 ❌ Substituir botija gás (propano/butano)
 
 **MAS**: Mesmo não obrigatório, certificação garante segurança e valoriza imóvel.

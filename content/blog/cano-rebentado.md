@@ -4,14 +4,14 @@ slug: "cano-rebentado"
 category: "Emergências"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Cano rebentou e está a inundar? Descubra o que fazer imediatamente (5 passos de emergência) e como prevenir. Guia completo com causas, reparação e custos."
-keywords: ["cano rebentado", "tubo partido", "fuga água", "inundação casa", "picheleiro urgente Bragança", "reparar cano"]
+excerpt: "Cano rebentou e está a inundar? Descubra o que fazer imediatamente (5 passos de emergência) e como prevenir. Guia completo com causas, arranjo e custos."
+keywords: ["cano rebentado", "tubo partido", "fuga água", "inundação casa", "picheleiro urgente Bragança", "arranjar cano"]
 priority: "CRITICAL"
 ---
 
 # Cano Rebentado: O Que Fazer e Como Prevenir (2026)
 
-**Cano rebentou e está a inundar a casa?** Esta é uma emergência que requer ação imediata para minimizar danos. Neste guia completo, vou mostrar-lhe **o que fazer nos primeiros minutos**, como reparar e **como prevenir** que volte a acontecer.
+**Cano rebentou e está a inundar a casa?** Esta é uma emergência que requer ação imediata para minimizar danos. Neste guia completo, vou mostrar-lhe **o que fazer nos primeiros minutos**, como arranjar e **como prevenir** que volte a acontecer.
 
 > 🚨 **EMERGÊNCIA: Cano rebentado?** Picheleiro urgente 24h em Bragança: **[928 484 451](tel:+351928484451)** — Intervenção em 30 minutos, disponível sempre.
 
@@ -88,7 +88,7 @@ priority: "CRITICAL"
 3. **Contacte seguro:**
    - Verifique apólice (cobertura de danos por água)
    - Reporte sinistro
-   - Guarde faturas de reparação
+   - Guarde faturas de arranjo
 
 ## 🔍 Causas Principais de Canos Rebentados
 
@@ -162,13 +162,13 @@ priority: "CRITICAL"
 **Mais comum em:**
 - Instalações recentes (< 2 anos)
 - Trabalhos por não profissionais
-- Reparações provisórias
+- Arranjos provisórias
 
 **Sinais:**
 - Rebenta em ligação/soldadura
 - Problema após obras recentes
 
-**Solução:** Reparação profissional + verificação de toda a instalação.
+**Solução:** Arranjo profissional + verificação de toda a instalação.
 
 ### Causa 5: Desgaste Natural (5% dos casos)
 
@@ -184,17 +184,17 @@ priority: "CRITICAL"
 
 **Solução:** Substituir tubagem.
 
-## 🔧 Como Reparar Cano Rebentado
+## 🔧 Como Arranjar Cano Rebentado
 
-### Reparação Temporária (DIY - até picheleiro chegar)
+### Arranjo Temporária (DIY - até picheleiro chegar)
 
 **Materiais:**
-- Fita de reparação (€5-15)
+- Fita de arranjo (€5-15)
 - Abraçadeira metálica (€3-8)
 - Borracha (câmara de ar velha)
 - Massa epóxi (€8-15)
 
-**Método 1: Fita de Reparação**
+**Método 1: Fita de Arranjo**
 1. Seque o cano
 2. Enrole fita firmemente
 3. Sobreponha 50%
@@ -221,9 +221,9 @@ priority: "CRITICAL"
 
 **Eficácia:** 85% (temporário, 1-3 meses)
 
-**⚠️ ATENÇÃO:** Estas são soluções TEMPORÁRIAS. Chame picheleiro para reparação definitiva!
+**⚠️ ATENÇÃO:** Estas são soluções TEMPORÁRIAS. Chame picheleiro para arranjo definitiva!
 
-### Reparação Definitiva (Profissional)
+### Arranjo Definitiva (Profissional)
 
 **Opção A: Substituir Secção do Cano**
 
@@ -256,21 +256,21 @@ priority: "CRITICAL"
 **Custo:** €1.200-4.000 (casa T3)  
 **Tempo:** 2-5 dias
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
-### Reparação de Emergência
+### Arranjo de Emergência
 
 | Serviço | Preço em Trás-os-Montes |
 |---------|-------------------------|
 | Chamada urgência 24h | €80-150 |
-| Reparação temporária | €60-120 |
+| Arranjo temporária | €60-120 |
 | Substituir secção cano (acessível) | €80-200 |
 | Substituir secção cano (parede) | €150-400 |
 | Substituir cano completo | €200-800 |
 | Abrir e fechar parede | +€100-300 |
 | Fim de semana/feriado | +€50-100 |
 
-### Reparação Definitiva
+### Arranjo Definitiva
 
 | Trabalho | Preço |
 |----------|-------|
@@ -280,9 +280,9 @@ priority: "CRITICAL"
 | Instalar redutor de pressão | €100-230 |
 | Isolamento térmico de canos | €150-500 |
 
-### Custos de Danos (se não reparar rápido)
+### Custos de Danos (se não arranjar rápido)
 
-| Dano | Custo Reparação |
+| Dano | Custo Arranjo |
 |------|-----------------|
 | Chão de madeira estragado | €500-2.000 |
 | Teto estragado (andar inferior) | €300-1.500 |
@@ -290,7 +290,7 @@ priority: "CRITICAL"
 | Parede com humidade/bolor | €200-1.000 |
 | Equipamentos elétricos | €100-3.000+ |
 
-**Reparar rápido = economizar milhares!**
+**Arranjar rápido = economizar milhares!**
 
 ## 🛡️ Prevenção: Como Evitar Canos Rebentados
 
@@ -368,7 +368,7 @@ priority: "CRITICAL"
 - Canos visualmente oxidados
 - Conta de água aumentou sem razão
 
-**Prevenir é 10× mais barato que reparar emergência!**
+**Prevenir é 10× mais barato que arranjar emergência!**
 
 ## ❓ Perguntas Frequentes
 
@@ -376,13 +376,13 @@ priority: "CRITICAL"
 Siga os 5 passos de emergência: feche água, desligue eletricidade, contenha água, ligue picheleiro urgente 24h (**[928 484 451](tel:+351928484451)**), documente danos.
 
 **2. Seguro cobre cano rebentado?**
-Depende da apólice. Geralmente cobre danos consequentes (móveis, paredes) mas não a reparação do cano. Verifique sua apólice. Guarde faturas para reembolso.
+Depende da apólice. Geralmente cobre danos consequentes (móveis, paredes) mas não a arranjo do cano. Verifique sua apólice. Guarde faturas para reembolso.
 
-**3. Posso reparar sozinho?**
-Reparação temporária: sim (fita, abraçadeira). Reparação definitiva: recomendo profissional (soldadura, pressão, garantia). Reparação mal feita pode causar nova fuga.
+**3. Posso arranjar sozinho?**
+Arranjo temporária: sim (fita, abraçadeira). Arranjo definitiva: recomendo profissional (soldadura, pressão, garantia). Arranjo mal feita pode causar nova fuga.
 
-**4. Quanto tempo demora a reparar?**
-Reparação simples (secção acessível): 1-3 horas. Cano em parede: 3-8 horas. Substituir tubagem completa: 2-5 dias.
+**4. Quanto tempo demora a arranjar?**
+Arranjo simples (secção acessível): 1-3 horas. Cano em parede: 3-8 horas. Substituir tubagem completa: 2-5 dias.
 
 **5. Como sei se cano vai rebentar?**
 Sinais: manchas humidade, ferrugem, pequenas fugas, pressão irregular, ruídos, canos oxidados. Se notar, chame picheleiro preventivamente (mais barato que emergência).
@@ -419,8 +419,8 @@ Cano rebentado é **emergência que requer ação imediata**:
 - Drene tubagem se casa ficar vazia
 
 **Custos:**
-- Reparação emergência: €80-400
-- Danos se não reparar rápido: €1.000-10.000+
+- Arranjo emergência: €80-400
+- Danos se não arranjar rápido: €1.000-10.000+
 - **Prevenir é 10× mais barato!**
 
 ### 🚨 Cano Rebentado? Urgência 24 Horas em Trás-os-Montes
@@ -432,13 +432,13 @@ Cano rebentado é **emergência que requer ação imediata**:
 
 ✅ **Disponível 24 horas, 7 dias por semana**  
 ✅ **Chegamos em 30-45 minutos**  
-✅ **Reparação imediata**  
+✅ **Arranjo imediata**  
 ✅ **Equipamento profissional**  
 ✅ **Minimizamos danos**  
 ✅ **Garantia no serviço**  
 ✅ **Cobrimos Bragança, Mirandela, Macedo de Cavaleiros e toda a região**
 
-**Cada minuto conta!** Quanto mais rápido reparar, menos danos. Contacte-nos JÁ para intervenção urgente.
+**Cada minuto conta!** Quanto mais rápido arranjar, menos danos. Contacte-nos JÁ para intervenção urgente.
 
 ---
 
@@ -446,5 +446,5 @@ Cano rebentado é **emergência que requer ação imediata**:
 - [Pressão de Água Baixa: 9 Causas](/blog/pressao-agua-baixa)
 - [Fossa Séptica Cheia: Sinais e Limpeza](/blog/fossa-septica-cheia)
 - [Mau Cheiro no Ralo: 5 Causas](/blog/mau-cheiro-ralo-solucoes)
-- [Torneira Pinga: 5 Causas](/blog/torneira-pinga-causas-reparar)
+- [Torneira Pinga: 5 Causas](/blog/torneira-pinga-causas-arranjar)
 - [Picheleiro em Bragança 24h](/canalizador-braganca)

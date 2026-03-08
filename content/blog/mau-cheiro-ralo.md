@@ -447,6 +447,6 @@ Mau cheiro no ralo tem **causas identificáveis e soluções eficazes**:
 **Artigos relacionados:**
 - [Desentupir Ralo de Chuveiro: 7 Métodos](/blog/desentupir-ralo-chuveiro)
 - [Fossa Séptica Cheia: Sinais e Limpeza](/blog/fossa-septica-cheia)
-- [Torneira Pinga: 5 Causas e Reparação](/blog/torneira-pinga-causas-reparar)
+- [Torneira Pinga: 5 Causas e Arranjo](/blog/torneira-pinga-causas-arranjar)
 - [Autoclismo Não Enche: 6 Causas](/blog/autoclismo-nao-enche)
 - [Picheleiro em Bragança 24h](/canalizador-braganca)

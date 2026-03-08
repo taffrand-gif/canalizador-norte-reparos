@@ -1,6 +1,6 @@
 ---
 title: "Canalizador em Mirandela - Serviços 24h e Zona de Atuação"
-description: "Canalizador profissional em Mirandela e arredores. Serviços 24h, desentupimentos e reparações urgentes. Orçamento rápido."
+description: "Canalizador profissional em Mirandela e arredores. Serviços 24h, desentupimentos e arranjos urgentes. Orçamento rápido."
 slug: canalizador-em-mirandela
 date: 2026-03-06
 author: Norte Reparos

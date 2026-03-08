@@ -93,7 +93,7 @@ export default function Sernancelhe() {
               {[
                 { icon: Wrench, title: "Canalização Patrimonial", desc: "Modernização de redes de água em igrejas e edifícios históricos" },
                 { icon: Droplets, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações antigas de granito" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação em casas tradicionais e quintas" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo em casas tradicionais e quintas" },
                 { icon: CheckCircle, title: "Aquecimento Central", desc: "Caldeiras e radiadores para casas de montanha e turismo rural" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">

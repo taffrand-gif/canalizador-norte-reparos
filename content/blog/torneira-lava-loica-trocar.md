@@ -1,7 +1,7 @@
 ---
 title: "Trocar Torneira do Lava-Loiça: Guia Passo a Passo (2026)"
 slug: "torneira-lava-loica-trocar"
-category: "Reparações DIY"
+category: "Arranjos DIY"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Quer trocar a torneira do lava-loiça? Guia completo passo a passo com fotos, ferramentas necessárias e dicas profissionais. Aprenda a fazer em 60 minutos."
@@ -19,7 +19,7 @@ priority: "HIGH DEMAND"
 
 **1. Torneira pinga constantemente**
 - Gasta 20.000L/ano (€100-200)
-- Reparação €40-80 vs nova €50-150
+- Arranjo €40-80 vs nova €50-150
 - Se antiga (15+ anos), melhor substituir
 
 **2. Baixa pressão de água**
@@ -30,7 +30,7 @@ priority: "HIGH DEMAND"
 **3. Ferrugem ou corrosão visível**
 - Torneira antiga (20+ anos)
 - Água dura de Trás-os-Montes acelera
-- Impossível reparar, só substituir
+- Impossível arranjar, só substituir
 
 **4. Manípulo partido ou solto**
 - Peças de reposição difíceis de encontrar
@@ -44,7 +44,7 @@ priority: "HIGH DEMAND"
 
 **6. Fuga na base**
 - Vedante gasto
-- Pode reparar €30-60
+- Pode arranjar €30-60
 - Se torneira antiga, melhor substituir
 
 **7. Água sai em várias direções**
@@ -76,7 +76,7 @@ priority: "HIGH DEMAND"
 **2. Torneira Bicomando (Tradicional)**
 **Vantagens:**
 - Mais durável
-- Reparação mais barata
+- Arranjo mais barata
 - Menos sensível a calcário
 - Preço: €40-150
 
@@ -126,7 +126,7 @@ priority: "HIGH DEMAND"
 **Fixação:**
 - **1 furo:** Mais comum, fácil instalar
 - **3 furos:** Bicomando tradicional
-- **Parede:** Requer tubagem preparada
+- **Parede:** Requer tubagem parranjada
 
 **Certificação:**
 - Verifique marcação CE
@@ -174,7 +174,7 @@ priority: "HIGH DEMAND"
 
 ## Passo a Passo: Trocar Torneira (60 minutos)
 
-### FASE 1: Preparação (10 minutos)
+### FASE 1: Parranjo (10 minutos)
 
 **Passo 1: Feche a água**
 - Torneiras de seccionamento por baixo do lava-loiça (rode sentido horário)
@@ -409,7 +409,7 @@ priority: "HIGH DEMAND"
 - **Solução:** Substituir tubagem €100-300
 
 **3. Furo errado ou danificado**
-- Precisa alargar ou reparar
+- Precisa alargar ou arranjar
 - **Solução:** Picheleiro com ferramentas adequadas €80-150
 
 **4. Torneira de parede**
@@ -446,7 +446,7 @@ priority: "HIGH DEMAND"
 | Instalar torneira (cliente fornece) | €80-150 | €150-250 |
 | Fornecimento + instalação | €130-350 | €230-500 |
 | Instalar seccionamento | €40-80 | €80-120 |
-| Reparar fuga torneira | €40-80 | €80-120 |
+| Arranjar fuga torneira | €40-80 | €80-120 |
 
 ## Perguntas Frequentes (FAQ)
 

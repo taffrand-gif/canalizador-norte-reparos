@@ -20,7 +20,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos) e
 - ✅ Como identificar a causa (testes simples)
 - ✅ É seguro beber água amarela?
 - ✅ Soluções (temporárias e permanentes)
-- ✅ Custos de reparação em Trás-os-Montes
+- ✅ Custos de arranjo em Trás-os-Montes
 - ✅ Como prevenir no futuro
 
 **📞 Picheleiro 24h:** [928 484 451](tel:+351928484451)  
@@ -86,7 +86,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos) e
 
 ✅ **Água continua amarela:**
 - Causa: Problema permanente (canos/termoacumulador)
-- Solução: Reparação necessária
+- Solução: Arranjo necessária
 
 ---
 
@@ -170,7 +170,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos) e
 - Empresa de águas avisou trabalhos
 - Temporário (1-3 dias)
 
-**Causa:** Trabalhos na rede (reparações, substituição de canos) revolvem sedimentos acumulados.
+**Causa:** Trabalhos na rede (arranjos, substituição de canos) revolvem sedimentos acumulados.
 
 **É seguro beber?** Geralmente sim, mas:
 - Evite beber até clarificar

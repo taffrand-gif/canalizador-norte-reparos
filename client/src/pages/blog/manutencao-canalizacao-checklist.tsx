@@ -36,7 +36,7 @@ export default function ManutencaoCanalizacaoChecklist() {
         "name": "Manutenção preventiva realmente previne avarias?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim. Estudos mostram que manutenção preventiva reduz avarias em 80-90%. Deteta problemas pequenos antes de se tornarem emergências caras. Uma manutenção de 100€ previne reparações de 500-2000€."
+          "text": "Sim. Estudos mostram que manutenção preventiva reduz avarias em 80-90%. Deteta problemas pequenos antes de se tornarem emergências caras. Uma manutenção de 100€ previne arranjos de 500-2000€."
         }
       },
       {
@@ -112,7 +112,7 @@ export default function ManutencaoCanalizacaoChecklist() {
             <p className="text-gray-700 leading-relaxed">
               <strong>Manutenção ideal:</strong> Mensal (limpar ralos, verificar torneiras - 20 min),
               Trimestral (limpar sifões, verificar pressão - 1h), Anual (inspeção profissional - 80-120€).
-              <strong>Resultado:</strong> Previne 90% das avarias e poupa 500-2000€ em reparações de emergência.
+              <strong>Resultado:</strong> Previne 90% das avarias e poupa 500-2000€ em arranjos de emergência.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function ManutencaoCanalizacaoChecklist() {
               {[
                 {
                   titulo: "Poupa Dinheiro",
-                  descricao: "Manutenção anual 100€ vs reparação emergência 500-2000€. ROI de 5-20x.",
+                  descricao: "Manutenção anual 100€ vs arranjo emergência 500-2000€. ROI de 5-20x.",
                   icon: <Euro className="w-8 h-8 text-green-600" />
                 },
                 {
@@ -380,7 +380,7 @@ export default function ManutencaoCanalizacaoChecklist() {
                     { mes: "Julho", tarefas: "Manutenção mensal" },
                     { mes: "Agosto", tarefas: "Manutenção mensal" },
                     { mes: "Setembro", tarefas: "Manutenção mensal + Trimestral" },
-                    { mes: "Outubro", tarefas: "Manutenção mensal + Preparar inverno" },
+                    { mes: "Outubro", tarefas: "Manutenção mensal + Parranjar inverno" },
                     { mes: "Novembro", tarefas: "Manutenção mensal" },
                     { mes: "Dezembro", tarefas: "Manutenção mensal + Trimestral" }
                   ].map((item, i) => (
@@ -484,7 +484,7 @@ export default function ManutencaoCanalizacaoChecklist() {
             </div>
             <div className="mt-6 bg-blue-50 border-2 border-blue-200 rounded-lg p-6 text-center">
               <p className="text-lg font-bold text-gray-900">
-                💰 ROI: Cada 1€ investido em manutenção poupa 5-20€ em reparações
+                💰 ROI: Cada 1€ investido em manutenção poupa 5-20€ em arranjos
               </p>
             </div>
           </section>
@@ -522,9 +522,9 @@ export default function ManutencaoCanalizacaoChecklist() {
                   <p className="text-sm text-gray-600">Guia completo de prevenção</p>
                 </a>
               </Link>
-              <Link href="/blog/esquentador-avariado-reparar-substituir">
+              <Link href="/blog/esquentador-avariado-arranjar-substituir">
                 <a className="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <h3 className="font-bold text-gray-900 mb-2">Esquentador: Reparar ou Substituir?</h3>
+                  <h3 className="font-bold text-gray-900 mb-2">Esquentador: Arranjar ou Substituir?</h3>
                   <p className="text-sm text-gray-600">Guia de decisão completo</p>
                 </a>
               </Link>

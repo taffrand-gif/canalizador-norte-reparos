@@ -111,7 +111,7 @@ export default function RibeiraDePena() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização Turismo Rural", desc: "Instalação completa para casas de campo, piscinas e alojamentos" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas em casas antigas e quintas" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas em casas antigas e quintas" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações rurais entupidas" },
                 { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação de aquecimento para casas de montanha e turismo" },
               ].map((service, index) => (

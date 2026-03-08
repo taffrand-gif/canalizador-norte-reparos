@@ -91,7 +91,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 - **Câmara de inspeção:** Para diagnóstico preciso
 
 ### Etapa 3: Execução do Serviço
-- Preparação da área de trabalho
+- Parranjo da área de trabalho
 - Aplicação do método escolhido
 - Verificação do resultado
 - Limpeza do local
@@ -143,7 +143,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 
 ## Conclusão: Investimento em Soluções Definitivas
 
-Um desentupimento profissional pode parecer um custo inicial, mas é na verdade um **investimento em soluções duradouras**. Serviços caseiros ou produtos químicos agressivos podem danificar irremediavelmente as canalizações, levando a reparações muito mais caras no futuro.
+Um desentupimento profissional pode parecer um custo inicial, mas é na verdade um **investimento em soluções duradouras**. Serviços caseiros ou produtos químicos agressivos podem danificar irremediavelmente as canalizações, levando a arranjos muito mais caras no futuro.
 
 **Não arrisque com soluções improvisadas.** Produtos químicos de desentupimento podem:
 - Corroer tubos de metal
@@ -164,7 +164,7 @@ Um desentupimento profissional pode parecer um custo inicial, mas é na verdade 
 
 **Artigos Relacionados:**
 - [Canalizador Urgente em Vila Real - 1h Resposta](/canalizador-urgente-vila-real)
-- [Reparação Fugas Água - Técnicas Profissionais](/reparacao-fugas-agua)
+- [Arranjo Fugas Água - Técnicas Profissionais](/arranjacao-fugas-agua)
 - [Prevenção Entupimentos - Dicas Práticas](/prevencao-entupimentos)
 
 **Fontes e Referências:**

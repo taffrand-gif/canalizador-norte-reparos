@@ -1,14 +1,14 @@
 ---
 title: "Trocar Sifão do Lava-Loiça: Guia Passo a Passo (Com Fotos)"
 slug: trocar-sifao-lava-loica
-category: Reparações DIY
+category: Arranjos DIY
 date: 2026-03-04
 author: Norte Reparos
 excerpt: "Sifão do lava-loiça a pingar ou entupido? Aprenda a trocar sozinho em 30 minutos com este guia passo a passo. Descubra os 3 tipos de sifões, ferramentas necessárias, custos (€8-25) e quando chamar picheleiro."
 keywords: 
   - trocar sifão lava-loiça
   - sifão entupido
-  - reparar sifão cozinha
+  - arranjar sifão cozinha
   - picheleiro Trás-os-Montes
   - fuga sifão
   - substituir sifão
@@ -150,7 +150,7 @@ Um sifão novo custa apenas **€8-25** e a instalação é tão simples que at�
 
 ## 📝 Passo a Passo: Como Trocar o Sifão (30 Minutos)
 
-### Passo 1: Preparar a Área (5 minutos)
+### Passo 1: Parranjar a Área (5 minutos)
 
 **O que fazer:**
 1. **Esvazie o armário** debaixo do lava-loiça (retire produtos de limpeza, etc.)
@@ -196,7 +196,7 @@ Um sifão novo custa apenas **€8-25** e a instalação é tão simples que at�
 
 ---
 
-### Passo 4: Preparar o Sifão Novo (3 minutos)
+### Passo 4: Parranjar o Sifão Novo (3 minutos)
 
 **Verificações:**
 1. **Confira todas as peças** (sifão, porcas, juntas de borracha)
@@ -479,12 +479,12 @@ Um sifão novo custa apenas **€8-25** e a instalação é tão simples que at�
 
 ---
 
-## 📍 Serviço de Reparação de Canalizações em Trás-os-Montes
+## 📍 Serviço de Arranjo de Canalizações em Trás-os-Montes
 
 **Norte Reparos — Picheleiro Certificado**
 
 ✅ Instalação e substituição de sifões  
-✅ Reparação de fugas  
+✅ Arranjo de fugas  
 ✅ Desentupimentos  
 ✅ Manutenção preventiva  
 ✅ Orçamento grátis sem compromisso  
@@ -500,7 +500,7 @@ Um sifão novo custa apenas **€8-25** e a instalação é tão simples que at�
 
 ## 🎯 Conclusão: Trocar Sifão é Mais Fácil do Que Pensa
 
-Trocar o sifão do lava-loiça é uma das **reparações mais simples** que pode fazer em casa:
+Trocar o sifão do lava-loiça é uma das **arranjos mais simples** que pode fazer em casa:
 
 ✅ **Não precisa de ferramentas** (sifões modernos desenroscam à mão)  
 ✅ **Demora apenas 30 minutos**  
@@ -509,10 +509,10 @@ Trocar o sifão do lava-loiça é uma das **reparações mais simples** que pode
 ✅ **Qualquer pessoa consegue** (mesmo sem experiência)  
 
 **Ordem de trabalho:**
-1. Preparar área (5 min)
+1. Parranjar área (5 min)
 2. Remover sifão antigo (10 min)
 3. Limpar ligações (5 min)
-4. Preparar sifão novo (3 min)
+4. Parranjar sifão novo (3 min)
 5. Instalar (7 min)
 6. Testar (5 min)
 

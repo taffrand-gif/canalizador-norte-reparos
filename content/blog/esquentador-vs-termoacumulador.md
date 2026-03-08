@@ -345,7 +345,7 @@ keywords: ["esquentador", "termoacumulador", "água quente", "gás vs elétrico"
 
 ### Trocar Urgente
 
-✅ Avariado (reparação >€200)
+✅ Avariado (arranjo >€200)
 ✅ >15 anos
 ✅ Consumo muito alto
 ✅ Sem água quente
@@ -390,7 +390,7 @@ keywords: ["esquentador", "termoacumulador", "água quente", "gás vs elétrico"
 - Esquentadores (anual)
 - Termoacumuladores
 - Descalcificação
-- Reparações
+- Arranjos
 - Contratos disponíveis
 
 ### Conhecimento Local

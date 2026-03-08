@@ -92,7 +92,7 @@ export default function SaoJoaoDaPesqueira() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização Vinícola", desc: "Redes de água para adegas, caves e sistemas de lavagem de cubas" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação em quintas, casas de granito e edifícios" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo em quintas, casas de granito e edifícios" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações de quintas e adegas" },
                 { icon: CheckCircle, title: "Instalação Sanitários", desc: "Casas de banho para turismo rural e alojamentos do Douro" },
               ].map((service, index) => (

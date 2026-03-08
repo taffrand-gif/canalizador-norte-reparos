@@ -110,10 +110,10 @@ export default function Vimioso() {
             <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vimioso</h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
-                { icon: Droplets, title: "Fossas Sépticas", desc: "Instalação, limpeza e reparação de fossas sépticas para aldeias rurais" },
+                { icon: Droplets, title: "Fossas Sépticas", desc: "Instalação, limpeza e arranjo de fossas sépticas para aldeias rurais" },
                 { icon: Shield, title: "Desentupimentos Rurais", desc: "Desentupimento de esgotos, poços e canalizações agrícolas" },
-                { icon: Wrench, title: "Redes de Água Rurais", desc: "Instalação e reparação de captações de água e redes de distribuição" },
-                { icon: CheckCircle, title: "Urgências 24h", desc: "Reparação urgente de fugas e roturas de canos, mesmo em aldeias remotas" },
+                { icon: Wrench, title: "Redes de Água Rurais", desc: "Instalação e arranjo de captações de água e redes de distribuição" },
+                { icon: CheckCircle, title: "Urgências 24h", desc: "Arranjo urgente de fugas e roturas de canos, mesmo em aldeias remotas" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

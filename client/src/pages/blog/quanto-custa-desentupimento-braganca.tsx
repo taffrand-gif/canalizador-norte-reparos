@@ -36,7 +36,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
         "name": "O que está incluído no preço de desentupimento?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O preço inclui: deslocação até 20km, diagnóstico, mão de obra, equipamento básico (mola manual, desentupidor), e limpeza após trabalho. Não inclui: reparações estruturais, substituição de tubos, ou uso de câmara de inspeção (custo adicional 50-80€)."
+          "text": "O preço inclui: deslocação até 20km, diagnóstico, mão de obra, equipamento básico (mola manual, desentupidor), e limpeza após trabalho. Não inclui: arranjos estruturais, substituição de tubos, ou uso de câmara de inspeção (custo adicional 50-80€)."
         }
       },
       {
@@ -220,7 +220,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
                     { item: "Câmara de inspeção", preco: "+50-80€" },
                     { item: "Mola elétrica profissional", preco: "+40-60€" },
                     { item: "Substituição de tubos", preco: "+80-200€" },
-                    { item: "Reparação estrutural", preco: "Orçamento" },
+                    { item: "Arranjo estrutural", preco: "Orçamento" },
                     { item: "Urgência diurna", preco: "+30%" },
                     { item: "Urgência noturna/feriado", preco: "+50%" },
                     { item: "Deslocação >20km", preco: "+0,50€/km" }

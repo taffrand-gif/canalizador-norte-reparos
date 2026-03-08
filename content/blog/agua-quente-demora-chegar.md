@@ -140,7 +140,7 @@ Além do incómodo, **desperdiça água** (10-30 litros por cada vez que abre to
 
 **Sinais:** Conta de água/gás alta, manchas de humidade
 
-**Solução:** Detetar e reparar fuga (€100-300)
+**Solução:** Detetar e arranjar fuga (€100-300)
 
 ---
 

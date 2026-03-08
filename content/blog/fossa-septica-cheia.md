@@ -275,12 +275,12 @@ Neste guia completo, vamos explicar **os 7 sinais de fossa cheia**, com que freq
 - Distância >20 km
 - Urgência
 
-### Reparações (Se Necessário)
+### Arranjos (Se Necessário)
 
-| Reparação | Preço |
+| Arranjo | Preço |
 |-----------|-------|
 | Substituir tampa | €50-150 |
-| Reparar fissura | €100-400 |
+| Arranjar fissura | €100-400 |
 | Desentupir dreno | €150-500 |
 | Substituir dreno | €800-3.000 |
 | Fossa nova (5.000L) | €1.500-4.000 |
@@ -348,7 +348,7 @@ Neste guia completo, vamos explicar **os 7 sinais de fossa cheia**, com que freq
 **❌ Água em excesso:**
 - Máquina de lavar: não use ciclos longos desnecessários
 - Duches muito longos
-- Fugas não reparadas
+- Fugas não arranjadas
 
 ---
 
@@ -387,7 +387,7 @@ Neste guia completo, vamos explicar **os 7 sinais de fossa cheia**, com que freq
 - Movimento do solo
 
 **Solução:**
-- Reparar fissura: €100-400
+- Arranjar fissura: €100-400
 - Substituir fossa: €1.500-4.000
 
 ### 3. Gases Excessivos
@@ -437,7 +437,7 @@ Não. Deixe 20-30% de líquido (reativa bactérias). Esvaziar completamente prej
 
 ## Conclusão: Manutenção Regular Evita Problemas
 
-Uma fossa séptica bem mantida funciona eficazmente durante décadas, mas **negligência causa problemas graves**: maus cheiros, entupimentos, contaminação do solo, e custos elevados de reparação. **Limpeza regular** (2-4 anos, €80-250) é investimento pequeno comparado com reparações (€800-4.000).
+Uma fossa séptica bem mantida funciona eficazmente durante décadas, mas **negligência causa problemas graves**: maus cheiros, entupimentos, contaminação do solo, e custos elevados de arranjo. **Limpeza regular** (2-4 anos, €80-250) é investimento pequeno comparado com arranjos (€800-4.000).
 
 **Ações essenciais:**
 1. **Limpe regularmente:** 2-4 anos (não espere >5 anos)
@@ -454,7 +454,7 @@ Uma fossa séptica bem mantida funciona eficazmente durante décadas, mas **negl
 **Serviços Norte Reparos:**
 - Limpeza de fossa séptica (todas as capacidades)
 - Inspeção e diagnóstico
-- Reparação de fissuras
+- Arranjo de fissuras
 - Desentupimento de dreno
 - Instalação de fossa nova
 

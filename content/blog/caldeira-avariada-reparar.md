@@ -1,11 +1,11 @@
 ---
 title: "Caldeira Avariada: 10 Problemas e Soluções (2026)"
-slug: "caldeira-avariada-reparar"
-category: "Reparações Urgentes"
+slug: "caldeira-avariada-arranjar"
+category: "Arranjos Urgentes"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Caldeira avariada no inverno? Descubra os 10 problemas mais comuns, como diagnosticar e resolver. Guia completo de segurança para Trás-os-Montes."
-keywords: "caldeira avariada, caldeira nao aquece, reparar caldeira, caldeira problemas, picheleiro braganca, aquecimento central"
+keywords: "caldeira avariada, caldeira nao aquece, arranjar caldeira, caldeira problemas, picheleiro braganca, aquecimento central"
 priority: "CRITICAL"
 ---
 
@@ -22,7 +22,7 @@ priority: "CRITICAL"
 - Acender caldeira com cheiro a gás
 - Bloquear ventilação
 - Desativar sistemas de segurança
-- Reparações DIY em componentes de gás
+- Arranjos DIY em componentes de gás
 
 **Se cheira a gás:**
 1. **NÃO acenda luzes ou aparelhos**
@@ -184,7 +184,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 **⚠️ ATENÇÃO:** Se pressão baixa frequentemente (mais de 1x/mês) = TEM FUGA!
 
 **Solução definitiva:**
-- Localizar e reparar fuga €80-300
+- Localizar e arranjar fuga €80-300
 - Substituir vaso de expansão €80-200
 
 ### 4. Pressão Alta (>3 bar) (8% dos casos)
@@ -210,7 +210,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 
 **Se problema persiste:**
 - Substituir vaso de expansão €80-200
-- Reparar válvula de enchimento €60-150
+- Arranjar válvula de enchimento €60-150
 
 ### 5. Caldeira Faz Ruídos Estranhos (7% dos casos)
 
@@ -281,7 +281,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 - Desligue caldeira
 - Feche água
 - Chame técnico urgente: 928 484 451
-- Reparação €80-400 (conforme componente)
+- Arranjo €80-400 (conforme componente)
 
 ### 8. Código de Erro no Display (4% dos casos)
 
@@ -330,7 +330,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 
 **Quando substituir:**
 - Caldeira 15+ anos
-- Custo reparações >50% caldeira nova
+- Custo arranjos >50% caldeira nova
 - Eficiência baixa (classe C ou inferior)
 
 **Custo caldeira nova:**
@@ -427,7 +427,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 
 **4. Caldeira não acende (após verificações básicas)**
 - Problema interno
-- **Custo:** €80-300 reparação
+- **Custo:** €80-300 arranjo
 
 **5. Ruídos de explosão**
 - Combustão irregular
@@ -443,7 +443,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 - Inspeção urgente
 - **Custo:** €100-200
 
-## Custos de Reparação em Trás-os-Montes (2026)
+## Custos de Arranjo em Trás-os-Montes (2026)
 
 ### Tabela de Preços Reais:
 
@@ -455,11 +455,11 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 | Substituir vaso expansão | €80-200 | €150-350 |
 | Descalcificar permutador | €100-200 | €180-350 |
 | Substituir válvula 3 vias | €100-250 | €180-400 |
-| Reparar fuga | €80-300 | €150-500 |
+| Arranjar fuga | €80-300 | €150-500 |
 | Substituir termostato | €40-120 | €80-200 |
 | Instalar caldeira nova | €1.100-3.800 | €1.800-5.000 |
 
-**Dica:** Manutenção preventiva €100/ano evita reparações €300-800
+**Dica:** Manutenção preventiva €100/ano evita arranjos €300-800
 
 ## Caldeira vs Esquentador: Diferenças
 
@@ -479,7 +479,7 @@ Caldeira aquece água que circula pelos radiadores (aquecimento central) e/ou fo
 **P: Quanto tempo dura uma caldeira?**
 R: 12-15 anos com manutenção anual. Sem manutenção: 8-10 anos. Após 15 anos, considere substituir por eficiência e segurança.
 
-**P: Posso reparar caldeira eu mesmo?**
+**P: Posso arranjar caldeira eu mesmo?**
 R: NÃO! Trabalho em gás requer certificação (lei). Risco de explosão, intoxicação CO, incêndio. Apenas técnico certificado.
 
 **P: Quanto custa manutenção anual?**
@@ -489,7 +489,7 @@ R: €80-150. Obrigatória por lei. Previne 80% avarias, economiza 15% gás, pro
 R: Verifique: gás (outros aparelhos), eletricidade (display), pressão (1-1,5 bar), termostato. Se tudo OK, chame técnico: 928 484 451
 
 **P: Quanto custa técnico em Bragança?**
-R: Diagnóstico €60-120, manutenção €80-150, reparações €80-350. Urgente 24h: +50-100%. Norte Reparos: **928 484 451**
+R: Diagnóstico €60-120, manutenção €80-150, arranjos €80-350. Urgente 24h: +50-100%. Norte Reparos: **928 484 451**
 
 ## Conclusão: Manutenção Salva Vidas e Dinheiro
 
@@ -503,7 +503,7 @@ R: Diagnóstico €60-120, manutenção €80-150, reparações €80-350. Urgen
 - ✅ Atendimento 24 horas (emergências inverno)
 - ✅ Técnico certificado gás chega em 30-60 minutos
 - ✅ Manutenção anual obrigatória €80-150
-- ✅ Reparações todas as marcas
+- ✅ Arranjos todas as marcas
 - ✅ Garantia 12 meses
 - ✅ Certificado de manutenção incluído
 

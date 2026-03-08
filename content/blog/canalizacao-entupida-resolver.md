@@ -1,7 +1,7 @@
 ---
 title: "Canalização Entupida: 7 Métodos Para Resolver (2026)"
 slug: "canalizacao-entupida-resolver"
-category: "Reparações Urgentes"
+category: "Arranjos Urgentes"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Canalização entupida em casa? Descubra 7 métodos profissionais para desentupir rapidamente. Guia completo com soluções DIY e quando chamar picheleiro em Trás-os-Montes."
@@ -330,7 +330,7 @@ priority: "HIGH DEMAND"
 **5. Entupimentos frequentes (mais de 1 por mês)**
 - Problema estrutural
 - Tubagem antiga ou mal instalada
-- **Solução:** Inspeção + reparação €200-1.000
+- **Solução:** Inspeção + arranjo €200-1.000
 
 **6. Suspeita de raízes**
 - Árvores próximas

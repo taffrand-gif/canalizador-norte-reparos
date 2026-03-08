@@ -260,7 +260,7 @@ export default function QuadroEletricoAntigo() {
                 <li>✓ Diferenciais seletivos</li>
                 <li>✓ 12+ disjuntores</li>
                 <li>✓ Proteções avançadas</li>
-                <li>✓ Domótica preparado</li>
+                <li>✓ Domótica parranjado</li>
                 <li>✓ Certificado DGEG</li>
                 <li>✓ Garantia 5 anos</li>
               </ul>

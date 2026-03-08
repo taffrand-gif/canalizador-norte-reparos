@@ -1,7 +1,7 @@
 ---
 title: "Desentupir Sanita: 7 Métodos Que Funcionam (Do Mais Simples ao Profissional)"
 slug: desentupir-sanita
-category: Reparações Urgentes
+category: Arranjos Urgentes
 date: 2026-03-04
 author: Norte Reparos
 excerpt: "Sanita entupida? Descubra 7 métodos eficazes para desentupir: ventosa, arame, produtos químicos, garrafa PET e mais. Saiba quando chamar picheleiro e quanto custa cada solução."
@@ -463,5 +463,5 @@ Na maioria dos casos (70%), consegue **desentupir a sanita sozinho em 10-30 minu
 
 **Artigos relacionados:**
 - [Mau Cheiro no Ralo: 5 Causas e Soluções Definitivas](/blog/mau-cheiro-ralo)
-- [Autoclismo Não Enche: 6 Causas e Como Reparar](/blog/autoclismo-nao-enche)
+- [Autoclismo Não Enche: 6 Causas e Como Arranjar](/blog/autoclismo-nao-enche)
 - [Desentupir Ralo de Chuveiro: 5 Métodos Eficazes](/blog/desentupir-ralo-chuveiro)

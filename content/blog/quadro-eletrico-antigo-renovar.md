@@ -259,11 +259,11 @@ keywords: ["quadro elétrico antigo", "renovar quadro elétrico", "disjuntor dif
 
 ### Passo 2: Planeamento (1-2 dias)
 
-**Preparação**:
+**Parranjo**:
 - Comprar materiais
 - Agendar data
 - Avisar família (sem luz 4-8h)
-- Preparar acesso
+- Parranjar acesso
 
 ### Passo 3: Instalação (4-8 horas)
 

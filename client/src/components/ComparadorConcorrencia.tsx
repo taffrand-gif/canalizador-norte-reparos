@@ -25,7 +25,7 @@ export default function ComparadorConcorrencia() {
       winner: 'norte'
     },
     {
-      criterion: 'Preço Médio Reparação',
+      criterion: 'Preço Médio Arranjo',
       norteReparos: '€90',
       competitorA: '€120',
       competitorB: '€100',

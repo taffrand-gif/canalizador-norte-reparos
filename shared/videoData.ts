@@ -48,7 +48,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['segurança elétrica', 'quadro elétrico', 'disjuntor', 'perigo'],
     uploadDate: '2026-03-03',
-    transcript: 'Atenção a estes sinais de perigo: cheiro a queimado perto do quadro, disjuntores que disparam frequentemente, ruídos estranhos, calor excessivo, fios soltos ou derretidos. Qualquer destes sinais requer intervenção urgente de eletricista certificado. Não tente reparar sozinho.'
+    transcript: 'Atenção a estes sinais de perigo: cheiro a queimado perto do quadro, disjuntores que disparam frequentemente, ruídos estranhos, calor excessivo, fios soltos ou derretidos. Qualquer destes sinais requer intervenção urgente de eletricista certificado. Não tente arranjar sozinho.'
   },
   {
     id: 'electrical-safety-overload',
@@ -72,7 +72,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['segurança', 'perigos', 'eletricidade', 'prevenção'],
     uploadDate: '2026-03-03',
-    transcript: 'NUNCA trabalhe com eletricidade sem desligar disjuntor. NUNCA use ferramentas metálicas sem isolamento. NUNCA ignore cheiro a queimado. NUNCA toque em fios expostos. NUNCA faça reparações elétricas sem certificação. Eletricidade mata. Chame sempre profissional certificado.'
+    transcript: 'NUNCA trabalhe com eletricidade sem desligar disjuntor. NUNCA use ferramentas metálicas sem isolamento. NUNCA ignore cheiro a queimado. NUNCA toque em fios expostos. NUNCA faça arranjos elétricas sem certificação. Eletricidade mata. Chame sempre profissional certificado.'
   },
 
   // DIY Prevention (4 videos)
@@ -98,7 +98,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['entupimento', 'prevenção', 'manutenção', 'ralos'],
     uploadDate: '2026-03-03',
-    transcript: 'Previna entupimentos com manutenção simples. Use grelhas de proteção em todos os ralos. Limpe cabelos e resíduos semanalmente. Uma vez por mês, despeje água fervente com bicarbonato e vinagre. Evite produtos químicos agressivos que danificam canos. Prevenção é mais barata que reparação.'
+    transcript: 'Previna entupimentos com manutenção simples. Use grelhas de proteção em todos os ralos. Limpe cabelos e resíduos semanalmente. Uma vez por mês, despeje água fervente com bicarbonato e vinagre. Evite produtos químicos agressivos que danificam canos. Prevenção é mais barata que arranjo.'
   },
   {
     id: 'diy-water-heater',
@@ -136,7 +136,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['urgência', 'atendimento', 'processo', '24h'],
     uploadDate: '2026-03-03',
-    transcript: 'Liga para urgência. Atendemos em menos de 5 minutos, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada em 30-60 minutos conforme zona. Diagnóstico no local, orçamento transparente, reparação imediata se aprovar.'
+    transcript: 'Liga para urgência. Atendemos em menos de 5 minutos, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada em 30-60 minutos conforme zona. Diagnóstico no local, orçamento transparente, arranjo imediata se aprovar.'
   },
   {
     id: 'process-quote',
@@ -160,7 +160,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['garantia', '2 anos', 'qualidade', 'confiança'],
     uploadDate: '2026-03-03',
-    transcript: 'Oferecemos garantia de 2 anos em todos os trabalhos. Concorrência oferece 6-12 meses. Por quê? Confiamos na qualidade do nosso trabalho. Usamos materiais de primeira. Técnicos experientes. Se algo falhar em 2 anos, reparamos grátis. Garantia é prova de qualidade.'
+    transcript: 'Oferecemos garantia de 2 anos em todos os trabalhos. Concorrência oferece 6-12 meses. Por quê? Confiamos na qualidade do nosso trabalho. Usamos materiais de primeira. Técnicos experientes. Se algo falhar em 2 anos, arranjamos grátis. Garantia é prova de qualidade.'
   },
   {
     id: 'process-payment',
@@ -172,7 +172,7 @@ export const videoData = [
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['pagamento', 'prestações', 'flexibilidade'],
     uploadDate: '2026-03-03',
-    transcript: 'Aceitamos todas as formas de pagamento: dinheiro, multibanco, MB Way, transferência bancária. Para trabalhos acima de €500, oferecemos pagamento em 2-3 prestações sem juros. Facilitamos para que possa fazer reparação necessária sem stress financeiro.'
+    transcript: 'Aceitamos todas as formas de pagamento: dinheiro, multibanco, MB Way, transferência bancária. Para trabalhos acima de €500, oferecemos pagamento em 2-3 prestações sem juros. Facilitamos para que possa fazer arranjo necessária sem stress financeiro.'
   },
 
   // Equipment Showcase (3 videos)
@@ -230,25 +230,25 @@ export const videoData = [
     id: 'success-hotel',
     category: 'customer-success',
     title: 'Hotel com Fuga Misteriosa Resolvida',
-    description: 'Hotel rural com fuga que ninguém encontrava. Câmara térmica FLIR identificou em 15min. Reparação sem partir paredes.',
+    description: 'Hotel rural com fuga que ninguém encontrava. Câmara térmica FLIR identificou em 15min. Arranjo sem partir paredes.',
     duration: 50,
     thumbnailUrl: '/images/ai-generated/testimonials/testimonials-002.jpg',
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['caso sucesso', 'hotel', 'fuga água', 'FLIR'],
     uploadDate: '2026-03-03',
-    transcript: 'Hotel rural em Vinhais tinha fuga misteriosa. Conta de água €500/mês. Três canalizadores tentaram, nenhum encontrou. Nossa câmara térmica FLIR identificou em 15 minutos: fuga em parede interna. Reparação sem partir azulejos. Conta voltou a €80/mês. Hotel poupou €5000/ano.'
+    transcript: 'Hotel rural em Vinhais tinha fuga misteriosa. Conta de água €500/mês. Três canalizadores tentaram, nenhum encontrou. Nossa câmara térmica FLIR identificou em 15 minutos: fuga em parede interna. Arranjo sem partir azulejos. Conta voltou a €80/mês. Hotel poupou €5000/ano.'
   },
   {
     id: 'success-elderly',
     category: 'customer-success',
     title: 'Idosa Sem Aquecimento no Inverno',
-    description: 'Senhora de 80 anos sem aquecimento em pleno inverno. Urgência noturna, caldeira reparada em 2h, casa quente novamente.',
+    description: 'Senhora de 80 anos sem aquecimento em pleno inverno. Urgência noturna, caldeira arranjada em 2h, casa quente novamente.',
     duration: 45,
     thumbnailUrl: '/images/ai-generated/testimonials/testimonials-009.jpg',
     youtubeId: 'dQw4w9WgXcQ',
     keywords: ['caso sucesso', 'idosos', 'aquecimento', 'urgência inverno'],
     uploadDate: '2026-03-03',
-    transcript: 'Janeiro, -8°C em Bragança. Senhora de 80 anos ligou às 22h: caldeira avariada, casa gelada. Chegamos em 50 minutos. Reparação em 2 horas. Casa quente novamente. Não cobramos acréscimo noturno. Ela chorou de gratidão. Fazemos isto porque nos importamos.'
+    transcript: 'Janeiro, -8°C em Bragança. Senhora de 80 anos ligou às 22h: caldeira avariada, casa gelada. Chegamos em 50 minutos. Arranjo em 2 horas. Casa quente novamente. Não cobramos acréscimo noturno. Ela chorou de gratidão. Fazemos isto porque nos importamos.'
   }
 ];
 

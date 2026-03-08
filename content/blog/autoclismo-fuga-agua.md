@@ -1,17 +1,17 @@
 ---
 title: "Autoclismo Com Fuga de Água: 7 Causas e Soluções (2026)"
 slug: "autoclismo-fuga-agua"
-category: "Reparações DIY"
+category: "Arranjos DIY"
 date: "2026-03-04"
 author: "Norte Reparos"
-excerpt: "Autoclismo com fuga de água desperdiça 200L/dia (€300/ano). Descubra as 7 causas principais e como reparar em 30 minutos. Guia completo DIY para Trás-os-Montes."
-keywords: "autoclismo fuga agua, autoclismo pinga, reparar autoclismo, valvula autoclismo, picheleiro braganca, canalizador"
+excerpt: "Autoclismo com fuga de água desperdiça 200L/dia (€300/ano). Descubra as 7 causas principais e como arranjar em 30 minutos. Guia completo DIY para Trás-os-Montes."
+keywords: "autoclismo fuga agua, autoclismo pinga, arranjar autoclismo, valvula autoclismo, picheleiro braganca, canalizador"
 priority: "HIGH DEMAND"
 ---
 
 # Autoclismo Com Fuga de Água: 7 Causas e Soluções (2026)
 
-**Autoclismo com fuga de água desperdiça 200 litros/dia - €300/ano jogados fora!** Em Trás-os-Montes, 45% dos autoclismos têm fugas (maioria imperceptíveis). Neste guia completo, vou mostrar-lhe as 7 causas principais, como detetar fugas invisíveis e reparar em 30 minutos poupando €40-80 em picheleiro.
+**Autoclismo com fuga de água desperdiça 200 litros/dia - €300/ano jogados fora!** Em Trás-os-Montes, 45% dos autoclismos têm fugas (maioria imperceptíveis). Neste guia completo, vou mostrar-lhe as 7 causas principais, como detetar fugas invisíveis e arranjar em 30 minutos poupando €40-80 em picheleiro.
 
 ## Como Detetar Fuga no Autoclismo
 
@@ -255,7 +255,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 **Tempo:** 2-4 horas (substituir)
 **Custo:** €80-200
 
-## Reparação Passo a Passo (Válvula de Descarga)
+## Arranjo Passo a Passo (Válvula de Descarga)
 
 **Problema mais comum - 50% dos casos:**
 
@@ -364,12 +364,12 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 - **Custo:** €80-200
 
 **3. Não consegue identificar causa:**
-- Fuga persiste após reparações
+- Fuga persiste após arranjos
 - **Custo:** €40-80 diagnóstico
 
 **4. Não se sente confiante:**
 - Melhor profissional que dano
-- **Custo:** €40-80 reparação
+- **Custo:** €40-80 arranjo
 
 **5. Autoclismo embutido:**
 - Acesso difícil
@@ -380,7 +380,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 
 ### DIY vs Profissional:
 
-| Reparação | DIY | Profissional |
+| Arranjo | DIY | Profissional |
 |-----------|-----|--------------|
 | Válvula descarga | €5-15 | €40-80 |
 | Boia | €8-20 | €50-100 |
@@ -396,7 +396,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 | Serviço | Preço Normal | Preço Urgente |
 |---------|--------------|---------------|
 | Diagnóstico | €30-60 | €60-100 |
-| Reparar fuga simples | €40-80 | €80-120 |
+| Arranjar fuga simples | €40-80 | €80-120 |
 | Substituir mecanismo | €60-120 | €100-180 |
 | Instalar autoclismo novo | €100-200 | €180-300 |
 
@@ -412,7 +412,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 
 **Vantagens:**
 - Descarga potente
-- Fácil acesso para reparar
+- Fácil acesso para arranjar
 - Durável
 
 **Desvantagens:**
@@ -431,7 +431,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 
 **Vantagens:**
 - Estética moderna
-- Fácil reparar
+- Fácil arranjar
 - Económico
 
 **Desvantagens:**
@@ -453,7 +453,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 - Silencioso
 
 **Desvantagens:**
-- Reparação difícil
+- Arranjo difícil
 - Mais caro
 - Precisa acesso técnico
 
@@ -496,7 +496,7 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 
 **Com fuga (200L/dia):**
 - Desperdício adicional: 73.000L/ano = €110/ano
-- **Total desperdiçado:** €110/ano por fuga não reparada!
+- **Total desperdiçado:** €110/ano por fuga não arranjada!
 
 ## Perguntas Frequentes (FAQ)
 
@@ -504,27 +504,27 @@ Botão ou alavanca de descarga não retorna completamente, deixando válvula abe
 R: Teste do corante: 10 gotas no autoclismo, aguarde 30 minutos sem puxar. Se água da sanita ficar colorida = fuga. Ou ouve água a correr constantemente.
 
 **P: Quanto desperdiça fuga no autoclismo?**
-R: Fuga pequena 50L/dia (€75/ano), média 200L/dia (€300/ano), grande 500L/dia (€750/ano). Reparação €5-15 poupa centenas!
+R: Fuga pequena 50L/dia (€75/ano), média 200L/dia (€300/ano), grande 500L/dia (€750/ano). Arranjo €5-15 poupa centenas!
 
-**P: Posso reparar eu mesmo?**
+**P: Posso arranjar eu mesmo?**
 R: SIM! 90% das fugas são válvula de descarga (€5-15, 30 minutos). Fácil, qualquer pessoa consegue. Poupa €40-80 de picheleiro.
 
 **P: Quanto tempo dura válvula de descarga?**
 R: 5-8 anos com água normal, 3-5 anos com água muito dura (calcário). Substitua preventivamente a cada 5 anos.
 
 **P: Quanto custa picheleiro em Bragança?**
-R: Reparar fuga €40-80, substituir mecanismo €60-120, instalar autoclismo novo €150-350. Norte Reparos: **928 484 451**
+R: Arranjar fuga €40-80, substituir mecanismo €60-120, instalar autoclismo novo €150-350. Norte Reparos: **928 484 451**
 
 ## Conclusão: Repare Hoje, Poupe €300/Ano
 
-**Fuga no autoclismo desperdiça €300/ano - dinheiro pelo cano abaixo!** Reparação DIY custa €5-15 e demora 30 minutos. Teste do corante (€2) identifica fugas invisíveis. Não deixe dinheiro escapar - repare hoje!
+**Fuga no autoclismo desperdiça €300/ano - dinheiro pelo cano abaixo!** Arranjo DIY custa €5-15 e demora 30 minutos. Teste do corante (€2) identifica fugas invisíveis. Não deixe dinheiro escapar - repare hoje!
 
 ### 🚨 Precisa Ajuda Profissional?
 
 **Norte Reparos - Picheleiro Certificado em Trás-os-Montes**
 
 📞 **Ligue Agora: 928 484 451**
-- ✅ Reparar fuga autoclismo €40-80
+- ✅ Arranjar fuga autoclismo €40-80
 - ✅ Substituir mecanismo completo €60-120
 - ✅ Instalar autoclismo novo €150-350
 - ✅ Garantia 12 meses

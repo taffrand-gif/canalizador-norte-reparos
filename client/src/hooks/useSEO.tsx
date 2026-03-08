@@ -142,7 +142,7 @@ export function generateMetaDescription(ville?: string): string {
   }
   
   // Page d'accueil - Meta description renforcée SEO
-  return `Canalizador profissional 24h em Trás-os-Montes. Desentupimentos, reparação fugas de água, caldeiras. Orçamento gratuito. Ligue ${config.phone}`;
+  return `Canalizador profissional 24h em Trás-os-Montes. Desentupimentos, arranjo fugas de água, caldeiras. Orçamento gratuito. Ligue ${config.phone}`;
 }
 
 // Fonction pour générer les mots-clés SEO
@@ -151,11 +151,11 @@ export function generateKeywords(ville?: string): string {
   
   const baseKeywords = [
     'canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 
-    'reparação canalização', 'urgência 24h', 'piquete', 'desentupimento', 
+    'arranjo canalização', 'urgência 24h', 'piquete', 'desentupimento', 
     'esquentador', 'desentupimento urgente', 'canalizador 24 horas',
-    'fuga água urgente', 'cano entupido', 'reparação caldeira',
+    'fuga água urgente', 'cano entupido', 'arranjo caldeira',
     'desentupir sanita', 'canalizador perto de mim', 'desentupimento esgotos',
-    'reparação autoclismo', 'canalizador urgente', 'desentupimento sanitário'
+    'arranjo autoclismo', 'canalizador urgente', 'desentupimento sanitário'
   ];
   
   if (ville) {
@@ -222,16 +222,16 @@ export function generateLocalBusinessSchema(ville?: string) {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Reparação de Fugas de Água",
-            "description": "Localização e reparação de fugas em paredes, tetos e canalizações"
+            "name": "Arranjo de Fugas de Água",
+            "description": "Localização e arranjo de fugas em paredes, tetos e canalizações"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Instalação e Reparação de Esquentadores",
-            "description": "Instalação certificada e reparação de esquentadores a gás e elétricos"
+            "name": "Instalação e Arranjo de Esquentadores",
+            "description": "Instalação certificada e arranjo de esquentadores a gás e elétricos"
           }
         },
         {

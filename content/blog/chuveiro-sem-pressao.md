@@ -277,16 +277,16 @@ keywords: ["chuveiro sem pressão", "duche fraco", "aumentar pressão chuveiro",
 
 ## 💰 Custos de Soluções
 
-### Reparações Simples
+### Arranjos Simples
 
 - Limpar filtro chuveiro: €0-3 (DIY)
 - Substituir chuveiro: €30-100
 - Limpar filtro esquentador: €40-60
 
-### Reparações Médias
+### Arranjos Médias
 
 - Descalcificar esquentador: €80-120
-- Reparar misturadora: €60-150
+- Arranjar misturadora: €60-150
 - Bomba pressurizadora chuveiro: €230-400
 
 ### Soluções Definitivas
@@ -379,7 +379,7 @@ keywords: ["chuveiro sem pressão", "duche fraco", "aumentar pressão chuveiro",
 ✅ Instalar grupo hidropressor
 ✅ Instalar bomba pressurizadora
 ✅ Substituir canalização
-✅ Reparar misturadora termostática
+✅ Arranjar misturadora termostática
 ✅ Tentou DIY mas não resolveu
 
 ## ✅ Por Que Escolher Norte Reparos
@@ -408,7 +408,7 @@ keywords: ["chuveiro sem pressão", "duche fraco", "aumentar pressão chuveiro",
 ### Experiência Comprovada
 
 - 10+ anos experiência
-- 500+ reparações chuveiros
+- 500+ arranjos chuveiros
 - 4.9/5 estrelas (500+ avaliações)
 - Conhecimento casas antigas
 

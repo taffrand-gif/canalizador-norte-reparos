@@ -112,8 +112,8 @@ export default function AlfandegaDaFe() {
               {[
                 { icon: Droplets, title: "Desentupimentos Rápidos", desc: "Esgotos, fossas sépticas, canalizações entupidas em casas e quintas" },
                 { icon: Shield, title: "Canalização para Lagares", desc: "Redes de água e drenagem para lagares de azeite e armazéns agrícolas" },
-                { icon: Wrench, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas em casas antigas e canalizações rurais" },
-                { icon: CheckCircle, title: "Instalação de Esquentadores", desc: "Montagem e reparação de esquentadores para casas de aldeia" },
+                { icon: Wrench, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas em casas antigas e canalizações rurais" },
+                { icon: CheckCircle, title: "Instalação de Esquentadores", desc: "Montagem e arranjo de esquentadores para casas de aldeia" },
               ].map((service, index) => (
                 <div key={index} className="flex items-start gap-4 p-6 bg-white rounded-xl shadow">
                   <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0"><service.icon className="w-6 h-6 text-white" /></div>

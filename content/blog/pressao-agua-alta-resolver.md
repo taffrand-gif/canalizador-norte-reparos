@@ -314,7 +314,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 - Torneiras duram 2-3x mais
 - Menos fugas
 - Aparelhos duram mais
-- **Poupança:** €200-500/ano em reparações
+- **Poupança:** €200-500/ano em arranjos
 
 ---
 
@@ -375,7 +375,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 
 ## 🎯 Conclusão: Proteja Sua Instalação
 
-**Pressão alta (>4 bar) não é normal** e causa danos caros a longo prazo. Investir €120-220 num redutor de pressão **poupa €200-500/ano** em reparações e aumenta vida útil de toda a instalação.
+**Pressão alta (>4 bar) não é normal** e causa danos caros a longo prazo. Investir €120-220 num redutor de pressão **poupa €200-500/ano** em arranjos e aumenta vida útil de toda a instalação.
 
 **Sinais de alerta:** Torneiras espirram, barulho nos canos, autoclismo enche rápido → Medir pressão e instalar redutor se >4 bar.
 
@@ -398,7 +398,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 
 ---
 
-**💧 LEMBRE-SE:** Pressão alta hoje = reparações caras amanhã. Previna com redutor de pressão!
+**💧 LEMBRE-SE:** Pressão alta hoje = arranjos caras amanhã. Previna com redutor de pressão!
 
 ---
 

@@ -181,7 +181,7 @@ Em Trás-os-Montes, onde muitas casas (especialmente em zonas rurais) não têm 
 |---------|-------|-------------------|
 | Limpeza com jato alta pressão | +€50-80 | Lamas muito compactadas |
 | Inspeção com câmara | +€80-150 | Verificar estado/danos |
-| Reparação de tampa | €50-100 | Tampa partida/danificada |
+| Arranjo de tampa | €50-100 | Tampa partida/danificada |
 | Substituir filtro | €30-60 | Filtro entupido |
 | Urgência 24h | +50% | Fossa a transbordar |
 
@@ -192,7 +192,7 @@ Em Trás-os-Montes, onde muitas casas (especialmente em zonas rurais) não têm 
 - Frequência: 1x/3 anos
 - **Custo anual: €60/ano**
 
-**Muito mais barato que reparar danos!**
+**Muito mais barato que arranjar danos!**
 
 ---
 
@@ -339,7 +339,7 @@ Em Trás-os-Montes, onde muitas casas (especialmente em zonas rurais) não têm 
 
 ### 4. O que acontece se não esvaziar?
 
-**Resposta:** Fossa transborda → mau cheiro, água volta pelos ralos, infiltrações, contaminação do solo/água, danos no sistema (€500-5.000 reparação). Muito mais caro que esvaziamento!
+**Resposta:** Fossa transborda → mau cheiro, água volta pelos ralos, infiltrações, contaminação do solo/água, danos no sistema (€500-5.000 arranjo). Muito mais caro que esvaziamento!
 
 ### 5. Posso usar produtos para "limpar" a fossa?
 
@@ -361,7 +361,7 @@ Em Trás-os-Montes, onde muitas casas (especialmente em zonas rurais) não têm 
 
 ## 🎯 Conclusão: Manutenção Regular Evita Problemas
 
-**Esvaziar fossa a cada 2-4 anos** (€100-280) é muito mais barato que reparar danos por negligência (€500-5.000+).
+**Esvaziar fossa a cada 2-4 anos** (€100-280) é muito mais barato que arranjar danos por negligência (€500-5.000+).
 
 **Sinais de alerta:** Mau cheiro, água volta pelos ralos, escoamento lento → Esvaziar URGENTE!
 
@@ -372,7 +372,7 @@ Em Trás-os-Montes, onde muitas casas (especialmente em zonas rurais) não têm 
 **Norte Reparos** - Picheleiro Certificado em Trás-os-Montes  
 ✅ Parcerias com empresas certificadas de esvaziamento  
 ✅ Inspeção e manutenção de fossas  
-✅ Reparação de sistemas sépticos  
+✅ Arranjo de sistemas sépticos  
 ✅ Instalação de fossas novas  
 ✅ Orçamento grátis sem compromisso  
 

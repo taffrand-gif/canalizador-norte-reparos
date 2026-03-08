@@ -20,7 +20,7 @@ export default function Lamego() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Fuga de água em Lamego? Reparação urgente no próprio dia. Canalização profissional, orçamento gratuito. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Fuga de água em Lamego? Arranjo urgente no próprio dia. Canalização profissional, orçamento gratuito. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

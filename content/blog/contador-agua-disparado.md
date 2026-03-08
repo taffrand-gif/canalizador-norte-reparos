@@ -10,7 +10,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 
 # Contador de Água Disparado: Fuga Escondida ou Erro Leitura?
 
-**Conta água €200-500 vs €30-50 normal? Contador rodou 100m³ num mês?** Contador disparado indica **fuga escondida (80% casos)**, erro contador (15%) ou fraude (5%). Uma fuga pequena (1L/min) desperdiça 43m³/mês = €150-200 extra. Neste guia completo, explicamos como verificar contador, detetar fugas escondidas com câmara térmica FLIR, reclamar erro e custos reparação €80-600.
+**Conta água €200-500 vs €30-50 normal? Contador rodou 100m³ num mês?** Contador disparado indica **fuga escondida (80% casos)**, erro contador (15%) ou fraude (5%). Uma fuga pequena (1L/min) desperdiça 43m³/mês = €150-200 extra. Neste guia completo, explicamos como verificar contador, detetar fugas escondidas com câmara térmica FLIR, reclamar erro e custos arranjo €80-600.
 
 ## 🚨 Sinais Contador Disparado
 
@@ -67,7 +67,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 
 **Solução**:
 - Detetar fuga: €80-120 (câmara térmica)
-- Reparar: €150-600
+- Arranjar: €150-600
 - [Ver guia deteção fugas](/blog/fuga-agua-escondida-detetar)
 
 ### 2. Autoclismo Não Para (15% casos)
@@ -85,7 +85,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 - Se cor na sanita = fuga
 
 **Solução**:
-- Reparar válvula: €40-80
+- Arranjar válvula: €40-80
 - [Ver guia autoclismo](/blog/autoclismo-nao-para-correr)
 
 ### 3. Erro Contador (3% casos)
@@ -191,7 +191,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 - €80-120
 - **Mais eficaz**
 
-## 💰 Custos Reparação
+## 💰 Custos Arranjo
 
 ### Deteção Fuga
 
@@ -205,14 +205,14 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 - Confirma fuga
 - Não localiza exata
 
-### Reparações Comuns
+### Arranjos Comuns
 
 **Autoclismo**: €40-80
 **Torneira pinga**: €30-60
 **Troço cano**: €150-400
 **Cano rebentado parede**: €200-600
 
-### Reparações Grandes
+### Arranjos Grandes
 
 **Ramal exterior**: €400-1,200
 **Renovar canalização**: €2,000-6,000
@@ -337,7 +337,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 - €40-80
 
 **Torneiras**:
-- Reparar pingos imediato
+- Arranjar pingos imediato
 - Substituir vedantes
 - €20-40
 
@@ -404,7 +404,7 @@ keywords: ["contador água disparado", "conta água alta", "fuga água escondida
 ### Serviço Completo
 
 - Deteção fuga
-- Reparação
+- Arranjo
 - Teste contador (apoio)
 - Reclamação empresa (apoio)
 - Garantia 1 ano
@@ -440,19 +440,19 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **1)** Teste fuga (fechar tudo, verificar contador). **2)** Se roda = fuga escondida, chamar picheleiro. **3)** Se não roda = erro contador/leitura, reclamar empresa águas.
 
 ### Quanto custa fuga escondida?
-**Deteção**: €80-120 (câmara térmica). **Reparação**: €150-600 (depende localização). Mas fuga desperdiça €50-200/mês, reparar compensa.
+**Deteção**: €80-120 (câmara térmica). **Arranjo**: €150-600 (depende localização). Mas fuga desperdiça €50-200/mês, arranjar compensa.
 
 ### Como sei se é fuga ou erro contador?
 **Teste**: Fechar todas torneiras 1-2h. Se contador roda = fuga. Se não roda = erro contador (reclamar empresa) ou erro leitura.
 
 ### Autoclismo pode disparar conta?
-**Sim**. Válvula avariada desperdiça 5-20L/hora = 3.6-14.4m³/mês = €15-60 extra. Teste corante: se cor passa para sanita = fuga. Reparar: €40-80.
+**Sim**. Válvula avariada desperdiça 5-20L/hora = 3.6-14.4m³/mês = €15-60 extra. Teste corante: se cor passa para sanita = fuga. Arranjar: €40-80.
 
 ### Empresa águas testa contador?
 **Sim**, grátis. Reclamar dentro 30 dias. Empresa agenda teste. Se erro confirmado: substituição grátis + correção fatura. Se OK: procurar fuga.
 
 ### Fuga pequena é grave?
-**Sim**. 1L/min parece pouco mas = 43m³/mês = €150-200 desperdiçado. Mais dano estrutural (humidade). Detetar e reparar urgente.
+**Sim**. 1L/min parece pouco mas = 43m³/mês = €150-200 desperdiçado. Mais dano estrutural (humidade). Detetar e arranjar urgente.
 
 ---
 

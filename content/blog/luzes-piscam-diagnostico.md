@@ -162,7 +162,7 @@ keywords: ["luzes piscam", "luzes escurecem", "problema elétrico", "eletricista
 2. Ligue EDP Distribuição: **800 506 506**
 3. Instale protetor sobretensão (€80-150)
 
-**Custo**: €0 (EDP repara) + €80-150 (protetor)
+**Custo**: €0 (EDP arranja) + €80-150 (protetor)
 
 ### 6. Neutro Solto ou Partido
 
@@ -188,7 +188,7 @@ keywords: ["luzes piscam", "luzes escurecem", "problema elétrico", "eletricista
 1. **Desligue disjuntor geral IMEDIATAMENTE**
 2. Não use eletricidade
 3. Ligue eletricista urgente
-4. Reparação: €150-400
+4. Arranjo: €150-400
 
 **Custo**: €150-400
 
@@ -301,11 +301,11 @@ keywords: ["luzes piscam", "luzes escurecem", "problema elétrico", "eletricista
 - Substituir componentes: €100-200
 
 ### Rede Pública
-- EDP repara: €0
+- EDP arranja: €0
 - Protetor sobretensão: €80-150
 
 ### Neutro Solto
-- Reparação urgente: €150-400
+- Arranjo urgente: €150-400
 
 ### Instalação Antiga
 - Renovação completa: €2000-5000
@@ -314,24 +314,24 @@ keywords: ["luzes piscam", "luzes escurecem", "problema elétrico", "eletricista
 - LED qualidade: €8-15
 - Dimmer LED: €30-60
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa: €60-100
 - Teste tensão e carga: incluído
 - Identificação causa: incluído
 
-### Reparações Simples
+### Arranjos Simples
 - Trocar lâmpada: €5-15
 - Substituir interruptor: €30-60
 - Apertar ligações: €80-150
 
-### Reparações Médias
+### Arranjos Médias
 - Circuito dedicado: €150-300
-- Reparar neutro: €150-400
+- Arranjar neutro: €150-400
 - Protetor sobretensão: €80-150
 
-### Reparações Complexas
+### Arranjos Complexas
 - Renovação instalação: €2000-5000
 - Certificação DGEG: €200-400
 
@@ -458,7 +458,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Luzes piscam é perigoso?
 **Depende da causa**. Lâmpada solta é inofensivo. Neutro solto é extremamente perigoso. Diagnóstico profissional recomendado.
 
-### Quanto custa reparar?
+### Quanto custa arranjar?
 **€30-400** para maioria dos casos. Simples: €30-150. Médio: €150-400. Renovação: €2000-5000.
 
 ### Posso ignorar?
@@ -470,7 +470,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Como proteger aparelhos?
 **Protetor sobretensão** (€80-150) protege contra picos. UPS (€80-200) protege equipamento sensível.
 
-### EDP repara problemas na rede?
+### EDP arranja problemas na rede?
 **Sim**, gratuitamente. Ligue 800 506 506. Mas só se problema é na rede pública (poste, transformador).
 
 ---

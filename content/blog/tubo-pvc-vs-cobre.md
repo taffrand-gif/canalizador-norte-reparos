@@ -11,7 +11,7 @@ priority: "HIGH DEMAND"
 
 # Tubos PVC vs Cobre: Qual Escolher Para Sua Casa?
 
-**Vai renovar a canalização? Construir casa nova? Reparar tubos antigos?** A escolha entre **PVC, cobre ou outros materiais** é crucial - afeta durabilidade, custo, manutenção e até qualidade da água.
+**Vai renovar a canalização? Construir casa nova? Arranjar tubos antigos?** A escolha entre **PVC, cobre ou outros materiais** é crucial - afeta durabilidade, custo, manutenção e até qualidade da água.
 
 Em Trás-os-Montes, onde água é dura (calcário) e invernos rigorosos (-5°C), a escolha do material certo é ainda mais importante. Cada material tem vantagens e desvantagens específicas.
 

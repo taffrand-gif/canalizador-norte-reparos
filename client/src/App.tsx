@@ -23,9 +23,9 @@ const LocationDetector = lazy(() => import('@/components/LocationDetector'));
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
 const Desentupimentos = lazy(() => import("@/pages/Desentupimentos"));
-const ReparacaoFugasAgua = lazy(() => import("@/pages/ReparacaoFugasAgua"));
+const ArranjoFugasAgua = lazy(() => import("@/pages/ArranjoFugasAgua"));
 const InstalacaoCanalizacao = lazy(() => import("@/pages/InstalacaoCanalizacao"));
-const ReparacaoEsquentadores = lazy(() => import("@/pages/ReparacaoEsquentadores"));
+const ArranjoEsquentadores = lazy(() => import("@/pages/ArranjoEsquentadores"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 const FAQPage = lazy(() => import("@/pages/FAQ"));
 const Chaves = lazy(() => import("@/pages/cidades/Chaves"));
@@ -71,7 +71,7 @@ const ManutencaoEsquentador = lazy(() => import("@/pages/blog/ManutencaoEsquenta
 const DesentupirWCMetodos = lazy(() => import("@/pages/blog/DesentupirWCMetodos"));
 const ComoPrevenirCanosRebentadosInverno = lazy(() => import("@/pages/blog/ComoPrevenirCanosRebentadosInverno"));
 const CustoCanalizadorTrasOsMontesPrecos = lazy(() => import("@/pages/blog/CustoCanalizadorTrasOsMontesPrecos"));
-const ReparacaoCaldeiraEsquentadorManutencao = lazy(() => import("@/pages/blog/ReparacaoCaldeiraEsquentadorManutencao"));
+const ArranjoCaldeiraEsquentadorManutencao = lazy(() => import("@/pages/blog/ArranjoCaldeiraEsquentadorManutencao"));
 const InstalacaoCasaBanho = lazy(() => import("@/pages/blog/InstalacaoCasaBanho"));
 const SistemaAquecimentoAgua = lazy(() => import("@/pages/blog/SistemaAquecimentoAgua"));
 const CanalizacaoCasaAntiga = lazy(() => import("@/pages/blog/CanalizacaoCasaAntiga"));
@@ -98,6 +98,9 @@ const TomadaNaoFunciona = lazy(() => import("@/pages/TomadaNaoFunciona"));
 const QuadroEletricoAntigo = lazy(() => import("@/pages/QuadroEletricoAntigo"));
 const FaltaLuzUrgente = lazy(() => import("@/pages/FaltaLuzUrgente"));
 
+// Commercial Intent Pages (SEO Premium) - Canalizador
+const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaArranjarAguaCastanha"));
+
 // Simple loading fallback component
 const LoadingFallback = () => (
   <div className="flex items-center justify-center min-h-[400px]">
@@ -112,9 +115,9 @@ function Router() {
         <Route path={"/"} component={OptimizedHome} />
         <Route path={"/servicos"} component={Servicos} />
         <Route path={"/desentupimentos"} component={Desentupimentos} />
-        <Route path={"/reparacao-fugas-agua"} component={ReparacaoFugasAgua} />
+        <Route path={"/arranjo-fugas-agua"} component={ArranjoFugasAgua} />
         <Route path={"/instalacao-canalizacao"} component={InstalacaoCanalizacao} />
-        <Route path={"/reparacao-esquentadores"} component={ReparacaoEsquentadores} />
+        <Route path={"/arranjo-esquentadores"} component={ArranjoEsquentadores} />
         <Route path={"/canalizador-chaves"} component={Chaves} />
         <Route path={"/canalizador-braganca"} component={Braganca} />
         <Route path={"/canalizador-mirandela"} component={Mirandela} />
@@ -158,7 +161,7 @@ function Router() {
         <Route path={"/blog/desentupir-wc-metodos-caseiros"} component={DesentupirWCMetodos} />
         <Route path={"/blog/como-prevenir-canos-rebentados-inverno"} component={ComoPrevenirCanosRebentadosInverno} />
         <Route path={"/blog/custo-canalizador-tras-os-montes-precos"} component={CustoCanalizadorTrasOsMontesPrecos} />
-        <Route path={"/blog/reparacao-caldeira-esquentador-manutencao"} component={ReparacaoCaldeiraEsquentadorManutencao} />
+        <Route path={"/blog/arranjo-caldeira-esquentador-manutencao"} component={ArranjoCaldeiraEsquentadorManutencao} />
         <Route path={"/blog/instalacao-casa-banho-completa-guia"} component={InstalacaoCasaBanho} />
         <Route path={"/blog/sistema-aquecimento-agua-melhor-opcao"} component={SistemaAquecimentoAgua} />
         <Route path={"/blog/canalizacao-casa-antiga-renovacao"} component={CanalizacaoCasaAntiga} />
@@ -181,6 +184,8 @@ function Router() {
         <Route path={"/tomada-nao-funciona"} component={TomadaNaoFunciona} />
         <Route path={"/quadro-eletrico-antigo"} component={QuadroEletricoAntigo} />
         <Route path={"/falta-luz-urgente"} component={FaltaLuzUrgente} />
+        {/* Commercial Intent Pages - SEO Premium - Canalizador */}
+        <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
         {/* Service hub pages */}
         <Route path={"/fugas-agua"} component={ServiceHub} />
         <Route path={"/desentupimentos"} component={ServiceHub} />

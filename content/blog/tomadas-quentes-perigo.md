@@ -187,7 +187,7 @@ keywords: ["tomadas quentes", "tomada aquece", "perigo elétrico", "eletricista 
 
 **Solução**:
 - Testar aparelho noutra tomada
-- Reparar ou substituir aparelho
+- Arranjar ou substituir aparelho
 - Verificar tomada após
 
 ## 🔍 Como Diagnosticar
@@ -258,27 +258,27 @@ keywords: ["tomadas quentes", "tomada aquece", "perigo elétrico", "eletricista 
 - Substituir por certificada: €40-80
 
 ### Aparelho Defeituoso
-- Reparar aparelho: €50-150
+- Arranjar aparelho: €50-150
 - Substituir aparelho: variável
 
-## 💰 Custos de Reparação
+## 💰 Custos de Arranjo
 
 ### Diagnóstico
 - Inspeção completa: €50-80
 - Teste carga e temperatura: incluído
 - Identificação causa: incluído
 
-### Reparações Simples
+### Arranjos Simples
 - Substituir 1 tomada: €40-80
 - Substituir 5 tomadas: €150-250
 - Substituir interruptor: €30-60
 
-### Reparações Médias
+### Arranjos Médias
 - Substituir circuito: €150-400
 - Tomadas adicionais (3-5): €200-400
-- Reparar ligações quadro: €80-150
+- Arranjar ligações quadro: €80-150
 
-### Reparações Complexas
+### Arranjos Complexas
 - Renovação instalação: €2000-5000
 - Certificação DGEG: €200-400
 

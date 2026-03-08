@@ -104,12 +104,12 @@ Com base na nossa experiência de 900+ intervenções em Trás-os-Montes:
 - Alguém fechou parcialmente e esqueceu
 - Válvula antiga não abre completamente
 - Válvula danificada (calcário, corrosão)
-- Após obra ou reparação
+- Após obra ou arranjo
 
 **Sintomas:**
 - Pressão fraca em toda a casa (válvula geral)
 - Pressão fraca num aparelho específico (válvula local)
-- Problema súbito (após obra ou reparação)
+- Problema súbito (após obra ou arranjo)
 - Válvula não abre completamente
 
 **Como identificar:**
@@ -168,7 +168,7 @@ Com base na nossa experiência de 900+ intervenções em Trás-os-Montes:
 - **Instalar descalcificador:** €400-1.200 (previne futuro)
 - **Dificuldade:** Profissional obrigatório
 
-**Prevenção:** Instale descalcificador (€400-1.200). Poupa em reparações futuras e prolonga vida de eletrodomésticos.
+**Prevenção:** Instale descalcificador (€400-1.200). Poupa em arranjos futuras e prolonga vida de eletrodomésticos.
 
 ### 4. Fuga de Água Oculta (8% dos Casos)
 
@@ -198,7 +198,7 @@ Com base na nossa experiência de 900+ intervenções em Trás-os-Montes:
 
 **Solução:**
 - **Localizar fuga:** €80-150 (equipamento profissional)
-- **Reparar fuga:** €100-600 (depende da localização)
+- **Arranjar fuga:** €100-600 (depende da localização)
 - **Dificuldade:** Profissional obrigatório
 
 **⚠️ URGENTE:** Fuga oculta desperdiça água (€50-300/mês) e pode causar infiltrações graves. Resolva imediatamente.
@@ -383,7 +383,7 @@ Se não identificou o problema:
 |---------|-------------|
 | Diagnóstico completo | €60-100 |
 | Substituir válvula | €75-140 |
-| Localizar e reparar fuga | €180-750 |
+| Localizar e arranjar fuga | €180-750 |
 | Desincrustação química | €200-500 |
 | Instalar bomba pressurizadora | €300-800 |
 | Substituir tubo principal | €400-1.200 |
@@ -430,12 +430,12 @@ Limpe arejador do chuveiro ou substitua chuveiro (pode estar entupido internamen
 Sim. Em 15-20 anos, pode reduzir diâmetro do tubo em 30-50%, diminuindo pressão significativamente.
 
 **6. Vale a pena instalar descalcificador?**  
-Sim, em Trás-os-Montes (água muito dura). Custo: €400-1.200. Poupa em reparações e eletrodomésticos.
+Sim, em Trás-os-Montes (água muito dura). Custo: €400-1.200. Poupa em arranjos e eletrodomésticos.
 
 **7. Pressão fraca após obra na rua. É normal?**  
 Temporariamente sim (sedimentos na rede). Limpe arejadores e filtro. Se persistir >1 semana, contacte empresa de águas.
 
-**8. Quanto tempo demora reparar pressão fraca?**  
+**8. Quanto tempo demora arranjar pressão fraca?**  
 Arejador: 10 min. Válvula: 5 min. Fuga: 2-6 horas. Substituir tubos: 1-3 dias.
 
 ---
@@ -472,7 +472,7 @@ Pressão de água fraca não é apenas inconveniente — **reduz qualidade de vi
 ---
 
 **Artigos relacionados:**
-- [Torneira Goteja: 5 Causas e Como Reparar](/blog/torneira-goteja)
+- [Torneira Goteja: 5 Causas e Como Arranjar](/blog/torneira-goteja)
 - [Água Amarela na Torneira: 6 Causas](/blog/agua-amarela-torneira)
 - [Quanto Custa um Picheleiro em Trás-os-Montes?](/blog/custo-canalizador-tras-os-montes-precos)
 

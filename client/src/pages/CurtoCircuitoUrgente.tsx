@@ -34,10 +34,10 @@ export default function CurtoCircuitoUrgente() {
       },
       {
         "@type": "Question",
-        "name": "Quanto custa reparar um curto circuito?",
+        "name": "Quanto custa arranjar um curto circuito?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Reparações simples desde €80. Substituição de componentes €120-250. Reparações complexas €250-500. Orçamento gratuito no local."
+          "text": "Arranjos simples desde €80. Substituição de componentes €120-250. Arranjos complexas €250-500. Orçamento gratuito no local."
         }
       }
     ]
@@ -119,8 +119,8 @@ export default function CurtoCircuitoUrgente() {
           },
           {
             time: '60-90 min',
-            title: 'Reparação Segura',
-            description: 'Reparamos ou substituímos componentes. Testamos tudo. Eletricidade restaurada com segurança.',
+            title: 'Arranjo Segura',
+            description: 'Arranjamos ou substituímos componentes. Testamos tudo. Eletricidade restaurada com segurança.',
             icon: 'check'
           }
         ]}
@@ -152,7 +152,7 @@ export default function CurtoCircuitoUrgente() {
             name: 'Carlos Ferreira',
             city: 'Chaves',
             problem: 'Curto circuito grave',
-            solution: 'Faíscas no quadro elétrico. Medo de incêndio. Vieram urgente, desligaram tudo com segurança, repararam. Trabalho impecável. Obrigado!',
+            solution: 'Faíscas no quadro elétrico. Medo de incêndio. Vieram urgente, desligaram tudo com segurança, arranjaram. Trabalho impecável. Obrigado!',
             timeframe: '2 horas',
             rating: 5,
             verified: true
@@ -179,7 +179,7 @@ export default function CurtoCircuitoUrgente() {
             name: 'Sofia Lopes',
             city: 'Mogadouro',
             problem: 'Cheiro a queimado',
-            solution: 'Cheiro a queimado vinha do quadro. Pânico! Vieram urgente, encontraram curto, repararam. Explicaram tudo. Muito obrigada!',
+            solution: 'Cheiro a queimado vinha do quadro. Pânico! Vieram urgente, encontraram curto, arranjaram. Explicaram tudo. Muito obrigada!',
             timeframe: '1h30',
             rating: 5,
             verified: true
@@ -201,7 +201,7 @@ export default function CurtoCircuitoUrgente() {
           {
             icon: 'check',
             title: 'Garantia 2 Anos',
-            description: 'Todas as reparações têm garantia de 2 anos. Peças e mão de obra.'
+            description: 'Todas as arranjos têm garantia de 2 anos. Peças e mão de obra.'
           },
           {
             icon: 'clock',
@@ -279,8 +279,8 @@ export default function CurtoCircuitoUrgente() {
                 a: '1) DESLIGUE IMEDIATAMENTE o disjuntor principal no quadro elétrico. 2) NÃO toque em nada elétrico. 3) LIGUE +351 932 321 892 - atendemos na hora. 4) Se sentir cheiro a queimado ou ver fumo, saia e ligue 112. 5) Afaste-se de aparelhos elétricos. Chegamos em 20 minutos e resolvemos com segurança.'
               },
               {
-                q: 'Quanto custa reparar um curto circuito?',
-                a: 'Reparações simples (tomada, interruptor) €80-120. Substituição de componentes no quadro €120-250. Reparações complexas (refazer circuitos) €250-500. Damos sempre orçamento gratuito no local antes de começar. Em emergências, garantimos segurança primeiro.'
+                q: 'Quanto custa arranjar um curto circuito?',
+                a: 'Arranjos simples (tomada, interruptor) €80-120. Substituição de componentes no quadro €120-250. Arranjos complexas (refazer circuitos) €250-500. Damos sempre orçamento gratuito no local antes de começar. Em emergências, garantimos segurança primeiro.'
               },
               {
                 q: 'Curto circuito pode causar incêndio?',

@@ -1,16 +1,16 @@
 ---
-title: "Autoclismo Não Para de Correr: 5 Causas e Como Reparar"
+title: "Autoclismo Não Para de Correr: 5 Causas e Como Arranjar"
 slug: "autoclismo-nao-para-correr"
 category: "problemas-comuns"
 date: "2026-03-03"
 author: "Norte Reparos"
-excerpt: "Autoclismo não para de correr desperdiça 200L/dia = €300/ano. Descubra as 5 causas principais, como reparar sozinho ou quando chamar canalizador."
-keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "poupar água", "Trás-os-Montes"]
+excerpt: "Autoclismo não para de correr desperdiça 200L/dia = €300/ano. Descubra as 5 causas principais, como arranjar sozinho ou quando chamar canalizador."
+keywords: ["autoclismo não para", "autoclismo corre", "arranjar autoclismo", "poupar água", "Trás-os-Montes"]
 ---
 
-# Autoclismo Não Para de Correr: 5 Causas e Como Reparar
+# Autoclismo Não Para de Correr: 5 Causas e Como Arranjar
 
-**Autoclismo faz barulho constante? Água corre sem parar?** Um autoclismo que não para de correr desperdiça **200 litros/dia** = **6,000 litros/mês** = **€300-400/ano em água desperdiçada**. Neste guia completo, explicamos as 5 causas principais, como reparar sozinho (€5-30), e quando chamar profissional.
+**Autoclismo faz barulho constante? Água corre sem parar?** Um autoclismo que não para de correr desperdiça **200 litros/dia** = **6,000 litros/mês** = **€300-400/ano em água desperdiçada**. Neste guia completo, explicamos as 5 causas principais, como arranjar sozinho (€5-30), e quando chamar profissional.
 
 ## 💧 O Custo Real de Autoclismo a Correr
 
@@ -135,11 +135,11 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 **Desgaste geral**:
 - Múltiplas peças gastas
 - Tecnologia antiga (gasta mais água)
-- Reparações constantes
+- Arranjos constantes
 
 **Sinais**:
 - Autoclismo 15+ anos
-- Já reparou várias vezes
+- Já arranjou várias vezes
 - Peças difíceis encontrar
 
 **Solução**:
@@ -147,7 +147,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - Autoclismo moderno: dupla descarga (3L/6L)
 - Poupança: 50% água vs antigo
 
-## 🛠️ Como Reparar (DIY)
+## 🛠️ Como Arranjar (DIY)
 
 ### Ferramentas Necessárias
 
@@ -157,7 +157,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - Vinagre branco (descalcificação)
 - Peças substituição (se necessário)
 
-### Reparação 1: Ajustar Boia (5 minutos)
+### Arranjo 1: Ajustar Boia (5 minutos)
 
 **Passo a passo**:
 1. Retire tampa autoclismo
@@ -168,7 +168,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 
 **Nível correto**: 2-3cm abaixo tubo overflow
 
-### Reparação 2: Substituir Válvula Boia (30 minutos)
+### Arranjo 2: Substituir Válvula Boia (30 minutos)
 
 **Passo a passo**:
 1. Feche torneira água (lateral autoclismo)
@@ -179,7 +179,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 6. Aperte porca
 7. Abra água e ajuste nível
 
-### Reparação 3: Substituir Borracha Descarga (20 minutos)
+### Arranjo 3: Substituir Borracha Descarga (20 minutos)
 
 **Passo a passo**:
 1. Feche água
@@ -191,7 +191,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 7. Reinstale mecanismo
 8. Teste
 
-### Reparação 4: Descalcificação (2-4 horas)
+### Arranjo 4: Descalcificação (2-4 horas)
 
 **Método vinagre**:
 1. Feche água
@@ -207,7 +207,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - Seguir instruções embalagem
 - Mais rápido (30-60 minutos)
 
-## 💰 Custos Reparação
+## 💰 Custos Arranjo
 
 ### DIY (Faça Você Mesmo)
 
@@ -222,8 +222,8 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 ### Profissional
 
 **Diagnóstico**: €40-60
-**Reparação simples**: €60-100 (ajuste + peças)
-**Reparação completa**: €100-150 (substituir mecanismos)
+**Arranjo simples**: €60-100 (ajuste + peças)
+**Arranjo completa**: €100-150 (substituir mecanismos)
 **Substituir autoclismo**: €150-350 (autoclismo + instalação)
 
 ## 🚽 Tipos de Autoclismo
@@ -236,7 +236,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - 10-15 litros/descarga
 - Comum casas antigas Trás-os-Montes
 
-**Reparação**: Mais difícil (peças raras)
+**Arranjo**: Mais difícil (peças raras)
 **Recomendação**: Substituir por moderno
 
 ### Autoclismo Baixo (Moderno)
@@ -247,7 +247,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - 6-9 litros/descarga
 - Mais comum
 
-**Reparação**: Fácil (peças universais)
+**Arranjo**: Fácil (peças universais)
 **Peças**: Disponíveis Leroy Merlin, Aki
 
 ### Autoclismo Embutido (Moderno)
@@ -258,7 +258,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 - Dupla descarga (3L/6L)
 - Mais eficiente
 
-**Reparação**: Mais complexa (acesso limitado)
+**Arranjo**: Mais complexa (acesso limitado)
 **Recomendação**: Chamar profissional
 
 ## 💡 Autoclismo Dupla Descarga
@@ -318,7 +318,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 **Autoclismos 30+ anos**:
 - Peças difíceis encontrar
 - Gastam muita água (15L+)
-- Reparações constantes
+- Arranjos constantes
 
 **Recomendação**: Substituir por moderno dupla descarga
 
@@ -337,17 +337,17 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 ✅ Autoclismo embutido (parede)
 ✅ Autoclismo alto antigo
 ✅ Fuga na base (pode precisar desmontar)
-✅ Tentou reparar mas não resolveu
+✅ Tentou arranjar mas não resolveu
 ✅ Quer substituir autoclismo completo
 ✅ Não tem ferramentas
 ✅ Não se sente confortável
 
 ## ✅ Por Que Escolher Norte Reparos
 
-### Reparação Rápida
+### Arranjo Rápida
 
 - Diagnóstico em 5 minutos
-- Reparação em 15-30 minutos
+- Arranjo em 15-30 minutos
 - Peças em stock (válvulas, mecanismos)
 
 ### Preços Transparentes
@@ -359,7 +359,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "reparar autoclismo", "po
 ### Experiência Comprovada
 
 - 10+ anos experiência
-- 500+ autoclismos reparados
+- 500+ autoclismos arranjados
 - 4.9/5 estrelas (500+ avaliações)
 
 ### Substituição Completa
@@ -392,13 +392,13 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Quanto desperdiça autoclismo a correr?
 **100-200 litros/dia** (fio água fino) = **€150-300/ano**. Fio água grosso: €600+/ano.
 
-### Posso reparar sozinho?
+### Posso arranjar sozinho?
 **Sim**, autoclismo baixo moderno é simples (20-30 min). Embutido ou antigo: chamar profissional.
 
-### Quanto custa reparar?
+### Quanto custa arranjar?
 **DIY**: €5-40. **Profissional**: €60-150. Muito mais barato que desperdiçar €150-300/ano.
 
-### Quanto tempo dura reparação?
+### Quanto tempo dura arranjo?
 **DIY**: 20-45 minutos. **Profissional**: 15-30 minutos no local.
 
 ### Vale a pena substituir autoclismo antigo?

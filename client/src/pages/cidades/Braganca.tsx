@@ -27,7 +27,7 @@ export default function Braganca() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Fuga de água em Bragança? Respondemos em 30 minutos. Desentupimentos e reparações urgentes, orçamento sem compromisso. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Fuga de água em Bragança? Respondemos em 30 minutos. Desentupimentos e arranjos urgentes, orçamento sem compromisso. Ligue: 928 484 451');
     // SEO meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -35,7 +35,7 @@ export default function Braganca() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador 24 horas bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, reparação canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador 24 horas bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
     
     
     // Canonical URL
@@ -57,7 +57,7 @@ export default function Braganca() {
       "@id": "https://canalizador-norte-reparos.pt/#organization",
       "name": "Canalizador Profissional — Canalizador em Bragança",
       "image": "/images/hero/hero-plumber-portugal.png",
-      "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, reparação de fugas e instalação sanitária.",
+      "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,

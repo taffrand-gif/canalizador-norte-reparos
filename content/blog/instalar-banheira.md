@@ -156,7 +156,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 
 ---
 
-## Preparação Antes da Instalação
+## Parranjo Antes da Instalação
 
 ### 1. Verificar Chão
 
@@ -191,7 +191,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 - Meça porta e corredores
 - Se não passar: considere modelo menor ou desmontável
 
-### 4. Preparar Superfície
+### 4. Parranjar Superfície
 
 **Chão:**
 - Nivelado (use nível)
@@ -359,7 +359,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 | Instalação banheira (simples) | €200-400 |
 | Instalação banheira (complexa) | €400-800 |
 | Remoção banheira antiga | +€80-150 |
-| Reparar azulejo | +€100-300 |
+| Arranjar azulejo | +€100-300 |
 | Reforçar chão | +€200-800 |
 | **TOTAL TÍPICO:** | €600-2.000 |
 
@@ -368,7 +368,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 - Acesso difícil (andar alto, sem elevador)
 - Canalizações antigas (precisa substituir)
 - Chão precisa reforço
-- Azulejo precisa reparação
+- Azulejo precisa arranjo
 
 ---
 
@@ -386,7 +386,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 - Pode usar produtos mais fortes (esmalte resistente)
 - Seque após uso (evita manchas)
 
-### Reparação de Riscos (Acrílico)
+### Arranjo de Riscos (Acrílico)
 
 **Riscos superficiais:**
 1. Limpe área
@@ -395,7 +395,7 @@ Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrí
 4. Brilho restaurado
 
 **Riscos profundos:**
-- Kit de reparação (€15-30)
+- Kit de arranjo (€15-30)
 - Ou chame profissional
 
 ### Verificação Semestral
@@ -454,7 +454,7 @@ Instalar uma banheira é um **investimento em conforto e valorização do imóve
 - Instalação de banheira (acrílico, ferro, aço)
 - Remoção de banheira antiga
 - Ligações de água e esgoto
-- Reparação de azulejo
+- Arranjo de azulejo
 - Teste completo de fugas
 
 **Cobertura:**

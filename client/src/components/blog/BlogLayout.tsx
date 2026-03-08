@@ -23,7 +23,7 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ children, title, description })
                 {title || 'Blog do Canalizador'}
               </h1>
               <p className="text-xl text-blue-100 max-w-3xl">
-                {description || 'Dicas, guias e informações sobre canalização e reparações para residências e empresas em Trás-os-Montes'}
+                {description || 'Dicas, guias e informações sobre canalização e arranjos para residências e empresas em Trás-os-Montes'}
               </p>
             </div>
             <div className="mt-6 md:mt-0">

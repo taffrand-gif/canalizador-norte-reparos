@@ -1,7 +1,7 @@
 ---
 title: "Chuveiro Pouca Pressão: 7 Soluções e Poupar €150"
 slug: "chuveiro-pouca-pressao"
-category: "reparacao"
+category: "arranjacao"
 date: "2026-03-04"
 author: "Norte Reparos"
 excerpt: "Chuveiro pouca pressão: chuveiro entupido (€15-30), válvula semi-fechada, calcário. Descubra 7 causas, soluções DIY e quando chamar picheleiro €50-80."
@@ -286,7 +286,7 @@ keywords: ["chuveiro pouca pressão", "aumentar pressão chuveiro", "chuveiro en
 **Diagnóstico**: €40-60
 **Limpar tubagem**: €50-150
 **Substituir tubagem**: €200-500
-**Reparar esquentador**: €50-120
+**Arranjar esquentador**: €50-120
 **Aumentar pressão** (bomba): €300-600
 
 ### Comparação
@@ -424,7 +424,7 @@ keywords: ["chuveiro pouca pressão", "aumentar pressão chuveiro", "chuveiro en
 - Substituir tubagens
 - Bomba pressão
 - Descalcificador
-- Reparar esquentador
+- Arranjar esquentador
 
 ### Equipamento Profissional
 

@@ -127,7 +127,7 @@ keywords: ["tomadas USB", "instalar tomadas USB", "carregador USB", "modernizar 
 
 **Caixa embutir nova**: €5-10
 **Cablagem adicional**: €20-50
-**Reparar parede/azulejo**: €30-80
+**Arranjar parede/azulejo**: €30-80
 
 ## 🏠 Onde Instalar Tomadas USB
 
@@ -301,7 +301,7 @@ keywords: ["tomadas USB", "instalar tomadas USB", "carregador USB", "modernizar 
 4. Puxe tomada para fora
 5. Desaperte fios (nota posições)
 
-**Passo 3: Preparar Fios** (5 min)
+**Passo 3: Parranjar Fios** (5 min)
 1. Corte pontas oxidadas
 2. Descasque 8-10mm
 3. Torça fios (se multifilar)

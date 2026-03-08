@@ -110,7 +110,7 @@ export default function CarrazedaDeAnsiaes() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {[
                 { icon: Droplets, title: "Canalização para Quintas", desc: "Redes de água e drenagem para quintas vinícolas e caves do Douro" },
-                { icon: Shield, title: "Reparação de Fugas", desc: "Deteção e reparação de fugas em casas de granito e quintas antigas" },
+                { icon: Shield, title: "Arranjo de Fugas", desc: "Deteção e arranjo de fugas em casas de granito e quintas antigas" },
                 { icon: Wrench, title: "Desentupimentos", desc: "Esgotos, fossas sépticas e canalizações de caves e adegas" },
                 { icon: CheckCircle, title: "Esquentadores e Caldeiras", desc: "Instalação de aquecimento para casas rurais e alojamentos turísticos" },
               ].map((service, index) => (

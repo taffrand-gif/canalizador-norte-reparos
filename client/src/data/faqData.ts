@@ -16,19 +16,19 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 1,
     question: "Quanto custa chamar um canalizador em Bragança?",
-    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Reparações de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
+    answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
     category: "Preços"
   },
   {
     id: 2,
     question: "Como detetar uma fuga de água escondida?",
-    answer: "Existem vários sinais que indicam uma fuga de água escondida: aumento inexplicável na fatura da água (mais de 20% sem mudança de hábitos), manchas de humidade nas paredes ou tetos, som de água a correr quando todas as torneiras estão fechadas, cheiro a mofo persistente, ou contador de água que continua a girar mesmo com tudo fechado. Para confirmar, feche todas as torneiras e registe o contador. Após 2 horas sem usar água, verifique novamente - se o contador mudou, há uma fuga. Utilizamos equipamento termográfico profissional para detetar fugas sem partir paredes, poupando tempo e dinheiro na reparação.",
+    answer: "Existem vários sinais que indicam uma fuga de água escondida: aumento inexplicável na fatura da água (mais de 20% sem mudança de hábitos), manchas de humidade nas paredes ou tetos, som de água a correr quando todas as torneiras estão fechadas, cheiro a mofo persistente, ou contador de água que continua a girar mesmo com tudo fechado. Para confirmar, feche todas as torneiras e registe o contador. Após 2 horas sem usar água, verifique novamente - se o contador mudou, há uma fuga. Utilizamos equipamento termográfico profissional para detetar fugas sem partir paredes, poupando tempo e dinheiro na arranjo.",
     category: "Diagnóstico"
   },
   {
     id: 3,
     question: "O que fazer em caso de fuga de água urgente?",
-    answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis 24/7 para emergências. Tempo médio de resposta: 15-30 minutos em Bragança e arredores. Não tente reparações provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a reparação definitiva.",
+    answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis 24/7 para emergências. Tempo médio de resposta: 15-30 minutos em Bragança e arredores. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
     category: "Emergências"
   },
   {
@@ -46,7 +46,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 6,
     question: "Qual a vida útil de um esquentador?",
-    answer: "A vida útil média de um esquentador é de 10 a 15 anos, dependendo da qualidade do equipamento, frequência de uso e manutenção realizada. Esquentadores a gás tendem a durar mais (12-15 anos) que os elétricos (8-12 anos). Sinais de que precisa substituir: idade superior a 12 anos, reparações frequentes (mais de 2 por ano), água que não aquece uniformemente, ruídos estranhos, consumo de gás ou eletricidade aumentado, ou fugas de água recorrentes. Manutenção anual profissional pode prolongar a vida útil em 3-5 anos. Oferecemos serviço de manutenção preventiva que inclui limpeza, verificação de segurança e ajustes.",
+    answer: "A vida útil média de um esquentador é de 10 a 15 anos, dependendo da qualidade do equipamento, frequência de uso e manutenção realizada. Esquentadores a gás tendem a durar mais (12-15 anos) que os elétricos (8-12 anos). Sinais de que precisa substituir: idade superior a 12 anos, arranjos frequentes (mais de 2 por ano), água que não aquece uniformemente, ruídos estranhos, consumo de gás ou eletricidade aumentado, ou fugas de água recorrentes. Manutenção anual profissional pode prolongar a vida útil em 3-5 anos. Oferecemos serviço de manutenção preventiva que inclui limpeza, verificação de segurança e ajustes.",
     category: "Equipamentos"
   },
   {
@@ -100,8 +100,8 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 15,
     question: "O que fazer se o autoclismo não para de correr?",
-    answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Reparamos 90% dos casos em 30 minutos. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
-    category: "Reparações"
+    answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Arranjamos 90% dos casos em 30 minutos. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
+    category: "Arranjos"
   },
   {
     id: 16,
@@ -139,9 +139,9 @@ export const FAQ_DATA: FAQItem[] = [
 export const FAQ_DATA_EXTRA: FAQItem[] = [
   {
     id: 21,
-    question: "Quanto tempo dura uma reparação de fuga de água?",
-    answer: "A duração de uma reparação de fuga varia conforme a localização e gravidade. Fugas simples em torneiras: 30-60 minutos. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
-    category: "Reparações"
+    question: "Quanto tempo dura uma arranjo de fuga de água?",
+    answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas simples em torneiras: 30-60 minutos. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
+    category: "Arranjos"
   },
   {
     id: 22,
@@ -186,7 +186,7 @@ export const FAQ_CATEGORIES = [
   "Legislação",
   "Segurança",
   "Inverno",
-  "Reparações",
+  "Arranjos",
   "Projetos",
   "Dicas"
 ];

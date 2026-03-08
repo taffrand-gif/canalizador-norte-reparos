@@ -46,7 +46,7 @@ Canalizador usa **manómetro digital** que mede:
 
 **Causa mais comum** (30% dos casos):
 - Alguém fechou parcialmente
-- Esqueceram de abrir totalmente após reparação
+- Esqueceram de abrir totalmente após arranjo
 - Válvula oxidada não abre completamente
 
 **Como verificar**:
@@ -111,7 +111,7 @@ Canalizador usa **manómetro digital** que mede:
 - Chão quente/frio
 - Som de água a correr
 
-**Solução**: [Deteção com câmara térmica FLIR](/blog/fuga-agua-escondida-detetar) + reparação (€150-800).
+**Solução**: [Deteção com câmara térmica FLIR](/blog/fuga-agua-escondida-detetar) + arranjo (€150-800).
 
 ### 5. Pressão Baixa da Rede Pública
 
@@ -234,13 +234,13 @@ Canalizador usa **manómetro digital** que mede:
 
 ## 💰 Custos de Soluções
 
-### Reparações Simples
+### Arranjos Simples
 - Limpar arejadores: €0-40
 - Substituir válvula corte: €30-60
 - Limpar filtros: €40-80
 
-### Reparações Médias
-- Reparar fuga: €150-400
+### Arranjos Médias
+- Arranjar fuga: €150-400
 - Substituir troço cano: €200-600
 - Ajustar/substituir válvula redutora: €80-150
 

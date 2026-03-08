@@ -54,7 +54,7 @@ keywords: ["fuga gás", "cheiro gás", "emergência gás", "picheleiro urgente",
 - ❌ Procurar fuga com chama
 - ❌ Ligar/desligar luzes
 - ❌ Usar telemóvel dentro casa
-- ❌ Tentar reparar sozinho
+- ❌ Tentar arranjar sozinho
 - ❌ Voltar entrar antes seguro
 - ❌ Ignorar cheiro "pequeno"
 
@@ -204,25 +204,25 @@ keywords: ["fuga gás", "cheiro gás", "emergência gás", "picheleiro urgente",
 - Certificado
 - **Custo**: €80-150
 
-## 💰 Custos Reparação Fugas
+## 💰 Custos Arranjo Fugas
 
 ### Diagnóstico
 
 **Visita urgente**: €80-150
 **Inclui**: Localizar fuga, teste, orçamento
 
-### Reparações Comuns
+### Arranjos Comuns
 
 **Substituir mangueira**: €30-60
 **Substituir regulador**: €40-80
 **Apertar ligações**: €40-80
 **Substituir válvula**: €60-150
 
-### Reparações Grandes
+### Arranjos Grandes
 
 **Tubagem gás**: €200-600
-**Caldeira reparar**: €150-500
-**Esquentador reparar**: €100-400
+**Caldeira arranjar**: €150-500
+**Esquentador arranjar**: €100-400
 **Substituir equipamento**: €300-2,000
 
 ### Urgência
@@ -411,7 +411,7 @@ keywords: ["fuga gás", "cheiro gás", "emergência gás", "picheleiro urgente",
 ### Serviço Completo
 
 - Deteção fuga
-- Reparação urgente
+- Arranjo urgente
 - Certificação
 - Instalação detetores
 - Manutenção preventiva
@@ -447,7 +447,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 ### Fuga pequena é perigosa?
 **SIM**. Qualquer fuga pode explodir. Gás acumula, uma faísca = explosão. Mesmo cheiro fraco = investigar urgente. Não ignorar.
 
-### Quanto custa reparar fuga?
+### Quanto custa arranjar fuga?
 **€30-150** (mangueira, regulador, ligações). **€200-600** (tubagem). Urgência +50-100%. Mas fuga gás = emergência, vale a pena.
 
 ### Como prevenir fugas?
