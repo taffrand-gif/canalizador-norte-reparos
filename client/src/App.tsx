@@ -100,6 +100,8 @@ const FaltaLuzUrgente = lazy(() => import("@/pages/FaltaLuzUrgente"));
 
 // Commercial Intent Pages (SEO Premium) - Canalizador
 const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaArranjarAguaCastanha"));
+const ValePenaArranjarVsSubstituir = lazy(() => import("@/pages/ValePenaArranjarVsSubstituir"));
+const ComoDesentupirSanitaSozinho = lazy(() => import("@/pages/ComoDesentupirSanitaSozinho"));
 
 // Simple loading fallback component
 const LoadingFallback = () => (
@@ -186,6 +188,8 @@ function Router() {
         <Route path={"/falta-luz-urgente"} component={FaltaLuzUrgente} />
         {/* Commercial Intent Pages - SEO Premium - Canalizador */}
         <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
+        <Route path={"/vale-pena-arranjar-vs-substituir"} component={ValePenaArranjarVsSubstituir} />
+        <Route path={"/como-desentupir-sanita-sozinho"} component={ComoDesentupirSanitaSozinho} />
         {/* Service hub pages */}
         <Route path={"/fugas-agua"} component={ServiceHub} />
         <Route path={"/desentupimentos"} component={ServiceHub} />
