@@ -90,6 +90,13 @@
       "destination": "/index.html"
     }
   ],
+  "redirects": [
+    {
+      "source": "/:path((?!.*\\.).*[^/])",
+      "destination": "/:path/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
