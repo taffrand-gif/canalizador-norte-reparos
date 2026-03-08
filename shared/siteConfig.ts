@@ -105,10 +105,10 @@ export const siteConfig: SiteConfig = {
   domain: 'canalizador-norte-reparos.pt',
   
   colors: {
-    primary: '#1e40af', // Blue 700
-    primaryDark: '#1e3a8a', // Blue 900
-    primaryLight: '#3b82f6', // Blue 500
-    accent: '#dc2626', // Red 600 for urgent CTAs
+    primary: '#1e3a8a', // Blue 900 — WCAG AA compliant with white text
+    primaryDark: '#1e293b', // Slate 800
+    primaryLight: '#1e40af', // Blue 700
+    accent: '#b91c1c', // Red 700 for urgent CTAs
   },
   
   hero: {
