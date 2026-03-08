@@ -55,7 +55,7 @@ function FAQLocal() {
     },
     {
       question: 'Há eletricista de urgência em Miranda do Douro?',
-      answer: 'Sim, prestamos serviço de eletricidade de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como curtos-circuitos, falhas de energia ou situações de perigo. Ligue 932 321 892.',
+      answer: 'Sim, prestamos serviço de eletricidade de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como curtos-circuitos, falhas de energia ou situações de perigo. Ligue 928 484 451.',
     },
     {
       question: 'Instalam quadros elétricos em Vila Flor e Torre de Moncorvo?',
