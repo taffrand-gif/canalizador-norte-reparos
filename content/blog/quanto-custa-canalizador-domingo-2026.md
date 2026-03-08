@@ -116,10 +116,10 @@ Chamar um canalizador ao domingo custa mais por várias razões legítimas:
 
 ### URGÊNCIAS REAIS (Chamar Imediatamente) ✅
 
-1. **Fuga grave** - Água a alagar casa
+1. **Fuga grave** - Água a alagar casa. Saiba [o que fazer antes do canalizador chegar](https://canalizador-norte-reparos.pt/blog/urgencia-canalizacao-o-que-fazer-antes).
 2. **Sem água quente** - Inverno, idosos, crianças
-3. **Sanita entupida** - Única casa, família grande
-4. **Canalização rebentada** - Água jorra
+3. **Sanita entupida** - Única casa, família grande. Veja [causas e soluções entupimentos](https://canalizador-norte-reparos.pt/blog/canalizacao-entupida-causas-solucoes).
+4. **Canalização rebentada** - Água jorra. Saiba [quanto custa arranjar fugas](https://canalizador-norte-reparos.pt/blog/quanto-custa-arranjar-fuga-agua-2026).
 5. **Esquentador avariado** - Inverno rigoroso
 6. **Fossa séptica a transbordar** - Risco saúde
 
@@ -196,6 +196,13 @@ Chamar um canalizador ao domingo custa mais por várias razões legítimas:
 
 ### 8. Preços incluem IVA?
 **Não.** Preços apresentados são sem IVA. Com IVA (23%): dias úteis 80€/h, sábado 98€/h, domingo 111€/h.
+
+## Artigos Relacionados
+
+- [Canalizador 24 Horas: Guia Completo](https://canalizador-norte-reparos.pt/blog/canalizador-24-horas-guia-completo)
+- [Certificação Gás: Preços 2026](https://canalizador-norte-reparos.pt/blog/preco-certificacao-gas-2026)
+- [Urgência Canalização: O Que Fazer](https://canalizador-norte-reparos.pt/blog/urgencia-canalizacao-o-que-fazer-antes)
+- [Melhores Canalizadores Bragança](https://canalizador-norte-reparos.pt/blog/melhores-canalizadores-braganca-2026)
 
 ## Precisa de Canalizador ao Domingo?
 
