@@ -2,6 +2,7 @@
 // Recherche fréquente: "vale pena arranjar esquentador", "substituir vs arranjar caldeira", "quando substituir"
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
@@ -11,45 +12,6 @@ import { Phone, Scale, CheckCircle, XCircle, AlertTriangle, Calculator } from 'l
 export default function ValePenaArranjarVsSubstituir() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Vale a Pena Arranjar ou Substituir? Guia Completo 2026 | 928 484 451";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content',
-      'Vale a pena arranjar ou substituir? Guia completo: esquentador, caldeira, canos, sanita. Critérios decisão + comparação custos. Orçamento grátis: 928 484 451'
-    );
-
-    // Schema.org
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-arranjar-vs-substituir';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Vale a Pena Arranjar ou Substituir? Guia Completo",
-      "description": "Guia de decisão: quando arranjar e quando substituir equipamentos de canalização",
-      "author": {
-        "@type": "Organization",
-        "name": config.businessName
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": config.businessName,
-        "telephone": config.phone
-      }
-    });
-    document.head.appendChild(schemaScript);
-
-    return () => {
-      const existingSchema = document.getElementById('schema-arranjar-vs-substituir');
-      if (existingSchema) existingSchema.remove();
-    };
-  }, [config]);
 
   const faqs = [
     {
@@ -172,6 +134,10 @@ export default function ValePenaArranjarVsSubstituir() {
 
   return (
     <>
+      <Helmet>
+        <title>Vale a Pena Arranjar ou Substituir? Guia Completo 2026 | 928 484 451</title>
+        <meta name="description" content="Vale a pena arranjar ou substituir? Guia completo: esquentador, caldeira, canos, sanita. Critérios decisão + comparação custos. Orçamento grátis: 928 484 451" />
+      </Helmet>
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">

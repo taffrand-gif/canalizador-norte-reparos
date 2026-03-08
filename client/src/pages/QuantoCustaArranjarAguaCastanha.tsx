@@ -2,6 +2,7 @@
 // Recherche fréquente: "quanto custa arranjar água castanha", "preço arranjar água amarela", "água suja torneira preço"
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
@@ -11,45 +12,21 @@ import { Phone, Euro, CheckCircle, AlertTriangle, Clock, Wrench } from 'lucide-r
 export default function QuantoCustaArranjarAguaCastanha() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026 | 928 484 451";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026",
+    "description": "Guia completo de preços para arranjar água castanha: causas, soluções e custos detalhados",
+    "author": {
+      "@type": "Organization",
+      "name": config.businessName
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": config.businessName,
+      "telephone": config.phone
     }
-    metaDescription.setAttribute('content',
-      'Água castanha da torneira? Preços arranjo 2026: 40-150€. Causas: ferrugem, canos velhos, sedimentos. Orçamento grátis: 928 484 451'
-    );
-
-    // Schema.org
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-agua-castanha';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026",
-      "description": "Guia completo de preços para arranjar água castanha: causas, soluções e custos detalhados",
-      "author": {
-        "@type": "Organization",
-        "name": config.businessName
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": config.businessName,
-        "telephone": config.phone
-      }
-    });
-    document.head.appendChild(schemaScript);
-
-    return () => {
-      const existingSchema = document.getElementById('schema-agua-castanha');
-      if (existingSchema) existingSchema.remove();
-    };
-  }, [config]);
+  };
 
   const faqs = [
     {
@@ -127,6 +104,13 @@ export default function QuantoCustaArranjarAguaCastanha() {
 
   return (
     <>
+      <Helmet>
+        <title>Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026 | 928 484 451</title>
+        <meta name="description" content="Água castanha da torneira? Preços arranjo 2026: 40-150€. Causas: ferrugem, canos velhos, sedimentos. Orçamento grátis: 928 484 451" />
+        <script type="application/ld+json">
+          {JSON.stringify(schemaData)}
+        </script>
+      </Helmet>
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">

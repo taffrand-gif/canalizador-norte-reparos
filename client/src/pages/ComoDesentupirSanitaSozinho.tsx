@@ -2,6 +2,7 @@
 // Recherche fréquente: "como desentupir sanita sozinho", "desentupir wc caseiro", "métodos desentupir"
 
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
@@ -11,59 +12,6 @@ import { Phone, AlertTriangle, CheckCircle, XCircle, Wrench, Clock } from 'lucid
 export default function ComoDesentupirSanitaSozinho() {
   const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Como Desentupir Sanita Sozinho (Sem Canalizador) | Guia 2026";
-
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content',
-      'Como desentupir sanita sozinho? 5 métodos caseiros eficazes: ventosa, água quente, bicarbonato, arame. Quando chamar canalizador: 928 484 451'
-    );
-
-    // Schema.org
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-desentupir-sanita';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": "Como Desentupir Sanita Sozinho",
-      "description": "Guia passo a passo para desentupir sanita sem canalizador",
-      "totalTime": "PT30M",
-      "tool": ["Ventosa", "Água quente", "Bicarbonato de sódio", "Vinagre", "Arame"],
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Método 1: Ventosa",
-          "text": "Use ventosa com movimentos firmes para criar pressão e desalojar obstrução"
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Método 2: Água Quente",
-          "text": "Despeje água quente (não fervente) para dissolver gorduras e papel"
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Método 3: Bicarbonato + Vinagre",
-          "text": "Reação química ajuda a desagregar obstrução orgânica"
-        }
-      ],
-      "author": {
-        "@type": "Organization",
-        "name": config.businessName
-      }
-    });
-    document.head.appendChild(schemaScript);
-
-    return () => {
-      const existingSchema = document.getElementById('schema-desentupir-sanita');
-      if (existingSchema) existingSchema.remove();
-    };
-  }, [config]);
 
   const faqs = [
     {
@@ -200,6 +148,10 @@ export default function ComoDesentupirSanitaSozinho() {
 
   return (
     <>
+      <Helmet>
+        <title>Como Desentupir Sanita Sozinho (Sem Canalizador) | Guia 2026</title>
+        <meta name="description" content="Como desentupir sanita sozinho? 5 métodos caseiros eficazes: ventosa, água quente, bicarbonato, arame. Quando chamar canalizador: 928 484 451" />
+      </Helmet>
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
