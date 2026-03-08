@@ -328,7 +328,7 @@ Electricistas certificados disponíveis 24 horas por dia, 7 dias por semana.
 
 Atendemos todo o distrito de Bragança em 30-40 minutos!
 
-📞 Ligue AGORA: 932 321 892
+📞 Ligue AGORA: 928 484 451
 💬 WhatsApp disponível
 
 #Bragança #Electricista #Urgências #StaffSeekers
@@ -357,7 +357,7 @@ Estamos disponíveis 24 HORAS, incluindo:
 
 Chegamos em 30-40 minutos!
 
-📞 932 321 892 (LIGUE AGORA)
+📞 928 484 451 (LIGUE AGORA)
 💬 WhatsApp: [link]
 
 Bragança | Macedo de Cavaleiros | Mirandela | Toda a região
@@ -388,7 +388,7 @@ Atenção a estes sinais! Podem indicar risco de incêndio:
 SE DETETAR QUALQUER SINAL:
 🚨 Desligue o disjuntor geral
 🚨 Não use a instalação
-🚨 Ligue IMEDIATAMENTE: 932 321 892
+🚨 Ligue IMEDIATAMENTE: 928 484 451
 
 Instalações antigas são responsáveis por 25% dos incêndios domésticos!
 
@@ -425,7 +425,7 @@ Processo rápido: 3-5 dias!
 Sem certificação = Não pode vender/arrendar
 
 Agende já:
-📞 932 321 892
+📞 928 484 451
 🌐 staff-seekers.com
 
 #CertificaçãoDGEG #Bragança #Electricista
@@ -450,7 +450,7 @@ Agende já:
 Centenas de clientes satisfeitos!
 
 Próxima instalação elétrica?
-📞 932 321 892 (24h)
+📞 928 484 451 (24h)
 
 #Testemunhos #ClientesSatisfeitos #Bragança #Electricista
 ```
@@ -477,7 +477,7 @@ Poupança até 70% na fatura anual.
 Quer otimizar a instalação elétrica?
 Fazemos auditoria energética GRATUITA!
 
-📞 932 321 892
+📞 928 484 451
 📧 contato@staff-seekers.com
 
 #PouparEnergia #DicasÚteis #Bragança
@@ -514,7 +514,7 @@ Quadro moderno certificado desde 450€
 ✅ Instalação em 3-6h
 
 Orçamento gratuito:
-📞 932 321 892
+📞 928 484 451
 
 #QuadroElétrico #Segurança #Bragança
 ```
@@ -548,7 +548,7 @@ Trabalhos não certificados:
 
 Exija profissionais certificados!
 
-📞 932 321 892
+📞 928 484 451
 🌐 staff-seekers.com
 
 #Certificação #Profissional #Bragança
@@ -579,7 +579,7 @@ E TODAS as vilas e aldeias da região!
 
 Urgência elétrica em qualquer ponto do distrito?
 
-📞 932 321 892 (24 horas)
+📞 928 484 451 (24 horas)
 
 #Bragança #TrásOsMontes #Electricista #Urgências
 ```
@@ -602,7 +602,7 @@ Sem certificação → Problemas legais
 
 RESOLVA HOJE:
 
-📞 Ligue: 932 321 892
+📞 Ligue: 928 484 451
 💬 WhatsApp: [link]
 🌐 Orçamento online: staff-seekers.com
 

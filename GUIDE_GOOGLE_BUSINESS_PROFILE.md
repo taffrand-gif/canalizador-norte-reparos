@@ -111,7 +111,7 @@ Aqui define onde presta serviços. Pode escolher:
 
 **Telefone:** 
 - Norte-Reparos: +351 928 484 451
-- Staff-Seekers: +351 932 321 892
+- Staff-Seekers: +351 928 484 451
 
 **Website:**
 - Norte-Reparos: https://canalizador-norte-reparos.pt
@@ -178,7 +178,7 @@ Atendemos Bragança, Macedo de Cavaleiros, Mirandela, Vinhais, Miranda do Douro,
 
 Trabalhos certificados com garantia de 12 meses. Cumprimento rigoroso do RTIEBT. Preços transparentes. Orçamento sem compromisso. Mais de 10 anos de experiência.
 
-Urgência elétrica? Ligue agora: 932 321 892 (disponível 24h/dia, 7 dias/semana, incluindo fins-de-semana e feriados).
+Urgência elétrica? Ligue agora: 928 484 451 (disponível 24h/dia, 7 dias/semana, incluindo fins-de-semana e feriados).
 ```
 
 **Palavras-chave incluídas:**
@@ -390,7 +390,7 @@ Estamos sempre disponíveis para futuras necessidades. 24h/dia!
 
 Cumprimentos,
 Equipa [Norte-Reparos/Staff-Seekers]
-928 484 451 / 932 321 892
+928 484 451 / 928 484 451
 ```
 
 **Template resposta avaliação negativa:**

@@ -12,7 +12,7 @@ Plateforme multi-sites pour services de plomberie et électricité 24h/24 dans l
 
 ### 2. Staff-Seekers (staff-seekers.com)
 - **Secteur** : Services électriques
-- **Téléphone** : 932 321 892
+- **Téléphone** : 928 484 451
 - **Couleur principale** : Orange (#ea580c)
 - **Services** : Substituição Quadro Elétrico, Instalação Tomadas, Arranjo Curto-Circuito, Certificação DGEG
 
@@ -231,7 +231,7 @@ colors: {
 
 Pour toute question ou assistance :
 - Email : info@canalizador-norte-reparos.pt ou info@staff-seekers.com
-- Téléphone : 928 484 451 (Norte-Reparos) ou 932 321 892 (Staff-Seekers)
+- Téléphone : 928 484 451 (Norte-Reparos) ou 928 484 451 (Staff-Seekers)
 
 ## Licence
 
