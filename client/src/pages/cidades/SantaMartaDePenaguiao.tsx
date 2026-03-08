@@ -12,7 +12,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function SantaMartaDePenaguiao() {
   useEffect(() => {
-    document.title = "Canalizador Santa Marta de Penaguião 24h - Vinho Verde e Douro - +351 928 484 451";
+    document.title = "Canalizador Santa Marta Penaguião 24h | 928 484 451";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
     metaDescription.setAttribute('content', 'Canalizador em Santa Marta de Penaguião. Canalização para quintas de vinho verde e Douro, desentupimentos, fugas de água 24h. Orçamento gratuito.');
