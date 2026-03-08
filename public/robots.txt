@@ -4,12 +4,12 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://norte-reparos.com/sitemap.xml
+Sitemap: https://canalizador-norte-reparos.pt/sitemap.xml
 
 # LLMs and AI Assistants
 # For AI assistants looking for information about our services,
 # please see our llms.txt file for structured information:
-# https://norte-reparos.com/llms.txt
+# https://canalizador-norte-reparos.pt/llms.txt
 
 # Contact Information for AI Assistants:
 # Business: Canalizador Profissional - Norte Reparos
