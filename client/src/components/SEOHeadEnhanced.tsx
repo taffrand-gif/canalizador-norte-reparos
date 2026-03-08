@@ -1,5 +1,5 @@
-// SEO Head Enhanced component - Gestion complète des meta tags avec mots-clés longue traîne
-// Support pour pages villes, Open Graph, Twitter Cards, canonical URLs
+// Componente SEO Head Enhanced - Gestão completa de meta tags com palavras-chave de cauda longa
+// Suporte para páginas de cidades, Open Graph, Twitter Cards, URLs canónicas
 
 import { useEffect, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
@@ -7,7 +7,7 @@ import { useLocation } from 'wouter';
 import { getCitySEOConfig } from '../../../shared/seoKeywords';
 
 interface SEOHeadEnhancedProps {
-  citySlug?: string; // Slug de la ville (ex: 'macedo-de-cavaleiros')
+  citySlug?: string; // Slug da cidade (ex: 'macedo-de-cavaleiros')
   pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery';
   customTitle?: string;
   customDescription?: string;
@@ -26,19 +26,19 @@ export default function SEOHeadEnhanced({
   const { config } = useSite();
   const [location] = useLocation();
 
-  // Récupérer la configuration SEO pour la ville
+  // Recuperar a configuração SEO para a cidade
   const citySEO = citySlug ? getCitySEOConfig(citySlug) : null;
 
-  // Déterminer les meta tags en fonction du type de page
+  // Determinar as meta tags em função do tipo de página
   const seoConfig = useMemo(() => {
-    // Configuration par défaut (page d'accueil)
+    // Configuração padrão (página inicial)
     let title = customTitle || config.title;
     let description = customDescription || config.description;
     let keywords = customKeywords || config.seo.keywords;
     let canonicalUrl = `https://${config.domain}${location}`;
     let ogImage = customImage || config.seo.ogImage;
 
-    // Page ville
+    // Página de cidade
     if (pageType === 'city' && citySEO) {
       title = citySEO.title;
       description = citySEO.description;
@@ -46,13 +46,13 @@ export default function SEOHeadEnhanced({
       canonicalUrl = citySEO.canonicalUrl;
     }
 
-    // Page service
+    // Página de serviço
     if (pageType === 'service') {
       title = `${config.serviceType} - ${customTitle || 'Serviços'} | ${config.name}`;
       description = customDescription || `Serviços de ${config.serviceType.toLowerCase()} profissional em Trás-os-Montes. ${config.description}`;
     }
 
-    // Page blog
+    // Página de blog
     if (pageType === 'blog' && customTitle) {
       title = `${customTitle} | Blog ${config.name}`;
       description = customDescription || `Artigo sobre ${customTitle.toLowerCase()} no blog ${config.name}. ${config.description}`;
@@ -60,7 +60,7 @@ export default function SEOHeadEnhanced({
 
     return {
       title,
-      description: description.substring(0, 160), // Limiter à 160 caractères
+      description: description.substring(0, 160), // Limitar a 160 caracteres
       keywords: keywords.join(', '),
       canonicalUrl,
       ogImage,
@@ -70,10 +70,10 @@ export default function SEOHeadEnhanced({
   }, [config, citySlug, pageType, location, customTitle, customDescription, customKeywords, customImage, citySEO]);
 
   useEffect(() => {
-    // Mettre à jour le titre du document
+    // Atualizar o título do documento
     document.title = seoConfig.title;
 
-    // Helper function pour mettre à jour ou créer une meta tag
+    // Função auxiliar para atualizar ou criar uma meta tag
     const updateMetaTag = (selector: string, attribute: string, value: string) => {
       let element = document.querySelector(selector);
       if (!element) {
@@ -90,14 +90,14 @@ export default function SEOHeadEnhanced({
       element.setAttribute(attribute, value);
     };
 
-    // Meta tags de base
+    // Meta tags básicas
     updateMetaTag('meta[name="description"]', 'content', seoConfig.description);
     updateMetaTag('meta[name="keywords"]', 'content', seoConfig.keywords);
     updateMetaTag('meta[name="author"]', 'content', config.name);
     updateMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
     updateMetaTag('meta[name="googlebot"]', 'content', 'index, follow');
     
-    // Viewport (important pour mobile)
+    // Viewport (importante para mobile)
     updateMetaTag('meta[name="viewport"]', 'content', 'width=device-width, initial-scale=1.0');
 
     // Open Graph tags
@@ -129,7 +129,7 @@ export default function SEOHeadEnhanced({
     }
     canonical.href = seoConfig.canonicalUrl;
 
-    // Hreflang tags (pour internationalisation)
+    // Tags hreflang (para internacionalização)
     const hreflangTags = [
       { lang: 'pt-PT', url: seoConfig.canonicalUrl },
       { lang: 'pt-BR', url: seoConfig.canonicalUrl.replace('.com', '.com.br') },
@@ -137,10 +137,10 @@ export default function SEOHeadEnhanced({
       { lang: 'es', url: seoConfig.canonicalUrl.replace('.com', '.com/es') }
     ];
 
-    // Supprimer les anciennes hreflang tags
+    // Remover as antigas tags hreflang
     document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(tag => tag.remove());
 
-    // Ajouter les nouvelles hreflang tags
+    // Adicionar as novas tags hreflang
     hreflangTags.forEach(({ lang, url }) => {
       const link = document.createElement('link');
       link.rel = 'alternate';
@@ -156,7 +156,7 @@ export default function SEOHeadEnhanced({
     xDefault.href = seoConfig.canonicalUrl;
     document.head.appendChild(xDefault);
 
-    // Structured Data (Schema.org) pour LocalBusiness
+    // Dados estruturados (Schema.org) para LocalBusiness
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     
@@ -185,9 +185,9 @@ export default function SEOHeadEnhanced({
       ]
     };
 
-    // Ajouter les coordonnées géographiques si c'est une page ville
+    // Adicionar as coordenadas geográficas se for uma página de cidade
     if (pageType === 'city' && citySEO) {
-      // Coordonnées approximatives pour chaque ville
+      // Coordenadas aproximadas para cada cidade
       const cityCoordinates: Record<string, { lat: number, lng: number }> = {
         'macedo-de-cavaleiros': { lat: 41.5386, lng: -6.9611 },
         'braganca': { lat: 41.8061, lng: -6.7572 },
@@ -216,15 +216,15 @@ export default function SEOHeadEnhanced({
               "latitude": coords.lat,
               "longitude": coords.lng
             },
-            "geoRadius": "20000" // 20km radius
+            "geoRadius": "20000" // raio de 20km
           }
         });
       }
     }
 
     schemaScript.text = JSON.stringify(schemaData);
-    
-    // Supprimer l'ancien script schema s'il existe
+
+    // Remover o script schema antigo se existir
     const oldSchema = document.querySelector('script[type="application/ld+json"]');
     if (oldSchema) {
       document.head.removeChild(oldSchema);
@@ -237,7 +237,7 @@ export default function SEOHeadEnhanced({
       window.dataLayer = [];
     }
 
-    // Defer GTM loading by 3s after page load for better performance
+    // Adiar carregamento GTM por 3s após carregamento da página para melhor desempenho
     const loadGTM = () => {
       if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
       setTimeout(() => {
@@ -255,7 +255,7 @@ export default function SEOHeadEnhanced({
           gtag('js', new Date());
           gtag('config', 'AW-17915870228');
 
-          // GDPR Consent Mode (préservé des originaux)
+          // Modo de consentimento GDPR
           gtag('consent', 'default', {
             'analytics_storage': 'denied',
             'ad_storage': 'denied',
@@ -272,7 +272,7 @@ export default function SEOHeadEnhanced({
       window.addEventListener('load', loadGTM, { once: true });
     }
 
-    // Nettoyage
+    // Limpeza
     return () => {
       if (schemaScript.parentNode === document.head) {
         document.head.removeChild(schemaScript);
@@ -280,10 +280,10 @@ export default function SEOHeadEnhanced({
     };
   }, [config, seoConfig, pageType, citySlug]);
 
-  return null; // Ce composant ne rend rien
+  return null; // Este componente não renderiza nada
 }
 
-// Étendre l'interface Window pour TypeScript
+// Estender a interface Window para TypeScript
 declare global {
   interface Window {
     dataLayer: any[];

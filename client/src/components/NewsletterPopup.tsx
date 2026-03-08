@@ -31,7 +31,7 @@ export function NewsletterPopup() {
         // Track Facebook Pixel event
         trackEvent.completeRegistration('newsletter_popup');
         
-        // Set cookie pour ne pas réafficher pendant 7 jours
+        // Definir cookie para não voltar a mostrar durante 7 dias
         setCookie(COOKIE_NAME, 'true', COOKIE_DURATION_DAYS);
       } else {
         toast.info('ℹ️ ' + data.message);
@@ -47,17 +47,17 @@ export function NewsletterPopup() {
   });
 
   useEffect(() => {
-    // Vérifier si le cookie existe
+    // Verificar se o cookie existe
     if (getCookie(COOKIE_NAME)) {
       return;
     }
 
-    // Timer pour afficher après 30 secondes
+    // Timer para mostrar após 30 segundos
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 30000); // 30 secondes
 
-    // Listener pour scroll (afficher à 50%)
+    // Listener para scroll (mostrar aos 50%)
     const handleScroll = () => {
       const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
       if (scrollPercent > 50 && !getCookie(COOKIE_NAME)) {
@@ -76,7 +76,7 @@ export function NewsletterPopup() {
 
   const handleClose = () => {
     setIsOpen(false);
-    // Set cookie pour ne pas réafficher pendant 7 jours
+    // Definir cookie para não voltar a mostrar durante 7 dias
     setCookie(COOKIE_NAME, 'true', COOKIE_DURATION_DAYS);
   };
 
@@ -170,7 +170,7 @@ export function NewsletterPopup() {
   );
 }
 
-// Helper functions pour cookies
+// Funções auxiliares para cookies
 function setCookie(name: string, value: string, days: number) {
   const expires = new Date();
   expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);

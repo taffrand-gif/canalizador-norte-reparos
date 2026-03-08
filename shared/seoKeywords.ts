@@ -1,5 +1,5 @@
-// SEO Keywords configuration for Norte-Reparos (Canalizador)
-// Mots-clés longue traîne en portugais PT-PT pour 10 villes
+// Configuração de palavras-chave SEO para Norte-Reparos (Canalizador)
+// Palavras-chave de cauda longa em português PT-PT para 10 cidades
 
 export interface CitySEOConfig {
   cityName: string;

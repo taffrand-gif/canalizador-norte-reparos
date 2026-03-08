@@ -1,7 +1,7 @@
 import React from 'react';
-// Price Transparency Component - Comparaison 3 colonnes
+// Price Transparency Component - Comparação 3 colunas
 // Outros vs Nós vs Você Economiza
-// Impact: Lever objection #1 "Combien ça coûte?"
+// Impacto: Ultrapassar objeção #1 "Quanto custa?"
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';

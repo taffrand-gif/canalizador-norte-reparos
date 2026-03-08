@@ -32,7 +32,7 @@ function QuoteForm() {
       toast.success("✅ Pedido enviado com sucesso!", {
         description: "Entraremos em contacto consigo brevemente com o orçamento.",
       });
-      // Réinitialiser le formulaire
+      // Reinicializar o formulário
       setFormData({
         name: "",
         email: "",

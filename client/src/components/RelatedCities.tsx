@@ -1,5 +1,5 @@
 import React from 'react';
-// Composant RelatedCities - Affiche les villes connexes pour le maillage interne SEO
+// Componente RelatedCities - Mostra as cidades relacionadas para o linking interno SEO
 import { Link } from 'wouter';
 // memo removed from 'react';
 
@@ -9,7 +9,7 @@ interface RelatedCitiesProps {
 }
 
 function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
-  // Liste des villes avec leurs slugs et régions
+  // Lista das cidades com seus slugs e regiões
   const allCities = [
     { name: 'Bragança', slug: 'canalizador-braganca', region: 'Norte' },
     { name: 'Chaves', slug: 'canalizador-chaves', region: 'Norte' },
@@ -47,10 +47,10 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
     { name: 'Mesão Frio', slug: 'canalizador-mesao-frio', region: 'Douro' },
   ];
 
-  // Filtrer pour exclure la ville actuelle
+  // Filtrar para excluir a cidade atual
   const relatedCities = allCities
     .filter(city => city.slug !== currentCitySlug)
-    .slice(0, 5); // Prendre 5 villes maximum
+    .slice(0, 5); // Pegar 5 cidades no máximo
 
   if (relatedCities.length === 0) return null;
 

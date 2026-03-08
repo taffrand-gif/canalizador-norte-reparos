@@ -1,4 +1,4 @@
-// Composant RelatedArticles - Affiche les articles connexes pour le maillage interne SEO
+// Componente RelatedArticles - Mostra os artigos relacionados para o linking interno SEO
 import { Link } from 'wouter';
 
 interface RelatedArticlesProps {
@@ -6,7 +6,7 @@ interface RelatedArticlesProps {
 }
 
 export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesProps) {
-  // Liste des articles avec leurs slugs et descriptions
+  // Lista dos artigos com seus slugs e descrições
   const allArticles = [
     { 
       slug: 'como-prevenir-canos-rebentados-inverno', 
@@ -64,10 +64,10 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
     },
   ];
 
-  // Filtrer pour exclure l'article actuel
+  // Filtrar para excluir o artigo atual
   const relatedArticles = allArticles
     .filter(article => article.slug !== currentArticleSlug)
-    .slice(0, 3); // Prendre 3 articles maximum
+    .slice(0, 3); // Pegar 3 artigos no máximo
 
   if (relatedArticles.length === 0) return null;
 

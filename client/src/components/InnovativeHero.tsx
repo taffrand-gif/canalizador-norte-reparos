@@ -1,4 +1,4 @@
-// Hero innovant avec effets modernes : vagues d'eau, bulles animées, reflets
+// Hero inovador com efeitos modernos: ondas de água, bolhas animadas, reflexos
 import React, { useEffect, useRef } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
@@ -10,7 +10,7 @@ const InnovativeHero: React.FC = () => {
   const wavesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Effet vagues animées
+    // Efeito ondas animadas
     const createWaves = () => {
       if (!wavesRef.current) return;
       
@@ -35,7 +35,7 @@ const InnovativeHero: React.FC = () => {
       }
     };
 
-    // Créer des bulles animées
+    // Criar bolhas animadas
     const createBubbles = () => {
       if (!bubblesRef.current) return;
       
@@ -46,12 +46,12 @@ const InnovativeHero: React.FC = () => {
         const bubble = document.createElement('div');
         bubble.className = 'absolute rounded-full';
         
-        // Taille aléatoire
+        // Tamanho aleatório
         const size = Math.random() * 20 + 5;
         bubble.style.width = `${size}px`;
         bubble.style.height = `${size}px`;
         
-        // Position aléatoire
+        // Posição aleatória
         bubble.style.left = `${Math.random() * 100}%`;
         bubble.style.top = `${100 + Math.random() * 50}%`;
         
@@ -69,7 +69,7 @@ const InnovativeHero: React.FC = () => {
       }
     };
 
-    // Effet de lumière qui se déplace
+    // Efeito de luz que se desloca
     const lightInterval = setInterval(() => {
       if (heroRef.current) {
         const time = Date.now() / 5000;
@@ -130,7 +130,7 @@ const InnovativeHero: React.FC = () => {
             <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
           </div>
           
-          {/* Titre avec effet de réflexion dans l'eau */}
+          {/* Título com efeito de reflexo na água */}
           <div className="relative mb-10">
             <h1 className="text-5xl md:text-7xl font-black text-white mb-4 leading-tight">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-orange-200 drop-shadow-2xl">
@@ -138,7 +138,7 @@ const InnovativeHero: React.FC = () => {
               </span>
             </h1>
             
-            {/* Réflexion */}
+            {/* Reflexo */}
             <div className="absolute -bottom-8 left-0 right-0 text-5xl md:text-7xl font-black opacity-20 transform scale-y[-1] blur-sm">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white/30 via-blue-100/30 to-orange-200/30">
                 {ACTIVE_CONFIG.heroTitle}
@@ -146,7 +146,7 @@ const InnovativeHero: React.FC = () => {
             </div>
           </div>
           
-          {/* Sous-titre avec effet de vague de texte */}
+          {/* Subtítulo com efeito de onda de texto */}
           <p className="text-xl md:text-2xl text-white/90 mb-14 max-w-3xl mx-auto leading-relaxed font-medium">
             {ACTIVE_CONFIG.heroSubtitle}
           </p>
@@ -163,12 +163,12 @@ const InnovativeHero: React.FC = () => {
                 <span className="text-xl tracking-wide">LIGAR AGORA: {ACTIVE_CONFIG.phone}</span>
               </span>
               
-              {/* Effet d'ondulation */}
+              {/* Efeito de ondulação */}
               <div className="absolute inset-0 overflow-hidden rounded-2xl">
                 <div className="absolute -inset-10 bg-gradient-to-r from-white/0 via-white/30 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
               </div>
               
-              {/* Effet de gouttes */}
+              {/* Efeito de gotas */}
               <div className="absolute -top-2 -right-2 w-4 h-4 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </a>
@@ -185,7 +185,7 @@ const InnovativeHero: React.FC = () => {
                 <span className="text-xl tracking-wide">CONTACTAR TÉCNICO</span>
               </span>
               
-              {/* Effet de bulles */}
+              {/* Efeito de bolhas */}
               <div className="absolute inset-0 overflow-hidden rounded-2xl">
                 {[1, 2, 3].map(i => (
                   <div
@@ -224,7 +224,7 @@ const InnovativeHero: React.FC = () => {
                   <div className="text-white/90 text-sm font-medium">{stat.label}</div>
                 </div>
                 
-                {/* Ombre portée animée */}
+                {/* Sombra projetada animada */}
                 <div className="absolute -bottom-2 left-4 right-4 h-4 bg-blue-900/30 blur-md rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             ))}
@@ -232,7 +232,7 @@ const InnovativeHero: React.FC = () => {
         </div>
       </div>
       
-      {/* Flèche de scroll avec effet de goutte */}
+      {/* Seta de scroll com efeito de gota */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
         <div className="relative">
           <div className="text-white text-4xl animate-bounce">↓</div>
@@ -240,7 +240,7 @@ const InnovativeHero: React.FC = () => {
         </div>
       </div>
       
-      {/* Styles d'animation inline */}
+      {/* Estilos de animação inline */}
       <style>{`
         @keyframes wave {
           0%, 100% { transform: translateX(0) scaleY(1); }

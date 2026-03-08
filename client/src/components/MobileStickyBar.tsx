@@ -1,7 +1,7 @@
 import React from 'react';
-// Barre fixe mobile — Ligar + WhatsApp côte à côte
-// Visible UNIQUEMENT sur mobile (md:hidden)
-// Position fixed bottom, z-index élevé, 56px min height
+// Barra fixa móvel — Ligar + WhatsApp lado a lado
+// Visível APENAS em mobile (md:hidden)
+// Position fixed bottom, z-index elevado, 56px min height
 
 import { useSite } from '@/contexts/SiteContext';
 // memo removed from 'react';
@@ -23,7 +23,7 @@ function MobileStickyBar() {
       role="navigation"
       aria-label="Contacto rápido"
     >
-      {/* Bouton Ligar Agora — 50% gauche */}
+      {/* Botão Ligar Agora — 50% esquerda */}
       <a
         href={`tel:+351${config.phone.replace(/\s/g, '')}`}
         onClick={() => trackPhoneClick(config.phone)}
@@ -40,7 +40,7 @@ function MobileStickyBar() {
         <span className="text-xs font-normal opacity-100 mt-0.5">{arrivalTime.split('-')[0]}</span>
       </a>
 
-      {/* Bouton WhatsApp — 50% droite */}
+      {/* Botão WhatsApp — 50% direita */}
       <a
         href={whatsappUrl}
         onClick={() => trackWhatsAppClick('MobileStickyBar')}

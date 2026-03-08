@@ -9,11 +9,11 @@ export default function SEOHead() {
   const { config } = useSite();
   const { city, loading } = useUserLocation();
   
-  // Créer un titre dynamique basé sur la localisation
+  // Criar um título dinâmico baseado na localização
   const dynamicTitle = useMemo(() => {
-    if (loading) return config.title; // Titre par défaut pendant le chargement
-    
-    // Remplacer "Bragança" par la ville détectée
+    if (loading) return config.title; // Título padrão durante o carregamento
+
+    // Substituir "Bragança" pela cidade detetada
     const serviceType = config.serviceType; // "Canalizador" ou "Eletricista"
     return `${serviceType} 24h ${city} | Urgências Trás-os-Montes`;
   }, [config, city, loading]);

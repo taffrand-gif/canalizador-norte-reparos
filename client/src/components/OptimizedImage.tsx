@@ -12,12 +12,12 @@ interface OptimizedImageProps {
 }
 
 /**
- * Composant d'image optimisé avec:
- * - Support WebP avec fallback
- * - Srcset responsive (320w, 640w, 1024w, 1920w)
- * - Lazy loading (sauf si priority=true)
- * - Dimensions explicites pour éviter CLS
- * - Placeholder pendant le chargement
+ * Componente de imagem otimizado com:
+ * - Suporte WebP com fallback
+ * - Srcset responsivo (320w, 640w, 1024w, 1920w)
+ * - Lazy loading (exceto se priority=true)
+ * - Dimensões explícitas para evitar CLS
+ * - Placeholder durante o carregamento
  */
 export default function OptimizedImage({
   src,
@@ -60,11 +60,11 @@ export default function OptimizedImage({
     };
   }, [priority]);
 
-  // Déterminer si l'image est externe (CDN)
+  // Determinar se a imagem é externa (CDN)
   const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
   const isManuscdn = src.includes('manuscdn.com');
 
-  // Générer srcset pour images responsives
+  // Gerar srcset para imagens responsivas
   const generateSrcSet = (imagePath: string): string => {
     if (isExternalImage) {
       if (isManuscdn) {
@@ -79,7 +79,7 @@ export default function OptimizedImage({
       return '';
     }
 
-    // Pour images locales
+    // Para imagens locais
     const pathParts = imagePath.split('.');
     const extension = pathParts.pop();
     const basePath = pathParts.join('.');
@@ -92,7 +92,7 @@ export default function OptimizedImage({
     ].join(', ');
   };
 
-  // Générer URL WebP
+  // Gerar URL WebP
   const getWebPSrc = (imagePath: string): string => {
     if (isExternalImage) {
       if (isManuscdn) {

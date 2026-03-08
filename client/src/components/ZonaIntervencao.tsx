@@ -1,4 +1,4 @@
-// Section "Zona de Intervenção" - Villes couvertes dans un rayon de 100km autour de Macedo de Cavaleiros
+// Secção "Zona de Intervenção" - Cidades cobertas num raio de 100km em torno de Macedo de Cavaleiros
 import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
 
@@ -41,7 +41,7 @@ export default function ZonaIntervencao() {
           </p>
         </div>
 
-        {/* Grille des villes */}
+        {/* Grelha das cidades */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-12">
           {cidades.map((cidade) => (
             <a

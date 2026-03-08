@@ -1,4 +1,4 @@
-// Bandeau de confiance animé com compteur
+// Bandeira de confiança animada com contador
 import { useSite } from '@/contexts/SiteContext';
 import { useEffect, useRef, useState } from 'react';
 

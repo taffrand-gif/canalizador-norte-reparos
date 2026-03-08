@@ -1,5 +1,5 @@
-// CTA flottant bottom - Quick Win #2
-// Style Hormozi : Multiples points de conversion, sticky, minimal
+// CTA flutuante bottom - Quick Win #2
+// Estilo Hormozi: Múltiplos pontos de conversão, sticky, minimal
 
 import { useState } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
@@ -14,7 +14,7 @@ export default function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(true);
   const [isMinimized, setIsMinimized] = useState(false);
 
-  // WhatsApp message pré-rempli avec localisation
+  // Mensagem WhatsApp pré-preenchida com localização
   const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
   const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(whatsappMessage)}`;
 
@@ -33,9 +33,9 @@ export default function FloatingCTA() {
           <Phone className="w-6 h-6 text-white" />
         </button>
       ) : (
-        // CTA complet
+        // CTA completo
         <div className="bg-white rounded-xl shadow-2xl border-2 border-gray-200 overflow-hidden">
-          {/* Header avec bouton fermer */}
+          {/* Header com botão fechar */}
           <div className="flex items-center justify-between p-3 bg-gray-50">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -59,7 +59,7 @@ export default function FloatingCTA() {
             </div>
           </div>
 
-          {/* Corps */}
+          {/* Corpo */}
           <div className="p-4">
             {/* Urgency headline */}
             <p className="text-center text-sm font-bold text-gray-900 mb-3">
@@ -93,7 +93,7 @@ export default function FloatingCTA() {
                 <span>💬 WhatsApp Grátis</span>
               </a>
 
-              {/* Petit texte avec preuve sociale */}
+              {/* Pequeno texto com prova social */}
               <p className="text-xs text-gray-600 text-center mt-2 font-semibold">
                 ✓ Orçamento grátis • ✓ Sem compromisso
               </p>

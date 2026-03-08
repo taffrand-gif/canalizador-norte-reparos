@@ -6,7 +6,7 @@ export function TestimonialsSection() {
   const { gradient } = ACTIVE_CONFIG;
   const config = ACTIVE_CONFIG;
   const testimonials: Testimonial[] = NORTE_REPAROS_TESTIMONIALS;
-  const featured = testimonials.slice(0, 6); // Top 6 témoignages
+  const featured = testimonials.slice(0, 6); // Top 6 testemunhos
   
   const [currentIndex, setCurrentIndex] = useState(0);
 

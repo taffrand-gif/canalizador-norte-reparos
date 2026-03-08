@@ -1,6 +1,6 @@
-// Configuration for Norte-Reparos
-// Zone d'intervention : rayon de 100 km autour de Macedo de Cavaleiros, district de Bragança, Portugal
-// Sites en portugais uniquement — Tarifs sem IVA
+// Configuração para Norte-Reparos
+// Zona de intervenção: raio de 100 km em torno de Macedo de Cavaleiros, distrito de Bragança, Portugal
+// Sites em português apenas — Preços sem IVA
 
 export type SiteId = 'norte-reparos';
 
@@ -212,7 +212,7 @@ export const siteConfig: SiteConfig = {
       'desentupir wc mirandela', 'fuga de água bragança', 'fuga água urgente mirandela',
       'esquentador bragança', 'esquentador mirandela', 'sanita entupida', 'wc entupido',
       'cano rebentado', 'canalizador profissional trás-os-montes',
-      // Mots-clés longue traîne SEO plomberie
+      // Palavras-chave de cauda longa SEO canalização
       'desentupimento urgente bragança', 'canalizador 24 horas mirandela', 'fuga de água urgente',
       'cano entupido macedo de cavaleiros', 'arranjo caldeira trás-os-montes',
       'desentupir sanita preço', 'canalizador perto de mim bragança',

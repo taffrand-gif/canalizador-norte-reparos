@@ -1,7 +1,7 @@
 import React from 'react';
-// Guarantee Section Component - 4 cartes garanties
-// Lever objection #2 "Est-ce qu'il va vraiment résoudre?"
-// Impact: Confiance + Conversion
+// Guarantee Section Component - 4 cartões de garantias
+// Ultrapassar objeção #2 "Será que vai realmente resolver?"
+// Impacto: Confiança + Conversão
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -19,7 +19,7 @@ function GuaranteeSection() {
   const { config } = useSite();
   const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
 
-  // Garanties spécifiques selon le site
+  // Garantias específicas conforme o site
   const guarantees: Guarantee[] = config.id === 'norte-reparos'
     ? [
         {

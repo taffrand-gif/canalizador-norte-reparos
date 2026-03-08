@@ -1,7 +1,7 @@
 import React from 'react';
-// Price Calculator Widget - Transparence Prix avec VRAIS PRIX officiels
-// Calcul dynamique: Service + Zone + Urgence
-// Impact: +259K€/an attendu
+// Price Calculator Widget - Transparência de Preços com PREÇOS REAIS oficiais
+// Cálculo dinâmico: Serviço + Zona + Urgência
+// Impacto: +259K€/ano esperado
 
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
@@ -40,7 +40,7 @@ const servicesStaff: ServicePrice[] = [
   { id: 'diagnostico', label: 'Diagnóstico Pane', priceMin: 80, priceMax: 120, nightMultiplier: 1.5 }
 ];
 
-// Zones déplacement (identiques pour les 2 sites)
+// Zonas de deslocação (idênticas para os 2 sites)
 const zones: Zone[] = [
   { label: 'Z1 - Macedo (≤15km)', price: 15, nightPrice: 22.5 },
   { label: 'Z2 - Mirandela/Vila Flor (15-35km)', price: 25, nightPrice: 37.5 },
@@ -58,10 +58,10 @@ function PriceCalculatorWidget() {
   const [urgency, setUrgency] = useState<'normal' | 'urgent'>('normal');
   const [zoneIndex, setZoneIndex] = useState<number>(2); // Default Z3 Bragança
 
-  // Sélectionner services selon le site
+  // Selecionar serviços conforme o site
   const services = config.id === 'norte-reparos' ? servicesNorte : servicesStaff;
 
-  // Calcul prix avec useMemo pour performance
+  // Cálculo de preço com useMemo para performance
   const calculatedPrice = useMemo(() => {
     if (!selectedService) return null;
 
@@ -70,7 +70,7 @@ function PriceCalculatorWidget() {
 
     if (!service || !selectedZone) return null;
 
-    // Calcul avec urgence
+    // Cálculo com urgência
     const isNight = urgency === 'urgent';
     const multiplier = isNight ? service.nightMultiplier : 1;
 
