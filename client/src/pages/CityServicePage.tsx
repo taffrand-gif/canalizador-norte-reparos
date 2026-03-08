@@ -129,6 +129,10 @@ export default function CityServicePage() {
             </div>
             <p className="text-gray-600 mb-6">
               Preço base para {service.name.toLowerCase()} em {city.name}. Orçamento final após diagnóstico no local.
+              Oferecemos também serviços de{' '}
+              <a href={`/desentupimentos-${params.city}`} className="text-blue-600 hover:underline">desentupimentos</a>,{' '}
+              <a href={`/esquentador-${params.city}`} className="text-blue-600 hover:underline">esquentadores</a> e{' '}
+              <a href={`/fugas-agua-${params.city}`} className="text-blue-600 hover:underline">fugas de água</a>.
             </p>
             <a
               href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent(`Olá! Preciso de ${service.name} em ${city.name}. Podem fazer orçamento?`)}`}
