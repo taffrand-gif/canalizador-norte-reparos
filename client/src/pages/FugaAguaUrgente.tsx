@@ -29,7 +29,7 @@ export default function FugaAguaUrgente() {
         "name": "O que fazer quando tenho uma fuga de água urgente?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Desligue aparelhos elétricos próximos. Chegamos em 15-30 minutos."
+          "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. Chegamos em 15-30 minutos."
         }
       },
       {
@@ -234,7 +234,7 @@ export default function FugaAguaUrgente() {
             {[
               {
                 q: 'O que fazer quando tenho uma fuga de água urgente?',
-                a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Desligue aparelhos elétricos próximos da água. 5) Tire fotos para seguro se necessário. Chegamos em 15-30 minutos e paramos a fuga.'
+                a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. 5) Tire fotos para seguro se necessário. Chegamos em 15-30 minutos e paramos a fuga.'
               },
               {
                 q: 'Quanto custa arranjar uma fuga de água urgente?',
