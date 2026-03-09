@@ -150,7 +150,7 @@ Calcário, ferrugem e sedimentos acumulam no filtro da válvula de entrada, bloq
 5. Ajuste a altura
 6. Abra a válvula e teste
 
-**Custo:** Flutuador novo €8-20 (universal, vende em qualquer loja de bricolage).
+**Custo:** Flutuador novo €8-20 (universal, vende em qualquer loja de bricolagem).
 
 ### Causa 4: Válvula de Entrada Avariada (15% dos casos)
 

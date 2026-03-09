@@ -1,17 +1,17 @@
 ---
-title: "Canalizador vs Bricolage: Quando Vale a Pena Profissional"
-slug: "canalizador-vs-bricolage-quando-vale-pena"
+title: "Canalizador vs Bricolagem: Quando Vale a Pena Profissional"
+slug: "canalizador-vs-bricolagem-quando-vale-pena"
 date: "2026-03-08"
 author: "Norte Reparos"
 category: "Guias"
 excerpt: "Guia completo DIY vs profissional: quando pode fazer você, quando chamar canalizador. Análise custo-benefício, riscos, ferramentas necessárias."
 image: "/images-optimized/blog/blog-diy-vs-pro.webp"
-metaTitle: "Canalizador vs Bricolage: Quando Vale a Pena | Guia"
+metaTitle: "Canalizador vs Bricolagem: Quando Vale a Pena | Guia"
 metaDescription: "DIY vs canalizador: torneira simples DIY ok, fuga oculta chamar profissional. Análise 15 situações comuns. Poupe dinheiro com segurança. Ligue 928 484 451!"
-keywords: ["canalizador vs bricolage", "quando chamar canalizador", "reparação DIY canalização", "vale a pena canalizador"]
+keywords: ["canalizador vs bricolagem", "quando chamar canalizador", "reparação DIY canalização", "vale a pena canalizador"]
 ---
 
-# Canalizador vs Bricolage: Quando Vale a Pena Profissional
+# Canalizador vs Bricolagem: Quando Vale a Pena Profissional
 
 Nem tudo precisa canalizador, mas alguns trabalhos DIY saem muito caros. Este guia analisa 15 situações comuns e explica quando pode fazer você e quando deve chamar profissional.
 
