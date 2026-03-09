@@ -204,6 +204,24 @@ function vitePluginInjectScriptsToBody(): Plugin {
   };
 }
 
+// Plugin to load CSS asynchronously (non-render-blocking)
+function vitePluginAsyncCSS(): Plugin {
+  return {
+    name: 'async-css',
+    transformIndexHtml: {
+      order: 'post',
+      handler(html) {
+        // Make CSS non-render-blocking by using media="print" trick
+        html = html.replace(
+          /<link rel="stylesheet"([^>]*) href="([^"]+\.css)"([^>]*)>/g,
+          '<link rel="stylesheet"$1 href="$2"$3 media="print" onload="this.media=\'all\'; this.onload=null;">'
+        );
+        return html;
+      }
+    }
+  };
+}
+
 const plugins = [
   react(),
   tailwindcss(),
@@ -212,6 +230,7 @@ const plugins = [
   vitePluginManusDebugCollector(),
   vitePluginImageOptimization(),
   vitePluginInjectScriptsToBody(),
+  vitePluginAsyncCSS(),
 ];
 
 export default defineConfig({
