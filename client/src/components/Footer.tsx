@@ -24,7 +24,7 @@ function Footer() {
       style={{ backgroundColor: config.colors.primaryDark }}
     >
       <div className="container">
-        <div className="grid md:grid-cols-3 gap-12 mb-12">
+        <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Informação da empresa */}
           <div>
             <h3 className="text-2xl font-black mb-4">{config.name}</h3>
@@ -39,37 +39,40 @@ function Footer() {
             </p>
           </div>
 
-          {/* Links rápidos */}
+          {/* Serviços */}
           <div>
-            <h4 className="text-lg font-black mb-4">Links Rápidos</h4>
-            <ul className="space-y-2">
-              {[
-                { href: '/', label: 'Home' },
-                { href: '/servicos', label: 'Serviços' },
-                { href: '/blog/', label: 'Blog' },
-                { href: '/faq', label: 'FAQ' },
-                { href: '/galeria', label: 'Galeria' },
-                { href: '/tecnologia-premium', label: 'Tecnologia' },
-                { href: '/zonas', label: 'Zonas' },
-                { href: '/contactos', label: 'Contactos' },
-              ].map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-gray-200 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+            <h4 className="text-lg font-black mb-4">Serviços</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/desentupimentos-profissionais-tras-os-montes" className="text-gray-200 hover:text-white transition-colors">Desentupimentos</a></li>
+              <li><a href="/detecao-fugas-agua-camera" className="text-gray-200 hover:text-white transition-colors">Deteção de Fugas</a></li>
+              <li><a href="/arranjacao-esquentadores-caldeiras" className="text-gray-200 hover:text-white transition-colors">Esquentadores</a></li>
+              <li><a href="/canalizacao-nova-construcao" className="text-gray-200 hover:text-white transition-colors">Canalização Nova</a></li>
+              <li><a href="/instalacao-casa-banho-completa" className="text-gray-200 hover:text-white transition-colors">Casa de Banho</a></li>
+              <li><a href="/reparacao-torneiras-autoclismos" className="text-gray-200 hover:text-white transition-colors">Torneiras</a></li>
             </ul>
-            <h4 className="text-lg font-black mt-6 mb-3">Serviços</h4>
-            <ul className="space-y-1 text-sm">
-              <li><a href="/desentupimentos-profissionais-tras-os-montes" className="text-gray-300 hover:text-white">Desentupimentos</a></li>
-              <li><a href="/detecao-fugas-agua-camera" className="text-gray-300 hover:text-white">Deteção de Fugas</a></li>
-              <li><a href="/arranjacao-esquentadores-caldeiras" className="text-gray-300 hover:text-white">Esquentadores</a></li>
-              <li><a href="/canalizacao-nova-construcao" className="text-gray-300 hover:text-white">Canalização Nova</a></li>
-              <li><a href="/instalacao-casa-banho-completa" className="text-gray-300 hover:text-white">Casa de Banho</a></li>
+          </div>
+
+          {/* Villes */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Zonas</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/canalizador-braganca" className="text-gray-200 hover:text-white transition-colors">Bragança</a></li>
+              <li><a href="/canalizador-mirandela" className="text-gray-200 hover:text-white transition-colors">Mirandela</a></li>
+              <li><a href="/canalizador-macedo-cavaleiros" className="text-gray-200 hover:text-white transition-colors">Macedo de Cavaleiros</a></li>
+              <li><a href="/canalizador-mogadouro" className="text-gray-200 hover:text-white transition-colors">Mogadouro</a></li>
+              <li><a href="/canalizador-miranda-douro" className="text-gray-200 hover:text-white transition-colors">Miranda do Douro</a></li>
+              <li><a href="/zonas" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todas →</a></li>
+            </ul>
+          </div>
+
+          {/* Blog */}
+          <div>
+            <h4 className="text-lg font-black mb-4">Blog</h4>
+            <ul className="space-y-2 text-sm">
+              <li><a href="/blog/como-escolher-canalizador-profissional" className="text-gray-200 hover:text-white transition-colors">Como Escolher Canalizador</a></li>
+              <li><a href="/blog/fuga-agua-como-detetar-reparar" className="text-gray-200 hover:text-white transition-colors">Fuga de Água</a></li>
+              <li><a href="/blog/desentupir-sanita-metodos-eficazes" className="text-gray-200 hover:text-white transition-colors">Desentupir Sanita</a></li>
+              <li><a href="/blog" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todos →</a></li>
             </ul>
           </div>
 
