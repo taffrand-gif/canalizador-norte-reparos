@@ -9,6 +9,21 @@ image: "/images-optimized/blog/blog-urgencia-24h.webp"
 metaTitle: "Canalizador 24 Horas Trás-os-Montes | Guia 2026"
 metaDescription: "Canalizador 24h: 15-90min resposta, 65-135€/h conforme horário. Fugas, entupimentos, avarias urgentes. Disponível 365 dias. Ligue 928 484 451!"
 keywords: ["canalizador 24 horas", "canalizador urgente", "canalizador noite", "emergência canalização"]
+schema:
+  type: "HowTo"
+  name: "Como Chamar Canalizador 24 Horas em Urgência"
+  description: "Guia passo a passo para chamar canalizador 24 horas em caso de urgência de canalização"
+  totalTime: "PT15M"
+  estimatedCost:
+    currency: "EUR"
+    value: "65-135"
+faqSchema:
+  - question: "Quanto tempo demora canalizador 24h a chegar?"
+    answer: "15-40 minutos em Bragança, 30-70 minutos em Mirandela, até 90 minutos em zonas mais afastadas de Trás-os-Montes."
+  - question: "Quanto custa canalizador 24 horas?"
+    answer: "Dias úteis: 65€/h, Sábados: 80€/h, Domingos/feriados: 90€/h, Noite (20h-8h): 135€/h. Mais deslocação 30-60€."
+  - question: "Canalizador 24h trabalha feriados?"
+    answer: "Sim, 365 dias por ano incluindo Natal, Ano Novo e todos os feriados. Preços iguais a domingos."
 ---
 
 # Canalizador 24 Horas Trás-os-Montes: Guia Completo 2026
