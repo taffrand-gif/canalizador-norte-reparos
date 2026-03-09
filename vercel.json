@@ -4,6 +4,18 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
+  "redirects": [
+    {
+      "source": "https://norte-reparos.com/:path*",
+      "destination": "https://canalizador-norte-reparos.pt/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://norte-reparos.com/:path*",
+      "destination": "https://canalizador-norte-reparos.pt/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/canalizador-:city",
