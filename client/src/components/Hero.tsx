@@ -31,13 +31,18 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${config.hero.backgroundImage})`,
-        backgroundColor: '#1f2937', // Fallback if image fails to load
-      }}
+      className="relative min-h-[600px] flex items-center justify-center bg-gray-900"
     >
-      <div className="container py-20 text-center text-white">
+      {/* Hero image with fetchpriority for LCP optimization */}
+      <img
+        src={config.hero.backgroundImage}
+        alt="Canalizador profissional a trabalhar em Trás-os-Montes"
+        fetchPriority="high"
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ filter: 'brightness(0.35)' }}
+      />
+
+      <div className="container py-20 text-center text-white relative z-10">
         {/* Services Slider */}
         <div className="mb-12">
           <ServicesSlider />
