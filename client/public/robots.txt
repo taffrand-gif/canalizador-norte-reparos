@@ -1,37 +1,15 @@
-# robots.txt para canalizador-norte-reparos.pt
-# Canalizador Profissional em Trás-os-Montes
-
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /api/
-Disallow: /private/
 
-# Motores de busca principais
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Yandex
-Allow: /
-
-# Bots de IA - Permitidos para melhor visibilidade
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# Sitemap
+# Sitemaps
 Sitemap: https://canalizador-norte-reparos.pt/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Block admin/private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$ 
+Allow: /sitemap.xml
