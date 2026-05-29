@@ -5,467 +5,466 @@ import Footer from '@/components/Footer';
 import SEOHead from '@/components/SEOHead';
 import { Euro, Clock, Shield, Check, TrendingUp, Award, Users, Zap, AlertCircle, Phone } from 'lucide-react';
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
+ Accordion,
+ AccordionContent,
+ AccordionItem,
+ AccordionTrigger} from '@/components/ui/accordion';
 
 export default function TransparencePrix() {
-  const { config } = useSite();
+ const { config } = useSite();
 
-  // Prix détaillés par service (Canalizador)
-  const forfaits = [
-    {
-      title: "Pequena Arranjo",
-      price: "35€ - 50€",
-      duration: "30 min",
-      includes: [
-        "Torneiras pingando",
-        "Autoclismos com fuga",
-        "Sifões entupidos",
-        "Material básico incluído"
-      ]
-    },
-    {
-      title: "Intervenção Standard",
-      price: "60€ - 90€",
-      duration: "1h",
-      includes: [
-        "Desentupimento canalização",
-        "Arranjo tubagens",
-        "Substituição válvulas",
-        "Garantia 6 meses"
-      ]
-    },
-    {
-      title: "Instalação Sanitários",
-      price: "120€ - 180€",
-      duration: "2-3h",
-      includes: [
-        "Sanita completa",
-        "Lavatório com torneira",
-        "Ligações e vedações",
-        "Garantia 12 meses"
-      ]
-    },
-    {
-      title: "Esquentador / Caldeira",
-      price: "80€ - 150€",
-      duration: "1-2h",
-      includes: [
-        "Diagnóstico completo",
-        "Arranjo ou substituição",
-        "Teste de segurança",
-        "Certificação gás (se aplicável)"
-      ]
-    },
-    {
-      title: "Desentupimento Urgente",
-      price: "100€ - 200€",
-      duration: "Imediato",
-      includes: [
-        "Chegada em 40 minutos",
-        "Equipamento profissional",
-        "Disponível 24/7",
-        "Resolução garantida"
-      ]
-    },
-    {
-      title: "Inspeção com Câmara",
-      price: "150€ - 250€",
-      duration: "1-2h",
-      includes: [
-        "Câmara de inspeção HD",
-        "Localização exata problema",
-        "Relatório com imagens",
-        "Orçamento arranjo"
-      ]
-    }
-  ];
+ // Prix détaillés par service (Canalizador)
+ const forfaits = [
+ {
+ title: "Pequena Arranjo",
+ price: "35€ - 50€",
+ duration: "30 min",
+ includes: [
+ "Torneiras pingando",
+ "Autoclismos com fuga",
+ "Sifões entupidos",
+ "Material básico incluído"
+ ]
+ },
+ {
+ title: "Intervenção Standard",
+ price: "60€ - 90€",
+ duration: "1h",
+ includes: [
+ "Desentupimento canalização",
+ "Arranjo tubagens",
+ "Substituição válvulas",
+ "Garantia 6 meses"
+ ]
+ },
+ {
+ title: "Instalação Sanitários",
+ price: "120€ - 180€",
+ duration: "2-3h",
+ includes: [
+ "Sanita completa",
+ "Lavatório com torneira",
+ "Ligações e vedações",
+ "Garantia 12 meses"
+ ]
+ },
+ {
+ title: "Esquentador / Caldeira",
+ price: "80€ - 150€",
+ duration: "1-2h",
+ includes: [
+ "Diagnóstico completo",
+ "Arranjo ou substituição",
+ "Teste de segurança",
+ "Certificação gás (se aplicável)"
+ ]
+ },
+ {
+ title: "Desentupimento Urgente",
+ price: "100€ - 200€",
+ duration: "Imediato",
+ includes: [
+ "Chegada em 40 minutos",
+ "Equipamento profissional",
+ "Disponível 24/7",
+ "Resolução garantida"
+ ]
+ },
+ {
+ title: "Inspeção com Câmara",
+ price: "150€ - 250€",
+ duration: "1-2h",
+ includes: [
+ "Câmara de inspeção HD",
+ "Localização exata problema",
+ "Relatório com imagens",
+ "Orçamento arranjo"
+ ]
+ }
+ ];
 
-  // Taux horaire et majorations
-  const tauxHoraire = {
-    base: "65€/hora",
-    weekend: "80€/hora (sábados) | 90€/hora (domingos)",
-    urgent: "+50% (noite/feriados)",
-    deplacement: "15€ - 65€ (conforme zona)"
-  };
+ // Taux horaire et majorations
+ const tauxHoraire = {
+ base: "65€/hora",
+ weekend: "80€/hora (sábados) | 90€/hora (domingos)",
+ urgent: "+50% (noite/feriados)",
+ deplacement: "15€ - 65€ (conforme zona)"
+ };
 
-  // FAQ Prix
-  const faqPrix = [
-    {
-      question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
-      answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida em 40 minutos, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
-    },
-    {
-      question: "O preço final pode ser diferente do orçamento?",
-      answer: "Não. O preço que anunciamos ao telefone é o preço final. Se durante a intervenção descobrirmos problemas adicionais (ex: tubagem corroída que precisa substituição), paramos e explicamos o que encontrámos, quanto custará resolver, e só continuamos com a sua autorização. Zero surpresas na fatura. Garantido."
-    },
-    {
-      question: "Posso pagar em prestações?",
-      answer: "Para intervenções acima de 200€, aceitamos pagamento em 2x sem juros (50% no início, 50% no final). Para projetos acima de 500€ (ex: casa de banho completa), podemos negociar planos de pagamento personalizados. Aceitamos multibanco, MB WAY, transferência e dinheiro."
-    },
-    {
-      question: "A deslocação está incluída no preço?",
-      answer: "Não. A deslocação é cobrada à parte conforme a zona: Zona 1 (Macedo, Mirandela) = 15€, Zona 2 (Bragança, Vinhais) = 20€, Zona 3 (Vila Real, Chaves) = 30€. Este valor cobre apenas o gasóleo e desgaste da carrinha. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
-    },
-    {
-      question: "Oferecem desconto para clientes regulares?",
-      answer: "Sim. Clientes que nos chamam 3+ vezes por ano recebem 10% de desconto em todas as intervenções seguintes. Condomínios e empresas têm condições especiais com contratos de manutenção preventiva. Contacte-nos para saber mais."
-    },
-    {
-      question: "O que acontece se não ficar satisfeito?",
-      answer: "Garantia 100% satisfeito ou reembolsado. Se não ficar completamente satisfeito com o trabalho, voltamos gratuitamente para corrigir. Se mesmo assim não resolver, devolvemos o valor pago. Sem perguntas, sem letra pequena. Em 15 anos, isto aconteceu 3 vezes."
-    },
-    {
-      question: "Porque devo escolher-vos em vez de um canalizador mais barato?",
-      answer: "Porque valorizamos a sua segurança e paz de espírito. Um canalizador barato pode: usar materiais de baixa qualidade que falham rapidamente, não ter seguro (se causar danos por infiltração, o problema é seu), não ter equipamento adequado (desentupimentos 'à sorte'), desaparecer quando há problemas. Nós somos uma empresa estabelecida há 15 anos, com 600+ clientes satisfeitos, seguro de responsabilidade civil, e garantia real. O barato sai caro."
-    }
-  ];
+ // FAQ Prix
+ const faqPrix = [
+ {
+ question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
+ answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida em 40 minutos, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
+ },
+ {
+ question: "O preço final pode ser diferente do orçamento?",
+ answer: "Não. O preço que anunciamos ao telefone é o preço final. Se durante a intervenção descobrirmos problemas adicionais (ex: tubagem corroída que precisa substituição), paramos e explicamos o que encontrámos, quanto custará resolver, e só continuamos com a sua autorização. Zero surpresas na fatura. Garantido."
+ },
+ {
+ question: "Posso pagar em prestações?",
+ answer: "Para intervenções acima de 200€, aceitamos pagamento em 2x sem juros (50% no início, 50% no final). Para projetos acima de 500€ (ex: casa de banho completa), podemos negociar planos de pagamento personalizados. Aceitamos multibanco, MB WAY, transferência e dinheiro."
+ },
+ {
+ question: "A deslocação está incluída no preço?",
+ answer: "Não. A deslocação é cobrada à parte conforme a zona: Zona 1 (Macedo, Mirandela) = 15€, Zona 2 (Bragança, Vinhais) = 20€, Zona 3 (Vila Real, Chaves) = 30€. Este valor cobre apenas o gasóleo e desgaste da carrinha. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
+ },
+ {
+ question: "Oferecem desconto para clientes regulares?",
+ answer: "Sim. Clientes que nos chamam 3+ vezes por ano recebem 10% de desconto em todas as intervenções seguintes. Condomínios e empresas têm condições especiais com contratos de manutenção preventiva. Contacte-nos para saber mais."
+ },
+ {
+ question: "O que acontece se não ficar satisfeito?",
+ answer: "Garantia 100% satisfeito ou reembolsado. Se não ficar completamente satisfeito com o trabalho, voltamos gratuitamente para corrigir. Se mesmo assim não resolver, devolvemos o valor pago. Sem perguntas, sem letra pequena. Em 15 anos, isto aconteceu 3 vezes."
+ },
+ {
+ question: "Porque devo escolher-vos em vez de um canalizador mais barato?",
+ answer: "Porque valorizamos a sua segurança e paz de espírito. Um canalizador barato pode: usar materiais de baixa qualidade que falham rapidamente, não ter seguro (se causar danos por infiltração, o problema é seu), não ter equipamento adequado (desentupimentos 'à sorte'), desaparecer quando há problemas. Nós somos uma empresa estabelecida há 15 anos, com 600+ clientes satisfeitos, seguro de responsabilidade civil, e garantia real. O barato sai caro."
+ }
+ ];
 
-  return (
-    <>
-      <SEOHead
-        title={`Transparência de Preços - O ÚNICO Canalizador de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
-        description="Somos o ÚNICO canalizador em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
-      />
+ return (
+ <>
+ <SEOHead
+ title={`Transparência de Preços - O ÚNICO Canalizador de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
+ description="Somos o ÚNICO canalizador em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
+ />
 
-      <Header />
+ <Header />
 
-      <main>
-        {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 left-0 w-96 h-96 bg-[var(--site-primary)] rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
-          </div>
+ <main>
+ {/* Hero Section */}
+ <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
+ <div className="absolute inset-0 opacity-10">
+ <div className="absolute top-0 left-0 w-96 h-96 bg-[var(--site-primary)] rounded-full blur-3xl"></div>
+ <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+ </div>
 
-          <div className="container relative z-10">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="inline-block mb-6 px-6 py-2 bg-[var(--site-primary)] text-white font-bold rounded-full text-sm">
-                🏆 TRANSPARÊNCIA TOTAL
-              </div>
+ <div className="container relative z-10">
+ <div className="max-w-4xl mx-auto text-center">
+ <div className="inline-block mb-6 px-6 py-2 bg-[var(--site-primary)] text-white font-bold rounded-full text-sm">
+ 🏆 TRANSPARÊNCIA TOTAL
+ </div>
 
-              <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
-                O <span className="text-[var(--site-primary)]">ÚNICO</span> Canalizador de<br />
-                Trás-os-Montes que<br />
-                Publica os Seus Preços
-              </h1>
+ <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
+ O <span className="text-[var(--site-primary)]">ÚNICO</span> Canalizador de<br />
+ Trás-os-Montes que<br />
+ Publica os Seus Preços
+ </h1>
 
-              <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-                Enquanto a concorrência esconde os preços e dá "surpresas" na fatura,<br />
-                nós publicamos TUDO online. Sem letra pequena. Sem truques.
-              </p>
+ <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
+ Enquanto a concorrência esconde os preços e dá "surpresas" na fatura,<br />
+ nós publicamos TUDO online. Sem letra pequena. Sem truques.
+ </p>
 
-              <div className="flex flex-wrap justify-center gap-4 mb-12">
-                <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
-                  <Check className="w-5 h-5 text-green-400" />
-                  <span className="font-semibold">Preços Fixos</span>
-                </div>
-                <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
-                  <Check className="w-5 h-5 text-green-400" />
-                  <span className="font-semibold">Zero Surpresas</span>
-                </div>
-                <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
-                  <Check className="w-5 h-5 text-green-400" />
-                  <span className="font-semibold">Garantia Escrita</span>
-                </div>
-              </div>
+ <div className="flex flex-wrap justify-center gap-4 mb-12">
+ <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
+ <Check className="w-5 h-5 text-green-400" />
+ <span className="font-semibold">Preços Fixos</span>
+ </div>
+ <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
+ <Check className="w-5 h-5 text-green-400" />
+ <span className="font-semibold">Zero Surpresas</span>
+ </div>
+ <div className="flex items-center gap-2 bg-white/10 px-6 py-3 rounded-lg backdrop-blur-sm">
+ <Check className="w-5 h-5 text-green-400" />
+ <span className="font-semibold">Garantia Escrita</span>
+ </div>
+ </div>
 
-              <a
-                href={`tel:+351${config.phone.replace(/\s/g, '')}`}
-                className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--site-primary)] text-white font-bold text-lg rounded-lg hover:bg-[var(--site-primary-dark)] transition-all shadow-2xl hover:scale-105"
-              >
-                <Phone className="w-6 h-6" />
-                Ligue Agora: {config.phone}
-              </a>
-            </div>
-          </div>
-        </section>
+ <a
+ href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+ className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--site-primary)] text-white font-bold text-lg rounded-lg hover:bg-[var(--site-primary-dark)] transition-all shadow-2xl hover:scale-105"
+ >
+ <Phone className="w-6 h-6" />
+ Ligue Agora: {config.phone}
+ </a>
+ </div>
+ </div>
+ </section>
 
-        {/* Forfaits Grid */}
-        <section className="py-20 bg-white">
-          <div className="container">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-black mb-4">
-                Todos os Nossos <span className="text-[var(--site-primary)]">Preços</span>
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Valores sem IVA (Art. 53º CIVA). O que vê é o que paga. Sempre.
-              </p>
-            </div>
+ {/* Forfaits Grid */}
+ <section className="py-20 bg-white">
+ <div className="container">
+ <div className="text-center mb-16">
+ <h2 className="text-4xl md:text-5xl font-black mb-4">
+ Todos os Nossos <span className="text-[var(--site-primary)]">Preços</span>
+ </h2>
+ <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+ Valores sem IVA (Art. 53º CIVA). O que vê é o que paga. Sempre.
+ </p>
+ </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              {forfaits.map((forfait, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white border-4 rounded-xl p-6 shadow-[4px_4px_0_0_rgba(0,0,0,0.1)] hover:shadow-[6px_6px_0_0_rgba(0,0,0,0.15)] transition-all hover:-translate-y-1"
-                  style={{ borderColor: config.colors.primary }}
-                >
-                  <div className="flex items-start justify-between mb-4">
-                    <h3 className="text-xl font-bold text-gray-900">{forfait.title}</h3>
-                    <Clock className="w-5 h-5 text-gray-400" />
-                  </div>
+ <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+ {forfaits.map((forfait, idx) => (
+ <div
+ key={idx}
+ className="bg-white border-4 rounded-xl p-6 shadow-[4px_4px_0_0_rgba(0,0,0,0.1)] hover:shadow-[6px_6px_0_0_rgba(0,0,0,0.15)] transition-all hover:-translate-y-1"
+ style={{ borderColor: config.colors.primary }}
+ >
+ <div className="flex items-start justify-between mb-4">
+ <h3 className="text-xl font-bold text-gray-900">{forfait.title}</h3>
+ <Clock className="w-5 h-5 text-gray-400" />
+ </div>
 
-                  <div className="mb-4">
-                    <div className="text-3xl font-black text-[var(--site-primary)] mb-1">
-                      {forfait.price}
-                    </div>
-                    <div className="text-sm text-gray-500">{forfait.duration}</div>
-                  </div>
+ <div className="mb-4">
+ <div className="text-3xl font-black text-[var(--site-primary)] mb-1">
+ {forfait.price}
+ </div>
+ <div className="text-sm text-gray-500">{forfait.duration}</div>
+ </div>
 
-                  <ul className="space-y-2">
-                    {forfait.includes.map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
-                        <Check className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+ <ul className="space-y-2">
+ {forfait.includes.map((item, i) => (
+ <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+ <Check className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
+ <span>{item}</span>
+ </li>
+ ))}
+ </ul>
+ </div>
+ ))}
+ </div>
+ </div>
+ </section>
 
-        {/* Taux Horaire */}
-        <section className="py-20 bg-gray-50">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-4xl font-black mb-12 text-center">
-                Taux Horaire & <span className="text-[var(--site-primary)]">Majorações</span>
-              </h2>
+ {/* Taux Horaire */}
+ <section className="py-20 bg-gray-50">
+ <div className="container">
+ <div className="max-w-4xl mx-auto">
+ <h2 className="text-4xl font-black mb-12 text-center">
+ Taux Horaire & <span className="text-[var(--site-primary)]">Majorações</span>
+ </h2>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white p-8 rounded-xl border-4" style={{ borderColor: config.colors.primary }}>
-                  <div className="flex items-center gap-3 mb-4">
-                    <Euro className="w-8 h-8 text-[var(--site-primary)]" />
-                    <div>
-                      <div className="text-sm text-gray-600">Taux Horaire Base</div>
-                      <div className="text-3xl font-black text-gray-900">{tauxHoraire.base}</div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Para trabalhos que não se enquadram nos forfaits acima. Mínimo 1 hora.
-                  </p>
-                </div>
+ <div className="grid md:grid-cols-2 gap-6">
+ <div className="bg-white p-8 rounded-xl border-4" style={{ borderColor: config.colors.primary }}>
+ <div className="flex items-center gap-3 mb-4">
+ <Euro className="w-8 h-8 text-[var(--site-primary)]" />
+ <div>
+ <div className="text-sm text-gray-600">Taux Horaire Base</div>
+ <div className="text-3xl font-black text-gray-900">{tauxHoraire.base}</div>
+ </div>
+ </div>
+ <p className="text-sm text-gray-600">
+ Para trabalhos que não se enquadram nos forfaits acima. Mínimo 1 hora.
+ </p>
+ </div>
 
-                <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
-                  <div className="flex items-center gap-3 mb-4">
-                    <Clock className="w-8 h-8 text-orange-600" />
-                    <div>
-                      <div className="text-sm text-gray-600">Fins de Semana</div>
-                      <div className="text-2xl font-black text-gray-900">{tauxHoraire.weekend}</div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Sábados 80€/h, Domingos/Feriados 90€/h. Mínimo 30 minutos.
-                  </p>
-                </div>
+ <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
+ <div className="flex items-center gap-3 mb-4">
+ <Clock className="w-8 h-8 text-orange-600" />
+ <div>
+ <div className="text-sm text-gray-600">Fins de Semana</div>
+ <div className="text-2xl font-black text-gray-900">{tauxHoraire.weekend}</div>
+ </div>
+ </div>
+ <p className="text-sm text-gray-600">
+ Sábados 80€/h, Domingos/Feriados 90€/h. Mínimo 30 minutos.
+ </p>
+ </div>
 
-                <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
-                  <div className="flex items-center gap-3 mb-4">
-                    <Zap className="w-8 h-8 text-red-600" />
-                    <div>
-                      <div className="text-sm text-gray-600">Majoração Noturna</div>
-                      <div className="text-3xl font-black text-gray-900">{tauxHoraire.urgent}</div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Noite (18h-08h) e feriados: +50% sobre tarifa base. Fração mínima 1h.
-                  </p>
-                </div>
+ <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
+ <div className="flex items-center gap-3 mb-4">
+ <Zap className="w-8 h-8 text-red-600" />
+ <div>
+ <div className="text-sm text-gray-600">Majoração Noturna</div>
+ <div className="text-3xl font-black text-gray-900">{tauxHoraire.urgent}</div>
+ </div>
+ </div>
+ <p className="text-sm text-gray-600">
+ Noite (18h-08h) e feriados: +50% sobre tarifa base. Fração mínima 1h.
+ </p>
+ </div>
 
-                <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
-                  <div className="flex items-center gap-3 mb-4">
-                    <AlertCircle className="w-8 h-8 text-blue-600" />
-                    <div>
-                      <div className="text-sm text-gray-600">Deslocação</div>
-                      <div className="text-3xl font-black text-gray-900">{tauxHoraire.deplacement}</div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Cobrado uma vez por intervenção. Cobre gasóleo e desgaste.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+ <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
+ <div className="flex items-center gap-3 mb-4">
+ <AlertCircle className="w-8 h-8 text-blue-600" />
+ <div>
+ <div className="text-sm text-gray-600">Deslocação</div>
+ <div className="text-3xl font-black text-gray-900">{tauxHoraire.deplacement}</div>
+ </div>
+ </div>
+ <p className="text-sm text-gray-600">
+ Cobrado uma vez por intervenção. Cobre gasóleo e desgaste.
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        {/* Pourquoi Plus Cher */}
-        <section className="py-20 bg-white">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-black mb-4">
-                  Porque os Nossos Preços São<br />
-                  <span className="text-[var(--site-primary)]">15-20% Mais Elevados?</span>
-                </h2>
-                <p className="text-xl text-gray-600">
-                  Transparência total: eis onde vai o seu dinheiro
-                </p>
-              </div>
+ {/* Pourquoi Plus Cher */}
+ <section className="py-20 bg-white">
+ <div className="container">
+ <div className="max-w-4xl mx-auto">
+ <div className="text-center mb-16">
+ <h2 className="text-4xl md:text-5xl font-black mb-4">
+ Porque os Nossos Preços São<br />
+ <span className="text-[var(--site-primary)]">15-20% Mais Elevados?</span>
+ </h2>
+ <p className="text-xl text-gray-600">
+ Transparência total: eis onde vai o seu dinheiro
+ </p>
+ </div>
 
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl border-2 border-blue-200">
-                  <Award className="w-12 h-12 text-blue-600 mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Canalizadores Certificados</h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Todos os nossos técnicos têm 15+ anos de experiência e certificação profissional.
-                    Formação contínua obrigatória. Não contratamos "ajudantes" sem qualificação.
-                  </p>
-                </div>
+ <div className="grid md:grid-cols-2 gap-8">
+ <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl border-2 border-blue-200">
+ <Award className="w-12 h-12 text-blue-600 mb-4" />
+ <h3 className="text-xl font-bold mb-3 text-gray-900">Canalizadores Certificados</h3>
+ <p className="text-gray-700 leading-relaxed">
+ Todos os nossos técnicos têm 15+ anos de experiência e certificação profissional.
+ Formação contínua obrigatória. Não contratamos "ajudantes" sem qualificação.
+ </p>
+ </div>
 
-                <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl border-2 border-green-200">
-                  <Shield className="w-12 h-12 text-green-600 mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Materiais Premium</h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Usamos apenas marcas de topo: Grohe, Roca, Geberit, Hansgrohe.
-                    Materiais baratos falham em 6 meses. Os nossos duram 10+ anos.
-                  </p>
-                </div>
+ <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl border-2 border-green-200">
+ <Shield className="w-12 h-12 text-green-600 mb-4" />
+ <h3 className="text-xl font-bold mb-3 text-gray-900">Materiais Premium</h3>
+ <p className="text-gray-700 leading-relaxed">
+ Usamos apenas marcas de topo: Grohe, Roca, Geberit, Hansgrohe.
+ Materiais baratos falham em 6 meses. Os nossos duram 10+ anos.
+ </p>
+ </div>
 
-                <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl border-2 border-purple-200">
-                  <TrendingUp className="w-12 h-12 text-purple-600 mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Equipamento Profissional</h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Câmaras de inspeção HD, máquinas desentupimento profissionais, detetores de fugas.
-                    Investimento de 15.000€+ em equipamento. Resolvemos o que outros não conseguem.
-                  </p>
-                </div>
+ <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl border-2 border-purple-200">
+ <TrendingUp className="w-12 h-12 text-purple-600 mb-4" />
+ <h3 className="text-xl font-bold mb-3 text-gray-900">Equipamento Profissional</h3>
+ <p className="text-gray-700 leading-relaxed">
+ Câmaras de inspeção HD, máquinas desentupimento profissionais, detetores de fugas.
+ Investimento de 15.000€+ em equipamento. Resolvemos o que outros não conseguem.
+ </p>
+ </div>
 
-                <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl border-2 border-orange-200">
-                  <Users className="w-12 h-12 text-orange-600 mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Seguro & Garantia</h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    Seguro de responsabilidade civil de 500.000€. Garantia 12 meses em instalações.
-                    Se causar infiltração, estamos cobertos. Muitos "baratos" trabalham sem seguro.
-                  </p>
-                </div>
-              </div>
+ <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl border-2 border-orange-200">
+ <Users className="w-12 h-12 text-orange-600 mb-4" />
+ <h3 className="text-xl font-bold mb-3 text-gray-900">Seguro & Garantia</h3>
+ <p className="text-gray-700 leading-relaxed">
+ Seguro de responsabilidade civil de 500.000€. Garantia 12 meses em instalações.
+ Se causar infiltração, estamos cobertos. Muitos "baratos" trabalham sem seguro.
+ </p>
+ </div>
+ </div>
 
-              <div className="mt-12 bg-gray-900 text-white p-8 rounded-xl text-center">
-                <p className="text-2xl font-bold mb-4">
-                  O Barato Sai Caro em Canalização
-                </p>
-                <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
-                  Uma fuga mal arranjada pode causar infiltrações, danos estruturais, e bolor.
-                  Poupar 30€ hoje pode custar-lhe milhares em arranjos amanhã. Nós garantimos qualidade e durabilidade.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+ <div className="mt-12 bg-gray-900 text-white p-8 rounded-xl text-center">
+ <p className="text-2xl font-bold mb-4">
+ O Barato Sai Caro em Canalização
+ </p>
+ <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
+ Uma fuga mal arranjada pode causar infiltrações, danos estruturais, e bolor.
+ Poupar 30€ hoje pode custar-lhe milhares em arranjos amanhã. Nós garantimos qualidade e durabilidade.
+ </p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        {/* Garanties */}
-        <section className="py-20 bg-gradient-to-br from-[var(--site-primary)] to-[var(--site-primary-dark)] text-white">
-          <div className="container">
-            <div className="max-w-4xl mx-auto text-center">
-              <Shield className="w-16 h-16 mx-auto mb-6" />
-              <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Garantia 100% Satisfeito<br />ou Reembolsado
-              </h2>
-              <p className="text-xl text-white/90 mb-12 leading-relaxed">
-                Se não ficar completamente satisfeito com o nosso trabalho, voltamos gratuitamente para corrigir.
-                Se mesmo assim não resolver, devolvemos o valor pago. Sem perguntas, sem letra pequena.
-              </p>
+ {/* Garanties */}
+ <section className="py-20 bg-gradient-to-br from-[var(--site-primary)] to-[var(--site-primary-dark)] text-white">
+ <div className="container">
+ <div className="max-w-4xl mx-auto text-center">
+ <Shield className="w-16 h-16 mx-auto mb-6" />
+ <h2 className="text-4xl md:text-5xl font-black mb-6">
+ Garantia 100% Satisfeito<br />ou Reembolsado
+ </h2>
+ <p className="text-xl text-white/90 mb-12 leading-relaxed">
+ Se não ficar completamente satisfeito com o nosso trabalho, voltamos gratuitamente para corrigir.
+ Se mesmo assim não resolver, devolvemos o valor pago. Sem perguntas, sem letra pequena.
+ </p>
 
-              <div className="grid md:grid-cols-3 gap-6 mb-12">
-                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <div className="text-3xl font-black mb-2">12 meses</div>
-                  <div className="text-white/80">Garantia Instalações</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <div className="text-3xl font-black mb-2">6 meses</div>
-                  <div className="text-white/80">Garantia Arranjos</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                  <div className="text-3xl font-black mb-2">500.000€</div>
-                  <div className="text-white/80">Seguro Responsabilidade</div>
-                </div>
-              </div>
+ <div className="grid md:grid-cols-3 gap-6 mb-12">
+ <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+ <div className="text-3xl font-black mb-2">12 meses</div>
+ <div className="text-white/80">Garantia Instalações</div>
+ </div>
+ <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+ <div className="text-3xl font-black mb-2">6 meses</div>
+ <div className="text-white/80">Garantia Arranjos</div>
+ </div>
+ <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+ <div className="text-3xl font-black mb-2">500.000€</div>
+ <div className="text-white/80">Seguro Responsabilidade</div>
+ </div>
+ </div>
 
-              <p className="text-sm text-white/70 italic">
-                Em 15 anos de atividade, apenas 3 clientes pediram reembolso.
-                A nossa taxa de satisfação é de 99.5%.
-              </p>
-            </div>
-          </div>
-        </section>
+ <p className="text-sm text-white/70 italic">
+ Em 15 anos de atividade, apenas 3 clientes pediram reembolso.
+ A nossa taxa de satisfação é de 99.5%.
+ </p>
+ </div>
+ </div>
+ </section>
 
-        {/* FAQ Prix */}
-        <section className="py-20 bg-white">
-          <div className="container">
-            <div className="max-w-4xl mx-auto">
-              <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-black mb-4">
-                  Perguntas Frequentes sobre <span className="text-[var(--site-primary)]">Preços</span>
-                </h2>
-                <p className="text-xl text-gray-600">
-                  Transparência total. Sem dúvidas, sem surpresas.
-                </p>
-              </div>
+ {/* FAQ Prix */}
+ <section className="py-20 bg-white">
+ <div className="container">
+ <div className="max-w-4xl mx-auto">
+ <div className="text-center mb-16">
+ <h2 className="text-4xl md:text-5xl font-black mb-4">
+ Perguntas Frequentes sobre <span className="text-[var(--site-primary)]">Preços</span>
+ </h2>
+ <p className="text-xl text-gray-600">
+ Transparência total. Sem dúvidas, sem surpresas.
+ </p>
+ </div>
 
-              <Accordion type="single" collapsible className="space-y-4">
-                {faqPrix.map((faq, index) => (
-                  <AccordionItem
-                    key={index}
-                    value={`item-${index}`}
-                    className="border-4 bg-white px-6 shadow-[4px_4px_0_0_rgba(0,0,0,0.1)]"
-                    style={{ borderColor: config.colors.primary }}
-                  >
-                    <AccordionTrigger className="text-left font-bold text-lg hover:no-underline py-6">
-                      {faq.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-gray-700 pb-6 leading-relaxed">
-                      {faq.answer}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </div>
-          </div>
-        </section>
+ <Accordion type="single" collapsible className="space-y-4">
+ {faqPrix.map((faq, index) => (
+ <AccordionItem
+ key={index}
+ value={`item-${index}`}
+ className="border-4 bg-white px-6 shadow-[4px_4px_0_0_rgba(0,0,0,0.1)]"
+ style={{ borderColor: config.colors.primary }}
+ >
+ <AccordionTrigger className="text-left font-bold text-lg hover:no-underline py-6">
+ {faq.question}
+ </AccordionTrigger>
+ <AccordionContent className="text-gray-700 pb-6 leading-relaxed">
+ {faq.answer}
+ </AccordionContent>
+ </AccordionItem>
+ ))}
+ </Accordion>
+ </div>
+ </div>
+ </section>
 
-        {/* CTA Final */}
-        <section className="py-20 bg-gray-900 text-white">
-          <div className="container">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Pronto para um Orçamento<br />
-                <span className="text-[var(--site-primary)]">100% Transparente?</span>
-              </h2>
-              <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Ligue agora. Diga-nos onde está e o que precisa.
-                Damos-lhe o preço exato ao telefone. Sem surpresas na fatura.
-              </p>
+ {/* CTA Final */}
+ <section className="py-20 bg-gray-900 text-white">
+ <div className="container">
+ <div className="max-w-3xl mx-auto text-center">
+ <h2 className="text-4xl md:text-5xl font-black mb-6">
+ Pronto para um Orçamento<br />
+ <span className="text-[var(--site-primary)]">100% Transparente?</span>
+ </h2>
+ <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+ Ligue agora. Diga-nos onde está e o que precisa.
+ Damos-lhe o preço exato ao telefone. Sem surpresas na fatura.
+ </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href={`tel:+351${config.phone.replace(/\s/g, '')}`}
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[var(--site-primary)] text-white font-bold text-lg rounded-lg hover:bg-[var(--site-primary-dark)] transition-all shadow-2xl"
-                >
-                  <Phone className="w-6 h-6" />
-                  Ligar: {config.phone}
-                </a>
+ <div className="flex flex-col sm:flex-row gap-4 justify-center">
+ <a
+ href={`tel:+351${config.phone.replace(/\s/g, '')}`}
+ className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[var(--site-primary)] text-white font-bold text-lg rounded-lg hover:bg-[var(--site-primary-dark)] transition-all shadow-2xl"
+ >
+ <Phone className="w-6 h-6" />
+ Ligar: {config.phone}
+ </a>
 
-                <a
-                  href={`https://wa.me/351${config.phone.replace(/\s/g, '')}?text=${encodeURIComponent('Olá, gostaria de um orçamento transparente para serviços de canalização.')}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-green-600 text-white font-bold text-lg rounded-lg hover:bg-green-700 transition-all shadow-2xl"
-                >
-                  WhatsApp
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+ <a
+ href={`https://wa.me/351${config.phone.replace(/\s/g, '')}?text=${encodeURIComponent('Olá, gostaria de um orçamento transparente para serviços de canalização.')}`}
+ target="_blank"
+ rel="noopener noreferrer"
+ className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-green-600 text-white font-bold text-lg rounded-lg hover:bg-green-700 transition-all shadow-2xl"
+ >
+ WhatsApp
+ </a>
+ </div>
+ </div>
+ </div>
+ </section>
+ </main>
 
-      <Footer />
-    </>
-  );
+ <Footer />
+ </>
+ );
 }

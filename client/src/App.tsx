@@ -103,139 +103,139 @@ const QuantoTempoSemAguaQuente = lazy(() => import("@/pages/QuantoTempoSemAguaQu
 
 // Simple loading fallback component
 const LoadingFallback = () => (
-  <div className="flex items-center justify-center min-h-[400px]">
-    <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2193b0]"></div>
-  </div>
+ <div className="flex items-center justify-center min-h-[400px]">
+ <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2193b0]"></div>
+ </div>
 );
 
 function Router() {
-  return (
-    <Suspense fallback={<LoadingFallback />}>
-      <Switch>
-        <Route path={"/"} component={OptimizedHome} />
-        <Route path={"/servicos"} component={Servicos} />
-        <Route path={"/desentupimentos"} component={Desentupimentos} />
-        <Route path={"/arranjo-fugas-agua"} component={ArranjoFugasAgua} />
-        <Route path={"/instalacao-canalizacao"} component={InstalacaoCanalizacao} />
-        <Route path={"/arranjo-esquentadores"} component={ArranjoEsquentadores} />
-        <Route path={"/canalizador-chaves"} component={Chaves} />
-        <Route path={"/canalizador-braganca"} component={Braganca} />
-        <Route path={"/canalizador-mirandela"} component={Mirandela} />
-        <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
-        <Route path={"/canalizador-valpacos"} component={Valpacos} />
-        <Route path={"/canalizador-vinhais"} component={Vinhais} />
-        <Route path={"/canalizador-miranda-douro"} component={MirandaDouro} />
-        <Route path={"/canalizador-mogadouro"} component={Mogadouro} />
-        <Route path={"/canalizador-torre-moncorvo"} component={TorreMoncorvo} />
-        <Route path={"/canalizador-freixo-espada-cinta"} component={FreixoEspadaCinta} />
-        <Route path={"/canalizador-vila-real"} component={VilaReal} />
-        <Route path={"/canalizador-alfandega-da-fe"} component={AlfandegaDaFe} />
-        <Route path={"/canalizador-vila-flor"} component={VilaFlor} />
-        <Route path={"/canalizador-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
-        <Route path={"/canalizador-vimioso"} component={Vimioso} />
-        <Route path={"/canalizador-montalegre"} component={Montalegre} />
-        <Route path={"/canalizador-boticas"} component={Boticas} />
-        <Route path={"/canalizador-murca"} component={Murca} />
-        <Route path={"/canalizador-alijo"} component={Alijo} />
-        <Route path={"/canalizador-sabrosa"} component={Sabrosa} />
-        <Route path={"/canalizador-vila-pouca-de-aguiar"} component={VilaPouca} />
-        <Route path={"/canalizador-ribeira-de-pena"} component={RibeiraDePena} />
-        <Route path={"/canalizador-mondim-de-basto"} component={MondimDeBasto} />
-        <Route path={"/canalizador-peso-da-regua"} component={PesoDaRegua} />
-        <Route path={"/canalizador-lamego"} component={Lamego} />
-        <Route path={"/canalizador-moimenta-da-beira"} component={MoimentaDaBeira} />
-        <Route path={"/canalizador-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
-        <Route path={"/canalizador-sernancelhe"} component={Sernancelhe} />
-        <Route path={"/canalizador-penedono"} component={Penedono} />
-        <Route path={"/canalizador-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
-        <Route path={"/canalizador-tabuaco"} component={Tabuaco} />
-        <Route path={"/canalizador-armamar"} component={Armamar} />
-        <Route path={"/canalizador-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
-        <Route path={"/canalizador-mesao-frio"} component={MesaoFrio} />
-        <Route path={"/blog"} component={BlogIndex} />
-        <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
-        <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
-        <Route path={"/blog/esquentador-vs-termoacumulador"} component={EsquentadorVsTermoacumulador} />
-        <Route path={"/blog/sinais-fugas-agua-escondidas"} component={SinaisFugasAgua} />
-        <Route path={"/blog/manutencao-esquentador-guia"} component={ManutencaoEsquentador} />
-        <Route path={"/blog/desentupir-wc-metodos-caseiros"} component={DesentupirWCMetodos} />
-        <Route path={"/blog/como-prevenir-canos-rebentados-inverno"} component={ComoPrevenirCanosRebentadosInverno} />
-        <Route path={"/blog/custo-canalizador-tras-os-montes-precos"} component={CustoCanalizadorTrasOsMontesPrecos} />
-        <Route path={"/blog/arranjo-caldeira-esquentador-manutencao"} component={ArranjoCaldeiraEsquentadorManutencao} />
-        <Route path={"/blog/instalacao-casa-banho-completa-guia"} component={InstalacaoCasaBanho} />
-        <Route path={"/blog/sistema-aquecimento-agua-melhor-opcao"} component={SistemaAquecimentoAgua} />
-        <Route path={"/blog/canalizacao-casa-antiga-renovacao"} component={CanalizacaoCasaAntiga} />
-        <Route path={"/blog/piscina-tanque-agua-canalizacao"} component={PiscinaTanqueAgua} />
-        <Route path={"/blog/poupar-agua-casa-dicas-praticas"} component={PouparAguaCasa} />
-        <Route path={"/blog/problemas-canalizacao-inverno-solucoes"} component={ProblemasCanalizacaoInverno} />
-        <Route path={"/faq"} component={FAQPage} />
-        <Route path={"/zonas"} component={Zonas} />
-        <Route path={"/transparence-prix"} component={TransparencePrix} />
-        <Route path={"/404"} component={NotFound} />
-        {/* Emotional Landing Pages - SEO Premium - Canalizador */}
-        <Route path={"/fuga-agua-urgente"} component={FugaAguaUrgente} />
-        <Route path={"/sanita-entupida"} component={SanitaEntupida} />
-        <Route path={"/cano-rebentado"} component={CanoRebentado} />
-        <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
-        <Route path={"/cheiro-mau-canalizacao"} component={CheiroMauCanalizacao} />
-        {/* Emotional Landing Pages - SEO Premium - Eletricista (REMOVED - belong to staff-seekers) */}
-        {/* Commercial Intent Pages - SEO Premium - Canalizador */}
-        <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
-        <Route path={"/vale-pena-arranjar-vs-substituir"} component={ValePenaArranjarVsSubstituir} />
-        <Route path={"/como-desentupir-sanita-sozinho"} component={ComoDesentupirSanitaSozinho} />
-        <Route path={"/quanto-tempo-demora-arranjar-fuga-agua"} component={QuantoTempoDemoraArranjarFugaAgua} />
-        <Route path={"/quanto-tempo-demora-desentupir-sanita"} component={QuantoTempoDemoraDesentupirSanita} />
-        <Route path={"/quanto-tempo-sem-agua-quente"} component={QuantoTempoSemAguaQuente} />
-        {/* Service hub pages */}
-        <Route path={"/fugas-agua"} component={ServiceHub} />
-        <Route path={"/desentupimentos"} component={ServiceHub} />
-        <Route path={"/esquentadores"} component={ServiceHub} />
-        <Route path={"/casas-banho"} component={ServiceHub} />
-        <Route path={"/canalizacao"} component={ServiceHub} />
-        {/* Dynamic freguesia pages (498 pages) */}
-        <Route path={"/:service-:freguesia-:parentCity"} component={FreguesiasPage} />
-        {/* Dynamic city-service pages (100+ pages) */}
-        <Route path={"/:service-:city"} component={CityServicePage} />
-        {/* Final fallback route */}
-        <Route component={NotFound} />
-      </Switch>
-    </Suspense>
-  );
+ return (
+ <Suspense fallback={<LoadingFallback />}>
+ <Switch>
+ <Route path={"/"} component={OptimizedHome} />
+ <Route path={"/servicos"} component={Servicos} />
+ <Route path={"/desentupimentos"} component={Desentupimentos} />
+ <Route path={"/arranjo-fugas-agua"} component={ArranjoFugasAgua} />
+ <Route path={"/instalacao-canalizacao"} component={InstalacaoCanalizacao} />
+ <Route path={"/arranjo-esquentadores"} component={ArranjoEsquentadores} />
+ <Route path={"/canalizador-chaves"} component={Chaves} />
+ <Route path={"/canalizador-braganca"} component={Braganca} />
+ <Route path={"/canalizador-mirandela"} component={Mirandela} />
+ <Route path={"/canalizador-macedo-de-cavaleiros"} component={MacedoCavaleiros} />
+ <Route path={"/canalizador-valpacos"} component={Valpacos} />
+ <Route path={"/canalizador-vinhais"} component={Vinhais} />
+ <Route path={"/canalizador-miranda-douro"} component={MirandaDouro} />
+ <Route path={"/canalizador-mogadouro"} component={Mogadouro} />
+ <Route path={"/canalizador-torre-moncorvo"} component={TorreMoncorvo} />
+ <Route path={"/canalizador-freixo-espada-cinta"} component={FreixoEspadaCinta} />
+ <Route path={"/canalizador-vila-real"} component={VilaReal} />
+ <Route path={"/canalizador-alfandega-da-fe"} component={AlfandegaDaFe} />
+ <Route path={"/canalizador-vila-flor"} component={VilaFlor} />
+ <Route path={"/canalizador-carrazeda-de-ansiaes"} component={CarrazedaDeAnsiaes} />
+ <Route path={"/canalizador-vimioso"} component={Vimioso} />
+ <Route path={"/canalizador-montalegre"} component={Montalegre} />
+ <Route path={"/canalizador-boticas"} component={Boticas} />
+ <Route path={"/canalizador-murca"} component={Murca} />
+ <Route path={"/canalizador-alijo"} component={Alijo} />
+ <Route path={"/canalizador-sabrosa"} component={Sabrosa} />
+ <Route path={"/canalizador-vila-pouca-de-aguiar"} component={VilaPouca} />
+ <Route path={"/canalizador-ribeira-de-pena"} component={RibeiraDePena} />
+ <Route path={"/canalizador-mondim-de-basto"} component={MondimDeBasto} />
+ <Route path={"/canalizador-peso-da-regua"} component={PesoDaRegua} />
+ <Route path={"/canalizador-lamego"} component={Lamego} />
+ <Route path={"/canalizador-moimenta-da-beira"} component={MoimentaDaBeira} />
+ <Route path={"/canalizador-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
+ <Route path={"/canalizador-sernancelhe"} component={Sernancelhe} />
+ <Route path={"/canalizador-penedono"} component={Penedono} />
+ <Route path={"/canalizador-sao-joao-da-pesqueira"} component={SaoJoaoDaPesqueira} />
+ <Route path={"/canalizador-tabuaco"} component={Tabuaco} />
+ <Route path={"/canalizador-armamar"} component={Armamar} />
+ <Route path={"/canalizador-santa-marta-de-penaguiao"} component={SantaMartaDePenaguiao} />
+ <Route path={"/canalizador-mesao-frio"} component={MesaoFrio} />
+ <Route path={"/blog"} component={BlogIndex} />
+ <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
+ <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
+ <Route path={"/blog/esquentador-vs-termoacumulador"} component={EsquentadorVsTermoacumulador} />
+ <Route path={"/blog/sinais-fugas-agua-escondidas"} component={SinaisFugasAgua} />
+ <Route path={"/blog/manutencao-esquentador-guia"} component={ManutencaoEsquentador} />
+ <Route path={"/blog/desentupir-wc-metodos-caseiros"} component={DesentupirWCMetodos} />
+ <Route path={"/blog/como-prevenir-canos-rebentados-inverno"} component={ComoPrevenirCanosRebentadosInverno} />
+ <Route path={"/blog/custo-canalizador-tras-os-montes-precos"} component={CustoCanalizadorTrasOsMontesPrecos} />
+ <Route path={"/blog/arranjo-caldeira-esquentador-manutencao"} component={ArranjoCaldeiraEsquentadorManutencao} />
+ <Route path={"/blog/instalacao-casa-banho-completa-guia"} component={InstalacaoCasaBanho} />
+ <Route path={"/blog/sistema-aquecimento-agua-melhor-opcao"} component={SistemaAquecimentoAgua} />
+ <Route path={"/blog/canalizacao-casa-antiga-renovacao"} component={CanalizacaoCasaAntiga} />
+ <Route path={"/blog/piscina-tanque-agua-canalizacao"} component={PiscinaTanqueAgua} />
+ <Route path={"/blog/poupar-agua-casa-dicas-praticas"} component={PouparAguaCasa} />
+ <Route path={"/blog/problemas-canalizacao-inverno-solucoes"} component={ProblemasCanalizacaoInverno} />
+ <Route path={"/faq"} component={FAQPage} />
+ <Route path={"/zonas"} component={Zonas} />
+ <Route path={"/transparence-prix"} component={TransparencePrix} />
+ <Route path={"/404"} component={NotFound} />
+ {/* Emotional Landing Pages - SEO Premium - Canalizador */}
+ <Route path={"/fuga-agua-urgente"} component={FugaAguaUrgente} />
+ <Route path={"/sanita-entupida"} component={SanitaEntupida} />
+ <Route path={"/cano-rebentado"} component={CanoRebentado} />
+ <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
+ <Route path={"/cheiro-mau-canalizacao"} component={CheiroMauCanalizacao} />
+ {/* Emotional Landing Pages - SEO Premium - Eletricista (REMOVED - belong to staff-seekers) */}
+ {/* Commercial Intent Pages - SEO Premium - Canalizador */}
+ <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
+ <Route path={"/vale-pena-arranjar-vs-substituir"} component={ValePenaArranjarVsSubstituir} />
+ <Route path={"/como-desentupir-sanita-sozinho"} component={ComoDesentupirSanitaSozinho} />
+ <Route path={"/quanto-tempo-demora-arranjar-fuga-agua"} component={QuantoTempoDemoraArranjarFugaAgua} />
+ <Route path={"/quanto-tempo-demora-desentupir-sanita"} component={QuantoTempoDemoraDesentupirSanita} />
+ <Route path={"/quanto-tempo-sem-agua-quente"} component={QuantoTempoSemAguaQuente} />
+ {/* Service hub pages */}
+ <Route path={"/fugas-agua"} component={ServiceHub} />
+ <Route path={"/desentupimentos"} component={ServiceHub} />
+ <Route path={"/esquentadores"} component={ServiceHub} />
+ <Route path={"/casas-banho"} component={ServiceHub} />
+ <Route path={"/canalizacao"} component={ServiceHub} />
+ {/* Dynamic freguesia pages (498 pages) */}
+ <Route path={"/:service-:freguesia-:parentCity"} component={FreguesiasPage} />
+ {/* Dynamic city-service pages (100+ pages) */}
+ <Route path={"/:service-:city"} component={CityServicePage} />
+ {/* Final fallback route */}
+ <Route component={NotFound} />
+ </Switch>
+ </Suspense>
+ );
 }
 
 // NOTE: About Theme
 // - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
+// to keep consistent foreground/background color across components
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
 function App() {
-  return (
-    <ErrorBoundary>
-      <HelmetProvider>
-        <ThemeProvider defaultTheme="light">
-          <SiteProvider>
-            <LocationProvider>
-              <TooltipProvider>
-                <SkipLink />
-                <Toaster />
-                <StructuredData />
-                <UrgencyIndicator />
-                <Suspense fallback={null}>
-                  <ExitIntentPopup />
-                  <QuoteCalculator />
-                  <LocationDetector />
-                </Suspense>
-                <Router />
-                <FloatingCTA />
-                <SocialProofTicker />
-                <MobileStickyBar />
-              </TooltipProvider>
-            </LocationProvider>
-          </SiteProvider>
-        </ThemeProvider>
-      </HelmetProvider>
-    </ErrorBoundary>
-  );
+ return (
+ <ErrorBoundary>
+ <HelmetProvider>
+ <ThemeProvider defaultTheme="light">
+ <SiteProvider>
+ <LocationProvider>
+ <TooltipProvider>
+ <SkipLink />
+ <Toaster />
+ <StructuredData />
+ <UrgencyIndicator />
+ <Suspense fallback={null}>
+ <ExitIntentPopup />
+ <QuoteCalculator />
+ <LocationDetector />
+ </Suspense>
+ <Router />
+ <FloatingCTA />
+ <SocialProofTicker />
+ <MobileStickyBar />
+ </TooltipProvider>
+ </LocationProvider>
+ </SiteProvider>
+ </ThemeProvider>
+ </HelmetProvider>
+ </ErrorBoundary>
+ );
 }
 
 export default App;
