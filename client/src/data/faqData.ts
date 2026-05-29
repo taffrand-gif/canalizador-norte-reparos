@@ -164,7 +164,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 25,
  question: "Como escolher um canalizador de confiança em Trás-os-Montes?",
- answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, técnicos certificados, orçamentos gratuitos, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes satisfeitos.",
+ answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, técnicos certificados, orçamentos gratuitos, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
  category: "Dicas"
  }
 ];

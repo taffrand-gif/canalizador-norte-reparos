@@ -59,7 +59,7 @@ export default function Testemunhos() {
 
  useSEO({
  title: `Testemunhos de Clientes | ${config.businessName}`,
- description: `Veja o que os nossos clientes dizem sobre os serviços de ${config.name.toLowerCase()}. Centenas de clientes satisfeitos em todo o distrito de Bragança.`,
+ description: `Veja o que os nossos clientes dizem sobre os serviços de ${config.name.toLowerCase()}. Centenas de clientes em todo o distrito de Bragança.`,
  canonical: `https://${config.domain}/testemunhos`});
 
  const handleSubmit = (e: React.FormEvent) => {

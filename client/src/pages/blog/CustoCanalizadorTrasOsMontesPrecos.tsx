@@ -348,7 +348,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <p className="text-gray-700">
  Peça referências de trabalhos similares na sua zona (ex: em <a href="/canalizador-chaves" className="text-blue-600 underline">Chaves</a> ou 
  <a href="/canalizador-macedo-cavaleiros" className="text-blue-600 underline"> Macedo de Cavaleiros</a>). 
- Profissionais sérios terão clientes satisfeitos para referenciar.
+ Profissionais sérios terão clientes para referenciar.
  </p>
  </div>
  </div>
