@@ -236,3 +236,4 @@ Pour toute question ou assistance :
 ## Licence
 
 © 2026 Canalizador de Trás-os-Montes / Electricista de Trás-os-Montes. Tous droits réservés.
+
