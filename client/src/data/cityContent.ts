@@ -100,7 +100,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "320+ intervenções em Mirandela",
- tauxSatisfaction: "97% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 42 minutos"
  },
  specificites: [
@@ -138,7 +138,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "280+ intervenções em Macedo",
- tauxSatisfaction: "99% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 35 minutos"
  },
  specificites: [
@@ -170,7 +170,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "380+ intervenções em Chaves",
- tauxSatisfaction: "96% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 48 minutos"
  },
  specificites: [
@@ -202,7 +202,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "420+ intervenções em Vila Real",
- tauxSatisfaction: "97% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 52 minutos"
  },
  specificites: [
@@ -265,7 +265,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "160+ intervenções em Miranda",
- tauxSatisfaction: "97% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 62 minutos"
  },
  specificites: [
@@ -328,7 +328,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "140+ intervenções em Alfândega",
- tauxSatisfaction: "99% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 53 minutos"
  },
  specificites: [
@@ -360,7 +360,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "170+ intervenções em Vila Flor",
- tauxSatisfaction: "97% clientes satisfeitos",
+ tauxSatisfaction: "",
  tempsReponse: "Média 58 minutos"
  },
  specificites: [

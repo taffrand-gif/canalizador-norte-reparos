@@ -11,7 +11,7 @@ interface BandwagonEffectProps {
 
 export default function BandwagonEffect({
  city = 'Bragança',
- totalClients = 500,
+ totalClients = 50,
  monthlyGrowth = 15
 }: BandwagonEffectProps) {
  const [animatedCount, setAnimatedCount] = useState(0);

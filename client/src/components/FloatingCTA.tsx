@@ -63,7 +63,7 @@ export default function FloatingCTA() {
  <div className="p-4">
  {/* Urgency headline */}
  <p className="text-center text-sm font-bold text-gray-900 mb-3">
- ⚡ <span className="text-red-600">URGENTE?</span> Técnico em {city} em {arrivalTime.split('-')[0]}
+ ⚡ Precisa de ajuda?
  </p>
 
  <div className="space-y-3">
