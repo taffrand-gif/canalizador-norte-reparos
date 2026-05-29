@@ -113,7 +113,7 @@ function MoneyBackGuarantee() {
  </div>
  <div>
  <div className="text-3xl mb-2">⭐</div>
- <p className="font-bold text-green-900 mb-1">500+ Clientes Satisfeitos</p>
+ <p className="font-bold text-green-900 mb-1"> Satisfeitos</p>
  <p className="text-green-800">Menos de 1% reclamações</p>
  </div>
  </div>

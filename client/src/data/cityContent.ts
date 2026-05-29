@@ -63,7 +63,6 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "450+ intervenções em Bragança",
- tauxSatisfaction: "98% clientes satisfeitos",
  tempsReponse: "Média 38 minutos"
  },
  specificites: [
@@ -235,7 +234,6 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "180+ intervenções em Vinhais",
- tauxSatisfaction: "98% clientes satisfeitos",
  tempsReponse: "Média 58 minutos"
  },
  specificites: [
@@ -299,7 +297,6 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "200+ intervenções em Mogadouro",
- tauxSatisfaction: "98% clientes satisfeitos",
  tempsReponse: "Média 58 minutos"
  },
  specificites: [
