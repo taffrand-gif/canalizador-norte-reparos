@@ -203,7 +203,7 @@ export default function SimuladorCustoFuga({
  💬 Resolver Agora e Evitar €{totalLoss.toFixed(0)} de Prejuízo
  </a>
  <p className="text-xs text-center text-gray-600 mt-3">
- ⚡ Técnico disponível em 30min • Arranjo definitiva • Garantia 2 anos
+ ⚡ Técnico disponível em 30min • Arranjo definitiva • Garantia do serviço
  </p>
  </div>
  );

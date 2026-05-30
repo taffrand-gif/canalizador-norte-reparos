@@ -1,11 +1,9 @@
 // Componente SEO Head Enhanced - Gestão completa de meta tags com palavras-chave de cauda longa
 // Suporte para páginas de cidades, Open Graph, Twitter Cards, URLs canónicas
-
 import { useEffect, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocation } from 'wouter';
 import { getCitySEOConfig } from '../../../shared/seoKeywords';
-
 interface SEOHeadEnhancedProps {
  citySlug?: string; // Slug da cidade (ex: 'macedo-de-cavaleiros')
  pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery';
@@ -14,7 +12,6 @@ interface SEOHeadEnhancedProps {
  customKeywords?: string[];
  customImage?: string;
 }
-
 export default function SEOHeadEnhanced({
  citySlug,
  pageType = 'home',
@@ -25,10 +22,8 @@ export default function SEOHeadEnhanced({
 }: SEOHeadEnhancedProps) {
  const { config } = useSite();
  const [location] = useLocation();
-
  // Recuperar a configuração SEO para a cidade
  const citySEO = citySlug ? getCitySEOConfig(citySlug) : null;
-
  // Determinar as meta tags em função do tipo de página
  const seoConfig = useMemo(() => {
  // Configuração padrão (página inicial)
@@ -37,7 +32,6 @@ export default function SEOHeadEnhanced({
  let keywords = customKeywords || config.seo.keywords;
  let canonicalUrl = `https://${config.domain}${location}`;
  let ogImage = customImage || config.seo.ogImage;
-
  // Página de cidade
  if (pageType === 'city' && citySEO) {
  title = citySEO.title;
@@ -45,19 +39,16 @@ export default function SEOHeadEnhanced({
  keywords = citySEO.keywords;
  canonicalUrl = citySEO.canonicalUrl;
  }
-
  // Página de serviço
  if (pageType === 'service') {
  title = `${config.serviceType} - ${customTitle || 'Serviços'} | ${config.name}`;
  description = customDescription || `Serviços de ${config.serviceType.toLowerCase()} profissional em Trás-os-Montes. ${config.description}`;
  }
-
  // Página de blog
  if (pageType === 'blog' && customTitle) {
  title = `${customTitle} | Blog ${config.name}`;
  description = customDescription || `Artigo sobre ${customTitle.toLowerCase()} no blog ${config.name}. ${config.description}`;
  }
-
  return {
  title,
  description: description.substring(0, 160), // Limitar a 160 caracteres
@@ -68,11 +59,9 @@ export default function SEOHeadEnhanced({
  ogDescription: citySEO?.ogDescription || description.substring(0, 160)
  };
  }, [config, citySlug, pageType, location, customTitle, customDescription, customKeywords, customImage, citySEO]);
-
  useEffect(() => {
  // Atualizar o título do documento
  document.title = seoConfig.title;
-
  // Função auxiliar para atualizar ou criar uma meta tag
  const updateMetaTag = (selector: string, attribute: string, value: string) => {
  let element = document.querySelector(selector);
@@ -89,7 +78,6 @@ export default function SEOHeadEnhanced({
  }
  element.setAttribute(attribute, value);
  };
-
  // Meta tags básicas
  updateMetaTag('meta[name="description"]', 'content', seoConfig.description);
  updateMetaTag('meta[name="keywords"]', 'content', seoConfig.keywords);
@@ -99,7 +87,6 @@ export default function SEOHeadEnhanced({
  
  // Viewport (importante para mobile)
  updateMetaTag('meta[name="viewport"]', 'content', 'width=device-width, initial-scale=1.0');
-
  // Open Graph tags
  updateMetaTag('meta[property="og:type"]', 'content', 'website');
  updateMetaTag('meta[property="og:locale"]', 'content', 'pt_PT');
@@ -111,7 +98,6 @@ export default function SEOHeadEnhanced({
  updateMetaTag('meta[property="og:image:width"]', 'content', '1200');
  updateMetaTag('meta[property="og:image:height"]', 'content', '630');
  updateMetaTag('meta[property="og:image:alt"]', 'content', `${config.serviceType} profissional em Trás-os-Montes`);
-
  // Twitter Card tags
  updateMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
  updateMetaTag('meta[name="twitter:title"]', 'content', seoConfig.title);
@@ -119,7 +105,6 @@ export default function SEOHeadEnhanced({
  updateMetaTag('meta[name="twitter:image"]', 'content', seoConfig.ogImage);
  updateMetaTag('meta[name="twitter:site"]', 'content', `@${config.domain.replace('.com', '')}`);
  updateMetaTag('meta[name="twitter:creator"]', 'content', `@${config.domain.replace('.com', '')}`);
-
  // Canonical URL
  let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
  if (!canonical) {
@@ -128,7 +113,6 @@ export default function SEOHeadEnhanced({
  document.head.appendChild(canonical);
  }
  canonical.href = seoConfig.canonicalUrl;
-
  // Tags hreflang (para internacionalização)
  const hreflangTags = [
  { lang: 'pt-PT', url: seoConfig.canonicalUrl },
@@ -136,10 +120,8 @@ export default function SEOHeadEnhanced({
  { lang: 'en', url: seoConfig.canonicalUrl.replace('.com', '.com/en') },
  { lang: 'es', url: seoConfig.canonicalUrl.replace('.com', '.com/es') }
  ];
-
  // Remover as antigas tags hreflang
  document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(tag => tag.remove());
-
  // Adicionar as novas tags hreflang
  hreflangTags.forEach(({ lang, url }) => {
  const link = document.createElement('link');
@@ -148,14 +130,12 @@ export default function SEOHeadEnhanced({
  link.href = url;
  document.head.appendChild(link);
  });
-
  // X-default hreflang
  const xDefault = document.createElement('link');
  xDefault.rel = 'alternate';
  xDefault.hreflang = 'x-default';
  xDefault.href = seoConfig.canonicalUrl;
  document.head.appendChild(xDefault);
-
  // Dados estruturados (Schema.org) para LocalBusiness
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -184,7 +164,6 @@ export default function SEOHeadEnhanced({
  `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`
  ]
  };
-
  // Adicionar as coordenadas geográficas se for uma página de cidade
  if (pageType === 'city' && citySEO) {
  // Coordenadas aproximadas para cada cidade
@@ -200,7 +179,6 @@ export default function SEOHeadEnhanced({
  'torre-de-moncorvo': { lat: 41.1742, lng: -7.0533 },
  'freixo-de-espada-a-cinta': { lat: 41.0911, lng: -6.8069 }
  };
-
  const coords = cityCoordinates[citySlug || ''];
  if (coords) {
  Object.assign(schemaData, {
@@ -221,9 +199,7 @@ export default function SEOHeadEnhanced({
  });
  }
  }
-
  schemaScript.text = JSON.stringify(schemaData);
-
  // Remover o script schema antigo se existir
  const oldSchema = document.querySelector('script[type="application/ld+json"]');
  if (oldSchema) {
@@ -231,12 +207,10 @@ export default function SEOHeadEnhanced({
  }
  
  document.head.appendChild(schemaScript);
-
  // Google Ads tracking - deferred to avoid blocking main thread
  if (!window.dataLayer) {
  window.dataLayer = [];
  }
-
  // Adiar carregamento GTM por 3s após carregamento da página para melhor desempenho
  const loadGTM = () => {
  if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
@@ -245,16 +219,13 @@ export default function SEOHeadEnhanced({
  script.async = true;
  script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17915870228';
  document.head.appendChild(script);
-
  script.onload = () => {
  function gtag(...args: any[]) {
  window.dataLayer.push(arguments);
  }
  window.gtag = gtag;
-
  gtag('js', new Date());
  gtag('config', 'AW-17915870228');
-
  // Modo de consentimento GDPR
  gtag('consent', 'default', {
  'analytics_storage': 'denied',
@@ -265,13 +236,11 @@ export default function SEOHeadEnhanced({
  };
  }, 3000);
  };
-
  if (document.readyState === 'complete') {
  loadGTM();
  } else {
  window.addEventListener('load', loadGTM, { once: true });
  }
-
  // Limpeza
  return () => {
  if (schemaScript.parentNode === document.head) {
@@ -279,10 +248,8 @@ export default function SEOHeadEnhanced({
  }
  };
  }, [config, seoConfig, pageType, citySlug]);
-
  return null; // Este componente não renderiza nada
 }
-
 // Estender a interface Window para TypeScript
 declare global {
  interface Window {

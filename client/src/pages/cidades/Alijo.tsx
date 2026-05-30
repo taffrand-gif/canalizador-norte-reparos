@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Alijo() {
  useEffect(() => {
  document.title = "Canalizador Alijó 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function Alijo() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Alijó, coração do Douro Vinhateiro. Canalização para quintas, caves de vinho, turismo rural. Desentupimentos e fugas 24h. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Alijó, coração do Douro Vinhateiro. Canalização para quintas, caves de vinho, turismo rural. Desentupimentos e fugas 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,7 +27,6 @@ export default function Alijo() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-alijo');
-
  const cityAddress = getCityAddress('alijo');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -53,7 +50,6 @@ export default function Alijo() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -71,15 +67,12 @@ export default function Alijo() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-alijo');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('alijo');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Alijó?", answer: "Chegamos a Alijó em aproximadamente 50-60 minutos, percorrendo cerca de 60km desde Macedo de Cavaleiros pelo IP4 e N212." },
  { question: "Fazem canalização para quintas vinícolas do Douro?", answer: "Sim, somos especializados em redes de água para quintas do Douro, incluindo caves de vinificação, sistemas de lavagem de cubas e drenagem de terrenos em socalcos." },
@@ -87,7 +80,6 @@ export default function Alijo() {
  question: "Qual o custo de deslocação a Alijó?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -103,7 +95,6 @@ export default function Alijo() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Alijó</h2>
@@ -122,9 +113,7 @@ export default function Alijo() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Alijó</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Alijó?</h2>
@@ -138,9 +127,7 @@ export default function Alijo() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Alijó" currentCitySlug="canalizador-alijo" />
  </main>
  <Footer />

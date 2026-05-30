@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, Euro, Clock, CheckCircle, AlertTriangle, TrendingUp } from 'lucide-react';
-
 export default function QuantoCustaDesentupimentoBraganca() {
  const faqSchema = {
  "@context": "https://schema.org",
@@ -49,7 +48,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  }
  ]
  };
-
  const precos = [
  {
  servico: "Desentupir Sanita (WC)",
@@ -94,7 +92,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  descricao: "Limpeza e desentupimento de fossa, inclui aspiração se necessário"
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -106,7 +103,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  {JSON.stringify(faqSchema)}
  </script>
  </Helmet>
-
  <div className="min-h-screen bg-gray-50">
  <article className="max-w-4xl mx-auto px-4 py-12">
  {/* Hero */}
@@ -126,7 +122,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
-
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
@@ -136,7 +131,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <strong>Urgências</strong> (noites/fins de semana) têm acréscimo de 30-50%.
  </p>
  </div>
-
  {/* Tabela de Preços */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Tabela de Preços Completa</h2>
@@ -183,7 +177,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  Deslocações superiores a 20km: +0,50€/km adicional.</p>
  </div>
  </section>
-
  {/* O Que Está Incluído */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">O Que Está Incluído no Preço?</h2>
@@ -234,7 +227,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </div>
  </div>
  </section>
-
  {/* Fatores que Influenciam o Preço */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">O Que Influencia o Preço?</h2>
@@ -271,7 +263,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  ))}
  </div>
  </section>
-
  {/* Como Poupar */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Como Poupar no Desentupimento?</h2>
@@ -296,12 +287,11 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </ul>
  </div>
  </section>
-
  {/* CTA Meio */}
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <h3 className="text-2xl font-bold mb-4">Precisa de um Orçamento?</h3>
  <p className="text-lg mb-6 opacity-90">
- Orçamento gratuito e sem compromisso. Preço fixo acordado antes de começar.
+ Sem compromisso e sem compromisso. Preço fixo acordado antes de começar.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -320,7 +310,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </a>
  </div>
  </div>
-
  {/* Comparação Preços Região */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Preços por Cidade (Trás-os-Montes)</h2>
@@ -353,7 +342,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </table>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Perguntas Frequentes</h2>
@@ -370,7 +358,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  ))}
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Artigos Relacionados</h2>
@@ -395,7 +382,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </Link>
  </div>
  </section>
-
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Orçamento Gratuito e Sem Compromisso</h3>
@@ -420,7 +406,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Resposta em 30 minutos • Orçamento gratuito • Garantia 30 dias
+ Resposta em 30 minutos • Sem compromisso • Garantia 30 dias
  </p>
  </div>
  </article>

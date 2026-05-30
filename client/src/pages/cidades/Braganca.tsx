@@ -1,6 +1,5 @@
 // Page SEO optimisée para "Canalizador Bragança"
 // 100% unique content, conforme políticas Google
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -13,10 +12,8 @@ import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Braganca() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Canalizador Urgente Bragança 💧 24h | 928 484 451";
  
@@ -92,7 +89,6 @@ export default function Braganca() {
  ]
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -110,7 +106,6 @@ export default function Braganca() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  const faqs = [
  {
  question: "Qual o custo de deslocação a Bragança?",
@@ -125,16 +120,12 @@ export default function Braganca() {
  answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Bragança e todo o concelho."
  }
  ];
-
-
  return () => {
  document.head.removeChild(schemaScript);
  document.head.removeChild(faqSchema);
  };
  }, [config]);
-
  const cidadesProximas = getCidadesProximas('braganca');
-
  return (
  <>
  <SEOHead />
@@ -181,7 +172,6 @@ export default function Braganca() {
  </div>
  </div>
  </section>
-
  {/* Conteúdo específico de Bragança */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -263,7 +253,6 @@ export default function Braganca() {
  </div>
  </div>
  </section>
-
  {/* FAQ específica de Bragança */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -309,7 +298,6 @@ export default function Braganca() {
  </div>
  </div>
  </section>
-
  {/* CTA final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -353,7 +341,6 @@ export default function Braganca() {
  </div>
  </div>
  </section>
-
  {/* FAQ Schema Section */}
  <section className="py-16">
  <div className="container max-w-4xl">
@@ -361,14 +348,12 @@ export default function Braganca() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* Cidades Próximas - Internal Linking */}
  <CidadesProximas
  currentCity="Bragança"
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  {/* Related Cities - Maillage interno SEO */}
  <RelatedCities
  currentCity="Braganca"

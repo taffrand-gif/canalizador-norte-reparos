@@ -21,14 +21,11 @@ import Blog from '@/components/Blog';
 import ZonaIntervencao from '@/components/ZonaIntervencao';
 import Contactos from '@/components/Contactos';
 import Footer from '@/components/Footer';
-
 import SEOHead from '@/components/SEOHead';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { useSite } from '@/contexts/SiteContext';
-
 export default function OptimizedHome() {
  const { config } = useSite();
-
  return (
  <>
  <SEOHead />

@@ -2,13 +2,11 @@
 import React, { useEffect, useRef } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const InnovativeHero: React.FC = () => {
  const { config } = useSite();
  const heroRef = useRef<HTMLDivElement>(null);
  const bubblesRef = useRef<HTMLDivElement>(null);
  const wavesRef = useRef<HTMLDivElement>(null);
-
  useEffect(() => {
  // Efeito ondas animadas
  const createWaves = () => {
@@ -34,7 +32,6 @@ const InnovativeHero: React.FC = () => {
  wavesRef.current.appendChild(wave);
  }
  };
-
  // Criar bolhas animadas
  const createBubbles = () => {
  if (!bubblesRef.current) return;
@@ -68,7 +65,6 @@ const InnovativeHero: React.FC = () => {
  bubblesRef.current.appendChild(bubble);
  }
  };
-
  // Efeito de luz que se desloca
  const lightInterval = setInterval(() => {
  if (heroRef.current) {
@@ -87,15 +83,12 @@ const InnovativeHero: React.FC = () => {
  `;
  }
  }, 100);
-
  createWaves();
  createBubbles();
-
  return () => {
  clearInterval(lightInterval);
  };
  }, []);
-
  return (
  <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
  {/* Background avec effet de lumière mobile */}
@@ -290,5 +283,4 @@ const InnovativeHero: React.FC = () => {
  </section>
  );
 };
-
 export default InnovativeHero;

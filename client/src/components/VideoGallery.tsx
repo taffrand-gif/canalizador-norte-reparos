@@ -1,17 +1,13 @@
 import { videoData, generateVideoSchema } from '@/shared/videoData';
-
 interface VideoGalleryProps {
  category?: string;
  limit?: number;
 }
-
 export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  const filteredVideos = category
  ? videoData.filter(v => v.category === category)
  : videoData;
-
  const displayVideos = limit ? filteredVideos.slice(0, limit) : filteredVideos;
-
  return (
  <div className="bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -20,7 +16,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  <p className="text-gray-700 mb-8">
  Aprenda com os nossos técnicos profissionais. Dicas, tutoriais e casos reais.
  </p>
-
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
  {displayVideos.map((video) => (
  <div key={video.id} className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-shadow">
@@ -34,7 +29,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  className="absolute inset-0 w-full h-full"
  />
  </div>
-
  {/* Video Info */}
  <div className="p-4">
  <h3 className="font-bold text-lg text-gray-900 mb-2 line-clamp-2">
@@ -43,7 +37,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  <p className="text-sm text-gray-600 mb-3 line-clamp-2">
  {video.description}
  </p>
-
  {/* Duration & Keywords */}
  <div className="flex items-center justify-between text-xs text-gray-500">
  <span>⏱️ {video.duration}s</span>
@@ -51,7 +44,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  {video.category.replace('-', ' ')}
  </span>
  </div>
-
  {/* Keywords */}
  <div className="mt-3 flex flex-wrap gap-1">
  {video.keywords.slice(0, 3).map((keyword) => (
@@ -64,7 +56,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  ))}
  </div>
  </div>
-
  {/* Schema.org JSON-LD */}
  <script
  type="application/ld+json"
@@ -75,7 +66,6 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  </div>
  ))}
  </div>
-
  {/* CTA */}
  <div className="mt-8 text-center">
  <p className="text-gray-700 mb-4">

@@ -2,14 +2,12 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const EsquentadorVsTermoacumulador: React.FC = () => {
  useSEO({
  title: 'Esquentador ou Termoacumulador? Qual Escolher para a Sua Casa | 2026',
  description: 'Comparativo completo entre esquentador e termoacumulador. Descubra qual a melhor opção para aquecer água na sua casa em Trás-os-Montes.',
  keywords: 'esquentador, termoacumulador, aquecimento água, qual melhor, esquentador vs termoacumulador'
  });
-
  return (
  <BlogLayout
  title="Esquentador ou Termoacumulador? Qual Escolher"
@@ -39,7 +37,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Featured image */}
  <div className="mb-10 rounded-2xl overflow-hidden">
  <img
@@ -65,7 +62,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  Escolher entre esquentador e termoacumulador é uma das decisões mais importantes para o conforto da sua casa. Em Trás-os-Montes, onde os invernos são rigorosos e a água da rede chega muito fria, esta escolha tem impacto direto no conforto e na fatura energética. Neste guia, comparamos as duas opções em detalhe para ajudá-lo a tomar a melhor decisão.
  </p>
  </div>
-
  {/* Table of contents */}
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Neste Artigo</h2>
@@ -104,7 +100,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="comparativo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">2. ⚖️ Comparativo Detalhado</h2>
  <div className="space-y-4">
@@ -163,7 +158,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  <p>Em Trás-os-Montes, onde o gás natural não chega a muitas localidades, o esquentador funciona com botija de butano/propano, o que pode alterar os custos operacionais.</p>
  </section>
-
  <section id="qual-escolher" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">4. 🏠 Qual Escolher? Guia por Situação</h2>
  <div className="space-y-4">
@@ -189,7 +183,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="profissional" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Instalação Profissional</h2>
  <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8">
@@ -253,7 +246,6 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  })}
  </script>
  </section>
-
  {/* Author bio */}
  <div className="bg-gray-50 rounded-2xl p-8 mt-12">
  <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -275,5 +267,4 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default EsquentadorVsTermoacumulador;

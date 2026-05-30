@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight, BookOpen } from 'lucide-react';
-
 const articles = [
  {
  title: 'Como Desentupir a Lava-Loiça: Passos Simples',
@@ -19,7 +18,6 @@ const articles = [
  desc: 'Proteja a sua canalização do frio transmontano com estas dicas essenciais.',
  href: '/blog/como-prevenir-canos-rebentados-inverno'},
 ];
-
 export default function LatestBlog() {
  return (
  <section className="py-20 bg-gray-50">
@@ -32,7 +30,6 @@ export default function LatestBlog() {
  Dicas e guias práticos da nossa equipa de canalizadores.
  </p>
  </div>
-
  <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
  {articles.map((a, i) => (
  <a
@@ -53,7 +50,6 @@ export default function LatestBlog() {
  </a>
  ))}
  </div>
-
  <div className="text-center mt-10">
  <a
  href="/blog"

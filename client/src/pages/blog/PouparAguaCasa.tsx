@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, Droplets, CheckCircle, TrendingDown, Euro } from 'lucide-react';
-
 export default function PouparAguaCasa() {
  useEffect(() => {
  document.title = "Como Poupar Água em Casa: 12 Dicas Práticas para 2026";
@@ -15,7 +14,6 @@ export default function PouparAguaCasa() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', '12 dicas práticas para poupar água em casa: torneiras económicas, recuperação de água da chuva, hábitos simples. Poupe até 40% na conta.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -23,7 +21,6 @@ export default function PouparAguaCasa() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/poupar-agua-casa-dicas-praticas');
-
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -49,7 +46,6 @@ export default function PouparAguaCasa() {
  });
  document.head.appendChild(script);
  }, []);
-
  const dicas = [
  {
  numero: 1,
@@ -148,7 +144,6 @@ export default function PouparAguaCasa() {
  dificuldade: "Fácil (compra)"
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -169,7 +164,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* Introdução */}
  <section className="py-12">
  <div className="container max-w-3xl">
@@ -188,7 +182,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* Estatísticas */}
  <section className="py-12 bg-blue-50">
  <div className="container max-w-3xl">
@@ -233,7 +226,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* 12 Dicas */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -280,7 +272,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* Simulação de Poupança */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -324,7 +315,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* Recuperação Água da Chuva */}
  <section className="py-16 bg-blue-50">
  <div className="container max-w-3xl">
@@ -377,7 +367,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -401,7 +390,6 @@ export default function PouparAguaCasa() {
  </div>
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">

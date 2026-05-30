@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  useSEO({
  title: 'Manutenção de Canalização: Checklist Anual Completa [2026]',
  description: 'Checklist completa de manutenção de canalização. Guia anual passo a passo para prevenir avarias e poupar milhares de euros em reparações.',
  keywords: 'manutenção canalização, checklist anual, inspeção canalização, prevenir avarias, manutenção preventiva'
  });
-
  return (
  <BlogLayout
  title="Manutenção de Canalização: Checklist Anual Completa [2026]"
@@ -23,11 +21,9 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <span>⏱️ 12 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Manutenção de Canalização: Checklist Anual Completa [2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">🔧</span>
@@ -38,21 +34,18 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-8">
  <p className="text-green-900 font-semibold text-lg">
  💰 Manutenção preventiva poupa 70% em reparações. Investir 200€/ano evita avarias de 2000-5000€!
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Manutenção preventiva de canalização é o segredo para evitar avarias caras e prolongar
  a vida útil do sistema. Neste guia completo, apresentamos uma checklist anual detalhada
  com todas as tarefas essenciais, quando fazê-las e como executá-las corretamente.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -65,15 +58,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">7. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="porque-manutencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🎯 Porque Fazer Manutenção Preventiva?</h2>
-
  <p className="mb-6">
  Manutenção preventiva é investimento, não despesa. Os benefícios são imensos:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200">
  <h3 className="font-bold text-green-900 mb-3 text-lg">💰 Poupança Financeira</h3>
@@ -84,7 +74,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Manutenção custa 200€/ano vs 3000€ reparação</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">🛡️ Prevenção de Problemas</h3>
  <ul className="text-blue-800 space-y-2">
@@ -94,7 +83,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Mantém pressão e temperatura ideais</li>
  </ul>
  </div>
-
  <div className="bg-purple-50 p-6 rounded-xl border-2 border-purple-200">
  <h3 className="font-bold text-purple-900 mb-3 text-lg">⏱️ Tranquilidade</h3>
  <ul className="text-purple-800 space-y-2">
@@ -104,7 +92,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Dormir descansado</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-lg">🏠 Valorização Imóvel</h3>
  <ul className="text-orange-800 space-y-2">
@@ -115,10 +102,8 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-xl">💸 Custo de NÃO Fazer Manutenção</h3>
-
  <table className="w-full text-sm">
  <thead>
  <tr className="border-b-2 border-red-200">
@@ -153,20 +138,16 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </tr>
  </tbody>
  </table>
-
  <p className="text-red-800 font-semibold mt-4 text-center">
  ⚠️ Investir 200€/ano em manutenção evita 2000-10000€ em reparações!
  </p>
  </div>
  </section>
-
  <section id="checklist-mensal" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📅 Checklist Mensal (12x por ano)</h2>
-
  <p className="mb-6">
  Tarefas rápidas que deve fazer todos os meses para detetar problemas precocemente:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -180,7 +161,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -191,14 +171,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Verifique pressão de água (deve ser constante)</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 10 minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -211,7 +189,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -222,14 +199,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Limpe sifões visíveis (debaixo lavatório)</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 15 minutos | <strong>💰 Custo:</strong> 2€ (bicarbonato/vinagre)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -242,7 +217,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -253,14 +227,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Se número mudou = há fuga escondida</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 5 minutos (+ 1h espera) | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -273,7 +245,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -284,7 +255,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Sem ruídos estranhos ou cheiro a gás</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 5 minutos | <strong>💰 Custo:</strong> 0€
@@ -292,7 +262,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Mensal</h3>
  <ul className="text-green-800 space-y-2">
@@ -306,14 +275,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </section>
-
  <section id="checklist-semestral" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📅 Checklist Semestral (2x por ano)</h2>
-
  <p className="mb-6">
  Tarefas de manutenção mais profunda a fazer de 6 em 6 meses:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -327,7 +293,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">O Que Inclui:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -338,14 +303,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Substituição de pilhas</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Recomendação:</strong> Contrate técnico certificado | <strong>💰 Custo:</strong> 60-100€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -358,7 +321,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -370,14 +332,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Se muito baixa (<1.5 bar): contacte empresa águas</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 10 minutos | <strong>💰 Custo:</strong> 10-20€ (manómetro)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -390,7 +350,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
@@ -402,14 +361,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>Volte a montar e teste (sem fugas)</li>
  </ol>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 30 minutos | <strong>💰 Custo:</strong> 5€ (juntas novas)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -422,7 +379,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -433,7 +389,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Prioridade: canos exteriores e não aquecidos</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 45 minutos | <strong>💰 Custo:</strong> 20-50€ (isolamento)
@@ -441,7 +396,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Semestral</h3>
  <ul className="text-green-800 space-y-2">
@@ -455,14 +409,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </section>
-
  <section id="checklist-anual" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📅 Checklist Anual (1x por ano)</h2>
-
  <p className="mb-6">
  Tarefas de manutenção completa a fazer uma vez por ano:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -476,7 +427,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">O Que Inclui:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -488,14 +438,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Relatório com recomendações</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Essencial:</strong> Contrate canalizador certificado | <strong>💰 Custo:</strong> 80-150€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -508,7 +456,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Quando Necessário:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -519,14 +466,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Ruídos no esquentador</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Técnico:</strong> Descalcificação profissional | <strong>💰 Custo:</strong> 80-150€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -539,7 +484,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -550,14 +494,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Verifique que água escoa livremente</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 1 hora | <strong>💰 Custo:</strong> 0€ (DIY) ou 100-200€ (máquina alta pressão)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -570,7 +512,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Componentes a Verificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -581,7 +522,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Mangueiras de máquinas (se rachadas)</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> Variável | <strong>💰 Custo:</strong> 20-100€ (peças)
@@ -589,7 +529,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Anual</h3>
  <ul className="text-green-800 space-y-2">
@@ -603,14 +542,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </p>
  </div>
  </section>
-
  <section id="calendario" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📆 Calendário de Manutenção</h2>
-
  <p className="mb-6">
  Organize todas as tarefas num calendário anual para não esquecer nada:
  </p>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <table className="w-full">
  <thead>
@@ -760,7 +696,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </tfoot>
  </table>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">💡 Dicas para Organização</h3>
  <ul className="text-cyan-800 space-y-2">
@@ -772,10 +707,8 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa manutenção de canalização por ano?</h3>
@@ -792,7 +725,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  💰 Investir 300-500€/ano evita reparações de 2000-10000€
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso fazer toda a manutenção sozinho?</h3>
  <p className="text-gray-700 mb-2">
@@ -810,7 +742,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  💡 Faça DIY mensal/trimestral + técnico semestral/anual
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Com que frequência devo chamar canalizador?</h3>
  <p className="text-gray-700 mb-2">
@@ -826,7 +757,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  ✅ Mínimo: 2-3 visitas/ano para manutenção preventiva
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Manutenção preventiva realmente compensa?</h3>
  <p className="text-gray-700 mb-2">
@@ -852,7 +782,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  💰 Cada 1€ investido em manutenção poupa 5-10€ em reparações
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">O que acontece se não fizer manutenção?</h3>
  <p className="text-gray-700 mb-2">
@@ -870,7 +799,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  ⚠️ Negligência custa 10x mais que prevenção
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora manutenção anual completa?</h3>
  <p className="text-gray-700 mb-2">
@@ -889,7 +817,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  Média: 1 hora/mês de dedicação para sistema sempre funcional
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Preciso descalcificar todos os anos?</h3>
  <p className="text-gray-700 mb-2">
@@ -910,7 +837,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  💡 Sinais que precisa descalcificar: pressão reduzida, água demora a aquecer, manchas brancas, ruídos
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Manutenção aumenta valor da casa?</h3>
  <p className="text-gray-700 mb-2">
@@ -929,16 +855,13 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Manutenção Profissional de Canalização</h2>
  <p className="text-xl mb-6">
  Deixe a manutenção da sua canalização com especialistas certificados.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Manutenção Preventiva</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -969,7 +892,6 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -985,12 +907,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -1021,16 +941,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default ManutencaoCanalizacaoChecklistAnual;
-
  <section id="checklist-trimestral" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📅 Checklist Trimestral (4x por ano)</h2>
-
  <p className="mb-6">
  Tarefas mais aprofundadas a fazer de 3 em 3 meses:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -1044,7 +960,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
@@ -1055,14 +970,12 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <li>Enxague e volte a montar</li>
  </ol>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 20 minutos | <strong>💰 Custo:</strong> 1€ (vinagre)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -1075,7 +988,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -1086,14 +998,12 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <li>• Etiquete válvulas para fácil identificação</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 15 minutos | <strong>💰 Custo:</strong> 5€ (óleo desengripante)
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -1106,7 +1016,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -1117,14 +1026,12 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <li>• Verifique isolamento térmico (se houver)</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 20 minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -1137,7 +1044,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -1148,7 +1054,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <li>• Verifique que não há obstruções</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>⏱️ Tempo:</strong> 15 minutos | <strong>💰 Custo:</strong> 0€
@@ -1156,7 +1061,6 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </div>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Trimestral</h3>
  <ul className="text-green-800 space-y-2">

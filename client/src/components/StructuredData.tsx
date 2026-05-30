@@ -1,38 +1,31 @@
 // Structured Data (Schema.org) component
 // Schema Markup LocalBusiness para Norte-Reparos (Canalizador)
-
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocation as useWouterLocation } from 'wouter';
 import { useLocation } from '@/contexts/LocationContext';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
-
 export default function StructuredData() {
  const { config } = useSite();
  const [location] = useWouterLocation();
  const { getCurrentCity } = useLocation();
-
  useEffect(() => {
  // Remover scripts existentes
  const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
  existingScripts.forEach(script => script.remove());
-
  const businessType = 'Plumber';
  const serviceName = 'Canalizador';
  const detectedCity = getCurrentCity();
-
  // Não adicionar FAQPage nas páginas de cidade (CityServicePage já tem o seu próprio FAQPage)
  // Pattern: /:service-:city (ex: /canalizador-braganca, /desentupimento-mirandela)
  const isCityServicePage = location.match(/\/[a-z-]+-[a-z-]+$/);
  const shouldIncludeFAQ = !isCityServicePage;
-
  // Lista das 10 cidades servidas
  const citiesServed = [
  "Bragança", "Macedo de Cavaleiros", "Mirandela", "Chaves",
  "Vila Real", "Vinhais", "Miranda do Douro", "Mogadouro",
  "Torre de Moncorvo", "Freixo de Espada à Cinta", "Valpaços", "Alfândega da Fé"
  ];
-
  // LocalBusiness Schema enriquecido
  const localBusinessSchema = {
  "@context": "https://schema.org",
@@ -132,7 +125,6 @@ export default function StructuredData() {
  }
  }))
  };
-
  // Service Schema (geral)
  const serviceSchema = {
  "@context": "https://schema.org",
@@ -185,7 +177,6 @@ export default function StructuredData() {
  }
  }
  };
-
  // Service Schema específico para as páginas de cidade
  const getCityServiceSchema = () => {
  const cityPages = [
@@ -200,15 +191,13 @@ export default function StructuredData() {
  { path: '/canalizador-torre-moncorvo', city: 'Torre de Moncorvo' },
  { path: '/canalizador-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
  ];
-
  const currentCity = cityPages.find(page => location === page.path);
  if (!currentCity) return null;
-
  return {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": `${serviceName} em ${currentCity.city}`,
- "description": `${serviceName} profissional em ${currentCity.city}, Trás-os-Montes. Serviço 24h, urgências, orçamento gratuito.`,
+ "description": `${serviceName} profissional em ${currentCity.city}, Trás-os-Montes. Serviço 24h, urgências, sem compromisso.`,
  "provider": {
  "@id": `https://${config.domain}/#organization`
  },
@@ -236,7 +225,6 @@ export default function StructuredData() {
  }
  };
  };
-
  // Reviews Schema melhorado
  const reviewsSchema = config.testimonials.map((testimonial, index) => ({
  "@context": "https://schema.org",
@@ -266,7 +254,6 @@ export default function StructuredData() {
  "name": config.name
  }
  }));
-
  // WebSite Schema
  const websiteSchema = {
  "@context": "https://schema.org",
@@ -279,7 +266,6 @@ export default function StructuredData() {
  "@id": `https://${config.domain}/#organization`
  }
  };
-
  // Organization Schema enrichi
  const organizationSchema = {
  "@context": "https://schema.org",
@@ -362,7 +348,6 @@ export default function StructuredData() {
  "knowsLanguage": ["pt-PT"],
  "slogan": "Serviço 24h/7d em Trás-os-Montes • Chegamos em 40 minutos"
  };
-
  // FAQ Schema enriquecido
  const faqSchema = {
  "@context": "https://schema.org",
@@ -397,7 +382,7 @@ export default function StructuredData() {
  "name": "Quanto custa uma intervenção?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Os preços variam conforme o serviço e a localização. Oferecemos orçamento gratuito e sem compromisso. Preços a partir de 60€ para desentupimentos simples."
+ "text": "Os preços variam conforme o serviço e a localização. Oferecemos sem compromisso e sem compromisso. Preços a partir de 60€ para desentupimentos simples."
  }
  },
  {
@@ -410,7 +395,6 @@ export default function StructuredData() {
  }
  ]
  };
-
  // BreadcrumbList Schema dinâmico
  const getBreadcrumbSchema = () => {
  const breadcrumbItems = [
@@ -421,7 +405,6 @@ export default function StructuredData() {
  "item": `https://${config.domain}`
  }
  ];
-
  // Páginas de cidade
  const cityPages = [
  { path: '/canalizador-chaves', city: 'Chaves' },
@@ -435,9 +418,7 @@ export default function StructuredData() {
  { path: '/canalizador-torre-moncorvo', city: 'Torre de Moncorvo' },
  { path: '/canalizador-freixo-espada-cinta', city: 'Freixo de Espada à Cinta' }
  ];
-
  const currentCity = cityPages.find(page => location === page.path);
-
  if (currentCity) {
  breadcrumbItems.push({
  "@type": "ListItem",
@@ -463,7 +444,6 @@ export default function StructuredData() {
  '/sobre': 'Sobre Nós',
  '/blog': 'Blog'
  };
-
  const pageTitle = pageTitles[location] || location.split('/').pop()?.replace(/-/g, ' ');
  if (pageTitle) {
  breadcrumbItems.push({
@@ -474,16 +454,13 @@ export default function StructuredData() {
  });
  }
  }
-
  return {
  "@context": "https://schema.org",
  "@type": "BreadcrumbList",
  "itemListElement": breadcrumbItems
  };
  };
-
  const breadcrumbSchema = getBreadcrumbSchema();
-
  // Inserir todos les schemas
  const schemas = [
  localBusinessSchema,
@@ -493,18 +470,15 @@ export default function StructuredData() {
  breadcrumbSchema,
  ...reviewsSchema
  ];
-
  // Adicionar FAQPage apenas se não estiver numa página de cidade (evitar duplicação)
  if (shouldIncludeFAQ) {
  schemas.push(faqSchema);
  }
-
  // Adicionar o schema específico da cidade se aplicável
  const cityServiceSchema = getCityServiceSchema();
  if (cityServiceSchema) {
  schemas.push(cityServiceSchema);
  }
-
  schemas.forEach(schema => {
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -512,6 +486,5 @@ export default function StructuredData() {
  document.head.appendChild(script);
  });
  }, [config, location, getCurrentCity]);
-
  return null;
 }

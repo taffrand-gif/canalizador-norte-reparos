@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, Flame, CheckCircle, AlertTriangle, Calendar } from 'lucide-react';
-
 export default function ManutencaoEsquentador() {
  useEffect(() => {
  document.title = "Manutenção do Esquentador - Guia Completo 2026 | Quando e Como Fazer";
@@ -15,7 +14,6 @@ export default function ManutencaoEsquentador() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Guia completo de manutenção do esquentador. Quando fazer revisão, sinais de problemas, custos, e dicas para prolongar a vida útil. Atualizado 2026.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -24,7 +22,6 @@ export default function ManutencaoEsquentador() {
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/manutencao-esquentador-guia');
  }, []);
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -45,7 +42,6 @@ export default function ManutencaoEsquentador() {
  </div>
  </div>
  </section>
-
  {/* Content */}
  <article className="py-16">
  <div className="container max-w-3xl">
@@ -73,7 +69,6 @@ export default function ManutencaoEsquentador() {
  ))}
  </div>
  </section>
-
  {/* Frequência */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-4 flex items-center gap-2">
@@ -106,7 +101,6 @@ export default function ManutencaoEsquentador() {
  </div>
  </div>
  </section>
-
  {/* Sinais de Problemas */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-4 flex items-center gap-2">
@@ -150,7 +144,6 @@ export default function ManutencaoEsquentador() {
  </p>
  </div>
  </section>
-
  {/* O que inclui */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-4">O Que Inclui uma Manutenção Completa?</h2>
@@ -172,7 +165,6 @@ export default function ManutencaoEsquentador() {
  ))}
  </div>
  </section>
-
  {/* Preços */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-4">Quanto Custa? (Preços 2026)</h2>
@@ -194,10 +186,8 @@ export default function ManutencaoEsquentador() {
  </p>
  </div>
  </section>
-
  </div>
  </article>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">

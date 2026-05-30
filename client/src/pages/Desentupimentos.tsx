@@ -1,6 +1,5 @@
 // Page Service Dédié: Desentupimentos em Trás-os-Montes
 // Optimizada para SEO com keywords: desentupimentos, desentupir canos, desentupir sanita
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
@@ -9,10 +8,8 @@ import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
-
 export default function Desentupimentos() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Desentupimentos em Trás-os-Montes | Serviço Urgente 24h | Desentupir Canos, Sanita, Esgotos";
  
@@ -23,9 +20,8 @@ export default function Desentupimentos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviço de desentupimentos em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Urgências 24h, equipamento moderno, garantia no serviço. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Serviço de desentupimentos em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Urgências 24h, equipamento moderno, garantia no serviço. Sem compromisso.');
  }, [config]);
-
  // Schema.org Service JSON-LD
  const serviceSchema = {
  "@context": "https://schema.org",
@@ -85,7 +81,6 @@ export default function Desentupimentos() {
  ]
  }
  };
-
  return (
  <>
  <SEOHeadEnhanced pageType="service" />
@@ -102,7 +97,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupir canos, sanitas, esgotos, pias e ralos com equipamento moderno e técnicas não invasivas. 
- Urgências 24 horas, garantia no serviço e orçamento gratuito.
+ Urgências 24 horas, garantia no serviço e sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
@@ -122,7 +117,6 @@ export default function Desentupimentos() {
  </div>
  </div>
  </section>
-
  {/* Service details */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -211,7 +205,7 @@ export default function Desentupimentos() {
  <div className="mt-8 p-4 bg-blue-50 rounded-lg">
  <p className="text-blue-800 font-semibold">
  💡 <strong>Nota:</strong> Preços podem variar conforme a complexidade do serviço. 
- Orçamento gratuito no local.
+ Sem compromisso no local.
  </p>
  </div>
  
@@ -231,7 +225,6 @@ export default function Desentupimentos() {
  </div>
  </div>
  </section>
-
  {/* FAQ Section with Schema.org */}
  <section className="py-16 bg-gray-50">
  <FAQSection
@@ -252,7 +245,6 @@ export default function Desentupimentos() {
  ]}
  />
  </section>
-
  {/* Internal links to city pages */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -283,7 +275,6 @@ export default function Desentupimentos() {
  </div>
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">

@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, AlertTriangle, CheckCircle, Droplets, ThumbsUp, ThumbsDown } from 'lucide-react';
-
 export default function DesentupirWCMetodos() {
  useEffect(() => {
  document.title = "Desentupir WC Entupido - Métodos Caseiros vs Chamar Canalizador | Guia";
@@ -15,7 +14,6 @@ export default function DesentupirWCMetodos() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'WC entupido? Aprenda métodos caseiros seguros para desentupir e saiba quando é hora de chamar um canalizador profissional. Guia prático com dicas.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -24,7 +22,6 @@ export default function DesentupirWCMetodos() {
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/desentupir-wc-metodos-caseiros');
  }, []);
-
  const metodosCaseiros = [
  {
  nome: "Água Quente + Detergente",
@@ -55,7 +52,6 @@ export default function DesentupirWCMetodos() {
  cuidado: "Cuidado para não riscar a porcelana"
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -76,7 +72,6 @@ export default function DesentupirWCMetodos() {
  </div>
  </div>
  </section>
-
  {/* Content */}
  <article className="py-16">
  <div className="container max-w-3xl">
@@ -94,7 +89,6 @@ export default function DesentupirWCMetodos() {
  </div>
  </div>
  </div>
-
  {/* Métodos Caseiros */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-6">Métodos Caseiros (Tente Primeiro)</h2>
@@ -127,7 +121,6 @@ export default function DesentupirWCMetodos() {
  ))}
  </div>
  </section>
-
  {/* O que NÃO fazer */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-6 text-red-600">❌ O Que NÃO Fazer</h2>
@@ -148,7 +141,6 @@ export default function DesentupirWCMetodos() {
  </ul>
  </div>
  </section>
-
  {/* Quando chamar profissional */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-6">🔧 Quando Chamar um Canalizador?</h2>
@@ -171,7 +163,6 @@ export default function DesentupirWCMetodos() {
  </ul>
  </div>
  </section>
-
  {/* Comparação */}
  <section className="mb-12">
  <h2 className="text-2xl font-black mb-6">Caseiro vs Profissional</h2>
@@ -202,10 +193,8 @@ export default function DesentupirWCMetodos() {
  </div>
  </div>
  </section>
-
  </div>
  </article>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">

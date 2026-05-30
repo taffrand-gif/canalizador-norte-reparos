@@ -1,7 +1,6 @@
 import React from 'react';
 import OptimizedImage from './OptimizedImage';
 // memo removed from 'react';
-
 interface CityHeroProps {
  cityName: string;
  phone: string;
@@ -9,7 +8,6 @@ interface CityHeroProps {
  onPhoneClick: () => void;
  serviceName: string;
 }
-
 /**
  * Composant Hero réutilisable pour les pages de villes
  * Utilise OptimizedImage pour les performances optimales
@@ -21,7 +19,6 @@ function CityHero({
  onPhoneClick,
  serviceName}: CityHeroProps) {
  const formattedPhone = `${phone.slice(0, 3)} ${phone.slice(3, 6)} ${phone.slice(6)}`;
-
  return (
  <section className="relative bg-gray-900 py-20">
  {/* Image de fond optimisée */}
@@ -37,7 +34,6 @@ function CityHero({
  objectFit="cover"
  />
  </div>
-
  {/* Contenu */}
  <div className="relative container">
  <div className="max-w-4xl mx-auto text-center text-white">
@@ -62,5 +58,4 @@ function CityHero({
  </section>
  );
 }
-
 export default React.memo(CityHero);

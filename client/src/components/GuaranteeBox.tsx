@@ -2,13 +2,11 @@ import React from 'react';
 // memo removed from 'react';
 import { Shield, CheckCircle, Clock, Award, Phone } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
-
 interface Guarantee {
  icon: 'shield' | 'check' | 'clock' | 'award';
  title: string;
  description: string;
 }
-
 interface GuaranteeBoxProps {
  title: string;
  subtitle: string;
@@ -18,13 +16,11 @@ interface GuaranteeBoxProps {
  phone: string;
  showCTA?: boolean;
 }
-
 const iconMap = {
  shield: Shield,
  check: CheckCircle,
  clock: Clock,
  award: Award};
-
 function GuaranteeBox({
  title,
  subtitle,
@@ -35,7 +31,6 @@ function GuaranteeBox({
  showCTA = true
 }: GuaranteeBoxProps) {
  const { trackPhoneClick } = useAnalytics();
-
  return (
  <section className="py-16 px-4 bg-gradient-to-br from-green-50 to-blue-50">
  <div className="max-w-6xl mx-auto">
@@ -51,7 +46,6 @@ function GuaranteeBox({
  {subtitle}
  </p>
  </div>
-
  {/* Main Guarantee Banner */}
  <div className="bg-gradient-to-r from-green-600 to-green-700 text-white p-8 rounded-2xl text-center mb-12 shadow-xl">
  <Shield className="w-16 h-16 mx-auto mb-4" />
@@ -62,7 +56,6 @@ function GuaranteeBox({
  Se não ficar 100% satisfeito, devolvemos o seu dinheiro. Sem perguntas.
  </p>
  </div>
-
  {/* Guarantees Grid */}
  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
  {guarantees.map((guarantee, index) => {
@@ -85,7 +78,6 @@ function GuaranteeBox({
  );
  })}
  </div>
-
  {/* Trust Badges */}
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
@@ -105,7 +97,6 @@ function GuaranteeBox({
  <div className="text-sm text-gray-700 font-semibold">Clientes Felizes</div>
  </div>
  </div>
-
  {/* CTA */}
  {showCTA && (
  <div className="text-center">
@@ -127,5 +118,4 @@ function GuaranteeBox({
  </section>
  );
 }
-
 export default React.memo(GuaranteeBox);

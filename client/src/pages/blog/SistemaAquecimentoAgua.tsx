@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, Flame, Zap, Wind, Euro } from 'lucide-react';
-
 export default function SistemaAquecimentoAgua() {
  useEffect(() => {
  document.title = "Esquentador, Caldeira ou Bomba de Calor: Qual a Melhor Opção? | 2026";
@@ -15,7 +14,6 @@ export default function SistemaAquecimentoAgua() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Compare esquentador, caldeira e bomba de calor: vantagens, custos, consumo e qual escolher para sua casa em 2026.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -23,7 +21,6 @@ export default function SistemaAquecimentoAgua() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/sistema-aquecimento-agua-melhor-opcao');
-
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -49,7 +46,6 @@ export default function SistemaAquecimentoAgua() {
  });
  document.head.appendChild(script);
  }, []);
-
  const sistemas = [
  {
  nome: "Esquentador a Gás",
@@ -109,7 +105,6 @@ export default function SistemaAquecimentoAgua() {
  ideal: "Casas com espaço exterior, visão a longo prazo, consciência ambiental"
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -130,7 +125,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Introdução */}
  <section className="py-12">
  <div className="container max-w-3xl">
@@ -149,7 +143,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Comparação Detalhada */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-4xl">
@@ -212,7 +205,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Tabela Comparativa Rápida */}
  <section className="py-16">
  <div className="container max-w-4xl">
@@ -263,7 +255,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Qual Escolher? */}
  <section className="py-16 bg-blue-50">
  <div className="container max-w-3xl">
@@ -305,7 +296,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Custos a 10 Anos */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -331,7 +321,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -355,7 +344,6 @@ export default function SistemaAquecimentoAgua() {
  </div>
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">

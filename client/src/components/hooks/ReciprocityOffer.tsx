@@ -1,19 +1,15 @@
 'use client';
-
 import { Gift, Download, FileText, CheckCircle } from 'lucide-react';
 import { useState } from 'react';
-
 interface ReciprocityOfferProps {
  offerType?: 'diagnosis' | 'guide' | 'checklist';
  title?: string;
 }
-
 export default function ReciprocityOffer({
  offerType = 'diagnosis',
  title
 }: ReciprocityOfferProps) {
  const [isRevealed, setIsRevealed] = useState(false);
-
  const offers = {
  diagnosis: {
  icon: Gift,
@@ -55,17 +51,14 @@ export default function ReciprocityOffer({
  ctaUrl: 'https://wa.me/351928484451?text=Quero%20receber%20a%20checklist%20gratuita'
  }
  };
-
  const offer = offers[offerType];
  const Icon = offer.icon;
-
  return (
  <div className="bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary/20 rounded-lg p-6 shadow-lg">
  <div className="flex items-start gap-4">
  <div className="bg-primary text-white p-3 rounded-lg">
  <Icon className="w-6 h-6" />
  </div>
-
  <div className="flex-1">
  <div className="flex items-center gap-2 mb-2">
  <span className="bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full uppercase">
@@ -73,15 +66,12 @@ export default function ReciprocityOffer({
  </span>
  <span className="text-xs text-gray-600">Sem compromisso</span>
  </div>
-
  <h3 className="text-xl font-bold text-gray-900 mb-2">
  {offer.title}
  </h3>
-
  <p className="text-gray-700 mb-4">
  {offer.description}
  </p>
-
  {!isRevealed ? (
  <button
  onClick={() => setIsRevealed(true)}
@@ -99,7 +89,6 @@ export default function ReciprocityOffer({
  </div>
  ))}
  </div>
-
  <a
  href={offer.ctaUrl}
  target="_blank"
@@ -108,7 +97,6 @@ export default function ReciprocityOffer({
  >
  💬 {offer.cta}
  </a>
-
  <p className="text-xs text-center text-gray-500">
  ⚡ Resposta em menos de 5 minutos
  </p>

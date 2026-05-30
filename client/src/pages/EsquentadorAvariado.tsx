@@ -27,7 +27,7 @@ export default function EsquentadorAvariado() {
  "name": "Quanto custa arranjar um esquentador avariado?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Arranjos simples desde €80. Substituição de peças €120-200. Esquentador novo instalado desde €350. Orçamento gratuito no local."
+ "text": "Arranjos simples desde €80. Substituição de peças €120-200. Esquentador novo instalado desde €350. Sem compromisso no local."
  }
  },
  {
@@ -91,7 +91,7 @@ export default function EsquentadorAvariado() {
  title="Como Devolvemos Água Quente em 2 Horas"
  subtitle="Diagnóstico rápido, arranjo eficaz, água quente garantida."
  totalTime="2-4 horas"
- guaranteeText="Água quente hoje ou não paga. Garantia 2 anos."
+ guaranteeText="Água quente hoje ou não paga. Garantia do serviço."
  steps={[
  {
  time: '0-10 min',
@@ -237,7 +237,7 @@ export default function EsquentadorAvariado() {
  <li>✓ Membrana</li>
  <li>✓ Termostato</li>
  <li>✓ Válvulas</li>
- <li>✓ Garantia 2 anos</li>
+ <li>✓ Garantia do serviço</li>
  </ul>
  </div>
  <div className="bg-orange-50 p-8 rounded-xl border-2 border-orange-200 text-center">
@@ -247,7 +247,7 @@ export default function EsquentadorAvariado() {
  <li>✓ Esquentador novo</li>
  <li>✓ Instalação completa</li>
  <li>✓ Remoção do antigo</li>
- <li>✓ Garantia 2 anos</li>
+ <li>✓ Garantia do serviço</li>
  </ul>
  </div>
  </div>
@@ -266,7 +266,7 @@ export default function EsquentadorAvariado() {
  {[
  {
  q: 'Quanto custa arranjar um esquentador avariado?',
- a: 'Arranjos simples (pilhas, limpeza) €80-120. Substituição de peças (membrana, termostato) €120-250. Esquentador novo instalado €350-800 dependendo do modelo. Damos sempre orçamento gratuito no local antes de começar. Só paga se aprovar.'
+ a: 'Arranjos simples (pilhas, limpeza) €80-120. Substituição de peças (membrana, termostato) €120-250. Esquentador novo instalado €350-800 dependendo do modelo. Damos sempre sem compromisso no local antes de começar. Só paga se aprovar.'
  },
  {
  q: 'Vale a pena arranjar ou comprar novo?',

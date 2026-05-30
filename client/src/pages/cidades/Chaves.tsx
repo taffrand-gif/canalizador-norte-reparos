@@ -1,6 +1,5 @@
 // Page SEO optimisée para "Canalizador Chaves"
 // 100% unique content, conforme políticas Google
-
 import Header from '@/components/Header';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
@@ -13,10 +12,8 @@ import { useSite } from '@/contexts/SiteContext';
 import { useEffect } from 'react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Chaves() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Canalizador Urgente Chaves 💧 24h | 928 484 451";
  
@@ -92,7 +89,6 @@ export default function Chaves() {
  ]
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -124,16 +120,13 @@ export default function Chaves() {
  answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Chaves e todo o concelho."
  }
  ];
-
  
  return () => {
  document.head.removeChild(schemaScript);
  document.head.removeChild(faqSchema);
  };
  }, [config]);
-
  const cidadesProximas = getCidadesProximas('chaves');
-
  return (
  <>
  <SEOHead />
@@ -179,7 +172,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Sobre Chaves - Conteúdo Único */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -208,7 +200,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Bairros Servidos em Chaves */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -249,7 +240,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Porquê Escolher-nos em Chaves */}
  <section className="py-16 bg-blue-50">
  <div className="container mx-auto px-4">
@@ -308,7 +298,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Conteúdo específico de Chaves */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -317,7 +306,6 @@ export default function Chaves() {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
  Especialistas em Sistemas de Água em Chaves
  </h2>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -331,7 +319,6 @@ export default function Chaves() {
  aos minerais específicos da região.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
  <span className="text-blue-600">🏘️</span>
@@ -390,7 +377,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Testemunhos Locais de Chaves */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -436,7 +422,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* FAQ específica de Chaves */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -482,7 +467,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* FAQ Section with Schema.org - Chaves Specific */}
  <section className="py-16 bg-gray-50">
  <FAQSection
@@ -507,7 +491,6 @@ export default function Chaves() {
  ]}
  />
  </section>
-
  {/* CTA final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -551,7 +534,6 @@ export default function Chaves() {
  </div>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  
  <section className="py-16">
@@ -566,9 +548,7 @@ export default function Chaves() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities 
  currentCity="Chaves" 
  currentCitySlug="canalizador-chaves" 

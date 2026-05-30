@@ -7,7 +7,6 @@ import SolutionTimeline from '@/components/SolutionTimeline';
 import EmergencyTestimonials from '@/components/EmergencyTestimonials';
 import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 export default function FugaAguaUrgente() {
  useEffect(() => {
  document.title = "Fuga de Água Urgente? Paramos em 30 Minutos | Norte Reparos";
@@ -19,7 +18,6 @@ export default function FugaAguaUrgente() {
  }
  meta.setAttribute('content', 'Fuga de água em casa? Técnico a caminho em 15 minutos. Paramos a fuga, evitamos danos maiores. Disponível 24h. Ligue +351 928 484 451.');
  }, []);
-
  const faqSchema = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -37,7 +35,7 @@ export default function FugaAguaUrgente() {
  "name": "Quanto custa arranjar uma fuga de água urgente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Fugas simples desde €80. Fugas complexas €150-300. Orçamento gratuito no local. Preço fixo antes de começar. Sem surpresas na fatura."
+ "text": "Fugas simples desde €80. Fugas complexas €150-300. Sem compromisso no local. Preço fixo antes de começar. Sem surpresas na fatura."
  }
  },
  {
@@ -50,12 +48,10 @@ export default function FugaAguaUrgente() {
  }
  ]
  };
-
  return (
  <>
  <Header />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
  <EmotionalHero
  painPoint="FUGA DE ÁGUA URGENTE"
  headline="Fuga de Água? Paramos em 30 Minutos"
@@ -68,7 +64,6 @@ export default function FugaAguaUrgente() {
  ctaSecondary="WhatsApp Urgente"
  responseTime="15 minutos"
  />
-
  <PainPointSection
  title="Sabemos Exatamente Como Se Sente"
  subtitle="Uma fuga de água não é apenas um problema técnico. É stress, pânico e medo dos danos."
@@ -100,7 +95,6 @@ export default function FugaAguaUrgente() {
  }
  ]}
  />
-
  <SolutionTimeline
  title="Como Paramos a Sua Fuga em 30 Minutos"
  subtitle="Processo rápido, eficiente e sem stress. Você relaxa, nós resolvemos."
@@ -133,7 +127,6 @@ export default function FugaAguaUrgente() {
  }
  ]}
  />
-
  <EmergencyTestimonials
  title="Já Ajudámos Centenas em Situações Urgentes"
  subtitle="Pessoas reais, problemas reais, soluções reais. Leia o que dizem."
@@ -194,7 +187,6 @@ export default function FugaAguaUrgente() {
  }
  ]}
  />
-
  <GuaranteeBox
  title="Garantias Que Dão Paz de Espírito"
  subtitle="Não arriscamos a sua confiança. Todas as arranjos têm garantia total."
@@ -223,7 +215,6 @@ export default function FugaAguaUrgente() {
  }
  ]}
  />
-
  {/* FAQ Section */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -238,7 +229,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Quanto custa arranjar uma fuga de água urgente?',
- a: 'Fugas simples (torneiras, autoclismos) desde €80. Fugas em canos €150-250. Fugas complexas (paredes, chão) €250-400. Damos sempre orçamento gratuito no local antes de começar. Preço fixo, sem surpresas.'
+ a: 'Fugas simples (torneiras, autoclismos) desde €80. Fugas em canos €150-250. Fugas complexas (paredes, chão) €250-400. Damos sempre sem compromisso no local antes de começar. Preço fixo, sem surpresas.'
  },
  {
  q: 'Atendem mesmo 24 horas?',
@@ -265,7 +256,6 @@ export default function FugaAguaUrgente() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-16 px-4 bg-gradient-to-r from-red-600 to-red-700 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -296,7 +286,6 @@ export default function FugaAguaUrgente() {
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

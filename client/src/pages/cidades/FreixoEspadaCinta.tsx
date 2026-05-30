@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function FreixoEspadaCinta() {
  useEffect(() => {
  document.title = "Canalizador Freixo Espada à Cinta 24h | 928 484 451";
@@ -21,7 +20,6 @@ export default function FreixoEspadaCinta() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Canalizador em Freixo de Espada à Cinta disponível 24h. Desentupimentos, arranjo de fugas. Servimos todo o concelho.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,7 +27,6 @@ export default function FreixoEspadaCinta() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-freixo-espada-cinta');
-
  const cityAddress = getCityAddress('freixo-espada-cinta');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -50,7 +47,6 @@ export default function FreixoEspadaCinta() {
  "openingHours": "Mo-Su 00:00-23:59"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -68,12 +64,9 @@ export default function FreixoEspadaCinta() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => { document.getElementById('schema-freixo')?.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('freixo-espada-cinta');
-
  const faqs = [
  { question: "Chegam a Freixo de Espada à Cinta?", answer: "Sim, cobrimos todo o concelho. Tempo de chegada: 60-70 minutos." },
  {
@@ -81,7 +74,6 @@ export default function FreixoEspadaCinta() {
  answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 55-60 minutos. Inclui todo o concelho."
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -97,7 +89,6 @@ export default function FreixoEspadaCinta() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização</h2>
@@ -116,16 +107,13 @@ export default function FreixoEspadaCinta() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Freixo?</h2>
  <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  {/* Cidades Próximas - Internal Linking */}
  <CidadesProximas
@@ -133,7 +121,6 @@ export default function FreixoEspadaCinta() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities 
  currentCity="Freixo de Espada à Cinta" 

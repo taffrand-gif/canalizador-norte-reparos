@@ -1,6 +1,5 @@
 // Page SEO optimisée para "Canalizador Macedo de Cavaleiros"
 // 100% unique content, conforme políticas Google
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -13,10 +12,8 @@ import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function MacedoCavaleiros() {
  const { config } = useSite();
-
  useEffect(() => {
  // FAQ Schema
  const faqSchema = document.createElement('script');
@@ -35,14 +32,11 @@ export default function MacedoCavaleiros() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  document.head.removeChild(faqSchema);
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('macedo-cavaleiros');
-
  const faqs = [
  {
  question: "Qual o custo de deslocação a Macedo de Cavaleiros?",
@@ -57,8 +51,6 @@ export default function MacedoCavaleiros() {
  answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Macedo de Cavaleiros e todo o concelho."
  }
  ];
-
-
  return (
  <>
  <SEOHeadEnhanced 
@@ -108,7 +100,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Sobre Macedo de Cavaleiros - Conteúdo Único */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -138,7 +129,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Bairros Servidos em Macedo de Cavaleiros */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -179,7 +169,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Porquê Escolher-nos em Macedo de Cavaleiros */}
  <section className="py-16 bg-blue-50">
  <div className="container mx-auto px-4">
@@ -238,7 +227,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Conteúdo específico de Macedo de Cavaleiros */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -247,7 +235,6 @@ export default function MacedoCavaleiros() {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
  Especialistas em Sistemas de Água para Agricultura em Macedo de Cavaleiros
  </h2>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -261,7 +248,6 @@ export default function MacedoCavaleiros() {
  às exigências do ambiente rural.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
  <span className="text-blue-600">🏘️</span>
@@ -320,7 +306,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Testemunhos Locais de Macedo de Cavaleiros */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -367,7 +352,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* FAQ específica de Macedo de Cavaleiros */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -413,7 +397,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* CTA final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -457,7 +440,6 @@ export default function MacedoCavaleiros() {
  </div>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  
  <section className="py-16">
@@ -466,14 +448,12 @@ export default function MacedoCavaleiros() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* Cidades Próximas - Internal Linking */}
  <CidadesProximas
  currentCity="Macedo de Cavaleiros"
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  <RelatedCities
  currentCity="Macedo de Cavaleiros"
  currentCitySlug="canalizador-macedocavaleiros"

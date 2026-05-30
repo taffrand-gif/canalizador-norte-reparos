@@ -2,14 +2,12 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const ComoDesentupirLavaLoica: React.FC = () => {
  useSEO({
  title: 'Como Desentupir um Lava-Loiça em 5 Passos Simples - Guia 2026',
  description: 'Guia passo a passo para desentupir um lava-loiça de forma segura e eficaz. Métodos caseiros e quando chamar um profissional.',
  keywords: 'desentupir lava-loiça, entupimento cozinha, como desentupir canos, canalizador urgente, desentupimento caseiro'
  });
-
  return (
  <BlogLayout
  title="Como Desentupir um Lava-Loiça em 5 Passos Simples"
@@ -41,7 +39,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Featured image */}
  <div className="mb-10 rounded-2xl overflow-hidden">
  <img
@@ -56,7 +53,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  Métodos seguros para desentupir lava-loiça sem danificar a canalização
  </p>
  </div>
-
  {/* Introduction */}
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -66,14 +62,12 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  contate sempre um canalizador profissional para evitar danos maiores.
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6">
  Um lava-loiça entupido é um dos problemas mais comuns em qualquer cozinha. 
  Antes de entrar em pânico ou gastar dinheiro desnecessariamente, experimente 
  estes 5 passos simples que resolvem a maioria dos entupimentos.
  </p>
  </div>
-
  {/* Table of contents */}
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Neste Artigo</h2>
@@ -86,7 +80,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <li><a href="#quando-profissional" className="text-blue-600 hover:text-blue-700">Quando Chamar um Profissional</a></li>
  </ul>
  </div>
-
  {/* Content sections */}
  <div className="prose prose-lg max-w-none">
  <section id="passo1" className="mb-12">
@@ -116,7 +109,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="passo2" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Passo 2: 🪠 Método do Desentupidor Manual (Ventosa)</h2>
  
@@ -128,7 +120,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <li>• Balde (opcional)</li>
  </ul>
  </div>
-
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Técnica Correta:</h3>
  <ol className="space-y-4">
  <li className="flex items-start gap-3">
@@ -161,7 +152,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </li>
  </ol>
  </section>
-
  <section id="passo3" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Passo 3: 🧪 Método do Bicarbonato e Vinagre (Para Entupimentos Leves)</h2>
  
@@ -175,7 +165,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <li>• 2 litros de água a ferver</li>
  </ul>
  </div>
-
  <ol className="space-y-4">
  <li className="flex items-start gap-3">
  <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</span>
@@ -207,7 +196,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </li>
  </ol>
  </section>
-
  <section id="quando-profissional" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">👨‍🔧 Quando Chamar um Canalizador Profissional</h2>
  
@@ -235,7 +223,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="mt-8 text-center">
  <p className="text-xl text-gray-900 mb-6">
  Na dúvida ou para situações graves, é sempre mais seguro e económico a longo prazo chamar um profissional.
@@ -259,7 +246,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </div>
  </div>
  </section>
-
  {/* FAQ Section with JSON-LD Schema */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
@@ -283,7 +269,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </p>
  </div>
  </div>
-
  {/* JSON-LD Schema for FAQ */}
  <script type="application/ld+json">
  {JSON.stringify({
@@ -311,7 +296,6 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </script>
  </section>
  </div>
-
  {/* Author bio */}
  <div className="bg-gray-50 rounded-2xl p-8 mt-12">
  <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -337,5 +321,4 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default ComoDesentupirLavaLoica;

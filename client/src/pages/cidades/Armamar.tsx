@@ -9,13 +9,12 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Armamar() {
  useEffect(() => {
  document.title = "Canalizador Armamar 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Armamar disponível 24h. Canalização para pomares de cereja, quintas do Douro, desentupimentos e fugas de água. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Armamar disponível 24h. Canalização para pomares de cereja, quintas do Douro, desentupimentos e fugas de água. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-armamar');
@@ -39,7 +38,6 @@ export default function Armamar() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -59,9 +57,7 @@ export default function Armamar() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-armamar'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('armamar');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Armamar?", answer: "Chegamos a Armamar em aproximadamente 1h05 a 1h15, percorrendo cerca de 75km desde Macedo de Cavaleiros pela A4 e N222." },
  { question: "Fazem canalização para pomares e sistemas de rega?", answer: "Sim, instalamos redes de água e sistemas de rega para pomares de cereja e outras frutas, com tubagens enterradas e sistemas de gotejamento." },
@@ -69,7 +65,6 @@ export default function Armamar() {
  question: "Qual o custo de deslocação a Armamar?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 75-85 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -117,7 +112,6 @@ export default function Armamar() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Armamar" currentCitySlug="canalizador-armamar" />
  </main>

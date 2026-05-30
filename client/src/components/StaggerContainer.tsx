@@ -1,14 +1,11 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
-
 interface StaggerContainerProps {
  children: ReactNode;
  className?: string;
  staggerDelay?: number;
 }
-
 export default function StaggerContainer({
  children,
  className = '',
@@ -32,7 +29,6 @@ export default function StaggerContainer({
  </motion.div>
  );
 }
-
 export function StaggerItem({ children, className = '' }: { children: ReactNode; className?: string }) {
  return (
  <motion.div

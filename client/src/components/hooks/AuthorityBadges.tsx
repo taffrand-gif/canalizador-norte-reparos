@@ -1,13 +1,10 @@
 'use client';
-
 import { Award, Shield, Users, CheckCircle } from 'lucide-react';
-
 interface AuthorityBadgesProps {
  certifications?: string[];
  yearsExperience?: number;
  partnersCount?: number;
 }
-
 export default function AuthorityBadges({
  certifications = ['', 'DGEG', 'ITED'],
  yearsExperience = 15,
@@ -19,7 +16,6 @@ export default function AuthorityBadges({
  <Shield className="w-5 h-5 text-primary" />
  Certificações e Garantias
  </h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {/* Certifications */}
  <div className="flex items-start gap-3">
@@ -39,7 +35,6 @@ export default function AuthorityBadges({
  </div>
  </div>
  </div>
-
  {/* Experience */}
  <div className="flex items-start gap-3">
  <Users className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
@@ -53,7 +48,6 @@ export default function AuthorityBadges({
  </p>
  </div>
  </div>
-
  {/* Partners */}
  <div className="flex items-start gap-3 md:col-span-2">
  <Shield className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
@@ -64,7 +58,6 @@ export default function AuthorityBadges({
  </p>
  </div>
  </div>
-
  {/* Guarantees */}
  <div className="md:col-span-2 bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
  <div className="flex items-center gap-2">

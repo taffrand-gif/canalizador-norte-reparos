@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function MoimentaDaBeira() {
  useEffect(() => {
  document.title = "Canalizador Moimenta da Beira 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function MoimentaDaBeira() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Moimenta da Beira. Desentupimentos, fugas de água, canalização para quintas de maçã e casas de granito. Serviço 24h. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Moimenta da Beira. Desentupimentos, fugas de água, canalização para quintas de maçã e casas de granito. Serviço 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function MoimentaDaBeira() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-moimenta-da-beira');
-
  const cityAddress = getCityAddress('moimenta-beira');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-moimenta';
@@ -54,7 +50,6 @@ export default function MoimentaDaBeira() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function MoimentaDaBeira() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-moimenta');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('moimenta-beira');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Moimenta da Beira?", answer: "Chegamos a Moimenta da Beira em aproximadamente 1h15, percorrendo cerca de 85km desde Macedo de Cavaleiros pela A4 e N226." },
  { question: "Fazem canalização para pomares e armazéns de fruta?", answer: "Sim, instalamos redes de água para pomares de maçã, armazéns de frio e câmaras frigoríficas, com tubagens resistentes às baixas temperaturas." },
@@ -88,7 +80,6 @@ export default function MoimentaDaBeira() {
  question: "Qual o custo de deslocação a Moimenta da Beira?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function MoimentaDaBeira() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Moimenta da Beira</h2>
@@ -123,9 +113,7 @@ export default function MoimentaDaBeira() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Moimenta da Beira</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Moimenta da Beira?</h2>
@@ -139,9 +127,7 @@ export default function MoimentaDaBeira() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Moimenta da Beira" currentCitySlug="canalizador-moimenta-da-beira" />
  </main>
  <Footer />

@@ -2,14 +2,12 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const EvitarFugasAguaPrevencao: React.FC = () => {
  useSEO({
  title: 'Como Evitar Fugas de Água — Guia Completo de Prevenção | 2026',
  description: 'Aprenda a prevenir fugas de água em casa com este guia completo. Dicas de manutenção preventiva para proteger a sua canalização em Trás-os-Montes.',
  keywords: 'fugas de água, prevenção canalização, manutenção tubagens, evitar fugas água, canalização preventiva'
  });
-
  return (
  <BlogLayout
  title="Como Evitar Fugas de Água — Guia Completo de Prevenção"
@@ -39,7 +37,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Featured image */}
  <div className="mb-10 rounded-2xl overflow-hidden">
  <img
@@ -65,7 +62,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  As fugas de água são um dos problemas mais comuns e dispendiosos em qualquer habitação. Em Trás-os-Montes, onde muitas casas têm canalização com décadas, a prevenção é ainda mais importante. Neste guia completo, explicamos como identificar riscos, fazer manutenção preventiva e proteger a sua casa contra fugas de água.
  </p>
  </div>
-
  {/* Table of contents */}
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Neste Artigo</h2>
@@ -103,7 +99,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="sinais" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">2. ⚠️ Sinais de Alerta a Vigiar</h2>
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-6">
@@ -122,7 +117,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  <p className="text-blue-700">Feche todas as torneiras e aparelhos que usam água. Anote o valor do contador. 2 horas sem usar água. Se o contador avançou, tem uma fuga.</p>
  </div>
  </section>
-
  <section id="prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">3. 🛡️ 8 Medidas de Prevenção Essenciais</h2>
  <div className="space-y-4">
@@ -208,7 +202,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="profissional" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Quando Chamar um Canalizador</h2>
  <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8">
@@ -272,7 +265,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  })}
  </script>
  </section>
-
  {/* Author bio */}
  <div className="bg-gray-50 rounded-2xl p-8 mt-12">
  <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -294,5 +286,4 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default EvitarFugasAguaPrevencao;

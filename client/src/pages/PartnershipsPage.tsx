@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Handshake, Award, TrendingUp, Users, DollarSign, CheckCircle, Building2, MapPin } from 'lucide-react';
-
 interface Partner {
  id: string;
  name: string;
@@ -15,7 +14,6 @@ interface Partner {
  commissionsEarned: number;
  status: 'active' | 'pending' | 'inactive';
 }
-
 export default function PartnershipsPage() {
  const [showForm, setShowForm] = useState(false);
  const [formData, setFormData] = useState({
@@ -28,7 +26,6 @@ export default function PartnershipsPage() {
  website: '',
  description: ''
  });
-
  const partnerTypes = [
  { value: 'hotel', label: 'Hotel / Turismo Rural', icon: '🏨' },
  { value: 'restaurant', label: 'Restaurante / Café', icon: '🍽️' },
@@ -37,7 +34,6 @@ export default function PartnershipsPage() {
  { value: 'property_management', label: 'Gestão de Condomínios', icon: '🏢' },
  { value: 'other', label: 'Outro', icon: '💼' }
  ];
-
  const benefits = [
  {
  icon: <DollarSign className="w-8 h-8 text-green-600" />,
@@ -60,7 +56,6 @@ export default function PartnershipsPage() {
  description: 'Acompanhe em tempo real as suas indicações e ganhos.'
  }
  ];
-
  const existingPartners: Partner[] = [
  {
  id: '1',
@@ -102,13 +97,10 @@ export default function PartnershipsPage() {
  status: 'active'
  }
  ];
-
  const handleSubmit = (e: React.FormEvent) => {
  e.preventDefault();
-
  // In production, send to API
  // Data sent to backend endpoint (removed console.log for GDPR compliance)
-
  alert('Candidatura enviada com sucesso! Entraremos em contacto em 24-48 horas.');
  setShowForm(false);
  setFormData({
@@ -122,7 +114,6 @@ export default function PartnershipsPage() {
  description: ''
  });
  };
-
  return (
  <div className="min-h-screen bg-gray-50">
  {/* Hero Section */}
@@ -145,7 +136,6 @@ export default function PartnershipsPage() {
  </button>
  </div>
  </div>
-
  <div className="max-w-7xl mx-auto px-6 py-12">
  {/* Benefits */}
  <div className="mb-16">
@@ -168,7 +158,6 @@ export default function PartnershipsPage() {
  ))}
  </div>
  </div>
-
  {/* How It Works */}
  <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
  <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
@@ -213,7 +202,6 @@ export default function PartnershipsPage() {
  </div>
  </div>
  </div>
-
  {/* Ideal Partners */}
  <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-16">
  <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
@@ -228,7 +216,6 @@ export default function PartnershipsPage() {
  ))}
  </div>
  </div>
-
  {/* Existing Partners */}
  <div className="mb-16">
  <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
@@ -271,7 +258,6 @@ export default function PartnershipsPage() {
  ))}
  </div>
  </div>
-
  {/* CTA */}
  <div className="bg-gradient-to-r from-primary/10 to-primary/5 border-l-4 border-primary rounded-r-lg p-8 text-center">
  <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -288,7 +274,6 @@ export default function PartnershipsPage() {
  </button>
  </div>
  </div>
-
  {/* Application Form Modal */}
  {showForm && (
  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 overflow-y-auto">
@@ -297,7 +282,6 @@ export default function PartnershipsPage() {
  <h2 className="text-3xl font-bold">Candidatura a Parceiro</h2>
  <p className="text-white/80 mt-2">Preencha os dados do seu negócio</p>
  </div>
-
  <form onSubmit={handleSubmit} className="p-6 space-y-4">
  <div>
  <label htmlFor="businessName" className="block text-sm font-semibold text-gray-900 mb-2">
@@ -313,7 +297,6 @@ export default function PartnershipsPage() {
  placeholder="Hotel Rural Bragança"
  />
  </div>
-
  <div>
  <label htmlFor="businessType" className="block text-sm font-semibold text-gray-900 mb-2">
  Tipo de Negócio *
@@ -333,7 +316,6 @@ export default function PartnershipsPage() {
  ))}
  </select>
  </div>
-
  <div>
  <label htmlFor="city" className="block text-sm font-semibold text-gray-900 mb-2">
  Cidade *
@@ -348,7 +330,6 @@ export default function PartnershipsPage() {
  placeholder="Bragança"
  />
  </div>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  <div>
  <label htmlFor="contactName" className="block text-sm font-semibold text-gray-900 mb-2">
@@ -364,7 +345,6 @@ export default function PartnershipsPage() {
  placeholder="João Silva"
  />
  </div>
-
  <div>
  <label htmlFor="phone" className="block text-sm font-semibold text-gray-900 mb-2">
  Telefone *
@@ -380,7 +360,6 @@ export default function PartnershipsPage() {
  />
  </div>
  </div>
-
  <div>
  <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
  Email *
@@ -395,7 +374,6 @@ export default function PartnershipsPage() {
  placeholder="joao@hotel.pt"
  />
  </div>
-
  <div>
  <label htmlFor="website" className="block text-sm font-semibold text-gray-900 mb-2">
  Website (opcional)
@@ -409,7 +387,6 @@ export default function PartnershipsPage() {
  placeholder="https://www.hotel.pt"
  />
  </div>
-
  <div>
  <label htmlFor="description" className="block text-sm font-semibold text-gray-900 mb-2">
  Descrição do Negócio (opcional)
@@ -423,7 +400,6 @@ export default function PartnershipsPage() {
  placeholder="Conte-nos sobre o seu negócio..."
  />
  </div>
-
  <div className="flex gap-4 pt-4">
  <button
  type="button"

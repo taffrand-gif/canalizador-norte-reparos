@@ -1,7 +1,6 @@
 // Secção "Zona de Intervenção" - Cidades cobertas num raio de 100km em torno de Macedo de Cavaleiros
 import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
-
 const cidades = [
  { nome: 'Bragança', slug: 'braganca', distancia: '40 km', destaque: true },
  { nome: 'Mirandela', slug: 'mirandela', distancia: '25 km', destaque: true },
@@ -19,10 +18,8 @@ const cidades = [
  { nome: 'Miranda do Douro', slug: 'miranda-douro', distancia: '80 km', destaque: false },
  { nome: 'Freixo de Espada à Cinta', slug: 'freixo-espada-cinta', distancia: '75 km', destaque: false },
 ];
-
 export default function ZonaIntervencao() {
  const { config } = useSite();
-
  return (
  <section id="zona-intervencao" className="py-20 bg-gradient-to-b from-blue-50 to-white">
  <div className="container mx-auto px-4">
@@ -40,7 +37,6 @@ export default function ZonaIntervencao() {
  num raio de 100 km à volta de Macedo de Cavaleiros, distrito de Bragança.
  </p>
  </div>
-
  {/* Grelha das cidades */}
  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-12">
  {cidades.map((cidade) => (
@@ -63,7 +59,6 @@ export default function ZonaIntervencao() {
  </a>
  ))}
  </div>
-
  {/* CTA */}
  <div className="text-center">
  <div className="inline-block p-8 bg-white border-4 rounded-xl shadow-lg" style={{ borderColor: config.colors.primary }}>

@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Vinhais() {
  useEffect(() => {
  document.title = "Canalizador Urgente Vinhais 💧 24h | 928 484 451";
@@ -21,7 +20,6 @@ export default function Vinhais() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Problema de canalização em Vinhais? Servimos todo o concelho incluindo Montesinho. Orçamento sem compromisso. Ligue: 928 484 451');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function Vinhais() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vinhais');
-
  const cityAddress = getCityAddress('vinhais');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-vinhais';
@@ -54,7 +50,6 @@ export default function Vinhais() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function Vinhais() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-vinhais');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('vinhais');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Vinhais?", answer: "Chegamos a Vinhais em aproximadamente 45-60 minutos. Temos veículo 4x4 para aceder às aldeias mais isoladas." },
  {
@@ -89,7 +81,6 @@ export default function Vinhais() {
  },
  { question: "Trabalham no Parque Natural de Montesinho?", answer: "Sim, cobrimos todas as aldeias do Parque Natural de Montesinho, incluindo as mais remotas." }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -105,7 +96,6 @@ export default function Vinhais() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vinhais</h2>
@@ -124,9 +114,7 @@ export default function Vinhais() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vinhais</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Vinhais?</h2>
@@ -134,7 +122,6 @@ export default function Vinhais() {
  <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  {/* Cidades Próximas - Internal Linking */}
  <CidadesProximas
@@ -142,7 +129,6 @@ export default function Vinhais() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities 
  currentCity="Vinhais" 

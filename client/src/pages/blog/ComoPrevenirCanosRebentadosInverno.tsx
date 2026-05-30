@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  useSEO({
  title: 'Como Prevenir Canos Rebentados no Inverno [Guia 2026]',
  description: 'Guia completo para proteger canalização no inverno. 10 métodos eficazes para prevenir canos rebentados pelo frio e evitar danos de milhares de euros.',
  keywords: 'canos rebentados inverno, prevenir canos congelados, proteger canalização frio, canos gelados, isolamento canos'
  });
-
  return (
  <BlogLayout
  title="Como Prevenir Canos Rebentados no Inverno [Guia 2026]"
@@ -23,11 +21,9 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <span>⏱️ 12 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Como Prevenir Canos Rebentados no Inverno [Guia 2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">❄️</span>
@@ -38,21 +34,18 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
  <p className="text-red-900 font-semibold text-lg">
  ❄️ Canos rebentados custam 2000-8000€ em reparações. Prevenção custa 50-200€!
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Canos rebentados pelo frio são uma das emergências mais caras e destrutivas no inverno.
  Neste guia completo, vamos mostrar-lhe 10 métodos profissionais para proteger a sua
  canalização, quando começar a preparação e o que fazer se os canos congelarem.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -64,18 +57,14 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">6. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="porque-rebentam" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❄️ Porque Rebentam os Canos no Inverno?</h2>
-
  <p className="mb-6">
  Compreender o processo de congelamento ajuda a prevenir eficazmente:
  </p>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-8">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">🔬 Processo de Congelamento</h3>
-
  <div className="space-y-4">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-blue-600">
@@ -86,7 +75,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <p className="text-gray-700 text-sm">Água nos canos começa a congelar quando temperatura exterior atinge -2°C a -4°C.</p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-blue-600">
  2
@@ -96,7 +84,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <p className="text-gray-700 text-sm">Gelo ocupa mais espaço que água líquida, criando pressão interna no cano.</p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-blue-600">
  3
@@ -106,7 +93,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <p className="text-gray-700 text-sm">Pressão pode atingir 140 bar (2000 PSI) - suficiente para rebentar qualquer cano.</p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-red-600">
  4
@@ -116,7 +102,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <p className="text-gray-700 text-sm">Fissura ou rutura completa. Dano pode não ser visível até descongelar.</p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-red-600">
  5
@@ -128,10 +113,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200 mb-8">
  <h3 className="font-bold text-red-900 mb-4 text-xl">💰 Custos de Canos Rebentados</h3>
-
  <table className="w-full text-sm">
  <thead>
  <tr className="border-b-2 border-red-200">
@@ -166,12 +149,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </tr>
  </tbody>
  </table>
-
  <p className="text-red-800 font-semibold mt-4 text-center">
  ⚠️ Prevenção custa 50-200€. Reparação custa 2000-10000€!
  </p>
  </div>
-
  <div className="bg-blue-50 p-6 rounded-xl">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">🌡️ Temperaturas Críticas</h3>
  <ul className="text-blue-800 space-y-2">
@@ -182,14 +163,11 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="zonas-risco" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🎯 Zonas de Maior Risco</h2>
-
  <p className="mb-6">
  Nem todos os canos têm o mesmo risco. Identifique as zonas críticas da sua casa:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Risco Extremo</h3>
@@ -201,7 +179,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Casas vazias:</strong> Sem aquecimento</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-lg">⚠️ Risco Alto</h3>
  <ul className="text-orange-800 space-y-2">
@@ -211,7 +188,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Canos em paredes finas:</strong> Construção antiga</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-6 rounded-xl border-2 border-yellow-200">
  <h3 className="font-bold text-yellow-900 mb-3 text-lg">⚡ Risco Moderado</h3>
  <ul className="text-yellow-800 space-y-2">
@@ -220,7 +196,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Canalização antiga:</strong> Mais de 30 anos</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Risco Baixo</h3>
  <ul className="text-green-800 space-y-2">
@@ -230,7 +205,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">🔍 Como Identificar Canos em Risco</h3>
  <ol className="text-cyan-800 space-y-2 list-decimal pl-6">
@@ -242,16 +216,13 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ol>
  </div>
  </section>
-
  <section id="metodos-prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛡️ 10 Métodos de Prevenção</h2>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  💡 Combine vários métodos para proteção máxima. Quanto mais frio, mais métodos deve usar.
  </p>
  </div>
-
  <div className="space-y-10">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -266,14 +237,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Manga isolante de espuma (tubo pré-cortado)</li>
  <li>Fita adesiva resistente</li>
  <li>Tesoura ou x-ato</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Meça comprimento dos canos a proteger</li>
@@ -284,20 +253,17 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Nas curvas, corte manga em ângulo de 45° e una com fita</li>
  <li>Não deixe zonas expostas</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
  <strong>💡 Onde Comprar:</strong> Leroy Merlin, Aki, Bricomarché. Custo: 2-5€/metro.
  </p>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Prioridade:</strong> Sótão, cave, garagem, canos exteriores.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -311,7 +277,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche válvula interior que alimenta torneira exterior</li>
@@ -321,14 +286,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Retire e guarde mangueiras (água retida congela)</li>
  <li>Se possível, coloque tampa isolante na torneira</li>
  </ol>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900 text-sm">
  <strong>⚠️ Importante:</strong> Torneiras exteriores são a causa #1 de canos rebentados (40% dos casos).
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -342,14 +305,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Usar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Previsão de temperatura abaixo de -4°C</li>
  <li>Noites muito frias (mesmo com isolamento)</li>
  <li>Canos em zonas de risco que não podem ser isolados</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Identifique torneiras em zonas de risco</li>
@@ -358,14 +319,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Deixe pingar toda a noite</li>
  <li>Feche de manhã quando temperatura subir</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Quanto Pingar:</strong> Fio fino (espessura de lápis). Não precisa ser muito.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -379,7 +338,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Recomendações:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li><strong>Casa ocupada:</strong> Mínimo 18°C (conforto + proteção)</li>
@@ -387,20 +345,17 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li><strong>Noites muito frias:</strong> Não baixe aquecimento abaixo de 15°C</li>
  <li><strong>Divisões não usadas:</strong> Mantenha portas abertas para circular calor</li>
  </ul>
-
  <div className="bg-green-50 p-4 rounded-lg mb-3">
  <p className="text-green-900 text-sm">
  <strong>✅ Poupança:</strong> Gastar 50€ em aquecimento poupa 2000-8000€ em reparações.
  </p>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Termostato programável:</strong> Configure temperatura mínima noturna de 15°C.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -414,7 +369,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li>Abra portas de armários em paredes exteriores</li>
@@ -422,14 +376,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Deixe abertas durante noites frias</li>
  <li>Ar quente da divisão aquece canos escondidos</li>
  </ul>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Dica:</strong> Combine com aquecimento ligado para máxima eficácia.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -443,7 +395,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Espuma expansiva (fendas grandes)</li>
@@ -451,7 +402,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Fita isolante</li>
  <li>Vedantes para portas e janelas</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Onde Vedar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li>Fendas em paredes exteriores (onde passam canos)</li>
@@ -459,14 +409,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Aberturas de ventilação não usadas</li>
  <li>Espaços à volta de canos que entram na casa</li>
  </ul>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Benefício Extra:</strong> Reduz conta de aquecimento em 10-20%.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -480,14 +428,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Usar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Casa vazia durante todo o inverno</li>
  <li>Impossível manter aquecimento ligado</li>
  <li>Casa de férias não usada no inverno</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer (Requer Canalizador):</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche válvula geral de água</li>
@@ -498,14 +444,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Abra válvulas de purga nos pontos baixos</li>
  <li>Use compressor para soprar água residual</li>
  </ol>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900 text-sm">
  <strong>⚠️ Importante:</strong> Processo complexo. Contrate canalizador profissional (80-150€).
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -519,7 +463,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Funciona:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li>Cabo elétrico enrola à volta do cano</li>
@@ -527,7 +470,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Mantém cano acima de ponto de congelamento</li>
  <li>Desliga automaticamente quando aquece</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Usar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Canos impossíveis de isolar</li>
@@ -535,20 +477,17 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Histórico de canos congelados</li>
  <li>Regiões muito frias (Trás-os-Montes, Serra da Estrela)</li>
  </ul>
-
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
  <strong>💡 Onde Comprar:</strong> Leroy Merlin, lojas especializadas. Custo: 15-30€/metro.
  </p>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Instalação:</strong> Requer eletricista. Consumo: 5-10W/metro (muito baixo).
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -562,7 +501,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li>Instale kit de isolamento em porta de garagem</li>
@@ -570,14 +508,12 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Use cortinas térmicas em portas para espaços não aquecidos</li>
  <li>Mantenha portas fechadas durante noites frias</li>
  </ul>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Benefício:</strong> Aumenta temperatura em 3-5°C em espaços não aquecidos.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -591,7 +527,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">O Que Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Localize válvula geral de água (normalmente junto ao contador)</li>
@@ -601,7 +536,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Cole etiqueta visível: "VÁLVULA GERAL - FECHAR EM EMERGÊNCIA"</li>
  <li>Tenha número de canalizador de urgência à mão</li>
  </ol>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900 text-sm">
  <strong>🚨 Emergência:</strong> Se cano rebentar, cada minuto conta. Fechar válvula rapidamente poupa milhares de euros.
@@ -610,14 +544,11 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="quando-comecar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📅 Quando Começar a Preparação</h2>
-
  <p className="mb-6">
  Timing é crucial. Comece preparação antes das primeiras geadas:
  </p>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <table className="w-full">
  <thead>
@@ -685,7 +616,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Sinais de Alerta - Aja Imediatamente</h3>
  <ul className="text-red-800 space-y-2">
@@ -696,20 +626,16 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="canos-congelados" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🧊 O Que Fazer Se Canos Congelarem</h2>
-
  <p className="mb-6">
  Se apesar da prevenção os canos congelarem, aja rapidamente mas com cuidado:
  </p>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  ⚠️ NUNCA use chama direta (maçarico, isqueiro). Risco de incêndio e explosão de cano!
  </p>
  </div>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">1. Identificar Cano Congelado</h3>
@@ -722,7 +648,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• Odor estranho (se cano rebentou)</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">2. Fechar Válvula Geral (Precaução)</h3>
  <p className="text-gray-700 mb-3">
@@ -730,10 +655,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  Quando descongelar, água não inundará casa.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">3. Descongelar Cano com Segurança</h3>
-
  <div className="mb-4">
  <p className="font-bold text-green-900 mb-2">✅ Métodos Seguros:</p>
  <ul className="text-green-800 space-y-2 ml-4">
@@ -743,7 +666,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Aumentar aquecimento:</strong> Abra portas de armários, suba termostato.</li>
  </ul>
  </div>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="font-bold text-red-900 mb-2">❌ NUNCA Use:</p>
  <ul className="text-red-800 space-y-1 ml-4 text-sm">
@@ -753,7 +675,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">4. Abrir Torneira</h3>
  <p className="text-gray-700 mb-3">
@@ -761,7 +682,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  ajuda a derreter gelo restante.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">5. Começar pela Torneira</h3>
  <p className="text-gray-700 mb-3">
@@ -769,7 +689,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  Isto permite que água derretida escape.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">6. Verificar Fugas Após Descongelar</h3>
  <p className="text-gray-700 mb-3">
@@ -782,7 +701,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-red-50 p-8 rounded-2xl border-2 border-red-200 mt-8">
  <h3 className="text-2xl font-bold text-red-900 mb-4 text-center">🚨 Quando Chamar Canalizador Urgente</h3>
  <div className="grid md:grid-cols-2 gap-4">
@@ -801,10 +719,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">A que temperatura congelam os canos?</h3>
@@ -821,7 +737,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  💡 Regra geral: Risco significativo quando temperatura exterior atinge -4°C por mais de 6 horas
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa isolar canos?</h3>
  <p className="text-gray-700 mb-2">
@@ -843,7 +758,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  ✅ ROI: Investimento de 100€ evita reparações de 2000-8000€
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Deixar torneiras a pingar gasta muita água?</h3>
  <p className="text-gray-700 mb-2">
@@ -858,7 +772,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  💰 Gastar 3€ em água vs 3000€ em reparações = óbvia escolha!
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso usar anticongelante nos canos?</h3>
  <p className="text-gray-700 mb-2">
@@ -882,7 +795,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  ⚠️ Use apenas anticongelante próprio para canalizações (não tóxico)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Seguro de casa cobre canos rebentados?</h3>
  <p className="text-gray-700 mb-2">
@@ -898,7 +810,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  💡 Verifique apólice e informe seguradora se casa ficar vazia no inverno
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a descongelar cano?</h3>
  <p className="text-gray-700 mb-2">
@@ -914,7 +825,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  ⚠️ Não apresse processo. Descongelamento gradual é mais seguro.
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Canos de cobre ou PVC congelam mais facilmente?</h3>
  <p className="text-gray-700 mb-2">
@@ -935,7 +845,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  💡 Material não importa muito - isolamento é o fator crítico
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Preciso proteger canos todos os anos?</h3>
  <p className="text-gray-700 mb-2">
@@ -953,16 +862,13 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Canos Rebentados? Ajuda Urgente 24h</h2>
  <p className="text-xl mb-6">
  Emergência de canalização? Chegamos em 30-60 minutos.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Emergências 24h/7 dias</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -993,7 +899,6 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -1009,12 +914,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -1045,5 +948,4 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default ComoPrevenirCanosRebentadosInverno;

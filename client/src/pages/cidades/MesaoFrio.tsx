@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function MesaoFrio() {
  useEffect(() => {
  document.title = "Canalizador Mesão Frio 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Mesão Frio disponível 24h. Canalização para turismo fluvial, quintas do Douro, desentupimentos e fugas de água. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Mesão Frio disponível 24h. Canalização para turismo fluvial, quintas do Douro, desentupimentos e fugas de água. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-mesao-frio');
-
  const cityAddress = getCityAddress('mesao-frio');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function MesaoFrio() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function MesaoFrio() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-mesao-frio'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('mesao-frio');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Mesão Frio?", answer: "Chegamos a Mesão Frio em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros pela A4 e A24." },
  { question: "Fazem canalização para embarcadouros e turismo fluvial?", answer: "Sim, instalamos redes de água para infraestruturas de turismo fluvial, restaurantes ribeirinhos e alojamentos junto ao rio Douro." },
@@ -70,7 +65,6 @@ export default function MesaoFrio() {
  question: "Qual o custo de deslocação a Mesão Frio?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function MesaoFrio() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Mesão Frio" currentCitySlug="canalizador-mesao-frio" />
  </main>

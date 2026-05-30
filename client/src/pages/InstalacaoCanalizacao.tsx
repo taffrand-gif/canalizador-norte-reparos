@@ -2,13 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
-
 const faqItems = [
- { question: "Quanto custa uma instalação de canalização nova?", answer: "O preço depende da dimensão do projeto. Para uma casa de banho completa, os valores começam em €800. Para canalização de uma casa inteira, entre €2.000 e €5.000. Oferecemos orçamento gratuito." },
+ { question: "Quanto custa uma instalação de canalização nova?", answer: "O preço depende da dimensão do projeto. Para uma casa de banho completa, os valores começam em €800. Para canalização de uma casa inteira, entre €2.000 e €5.000. Oferecemos sem compromisso." },
  { question: "Quanto tempo demora uma instalação completa?", answer: "Uma casa de banho demora 2-5 dias. Uma casa completa pode demorar 1-3 semanas dependendo da complexidade. Trabalhamos de forma eficiente para minimizar o incómodo." },
  { question: "Que materiais utilizam na canalização nova?", answer: "Utilizamos materiais de primeira qualidade: tubos multicamada, PPR e PEX para água, PVC para esgotos. Todos os materiais têm certificação e garantia do fabricante." }
 ];
-
 export default function InstalacaoCanalizacao() {
  useEffect(() => {
  document.title = "Instalação de Canalização Nova em Trás-os-Montes | Canalizador Profissional";
@@ -16,14 +14,12 @@ export default function InstalacaoCanalizacao() {
  if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
  meta.setAttribute('content', 'Instalação de canalização nova em Trás-os-Montes. Casas de banho, cozinhas, redes de água e esgotos. Materiais certificados, garantia. Ligue +351 928 484 451.');
  }, []);
-
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
  "name": "Instalação de Canalização Nova", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
  "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "100000" },
  "description": "Instalação profissional de canalização nova para casas, apartamentos e comércios em Trás-os-Montes."
  };
-
  return (
  <>
  <Header />
@@ -32,7 +28,6 @@ export default function InstalacaoCanalizacao() {
  "@context": "https://schema.org", "@type": "FAQPage",
  "mainEntity": faqItems.map(item => ({ "@type": "Question", "name": item.question, "acceptedAnswer": { "@type": "Answer", "text": item.answer } }))
  }) }} />
-
  <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Instalação de Canalização Nova em Trás-os-Montes</h1>
@@ -43,7 +38,6 @@ export default function InstalacaoCanalizacao() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Serviços de Instalação</h2>
@@ -63,7 +57,6 @@ export default function InstalacaoCanalizacao() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
@@ -82,7 +75,6 @@ export default function InstalacaoCanalizacao() {
  <p className="text-center text-gray-500 mt-6 text-sm">* Preços indicativos. Orçamento final após visita ao local.</p>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Perguntas Frequentes</h2>
@@ -96,18 +88,16 @@ export default function InstalacaoCanalizacao() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
  <div className="max-w-4xl mx-auto text-center">
  <h2 className="text-3xl font-bold mb-4">Precisa de Canalização Nova?</h2>
- <p className="text-xl mb-8">Peça já o seu orçamento gratuito. Respondemos em menos de 1 hora.</p>
+ <p className="text-xl mb-8">Peça já o seu sem compromisso. Respondemos em menos de 1 hora.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
  </div>
  </div>
  </section>
-
  <section className="py-12 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h3 className="text-xl font-bold text-center mb-6 text-gray-900">Também servimos:</h3>

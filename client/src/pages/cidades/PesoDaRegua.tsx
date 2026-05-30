@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function PesoDaRegua() {
  useEffect(() => {
  document.title = "Canalizador Peso da Régua 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function PesoDaRegua() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Peso da Régua, capital do Douro. Canalização para caves de vinho, hotéis, edifícios urbanos. Desentupimentos e fugas 24h. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Peso da Régua, capital do Douro. Canalização para caves de vinho, hotéis, edifícios urbanos. Desentupimentos e fugas 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function PesoDaRegua() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-peso-da-regua');
-
  const cityAddress = getCityAddress('peso-regua');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-regua';
@@ -54,7 +50,6 @@ export default function PesoDaRegua() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function PesoDaRegua() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-regua');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('peso-regua');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Peso da Régua?", answer: "Chegamos a Peso da Régua em aproximadamente 1h15, percorrendo cerca de 85km desde Macedo de Cavaleiros pelo IP4 e A24." },
  { question: "Fazem canalização para caves de Vinho do Porto?", answer: "Sim, somos especializados em redes de água e drenagem para caves de vinho, armazéns de envelhecimento e instalações de vinificação na capital do Douro." },
@@ -88,7 +80,6 @@ export default function PesoDaRegua() {
  question: "Qual o custo de deslocação a Peso da Régua?",
  answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function PesoDaRegua() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Peso da Régua</h2>
@@ -123,9 +113,7 @@ export default function PesoDaRegua() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Peso da Régua</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Peso da Régua?</h2>
@@ -139,9 +127,7 @@ export default function PesoDaRegua() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Peso da Régua" currentCitySlug="canalizador-peso-da-regua" />
  </main>
  <Footer />

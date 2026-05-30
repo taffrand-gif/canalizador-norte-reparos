@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const SanitaEntupidaMetodos: React.FC = () => {
  useSEO({
  title: 'Sanita Entupida: 5 Métodos Que Funcionam [Guia 2026]',
  description: 'Sanita entupida? Descubra 5 métodos eficazes para desentupir. Guia passo a passo com soluções profissionais e caseiras.',
  keywords: 'sanita entupida, desentupir sanita, autoclismo entupido, casa de banho entupida, desentupidor'
  });
-
  return (
  <BlogLayout
  title="Sanita Entupida: 5 Métodos Que Funcionam [Guia 2026]"
@@ -23,11 +21,9 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <span>⏱️ 10 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Sanita Entupida: 5 Métodos Que Funcionam [Guia 2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">🚽</span>
@@ -38,21 +34,18 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
  <p className="text-red-900 font-semibold text-lg">
  🚨 Sanita entupida é emergência! Aja rapidamente para evitar transbordamento.
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Sanita entupida é um dos problemas mais urgentes em casa. Neste guia completo,
  vamos mostrar-lhe 5 métodos eficazes para desentupir, do mais simples ao mais
  avançado, e quando chamar um canalizador profissional.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -63,15 +56,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">5. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="causas" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔍 Causas Comuns</h2>
-
  <p className="mb-6">
  Compreender a causa ajuda a escolher o método correto de desentupimento:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Papel Higiénico em Excesso</h3>
@@ -82,7 +72,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Usar muito papel de uma vez ou papel de má qualidade que não se desfaz.
  </p>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-lg">🧻 Toalhitas e Lenços</h3>
  <p className="text-orange-800 mb-3">
@@ -92,7 +81,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Toalhitas "biodegradáveis" não se desfazem e causam entupimentos graves.
  </p>
  </div>
-
  <div className="bg-yellow-50 p-6 rounded-xl border-2 border-yellow-200">
  <h3 className="font-bold text-yellow-900 mb-3 text-lg">🧴 Objetos Estranhos</h3>
  <p className="text-yellow-800 mb-3">
@@ -102,7 +90,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Cotonetes, pensos, tampões, brinquedos, etc.
  </p>
  </div>
-
  <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">💩 Fezes Volumosas</h3>
  <p className="text-blue-800 mb-3">
@@ -112,7 +99,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Autoclismo com pouca água ou canalização estreita.
  </p>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200">
  <h3 className="font-bold text-green-900 mb-3 text-lg">🔧 Problemas Estruturais</h3>
  <p className="text-green-800 mb-3">
@@ -124,16 +110,13 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="metodos" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛠️ 5 Métodos para Desentupir</h2>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  ⚠️ Importante: Comece pelo método mais simples. Se não funcionar, avance para o próximo.
  </p>
  </div>
-
  <div className="space-y-10">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -148,13 +131,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Balde com 5 litros de água quente (não fervente)</li>
  <li>200ml de detergente da loiça</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Aqueça 5 litros de água (quente mas não fervente - 60-70°C)</li>
@@ -164,20 +145,17 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Puxe o autoclismo</li>
  <li>Repita se necessário</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
  <strong>💡 Como Funciona:</strong> Água quente amolece papel e gordura. Detergente lubrifica e ajuda a desalojar.
  </p>
  </div>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900 text-sm">
  <strong>⚠️ Atenção:</strong> Não use água fervente - pode rachar porcelana. Use água quente (60-70°C).
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -191,14 +169,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>300g de bicarbonato de sódio</li>
  <li>300ml de vinagre branco</li>
  <li>Água quente</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Retire o máximo de água possível da sanita (use copo)</li>
@@ -208,14 +184,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Despeje 5 litros de água quente</li>
  <li>Puxe o autoclismo</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Como Funciona:</strong> Reação química cria pressão e dissolve resíduos orgânicos.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -229,14 +203,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Ventosa de sanita (borracha grossa, formato cônico)</li>
  <li>Luvas de borracha</li>
  <li>Panos velhos</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque luvas de proteção</li>
@@ -248,20 +220,17 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Retire ventosa bruscamente no último movimento</li>
  <li>Repita 3-4 vezes se necessário</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
  <strong>💡 Dica Profissional:</strong> Movimentos rápidos e vigorosos são essenciais. Não tenha medo de usar força.
  </p>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Sinal de Sucesso:</strong> Ouve "glup" e água escoa rapidamente = entupimento desalojado!
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -275,7 +244,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Mola desentupidora para sanita (3-5 metros)</li>
@@ -283,7 +251,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Balde</li>
  <li>Panos velhos</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque luvas de proteção</li>
@@ -295,20 +262,17 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Retire mola lentamente, limpando com pano</li>
  <li>Puxe autoclismo para testar</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
  <strong>💡 Onde Comprar:</strong> Lojas de bricolage (Leroy Merlin, Aki). Custo: 15-40€.
  </p>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Cuidado:</strong> Não force demais - pode danificar porcelana ou canalização.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -322,13 +286,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Filme aderente (tipo Parafilm)</li>
  <li>Fita adesiva forte</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Seque completamente o rebordo da sanita</li>
@@ -339,7 +301,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Repita 5-10 vezes</li>
  <li>Retire filme e teste</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Como Funciona:</strong> Cria pressão de ar que empurra entupamento, similar à ventosa.
@@ -348,14 +309,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛡️ Prevenção de Entupimentos</h2>
-
  <p className="mb-6">
  Prevenir entupimentos é mais fácil e barato que resolver. Siga estas 8 regras:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 🚫 Nunca Deite Isto na Sanita</h3>
@@ -384,7 +342,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. 🧻 Use Papel Higiénico com Moderação</h3>
  <p className="text-gray-700 mb-2">
@@ -396,7 +353,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Prefira papel de qualidade (desfaz-se melhor)</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 💧 Puxe Autoclismo Completamente</h3>
  <p className="text-gray-700 mb-2">
@@ -408,7 +364,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Se necessário, puxe duas vezes</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🗑️ Caixote do Lixo na Casa de Banho</h3>
  <p className="text-gray-700 mb-2">
@@ -420,7 +375,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Esvazie regularmente</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 🧹 Limpeza Regular</h3>
  <p className="text-gray-700 mb-2">
@@ -432,7 +386,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Escove bem o sifão interno</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 👶 Supervisione Crianças</h3>
  <p className="text-gray-700 mb-2">
@@ -444,7 +397,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Mantenha brinquedos longe da sanita</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 🔧 Manutenção do Autoclismo</h3>
  <p className="text-gray-700 mb-2">
@@ -456,7 +408,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Repare fugas imediatamente</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">8. 🔍 Inspeção Anual</h3>
  <p className="text-gray-700 mb-2">
@@ -470,14 +421,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="quando-chamar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📞 Quando Chamar Canalizador</h2>
-
  <p className="mb-6">
  Algumas situações requerem profissional imediatamente:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-xl">🚨 Emergência Imediata</h3>
@@ -489,7 +437,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>✗ Água suja a sair</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-xl">⚠️ Chamar Profissional</h3>
  <ul className="space-y-2 text-orange-800">
@@ -501,10 +448,8 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-cyan-50 p-8 rounded-2xl">
  <h3 className="text-2xl font-bold text-cyan-900 mb-4">💰 Custos de Desentupimento Profissional</h3>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-cyan-200">
@@ -537,10 +482,8 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </table>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Como desentupir sanita rapidamente?</h3>
@@ -556,7 +499,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  💡 Taxa de sucesso: 80% com estes 3 métodos
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso usar lixívia para desentupir sanita?</h3>
  <p className="text-gray-700 mb-2">
@@ -572,7 +514,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  ✅ Alternativa segura: Bicarbonato + vinagre
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a desentupir sanita?</h3>
  <p className="text-gray-700 mb-2">
@@ -586,7 +527,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Canalizador profissional: 30-90 minutos</li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Sanita entope frequentemente. Porquê?</h3>
  <p className="text-gray-700 mb-2">
@@ -604,7 +544,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  ⚠️ Solução: Inspeção com câmara por canalizador (120-180€)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Água da sanita sobe mas não transborda. O que fazer?</h3>
  <p className="text-gray-700 mb-2">
@@ -620,7 +559,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Se não resolver, use ventosa</li>
  </ol>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso usar Destop ou produtos químicos?</h3>
  <p className="text-gray-700 mb-2">
@@ -636,7 +574,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  ✅ Melhor opção: Métodos mecânicos (ventosa, mola)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa chamar canalizador para desentupir sanita?</h3>
  <p className="text-gray-700 mb-2">
@@ -652,7 +589,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  💡 DIY poupa 70-120€ mas requer 30-60 minutos
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Sanita entupida pode causar inundação?</h3>
  <p className="text-gray-700 mb-2">
@@ -672,16 +608,13 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Sanita Entupida? Ajuda Profissional</h2>
  <p className="text-xl mb-6">
  Se os métodos caseiros não funcionaram, contacte canalizador profissional.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Desentupimentos Urgentes</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -712,7 +645,6 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -728,12 +660,10 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -764,5 +694,4 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default SanitaEntupidaMetodos;

@@ -1,8 +1,6 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
-
 interface ButtonRippleProps {
  children: ReactNode;
  className?: string;
@@ -10,7 +8,6 @@ interface ButtonRippleProps {
  href?: string;
  type?: 'button' | 'submit' | 'reset';
 }
-
 export default function ButtonRipple({
  children,
  className = '',
@@ -20,7 +17,6 @@ export default function ButtonRipple({
 }: ButtonRippleProps) {
  const Component = href ? motion.a : motion.button;
  const props = href ? { href } : { type, onClick };
-
  return (
  <Component
  {...props}

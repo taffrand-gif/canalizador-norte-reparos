@@ -7,7 +7,6 @@ import SolutionTimeline from '@/components/SolutionTimeline';
 import EmergencyTestimonials from '@/components/EmergencyTestimonials';
 import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 export default function SanitaEntupida() {
  useEffect(() => {
  document.title = "Sanita Entupida? Desentupimos em 20 Minutos | Norte Reparos";
@@ -19,7 +18,6 @@ export default function SanitaEntupida() {
  }
  meta.setAttribute('content', 'Sanita entupida? Desentupimos em 20 minutos sem partir nada. Disponível 24h. Sem cheiros, sem stress. Ligue +351 928 484 451.');
  }, []);
-
  const faqSchema = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -37,17 +35,15 @@ export default function SanitaEntupida() {
  "name": "Quanto custa desentupir uma sanita?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Desentupimentos simples desde €60. Entupimentos graves €100-150. Orçamento gratuito. Preço fixo antes de começar. Sem surpresas."
+ "text": "Desentupimentos simples desde €60. Entupimentos graves €100-150. Sem compromisso. Preço fixo antes de começar. Sem surpresas."
  }
  }
  ]
  };
-
  return (
  <>
  <Header />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
  <EmotionalHero
  painPoint="SANITA ENTUPIDA URGENTE"
  headline="Sanita Entupida? Desentupimos em 20 Minutos"
@@ -60,7 +56,6 @@ export default function SanitaEntupida() {
  ctaSecondary="WhatsApp Urgente"
  responseTime="15 minutos"
  />
-
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Passar"
  subtitle="Uma sanita entupida não é só inconveniente. É vergonha, stress e urgência."
@@ -92,7 +87,6 @@ export default function SanitaEntupida() {
  }
  ]}
  />
-
  <SolutionTimeline
  title="Como Desentupimos em 20 Minutos"
  subtitle="Rápido, limpo, discreto. Sem partir nada, sem sujeira."
@@ -125,7 +119,6 @@ export default function SanitaEntupida() {
  }
  ]}
  />
-
  <EmergencyTestimonials
  title="Já Desentupimos Milhares de Sanitas"
  subtitle="Clientes satisfeitos que recuperaram a paz de espírito."
@@ -186,7 +179,6 @@ export default function SanitaEntupida() {
  }
  ]}
  />
-
  <GuaranteeBox
  title="Garantias Que Dão Tranquilidade"
  subtitle="Desentupimos com garantia total. Sem riscos para si."
@@ -215,7 +207,6 @@ export default function SanitaEntupida() {
  }
  ]}
  />
-
  {/* FAQ Section */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -230,7 +221,7 @@ export default function SanitaEntupida() {
  },
  {
  q: 'Quanto custa desentupir uma sanita?',
- a: 'Desentupimentos simples desde €60. Entupimentos mais graves €100-150. Entupimentos complexos (raízes, objetos) €150-250. Damos sempre orçamento gratuito antes de começar. Preço fixo, sem surpresas.'
+ a: 'Desentupimentos simples desde €60. Entupimentos mais graves €100-150. Entupimentos complexos (raízes, objetos) €150-250. Damos sempre sem compromisso antes de começar. Preço fixo, sem surpresas.'
  },
  {
  q: 'Partem a sanita para desentupir?',
@@ -257,7 +248,6 @@ export default function SanitaEntupida() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -288,7 +278,6 @@ export default function SanitaEntupida() {
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Boticas() {
  useEffect(() => {
  document.title = "Canalizador Boticas 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function Boticas() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Boticas disponível 24h. Desentupimentos, fugas de água, aquecimento central e canalização agrícola. Terra do Vinho dos Mortos. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Boticas disponível 24h. Desentupimentos, fugas de água, aquecimento central e canalização agrícola. Terra do Vinho dos Mortos. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,7 +27,6 @@ export default function Boticas() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-boticas');
-
  const cityAddress = getCityAddress('boticas');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -53,7 +50,6 @@ export default function Boticas() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -71,15 +67,12 @@ export default function Boticas() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-boticas');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('boticas');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Boticas?", answer: "Chegamos a Boticas em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros via Chaves." },
  { question: "Fazem canalização para adegas de Vinho dos Mortos?", answer: "Sim, instalamos redes de água e drenagem para adegas tradicionais, incluindo as famosas caves do Vinho dos Mortos, com materiais adequados ao ambiente húmido subterrâneo." },
@@ -87,7 +80,6 @@ export default function Boticas() {
  question: "Qual o custo de deslocação a Boticas?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 95km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -103,7 +95,6 @@ export default function Boticas() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Boticas</h2>
@@ -122,9 +113,7 @@ export default function Boticas() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Boticas</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Boticas?</h2>
@@ -138,9 +127,7 @@ export default function Boticas() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Boticas" currentCitySlug="canalizador-boticas" />
  </main>
  <Footer />

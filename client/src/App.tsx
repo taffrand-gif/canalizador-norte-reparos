@@ -14,12 +14,10 @@ import StructuredData from "./components/StructuredData";
 import SkipLink from "./components/SkipLink";
 import OptimizedHome from "./pages/OptimizedHome";
 import UrgencyIndicator from '@/components/UrgencyIndicator';
-
 // Lazy load conversion widgets (below-fold)
 const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
 const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
 const LocationDetector = lazy(() => import('@/components/LocationDetector'));
-
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
 const Desentupimentos = lazy(() => import("@/pages/Desentupimentos"));
@@ -83,16 +81,13 @@ const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
 const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
-
 // Emotional Landing Pages (SEO Premium) - Canalizador
 const FugaAguaUrgente = lazy(() => import("@/pages/FugaAguaUrgente"));
 const SanitaEntupida = lazy(() => import("@/pages/SanitaEntupida"));
 const CanoRebentado = lazy(() => import("@/pages/CanoRebentado"));
 const EsquentadorAvariado = lazy(() => import("@/pages/EsquentadorAvariado"));
 const CheiroMauCanalizacao = lazy(() => import("@/pages/CheiroMauCanalizacao"));
-
 // Emotional Landing Pages (SEO Premium) - Eletricista (REMOVED - belong to staff-seekers)
-
 // Commercial Intent Pages (SEO Premium) - Canalizador
 const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaArranjarAguaCastanha"));
 const ValePenaArranjarVsSubstituir = lazy(() => import("@/pages/ValePenaArranjarVsSubstituir"));
@@ -100,14 +95,12 @@ const ComoDesentupirSanitaSozinho = lazy(() => import("@/pages/ComoDesentupirSan
 const QuantoTempoDemoraArranjarFugaAgua = lazy(() => import("@/pages/QuantoTempoDemoraArranjarFugaAgua"));
 const QuantoTempoDemoraDesentupirSanita = lazy(() => import("@/pages/QuantoTempoDemoraDesentupirSanita"));
 const QuantoTempoSemAguaQuente = lazy(() => import("@/pages/QuantoTempoSemAguaQuente"));
-
 // Simple loading fallback component
 const LoadingFallback = () => (
  <div className="flex items-center justify-center min-h-[400px]">
  <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2193b0]"></div>
  </div>
 );
-
 function Router() {
  return (
  <Suspense fallback={<LoadingFallback />}>
@@ -202,12 +195,10 @@ function Router() {
  </Suspense>
  );
 }
-
 // NOTE: About Theme
 // - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
 // to keep consistent foreground/background color across components
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
  return (
  <ErrorBoundary>
@@ -237,6 +228,5 @@ function App() {
  </ErrorBoundary>
  );
 }
-
 export default App;
 // force rebuild 1772742743

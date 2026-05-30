@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const SifaoEntupidoComoLimpar: React.FC = () => {
  useSEO({
  title: 'Sifão Entupido: Como Limpar Corretamente [Guia 2026]',
  description: 'Aprenda a limpar sifão entupido em 15 minutos. Guia passo a passo com fotos, materiais necessários e dicas profissionais para evitar entupimentos.',
  keywords: 'sifão entupido, limpar sifão, desentupir sifão, sifão lavatório, sifão lava-loiça, mau cheiro sifão'
  });
-
  return (
  <BlogLayout
  title="Sifão Entupido: Como Limpar Corretamente [Guia 2026]"
@@ -23,11 +21,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span>⏱️ 10 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Sifão Entupido: Como Limpar Corretamente [Guia 2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">🔧</span>
@@ -38,21 +34,18 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-900 font-semibold text-lg">
  💡 Limpar sifão entupido é tarefa simples que demora 15 minutos. Evite chamar canalizador e poupe 60-100€!
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Sifão entupido é problema comum que causa mau cheiro e água a escoar lentamente.
  Neste guia completo, vamos mostrar-lhe como limpar o sifão corretamente em apenas
  15 minutos, com ferramentas que já tem em casa.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -64,17 +57,14 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">6. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="o-que-e-sifao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔍 O Que é um Sifão?</h2>
-
  <p className="mb-6">
  Sifão é componente essencial da canalização que impede gases e maus cheiros dos esgotos
  de entrarem na sua casa. Funciona mantendo sempre água no seu interior, criando barreira
  que bloqueia odores.
  </p>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-8">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">🎯 Função do Sifão</h3>
  
@@ -88,7 +78,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Facilita limpeza e manutenção</li>
  </ul>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <h4 className="font-bold text-blue-900 mb-2">📍 Onde Encontrar:</h4>
  <ul className="text-blue-800 text-sm space-y-1">
@@ -100,7 +89,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">🔧 Tipos de Sifão</h3>
  <div className="space-y-3">
@@ -119,14 +107,11 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="sinais-entupimento" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">⚠️ Sinais de Sifão Entupido</h2>
-
  <p className="mb-6">
  Reconheça os sinais de entupimento antes que o problema agrave:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Sinais Urgentes</h3>
@@ -137,7 +122,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• <strong>Ruídos estranhos:</strong> Gorgolejos ao escoar</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-lg">⚡ Sinais Precoces</h3>
  <ul className="text-orange-800 space-y-2">
@@ -148,20 +132,16 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
  <p className="text-yellow-900 font-semibold">
  💡 Dica: Aja aos primeiros sinais. Entupimento parcial é mais fácil de resolver que entupimento total.
  </p>
  </div>
  </section>
-
  <section id="materiais" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛠️ Materiais Necessários</h2>
-
  <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200 mb-8">
  <h3 className="font-bold text-green-900 mb-4 text-xl">✅ Lista de Materiais (Total: 0-5€)</h3>
-
  <div className="grid md:grid-cols-2 gap-6">
  <div>
  <p className="font-bold text-green-900 mb-3">Materiais:</p>
@@ -183,7 +163,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-blue-50 p-6 rounded-xl">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">💡 Produtos de Limpeza Recomendados</h3>
  <div className="space-y-3">
@@ -202,16 +181,13 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="passo-passo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📝 Limpeza Passo a Passo</h2>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  ⏱️ Tempo total: 15-20 minutos | Dificuldade: ⭐ (Muito Fácil)
  </p>
  </div>
-
  <div className="space-y-8">
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
@@ -233,7 +209,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -244,7 +219,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <p className="text-gray-700 mb-3">
  Maioria dos sifões desmonta-se à mão, sem ferramentas.
  </p>
-
  <div className="space-y-3">
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão em U (tradicional):</p>
@@ -256,7 +230,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Água vai escorrer - é normal, balde vai apanhar</li>
  </ol>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão garrafa:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
@@ -266,7 +239,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Interior do sifão fica acessível</li>
  </ol>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão de chão:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
@@ -284,7 +256,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -310,7 +281,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -321,7 +291,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <p className="text-gray-700 mb-3">
  Limpeza profunda de todas as partes do sifão.
  </p>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Método de Limpeza:</p>
  <ol className="text-gray-700 text-sm space-y-2 list-decimal pl-4">
@@ -335,7 +304,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Verifique que está completamente limpo</li>
  </ol>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Sinal de Limpeza Completa:</strong> Sifão brilhante, sem resíduos visíveis, sem mau cheiro.
@@ -344,7 +312,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -365,7 +332,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -386,7 +352,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -412,7 +377,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -441,7 +405,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200 mt-8">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Se Continuar Entupido</h3>
  <p className="text-red-800 mb-3">Possíveis causas:</p>
@@ -453,14 +416,11 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛡️ Prevenção de Entupimentos</h2>
-
  <p className="mb-6">
  Prevenir entupimentos é mais fácil que resolver. Siga estas 8 regras de ouro:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 🚫 Nunca Deite Isto no Ralo</h3>
@@ -488,7 +448,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. 🧹 Use Grelha Protectora</h3>
  <p className="text-gray-700 mb-2">
@@ -501,7 +460,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Previne 80% dos entupimentos</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 💧 Água Quente Semanal</h3>
  <p className="text-gray-700 mb-2">
@@ -514,7 +472,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• 2-3 litros por ralo</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🧪 Bicarbonato Mensal</h3>
  <p className="text-gray-700 mb-2">
@@ -527,7 +484,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Faça mensalmente</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 🍽️ Raspe Pratos Antes de Lavar</h3>
  <p className="text-gray-700 mb-2">
@@ -540,7 +496,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Use água quente ao lavar loiça gordurosa</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 💇 Escove Cabelo Antes do Duche</h3>
  <p className="text-gray-700 mb-2">
@@ -553,7 +508,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Especialmente importante para cabelos longos</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 🔍 Limpeza Trimestral Profunda</h3>
  <p className="text-gray-700 mb-2">
@@ -566,7 +520,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Demora 15 minutos por sifão</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">8. 🚰 Deixe Água Correr Após Uso</h3>
  <p className="text-gray-700 mb-2">
@@ -580,7 +533,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Benefícios da Prevenção</h3>
  <div className="grid md:grid-cols-2 gap-4">
@@ -599,10 +551,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Com que frequência devo limpar o sifão?</h3>
@@ -619,7 +569,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  💡 Regra geral: Limpe quando água começar a escoar lentamente
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso usar produtos químicos desentupidores?</h3>
  <p className="text-gray-700 mb-2">
@@ -637,7 +586,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Sifão continua a cheirar mal após limpeza. Porquê?</h3>
  <p className="text-gray-700 mb-2">
@@ -654,7 +602,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  ⚠️ Se persistir: Chame canalizador (pode ser problema estrutural)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa substituir um sifão?</h3>
  <p className="text-gray-700 mb-2">
@@ -684,7 +631,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  ✅ Substituição DIY é muito fácil - poupe 40-80€ em mão de obra
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Sifão pinga após remontar. O que fazer?</h3>
  <p className="text-gray-700 mb-2">
@@ -708,7 +654,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </li>
  </ol>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso limpar sifão sem desmontar?</h3>
  <p className="text-gray-700 mb-2">
@@ -726,7 +671,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  💡 Mas desmontagem é sempre mais eficaz e permite inspeção visual
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a limpar um sifão?</h3>
  <p className="text-gray-700 mb-2">
@@ -742,7 +686,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  ✅ Investimento de 15 minutos poupa 60-100€ de canalizador
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Preciso chamar canalizador para limpar sifão?</h3>
  <p className="text-gray-700 mb-2">
@@ -771,16 +714,13 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Problemas com Sifão? Ajuda Profissional</h2>
  <p className="text-xl mb-6">
  Se não consegue resolver sozinho, contacte canalizador profissional.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Canalizador em Bragança</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -793,7 +733,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Preço Justo</p>
- <p className="text-sm text-white/80">Orçamento gratuito sem compromisso</p>
+ <p className="text-sm text-white/80">Sem compromisso sem compromisso</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
@@ -811,7 +751,6 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -827,12 +766,10 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -863,5 +800,4 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default SifaoEntupidoComoLimpar;

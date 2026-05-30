@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-
 const faqItems = [
  {
  question: "Quanto custa chamar um canalizador em Trás-os-Montes?",
- answer: "O valor depende do tipo de serviço. Oferecemos orçamento gratuito e sem compromisso. Para serviços básicos como desentupimentos simples, os preços começam em €60. Para arranjos mais complexas, o valor é avaliado no local."
+ answer: "O valor depende do tipo de serviço. Oferecemos sem compromisso e sem compromisso. Para serviços básicos como desentupimentos simples, os preços começam em €60. Para arranjos mais complexas, o valor é avaliado no local."
  },
  {
  question: "Fazem serviço de urgência ao fim de semana?",
@@ -22,14 +21,11 @@ const faqItems = [
  answer: "Servimos toda a região de Trás-os-Montes: Vila Real, Bragança, Chaves, Mirandela, Macedo de Cavaleiros, Lamego, Régua, Montalegre, Valpaços, Mogadouro, Torre de Moncorvo, Alfândega da Fé e arredores."
  }
 ];
-
 const OptimizedFAQ: React.FC = () => {
  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
  const toggleFAQ = (index: number) => {
  setOpenIndex(openIndex === index ? null : index);
  };
-
  return (
  <div className="space-y-4">
  {faqItems.map((item, index) => (
@@ -144,5 +140,4 @@ const OptimizedFAQ: React.FC = () => {
  </div>
  );
 };
-
 export default OptimizedFAQ;

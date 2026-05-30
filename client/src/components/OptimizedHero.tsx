@@ -1,10 +1,8 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const OptimizedHero: React.FC = () => {
  const { config } = useSite();
-
  return (
  <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-blue-900">
  {/* Background image - visible on ALL screen sizes */}
@@ -84,5 +82,4 @@ const OptimizedHero: React.FC = () => {
  </section>
  );
 };
-
 export default OptimizedHero;

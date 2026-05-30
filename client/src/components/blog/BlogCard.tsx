@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'wouter';
-
 interface BlogCardProps {
  slug: string;
  title: string;
@@ -10,7 +9,6 @@ interface BlogCardProps {
  date: string;
  imageUrl?: string;
 }
-
 const BlogCard: React.FC<BlogCardProps> = ({
  slug,
  title,
@@ -33,7 +31,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
  height={300}
  />
  </div>
-
  {/* Content */}
  <div className="p-6">
  {/* Meta */}
@@ -44,19 +41,16 @@ const BlogCard: React.FC<BlogCardProps> = ({
  <span>{readTime} min de leitura</span>
  <span>{date}</span>
  </div>
-
  {/* Title */}
  <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors">
  <Link href={`/blog/${slug}`}>
  <a className="block">{title}</a>
  </Link>
  </h3>
-
  {/* Excerpt */}
  <p className="text-gray-600 mb-4 line-clamp-3">
  {excerpt}
  </p>
-
  {/* Read more */}
  <Link href={`/blog/${slug}`}>
  <a className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700">
@@ -68,5 +62,4 @@ const BlogCard: React.FC<BlogCardProps> = ({
  </article>
  );
 };
-
 export default BlogCard;

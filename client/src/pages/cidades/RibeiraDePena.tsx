@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function RibeiraDePena() {
  useEffect(() => {
  document.title = "Canalizador Ribeira de Pena 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function RibeiraDePena() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Ribeira de Pena disponível 24h. Canalização para turismo rural, casas junto à barragem, desentupimentos e fugas. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Ribeira de Pena disponível 24h. Canalização para turismo rural, casas junto à barragem, desentupimentos e fugas. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function RibeiraDePena() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-ribeira-de-pena');
-
  const cityAddress = getCityAddress('ribeira-pena');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-ribeira-pena';
@@ -54,7 +50,6 @@ export default function RibeiraDePena() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function RibeiraDePena() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-ribeira-pena');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('ribeira-pena');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Ribeira de Pena?", answer: "Chegamos a Ribeira de Pena em aproximadamente 1h20 a 1h30, percorrendo cerca de 95km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para casas de turismo rural?", answer: "Sim, instalamos canalização completa para casas de turismo rural, incluindo sistemas de aquecimento, casas de banho modernas e piscinas junto à barragem." },
@@ -88,7 +80,6 @@ export default function RibeiraDePena() {
  question: "Qual o custo de deslocação a Ribeira de Pena?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 85km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function RibeiraDePena() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Ribeira de Pena</h2>
@@ -123,9 +113,7 @@ export default function RibeiraDePena() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Ribeira de Pena</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Ribeira de Pena?</h2>
@@ -139,9 +127,7 @@ export default function RibeiraDePena() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Ribeira de Pena" currentCitySlug="canalizador-ribeira-de-pena" />
  </main>
  <Footer />

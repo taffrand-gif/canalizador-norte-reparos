@@ -1,29 +1,22 @@
 'use client';
-
 import { AlertCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
-
 interface ScarcityIndicatorProps {
  city: string;
  availableTechnicians?: number;
  nextAvailableSlot?: string;
 }
-
 export default function ScarcityIndicator({
  city,
  availableTechnicians = 2,
  nextAvailableSlot = "Amanhã 09:00"
 }: ScarcityIndicatorProps) {
  const [isVisible, setIsVisible] = useState(false);
-
  useEffect(() => {
  setIsVisible(true);
  }, []);
-
  if (!isVisible) return null;
-
  const isLowAvailability = availableTechnicians <= 2;
-
  return (
  <div className={`
  border-l-4 p-4 rounded-r-lg animate-in slide-in-from-left duration-500

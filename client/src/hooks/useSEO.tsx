@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { ACTIVE_CONFIG } from '../../../shared/serviceConfig';
-
 interface SEOProps {
  title: string;
  description: string;
@@ -13,7 +12,6 @@ interface SEOProps {
  publishedTime?: string;
  modifiedTime?: string;
 }
-
 export function useSEO({ 
  title, 
  description, 
@@ -31,10 +29,8 @@ export function useSEO({
  const defaultImage = `https://${config.domain}/og-image.jpg`;
  const finalImage = image || defaultImage;
  const finalCanonical = canonical || window.location.href;
-
  // Mettre à jour le titre
  document.title = title;
-
  // Helper pour créer ou mettre à jour une meta tag
  const setMetaTag = (name: string, content: string, isProperty = false) => {
  const attribute = isProperty ? 'property' : 'name';
@@ -46,7 +42,6 @@ export function useSEO({
  }
  meta.setAttribute('content', content);
  };
-
  // Meta tags basiques
  setMetaTag('description', description);
  if (keywords) {
@@ -55,7 +50,6 @@ export function useSEO({
  setMetaTag('author', author || config.businessName);
  setMetaTag('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
  setMetaTag('googlebot', 'index, follow');
-
  // Open Graph tags
  setMetaTag('og:title', title, true);
  setMetaTag('og:description', description, true);
@@ -74,13 +68,11 @@ export function useSEO({
  if (ogType === 'article' && author) {
  setMetaTag('article:author', author, true);
  }
-
  // Twitter Card tags
  setMetaTag('twitter:card', 'summary_large_image');
  setMetaTag('twitter:title', title);
  setMetaTag('twitter:description', description);
  setMetaTag('twitter:image', finalImage);
-
  // Canonical URL
  let linkCanonical = document.querySelector('link[rel="canonical"]');
  if (!linkCanonical) {
@@ -89,7 +81,6 @@ export function useSEO({
  document.head.appendChild(linkCanonical);
  }
  linkCanonical.setAttribute('href', finalCanonical);
-
  // Ajouter les données structurées Schema.org
  if (schema) {
  const scriptId = 'schema-org-data';
@@ -106,7 +97,6 @@ export function useSEO({
  }
  }, [title, description, canonical, schema, image, keywords, ogType, author, publishedTime, modifiedTime]);
 }
-
 // Fonction helper pour générer le titre SEO selon le format requis
 export function generateSEOTitle(ville?: string): string {
  const config = ACTIVE_CONFIG;
@@ -131,7 +121,6 @@ export function generateSEOTitle(ville?: string): string {
  // Exemple: "Norte Reparos 24h em Macedo, Mirandela, Bragança - Norte Reparos - +351 928 484 451"
  return `${config.name} Profissional 24h em Macedo, Mirandela, Bragança - ${config.businessName} - ${config.phone}`;
 }
-
 // Fonction helper pour générer la meta description
 export function generateMetaDescription(ville?: string): string {
  const config = ACTIVE_CONFIG;
@@ -142,9 +131,8 @@ export function generateMetaDescription(ville?: string): string {
  }
  
  // Page d'accueil - Meta description renforcée SEO
- return `Canalizador profissional 24h em Trás-os-Montes. Desentupimentos, arranjo fugas de água, caldeiras. Orçamento gratuito. Ligue ${config.phone}`;
+ return `Canalizador profissional 24h em Trás-os-Montes. Desentupimentos, arranjo fugas de água, caldeiras. Sem compromisso. Ligue ${config.phone}`;
 }
-
 // Fonction pour générer les mots-clés SEO
 export function generateKeywords(ville?: string): string {
  const config = ACTIVE_CONFIG;
@@ -164,7 +152,6 @@ export function generateKeywords(ville?: string): string {
  
  return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName, 'Trás-os-Montes', 'Macedo de Cavaleiros', 'Mirandela', 'Chaves'].join(', ');
 }
-
 // Fonction pour générer le schema LocalBusiness enrichi
 export function generateLocalBusinessSchema(ville?: string) {
  const config = ACTIVE_CONFIG;
@@ -250,7 +237,6 @@ export function generateLocalBusinessSchema(ville?: string) {
  ]
  };
 }
-
 // Fonction pour générer le schema Organization
 export function generateOrganizationSchema() {
  const config = ACTIVE_CONFIG;
@@ -274,7 +260,6 @@ export function generateOrganizationSchema() {
  ]
  };
 }
-
 // Fonction pour générer le schema FAQPage
 export function generateFAQSchema(faqs: Array<{ question: string; answer: string }>) {
  return {
@@ -290,7 +275,6 @@ export function generateFAQSchema(faqs: Array<{ question: string; answer: string
  }))
  };
 }
-
 // Fonction pour générer le schema Article (pour le blog)
 export function generateArticleSchema(article: {
  title: string;
@@ -329,7 +313,6 @@ export function generateArticleSchema(article: {
  }
  };
 }
-
 // Fonction pour générer le schema BreadcrumbList
 export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url: string }>) {
  const config = ACTIVE_CONFIG;
@@ -345,7 +328,6 @@ export function generateBreadcrumbSchema(breadcrumbs: Array<{ name: string; url:
  }))
  };
 }
-
 // Fonction helper pour obtenir les coordonnées d'une ville (approximatives)
 function getCityCoordinates(ville: string): { lat: number; lng: number } {
  const coordinates: Record<string, { lat: number; lng: number }> = {
@@ -364,7 +346,6 @@ function getCityCoordinates(ville: string): { lat: number; lng: number } {
  
  return coordinates[ville] || { lat: 41.5382, lng: -6.9667 };
 }
-
 // Fonction helper pour obtenir le slug d'une ville
 function getCitySlug(ville: string): string {
  return (ville || '')

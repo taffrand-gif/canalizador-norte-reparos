@@ -4,17 +4,14 @@ import React from 'react';
 // - Bold rating badge
 // - Clear visual hierarchy
 // - Testimonial cards in grid layout
-
 import { useSite } from '@/contexts/SiteContext';
 import { Star, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 // memo removed from 'react';
 import { useLocalTestimonials } from '@/hooks/useLocationContent';
-
 function Testimonials() {
  const { config } = useSite();
  const localTestimonials = useLocalTestimonials(config.testimonials);
-
  // Generate Review schema for each testimonial
  const reviewSchemas = localTestimonials.map((testimonial) => ({
  "@type": "Review",
@@ -31,7 +28,6 @@ function Testimonials() {
  "reviewBody": testimonial.text,
  "datePublished": "2026-02-01"
  }));
-
  return (
  <>
  {/* Review Schema JSON-LD */}
@@ -41,7 +37,6 @@ function Testimonials() {
  __html: JSON.stringify(reviewSchemas)
  }}
  />
-
  <section id="testemunhos" className="py-20 bg-white">
  <div className="container">
  {/* Header with rating badge */}
@@ -57,7 +52,6 @@ function Testimonials() {
  ))}
  <span className="ml-2">5.0/5</span>
  </div>
-
  <h2 className="text-4xl md:text-5xl font-black mb-4">
  O Que Dizem os Nossos Clientes
  </h2>
@@ -65,7 +59,6 @@ function Testimonials() {
  Atendemos clientes em toda a região de Trás-os-Montes confiam nos nossos serviços
  </p>
  </div>
-
  {/* Testimonials grid */}
  <div className="grid md:grid-cols-3 gap-8 mb-12">
  {localTestimonials.map((testimonial) => (
@@ -83,12 +76,10 @@ function Testimonials() {
  />
  ))}
  </div>
-
  {/* Quote */}
  <p className="text-gray-700 mb-6 italic leading-relaxed">
  "{testimonial.text}"
  </p>
-
  {/* Author */}
  <div className="flex items-center gap-3">
  <div
@@ -109,7 +100,6 @@ function Testimonials() {
  </div>
  ))}
  </div>
-
  {/* CTA */}
  <div className="text-center">
  <Button
@@ -126,5 +116,4 @@ function Testimonials() {
  </>
  );
 }
-
 export default React.memo(Testimonials);

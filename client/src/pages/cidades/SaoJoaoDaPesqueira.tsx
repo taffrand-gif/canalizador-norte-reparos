@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function SaoJoaoDaPesqueira() {
  useEffect(() => {
  document.title = "Canalizador São João Pesqueira 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em São João da Pesqueira, coração do Douro. Canalização para quintas vinícolas, caves de vinho, desentupimentos 24h. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em São João da Pesqueira, coração do Douro. Canalização para quintas vinícolas, caves de vinho, desentupimentos 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira');
-
  const cityAddress = getCityAddress('sao-joao-pesqueira');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function SaoJoaoDaPesqueira() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function SaoJoaoDaPesqueira() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-pesqueira'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('sao-joao-pesqueira');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a São João da Pesqueira?", answer: "Chegamos a São João da Pesqueira em aproximadamente 45-55 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para adegas e caves de vinho?", answer: "Sim, instalamos redes de água completas para adegas, caves de vinificação e armazéns de envelhecimento, com materiais resistentes à humidade e aos ácidos do vinho." },
@@ -70,7 +65,6 @@ export default function SaoJoaoDaPesqueira() {
  question: "Qual o custo de deslocação a São João da Pesqueira?",
  answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function SaoJoaoDaPesqueira() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="São João da Pesqueira" currentCitySlug="canalizador-sao-joao-da-pesqueira" />
  </main>

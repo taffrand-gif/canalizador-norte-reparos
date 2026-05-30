@@ -2,20 +2,18 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import BlogCard from '@/components/blog/BlogCard';
 import { useSEO } from '@/hooks/useSEO';
-
 const BlogIndex: React.FC = () => {
  useSEO({
  title: 'Blog do Canalizador - Dicas e Guias para Canalização em Trás-os-Montes',
  description: 'Artigos informativos sobre canalização, arranjos, desentupimentos e manutenção para residências e empresas na região de Trás-os-Montes.',
  keywords: 'blog canalizador, dicas canalização, desentupimentos, arranjos água, Trás-os-Montes'
  });
-
  // Articles data - à remplacer par API/database plus tard
  const articles = [
  {
  slug: 'instalacao-casa-banho-completa-guia',
  title: 'Instalação Completa de Casa de Banho: Guia e Preços 2026',
- excerpt: 'Guia completo para instalação de casa de banho: etapas, materiais, custos e prazos. Orçamento gratuito em Trás-os-Montes.',
+ excerpt: 'Guia completo para instalação de casa de banho: etapas, materiais, custos e prazos. Sem compromisso em Trás-os-Montes.',
  category: 'Instalações',
  readTime: '10',
  date: '19 Fev 2026',
@@ -94,7 +92,6 @@ const BlogIndex: React.FC = () => {
  imageUrl: '/images-optimized/blog/sinais-fugas-agua.jpg'
  }
  ];
-
  return (
  <BlogLayout
  title="Blog do Canalizador Profissional"
@@ -109,7 +106,6 @@ const BlogIndex: React.FC = () => {
  Artigos escritos por canalizadores certificados para ajudar proprietários a prevenir problemas de canalização e tomar decisões informadas.
  </p>
  </div>
-
  {/* Featured article */}
  <div className="mb-16">
  <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 border border-blue-200">
@@ -148,7 +144,6 @@ const BlogIndex: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Articles grid */}
  <div>
  <h2 className="text-3xl font-bold text-gray-900 mb-8">Últimos Artigos</h2>
@@ -158,7 +153,6 @@ const BlogIndex: React.FC = () => {
  ))}
  </div>
  </div>
-
  {/* Newsletter */}
  <div className="mt-16 bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 border border-orange-200">
  <div className="text-center max-w-2xl mx-auto">
@@ -191,5 +185,4 @@ const BlogIndex: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default BlogIndex;

@@ -1,5 +1,4 @@
 import { CheckCircle, X } from 'lucide-react';
-
 interface CompetitorComparison {
  criterion: string;
  norteReparos: string | number;
@@ -7,7 +6,6 @@ interface CompetitorComparison {
  competitorB: string | number;
  winner: 'norte' | 'a' | 'b' | 'tie';
 }
-
 export default function ComparadorConcorrencia() {
  const comparisons: CompetitorComparison[] = [
  {
@@ -81,11 +79,9 @@ export default function ComparadorConcorrencia() {
  winner: 'norte'
  }
  ];
-
  const norteWins = comparisons.filter(c => c.winner === 'norte').length;
  const totalCriteria = comparisons.length;
  const winPercentage = Math.round((norteWins / totalCriteria) * 100);
-
  return (
  <div className="bg-white rounded-lg shadow-lg p-6 max-w-6xl mx-auto">
  {/* Header */}
@@ -103,7 +99,6 @@ export default function ComparadorConcorrencia() {
  </span>
  </div>
  </div>
-
  {/* Comparison Table */}
  <div className="overflow-x-auto">
  <table className="w-full border-collapse">
@@ -154,7 +149,6 @@ export default function ComparadorConcorrencia() {
  </tbody>
  </table>
  </div>
-
  {/* Summary */}
  <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
  <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 text-center">
@@ -165,7 +159,6 @@ export default function ComparadorConcorrencia() {
  Critérios Vencidos
  </p>
  </div>
-
  <div className="bg-blue-50 border-2 border-blue-500 rounded-lg p-6 text-center">
  <div className="text-4xl font-black text-blue-600 mb-2">
  2×
@@ -174,7 +167,6 @@ export default function ComparadorConcorrencia() {
  Mais Rápido que Concorrência
  </p>
  </div>
-
  <div className="bg-purple-50 border-2 border-purple-500 rounded-lg p-6 text-center">
  <div className="text-4xl font-black text-purple-600 mb-2">
  €30
@@ -184,7 +176,6 @@ export default function ComparadorConcorrencia() {
  </p>
  </div>
  </div>
-
  {/* Why Choose Norte Reparos */}
  <div className="mt-8 bg-gradient-to-r from-primary/10 to-primary/5 border-l-4 border-primary rounded-r-lg p-6">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -221,7 +212,6 @@ export default function ComparadorConcorrencia() {
  </div>
  </div>
  </div>
-
  {/* CTA */}
  <div className="mt-8 text-center">
  <a
@@ -236,7 +226,6 @@ export default function ComparadorConcorrencia() {
  ⚡ Resposta em 5 minutos • Orçamento grátis • Sem compromisso
  </p>
  </div>
-
  {/* Disclaimer */}
  <div className="mt-8 text-xs text-gray-500 text-center">
  <p>

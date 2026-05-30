@@ -4,14 +4,12 @@
  * 20 perguntas frequentes otimizadas para SEO
  * Cobertura completa dos serviços de canalização em Trás-os-Montes
  */
-
 export interface FAQItem {
  id: number;
  question: string;
  answer: string;
  category: string;
 }
-
 export const FAQ_DATA: FAQItem[] = [
  {
  id: 1,
@@ -94,7 +92,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 14,
  question: "Quanto custa trocar canalizações antigas?",
- answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): 400-800€, cozinha completa: 350-600€, apartamento T2 completo: 2.000-4.000€, moradia T3: 4.000-8.000€. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas. Orçamento gratuito e detalhado sem compromisso.",
+ answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): 400-800€, cozinha completa: 350-600€, apartamento T2 completo: 2.000-4.000€, moradia T3: 4.000-8.000€. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas. Sem compromisso e detalhado sem compromisso.",
  category: "Preços"
  },
  {
@@ -134,7 +132,6 @@ export const FAQ_DATA: FAQItem[] = [
  category: "Projetos"
  }
 ];
-
 // Extra FAQ para completar 25 perguntas
 export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
@@ -152,7 +149,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 23,
  question: "O que causa entupimentos recorrentes?",
- answer: "Entupimentos recorrentes indicam problemas estruturais: canalizações com diâmetro insuficiente, inclinação inadequada, acumulação de gordura ou calcário, raízes de árvores no esgoto, ou tubos danificados. Soluções: inspeção com câmara para diagnóstico preciso, limpeza profissional com máquina de alta pressão, substituição de troços problemáticos, ou instalação de sistema anti-entupimentos. Em Bragança, muitas casas antigas têm canalizações de ferro com diâmetro reduzido - recomendamos substituição por PPR. Orçamento gratuito para diagnóstico completo.",
+ answer: "Entupimentos recorrentes indicam problemas estruturais: canalizações com diâmetro insuficiente, inclinação inadequada, acumulação de gordura ou calcário, raízes de árvores no esgoto, ou tubos danificados. Soluções: inspeção com câmara para diagnóstico preciso, limpeza profissional com máquina de alta pressão, substituição de troços problemáticos, ou instalação de sistema anti-entupimentos. Em Bragança, muitas casas antigas têm canalizações de ferro com diâmetro reduzido - recomendamos substituição por PPR. Sem compromisso para diagnóstico completo.",
  category: "Problemas Comuns"
  },
  {
@@ -168,10 +165,8 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  category: "Dicas"
  }
 ];
-
 // Todas as FAQs combinadas
 export const ALL_FAQ_DATA = [...FAQ_DATA, ...FAQ_DATA_EXTRA];
-
 // Catégories para filtragem (apenas categorias relevantes para canalização)
 export const FAQ_CATEGORIES = [
  "Todos",

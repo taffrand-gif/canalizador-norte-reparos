@@ -1,16 +1,13 @@
 'use client';
-
 import { useState } from 'react';
 import { MessageCircle, X, Send, Wrench, Zap } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
-
 interface Message {
  id: number;
  text: string;
  sender: 'bot' | 'user';
  timestamp: Date;
 }
-
 interface DiagnosticState {
  step: number;
  location?: string;
@@ -18,7 +15,6 @@ interface DiagnosticState {
  urgency?: string;
  estimatedPrice?: number;
 }
-
 export default function ChatbotIntelligent() {
  const { config } = useSite();
  const [isOpen, setIsOpen] = useState(false);
@@ -32,19 +28,14 @@ export default function ChatbotIntelligent() {
  ]);
  const [inputText, setInputText] = useState('');
  const [diagnostic, setDiagnostic] = useState<DiagnosticState>({ step: 0 });
-
  const isPlumber = config.type === 'plomberie';
-
  const problemOptions = isPlumber
  ? ['Fuga de água', 'Canalização entupida', 'Esquentador avariado', 'Aquecimento não funciona', 'Outro']
  : ['Sem eletricidade', 'Disjuntor dispara', 'Certificação ITED', 'Iluminação LED', 'Outro'];
-
  const locationOptions = ['Cozinha', 'Casa de banho', 'Aquecimento', 'Quadro elétrico', 'Exterior'];
  const urgencyOptions = ['Urgente (hoje)', 'Esta semana', 'Próximas 2 semanas'];
-
  const estimatePrice = (problem: string, urgency: string): number => {
  let basePrice = 100;
-
  if (problem.includes('Fuga')) basePrice = 120;
  else if (problem.includes('entupida')) basePrice = 100;
  else if (problem.includes('Esquentador')) basePrice = 80;
@@ -52,12 +43,9 @@ export default function ChatbotIntelligent() {
  else if (problem.includes('Disjuntor')) basePrice = 120;
  else if (problem.includes('ITED')) basePrice = 300;
  else if (problem.includes('LED')) basePrice = 200;
-
  if (urgency.includes('Urgente')) basePrice *= 1.5;
-
  return Math.round(basePrice);
  };
-
  const addMessage = (text: string, sender: 'bot' | 'user') => {
  const newMessage: Message = {
  id: messages.length + 1,
@@ -67,17 +55,13 @@ export default function ChatbotIntelligent() {
  };
  setMessages(prev => [...prev, newMessage]);
  };
-
  const handleQuickReply = (reply: string) => {
  addMessage(reply, 'user');
-
  const newDiagnostic = { ...diagnostic };
-
  if (diagnostic.step === 0) {
  newDiagnostic.problem = reply;
  newDiagnostic.step = 1;
  setDiagnostic(newDiagnostic);
-
  setTimeout(() => {
  addMessage('Onde está localizado o problema?', 'bot');
  }, 500);
@@ -85,7 +69,6 @@ export default function ChatbotIntelligent() {
  newDiagnostic.location = reply;
  newDiagnostic.step = 2;
  setDiagnostic(newDiagnostic);
-
  setTimeout(() => {
  addMessage('Quando precisa da intervenção?', 'bot');
  }, 500);
@@ -95,7 +78,6 @@ export default function ChatbotIntelligent() {
  newDiagnostic.estimatedPrice = price;
  newDiagnostic.step = 3;
  setDiagnostic(newDiagnostic);
-
  setTimeout(() => {
  const responseTime = reply.includes('Urgente') ? '30-60 minutos' : '2-4 horas';
  addMessage(
@@ -111,13 +93,10 @@ export default function ChatbotIntelligent() {
  }, 1000);
  }
  };
-
  const handleSend = () => {
  if (!inputText.trim()) return;
-
  addMessage(inputText, 'user');
  setInputText('');
-
  setTimeout(() => {
  addMessage(
  'Para um diagnóstico mais preciso, use as opções rápidas acima. Ou contacte-nos diretamente.',
@@ -125,7 +104,6 @@ export default function ChatbotIntelligent() {
  );
  }, 500);
  };
-
  const handleWhatsAppRedirect = () => {
  const message = `Olá! Completei o diagnóstico:\n` +
  `Problema: ${diagnostic.problem}\n` +
@@ -133,13 +111,11 @@ export default function ChatbotIntelligent() {
  `Urgência: ${diagnostic.urgency}\n` +
  `Preço estimado: €${diagnostic.estimatedPrice}\n\n` +
  `Quero confirmar a intervenção.`;
-
  window.open(
  `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(message)}`,
  '_blank'
  );
  };
-
  return (
  <>
  {!isOpen && (
@@ -152,7 +128,6 @@ export default function ChatbotIntelligent() {
  <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-pulse" />
  </button>
  )}
-
  {isOpen && (
  <div className="fixed bottom-4 right-4 z-50 w-full max-w-md bg-white rounded-2xl shadow-2xl border-2 border-gray-200 flex flex-col" style={{ height: '600px', maxHeight: '80vh' }}>
  <div className="bg-primary text-white p-4 rounded-t-2xl flex items-center justify-between">
@@ -176,7 +151,6 @@ export default function ChatbotIntelligent() {
  <X className="w-5 h-5" />
  </button>
  </div>
-
  <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
  {messages.map((message) => (
  <div
@@ -198,7 +172,6 @@ export default function ChatbotIntelligent() {
  </div>
  ))}
  </div>
-
  {diagnostic.step < 3 && (
  <div className="p-4 bg-white border-t border-gray-200">
  <p className="text-xs text-gray-600 mb-2 font-semibold">Respostas rápidas:</p>
@@ -233,7 +206,6 @@ export default function ChatbotIntelligent() {
  </div>
  </div>
  )}
-
  {diagnostic.step === 3 && (
  <div className="p-4 bg-white border-t border-gray-200">
  <button
@@ -254,7 +226,6 @@ export default function ChatbotIntelligent() {
  </button>
  </div>
  )}
-
  {diagnostic.step < 3 && (
  <div className="p-4 bg-white border-t border-gray-200 rounded-b-2xl">
  <div className="flex gap-2">

@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, Droplets, CheckCircle, AlertTriangle } from 'lucide-react';
-
 export default function PiscinaTanqueAgua() {
  useEffect(() => {
  document.title = "Canalização para Piscinas e Tanques de Água: Guia Completo 2026";
@@ -15,7 +14,6 @@ export default function PiscinaTanqueAgua() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Guia completo para instalação de canalização em piscinas, tanques de água e sistemas de irrigação agrícola em Trás-os-Montes.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -23,7 +21,6 @@ export default function PiscinaTanqueAgua() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/piscina-tanque-agua-canalizacao');
-
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -49,7 +46,6 @@ export default function PiscinaTanqueAgua() {
  });
  document.head.appendChild(script);
  }, []);
-
  const tiposPiscina = [
  {
  tipo: "Piscina Enterrada",
@@ -70,7 +66,6 @@ export default function PiscinaTanqueAgua() {
  componentes: ["Zona de regeneração", "Bomba de circulação", "Sistema de overflow", "Drenagem"]
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -91,7 +86,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Introdução */}
  <section className="py-12">
  <div className="container max-w-3xl">
@@ -109,7 +103,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Tipos de Piscina */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -141,7 +134,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Sistema de Filtração */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -182,7 +174,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Tanques de Água */}
  <section className="py-16 bg-blue-50">
  <div className="container max-w-3xl">
@@ -244,7 +235,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Irrigação Agrícola */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -285,7 +275,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Dicas Importantes */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -324,7 +313,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Manutenção */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -360,7 +348,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -384,7 +371,6 @@ export default function PiscinaTanqueAgua() {
  </div>
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">

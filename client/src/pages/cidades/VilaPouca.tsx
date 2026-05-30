@@ -6,7 +6,6 @@ import FAQSection from '@/components/FAQSection';
 import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
-
 export default function VilaPouca() {
  useEffect(() => {
  document.title = "Canalizador Vila Pouca Aguiar 24h | 928 484 451";
@@ -17,8 +16,7 @@ export default function VilaPouca() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Vila Pouca de Aguiar. Especialista em canalização termal, redes de água quente, desentupimentos. Servimos Pedras Salgadas e todo o concelho. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Vila Pouca de Aguiar. Especialista em canalização termal, redes de água quente, desentupimentos. Servimos Pedras Salgadas e todo o concelho. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -26,9 +24,7 @@ export default function VilaPouca() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar');
-
  const cityAddress = getCityAddress('vila-pouca-aguiar');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-vila-pouca';
@@ -51,13 +47,11 @@ export default function VilaPouca() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  return () => {
  const existingSchema = document.getElementById('schema-vila-pouca');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Vila Pouca de Aguiar?", answer: "Chegamos a Vila Pouca de Aguiar em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para estabelecimentos termais?", answer: "Sim, temos experiência em redes de água termal, tubagens resistentes a águas minerais e sistemas de canalização para spas e termas, incluindo Pedras Salgadas." },
@@ -65,7 +59,6 @@ export default function VilaPouca() {
  question: "Qual o custo de deslocação a Vila Pouca de Aguiar?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -81,7 +74,6 @@ export default function VilaPouca() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vila Pouca de Aguiar</h2>
@@ -100,9 +92,7 @@ export default function VilaPouca() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Pouca de Aguiar</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Vila Pouca de Aguiar?</h2>
@@ -110,7 +100,6 @@ export default function VilaPouca() {
  <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
  </div>
  </section>
-
  <RelatedCities currentCity="Vila Pouca de Aguiar" currentCitySlug="canalizador-vila-pouca-de-aguiar" />
  </main>
  <Footer />

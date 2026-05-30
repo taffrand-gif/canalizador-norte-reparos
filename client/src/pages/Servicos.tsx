@@ -1,6 +1,5 @@
 // Page Services détaillée para SEO
 // Optimizada para featured snippets e referenciamento local
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
@@ -9,10 +8,8 @@ import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
-
 export default function Servicos() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Serviços de Canalizador em Trás-os-Montes | Desentupimento, Arranjo, Instalação";
  
@@ -23,9 +20,8 @@ export default function Servicos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, arranjo de fugas, instalação sanitários, aquecimento central. Profissionais certificados, orçamento gratuito, urgências 24h.');
+ metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, arranjo de fugas, instalação sanitários, aquecimento central. Profissionais certificados, sem compromisso, urgências 24h.');
  }, [config]);
-
  const servicesDetails = [
  {
  title: 'Desentupimentos Urgentes',
@@ -80,7 +76,6 @@ export default function Servicos() {
  priceRange: 'A partir de €120'
  }
  ];
-
  return (
  <>
  <SEOHeadEnhanced pageType="service" />
@@ -117,7 +112,6 @@ export default function Servicos() {
  </div>
  </div>
  </section>
-
  {/* Services details */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -178,7 +172,6 @@ export default function Servicos() {
  </div>
  </div>
  </section>
-
  {/* FAQ Section with Schema.org */}
  <section className="py-16 bg-gray-50">
  <FAQSection
@@ -211,7 +204,6 @@ export default function Servicos() {
  ]}
  />
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -219,7 +211,7 @@ export default function Servicos() {
  Precisa de um Canalizador em Trás-os-Montes?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Contacte-nos agora para um orçamento gratuito e sem compromisso. 
+ Contacte-nos agora para um sem compromisso e sem compromisso. 
  Atendemos urgências 24 horas por dia, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">

@@ -1,5 +1,4 @@
 import { ACTIVE_CONFIG } from "@shared/serviceConfig";
-
 export default function WhatsAppButton() {
  const { whatsappNumber } = ACTIVE_CONFIG;
  
@@ -17,7 +16,6 @@ export default function WhatsAppButton() {
  window.open(whatsappUrl, '_blank');
  }
  };
-
  return (
  <button
  onClick={handleWhatsAppClick}

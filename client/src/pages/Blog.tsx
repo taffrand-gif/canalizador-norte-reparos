@@ -5,14 +5,12 @@ import { useSEO } from "@/hooks/useSEO";
 import { Link } from "wouter";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-
 export default function Blog() {
  const config = ACTIVE_CONFIG;
  
  useSEO({
  title: `Blog - ${config.name}`,
  description: `Dicas, guias e artigos sobre ${config.type === 'plomberie' ? 'canalização' : 'eletricidade'} em Bragança e Trás-os-Montes.`});
-
  const articles = config.type === 'plomberie' ? [
  {
  id: 'fuga-agua-escondida',
@@ -34,7 +32,6 @@ export default function Blog() {
  category: 'Segurança Elétrica'
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -51,7 +48,6 @@ export default function Blog() {
  </p>
  </div>
  </section>
-
  {/* Articles Grid */}
  <section className="py-16">
  <div className="container">
@@ -103,7 +99,6 @@ export default function Blog() {
  </Card>
  ))}
  </div>
-
  {/* Coming Soon */}
  <div className="mt-12 text-center">
  <div className="inline-block bg-gray-100 rounded-lg px-8 py-6">
@@ -117,7 +112,6 @@ export default function Blog() {
  </div>
  </div>
  </section>
-
  {/* CTA Section */}
  <section className="bg-gray-50 py-16">
  <div className="container text-center">
@@ -143,7 +137,6 @@ export default function Blog() {
  </div>
  </section>
  </main>
-
  <Footer />
 </div>
  );

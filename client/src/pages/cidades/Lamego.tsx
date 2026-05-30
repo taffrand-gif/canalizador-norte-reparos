@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Lamego() {
  useEffect(() => {
  document.title = "Canalizador Urgente Lamego 💧 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function Lamego() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Fuga de água em Lamego? Arranjo urgente no próprio dia. Canalização profissional, orçamento gratuito. Ligue: 928 484 451');
-
+ metaDescription.setAttribute('content', 'Fuga de água em Lamego? Arranjo urgente no próprio dia. Canalização profissional, sem compromisso. Ligue: 928 484 451');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,7 +27,6 @@ export default function Lamego() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-lamego');
-
  const cityAddress = getCityAddress('lamego');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -53,7 +50,6 @@ export default function Lamego() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -71,15 +67,12 @@ export default function Lamego() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-lamego');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('lamego');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Lamego?", answer: "Chegamos a Lamego em aproximadamente 1h15 a 1h30, percorrendo cerca de 90km desde Macedo de Cavaleiros pela A4 e A24." },
  { question: "Fazem renovação de canalização em edifícios históricos?", answer: "Sim, somos especializados em modernizar a canalização de edifícios antigos e patrimônio classificado, como os que rodeiam o Santuário de Nossa Senhora dos Remédios, preservando a estrutura original." },
@@ -87,7 +80,6 @@ export default function Lamego() {
  question: "Qual o custo de deslocação a Lamego?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 75-90 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -103,7 +95,6 @@ export default function Lamego() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Lamego</h2>
@@ -122,9 +113,7 @@ export default function Lamego() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Lamego</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Lamego?</h2>
@@ -138,9 +127,7 @@ export default function Lamego() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Lamego" currentCitySlug="canalizador-lamego" />
  </main>
  <Footer />

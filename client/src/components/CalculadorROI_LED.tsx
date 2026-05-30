@@ -172,7 +172,7 @@ export default function CalculadorROI_LED({
  💬 Pedir Orçamento LED → Poupar €{totalSavingsYear.toFixed(0)}/ano
  </a>
  <p className="text-xs text-center text-gray-600 mt-3">
- ⚡ Instalação profissional • Garantia 2 anos • Certificado
+ ⚡ Instalação profissional • Garantia do serviço • Certificado
  </p>
  </div>
  );

@@ -1,7 +1,5 @@
 'use client';
-
 import { Star, Award, MapPin } from 'lucide-react';
-
 interface Technician {
  name: string;
  role: string;
@@ -12,11 +10,9 @@ interface Technician {
  city: string;
  imageUrl?: string;
 }
-
 interface LikingTechnicianProps {
  technician?: Technician;
 }
-
 export default function LikingTechnician({ technician }: LikingTechnicianProps) {
  const defaultTechnician: Technician = {
  name: 'José Silva',
@@ -28,9 +24,7 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  city: 'Bragança',
  imageUrl: undefined
  };
-
  const tech = technician || defaultTechnician;
-
  return (
  <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm">
  <div className="flex items-start gap-4">
@@ -50,7 +44,6 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  </div>
  )}
  </div>
-
  {/* Info */}
  <div className="flex-1">
  <div className="flex items-start justify-between mb-2">
@@ -61,7 +54,6 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  {tech.role}
  </p>
  </div>
-
  {/* Rating */}
  <div className="text-right">
  <div className="flex items-center gap-1">
@@ -71,7 +63,6 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  <p className="text-xs text-gray-600">{tech.reviewsCount} avaliações</p>
  </div>
  </div>
-
  {/* Experience */}
  <div className="flex items-center gap-4 mb-3">
  <div className="flex items-center gap-1 text-sm text-gray-700">
@@ -79,13 +70,11 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  <span className="font-semibold">{tech.experience} anos</span>
  <span className="text-gray-600">de experiência</span>
  </div>
-
  <div className="flex items-center gap-1 text-sm text-gray-700">
  <MapPin className="w-4 h-4 text-primary" />
  <span>{tech.city}</span>
  </div>
  </div>
-
  {/* Specialties */}
  <div>
  <p className="text-xs font-semibold text-gray-700 mb-2">Especialidades:</p>
@@ -100,7 +89,6 @@ export default function LikingTechnician({ technician }: LikingTechnicianProps) 
  ))}
  </div>
  </div>
-
  {/* Quote */}
  <div className="mt-4 bg-gray-50 border-l-4 border-primary p-3 rounded-r-lg">
  <p className="text-sm text-gray-700 italic">

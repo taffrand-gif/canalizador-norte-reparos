@@ -1,14 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { trpc } from "@/lib/trpc";
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
-
 interface Message {
  id: string;
  text: string;
  sender: "user" | "owner";
  timestamp: Date;
 }
-
 export default function ChatWidget() {
  const { gradient } = ACTIVE_CONFIG;
  const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +21,6 @@ export default function ChatWidget() {
  description: ""});
  const messagesEndRef = useRef<HTMLDivElement>(null);
  const config = ACTIVE_CONFIG;
-
  const sendMessage = trpc.chat.sendMessage.useMutation({
  onSuccess: (data: { success: boolean }) => {
  if (data.success) {
@@ -45,15 +42,12 @@ export default function ChatWidget() {
  }, 1000);
  }
  }});
-
  const scrollToBottom = () => {
  messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
  };
-
  useEffect(() => {
  scrollToBottom();
  }, [messages]);
-
  useEffect(() => {
  if (isOpen && messages.length === 0) {
  const welcomeMessage: Message = {
@@ -64,7 +58,6 @@ export default function ChatWidget() {
  setMessages([welcomeMessage]);
  }
  }, [isOpen]);
-
  const handleStartChat = (e: React.FormEvent) => {
  e.preventDefault();
  if (formData.name.trim() && formData.phone.trim() && formData.city.trim()) {
@@ -78,7 +71,6 @@ export default function ChatWidget() {
  message: fullMessage});
  }
  };
-
  const handleSendMessage = (e: React.FormEvent) => {
  e.preventDefault();
  if (inputText.trim()) {
@@ -88,14 +80,12 @@ export default function ChatWidget() {
  message: fullMessage});
  }
  };
-
  const handleKeyPress = (e: React.KeyboardEvent) => {
  if (e.key === "Enter" && !e.shiftKey) {
  e.preventDefault();
  handleSendMessage(e);
  }
  };
-
  return (
  <>
  {/* Chat Button */}
@@ -121,7 +111,6 @@ export default function ChatWidget() {
  </svg>
  </button>
  )}
-
  {/* Chat Window */}
  {isOpen && (
  <div className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 w-full sm:w-96 h-[100vh] sm:h-[600px] bg-white sm:rounded-lg shadow-2xl flex flex-col z-[9999] border-t sm:border border-gray-200">
@@ -157,7 +146,6 @@ export default function ChatWidget() {
  </svg>
  </button>
  </div>
-
  {/* Contact Form */}
  {showForm && (
  <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-gray-50">
@@ -197,7 +185,6 @@ export default function ChatWidget() {
  required
  />
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-700 mb-1">
  Cidade *
@@ -211,7 +198,6 @@ export default function ChatWidget() {
  required
  />
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-700 mb-1">
  Tipo de Serviço (opcional)
@@ -229,7 +215,6 @@ export default function ChatWidget() {
  ))}
  </select>
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-700 mb-1">
  Descrição do Problema (opcional)
@@ -242,7 +227,6 @@ export default function ChatWidget() {
  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-2 focus:border-transparent text-sm sm:text-base resize-none"
  />
  </div>
-
  <button
  type="submit"
  disabled={!formData.name.trim() || !formData.phone.trim() || !formData.city.trim()}
@@ -253,7 +237,6 @@ export default function ChatWidget() {
  </form>
  </div>
  )}
-
  {/* Messages */}
  {!showForm && (
  <>
@@ -285,7 +268,6 @@ export default function ChatWidget() {
  ))}
  <div ref={messagesEndRef} />
  </div>
-
  {/* Input */}
  <form onSubmit={handleSendMessage} className="p-3 sm:p-4 bg-white border-t border-gray-200">
  <div className="flex gap-2">

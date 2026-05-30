@@ -1,8 +1,6 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
-
 interface FadeInProps {
  children: ReactNode;
  delay?: number;
@@ -10,7 +8,6 @@ interface FadeInProps {
  direction?: 'up' | 'down' | 'left' | 'right';
  className?: string;
 }
-
 export default function FadeIn({
  children,
  delay = 0,
@@ -24,7 +21,6 @@ export default function FadeIn({
  left: { x: 20 },
  right: { x: -20 }
  };
-
  return (
  <motion.div
  initial={{

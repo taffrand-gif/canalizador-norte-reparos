@@ -1,6 +1,5 @@
 // Page SEO optimisée: "Quanto Custa Arranjar Água Castanha" - Intention commerciale
 // Recherche fréquente: "quanto custa arranjar água castanha", "preço arranjar água amarela", "água suja torneira preço"
-
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
@@ -8,10 +7,8 @@ import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Euro, CheckCircle, AlertTriangle, Clock, Wrench } from 'lucide-react';
-
 export default function QuantoCustaArranjarAguaCastanha() {
  const { config } = useSite();
-
  const schemaData = {
  "@context": "https://schema.org",
  "@type": "Article",
@@ -27,11 +24,10 @@ export default function QuantoCustaArranjarAguaCastanha() {
  "telephone": config.phone
  }
  };
-
  const faqs = [
  {
  question: "Quanto custa arranjar água castanha da torneira?",
- answer: "Depende da causa: limpeza filtros/arejadores 40-60€, substituir troço cano 80-120€, limpeza depósito 100-150€, substituir canalização completa 500-2000€. Inclui deslocação, diagnóstico, mão-de-obra e material. Orçamento gratuito: 928 484 451"
+ answer: "Depende da causa: limpeza filtros/arejadores 40-60€, substituir troço cano 80-120€, limpeza depósito 100-150€, substituir canalização completa 500-2000€. Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
  },
  {
  question: "Porque é que a água sai castanha da torneira?",
@@ -46,7 +42,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  answer: "Depende da causa: limpeza filtros 30-60 minutos, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Diagnóstico gratuito: 928 484 451"
  }
  ];
-
  const precos = [
  {
  servico: "Limpeza Filtros/Arejadores",
@@ -73,7 +68,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  descricao: "Substituir canalização velha de ferro por PEX/PPR (depende tamanho casa)"
  }
  ];
-
  const causas = [
  {
  causa: "Ferrugem em Canos Velhos",
@@ -101,7 +95,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  urgencia: "Baixa"
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -112,7 +105,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </script>
  </Helmet>
  <Header />
-
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero */}
  <section className="bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white py-16">
@@ -122,16 +114,13 @@ export default function QuantoCustaArranjarAguaCastanha() {
  <Euro className="w-5 h-5" />
  PREÇOS TRANSPARENTES 2026
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Quanto Custa Arranjar Água Castanha da Torneira?
  </h1>
-
  <p className="text-xl mb-8">
- Preços claros e honestos. Orçamento gratuito sem compromisso.
+ Preços claros e honestos. Sem compromisso sem compromisso.
  Atendimento 24h em Trás-os-Montes.
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -152,7 +141,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </div>
  </section>
-
  {/* Tabela de Preços */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -163,7 +151,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Preços incluem: deslocação, diagnóstico, mão-de-obra e material básico.
  Orçamento final após diagnóstico no local.
  </p>
-
  <div className="max-w-5xl mx-auto space-y-4">
  {precos.map((item, index) => (
  <div key={index} className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl shadow-md border border-blue-100">
@@ -186,10 +173,9 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  ))}
  </div>
-
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
- ✅ Orçamento gratuito sem compromisso<br />
+ ✅ Sem compromisso sem compromisso<br />
  ✅ Preços finais após diagnóstico no local<br />
  ✅ Garantia de Trabalho garantido por escrito
  </p>
@@ -203,7 +189,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </div>
  </section>
-
  {/* Causas e Soluções */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -236,7 +221,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </div>
  </section>
-
  {/* O Que Está Incluído */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -260,7 +244,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </div>
  </section>
-
  {/* Quando Chamar Canalizador */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -283,7 +266,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="py-16 bg-white">
  <div className="container max-w-4xl">
@@ -293,7 +275,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white">
  <div className="container mx-auto px-4 text-center">
@@ -302,7 +283,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Precisa Arranjar Água Castanha?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Orçamento gratuito sem compromisso. Atendimento 24h.
+ Sem compromisso sem compromisso. Atendimento 24h.
  Chegamos em 30-60 minutos.
  </p>
  <a
@@ -315,7 +296,6 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  </section>
  </main>
-
  <Footer />
  </>
  );

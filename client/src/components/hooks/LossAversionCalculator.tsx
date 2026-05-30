@@ -1,15 +1,11 @@
 'use client';
-
 import { AlertTriangle, TrendingUp, Calculator } from 'lucide-react';
 import { useState } from 'react';
-
 interface LossAversionCalculatorProps {
  problemType?: 'fuga' | 'eletricidade' | 'certificacao';
 }
-
 export default function LossAversionCalculator({ problemType = 'fuga' }: LossAversionCalculatorProps) {
  const [daysWaiting, setDaysWaiting] = useState(7);
-
  const scenarios = {
  fuga: {
  title: 'Calculador: Custo de Adiar Arranjo de Fuga',
@@ -48,12 +44,10 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  ]
  }
  };
-
  const scenario = scenarios[problemType];
  const totalCost = Math.round(scenario.dailyCost * daysWaiting * Math.pow(scenario.escalationFactor, daysWaiting / 7));
  const repairCost = problemType === 'fuga' ? 150 : problemType === 'eletricidade' ? 200 : 300;
  const savings = totalCost - repairCost;
-
  return (
  <div className="bg-gradient-to-br from-red-50 to-orange-50 border-2 border-red-200 rounded-lg p-6 shadow-lg">
  <div className="flex items-center gap-3 mb-4">
@@ -69,7 +63,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  </p>
  </div>
  </div>
-
  {/* Slider */}
  <div className="mb-6">
  <label className="block text-sm font-semibold text-gray-700 mb-2">
@@ -89,7 +82,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  <span>30 dias</span>
  </div>
  </div>
-
  {/* Results */}
  <div className="bg-white rounded-lg p-6 mb-4 border-2 border-red-300">
  <div className="grid grid-cols-2 gap-4 mb-4">
@@ -106,7 +98,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  </p>
  </div>
  </div>
-
  <div className="bg-red-100 border-l-4 border-red-500 p-4 rounded-r-lg">
  <div className="flex items-center gap-2 mb-1">
  <TrendingUp className="w-5 h-5 text-red-600" />
@@ -119,7 +110,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  </p>
  </div>
  </div>
-
  {/* Risks */}
  <div className="mb-4">
  <p className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
@@ -135,7 +125,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  ))}
  </ul>
  </div>
-
  {/* CTA */}
  <a
  href="https://wa.me/351928484451?text=Quero%20resolver%20o%20problema%20hoje%20e%20evitar%20custos%20maiores"
@@ -145,7 +134,6 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  >
  💬 Resolver Agora e Poupar €{savings}
  </a>
-
  <p className="text-xs text-center text-gray-600 mt-3">
  ⚡ Técnico disponível hoje • Resposta em 5 minutos
  </p>

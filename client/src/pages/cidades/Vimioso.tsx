@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Vimioso() {
  useEffect(() => {
  document.title = "Canalizador Vimioso 24h | 928 484 451";
@@ -21,7 +20,6 @@ export default function Vimioso() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Canalizador em Vimioso disponível 24h. Desentupimentos, fugas de água, canalização rural e agrícola. Servimos toda a zona raiana junto à fronteira espanhola.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function Vimioso() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vimioso');
-
  const cityAddress = getCityAddress('vimioso');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-vimioso';
@@ -54,7 +50,6 @@ export default function Vimioso() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function Vimioso() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-vimioso');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('vimioso');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Vimioso?", answer: "Chegamos a Vimioso em aproximadamente 50-60 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros pela N216." },
  { question: "Cobrem as aldeias junto à fronteira espanhola?", answer: "Sim, cobrimos todas as aldeias do concelho de Vimioso, incluindo as localidades junto à raia como Algoso, Angueira e Caçarelhos." },
@@ -88,7 +80,6 @@ export default function Vimioso() {
  question: "Qual o custo de deslocação a Vimioso?",
  answer: "A deslocação é de 35€ (Zona 3). Chegamos em aproximadamente 50-55 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function Vimioso() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vimioso</h2>
@@ -123,9 +113,7 @@ export default function Vimioso() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vimioso</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Vimioso?</h2>
@@ -139,9 +127,7 @@ export default function Vimioso() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Vimioso" currentCitySlug="canalizador-vimioso" />
  </main>
  <Footer />

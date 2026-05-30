@@ -13,7 +13,6 @@ import {
  Eye,
  MousePointer
 } from 'lucide-react';
-
 interface AnalyticsData {
  realTime: {
  activeUsers: number;
@@ -63,7 +62,6 @@ interface AnalyticsData {
  dropoff: number;
  }>;
 }
-
 export default function AnalyticsDashboard() {
  const [data, setData] = useState<AnalyticsData>({
  realTime: {
@@ -121,9 +119,7 @@ export default function AnalyticsDashboard() {
  { step: 'Converteram', users: 487, dropoff: 21.8 }
  ]
  });
-
  const [timeRange, setTimeRange] = useState<'today' | 'week' | 'month'>('today');
-
  // Simulate real-time updates
  useEffect(() => {
  const interval = setInterval(() => {
@@ -136,23 +132,19 @@ export default function AnalyticsDashboard() {
  }
  }));
  }, 5000);
-
  return () => clearInterval(interval);
  }, []);
-
  const formatTime = (seconds: number) => {
  const mins = Math.floor(seconds / 60);
  const secs = seconds % 60;
  return `${mins}m ${secs}s`;
  };
-
  const formatCurrency = (value: number) => {
  return new Intl.NumberFormat('pt-PT', {
  style: 'currency',
  currency: 'EUR'
  }).format(value);
  };
-
  return (
  <div className="min-h-screen bg-gray-50 p-6">
  <div className="max-w-7xl mx-auto">
@@ -166,7 +158,6 @@ export default function AnalyticsDashboard() {
  Monitorização em tempo real de performance e conversões
  </p>
  </div>
-
  {/* Time Range Selector */}
  <div className="flex gap-2">
  {(['today', 'week', 'month'] as const).map((range) => (
@@ -184,7 +175,6 @@ export default function AnalyticsDashboard() {
  ))}
  </div>
  </div>
-
  {/* Real-Time Metrics */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg shadow-lg p-6 mb-8 text-white">
  <div className="flex items-center gap-2 mb-4">
@@ -206,7 +196,6 @@ export default function AnalyticsDashboard() {
  </div>
  </div>
  </div>
-
  {/* Key Metrics */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
  <div className="bg-white rounded-lg shadow-lg p-6">
@@ -222,7 +211,6 @@ export default function AnalyticsDashboard() {
  <p className="text-sm text-gray-600">Visitantes Hoje</p>
  <p className="text-xs text-green-600 mt-2">+12.5% vs ontem</p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
@@ -238,7 +226,6 @@ export default function AnalyticsDashboard() {
  {data.today.phoneClicks} tel + {data.today.whatsappClicks} WhatsApp
  </p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
@@ -252,7 +239,6 @@ export default function AnalyticsDashboard() {
  <p className="text-sm text-gray-600">Taxa Conversão</p>
  <p className="text-xs text-green-600 mt-2">+2.3% vs média</p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -269,7 +255,6 @@ export default function AnalyticsDashboard() {
  </p>
  </div>
  </div>
-
  {/* Charts Row */}
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
  {/* Top Pages */}
@@ -297,7 +282,6 @@ export default function AnalyticsDashboard() {
  ))}
  </div>
  </div>
-
  {/* Traffic Sources */}
  <div className="bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
@@ -324,7 +308,6 @@ export default function AnalyticsDashboard() {
  </div>
  </div>
  </div>
-
  {/* Devices & Cities */}
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
  {/* Devices */}
@@ -372,7 +355,6 @@ export default function AnalyticsDashboard() {
  </div>
  </div>
  </div>
-
  {/* Top Cities */}
  <div className="bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
@@ -401,7 +383,6 @@ export default function AnalyticsDashboard() {
  </div>
  </div>
  </div>
-
  {/* Conversion Funnel */}
  <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
@@ -437,7 +418,6 @@ export default function AnalyticsDashboard() {
  })}
  </div>
  </div>
-
  {/* Heatmap Integration */}
  <div className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-lg shadow-lg p-6 text-white">
  <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">

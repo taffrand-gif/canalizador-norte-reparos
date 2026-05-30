@@ -1,14 +1,11 @@
 'use client';
-
 import { useState } from 'react';
 import { Calendar, Clock, MapPin, Wrench, Zap, CheckCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
-
 interface TimeSlot {
  time: string;
  available: boolean;
 }
-
 interface ReservationData {
  service: string;
  city: string;
@@ -20,7 +17,6 @@ interface ReservationData {
  email: string;
  notes: string;
 }
-
 export default function SistemaReservacao() {
  const { config } = useSite();
  const [step, setStep] = useState(1);
@@ -37,9 +33,7 @@ export default function SistemaReservacao() {
  notes: ''
  });
  const [submitted, setSubmitted] = useState(false);
-
  const isPlumber = config.type === 'plomberie';
-
  const services = isPlumber
  ? [
  'Desentupimento',
@@ -57,13 +51,11 @@ export default function SistemaReservacao() {
  'Tomadas/interruptores',
  'Inspeção elétrica'
  ];
-
  const cities = [
  'Bragança', 'Mirandela', 'Macedo de Cavaleiros', 'Vila Real', 'Chaves',
  'Vinhais', 'Vimioso', 'Miranda do Douro', 'Mogadouro', 'Torre de Moncorvo',
  'Alfândega da Fé', 'Vila Flor', 'Carrazeda de Ansiães', 'Valpaços', 'Murça'
  ];
-
  // Generate next 14 days
  const generateDates = () => {
  const dates = [];
@@ -80,27 +72,21 @@ export default function SistemaReservacao() {
  }
  return dates;
  };
-
  const dates = generateDates();
-
  // Generate time slots
  const generateTimeSlots = (): TimeSlot[] => {
  const slots: TimeSlot[] = [];
  const hours = reservation.urgency === 'urgent'
  ? ['08:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00']
  : ['09:00', '11:00', '14:00', '16:00', '18:00'];
-
  hours.forEach(time => {
  // Simulate some slots being unavailable
  const available = Math.random() > 0.3;
  slots.push({ time, available });
  });
-
  return slots;
  };
-
  const timeSlots = generateTimeSlots();
-
  const handleNext = () => {
  if (step === 1 && reservation.service && reservation.city) {
  setStep(2);
@@ -108,10 +94,8 @@ export default function SistemaReservacao() {
  setStep(3);
  }
  };
-
  const handleSubmit = (e: React.FormEvent) => {
  e.preventDefault();
-
  // Send to WhatsApp
  const message = `🗓️ NOVA RESERVA\n\n` +
  `📋 Serviço: ${reservation.service}\n` +
@@ -124,15 +108,12 @@ export default function SistemaReservacao() {
  `📧 Email: ${reservation.email}\n` +
  `${reservation.notes ? `📝 Notas: ${reservation.notes}\n` : ''}\n` +
  `Confirmar reserva?`;
-
  window.open(
  `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(message)}`,
  '_blank'
  );
-
  setSubmitted(true);
  };
-
  const resetForm = () => {
  setReservation({
  service: '',
@@ -149,7 +130,6 @@ export default function SistemaReservacao() {
  setSubmitted(false);
  setIsOpen(false);
  };
-
  if (!isOpen) {
  return (
  <button
@@ -161,7 +141,6 @@ export default function SistemaReservacao() {
  </button>
  );
  }
-
  if (submitted) {
  return (
  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
@@ -196,7 +175,6 @@ export default function SistemaReservacao() {
  </div>
  );
  }
-
  return (
  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 overflow-y-auto">
  <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full my-8">
@@ -219,7 +197,6 @@ export default function SistemaReservacao() {
  <X className="w-6 h-6" />
  </button>
  </div>
-
  {/* Progress Bar */}
  <div className="px-6 pt-6">
  <div className="flex items-center justify-between mb-2">
@@ -240,7 +217,6 @@ export default function SistemaReservacao() {
  />
  </div>
  </div>
-
  {/* Step 1: Service & City */}
  {step === 1 && (
  <div className="p-6 space-y-6">
@@ -267,7 +243,6 @@ export default function SistemaReservacao() {
  ))}
  </div>
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-900 mb-3">
  Em que cidade?
@@ -283,7 +258,6 @@ export default function SistemaReservacao() {
  ))}
  </select>
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-900 mb-3">
  Urgência
@@ -315,7 +289,6 @@ export default function SistemaReservacao() {
  </button>
  </div>
  </div>
-
  <button
  onClick={handleNext}
  disabled={!reservation.service || !reservation.city}
@@ -325,7 +298,6 @@ export default function SistemaReservacao() {
  </button>
  </div>
  )}
-
  {/* Step 2: Date & Time */}
  {step === 2 && (
  <div className="p-6 space-y-6">
@@ -351,7 +323,6 @@ export default function SistemaReservacao() {
  ))}
  </div>
  </div>
-
  {reservation.date && (
  <div>
  <label className="block text-sm font-semibold text-gray-900 mb-3">
@@ -379,7 +350,6 @@ export default function SistemaReservacao() {
  </div>
  </div>
  )}
-
  <div className="flex gap-3">
  <button
  onClick={() => setStep(1)}
@@ -397,7 +367,6 @@ export default function SistemaReservacao() {
  </div>
  </div>
  )}
-
  {/* Step 3: Contact Info */}
  {step === 3 && (
  <form onSubmit={handleSubmit} className="p-6 space-y-4">
@@ -415,7 +384,6 @@ export default function SistemaReservacao() {
  placeholder="João Silva"
  />
  </div>
-
  <div>
  <label htmlFor="phone" className="block text-sm font-semibold text-gray-900 mb-2">
  Telefone *
@@ -430,7 +398,6 @@ export default function SistemaReservacao() {
  placeholder="+351 912 345 678"
  />
  </div>
-
  <div>
  <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
  Email *
@@ -445,7 +412,6 @@ export default function SistemaReservacao() {
  placeholder="joao@exemplo.pt"
  />
  </div>
-
  <div>
  <label htmlFor="notes" className="block text-sm font-semibold text-gray-900 mb-2">
  Notas adicionais (opcional)
@@ -459,7 +425,6 @@ export default function SistemaReservacao() {
  placeholder="Detalhes sobre o problema..."
  />
  </div>
-
  <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-4">
  <h4 className="font-bold text-blue-900 mb-2">Resumo da Reserva</h4>
  <div className="space-y-1 text-sm text-blue-900">
@@ -470,7 +435,6 @@ export default function SistemaReservacao() {
  <p>🚨 {reservation.urgency === 'urgent' ? 'URGENTE' : 'Normal'}</p>
  </div>
  </div>
-
  <div className="flex gap-3">
  <button
  type="button"
@@ -486,7 +450,6 @@ export default function SistemaReservacao() {
  ✓ Confirmar Reserva
  </button>
  </div>
-
  <p className="text-xs text-gray-600 text-center">
  Receberá confirmação por SMS e Email em 5-10 minutos
  </p>

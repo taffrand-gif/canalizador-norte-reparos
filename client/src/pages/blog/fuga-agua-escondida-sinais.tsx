@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, AlertTriangle, CheckCircle, Droplets, TrendingUp, Home } from 'lucide-react';
-
 export default function FugaAguaEscondidaSinais() {
  const faqSchema = {
  "@context": "https://schema.org",
@@ -49,7 +48,6 @@ export default function FugaAguaEscondidaSinais() {
  }
  ]
  };
-
  const sinais = [
  {
  numero: 1,
@@ -108,7 +106,6 @@ export default function FugaAguaEscondidaSinais() {
  acao: "Verifique se vizinhos têm o mesmo problema. Se só você, faça teste do contador."
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -120,7 +117,6 @@ export default function FugaAguaEscondidaSinais() {
  {JSON.stringify(faqSchema)}
  </script>
  </Helmet>
-
  <div className="min-h-screen bg-gray-50">
  <article className="max-w-4xl mx-auto px-4 py-12">
  {/* Hero */}
@@ -140,7 +136,6 @@ export default function FugaAguaEscondidaSinais() {
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
-
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
@@ -150,7 +145,6 @@ export default function FugaAguaEscondidaSinais() {
  anote o contador, 30 min. Se mudou, tem fuga. Em Bragança, detetamos fugas com câmara térmica por 80-150€.
  </p>
  </div>
-
  {/* Alerta Impacto */}
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-12">
  <div className="flex items-start gap-4">
@@ -170,7 +164,6 @@ export default function FugaAguaEscondidaSinais() {
  </div>
  </div>
  </div>
-
  {/* 7 Sinais */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-8">7 Sinais de Alerta (Do Mais Grave ao Menos)</h2>
@@ -216,7 +209,6 @@ export default function FugaAguaEscondidaSinais() {
  ))}
  </div>
  </section>
-
  {/* Teste DIY */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Teste Simples para Confirmar Fuga (5 Minutos)</h2>
@@ -245,13 +237,12 @@ export default function FugaAguaEscondidaSinais() {
  </div>
  </div>
  </section>
-
  {/* CTA Meio */}
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <Droplets className="w-16 h-16 mx-auto mb-4 opacity-90" />
  <h3 className="text-2xl font-bold mb-4">Confirmou uma Fuga de Água?</h3>
  <p className="text-lg mb-6 opacity-90">
- Detetamos fugas com câmara térmica sem partir paredes. Orçamento gratuito.
+ Detetamos fugas com câmara térmica sem partir paredes. Sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -270,7 +261,6 @@ export default function FugaAguaEscondidaSinais() {
  </a>
  </div>
  </div>
-
  {/* Locais Comuns */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Locais Mais Comuns de Fugas Escondidas</h2>
@@ -293,7 +283,6 @@ export default function FugaAguaEscondidaSinais() {
  ))}
  </div>
  </section>
-
  {/* FAQ */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Perguntas Frequentes</h2>
@@ -310,7 +299,6 @@ export default function FugaAguaEscondidaSinais() {
  ))}
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Artigos Relacionados</h2>
@@ -335,7 +323,6 @@ export default function FugaAguaEscondidaSinais() {
  </Link>
  </div>
  </section>
-
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Deteção Profissional de Fugas</h3>

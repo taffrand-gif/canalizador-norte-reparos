@@ -1,15 +1,12 @@
 // FAQSchema - Featured Snippets pour Google
 // Affiche les FAQ directement dans les résultats (+10% visibilité)
-
 interface FAQ {
  question: string;
  answer: string;
 }
-
 interface FAQSchemaProps {
  faqs: FAQ[];
 }
-
 export function FAQSchema({ faqs }: FAQSchemaProps) {
  const schema = {
  "@context": "https://schema.org",
@@ -23,7 +20,6 @@ export function FAQSchema({ faqs }: FAQSchemaProps) {
  }
  }))
  };
-
  return (
  <script
  type="application/ld+json"
@@ -31,7 +27,6 @@ export function FAQSchema({ faqs }: FAQSchemaProps) {
  />
  );
 }
-
 // FAQ Premium pour Canalizador
 export const canalizadorFAQs: FAQ[] = [
  {
@@ -59,7 +54,7 @@ export const canalizadorFAQs: FAQ[] = [
  answer: "Desentupimento de sanita custa €60 em Bragança. Inclui deslocação e equipamento profissional. Resolvemos 95% dos casos em menos de 30 minutos."
  },
  {
- question: "Fazem orçamento gratuito?",
+ question: "Fazem sem compromisso?",
  answer: "Sim, o orçamento é sempre gratuito e sem compromisso. Só paga se aprovar o serviço."
  },
  {

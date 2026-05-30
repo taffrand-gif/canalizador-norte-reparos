@@ -3,7 +3,6 @@
  * 
  * 15 témoignages crédibles : nom, ville, service, note, date
  */
-
 export interface Testimonial {
  id: number;
  name: string;
@@ -14,7 +13,6 @@ export interface Testimonial {
  text: string;
  verified: boolean;
 }
-
 export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  {
  id: 1,
@@ -167,7 +165,6 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  verified: true
  }
 ];
-
 // Statistiques pour Norte-Reparos uniquement
 export const TESTIMONIALS_STATS = {
  total: 15,

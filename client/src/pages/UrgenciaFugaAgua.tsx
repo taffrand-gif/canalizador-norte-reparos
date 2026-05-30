@@ -77,7 +77,7 @@ export default function UrgenciaFugaAgua() {
  <div className="flex items-start gap-3">
  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
  <div>
- <p className="font-bold">Garantia 2 anos</p>
+ <p className="font-bold">Garantia do serviço</p>
  <p className="text-sm text-red-100">Por escrito</p>
  </div>
  </div>
@@ -154,7 +154,7 @@ export default function UrgenciaFugaAgua() {
  { step: '2', title: 'Técnico a caminho', time: '30-90 min', desc: 'Confirmamos hora de chegada por SMS/WhatsApp.' },
  { step: '3', title: 'Diagnóstico + Orçamento', time: '15 min', desc: 'Identificamos o problema. Preço fixo antes de começar.' },
  { step: '4', title: 'Arranjo imediata', time: '1-3 horas', desc: 'Resolvemos com equipamento profissional.' },
- { step: '5', title: 'Garantia 2 anos', time: 'Por escrito', desc: 'Certificado de garantia entregue no final.' }
+ { step: '5', title: 'Garantia do serviço', time: 'Por escrito', desc: 'Certificado de garantia entregue no final.' }
  ].map((item, i) => (
  <div key={i} className="flex gap-6 items-start bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-shadow">
  <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">
@@ -178,7 +178,7 @@ export default function UrgenciaFugaAgua() {
  Preço Médio: 80-150€
  </p>
  <p className="text-gray-600 mb-6">
- (Maioria dos casos. Orçamento gratuito e sem compromisso)
+ (Maioria dos casos. Sem compromisso e sem compromisso)
  </p>
  <a
  href={whatsappUrl}
@@ -250,7 +250,7 @@ export default function UrgenciaFugaAgua() {
  {[
  {
  q: 'Quanto custa arranjar uma fuga de água?',
- a: '80-200€ dependendo da complexidade. Fugas simples (torneiras, ligações): 80-120€. Fugas em canalizações: 120-200€. Orçamento gratuito antes de começar.'
+ a: '80-200€ dependendo da complexidade. Fugas simples (torneiras, ligações): 80-120€. Fugas em canalizações: 120-200€. Sem compromisso antes de começar.'
  },
  {
  q: 'Vão partir os azulejos?',

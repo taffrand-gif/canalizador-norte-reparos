@@ -4,16 +4,13 @@ import React from 'react';
 // - Grid layout with project cards
 // - Before/after comparisons
 // - Bold project titles
-
 import { useSite } from '@/contexts/SiteContext';
 import { CheckCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 // memo removed from 'react';
-
 function Trabalhos() {
  const { config } = useSite();
  const { trackPhoneClick } = useAnalytics();
-
  // Placeholder projects - will be replaced with real images
  const projects = [
  {
@@ -47,7 +44,6 @@ function Trabalhos() {
  description: 'Renovação completa das instalações sanitárias de restaurante.',
  image: 'https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?w=800&h=600&fit=crop'},
  ];
-
  return (
  <section id="trabalhos" className="py-20 bg-white">
  <div className="container">
@@ -60,7 +56,6 @@ function Trabalhos() {
  Veja alguns dos nossos projetos concluídos com sucesso. Cada trabalho é realizado com o máximo rigor e profissionalismo.
  </p>
  </div>
-
  {/* Projects grid */}
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
  {projects.map((project, index) => (
@@ -80,7 +75,6 @@ function Trabalhos() {
  height="300"
  />
  </div>
-
  {/* Content */}
  <div className="p-6">
  <div className="flex items-start gap-2 mb-3">
@@ -104,7 +98,6 @@ function Trabalhos() {
  </div>
  ))}
  </div>
-
  {/* Bottom CTA */}
  <div className="mt-16 text-center">
  <div className="inline-block p-8 border-4 bg-gray-50" style={{ borderColor: config.colors.primary }}>
@@ -112,7 +105,7 @@ function Trabalhos() {
  Quer um trabalho com esta qualidade?
  </p>
  <p className="text-gray-600 mb-6">
- Contacte-nos para um orçamento gratuito e sem compromisso.
+ Contacte-nos para um sem compromisso e sem compromisso.
  </p>
  <a
  href={`tel:+351${config.phone.replace(/\s/g, '')}`}
@@ -129,5 +122,4 @@ function Trabalhos() {
  </section>
  );
 }
-
 export default React.memo(Trabalhos);

@@ -1,7 +1,6 @@
 import React from 'react';
 // memo removed from 'react';
 import { Star, Clock, MapPin } from 'lucide-react';
-
 interface Testimonial {
  name: string;
  city: string;
@@ -12,13 +11,11 @@ interface Testimonial {
  photo?: string;
  verified?: boolean;
 }
-
 interface EmergencyTestimonialsProps {
  title: string;
  subtitle: string;
  testimonials: Testimonial[];
 }
-
 function EmergencyTestimonials({
  title,
  subtitle,
@@ -36,7 +33,6 @@ function EmergencyTestimonials({
  {subtitle}
  </p>
  </div>
-
  {/* Testimonials Grid */}
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
  {testimonials.map((testimonial, index) => (
@@ -74,7 +70,6 @@ function EmergencyTestimonials({
  </div>
  )}
  </div>
-
  {/* Rating */}
  <div className="flex items-center gap-1 mb-3">
  {[...Array(5)].map((_, i) => (
@@ -88,17 +83,14 @@ function EmergencyTestimonials({
  />
  ))}
  </div>
-
  {/* Problem Badge */}
  <div className="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-bold mb-3">
  {testimonial.problem}
  </div>
-
  {/* Solution */}
  <p className="text-gray-700 leading-relaxed mb-4">
  "{testimonial.solution}"
  </p>
-
  {/* Timeframe */}
  <div className="flex items-center gap-2 text-sm text-gray-600 bg-blue-50 px-3 py-2 rounded">
  <Clock className="w-4 h-4 text-blue-600" />
@@ -109,7 +101,6 @@ function EmergencyTestimonials({
  </div>
  ))}
  </div>
-
  {/* Trust Footer */}
  <div className="mt-12 text-center">
  <div className="inline-flex items-center gap-3 bg-white px-8 py-4 rounded-full border-2 border-gray-200">
@@ -130,5 +121,4 @@ function EmergencyTestimonials({
  </section>
  );
 }
-
 export default React.memo(EmergencyTestimonials);

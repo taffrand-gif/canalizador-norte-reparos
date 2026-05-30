@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Sernancelhe() {
  useEffect(() => {
  document.title = "Canalizador Sernancelhe 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Sernancelhe disponível 24h. Canalização para casas de granito, turismo religioso, desentupimentos e fugas. Terra da castanha. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Sernancelhe disponível 24h. Canalização para casas de granito, turismo religioso, desentupimentos e fugas. Terra da castanha. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sernancelhe');
-
  const cityAddress = getCityAddress('sernancelhe');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function Sernancelhe() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function Sernancelhe() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-sernancelhe'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('sernancelhe');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Sernancelhe?", answer: "Chegamos a Sernancelhe em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para igrejas e edifícios religiosos?", answer: "Sim, temos experiência em canalização para edifícios religiosos e patrimoniais, com cuidado especial na preservação das estruturas de granito centenárias." },
@@ -70,7 +65,6 @@ export default function Sernancelhe() {
  question: "Qual o custo de deslocação a Sernancelhe?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 100km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function Sernancelhe() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Sernancelhe" currentCitySlug="canalizador-sernancelhe" />
  </main>

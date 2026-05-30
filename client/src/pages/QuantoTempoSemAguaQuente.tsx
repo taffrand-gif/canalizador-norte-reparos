@@ -1,16 +1,13 @@
 // Page SEO optimisée: "Quanto Tempo Sem Água Quente" - Intention urgence/panique
 // Recherche fréquente: "quanto tempo sem agua quente", "esquentador avariado quanto tempo", "quanto tempo arranjar esquentador"
-
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, CheckCircle, AlertTriangle, Wrench, Zap } from 'lucide-react';
-
 export default function QuantoTempoSemAguaQuente() {
  const { config } = useSite();
-
  const schemaData = {
  "@context": "https://schema.org",
  "@type": "Article",
@@ -26,7 +23,6 @@ export default function QuantoTempoSemAguaQuente() {
  "telephone": config.phone
  }
  };
-
  const faqs = [
  {
  question: "Quanto tempo fico sem água quente se esquentador avariar?",
@@ -45,7 +41,6 @@ export default function QuantoTempoSemAguaQuente() {
  answer: "SIM, se ligar de manhã. Chegamos 30-45 min, arranjamos 2-4h. Se ligar 09:00, água quente 12:00-14:00. Atendemos urgências 24h: 928 484 451"
  }
  ];
-
  const tempos = [
  {
  tipo: "Avaria Simples",
@@ -113,7 +108,6 @@ export default function QuantoTempoSemAguaQuente() {
  icon: Zap
  }
  ];
-
  const factores = [
  {
  factor: "Tipo de Avaria",
@@ -141,7 +135,6 @@ export default function QuantoTempoSemAguaQuente() {
  tempo: "20-30 min"
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -152,7 +145,6 @@ export default function QuantoTempoSemAguaQuente() {
  </script>
  </Helmet>
  <Header />
-
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero */}
  <section className="bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white py-16">
@@ -162,16 +154,13 @@ export default function QuantoTempoSemAguaQuente() {
  <Clock className="w-5 h-5" />
  URGENTE 24H
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Quanto Tempo Sem Água Quente?
  </h1>
-
  <p className="text-xl mb-8">
  Esquentador arranjado em 2-4 horas. Canalizador chega em 30-45 minutos.
  90% avarias resolvidas no mesmo dia. Atendimento urgente 24h.
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -192,7 +181,6 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </div>
  </section>
-
  {/* Tabela de Tempos */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -202,7 +190,6 @@ export default function QuantoTempoSemAguaQuente() {
  <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
  Tempos incluem: chegada + diagnóstico + arranjo + teste água quente
  </p>
-
  <div className="max-w-5xl mx-auto space-y-6">
  {tempos.map((item, index) => (
  <div key={index} className={`rounded-xl shadow-lg overflow-hidden border-2 ${
@@ -229,7 +216,6 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </div>
  </div>
-
  <div className="p-6">
  <div className="grid md:grid-cols-2 gap-6">
  <div>
@@ -243,7 +229,6 @@ export default function QuantoTempoSemAguaQuente() {
  ))}
  </ul>
  </div>
-
  <div className="space-y-4">
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200">
  <div className="text-sm text-gray-600 mb-1">Solução:</div>
@@ -265,14 +250,12 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </div>
  </section>
-
  {/* Factores */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center mb-12">
  ⚙️ Factores que Afectam o Tempo
  </h2>
-
  <div className="max-w-4xl mx-auto space-y-4">
  {factores.map((item, index) => (
  <div key={index} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#2193b0]">
@@ -291,14 +274,12 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </div>
  </section>
-
  {/* Timeline */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center mb-12">
  📅 Timeline Típica (Avaria Simples)
  </h2>
-
  <div className="max-w-3xl mx-auto">
  <div className="space-y-6">
  {[
@@ -334,7 +315,6 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-4xl">
@@ -344,7 +324,6 @@ export default function QuantoTempoSemAguaQuente() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white">
  <div className="container mx-auto px-4 text-center">
@@ -366,7 +345,6 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  </section>
  </main>
-
  <Footer />
  </>
  );

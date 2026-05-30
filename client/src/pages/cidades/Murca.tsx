@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Murca() {
  useEffect(() => {
  document.title = "Canalizador Murça 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function Murca() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Murça disponível 24h. Desentupimentos, fugas de água, canalização para lagares de azeite e quintas vinícolas. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Murça disponível 24h. Desentupimentos, fugas de água, canalização para lagares de azeite e quintas vinícolas. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function Murca() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-murca');
-
  const cityAddress = getCityAddress('murca');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-murca';
@@ -54,7 +50,6 @@ export default function Murca() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function Murca() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-murca');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('murca');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Murça?", answer: "Chegamos a Murça em aproximadamente 45-55 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros pelo IP4." },
  { question: "Fazem canalização para lagares de azeite?", answer: "Sim, instalamos redes de água e drenagem para lagares de azeite, com tubagens resistentes e sistemas de escoamento adequados ao processamento de azeitona." },
@@ -88,7 +80,6 @@ export default function Murca() {
  question: "Qual o custo de deslocação a Murça?",
  answer: "A deslocação é de 45€ (Zona 4). Chegamos em aproximadamente 45-55 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function Murca() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Murça</h2>
@@ -123,9 +113,7 @@ export default function Murca() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Murça</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Murça?</h2>
@@ -139,9 +127,7 @@ export default function Murca() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Murça" currentCitySlug="canalizador-murca" />
  </main>
  <Footer />

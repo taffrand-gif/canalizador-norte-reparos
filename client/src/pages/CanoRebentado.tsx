@@ -7,7 +7,6 @@ import SolutionTimeline from '@/components/SolutionTimeline';
 import EmergencyTestimonials from '@/components/EmergencyTestimonials';
 import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 export default function CanoRebentado() {
  useEffect(() => {
  document.title = "Cano Rebentado? Paramos a Inundação em 20 Minutos | Norte Reparos";
@@ -19,7 +18,6 @@ export default function CanoRebentado() {
  }
  meta.setAttribute('content', 'Cano rebentado? Inundação em casa? Paramos a água em 20 minutos. Disponível 24h. Arranjo urgente. Ligue +351 928 484 451.');
  }, []);
-
  const faqSchema = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -37,17 +35,15 @@ export default function CanoRebentado() {
  "name": "Quanto custa arranjar um cano rebentado?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Arranjos simples desde €120. Substituição de canos €200-400. Arranjos complexas €400-800. Orçamento gratuito no local. Preço fixo antes de começar."
+ "text": "Arranjos simples desde €120. Substituição de canos €200-400. Arranjos complexas €400-800. Sem compromisso no local. Preço fixo antes de começar."
  }
  }
  ]
  };
-
  return (
  <>
  <Header />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
  <EmotionalHero
  painPoint="CANO REBENTADO URGENTE"
  headline="Cano Rebentado? Paramos a Inundação AGORA"
@@ -60,7 +56,6 @@ export default function CanoRebentado() {
  ctaSecondary="WhatsApp URGENTE"
  responseTime="15 minutos"
  />
-
  <PainPointSection
  title="Sabemos o Desespero Que Está a Viver"
  subtitle="Um cano rebentado é uma catástrofe. Água descontrolada, danos massivos, pânico total."
@@ -92,7 +87,6 @@ export default function CanoRebentado() {
  }
  ]}
  />
-
  <SolutionTimeline
  title="Como Paramos a Inundação em 20 Minutos"
  subtitle="Resposta de emergência. Rápida, eficaz, profissional."
@@ -125,7 +119,6 @@ export default function CanoRebentado() {
  }
  ]}
  />
-
  <EmergencyTestimonials
  title="Já Parámos Centenas de Inundações"
  subtitle="Famílias que salvaram as suas casas graças à nossa rapidez."
@@ -186,7 +179,6 @@ export default function CanoRebentado() {
  }
  ]}
  />
-
  <GuaranteeBox
  title="Garantias de Emergência"
  subtitle="Em situações de emergência, garantimos resposta imediata e eficaz."
@@ -215,7 +207,6 @@ export default function CanoRebentado() {
  }
  ]}
  />
-
  {/* FAQ Section */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -230,7 +221,7 @@ export default function CanoRebentado() {
  },
  {
  q: 'Quanto custa arranjar um cano rebentado?',
- a: 'Arranjos simples (soldar, vedar) desde €120. Substituição de troço de cano €200-400. Arranjos complexas (canos em paredes/chão) €400-800. Damos sempre orçamento gratuito no local antes de começar. Em emergências, paramos primeiro a água, depois fazemos orçamento para arranjo definitiva.'
+ a: 'Arranjos simples (soldar, vedar) desde €120. Substituição de troço de cano €200-400. Arranjos complexas (canos em paredes/chão) €400-800. Damos sempre sem compromisso no local antes de começar. Em emergências, paramos primeiro a água, depois fazemos orçamento para arranjo definitiva.'
  },
  {
  q: 'Porque é que os canos rebentam?',
@@ -257,7 +248,6 @@ export default function CanoRebentado() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-16 px-4 bg-gradient-to-r from-red-600 to-red-800 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -288,7 +278,6 @@ export default function CanoRebentado() {
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

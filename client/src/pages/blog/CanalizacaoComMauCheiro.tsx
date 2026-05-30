@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const CanalizacaoComMauCheiro: React.FC = () => {
  useSEO({
  title: 'Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]',
  description: 'Mau cheiro na canalização? Descubra 6 soluções profissionais para eliminar odores permanentemente. Guia completo com causas e prevenção.',
  keywords: 'mau cheiro canalização, cheiro esgoto casa, odor canalização, eliminar mau cheiro ralo, sifão com cheiro'
  });
-
  return (
  <BlogLayout
  title="Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]"
@@ -23,11 +21,9 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <span>⏱️ 12 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">👃</span>
@@ -38,21 +34,18 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg mb-8">
  <p className="text-orange-900 font-semibold text-lg">
  👃 Mau cheiro na canalização não é normal! Indica problema que precisa ser resolvido.
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Mau cheiro vindo da canalização é problema comum mas muito incómodo. Neste guia completo,
  vamos identificar as 7 causas principais, apresentar 6 soluções eficazes e ensinar como
  prevenir o retorno dos odores desagradáveis.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -64,15 +57,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">6. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="causas" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔍 7 Causas de Mau Cheiro na Canalização</h2>
-
  <p className="mb-6">
  Identificar a causa é essencial para escolher a solução correta:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-red-200">
  <div className="flex items-start gap-4">
@@ -96,7 +86,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-orange-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -119,7 +108,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-yellow-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-yellow-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -142,7 +130,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-blue-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-blue-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -165,7 +152,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-green-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-green-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -188,7 +174,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-purple-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -211,7 +196,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-pink-200">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-pink-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">
@@ -236,14 +220,11 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="identificar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔎 Como Identificar a Causa</h2>
-
  <p className="mb-6">
  Use este guia de diagnóstico para identificar rapidamente a origem do mau cheiro:
  </p>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <table className="w-full">
  <thead>
@@ -292,7 +273,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">💡 Teste Simples de Diagnóstico</h3>
  <ol className="text-cyan-800 space-y-2 list-decimal pl-6">
@@ -310,14 +290,11 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="solucoes" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">✅ 6 Soluções Eficazes</h2>
-
  <p className="mb-6">
  Depois de identificar a causa, aplique a solução adequada para eliminar o mau cheiro permanentemente:
  </p>
-
  <div className="space-y-8">
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
@@ -332,7 +309,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje 1-2 litros de água no ralo com cheiro</li>
@@ -340,20 +316,17 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Cheire novamente para verificar</li>
  <li>Se cheiro desapareceu, problema resolvido</li>
  </ol>
-
  <div className="bg-green-50 p-4 rounded-lg mb-3">
  <p className="text-green-900 text-sm">
  <strong>✅ Prevenção:</strong> Use ralos pouco usados pelo menos 1x por semana (despeje 1L água).
  </p>
  </div>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Dica:</strong> Em casas de férias ou quartos vazios, despeje água em todos os ralos antes de sair.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -367,7 +340,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque balde debaixo do sifão</li>
@@ -378,14 +350,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Verifique juntas de borracha (substitua se gastas)</li>
  <li>Volte a montar e teste (sem fugas)</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Guia Completo:</strong> Veja nosso artigo detalhado sobre <a href="/blog/sifao-entupido-como-limpar" className="text-cyan-600 hover:text-cyan-700 underline">como limpar sifão entupido</a>.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -399,14 +369,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>100g bicarbonato de sódio</li>
  <li>200ml vinagre branco</li>
  <li>2 litros água quente (não fervente)</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje bicarbonato de sódio no ralo</li>
@@ -415,14 +383,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Despeje água quente para enxaguar</li>
  <li>Repita se necessário</li>
  </ol>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Vantagens:</strong> Ecológico, seguro, não danifica canos, elimina biofilme bacteriano.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -436,7 +402,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Cheiro vem de debaixo do lavatório (não do ralo)</li>
@@ -444,7 +409,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Junta de borracha rachada ou deformada</li>
  <li>Odor persiste após limpar sifão</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Compre junta nova (leve a antiga para garantir tamanho correto)</li>
@@ -455,14 +419,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Volte a montar sifão</li>
  <li>Teste com água (sem fugas = sucesso)</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
  <strong>💡 Onde Comprar:</strong> Lojas de bricolage (Leroy Merlin, Aki, Bricomarché). Custo: 2-5€.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -476,7 +438,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Usar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Cheiro a mofo ou terra persistente</li>
@@ -484,7 +445,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Após limpeza mecânica (complemento)</li>
  <li>Canos antigos com acumulação</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Compre água oxigenada 10 volumes (farmácia)</li>
@@ -493,14 +453,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Enxague com água quente abundante</li>
  <li>Repita semanalmente durante 1 mês (casos graves)</li>
  </ol>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
  <strong>✅ Benefícios:</strong> Mata bactérias, elimina biofilme, desinfeta, não é tóxico, biodegradável.
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-xl">
@@ -514,7 +472,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Quando Chamar Canalizador:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
  <li><strong>Ventilação insuficiente:</strong> Gorgolejos, cheiro em vários ralos</li>
@@ -523,7 +480,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li><strong>Soluções caseiras não funcionaram:</strong> Após tentar tudo</li>
  <li><strong>Odor muito intenso:</strong> Indica problema grave</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">O Que o Profissional Faz:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Inspeção com câmara (identifica problema exato)</li>
@@ -533,7 +489,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Instalação/reparação de ventilação</li>
  <li>Garantia do trabalho realizado</li>
  </ul>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
  <strong>⚠️ Não Agravar:</strong> Problema estrutural só piora com tempo. Chame profissional rapidamente.
@@ -542,14 +497,11 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛡️ Prevenção de Odores</h2>
-
  <p className="mb-6">
  Prevenir mau cheiro é mais fácil que resolver. Siga estas 10 regras de ouro:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 💧 Use Ralos Regularmente</h3>
@@ -563,7 +515,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Ralos de chão: não esquecer (garagem, lavandaria)</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. 🧹 Limpeza Mensal com Bicarbonato</h3>
  <p className="text-gray-700 mb-2">
@@ -576,7 +527,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Previne 80% dos problemas de odor</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 🚫 Nunca Deite Gordura no Ralo</h3>
  <p className="text-gray-700 mb-2">
@@ -589,7 +539,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Use água quente ao lavar loiça gordurosa</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🧼 Água Quente Semanal</h3>
  <p className="text-gray-700 mb-2">
@@ -602,7 +551,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Melhor momento: após lavar loiça</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 🔍 Limpeza Trimestral de Sifões</h3>
  <p className="text-gray-700 mb-2">
@@ -615,7 +563,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Prioridade: cozinha e casa de banho principal</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 🧴 Use Grelhas Protectoras</h3>
  <p className="text-gray-700 mb-2">
@@ -628,7 +575,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Previne 70% dos entupimentos</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 🌬️ Ventile Casas de Banho</h3>
  <p className="text-gray-700 mb-2">
@@ -641,7 +587,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Limpe regularmente para evitar mofo</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">8. 🧪 Evite Produtos Químicos Agressivos</h3>
  <p className="text-gray-700 mb-2">
@@ -654,7 +599,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Limpeza mecânica é mais eficaz e segura</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">9. 🔧 Verifique Juntas Anualmente</h3>
  <p className="text-gray-700 mb-2">
@@ -667,7 +611,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Previne fugas e maus cheiros</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">10. 📅 Manutenção Preventiva Profissional</h3>
  <p className="text-gray-700 mb-2">
@@ -681,7 +624,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Benefícios da Prevenção</h3>
  <div className="grid md:grid-cols-2 gap-4">
@@ -700,14 +642,11 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="quando-chamar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📞 Quando Chamar Canalizador</h2>
-
  <p className="mb-6">
  Algumas situações requerem intervenção profissional. Não hesite em chamar canalizador quando:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Urgente - Chame Já</h3>
@@ -719,7 +658,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• <strong>Humidade nas paredes:</strong> Possível fuga escondida</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-lg">⚠️ Não Urgente - Agende</h3>
  <ul className="text-orange-800 space-y-2">
@@ -731,7 +669,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-8">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">💰 Custos de Intervenção Profissional</h3>
  
@@ -770,7 +707,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">✅ Vantagens de Chamar Profissional</h3>
  <div className="grid md:grid-cols-2 gap-4">
@@ -789,10 +725,8 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Porque é que a minha canalização cheira mal?</h3>
@@ -808,7 +742,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  💡 Teste simples: Despeje 1L água. Se cheiro desaparecer = sifão seco.
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Como eliminar mau cheiro da canalização rapidamente?</h3>
  <p className="text-gray-700 mb-2">
@@ -824,7 +757,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  ✅ Resolve 80% dos casos de mau cheiro
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Bicarbonato e vinagre realmente funcionam?</h3>
  <p className="text-gray-700 mb-2">
@@ -840,7 +772,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  💡 Vantagens: Ecológico, seguro, barato (2-3€), não danifica canos
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso usar lixívia para eliminar o cheiro?</h3>
  <p className="text-gray-700 mb-2">
@@ -858,7 +789,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Com que frequência devo limpar os sifões?</h3>
  <p className="text-gray-700 mb-2">
@@ -874,7 +804,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  💡 Manutenção preventiva mensal: bicarbonato + vinagre (evita limpeza profunda)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">O cheiro pode ser perigoso para a saúde?</h3>
  <p className="text-gray-700 mb-2">
@@ -895,7 +824,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  ⚠️ Se odor for muito intenso ou causar tonturas/náuseas, ventile bem e chame canalizador urgente
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa resolver mau cheiro na canalização?</h3>
  <p className="text-gray-700 mb-2">
@@ -929,7 +857,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  ✅ 90% dos casos resolvem-se com soluções DIY (0-5€)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Cheiro vem apenas de um ralo ou de vários?</h3>
  <p className="text-gray-700 mb-2">
@@ -949,16 +876,13 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Mau Cheiro Persistente? Ajuda Profissional</h2>
  <p className="text-xl mb-6">
  Se soluções caseiras não resolveram, contacte canalizador profissional.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Canalizador em Bragança</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -989,7 +913,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -1005,12 +928,10 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -1041,5 +962,4 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default CanalizacaoComMauCheiro;

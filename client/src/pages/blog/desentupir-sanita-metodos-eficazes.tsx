@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, AlertTriangle, CheckCircle, ThumbsUp, ThumbsDown, Clock, Euro } from 'lucide-react';
-
 export default function DesentupirSanitaMetodosEficazes() {
  const faqSchema = {
  "@context": "https://schema.org",
@@ -49,7 +48,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  }
  ]
  };
-
  const metodos = [
  {
  nome: "Desentupidor de Borracha (Ventosa)",
@@ -102,7 +100,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  contras: ["Custo mais elevado"]
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -114,7 +111,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  {JSON.stringify(faqSchema)}
  </script>
  </Helmet>
-
  <div className="min-h-screen bg-gray-50">
  <article className="max-w-4xl mx-auto px-4 py-12">
  {/* Hero */}
@@ -137,7 +133,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
-
  {/* Resposta Direta GEO */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
@@ -147,7 +142,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  por 60-120€ com garantia. <strong>Nunca use água a ferver</strong> - pode rachar a porcelana.
  </p>
  </div>
-
  {/* Aviso Importante */}
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-12">
  <div className="flex items-start gap-4">
@@ -161,7 +155,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </div>
  </div>
  </div>
-
  {/* Tabela Comparativa */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Comparação Rápida: 5 Métodos</h2>
@@ -196,7 +189,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </table>
  </div>
  </section>
-
  {/* Métodos Detalhados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-8">5 Métodos Detalhados (Do Mais Eficaz ao Menos)</h2>
@@ -261,7 +253,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  ))}
  </div>
  </section>
-
  {/* O Que NÃO Fazer */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">O Que NUNCA Fazer</h2>
@@ -286,7 +277,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </ul>
  </div>
  </section>
-
  {/* Quando Chamar Profissional */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Quando Chamar um Canalizador Profissional?</h2>
@@ -313,7 +303,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </ul>
  </div>
  </section>
-
  {/* CTA Meio */}
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <h3 className="text-2xl font-bold mb-4">Métodos Caseiros Não Funcionaram?</h3>
@@ -337,7 +326,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </a>
  </div>
  </div>
-
  {/* Prevenção */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Como Prevenir Entupimentos</h2>
@@ -372,7 +360,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Perguntas Frequentes</h2>
@@ -389,7 +376,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  ))}
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Artigos Relacionados</h2>
@@ -414,7 +400,6 @@ export default function DesentupirSanitaMetodosEficazes() {
  </Link>
  </div>
  </section>
-
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Precisa de Ajuda Profissional?</h3>
@@ -439,7 +424,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Resposta em menos de 30 minutos • Orçamento gratuito • Garantia no trabalho
+ Resposta em menos de 30 minutos • Sem compromisso • Garantia no trabalho
  </p>
  </div>
  </article>

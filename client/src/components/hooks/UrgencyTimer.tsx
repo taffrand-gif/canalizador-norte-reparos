@@ -1,30 +1,23 @@
 'use client';
-
 import { Clock } from 'lucide-react';
 import { useEffect, useState } from 'react';
-
 interface UrgencyTimerProps {
  guaranteedResponseTime?: number; // minutes
  discountPercentage?: number;
 }
-
 export default function UrgencyTimer({
  guaranteedResponseTime = 40,
  discountPercentage = 20
 }: UrgencyTimerProps) {
  const [timeLeft, setTimeLeft] = useState(3600); // 1 hour in seconds
-
  useEffect(() => {
  const timer = setInterval(() => {
  setTimeLeft((prev) => (prev > 0 ? prev - 1 : 0));
  }, 1000);
-
  return () => clearInterval(timer);
  }, []);
-
  const minutes = Math.floor(timeLeft / 60);
  const seconds = timeLeft % 60;
-
  return (
  <div className="bg-gradient-to-r from-red-500 to-orange-500 text-white p-4 rounded-lg shadow-lg">
  <div className="flex items-center justify-between">

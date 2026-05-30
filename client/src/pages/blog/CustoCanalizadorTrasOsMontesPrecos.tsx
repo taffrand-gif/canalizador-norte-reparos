@@ -2,14 +2,12 @@ import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  useSEO({
  title: 'Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026',
  description: 'Tabela completa de preços para serviços de canalização em Trás-os-Montes. Descubra quanto custa desentupimentos, arranjos e instalações.',
  keywords: 'preço canalizador, custo desentupimento, preços canalização Trás-os-Montes, quanto custa canalizador, orçamento canalização'
  });
-
  return (
  <BlogLayout
  title="Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026"
@@ -41,7 +39,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Featured image */}
  <div className="mb-10 rounded-2xl overflow-hidden">
  <img
@@ -56,7 +53,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  Preços transparentes e sem surpresas para serviços de canalização em Trás-os-Montes
  </p>
  </div>
-
  {/* Introduction */}
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
@@ -66,14 +62,12 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  complexidade e materiais específicos para o clima da região.
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6">
  Contratar um canalizador em Trás-os-Montes pode gerar dúvidas sobre preços, especialmente para quem 
  nunca precisou destes serviços. Neste guia completo, partilho uma tabela detalhada de preços médios 
  para 2026, fatores que influenciam o custo final, e dicas para obter orçamentos justos e transparentes.
  </p>
  </div>
-
  {/* Table of contents */}
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Neste Artigo</h2>
@@ -86,7 +80,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <li><a href="#orcamento-justo" className="text-blue-600 hover:text-blue-700">Como Obter um Orçamento Justo</a></li>
  </ul>
  </div>
-
  {/* Content sections */}
  <div className="prose prose-lg max-w-none">
  <section id="tabela-precos" className="mb-12">
@@ -170,7 +163,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mt-6">
  <h3 className="font-bold text-yellow-800 text-lg mb-2">📝 Notas Importantes:</h3>
  <ul className="text-yellow-700 space-y-2">
@@ -181,7 +173,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="fatores-custo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">⚖️ 7 Fatores que Influenciam o Preço Final</h2>
  
@@ -202,7 +193,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  materiais obsoletos e acesso difícil. Pode acrescer 20-40% ao preço base.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">⏰ Hora do Serviço</h3>
  <p className="text-gray-700">
@@ -210,7 +200,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  30-50%. Planeie serviços não urgentes para dias úteis entre 8h-18h.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">🔧 Complexidade</h3>
  <p className="text-gray-700">
@@ -218,7 +207,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  especial (câmaras de inspeção) aumentam significativamente o custo.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">📅 Época do Ano</h3>
  <p className="text-gray-700">
@@ -226,7 +214,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  para trabalhos de instalação ou renovação.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">🧱 Materiais Necessários</h3>
  <p className="text-gray-700">
@@ -234,7 +221,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  etc. Peça sempre especificação detalhada dos materais no orçamento.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200 md:col-span-2">
  <h3 className="font-bold text-gray-900 mb-3">👨‍🔧 Experiência do Profissional</h3>
  <p className="text-gray-700">
@@ -244,7 +230,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="desentupimentos" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🚽 Preços de Desentupimentos - Análise Detalhada</h2>
  
@@ -256,7 +241,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  problemas estruturais.
  </p>
  </div>
-
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Comparativo por Método:</h3>
  <div className="overflow-x-auto">
  <table className="min-w-full bg-white border border-gray-300 rounded-xl">
@@ -302,7 +286,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="mt-6 p-6 bg-green-50 border border-green-200 rounded-xl">
  <h4 className="font-bold text-green-800 text-lg mb-2">💡 Dica de Economia:</h4>
  <p className="text-green-700">
@@ -311,7 +294,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  </section>
-
  <section id="orcamento-justo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📝 Como Obter um Orçamento Justo e Transparente</h2>
  
@@ -329,7 +311,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="bg-blue-100 text-blue-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">2</div>
  <div>
@@ -340,7 +321,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="bg-blue-100 text-blue-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</div>
  <div>
@@ -352,7 +332,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="bg-blue-100 text-blue-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
  <div>
@@ -364,7 +343,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="mt-8 text-center">
  <p className="text-xl text-gray-900 mb-6">
  Precisa de um orçamento transparente para serviços de canalização em Trás-os-Montes?
@@ -391,7 +369,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  </section>
-
  {/* FAQ Section with JSON-LD Schema */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Preços de Canalização</h2>
@@ -421,7 +398,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  Exija sempre fatura-recibo com NIF para garantir conformidade fiscal.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">É normal pagar deslocação separada?</h3>
  <p className="text-gray-700">
@@ -433,7 +409,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  </div>
-
  {/* JSON-LD Schema for FAQ */}
  <script type="application/ld+json">
  {JSON.stringify({
@@ -469,7 +444,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </script>
  </section>
  </div>
-
  {/* Author bio */}
  <div className="bg-gray-50 rounded-2xl p-8 mt-12">
  <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -491,7 +465,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  </div>
-
  {/* Internal links to city pages */}
  <div className="mt-12 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8">
  <h3 className="text-2xl font-bold text-gray-900 mb-6">📍 Serviços de Canalização na Sua Localidade</h3>
@@ -521,5 +494,4 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default CustoCanalizadorTrasOsMontesPrecos;

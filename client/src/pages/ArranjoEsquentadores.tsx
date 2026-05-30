@@ -2,13 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
-
 const faqItems = [
  { question: "Com que frequência devo fazer manutenção ao esquentador?", answer: "Recomendamos manutenção anual para garantir eficiência e segurança. A limpeza do queimador e verificação do circuito de água prolongam a vida útil do equipamento em 5-10 anos." },
  { question: "Quando devo substituir o esquentador em vez de arranjar?", answer: "Se o esquentador tem mais de 15 anos, as arranjos são frequentes ou as peças já não existem, é mais económico substituir. Um esquentador novo é mais eficiente e seguro." },
  { question: "Arranjam todas as marcas de caldeiras?", answer: "Sim, arranjamos caldeiras e esquentadores de todas as marcas: Vaillant, Junkers/Bosch, Vulcano, Ariston, Baxi, Roca e outras. Temos peças originais em stock." }
 ];
-
 export default function ArranjacaoEsquentadores() {
  useEffect(() => {
  document.title = "Arranjo de Esquentadores e Caldeiras em Trás-os-Montes | Manutenção 24h";
@@ -16,14 +14,12 @@ export default function ArranjacaoEsquentadores() {
  if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
  meta.setAttribute('content', 'Arranjo de esquentadores e caldeiras em Trás-os-Montes. Manutenção, substituição, todas as marcas. Urgências 24h. Ligue +351 928 484 451.');
  }, []);
-
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
  "name": "Arranjo de Esquentadores e Caldeiras", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
  "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "100000" },
  "description": "Arranjo e manutenção profissional de esquentadores e caldeiras de todas as marcas em Trás-os-Montes."
  };
-
  return (
  <>
  <Header />
@@ -32,7 +28,6 @@ export default function ArranjacaoEsquentadores() {
  "@context": "https://schema.org", "@type": "FAQPage",
  "mainEntity": faqItems.map(item => ({ "@type": "Question", "name": item.question, "acceptedAnswer": { "@type": "Answer", "text": item.answer } }))
  }) }} />
-
  <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Arranjo de Esquentadores e Caldeiras</h1>
@@ -43,7 +38,6 @@ export default function ArranjacaoEsquentadores() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Os Nossos Serviços</h2>
@@ -63,7 +57,6 @@ export default function ArranjacaoEsquentadores() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Marcas que Arranjamos</h2>
@@ -74,7 +67,6 @@ export default function ArranjacaoEsquentadores() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
@@ -93,7 +85,6 @@ export default function ArranjacaoEsquentadores() {
  <p className="text-center text-gray-500 mt-6 text-sm">* Preços indicativos. Orçamento final após diagnóstico.</p>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Perguntas Frequentes</h2>
@@ -107,7 +98,6 @@ export default function ArranjacaoEsquentadores() {
  </div>
  </div>
  </section>
-
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
  <div className="max-w-4xl mx-auto text-center">
  <h2 className="text-3xl font-bold mb-4">Problemas com o Esquentador ou Caldeira?</h2>
@@ -118,7 +108,6 @@ export default function ArranjacaoEsquentadores() {
  </div>
  </div>
  </section>
-
  <section className="py-12 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
  <h3 className="text-xl font-bold text-center mb-6 text-gray-900">Também servimos:</h3>

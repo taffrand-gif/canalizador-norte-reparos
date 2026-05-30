@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, CheckCircle, Wrench, Euro } from 'lucide-react';
-
 export default function InstalacaoCasaBanho() {
  useEffect(() => {
  document.title = "Instalação Completa de Casa de Banho: Guia e Preços 2026";
@@ -14,8 +13,7 @@ export default function InstalacaoCasaBanho() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Guia completo para instalação de casa de banho em 2026: etapas, materiais, custos e prazos. Orçamento gratuito em Trás-os-Montes.');
-
+ metaDescription.setAttribute('content', 'Guia completo para instalação de casa de banho em 2026: etapas, materiais, custos e prazos. Sem compromisso em Trás-os-Montes.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -23,7 +21,6 @@ export default function InstalacaoCasaBanho() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/instalacao-casa-banho-completa-guia');
-
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -49,7 +46,6 @@ export default function InstalacaoCasaBanho() {
  });
  document.head.appendChild(script);
  }, []);
-
  const etapas = [
  {
  numero: 1,
@@ -94,7 +90,6 @@ export default function InstalacaoCasaBanho() {
  custo: "€400-800"
  }
  ];
-
  const materiais = [
  { item: "Sanita suspensa", preco: "€150-400" },
  { item: "Lavatório + móvel", preco: "€200-600" },
@@ -104,7 +99,6 @@ export default function InstalacaoCasaBanho() {
  { item: "Pavimento (m²)", preco: "€20-60" },
  { item: "Esquentador", preco: "€250-600" }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -125,7 +119,6 @@ export default function InstalacaoCasaBanho() {
  </div>
  </div>
  </section>
-
  {/* Introdução */}
  <section className="py-12">
  <div className="container max-w-3xl">
@@ -143,7 +136,6 @@ export default function InstalacaoCasaBanho() {
  </div>
  </div>
  </section>
-
  {/* Etapas */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -175,7 +167,6 @@ export default function InstalacaoCasaBanho() {
  </div>
  </div>
  </section>
-
  {/* Materiais e Preços */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -203,7 +194,6 @@ export default function InstalacaoCasaBanho() {
  </p>
  </div>
  </section>
-
  {/* Dicas Importantes */}
  <section className="py-16 bg-blue-50">
  <div className="container max-w-3xl">
@@ -242,7 +232,6 @@ export default function InstalacaoCasaBanho() {
  </div>
  </div>
  </section>
-
  {/* Prazo Total */}
  <section className="py-12 bg-gray-50">
  <div className="container max-w-3xl text-center">
@@ -254,7 +243,6 @@ export default function InstalacaoCasaBanho() {
  </p>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -265,7 +253,7 @@ export default function InstalacaoCasaBanho() {
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Macedo de Cavaleiros</a>, 
  <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
- Orçamento gratuito e sem compromisso.
+ Sem compromisso e sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
@@ -278,7 +266,6 @@ export default function InstalacaoCasaBanho() {
  </div>
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">

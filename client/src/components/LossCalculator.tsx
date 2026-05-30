@@ -2,10 +2,8 @@ import React from 'react';
 // Component: Loss Calculator
 // Interactive calculator showing how much money customer is wasting
 // Creates urgency and demonstrates value of fixing problems
-
 import { useSite } from '@/contexts/SiteContext';
 import { useState } from 'react';
-
 interface CalculatorResult {
  monthly: number;
  yearly: number;
@@ -13,11 +11,9 @@ interface CalculatorResult {
  savings: number;
  paybackMonths: number;
 }
-
 function LossCalculator() {
  const { config } = useSite();
  const [result, setResult] = useState<CalculatorResult | null>(null);
-
  const problems = [
  {
  id: 'drip',
@@ -57,29 +53,24 @@ function LossCalculator() {
  { value: 20, label: 'Sim, pode ter fuga escondida (€20/mês)' },
  ]},
  ];
-
  const handleCalculate = (e: React.FormEvent<HTMLFormElement>) => {
  e.preventDefault();
  const formData = new FormData(e.currentTarget);
-
  let monthlyLoss = 0;
  problems.forEach(problem => {
  const value = Number(formData.get(problem.id) || 0);
  monthlyLoss += value;
  });
-
  const yearlyLoss = monthlyLoss * 12;
  const repairCost = 150; // Average repair cost
  const savings = yearlyLoss - repairCost;
  const paybackMonths = repairCost / monthlyLoss;
-
  setResult({
  monthly: monthlyLoss,
  yearly: yearlyLoss,
  repairCost,
  savings,
  paybackMonths: Math.ceil(paybackMonths)});
-
  // Scroll to result
  setTimeout(() => {
  document.getElementById('calculator-result')?.scrollIntoView({
@@ -88,7 +79,6 @@ function LossCalculator() {
  });
  }, 100);
  };
-
  return (
  <section className="py-20 bg-gradient-to-b from-white to-gray-50">
  <div className="container">
@@ -103,7 +93,6 @@ function LossCalculator() {
  Descubra quanto está a desperdiçar.
  </p>
  </div>
-
  {/* Calculator Form */}
  <form
  onSubmit={handleCalculate}
@@ -131,7 +120,6 @@ function LossCalculator() {
  </div>
  ))}
  </div>
-
  <button
  type="submit"
  className="w-full mt-8 py-5 px-8 text-xl font-black text-white rounded-lg shadow-lg hover:shadow-xl transition-all"
@@ -140,7 +128,6 @@ function LossCalculator() {
  💰 Calcular Quanto Estou a Perder
  </button>
  </form>
-
  {/* Result */}
  {result && result.monthly > 0 && (
  <div
@@ -164,7 +151,6 @@ function LossCalculator() {
  Por ano: <strong className="text-gray-900">€{result.yearly}</strong>
  </p>
  </div>
-
  {/* Solution */}
  <div className="bg-green-50 border-4 border-green-500 rounded-lg p-6 mb-6">
  <h4 className="text-2xl font-black text-green-900 mb-4 flex items-center gap-2">
@@ -186,14 +172,12 @@ function LossCalculator() {
  </p>
  </div>
  </div>
-
  {/* Urgency Message */}
  <div className="bg-red-50 border-4 border-red-500 rounded-lg p-6 mb-6">
  <p className="text-xl font-bold text-red-900 text-center">
  ⚠️ Cada dia que passa = Mais €{(result.monthly / 30).toFixed(2)} desperdiçados
  </p>
  </div>
-
  {/* CTA */}
  <div className="text-center">
  <p className="text-2xl font-black mb-6">
@@ -220,7 +204,6 @@ function LossCalculator() {
  ✅ Orçamento grátis • ✅ Chegamos em 40min • ✅ Garantia 6 meses
  </p>
  </div>
-
  {/* Guarantee */}
  <div className="mt-8 p-6 bg-gray-50 rounded-lg border-2 border-gray-200">
  <p className="text-center text-gray-700">
@@ -230,7 +213,6 @@ function LossCalculator() {
  </div>
  </div>
  )}
-
  {result && result.monthly === 0 && (
  <div className="bg-green-50 border-4 border-green-500 rounded-lg p-8 text-center">
  <span className="text-6xl mb-4 block">🎉</span>
@@ -254,5 +236,4 @@ function LossCalculator() {
  </section>
  );
 }
-
 export default React.memo(LossCalculator);

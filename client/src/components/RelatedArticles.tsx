@@ -1,10 +1,8 @@
 // Componente RelatedArticles - Mostra os artigos relacionados para o linking interno SEO
 import { Link } from 'wouter';
-
 interface RelatedArticlesProps {
  currentArticleSlug: string;
 }
-
 export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesProps) {
  // Lista dos artigos com seus slugs e descrições
  const allArticles = [
@@ -63,14 +61,11 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
  category: 'Desentupimento'
  },
  ];
-
  // Filtrar para excluir o artigo atual
  const relatedArticles = allArticles
  .filter(article => article.slug !== currentArticleSlug)
  .slice(0, 3); // Pegar 3 artigos no máximo
-
  if (relatedArticles.length === 0) return null;
-
  return (
  <section className="py-12 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -82,7 +77,6 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
  Continue a aprender sobre canalização e manutenção doméstica
  </p>
  </div>
-
  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
  {relatedArticles.map((article) => (
  <Link 
@@ -119,7 +113,6 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
  </Link>
  ))}
  </div>
-
  <div className="text-center mt-8">
  <Link href="/blog">
  <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors">

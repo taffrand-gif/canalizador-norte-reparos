@@ -2,7 +2,6 @@ import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import OptimizedImage from './OptimizedImage';
-
 const serviceImages = {
  'Desentupimentos': 'service-desentupimentos.jpg',
  'Arranjo de Fugas de Água': 'service-desentupimentos.jpg',
@@ -10,7 +9,6 @@ const serviceImages = {
  'Aquecimento Central': 'service-aquecimento.jpg',
  'Canalização Nova': 'service-sala-banho.jpg',
  'Urgências 24h': 'service-urgencia.jpg'};
-
 const serviceDescriptions = {
  'Desentupimentos': 'Desentupimento rápido e eficiente de canalizações, WC, pias, ralos e esgotos. Utilizamos equipamento moderno e técnicas não invasivas.',
  'Arranjo de Fugas de Água': 'Deteção com câmara térmica FLIR, endoscópio HD e geofone. Arranjo sem partir paredes. Relatório técnico para seguro e condomínio incluído.',
@@ -18,7 +16,6 @@ const serviceDescriptions = {
  'Aquecimento Central': 'Instalação, manutenção e arranjo de sistemas de aquecimento central, caldeiras, esquentadores e radiadores.',
  'Canalização Nova': 'Instalação de nova canalização para construções, renovações ou ampliações. Materiais de qualidade e instalação profissional.',
  'Urgências 24h': 'Atendimento de urgências 24 horas por dia, 7 dias por semana, para fugas de água, entupimentos e outras emergências.'};
-
 const serviceFeatures = {
  'Desentupimentos': [
  'Equipamento de alta pressão e câmera de inspeção',
@@ -50,13 +47,11 @@ const serviceFeatures = {
  'Urgências 24h': [
  'Resposta em menos de 45 minutos',
  'Equipe equipada para qualquer emergência',
- 'Orçamento gratuito no local'
+ 'Sem compromisso no local'
  ]
 };
-
 const OptimizedServices: React.FC = () => {
  const { config } = useSite();
-
  return (
  <section className="py-20 bg-gradient-to-b from-white to-blue-50">
  <div className="container mx-auto px-4">
@@ -69,13 +64,11 @@ const OptimizedServices: React.FC = () => {
  Serviços completos de canalização para residências, comércios e indústrias em toda a região de Trás-os-Montes.
  </p>
  </div>
-
  {/* Grille de services */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
  {ACTIVE_CONFIG.services.map((service, index) => {
  const imageName = service in serviceImages ? serviceImages[service as keyof typeof serviceImages] : 'service-desentupimentos.jpg';
  const description = service in serviceDescriptions ? serviceDescriptions[service as keyof typeof serviceDescriptions] : 'Serviço profissional de qualidade.';
-
  return (
  <div
  key={index}
@@ -93,18 +86,15 @@ const OptimizedServices: React.FC = () => {
  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
  />
  </div>
-
  {/* Contenu du service */}
  <div className="p-6">
  <div className="flex items-center gap-3 mb-4">
  <div className="text-2xl text-blue-600">💧</div>
  <h3 className="text-xl font-bold text-gray-900">{service}</h3>
  </div>
-
  <p className="text-gray-600 mb-6">
  {description}
  </p>
-
  <div className="space-y-3">
  {(serviceFeatures[service as keyof typeof serviceFeatures] || [
  'Equipamento moderno e especializado',
@@ -117,7 +107,6 @@ const OptimizedServices: React.FC = () => {
  </div>
  ))}
  </div>
-
  <a
  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
  target="_blank"
@@ -132,7 +121,6 @@ const OptimizedServices: React.FC = () => {
  );
  })}
  </div>
-
  {/* Section supplémentaire */}
  <div className="mt-16 bg-gradient-to-r from-blue-50 to-white rounded-2xl p-8 border border-blue-200">
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -184,5 +172,4 @@ const OptimizedServices: React.FC = () => {
  </section>
  );
 };
-
 export default OptimizedServices;

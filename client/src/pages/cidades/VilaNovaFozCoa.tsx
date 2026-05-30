@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function VilaNovaFozCoa() {
  useEffect(() => {
  document.title = "Canalizador Vila Nova Foz Côa 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function VilaNovaFozCoa() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador em Vila Nova de Foz Côa, terra das gravuras rupestres UNESCO. Canalização para museus, quintas do Douro, desentupimentos 24h. Orçamento gratuito.');
-
+ metaDescription.setAttribute('content', 'Canalizador em Vila Nova de Foz Côa, terra das gravuras rupestres UNESCO. Canalização para museus, quintas do Douro, desentupimentos 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function VilaNovaFozCoa() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-nova-foz-coa');
-
  const cityAddress = getCityAddress('vila-nova-foz-coa');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-foz-coa';
@@ -54,7 +50,6 @@ export default function VilaNovaFozCoa() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -72,15 +67,12 @@ export default function VilaNovaFozCoa() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-foz-coa');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('vila-nova-foz-coa');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Vila Nova de Foz Côa?", answer: "Chegamos a Vila Nova de Foz Côa em aproximadamente 50-60 minutos, percorrendo cerca de 55km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para equipamentos culturais?", answer: "Sim, temos experiência em canalização para museus e espaços culturais, incluindo sistemas de climatização e controlo de humidade essenciais para a preservação de acervos." },
@@ -88,7 +80,6 @@ export default function VilaNovaFozCoa() {
  question: "Qual o custo de deslocação a Vila Nova de Foz Côa?",
  answer: "A deslocação é de 65€ (Zona 6). Chegamos em aproximadamente 50-60 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -104,7 +95,6 @@ export default function VilaNovaFozCoa() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vila Nova de Foz Côa</h2>
@@ -123,9 +113,7 @@ export default function VilaNovaFozCoa() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Nova de Foz Côa</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Vila Nova de Foz Côa?</h2>
@@ -139,9 +127,7 @@ export default function VilaNovaFozCoa() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Vila Nova de Foz Côa" currentCitySlug="canalizador-vila-nova-foz-coa" />
  </main>
  <Footer />

@@ -1,6 +1,5 @@
 // Componente SkipLink para melhorar a navegação por teclado
 // Permite aos utilizadores de teclado saltar diretamente para o conteúdo principal
-
 export default function SkipLink() {
  return (
  <a

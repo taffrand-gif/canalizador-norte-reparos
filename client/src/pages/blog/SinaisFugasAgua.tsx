@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, AlertTriangle, CheckCircle, Droplets } from 'lucide-react';
-
 export default function SinaisFugasAgua() {
  useEffect(() => {
  document.title = "8 Sinais de Fugas de Água Escondidas em Casa | Guia Completo";
@@ -15,7 +14,6 @@ export default function SinaisFugasAgua() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Aprenda a identificar fugas de água escondidas antes que causem danos graves. 8 sinais de alerta, como detetar, e quando chamar um canalizador.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -24,7 +22,6 @@ export default function SinaisFugasAgua() {
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/sinais-fugas-agua-escondidas');
  }, []);
-
  const sinais = [
  {
  titulo: "1. Conta de Água Anormalmente Alta",
@@ -75,7 +72,6 @@ export default function SinaisFugasAgua() {
  acao: "Se só uma torneira, é problema local. Se todas, é fuga geral."
  }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -96,7 +92,6 @@ export default function SinaisFugasAgua() {
  </div>
  </div>
  </section>
-
  {/* Alerta */}
  <section className="py-12 bg-red-50">
  <div className="container max-w-3xl">
@@ -113,7 +108,6 @@ export default function SinaisFugasAgua() {
  </div>
  </div>
  </section>
-
  {/* Lista de Sinais */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -147,7 +141,6 @@ export default function SinaisFugasAgua() {
  </div>
  </div>
  </section>
-
  {/* Teste DIY */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -174,7 +167,6 @@ export default function SinaisFugasAgua() {
  </div>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -184,7 +176,7 @@ export default function SinaisFugasAgua() {
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Temos equipamento de deteção térmica para encontrar fugas sem partir paredes.
- Orçamento gratuito.
+ Sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

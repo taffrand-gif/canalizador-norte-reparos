@@ -3,13 +3,10 @@
 // - Grid layout with article cards
 // - Bold titles and clear CTAs
 // - Relevant content for local SEO
-
 import { useSite } from '@/contexts/SiteContext';
 import { Calendar, ArrowRight } from 'lucide-react';
-
 export default function Blog() {
  const { config } = useSite();
-
  const articles = [
  {
  title: `5 Sinais de que Precisa de um ${config.serviceType} Urgente`,
@@ -30,7 +27,6 @@ export default function Blog() {
  readTime: '6 min',
  image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop'},
  ];
-
  return (
  <section id="blog" className="py-20 bg-white">
  <div className="container">
@@ -43,7 +39,6 @@ export default function Blog() {
  Conselhos profissionais, guias práticos e dicas para manter tudo em perfeito funcionamento.
  </p>
  </div>
-
  {/* Articles grid */}
  <div className="grid md:grid-cols-3 gap-8 mb-12">
  {articles.map((article, index) => (
@@ -63,7 +58,6 @@ export default function Blog() {
  height="225"
  />
  </div>
-
  {/* Content */}
  <div className="p-6">
  {/* Meta */}
@@ -75,17 +69,14 @@ export default function Blog() {
  <span>•</span>
  <span>{article.readTime} leitura</span>
  </div>
-
  {/* Title */}
  <h3 className="font-black text-xl mb-3 leading-tight">
  {article.title}
  </h3>
-
  {/* Excerpt */}
  <p className="text-gray-700 mb-4 leading-relaxed">
  {article.excerpt}
  </p>
-
  {/* CTA */}
  <button
  className="inline-flex items-center gap-2 font-bold hover:gap-3 transition-all"
@@ -98,7 +89,6 @@ export default function Blog() {
  </article>
  ))}
  </div>
-
  {/* Bottom CTA */}
  <div className="text-center">
  <button

@@ -2,7 +2,6 @@ import React from 'react';
 // memo removed from 'react';
 import { Phone, Clock, Shield, AlertCircle } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
-
 interface EmotionalHeroProps {
  painPoint: string;
  headline: string;
@@ -17,7 +16,6 @@ interface EmotionalHeroProps {
  showUrgencyBadge?: boolean;
  responseTime?: string;
 }
-
 function EmotionalHero({
  painPoint,
  headline,
@@ -33,7 +31,6 @@ function EmotionalHero({
  responseTime = "15 minutos"
 }: EmotionalHeroProps) {
  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
-
  return (
  <section
  className="relative min-h-[600px] flex items-center justify-center bg-cover bg-center"
@@ -48,17 +45,14 @@ function EmotionalHero({
  {painPoint.toUpperCase()}
  </div>
  </div>
-
  {/* Emotional Headline */}
  <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-tight">
  {headline}
  </h1>
-
  {/* Empathy Subheadline */}
  <p className="text-xl md:text-2xl font-medium mb-8 max-w-3xl mx-auto leading-relaxed">
  {subheadline}
  </p>
-
  {/* Urgency Indicator */}
  {showUrgencyBadge && (
  <div className="mb-8 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/20">
@@ -66,7 +60,6 @@ function EmotionalHero({
  <span className="font-bold text-lg">{urgencyText}</span>
  </div>
  )}
-
  {/* CTA Buttons */}
  <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
  <a
@@ -89,7 +82,6 @@ function EmotionalHero({
  💬 {ctaSecondary}
  </a>
  </div>
-
  {/* Trust Indicators */}
  <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white text-sm">
  <div className="flex items-center gap-2">
@@ -111,5 +103,4 @@ function EmotionalHero({
  </section>
  );
 }
-
 export default React.memo(EmotionalHero);

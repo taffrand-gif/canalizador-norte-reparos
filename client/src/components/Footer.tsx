@@ -3,10 +3,8 @@ import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, MapPin } from 'lucide-react';
 // memo removed from 'react';
-
 function Footer() {
  const { config } = useSite();
-
  const scrollToSection = (id: string) => {
  if (window.location.pathname !== '/') {
  window.location.href = `/#${id}`;
@@ -17,7 +15,6 @@ function Footer() {
  element.scrollIntoView({ behavior: 'smooth' });
  }
  };
-
  return (
  <footer 
  className="text-white py-16"
@@ -38,7 +35,6 @@ function Footer() {
  "Orgulho Transmontano. Aqui para servir o Norte."
  </p>
  </div>
-
  {/* Serviços */}
  <div>
  <h4 className="text-lg font-black mb-4">Serviços</h4>
@@ -51,7 +47,6 @@ function Footer() {
  <li><a href="/reparacao-torneiras-autoclismos" className="text-gray-200 hover:text-white transition-colors">Torneiras</a></li>
  </ul>
  </div>
-
  {/* Villes */}
  <div>
  <h4 className="text-lg font-black mb-4">Zonas</h4>
@@ -64,7 +59,6 @@ function Footer() {
  <li><a href="/zonas" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todas →</a></li>
  </ul>
  </div>
-
  {/* Blog */}
  <div>
  <h4 className="text-lg font-black mb-4">Blog</h4>
@@ -75,7 +69,6 @@ function Footer() {
  <li><a href="/blog" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todos →</a></li>
  </ul>
  </div>
-
  {/* Contacto */}
  <div>
  <h4 className="text-lg font-black mb-4">Contacto</h4>
@@ -109,7 +102,6 @@ function Footer() {
  </ul>
  </div>
  </div>
-
  {/* Certificações e Garantias */}
  <div className="pt-8 border-t-2 border-white/20">
  <div className="text-center mb-6">
@@ -121,21 +113,18 @@ function Footer() {
  <div className="text-sm font-bold text-white">Isenção IVA</div>
  <div className="text-xs text-gray-100">Art.º 53.º CIVA</div>
  </div>
-
  {/* Badge Garantia */}
  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
  <div className="text-2xl mb-2">🛡️</div>
  <div className="text-sm font-bold text-white">Garantia Escrita</div>
  <div className="text-xs text-gray-100">3 meses mão de obra</div>
  </div>
-
  {/* Badge Preços Transparentes */}
  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
  <div className="text-2xl mb-2">💰</div>
  <div className="text-sm font-bold text-white">Preços Públicos</div>
  <div className="text-xs text-gray-100">100% Transparente</div>
  </div>
-
  {/* Badge Equipamento PRO */}
  <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border-2 border-white/30 hover:bg-white/20 transition-all">
  <div className="text-2xl mb-2">🔧</div>
@@ -145,7 +134,6 @@ function Footer() {
  </div>
  </div>
  </div>
-
  {/* Copyright */}
  <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
  © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
@@ -168,5 +156,4 @@ function Footer() {
  </footer>
  );
 }
-
 export default React.memo(Footer);

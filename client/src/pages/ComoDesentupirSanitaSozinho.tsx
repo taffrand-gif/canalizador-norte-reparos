@@ -1,6 +1,5 @@
 // Page SEO optimisée: "Como Desentupir Sanita Sozinho" - Intention DIY/informational
 // Recherche fréquente: "como desentupir sanita sozinho", "desentupir wc caseiro", "métodos desentupir"
-
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
@@ -8,11 +7,8 @@ import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, AlertTriangle, CheckCircle, XCircle, Wrench, Clock } from 'lucide-react';
-
 export default function ComoDesentupirSanitaSozinho() {
  const { config } = useSite();
-
-
  const faqs = [
  {
  question: "Como desentupir sanita entupida com cocó?",
@@ -28,10 +24,9 @@ export default function ComoDesentupirSanitaSozinho() {
  },
  {
  question: "Quanto custa canalizador para desentupir sanita?",
- answer: "Desentupimento simples: 60-100€. Desentupimento com máquina: 100-150€. Substituir sanita: 150-400€. Inclui deslocação e mão-de-obra. Orçamento gratuito: 928 484 451"
+ answer: "Desentupimento simples: 60-100€. Desentupimento com máquina: 100-150€. Substituir sanita: 150-400€. Inclui deslocação e mão-de-obra. Sem compromisso: 928 484 451"
  }
  ];
-
  const metodos = [
  {
  metodo: "Método 1: Ventosa (Desentupidor)",
@@ -117,7 +112,6 @@ export default function ComoDesentupirSanitaSozinho() {
  quando: "Emergência sem ventosa disponível"
  }
  ];
-
  const naoFazer = [
  {
  acao: "NÃO use água fervente",
@@ -145,7 +139,6 @@ export default function ComoDesentupirSanitaSozinho() {
  icon: XCircle
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -153,7 +146,6 @@ export default function ComoDesentupirSanitaSozinho() {
  <meta name="description" content="Como desentupir sanita sozinho? 5 métodos caseiros eficazes: ventosa, água quente, bicarbonato, arame. Quando chamar canalizador: 928 484 451" />
  </Helmet>
  <Header />
-
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero */}
  <section className="bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white py-16">
@@ -163,16 +155,13 @@ export default function ComoDesentupirSanitaSozinho() {
  <Wrench className="w-5 h-5" />
  GUIA DIY 2026
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Como Desentupir Sanita Sozinho (Sem Canalizador)
  </h1>
-
  <p className="text-xl mb-8">
  5 métodos caseiros eficazes passo a passo. Poupe dinheiro e resolva já.
  Se não funcionar, chamamos em 30 minutos.
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -185,14 +174,12 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  </div>
  </section>
-
  {/* Métodos Passo a Passo */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center mb-12">
  🔧 5 Métodos Eficazes (Passo a Passo)
  </h2>
-
  <div className="max-w-5xl mx-auto space-y-8">
  {metodos.map((metodo, index) => (
  <div key={index} className="bg-gradient-to-r from-blue-50 to-white rounded-xl shadow-lg overflow-hidden border border-blue-200">
@@ -210,7 +197,6 @@ export default function ComoDesentupirSanitaSozinho() {
  </span>
  </div>
  </div>
-
  <div className="p-6">
  <div className="mb-6">
  <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
@@ -219,7 +205,6 @@ export default function ComoDesentupirSanitaSozinho() {
  </h4>
  <p className="text-gray-700 bg-green-50 p-3 rounded-lg">{metodo.quando}</p>
  </div>
-
  <div className="mb-6">
  <h4 className="font-bold text-gray-900 mb-3">Material necessário:</h4>
  <div className="flex flex-wrap gap-2">
@@ -230,7 +215,6 @@ export default function ComoDesentupirSanitaSozinho() {
  ))}
  </div>
  </div>
-
  <div>
  <h4 className="font-bold text-gray-900 mb-3">Passos:</h4>
  <ol className="space-y-3">
@@ -250,7 +234,6 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  </div>
  </section>
-
  {/* O Que NÃO Fazer */}
  <section className="py-16 bg-red-50">
  <div className="container mx-auto px-4">
@@ -260,7 +243,6 @@ export default function ComoDesentupirSanitaSozinho() {
  <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
  Evite estes erros comuns que podem piorar o problema
  </p>
-
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
  {naoFazer.map((item, index) => (
  <div key={index} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-500">
@@ -276,14 +258,12 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  </div>
  </section>
-
  {/* Quando Chamar Canalizador */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center mb-12">
  📞 Quando Chamar Canalizador Profissional
  </h2>
-
  <div className="max-w-3xl mx-auto space-y-4">
  {[
  "Tentou todos os métodos caseiros sem sucesso",
@@ -300,12 +280,11 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  ))}
  </div>
-
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
  ✅ Chegamos em 30-60 minutos<br />
- ✅ Orçamento gratuito sem compromisso
+ ✅ Sem compromisso sem compromisso
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -317,7 +296,6 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-4xl">
@@ -327,7 +305,6 @@ export default function ComoDesentupirSanitaSozinho() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white">
  <div className="container mx-auto px-4 text-center">
@@ -349,7 +326,6 @@ export default function ComoDesentupirSanitaSozinho() {
  </div>
  </section>
  </main>
-
  <Footer />
  </>
  );

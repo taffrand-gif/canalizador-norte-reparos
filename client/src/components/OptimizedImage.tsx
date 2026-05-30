@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-
 interface OptimizedImageProps {
  src: string;
  alt: string;
@@ -10,7 +9,6 @@ interface OptimizedImageProps {
  objectFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
  sizes?: string;
 }
-
 /**
  * Componente de imagem otimizado com:
  * - Suporte WebP com fallback
@@ -32,10 +30,8 @@ export default function OptimizedImage({
  const [isInView, setIsInView] = useState(priority);
  const [hasError, setHasError] = useState(false);
  const imgRef = useRef<HTMLDivElement>(null);
-
  useEffect(() => {
  if (priority) return;
-
  const observer = new IntersectionObserver(
  (entries) => {
  entries.forEach((entry) => {
@@ -48,20 +44,16 @@ export default function OptimizedImage({
  {
  rootMargin: '50px'}
  );
-
  if (imgRef.current) {
  observer.observe(imgRef.current);
  }
-
  return () => {
  observer.disconnect();
  };
  }, [priority]);
-
  // Determinar se a imagem é externa (CDN)
  const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
  const isManuscdn = src.includes('manuscdn.com');
-
  // Gerar srcset para imagens responsivas
  const generateSrcSet = (imagePath: string): string => {
  if (isExternalImage) {
@@ -76,12 +68,10 @@ export default function OptimizedImage({
  }
  return '';
  }
-
  // Para imagens locais
  const pathParts = imagePath.split('.');
  const extension = pathParts.pop();
  const basePath = pathParts.join('.');
-
  return [
  `${basePath}-320w.webp 320w`,
  `${basePath}-640w.webp 640w`,
@@ -89,7 +79,6 @@ export default function OptimizedImage({
  `${basePath}-1920w.webp 1920w`,
  ].join(', ');
  };
-
  // Gerar URL WebP
  const getWebPSrc = (imagePath: string): string => {
  if (isExternalImage) {
@@ -99,37 +88,30 @@ export default function OptimizedImage({
  }
  return imagePath;
  }
-
  const pathParts = imagePath.split('.');
  pathParts.pop();
  return `${pathParts.join('.')}.webp`;
  };
-
  const srcSet = generateSrcSet(src);
  const webpSrc = getWebPSrc(src);
-
  const containerStyle: React.CSSProperties = {
  position: 'relative',
  overflow: 'hidden',
  backgroundColor: '#f3f4f6',
  ...(width && height ? { aspectRatio: `${width} / ${height}` } : {})};
-
  const imgStyle: React.CSSProperties = {
  width: '100%',
  height: '100%',
  objectFit,
  transition: 'opacity 0.3s ease-in-out',
  opacity: isLoaded ? 1 : 0};
-
  const handleLoad = () => {
  setIsLoaded(true);
  };
-
  const handleError = () => {
  setHasError(true);
  setIsLoaded(true);
  };
-
  return (
  <div ref={imgRef} style={containerStyle} className={className}>
  {isInView && (

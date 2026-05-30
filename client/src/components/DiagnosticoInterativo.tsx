@@ -1,9 +1,7 @@
 'use client';
-
 import { useState } from 'react';
 import { CheckCircle, AlertCircle, Wrench, Zap, Droplet } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
-
 interface DiagnosticStep {
  id: number;
  question: string;
@@ -13,15 +11,12 @@ interface DiagnosticStep {
  severity: 'low' | 'medium' | 'high' | 'urgent';
  }[];
 }
-
 export default function DiagnosticoInterativo() {
  const { config } = useSite();
  const [currentStep, setCurrentStep] = useState(0);
  const [answers, setAnswers] = useState<string[]>([]);
  const [result, setResult] = useState<any>(null);
-
  const isPlumber = config.type === 'plomberie';
-
  const plumberSteps: DiagnosticStep[] = [
  {
  id: 1,
@@ -54,7 +49,6 @@ export default function DiagnosticoInterativo() {
  ]
  }
  ];
-
  const electricianSteps: DiagnosticStep[] = [
  {
  id: 1,
@@ -87,14 +81,11 @@ export default function DiagnosticoInterativo() {
  ]
  }
  ];
-
  const steps = isPlumber ? plumberSteps : electricianSteps;
  const progress = ((currentStep + 1) / steps.length) * 100;
-
  const handleAnswer = (option: any) => {
  const newAnswers = [...answers, option.value];
  setAnswers(newAnswers);
-
  if (currentStep < steps.length - 1) {
  setCurrentStep(currentStep + 1);
  } else {
@@ -104,14 +95,11 @@ export default function DiagnosticoInterativo() {
  const option = step.options.find(opt => opt.value === answer);
  return option?.severity || 'low';
  });
-
  const urgentCount = severities.filter(s => s === 'urgent').length;
  const highCount = severities.filter(s => s === 'high').length;
-
  let urgency: 'urgent' | 'high' | 'medium' | 'low' = 'low';
  let price = 80;
  let responseTime = '24h';
-
  if (urgentCount > 0) {
  urgency = 'urgent';
  price = 150;
@@ -125,23 +113,19 @@ export default function DiagnosticoInterativo() {
  price = 100;
  responseTime = '4h';
  }
-
  setResult({ urgency, price, responseTime });
  }
  };
-
  const reset = () => {
  setCurrentStep(0);
  setAnswers([]);
  setResult(null);
  };
-
  if (result) {
  const Icon = result.urgency === 'urgent' ? AlertCircle : CheckCircle;
  const bgColor = result.urgency === 'urgent' ? 'bg-red-50' : 'bg-green-50';
  const borderColor = result.urgency === 'urgent' ? 'border-red-500' : 'border-green-500';
  const textColor = result.urgency === 'urgent' ? 'text-red-900' : 'text-green-900';
-
  return (
  <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-lg max-w-2xl mx-auto">
  <div className={`${bgColor} border-l-4 ${borderColor} rounded-r-lg p-6 mb-6`}>
@@ -156,7 +140,6 @@ export default function DiagnosticoInterativo() {
  ? '⚠️ Situação urgente! Requer intervenção imediata.'
  : '✅ Situação controlada. Podemos agendar intervenção.'}
  </p>
-
  <div className="grid grid-cols-2 gap-4 mb-4">
  <div className="bg-white rounded-lg p-4">
  <p className="text-sm text-gray-600 mb-1">Preço Estimado</p>
@@ -167,7 +150,6 @@ export default function DiagnosticoInterativo() {
  <p className="text-3xl font-black text-primary">{result.responseTime}</p>
  </div>
  </div>
-
  <a
  href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(`Completei o diagnóstico. Urgência: ${result.urgency}. Preciso de intervenção em ${result.responseTime}.`)}`}
  target="_blank"
@@ -176,7 +158,6 @@ export default function DiagnosticoInterativo() {
  >
  💬 Confirmar Intervenção via WhatsApp
  </a>
-
  <button
  onClick={reset}
  className="block w-full bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold text-center px-6 py-3 rounded-lg transition-colors"
@@ -189,7 +170,6 @@ export default function DiagnosticoInterativo() {
  </div>
  );
  }
-
  return (
  <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-lg max-w-2xl mx-auto">
  {/* Header */}
@@ -204,7 +184,6 @@ export default function DiagnosticoInterativo() {
  Responda 3 perguntas para receber diagnóstico e orçamento
  </p>
  </div>
-
  {/* Progress bar */}
  <div className="mb-6">
  <div className="flex justify-between items-center mb-2">
@@ -220,14 +199,12 @@ export default function DiagnosticoInterativo() {
  />
  </div>
  </div>
-
  {/* Question */}
  <div className="mb-6">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">
  {steps[currentStep].question}
  </h3>
  </div>
-
  {/* Options */}
  <div className="space-y-3">
  {steps[currentStep].options.map((option, index) => (
@@ -248,7 +225,6 @@ export default function DiagnosticoInterativo() {
  </button>
  ))}
  </div>
-
  {/* Footer */}
  <div className="mt-6 pt-6 border-t border-gray-200">
  <div className="flex items-start gap-2 text-sm text-gray-600">

@@ -1,6 +1,5 @@
 // Page SEO optimisée para "Canalizador Valpaços"
 // 100% unique content, conforme políticas Google
-
 import Header from '@/components/Header';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
@@ -13,10 +12,8 @@ import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Valpacos() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Canalizador Urgente Valpaços 💧 24h | 928 484 451";
  
@@ -27,7 +24,7 @@ export default function Valpacos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Esquentador avariado em Valpaços? A nossa equipa arranja hoje. Desentupimentos e fugas, orçamento gratuito. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Esquentador avariado em Valpaços? A nossa equipa arranja hoje. Desentupimentos e fugas, sem compromisso. Ligue: 928 484 451');
  // SEO meta keywords
  let metaKeywords = document.querySelector('meta[name="keywords"]');
  if (!metaKeywords) {
@@ -92,7 +89,6 @@ export default function Valpacos() {
  ]
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -124,16 +120,13 @@ export default function Valpacos() {
  answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Valpaços e todo o concelho."
  }
  ];
-
  
  return () => {
  document.head.removeChild(schemaScript);
  document.head.removeChild(faqSchema);
  };
  }, [config]);
-
  const cidadesProximas = getCidadesProximas('valpacos');
-
  return (
  <>
  <SEOHead />
@@ -179,7 +172,6 @@ export default function Valpacos() {
  </div>
  </div>
  </section>
-
  {/* Conteúdo específico de Valpaços */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -261,7 +253,6 @@ export default function Valpacos() {
  </div>
  </div>
  </section>
-
  {/* FAQ específica de Valpaços */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -307,7 +298,6 @@ export default function Valpacos() {
  </div>
  </div>
  </section>
-
  {/* CTA final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -351,7 +341,6 @@ export default function Valpacos() {
  </div>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  
  <section className="py-16">
@@ -366,9 +355,7 @@ export default function Valpacos() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities 
  currentCity="Valpacos" 
  currentCitySlug="canalizador-valpacos" 

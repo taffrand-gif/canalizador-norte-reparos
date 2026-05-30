@@ -2,12 +2,10 @@ import React from 'react';
 // Componente RelatedCities - Mostra as cidades relacionadas para o linking interno SEO
 import { Link } from 'wouter';
 // memo removed from 'react';
-
 interface RelatedCitiesProps {
  currentCity: string;
  currentCitySlug: string;
 }
-
 function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  // Lista das cidades com seus slugs e regiões
  const allCities = [
@@ -46,14 +44,11 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  { name: 'Santa Marta de Penaguião', slug: 'canalizador-santa-marta-de-penaguiao', region: 'Douro' },
  { name: 'Mesão Frio', slug: 'canalizador-mesao-frio', region: 'Douro' },
  ];
-
  // Filtrar para excluir a cidade atual
  const relatedCities = allCities
  .filter(city => city.slug !== currentCitySlug)
  .slice(0, 5); // Pegar 5 cidades no máximo
-
  if (relatedCities.length === 0) return null;
-
  return (
  <section className="py-12 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -65,7 +60,6 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  Canalizador profissional em outras cidades de Trás-os-Montes
  </p>
  </div>
-
  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
  {relatedCities.map((city) => (
  <Link 
@@ -96,7 +90,6 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  </Link>
  ))}
  </div>
-
  <div className="text-center mt-8">
  <p className="text-gray-600 text-sm">
  <strong>SEO Tip:</strong> Links internos ajudam o Google a entender a estrutura do site e melhoram a autoridade das páginas.
@@ -106,5 +99,4 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  </section>
  );
 }
-
 export default React.memo(RelatedCities);

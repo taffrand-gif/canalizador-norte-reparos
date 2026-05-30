@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
 import { Phone, Snowflake, AlertTriangle, CheckCircle, Thermometer } from 'lucide-react';
-
 export default function ProblemasCanalizacaoInverno() {
  useEffect(() => {
  document.title = "Problemas de Canalização no Inverno: Soluções e Prevenção | Trás-os-Montes";
@@ -15,7 +14,6 @@ export default function ProblemasCanalizacaoInverno() {
  document.head.appendChild(metaDescription);
  }
  metaDescription.setAttribute('content', 'Guia completo para proteger canalização do frio em Trás-os-Montes: tubos congelados, isolamento térmico, urgências de inverno.');
-
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -23,7 +21,6 @@ export default function ProblemasCanalizacaoInverno() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/problemas-canalizacao-inverno-solucoes');
-
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -49,7 +46,6 @@ export default function ProblemasCanalizacaoInverno() {
  });
  document.head.appendChild(script);
  }, []);
-
  const problemas = [
  {
  problema: "Tubos Congelados",
@@ -80,7 +76,6 @@ export default function ProblemasCanalizacaoInverno() {
  prevencao: "Manter esquentador em zona aquecida, ventilação adequada"
  }
  ];
-
  const zonasRisco = [
  { zona: "Sótãos e águas-furtadas", risco: "MUITO ALTO" },
  { zona: "Garagens não aquecidas", risco: "ALTO" },
@@ -89,7 +84,6 @@ export default function ProblemasCanalizacaoInverno() {
  { zona: "Caixas de contador", risco: "ALTO" },
  { zona: "Paredes exteriores (norte)", risco: "ALTO" }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -110,7 +104,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Alerta */}
  <section className="py-12 bg-red-50">
  <div className="container max-w-3xl">
@@ -129,7 +122,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Introdução */}
  <section className="py-12">
  <div className="container max-w-3xl">
@@ -145,7 +137,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Problemas Comuns */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -185,7 +176,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Zonas de Risco */}
  <section className="py-16">
  <div className="container max-w-3xl">
@@ -218,7 +208,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Isolamento Térmico */}
  <section className="py-16 bg-blue-50">
  <div className="container max-w-3xl">
@@ -280,7 +269,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Dicas de Prevenção */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">
@@ -339,7 +327,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Emergência: O Que Fazer */}
  <section className="py-16 bg-red-50">
  <div className="container max-w-3xl">
@@ -383,7 +370,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* CTA */}
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
@@ -408,7 +394,6 @@ export default function ProblemasCanalizacaoInverno() {
  </div>
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-3xl">

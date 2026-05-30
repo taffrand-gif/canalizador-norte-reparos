@@ -3,10 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, MessageCircle, CheckCircle, Clock, Shield, Star, Zap } from 'lucide-react';
-
 export default function DesentupirSanitaUrgente() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 80-120€';
  const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
@@ -14,10 +12,8 @@ export default function DesentupirSanitaUrgente() {
  meta.setAttribute('content', 'Sanita entupida? Resolvemos em 1 hora ou não paga! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
  if (!meta.parentElement) document.head.appendChild(meta);
  }, []);
-
  const whatsappMessage = encodeURIComponent('Olá! Preciso desentupir sanita urgente. Podem ajudar?');
  const whatsappUrl = `https://wa.me/${config.whatsappNumber}?text=${whatsappMessage}`;
-
  return (
  <>
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -35,27 +31,22 @@ export default function DesentupirSanitaUrgente() {
  "priceCurrency": "EUR"
  }
  }) }} />
-
  <Header />
-
  {/* Hero Section */}
  <section className="relative bg-gradient-to-br from-orange-600 to-red-700 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <div className="inline-block bg-yellow-400 text-orange-900 px-4 py-2 rounded-full font-bold text-sm mb-6 animate-bounce">
  ⚡ RESOLVEMOS EM 1 HORA
  </div>
-
  <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
  Sanita Entupida?<br />
  <span className="text-yellow-300">Resolvemos em 1 Hora - Garantido</span> 🚽
  </h1>
-
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>
  <p className="text-5xl font-bold">80-120€</p>
  <p className="text-sm text-gray-600 mt-1">(conforme complexidade)</p>
  </div>
-
  <div className="grid md:grid-cols-3 gap-4 mb-8 text-left">
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
  <Zap className="w-8 h-8 text-yellow-300 mb-2" />
@@ -73,7 +64,6 @@ export default function DesentupirSanitaUrgente() {
  <p className="text-sm text-orange-100">Preço final = Preço dito</p>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone}`}
@@ -92,34 +82,29 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* Urgency Section */}
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
  Sanita Entupida é Urgente!
  </h2>
-
  <div className="grid md:grid-cols-3 gap-6 mb-12">
  <div className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-red-500">
  <p className="text-4xl mb-3">😳</p>
  <p className="font-bold text-lg mb-2 text-gray-900">Visitas a chegar?</p>
  <p className="text-gray-600">Resolvemos antes das visitas chegarem. Garantido.</p>
  </div>
-
  <div className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-orange-500">
  <p className="text-4xl mb-3">🏠</p>
  <p className="font-bold text-lg mb-2 text-gray-900">Só tem 1 casa de banho?</p>
  <p className="text-gray-600">Sabemos que é urgente. Priorizamos o seu caso.</p>
  </div>
-
  <div className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-yellow-500">
  <p className="text-4xl mb-3">⏰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">Precisa resolver JÁ?</p>
  <p className="text-gray-600">Técnico a caminho em minutos. Atendemos 24/7.</p>
  </div>
  </div>
-
  <div className="bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-600 p-8 rounded-xl text-center">
  <p className="text-2xl font-bold text-gray-900 mb-4">
  Resolvemos em 1 Hora ou Não Paga!
@@ -138,7 +123,6 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* Price Transparency */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -148,7 +132,6 @@ export default function DesentupirSanitaUrgente() {
  <p className="text-center text-xl text-gray-600 mb-12">
  Sem surpresas. Sem taxas escondidas.
  </p>
-
  <div className="grid md:grid-cols-2 gap-6">
  <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl border-2 border-green-500 relative">
  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white px-4 py-1 rounded-full text-sm font-bold">
@@ -178,7 +161,6 @@ export default function DesentupirSanitaUrgente() {
  Cobre 70% dos casos de entupimentos domésticos
  </p>
  </div>
-
  <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-300">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Casos Complexos</h3>
  <div className="text-5xl font-bold text-gray-700 mb-4">120-150€</div>
@@ -205,7 +187,6 @@ export default function DesentupirSanitaUrgente() {
  </p>
  </div>
  </div>
-
  <div className="mt-8 bg-blue-50 border border-blue-200 p-6 rounded-xl">
  <p className="text-center text-gray-800">
  <strong className="text-blue-900">Importante:</strong> O preço é sempre comunicado ANTES de começar o trabalho.
@@ -214,14 +195,12 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* How It Works */}
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
  Como Funciona
  </h2>
-
  <div className="grid md:grid-cols-4 gap-6">
  {[
  { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos em 2 minutos' },
@@ -236,7 +215,6 @@ export default function DesentupirSanitaUrgente() {
  </div>
  ))}
  </div>
-
  <div className="mt-12 text-center">
  <p className="text-2xl font-bold text-gray-900 mb-4">
  Tempo Total: 1-2 Horas
@@ -254,7 +232,6 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* Testimonials */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -265,7 +242,6 @@ export default function DesentupirSanitaUrgente() {
  </div>
  <p className="text-xl text-gray-600">Baseado em 127 avaliações</p>
  </div>
-
  <div className="grid md:grid-cols-3 gap-6">
  {[
  {
@@ -292,14 +268,12 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
  Perguntas Frequentes
  </h2>
-
  <div className="space-y-4">
  {[
  {
@@ -323,8 +297,8 @@ export default function DesentupirSanitaUrgente() {
  a: 'Dinheiro, MB WAY, transferência bancária e cartão de débito/crédito. Pagamento após serviço concluído.'
  },
  {
- q: 'Fazem orçamento gratuito?',
- a: 'Sim! Orçamento gratuito e sem compromisso. Se não concordar com o preço, não paga nada.'
+ q: 'Fazem sem compromisso?',
+ a: 'Sim! Sem compromisso e sem compromisso. Se não concordar com o preço, não paga nada.'
  }
  ].map((faq, i) => (
  <div key={i} className="bg-white p-6 rounded-xl border border-gray-200 hover:border-orange-300 transition-colors">
@@ -335,7 +309,6 @@ export default function DesentupirSanitaUrgente() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-20 px-4 bg-gradient-to-br from-orange-600 to-red-700 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -346,12 +319,10 @@ export default function DesentupirSanitaUrgente() {
  Quanto mais espera, pior fica o entupimento.<br />
  Ligue agora e resolva em 1 hora.
  </p>
-
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>
  <p className="text-5xl font-bold">80-120€</p>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
  href={`tel:${config.phone}`}
@@ -368,13 +339,11 @@ export default function DesentupirSanitaUrgente() {
  WhatsApp
  </a>
  </div>
-
  <p className="text-sm text-orange-100">
  ⚡ Atendimento 24h/7d • Bragança e toda região de Trás-os-Montes
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

@@ -1,6 +1,5 @@
 // SEO Internal Links section for homepage
 // Adds 15+ internal links to services, cities, urgency pages, and blog articles
-
 export default function HomepageLinks() {
  return (
  <section className="py-16 bg-gray-50">
@@ -18,7 +17,6 @@ export default function HomepageLinks() {
  <a href="/tecnologia-premium" className="text-[#0e7490] font-bold hover:underline">tecnologia premium</a> e{' '}
  <a href="/galeria" className="text-[#0e7490] font-bold hover:underline">galeria de trabalhos</a>.
  </p>
-
  {/* Urgency Links */}
  <h2 className="text-3xl font-black mb-6 text-center">🚨 Canalizador Urgente 24h</h2>
  <div className="flex flex-wrap justify-center gap-3 mb-12">
@@ -39,7 +37,6 @@ export default function HomepageLinks() {
  </a>
  ))}
  </div>
-
  {/* Blog Articles */}
  <h2 className="text-3xl font-black mb-6 text-center">📰 Artigos Recentes do Blog</h2>
  <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -66,7 +63,6 @@ export default function HomepageLinks() {
  Ver todos os artigos do blog →
  </a>
  </p>
-
  {/* City-specific services */}
  <h2 className="text-3xl font-black mb-6 mt-12 text-center">🏗️ Serviços por Cidade</h2>
  <p className="text-gray-700 text-center leading-relaxed max-w-4xl mx-auto">

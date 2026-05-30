@@ -1,27 +1,23 @@
 import React from 'react';
 // memo removed from 'react';
 import { AlertTriangle, TrendingDown, DollarSign, Clock } from 'lucide-react';
-
 interface PainPoint {
  icon: 'alert' | 'trending' | 'money' | 'time';
  title: string;
  description: string;
  consequence: string;
 }
-
 interface PainPointSectionProps {
  title: string;
  subtitle: string;
  painPoints: PainPoint[];
  empathyStatement: string;
 }
-
 const iconMap = {
  alert: AlertTriangle,
  trending: TrendingDown,
  money: DollarSign,
  time: Clock};
-
 function PainPointSection({
  title,
  subtitle,
@@ -40,7 +36,6 @@ function PainPointSection({
  {subtitle}
  </p>
  </div>
-
  {/* Pain Points Grid */}
  <div className="grid md:grid-cols-2 gap-6 mb-12">
  {painPoints.map((point, index) => {
@@ -74,7 +69,6 @@ function PainPointSection({
  );
  })}
  </div>
-
  {/* Empathy Statement */}
  <div className="bg-white p-8 rounded-xl border-2 border-blue-200 text-center max-w-4xl mx-auto">
  <p className="text-2xl font-bold text-gray-900 leading-relaxed">
@@ -85,5 +79,4 @@ function PainPointSection({
  </section>
  );
 }
-
 export default React.memo(PainPointSection);

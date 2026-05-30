@@ -1,6 +1,5 @@
 // Page SEO optimisée para "Canalizador Mirandela"
 // 100% unique content, conforme políticas Google
-
 import Header from '@/components/Header';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
@@ -13,10 +12,8 @@ import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Mirandela() {
  const { config } = useSite();
-
  useEffect(() => {
  document.title = "Canalizador Urgente Mirandela 💧 24h | 928 484 451";
  
@@ -92,7 +89,6 @@ export default function Mirandela() {
  ]
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -124,16 +120,13 @@ export default function Mirandela() {
  answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Mirandela e todo o concelho."
  }
  ];
-
  
  return () => {
  document.head.removeChild(schemaScript);
  document.head.removeChild(faqSchema);
  };
  }, [config]);
-
  const cidadesProximas = getCidadesProximas('mirandela');
-
  return (
  <>
  <SEOHead />
@@ -179,7 +172,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Sobre Mirandela - Conteúdo Único */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -207,7 +199,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Bairros Servidos em Mirandela */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -248,7 +239,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Porquê Escolher-nos em Mirandela */}
  <section className="py-16 bg-blue-50">
  <div className="container mx-auto px-4">
@@ -307,7 +297,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Conteúdo específico de Mirandela */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -316,7 +305,6 @@ export default function Mirandela() {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
  Especialistas em Sistemas de Água em Mirandela
  </h2>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -330,7 +318,6 @@ export default function Mirandela() {
  aos produtos químicos utilizados na região.
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
  <span className="text-blue-600">🏘️</span>
@@ -389,7 +376,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Testemunhos Locais de Mirandela */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -434,7 +420,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* FAQ específica de Mirandela */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -481,7 +466,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* CTA final */}
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
@@ -525,7 +509,6 @@ export default function Mirandela() {
  </div>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  
  <section className="py-16">
@@ -540,9 +523,7 @@ export default function Mirandela() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities 
  currentCity="Mirandela" 
  currentCitySlug="canalizador-mirandela" 

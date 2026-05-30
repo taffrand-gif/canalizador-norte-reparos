@@ -1,12 +1,10 @@
 import { ReactNode } from 'react';
-
 interface GlassmorphicCardProps {
  children: ReactNode;
  className?: string;
  blur?: 'sm' | 'md' | 'lg';
  opacity?: number;
 }
-
 export default function GlassmorphicCard({
  children,
  className = '',
@@ -18,7 +16,6 @@ export default function GlassmorphicCard({
  md: 'backdrop-blur-md',
  lg: 'backdrop-blur-lg'
  };
-
  return (
  <div
  className={`

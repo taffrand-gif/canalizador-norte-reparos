@@ -1,8 +1,6 @@
 'use client';
-
 import { CheckCircle, Users } from 'lucide-react';
 import { useEffect, useState } from 'react';
-
 interface Notification {
  id: number;
  name: string;
@@ -10,39 +8,32 @@ interface Notification {
  action: string;
  timeAgo: string;
 }
-
 const sampleNotifications: Notification[] = [
  { id: 1, name: 'João', city: 'Bragança', action: 'pediu orçamento', timeAgo: '3 minutos' },
  { id: 2, name: 'Maria', city: 'Mirandela', action: 'agendou visita', timeAgo: '12 minutos' },
  { id: 3, name: 'Carlos', city: 'Macedo', action: 'ligou agora', timeAgo: '25 minutos' },
  { id: 4, name: 'Ana', city: 'Vila Real', action: 'pediu orçamento', timeAgo: '38 minutos' },
 ];
-
 export default function SocialProofNotification() {
  const [currentNotification, setCurrentNotification] = useState<Notification | null>(null);
  const [liveViewers, setLiveViewers] = useState(43);
  const [weeklyClients, setWeeklyClients] = useState(127);
-
  useEffect(() => {
  // Show notification every 8 seconds
  const notificationInterval = setInterval(() => {
  const randomNotif = sampleNotifications[Math.floor(Math.random() * sampleNotifications.length)];
  setCurrentNotification(randomNotif);
-
  setTimeout(() => setCurrentNotification(null), 5000);
  }, 8000);
-
  // Update live viewers every 5 seconds
  const viewersInterval = setInterval(() => {
  setLiveViewers(prev => Math.max(15, Math.min(80, prev + Math.floor(Math.random() * 7) - 3)));
  }, 5000);
-
  return () => {
  clearInterval(notificationInterval);
  clearInterval(viewersInterval);
  };
  }, []);
-
  return (
  <>
  {/* Live viewers indicator */}
@@ -57,7 +48,6 @@ export default function SocialProofNotification() {
  </span>
  </div>
  </div>
-
  {/* Notification popup */}
  {currentNotification && (
  <div className="fixed bottom-4 left-4 z-50 bg-white rounded-lg shadow-2xl p-4 border-l-4 border-green-500 max-w-sm animate-in slide-in-from-left duration-300">
@@ -74,7 +64,6 @@ export default function SocialProofNotification() {
  </div>
  </div>
  )}
-
  {/* Weekly clients badge */}
  <div className="inline-flex items-center gap-2 bg-green-50 border border-green-200 rounded-full px-4 py-2">
  <CheckCircle className="w-4 h-4 text-green-600" />

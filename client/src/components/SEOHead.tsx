@@ -1,10 +1,8 @@
 // SEO Head component - Manages all meta tags, Open Graph, Twitter Cards, and tracking
 // Preserves all existing SEO work from the original sites
-
 import { useEffect, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useUserLocation } from '@/hooks/useUserLocation';
-
 export default function SEOHead() {
  const { config } = useSite();
  const { city, loading } = useUserLocation();
@@ -12,16 +10,13 @@ export default function SEOHead() {
  // Criar um título dinâmico baseado na localização
  const dynamicTitle = useMemo(() => {
  if (loading) return config.title; // Título padrão durante o carregamento
-
  // Substituir "Bragança" pela cidade detetada
  const serviceType = config.serviceType; // "Canalizador" ou "Eletricista"
  return `${serviceType} 24h ${city} | Urgências Trás-os-Montes`;
  }, [config, city, loading]);
-
  useEffect(() => {
  // Update document title with dynamic location
  document.title = dynamicTitle;
-
  // Helper function to update or create meta tag
  const updateMetaTag = (selector: string, attribute: string, value: string) => {
  let element = document.querySelector(selector);
@@ -38,13 +33,11 @@ export default function SEOHead() {
  }
  element.setAttribute(attribute, value);
  };
-
  // Basic meta tags
  updateMetaTag('meta[name="description"]', 'content', config.description);
  updateMetaTag('meta[name="author"]', 'content', config.name);
  updateMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
  updateMetaTag('meta[name="googlebot"]', 'content', 'index, follow');
-
  // Open Graph tags
  updateMetaTag('meta[property="og:type"]', 'content', 'website');
  updateMetaTag('meta[property="og:locale"]', 'content', 'pt_PT');
@@ -53,13 +46,11 @@ export default function SEOHead() {
  updateMetaTag('meta[property="og:description"]', 'content', config.description);
  updateMetaTag('meta[property="og:image"]', 'content', config.seo.ogImage);
  updateMetaTag('meta[property="og:url"]', 'content', `https://${config.domain}`);
-
  // Twitter Card
  updateMetaTag('meta[name="twitter:card"]', 'content', 'summary_large_image');
  updateMetaTag('meta[name="twitter:title"]', 'content', dynamicTitle);
  updateMetaTag('meta[name="twitter:description"]', 'content', config.description);
  updateMetaTag('meta[name="twitter:image"]', 'content', config.seo.ogImage);
-
  // Canonical URL
  let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
  if (!canonical) {
@@ -68,12 +59,10 @@ export default function SEOHead() {
  document.head.appendChild(canonical);
  }
  canonical.href = `https://${config.domain}`;
-
  // Google Ads tracking - deferred to avoid blocking main thread
  if (!window.dataLayer) {
  window.dataLayer = [];
  }
-
  // Defer GTM loading by 3s after page load for better performance
  const loadGTM = () => {
  if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
@@ -82,16 +71,13 @@ export default function SEOHead() {
  script.async = true;
  script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17915870228';
  document.head.appendChild(script);
-
  script.onload = () => {
  function gtag(...args: any[]) {
  window.dataLayer.push(arguments);
  }
  window.gtag = gtag;
-
  gtag('js', new Date());
  gtag('config', 'AW-17915870228');
-
  // GDPR Consent Mode (preserved from original)
  gtag('consent', 'default', {
  'analytics_storage': 'denied',
@@ -102,17 +88,14 @@ export default function SEOHead() {
  };
  }, 3000);
  };
-
  if (document.readyState === 'complete') {
  loadGTM();
  } else {
  window.addEventListener('load', loadGTM, { once: true });
  }
  }, [config, dynamicTitle]);
-
  return null; // This component doesn't render anything
 }
-
 // Extend Window interface for TypeScript
 declare global {
  interface Window {

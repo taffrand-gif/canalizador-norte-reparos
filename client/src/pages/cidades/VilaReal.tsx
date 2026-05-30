@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function VilaReal() {
  useEffect(() => {
  document.title = "Canalizador Urgente Vila Real 💧 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function VilaReal() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Torneira a pingar em Vila Real? A nossa equipa resolve hoje. Desentupimentos, fugas, esquentadores. Orçamento gratuito. Ligue: 928 484 451');
-
+ metaDescription.setAttribute('content', 'Torneira a pingar em Vila Real? A nossa equipa resolve hoje. Desentupimentos, fugas, esquentadores. Sem compromisso. Ligue: 928 484 451');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,7 +27,6 @@ export default function VilaReal() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-real');
-
  const cityAddress = getCityAddress('vila-real');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -53,7 +50,6 @@ export default function VilaReal() {
  "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -71,15 +67,12 @@ export default function VilaReal() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => {
  const existingSchema = document.getElementById('schema-vila-real');
  if (existingSchema) existingSchema.remove();
  };
  }, []);
-
  const cidadesProximas = getCidadesProximas('vila-real');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Vila Real?", answer: "Chegamos a Vila Real em aproximadamente 1h15 a partir de Macedo de Cavaleiros, percorrendo cerca de 85km pela A4 e IP4." },
  { question: "Fazem trabalhos em prédios e apartamentos em Vila Real?", answer: "Sim, temos vasta experiência em canalização de prédios urbanos, incluindo arranjo de colunas de água, substituição de tubagens antigas e desentupimentos em edifícios de vários andares." },
@@ -87,7 +80,6 @@ export default function VilaReal() {
  question: "Qual o custo de deslocação a Vila Real?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 60-70 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -103,7 +95,6 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  {/* Sobre Vila Real - Conteúdo Único */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -132,7 +123,6 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  {/* Bairros Servidos em Vila Real */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
@@ -173,7 +163,6 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  {/* Porquê Escolher-nos em Vila Real */}
  <section className="py-16 bg-blue-50">
  <div className="container mx-auto px-4">
@@ -232,7 +221,6 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização em Vila Real</h2>
@@ -251,7 +239,6 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  {/* Testemunhos Locais de Vila Real */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -298,9 +285,7 @@ export default function VilaReal() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Real</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Vila Real?</h2>
@@ -314,9 +299,7 @@ export default function VilaReal() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
-
  <RelatedCities currentCity="Vila Real" currentCitySlug="canalizador-vila-real" />
  </main>
  <Footer />

@@ -1,7 +1,6 @@
 // Page FAQ dédiée - Norte Reparos (Canalizador)
 // 18-20 questions en portugais PT-PT avec Schema.org FAQPage JSON-LD
 // Design accordéon avec useState pour open/close
-
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -9,23 +8,20 @@ import SEOHead from '@/components/SEOHead';
 import { useSite } from '@/contexts/SiteContext';
 import { ChevronDown, ChevronUp, Phone, MessageCircle } from 'lucide-react';
 import { Link } from 'wouter';
-
 export default function FAQPage() {
  const { config } = useSite();
  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
  const toggleAccordion = (index: number) => {
  setOpenIndex(openIndex === index ? null : index);
  };
-
  // 20 questions pour canalizador (Norte-Reparos)
  const faqs = [
  {
  question: "Quanto custa um canalizador em Trás-os-Montes?",
- answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos orçamento gratuito sem compromisso. Contacte-nos para uma avaliação precisa."
+ answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
  },
  {
- question: "Como funciona o orçamento gratuito?",
+ question: "Como funciona o sem compromisso?",
  answer: "Basta contactar-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente à sua casa para avaliar o problema, apresentamos um orçamento detalhado e só avançamos com o trabalho após sua aprovação. Sem custos ocultos."
  },
  {
@@ -101,7 +97,6 @@ export default function FAQPage() {
  answer: "Não deitar óleos/gordura no lava-loiça, usar redes nos ralos, não deitar produtos sanitários na sanita, fazer limpeza periódica dos sifões, instalar dissectores de gordura em cozinhas profissionais, inspecionar anualmente."
  }
  ];
-
  // Schema.org FAQPage JSON-LD
  const faqSchema = {
  "@context": "https://schema.org",
@@ -115,7 +110,6 @@ export default function FAQPage() {
  }
  }))
  };
-
  return (
  <>
  <SEOHead 
@@ -129,7 +123,6 @@ export default function FAQPage() {
  type="application/ld+json"
  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
  />
-
  <Header />
  
  <main className="min-h-screen bg-gray-50">
@@ -164,7 +157,6 @@ export default function FAQPage() {
  </div>
  </div>
  </section>
-
  {/* FAQ Accordion */}
  <section className="py-16">
  <div className="container mx-auto px-4">
@@ -177,7 +169,6 @@ export default function FAQPage() {
  Clique em cada pergunta para ver a resposta detalhada
  </p>
  </div>
-
  <div className="space-y-4">
  {faqs.map((faq, index) => (
  <div
@@ -213,7 +204,6 @@ export default function FAQPage() {
  </div>
  ))}
  </div>
-
  {/* Internal Links Section */}
  <div className="mt-16 bg-white rounded-xl shadow-lg p-8">
  <h3 className="text-2xl font-bold text-gray-900 mb-6">
@@ -242,7 +232,6 @@ export default function FAQPage() {
  </div>
  </div>
  </div>
-
  {/* CTA Section */}
  <div className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-xl p-8 text-center">
  <h3 className="text-2xl font-bold mb-4">
@@ -277,7 +266,6 @@ export default function FAQPage() {
  </div>
  </section>
  </main>
-
  <Footer />
  </>
  );

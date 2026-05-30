@@ -1,6 +1,5 @@
 // Page SEO optimisée: "Vale a Pena Arranjar ou Substituir" - Intention comparaison
 // Recherche fréquente: "vale pena arranjar esquentador", "substituir vs arranjar caldeira", "quando substituir"
-
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
@@ -8,11 +7,8 @@ import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Scale, CheckCircle, XCircle, AlertTriangle, Calculator } from 'lucide-react';
-
 export default function ValePenaArranjarVsSubstituir() {
  const { config } = useSite();
-
-
  const faqs = [
  {
  question: "Como saber se vale a pena arranjar ou substituir?",
@@ -31,7 +27,6 @@ export default function ValePenaArranjarVsSubstituir() {
  answer: "Depende: 1 fuga isolada = arranjar troço (80-150€). Fugas frequentes ou canos >30 anos = substituir tudo (1500-4000€). Canos velhos terão mais fugas. Avaliação gratuita: 928 484 451"
  }
  ];
-
  const comparacoes = [
  {
  equipamento: "Esquentador",
@@ -98,7 +93,6 @@ export default function ValePenaArranjarVsSubstituir() {
  recomendacao: "Substituir se rachada OU >20 anos"
  }
  ];
-
  const criterios = [
  {
  criterio: "Idade do Equipamento",
@@ -131,7 +125,6 @@ export default function ValePenaArranjarVsSubstituir() {
  icon: Scale
  }
  ];
-
  return (
  <>
  <Helmet>
@@ -139,7 +132,6 @@ export default function ValePenaArranjarVsSubstituir() {
  <meta name="description" content="Vale a pena arranjar ou substituir? Guia completo: esquentador, caldeira, canos, sanita. Critérios decisão + comparação custos. Orçamento grátis: 928 484 451" />
  </Helmet>
  <Header />
-
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero */}
  <section className="bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white py-16">
@@ -149,16 +141,13 @@ export default function ValePenaArranjarVsSubstituir() {
  <Scale className="w-5 h-5" />
  GUIA DE DECISÃO 2026
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Vale a Pena Arranjar ou Substituir?
  </h1>
-
  <p className="text-xl mb-8">
  Guia completo para tomar a decisão certa: esquentador, caldeira, canos, sanita.
  Comparação de custos + critérios de decisão.
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -179,7 +168,6 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </div>
  </section>
-
  {/* Critérios de Decisão */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -189,7 +177,6 @@ export default function ValePenaArranjarVsSubstituir() {
  <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
  Use estes critérios para tomar a decisão certa
  </p>
-
  <div className="max-w-5xl mx-auto space-y-4">
  {criterios.map((item, index) => (
  <div key={index} className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl shadow-md border border-blue-100">
@@ -220,21 +207,18 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </div>
  </section>
-
  {/* Comparações Detalhadas */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center mb-12">
  📊 Comparação Detalhada por Equipamento
  </h2>
-
  <div className="max-w-6xl mx-auto space-y-8">
  {comparacoes.map((comp, index) => (
  <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
  <div className="bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white p-6">
  <h3 className="text-2xl font-bold">{comp.equipamento}</h3>
  </div>
-
  <div className="grid md:grid-cols-2 gap-6 p-6">
  {/* Arranjar */}
  <div className="border-2 border-green-200 rounded-lg p-6 bg-green-50">
@@ -242,17 +226,14 @@ export default function ValePenaArranjarVsSubstituir() {
  <CheckCircle className="w-6 h-6 text-green-600" />
  <h4 className="text-xl font-bold text-green-700">ARRANJAR</h4>
  </div>
-
  <div className="mb-4">
  <div className="text-sm text-gray-600 mb-1">Custo</div>
  <div className="text-2xl font-bold text-green-600">{comp.arranjar.custo}</div>
  </div>
-
  <div className="mb-4">
  <div className="text-sm font-semibold text-gray-700 mb-2">Quando arranjar:</div>
  <p className="text-gray-600">{comp.arranjar.quando}</p>
  </div>
-
  <div className="mb-4">
  <div className="text-sm font-semibold text-gray-700 mb-2">✅ Vantagens:</div>
  <ul className="space-y-1">
@@ -261,7 +242,6 @@ export default function ValePenaArranjarVsSubstituir() {
  ))}
  </ul>
  </div>
-
  <div>
  <div className="text-sm font-semibold text-gray-700 mb-2">⚠️ Desvantagens:</div>
  <ul className="space-y-1">
@@ -271,24 +251,20 @@ export default function ValePenaArranjarVsSubstituir() {
  </ul>
  </div>
  </div>
-
  {/* Substituir */}
  <div className="border-2 border-orange-200 rounded-lg p-6 bg-orange-50">
  <div className="flex items-center gap-2 mb-4">
  <XCircle className="w-6 h-6 text-orange-600" />
  <h4 className="text-xl font-bold text-orange-700">SUBSTITUIR</h4>
  </div>
-
  <div className="mb-4">
  <div className="text-sm text-gray-600 mb-1">Custo</div>
  <div className="text-2xl font-bold text-orange-600">{comp.substituir.custo}</div>
  </div>
-
  <div className="mb-4">
  <div className="text-sm font-semibold text-gray-700 mb-2">Quando substituir:</div>
  <p className="text-gray-600">{comp.substituir.quando}</p>
  </div>
-
  <div className="mb-4">
  <div className="text-sm font-semibold text-gray-700 mb-2">✅ Vantagens:</div>
  <ul className="space-y-1">
@@ -297,7 +273,6 @@ export default function ValePenaArranjarVsSubstituir() {
  ))}
  </ul>
  </div>
-
  <div>
  <div className="text-sm font-semibold text-gray-700 mb-2">⚠️ Desvantagens:</div>
  <ul className="space-y-1">
@@ -308,7 +283,6 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </div>
  </div>
-
  <div className="bg-blue-50 p-4 border-t-2 border-blue-200">
  <div className="flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blue-600" />
@@ -321,7 +295,6 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </div>
  </section>
-
  {/* Regra dos 50% */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
@@ -350,7 +323,6 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-4xl">
@@ -360,7 +332,6 @@ export default function ValePenaArranjarVsSubstituir() {
  <FAQSection faqs={faqs} />
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white">
  <div className="container mx-auto px-4 text-center">
@@ -382,7 +353,6 @@ export default function ValePenaArranjarVsSubstituir() {
  </div>
  </section>
  </main>
-
  <Footer />
  </>
  );

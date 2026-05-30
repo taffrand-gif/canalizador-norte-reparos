@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, CheckCircle, Calendar, Wrench, AlertTriangle, Clock, Euro } from 'lucide-react';
-
 export default function ManutencaoCanalizacaoChecklist() {
  const faqSchema = {
  "@context": "https://schema.org",
@@ -49,7 +48,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  }
  ]
  };
-
  const checklistMensal = [
  { tarefa: "Limpar ralos de duche e lavatórios", tempo: "5 min", dificuldade: "Fácil" },
  { tarefa: "Verificar torneiras a pingar", tempo: "5 min", dificuldade: "Fácil" },
@@ -57,7 +55,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  { tarefa: "Verificar debaixo de lava-loiças (humidade)", tempo: "5 min", dificuldade: "Fácil" },
  { tarefa: "Limpar filtros de torneiras", tempo: "10 min", dificuldade: "Fácil" }
  ];
-
  const checklistTrimestral = [
  { tarefa: "Limpar sifões de lava-loiça e lavatórios", tempo: "20 min", dificuldade: "Média" },
  { tarefa: "Verificar pressão de água", tempo: "5 min", dificuldade: "Fácil" },
@@ -65,7 +62,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  { tarefa: "Verificar válvulas de corte", tempo: "10 min", dificuldade: "Fácil" },
  { tarefa: "Inspecionar tubos visíveis (oxidação)", tempo: "10 min", dificuldade: "Fácil" }
  ];
-
  const checklistAnual = [
  { tarefa: "Inspeção profissional completa", tempo: "1-2h", custo: "80-120€", profissional: true },
  { tarefa: "Limpeza preventiva de canalização", tempo: "1h", custo: "60-100€", profissional: true },
@@ -73,7 +69,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  { tarefa: "Manutenção de esquentador/caldeira", tempo: "1h", custo: "50-80€", profissional: true },
  { tarefa: "Verificação de fossa séptica (se aplicável)", tempo: "30 min", custo: "40-60€", profissional: true }
  ];
-
  return (
  <>
  <Helmet>
@@ -85,7 +80,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  {JSON.stringify(faqSchema)}
  </script>
  </Helmet>
-
  <div className="min-h-screen bg-gray-50">
  <article className="max-w-4xl mx-auto px-4 py-12">
  {/* Hero */}
@@ -105,7 +99,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
-
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
@@ -115,7 +108,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  <strong>Resultado:</strong> Previne 90% das avarias e poupa 500-2000€ em arranjos de emergência.
  </p>
  </div>
-
  {/* Benefícios */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Por Que Fazer Manutenção Preventiva?</h2>
@@ -154,7 +146,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  ))}
  </div>
  </section>
-
  {/* Checklist Mensal */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Mensal (20 minutos)</h2>
@@ -185,7 +176,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </div>
  </div>
  </section>
-
  {/* Checklist Trimestral */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Trimestral (1 hora)</h2>
@@ -218,7 +208,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </div>
  </div>
  </section>
-
  {/* Checklist Anual */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Anual Profissional (2-3 horas)</h2>
@@ -253,7 +242,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </div>
  </div>
  </section>
-
  {/* CTA Meio */}
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <Calendar className="w-16 h-16 mx-auto mb-4 opacity-90" />
@@ -278,11 +266,9 @@ export default function ManutencaoCanalizacaoChecklist() {
  </a>
  </div>
  </div>
-
  {/* Guias Detalhados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Guias Passo a Passo</h2>
-
  {/* Teste Autoclismo */}
  <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -306,7 +292,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  ))}
  </ol>
  </div>
-
  {/* Limpar Sifão */}
  <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -331,7 +316,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  ))}
  </ol>
  </div>
-
  {/* Verificar Pressão */}
  <div className="bg-white rounded-xl shadow-lg p-6">
  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -357,7 +341,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </ol>
  </div>
  </section>
-
  {/* Calendário Anual */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Calendário de Manutenção Anual</h2>
@@ -396,7 +379,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  <strong>Dica:</strong> Agende a manutenção profissional anual para Abril (antes do verão) ou Outubro (antes do inverno).
  </p>
  </section>
-
  {/* Sinais de Alerta */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Sinais de Que Precisa Manutenção Urgente</h2>
@@ -428,7 +410,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </div>
  </div>
  </section>
-
  {/* Custos */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Investimento em Manutenção vs Custo de Avarias</h2>
@@ -488,7 +469,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </p>
  </div>
  </section>
-
  {/* FAQ */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Perguntas Frequentes</h2>
@@ -505,7 +485,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  ))}
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Artigos Relacionados</h2>
@@ -530,7 +509,6 @@ export default function ManutencaoCanalizacaoChecklist() {
  </Link>
  </div>
  </section>
-
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Manutenção Preventiva Profissional</h3>

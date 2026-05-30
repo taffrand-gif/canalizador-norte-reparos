@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const EsquentadorNaoAquece: React.FC = () => {
  useSEO({
  title: 'Esquentador Não Aquece: 7 Causas e Soluções [Guia 2026]',
  description: 'Esquentador não aquece água? Descubra as 7 causas mais comuns e como resolver. Guia completo com soluções passo a passo.',
  keywords: 'esquentador não aquece, esquentador avariado, reparar esquentador, esquentador sem água quente'
  });
-
  return (
  <BlogLayout
  title="Esquentador Não Aquece: 7 Causas e Soluções [Guia 2026]"
@@ -23,11 +21,9 @@ const EsquentadorNaoAquece: React.FC = () => {
  <span>⏱️ 10 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Esquentador Não Aquece: 7 Causas e Soluções [Guia 2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">🔥</span>
@@ -38,21 +34,18 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg mb-8">
  <p className="text-orange-900 font-semibold text-lg">
  ❄️ Sem água quente? Este guia ajuda-o a identificar e resolver o problema rapidamente.
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Esquentador que não aquece água é um dos problemas mais comuns em casas portuguesas.
  Neste guia completo, vamos mostrar-lhe as 7 causas principais, como diagnosticar
  o problema e soluções práticas para cada situação.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -64,15 +57,12 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">6. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="diagnostico" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔍 Diagnóstico Rápido</h2>
-
  <p className="mb-6">
  Antes de começar, identifique o sintoma exato do seu esquentador:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">❄️ Água Completamente Fria</h3>
@@ -83,7 +73,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Causas prováveis:</strong> Gás cortado, pilhas gastas, válvula fechada, termopar avariado
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">🌡️ Água Morna (Não Aquece Suficiente)</h3>
  <p className="text-gray-700 mb-3">
@@ -93,7 +82,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Causas prováveis:</strong> Pressão de gás baixa, queimador sujo, permutador calcário
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">🔥 Liga e Desliga Constantemente</h3>
  <p className="text-gray-700 mb-3">
@@ -103,7 +91,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Causas prováveis:</strong> Termopar avariado, sensor sujo, ventilação insuficiente
  </p>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">💨 Não Liga (Sem Chama)</h3>
  <p className="text-gray-700 mb-3">
@@ -115,10 +102,8 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="causas" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🔧 7 Causas Principais</h2>
-
  <div className="space-y-8">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
@@ -132,7 +117,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -141,7 +125,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Pilhas com mais de 6 meses</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
@@ -156,7 +139,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -169,7 +151,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -179,7 +160,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Botija vazia (gás engarrafado)</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
@@ -193,7 +173,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -206,7 +185,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -215,7 +193,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Chama apaga-se sozinha após alguns segundos</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="font-bold text-yellow-900 mb-2">⚠️ Solução:</p>
  <p className="text-yellow-800 text-sm mb-2">
@@ -226,7 +203,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -239,7 +215,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -249,7 +224,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Esquentador com mais de 2 anos sem limpeza</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
@@ -264,7 +238,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -277,7 +250,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -286,7 +258,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Pressão de água baixa em toda a casa</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ul className="text-green-800 text-sm space-y-1">
@@ -300,7 +271,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -313,7 +283,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -323,7 +292,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Esquentador com mais de 5 anos sem descalcificação</li>
  </ul>
  </div>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="font-bold text-yellow-900 mb-2">⚠️ Solução:</p>
  <p className="text-yellow-800 text-sm mb-2">
@@ -334,7 +302,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <div className="flex items-start gap-4 mb-4">
  <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -347,7 +314,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
@@ -356,7 +322,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Elétrodos visivelmente sujos ou tortos</li>
  </ul>
  </div>
-
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
@@ -373,30 +338,24 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="solucoes" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛠️ Soluções Passo a Passo</h2>
-
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  ⚠️ Segurança: Antes de qualquer intervenção, feche sempre o gás e a água. Se não se sentir confortável, contacte técnico.
  </p>
  </div>
-
  <div className="space-y-8">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 1: Substituir Pilhas</h3>
-
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: 5 minutos</p>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>2 pilhas tipo D (1.5V) - alcalinas de qualidade</li>
  <li>Pano seco</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Localize compartimento das pilhas (parte inferior do esquentador)</li>
@@ -407,19 +366,15 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Feche tampa</li>
  <li>Abra torneira de água quente e teste</li>
  </ol>
-
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900"><strong>💡 Dica:</strong> Use pilhas alcalinas de marca. Duram 6-12 meses vs 2-3 meses das genéricas.</p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 2: Verificar e Abrir Gás</h3>
-
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: 2 minutos</p>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Localize válvula de gás (normalmente ao lado do esquentador)</li>
@@ -434,19 +389,15 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Teste fogão para confirmar que há gás</li>
  <li>Teste esquentador</li>
  </ol>
-
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900"><strong>⚠️ Atenção:</strong> Se sentir cheiro forte a gás, NÃO acenda nada. Abra janelas, feche válvula geral e contacte técnico.</p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 3: Limpar Queimador</h3>
-
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐⭐⭐ (Média) | Tempo: 30-45 minutos</p>
  </div>
-
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Chave de fendas</li>
@@ -454,7 +405,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Ar comprimido (opcional)</li>
  <li>Pano seco</li>
  </ul>
-
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche gás e água</li>
@@ -467,21 +417,17 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Remonte painel</li>
  <li>Abra gás e água, teste esquentador</li>
  </ol>
-
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900"><strong>⚠️ Importante:</strong> Se não se sentir confortável, contacte técnico. Custo: 60-100€.</p>
  </div>
  </div>
  </div>
  </section>
-
  <section id="prevencao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛡️ Prevenção de Avarias</h2>
-
  <p className="mb-6">
  Manutenção preventiva evita 80% das avarias de esquentador:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 🔋 Substituir Pilhas Regularmente</h3>
@@ -494,7 +440,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Custo anual: 6-10€</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. 🧹 Limpeza Anual</h3>
  <p className="text-gray-700 mb-2">
@@ -507,7 +452,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Evita avarias de 200-500€</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 💧 Descalcificação (Zonas Calcárias)</h3>
  <p className="text-gray-700 mb-2">
@@ -519,7 +463,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Custo: 80-150€</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🌬️ Ventilação Adequada</h3>
  <p className="text-gray-700 mb-2">
@@ -531,7 +474,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Limpe grelhas semestralmente</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 🔍 Inspeção Visual Mensal</h3>
  <p className="text-gray-700 mb-2">
@@ -546,14 +488,11 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="quando-chamar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📞 Quando Chamar Técnico</h2>
-
  <p className="mb-6">
  Algumas situações requerem profissional certificado:
  </p>
-
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-xl">🚨 Urgente (Perigo)</h3>
@@ -565,7 +504,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>✗ Fuga de água</li>
  </ul>
  </div>
-
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-xl">⚠️ Técnico Necessário</h3>
  <ul className="space-y-2 text-orange-800">
@@ -577,10 +515,8 @@ const EsquentadorNaoAquece: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-cyan-50 p-8 rounded-2xl mb-8">
  <h3 className="text-2xl font-bold text-cyan-900 mb-4">💰 Custos de Reparação Profissional</h3>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-cyan-200">
@@ -617,10 +553,8 @@ const EsquentadorNaoAquece: React.FC = () => {
  </table>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Porque é que o meu esquentador não aquece água?</h3>
@@ -639,7 +573,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  💡 Comece por verificar pilhas e gás - resolve 65% dos casos
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo duram as pilhas do esquentador?</h3>
  <p className="text-gray-700 mb-2">
@@ -654,7 +587,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  ✅ Recomendação: Troque a cada 6 meses preventivamente
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Esquentador acende mas apaga logo. O que fazer?</h3>
  <p className="text-gray-700 mb-2">
@@ -667,7 +599,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  ⚠️ Solução: Substituição por técnico (80-150€)
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso reparar esquentador sozinho?</h3>
  <p className="text-gray-700 mb-2">
@@ -685,7 +616,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  ⚠️ Se não tem experiência, contacte técnico certificado
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar um esquentador?</h3>
  <p className="text-gray-700 mb-2">Depende da avaria:</p>
@@ -697,7 +627,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Reparação válvula: 100-200€</li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Chama do esquentador está amarela. É perigoso?</h3>
  <p className="text-gray-700 mb-2">
@@ -710,7 +639,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  🚨 Ação imediata: Desligue esquentador, abra janelas, contacte técnico
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Com que frequência devo fazer manutenção?</h3>
  <p className="text-gray-700 mb-2">
@@ -723,7 +651,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• <strong>2-3 anos:</strong> Descalcificação (zonas calcárias)</li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quando devo substituir esquentador por um novo?</h3>
  <p className="text-gray-700 mb-2">
@@ -742,16 +669,13 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Esquentador Avariado?</h2>
  <p className="text-xl mb-6">
  Técnicos certificados disponíveis 24h. Reparação rápida e garantida.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Especialistas em Esquentadores</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -782,7 +706,6 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -798,12 +721,10 @@ const EsquentadorNaoAquece: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -834,5 +755,4 @@ const EsquentadorNaoAquece: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default EsquentadorNaoAquece;

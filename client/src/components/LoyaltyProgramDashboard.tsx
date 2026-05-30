@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
 import { loyaltyProgram, Customer, Transaction, TIER_THRESHOLDS, REWARDS } from '@/server/loyaltyProgram';
 import { Star, Gift, TrendingUp, Award, Users, DollarSign } from 'lucide-react';
-
 export default function LoyaltyProgramDashboard() {
  const [customer, setCustomer] = useState<Customer | null>(null);
  const [transactions, setTransactions] = useState<Transaction[]>([]);
  const [phoneOrEmail, setPhoneOrEmail] = useState('');
  const [stats, setStats] = useState(loyaltyProgram.getStatistics());
-
  const handleLookup = () => {
  const found = loyaltyProgram.getCustomer(phoneOrEmail);
  if (found) {
@@ -17,7 +15,6 @@ export default function LoyaltyProgramDashboard() {
  alert('Cliente não encontrado');
  }
  };
-
  const getTierColor = (tier: string) => {
  switch (tier) {
  case 'bronze': return 'from-orange-600 to-orange-700';
@@ -26,7 +23,6 @@ export default function LoyaltyProgramDashboard() {
  default: return 'from-gray-600 to-gray-700';
  }
  };
-
  const getTierIcon = (tier: string) => {
  switch (tier) {
  case 'bronze': return '🥉';
@@ -35,7 +31,6 @@ export default function LoyaltyProgramDashboard() {
  default: return '⭐';
  }
  };
-
  return (
  <div className="min-h-screen bg-gray-50 p-6">
  <div className="max-w-7xl mx-auto">
@@ -48,7 +43,6 @@ export default function LoyaltyProgramDashboard() {
  Recompensamos a sua fidelidade com descontos e benefícios exclusivos
  </p>
  </div>
-
  {/* Program Statistics */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
  <div className="bg-white rounded-lg shadow-lg p-6">
@@ -65,7 +59,6 @@ export default function LoyaltyProgramDashboard() {
  {stats.activeCustomers} ativos (90 dias)
  </p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
@@ -80,7 +73,6 @@ export default function LoyaltyProgramDashboard() {
  {stats.totalPointsRedeemed.toLocaleString()} resgatados
  </p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
@@ -95,7 +87,6 @@ export default function LoyaltyProgramDashboard() {
  €{Math.round(stats.averageSpentPerCustomer)} média/cliente
  </p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -110,7 +101,6 @@ export default function LoyaltyProgramDashboard() {
  </div>
  </div>
  </div>
-
  {/* Customer Lookup */}
  <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -132,7 +122,6 @@ export default function LoyaltyProgramDashboard() {
  </button>
  </div>
  </div>
-
  {/* Customer Details */}
  {customer && (
  <>
@@ -155,7 +144,6 @@ export default function LoyaltyProgramDashboard() {
  <p className="text-white/80">Pontos</p>
  </div>
  </div>
-
  <div className="grid grid-cols-3 gap-6 pt-6 border-t border-white/20">
  <div>
  <p className="text-white/80 text-sm mb-1">Desconto Atual</p>
@@ -170,7 +158,6 @@ export default function LoyaltyProgramDashboard() {
  <p className="text-2xl font-bold">{customer.servicesCount}</p>
  </div>
  </div>
-
  {loyaltyProgram.getPointsToNextTier(customer.id) && (
  <div className="mt-6 pt-6 border-t border-white/20">
  <p className="text-white/80 text-sm mb-2">
@@ -186,7 +173,6 @@ export default function LoyaltyProgramDashboard() {
  </div>
  </div>
  )}
-
  <div className="mt-6 pt-6 border-t border-white/20">
  <p className="text-white/80 text-sm mb-2">Código de Indicação</p>
  <div className="flex items-center gap-4">
@@ -199,7 +185,6 @@ export default function LoyaltyProgramDashboard() {
  </div>
  </div>
  </div>
-
  {/* Available Rewards */}
  <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
@@ -223,7 +208,6 @@ export default function LoyaltyProgramDashboard() {
  ))}
  </div>
  </div>
-
  {/* Transaction History */}
  <div className="bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
@@ -264,7 +248,6 @@ export default function LoyaltyProgramDashboard() {
  </div>
  </>
  )}
-
  {/* Program Benefits */}
  {!customer && (
  <div className="bg-gradient-to-r from-primary/10 to-primary/5 border-l-4 border-primary rounded-r-lg p-6">

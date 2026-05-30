@@ -1,14 +1,12 @@
 import React from 'react';
 // memo removed from 'react';
 import { Phone, MapPin, Wrench, CheckCircle, Clock } from 'lucide-react';
-
 interface TimelineStep {
  time: string;
  title: string;
  description: string;
  icon: 'phone' | 'map' | 'wrench' | 'check';
 }
-
 interface SolutionTimelineProps {
  title: string;
  subtitle: string;
@@ -16,13 +14,11 @@ interface SolutionTimelineProps {
  totalTime: string;
  guaranteeText: string;
 }
-
 const iconMap = {
  phone: Phone,
  map: MapPin,
  wrench: Wrench,
  check: CheckCircle};
-
 function SolutionTimeline({
  title,
  subtitle,
@@ -46,18 +42,15 @@ function SolutionTimeline({
  Tempo Total: {totalTime}
  </div>
  </div>
-
  {/* Timeline */}
  <div className="relative">
  {/* Vertical Line */}
  <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-400 to-green-400"></div>
-
  {/* Steps */}
  <div className="space-y-12">
  {steps.map((step, index) => {
  const Icon = iconMap[step.icon];
  const isEven = index % 2 === 0;
-
  return (
  <div
  key={index}
@@ -79,7 +72,6 @@ function SolutionTimeline({
  </p>
  </div>
  </div>
-
  {/* Icon Circle */}
  <div className="relative z-10 flex-shrink-0">
  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center shadow-lg">
@@ -89,7 +81,6 @@ function SolutionTimeline({
  {index + 1}
  </div>
  </div>
-
  {/* Spacer for alignment */}
  <div className="flex-1 hidden md:block"></div>
  </div>
@@ -97,7 +88,6 @@ function SolutionTimeline({
  })}
  </div>
  </div>
-
  {/* Guarantee Box */}
  <div className="mt-12 bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-xl text-center">
  <div className="flex items-center justify-center gap-3 mb-3">
@@ -112,5 +102,4 @@ function SolutionTimeline({
  </section>
  );
 }
-
 export default React.memo(SolutionTimeline);

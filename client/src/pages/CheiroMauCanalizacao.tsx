@@ -7,7 +7,6 @@ import SolutionTimeline from '@/components/SolutionTimeline';
 import EmergencyTestimonials from '@/components/EmergencyTestimonials';
 import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 export default function CheiroMauCanalizacao() {
  useEffect(() => {
  document.title = "Cheiro Mau na Canalização? Eliminamos em 1 Hora | Norte Reparos";
@@ -19,7 +18,6 @@ export default function CheiroMauCanalizacao() {
  }
  meta.setAttribute('content', 'Cheiro mau na canalização? Eliminamos a origem em 1 hora. Solução definitiva, não temporária. Ligue +351 928 484 451.');
  }, []);
-
  const faqSchema = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -37,17 +35,15 @@ export default function CheiroMauCanalizacao() {
  "name": "Quanto custa eliminar cheiro mau na canalização?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Soluções simples desde €60. Limpeza profunda €100-150. Arranjos complexas €150-300. Orçamento gratuito."
+ "text": "Soluções simples desde €60. Limpeza profunda €100-150. Arranjos complexas €150-300. Sem compromisso."
  }
  }
  ]
  };
-
  return (
  <>
  <Header />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
  <EmotionalHero
  painPoint="CHEIRO MAU CANALIZAÇÃO"
  headline="Cheiro Mau Insuportável? Eliminamos a Origem"
@@ -60,7 +56,6 @@ export default function CheiroMauCanalizacao() {
  ctaSecondary="WhatsApp Urgente"
  responseTime="30 minutos"
  />
-
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Viver"
  subtitle="Cheiro mau na canalização não é só desagradável. É vergonha, insalubridade e stress constante."
@@ -92,7 +87,6 @@ export default function CheiroMauCanalizacao() {
  }
  ]}
  />
-
  <SolutionTimeline
  title="Como Eliminamos o Cheiro em 1 Hora"
  subtitle="Identificamos a origem, não mascaramos. Solução definitiva."
@@ -125,7 +119,6 @@ export default function CheiroMauCanalizacao() {
  }
  ]}
  />
-
  <EmergencyTestimonials
  title="Já Eliminámos Cheiros em Centenas de Casas"
  subtitle="Famílias que recuperaram o conforto e dignidade."
@@ -186,7 +179,6 @@ export default function CheiroMauCanalizacao() {
  }
  ]}
  />
-
  <GuaranteeBox
  title="Garantias de Eliminação"
  subtitle="Eliminamos a origem, não mascaramos. Solução definitiva garantida."
@@ -215,7 +207,6 @@ export default function CheiroMauCanalizacao() {
  }
  ]}
  />
-
  {/* Common Causes */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-5xl mx-auto">
@@ -267,7 +258,6 @@ export default function CheiroMauCanalizacao() {
  </div>
  </div>
  </section>
-
  {/* FAQ Section */}
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
@@ -282,7 +272,7 @@ export default function CheiroMauCanalizacao() {
  },
  {
  q: 'Quanto custa eliminar o cheiro?',
- a: 'Soluções simples (encher sifão, limpeza básica) desde €60. Limpeza profunda com máquina €100-150. Arranjos (substituir sifão, instalar ventilação) €150-300. Orçamento gratuito no local.'
+ a: 'Soluções simples (encher sifão, limpeza básica) desde €60. Limpeza profunda com máquina €100-150. Arranjos (substituir sifão, instalar ventilação) €150-300. Sem compromisso no local.'
  },
  {
  q: 'Porque é que o cheiro volta sempre?',
@@ -309,7 +299,6 @@ export default function CheiroMauCanalizacao() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-16 px-4 bg-gradient-to-r from-green-600 to-green-700 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -340,7 +329,6 @@ export default function CheiroMauCanalizacao() {
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

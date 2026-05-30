@@ -1,9 +1,7 @@
 import { reviewScheduler } from '@/server/reviewAutomation';
 import { BarChart, TrendingUp, Star, MessageCircle, Users, CheckCircle } from 'lucide-react';
-
 export default function ReviewAutomationDashboard() {
  const stats = reviewScheduler.getStatistics();
-
  return (
  <div className="min-h-screen bg-gray-50 p-6">
  <div className="max-w-7xl mx-auto">
@@ -16,7 +14,6 @@ export default function ReviewAutomationDashboard() {
  Monitorização em tempo real de pedidos de avaliação e taxa de resposta
  </p>
  </div>
-
  {/* Key Metrics */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
  <div className="bg-white rounded-lg shadow-lg p-6">
@@ -31,7 +28,6 @@ export default function ReviewAutomationDashboard() {
  </div>
  <p className="text-sm text-gray-600">Serviços Completos</p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
@@ -44,7 +40,6 @@ export default function ReviewAutomationDashboard() {
  </div>
  <p className="text-sm text-gray-600">Pedidos Enviados</p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
@@ -57,7 +52,6 @@ export default function ReviewAutomationDashboard() {
  </div>
  <p className="text-sm text-gray-600">Avaliações Recebidas</p>
  </div>
-
  <div className="bg-white rounded-lg shadow-lg p-6">
  <div className="flex items-center justify-between mb-4">
  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
@@ -71,7 +65,6 @@ export default function ReviewAutomationDashboard() {
  <p className="text-sm text-gray-600">Taxa de Resposta</p>
  </div>
  </div>
-
  {/* Rating Distribution */}
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
  <div className="bg-white rounded-lg shadow-lg p-6">
@@ -79,12 +72,10 @@ export default function ReviewAutomationDashboard() {
  <Star className="w-6 h-6 text-yellow-500" />
  Distribuição de Avaliações
  </h2>
-
  <div className="space-y-4">
  {[5, 4, 3, 2, 1].map((rating) => {
  const count = stats[`${['five', 'four', 'three', 'two', 'one'][5 - rating]}StarReviews` as keyof typeof stats] as number;
  const percentage = stats.reviewsReceived > 0 ? (count / stats.reviewsReceived) * 100 : 0;
-
  return (
  <div key={rating} className="flex items-center gap-4">
  <div className="flex items-center gap-1 w-24">
@@ -104,7 +95,6 @@ export default function ReviewAutomationDashboard() {
  );
  })}
  </div>
-
  <div className="mt-6 pt-6 border-t border-gray-200">
  <div className="flex items-center justify-between">
  <span className="text-gray-700 font-semibold">Média Geral</span>
@@ -117,14 +107,12 @@ export default function ReviewAutomationDashboard() {
  </div>
  </div>
  </div>
-
  {/* Process Flow */}
  <div className="bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
  <BarChart className="w-6 h-6 text-blue-600" />
  Fluxo Automatizado
  </h2>
-
  <div className="space-y-6">
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -137,7 +125,6 @@ export default function ReviewAutomationDashboard() {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
  <span className="font-bold text-purple-600">2</span>
@@ -149,7 +136,6 @@ export default function ReviewAutomationDashboard() {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
  <span className="font-bold text-green-600">3</span>
@@ -161,7 +147,6 @@ export default function ReviewAutomationDashboard() {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
  <span className="font-bold text-orange-600">4</span>
@@ -173,7 +158,6 @@ export default function ReviewAutomationDashboard() {
  </p>
  </div>
  </div>
-
  <div className="flex items-start gap-4">
  <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
  <span className="font-bold text-yellow-600">5</span>
@@ -188,7 +172,6 @@ export default function ReviewAutomationDashboard() {
  </div>
  </div>
  </div>
-
  {/* Benefits */}
  <div className="bg-gradient-to-r from-primary/10 to-primary/5 border-l-4 border-primary rounded-r-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -215,7 +198,6 @@ export default function ReviewAutomationDashboard() {
  </div>
  </div>
  </div>
-
  {/* Integration Instructions */}
  <div className="mt-8 bg-white rounded-lg shadow-lg p-6">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">

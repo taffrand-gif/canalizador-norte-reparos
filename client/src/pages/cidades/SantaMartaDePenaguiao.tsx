@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function SantaMartaDePenaguiao() {
  useEffect(() => {
  document.title = "Canalizador Santa Marta Penaguião 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Santa Marta de Penaguião. Canalização para quintas de vinho verde e Douro, desentupimentos, fugas de água 24h. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Santa Marta de Penaguião. Canalização para quintas de vinho verde e Douro, desentupimentos, fugas de água 24h. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-santa-marta-de-penaguiao');
-
  const cityAddress = getCityAddress('santa-marta-penaguiao');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function SantaMartaDePenaguiao() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function SantaMartaDePenaguiao() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-santa-marta'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('santa-marta-penaguiao');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Santa Marta de Penaguião?", answer: "Chegamos a Santa Marta de Penaguião em aproximadamente 1h10 a 1h20, percorrendo cerca de 80km desde Macedo de Cavaleiros pela A4 e A24." },
  { question: "Fazem canalização para adegas de vinho verde?", answer: "Sim, instalamos redes de água e drenagem para adegas de vinho verde e quintas do Douro, com materiais adequados ao processo de vinificação e armazenamento." },
@@ -70,7 +65,6 @@ export default function SantaMartaDePenaguiao() {
  question: "Qual o custo de deslocação a Santa Marta de Penaguião?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 65-75 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function SantaMartaDePenaguiao() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Santa Marta de Penaguião" currentCitySlug="canalizador-santa-marta-de-penaguiao" />
  </main>

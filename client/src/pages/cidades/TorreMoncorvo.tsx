@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function TorreMoncorvo() {
  useEffect(() => {
  document.title = "Canalizador Torre Moncorvo 💧 24h | 928 484 451";
@@ -20,8 +19,7 @@ export default function TorreMoncorvo() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Entupimento em Torre de Moncorvo? Resolvemos no próprio dia. Equipamento Ridgid, orçamento gratuito. Ligue: 928 484 451');
-
+ metaDescription.setAttribute('content', 'Entupimento em Torre de Moncorvo? Resolvemos no próprio dia. Equipamento Ridgid, sem compromisso. Ligue: 928 484 451');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -29,9 +27,7 @@ export default function TorreMoncorvo() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-torre-moncorvo');
-
  const cityAddress = getCityAddress('torre-moncorvo');
-
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
  schemaScript.id = 'schema-torre';
@@ -52,7 +48,6 @@ export default function TorreMoncorvo() {
  "openingHours": "Mo-Su 00:00-23:59"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -70,12 +65,9 @@ export default function TorreMoncorvo() {
  }))
  });
  document.head.appendChild(faqSchema);
-
  return () => { document.getElementById('schema-torre')?.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('torre-moncorvo');
-
  const faqs = [
  { question: "Chegam a Torre de Moncorvo?", answer: "Sim, cobrimos todo o concelho. Tempo de chegada: 50-60 minutos." },
  {
@@ -84,7 +76,6 @@ export default function TorreMoncorvo() {
  },
  { question: "Fazem canalização para quintas?", answer: "Sim, temos experiência em quintas vinícolas e adegas do Douro Superior." }
  ];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -100,7 +91,6 @@ export default function TorreMoncorvo() {
  </div>
  </div>
  </section>
-
  <section className="py-16 bg-gray-50">
  <div className="container">
  <h2 className="text-3xl font-black text-center mb-12">Serviços de Canalização</h2>
@@ -119,16 +109,13 @@ export default function TorreMoncorvo() {
  </div>
  </div>
  </section>
-
  <section className="py-16"><div className="container max-w-4xl"><h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes</h2><FAQSection faqs={faqs} /></div></section>
-
  <section className="py-16 bg-blue-600 text-white">
  <div className="container text-center">
  <h2 className="text-3xl font-black mb-4">Precisa de Canalizador em Torre de Moncorvo?</h2>
  <a href="tel:+351928484451" className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg"><Phone className="w-6 h-6" />928 484 451</a>
  </div>
  </section>
-
  {/* Related Cities - Maillage interno SEO */}
  {/* Cidades Próximas - Internal Linking */}
  <CidadesProximas
@@ -136,7 +123,6 @@ export default function TorreMoncorvo() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities 
  currentCity="Torre de Moncorvo" 

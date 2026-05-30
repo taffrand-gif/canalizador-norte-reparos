@@ -1,25 +1,20 @@
 // CTA flutuante bottom - Quick Win #2
 // Estilo Hormozi: Múltiplos pontos de conversão, sticky, minimal
-
 import { useState } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
-
 export default function FloatingCTA() {
  const { config } = useSite();
  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
  const { city, arrivalTime } = useLocationContent();
  const [isVisible, setIsVisible] = useState(true);
  const [isMinimized, setIsMinimized] = useState(false);
-
  // Mensagem WhatsApp pré-preenchida com localização
  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
  const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(whatsappMessage)}`;
-
  if (!isVisible) return null;
-
  return (
  <div id="floating-cta-react" className={`fixed bottom-4 right-4 z-50 transition-all duration-300 hidden md:block ${isMinimized ? 'w-12 h-12' : 'w-auto'}`}>
  {isMinimized ? (
@@ -58,14 +53,12 @@ export default function FloatingCTA() {
  </button>
  </div>
  </div>
-
  {/* Corpo */}
  <div className="p-4">
  {/* Urgency headline */}
  <p className="text-center text-sm font-bold text-gray-900 mb-3">
  ⚡ Precisa de ajuda?
  </p>
-
  <div className="space-y-3">
  {/* Botão telefone */}
  <a
@@ -78,7 +71,6 @@ export default function FloatingCTA() {
  <Phone className="w-5 h-5" />
  <span>📞 LIGAR AGORA</span>
  </a>
-
  {/* Botão WhatsApp */}
  <a
  href={whatsappUrl}
@@ -92,7 +84,6 @@ export default function FloatingCTA() {
  <MessageCircle className="w-5 h-5" />
  <span>💬 WhatsApp Grátis</span>
  </a>
-
  {/* Pequeno texto com prova social */}
  <p className="text-xs text-gray-600 text-center mt-2 font-semibold">
  ✓ Orçamento grátis • ✓ Sem compromisso

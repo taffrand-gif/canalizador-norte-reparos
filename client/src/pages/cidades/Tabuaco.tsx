@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Tabuaco() {
  useEffect(() => {
  document.title = "Canalizador Tabuaço 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Tabuaço disponível 24h. Canalização para quintas vinícolas do Douro, desentupimentos, fugas de água, esquentadores. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Tabuaço disponível 24h. Canalização para quintas vinícolas do Douro, desentupimentos, fugas de água, esquentadores. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-tabuaco');
-
  const cityAddress = getCityAddress('tabuaco');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function Tabuaco() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function Tabuaco() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-tabuaco'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('tabuaco');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Tabuaço?", answer: "Chegamos a Tabuaço em aproximadamente 55-65 minutos, percorrendo cerca de 65km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização para quintas vinícolas?", answer: "Sim, instalamos redes de água para quintas vinícolas do Douro, incluindo caves de vinificação, sistemas de lavagem e drenagem de terrenos em socalcos." },
@@ -70,7 +65,6 @@ export default function Tabuaco() {
  question: "Qual o custo de deslocação a Tabuaço?",
  answer: "A deslocação é de 55€ (Zona 5). Chegamos em aproximadamente 70-80 minutos. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function Tabuaco() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Tabuaço" currentCitySlug="canalizador-tabuaco" />
  </main>

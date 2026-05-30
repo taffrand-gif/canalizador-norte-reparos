@@ -1,22 +1,17 @@
 'use client';
-
 import { useState } from 'react';
 import { CheckCircle, ArrowRight } from 'lucide-react';
-
 interface QuizQuestion {
  id: number;
  question: string;
  options: string[];
 }
-
 interface CommitmentQuizProps {
  serviceType?: 'canalizador' | 'eletricista';
 }
-
 export default function CommitmentQuiz({ serviceType = 'canalizador' }: CommitmentQuizProps) {
  const [currentStep, setCurrentStep] = useState(0);
  const [answers, setAnswers] = useState<string[]>([]);
-
  const quizzes = {
  canalizador: [
  {
@@ -83,14 +78,11 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  }
  ]
  };
-
  const questions = quizzes[serviceType];
  const progress = ((currentStep + 1) / questions.length) * 100;
-
  const handleAnswer = (answer: string) => {
  const newAnswers = [...answers, answer];
  setAnswers(newAnswers);
-
  if (currentStep < questions.length - 1) {
  setCurrentStep(currentStep + 1);
  } else {
@@ -99,7 +91,6 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  window.open(`https://wa.me/351928484451?text=${encodeURIComponent(message)}`, '_blank');
  }
  };
-
  return (
  <div className="bg-white border-2 border-primary/20 rounded-lg p-6 shadow-lg max-w-2xl mx-auto">
  {/* Progress bar */}
@@ -117,7 +108,6 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  />
  </div>
  </div>
-
  {/* Question */}
  <div className="mb-6">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">
@@ -127,7 +117,6 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  Selecione a opção que melhor descreve a sua situação
  </p>
  </div>
-
  {/* Options */}
  <div className="space-y-3">
  {questions[currentStep].options.map((option, index) => (
@@ -145,7 +134,6 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  </button>
  ))}
  </div>
-
  {/* Benefits footer */}
  <div className="mt-6 pt-6 border-t border-gray-200">
  <div className="flex items-start gap-2 text-sm text-gray-600">

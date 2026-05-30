@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'wouter';
 import { Phone, MessageCircle, AlertTriangle, CheckCircle, Wrench, Euro, TrendingUp, Clock } from 'lucide-react';
-
 export default function EsquentadorAvariadoArranjarSubstituir() {
  const faqSchema = {
  "@context": "https://schema.org",
@@ -49,7 +48,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  }
  ]
  };
-
  const criterios = {
  arranjar: [
  { criterio: "Idade do esquentador", valor: "Menos de 8 anos" },
@@ -68,7 +66,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  { criterio: "Peças de substituição", valor: "Difíceis de encontrar ou caras" }
  ]
  };
-
  return (
  <>
  <Helmet>
@@ -80,7 +77,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  {JSON.stringify(faqSchema)}
  </script>
  </Helmet>
-
  <div className="min-h-screen bg-gray-50">
  <article className="max-w-4xl mx-auto px-4 py-12">
  {/* Hero */}
@@ -100,7 +96,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
-
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
@@ -110,7 +105,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  <strong>Em Bragança:</strong> arranjo 50-120€, esquentador novo instalado 250-900€.
  </p>
  </div>
-
  {/* Árvore de Decisão Visual */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Árvore de Decisão Rápida</h2>
@@ -125,7 +119,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  <p>• <strong>Mais de 10 anos:</strong> <span className="text-red-600 font-bold">SUBSTITUIR</span> (fim de vida)</p>
  </div>
  </div>
-
  <div className="border-l-4 border-orange-600 pl-6">
  <h3 className="font-bold text-lg mb-2">2. Quanto custa a arranjo?</h3>
  <div className="space-y-2 text-sm">
@@ -134,7 +127,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  <p>• <strong>Mais de 200€:</strong> <span className="text-red-600 font-bold">SUBSTITUIR</span> (novo custa 250-400€)</p>
  </div>
  </div>
-
  <div className="border-l-4 border-red-600 pl-6">
  <h3 className="font-bold text-lg mb-2">3. Quantas avarias teve no último ano?</h3>
  <div className="space-y-2 text-sm">
@@ -146,7 +138,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </div>
  </div>
  </section>
-
  {/* Tabela Comparativa */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Quando Arranjar vs Quando Substituir</h2>
@@ -173,7 +164,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </ul>
  </div>
  </div>
-
  {/* Substituir */}
  <div className="bg-red-50 border-2 border-red-200 rounded-xl overflow-hidden">
  <div className="bg-red-600 text-white px-6 py-4">
@@ -198,11 +188,9 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </div>
  </div>
  </section>
-
  {/* Tabela de Custos */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Custos Reais em Bragança (2026)</h2>
-
  {/* Arranjos */}
  <div className="mb-8">
  <h3 className="text-xl font-bold text-gray-900 mb-4">Arranjos Comuns</h3>
@@ -237,7 +225,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  * Diagnóstico: 30-40€ (descontado se autorizar arranjo)
  </p>
  </div>
-
  {/* Substituição */}
  <div>
  <h3 className="text-xl font-bold text-gray-900 mb-4">Esquentador Novo (com Instalação)</h3>
@@ -270,7 +257,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </p>
  </div>
  </section>
-
  {/* CTA Meio */}
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <h3 className="text-2xl font-bold mb-4">Não Sabe Se Deve Arranjar ou Substituir?</h3>
@@ -294,7 +280,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </a>
  </div>
  </div>
-
  {/* Vantagens de Substituir */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Vantagens de Substituir por um Novo</h2>
@@ -333,7 +318,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  ))}
  </div>
  </section>
-
  {/* Avarias Comuns */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Avarias Mais Comuns e O Que Fazer</h2>
@@ -390,7 +374,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  ))}
  </div>
  </section>
-
  {/* FAQ */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Perguntas Frequentes</h2>
@@ -407,7 +390,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  ))}
  </div>
  </section>
-
  {/* Artigos Relacionados */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Artigos Relacionados</h2>
@@ -432,7 +414,6 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </Link>
  </div>
  </section>
-
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Diagnóstico e Orçamento Gratuito</h3>

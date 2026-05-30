@@ -9,17 +9,15 @@ import { useEffect } from 'react';
 import { Phone, Droplets, Shield, CheckCircle, Wrench } from 'lucide-react';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { getCidadesProximas } from '@/data/cidadesProximas';
-
 export default function Penedono() {
  useEffect(() => {
  document.title = "Canalizador Penedono 24h | 928 484 451";
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
- metaDescription.setAttribute('content', 'Canalizador em Penedono disponível 24h. Canalização para casas medievais de granito, desentupimentos, fugas de água. Terra do castelo. Orçamento gratuito.');
+ metaDescription.setAttribute('content', 'Canalizador em Penedono disponível 24h. Canalização para casas medievais de granito, desentupimentos, fugas de água. Terra do castelo. Sem compromisso.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-penedono');
-
  const cityAddress = getCityAddress('penedono');
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
@@ -40,7 +38,6 @@ export default function Penedono() {
  "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59", "priceRange": "€€"
  });
  document.head.appendChild(schemaScript);
-
  // FAQ Schema
  const faqSchema = document.createElement('script');
  faqSchema.type = 'application/ld+json';
@@ -60,9 +57,7 @@ export default function Penedono() {
  document.head.appendChild(faqSchema);
  return () => { const s = document.getElementById('schema-penedono'); if (s) s.remove(); };
  }, []);
-
  const cidadesProximas = getCidadesProximas('penedono');
-
  const faqs = [
  { question: "Quanto tempo demora a chegar a Penedono?", answer: "Chegamos a Penedono em aproximadamente 1h05 a 1h15, percorrendo cerca de 75km desde Macedo de Cavaleiros." },
  { question: "Fazem canalização em casas medievais de granito?", answer: "Sim, somos especializados em instalar canalização moderna em casas de granito centenárias, respeitando a arquitetura medieval enquanto garantimos conforto moderno." },
@@ -70,7 +65,6 @@ export default function Penedono() {
  question: "Qual o custo de deslocação a Penedono?",
  answer: "A deslocação é de 65€ (Zona 6), sob marcação prévia. Estamos a cerca de 90km de Macedo de Cavaleiros. Inclui todo o concelho."
  }];
-
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -118,7 +112,6 @@ export default function Penedono() {
  cidades={cidadesProximas}
  serviceType="canalizador"
  />
-
  
  <RelatedCities currentCity="Penedono" currentCitySlug="canalizador-penedono" />
  </main>

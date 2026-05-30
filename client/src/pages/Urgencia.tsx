@@ -2,20 +2,17 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useSite } from '@/contexts/SiteContext';
 import { Phone, Clock, MapPin, AlertTriangle } from 'lucide-react';
-
 function Urgencia() {
  const { config } = useSite();
  const phone = '928 484 451';
  const phoneClean = '928484451';
  const whatsapp = '351928484451';
-
  return (
  <>
  <Helmet>
  <title>Urgência Canalizador — Intervenção Imediata 24h | Norte Reparos</title>
  <meta name="description" content="Urgência canalizador 24h em Trás-os-Montes. Fuga de água? Entupimento? Cano rebentado? Chegamos em 40 minutos. Equipamento profissional. 928 484 451" />
  </Helmet>
-
  {/* Hero Urgência */}
  <section className="relative bg-gradient-to-br from-red-600 to-red-800 text-white py-20">
  <div className="container mx-auto px-4 max-w-5xl">
@@ -23,22 +20,18 @@ function Urgencia() {
  <div className="inline-block bg-yellow-400 text-red-900 px-6 py-2 rounded-full font-black text-sm mb-6 animate-pulse">
  🚨 URGÊNCIA 24 HORAS
  </div>
-
  <h1 className="text-4xl md:text-6xl font-black mb-6">
  Canalizador Urgente<br />
  Chegamos em 40 Minutos
  </h1>
-
  <div className="flex flex-wrap justify-center gap-4 text-xl md:text-2xl font-bold mb-8">
  <span className="flex items-center gap-2">💧 Fuga de Água?</span>
  <span className="flex items-center gap-2">🚽 Entupimento Total?</span>
  <span className="flex items-center gap-2">🔥 Cano Rebentado?</span>
  </div>
-
  <p className="text-2xl md:text-3xl font-bold mb-8">
  ⏱️ Não "Daqui a 1 Semana" — HOJE MESMO
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
  href={`tel:+351${phoneClean}`}
@@ -56,7 +49,6 @@ function Urgencia() {
  💬 WhatsApp Urgente
  </a>
  </div>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto">
  <div className="grid grid-cols-3 gap-4 text-center">
  <div>
@@ -76,7 +68,6 @@ function Urgencia() {
  </div>
  </div>
  </section>
-
  {/* Problemas Urgentes */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4 max-w-6xl">
@@ -86,7 +77,6 @@ function Urgencia() {
  <p className="text-center text-gray-600 mb-12 text-lg">
  Cada minuto conta. Problema agrava. Danos aumentam.
  </p>
-
  <div className="grid md:grid-cols-3 gap-8">
  {/* Fuga Água */}
  <div className="bg-white rounded-2xl p-8 shadow-xl border-l-4 border-red-500">
@@ -94,7 +84,6 @@ function Urgencia() {
  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
  Fuga de Água Ativa
  </h3>
-
  <div className="space-y-3 mb-6">
  <p className="text-gray-700"><strong>Cada hora sem arranjo:</strong></p>
  <ul className="space-y-2 text-gray-600">
@@ -116,14 +105,12 @@ function Urgencia() {
  </li>
  </ul>
  </div>
-
  <div className="bg-red-50 rounded-lg p-4 mb-4">
  <p className="text-sm font-bold text-red-900">
  💰 Dia 1: €100 arranjo<br />
  💰 Semana 1: €500+ em danos
  </p>
  </div>
-
  <a
  href={`tel:+351${phoneClean}`}
  className="block w-full text-center bg-red-600 text-white font-bold py-3 rounded-xl hover:bg-red-700 transition-all"
@@ -131,14 +118,12 @@ function Urgencia() {
  RESOLVER AGORA
  </a>
  </div>
-
  {/* Entupimento */}
  <div className="bg-white rounded-2xl p-8 shadow-xl border-l-4 border-orange-500">
  <div className="text-5xl mb-4 text-center">🚽</div>
  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
  Entupimento Total
  </h3>
-
  <div className="space-y-3 mb-6">
  <p className="text-gray-700"><strong>Sem WC funcional:</strong></p>
  <ul className="space-y-2 text-gray-600">
@@ -160,14 +145,12 @@ function Urgencia() {
  </li>
  </ul>
  </div>
-
  <div className="bg-orange-50 rounded-lg p-4 mb-4">
  <p className="text-sm font-bold text-orange-900">
  ⚠️ NÃO use produtos químicos<br />
  Agravam o problema
  </p>
  </div>
-
  <a
  href={`tel:+351${phoneClean}`}
  className="block w-full text-center bg-orange-600 text-white font-bold py-3 rounded-xl hover:bg-orange-700 transition-all"
@@ -175,14 +158,12 @@ function Urgencia() {
  RESOLVER AGORA
  </a>
  </div>
-
  {/* Cano Rebentado */}
  <div className="bg-white rounded-2xl p-8 shadow-xl border-l-4 border-red-700">
  <div className="text-5xl mb-4 text-center">🔥</div>
  <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
  Cano Rebentado
  </h3>
-
  <div className="space-y-3 mb-6">
  <p className="text-gray-700"><strong>Inundação ativa:</strong></p>
  <ul className="space-y-2 text-gray-600">
@@ -204,14 +185,12 @@ function Urgencia() {
  </li>
  </ul>
  </div>
-
  <div className="bg-red-100 rounded-lg p-4 mb-4">
  <p className="text-sm font-bold text-red-900">
  🚨 Feche registo geral<br />
  Ligue IMEDIATAMENTE
  </p>
  </div>
-
  <a
  href={`tel:+351${phoneClean}`}
  className="block w-full text-center bg-red-700 text-white font-bold py-3 rounded-xl hover:bg-red-800 transition-all"
@@ -222,14 +201,12 @@ function Urgencia() {
  </div>
  </div>
  </section>
-
  {/* Porque Somos Diferentes */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4 max-w-6xl">
  <h2 className="text-3xl md:text-4xl font-black text-center mb-12">
  ⚡ Porque Somos Diferentes em Urgências
  </h2>
-
  <div className="grid md:grid-cols-2 gap-8 mb-12">
  {/* Equipamento no Carro */}
  <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border-2 border-cyan-200">
@@ -259,7 +236,6 @@ function Urgencia() {
  </div>
  </div>
  </div>
-
  {/* Cobertura Rápida */}
  <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border-2 border-green-200">
  <div className="flex items-start gap-4">
@@ -290,7 +266,6 @@ function Urgencia() {
  </div>
  </div>
  </div>
-
  {/* Resolvemos à Primeira */}
  <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border-2 border-purple-200">
  <div className="flex items-start gap-4">
@@ -319,7 +294,6 @@ function Urgencia() {
  </div>
  </div>
  </div>
-
  {/* Garantia */}
  <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-8 border-2 border-yellow-200">
  <div className="flex items-start gap-4">
@@ -351,7 +325,6 @@ function Urgencia() {
  </div>
  </div>
  </section>
-
  {/* Preços Urgência */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4 max-w-4xl">
@@ -361,7 +334,6 @@ function Urgencia() {
  <p className="text-center text-gray-600 mb-12 text-lg">
  Preço comunicado ANTES de sair. Sem surpresas.
  </p>
-
  <div className="bg-white rounded-2xl p-8 shadow-xl">
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-gray-50 rounded-xl p-6">
@@ -369,26 +341,22 @@ function Urgencia() {
  <p className="text-3xl font-black text-cyan-600">65€/h</p>
  <p className="text-sm text-gray-600">+ deslocação conforme zona</p>
  </div>
-
  <div className="bg-blue-50 rounded-xl p-6 border-2 border-blue-200">
  <h3 className="font-bold text-gray-900 mb-2">Sábado</h3>
  <p className="text-3xl font-black text-blue-600">80€/h</p>
  <p className="text-sm text-gray-600">+ deslocação conforme zona</p>
  </div>
-
  <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
  <h3 className="font-bold text-gray-900 mb-2">Domingo/Feriado</h3>
  <p className="text-3xl font-black text-red-600">90€/h</p>
  <p className="text-sm text-gray-600">+ deslocação conforme zona</p>
  </div>
-
  <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
  <h3 className="font-bold text-gray-900 mb-2">Noturno (18h-8h)</h3>
  <p className="text-3xl font-black text-purple-600">+50%</p>
  <p className="text-sm text-gray-600">Sobre mão de obra + deslocação</p>
  </div>
  </div>
-
  <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-200">
  <h3 className="font-bold text-gray-900 mb-4">Exemplo: Urgência Domingo 22h em Bragança</h3>
  <div className="space-y-2 text-gray-700">
@@ -421,7 +389,6 @@ function Urgencia() {
  </div>
  </div>
  </section>
-
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-br from-red-600 to-red-800 text-white">
  <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -431,7 +398,6 @@ function Urgencia() {
  <p className="text-xl md:text-2xl mb-8">
  Cada minuto conta. Equipamento profissional. Chegamos em 40 minutos.
  </p>
-
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
  href={`tel:+351${phoneClean}`}
@@ -449,13 +415,11 @@ function Urgencia() {
  💬 WhatsApp
  </a>
  </div>
-
  <p className="text-lg">
  Disponível 24h/7 dias — Não deixamos ninguém na mão
  </p>
  </div>
  </section>
-
  {/* Sticky Bottom Bar Mobile */}
  <div className="fixed bottom-0 left-0 right-0 bg-red-600 text-white p-4 shadow-2xl md:hidden z-50">
  <div className="flex gap-2">
@@ -478,5 +442,4 @@ function Urgencia() {
  </>
  );
 }
-
 export default Urgencia;

@@ -1,14 +1,12 @@
 import React from 'react';
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
-
 const QuantoCustaCanalizadorPortugal: React.FC = () => {
  useSEO({
  title: 'Quanto Custa um Canalizador em Portugal? [Preços 2026]',
  description: 'Guia completo de preços de canalizador em Portugal. Tabela de preços por serviço, fatores que influenciam custo e como poupar dinheiro.',
  keywords: 'quanto custa canalizador, preço canalizador portugal, tabela preços canalizador, orçamento canalizador'
  });
-
  return (
  <BlogLayout
  title="Quanto Custa um Canalizador em Portugal? [Preços 2026]"
@@ -23,11 +21,9 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <span>⏱️ 12 min de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
-
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Quanto Custa um Canalizador em Portugal? [Preços 2026]
  </h1>
-
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">💰</span>
@@ -38,21 +34,18 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg mb-8">
  <p className="text-cyan-900 font-semibold text-lg">
  💡 Atualização: Preços baseados em 500+ orçamentos reais em Portugal (2026)
  </p>
  </div>
-
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Contratar um canalizador em Portugal pode custar entre 50€ e 500€, dependendo do serviço.
  Neste guia completo, vamos mostrar-lhe preços reais por tipo de serviço, fatores que
  influenciam o custo e como garantir que não paga demais.
  </p>
  </div>
-
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
  <h2 className="text-2xl font-bold text-gray-900 mb-4">📋 Índice</h2>
  <ul className="space-y-2">
@@ -64,20 +57,16 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li><a href="#faq" className="text-cyan-600 hover:text-cyan-700 font-medium">6. Perguntas Frequentes</a></li>
  </ul>
  </div>
-
  <div className="prose prose-lg max-w-none">
  <section id="tabela-precos" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">💰 Tabela de Preços por Serviço</h2>
-
  <p className="mb-6">
  Preços médios praticados em Portugal (2026), baseados em orçamentos reais:
  </p>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <div className="bg-cyan-600 text-white p-4">
  <h3 className="text-xl font-bold">Serviços de Emergência / Urgentes</h3>
  </div>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-gray-200 bg-gray-50">
@@ -110,12 +99,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <div className="bg-green-600 text-white p-4">
  <h3 className="text-xl font-bold">Reparações Comuns</h3>
  </div>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-gray-200 bg-gray-50">
@@ -163,12 +150,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <div className="bg-blue-600 text-white p-4">
  <h3 className="text-xl font-bold">Desentupimentos</h3>
  </div>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-gray-200 bg-gray-50">
@@ -206,12 +191,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <div className="bg-purple-600 text-white p-4">
  <h3 className="text-xl font-bold">Instalações Novas</h3>
  </div>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-gray-200 bg-gray-50">
@@ -259,12 +242,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <div className="bg-orange-600 text-white p-4">
  <h3 className="text-xl font-bold">Serviços Especializados</h3>
  </div>
-
  <table className="w-full">
  <thead>
  <tr className="border-b-2 border-gray-200 bg-gray-50">
@@ -307,7 +288,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-blue-50 p-6 rounded-xl">
  <p className="text-blue-900 text-sm">
  <strong>💡 Nota Importante:</strong> Preços não incluem materiais (torneiras, autoclismos, canos, etc.).
@@ -315,15 +295,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </section>
-
  <section id="fatores" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📊 Fatores Que Influenciam o Preço</h2>
-
  <p className="mb-6">
  O preço final de um canalizador depende de vários fatores. Compreender estes fatores
  ajuda-o a obter orçamentos mais precisos:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">1. ⏰ Urgência do Serviço</h3>
@@ -349,7 +326,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">2. 🔧 Complexidade do Trabalho</h3>
  <p className="text-gray-700 mb-3">
@@ -370,7 +346,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">3. 📍 Localização Geográfica</h3>
  <p className="text-gray-700 mb-3">
@@ -394,7 +369,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">4. 🛠️ Materiais Necessários</h3>
  <p className="text-gray-700 mb-3">
@@ -435,7 +409,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">5. 👨‍🔧 Experiência do Profissional</h3>
  <p className="text-gray-700 mb-3">
@@ -456,7 +429,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">6. 🏢 Tipo de Empresa</h3>
  <p className="text-gray-700 mb-3">
@@ -483,14 +455,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="regiao" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🗺️ Diferenças de Preço por Região</h2>
-
  <p className="mb-6">
  Os preços de canalizador variam significativamente entre regiões de Portugal:
  </p>
-
  <div className="bg-white rounded-xl border-2 border-gray-200 overflow-hidden mb-8">
  <table className="w-full">
  <thead>
@@ -553,7 +522,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tbody>
  </table>
  </div>
-
  <div className="bg-cyan-50 p-6 rounded-xl">
  <h3 className="font-bold text-cyan-900 mb-3">💡 Porquê Estas Diferenças?</h3>
  <ul className="text-cyan-800 space-y-2">
@@ -564,14 +532,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </ul>
  </div>
  </section>
-
  <section id="poupar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">💡 Como Poupar Dinheiro</h2>
-
  <p className="mb-6">
  Siga estas 10 dicas para reduzir custos sem comprometer qualidade:
  </p>
-
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 📋 Peça Múltiplos Orçamentos</h3>
@@ -584,7 +549,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. ⏰ Evite Urgências</h3>
  <p className="text-gray-700 mb-2">
@@ -596,7 +560,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 🛠️ Compre Materiais Você Mesmo</h3>
  <p className="text-gray-700 mb-2">
@@ -613,7 +576,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🔧 Faça Reparações Simples Sozinho</h3>
  <p className="text-gray-700 mb-2">
@@ -630,7 +592,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 📅 Agrupe Vários Serviços</h3>
  <p className="text-gray-700 mb-2">
@@ -642,7 +603,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 🔍 Verifique Garantias</h3>
  <p className="text-gray-700 mb-2">
@@ -654,7 +614,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Autoclismos: 2-5 anos</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 🏠 Manutenção Preventiva</h3>
  <p className="text-gray-700 mb-2">
@@ -666,7 +625,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• ROI: 5-20x</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">8. 💬 Negocie</h3>
  <p className="text-gray-700 mb-2">
@@ -678,7 +636,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Pagamento a pronto (desconto 5-10%)</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">9. 🎓 Aprenda Básico de Canalização</h3>
  <p className="text-gray-700 mb-2">
@@ -690,7 +647,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Poupança anual: 200-500€</li>
  </ul>
  </div>
-
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">10. 📱 Use Plataformas de Comparação</h3>
  <p className="text-gray-700 mb-2">
@@ -703,7 +659,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </ul>
  </div>
  </div>
-
  <div className="bg-green-50 p-8 rounded-2xl border-2 border-green-200 mt-8">
  <h3 className="text-2xl font-bold text-green-900 mb-4 text-center">💰 Poupança Total Potencial</h3>
  <p className="text-green-800 text-center text-lg mb-4">
@@ -723,14 +678,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="sinais-alerta" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🚨 Sinais de Alerta (Preços Abusivos)</h2>
-
  <p className="mb-6">
  Esteja atento a estes sinais que podem indicar preços inflacionados ou fraudes:
  </p>
-
  <div className="space-y-4">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Orçamento Verbal Apenas</h3>
@@ -741,7 +693,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Risco:</strong> Preço final pode ser muito superior ao acordado verbalmente.
  </p>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Preço Muito Abaixo da Média</h3>
  <p className="text-red-800 mb-2">
@@ -751,7 +702,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Risco:</strong> Trabalho de má qualidade, materiais baratos, sem garantias, ou custos escondidos.
  </p>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Pagamento Total Antecipado</h3>
  <p className="text-red-800 mb-2">
@@ -761,7 +711,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Risco:</strong> Profissional pode desaparecer ou fazer trabalho de má qualidade.
  </p>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Sem Identificação ou Contactos</h3>
  <p className="text-red-800 mb-2">
@@ -771,7 +720,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Risco:</strong> Impossível reclamar ou contactar após serviço.
  </p>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Pressão para Decidir Imediatamente</h3>
  <p className="text-red-800 mb-2">
@@ -781,7 +729,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Risco:</strong> Tática de venda agressiva para evitar comparação de preços.
  </p>
  </div>
-
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Custos Escondidos</h3>
  <p className="text-red-800 mb-2">
@@ -792,7 +739,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
-
  <div className="bg-green-50 p-8 rounded-2xl border-2 border-green-200 mt-8">
  <h3 className="text-2xl font-bold text-green-900 mb-4">✅ Sinais de Profissional Confiável</h3>
  <div className="grid md:grid-cols-2 gap-4">
@@ -811,10 +757,8 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </section>
-
  <section id="faq" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
-
  <div className="space-y-6">
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa chamar um canalizador em Portugal?</h3>
@@ -829,7 +773,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Deslocação: 30-50€ (se não houver trabalho)</li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Canalizador cobra pela deslocação?</h3>
  <p className="text-gray-700 mb-2">
@@ -845,7 +788,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  💡 Pergunte sempre antes se há custo de deslocação
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Devo pedir orçamento antes?</h3>
  <p className="text-gray-700 mb-2">
@@ -863,7 +805,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  ⚠️ Nunca aceite orçamento apenas verbal
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Materiais estão incluídos no preço?</h3>
  <p className="text-gray-700 mb-2">
@@ -884,7 +825,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  💡 Esclareça sempre o que está incluído no orçamento
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa desentupir uma sanita?</h3>
  <p className="text-gray-700 mb-2">
@@ -897,7 +837,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Urgência (noite/fim de semana): +30-50€</li>
  </ul>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Canalizador dá garantia do trabalho?</h3>
  <p className="text-gray-700 mb-2">
@@ -912,7 +851,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  ⚠️ Exija garantia por escrito no orçamento
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Posso negociar o preço?</h3>
  <p className="text-gray-700 mb-2">
@@ -929,7 +867,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  💡 Não custa nada perguntar: "Consegue fazer melhor preço?"
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar uma fuga de água?</h3>
  <p className="text-gray-700 mb-2">Depende da localização e gravidade:</p>
@@ -943,16 +880,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </section>
-
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Precisa de um Canalizador?</h2>
  <p className="text-xl mb-6">
- Orçamento gratuito e transparente. Sem surpresas no preço final.
+ Sem compromisso e transparente. Sem surpresas no preço final.
  </p>
-
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Preços Justos Garantidos</h3>
-
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -983,7 +917,6 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  </div>
-
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href="tel:+351928484451"
@@ -999,12 +932,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </a>
  </div>
  </div>
-
  <p className="text-center text-white/90">
  <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
-
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Artigos Relacionados</h3>
  <ul className="space-y-2">
@@ -1035,5 +966,4 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </BlogLayout>
  );
 };
-
 export default QuantoCustaCanalizadorPortugal;
