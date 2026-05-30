@@ -53,7 +53,7 @@ function Footer() {
  <ul className="space-y-2 text-sm">
  <li><a href="/canalizador-braganca" className="text-gray-200 hover:text-white transition-colors">Bragança</a></li>
  <li><a href="/canalizador-mirandela" className="text-gray-200 hover:text-white transition-colors">Mirandela</a></li>
- <li><a href="/canalizador-macedo-cavaleiros" className="text-gray-200 hover:text-white transition-colors">Macedo de Cavaleiros</a></li>
+ 
  <li><a href="/canalizador-mogadouro" className="text-gray-200 hover:text-white transition-colors">Mogadouro</a></li>
  <li><a href="/canalizador-miranda-douro" className="text-gray-200 hover:text-white transition-colors">Miranda do Douro</a></li>
  <li><a href="/zonas" className="text-gray-200 hover:text-white transition-colors font-semibold">Ver todas →</a></li>
@@ -138,7 +138,7 @@ function Footer() {
  <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
  © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
  <div className="mt-2 text-xs text-gray-200">
- Morada: Macedo de Cavaleiros, Portugal
+ Morada: Trás-os-Montes, Portugal
  </div>
  <div className="mt-3 text-xs text-gray-300">
  <strong>Outros serviços:</strong> Precisa de eletricista certificado? Visite <a href="https://eletricista-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">eletricista-norte-reparos.pt</a>

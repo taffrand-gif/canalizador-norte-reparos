@@ -51,7 +51,7 @@ function CityHero({
  <span>Ligar Agora → Técnico em 30min</span>
  </button>
  <p className="mt-6 text-lg opacity-90">
- ✅ Mais de {interventionsCount} intervenções em {cityName} • ⚡ Resposta garantida em 40min
+ ✅ Mais de {interventionsCount} intervenções em {cityName} • ⚡ Resposta rápida
  </p>
  </div>
  </div>

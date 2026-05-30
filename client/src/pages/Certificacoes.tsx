@@ -52,7 +52,7 @@ export default function Certificacoes() {
  </div>
  <Card className="p-8 bg-blue-50 border-blue-200">
  <h2 className="text-2xl font-bold mb-4 text-blue-900">
- Certificação DGEG
+ Serviços de Certificação
  </h2>
  <p className="text-blue-800">
  Todos os nossos trabalhos são certificados e cumprem rigorosamente as normas técnicas portuguesas.

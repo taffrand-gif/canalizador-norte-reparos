@@ -127,7 +127,7 @@ export function generateMetaDescription(ville?: string): string {
  
  if (ville) {
  // Meta descriptions optimisées par ville (<160 chars, mots-clés locaux, CTA)
- return `Canalizador urgente em ${ville} 24h/7d. Desentupimentos, fugas água, esquentadores. Chegamos 40min. ☎️ ${config.phone}`;
+ return `Canalizador urgente em ${ville} 24h/7d. Desentupimentos, fugas água, esquentadores. Resposta rápida. ☎️ ${config.phone}`;
  }
  
  // Page d'accueil - Meta description renforcée SEO

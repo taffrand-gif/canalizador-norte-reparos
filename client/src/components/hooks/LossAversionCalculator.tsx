@@ -37,7 +37,7 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  dailyCost: 50,
  escalationFactor: 1.1,
  risks: [
- 'Multa DGEG: €1.000-10.000',
+ 'Multas por incumprimento: €500-5.000',
  'Impossível vender/arrendar imóvel',
  'Seguro pode não cobrir sinistros',
  'Juros de mora acumulam diariamente'

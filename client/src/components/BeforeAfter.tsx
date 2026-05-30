@@ -180,7 +180,7 @@ function BeforeAfter() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Diagnóstico grátis • ✅ Garantia 6 meses • ✅ Chegamos em 40min
+ ✅ Diagnóstico grátis • ✅ Garantia 6 meses • ✅ Resposta rápida
  </p>
  </div>
  {/* Social Proof */}

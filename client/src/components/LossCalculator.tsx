@@ -201,7 +201,7 @@ function LossCalculator() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Orçamento grátis • ✅ Chegamos em 40min • ✅ Garantia 6 meses
+ ✅ Orçamento grátis • ✅ Resposta rápida • ✅ Garantia 6 meses
  </p>
  </div>
  {/* Guarantee */}

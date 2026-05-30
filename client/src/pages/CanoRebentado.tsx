@@ -27,7 +27,7 @@ export default function CanoRebentado() {
  "name": "O que fazer quando um cano rebenta?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "1) Feche imediatamente a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Chegamos em 15-20 minutos e paramos a inundação."
+ "text": "1) Feche imediatamente a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Paramos a inundação rapidamente."
  }
  },
  {
@@ -54,12 +54,12 @@ export default function CanoRebentado() {
  whatsappMessage="Olá! Tenho um cano rebentado! Casa a inundar! Urgente!"
  ctaPrimary="PARAR INUNDAÇÃO AGORA"
  ctaSecondary="WhatsApp URGENTE"
- responseTime="15 minutos"
+ responseTime="rápido"
  />
  <PainPointSection
  title="Sabemos o Desespero Que Está a Viver"
  subtitle="Um cano rebentado é uma catástrofe. Água descontrolada, danos massivos, pânico total."
- empathyStatement="Já parámos centenas de inundações em Trás-os-Montes. Sabemos que cada segundo conta. Chegamos em 15 minutos, paramos a água, salvamos a sua casa."
+ empathyStatement="Já parámos centenas de inundações em Trás-os-Montes. Sabemos que cada segundo conta. Paramos a água rapidamente, salvamos a sua casa."
  painPoints={[
  {
  icon: 'alert',
@@ -100,9 +100,9 @@ export default function CanoRebentado() {
  icon: 'phone'
  },
  {
- time: '2-15 min',
+ time: 'rapido',
  title: 'Corremos Para Aí',
- description: 'Técnico de emergência sai imediatamente com todas as ferramentas. Chegamos em 15 minutos máximo.',
+ description: 'Técnico de emergência sai imediatamente com todas as ferramentas. Rapidez garantida.',
  icon: 'map'
  },
  {
@@ -145,7 +145,7 @@ export default function CanoRebentado() {
  name: 'Fernando Silva',
  city: 'Chaves',
  problem: 'Cano rebentado inverno',
- solution: 'Inverno rigoroso, cano rebentou com o gelo. Água a jorrar pela garagem. Vieram em 15 minutos, resolveram tudo. Profissionais top!',
+ solution: 'Inverno rigoroso, cano rebentou com o gelo. Água a jorrar pela garagem. Vieram rapidamente, resolveram tudo. Profissionais top!',
  timeframe: '40 minutos',
  rating: 5,
  verified: true
@@ -187,8 +187,8 @@ export default function CanoRebentado() {
  guarantees={[
  {
  icon: 'clock',
- title: 'Chegada em 15min',
- description: 'Em emergências, garantimos chegada em 15 minutos. Técnico sai imediatamente.'
+ title: 'Chegada Rápida',
+ description: 'Em emergências, garantimos resposta rápida. Técnico sai imediatamente.'
  },
  {
  icon: 'shield',
@@ -217,7 +217,7 @@ export default function CanoRebentado() {
  {[
  {
  q: 'O que fazer quando um cano rebenta?',
- a: '1) FECHE IMEDIATAMENTE a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Chegamos em 15 minutos e paramos a inundação.'
+ a: '1) FECHE IMEDIATAMENTE a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Paramos a inundação rapidamente.'
  },
  {
  q: 'Quanto custa arranjar um cano rebentado?',

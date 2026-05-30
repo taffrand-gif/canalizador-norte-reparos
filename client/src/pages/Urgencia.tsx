@@ -246,7 +246,7 @@ function Urgencia() {
  </h3>
  <div className="space-y-2 mb-4">
  <p className="text-gray-700">
- <strong>Macedo:</strong> 15 minutos
+ 
  </p>
  <p className="text-gray-700">
  <strong>Bragança:</strong> 40 minutos

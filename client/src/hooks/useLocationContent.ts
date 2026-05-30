@@ -51,7 +51,7 @@ function getDistanceToCity(cityName: string): number {
 }
 // Calculate arrival time based on distance
 function getArrivalTime(distance: number): string {
- if (distance <= 20) return '30-40 minutos';
+ if (distance <= 20) return 'rapidamente';
  if (distance <= 40) return '40-50 minutos';
  if (distance <= 60) return '50-60 minutos';
  return '60-90 minutos';

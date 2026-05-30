@@ -35,7 +35,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Chegamos em 40 minutos no centro de Bragança e até 60 minutos nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
+ answer: "Resposta rápida em Bragança e até 60 minutos nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
  },
  {
  question: "Trabalham 24 horas por dia?",
@@ -75,7 +75,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos imediatamente: 928 484 451. Chegamos em 40 minutos."
+ answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos imediatamente: 928 484 451. Resposta rápida."
  },
  {
  question: "Fazem reparações em domingo?",

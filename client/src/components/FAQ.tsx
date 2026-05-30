@@ -19,10 +19,10 @@ function FAQ() {
  answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.'},
  {
  question: 'Quanto tempo demora a chegar um canalizador urgente?',
- answer: 'Chegamos em menos de 40 minutos em Bragança, Mirandela e Macedo de Cavaleiros. Em Vila Real e Chaves, o tempo de chegada é de 60-90 minutos. Serviço disponível 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados.'},
+ answer: 'Resposta rápida garantida. Serviço disponível 24 horas por dia, 7 dias por semana. Serviço disponível 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados.'},
  {
  question: 'O que fazer em caso de fuga de água urgente?',
- answer: 'Em caso de fuga de água urgente: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue imediatamente para 928 484 451. Chegamos em 40 minutos e resolvemos o problema.'},
+ answer: 'Em caso de fuga de água urgente: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue imediatamente para 928 484 451. Resolvemos o problema rapidamente.'},
  {
  question: 'Como desentupir uma sanita entupida rapidamente?',
  answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar em 30 minutos, ligue 928 484 451. Evite produtos químicos agressivos.'},

@@ -131,7 +131,7 @@ function MoneyBackGuarantee() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Sem compromisso • ✅ Orçamento grátis • ✅ Chegamos em 40min
+ ✅ Sem compromisso • ✅ Orçamento grátis • ✅ Resposta rápida
  </p>
  </div>
  </div>

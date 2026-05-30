@@ -6,7 +6,7 @@ interface AuthorityBadgesProps {
  partnersCount?: number;
 }
 export default function AuthorityBadges({
- certifications = ['', 'DGEG', 'ITED'],
+ certifications = ['ITED'],
  yearsExperience = 15,
  partnersCount = 12
 }: AuthorityBadgesProps) {
