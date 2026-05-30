@@ -11,7 +11,7 @@ function Urgencia() {
  <>
  <Helmet>
  <title>Urgência Canalizador — Intervenção Imediata 24h | Norte Reparos</title>
- <meta name="description" content="Urgência canalizador 24h em Trás-os-Montes. Fuga de água? Entupimento? Cano rebentado? Chegamos em 40 minutos. Equipamento profissional. 928 484 451" />
+ <meta name="description" content="Urgência canalizador 24h em Trás-os-Montes. Fuga de água? Entupimento? Cano rebentado? Atendemos rapidamente. Equipamento profissional. 928 484 451" />
  </Helmet>
  {/* Hero Urgência */}
  <section className="relative bg-gradient-to-br from-red-600 to-red-800 text-white py-20">
@@ -22,7 +22,7 @@ function Urgencia() {
  </div>
  <h1 className="text-4xl md:text-6xl font-black mb-6">
  Canalizador Urgente<br />
- Chegamos em 40 Minutos
+ Atendimento Imediato 24h
  </h1>
  <div className="flex flex-wrap justify-center gap-4 text-xl md:text-2xl font-bold mb-8">
  <span className="flex items-center gap-2">💧 Fuga de Água?</span>
@@ -396,7 +396,7 @@ function Urgencia() {
  🚨 Não Deixe o Problema Agravar
  </h2>
  <p className="text-xl md:text-2xl mb-8">
- Cada minuto conta. Equipamento profissional. Chegamos em 40 minutos.
+ Cada minuto conta. Equipamento profissional. Atendemos rapidamente.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
