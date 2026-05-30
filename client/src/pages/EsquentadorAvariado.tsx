@@ -7,7 +7,6 @@ import SolutionTimeline from '@/components/SolutionTimeline';
 import EmergencyTestimonials from '@/components/EmergencyTestimonials';
 import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
-
 export default function EsquentadorAvariado() {
  useEffect(() => {
  document.title = "Esquentador Avariado? Água Quente em 2 Horas | Norte Reparos";
@@ -19,7 +18,6 @@ export default function EsquentadorAvariado() {
  }
  meta.setAttribute('content', 'Esquentador avariado? Sem água quente? Arranjamos ou substituímos em 2 horas. Disponível 24h. Ligue +351 928 484 451.');
  }, []);
-
  const faqSchema = {
  "@context": "https://schema.org",
  "@type": "FAQPage",
@@ -42,12 +40,10 @@ export default function EsquentadorAvariado() {
  }
  ]
  };
-
  return (
  <>
  <Header />
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
  <EmotionalHero
  painPoint="ESQUENTADOR AVARIADO"
  headline="Sem Água Quente? Resolvemos em 2 Horas"
@@ -60,7 +56,6 @@ export default function EsquentadorAvariado() {
  ctaSecondary="WhatsApp Urgente"
  responseTime="30 minutos"
  />
-
  <PainPointSection
  title="Sabemos o Desconforto Que Está a Passar"
  subtitle="Viver sem água quente não é apenas inconveniente. É desconforto diário e stress familiar."
@@ -92,7 +87,6 @@ export default function EsquentadorAvariado() {
  }
  ]}
  />
-
  <SolutionTimeline
  title="Como Devolvemos Água Quente em 2 Horas"
  subtitle="Diagnóstico rápido, arranjo eficaz, água quente garantida."
@@ -125,7 +119,6 @@ export default function EsquentadorAvariado() {
  }
  ]}
  />
-
  <EmergencyTestimonials
  title="Já Devolvemos Água Quente a Milhares"
  subtitle="Famílias que recuperaram o conforto no mesmo dia."
@@ -186,7 +179,6 @@ export default function EsquentadorAvariado() {
  }
  ]}
  />
-
  <GuaranteeBox
  title="Garantias de Conforto"
  subtitle="Arranjamos com garantia total. Água quente garantida ou dinheiro de volta."
@@ -215,7 +207,6 @@ export default function EsquentadorAvariado() {
  }
  ]}
  />
-
  {/* Price Transparency */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-5xl mx-auto">
@@ -265,7 +256,6 @@ export default function EsquentadorAvariado() {
  </p>
  </div>
  </section>
-
  {/* FAQ Section */}
  <section className="py-16 px-4 bg-gray-50">
  <div className="max-w-4xl mx-auto">
@@ -307,7 +297,6 @@ export default function EsquentadorAvariado() {
  </div>
  </div>
  </section>
-
  {/* Final CTA */}
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
  <div className="max-w-4xl mx-auto text-center">
@@ -338,7 +327,6 @@ export default function EsquentadorAvariado() {
  </p>
  </div>
  </section>
-
  <Footer />
  </>
  );

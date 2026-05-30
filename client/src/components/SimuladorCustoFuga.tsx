@@ -1,50 +1,40 @@
 'use client';
-
 import { useState } from 'react';
 import { Droplet, TrendingUp, AlertTriangle, Euro } from 'lucide-react';
-
 interface SimuladorCustoFugaProps {
  defaultLitersPerHour?: number;
 }
-
 export default function SimuladorCustoFuga({
  defaultLitersPerHour = 10
 }: SimuladorCustoFugaProps) {
  const [litersPerHour, setLitersPerHour] = useState(defaultLitersPerHour);
  const [daysWaiting, setDaysWaiting] = useState(7);
  const [waterPrice, setWaterPrice] = useState(2.5); // €/m³
-
  // Calculations
  const litersPerDay = litersPerHour * 24;
  const m3PerDay = litersPerDay / 1000;
  const totalLiters = litersPerDay * daysWaiting;
  const totalM3 = totalLiters / 1000;
  const waterCost = totalM3 * waterPrice;
-
  // Damage escalation (increases over time)
  const structuralDamage = daysWaiting > 14 ? 500 : daysWaiting > 7 ? 200 : 0;
  const moldRisk = daysWaiting > 21 ? 300 : daysWaiting > 14 ? 150 : 0;
  const neighborDamage = daysWaiting > 30 ? 1000 : 0;
-
  const totalDamage = waterCost + structuralDamage + moldRisk + neighborDamage;
  const repairCost = 150; // Average repair cost
  const totalLoss = totalDamage - repairCost;
-
  // Severity level
  let severity: 'low' | 'medium' | 'high' | 'critical' = 'low';
  if (totalDamage > 1000) severity = 'critical';
  else if (totalDamage > 500) severity = 'high';
  else if (totalDamage > 200) severity = 'medium';
-
  const severityColors = {
  low: { bg: 'bg-blue-50', border: 'border-blue-500', text: 'text-blue-900' },
  medium: { bg: 'bg-yellow-50', border: 'border-yellow-500', text: 'text-yellow-900' },
  high: { bg: 'bg-orange-50', border: 'border-orange-500', text: 'text-orange-900' },
  critical: { bg: 'bg-red-50', border: 'border-red-500', text: 'text-red-900' }
  };
-
  const colors = severityColors[severity];
-
  return (
  <div className={`${colors.bg} border-2 ${colors.border} rounded-lg p-6 shadow-lg max-w-4xl mx-auto`}>
  <div className="text-center mb-6">
@@ -58,7 +48,6 @@ export default function SimuladorCustoFuga({
  Calcule quanto está a perder por cada dia de espera
  </p>
  </div>
-
  {/* Input Controls */}
  <div className="bg-white rounded-lg p-6 mb-6 space-y-6">
  <div>
@@ -82,7 +71,6 @@ export default function SimuladorCustoFuga({
  💧 {litersPerDay.toFixed(0)} litros/dia = {(litersPerDay / 1000).toFixed(1)} m³/dia
  </p>
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-700 mb-2">
  Há quantos dias tem esta fuga?
@@ -101,7 +89,6 @@ export default function SimuladorCustoFuga({
  <span>60 dias</span>
  </div>
  </div>
-
  <div>
  <label className="block text-sm font-semibold text-gray-700 mb-2">
  Preço água (€/m³)
@@ -115,7 +102,6 @@ export default function SimuladorCustoFuga({
  />
  </div>
  </div>
-
  {/* Results */}
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="bg-white rounded-lg p-6 border-2 border-blue-200">
@@ -130,7 +116,6 @@ export default function SimuladorCustoFuga({
  {totalLiters.toFixed(0)} litros em {daysWaiting} dias
  </p>
  </div>
-
  <div className="bg-white rounded-lg p-6 border-2 border-orange-200">
  <div className="flex items-center gap-2 mb-2">
  <Euro className="w-5 h-5 text-orange-600" />
@@ -143,7 +128,6 @@ export default function SimuladorCustoFuga({
  Apenas na conta de água
  </p>
  </div>
-
  <div className="bg-white rounded-lg p-6 border-2 border-red-200">
  <div className="flex items-center gap-2 mb-2">
  <AlertTriangle className="w-5 h-5 text-red-600" />
@@ -156,7 +140,6 @@ export default function SimuladorCustoFuga({
  Humidade, bolor, infiltrações
  </p>
  </div>
-
  <div className="bg-white rounded-lg p-6 border-2 border-purple-200">
  <div className="flex items-center gap-2 mb-2">
  <TrendingUp className="w-5 h-5 text-purple-600" />
@@ -170,7 +153,6 @@ export default function SimuladorCustoFuga({
  </p>
  </div>
  </div>
-
  {/* Comparison */}
  <div className="bg-white rounded-lg p-6 mb-6 border-2 border-green-200">
  <h3 className="font-bold text-gray-900 mb-4 text-center">
@@ -197,7 +179,6 @@ export default function SimuladorCustoFuga({
  </p>
  </div>
  </div>
-
  {/* Risks */}
  {daysWaiting > 7 && (
  <div className="bg-yellow-100 border-l-4 border-yellow-500 rounded-r-lg p-4 mb-6">
@@ -212,7 +193,6 @@ export default function SimuladorCustoFuga({
  </ul>
  </div>
  )}
-
  {/* CTA */}
  <a
  href="https://wa.me/351928484451?text=Tenho%20uma%20fuga%20de%20água%20urgente.%20Preciso%20de%20arranjo%20hoje!"
@@ -222,7 +202,6 @@ export default function SimuladorCustoFuga({
  >
  💬 Resolver Agora e Evitar €{totalLoss.toFixed(0)} de Prejuízo
  </a>
-
  <p className="text-xs text-center text-gray-600 mt-3">
  ⚡ Técnico disponível em 30min • Arranjo definitiva • Garantia 2 anos
  </p>

@@ -3,14 +3,12 @@ import { useState, useEffect, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
-
 function ExitIntentPopup() {
  const [showPopup, setShowPopup] = useState(false);
  const [hasShown, setHasShown] = useState(false);
  const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
  const { city, arrivalTime } = useLocationContent();
  const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
-
  useEffect(() => {
  const handleMouseLeave = (e: MouseEvent) => {
  // Trigger when mouse leaves viewport from top (user closing tab/window)
@@ -20,11 +18,9 @@ function ExitIntentPopup() {
  trackExitPopupShown();
  }
  };
-
  // Detect if mobile device
  const isMobile = window.innerWidth < 768;
  const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
-
  // Also trigger after delay if user hasn't interacted
  const timer = setTimeout(() => {
  if (!hasShown) {
@@ -33,21 +29,16 @@ function ExitIntentPopup() {
  trackExitPopupShown();
  }
  }, delay);
-
  document.addEventListener('mouseleave', handleMouseLeave);
-
  return () => {
  document.removeEventListener('mouseleave', handleMouseLeave);
  clearTimeout(timer);
  };
  }, [hasShown, trackExitPopupShown]);
-
  if (!showPopup) return null;
-
  const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
  const serviceName = isPlumber ? 'Canalizador' : 'Eletricista';
-
  return (
  <>
  {/* Overlay */}
@@ -55,7 +46,6 @@ function ExitIntentPopup() {
  className="fixed inset-0 bg-black bg-opacity-50 z-50 animate-fade-in"
  onClick={() => setShowPopup(false)}
  />
-
  {/* Popup */}
  <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full max-w-md mx-4 animate-scale-in">
  <div className="bg-white rounded-2xl shadow-2xl p-8 relative">
@@ -67,7 +57,6 @@ function ExitIntentPopup() {
  >
  ×
  </button>
-
  {/* Content */}
  <div className="text-center">
  <div className="text-5xl mb-4">🚨</div>
@@ -80,20 +69,19 @@ function ExitIntentPopup() {
  <p className="text-gray-600 mb-6">
  Não perca tempo a procurar. Temos um {serviceName.toLowerCase()} disponível que pode estar aí em <strong>{arrivalTime.split('-')[0]}</strong>.
  </p>
-
  {/* Benefits */}
  <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-xl p-4 mb-6 text-left border-2 border-green-200">
  <p className="text-xs font-bold text-green-700 mb-3 text-center">
- 🎁 OFERTA EXCLUSIVA PARA QUEM CONTACTAR AGORA
+ 
  </p>
  <ul className="space-y-2">
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
- <span>Orçamento 100% GRÁTIS (valor €50)</span>
+ <span></span>
  </li>
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
- <span>Resposta rápida ao seu contactos</span>
+ <span>Resposta rápidas</span>
  </li>
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
@@ -101,11 +89,10 @@ function ExitIntentPopup() {
  </li>
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
- <span>Garantia 2 anos + Trabalho garantido por escrito</span>
+ <span></span>
  </li>
  </ul>
  </div>
-
  {/* CTA Buttons */}
  <div className="space-y-3">
  <a
@@ -117,7 +104,7 @@ function ExitIntentPopup() {
  setShowPopup(false);
  }}
  >
- 💬 SIM! QUERO ORÇAMENTO GRÁTIS
+ 
  </a>
  <a
  href={`tel:${ACTIVE_CONFIG.phone}`}
@@ -128,10 +115,9 @@ function ExitIntentPopup() {
  setShowPopup(false);
  }}
  >
- 📞 Ou Ligar: {ACTIVE_CONFIG.phone}
+  {ACTIVE_CONFIG.phone}
  </a>
  </div>
-
  {/* Trust indicator with urgency */}
  <div className="mt-4 space-y-1">
  <p className="text-xs font-bold text-red-600">
@@ -144,7 +130,6 @@ function ExitIntentPopup() {
  </div>
  </div>
  </div>
-
  <style>{`
  @keyframes fade-in {
  from { opacity: 0; }
@@ -170,5 +155,4 @@ function ExitIntentPopup() {
  </>
  );
 }
-
 export default React.memo(ExitIntentPopup);
