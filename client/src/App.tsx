@@ -13,7 +13,7 @@ import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
 import SkipLink from "./components/SkipLink";
 import OptimizedHome from "./pages/OptimizedHome";
-import UrgencyIndicator from '@/components/UrgencyIndicator';
+
 // Lazy load conversion widgets (below-fold)
 const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
 const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
@@ -210,7 +210,7 @@ function App() {
  <SkipLink />
  <Toaster />
  <StructuredData />
- <UrgencyIndicator />
+
  <Suspense fallback={null}>
  <ExitIntentPopup />
  <QuoteCalculator />
