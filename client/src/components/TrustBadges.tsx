@@ -9,7 +9,7 @@ export default function TrustBadges() {
  description: 'Sem surpresas na fatura'},
  {
  icon: '🛡️',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Intervenção gratuita'},
  {
  icon: '📞',

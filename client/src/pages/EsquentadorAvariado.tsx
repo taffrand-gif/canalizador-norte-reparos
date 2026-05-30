@@ -187,7 +187,7 @@ export default function EsquentadorAvariado() {
  guarantees={[
  {
  icon: 'shield',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Todas as arranjos e instalações têm garantia de 2 anos. Peças e mão de obra.'
  },
  {
@@ -323,7 +323,7 @@ export default function EsquentadorAvariado() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Orçamento Gratuito • ✓ Arranjo no Dia • ✓ Garantia 2 Anos
+ ✓ Orçamento Gratuito • ✓ Arranjo no Dia • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>

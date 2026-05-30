@@ -20,7 +20,7 @@ function GuaranteeSection() {
  ? [
  {
  icon: '🛡️',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
  badge: 'Escrita'
  },
@@ -46,7 +46,7 @@ function GuaranteeSection() {
  : [
  {
  icon: '🛡️',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
  badge: 'Escrita'
  },
@@ -85,7 +85,7 @@ function GuaranteeSection() {
  🛡️ Garantia Escrita — Sem Letra Pequena
  </div>
  <h2 className="text-4xl md:text-5xl font-black mb-6">
- Garantia 2 Anos — Se Voltar, Voltamos Grátis
+ Garantia 12 Meses — Se Voltar, Voltamos Grátis
  </h2>
  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
  Arranjo definitiva, não temporária. Por isso garantimos 2 anos.
@@ -138,7 +138,7 @@ function GuaranteeSection() {
  Ligar: {config.phone}
  </a>
  <a
- href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia 2 anos.')}`}
+ href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia 12 meses.')}`}
  onClick={handleWhatsAppClick}
  target="_blank"
  rel="noopener noreferrer"

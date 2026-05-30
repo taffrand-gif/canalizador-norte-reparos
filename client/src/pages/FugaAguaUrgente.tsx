@@ -195,7 +195,7 @@ export default function FugaAguaUrgente() {
  guarantees={[
  {
  icon: 'shield',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas, voltamos grátis.'
  },
  {
@@ -282,7 +282,7 @@ export default function FugaAguaUrgente() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Orçamento Gratuito • ✓ Chegada em 15min • ✓ Garantia 2 Anos
+ ✓ Orçamento Gratuito • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>

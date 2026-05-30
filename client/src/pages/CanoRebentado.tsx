@@ -192,7 +192,7 @@ export default function CanoRebentado() {
  },
  {
  icon: 'shield',
- title: 'Garantia 2 Anos',
+ title: 'Garantia 12 Meses',
  description: 'Todas as arranjos de emergência têm garantia de 2 anos. Trabalho profissional.'
  },
  {
@@ -274,7 +274,7 @@ export default function CanoRebentado() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Chegada em 15min • ✓ Paramos a Água • ✓ Garantia 2 Anos
+ ✓ Paramos a Água • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>

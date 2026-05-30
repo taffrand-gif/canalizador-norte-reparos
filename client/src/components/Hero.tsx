@@ -94,7 +94,7 @@ function Hero() {
  </div>
  <div className="hidden sm:block text-white/50">•</div>
  <div className="font-semibold">
- ✓ Garantia 2 Anos
+ ✓ Garantia 12 Meses
  </div>
  </div>
  </div>
