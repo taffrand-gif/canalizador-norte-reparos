@@ -1,4 +1,4 @@
-// SEO optimizada para "Canalizador Valpaços"
+// SEO optimizada para "Canalizador Alijó"
 // 100% unique content, zone Z3, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -13,11 +13,11 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function Valpaços() {
+export default function Alijo() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Valpaços 💧 24h | 928 484 451";
+    document.title = "Canalizador Alijó 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -25,7 +25,7 @@ export default function Valpaços() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador urgente em Valpaços. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Canalizador urgente em Alijó. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -33,16 +33,16 @@ export default function Valpaços() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-valpacos');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-alijo');
 
-    const cityAddress = getCityAddress('valpacos');
+    const cityAddress = getCityAddress('alijo');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-valpacos';
+    schemaScript.id = 'schema-alijo';
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Canalizador Profissional — Valpaços",
+      "name": "Canalizador Profissional — Alijó",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -51,7 +51,7 @@ export default function Valpaços() {
         "addressCountry": cityAddress.addressCountry,
         "postalCode": cityAddress.postalCode
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": "41.6000", "longitude": "-7.3000" },
+      "geo": { "@type": "GeoCoordinates", "latitude": "41.3167", "longitude": "-7.4833" },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
@@ -77,13 +77,13 @@ export default function Valpaços() {
     };
   }, []);
 
-  const cidadesProximas = getCidadesProximas('valpacos');
+  const cidadesProximas = getCidadesProximas('alijo');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Valpaços?', 'answer': 'Desde 110€ em Valpaços. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Valpaços?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Valpaços. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Valpaços?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Alijó?', 'answer': 'Desde 110€ em Alijó. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alijó?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Alijó. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Alijó?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
   return (
     <>
-      <SEOHeadEnhanced citySlug="valpacos" pageType="city" />
+      <SEOHeadEnhanced citySlug="alijo" pageType="city" />
       <StructuredData />
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
@@ -93,21 +93,21 @@ export default function Valpaços() {
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
                 { label: 'Trás-os-Montes', href: '/tras-os-montes' },
-                { label: 'Valpaços', href: '/canalizador-valpacos' }
+                { label: 'Alijó', href: '/canalizador-alijo' }
               ]} />
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Canalizador Profissional em <span className="text-orange-400">Valpaços</span>
+                Canalizador Profissional em <span className="text-orange-400">Alijó</span>
               </h1>
               <p className="text-xl mb-8">
-                Serviços de canalização certificados em Valpaços e arredores.
+                Serviços de canalização certificados em Alijó e arredores.
                 Resolução rápida, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                    className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  📞 Canalizador Valpaços: {config.phone}
+                  📞 Canalizador Alijó: {config.phone}
                 </a>
-                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Valpaços`}
+                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Alijó`}
                    target="_blank" rel="noopener noreferrer"
                    className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                   💬 WhatsApp
@@ -120,14 +120,14 @@ export default function Valpaços() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Valpaços — Terra da Fruta e dos Cereais
+              Alijó — Alijó
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-gray-700 mb-4">
-                Concelho de transição entre Trás-os-Montes e o Douro. Conhecido pela produção de frutas e cereais de sequeiro.
+                Cidade de Alijó na região de Trás-os-Montes.
               </p>
               <p className="text-gray-700">
-                Zona agrícola importante com numerosas explorações pecuárias. Os sistemas de água para irrigação e consumo animal são essenciais.
+                Região com economia assente na agricultura e pecuária.
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function Valpaços() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Serviços de Canalização em Valpaços
+                Serviços de Canalização em Alijó
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -188,7 +188,7 @@ export default function Valpaços() {
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Porquê Escolher-nos em Valpaços
+              Porquê Escolher-nos em Alijó
             </h2>
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -205,7 +205,7 @@ export default function Valpaços() {
                   ⚡ Rápido e Eficiente
                 </h3>
                 <p className="text-gray-600">
-                  Resposta rápida em Valpaços. Atendimento 24h para urgências.
+                  Resposta rápida em Alijó. Atendimento 24h para urgências.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -233,35 +233,35 @@ export default function Valpaços() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Perguntas sobre <span className="text-blue-600">Canalizador em Valpaços</span>
+              Perguntas sobre <span className="text-blue-600">Canalizador em Alijó</span>
             </h2>
             <div className="max-w-3xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Fazem intervenções em propriedades rurais de Valpaços?
+                  Fazem intervenções em propriedades rurais de Alijó?
                 </h3>
                 <p className="text-gray-600">
                   Sim, temos vasta experiência em propriedades rurais, quintas e explorações
-                  agrícolas de Valpaços. Os nossos veículos têm equipamento completo
+                  agrícolas de Alijó. Os nossos veículos têm equipamento completo
                   para intervenções em qualquer localização.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Quais são os problemas mais comuns em Valpaços?
+                  Quais são os problemas mais comuns em Alijó?
                 </h3>
                 <p className="text-gray-600">
-                  Em Valpaços, os problemas mais frequentes são entupimentos em fossas
+                  Em Alijó, os problemas mais frequentes são entupimentos em fossas
                   sépticas, fugas em canalizações antigas, e avarias em esquentadores.
                   A nossa experiência local permite resolver rapidamente.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Atendem todo o conselho de Valpaços?
+                  Atendem todo o conselho de Alijó?
                 </h3>
                 <p className="text-gray-600">
-                  Sim, servimos todo o conselho e freguesias vizinhas de Valpaços.
+                  Sim, servimos todo o conselho e freguesias vizinhas de Alijó.
                   Também cobrimos aldeias e propriedades isoladas na região.
                 </p>
               </div>
@@ -272,7 +272,7 @@ export default function Valpaços() {
         <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">
-              Canalizador em <span className="text-orange-300">Valpaços</span>
+              Canalizador em <span className="text-orange-300">Alijó</span>
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Intervenção rápida, preço justo, garantia de 12 meses.
@@ -283,7 +283,7 @@ export default function Valpaços() {
                  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 📞 {config.phone}
               </a>
-              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Valpaços`}
+              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Alijó`}
                  target="_blank" rel="noopener noreferrer"
                  className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 💬 WhatsApp
@@ -302,13 +302,13 @@ export default function Valpaços() {
 
         <section className="py-16">
           <div className="container max-w-4xl">
-            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Valpaços</h2>
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Alijó</h2>
             <FAQSection faqs={faqs} />
           </div>
         </section>
 
-        <CidadesProximas currentCity="Valpaços" cidades={cidadesProximas} serviceType="canalizador" />
-        <RelatedCities currentCity="Valpaços" currentCitySlug="canalizador-valpacos" />
+        <CidadesProximas currentCity="Alijó" cidades={cidadesProximas} serviceType="canalizador" />
+        <RelatedCities currentCity="Alijó" currentCitySlug="canalizador-alijo" />
       </main>
       <Footer />
     </>

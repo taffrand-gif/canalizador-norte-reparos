@@ -51,7 +51,6 @@ const RibeiraDePena = lazy(() => import("@/pages/cidades/RibeiraDePena"));
 const MondimDeBasto = lazy(() => import("@/pages/cidades/MondimDeBasto"));
 const PesoDaRegua = lazy(() => import("@/pages/cidades/PesoDaRegua"));
 const Lamego = lazy(() => import("@/pages/cidades/Lamego"));
-const MoimentaDaBeira = lazy(() => import("@/pages/cidades/MoimentaDaBeira"));
 const VilaNovaFozCoa = lazy(() => import("@/pages/cidades/VilaNovaFozCoa"));
 const Sernancelhe = lazy(() => import("@/pages/cidades/Sernancelhe"));
 const Penedono = lazy(() => import("@/pages/cidades/Penedono"));
@@ -136,7 +135,7 @@ function Router() {
  <Route path={"/canalizador-mondim-de-basto"} component={MondimDeBasto} />
  <Route path={"/canalizador-peso-da-regua"} component={PesoDaRegua} />
  <Route path={"/canalizador-lamego"} component={Lamego} />
- <Route path={"/canalizador-moimenta-da-beira"} component={MoimentaDaBeira} />
+ 
  <Route path={"/canalizador-vila-nova-foz-coa"} component={VilaNovaFozCoa} />
  <Route path={"/canalizador-sernancelhe"} component={Sernancelhe} />
  <Route path={"/canalizador-penedono"} component={Penedono} />

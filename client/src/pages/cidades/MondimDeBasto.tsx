@@ -13,7 +13,7 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function MondimBeira() {
+export default function MondimDeBasto() {
   const { config } = useSite();
 
   useEffect(() => {

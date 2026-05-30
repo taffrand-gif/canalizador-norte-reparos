@@ -1,5 +1,5 @@
-// SEO optimizada para "Canalizador Ribeira de Pena"
-// 100% unique content, zone Z5, preço 130€
+// SEO optimizada para "Canalizador Carrazeda de Ansiães"
+// 100% unique content, zone Z3, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -13,11 +13,11 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function RibeiraPena() {
+export default function CarrazedaDeAnsiaes() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Ribeira de Pena 💧 24h | 928 484 451";
+    document.title = "Canalizador Carrazeda de Ansiães 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -25,7 +25,7 @@ export default function RibeiraPena() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador urgente em Ribeira de Pena. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Canalizador urgente em Carrazeda de Ansiães. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -33,16 +33,16 @@ export default function RibeiraPena() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-ribeira-de-pena');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-carrazeda-de-ansiaes');
 
-    const cityAddress = getCityAddress('ribeira-de-pena');
+    const cityAddress = getCityAddress('carrazeda-de-ansiaes');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-ribeira-de-pena';
+    schemaScript.id = 'schema-carrazeda-de-ansiaes';
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Canalizador Profissional — Ribeira de Pena",
+      "name": "Canalizador Profissional — Carrazeda de Ansiães",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -51,7 +51,7 @@ export default function RibeiraPena() {
         "addressCountry": cityAddress.addressCountry,
         "postalCode": cityAddress.postalCode
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": "41.4167", "longitude": "-7.8333" },
+      "geo": { "@type": "GeoCoordinates", "latitude": "41.2333", "longitude": "-7.3167" },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
@@ -77,11 +77,11 @@ export default function RibeiraPena() {
     };
   }, []);
 
-  const cidadesProximas = getCidadesProximas('ribeira-de-pena');
+  const cidadesProximas = getCidadesProximas('carrazeda-de-ansiaes');
 
   const faqs = [
-    { question: "Qual o preço de canalizador em Ribeira de Pena?", answer: "Desde 130€ em Ribeira de Pena. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Ribeira de Pena?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Ribeira de Pena. Ligue +351 928 484 451." },
+    { question: "Qual o preço de canalizador em Carrazeda de Ansiães?", answer: "Desde 110€ em Carrazeda de Ansiães. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+    { question: "Fazem urgências em Carrazeda de Ansiães?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Carrazeda de Ansiães. Ligue +351 928 484 451." },
     { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
     { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
     { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
@@ -89,7 +89,7 @@ export default function RibeiraPena() {
 
   return (
     <>
-      <SEOHeadEnhanced citySlug="ribeira-de-pena" pageType="city" />
+      <SEOHeadEnhanced citySlug="carrazeda-de-ansiaes" pageType="city" />
       <StructuredData />
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
@@ -99,21 +99,21 @@ export default function RibeiraPena() {
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
                 { label: 'Trás-os-Montes', href: '/tras-os-montes' },
-                { label: 'Ribeira de Pena', href: '/canalizador-ribeira-de-pena' }
+                { label: 'Carrazeda de Ansiães', href: '/canalizador-carrazeda-de-ansiaes' }
               ]} />
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Canalizador Profissional em <span className="text-orange-400">Ribeira de Pena</span>
+                Canalizador Profissional em <span className="text-orange-400">Carrazeda de Ansiães</span>
               </h1>
               <p className="text-xl mb-8">
-                Serviços de canalização certificados em Ribeira de Pena e arredores.
+                Serviços de canalização certificados em Carrazeda de Ansiães e arredores.
                 Resolução rápida, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                    className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  📞 Canalizador Ribeira de Pena: {config.phone}
+                  📞 Canalizador Carrazeda de Ansiães: {config.phone}
                 </a>
-                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Ribeira de Pena`}
+                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Carrazeda de Ansiães`}
                    target="_blank" rel="noopener noreferrer"
                    className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                   💬 WhatsApp
@@ -126,14 +126,14 @@ export default function RibeiraPena() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Ribeira de Pena — Terra da Serra do Alvão e das Minas
+              Carrazeda de Ansiães — Terra do Vinho do Porto e do Museu do Vinho
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-gray-700 mb-4">
-                Concelho de montanha com tradição mineira. A festa das Minas atrai milhares de visitantes anualmente.
+                Concelho vinhateiro do Douro com tradição secular na produção de vinho. O Museu do Vinho atrai visitantes de todo o mundo.
               </p>
               <p className="text-gray-700">
-                Zona de alta intensidade de chuva onde os sistemas de água e drenagem são essenciais. As propriedades têm frequentemente poços próprios.
+                Os sistemas de água para adegas e lagares são específicos desta região. A produção de vinho exige infraestrutura de água de qualidade.
               </p>
             </div>
           </div>
@@ -143,28 +143,28 @@ export default function RibeiraPena() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Serviços de Canalização em Ribeira de Pena
+                Serviços de Canalização em Carrazeda de Ansiães
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
                   <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para desentupimentos profundos.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
                   <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
                   <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
                   <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function RibeiraPena() {
 
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Ribeira de Pena</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Carrazeda de Ansiães</h2>
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
@@ -181,7 +181,7 @@ export default function RibeiraPena() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
-                <p className="text-gray-600">Resposta rápida em Ribeira de Pena. Atendimento 24h para urgências.</p>
+                <p className="text-gray-600">Resposta rápida em Carrazeda de Ansiães. Atendimento 24h para urgências.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
@@ -197,14 +197,14 @@ export default function RibeiraPena() {
 
         <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Ribeira de Pena</span></h2>
+            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Carrazeda de Ansiães</span></h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 📞 {config.phone}
               </a>
-              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Ribeira de Pena`}
+              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Carrazeda de Ansiães`}
                  target="_blank" rel="noopener noreferrer"
                  className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 💬 WhatsApp
@@ -223,13 +223,13 @@ export default function RibeiraPena() {
 
         <section className="py-16">
           <div className="container max-w-4xl">
-            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Ribeira de Pena</h2>
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Carrazeda de Ansiães</h2>
             <FAQSection faqs={faqs} />
           </div>
         </section>
 
-        <CidadesProximas currentCity="Ribeira de Pena" cidades={cidadesProximas} serviceType="canalizador" />
-        <RelatedCities currentCity="Ribeira de Pena" currentCitySlug="canalizador-ribeira-de-pena" />
+        <CidadesProximas currentCity="Carrazeda de Ansiães" cidades={cidadesProximas} serviceType="canalizador" />
+        <RelatedCities currentCity="Carrazeda de Ansiães" currentCitySlug="canalizador-carrazeda-de-ansiaes" />
       </main>
       <Footer />
     </>

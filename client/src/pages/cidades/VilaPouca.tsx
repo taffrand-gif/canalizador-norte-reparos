@@ -13,7 +13,7 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function VilaPoucaAguiar() {
+export default function VilaPouca() {
   const { config } = useSite();
 
   useEffect(() => {
