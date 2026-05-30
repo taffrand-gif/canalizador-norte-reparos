@@ -164,7 +164,7 @@ function WhyDifferent() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- Disponível 24h/7 dias • Chegamos em 40 minutos • Orçamento grátis
+ Disponível 24h/7 dias • Resposta rápida • Orçamento grátis
  </p>
  </div>
  {/* Social Proof */}

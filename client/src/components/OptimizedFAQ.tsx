@@ -18,7 +18,7 @@ const faqItems = [
  },
  {
  question: "Quais são as zonas que servem?",
- answer: "Servimos toda a região de Trás-os-Montes: Vila Real, Bragança, Chaves, Mirandela, Macedo de Cavaleiros, Lamego, Régua, Montalegre, Valpaços, Mogadouro, Torre de Moncorvo, Alfândega da Fé e arredores."
+ answer: "Servimos toda a região de Trás-os-Montes: Vila Real, Bragança, Chaves, Mirandela, Lamego, Régua, Montalegre, Valpaços, Mogadouro, Torre de Moncorvo, Alfândega da Fé e arredores."
  }
 ];
 const OptimizedFAQ: React.FC = () => {

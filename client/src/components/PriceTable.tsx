@@ -103,7 +103,7 @@ export default function PriceTable() {
  </h3>
  <div className="space-y-6">
  <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
- <h4 className="font-bold text-blue-900 mb-2">"Moro em Macedo e tenho a pia da cozinha entupida."</h4>
+ <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
  <ul className="space-y-1 text-blue-800 text-sm">
  <li className="flex justify-between"><span>Deslocação (Zona 1):</span> <span>15€</span></li>
  <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>33€</span></li>

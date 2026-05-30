@@ -138,7 +138,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
  </div>
  <div className="mt-6 bg-gray-50 rounded-xl p-4">
  <p className="text-sm text-gray-600 text-center">
- <strong>Note:</strong> Les frais de déplacement sont calculés en fonction de la distance depuis notre base à Macedo de Cavaleiros.
+ <strong>Note:</strong> Les frais de déplacement sont calculés en fonction de la distance.
  Les majorations nocturnes s'appliquent également aux frais de déplacement.
  </p>
  </div>

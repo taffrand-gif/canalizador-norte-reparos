@@ -96,7 +96,7 @@ function Footer() {
  <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
  <div>
  <p className="font-bold">Zona de Cobertura:</p>
- <p className="text-gray-200">Trás-os-Montes — Bragança, Macedo de Cavaleiros, Mirandela e região</p>
+ <p className="text-gray-200">Trás-os-Montes — Bragança, Mirandela e região</p>
  </div>
  </li>
  </ul>
@@ -138,7 +138,7 @@ function Footer() {
  <div className="pt-8 border-t-2 border-white/20 text-center text-gray-300 text-sm">
  © {new Date().getFullYear()} {config.name}. Todos os direitos reservados.
  <div className="mt-2 text-xs text-gray-200">
- Morada: Macedo de Cavaleiros, Trás-os-Montes, Portugal
+ Morada: Macedo de Cavaleiros, Portugal
  </div>
  <div className="mt-3 text-xs text-gray-300">
  <strong>Outros serviços:</strong> Precisa de eletricista certificado? Visite <a href="https://eletricista-norte-reparos.pt" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">eletricista-norte-reparos.pt</a>

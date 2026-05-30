@@ -25,7 +25,7 @@ export default function HomepageLinks() {
  { href: '/canalizador-urgente-vila-real', label: '🚨 Urgente Vila Real' },
  { href: '/canalizador-urgente-mirandela', label: '🚨 Urgente Mirandela' },
  { href: '/canalizador-urgente-chaves', label: '🚨 Urgente Chaves' },
- { href: '/canalizador-urgente-macedo', label: '🚨 Urgente Macedo' },
+ { href: '/canalizador-urgente-macedo', label: '' },
  { href: '/canalizador-urgente-lamego', label: '🚨 Urgente Lamego' },
  ].map((link) => (
  <a

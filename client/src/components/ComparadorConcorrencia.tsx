@@ -45,7 +45,7 @@ export default function ComparadorConcorrencia() {
  },
  {
  criterion: 'Certificações',
- norteReparos: '/DGEG',
+ norteReparos: '/',
  competitorA: 'Não',
  competitorB: 'Parcial',
  winner: 'norte'

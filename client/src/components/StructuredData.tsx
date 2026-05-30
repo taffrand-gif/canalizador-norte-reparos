@@ -35,7 +35,7 @@ export default function StructuredData() {
  "legalName": config.company.fullName,
  "alternateName": serviceName,
  "description": `${config.description} Atualmente a servir ${detectedCity} e região.`,
- "slogan": `Serviço 24h/7d em ${detectedCity} • Chegamos em 40 minutos`,
+ "slogan": `Serviço 24h/7d em ${detectedCity} • Resposta rápida garantida`,
  "url": `https://${config.domain}`,
  "telephone": businessInfo.phone,
  "email": config.email,
@@ -346,7 +346,7 @@ export default function StructuredData() {
  "currenciesAccepted": "EUR",
  "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
  "knowsLanguage": ["pt-PT"],
- "slogan": "Serviço 24h/7d em Trás-os-Montes • Chegamos em 40 minutos"
+ "slogan": "Serviço 24h/7d em Trás-os-Montes • Resposta rápida garantida"
  };
  // FAQ Schema enriquecido
  const faqSchema = {
@@ -366,7 +366,7 @@ export default function StructuredData() {
  "name": "Quanto tempo demora a chegar em caso de urgência?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em situações de urgência, o nosso tempo médio de resposta é de 30 a 45 minutos na zona de Bragança e Macedo de Cavaleiros. Para zonas mais afastadas, até 60 minutos."
+ "text": "Em situações de urgência, o nosso tempo médio de resposta é de 30-60 minutos. Para zonas mais afastadas, até 60 minutos."
  }
  },
  {
@@ -374,7 +374,7 @@ export default function StructuredData() {
  "name": "Qual é a zona de cobertura?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Mirandela, Macedo de Cavaleiros, Miranda do Douro, Vinhais, Chaves, Vila Real, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços e Alfândega da Fé."
+ "text": "Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Mirandela, Miranda do Douro, Vinhais, Chaves, Vila Real, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços e Alfândega da Fé."
  }
  },
  {
