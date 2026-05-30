@@ -89,7 +89,7 @@ function GuaranteeBox({
  <div className="text-sm text-gray-700 font-semibold">Disponibilidade</div>
  </div>
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
- <div className="text-3xl font-black text-orange-600 mb-1">15min</div>
+ <div className="text-3xl font-black text-orange-600 mb-1">24h</div>
  <div className="text-sm text-gray-700 font-semibold">Tempo Resposta</div>
  </div>
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">

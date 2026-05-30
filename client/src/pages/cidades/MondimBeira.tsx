@@ -79,7 +79,7 @@ export default function MondimBeira() {
 
   const cidadesProximas = getCidadesProximas('mondim-da-beira');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Mondim da Beira?', 'answer': 'Desde 130€ em Mondim da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Mondim da Beira?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Mondim da Beira. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K-6200 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Mondim da Beira?', 'answer': 'Desde 130€ em Mondim da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Mondim da Beira?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Mondim da Beira. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function MondimBeira() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K-6200 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 130€</p>
@@ -213,7 +213,7 @@ export default function MondimBeira() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K-6200 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

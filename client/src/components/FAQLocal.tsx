@@ -19,8 +19,8 @@ function FAQLocal() {
  question: 'Quanto custa um canalizador em Bragança para desentupimento?',
  answer: 'O preço de um desentupimento em Bragança: sanita 80-120€, lavatório 100€, lava-loiça 110€ (sem IVA). Urgência noturna: +50%. Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
  {
- question: 'Fazem arranjo de fugas de água em Macedo de Cavaleiros?',
- answer: 'Sim, Estamos disponíveis em Macedo de Cavaleiros e toda a região. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Tempo de resposta em Macedo: resposta rápida para urgências. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
+ question: 'Fazem arranjo de fugas de água?',
+ answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
  {
  question: 'Há canalizador de urgência em Miranda do Douro?',
  answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.'},
@@ -29,11 +29,11 @@ function FAQLocal() {
  answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: 100-200€ (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional mais próximo de Mogadouro, em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
+ answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
  ] : [
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional mais próximo de Mogadouro, em Macedo de Cavaleiros (a cerca de 45 minutos). Cobrimos Mogadouro e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
+ answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
  ];
  return (
  <section className="py-16 bg-white">

@@ -28,7 +28,7 @@ function EmotionalHero({
  ctaSecondary = "WhatsApp Urgente",
  backgroundImage = "/images/emergency-plumber.jpg",
  showUrgencyBadge = true,
- responseTime = "15 minutos"
+ responseTime = "rápido"
 }: EmotionalHeroProps) {
  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
  return (

@@ -6,7 +6,7 @@ export default function PremiumBar() {
  const items = isPlumber
  ? [
  { icon: '🔬', label: 'Câmara Térmica' },
- { icon: '🔧', label: 'Ridgid K-6200' },
+ { icon: '🔧', label: 'Ridgid K9-204' },
  { icon: '🔍', label: 'Endoscópio HD' },
  { icon: '📡', label: 'Geofone Deteção' },
  ]
