@@ -1,5 +1,5 @@
-// SEO optimizada para "Canalizador Macedo de Cavaleiros"
-// 100% unique content, zone Z1, preço 80€
+// SEO optimizada para "Canalizador Ervedosa do Douro"
+// 100% unique content, zone Z5, preço 130€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -13,11 +13,11 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function MacedoCavaleiros() {
+export default function ErvedosaDouro() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Macedo de Cavaleiros 💧 24h | 928 484 451";
+    document.title = "Canalizador Ervedosa do Douro 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -25,7 +25,7 @@ export default function MacedoCavaleiros() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador urgente em Macedo de Cavaleiros. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Canalizador urgente em Ervedosa do Douro. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -33,16 +33,16 @@ export default function MacedoCavaleiros() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-macedo-de-cavaleiros');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-ervedosa-do-douro');
 
-    const cityAddress = getCityAddress('macedo-de-cavaleiros');
+    const cityAddress = getCityAddress('ervedosa-do-douro');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-macedo-de-cavaleiros';
+    schemaScript.id = 'schema-ervedosa-do-douro';
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Canalizador Profissional — Macedo de Cavaleiros",
+      "name": "Canalizador Profissional — Ervedosa do Douro",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -51,7 +51,7 @@ export default function MacedoCavaleiros() {
         "addressCountry": cityAddress.addressCountry,
         "postalCode": cityAddress.postalCode
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": "41.5333", "longitude": "-7.0167" },
+      "geo": { "@type": "GeoCoordinates", "latitude": "41.1333", "longitude": "-7.4167" },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
@@ -77,11 +77,11 @@ export default function MacedoCavaleiros() {
     };
   }, []);
 
-  const cidadesProximas = getCidadesProximas('macedo-de-cavaleiros');
+  const cidadesProximas = getCidadesProximas('ervedosa-do-douro');
 
   const faqs = [
-    { question: "Qual o preço de canalizador em Macedo de Cavaleiros?", answer: "Desde 80€ em Macedo de Cavaleiros. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Macedo de Cavaleiros?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Macedo de Cavaleiros. Ligue +351 928 484 451." },
+    { question: "Qual o preço de canalizador em Ervedosa do Douro?", answer: "Desde 130€ em Ervedosa do Douro. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+    { question: "Fazem urgências em Ervedosa do Douro?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Ervedosa do Douro. Ligue +351 928 484 451." },
     { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
     { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
     { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
@@ -89,7 +89,7 @@ export default function MacedoCavaleiros() {
 
   return (
     <>
-      <SEOHeadEnhanced citySlug="macedo-de-cavaleiros" pageType="city" />
+      <SEOHeadEnhanced citySlug="ervedosa-do-douro" pageType="city" />
       <StructuredData />
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
@@ -99,21 +99,21 @@ export default function MacedoCavaleiros() {
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
                 { label: 'Trás-os-Montes', href: '/tras-os-montes' },
-                { label: 'Macedo de Cavaleiros', href: '/canalizador-macedo-de-cavaleiros' }
+                { label: 'Ervedosa do Douro', href: '/canalizador-ervedosa-do-douro' }
               ]} />
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Canalizador Profissional em <span className="text-orange-400">Macedo de Cavaleiros</span>
+                Canalizador Profissional em <span className="text-orange-400">Ervedosa do Douro</span>
               </h1>
               <p className="text-xl mb-8">
-                Serviços de canalização certificados em Macedo de Cavaleiros e arredores.
+                Serviços de canalização certificados em Ervedosa do Douro e arredores.
                 Resolução rápida, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                    className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  📞 Canalizador Macedo de Cavaleiros: {config.phone}
+                  📞 Canalizador Ervedosa do Douro: {config.phone}
                 </a>
-                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Ervedosa do Douro`}
                    target="_blank" rel="noopener noreferrer"
                    className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                   💬 WhatsApp
@@ -126,14 +126,14 @@ export default function MacedoCavaleiros() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Macedo de Cavaleiros — Terra da Caça e Albufeira do Azibo
+              Ervedosa do Douro — Terra do Douro Superior e do Vinho
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-gray-700 mb-4">
-                Conhecida pela Albufeira do Azibo, uma das praias fluviais mais premiadas de Portugal, e pela forte tradição agrícola e pecuária.
+                Freguesia vinhateira do Douro Superior. As quintas produzem vinho do Porto e tintos de gran complejidad.
               </p>
               <p className="text-gray-700">
-                A economia local baseia-se na agricultura (cereais, oliveiras, amendoeiras), pecuária e turismo rural. Os sistemas de água enfrentam desafios específicos.
+                Zona de grande tradição vinícola. A produção de vinho exige sistemas de água de alta qualidade.
               </p>
             </div>
           </div>
@@ -143,28 +143,28 @@ export default function MacedoCavaleiros() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Serviços de Canalização em Macedo de Cavaleiros
+                Serviços de Canalização em Ervedosa do Douro
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
                   <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K-6200 para desentupimentos profundos.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
                   <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
                   <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
                   <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Macedo de Cavaleiros</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Ervedosa do Douro</h2>
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
@@ -181,7 +181,7 @@ export default function MacedoCavaleiros() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
-                <p className="text-gray-600">Resposta rápida em Macedo de Cavaleiros. Atendimento 24h para urgências.</p>
+                <p className="text-gray-600">Resposta rápida em Ervedosa do Douro. Atendimento 24h para urgências.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
@@ -197,14 +197,14 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Macedo de Cavaleiros</span></h2>
+            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Ervedosa do Douro</span></h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 📞 {config.phone}
               </a>
-              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Ervedosa do Douro`}
                  target="_blank" rel="noopener noreferrer"
                  className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 💬 WhatsApp
@@ -223,13 +223,13 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16">
           <div className="container max-w-4xl">
-            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Macedo de Cavaleiros</h2>
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Ervedosa do Douro</h2>
             <FAQSection faqs={faqs} />
           </div>
         </section>
 
-        <CidadesProximas currentCity="Macedo de Cavaleiros" cidades={cidadesProximas} serviceType="canalizador" />
-        <RelatedCities currentCity="Macedo de Cavaleiros" currentCitySlug="canalizador-macedo-de-cavaleiros" />
+        <CidadesProximas currentCity="Ervedosa do Douro" cidades={cidadesProximas} serviceType="canalizador" />
+        <RelatedCities currentCity="Ervedosa do Douro" currentCitySlug="canalizador-ervedosa-do-douro" />
       </main>
       <Footer />
     </>

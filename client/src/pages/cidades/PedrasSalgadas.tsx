@@ -1,5 +1,5 @@
-// SEO optimizada para "Canalizador Macedo de Cavaleiros"
-// 100% unique content, zone Z1, preço 80€
+// SEO optimizada para "Canalizador Pedras Salgadas"
+// 100% unique content, zone Z4, preço 120€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -13,11 +13,11 @@ import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function MacedoCavaleiros() {
+export default function PedrasSalgadas() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Macedo de Cavaleiros 💧 24h | 928 484 451";
+    document.title = "Canalizador Pedras Salgadas 💧 24h | 928 484 451";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -25,7 +25,7 @@ export default function MacedoCavaleiros() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador urgente em Macedo de Cavaleiros. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+    metaDescription.setAttribute('content', 'Canalizador urgente em Pedras Salgadas. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -33,16 +33,16 @@ export default function MacedoCavaleiros() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-macedo-de-cavaleiros');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-pedras-salgadas');
 
-    const cityAddress = getCityAddress('macedo-de-cavaleiros');
+    const cityAddress = getCityAddress('pedras-salgadas');
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-macedo-de-cavaleiros';
+    schemaScript.id = 'schema-pedras-salgadas';
     schemaScript.text = JSON.stringify({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "Canalizador Profissional — Macedo de Cavaleiros",
+      "name": "Canalizador Profissional — Pedras Salgadas",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": cityAddress.streetAddress,
@@ -51,7 +51,7 @@ export default function MacedoCavaleiros() {
         "addressCountry": cityAddress.addressCountry,
         "postalCode": cityAddress.postalCode
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": "41.5333", "longitude": "-7.0167" },
+      "geo": { "@type": "GeoCoordinates", "latitude": "41.7000", "longitude": "-7.5500" },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59"
     });
@@ -77,11 +77,11 @@ export default function MacedoCavaleiros() {
     };
   }, []);
 
-  const cidadesProximas = getCidadesProximas('macedo-de-cavaleiros');
+  const cidadesProximas = getCidadesProximas('pedras-salgadas');
 
   const faqs = [
-    { question: "Qual o preço de canalizador em Macedo de Cavaleiros?", answer: "Desde 80€ em Macedo de Cavaleiros. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Macedo de Cavaleiros?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Macedo de Cavaleiros. Ligue +351 928 484 451." },
+    { question: "Qual o preço de canalizador em Pedras Salgadas?", answer: "Desde 120€ em Pedras Salgadas. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+    { question: "Fazem urgências em Pedras Salgadas?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Pedras Salgadas. Ligue +351 928 484 451." },
     { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
     { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
     { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
@@ -89,7 +89,7 @@ export default function MacedoCavaleiros() {
 
   return (
     <>
-      <SEOHeadEnhanced citySlug="macedo-de-cavaleiros" pageType="city" />
+      <SEOHeadEnhanced citySlug="pedras-salgadas" pageType="city" />
       <StructuredData />
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
@@ -99,21 +99,21 @@ export default function MacedoCavaleiros() {
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
                 { label: 'Trás-os-Montes', href: '/tras-os-montes' },
-                { label: 'Macedo de Cavaleiros', href: '/canalizador-macedo-de-cavaleiros' }
+                { label: 'Pedras Salgadas', href: '/canalizador-pedras-salgadas' }
               ]} />
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Canalizador Profissional em <span className="text-orange-400">Macedo de Cavaleiros</span>
+                Canalizador Profissional em <span className="text-orange-400">Pedras Salgadas</span>
               </h1>
               <p className="text-xl mb-8">
-                Serviços de canalização certificados em Macedo de Cavaleiros e arredores.
+                Serviços de canalização certificados em Pedras Salgadas e arredores.
                 Resolução rápida, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                    className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  📞 Canalizador Macedo de Cavaleiros: {config.phone}
+                  📞 Canalizador Pedras Salgadas: {config.phone}
                 </a>
-                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Pedras Salgadas`}
                    target="_blank" rel="noopener noreferrer"
                    className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                   💬 WhatsApp
@@ -126,14 +126,14 @@ export default function MacedoCavaleiros() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Macedo de Cavaleiros — Terra da Caça e Albufeira do Azibo
+              Pedras Salgadas — Terra das Águas Termais
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-gray-700 mb-4">
-                Conhecida pela Albufeira do Azibo, uma das praias fluviais mais premiadas de Portugal, e pela forte tradição agrícola e pecuária.
+                Conhecida pelas águas termais medicinais desde o tempo dos Romanos. Estância termal tradicional no Norte de Portugal.
               </p>
               <p className="text-gray-700">
-                A economia local baseia-se na agricultura (cereais, oliveiras, amendoeiras), pecuária e turismo rural. Os sistemas de água enfrentam desafios específicos.
+                Zona de turismo termal com tradição na exploração de águas mineromedicinais. Os sistemas de água para termas são especializados.
               </p>
             </div>
           </div>
@@ -143,28 +143,28 @@ export default function MacedoCavaleiros() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Serviços de Canalização em Macedo de Cavaleiros
+                Serviços de Canalização em Pedras Salgadas
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
                   <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K-6200 para desentupimentos profundos.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 120€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
                   <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 120€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
                   <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 120€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
                   <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 80€</p>
+                  <p className="text-blue-600 font-bold mt-3">desde 120€</p>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Macedo de Cavaleiros</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Pedras Salgadas</h2>
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
@@ -181,7 +181,7 @@ export default function MacedoCavaleiros() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
-                <p className="text-gray-600">Resposta rápida em Macedo de Cavaleiros. Atendimento 24h para urgências.</p>
+                <p className="text-gray-600">Resposta rápida em Pedras Salgadas. Atendimento 24h para urgências.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
@@ -197,14 +197,14 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Macedo de Cavaleiros</span></h2>
+            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Pedras Salgadas</span></h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 📞 {config.phone}
               </a>
-              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Macedo de Cavaleiros`}
+              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Pedras Salgadas`}
                  target="_blank" rel="noopener noreferrer"
                  className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
                 💬 WhatsApp
@@ -223,13 +223,13 @@ export default function MacedoCavaleiros() {
 
         <section className="py-16">
           <div className="container max-w-4xl">
-            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Macedo de Cavaleiros</h2>
+            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Pedras Salgadas</h2>
             <FAQSection faqs={faqs} />
           </div>
         </section>
 
-        <CidadesProximas currentCity="Macedo de Cavaleiros" cidades={cidadesProximas} serviceType="canalizador" />
-        <RelatedCities currentCity="Macedo de Cavaleiros" currentCitySlug="canalizador-macedo-de-cavaleiros" />
+        <CidadesProximas currentCity="Pedras Salgadas" cidades={cidadesProximas} serviceType="canalizador" />
+        <RelatedCities currentCity="Pedras Salgadas" currentCitySlug="canalizador-pedras-salgadas" />
       </main>
       <Footer />
     </>
