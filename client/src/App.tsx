@@ -8,7 +8,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { SiteProvider } from "./contexts/SiteContext";
 import { LocationProvider } from "./contexts/LocationContext";
 import FloatingCTA from "./components/FloatingCTA";
-import SocialProofTicker from "./components/SocialProofTicker";
+
 import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
 import SkipLink from "./components/SkipLink";
@@ -218,7 +218,7 @@ function App() {
  </Suspense>
  <Router />
  <FloatingCTA />
- <SocialProofTicker />
+
  <MobileStickyBar />
  </TooltipProvider>
  </LocationProvider>
