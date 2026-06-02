@@ -97,8 +97,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   id: 'norte-reparos',
   name: 'Canalizador Profissional',
-  title: 'Canalizador Urgente Trás-os-Montes 💧 24h | 928 484 451',
-  description: 'Fuga de água ou entupimento? Chegamos rapidamente em todo Trás-os-Montes. Orçamento sem compromisso. Ligue agora: 928 484 451',
+  title: 'Canalizador em Trás-os-Montes | Norte Reparos — Serviço ao Domicílio 24h',
+  description: 'Canalizador profissional ao seu domicílio em Trás-os-Montes. Fugas de água, desentupimentos, urgências 24h. Orçamento gratuito. Ligue 928 484 451.',
   phone: '928 484 451',
   whatsapp: '351928484451',
   whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
@@ -115,7 +115,7 @@ export const siteConfig: SiteConfig = {
 
   hero: {
     title: 'Água a Pingar? Cano Rebentado?',
-    subtitle: 'Canalizador em Trás-os-Montes — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair. Relatório para seguro incluído.',
+    subtitle: 'Serviço ao domicílio em Trás-os-Montes — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
     backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
     ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg'
   },
@@ -145,8 +145,8 @@ export const siteConfig: SiteConfig = {
 
   company: {
     fullName: 'Canalizador Profissional',
-    shortDescription: 'Canalizador profissional ao seu serviço em Trás-os-Montes.',
-    longDescription: 'A Canalizador Profissional presta serviços de canalização profissional em toda a região de Trás-os-Montes. Instalação, assistência e manutenção técnica de canalizações, com deslocação ao domicílio dos clientes, todos os dias do ano, incluindo fins de semana e feriados.',
+    shortDescription: 'Serviço de canalização ao seu domicílio em Trás-os-Montes. Não temos loja — vamos até si.',
+    longDescription: 'A Norte Reparos é uma empresa de canalizações que serve toda a região de Trás-os-Montes e Norte de Portugal. Com mais de 10 anos de experiência no terreno, intervimos ao seu domicílio com equipamento profissional de diagnóstico — câmara térmica FLIR, câmara endoscópica de 30 metros e ferramentas calibradas Ridgid. Não temos loja — vamos até si. A sua zona é a nossa zona de trabalho.',
     coverage: 'Trás-os-Montes — Distrito de Bragança, Vila Real, Guarda e Viseu',
     yearEstablished: '2015'
   },

@@ -147,8 +147,7 @@ export default function Contactos() {
  <div>
  <h3 className="font-bold text-base sm:text-lg text-gray-900 mb-2">Zona de Cobertura</h3>
  <p className="text-gray-700 text-sm sm:text-base">
- Todo o distrito de Bragança<br />
- Base: Macedo de Cavaleiros
+Todo o distrito de Bragança, Vila Real, Guarda e Viseu
  </p>
  </div>
  </div>
@@ -384,12 +383,12 @@ export default function Contactos() {
  Nossa Localização
  </h2>
  <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8">
- Base em Macedo de Cavaleiros, com cobertura em todo o distrito de Bragança
- </p>
- <div className="bg-gray-200 rounded-lg h-64 sm:h-96 flex items-center justify-center">
- <p className="text-gray-600 text-sm sm:text-base">
- 📍 Macedo de Cavaleiros, Bragança
- </p>
+Servimos toda a região de Trás-os-Montes — distrito de Bragança, Vila Real, Guarda e Viseu
+  </p>
+  <div className="bg-gray-200 rounded-lg h-64 sm:h-96 flex items-center justify-center">
+  <p className="text-gray-600 text-sm sm:text-base">
+  📍 Serviço ao domicílio — Trás-os-Montes, Portugal
+  </p>
  </div>
  </div>
  </div>
