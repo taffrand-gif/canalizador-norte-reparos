@@ -87,6 +87,11 @@ export default function SEOHeadEnhanced({
  
  // Viewport (importante para mobile)
  updateMetaTag('meta[name="viewport"]', 'content', 'width=device-width, initial-scale=1.0');
+ // Geo-targeting meta tags (local SEO 130km from Macedo de Cavaleiros)
+ updateMetaTag('meta[name="geo.region"]', 'content', 'PT-04');
+ updateMetaTag('meta[name="geo.position"]', 'content', '41.5362124;-6.9560267');
+ updateMetaTag('meta[name="geo.placename"]', 'content', 'Macedo de Cavaleiros, Trás-os-Montes, Portugal');
+ updateMetaTag('meta[name="ICBM"]', 'content', '41.5362124, -6.9560267');
  // Open Graph tags
  updateMetaTag('meta[property="og:type"]', 'content', 'website');
  updateMetaTag('meta[property="og:locale"]', 'content', 'pt_PT');

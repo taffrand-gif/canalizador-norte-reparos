@@ -60,10 +60,10 @@ export default function StructuredData() {
  "@type": "GeoCircle",
  "geoMidpoint": {
  "@type": "GeoCoordinates",
- "latitude": "41.5382",
- "longitude": "-6.9667"
+ "latitude": "41.5362124",
+ "longitude": "-6.9560267"
  },
- "geoRadius": "100000"
+ "geoRadius": "130000"
  },
  {
  "@type": "City",
@@ -99,10 +99,10 @@ export default function StructuredData() {
  "@type": "GeoCircle",
  "geoMidpoint": {
  "@type": "GeoCoordinates",
- "latitude": "41.5382",
- "longitude": "-6.9667"
+ "latitude": "41.5362124",
+ "longitude": "-6.9560267"
  },
- "geoRadius": "100000"
+ "geoRadius": "130000"
  },
  "makesOffer": config.services.map(service => ({
  "@type": "Offer",
