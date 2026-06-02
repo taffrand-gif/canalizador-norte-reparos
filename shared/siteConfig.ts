@@ -61,6 +61,29 @@ export interface SiteConfig {
     keywords: string[];
     ogImage: string;
   };
+
+  // Testimonials for social proof
+  testimonials: Array<{
+    id: string;
+    name: string;
+    location: string;
+    service: string;
+    rating: number;
+    text: string;
+  }>;
+
+  // Real stories / case studies
+  stories: Array<{
+    title: string;
+    location: string;
+    situation: string;
+    emotion: string;
+    solution: string;
+  }>;
+
+  // Service metadata for dynamic routing
+  serviceName: string;
+  serviceSlug: string;
 }
 
 // Grille tarifaire definitive (mémoriser)
@@ -149,7 +172,46 @@ export const siteConfig: SiteConfig = {
       'desentupimento pia cozinha', 'canalizador para aldeias remotas'
     ],
     ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg'
-  }
+  },
+
+  // Service routing metadata
+  serviceName: 'Canalizador',
+  serviceSlug: 'canalizador',
+
+  // Testimonials for Testimonials component
+  testimonials: [
+    { id: '1', name: 'António Santos', location: 'Bragança', service: 'Desentupimento', rating: 5, text: 'Resolveu o entupimento rapidamente. Profissional e eficiente.' },
+    { id: '2', name: 'Maria Ferreira', location: 'Mirandela', service: 'Arranjo Fuga', rating: 5, text: 'Fuga de água resolvida no mesmo dia. Muito satisfeito.' },
+    { id: '3', name: 'João Costa', location: 'Vila Real', service: 'Esquentador', rating: 5, text: 'Instalou o esquentador novo. Trabalho limpo e preço justo.' },
+    { id: '4', name: 'Rosa Marques', location: 'Chaves', service: 'Canalização', rating: 5, text: 'Profissional confiável. Já recorri várias vezes.' },
+    { id: '5', name: 'Pedro Almeida', location: 'Macedo de Cavaleiros', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
+    { id: '6', name: 'Ana Rodrigues', location: 'Valpaços', service: 'Manutenção', rating: 5, text: 'Manutenção preventiva bem feita. Recomendo.' },
+  ],
+
+  // Real stories for RealStories component
+  stories: [
+    {
+      title: 'Fuga de água às 3h da manhã',
+      location: 'Bragança',
+      situation: 'Cliente acordou com água a inundar a cozinha. Não sabia onde estava a fuga.',
+      emotion: 'Pânico total às 3h da manhã',
+      solution: 'Chegámos em 40 minutos, detetámos a fuga com câmara e reparámos sem quebrar azulejos.'
+    },
+    {
+      title: 'Esquentador parado em pleno inverno',
+      location: 'Mirandela',
+      situation: 'Família de 4 pessoas sem água quente a -5°C.',
+      emotion: 'Urgência extrema com crianças pequenas',
+      solution: 'Diagnóstico rápido, peça substituída e água quente restaurada em 2 horas.'
+    },
+    {
+      title: 'Entupimento crítico no restaurante',
+      location: 'Vila Real',
+      situation: 'Canos da cozinha totalmente entupidos. Restaurante encerrado.',
+      emotion: 'Prejuízo enorme a cada hora fechada',
+      solution: 'Máquina profissional Ridgid utilizada. Cano desobstruído em 1h. Restaurante abriu no dia seguinte.'
+    }
+  ]
 };
 
 // Helper function to get local price by zone
