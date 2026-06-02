@@ -88,7 +88,7 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
  <span className="text-2xl font-black text-green-600">15€</span>
  </div>
  <p className="text-sm text-gray-600">≤ 15 km</p>
- <p className="text-xs text-gray-500 mt-2">Macedo de Cavaleiros, centro</p>
+
  </div>
  {/* Zona 2 */}
  <div className="bg-blue-50 rounded-xl p-5 border-2 border-blue-200">
