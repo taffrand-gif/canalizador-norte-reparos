@@ -1,37 +1,43 @@
 import React from 'react';
 import { useSite } from '@/contexts/SiteContext';
+import { useLocationContent } from '@/hooks/useLocationContent';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+
 const OptimizedHero: React.FC = () => {
- const { config } = useSite();
- return (
- <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-blue-900">
- {/* Background image - visible on ALL screen sizes */}
- <div 
- className="absolute inset-0 bg-cover bg-center bg-no-repeat"
- style={{
- backgroundImage: 'url(/images-optimized/hero/hero-plumber-portugal.jpg)'}}
- />
- 
- {/* Gradient overlay for text readability */}
- <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-blue-900/80" />
- 
- <div className="container relative z-10 mx-auto px-4 py-16 text-center">
- <div className="max-w-4xl mx-auto">
- {/* Badge urgence */}
- <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8">
- <span className="text-2xl">💧</span>
- <span className="text-white font-semibold text-lg">CANALIZADOR Atendimento 24h — RESPOSTA EM 2 MIN</span>
- </div>
- 
- {/* Titre principal */}
- <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
- {ACTIVE_CONFIG.heroTitle}
- </h1>
- 
- {/* Sous-titre */}
- <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
- {ACTIVE_CONFIG.heroSubtitle}
- </p>
+  const { config } = useSite();
+  const { city, arrivalTime } = useLocationContent();
+
+  const personalizedSubtitle = `Canalizador em ${city} em ${arrivalTime} — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.`;
+
+  return (
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-blue-900">
+      {/* Background image - visible on ALL screen sizes */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/images-optimized/hero/hero-plumber-portugal.jpg)'}}
+      />
+
+      {/* Gradient overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-blue-900/80" />
+
+      <div className="container relative z-10 mx-auto px-4 py-16 text-center">
+        <div className="max-w-4xl mx-auto">
+          {/* Badge urgence */}
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8">
+            <span className="text-2xl">💧</span>
+            <span className="text-white font-semibold text-lg">CANALIZADOR Atendimento 24h — RESPOSTA EM 2 MIN</span>
+          </div>
+
+          {/* Titre principal */}
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            {ACTIVE_CONFIG.heroTitle}
+          </h1>
+
+          {/* Sous-titre personalisé */}
+          <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
+            {personalizedSubtitle}
+          </p>
  
  {/* Botões CTA */}
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
