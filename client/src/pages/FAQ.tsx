@@ -54,7 +54,7 @@ export default function FAQPage() {
  },
  {
  question: "Qual é o raio de ação máximo?",
- answer: "Atendemos num raio de 100km a partir de Macedo de Cavaleiros. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
+ answer: "Atendemos num raio de 130km. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
  },
  {
  question: "Quanto tempo demora um desentupimento normal?",

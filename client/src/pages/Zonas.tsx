@@ -67,7 +67,7 @@ export default function Zonas() {
  }
  metaDescription.setAttribute(
  'content',
- 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde Macedo de Cavaleiros. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
+ 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 130km. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
  );
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -109,7 +109,7 @@ export default function Zonas() {
  ],
  serviceType: 'Canalizador',
  description:
- 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 100km desde Macedo de Cavaleiros.'});
+ 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 130km.'});
  document.head.appendChild(schemaScript);
  return () => {
  if (schemaScript.parentNode) {
@@ -146,8 +146,7 @@ export default function Zonas() {
  Zona de Intervenção — Canalizador em Trás-os-Montes
  </h1>
  <p className="text-xl text-blue-100 mb-8">
- Servimos 34 cidades num raio de 100km desde Macedo de Cavaleiros. Intervenção rápida em toda a região de
- Trás-os-Montes.
+ Servimos 34 cidades num raio de 130km em toda a região de Trás-os-Montes. Intervenção rápida em Bragança, Vila Real, Chaves, Mirandela, Mogadouro, Torre de Moncorvo e muitas outras.
  </p>
  <div className="flex flex-wrap justify-center gap-6 text-lg">
  <div className="flex items-center">
@@ -156,7 +155,7 @@ export default function Zonas() {
  </div>
  <div className="flex items-center">
  <MapPin className="w-6 h-6 mr-2" />
- <span>100km de raio</span>
+ <span>130km de raio</span>
  </div>
  <div className="flex items-center">
  <Phone className="w-6 h-6 mr-2" />
