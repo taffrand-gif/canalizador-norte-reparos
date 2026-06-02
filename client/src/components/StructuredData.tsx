@@ -374,7 +374,7 @@ export default function StructuredData() {
  "name": "Quanto tempo demora a chegar em caso de urgência?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "O nosso tempo médio de resposta em situações de urgência é rápido. Contacte-nos e a nossa equipa actua com brevidade."
+ "text": "Em situações de urgência, o nosso tempo médio de resposta é de 30-60 minutos. Para zonas mais afastadas, até 60 minutos."
  }
  },
  {
@@ -382,7 +382,7 @@ export default function StructuredData() {
  "name": "Qual é a zona de cobertura?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Cobrimos toda a região de Trás-os-Montes num raio de 130 km, incluindo Bragança, Mirandela, Miranda do Douro, Vinhais, Chaves, Vila Real, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços e Alfândega da Fé."
+ "text": "Cobrimos toda a região de Trás-os-Montes num raio de 100 km, incluindo Bragança, Mirandela, Miranda do Douro, Vinhais, Chaves, Vila Real, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços e Alfândega da Fé."
  }
  },
  {
