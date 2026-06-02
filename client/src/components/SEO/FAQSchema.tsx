@@ -71,7 +71,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Atendem em que cidades?",
- answer: "Atendemos em Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Miranda do Douro, Mogadouro e todas as aldeias num raio de 100km."
+ answer: "Atendemos em Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Real, Vinhais, Miranda do Douro, Mogadouro e todas as aldeias num raio de 130km."
  },
  {
  question: "O que fazer em caso de fuga de água urgente?",

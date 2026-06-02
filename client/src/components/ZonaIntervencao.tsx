@@ -27,14 +27,14 @@ export default function ZonaIntervencao() {
  <div className="text-center mb-16">
  <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 font-bold px-6 py-3 rounded-full mb-6">
  <MapPin className="w-5 h-5" />
- <span>Raio de 100 km</span>
+ <span>Raio de 130 km</span>
  </div>
  <h2 className="text-4xl md:text-5xl font-black mb-4">
  Zona de Intervenção
  </h2>
  <p className="text-lg text-gray-600 max-w-3xl mx-auto">
  Prestamos serviços de canalização em toda a região de Trás-os-Montes, 
- num raio de 100 km à volta de Macedo de Cavaleiros, distrito de Bragança.
+ num raio de 130 km.
  </p>
  </div>
  {/* Grelha das cidades */}
