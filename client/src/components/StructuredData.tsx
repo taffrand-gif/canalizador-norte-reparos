@@ -52,8 +52,8 @@ export default function StructuredData() {
  },
  "geo": {
  "@type": "GeoCoordinates",
- "latitude": "41.5382",
- "longitude": "-6.9667"
+ "latitude": "41.5362124",
+ "longitude": "-6.9560267"
  },
  "areaServed": [
  {
@@ -295,8 +295,8 @@ export default function StructuredData() {
  },
  "geo": {
  "@type": "GeoCoordinates",
- "latitude": "41.5382",
- "longitude": "-6.9667"
+ "latitude": "41.5362124",
+ "longitude": "-6.9560267"
  },
  "areaServed": {
  "@type": "AdministrativeArea",
