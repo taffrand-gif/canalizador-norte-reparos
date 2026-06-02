@@ -102,23 +102,24 @@ export default function PriceTable() {
  Exemplos Reais
  </h3>
  <div className="space-y-6">
- <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
- <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
- <ul className="space-y-1 text-blue-800 text-sm">
- <li className="flex justify-between"><span>Deslocação (Zona 1):</span> <span>15€</span></li>
- <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>33€</span></li>
- <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>48€</span></li>
- </ul>
- </div>
- <div className="bg-amber-50 p-6 rounded-lg border border-amber-100">
- <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
- <ul className="space-y-1 text-amber-800 text-sm">
- <li className="flex justify-between"><span>Deslocação (Zona 3):</span> <span>35€</span></li>
- <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>90€</span></li>
- <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>125€</span></li>
- </ul>
- <p className="text-xs text-amber-700 mt-2 italic">Preço anunciado ao telefone ANTES de sair.</p>
- </div>
+<div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+    <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
+    <ul className="space-y-1 text-blue-800 text-sm">
+      <li className="flex justify-between"><span>Deslocação (Macedo de Cavaleiros):</span> <span>80€</span></li>
+      <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>65€ - 130€</span></li>
+      <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>145€ - 210€</span></li>
+    </ul>
+    <p className="text-xs text-blue-700 mt-2 italic">* Preço exato confirmado ao telefone antes de sair.</p>
+  </div>
+  <div className="bg-amber-50 p-6 rounded-lg border border-amber-100">
+    <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
+    <ul className="space-y-1 text-amber-800 text-sm">
+      <li className="flex justify-between"><span>Deslocação (Bragança):</span> <span>110€</span></li>
+      <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>65€ - 130€</span></li>
+      <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>175€ - 240€</span></li>
+    </ul>
+    <p className="text-xs text-amber-700 mt-2 italic">+50% sobre deslocação e mão de obra (noturno/fim de semana). Preço anunciado ao telefone ANTES de sair.</p>
+  </div>
  </div>
  <div className="mt-8 bg-gray-900 text-white p-6 rounded-lg text-center">
  <p className="font-bold text-lg mb-2">Dúvidas no preço?</p>
