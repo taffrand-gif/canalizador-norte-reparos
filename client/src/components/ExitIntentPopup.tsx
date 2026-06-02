@@ -1,40 +1,46 @@
 import React from 'react';
-import { useState, useEffect, memo } from 'react';
+import { useState, useEffect, useRef, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 function ExitIntentPopup() {
  const [showPopup, setShowPopup] = useState(false);
  const [hasShown, setHasShown] = useState(false);
- const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
- const { city, arrivalTime } = useLocationContent();
- const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
- useEffect(() => {
- const handleMouseLeave = (e: MouseEvent) => {
- // Trigger when mouse leaves viewport from top (user closing tab/window)
- if (e.clientY <= 0 && !hasShown) {
- setShowPopup(true);
- setHasShown(true);
- trackExitPopupShown();
- }
- };
- // Detect if mobile device
- const isMobile = window.innerWidth < 768;
- const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
- // Also trigger after delay if user hasn't interacted
- const timer = setTimeout(() => {
- if (!hasShown) {
- setShowPopup(true);
- setHasShown(true);
- trackExitPopupShown();
- }
- }, delay);
- document.addEventListener('mouseleave', handleMouseLeave);
- return () => {
- document.removeEventListener('mouseleave', handleMouseLeave);
- clearTimeout(timer);
- };
- }, [hasShown, trackExitPopupShown]);
+const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
+  const { city, arrivalTime } = useLocationContent();
+  const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
+
+  // Memoize tracking functions to avoid recreation on every render
+  const trackedRef = useRef<{ shown: boolean }>({ shown: false });
+
+  useEffect(() => {
+    // Skip if already shown
+    if (trackedRef.current.shown) return;
+
+    const isMobile = window.innerWidth < 768;
+    const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
+
+    const timer = setTimeout(() => {
+      if (!trackedRef.current.shown) {
+        trackedRef.current.shown = true;
+        trackExitPopupShown();
+      }
+    }, delay);
+
+    const handleMouseLeave = (e: MouseEvent) => {
+      if (e.clientY <= 0 && !trackedRef.current.shown) {
+        trackedRef.current.shown = true;
+        clearTimeout(timer);
+        trackExitPopupShown();
+      }
+    };
+
+    document.addEventListener('mouseleave', handleMouseLeave);
+    return () => {
+      document.removeEventListener('mouseleave', handleMouseLeave);
+      clearTimeout(timer);
+    };
+  }, [trackExitPopupShown]);
  if (!showPopup) return null;
  const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
