@@ -91,6 +91,18 @@
       "destination": "/precos.html"
     },
     {
+      "source": "/canalizador-:city.html",
+      "destination": "/canalizador-:city.html"
+    },
+    {
+      "source": "/eletricista-:city.html",
+      "destination": "/eletricista-:city.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
