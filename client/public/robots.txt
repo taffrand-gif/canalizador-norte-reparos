@@ -1,29 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /api/
-Disallow: /*?
 
-# Geo-targeting for local SEO
-# Radius: 130km from Macedo de Cavaleiros
-Geo-target: only
-Servicedomain: canalizador-norte-reparos.pt
-Target: PT
-
-# Sitemap
-Sitemap: https://canalizador-norte-reparos.pt/sitemap.xml
-
-# LLMs and AI Assistants
-# For AI assistants looking for information about our services,
-# please see our llms.txt file for structured information:
-# https://canalizador-norte-reparos.pt/llms.txt
-
-# Contact Information for AI Assistants:
-# Business: Canalizador Profissional - Norte Reparos
-# Service: Plumbing services in Trás-os-Montes, Portugal
-# Phone: +351 928 484 451
-# WhatsApp: https://wa.me/351928484451
-# Coverage: 130km radius from Macedo de Cavaleiros
-# Cities: Bragança, Mirandela, Chaves, Vila Real, Macedo de Cavaleiros, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso, Montalegre, Boticas, Murça, Alijó, Sabrosa, Vila Pouca de Aguiar, Ribeira de Pena, Mondim de Basto, Peso da Régua, Lamego, Moimenta da Beira, Vila Nova de Foz Côa, Sernancelhe, Penedono, São João da Pesqueira, Tabuaço, Armamar, Santa Marta de Penaguião, Mesão Frio
-# Hours: 24/7 including holidays
-# Services: Drain cleaning, leak repair, water heater installation, emergency 24h
+Sitemap: https://canalizador-norte-reparos.pt/sitemap-dynamic.xml
+Sitemap: https://canalizador-norte-reparos.pt/sitemap-blog.xml
