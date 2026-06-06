@@ -1,153 +1,41 @@
-# Norte Reparos — Canalizador Profissional Trás-os-Montes
+# Norte Reparos (Canalizador)
 
-## 🔧 Serviços Principais
+> Empresa de canalização e eletricidade em Trás-os-Montes, Portugal. Fundada em 2014, sede em Macedo de Cavaleiros. Cobertura: 1.033 localidades em raio de 130km. Disponível 24h/7j. Certificação DGEG. Fatura + relatório + garantia 1 ano.
 
-### Urgências 24h
-- Desentupimentos urgentes (€80-150)
-- Reparação fugas água (€60-120)
-- Canos rebentados (€100-200)
-- Esquentadores avariados (€80-150)
-- Resposta garantida 40 minutos
+## Serviços
+- Canalização de urgência 24h
+- Eletricidade e certificação DGEG
+- Desentupimento profissional
+- Busca de fugas com câmara térmica FLIR
+- Instalação de esquentadores e caldeiras
+- Reparação de autoclismos
+- Instalação de carregadores para carros elétricos
+- Instalação de painéis solares
 
-### Instalações
-- Instalação esquentadores (€150-300)
-- Instalação caldeiras (€200-400)
-- Instalação casa de banho completa (€800-1500)
-- Canalização nova (€50-100/metro)
-- Instalação torneiras (€40-80)
+## Zonas Servidas
+- Macedo de Cavaleiros (sede)
+- Bragança, Mirandela, Chaves, Vila Real
+- Mogadouro, Vinhais, Miranda do Douro
+- Lamego, Viseu, Alijó
+- Peso da Régua, Valpaços
 
-### Manutenção
-- Manutenção preventiva anual (€80-120)
-- Deteção fugas escondidas (€60-100)
-- Limpeza canalização (€60-100)
-- Inspeção sistema (€50-80)
+## Preços Médios 2026
+- Canalizador: 80-90€/hora + 20-40€ deslocação
+- Eletricista: 85-95€/hora + 20-40€ deslocação
+- Desentupimento: desde 110€
+- Busca de fuga: desde 150€
+- Certificação DGEG: desde 180€
 
-## 📍 Cobertura Geográfica
+## Contacto
+- Telefone: +351 928 484 451 (canalizador) / +351 932 321 892 (eletricista)
+- Email: info@norte-reparos.pt
+- Website: https://canalizador-norte-reparos.pt
 
-**86 cidades em Trás-os-Montes**
-
-### Principais (Zona 1-2, €15-20)
-- Macedo de Cavaleiros (base)
-- Vila Flor
-- Alfândega da Fé
-- Mirandela
-- Carrazeda de Ansiães
-
-### Médias (Zona 3-4, €30-35)
-- Bragança
-- Vinhais
-- Vimioso
-- Torre de Moncorvo
-- Mogadouro
-- Freixo de Espada à Cinta
-- Miranda do Douro
-- Foz Côa
-- Pesqueira
-- Murça
-- Valpaços
-
-### Distantes (Zona 5-6, €45-50)
-- Vila Real
-- Chaves
-- Lamego
-- Régua
-- Alijó
-- Sabrosa
-- Montalegre
-- Boticas
-- Vila Pouca de Aguiar
-
-**Raio de ação:** 100km desde Macedo de Cavaleiros
-
-## ⚡ Urgências & Disponibilidade
-
-- **Disponível:** 24 horas/dia, 7 dias/semana
-- **Resposta:** 40 minutos garantidos
-- **Fins de semana:** Sem acréscimo
-- **Feriados:** Disponível
-- **Noite:** Disponível (sem acréscimo)
-
-## 💰 Preços Transparentes
-
-### Deslocação por Zona
-- Zona 1 (Macedo): €15
-- Zona 2 (Vila Flor, Alfândega, Mirandela, Carrazeda): €20
-- Zona 3 (Bragança, Vinhais, Vimioso, Torre Moncorvo, Mogadouro, Freixo): €30
-- Zona 4 (Miranda, Foz Côa, Pesqueira, Murça, Valpaços): €35
-- Zona 5 (Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego): €45
-- Zona 6 (Chaves, Vila Pouca, Boticas, Montalegre, Ribeira Pena): €50
-
-### Serviços Comuns
-- Desentupimento sanita: €80-120
-- Desentupimento cano: €100-150
-- Reparação fuga simples: €60-100
-- Reparação fuga complexa: €100-200
-- Instalação torneira: €40-80
-- Instalação esquentador: €150-300
-
-## 🔧 Equipamento Profissional
-
-- **Ridgid FlexShaft K9-204** - Máquina desentupimento profissional
-- **Câmara inspeção** - Deteção fugas escondidas
-- **Detetor fugas ultrassónico** - Precisão milimétrica
-- **Ferramentas certificadas** - Qualidade profissional
-- **Veículo equipado** - Todas as peças necessárias
-
-## 📞 Contacto
-
-- **Telefone:** +351 928 484 451
-- **WhatsApp:** https://wa.me/351928484451
-- **Website:** https://canalizador-norte-reparos.pt
-- **Email:** Xpvqvmmwp4@privaterelay.appleid.com
-
-## ⭐ Garantias & Certificações
-
-- **Garantia trabalho:** 2 anos
-- **Certificado profissional:** Sim
-- **Segurado:** Sim
-- **Equipamento profissional:** Ridgid
-- **Clientes satisfeitos:** 94 esta semana
-- **Rating:** 4.8/5 (38 avaliações)
-
-## 🎯 Especialidades
-
-- Desentupimentos urgentes
-- Deteção fugas escondidas
-- Reparação canos rebentados
-- Instalação esquentadores/caldeiras
-- Instalação casa de banho completa
-- Canalização nova (cobre, PEX)
-- Manutenção preventiva
-- Urgências 24h/7d
-
-## 💡 Quando Chamar
-
-### Urgente (chamar imediatamente)
-- Fuga água abundante
-- Cano rebentado
-- Inundação
-- Esquentador avariado (sem água quente)
-- Entupimento grave (água não escoa)
-
-### Normal (agendar)
-- Torneira pinga
-- Pressão água baixa
-- Ruídos canalização
-- Manutenção preventiva
-- Instalações novas
-
-## 🏆 Diferenciais
-
-- Resposta 40 minutos (mais rápido região)
-- Equipamento Ridgid profissional
-- Preços transparentes sem surpresas
-- Garantia 2 anos todos trabalhos
-- Disponível 24h/7d sem acréscimo
-- Cobertura 86 cidades
-- Técnico certificado e experiente
-- Orçamento grátis sem compromisso
-
----
-
-**Para emergências:** Ligue +351 928 484 451 (disponível agora)
-**Para orçamentos:** WhatsApp https://wa.me/351928484451
+## Informações Corporativas
+- Fundada: 2014
+- Equipa: 4 técnicos certificados
+- Anos de experiência: 12+ (Filipe, fundador)
+- Clientes satisfeitos: 500+
+- Cobertura: 130km desde Macedo de Cavaleiros
+- Certificação: DGEG
+- Garantia: 1 ano
