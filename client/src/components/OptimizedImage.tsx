@@ -51,43 +51,29 @@ export default function OptimizedImage({
  observer.disconnect();
  };
  }, [priority]);
- // Determinar se a imagem é externa (CDN)
- const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
- const isManuscdn = src.includes('manuscdn.com');
- // Gerar srcset para imagens responsivas
- const generateSrcSet = (imagePath: string): string => {
- if (isExternalImage) {
- if (isManuscdn) {
- const baseUrl = imagePath.split('?')[0];
- return [
- `${baseUrl}?x-oss-process=image/resize,w_320/format,webp/quality,q_80 320w`,
- `${baseUrl}?x-oss-process=image/resize,w_640/format,webp/quality,q_80 640w`,
- `${baseUrl}?x-oss-process=image/resize,w_1024/format,webp/quality,q_80 1024w`,
- `${baseUrl}?x-oss-process=image/resize,w_1920/format,webp/quality,q_80 1920w`,
- ].join(', ');
- }
- return '';
- }
- // Para imagens locais
- const pathParts = imagePath.split('.');
- const extension = pathParts.pop();
- const basePath = pathParts.join('.');
- return [
- `${basePath}-320w.webp 320w`,
- `${basePath}-640w.webp 640w`,
- `${basePath}-1024w.webp 1024w`,
- `${basePath}-1920w.webp 1920w`,
- ].join(', ');
- };
- // Gerar URL WebP
- const getWebPSrc = (imagePath: string): string => {
- if (isExternalImage) {
- if (isManuscdn) {
- const baseUrl = imagePath.split('?')[0];
- return `${baseUrl}?x-oss-process=image/format,webp/quality,q_80`;
- }
- return imagePath;
- }
+  // Determinar se a imagem é externa
+  const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
+  // Gerar srcset para imagens responsivas
+  const generateSrcSet = (imagePath: string): string => {
+  if (isExternalImage) {
+  return '';
+  }
+  // Para imagens locais
+  const pathParts = imagePath.split('.');
+  const extension = pathParts.pop();
+  const basePath = pathParts.join('.');
+  return [
+  `${basePath}-320w.webp 320w`,
+  `${basePath}-640w.webp 640w`,
+  `${basePath}-1024w.webp 1024w`,
+  `${basePath}-1920w.webp 1920w`,
+  ].join(', ');
+  };
+  // Gerar URL WebP
+  const getWebPSrc = (imagePath: string): string => {
+  if (isExternalImage) {
+  return imagePath;
+  }
  const pathParts = imagePath.split('.');
  pathParts.pop();
  return `${pathParts.join('.')}.webp`;

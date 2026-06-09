@@ -86,7 +86,7 @@ const SanitaEntupida = lazy(() => import("@/pages/SanitaEntupida"));
 const CanoRebentado = lazy(() => import("@/pages/CanoRebentado"));
 const EsquentadorAvariado = lazy(() => import("@/pages/EsquentadorAvariado"));
 const CheiroMauCanalizacao = lazy(() => import("@/pages/CheiroMauCanalizacao"));
-// Emotional Landing Pages (SEO Premium) - Eletricista (REMOVED - belong to staff-seekers)
+// Emotional Landing Pages (SEO Premium) - Eletricista (legacy code)
 // Commercial Intent Pages (SEO Premium) - Canalizador
 const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaArranjarAguaCastanha"));
 const ValePenaArranjarVsSubstituir = lazy(() => import("@/pages/ValePenaArranjarVsSubstituir"));
@@ -170,7 +170,7 @@ function Router() {
  <Route path={"/cano-rebentado"} component={CanoRebentado} />
  <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
  <Route path={"/cheiro-mau-canalizacao"} component={CheiroMauCanalizacao} />
- {/* Emotional Landing Pages - SEO Premium - Eletricista (REMOVED - belong to staff-seekers) */}
+ {/* Emotional Landing Pages - SEO Premium - Eletricista (legacy code) */}
  {/* Commercial Intent Pages - SEO Premium - Canalizador */}
  <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
  <Route path={"/vale-pena-arranjar-vs-substituir"} component={ValePenaArranjarVsSubstituir} />
