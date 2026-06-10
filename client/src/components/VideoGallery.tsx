@@ -1,4 +1,4 @@
-import { videoData, generateVideoSchema } from '@/shared/videoData';
+import { videoData } from '@/shared/videoData';
 interface VideoGalleryProps {
  category?: string;
  limit?: number;
@@ -57,12 +57,12 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  </div>
  </div>
  {/* Schema.org JSON-LD */}
- <script
- type="application/ld+json"
- dangerouslySetInnerHTML={{
- __html: JSON.stringify(generateVideoSchema(video))
- }}
- />
+ {/* removed */}
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
  </div>
  ))}
  </div>
