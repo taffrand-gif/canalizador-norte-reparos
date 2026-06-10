@@ -104,25 +104,25 @@ export default function GoogleReviews() {
  if (sectionRef.current) observer.observe(sectionRef.current);
  return () => observer.disconnect();
  }, []);
- useEffect(() => {
- const schema = {
- '@context': 'https://schema.org',
- '@type': 'LocalBusiness',
- name: config.name,
- aggregateRating: {
- '@type': 'AggregateRating',
- ratingValue: '5.0',
- bestRating: '5',
- ratingCount: '52',
- reviewCount: '52'}};
- const script = document.createElement('script');
- script.type = 'application/ld+json';
- script.setAttribute('data-reviews-schema', 'true');
- script.textContent = JSON.stringify(schema);
- document.querySelectorAll('script[data-reviews-schema]').forEach((el) => el.remove());
- document.head.appendChild(script);
- return () => { script.remove(); };
- }, [config.name]);
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+ {/* removed */}
+/* removed */
  return (
  <section ref={sectionRef} className="py-16 bg-gray-50" aria-label="Avaliações de clientes">
  <div className="container mx-auto px-4">

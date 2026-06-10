@@ -36,13 +36,7 @@ export function ReviewSchema({ reviews, businessName, businessUrl }: ReviewSchem
  "datePublished": review.date
  }))
  };
- return (
- <script
- type="application/ld+json"
- dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
- />
- );
-}
+ return null; /* removed */}
 // Témoignages Premium Canalizador
 export const canalizadorReviews: ReviewData[] = [
  {

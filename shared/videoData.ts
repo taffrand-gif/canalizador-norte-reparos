@@ -252,19 +252,19 @@ export const videoData = [
  }
 ];
 
-// Schema.org VideoObject generator
-export function generateVideoSchema(video) {
- return {
- '@context': 'https://schema.org',
- '@type': 'VideoObject',
- name: video.title,
- description: video.description,
- thumbnailUrl: video.thumbnailUrl,
- uploadDate: video.uploadDate,
- duration: `PT${video.duration}S`,
- contentUrl: `https://www.youtube.com/watch?v=${video.youtubeId}`,
- embedUrl: `https://www.youtube.com/embed/${video.youtubeId}`,
- keywords: video.keywords.join(', '),
- transcript: video.transcript
- };
-}
+/* removed */
+/* removed */
+ {/* removed */}
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
+/* removed */
