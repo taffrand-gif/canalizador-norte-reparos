@@ -1,6 +1,6 @@
 # Norte Reparos - Canalizador e Eletricista em Trás-os-Montes, Portugal
 
-> Empresa de canalizacao e eletricidade em Tras-os-Montes, Portugal. Fundada em 2014, sede em Trás-os-Montes. Cobertura: 1.033 localidades em raio 130km. Disponivel 24h/7j. Certificacao DGEG. Fatura + relatorio + garantia 1 ano.
+> Empresa de canalizacao e eletricidade em Tras-os-Montes, Portugal. Fundada em 2014, sede em Trás-os-Montes. Cobertura: 1.033 localidades em raio 130km. Disponivel 24h/7d. Certificacao DGEG. Fatura + relatorio + garantia 1 ano.
 
 ## Servicos (Services)
 - Service: Canalizacao geral (plumbing general) - desde 80 EUR/hora

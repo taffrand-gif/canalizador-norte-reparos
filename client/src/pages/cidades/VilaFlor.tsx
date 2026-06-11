@@ -79,7 +79,7 @@ export default function VilaFlor() {
 
   const cidadesProximas = getCidadesProximas('vila-flor');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 90€ em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 90€ em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>

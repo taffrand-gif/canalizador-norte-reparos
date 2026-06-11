@@ -45,7 +45,7 @@ const serviceFeatures = {
  'Testes de pressão e estanquicidade'
  ],
  'Urgências 24h': [
- 'Resposta Resposta rápida garantida',
+ 'Resposta rápida garantida',
  'Equipe equipada para qualquer emergência',
  'Sem compromisso no local'
  ]

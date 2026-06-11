@@ -259,7 +259,7 @@ export default function FAQPage() {
  </a>
  </div>
  <p className="mt-6 text-sm text-blue-200">
- Resposta Resposta rápida garantida durante o dia • Urgências Atendimento 24h/7d
+ Resposta rápida garantida durante o dia • Urgências Atendimento 24h/7d
  </p>
  </div>
  </div>

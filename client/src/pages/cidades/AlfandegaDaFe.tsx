@@ -79,7 +79,7 @@ export default function AlfândegaFé() {
 
   const cidadesProximas = getCidadesProximas('alfandega-da-fe');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Alfândega da Fé?', 'answer': 'Desde 90€ em Alfândega da Fé. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alfândega da Fé?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Alfândega da Fé. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Alfândega da Fé?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Alfândega da Fé?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Alfândega da Fé?', 'answer': 'Desde 90€ em Alfândega da Fé. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alfândega da Fé?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alfândega da Fé. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Alfândega da Fé?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Alfândega da Fé?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>
