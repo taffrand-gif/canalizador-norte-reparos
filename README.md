@@ -10,7 +10,7 @@ Plateforme multi-sites pour services de plomberie et électricité Atendimento 2
 - **Couleur principale** : Bleu (#1e40af)
 - **Services** : Arranjo Fuga Água, Desentupimento, Instalação Esquentador, Substituição Canalização
 
-### 2. Staff-Seekers (staff-seekers.com)
+### 2. Staff-Seekers (
 - **Secteur** : Services électriques
 - **Téléphone** : 928 484 451
 - **Couleur principale** : Orange (#ea580c)
@@ -66,7 +66,7 @@ Le système utilise une configuration centralisée dans `shared/siteConfig.ts` q
 
 La détection du site se fait via le hostname :
 - `canalizador-norte-reparos.pt` ou `localhost` → Configuration Norte-Reparos (par défaut)
-- `staff-seekers.com` → Configuration Staff-Seekers
+- ` → Configuration Staff-Seekers
 
 ## Fonctionnalités
 
@@ -146,7 +146,7 @@ Toutes les images sont stockées dans `/home/ubuntu/webdev-static-assets/` et ut
 
 3. Configurer les domaines :
    - Norte-Reparos : `canalizador-norte-reparos.pt`
-   - Staff-Seekers : `staff-seekers.com`
+   - Staff-Seekers : `
 
 ### Déploiement externe (Cloudflare Pages)
 
@@ -230,7 +230,7 @@ colors: {
 ## Support et maintenance
 
 Pour toute question ou assistance :
-- Email : info@canalizador-norte-reparos.pt ou info@staff-seekers.com
+- Email : info@canalizador-norte-reparos.pt ou info@
 - Téléphone : 928 484 451 (Norte-Reparos) ou 928 484 451 (Staff-Seekers)
 
 ## Licence
