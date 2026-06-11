@@ -135,8 +135,8 @@ export const siteConfig: SiteConfig = {
 
   // Pricing Zones - NOVA GRELHA 2026
   pricingZones: [
-    // Z1 - Macedo de Cavaleiros + redor
-    { zone: 'Z1', name: 'Macedo de Cavaleiros', cities: 'Macedo de Cavaleiros, Torre de Dona Chama', price: '15€', time: '< 30 min' },
+    // Z1 - Trás-os-Montes + redor
+    { zone: 'Z1', name: 'Trás-os-Montes', cities: 'Trás-os-Montes, Torre de Dona Chama', price: '15€', time: '< 30 min' },
     // Z2 - Mirandela, Vila Flor, Alfândega, Carrazeda
     { zone: 'Z2', name: 'Zona 2', cities: 'Mirandela, Vila Flor, Alfândega da Fé, Carrazeda de Ansiães', price: '25€', time: '< 40 min' },
     // Z3 - Bragança, Vinhais, Vimioso, Torre Moncorvo, Mogadouro, Freixo
@@ -193,7 +193,7 @@ export const siteConfig: SiteConfig = {
     { id: '2', name: 'Maria Ferreira', location: 'Mirandela', service: 'Arranjo Fuga', rating: 5, text: 'Fuga de água resolvida no mesmo dia. Muito satisfeito.' },
     { id: '3', name: 'João Costa', location: 'Vila Real', service: 'Esquentador', rating: 5, text: 'Instalou o esquentador novo. Trabalho limpo e preço justo.' },
     { id: '4', name: 'Rosa Marques', location: 'Chaves', service: 'Canalização', rating: 5, text: 'Profissional confiável. Já recorri várias vezes.' },
-    { id: '5', name: 'Pedro Almeida', location: 'Macedo de Cavaleiros', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
+    { id: '5', name: 'Pedro Almeida', location: 'Trás-os-Montes', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
     { id: '6', name: 'Ana Rodrigues', location: 'Valpaços', service: 'Manutenção', rating: 5, text: 'Manutenção preventiva bem feita. Recomendo.' },
   ],
 

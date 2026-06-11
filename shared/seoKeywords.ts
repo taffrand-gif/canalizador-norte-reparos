@@ -13,9 +13,9 @@ export interface CitySEOConfig {
 
 export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'macedo-de-cavaleiros': {
- cityName: 'Macedo de Cavaleiros',
+ cityName: 'Trás-os-Montes',
  title: 'Canalizador Macedo Cavaleiros 💧 24h | 928 484 451',
- description: 'Cano rebentado em Macedo de Cavaleiros? Estamos aí em menos de 30 min. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
+ description: 'Cano rebentado em Trás-os-Montes? Estamos aí em menos de 30 min. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
  keywords: [
  'canalizador macedo de cavaleiros',
  'canalizador urgente macedo de cavaleiros',

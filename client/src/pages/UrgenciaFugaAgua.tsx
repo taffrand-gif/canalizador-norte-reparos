@@ -235,7 +235,7 @@ export default function UrgenciaFugaAgua() {
  <p className="text-gray-800 mb-4 italic">
  "Domingo de manhã, fuga grave. Atenderam e resolveram em 2 horas. Top!"
  </p>
- <p className="text-sm text-gray-600 font-semibold">Carla F., Macedo de Cavaleiros</p>
+ <p className="text-sm text-gray-600 font-semibold">Carla F., Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -309,7 +309,7 @@ export default function UrgenciaFugaAgua() {
  </a>
  </div>
  <p className="text-sm text-red-100">
- Atendemos em: Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vinhais<br />
+ Atendemos em: Bragança, Mirandela, Trás-os-Montes, Chaves, Vinhais<br />
  e todas as aldeias de Trás-os-Montes
  </p>
  </div>

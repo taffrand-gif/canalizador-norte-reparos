@@ -173,7 +173,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </div>
  </div>
  <div className="mt-4 text-sm text-gray-600">
- <p><strong>Nota:</strong> Preços válidos para Bragança, Mirandela, Chaves, Vila Real e Macedo de Cavaleiros.
+ <p><strong>Nota:</strong> Preços válidos para Bragança, Mirandela, Chaves, Vila Real e Trás-os-Montes.
  Deslocações superiores a 20km: +0,50€/km adicional.</p>
  </div>
  </section>
@@ -329,7 +329,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  { cidade: "Mirandela", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" },
  { cidade: "Chaves", sanita: "65-125€", canalizacao: "130-260€", deslocacao: "+10€" },
  { cidade: "Vila Real", sanita: "65-125€", canalizacao: "130-260€", deslocacao: "+15€" },
- { cidade: "Macedo de Cavaleiros", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" }
+ { cidade: "Trás-os-Montes", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" }
  ].map((item, i) => (
  <tr key={i} className="hover:bg-gray-50">
  <td className="px-4 py-3 font-medium text-gray-900">{item.cidade}</td>

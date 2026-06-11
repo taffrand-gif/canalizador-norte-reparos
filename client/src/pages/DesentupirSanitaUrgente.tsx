@@ -254,7 +254,7 @@ export default function DesentupirSanitaUrgente() {
  },
  {
  text: "Domingo de manhã, visitas à tarde. Resolveram Atendimento rápido. Salvaram o meu dia!",
- author: "Ana P., Macedo de Cavaleiros"
+ author: "Ana P., Trás-os-Montes"
  }
  ].map((testimonial, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl shadow-lg">

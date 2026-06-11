@@ -25,7 +25,7 @@ function Trabalhos() {
  image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&h=600&fit=crop'},
  {
  title: 'Arranjo de Fuga em Condomínio',
- location: 'Macedo de Cavaleiros',
+ location: 'Trás-os-Montes',
  description: 'Deteção e arranjo de fuga de água em canalização enterrada sem danificar estruturas.',
  image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&h=600&fit=crop'},
  {

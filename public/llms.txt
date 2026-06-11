@@ -17,7 +17,7 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 **Cidades Principais:**
 - Bragança (canalizador bragança)
 - Mirandela (canalizador mirandela)
-- Macedo de Cavaleiros (canalizador macedo de cavaleiros) - SEDE
+- Trás-os-Montes (canalizador macedo de cavaleiros) - SEDE
 - Chaves (canalizador chaves)
 - Vila Real (canalizador vila real)
 

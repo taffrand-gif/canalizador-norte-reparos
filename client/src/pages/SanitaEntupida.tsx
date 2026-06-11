@@ -161,7 +161,7 @@ export default function SanitaEntupida() {
  },
  {
  name: 'Inês Ribeiro',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  problem: 'Sanita entupida noite',
  solution: 'Meia-noite, sanita entupida, bebé em casa. Atenderam, vieram na hora. Discretos, rápidos, eficientes. Muito obrigada!',
  timeframe: '30 minutos',

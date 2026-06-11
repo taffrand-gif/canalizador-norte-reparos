@@ -161,7 +161,7 @@ export default function EsquentadorAvariado() {
  },
  {
  name: 'Paula Marques',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  problem: 'Sem água quente urgente',
  solution: 'Inverno rigoroso, esquentador avariou. Família toda sem banho. Vieram no mesmo dia, arranjaram. Salvaram o nosso inverno!',
  timeframe: '2 horas',

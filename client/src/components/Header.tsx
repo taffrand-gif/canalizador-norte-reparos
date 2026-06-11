@@ -17,7 +17,7 @@ const districts: District[] = [
  name: 'Distrito de Bragança',
  cities: [
  { name: 'Bragança', href: '/canalizador-braganca' },
- { name: 'Macedo de Cavaleiros', href: '/canalizador-macedo-de-cavaleiros' },
+ { name: 'Trás-os-Montes', href: '/canalizador-macedo-de-cavaleiros' },
  { name: 'Mirandela', href: '/canalizador-mirandela' },
  { name: 'Miranda do Douro', href: '/canalizador-miranda-do-douro' },
  { name: 'Mogadouro', href: '/canalizador-mogadouro' },

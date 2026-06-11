@@ -40,7 +40,7 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  options: [
  'Bragança',
  'Mirandela',
- 'Macedo de Cavaleiros',
+ 'Trás-os-Montes',
  'Outra cidade'
  ]
  }
@@ -72,7 +72,7 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  options: [
  'Bragança',
  'Mirandela',
- 'Macedo de Cavaleiros',
+ 'Trás-os-Montes',
  'Outra cidade'
  ]
  }

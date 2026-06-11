@@ -109,7 +109,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  ]
  },
  macedo: {
- name: "Macedo de Cavaleiros",
+ name: "Trás-os-Montes",
  slug: "macedo-de-cavaleiros",
  population: "15 000 habitants",
  logements: "5 500 logements dont 50% em zonas rurais",
@@ -140,7 +140,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  tempsReponse: "Média 35 minutos"
  },
  specificites: [
- "Base permanente em Macedo de Cavaleiros",
+ "Base permanente em Trás-os-Montes",
  "Especialistas em sistemas de bombagem rural",
  "Cobertura: Macedo, Morais, Lagoa, Talhinhas",
  "Experiência com casas de turismo rural"

@@ -161,7 +161,7 @@ export default function CanoRebentado() {
  },
  {
  name: 'José Rodrigues',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  problem: 'Inundação grave',
  solution: 'Cano principal rebentou. Casa toda a inundar. Chegaram em tempo recorde, pararam a água, substituíram o cano. Trabalho impecável!',
  timeframe: '1 hora',

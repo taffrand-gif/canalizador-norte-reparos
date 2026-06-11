@@ -722,7 +722,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

@@ -79,14 +79,14 @@ export const canalizadorReviews: ReviewData[] = [
  rating: 5,
  date: "2026-02-18",
  text: "Cano rebentado no jardim. Chegaram rápido e fizeram trabalho perfeito. Preço combinado antes!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Teresa M.",
  rating: 5,
  date: "2026-02-25",
  text: "Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia. Obrigada!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "José A.",
@@ -152,14 +152,14 @@ export const eletricistaReviews: ReviewData[] = [
  rating: 5,
  date: "2026-02-19",
  text: "Bomba de água sem funcionar. Identificaram problema elétrico e resolveram no mesmo dia. Perfeito!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Isabel C.",
  rating: 5,
  date: "2026-02-26",
  text: "certificação elétrica para casa nova. Serviço impecável e preço combinado antes. Obrigada!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Rui A.",

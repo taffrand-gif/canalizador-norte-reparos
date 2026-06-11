@@ -100,7 +100,7 @@ export default function CanalizacaoCasaAntiga() {
  As casas antigas de <a href="/canalizador-braganca" className="text-blue-600 hover:underline">Bragança</a>, 
  <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>, 
  <a href="/canalizador-mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
- <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline"> Macedo de Cavaleiros</a> têm 
+ <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline"> Trás-os-Montes</a> têm 
  desafios únicos: <strong>paredes de granito maciço</strong>, <strong>tubos de chumbo</strong> e 
  <strong> ausência de isolamento térmico</strong>.
  </p>

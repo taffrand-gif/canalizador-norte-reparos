@@ -133,7 +133,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 **Resposta:** Todos os valores mencionados são sem IVA (23%). O IVA aplica-se sobre o total da fatura.
 
 ### Há custos de deslocação?
-**Resposta:** Para serviços dentro da nossa zona de atuação (30km de Macedo de Cavaleiros), não cobramos deslocação. Para além disso, aplicamos €0,50/km.
+**Resposta:** Para serviços dentro da nossa zona de atuação (30km de Trás-os-Montes), não cobramos deslocação. Para além disso, aplicamos €0,50/km.
 
 ### E se o desentupimento não resolver o problema?
 **Resposta:** Se o método inicial não resolver, mudamos para técnica mais avançada sem custos adicionais de diagnóstico. Só cobramos se for necessário equipamento especial extra.

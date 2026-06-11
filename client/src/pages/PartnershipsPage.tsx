@@ -87,7 +87,7 @@ export default function PartnershipsPage() {
  id: '3',
  name: 'Imobiliária Nordeste',
  type: 'real_estate',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  contactName: 'Carlos Pereira',
  email: 'carlos@imonordeste.pt',
  phone: '+351 914 567 890',

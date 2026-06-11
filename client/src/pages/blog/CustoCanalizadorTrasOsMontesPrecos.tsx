@@ -327,7 +327,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-2">Verifique referências</h4>
  <p className="text-gray-700">
  Peça referências de trabalhos similares na sua zona (ex: em <a href="/canalizador-chaves" className="text-blue-600 underline">Chaves</a> ou 
- <a href="/canalizador-macedo-cavaleiros" className="text-blue-600 underline"> Macedo de Cavaleiros</a>). 
+ <a href="/canalizador-macedo-cavaleiros" className="text-blue-600 underline"> Trás-os-Montes</a>). 
  Profissionais sérios terão clientes para referenciar.
  </p>
  </div>
@@ -485,7 +485,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <p className="text-sm text-gray-600 mt-1">Preços desde 55€</p>
  </a>
  <a href="/canalizador-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
- <span className="font-semibold text-blue-700">Macedo de Cavaleiros</span>
+ <span className="font-semibold text-blue-700">Trás-os-Montes</span>
  <p className="text-sm text-gray-600 mt-1">Preços desde 50€</p>
  </a>
  </div>

@@ -169,7 +169,7 @@ export default function FugaAguaUrgente() {
  },
  {
  name: 'Teresa Alves',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  problem: 'Fuga urgente noturna',
  solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram Atendimento prioritário! Pararam a fuga, salvaram os móveis. Heróis!',
  timeframe: '30 minutos',

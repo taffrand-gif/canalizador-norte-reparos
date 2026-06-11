@@ -5,7 +5,7 @@
 
 LOCALITIES = [
     # Z1 — 0-30km — 80€/85€
-    {"id": 1, "name": "Macedo de Cavaleiros", "slug": "macedo-de-cavaleiros", "km": 0, "zone": "Z1", "canal": 80, "elec": 85},
+    {"id": 1, "name": "Trás-os-Montes", "slug": "macedo-de-cavaleiros", "km": 0, "zone": "Z1", "canal": 80, "elec": 85},
     {"id": 2, "name": "Torre de Dona Chama", "slug": "torre-de-dona-chama", "km": 25, "zone": "Z1", "canal": 80, "elec": 85},
     {"id": 3, "name": "Mirandela", "slug": "mirandela", "km": 27.4, "zone": "Z1", "canal": 80, "elec": 85},
     # Z2 — 31-41km — 90€/95€

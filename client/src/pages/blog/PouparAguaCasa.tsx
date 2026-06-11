@@ -278,7 +278,7 @@ export default function PouparAguaCasa() {
  <h2 className="text-3xl font-black mb-6 text-center">Quanto Pode Poupar?</h2>
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-6">
- Simulação para família de 4 pessoas em <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Macedo de Cavaleiros</a>:
+ Simulação para família de 4 pessoas em <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Trás-os-Montes</a>:
  </p>
  <div className="space-y-4">
  <div className="flex justify-between items-center pb-4 border-b">

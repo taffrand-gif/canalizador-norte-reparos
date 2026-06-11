@@ -103,7 +103,7 @@ export default function InstalacaoCanalizacao() {
  <h3 className="text-xl font-bold text-center mb-6 text-gray-900">Também servimos:</h3>
  <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
  {[
- { name: "Macedo de Cavaleiros", href: "/canalizador-macedo-de-cavaleiros" },
+ { name: "Trás-os-Montes", href: "/canalizador-macedo-de-cavaleiros" },
  { name: "Bragança", href: "/canalizador-braganca" },
  { name: "Mirandela", href: "/canalizador-mirandela" },
  { name: "Torre de Moncorvo", href: "/canalizador-torre-moncorvo" },

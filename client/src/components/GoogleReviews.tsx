@@ -41,7 +41,7 @@ const reviews: Review[] = [
  {
  name: 'Francisco D.',
  initial: 'F',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  rating: 5,
  text: 'Canalizador de confiança. Já chamei 3 vezes e sempre impecável.',
  date: 'há 1 mês'},

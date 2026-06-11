@@ -161,7 +161,7 @@ export default function CheiroMauCanalizacao() {
  },
  {
  name: 'Rosa Santos',
- city: 'Macedo de Cavaleiros',
+ city: 'Trás-os-Montes',
  problem: 'Cheiro insuportável',
  solution: 'Não conseguia receber visitas. Vergonha total. Vieram, encontraram o problema (sifão partido), substituíram. Casa cheira bem agora. Muito obrigada!',
  timeframe: '50 minutos',

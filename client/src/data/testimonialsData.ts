@@ -37,7 +37,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  {
  id: 3,
  name: "António Rodrigues",
- city: "Macedo de Cavaleiros",
+ city: "Trás-os-Montes",
  service: "Instalação Esquentador",
  rating: 5,
  date: "2026-01-08",
@@ -137,7 +137,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  {
  id: 13,
  name: "José Ribeiro",
- city: "Macedo de Cavaleiros",
+ city: "Trás-os-Montes",
  service: "Desentupimento Esgoto",
  rating: 5,
  date: "2025-09-15",

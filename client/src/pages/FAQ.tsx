@@ -30,7 +30,7 @@ export default function FAQPage() {
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Na zona de Macedo de Cavaleiros e arredores (até 20km): 30-45 minutos. Para outras localidades do distrito: 45 minutos a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
+ answer: "Na zona de Trás-os-Montes e arredores (até 20km): 30-45 minutos. Para outras localidades do distrito: 45 minutos a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
  },
  {
  question: "Fazem desentupimentos à noite ou fim de semana?",
@@ -50,11 +50,11 @@ export default function FAQPage() {
  },
  {
  question: "Quais cidades servem no distrito de Bragança?",
- answer: "Servimos todo o distrito: Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Flor, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Freixo de Espada à Cinta, e todas as aldeias circundantes."
+ answer: "Servimos todo o distrito: Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Flor, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Freixo de Espada à Cinta, e todas as aldeias circundantes."
  },
  {
  question: "Qual é o raio de ação máximo?",
- answer: "Atendemos num raio de 100km a partir de Macedo de Cavaleiros. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
+ answer: "Atendemos num raio de 100km a partir de Trás-os-Montes. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
  },
  {
  question: "Quanto tempo demora um desentupimento normal?",
@@ -216,7 +216,7 @@ export default function FAQPage() {
  <li><Link href="/canalizador-braganca" className="text-blue-600 hover:underline">Canalizador Bragança</Link></li>
  <li><Link href="/canalizador-mirandela" className="text-blue-600 hover:underline">Canalizador Mirandela</Link></li>
  <li><Link href="/canalizador-chaves" className="text-blue-600 hover:underline">Canalizador Chaves</Link></li>
- <li><Link href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Canalizador Macedo de Cavaleiros</Link></li>
+ <li><Link href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Canalizador Trás-os-Montes</Link></li>
  <li><Link href="/canalizador-vinhais" className="text-blue-600 hover:underline">Canalizador Vinhais</Link></li>
  </ul>
  </div>
