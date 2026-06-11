@@ -55,7 +55,7 @@
       ]
     },
     {
-      "source": "/public/eletricista-viana-do-bolo",
+      "source": "/eletricista-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "source": "/public/canalizador-viana-do-bolo",
+      "source": "/canalizador-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "source": "/client/public/eletricista-viana-do-bolo",
+      "source": "/eletricista-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-urgente-viana-do-bolo",
+      "source": "/canalizador-urgente-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-viana-do-bolo",
+      "source": "/canalizador-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "source": "/public/eletricista-vitigudino",
+      "source": "/eletricista-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "source": "/public/canalizador-vitigudino",
+      "source": "/canalizador-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "source": "/client/public/eletricista-vitigudino",
+      "source": "/eletricista-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-urgente-vitigudino",
+      "source": "/canalizador-urgente-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-vitigudino",
+      "source": "/canalizador-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "source": "/public/eletricista-puebla-de-sanabria",
+      "source": "/eletricista-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "source": "/public/canalizador-puebla-de-sanabria",
+      "source": "/canalizador-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-urgente-puebla-de-sanabria",
+      "source": "/canalizador-urgente-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "source": "/client/public/eletricista-puebla-de-sanabria",
+      "source": "/eletricista-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-puebla-de-sanabria",
+      "source": "/canalizador-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-sanchón-de-la-ribera",
+      "source": "/canalizador-sanchón-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-justel",
+      "source": "/canalizador-justel",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-la-peña",
+      "source": "/canalizador-la-peña",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-san-vicente-de-la-cabeza",
+      "source": "/canalizador-san-vicente-de-la-cabeza",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-galende",
+      "source": "/canalizador-galende",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-asturianos",
+      "source": "/canalizador-asturianos",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-lumbrales",
+      "source": "/canalizador-lumbrales",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-lubián",
+      "source": "/canalizador-lubián",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-muelas-de-los-caballeros",
+      "source": "/canalizador-muelas-de-los-caballeros",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-trabazos",
+      "source": "/canalizador-trabazos",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villadepera",
+      "source": "/canalizador-villadepera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -393,7 +393,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-la-vídola",
+      "source": "/canalizador-la-vídola",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-sobradillo",
+      "source": "/canalizador-sobradillo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -419,7 +419,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-cualedro",
+      "source": "/canalizador-cualedro",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -432,7 +432,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-videmala",
+      "source": "/canalizador-videmala",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-riofrío-de-aliste",
+      "source": "/canalizador-riofrío-de-aliste",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-sardon-de-los-frailes",
+      "source": "/canalizador-sardon-de-los-frailes",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-viñas",
+      "source": "/canalizador-viñas",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-masueco",
+      "source": "/canalizador-masueco",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-almeida-de-sayago",
+      "source": "/canalizador-almeida-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-manzanal-del-barco",
+      "source": "/canalizador-manzanal-del-barco",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-verín",
+      "source": "/canalizador-verín",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-vilvestre",
+      "source": "/canalizador-vilvestre",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-almaraz-de-duero",
+      "source": "/canalizador-almaraz-de-duero",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -562,7 +562,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-fermoselle",
+      "source": "/canalizador-fermoselle",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-san-vitero",
+      "source": "/canalizador-san-vitero",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -588,7 +588,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-barruecopardo",
+      "source": "/canalizador-barruecopardo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -601,7 +601,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-laza",
+      "source": "/canalizador-laza",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -614,7 +614,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-luelmo",
+      "source": "/canalizador-luelmo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -627,7 +627,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-trefacio",
+      "source": "/canalizador-trefacio",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-pereña-de-la-ribera",
+      "source": "/canalizador-pereña-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-aldeadavila-de-la-ribera",
+      "source": "/canalizador-aldeadavila-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -666,7 +666,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-muga-de-sayago",
+      "source": "/canalizador-muga-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -679,7 +679,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-santa-eufemia-del-barco",
+      "source": "/canalizador-santa-eufemia-del-barco",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-alcañices",
+      "source": "/canalizador-alcañices",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -705,7 +705,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-palacios-de-sanabria",
+      "source": "/canalizador-palacios-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -718,7 +718,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-manzanal-de-arriba",
+      "source": "/canalizador-manzanal-de-arriba",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villar-del-buey",
+      "source": "/canalizador-villar-del-buey",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -744,7 +744,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-mahíde",
+      "source": "/canalizador-mahíde",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -757,7 +757,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-mombuey",
+      "source": "/canalizador-mombuey",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -770,7 +770,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villar-de-samaniego",
+      "source": "/canalizador-villar-de-samaniego",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-rionegro-del-puente",
+      "source": "/canalizador-rionegro-del-puente",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -796,7 +796,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-aldeadávila-de-la-ribera",
+      "source": "/canalizador-aldeadávila-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -809,7 +809,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-gallegos-del-río",
+      "source": "/canalizador-gallegos-del-río",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -822,7 +822,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-salce",
+      "source": "/canalizador-salce",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -835,7 +835,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-losacio",
+      "source": "/canalizador-losacio",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -848,7 +848,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-pino-del-oro",
+      "source": "/canalizador-pino-del-oro",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -861,7 +861,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-robleda",
+      "source": "/canalizador-robleda",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-roelos-de-sayago",
+      "source": "/canalizador-roelos-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -887,7 +887,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-sardón-de-los-frailes",
+      "source": "/canalizador-sardón-de-los-frailes",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-monleras",
+      "source": "/canalizador-monleras",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -913,7 +913,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villasbuenas",
+      "source": "/canalizador-villasbuenas",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -926,7 +926,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villarmuerto",
+      "source": "/canalizador-villarmuerto",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -939,7 +939,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-olmillos-de-castro",
+      "source": "/canalizador-olmillos-de-castro",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -952,7 +952,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-losacino",
+      "source": "/canalizador-losacino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -965,7 +965,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-peque",
+      "source": "/canalizador-peque",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -978,7 +978,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villaseco-de-los-reyes",
+      "source": "/canalizador-villaseco-de-los-reyes",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -991,7 +991,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-argañín",
+      "source": "/canalizador-argañín",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1004,7 +1004,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-sanchon-de-la-ribera",
+      "source": "/canalizador-sanchon-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1017,7 +1017,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-hinojosa-de-duero",
+      "source": "/canalizador-hinojosa-de-duero",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1030,7 +1030,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-manzanal-de-los-infantes",
+      "source": "/canalizador-manzanal-de-los-infantes",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1043,7 +1043,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-figueruela-de-arriba",
+      "source": "/canalizador-figueruela-de-arriba",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1056,7 +1056,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-fresno-de-sayago",
+      "source": "/canalizador-fresno-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-trasmiras",
+      "source": "/canalizador-trasmiras",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-puertas",
+      "source": "/canalizador-puertas",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1095,7 +1095,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-samir-de-los-caños",
+      "source": "/canalizador-samir-de-los-caños",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-moral-de-sayago",
+      "source": "/canalizador-moral-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1121,7 +1121,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-trabanca",
+      "source": "/canalizador-trabanca",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1134,7 +1134,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-oímbra",
+      "source": "/canalizador-oímbra",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1147,7 +1147,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-rosinos-de-la-requejada",
+      "source": "/canalizador-rosinos-de-la-requejada",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1160,7 +1160,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-carbellino",
+      "source": "/canalizador-carbellino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1173,7 +1173,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-torregamones",
+      "source": "/canalizador-torregamones",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1186,7 +1186,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-saucelle",
+      "source": "/canalizador-saucelle",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1199,7 +1199,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-palacios-del-pan",
+      "source": "/canalizador-palacios-del-pan",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1212,7 +1212,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villaseco-del-pan",
+      "source": "/canalizador-villaseco-del-pan",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1225,7 +1225,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-fonfría",
+      "source": "/canalizador-fonfría",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1238,7 +1238,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-carbajales-de-alba",
+      "source": "/canalizador-carbajales-de-alba",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1251,7 +1251,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-rabanales",
+      "source": "/canalizador-rabanales",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1264,7 +1264,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-muelas-del-pan",
+      "source": "/canalizador-muelas-del-pan",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1277,7 +1277,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-puerto-seguro",
+      "source": "/canalizador-puerto-seguro",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1290,7 +1290,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villalcampo",
+      "source": "/canalizador-villalcampo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1303,7 +1303,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-el-milano",
+      "source": "/canalizador-el-milano",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1316,7 +1316,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villarino-de-los-aires",
+      "source": "/canalizador-villarino-de-los-aires",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1329,7 +1329,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-pedralba-de-la-pradería",
+      "source": "/canalizador-pedralba-de-la-pradería",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1342,7 +1342,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villardiegua-de-la-ribera",
+      "source": "/canalizador-villardiegua-de-la-ribera",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1355,7 +1355,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-vegalatrave",
+      "source": "/canalizador-vegalatrave",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1368,7 +1368,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-san-justo",
+      "source": "/canalizador-san-justo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1381,7 +1381,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-hermisende",
+      "source": "/canalizador-hermisende",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1394,7 +1394,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-rábano-de-aliste",
+      "source": "/canalizador-rábano-de-aliste",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1407,7 +1407,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-saldeana",
+      "source": "/canalizador-saldeana",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1420,7 +1420,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-rabano-de-aliste",
+      "source": "/canalizador-rabano-de-aliste",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1433,7 +1433,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-gamones",
+      "source": "/canalizador-gamones",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1446,7 +1446,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-malpartida",
+      "source": "/canalizador-malpartida",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-la-fregeneda",
+      "source": "/canalizador-la-fregeneda",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1472,7 +1472,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-bermillo-de-sayago",
+      "source": "/canalizador-bermillo-de-sayago",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1485,7 +1485,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-ahigal-de-villarino",
+      "source": "/canalizador-ahigal-de-villarino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1498,7 +1498,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-lubian",
+      "source": "/canalizador-lubian",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1511,7 +1511,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-cobreros",
+      "source": "/canalizador-cobreros",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1524,7 +1524,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-cerezal-de-peñahorcada",
+      "source": "/canalizador-cerezal-de-peñahorcada",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1537,7 +1537,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-ferreras-de-arriba",
+      "source": "/canalizador-ferreras-de-arriba",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1550,7 +1550,7 @@
       ]
     },
     {
-      "source": "/client/public/canalizador-villardeciervos",
+      "source": "/canalizador-villardeciervos",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1563,7 +1563,7 @@
       ]
     },
     {
-      "source": "/client/public/es",
+      "source": "/es",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "source": "/client/public/fr",
+      "source": "/fr",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1589,7 +1589,7 @@
       ]
     },
     {
-      "source": "/client/public/en",
+      "source": "/en",
       "headers": [
         {
           "key": "X-Robots-Tag",
