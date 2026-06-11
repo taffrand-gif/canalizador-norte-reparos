@@ -18,7 +18,7 @@ function Urgencia() {
  <div className="container mx-auto px-4 max-w-5xl">
  <div className="text-center">
  <div className="inline-block bg-yellow-400 text-red-900 px-6 py-2 rounded-full font-black text-sm mb-6 animate-pulse">
- 🚨 URGÊNCIA 24 HORAS
+ 🚨 URGÊNCIA Atendimento 24h/7d
  </div>
  <h1 className="text-4xl md:text-6xl font-black mb-6">
  Canalizador Urgente<br />
@@ -56,7 +56,7 @@ function Urgencia() {
  <div className="text-sm">Tempo Chegada</div>
  </div>
  <div>
- <div className="text-3xl font-black">24/7</div>
+ <div className="text-3xl font-black">Atendimento 24h/7d</div>
  <div className="text-sm">Disponível</div>
  </div>
  <div>
@@ -416,7 +416,7 @@ function Urgencia() {
  </a>
  </div>
  <p className="text-lg">
- Disponível 24h/7 dias — Não deixamos ninguém na mão
+ Atendimento 24h/7d/7 dias — Não deixamos ninguém na mão
  </p>
  </div>
  </section>

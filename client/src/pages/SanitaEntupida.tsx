@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function SanitaEntupida() {
  useEffect(() => {
- document.title = "Sanita Entupida? Desentupimos em 20 Minutos | Norte Reparos";
+ document.title = "Sanita Entupida? Desentupimos Atendimento prioritário | Norte Reparos";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Sanita entupida? Desentupimos em 20 minutos sem partir nada. Disponível 24h. Sem cheiros, sem stress. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Sanita entupida? Desentupimos Atendimento prioritário sem partir nada. Atendimento 24h/7d. Sem cheiros, sem stress. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -46,9 +46,9 @@ export default function SanitaEntupida() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
  <EmotionalHero
  painPoint="SANITA ENTUPIDA URGENTE"
- headline="Sanita Entupida? Desentupimos em 20 Minutos"
+ headline="Sanita Entupida? Desentupimos Atendimento prioritário"
  subheadline="Sabemos o embaraço que sente. Visitas a chegar, casa de banho inutilizável, cheiro insuportável. Resolvemos já."
- urgencyText="Técnico Atendimento 24h • Desentupimos em 20 minutos"
+ urgencyText="Técnico Atendimento 24h • Desentupimos Atendimento prioritário"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! Tenho a sanita entupida. Preciso de ajuda urgente!"
@@ -59,7 +59,7 @@ export default function SanitaEntupida() {
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Passar"
  subtitle="Uma sanita entupida não é só inconveniente. É vergonha, stress e urgência."
- empathyStatement="Já desentupimos milhares de sanitas em Trás-os-Montes. Sabemos que precisa de discrição e rapidez. Chegamos em 15 minutos, resolvemos sem drama."
+ empathyStatement="Já desentupimos milhares de sanitas em Trás-os-Montes. Sabemos que precisa de discrição e rapidez. Chegamos Atendimento prioritário, resolvemos sem drama."
  painPoints={[
  {
  icon: 'alert',
@@ -88,7 +88,7 @@ export default function SanitaEntupida() {
  ]}
  />
  <SolutionTimeline
- title="Como Desentupimos em 20 Minutos"
+ title="Como Desentupimos Atendimento prioritário"
  subtitle="Rápido, limpo, discreto. Sem partir nada, sem sujeira."
  totalTime="20-40 minutos"
  guaranteeText="Desentupimos ou não paga. Garantia 100% satisfação."
@@ -127,7 +127,7 @@ export default function SanitaEntupida() {
  name: 'Sofia Martins',
  city: 'Bragança',
  problem: 'Sanita entupida',
- solution: 'Sábado à tarde, visitas a chegar em 2 horas, sanita entupida. Pânico! Chegaram em 15 minutos, resolveram em 20. Salvaram o meu jantar!',
+ solution: 'Sábado à tarde, visitas a chegar em 2 horas, sanita entupida. Pânico! Chegaram Atendimento prioritário, resolveram em 20. Salvaram o meu jantar!',
  timeframe: '20 minutos',
  rating: 5,
  verified: true
@@ -172,7 +172,7 @@ export default function SanitaEntupida() {
  name: 'Tiago Lopes',
  city: 'Mogadouro',
  problem: 'Entupimento urgente',
- solution: 'Domingo de manhã, casa cheia de família, sanita entupida. Vieram em 20 minutos, resolveram sem stress. Preço justo. Recomendo!',
+ solution: 'Domingo de manhã, casa cheia de família, sanita entupida. Vieram Atendimento prioritário, resolveram sem stress. Preço justo. Recomendo!',
  timeframe: '25 minutos',
  rating: 5,
  verified: true
@@ -255,7 +255,7 @@ export default function SanitaEntupida() {
  Não Fique Mais Tempo Sem Casa de Banho
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Técnico Atendimento 24h. Chegamos em 15 minutos. Desentupimos em 20.
+ Técnico Atendimento 24h. Chegamos Atendimento prioritário. Desentupimos em 20.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a

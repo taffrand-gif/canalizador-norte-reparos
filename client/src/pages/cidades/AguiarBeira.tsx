@@ -79,7 +79,7 @@ export default function AguiarBeira() {
 
   const cidadesProximas = getCidadesProximas('aguiar-da-beira');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Aguiar da Beira?', 'answer': 'Desde 140€ em Aguiar da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Aguiar da Beira?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Aguiar da Beira. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Aguiar da Beira?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Aguiar da Beira?', 'answer': 'Desde 140€ em Aguiar da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Aguiar da Beira?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Aguiar da Beira. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Aguiar da Beira?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>

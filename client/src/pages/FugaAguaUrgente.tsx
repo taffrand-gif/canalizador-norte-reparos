@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function FugaAguaUrgente() {
  useEffect(() => {
- document.title = "Fuga de Água Urgente? Paramos em 30 Minutos | Norte Reparos";
+ document.title = "Fuga de Água Urgente? Paramos Atendimento prioritário | Norte Reparos";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Fuga de água em casa? Técnico a caminho em 15 minutos. Paramos a fuga, evitamos danos maiores. Disponível 24h. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Fuga de água em casa? Técnico a caminho Atendimento prioritário. Paramos a fuga, evitamos danos maiores. Atendimento 24h/7d. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -54,9 +54,9 @@ export default function FugaAguaUrgente() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
  <EmotionalHero
  painPoint="FUGA DE ÁGUA URGENTE"
- headline="Fuga de Água? Paramos em 30 Minutos"
+ headline="Fuga de Água? Paramos Atendimento prioritário"
  subheadline="Sabemos o pânico que sente. Água a correr, danos a aumentar, conta de água a disparar. Não está sozinho. Estamos a caminho."
- urgencyText="Técnico Atendimento 24h • Chegamos em 15 minutos"
+ urgencyText="Técnico Atendimento 24h • Chegamos Atendimento prioritário"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! Tenho uma fuga de água urgente. Preciso de ajuda imediata!"
@@ -67,7 +67,7 @@ export default function FugaAguaUrgente() {
  <PainPointSection
  title="Sabemos Exatamente Como Se Sente"
  subtitle="Uma fuga de água não é apenas um problema técnico. É stress, pânico e medo dos danos."
- empathyStatement="Já ajudámos centenas de famílias em Trás-os-Montes na mesma situação. Sabemos que cada minuto conta. Por isso, respondemos em 15 minutos."
+ empathyStatement="Já ajudámos centenas de famílias em Trás-os-Montes na mesma situação. Sabemos que cada minuto conta. Por isso, respondemos Atendimento prioritário."
  painPoints={[
  {
  icon: 'alert',
@@ -96,7 +96,7 @@ export default function FugaAguaUrgente() {
  ]}
  />
  <SolutionTimeline
- title="Como Paramos a Sua Fuga em 30 Minutos"
+ title="Como Paramos a Sua Fuga Atendimento prioritário"
  subtitle="Processo rápido, eficiente e sem stress. Você relaxa, nós resolvemos."
  totalTime="30-60 minutos"
  guaranteeText="Paramos a fuga ou não paga. Garantia 100% satisfação."
@@ -135,7 +135,7 @@ export default function FugaAguaUrgente() {
  name: 'Maria Silva',
  city: 'Bragança',
  problem: 'Fuga de água urgente',
- solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram em 20 minutos, pararam a fuga e arranjaram tudo. Salvaram a minha casa!',
+ solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram Atendimento prioritário, pararam a fuga e arranjaram tudo. Salvaram a minha casa!',
  timeframe: '45 minutos',
  rating: 5,
  verified: true
@@ -171,7 +171,7 @@ export default function FugaAguaUrgente() {
  name: 'Teresa Alves',
  city: 'Macedo de Cavaleiros',
  problem: 'Fuga urgente noturna',
- solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram em 15 minutos! Pararam a fuga, salvaram os móveis. Heróis!',
+ solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram Atendimento prioritário! Pararam a fuga, salvaram os móveis. Heróis!',
  timeframe: '30 minutos',
  rating: 5,
  verified: true
@@ -232,7 +232,7 @@ export default function FugaAguaUrgente() {
  a: 'Fugas simples (torneiras, autoclismos) desde €80. Fugas em canos €150-250. Fugas complexas (paredes, chão) €250-400. Damos sempre sem compromisso no local antes de começar. Preço fixo, sem surpresas.'
  },
  {
- q: 'Atendem mesmo 24 horas?',
+ q: 'Atendem mesmo Atendimento 24h/7d?',
  a: 'Sim! Estamos disponíveis 24h/7d incluindo fins de semana, feriados e madrugadas. Fugas de água não escolhem hora, e nós também não. Ligue a qualquer hora.'
  },
  {
@@ -263,7 +263,7 @@ export default function FugaAguaUrgente() {
  Não Mais. Cada Minuto Conta.
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Técnico Atendimento 24h. Chegamos em 15 minutos. Paramos a fuga.
+ Técnico Atendimento 24h. Chegamos Atendimento prioritário. Paramos a fuga.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a

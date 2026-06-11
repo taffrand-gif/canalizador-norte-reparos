@@ -212,7 +212,7 @@ export default function Servicos() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Contacte-nos agora para um sem compromisso e sem compromisso. 
- Atendemos urgências 24 horas por dia, incluindo fins de semana e feriados.
+ Atendemos urgências Atendimento 24h/7d, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">
  <a

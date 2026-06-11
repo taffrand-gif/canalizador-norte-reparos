@@ -164,14 +164,14 @@ export const siteConfig: SiteConfig = {
   seo: {
     keywords: [
       'canalizador bragança', 'canalizador mirandela', 'canalizador macedo de cavaleiros',
-      'canalizador urgente bragança', 'canalizador 24 horas mirandela', 'canalizador chaves',
+      'canalizador urgente bragança', 'canalizador Atendimento 24h/7d mirandela', 'canalizador chaves',
       'canalizador vila real', 'canalizador vinhais', 'canalizador miranda do douro',
       'canalizador mogadouro', 'canalizador torre de moncorvo', 'canalizador trás-os-montes',
       'desentupimento bragança', 'desentupimento mirandela', 'desentupir sanita bragança',
       'desentupir wc mirandela', 'fuga de água bragança', 'fuga água urgente mirandela',
       'esquentador bragança', 'esquentador mirandela', 'sanita entupida', 'wc entupido',
       'cano rebentado', 'canalizador profissional trás-os-montes',
-      'desentupimento urgente bragança', 'canalizador 24 horas mirandela', 'fuga de água urgente',
+      'desentupimento urgente bragança', 'canalizador Atendimento 24h/7d mirandela', 'fuga de água urgente',
       'cano entupido macedo de cavaleiros', 'arranjo caldeira trás-os-montes',
       'desentupir sanita preço', 'canalizador perto de mim bragança',
       'desentupimento esgotos bragança', 'arranjo autoclismo',
@@ -204,7 +204,7 @@ export const siteConfig: SiteConfig = {
       location: 'Bragança',
       situation: 'Cliente acordou com água a inundar a cozinha. Não sabia onde estava a fuga.',
       emotion: 'Pânico total às 3h da manhã',
-      solution: 'Chegámos em 40 minutos, detetámos a fuga com câmara e reparámos sem quebrar azulejos.'
+      solution: 'Chegámos Atendimento prioritário, detetámos a fuga com câmara e reparámos sem quebrar azulejos.'
     },
     {
       title: 'Esquentador parado em pleno inverno',

@@ -14,7 +14,7 @@
 - Service: Painel solar (solar panel) - desde 3500 EUR
 - Service: Carregador carro eletrico (EV charger) - desde 850 EUR
 - Service: Certificacao DGEG - desde 180 EUR
-- Service: Urgencia 24h (24/7 emergency) - resposta em 30 segundos
+- Service: Urgencia 24h (Atendimento 24h/7d emergency) - resposta em 30 segundos
 
 ## Area de Cobertura (Service Area)
 City: Braganca (Z3, 63km) - deslocacao 30 EUR
@@ -52,7 +52,7 @@ Plus 1.016 aldeias num raio 130km
 - Coordinates: 41.5380, -6.9667
 
 ## Horario (Hours)
-24 horas / 7 dias por semana (24/7), incluindo domingos e feriados
+Atendimento 24h/7d / 7 dias por semana (Atendimento 24h/7d), incluindo domingos e feriados
 Resposta telefonica em 30 segundos
 Tempo de chegada: 5-90 minutos conforme zona
 

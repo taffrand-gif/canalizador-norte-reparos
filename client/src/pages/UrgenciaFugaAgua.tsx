@@ -43,11 +43,11 @@ export default function UrgenciaFugaAgua() {
  <section className="relative bg-gradient-to-br from-red-600 to-red-800 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <div className="inline-block bg-yellow-400 text-red-900 px-4 py-2 rounded-full font-bold text-sm mb-6 animate-pulse">
- 🚨 URGÊNCIA 24/7
+ 🚨 URGÊNCIA Atendimento 24h/7d
  </div>
  <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
  Fuga de Água Urgente em Bragança?<br />
- <span className="text-yellow-300">Estamos Aí em 30 Minutos</span> 💧
+ <span className="text-yellow-300">Estamos Aí Atendimento prioritário</span> 💧
  </h1>
  <p className="text-xl md:text-2xl mb-8 text-red-100">
  Cano rebentado? Água a jorrar? NÃO ENTRE EM PÂNICO!
@@ -123,7 +123,7 @@ export default function UrgenciaFugaAgua() {
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
  <p className="text-2xl mb-2">⏰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">"Preciso de alguém AGORA!"</p>
- <p className="text-gray-600">Técnico certificado a caminho em minutos. Atendemos 24/7.</p>
+ <p className="text-gray-600">Técnico certificado a caminho em minutos. Atendemos Atendimento 24h/7d.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
  <p className="text-2xl mb-2">🔧</p>
@@ -258,7 +258,7 @@ export default function UrgenciaFugaAgua() {
  },
  {
  q: 'Atendem aos fins de semana e feriados?',
- a: 'Sim, 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Urgências têm sempre prioridade.'
+ a: 'Sim, Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Urgências têm sempre prioridade.'
  },
  {
  q: 'Quanto tempo demora a chegar?',

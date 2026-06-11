@@ -79,7 +79,7 @@ export default function Salzedas() {
 
   const cidadesProximas = getCidadesProximas('salzedas');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Salzedas?', 'answer': 'Desde 140€ em Salzedas. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Salzedas?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Salzedas. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Salzedas?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Salzedas?', 'answer': 'Desde 140€ em Salzedas. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Salzedas?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Salzedas. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Salzedas?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>

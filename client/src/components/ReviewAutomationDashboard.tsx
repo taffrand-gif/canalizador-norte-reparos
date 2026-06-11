@@ -132,7 +132,7 @@ export default function ReviewAutomationDashboard() {
  <div>
  <h3 className="font-bold text-gray-900 mb-1">Espera 24h</h3>
  <p className="text-sm text-gray-600">
- Sistema aguarda 24 horas automaticamente
+ Sistema aguarda Atendimento 24h/7d automaticamente
  </p>
  </div>
  </div>

@@ -140,7 +140,7 @@ export function generateKeywords(ville?: string): string {
  const baseKeywords = [
  'canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 
  'arranjo canalização', 'urgência 24h', 'piquete', 'desentupimento', 
- 'esquentador', 'desentupimento urgente', 'canalizador 24 horas',
+ 'esquentador', 'desentupimento urgente', 'canalizador Atendimento 24h/7d',
  'fuga água urgente', 'cano entupido', 'arranjo caldeira',
  'desentupir sanita', 'canalizador perto de mim', 'desentupimento esgotos',
  'arranjo autoclismo', 'canalizador urgente', 'desentupimento sanitário'

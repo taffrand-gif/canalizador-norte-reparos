@@ -34,7 +34,7 @@ tags: ['canalizador', 'mirandela', 'serviços', '24h', 'desentupimento']
 
 ## Serviços Disponíveis em Mirandela
 
-### Emergências 24/7
+### Emergências Atendimento 24h/7d
 - **canalizador urgente 24h** com resposta imediata
 - **Diagnóstico rápido** no local
 - **Soluções temporárias** para situações críticas

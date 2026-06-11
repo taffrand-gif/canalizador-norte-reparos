@@ -48,7 +48,7 @@ export default function ArranjacaoFugasAgua() {
  { title: "Deteção de Fugas", desc: "Utilizamos câmaras de inspeção CCTV e detetores acústicos para localizar fugas escondidas sem destruir paredes ou pavimentos.", icon: "🔍" },
  { title: "Arranjo de Canos", desc: "Arranjo e substituição de canos danificados, incluindo canos de cobre, PVC e polietileno. Trabalho limpo e garantido.", icon: "🔧" },
  { title: "Fugas em Casas de Banho", desc: "Arranjo de fugas em torneiras, autoclismos, bases de duche e banheiras. Substituição de vedantes e juntas.", icon: "🚿" },
- { title: "Fugas Urgentes 24h", desc: "Serviço de urgência disponível 24 horas para fugas graves que necessitam intervenção imediata. Tempo de resposta rápido.", icon: "🚨" }
+ { title: "Fugas Urgentes 24h", desc: "Serviço de urgência disponível Atendimento 24h/7d para fugas graves que necessitam intervenção imediata. Tempo de resposta rápido.", icon: "🚨" }
  ].map((service, i) => (
  <div key={i} className="p-6 border border-gray-200 rounded-xl hover:shadow-lg transition-shadow">
  <span className="text-4xl mb-4 block">{service.icon}</span>

@@ -701,7 +701,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Disponível 24h/7 dias</p>
+ <p className="font-bold">Atendimento 24h/7d/7 dias</p>
  <p className="text-sm text-white/80">Urgências atendidas</p>
  </div>
  </div>

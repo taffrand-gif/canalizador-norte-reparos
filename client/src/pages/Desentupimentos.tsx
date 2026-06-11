@@ -27,7 +27,7 @@ export default function Desentupimentos() {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimentos em Trás-os-Montes",
- "description": "Serviço profissional de desentupimentos para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Urgências 24 horas.",
+ "description": "Serviço profissional de desentupimentos para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Urgências Atendimento 24h/7d.",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -97,7 +97,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupir canos, sanitas, esgotos, pias e ralos com equipamento moderno e técnicas não invasivas. 
- Urgências 24 horas, garantia no serviço e sem compromisso.
+ Urgências Atendimento 24h/7d, garantia no serviço e sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
@@ -258,7 +258,7 @@ export default function Desentupimentos() {
  </a>
  <a href="/canalizador-braganca" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
  <div className="text-blue-600 font-bold">Bragança</div>
- <div className="text-sm text-gray-600">Serviço 24 horas</div>
+ <div className="text-sm text-gray-600">Serviço Atendimento 24h/7d</div>
  </a>
  <a href="/canalizador-mirandela" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
  <div className="text-blue-600 font-bold">Mirandela</div>
@@ -283,7 +283,7 @@ export default function Desentupimentos() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Não que a situação piore! Contacte-nos agora para um serviço rápido e eficiente. 
- Atendemos urgências 24 horas por dia, incluindo fins de semana e feriados.
+ Atendemos urgências Atendimento 24h/7d, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">
  <a

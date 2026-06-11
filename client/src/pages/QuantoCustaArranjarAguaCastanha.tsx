@@ -252,7 +252,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <div className="max-w-3xl mx-auto space-y-4">
  {[
- "Água castanha há mais de 24 horas (não é trabalhos na rede)",
+ "Água castanha há mais de Atendimento 24h/7d (não é trabalhos na rede)",
  "Água com cheiro forte ou partículas visíveis",
  "Água castanha só numa torneira específica",
  "Pressão de água baixa + água castanha",

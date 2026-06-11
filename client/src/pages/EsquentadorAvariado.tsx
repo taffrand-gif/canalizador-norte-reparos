@@ -16,7 +16,7 @@ export default function EsquentadorAvariado() {
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Esquentador avariado? Sem água quente? Arranjamos ou substituímos em 2 horas. Disponível 24h. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Esquentador avariado? Sem água quente? Arranjamos ou substituímos em 2 horas. Atendimento 24h/7d. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -59,7 +59,7 @@ export default function EsquentadorAvariado() {
  <PainPointSection
  title="Sabemos o Desconforto Que Está a Passar"
  subtitle="Viver sem água quente não é apenas inconveniente. É desconforto diário e stress familiar."
- empathyStatement="Já reparámos milhares de esquentadores em Trás-os-Montes. Sabemos que precisa de água quente HOJE. Chegamos em 30 minutos, arranjamos em 2 horas."
+ empathyStatement="Já reparámos milhares de esquentadores em Trás-os-Montes. Sabemos que precisa de água quente HOJE. Chegamos Atendimento prioritário, arranjamos em 2 horas."
  painPoints={[
  {
  icon: 'alert',
@@ -127,7 +127,7 @@ export default function EsquentadorAvariado() {
  name: 'Sandra Oliveira',
  city: 'Bragança',
  problem: 'Esquentador não acende',
- solution: 'Esquentador não acendia há 3 dias. Banhos frios horríveis. Vieram, descobriram que era a pilha e um sensor. Arranjaram em 1 hora. Água quente de volta!',
+ solution: 'Esquentador não acendia há 3 dias. Banhos frios horríveis. Vieram, descobriram que era a pilha e um sensor. Arranjaram Atendimento rápido. Água quente de volta!',
  timeframe: '1 hora',
  rating: 5,
  verified: true

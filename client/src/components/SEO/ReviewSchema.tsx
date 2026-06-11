@@ -43,14 +43,14 @@ export const canalizadorReviews: ReviewData[] = [
  author: "João M.",
  rating: 5,
  date: "2026-02-15",
- text: "Fuga de água às 3h da manhã. Chegaram em 35 minutos e resolveram tudo. Preço justo, serviço impecável!",
+ text: "Fuga de água às 3h da manhã. Chegaram Atendimento prioritário e resolveram tudo. Preço justo, serviço impecável!",
  city: "Bragança"
  },
  {
  author: "Maria S.",
  rating: 5,
  date: "2026-02-28",
- text: "Sanita entupida no domingo. Atenderam logo e resolveram em 20 minutos. Muito profissionais!",
+ text: "Sanita entupida no domingo. Atenderam logo e resolveram Atendimento prioritário. Muito profissionais!",
  city: "Bragança"
  },
  {
@@ -116,7 +116,7 @@ export const eletricistaReviews: ReviewData[] = [
  author: "Paulo R.",
  rating: 5,
  date: "2026-02-16",
- text: "Curto-circuito às 2h da manhã. Chegaram em 35 minutos e resolveram tudo com segurança. certificação elétrica incluída!",
+ text: "Curto-circuito às 2h da manhã. Chegaram Atendimento prioritário e resolveram tudo com segurança. certificação elétrica incluída!",
  city: "Bragança"
  },
  {

@@ -2,7 +2,7 @@
   "business": {
     "name": "Norte Reparos - Canalizador Profissional",
     "type": "Plumber",
-    "description": "Canalizador profissional em Trás-os-Montes, Portugal. Disponível 24h/7d para desentupimentos, fugas de água, esquentadores e instalações sanitárias.",
+    "description": "Canalizador profissional em Trás-os-Montes, Portugal. Atendimento 24h/7d/7d para desentupimentos, fugas de água, esquentadores e instalações sanitárias.",
     "founded": "2026",
     "owner": "Profissional independente",
     "location": {
@@ -17,7 +17,7 @@
       "whatsapp": "https://wa.me/351928484451",
       "website": "https://canalizador-norte-reparos.pt"
     },
-    "hours": "24/7 incluindo feriados",
+    "hours": "Atendimento 24h/7d incluindo feriados",
     "services": [
       {"name": "Desentupimento simples (sanita/lavatório)", "price_range": "40€-80€"},
       {"name": "Desentupimento esgoto principal", "price_range": "80€-200€"},

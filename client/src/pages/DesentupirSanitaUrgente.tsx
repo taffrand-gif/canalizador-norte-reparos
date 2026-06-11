@@ -9,7 +9,7 @@ export default function DesentupirSanitaUrgente() {
  document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 80-120€';
  const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
  meta.setAttribute('name', 'description');
- meta.setAttribute('content', 'Sanita entupida? Resolvemos em 1 hora ou não paga! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
+ meta.setAttribute('content', 'Sanita entupida? Resolvemos Atendimento rápido ou não paga! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
  if (!meta.parentElement) document.head.appendChild(meta);
  }, []);
  const whatsappMessage = encodeURIComponent('Olá! Preciso desentupir sanita urgente. Podem ajudar?');
@@ -36,11 +36,11 @@ export default function DesentupirSanitaUrgente() {
  <section className="relative bg-gradient-to-br from-orange-600 to-red-700 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <div className="inline-block bg-yellow-400 text-orange-900 px-4 py-2 rounded-full font-bold text-sm mb-6 animate-bounce">
- ⚡ RESOLVEMOS EM 1 HORA
+ ⚡ RESOLVEMOS Atendimento rápido
  </div>
  <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
  Sanita Entupida?<br />
- <span className="text-yellow-300">Resolvemos em 1 Hora - Garantido</span> 🚽
+ <span className="text-yellow-300">Resolvemos Atendimento rápido - Garantido</span> 🚽
  </h1>
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>
@@ -102,16 +102,16 @@ export default function DesentupirSanitaUrgente() {
  <div className="bg-white p-6 rounded-xl shadow-lg text-center border-t-4 border-yellow-500">
  <p className="text-4xl mb-3">⏰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">Precisa resolver JÁ?</p>
- <p className="text-gray-600">Técnico a caminho em minutos. Atendemos 24/7.</p>
+ <p className="text-gray-600">Técnico a caminho em minutos. Atendemos Atendimento 24h/7d.</p>
  </div>
  </div>
  <div className="bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-600 p-8 rounded-xl text-center">
  <p className="text-2xl font-bold text-gray-900 mb-4">
- Resolvemos em 1 Hora ou Não Paga!
+ Resolvemos Atendimento rápido ou Não Paga!
  </p>
  <p className="text-lg text-gray-700 mb-6">
  Temos tanta confiança no nosso trabalho que garantimos:<br />
- Se não resolvermos em 1 hora, o serviço é <strong>GRATUITO</strong>.
+ Se não resolvermos Atendimento rápido, o serviço é <strong>GRATUITO</strong>.
  </p>
  <a
  href={whatsappUrl}
@@ -203,7 +203,7 @@ export default function DesentupirSanitaUrgente() {
  </h2>
  <div className="grid md:grid-cols-4 gap-6">
  {[
- { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos em 2 minutos' },
+ { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos Atendimento prioritário' },
  { icon: '🚗', title: 'Técnico a caminho', desc: '30-60 minutos' },
  { icon: '🔧', title: 'Desentupimento', desc: '30-60 minutos' },
  { icon: '✅', title: 'Problema resolvido', desc: 'Garantia 6 meses' }
@@ -253,7 +253,7 @@ export default function DesentupirSanitaUrgente() {
  author: "Miguel R., Mirandela"
  },
  {
- text: "Domingo de manhã, visitas à tarde. Resolveram em 1 hora. Salvaram o meu dia!",
+ text: "Domingo de manhã, visitas à tarde. Resolveram Atendimento rápido. Salvaram o meu dia!",
  author: "Ana P., Macedo de Cavaleiros"
  }
  ].map((testimonial, i) => (
@@ -317,7 +317,7 @@ export default function DesentupirSanitaUrgente() {
  </h2>
  <p className="text-xl mb-8 text-orange-100">
  Quanto mais espera, pior fica o entupimento.<br />
- Ligue agora e resolva em 1 hora.
+ Ligue agora e resolva Atendimento rápido.
  </p>
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>

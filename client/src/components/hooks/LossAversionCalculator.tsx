@@ -135,7 +135,7 @@ export default function LossAversionCalculator({ problemType = 'fuga' }: LossAve
  💬 Resolver Agora e Poupar €{savings}
  </a>
  <p className="text-xs text-center text-gray-600 mt-3">
- ⚡ Técnico disponível hoje • Resposta em 5 minutos
+ ⚡ Técnico disponível hoje • Resposta rápida garantida
  </p>
  </div>
  );

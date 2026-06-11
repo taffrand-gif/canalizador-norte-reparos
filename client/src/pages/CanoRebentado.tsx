@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function CanoRebentado() {
  useEffect(() => {
- document.title = "Cano Rebentado? Paramos a Inundação em 20 Minutos | Norte Reparos";
+ document.title = "Cano Rebentado? Paramos a Inundação Atendimento prioritário | Norte Reparos";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Cano rebentado? Inundação em casa? Paramos a água em 20 minutos. Disponível 24h. Arranjo urgente. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Cano rebentado? Inundação em casa? Paramos a água Atendimento prioritário. Atendimento 24h/7d. Arranjo urgente. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -48,7 +48,7 @@ export default function CanoRebentado() {
  painPoint="CANO REBENTADO URGENTE"
  headline="Cano Rebentado? Paramos a Inundação AGORA"
  subheadline="Sabemos o desespero que sente. Água a jorrar, casa a inundar, móveis em risco. Não entre em pânico. Estamos a caminho."
- urgencyText="Técnico Atendimento 24h • Paramos a água em 20 minutos"
+ urgencyText="Técnico Atendimento 24h • Paramos a água Atendimento prioritário"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! Tenho um cano rebentado! Casa a inundar! Urgente!"
@@ -88,7 +88,7 @@ export default function CanoRebentado() {
  ]}
  />
  <SolutionTimeline
- title="Como Paramos a Inundação em 20 Minutos"
+ title="Como Paramos a Inundação Atendimento prioritário"
  subtitle="Resposta de emergência. Rápida, eficaz, profissional."
  totalTime="20-60 minutos"
  guaranteeText="Paramos a inundação ou não paga. Garantia total."
@@ -127,7 +127,7 @@ export default function CanoRebentado() {
  name: 'António Ferreira',
  city: 'Bragança',
  problem: 'Cano rebentado',
- solution: 'Cano rebentou na cozinha às 7h da manhã. Água a jorrar! Liguei em pânico. Chegaram em 12 minutos, pararam a água, salvaram a cozinha. Heróis!',
+ solution: 'Cano rebentou na cozinha às 7h da manhã. Água a jorrar! Liguei em pânico. Chegaram Atendimento prioritário, pararam a água, salvaram a cozinha. Heróis!',
  timeframe: '30 minutos',
  rating: 5,
  verified: true
@@ -182,7 +182,7 @@ export default function CanoRebentado() {
  <GuaranteeBox
  title="Garantias de Emergência"
  subtitle="Em situações de emergência, garantimos resposta imediata e eficaz."
- mainGuarantee="Paramos a Inundação em 20 Minutos"
+ mainGuarantee="Paramos a Inundação Atendimento prioritário"
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
@@ -197,7 +197,7 @@ export default function CanoRebentado() {
  },
  {
  icon: 'check',
- title: 'Disponível 24/7',
+ title: 'Disponível Atendimento 24h/7d',
  description: 'Atendemos 24h/7d incluindo madrugadas, fins de semana e feriados. Sempre disponíveis.'
  },
  {
@@ -255,7 +255,7 @@ export default function CanoRebentado() {
  EMERGÊNCIA? Não Perca Mais Tempo!
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Cada segundo conta. Técnico a caminho em 2 minutos. Paramos a inundação em 20.
+ Cada segundo conta. Técnico a caminho Atendimento prioritário. Paramos a inundação em 20.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a

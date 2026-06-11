@@ -739,14 +739,14 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegamos em 40 minutos</p>
+ <p className="font-bold">Chegamos Atendimento prioritário</p>
  <p className="text-sm text-white/80">Cobertura em Trás-os-Montes</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Disponível 24h/7 dias</p>
+ <p className="font-bold">Atendimento 24h/7d/7 dias</p>
  <p className="text-sm text-white/80">Incluindo feriados</p>
  </div>
  </div>

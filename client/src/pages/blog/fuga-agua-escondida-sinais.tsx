@@ -347,7 +347,7 @@ export default function FugaAguaEscondidaSinais() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Resposta em 30 minutos • Deteção 80-150€ • Orçamento de arranjo gratuito
+ Resposta rápida garantida • Deteção 80-150€ • Orçamento de arranjo gratuito
  </p>
  </div>
  </article>

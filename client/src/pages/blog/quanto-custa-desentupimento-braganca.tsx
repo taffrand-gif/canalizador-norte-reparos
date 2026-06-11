@@ -406,7 +406,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Resposta em 30 minutos • Sem compromisso • Garantia 30 dias
+ Resposta rápida garantida • Sem compromisso • Garantia 30 dias
  </p>
  </div>
  </article>

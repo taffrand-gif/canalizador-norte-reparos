@@ -136,7 +136,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['urgência', 'atendimento', 'processo', '24h'],
  uploadDate: '2026-03-03',
- transcript: 'Liga para urgência. Atendemos em menos de 5 minutos, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada em 30-60 minutos conforme zona. Diagnóstico no local, orçamento transparente, arranjo imediata se aprovar.'
+ transcript: 'Liga para urgência. Atendemos Resposta rápida garantida, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada em 30-60 minutos conforme zona. Diagnóstico no local, orçamento transparente, arranjo imediata se aprovar.'
  },
  {
  id: 'process-quote',
@@ -224,7 +224,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['caso sucesso', 'restaurante', 'urgência', 'testemunho'],
  uploadDate: '2026-03-03',
- transcript: 'Restaurante em Bragança ligou em pânico: entupimento grave na cozinha, 50 clientes esperando. Chegamos em 40 minutos. Ridgid K-6200 resolveu em 1 hora. Restaurante continuou serviço. Dono evitou perder €2000+ em receita. Agora somos canalizador oficial deles.'
+ transcript: 'Restaurante em Bragança ligou em pânico: entupimento grave na cozinha, 50 clientes esperando. Chegamos Atendimento prioritário. Ridgid K-6200 resolveu Atendimento rápido. Restaurante continuou serviço. Dono evitou perder €2000+ em receita. Agora somos canalizador oficial deles.'
  },
  {
  id: 'success-hotel',
@@ -236,7 +236,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['caso sucesso', 'hotel', 'fuga água', 'FLIR'],
  uploadDate: '2026-03-03',
- transcript: 'Hotel rural em Vinhais tinha fuga misteriosa. Conta de água €500/mês. Três canalizadores tentaram, nenhum encontrou. Nossa câmara térmica FLIR identificou em 15 minutos: fuga em parede interna. Arranjo sem partir azulejos. Conta voltou a €80/mês. Hotel poupou €5000/ano.'
+ transcript: 'Hotel rural em Vinhais tinha fuga misteriosa. Conta de água €500/mês. Três canalizadores tentaram, nenhum encontrou. Nossa câmara térmica FLIR identificou Atendimento prioritário: fuga em parede interna. Arranjo sem partir azulejos. Conta voltou a €80/mês. Hotel poupou €5000/ano.'
  },
  {
  id: 'success-elderly',
@@ -248,7 +248,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['caso sucesso', 'idosos', 'aquecimento', 'urgência inverno'],
  uploadDate: '2026-03-03',
- transcript: 'Janeiro, -8°C em Bragança. Senhora de 80 anos ligou às 22h: caldeira avariada, casa gelada. Chegamos em 50 minutos. Arranjo em 2 horas. Casa quente novamente. Não cobramos acréscimo noturno. Ela chorou de gratidão. Fazemos isto porque nos importamos.'
+ transcript: 'Janeiro, -8°C em Bragança. Senhora de 80 anos ligou às 22h: caldeira avariada, casa gelada. Chegamos Atendimento prioritário. Arranjo em 2 horas. Casa quente novamente. Não cobramos acréscimo noturno. Ela chorou de gratidão. Fazemos isto porque nos importamos.'
  }
 ];
 

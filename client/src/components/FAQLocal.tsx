@@ -14,7 +14,7 @@ function FAQLocal() {
  const localFaqs = isPlumber ? [
  {
  question: 'Existe canalizador disponível em Mirandela ao fim de semana?',
- answer: 'Sim, a Norte Reparos disponibiliza canalizador em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona 24 horas. Tempo de resposta em Mirandela: rápido.'},
+ answer: 'Sim, a Norte Reparos disponibiliza canalizador em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona Atendimento 24h/7d. Tempo de resposta em Mirandela: rápido.'},
  {
  question: 'Quanto custa um canalizador em Bragança para desentupimento?',
  answer: 'O preço de um desentupimento em Bragança: sanita 80-120€, lavatório 100€, lava-loiça 110€ (sem IVA). Urgência noturna: +50%. Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
@@ -23,17 +23,17 @@ function FAQLocal() {
  answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
  {
  question: 'Há canalizador de urgência em Miranda do Douro?',
- answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível 24/7 para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.'},
+ answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-60 minutos. Disponível Atendimento 24h/7d para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.'},
  {
  question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
  answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: 100-200€ (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
+ answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível Atendimento 24h/7d com sem compromisso.'},
  ] : [
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível 24/7 com sem compromisso.'},
+ answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço disponível Atendimento 24h/7d com sem compromisso.'},
  ];
  return (
  <section className="py-16 bg-white">

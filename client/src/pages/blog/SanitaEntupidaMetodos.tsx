@@ -684,7 +684,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </li>
  <li>
  <a href="/blog/torneira-a-pingar-como-reparar" className="text-cyan-600 hover:text-cyan-700 font-medium">
- → Torneira a Pingar: Como Reparar em 10 Minutos
+ → Torneira a Pingar: Como Reparar Atendimento prioritário
  </a>
  </li>
  </ul>

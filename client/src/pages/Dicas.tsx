@@ -95,6 +95,6 @@ function getDicas(): Dica[] {
  {
  icon: '📞',
  title: 'Tenha sempre um contacto de emergência',
- content: 'Guarde o número de um canalizador de confiança disponível 24h. Em caso de fuga grave, cada minuto conta para minimizar os danos.'},
+ content: 'Guarde o número de um canalizador de confiança Atendimento 24h/7d. Em caso de fuga grave, cada minuto conta para minimizar os danos.'},
  ];
 }

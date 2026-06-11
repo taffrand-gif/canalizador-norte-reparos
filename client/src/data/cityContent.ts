@@ -37,13 +37,13 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "João M.",
- text: "Fuga de água às 3h da manhã. Chegaram em 35 minutos e resolveram tudo. Preço justo, serviço impecável!",
+ text: "Fuga de água às 3h da manhã. Chegaram Atendimento prioritário e resolveram tudo. Preço justo, serviço impecável!",
  rating: 5,
  date: "2026-02-15"
  },
  {
  name: "Maria S.",
- text: "Sanita entupida no domingo. Atenderam logo e resolveram em 20 minutos. Muito profissionais!",
+ text: "Sanita entupida no domingo. Atenderam logo e resolveram Atendimento prioritário. Muito profissionais!",
  rating: 5,
  date: "2026-02-28"
  },
@@ -346,7 +346,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Miguel T.",
- text: "Entupimento resolvido em 30 minutos. Preço combinado antes, sem surpresas!",
+ text: "Entupimento resolvido Atendimento prioritário. Preço combinado antes, sem surpresas!",
  rating: 5,
  date: "2026-03-04"
  }

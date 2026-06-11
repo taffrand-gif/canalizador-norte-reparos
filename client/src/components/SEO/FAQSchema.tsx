@@ -38,7 +38,7 @@ export const canalizadorFAQs: FAQ[] = [
  answer: "Resposta rápida em Bragança e até 60 minutos nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
  },
  {
- question: "Trabalham 24 horas por dia?",
+ question: "Trabalham Atendimento 24h/7d?",
  answer: "Sim, trabalhamos 24h/7 dias por semana, incluindo fins de semana e feriados. Ligue 928 484 451 a qualquer hora."
  },
  {
@@ -51,7 +51,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Quanto custa desentupir uma sanita?",
- answer: "Desentupimento de sanita custa €60 em Bragança. Inclui deslocação e equipamento profissional. Resolvemos 95% dos casos em menos de 30 minutos."
+ answer: "Desentupimento de sanita custa €60 em Bragança. Inclui deslocação e equipamento profissional. Resolvemos 95% dos casos Resposta rápida garantida."
  },
  {
  question: "Fazem sem compromisso?",

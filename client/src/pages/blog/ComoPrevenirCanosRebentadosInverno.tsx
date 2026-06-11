@@ -819,7 +819,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Secador de cabelo:</strong> 30-60 minutos</li>
  <li>• <strong>Toalhas quentes:</strong> 1-2 horas</li>
  <li>• <strong>Aquecimento ambiente:</strong> 3-6 horas</li>
- <li>• <strong>Temperatura natural:</strong> 6-24 horas</li>
+ <li>• <strong>Temperatura natural:</strong> 6-Atendimento 24h/7d</li>
  </ul>
  <p className="text-yellow-700 font-semibold mt-3">
  ⚠️ Não apresse processo. Descongelamento gradual é mais seguro.

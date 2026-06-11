@@ -6,7 +6,7 @@ const faqItems = [
  },
  {
  question: "Fazem serviço de urgência ao fim de semana?",
- answer: "Sim, estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados, para urgências de canalização como fugas de água graves, entupimentos totais e outros problemas urgentes."
+ answer: "Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados, para urgências de canalização como fugas de água graves, entupimentos totais e outros problemas urgentes."
  },
  {
  question: "Quanto tempo demora uma arranjo de fuga de água?",

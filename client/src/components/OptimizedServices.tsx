@@ -15,7 +15,7 @@ const serviceDescriptions = {
  'Instalação Sanitários': 'Instalação completa de casas de banho, cozinhas e áreas de serviço. Torneiras, autoclismos, chuveiros, banheiras e sistemas de drenagem.',
  'Aquecimento Central': 'Instalação, manutenção e arranjo de sistemas de aquecimento central, caldeiras, esquentadores e radiadores.',
  'Canalização Nova': 'Instalação de nova canalização para construções, renovações ou ampliações. Materiais de qualidade e instalação profissional.',
- 'Urgências 24h': 'Atendimento de urgências 24 horas por dia, 7 dias por semana, para fugas de água, entupimentos e outras emergências.'};
+ 'Urgências 24h': 'Atendimento de urgências Atendimento 24h/7d, 7 dias por semana, para fugas de água, entupimentos e outras emergências.'};
 const serviceFeatures = {
  'Desentupimentos': [
  'Equipamento de alta pressão e câmera de inspeção',
@@ -45,7 +45,7 @@ const serviceFeatures = {
  'Testes de pressão e estanquicidade'
  ],
  'Urgências 24h': [
- 'Resposta em menos de 45 minutos',
+ 'Resposta Resposta rápida garantida',
  'Equipe equipada para qualquer emergência',
  'Sem compromisso no local'
  ]

@@ -252,7 +252,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h3 className="font-bold text-orange-900 mb-3 text-xl">⚠️ Métodos Não Funcionaram</h3>
  <ul className="space-y-2 text-orange-800">
  <li>✗ Tentou 2-3 métodos sem sucesso</li>
- <li>✗ Entupimento persiste há mais de 24 horas</li>
+ <li>✗ Entupimento persiste há mais de Atendimento 24h/7d</li>
  <li>✗ Problema volta repetidamente</li>
  <li>✗ Entupimento piora progressivamente</li>
  </ul>
@@ -291,8 +291,8 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <p className="font-bold text-cyan-900 mb-2">⚡ Rapidez</p>
  <ul className="text-cyan-800 space-y-1 text-sm">
  <li>• Resolve em 30-60 minutos</li>
- <li>• Disponível 24h/7 dias</li>
- <li>• Chegada em 40 minutos</li>
+ <li>• Atendimento 24h/7d/7 dias</li>
+ <li>• Chegada Atendimento prioritário</li>
  </ul>
  </div>
  <div>
@@ -513,14 +513,14 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegamos em 40 minutos</p>
+ <p className="font-bold">Chegamos Atendimento prioritário</p>
  <p className="text-sm text-white/80">Cobertura em Trás-os-Montes</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Disponível 24h/7 dias</p>
+ <p className="font-bold">Atendimento 24h/7d/7 dias</p>
  <p className="text-sm text-white/80">Incluindo feriados</p>
  </div>
  </div>

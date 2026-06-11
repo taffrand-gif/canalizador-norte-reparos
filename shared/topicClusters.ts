@@ -38,7 +38,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'fuga-agua-urgente-24h',
  title: 'Fuga de Água Urgente: Serviço 24h em Trás-os-Montes',
  keywords: ['fuga água urgente', 'canalizador 24h', 'emergência fuga'],
- targetSnippet: 'Fuga água urgente? Ligue 928 484 451. Técnico em 30min, disponível 24h/7d em Bragança, Mirandela, Macedo. Arranjo imediata, garantia 2 anos.'
+ targetSnippet: 'Fuga água urgente? Ligue 928 484 451. Técnico em 30min, Atendimento 24h/7d/7d em Bragança, Mirandela, Macedo. Arranjo imediata, garantia 2 anos.'
  },
  {
  slug: 'prevenir-fugas-agua',
