@@ -1563,33 +1563,7 @@
       ]
     },
     {
-      "source": "/client/public/plumber-tras-os-montes",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/client/public/es",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/client/public/plombier-tras-os-montes",
       "headers": [
         {
           "key": "X-Robots-Tag",
