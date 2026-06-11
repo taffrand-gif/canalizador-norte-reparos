@@ -67,7 +67,7 @@ Atendemos toda a cidade de Vila Real e municípios vizinhos:
 ### Equipamento Profissional que Faz a Diferença
 
 Investimos em tecnologia de ponta para resolver problemas sem danos colaterais:
-- **Máquina de desentupimento Ridgid K9-204** - Para obstruções mais resistentes
+- **Máquina de desentupimento Ridgid K9-102** - Para obstruções mais resistentes
 - **Câmara de inspeção com gravação** - Documentação completa do problema
 - **Ferramentas de corte preciso** - Intervenções limpas e precisas
 - **EPI completo e veículo equipado** - Prontos para qualquer emergência

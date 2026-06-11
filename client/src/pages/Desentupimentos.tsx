@@ -136,7 +136,7 @@ export default function Desentupimentos() {
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Processo de Trabalho</h3>
  <ol className="space-y-4 list-decimal pl-5">
  <li><strong>Diagnóstico:</strong> Inspeção com câmaras para localizar o entupimento</li>
- <li><strong>Desentupimento:</strong> Utilização de máquinas de alta pressão (Ridgid K9-204)</li>
+ <li><strong>Desentupimento:</strong> Utilização de máquinas de alta pressão (Ridgid K9-102)</li>
  <li><strong>Limpeza:</strong> Remoção completa dos resíduos e obstruções</li>
  <li><strong>Teste:</strong> Verificação do fluxo normal da água</li>
  <li><strong>Prevenção:</strong> Recomendações para evitar futuros entupimentos</li>

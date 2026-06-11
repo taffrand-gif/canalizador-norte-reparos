@@ -145,7 +145,7 @@ export default function Cedovim() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 120€</p>
@@ -213,7 +213,7 @@ export default function Cedovim() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

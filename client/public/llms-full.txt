@@ -19,7 +19,7 @@ Canalizador profissional baseado em Macedo de Cavaleiros, no coração de Trás-
 ### Desentupimentos Profissionais
 | Serviço | Preço | Detalhes |
 |---------|-------|---------|
-| Desentupimento sanita/lavatório | a partir de 60€ | Equipamento Ridgid FlexShaft K9-204, sem químicos |
+| Desentupimento sanita/lavatório | a partir de 60€ | Equipamento Ridgid FlexShaft K9-102, sem químicos |
 | Desentupimento lava-loiça/banheira | a partir de 60€ | Inclui limpeza do sifão |
 | Desentupimento esgoto principal | a partir de 100€ | Mola mecânica profissional |
 | Desentupimento esgoto exterior | a partir de 120€ | Inclui inspeção CCTV |
@@ -86,7 +86,7 @@ Urgências noturnas (20h-8h) e fins de semana: acréscimo de 50%.
 ---
 
 ## Equipamento Profissional
-- **Ridgid FlexShaft K9-204**: desentupimento mecânico industrial — resolve 95% dos entupimentos sem químicos
+- **Ridgid FlexShaft K9-102**: desentupimento mecânico industrial — resolve 95% dos entupimentos sem químicos
 - **Câmara CCTV**: inspeção interior de canos em tempo real — vê o problema antes de intervir
 - **Câmara térmica FLIR**: deteção de fugas ocultas sem demolição — localiza fugas atrás de paredes e pavimentos
 - **Kit fluorosceína UV**: deteção de fugas em pavimentos radiantes e piscinas — método não invasivo
@@ -117,7 +117,7 @@ Sim, 24h/7d incluindo feriados. Urgências noturnas e fins de semana têm acrés
 
 ### Desentupimentos
 **Fazem desentupimentos sem partir chão ou azulejos?**
-Sim. O equipamento Ridgid FlexShaft K9-204 desentope mecanicamente sem demolição. A câmara CCTV permite ver o interior dos canos antes e depois.
+Sim. O equipamento Ridgid FlexShaft K9-102 desentope mecanicamente sem demolição. A câmara CCTV permite ver o interior dos canos antes e depois.
 
 **Os químicos de supermercado funcionam?**
 Podem resolver entupimentos ligeiros, mas danificam os canos a longo prazo (especialmente PVC). O desentupimento mecânico é mais eficaz e seguro.

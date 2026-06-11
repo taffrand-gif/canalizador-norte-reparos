@@ -82,7 +82,7 @@ export default function FAQPage() {
  },
  {
  question: "Usam equipamento profissional?",
- answer: "Sim, trabalhamos com equipamento de última geração: câmaras de inspeção Ridgid SeeSnake, máquinas de desentupir K9-204, detetores de fugas por ultrassons, máquinas de soldar PPR, ferramentas específicas para cada intervenção."
+ answer: "Sim, trabalhamos com equipamento de última geração: câmaras de inspeção Ridgid SeeSnake, máquinas de desentupir K9-102, detetores de fugas por ultrassons, máquinas de soldar PPR, ferramentas específicas para cada intervenção."
  },
  {
  question: "São canalizadores certificados?",

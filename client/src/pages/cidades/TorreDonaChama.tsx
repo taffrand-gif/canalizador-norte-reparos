@@ -79,7 +79,7 @@ export default function TorreDonaChama() {
 
   const cidadesProximas = getCidadesProximas('torre-de-dona-chama');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Torre de Dona Chama?', 'answer': 'Desde 80€ em Torre de Dona Chama. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Dona Chama?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Torre de Dona Chama. Ligue +351 928 484 451.'}, {'question': 'Que zonas cobrem em Torre de Dona Chama?', 'answer': 'Servimos todo o conselho e freguesias vizinhas. Intervenção rápida garantida em toda a região.'}, {'question': 'Têm equipamento para desentupimentos profundos?', 'answer': 'Sim, utilizamos Ridgid K9-204 para desentupimentos profundos em qualquer tipo de tubagem.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Torre de Dona Chama?', 'answer': 'Desde 80€ em Torre de Dona Chama. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Dona Chama?', 'answer': 'Sim, atendimento Atendimento 24h/7d, 7 dias por semana em Torre de Dona Chama. Ligue +351 928 484 451.'}, {'question': 'Que zonas cobrem em Torre de Dona Chama?', 'answer': 'Servimos todo o conselho e freguesias vizinhas. Intervenção rápida garantida em toda a região.'}, {'question': 'Têm equipamento para desentupimentos profundos?', 'answer': 'Sim, utilizamos Ridgid K9-102 para desentupimentos profundos em qualquer tipo de tubagem.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function TorreDonaChama() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 80€</p>
@@ -213,7 +213,7 @@ export default function TorreDonaChama() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>
