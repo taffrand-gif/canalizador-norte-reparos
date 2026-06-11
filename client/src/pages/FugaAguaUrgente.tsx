@@ -27,7 +27,7 @@ export default function FugaAguaUrgente() {
  "name": "O que fazer quando tenho uma fuga de água urgente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. Chegamos em 15-30 minutos."
+ "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. Resposta rápida garantida-30 minutos."
  }
  },
  {
@@ -43,7 +43,7 @@ export default function FugaAguaUrgente() {
  "name": "Quanto tempo demora a parar uma fuga de água?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa em 1-2 horas dependendo da gravidade."
+ "text": "Resposta rápida garantida-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa em 1-2 horas dependendo da gravidade."
  }
  }
  ]
@@ -225,7 +225,7 @@ export default function FugaAguaUrgente() {
  {[
  {
  q: 'O que fazer quando tenho uma fuga de água urgente?',
- a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. 5) Tire fotos para seguro se necessário. Chegamos em 15-30 minutos e paramos a fuga.'
+ a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. 5) Tire fotos para seguro se necessário. Resposta rápida garantida-30 minutos e paramos a fuga.'
  },
  {
  q: 'Quanto custa arranjar uma fuga de água urgente?',
@@ -237,7 +237,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Quanto tempo demora a parar uma fuga?',
- a: 'Chegamos em 15-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
+ a: 'Resposta rápida garantida-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
  },
  {
  q: 'Têm equipamento para detetar fugas escondidas?',

@@ -117,7 +117,7 @@ const InnovativeHero: React.FC = () => {
  <div className="inline-flex items-center gap-3 bg-blue-900/80 border-2 border-white/60 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
  <span className="text-3xl" role="img" aria-label="Goutte d'eau">💧</span>
  <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
- CANALIZADOR Atendimento 24h — RESPOSTA EM 2 MIN
+ CANALIZADOR Atendimento 24h — Resposta rápida garantida
  </span>
  <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
  </div>

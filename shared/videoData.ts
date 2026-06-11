@@ -218,7 +218,7 @@ export const videoData = [
  id: 'success-restaurant',
  category: 'customer-success',
  title: 'Restaurante Salvo de Fechar por Entupimento',
- description: 'História real: restaurante com entupimento grave durante serviço. Chegamos em 40min, resolvemos em 1h, salvamos o dia.',
+ description: 'História real: restaurante com entupimento grave durante serviço. Resposta rápida garantidamin, resolvemos em 1h, salvamos o dia.',
  duration: 55,
  thumbnailUrl: '/images/ai-generated/testimonials/testimonials-008.jpg',
  youtubeId: 'dQw4w9WgXcQ',

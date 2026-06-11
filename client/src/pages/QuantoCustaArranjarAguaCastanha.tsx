@@ -284,7 +284,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Sem compromisso sem compromisso. Atendimento 24h.
- Chegamos em 30-60 minutos.
+ Resposta rápida garantida-60 minutos.
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

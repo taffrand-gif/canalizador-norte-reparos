@@ -27,7 +27,7 @@ export default function SanitaEntupida() {
  "name": "Como desentupir uma sanita entupida rapidamente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Ligue para +351 928 484 451. Chegamos em 15-20 minutos com equipamento profissional. Desentupimos em 20-30 minutos sem partir nada. Garantia total."
+ "text": "Ligue para +351 928 484 451. Resposta rápida garantida-20 minutos com equipamento profissional. Desentupimos em 20-30 minutos sem partir nada. Garantia total."
  }
  },
  {
@@ -217,7 +217,7 @@ export default function SanitaEntupida() {
  {[
  {
  q: 'Como desentupir uma sanita entupida rapidamente?',
- a: 'A forma mais rápida e segura é ligar para profissionais: +351 928 484 451. Chegamos em 15-20 minutos com equipamento adequado (mola profissional, máquina de pressão). Desentupimos em 20-30 minutos sem partir nada. Métodos caseiros (desentupidor, arame) podem piorar o entupimento.'
+ a: 'A forma mais rápida e segura é ligar para profissionais: +351 928 484 451. Resposta rápida garantida-20 minutos com equipamento adequado (mola profissional, máquina de pressão). Desentupimos em 20-30 minutos sem partir nada. Métodos caseiros (desentupidor, arame) podem piorar o entupimento.'
  },
  {
  q: 'Quanto custa desentupir uma sanita?',

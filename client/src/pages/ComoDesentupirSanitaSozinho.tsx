@@ -283,7 +283,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
- ✅ Chegamos em 30-60 minutos<br />
+ ✅ Resposta rápida garantida-60 minutos<br />
  ✅ Sem compromisso sem compromisso
  </p>
  <a

@@ -865,7 +865,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Canos Rebentados? Ajuda Urgente 24h</h2>
  <p className="text-xl mb-6">
- Emergência de canalização? Chegamos em 30-60 minutos.
+ Emergência de canalização? Resposta rápida garantida-60 minutos.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Emergências 24h/7 dias</h3>

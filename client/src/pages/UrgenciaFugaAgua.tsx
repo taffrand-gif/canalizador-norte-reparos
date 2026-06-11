@@ -56,7 +56,7 @@ export default function UrgenciaFugaAgua() {
  <div className="flex items-start gap-3">
  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
  <div>
- <p className="font-bold">Chegamos em 30-90 minutos</p>
+ <p className="font-bold">Resposta rápida garantida-90 minutos</p>
  <p className="text-sm text-red-100">Bragança e arredores</p>
  </div>
  </div>
@@ -113,7 +113,7 @@ export default function UrgenciaFugaAgua() {
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-red-500">
  <p className="text-2xl mb-2">😰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">"A minha casa vai inundar!"</p>
- <p className="text-gray-600">Cada segundo conta. Chegamos em 30-90 minutos para parar a fuga.</p>
+ <p className="text-gray-600">Cada segundo conta. Resposta rápida garantida-90 minutos para parar a fuga.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
  <p className="text-2xl mb-2">💸</p>

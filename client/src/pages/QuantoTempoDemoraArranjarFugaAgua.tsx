@@ -330,7 +330,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  <div className="container mx-auto px-4 text-center">
  <Clock className="w-16 h-16 mx-auto mb-6" />
  <h2 className="text-3xl font-bold mb-4">
- Fuga de Água? Chegamos em 30-45 Minutos
+ Fuga de Água? Resposta rápida garantida-45 Minutos
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Atendimento urgente 24h em Trás-os-Montes.

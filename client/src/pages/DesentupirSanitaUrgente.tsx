@@ -50,7 +50,7 @@ export default function DesentupirSanitaUrgente() {
  <div className="grid md:grid-cols-3 gap-4 mb-8 text-left">
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
  <Zap className="w-8 h-8 text-yellow-300 mb-2" />
- <p className="font-bold">Chegamos em 30-60min</p>
+ <p className="font-bold">Resposta rápida garantida-60min</p>
  <p className="text-sm text-orange-100">Bragança e arredores</p>
  </div>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
