@@ -3,46 +3,46 @@
 <script>
 // A/B Testing: 50/50 split
 (function() {
- const AB_KEY = 'nr_ab_home_2026';
- const VARIANTS = ['A', 'B'];
- let variant = localStorage.getItem(AB_KEY);
- if (!variant) {
- variant = VARIANTS[Math.floor(Math.random() * 2)];
- localStorage.setItem(AB_KEY, variant);
- }
- document.documentElement.setAttribute('data-ab-variant', variant);
- // Track impression
- if (typeof fetch !== 'undefined') {
- fetch('/admin/track', {
- method: 'POST',
- body: JSON.stringify({
- event: 'ab_view',
- variant: variant,
- page: window.location.pathname,
- ts: Date.now()
- }),
- headers: { 'Content-Type': 'application/json' }
- }).catch(() => {});
- }
+  const AB_KEY = 'nr_ab_home_2026';
+  const VARIANTS = ['A', 'B'];
+  let variant = localStorage.getItem(AB_KEY);
+  if (!variant) {
+    variant = VARIANTS[Math.floor(Math.random() * 2)];
+    localStorage.setItem(AB_KEY, variant);
+  }
+  document.documentElement.setAttribute('data-ab-variant', variant);
+  // Track impression
+  if (typeof fetch !== 'undefined') {
+    fetch('/admin/track', {
+      method: 'POST',
+      body: JSON.stringify({
+        event: 'ab_view',
+        variant: variant,
+        page: window.location.pathname,
+        ts: Date.now()
+      }),
+      headers: { 'Content-Type': 'application/json' }
+    }).catch(() => {});
+  }
 })();
 </script>
 <style>
 [data-ab-variant="B"] .hero-cta {
- background: linear-gradient(135deg, #FF6B35, #ff8c5a) !important;
- font-size: 1.4rem !important;
- padding: 1.5rem 3rem !important;
- box-shadow: 0 8px 24px rgba(255, 107, 53, .4) !important;
- animation: pulse-b 2s infinite !important;
+  background: linear-gradient(135deg, #FF6B35, #ff8c5a) !important;
+  font-size: 1.4rem !important;
+  padding: 1.5rem 3rem !important;
+  box-shadow: 0 8px 24px rgba(255, 107, 53, .4) !important;
+  animation: pulse-b 2s infinite !important;
 }
 @keyframes pulse-b {
- 0%, 100% { transform: scale(1); }
- 50% { transform: scale(1.05); }
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
 }
 [data-ab-variant="B"] .hero-title::after {
- content: " ← Resposta rápida garantida";
- color: #FF6B35;
- font-size: 0.6em;
- font-weight: 700;
+  content: " ← Resposta rápida garantida";
+  color: #FF6B35;
+  font-size: 0.6em;
+  font-weight: 700;
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="https://wa.me" crossorigin><link rel="dns-prefetch" href="https://www.google.com"><meta name="theme-color" content="#2193b0"><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:#222;background:#fff;margin:0}img{max-width:100%;height:auto;display:block}a{color:inherit}.lazy{opacity:0;transition:opacity .3s}.lazy.loaded{opacity:1}</style><meta charset="UTF-8"><meta property="og:title" content="Canalizador Profissional Trás-os-Montes | Norte Reparos"><meta property="og:description" content="Canalizador profissional em Trás-os-Montes. Desentupimentos, fugas de água, esquentadores. Orçamento por telefone. Ligue928 484 451."><meta property="og:url" content="https://canalizador-norte-reparos.pt/index.html"><meta property="og:type" content="website"><meta property="og:locale" content="pt_PT"><meta property="og:site_name" content="Norte Reparos" /><meta name="viewport" content="width=device-width, initial-scale=1"><title>Canalizador Profissional Trás-os-Montes | Norte Reparos</title><meta name="description" content="Canalizador profissional em Trás-os-Montes. Desentupimentos, fugas de água, esquentadores. Orçamento por telefone. Ligue928 484 451."><meta name="robots" content="index, follow"><link rel="canonical" href="https://canalizador-norte-reparos.pt/"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">
