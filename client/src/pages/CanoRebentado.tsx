@@ -133,7 +133,7 @@ export default function CanoRebentado() {
  verified: true
  },
  {
- name: 'Luísa Gomes',
+ name: 'Cliente Gomes',
  city: 'Mirandela',
  problem: 'Inundação urgente',
  solution: 'Cano rebentou na parede. Casa a inundar, móveis a flutuar. Chegaram rapidíssimo, pararam tudo, arranjaram no mesmo dia. Salvaram a minha casa!',
@@ -142,7 +142,7 @@ export default function CanoRebentado() {
  verified: true
  },
  {
- name: 'Fernando Silva',
+ name: 'Técnico Silva',
  city: 'Chaves',
  problem: 'Cano rebentado inverno',
  solution: 'Inverno rigoroso, cano rebentou com o gelo. Água a jorrar pela garagem. Vieram rapidamente, resolveram tudo. Profissionais top!',
@@ -160,7 +160,7 @@ export default function CanoRebentado() {
  verified: true
  },
  {
- name: 'José Rodrigues',
+ name: 'Técnico Rodrigues',
  city: 'Trás-os-Montes',
  problem: 'Inundação grave',
  solution: 'Cano principal rebentou. Casa toda a inundar. Chegaram em tempo recorde, pararam a água, substituíram o cano. Trabalho impecável!',

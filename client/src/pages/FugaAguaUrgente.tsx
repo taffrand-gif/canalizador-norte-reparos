@@ -159,7 +159,7 @@ export default function FugaAguaUrgente() {
  verified: true
  },
  {
- name: 'Carlos Rodrigues',
+ name: 'Técnico Rodrigues',
  city: 'Vila Real',
  problem: 'Fuga na parede',
  solution: 'Parede húmida há semanas. Usaram câmara térmica, encontraram a fuga escondida. Arranjaram sem partir tudo. Excelente trabalho.',
@@ -168,7 +168,7 @@ export default function FugaAguaUrgente() {
  verified: true
  },
  {
- name: 'Teresa Alves',
+ name: 'Cliente Alves',
  city: 'Trás-os-Montes',
  problem: 'Fuga urgente noturna',
  solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram Atendimento prioritário! Pararam a fuga, salvaram os móveis. Heróis!',
@@ -177,7 +177,7 @@ export default function FugaAguaUrgente() {
  verified: true
  },
  {
- name: 'Manuel Santos',
+ name: 'Técnico Santos',
  city: 'Mogadouro',
  problem: 'Fuga no esquentador',
  solution: 'Esquentador a pingar, chão inundado. Vieram no mesmo dia, substituíram peça, testaram tudo. Preço justo, serviço 5 estrelas.',

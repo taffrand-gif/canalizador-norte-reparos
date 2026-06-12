@@ -246,7 +246,7 @@ export default function DesentupirSanitaUrgente() {
  {[
  {
  text: "Sanita entupida às 22h. Chegaram em 45min e resolveram em 30min. Preço justo. Recomendo!",
- author: "Teresa L., Bragança"
+ author: "Cliente L., Bragança"
  },
  {
  text: "Preço fixo 65€ como prometido. Rápidos, profissionais e simpáticos. Voltarei a chamar.",

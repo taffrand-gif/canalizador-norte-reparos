@@ -32,7 +32,7 @@ const reviews: Review[] = [
  text: 'Instalação completa da casa de banho. Trabalho perfeito, recomendo.',
  date: 'há 3 semanas'},
  {
- name: 'Luísa A.',
+ name: 'Cliente',
  initial: 'L',
  city: 'Vila Real',
  rating: 4,
@@ -46,7 +46,7 @@ const reviews: Review[] = [
  text: 'Canalizador de confiança. Já chamei 3 vezes e sempre impecável.',
  date: 'há 1 mês'},
  {
- name: 'Helena G.',
+ name: 'Cliente',
  initial: 'H',
  city: 'Valpaços',
  rating: 5,

@@ -124,7 +124,7 @@ export default function CheiroMauCanalizacao() {
  subtitle="Famílias que recuperaram o conforto e dignidade."
  testimonials={[
  {
- name: 'Helena Pires',
+ name: 'Cliente Pires',
  city: 'Bragança',
  problem: 'Cheiro mau casa de banho',
  solution: 'Cheiro horrível há semanas. Tentei tudo, nada funcionou. Descobriram que o sifão estava seco. Encheram, explicaram. Cheiro desapareceu! Simples assim.',

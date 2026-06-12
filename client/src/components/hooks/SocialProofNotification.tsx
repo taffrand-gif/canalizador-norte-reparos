@@ -11,7 +11,7 @@ interface Notification {
 const sampleNotifications: Notification[] = [
  { id: 1, name: 'João', city: 'Bragança', action: 'pediu orçamento', timeAgo: '3 minutos' },
  { id: 2, name: 'Maria', city: 'Mirandela', action: 'agendou visita', timeAgo: '12 minutos' },
- { id: 3, name: 'Carlos', city: 'Macedo', action: 'ligou agora', timeAgo: '25 minutos' },
+ { id: 3, name: 'Cliente', city: 'Macedo', action: 'ligou agora', timeAgo: '25 minutos' },
  { id: 4, name: 'Ana', city: 'Vila Real', action: 'pediu orçamento', timeAgo: '38 minutos' },
 ];
 export default function SocialProofNotification() {

@@ -61,7 +61,7 @@ export const canalizadorReviews: ReviewData[] = [
  city: "Bragança"
  },
  {
- author: "Carlos R.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-20",
  text: "Fossa séptica entupida. Vieram com equipamento profissional e resolveram em 1h. Excelente!",
@@ -75,21 +75,21 @@ export const canalizadorReviews: ReviewData[] = [
  city: "Mirandela"
  },
  {
- author: "Manuel F.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-18",
  text: "Cano rebentado no jardim. Chegaram rápido e fizeram trabalho perfeito. Preço combinado antes!",
  city: "Trás-os-Montes"
  },
  {
- author: "Teresa M.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-25",
  text: "Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia. Obrigada!",
  city: "Trás-os-Montes"
  },
  {
- author: "José A.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-22",
  text: "Fuga no aquecimento central. Vieram logo e repararam com garantia. Muito bom serviço!",
@@ -134,7 +134,7 @@ export const eletricistaReviews: ReviewData[] = [
  city: "Bragança"
  },
  {
- author: "Fernando L.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-21",
  text: "Quadro elétrico completamente queimado. Substituíram tudo em 3h com certificação. Excelente trabalho!",
@@ -155,7 +155,7 @@ export const eletricistaReviews: ReviewData[] = [
  city: "Trás-os-Montes"
  },
  {
- author: "Isabel C.",
+ author: "Cliente",
  rating: 5,
  date: "2026-02-26",
  text: "certificação elétrica para casa nova. Serviço impecável e preço combinado antes. Obrigada!",

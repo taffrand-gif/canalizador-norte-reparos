@@ -79,7 +79,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  delaiIntervention: "45 minutos centre-ville, 60 minutes aldeias",
  testimonials: [
  {
- name: "Carlos R.",
+ name: "Técnico R.",
  text: "Fossa séptica entupida. Vieram com equipamento profissional e resolveram em 1h. Excelente!",
  rating: 5,
  date: "2026-02-20"
@@ -117,13 +117,13 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  delaiIntervention: "35 minutos centre-ville, 55 minutes aldeias",
  testimonials: [
  {
- name: "Manuel F.",
+ name: "Técnico F.",
  text: "Cano rebentado no jardim. Chegaram rápido e fizeram trabalho perfeito. Preço combinado antes!",
  rating: 5,
  date: "2026-02-18"
  },
  {
- name: "Teresa M.",
+ name: "Cliente M.",
  text: "Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia. Obrigada!",
  rating: 5,
  date: "2026-02-25"
@@ -155,7 +155,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  delaiIntervention: "50 minutos centre-ville, 70 minutes aldeias",
  testimonials: [
  {
- name: "José A.",
+ name: "Técnico A.",
  text: "Fuga no aquecimento central. Vieram logo e repararam com garantia. Muito bom serviço!",
  rating: 5,
  date: "2026-02-22"

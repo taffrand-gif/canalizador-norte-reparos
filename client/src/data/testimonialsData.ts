@@ -56,7 +56,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 5,
- name: "Carlos Pereira",
+ name: 'Cliente',
  city: "Bragança",
  service: "Substituição Canalização",
  rating: 5,
@@ -66,7 +66,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 6,
- name: "Teresa Alves",
+ name: 'Cliente',
  city: "Miranda do Douro",
  service: "Desentupimento Pia",
  rating: 5,
@@ -76,7 +76,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 7,
- name: "Manuel Fernandes",
+ name: 'Cliente',
  city: "Mogadouro",
  service: "Instalação Torneira",
  rating: 5,
@@ -86,7 +86,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 8,
- name: "Isabel Martins",
+ name: 'Cliente',
  city: "Bragança",
  service: "Arranjo Caldeira",
  rating: 5,
@@ -106,7 +106,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 10,
- name: "Luísa Carvalho",
+ name: 'Cliente',
  city: "Mirandela",
  service: "Deteção Fuga Escondida",
  rating: 5,
@@ -136,7 +136,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  },
  {
  id: 13,
- name: "José Ribeiro",
+ name: 'Cliente',
  city: "Trás-os-Montes",
  service: "Desentupimento Esgoto",
  rating: 5,

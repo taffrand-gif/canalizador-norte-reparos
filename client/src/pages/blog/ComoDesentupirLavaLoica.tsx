@@ -34,7 +34,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <span className="text-2xl">💧</span>
  </div>
  <div>
- <p className="font-semibold text-gray-900">Carlos Mendes</p>
+ <p className="font-semibold text-gray-900">Técnico Mendes</p>
  <p className="text-gray-600">Canalizador Certificado com 12+ anos de experiência</p>
  </div>
  </div>
@@ -307,7 +307,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
  <p className="text-gray-700 mb-4">
- <strong>Carlos Mendes</strong> é canalizador certificado com mais de 12 anos de experiência em Trás-os-Montes. 
+ <strong>Técnico Mendes</strong> é canalizador certificado com mais de 12 anos de experiência em Trás-os-Montes. 
  Especialista em desentupimentos e arranjos de emergência, já resolveu mais de 800 casos na região. 
  Acredita na importância da educação sobre manutenção preventiva para evitar problemas graves.
  </p>
