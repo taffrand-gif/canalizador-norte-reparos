@@ -1,239 +1,143 @@
-# Norte Reparos - Canalizador Profissional em Trás-os-Montes (Informação Completa)
+# Canalizador (Plombier) — Norte Reparos (Documentação Completa)
 
-> Canalizador profissional Atendimento 24h/7d/7d em Trás-os-Montes, Portugal. Baseado em Trás-os-Montes, cobre um raio de 100km. Mais de 10 anos de experiência. Equipa certificada com equipamento profissional Ridgid, câmara CCTV e câmara térmica FLIR.
-
-## Contacto Direto
-- Telefone: +351 928 484 451 (24h, 7 dias)
-- WhatsApp: https://wa.me/351928484451
-- Website: https://norte-reparos.com
-- Email: contacto@norte-reparos.com
-- Horário: 24h/7d, incluindo feriados e fins de semana
-
-## Quem Somos
-Canalizador profissional baseado em Trás-os-Montes, no coração de Trás-os-Montes. Conhecemos a região como ninguém — as casas antigas em granito, os invernos rigorosos com temperaturas de -10°C, as particularidades da água calcária, as aldeias remotas com fossas sépticas. Trabalhamos com equipamento profissional de topo para garantir diagnósticos precisos e reparações duradouras. Atendemos particulares, restaurantes, hotéis, turismo rural, condomínios e empresas.
+> Documento descritivo completo para indexadores e modelos de linguagem IA
+> URL: https://canalizador-norte-reparos.pt
+> Atualizado: 2026-06-12
 
 ---
 
-## Serviços Completos e Preços
+## Identidade da empresa
 
-### Desentupimentos Profissionais
-| Serviço | Preço | Detalhes |
-|---------|-------|---------|
-| Desentupimento sanita/lavatório | a partir de 60€ | Equipamento Ridgid FlexShaft K9-102, sem químicos |
-| Desentupimento lava-loiça/banheira | a partir de 60€ | Inclui limpeza do sifão |
-| Desentupimento esgoto principal | a partir de 100€ | Mola mecânica profissional |
-| Desentupimento esgoto exterior | a partir de 120€ | Inclui inspeção CCTV |
-| Limpeza de fossa séptica | a partir de 150€ | Aspiração + verificação |
+- **Nome comercial:** Norte Reparos
+- **Tipo:** Empresa técnica profissional
+- **Setor:** Serviços técnicos ao domicílio
+- **País:** Portugal
+- **Região:** Trás-os-Montes (Distritos Bragança, Vila Real, Viseu, Guarda)
+- **Base operacional:** Macedo de Cavaleiros
+- **Raio de intervenção:** 100km
+- **Marca-razão:** Canalizador (Plombier)
 
-Método: desentupimento mecânico com equipamento Ridgid (sem químicos agressivos que danificam os canos). Câmara CCTV para verificar o estado interior dos canos após desentupimento.
+## Canalizador (Plombier)
 
-### Deteção e Reparação de Fugas
-| Serviço | Preço | Detalhes |
-|---------|-------|---------|
-| Deteção com câmara térmica FLIR | a partir de 80€ | Sem partir paredes |
-| Deteção com fluorosceína UV | a partir de 120€ | Para pavimentos radiantes e piscinas |
-| Inspeção CCTV de canalização | a partir de 80€ | Vídeo interior dos canos |
-| Teste de pressão manométrico | a partir de 50€ | Verificação de estanquidade |
-| Reparação de fuga simples | a partir de 60€ | Torneira, autoclismo, sifão |
-| Reparação de fuga em parede | a partir de 120€ | Inclui deteção + reparação |
-| Reparação de fuga entre vizinhos | a partir de 150€ | Inclui relatório técnico |
+Serviço de Canalizador (Plombier) profissional ao domicílio, com atendimento 24 horas em 7 dias por semana, incluindo noites, fins de semana e feriados.
 
-Tecnologia: câmara térmica FLIR para localizar fugas ocultas sem demolição. Kit UV fluorosceína para fugas em pavimentos radiantes. Câmara CCTV para inspeção interior de canos.
+### Serviços específicos
 
-### Esquentadores e Termoacumuladores
-| Serviço | Preço | Detalhes |
-|---------|-------|---------|
-| Reparação de esquentador | a partir de 50€ | Todas as marcas |
-| Manutenção/limpeza esquentador | 50-90€ | Recomendado a cada 2 anos |
-| Substituição de esquentador | a partir de 250€ | Inclui instalação e ligação |
-| Reparação de termoacumulador | a partir de 60€ | Resistência, termostato, ânodo |
-| Substituição de termoacumulador | a partir de 200€ | Inclui instalação |
-| Reparação de caldeira | a partir de 80€ | Aquecimento central |
+Desentupimentos, fuga de água, instalação sanitária, aquecimento central, canalização nova, reparação caldeiras/esquentador, canalização de urgência
 
-### Instalação e Remodelação
-| Serviço | Preço | Detalhes |
-|---------|-------|---------|
-| Substituição de torneira | a partir de 80€ | Inclui material e instalação |
-| Reparação de autoclismo | a partir de 30€ | Boia, válvula, vedante |
-| Instalação de máquina lavar | a partir de 50€ | Ligação água + esgoto |
-| Casa de banho completa | a partir de 800€ | Canalização + louças + torneiras |
-| Canalização nova (PPR/multicamada) | orçamento | Conforme metragem |
-| Substituição canos chumbo | orçamento | Casas antigas, saúde pública |
-| Impermeabilização terraço | a partir de 300€ | Membrana + acabamento |
+### Equipamento profissional utilizado
 
-### Serviços Especializados
-| Serviço | Preço | Detalhes |
-|---------|-------|---------|
-| Instalação sistema de rega | a partir de 200€ | Jardins e hortas |
-| Preparação canalização inverno | a partir de 80€ | Isolamento + drenagem |
-| Descongelamento de canos | a partir de 60€ | Método seguro, sem chama |
-| Instalação bomba de pressão | a partir de 150€ | Para casas com pressão fraca |
+Ridgid K-6200, câmara de inspeção HD, câmara térmica FLIR, máquina desentupimento profissional
 
----
+### Zonas de intervenção (rayon 100km depuis Macedo de Cavaleiros)
 
-## Tabela de Deslocação
-| Zona | Cidades | Preço | Tempo |
-|------|---------|-------|-------|
-| Zona 1 | Trás-os-Montes | 15€ | 15-30 min |
-| Zona 2 | Mirandela, Vila Flor, Alfândega da Fé, Carrazeda de Ansiães | 20€ | 30-45 min |
-| Zona 3 | Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta | 30€ | 45-60 min |
-| Zona 4 | Miranda do Douro, Vila Nova de Foz Côa, São João da Pesqueira, Murça, Valpaços | 35€ | 45-60 min |
-| Zona 5 | Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego, Santa Marta de Penaguião, Mesão Frio | 45€ | 60-90 min |
-| Zona 6 | Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono | 50€ | 60-90 min |
+- **Z1 (15€)**: Macedo de Cavaleiros, Mirandela
+- **Z2 (25€)**: Bragança, Mogadouro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães
+- **Z3 (35€)**: Chaves, Vila Real, Torre de Moncorvo, Vinhais, Vimioso, Freixo de Espada à Cinta
+- **Z4 (45€)**: Valpaços, Montalegre, Régua, Miranda do Douro, Foz Côa, Pesqueira, Murça
+- **Z5 (55€)**: Lamego, Mesão Frio, Sabrosa, Alijó, Tabuaço, Armamar, Sta. Marta de Penaguião
+- **Z6 (65€)**: Outras localidades no raio de 100km
 
-Urgências noturnas (20h-8h) e fins de semana: acréscimo de 50%.
+## Preços (regra oficial — fonte única de verdade)
 
----
+## Preços (regra oficial)
 
-## Equipamento Profissional
-- **Ridgid FlexShaft K9-102**: desentupimento mecânico industrial — resolve 95% dos entupimentos sem químicos
-- **Câmara CCTV**: inspeção interior de canos em tempo real — vê o problema antes de intervir
-- **Câmara térmica FLIR**: deteção de fugas ocultas sem demolição — localiza fugas atrás de paredes e pavimentos
-- **Kit fluorosceína UV**: deteção de fugas em pavimentos radiantes e piscinas — método não invasivo
-- **Manómetro digital**: teste de pressão de rede — verifica estanquidade da canalização
-- **Bomba de teste de pressão**: verificação de estanquidade após reparação
-- **Equipamento de soldadura PPR e multicamada**: instalação de canalização nova
+- **Desde 65€/h** (canalização)
+- **Desde 70€/h** (eletricidade)
+- **+50%** noites, fins de semana e feriados
+- **Deslocação** por zona Z1-Z6 = 15€-65€ (Z1 Macedo, Z6 raio 100km)
 
----
 
-## Perguntas Frequentes Completas
+Notas importantes sobre os preços:
+- Os preços anunciados ao telefone são os preços finais (sem surpresas)
+- Materiais são faturados à parte conforme necessário
+- Pagamento: dinheiro, multibanco, MB Way, transferência bancária
+- Para projetos acima de 200€: pagamento em 2x sem juros possível
+- Para projetos acima de 500€: plano de pagamento personalizado possível
 
-### Preços e Orçamentos
-**Quanto custa um canalizador em Trás-os-Montes?**
-Reparações simples (torneira, autoclismo): 30-60€ + deslocação. Desentupimentos: 60-150€. Deteção de fugas: 80-120€. Remodelação casa de banho: 800-3.000€. Orçamento gratuito por telefone ou WhatsApp.
+## Canalizador (Plombier): perguntas frequentes (Q&A)
 
-**Cobram deslocação?**
-Sim, conforme a zona (15-50€). A deslocação é cobrada uma vez, independentemente da duração do trabalho.
+**P: Vocês atendem urgências?**
+R: Sim, atendimento 24h/7d incluindo noites, fins de semana e feriados. Para emergências, deslocação prioritária.
 
-**Aceitam pagamento em prestações?**
-Para trabalhos acima de 500€, oferecemos pagamento em 2-3 prestações sem juros.
+**P: Qual o preço por hora?**
+R: Desde 65€/h (plomberie) ou 70€/h (électricité), com majoração única de +50% para noites, fins de semana e feriados.
 
-### Urgências
-**Quanto tempo demora a chegar a uma urgência?**
-Zona 1 (Macedo): 15-30 min. Zona 2 (Mirandela): 30-45 min. Zona 3 (Bragança): 45-60 min. Respondemos ao telefone Resposta rápida garantida.
+**P: Como funciona a deslocação?**
+R: A deslocação é cobrada conforme a zona Z1-Z6, entre 15€ e 65€. Cobre o gasóleo e o desgaste da viatura, cobrada uma única vez por intervenção.
 
-**Atendem de noite e fins de semana?**
-Sim, 24h/7d incluindo feriados. Urgências noturnas e fins de semana têm acréscimo de 50%.
+**P: Os técnicos são certificados?**
+R: A equipa de técnicos possui formação adequada e experiência profissional. Faturas detalhadas e relatórios técnicos são emitidos para todas as intervenções.
 
-### Desentupimentos
-**Fazem desentupimentos sem partir chão ou azulejos?**
-Sim. O equipamento Ridgid FlexShaft K9-102 desentope mecanicamente sem demolição. A câmara CCTV permite ver o interior dos canos antes e depois.
+**P: Emitem fatura válida para seguro?**
+R: Sim, sempre. Fatura detalhada + relatório técnico com fotos quando aplicável. Documento válido para companhias de seguro e licenciamento.
 
-**Os químicos de supermercado funcionam?**
-Podem resolver entupimentos ligeiros, mas danificam os canos a longo prazo (especialmente PVC). O desentupimento mecânico é mais eficaz e seguro.
+**P: Trabalham ao fim de semana?**
+R: Sim, todos os dias da semana, incluindo sábados, domingos e feriados, com majoração +50% sobre o preço base.
 
-### Fugas de Água
-**Como detetam fugas sem partir paredes?**
-Usamos câmara térmica FLIR (deteta diferenças de temperatura causadas pela água) e câmara CCTV (inspeção interior dos canos). Só partimos onde é estritamente necessário.
+**P: Qual a zona de cobertura?**
+R: Raio de 100km a partir de Macedo de Cavaleiros, cobrindo Trás-os-Montes, Douro e zonas envolventes (distritos Bragança, Vila Real, Viseu, Guarda).
 
-**Quem paga a reparação de uma fuga entre vizinhos?**
-Segundo a lei portuguesa, o proprietário do apartamento onde está a origem da fuga é responsável. Fazemos relatório técnico para ajudar na resolução.
+**P: Que equipamento profissional utilizam?**
+R: Ridgid K-6200, câmara de inspeção HD, câmara térmica FLIR, máquina desentupimento profissional. Equipamento profissional para diagnóstico preciso e rápido.
 
-**A conta de água subiu muito — pode ser fuga?**
-Sim. Feche todas as torneiras e verifique se o contador continua a andar. Se sim, tem fuga. Contacte-nos para deteção profissional.
+**P: Como pedir orçamento?**
+R: Ligue +351 928 484 451 para orçamento gratuito por telefone. Confirmamos o preço antes de intervir. Para emergências, deslocação prioritária.
 
-### Esquentadores
-**Qual a diferença entre esquentador e termoacumulador?**
-Esquentador: aquece água instantaneamente (gás), mais económico no dia-a-dia. Termoacumulador: armazena água quente (elétrico), mais simples de instalar. Aconselhamos conforme a situação da casa.
+**P: Qual o horário de atendimento?**
+R: 24h por dia, 7 dias por semana, incluindo noites, domingos e feriados.
 
-**O esquentador não acende — o que fazer?**
-Causa mais comum: pilhas gastas (40% dos casos). Verifique também: gás disponível, válvulas abertas, caudal suficiente. Se nada resolve, chame um técnico.
+**P: Aceitam pagamento em prestações?**
+R: Para projetos acima de 200€, aceitamos pagamento em 2x sem juros. Para projetos acima de 500€, plano de pagamento personalizado possível.
 
-**De quanto em quanto tempo fazer manutenção ao esquentador?**
-Idealmente a cada 2 anos. Em zonas com água calcária (como partes de Trás-os-Montes), anualmente.
+**P: Oferecem desconto para clientes regulares?**
+R: Sim. Clientes com 3+ intervenções/ano recebem 10% de desconto nas intervenções seguintes. Condições especiais para condomínios e empresas.
 
-### Casas Antigas
-**Os canos de chumbo são perigosos?**
-Sim. Muitas casas antigas em Trás-os-Montes ainda têm canos de chumbo que contaminam a água potável. A OMS recomenda substituição. Fazemos avaliação gratuita.
+## Canalizador (Plombier): conselhos práticos
 
-**Como saber se a minha casa tem canos de chumbo?**
-Canos de chumbo são cinzentos, macios (riscam com unha) e têm juntas arredondadas. Se a casa é anterior a 1980, é provável. Podemos verificar gratuitamente.
+- Para fugas: feche o contador geral antes de nos contactar
+- Para curto-circuitos: desligue o disjuntor geral e isole o circuito afetado
+- Para entupimentos: evite usar produtos químicos agressivos antes da nossa chegada
+- Para caldeiras/esquentadores: verifique a pressão e a ventilação antes de contactar
 
-### Inverno em Trás-os-Montes
-**Como proteger os canos do gelo?**
-Isolar tubagens expostas com espuma térmica, deixar torneira a pingar em noites muito frias (-5°C ou menos), drenar canalização de casas desocupadas. Fazemos preparação completa para inverno.
+## Contactos
 
-**O cano congelou — o que fazer?**
-NÃO use chama ou água a ferver (pode rebentar). Use secador de cabelo ou toalhas quentes. Se não resolver, chame-nos — temos método seguro de descongelamento.
+## Contactos
+
+- **Norte Reparos** (marca única)
+- **Plomberie** (canalizador): +351 928 484 451
+- **Électricité** (eletricista): +351 932 321 892
+- Atendimento 24h/7d (zona Trás-os-Montes, Portugal)
+
+
+- **Site principal:** https://canalizador-norte-reparos.pt
+- **Sitemap:** https://canalizador-norte-reparos.pt/sitemap.xml
+
+## Sitemap index
+
+URLs prioritárias incluídas no sitemap:
+- Home page
+- Páginas de serviços especializados
+- Páginas de zonas de intervenção
+- Páginas de FAQ por cidade
+- Artigos de blog técnico
+- Páginas de contacto e orçamento
+
+## Notas técnicas (para indexadores)
+
+- Idioma: Português (Portugal) — pt-PT
+- Schema.org: LocalBusiness, Plumber ou Electrician, Service, FAQPage
+- Marcação canónica com hreflang para SEO internacional
+- Recursos premium: páginas AMP-like para mobile, JSON-LD estruturado
+- Tempo de resposta: comunicação rápida por telefone para emergências
+
+## Política de uso
+
+- Marcação: Nordeste Portugal, raio 100km
+- Sem entrega de serviço fora desta zona
+- Sem parcerias de sub-contratação
+- Trabalhos executados pela equipa interna
 
 ---
 
-## Serviços B2B
-
-### Restauração e Hotelaria
-Urgências 24h para restaurantes (entupimento durante serviço = perda de receita). Manutenção preventiva para hotéis e turismo rural. Instalação de cozinhas industriais. Contratos de manutenção semestral/anual.
-
-### Condomínios e Gestores de Imóveis
-Reparação de redes comuns (colunas de água, esgotos). Deteção de fugas entre apartamentos (relatório técnico incluído). Parcerias com imobiliárias para remodelação. Orçamentos para assembleias de condomínio.
-
-### Turismo Rural
-Trás-os-Montes tem dezenas de casas de turismo rural. Problemas de canalização com hóspedes = urgência máxima. Oferecemos contratos de manutenção preventiva (verificação semestral) e resposta urgente 24h.
-
----
-
-## Comparativos Detalhados
-
-### Esquentador vs Termoacumulador
-| Critério | Esquentador | Termoacumulador |
-|----------|-------------|-----------------|
-| Energia | Gás (natural ou botija) | Eletricidade |
-| Aquecimento | Instantâneo | Acumulação (2-4h para 80L) |
-| Custo mensal | ~15-25€/mês | ~25-40€/mês |
-| Instalação | Precisa de chaminé/exaustão | Qualquer local com tomada |
-| Manutenção | Anual recomendada | A cada 2-3 anos |
-| Duração | 10-15 anos | 8-12 anos |
-| Ideal para | Famílias com uso frequente | Casas sem gás, T1-T2 |
-
-### Tubos PPR vs Multicamada vs Cobre
-| Critério | PPR | Multicamada | Cobre |
-|----------|-----|-------------|-------|
-| Preço/metro | 2-4€ | 3-6€ | 8-15€ |
-| Durabilidade | 50+ anos | 50+ anos | 50+ anos |
-| Instalação | Soldadura térmica | Cravar (rápida) | Soldadura (lenta) |
-| Calcário | Não acumula | Não acumula | Pode acumular |
-| Flexibilidade | Rígido | Semi-flexível | Rígido |
-| Ideal para | Obra nova | Remodelação | Gás, exterior |
-
----
-
-## Contexto Local — Trás-os-Montes
-
-### Clima e Impacto na Canalização
-- Invernos rigorosos: -5°C a -10°C frequentes entre dezembro e fevereiro
-- Canos congelados são problema real e frequente (não é teoria)
-- Verões quentes: consumo de água aumenta, pressão da rede diminui
-- Trovoadas de verão: podem afetar bombas de água elétricas
-
-### Particularidades das Casas
-- Casas antigas em granito: passagem de tubagens é desafiante
-- Canalização em chumbo ou ferro galvanizado em casas pré-1980
-- Muitas casas com fossas sépticas (zonas rurais sem rede de esgotos)
-- Água calcária em algumas zonas: depósitos nos canos e esquentadores
-- Pressão de rede variável em aldeias e freguesias remotas
-
-### Região Fronteiriça
-- Fronteira com Espanha (Zamora) a menos de 100km
-- Atendemos clientes espanhóis com residências secundárias na região
-- Comunicamos em português e espanhol
-
----
-
-## Informação Legal e Garantias
-- Garantia de 2 anos em todos os trabalhos
-- Materiais certificados de primeira qualidade (PPR, multicamada)
-- IVA: taxa reduzida de 6% em reparações de habitação própria e permanente
-- Seguro de responsabilidade civil profissional
-- Relatórios técnicos para seguradoras e condomínios
-- Formas de pagamento: dinheiro, Multibanco, MB Way, transferência bancária
-- Pagamento em prestações para trabalhos acima de 500€
-
----
-
-## Páginas Úteis no Website
-- Homepage: https://norte-reparos.com
-- Áreas de Atuação: https://norte-reparos.com/areas-atuacao
-- Pedir Orçamento: https://norte-reparos.com/orcamento
-- Equipa e Certificações: https://norte-reparos.com/equipa-certificacoes
-- Blog (267 artigos): https://norte-reparos.com/blog
-- Urgências 24h: https://norte-reparos.com/urgencias-24h
-- Simulador de Preço: https://norte-reparos.com/simulador-preco
+© 2026 Norte Reparos — Todos os direitos reservados

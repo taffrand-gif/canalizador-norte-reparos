@@ -92,7 +92,7 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  Guia completo com preços reais em Trás-os-Montes.
  </p>
  <div className="flex items-center gap-6 mt-6 text-sm text-gray-500">
- <span>8 min leitura</span>
+ <span>resposta prioritária leitura</span>
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
@@ -205,9 +205,9 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </thead>
  <tbody className="divide-y divide-gray-200">
  {[
- { avaria: "Trocar pilhas", custo: "5-10€", tempo: "5 min" },
- { avaria: "Limpar queimador", custo: "50-70€", tempo: "30-45 min" },
- { avaria: "Trocar termóstato", custo: "60-90€", tempo: "45-60 min" },
+ { avaria: "Trocar pilhas", custo: "5-10€", tempo: "resposta prioritária" },
+ { avaria: "Limpar queimador", custo: "50-70€", tempo: "30-resposta prioritária" },
+ { avaria: "Trocar termóstato", custo: "60-90€", tempo: "45-resposta prioritária" },
  { avaria: "Substituir membrana", custo: "70-100€", tempo: "1h" },
  { avaria: "Trocar válvula gás", custo: "80-120€", tempo: "1-1.5h" },
  { avaria: "Arranjar permutador", custo: "120-180€", tempo: "2h" }

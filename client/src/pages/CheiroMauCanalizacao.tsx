@@ -54,7 +54,7 @@ export default function CheiroMauCanalizacao() {
  whatsappMessage="Olá! Tenho cheiro mau na canalização. Preciso de ajuda!"
  ctaPrimary="ELIMINAR CHEIRO AGORA"
  ctaSecondary="WhatsApp Urgente"
- responseTime="30 minutos"
+ responseTime="resposta prioritária"
  />
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Viver"
@@ -94,25 +94,25 @@ export default function CheiroMauCanalizacao() {
  guaranteeText="Eliminamos o cheiro ou não paga. Garantia 30 dias."
  steps={[
  {
- time: '0-10 min',
+ time: '0-resposta prioritária',
  title: 'Liga e Descreve',
  description: 'Atendemos, fazemos perguntas sobre o cheiro (onde, quando, tipo). Já temos pistas da origem.',
  icon: 'phone'
  },
  {
- time: '10-40 min',
+ time: '10-resposta prioritária',
  title: 'Chegamos e Investigamos',
  description: 'Técnico chega com equipamento de deteção. Inspecionamos todos os pontos de canalização.',
  icon: 'map'
  },
  {
- time: '40-70 min',
+ time: '40-resposta prioritária',
  title: 'Identificamos e Resolvemos',
  description: 'Encontramos a origem (sifão seco, entupimento, falta ventilação). Arranjamos ou limpamos.',
  icon: 'wrench'
  },
  {
- time: '70-90 min',
+ time: '70-resposta prioritária',
  title: 'Cheiro Eliminado',
  description: 'Testamos, desinfetamos, ventilamos. Cheiro desaparece. Damos dicas de prevenção.',
  icon: 'check'
@@ -128,7 +128,7 @@ export default function CheiroMauCanalizacao() {
  city: 'Bragança',
  problem: 'Cheiro mau casa de banho',
  solution: 'Cheiro horrível há semanas. Tentei tudo, nada funcionou. Descobriram que o sifão estava seco. Encheram, explicaram. Cheiro desapareceu! Simples assim.',
- timeframe: '45 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -164,7 +164,7 @@ export default function CheiroMauCanalizacao() {
  city: 'Trás-os-Montes',
  problem: 'Cheiro insuportável',
  solution: 'Não conseguia receber visitas. Vergonha total. Vieram, encontraram o problema (sifão partido), substituíram. Casa cheira bem agora. Muito obrigada!',
- timeframe: '50 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },

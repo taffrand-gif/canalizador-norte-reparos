@@ -42,7 +42,7 @@ function WhyDifferent() {
  icon: '🚫',
  title: 'Não Atende Urgência Noite',
  others: '24h falso, não atende depois 22h',
- us: 'Telefone 24h REAL + WhatsApp <5min',
+ us: 'Telefone 24h REAL + WhatsApp <resposta prioritária',
  value: 'Economiza €200 (urgência real)'},
  {
  icon: '🏠',

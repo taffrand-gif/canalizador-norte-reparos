@@ -16,7 +16,7 @@ export default function TransparencePrix() {
  {
  title: "Pequena Arranjo",
  price: "35€ - 50€",
- duration: "30 min",
+ duration: "resposta prioritária",
  includes: [
  "Torneiras pingando",
  "Autoclismos com fuga",
@@ -80,11 +80,10 @@ export default function TransparencePrix() {
  ]
  }
  ];
- // Taux horaire et majorations
+ // Taux horaire et majorations (RÈGLE OFFICIELLE Philippe)
  const tauxHoraire = {
  base: "65€/hora",
- weekend: "80€/hora (sábados) | 90€/hora (domingos)",
- urgent: "+50% (noite/feriados)",
+ majoracao: "+50% (noites, fins de semana e feriados)",
  deplacement: "15€ - 65€ (conforme zona)"
  };
  // FAQ Prix
@@ -240,7 +239,7 @@ export default function TransparencePrix() {
  </div>
  </div>
  <p className="text-sm text-gray-600">
- Sábados 80€/h, Domingos/Feriados 90€/h. Mínimo 30 minutos.
+ Majoração única +50% (noites, fins de semana e feriados). Mínimo 30 minutos.
  </p>
  </div>
  <div className="bg-white p-8 rounded-xl border-4 border-gray-200">

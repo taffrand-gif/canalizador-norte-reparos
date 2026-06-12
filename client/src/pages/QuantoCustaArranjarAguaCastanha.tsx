@@ -39,14 +39,14 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  question: "Quanto tempo demora a arranjar água castanha?",
- answer: "Depende da causa: limpeza filtros 30-60 minutos, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Diagnóstico gratuito: 928 484 451"
+ answer: "Depende da causa: limpeza filtros 30-resposta prioritária, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Diagnóstico gratuito: 928 484 451"
  }
  ];
  const precos = [
  {
  servico: "Limpeza Filtros/Arejadores",
  preco: "40-60€",
- tempo: "30-60 min",
+ tempo: "30-resposta prioritária",
  descricao: "Limpeza de filtros entupidos com sedimentos ou ferrugem"
  },
  {
@@ -81,7 +81,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  causa: "Trabalhos na Rede Pública",
- solucao: "Deixar água correr 5-10 minutos (temporário)",
+ solucao: "Deixar água correr 5-resposta prioritária (temporário)",
  urgencia: "Baixa"
  },
  {
@@ -284,7 +284,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Sem compromisso sem compromisso. Atendimento 24h.
- Resposta rápida garantida-60 minutos.
+ Resposta rápida garantida-resposta prioritária.
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

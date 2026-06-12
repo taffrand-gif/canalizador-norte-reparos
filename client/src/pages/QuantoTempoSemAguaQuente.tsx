@@ -26,7 +26,7 @@ export default function QuantoTempoSemAguaQuente() {
  const faqs = [
  {
  question: "Quanto tempo fico sem água quente se esquentador avariar?",
- answer: "Avaria simples: 2-4 horas. Substituir peça: 3-6 horas. Esquentador novo: 4-8 horas. Canalizador chega em 30-45 min. Começamos arranjo imediatamente. Urgente 24h: 928 484 451"
+ answer: "Avaria simples: 2-4 horas. Substituir peça: 3-6 horas. Esquentador novo: 4-8 horas. Canalizador chega resposta prioritária. Começamos arranjo imediatamente. Urgente 24h: 928 484 451"
  },
  {
  question: "Canalizador consegue arranjar esquentador no mesmo dia?",
@@ -38,7 +38,7 @@ export default function QuantoTempoSemAguaQuente() {
  },
  {
  question: "Posso tomar banho quente hoje se esquentador avariar de manhã?",
- answer: "SIM, se ligar de manhã. Chegamos 30-45 min, arranjamos 2-4h. Se ligar 09:00, água quente 12:00-14:00. Atendemos urgências 24h: 928 484 451"
+ answer: "SIM, se ligar de manhã. Chegamos 30-resposta prioritária, arranjamos 2-4h. Se ligar 09:00, água quente 12:00-14:00. Atendemos urgências 24h: 928 484 451"
  }
  ];
  const tempos = [
@@ -48,11 +48,11 @@ export default function QuantoTempoSemAguaQuente() {
  tempo: "2-4h",
  solucao: "Reparação rápida",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 15-30 min",
- "Arranjo: 30-90 min",
- "Teste água quente: 15-30 min",
- "Verificação segurança: 15-20 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 15-resposta prioritária",
+ "Arranjo: 30-resposta prioritária",
+ "Teste água quente: 15-resposta prioritária",
+ "Verificação segurança: 15-resposta prioritária"
  ],
  urgencia: "MÉDIA",
  icon: CheckCircle
@@ -63,12 +63,12 @@ export default function QuantoTempoSemAguaQuente() {
  tempo: "3-6h",
  solucao: "Substituição peça",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 20-30 min",
- "Buscar peça (se necessário): 30-120 min",
- "Substituir peça: 45-90 min",
- "Teste completo: 30-45 min",
- "Certificar gás: 20-30 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 20-resposta prioritária",
+ "Buscar peça (se necessário): 30-resposta prioritária",
+ "Substituir peça: 45-resposta prioritária",
+ "Teste completo: 30-resposta prioritária",
+ "Certificar gás: 20-resposta prioritária"
  ],
  urgencia: "ALTA",
  icon: Wrench
@@ -79,14 +79,14 @@ export default function QuantoTempoSemAguaQuente() {
  tempo: "4-8h",
  solucao: "Instalação completa",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 20-30 min",
- "Buscar esquentador: 60-120 min",
- "Remover antigo: 30-60 min",
- "Instalar novo: 90-150 min",
- "Ligar gás + água: 45-90 min",
- "Teste segurança: 30-45 min",
- "Certificar gás: 30 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 20-resposta prioritária",
+ "Buscar esquentador: 60-resposta prioritária",
+ "Remover antigo: 30-resposta prioritária",
+ "Instalar novo: 90-resposta prioritária",
+ "Ligar gás + água: 45-resposta prioritária",
+ "Teste segurança: 30-resposta prioritária",
+ "Certificar gás: resposta prioritária"
  ],
  urgencia: "CRÍTICA",
  icon: AlertTriangle
@@ -97,12 +97,12 @@ export default function QuantoTempoSemAguaQuente() {
  tempo: "1-3h",
  solucao: "Reparação urgente",
  detalhes: [
- "Chegada URGENTE: 20-30 min",
- "Cortar gás: 5 min",
- "Localizar fuga: 15-30 min",
- "Reparar fuga: 30-90 min",
- "Teste estanquidade: 20-30 min",
- "Certificar segurança: 20 min"
+ "Chegada URGENTE: 20-resposta prioritária",
+ "Cortar gás: resposta prioritária",
+ "Localizar fuga: 15-resposta prioritária",
+ "Reparar fuga: 30-resposta prioritária",
+ "Teste estanquidade: 20-resposta prioritária",
+ "Certificar segurança: resposta prioritária"
  ],
  urgencia: "CRÍTICA",
  icon: Zap
@@ -117,29 +117,29 @@ export default function QuantoTempoSemAguaQuente() {
  {
  factor: "Disponibilidade Peça",
  impacto: "Peça comum (stock): rápido. Peça especial (encomendar): +1-2 dias",
- tempo: "+30min a +48h"
+ tempo: "+resposta prioritária a +48h"
  },
  {
  factor: "Tipo Esquentador",
  impacto: "Gás: normal. Eléctrico: mais rápido. Caldeira: mais complexo",
- tempo: "+30min a +2h"
+ tempo: "+resposta prioritária a +2h"
  },
  {
  factor: "Acessibilidade",
  impacto: "Fácil acesso: rápido. Difícil acesso (armário, exterior): mais tempo",
- tempo: "+20min a +1h"
+ tempo: "+resposta prioritária a +1h"
  },
  {
  factor: "Certificação Gás",
  impacto: "Certificação obrigatória para esquentadores gás",
- tempo: "20-30 min"
+ tempo: "20-resposta prioritária"
  }
  ];
  return (
  <>
  <Helmet>
  <title>Quanto Tempo Sem Água Quente? Esquentador Arranjado 2-4h | 928 484 451</title>
- <meta name="description" content="Quanto tempo sem água quente? Esquentador arranjado em 2-4h. Avaria simples: 2-4h, Substituir peça: 3-6h, Novo: 4-8h. Canalizador chega 30-45min. Urgente 24h: 928 484 451" />
+ <meta name="description" content="Quanto tempo sem água quente? Esquentador arranjado em 2-4h. Avaria simples: 2-4h, Substituir peça: 3-6h, Novo: 4-8h. Canalizador chega 30-resposta prioritária. Urgente 24h: 928 484 451" />
  <script type="application/ld+json">
  {JSON.stringify(schemaData)}
  </script>
@@ -158,7 +158,7 @@ export default function QuantoTempoSemAguaQuente() {
  Quanto Tempo Sem Água Quente?
  </h1>
  <p className="text-xl mb-8">
- Esquentador arranjado em 2-4 horas. Canalizador chega em 30-45 minutos.
+ Esquentador arranjado em 2-4 horas. Canalizador chega resposta prioritária.
  90% avarias resolvidas no mesmo dia. Atendimento urgente 24h.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -284,7 +284,7 @@ export default function QuantoTempoSemAguaQuente() {
  <div className="space-y-6">
  {[
  { tempo: "09:00", acao: "Liga para 928 484 451", descricao: "Sem água quente. Atendimento imediato." },
- { tempo: "09:05", acao: "Canalizador a caminho", descricao: "Confirmamos chegada em 30-45 minutos" },
+ { tempo: "09:05", acao: "Canalizador a caminho", descricao: "Confirmamos chegada resposta prioritária" },
  { tempo: "09:35", acao: "Canalizador chega", descricao: "Avaliação esquentador e diagnóstico" },
  { tempo: "09:50", acao: "Diagnóstico completo", descricao: "Identificamos problema: termopar avariado" },
  { tempo: "10:00", acao: "Início reparação", descricao: "Substituição termopar (peça em stock)" },
@@ -332,7 +332,7 @@ export default function QuantoTempoSemAguaQuente() {
  Sem Água Quente? Arranjamos em 2-4 Horas
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Canalizador chega em 30-45 minutos. 90% avarias resolvidas mesmo dia.
+ Canalizador chega resposta prioritária. 90% avarias resolvidas mesmo dia.
  Atendimento urgente 24h em Trás-os-Montes.
  </p>
  <a

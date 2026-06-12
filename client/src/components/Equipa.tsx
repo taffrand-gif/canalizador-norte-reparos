@@ -14,7 +14,7 @@ export default function Equipa() {
  desc: 'Encontramos a fuga. Abrimos APENAS onde é necessário. Sem destruição.'},
  {
  icon: <Clock className="w-10 h-10" />,
- stat: '40 min',
+ stat: 'resposta prioritária',
  label: 'Chegada a Bragança',
  desc: 'Às 3h da manhã no Natal em Bragança. Atendemos. Sempre.'},
  {

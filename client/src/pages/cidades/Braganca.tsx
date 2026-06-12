@@ -109,7 +109,7 @@ document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domic
  const faqs = [
  {
  question: "Qual o custo de deslocação a Bragança?",
- answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente 40 minutos. Inclui todo o concelho."
+ answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente resposta prioritária. Inclui todo o concelho."
  },
  {
  question: "Fazem urgências Atendimento 24h/7d em Bragança?",

@@ -10,7 +10,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ', // Placeholder - replace with real video
  keywords: ['fuga água', 'câmara térmica', 'FLIR', 'deteção fugas', 'tecnologia'],
  uploadDate: '2026-03-03',
- transcript: 'Olá, sou técnico da Norte Reparos. Hoje vou mostrar como detetamos fugas de água sem partir paredes usando câmara térmica FLIR. Esta tecnologia permite ver diferenças de temperatura através das paredes. Água fria ou quente cria padrões térmicos visíveis. Em 15-30 minutos identificamos a localização exata da fuga. Poupa tempo, dinheiro e evita obras desnecessárias.'
+ transcript: 'Olá, sou técnico da Norte Reparos. Hoje vou mostrar como detetamos fugas de água sem partir paredes usando câmara térmica FLIR. Esta tecnologia permite ver diferenças de temperatura através das paredes. Água fria ou quente cria padrões térmicos visíveis. Em 15-resposta prioritária identificamos a localização exata da fuga. Poupa tempo, dinheiro e evita obras desnecessárias.'
  },
  {
  id: 'leak-detection-uv',
@@ -34,7 +34,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['teste pressão', 'fuga água', 'estanquidade', 'diagnóstico'],
  uploadDate: '2026-03-03',
- transcript: 'O teste de pressão é essencial para confirmar fugas. Fechamos todas as saídas e pressurizamos o sistema. Se a pressão cai, há fuga. Medimos a taxa de perda para estimar gravidade. Teste dura 15-30 minutos e é 100% preciso.'
+ transcript: 'O teste de pressão é essencial para confirmar fugas. Fechamos todas as saídas e pressurizamos o sistema. Se a pressão cai, há fuga. Medimos a taxa de perda para estimar gravidade. Teste dura 15-resposta prioritária e é 100% preciso.'
  },
 
  // Electrical Safety (3 videos)
@@ -130,13 +130,13 @@ export const videoData = [
  id: 'process-emergency-call',
  category: 'service-process',
  title: 'O Que Acontece Quando Liga para Urgência',
- description: 'Passo a passo do nosso serviço de urgência 24h: atendimento em 5min, diagnóstico por telefone, chegada em 30-60min.',
+ description: 'Passo a passo do nosso serviço de urgência 24h: atendimento resposta prioritária, diagnóstico por telefone, chegada resposta prioritária.',
  duration: 50,
  thumbnailUrl: '/images/ai-generated/testimonials/testimonials-001.jpg',
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['urgência', 'atendimento', 'processo', '24h'],
  uploadDate: '2026-03-03',
- transcript: 'Liga para urgência. Atendemos Resposta rápida garantida, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada em 30-60 minutos conforme zona. Diagnóstico no local, orçamento transparente, arranjo imediata se aprovar.'
+ transcript: 'Liga para urgência. Atendemos Resposta rápida garantida, 24h por dia. Fazemos diagnóstico inicial por telefone. Técnico sai imediatamente com equipamento necessário. Chegada resposta prioritária conforme zona. Diagnóstico no local, orçamento transparente, arranjo imediata se aprovar.'
  },
  {
  id: 'process-quote',
@@ -186,7 +186,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['Ridgid', 'desentupimento', 'equipamento profissional'],
  uploadDate: '2026-03-03',
- transcript: 'Ridgid K-6200 é máquina profissional de desentupimento. Cabo de 30 metros alcança qualquer entupimento. Desentope mecanicamente, sem químicos agressivos. Não precisa partir chão ou azulejos. Resolve 95% dos entupimentos em 30-60 minutos. Equipamento de €3000+ que concorrência não tem.'
+ transcript: 'Ridgid K-6200 é máquina profissional de desentupimento. Cabo de 30 metros alcança qualquer entupimento. Desentope mecanicamente, sem químicos agressivos. Não precisa partir chão ou azulejos. Resolve 95% dos entupimentos resposta prioritária. Equipamento de €3000+ que concorrência não tem.'
  },
  {
  id: 'equipment-flir',
@@ -230,7 +230,7 @@ export const videoData = [
  id: 'success-hotel',
  category: 'customer-success',
  title: 'Hotel com Fuga Misteriosa Resolvida',
- description: 'Hotel rural com fuga que ninguém encontrava. Câmara térmica FLIR identificou em 15min. Arranjo sem partir paredes.',
+ description: 'Hotel rural com fuga que ninguém encontrava. Câmara térmica FLIR identificou resposta prioritária. Arranjo sem partir paredes.',
  duration: 50,
  thumbnailUrl: '/images/ai-generated/testimonials/testimonials-002.jpg',
  youtubeId: 'dQw4w9WgXcQ',

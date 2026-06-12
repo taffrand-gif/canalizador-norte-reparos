@@ -18,7 +18,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  DIY Fácil
  </span>
- <span>⏱️ 10 min de leitura</span>
+ <span>⏱️ resposta prioritária de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -37,13 +37,13 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-900 font-semibold text-lg">
- 💡 Limpar sifão entupido é tarefa simples que demora 15 minutos. Evite chamar canalizador e poupe 60-100€!
+ 💡 Limpar sifão entupido é tarefa simples que demora resposta prioritária. Evite chamar canalizador e poupe 60-100€!
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Sifão entupido é problema comum que causa mau cheiro e água a escoar lentamente.
  Neste guia completo, vamos mostrar-lhe como limpar o sifão corretamente em apenas
- 15 minutos, com ferramentas que já tem em casa.
+ resposta prioritária, com ferramentas que já tem em casa.
  </p>
  </div>
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
@@ -176,7 +176,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  <div>
  <p className="font-bold text-blue-900">Para calcário:</p>
- <p className="text-blue-800 text-sm">Vinagre branco puro (deixe atuar 30 minutos)</p>
+ <p className="text-blue-800 text-sm">Vinagre branco puro (deixe atuar resposta prioritária)</p>
  </div>
  </div>
  </div>
@@ -185,7 +185,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📝 Limpeza Passo a Passo</h2>
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
- ⏱️ Tempo total: 15-20 minutos | Dificuldade: ⭐ (Muito Fácil)
+ ⏱️ Tempo total: 15-resposta prioritária | Dificuldade: ⭐ (Muito Fácil)
  </p>
  </div>
  <div className="space-y-8">
@@ -298,8 +298,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Lave o sifão com água quente corrente</li>
  <li>Adicione detergente da loiça</li>
  <li>Esfregue interior com escova (chegue a todos os cantos)</li>
- <li>Para gordura persistente: use bicarbonato + vinagre (deixe 10 min)</li>
- <li>Para calcário: mergulhe em vinagre puro (30 minutos)</li>
+ <li>Para gordura persistente: use bicarbonato + vinagre (deixe resposta prioritária)</li>
+ <li>Para calcário: mergulhe em vinagre puro (resposta prioritária)</li>
  <li>Enxague abundantemente com água quente</li>
  <li>Verifique que está completamente limpo</li>
  </ol>
@@ -390,7 +390,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ol className="text-gray-600 text-sm space-y-2 list-decimal pl-4">
  <li>Deixe balde debaixo do sifão</li>
  <li>Abra a torneira lentamente</li>
- <li>Deixe água correr 1-2 minutos</li>
+ <li>Deixe água correr 1-resposta prioritária</li>
  <li>Verifique todas as junções (não deve pingar)</li>
  <li>Se pingar: aperte ligeiramente a porca dessa junção</li>
  <li>Encha o lavatório e esvazie de uma vez (teste pressão)</li>
@@ -479,7 +479,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• 100g bicarbonato + 100ml vinagre</li>
- <li>• Deixe atuar 30 minutos</li>
+ <li>• Deixe atuar resposta prioritária</li>
  <li>• Enxague com água quente</li>
  <li>• Faça mensalmente</li>
  </ul>
@@ -517,7 +517,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Previne acumulação excessiva</li>
  <li>• Deteta problemas precocemente</li>
  <li>• Prolonga vida útil da canalização</li>
- <li>• Demora 15 minutos por sifão</li>
+ <li>• Demora resposta prioritária por sifão</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -546,7 +546,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>• Água escoa sempre rapidamente</li>
  <li>• Casa de banho sempre funcional</li>
  <li>• Menos stress e preocupações</li>
- <li>• Investimento: 10 minutos/mês</li>
+ <li>• Investimento: resposta prioritária/mês</li>
  </ul>
  </div>
  </div>
@@ -677,13 +677,13 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <strong>Tempo por tipo de limpeza:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Limpeza rápida (primeira vez):</strong> 15-20 minutos</li>
- <li>• <strong>Limpeza regular (experiente):</strong> 10-12 minutos</li>
- <li>• <strong>Limpeza profunda (muito sujo):</strong> 25-30 minutos</li>
- <li>• <strong>Com substituição de juntas:</strong> +5 minutos</li>
+ <li>• <strong>Limpeza rápida (primeira vez):</strong> 15-resposta prioritária</li>
+ <li>• <strong>Limpeza regular (experiente):</strong> 10-resposta prioritária</li>
+ <li>• <strong>Limpeza profunda (muito sujo):</strong> 25-resposta prioritária</li>
+ <li>• <strong>Com substituição de juntas:</strong> +resposta prioritária</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
- ✅ Investimento de 15 minutos poupa 60-100€ de canalizador
+ ✅ Investimento de resposta prioritária poupa 60-100€ de canalizador
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -726,7 +726,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Intervenção Rápida</p>
- <p className="text-sm text-white/80">Resposta rápida garantida-60 minutos</p>
+ <p className="text-sm text-white/80">Resposta rápida garantida-resposta prioritária</p>
  </div>
  </div>
  <div className="flex items-start gap-3">

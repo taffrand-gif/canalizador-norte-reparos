@@ -269,7 +269,7 @@ export default function AnalyticsDashboard() {
  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
  <span className="font-bold text-blue-600">{index + 1}</span>
  </div>
- <div className="flex-1 min-w-0">
+ <div className="flex-resposta prioritária-w-0">
  <p className="font-semibold text-gray-900 truncate">{page.path}</p>
  <p className="text-sm text-gray-600">
  {page.views} views • {page.conversions} conversões

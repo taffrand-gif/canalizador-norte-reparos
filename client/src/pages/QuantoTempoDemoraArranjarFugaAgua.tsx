@@ -26,57 +26,57 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  const faqs = [
  {
  question: "Quanto tempo demora arranjar fuga de água pequena?",
- answer: "Fuga pequena (torneira, autoclismo): 30 minutos a 1 hora. Inclui: chegada canalizador (30-45 min), diagnóstico (5-10 min), arranjo (15-30 min). Total desde chamada: 1h15 a 2h. Urgente 24h: 928 484 451"
+ answer: "Fuga pequena (torneira, autoclismo): resposta prioritária a 1 hora. Inclui: chegada canalizador (30-resposta prioritária), diagnóstico (5-resposta prioritária), arranjo (15-resposta prioritária). Total desde chamada: 1h15 a 2h. Urgente 24h: 928 484 451"
  },
  {
  question: "Quanto tempo demora arranjar fuga de água na parede?",
- answer: "Fuga na parede: 2 a 6 horas. Inclui: detecção exacta (30-60 min), abrir parede (30-60 min), arranjar cano (30-90 min), fechar parede (60-120 min). Pode precisar 2 visitas se precisa secar parede."
+ answer: "Fuga na parede: 2 a 6 horas. Inclui: detecção exacta (30-resposta prioritária), abrir parede (30-resposta prioritária), arranjar cano (30-resposta prioritária), fechar parede (60-resposta prioritária). Pode precisar 2 visitas se precisa secar parede."
  },
  {
  question: "Canalizador demora quanto tempo a chegar?",
- answer: "Urgente 24h: 30-45 minutos em Trás-os-Montes. Horário normal: 1-3 horas. Marcação: mesmo dia ou dia seguinte. Atendemos chamadas urgentes imediatamente: 928 484 451"
+ answer: "Urgente 24h: 30-resposta prioritária em Trás-os-Montes. Horário normal: 1-3 horas. Marcação: mesmo dia ou dia seguinte. Atendemos chamadas urgentes imediatamente: 928 484 451"
  },
  {
  question: "Quanto tempo fico sem água durante arranjo?",
- answer: "Depende: fuga pequena 15-30 min sem água, fuga média 1-2h, fuga grande 2-4h. Avisamos antes de cortar água. Trazemos água emergência se necessário (bebés, idosos)."
+ answer: "Depende: fuga pequena 15-resposta prioritária sem água, fuga média 1-2h, fuga grande 2-4h. Avisamos antes de cortar água. Trazemos água emergência se necessário (bebés, idosos)."
  }
  ];
  const tempos = [
  {
  tipo: "Fuga Torneira/Autoclismo",
- tempo: "30min - 1h",
+ tempo: "resposta prioritária - 1h",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 5-10 min",
- "Arranjo: 15-30 min",
- "Teste: 5 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 5-resposta prioritária",
+ "Arranjo: 15-resposta prioritária",
+ "Teste: resposta prioritária"
  ],
  urgencia: "BAIXA",
- semAgua: "15-30 min",
+ semAgua: "15-resposta prioritária",
  icon: CheckCircle
  },
  {
  tipo: "Fuga Cano Visível",
  tempo: "1h - 2h",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 10-15 min",
- "Substituir troço: 30-60 min",
- "Teste pressão: 10-15 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 10-resposta prioritária",
+ "Substituir troço: 30-resposta prioritária",
+ "Teste pressão: 10-resposta prioritária"
  ],
  urgencia: "MÉDIA",
- semAgua: "45-90 min",
+ semAgua: "45-resposta prioritária",
  icon: Wrench
  },
  {
  tipo: "Fuga na Parede (Escondida)",
  tempo: "2h - 6h",
  detalhes: [
- "Chegada: 30-45 min",
- "Detecção exacta: 30-60 min",
- "Abrir parede: 30-60 min",
- "Arranjar cano: 30-90 min",
- "Fechar parede: 60-120 min"
+ "Chegada: 30-resposta prioritária",
+ "Detecção exacta: 30-resposta prioritária",
+ "Abrir parede: 30-resposta prioritária",
+ "Arranjar cano: 30-resposta prioritária",
+ "Fechar parede: 60-resposta prioritária"
  ],
  urgencia: "ALTA",
  semAgua: "2-4 horas",
@@ -86,10 +86,10 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  tipo: "Fuga Esquentador",
  tempo: "1h - 3h",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 15-30 min",
- "Arranjo/substituir peça: 30-90 min",
- "Teste segurança: 15-30 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: 15-resposta prioritária",
+ "Arranjo/substituir peça: 30-resposta prioritária",
+ "Teste segurança: 15-resposta prioritária"
  ],
  urgencia: "ALTA",
  semAgua: "1-2 horas",
@@ -99,11 +99,11 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  tipo: "Fuga Contador/Rede",
  tempo: "2h - 8h",
  detalhes: [
- "Chegada: 30-45 min",
- "Contactar empresa águas: 30-60 min",
+ "Chegada: 30-resposta prioritária",
+ "Contactar empresa águas: 30-resposta prioritária",
  "Espera corte rede: 1-4 horas",
- "Arranjo: 30-90 min",
- "Reactivação: 30-60 min"
+ "Arranjo: 30-resposta prioritária",
+ "Reactivação: 30-resposta prioritária"
  ],
  urgencia: "CRÍTICA",
  semAgua: "3-6 horas",
@@ -114,7 +114,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  {
  factor: "Gravidade da Fuga",
  impacto: "Fuga pequena: rápido. Fuga grande: mais tempo detecção + arranjo",
- tempo: "+30min a +3h"
+ tempo: "+resposta prioritária a +3h"
  },
  {
  factor: "Localização",
@@ -124,24 +124,24 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  {
  factor: "Acessibilidade",
  impacto: "Fácil acesso: rápido. Difícil acesso (sótão, cave): mais tempo",
- tempo: "+30min a +2h"
+ tempo: "+resposta prioritária a +2h"
  },
  {
  factor: "Hora do Dia",
  impacto: "Dia: normal. Noite/fim-semana: pode demorar mais chegar",
- tempo: "+15min a +1h"
+ tempo: "+resposta prioritária a +1h"
  },
  {
  factor: "Material Necessário",
  impacto: "Material comum: rápido. Material especial: pode precisar ir buscar",
- tempo: "+30min a +2h"
+ tempo: "+resposta prioritária a +2h"
  }
  ];
  return (
  <>
  <Helmet>
  <title>Quanto Tempo Demora Arranjar Fuga de Água? Tempos Reais 2026 | 928 484 451</title>
- <meta name="description" content="Quanto tempo demora arranjar fuga água? 30min-6h dependendo tipo. Canalizador chega 30-45min. Tempos reais + factores. Urgente 24h: 928 484 451" />
+ <meta name="description" content="Quanto tempo demora arranjar fuga água? resposta prioritária-6h dependendo tipo. Canalizador chega 30-resposta prioritária. Tempos reais + factores. Urgente 24h: 928 484 451" />
  <script type="application/ld+json">
  {JSON.stringify(schemaData)}
  </script>
@@ -160,8 +160,8 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  Quanto Tempo Demora Arranjar Fuga de Água?
  </h1>
  <p className="text-xl mb-8">
- Tempos reais desde chamada até conclusão: 30 minutos a 6 horas.
- Canalizador chega em 30-45 minutos. Atendimento urgente 24h.
+ Tempos reais desde chamada até conclusão: resposta prioritária a 6 horas.
+ Canalizador chega resposta prioritária. Atendimento urgente 24h.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -285,13 +285,13 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  <div className="max-w-3xl mx-auto">
  <div className="space-y-6">
  {[
- { tempo: "0 min", acao: "Liga para 928 484 451", descricao: "Atendimento imediato, explicamos o que fazer enquanto chegamos" },
- { tempo: "5 min", acao: "Canalizador a caminho", descricao: "Confirmamos chegada em 30-45 minutos" },
- { tempo: "35 min", acao: "Canalizador chega", descricao: "Avaliação visual inicial" },
- { tempo: "45 min", acao: "Diagnóstico completo", descricao: "Identificamos causa exacta e explicamos solução" },
- { tempo: "50 min", acao: "Início arranjo", descricao: "Cortamos água apenas no circuito afectado" },
- { tempo: "90 min", acao: "Arranjo concluído", descricao: "Teste de pressão e verificação sem fugas" },
- { tempo: "100 min", acao: "Limpeza e conclusão", descricao: "Deixamos tudo limpo, água restabelecida" }
+ { tempo: "resposta prioritária", acao: "Liga para 928 484 451", descricao: "Atendimento imediato, explicamos o que fazer enquanto chegamos" },
+ { tempo: "resposta prioritária", acao: "Canalizador a caminho", descricao: "Confirmamos chegada resposta prioritária" },
+ { tempo: "resposta prioritária", acao: "Canalizador chega", descricao: "Avaliação visual inicial" },
+ { tempo: "resposta prioritária", acao: "Diagnóstico completo", descricao: "Identificamos causa exacta e explicamos solução" },
+ { tempo: "resposta prioritária", acao: "Início arranjo", descricao: "Cortamos água apenas no circuito afectado" },
+ { tempo: "resposta prioritária", acao: "Arranjo concluído", descricao: "Teste de pressão e verificação sem fugas" },
+ { tempo: "resposta prioritária", acao: "Limpeza e conclusão", descricao: "Deixamos tudo limpo, água restabelecida" }
  ].map((step, index) => (
  <div key={index} className="flex gap-4">
  <div className="flex flex-col items-center">

@@ -32,7 +32,7 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Guia Completo</span>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Arranjo de Caldeira e Esquentador: Guia Completo de Manutenção</h1>
  <p className="text-xl text-gray-600">Tudo o que precisa saber sobre manutenção, arranjo e substituição de caldeiras e esquentadores em Trás-os-Montes.</p>
- <div className="mt-4 text-sm text-gray-500">Publicado em 18 de fevereiro de 2026 · Leitura de 5 minutos</div>
+ <div className="mt-4 text-sm text-gray-500">Publicado em 18 de fevereiro de 2026 · Leitura de resposta prioritária</div>
  </header>
  <section className="prose prose-lg max-w-none">
  <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Porque é Importante a Manutenção Regular?</h2>

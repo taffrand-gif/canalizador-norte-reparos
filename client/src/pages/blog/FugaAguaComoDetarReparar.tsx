@@ -18,7 +18,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">
  Urgente
  </span>
- <span>⏱️ 10 min de leitura</span>
+ <span>⏱️ resposta prioritária de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -238,8 +238,8 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Adicione 10 gotas de corante alimentar (azul ou vermelho) no autoclismo</li>
- <li>Não puxe o autoclismo durante 30 minutos</li>
- <li>Após 30 minutos, verifique a sanita</li>
+ <li>Não puxe o autoclismo durante resposta prioritária</li>
+ <li>Após resposta prioritária, verifique a sanita</li>
  <li>Se a água da sanita ficou colorida, tem fuga na válvula</li>
  </ol>
  <div className="bg-red-50 p-4 rounded-lg">
@@ -261,7 +261,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>Fechar entrada principal de água</li>
  <li>Ligar manómetro ao sistema</li>
  <li>Pressurizar sistema (3-4 bar)</li>
- <li>Monitorizar pressão durante 15 minutos</li>
+ <li>Monitorizar pressão durante resposta prioritária</li>
  <li>Queda de pressão = fuga confirmada</li>
  </ol>
  </div>
@@ -534,7 +534,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Procure gotas, humidade ou manchas</li>
  <li>• Verifique debaixo de lavatórios e lava-loiças</li>
- <li>• Leva apenas 10 minutos</li>
+ <li>• Leva apenas resposta prioritária</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -711,9 +711,9 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a reparar uma fuga?</h3>
  <p className="text-gray-700 mb-2">Depende da complexidade:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Torneira a pingar: 15-30 minutos</li>
- <li>• Autoclismo: 30-60 minutos</li>
- <li>• Junta de cano: 20-40 minutos</li>
+ <li>• Torneira a pingar: 15-resposta prioritária</li>
+ <li>• Autoclismo: 30-resposta prioritária</li>
+ <li>• Junta de cano: 20-resposta prioritária</li>
  <li>• Fuga em parede (acessível): 2-4 horas</li>
  <li>• Fuga em parede (requer abertura): 1-2 dias</li>
  <li>• Substituição de canalização: 2-5 dias</li>
