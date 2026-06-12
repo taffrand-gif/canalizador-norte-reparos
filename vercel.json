@@ -1849,6 +1849,311 @@
       "source": "/blog/certificacao--macedo-cavaleiros-guia.html",
       "destination": "/blog/certificacao-macedo-cavaleiros-guia.html",
       "statusCode": 301
+    },
+    {
+      "source": "/canalizador-a-gudia",
+      "destination": "/canalizador-a-gudina",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alfndega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-campo-de-vboras",
+      "destination": "/canalizador-campo-de-viboras",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carrazeda-de-anciaes",
+      "destination": "/canalizador-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cerezal-de-peahorcada",
+      "destination": "/canalizador-cerezal-de-penahorcada",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-espadaedo",
+      "destination": "/canalizador-espadanedo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gensio",
+      "destination": "/canalizador-genisio",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gradssimo",
+      "destination": "/canalizador-gradissimo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-la-pea",
+      "destination": "/canalizador-la-pena",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-la-vdola",
+      "destination": "/canalizador-la-vidola",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-pedralba-de-la-pradera",
+      "destination": "/canalizador-pedralba-de-la-praderia",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-perea-de-la-ribera",
+      "destination": "/canalizador-perena-de-la-ribera",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-samir-de-los-caos",
+      "destination": "/canalizador-samir-de-los-canos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-seixo-de-anasiaes",
+      "destination": "/canalizador-seixo-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilario-de-conso",
+      "destination": "/canalizador-vilarino-de-conso",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-autoclismo-tavira",
+      "destination": "/melhor-autoclismo-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-canalizacao-nova-tavira",
+      "destination": "/melhor-canalizacao-nova-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-desentupimento-tavira",
+      "destination": "/melhor-desentupimento-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-esquentador-tavira",
+      "destination": "/melhor-esquentador-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-fossa-septica-tavira",
+      "destination": "/melhor-fossa-septica-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhor-fuga-agua-tavira",
+      "destination": "/melhor-fuga-agua-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alfndega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carrazeda-de-anciaes",
+      "destination": "/canalizador-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-seixo-de-anasiaes",
+      "destination": "/canalizador-seixo-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mós-de-celas",
+      "destination": "/canalizador-mos-de-celas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mós",
+      "destination": "/canalizador-mos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-tó",
+      "destination": "/canalizador-to",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-",
+      "destination": "/canalizador-",
+      "statusCode": 410
+    },
+    {
+      "source": "/canalizador-gallegos-del-ro",
+      "destination": "/canalizador-gallegos-del-ro",
+      "statusCode": 410
+    },
+    {
+      "source": "/canalizador-",
+      "destination": "/canalizador-",
+      "statusCode": 410
+    },
+    {
+      "source": "/amazon/detetor-fugas-agua",
+      "destination": "/amazon/detetor-fugas-agua",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/detecao-fugas-agua-macedo-cavaleiros",
+      "destination": "/blog/detecao-fugas-agua-macedo-cavaleiros",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/detecao-fugas-agua-sem-partir-paredes",
+      "destination": "/blog/detecao-fugas-agua-sem-partir-paredes",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/detecao-uv-fugas-agua-sem-partir-paredes",
+      "destination": "/blog/detecao-uv-fugas-agua-sem-partir-paredes",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/evitar-fugas-agua-prevencao",
+      "destination": "/blog/evitar-fugas-agua-prevencao",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/sinais-fugas-agua-escondidas",
+      "destination": "/blog/sinais-fugas-agua-escondidas",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-braganca",
+      "destination": "/detecao-fugas-agua-braganca",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-camera",
+      "destination": "/detecao-fugas-agua-camera",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-chaves",
+      "destination": "/detecao-fugas-agua-chaves",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-lamego",
+      "destination": "/detecao-fugas-agua-lamego",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-macedo-de-cavaleiros",
+      "destination": "/detecao-fugas-agua-macedo-de-cavaleiros",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-mirandela",
+      "destination": "/detecao-fugas-agua-mirandela",
+      "statusCode": 410
+    },
+    {
+      "source": "/detecao-fugas-agua-vila-real",
+      "destination": "/detecao-fugas-agua-vila-real",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-aguiar-da-beira",
+      "destination": "/fugas-agua-aguiar-da-beira",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-alfandega",
+      "destination": "/fugas-agua-alfandega",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-braganca",
+      "destination": "/fuga-agua-braganca",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-chaves",
+      "destination": "/fuga-agua-chaves",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-fornos-de-algodres",
+      "destination": "/fugas-agua-fornos-de-algodres",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-lamego",
+      "destination": "/fuga-agua-lamego",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-macedo",
+      "destination": "/fugas-agua-macedo",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-meda",
+      "destination": "/fuga-agua-meda",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-miranda-douro",
+      "destination": "/fuga-agua-miranda-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-mirandela",
+      "destination": "/fuga-agua-mirandela",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-mogadouro",
+      "destination": "/fuga-agua-mogadouro",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-torre-moncorvo",
+      "destination": "/fuga-agua-torre-moncorvo",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-trancoso",
+      "destination": "/fugas-agua-trancoso",
+      "statusCode": 410
+    },
+    {
+      "source": "/fugas-agua-valpacos",
+      "destination": "/fuga-agua-valpacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-vila-real",
+      "destination": "/fuga-agua-vila-real",
+      "statusCode": 301
+    },
+    {
+      "source": "/fugas-agua-vinhais",
+      "destination": "/fuga-agua-vinhais",
+      "statusCode": 301
+    },
+    {
+      "source": "/melhores-detetores-fugas-agua",
+      "destination": "/melhores-detetores-fugas-agua",
+      "statusCode": 410
+    },
+    {
+      "source": "/blog/blog-deteccao-fugas-agua-profissional",
+      "destination": "/blog/blog-deteccao-fugas-agua-profissional",
+      "statusCode": 410
     }
   ]
 }
