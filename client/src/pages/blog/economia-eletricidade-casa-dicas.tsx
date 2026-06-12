@@ -70,11 +70,11 @@ export default function EconomiaEletricidadeCasaDicas() {
  <p className="text-green-100">Auditoria energética + soluções eficientes em Trás-os-Montes</p>
  </div>
  <div className="flex gap-3">
- <a href="tel:+351932321892" className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition flex items-center gap-2">
+ <a href="tel:+351928484451" className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition flex items-center gap-2">
  <Phone className="w-5 h-5" />
  932 321 892
  </a>
- <a href="https://wa.me/351932321892" className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition flex items-center gap-2">
+ <a href="https://wa.me/351928484451" className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition flex items-center gap-2">
  <MessageCircle className="w-5 h-5" />
  WhatsApp
  </a>
@@ -335,11 +335,11 @@ export default function EconomiaEletricidadeCasaDicas() {
  Auditoria energética + instalação soluções eficientes em Bragança e Trás-os-Montes
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
- <a href="tel:+351932321892" className="bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-50 transition flex items-center justify-center gap-2">
+ <a href="tel:+351928484451" className="bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-50 transition flex items-center justify-center gap-2">
  <Phone className="w-6 h-6" />
  Ligar: 932 321 892
  </a>
- <a href="https://wa.me/351932321892?text=Olá!%20Quero%20auditoria%20energética%20e%20reduzir%20conta%20luz." className="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-600 transition flex items-center justify-center gap-2">
+ <a href="https://wa.me/351928484451?text=Olá!%20Quero%20auditoria%20energética%20e%20reduzir%20conta%20luz." className="bg-blue-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-600 transition flex items-center justify-center gap-2">
  <MessageCircle className="w-6 h-6" />
  WhatsApp
  </a>

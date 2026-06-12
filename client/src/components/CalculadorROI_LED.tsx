@@ -164,7 +164,7 @@ export default function CalculadorROI_LED({
  </div>
  {/* CTA */}
  <a
- href="https://wa.me/351932321892?text=Quero%20mudar%20para%20iluminação%20LED%20e%20poupar%20na%20conta%20de%20luz"
+ href="https://wa.me/351928484451?text=Quero%20mudar%20para%20iluminação%20LED%20e%20poupar%20na%20conta%20de%20luz"
  target="_blank"
  rel="noopener noreferrer"
  className="block w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold text-center px-6 py-4 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"

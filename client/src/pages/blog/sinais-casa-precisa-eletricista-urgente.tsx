@@ -126,13 +126,13 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
  </p>
  <div className="flex flex-col sm:flex-row gap-3">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition"
  >
- Ligar Urgente: +351 932 321 892
+ Ligar Urgente: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=URGENTE:%20Tenho%20emergência%20elétrica.%20Preciso%20de%20ajuda%20imediata."
+ href="https://wa.me/351928484451?text=URGENTE:%20Tenho%20emergência%20elétrica.%20Preciso%20de%20ajuda%20imediata."
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
@@ -389,13 +389,13 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
  </ul>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white text-lg font-bold rounded-lg hover:bg-orange-700 transition shadow-lg"
  >
- Ligar Urgente: +351 932 321 892
+ Ligar Urgente: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=URGENTE:%20Tenho%20emergência%20elétrica.%20Preciso%20de%20ajuda%20imediata."
+ href="https://wa.me/351928484451?text=URGENTE:%20Tenho%20emergência%20elétrica.%20Preciso%20de%20ajuda%20imediata."
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white text-lg font-bold rounded-lg hover:bg-green-700 transition shadow-lg"

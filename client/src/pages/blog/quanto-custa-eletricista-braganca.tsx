@@ -148,13 +148,13 @@ export default function QuantoCustaEletricistaBraganca() {
  </p>
  <div className="flex flex-col sm:flex-row gap-3">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition"
  >
- Ligar: +351 932 321 892
+ Ligar: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20orçamento%20para%20serviço%20de%20eletricista."
+ href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20orçamento%20para%20serviço%20de%20eletricista."
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
@@ -420,13 +420,13 @@ export default function QuantoCustaEletricistaBraganca() {
  </ul>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white text-lg font-bold rounded-lg hover:bg-orange-700 transition shadow-lg"
  >
- Ligar Agora: +351 932 321 892
+ Ligar Agora: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=Olá,%20preciso%20de%20orçamento%20para%20serviço%20de%20eletricista."
+ href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20orçamento%20para%20serviço%20de%20eletricista."
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white text-lg font-bold rounded-lg hover:bg-green-700 transition shadow-lg"

@@ -299,11 +299,11 @@ export default function AutomacaoResidencialGuia() {
  Peça um sem compromisso e descubra como podemos automatizar a sua casa em Trás-os-Montes.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
- <a href="tel:+351932321892" className="inline-flex items-center justify-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
+ <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-orange-500 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
  <Phone className="w-6 h-6" />
  932 321 892
  </a>
- <a href="https://wa.me/351932321892?text=Olá,%20quero%20saber%20mais%20sobre%20automação%20residencial." className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
+ <a href="https://wa.me/351928484451?text=Olá,%20quero%20saber%20mais%20sobre%20automação%20residencial." className="inline-flex items-center justify-center gap-2 bg-green-700 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-800 transition-all shadow-lg">
  💬 WhatsApp
  </a>
  </div>

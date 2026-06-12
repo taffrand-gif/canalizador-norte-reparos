@@ -210,13 +210,13 @@ export default function PoupancaLedEconomiaReal() {
  </p>
  <div className="flex flex-col sm:flex-row gap-3">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition"
  >
- Ligar: +351 932 321 892
+ Ligar: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=Olá,%20quero%20mudar%20para%20iluminação%20LED.%20Podem%20fazer%20orçamento?"
+ href="https://wa.me/351928484451?text=Olá,%20quero%20mudar%20para%20iluminação%20LED.%20Podem%20fazer%20orçamento?"
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition"
@@ -431,13 +431,13 @@ export default function PoupancaLedEconomiaReal() {
  </ul>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white text-lg font-bold rounded-lg hover:bg-orange-700 transition shadow-lg"
  >
- Ligar Agora: +351 932 321 892
+ Ligar Agora: +351 928 484 451
  </a>
  <a
- href="https://wa.me/351932321892?text=Olá,%20quero%20mudar%20para%20iluminação%20LED.%20Podem%20fazer%20orçamento?"
+ href="https://wa.me/351928484451?text=Olá,%20quero%20mudar%20para%20iluminação%20LED.%20Podem%20fazer%20orçamento?"
  target="_blank"
  rel="noopener noreferrer"
  className="inline-flex items-center justify-center px-8 py-4 bg-green-600 text-white text-lg font-bold rounded-lg hover:bg-green-700 transition shadow-lg"

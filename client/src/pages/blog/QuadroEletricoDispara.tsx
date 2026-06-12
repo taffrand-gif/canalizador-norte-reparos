@@ -965,13 +965,13 @@ const QuadroEletricoDispara: React.FC = () => {
  </div>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
- href="tel:+351932321892"
+ href="tel:+351928484451"
  className="flex-1 bg-white text-cyan-600 px-6 py-4 rounded-lg font-bold text-center hover:bg-gray-100 transition-colors text-lg"
  >
  📞 932 321 892
  </a>
  <a
- href="https://wa.me/351932321892?text=Olá,%20o%20quadro%20elétrico%20dispara%20constantemente"
+ href="https://wa.me/351928484451?text=Olá,%20o%20quadro%20elétrico%20dispara%20constantemente"
  className="flex-1 bg-green-500 text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg"
  >
  💬 WhatsApp

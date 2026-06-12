@@ -57,7 +57,7 @@ function CalculadorPreco() {
   const services = isPlumber ? servicesPlumb : servicesElec;
   const examples = isPlumber ? examplesPlumb : examplesElec;
   const phone = isPlumber ? '928 484 451' : '932 321 892';
-  const whatsapp = isPlumber ? '351928484451' : '351932321892';
+  const whatsapp = isPlumber ? '351928484451' : '351928484451';
   const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
 
   const result = useMemo(() => {

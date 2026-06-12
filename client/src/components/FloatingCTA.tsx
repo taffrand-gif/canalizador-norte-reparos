@@ -13,7 +13,7 @@ export default function FloatingCTA() {
  const [isMinimized, setIsMinimized] = useState(false);
  // Mensagem WhatsApp pré-preenchida com localização
  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
- const whatsappUrl = `https://wa.me/${config.whatsapp || '351932321892'}?text=${encodeURIComponent(whatsappMessage)}`;
+ const whatsappUrl = `https://wa.me/${config.whatsapp || '351928484451'}?text=${encodeURIComponent(whatsappMessage)}`;
  if (!isVisible) return null;
  return (
  <div id="floating-cta-react" className={`fixed bottom-4 right-4 z-50 transition-all duration-300 hidden md:block ${isMinimized ? 'w-12 h-12' : 'w-auto'}`}>
