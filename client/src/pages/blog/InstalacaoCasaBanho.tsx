@@ -258,7 +258,7 @@ export default function InstalacaoCasaBanho() {
  Precisa de Orçamento para Casa de Banho?
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
- Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Macedo de Cavaleiros</a>, 
+ Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Trás-os-Montes</a>, 
  <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
  Sem compromisso e sem compromisso.
  </p>

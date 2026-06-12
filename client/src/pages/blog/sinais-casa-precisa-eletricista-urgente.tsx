@@ -4,7 +4,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
  return (
  <>
  <Helmet>
- <title>5 Sinais Que a Sua Casa Precisa de Eletricista Urgente | Staff Seekers</title>
+ <title>5 Sinais Que a Sua Casa Precisa de Eletricista Urgente | </title>
  <meta name="description" content="Identifique os 5 sinais de perigo elétrico que exigem eletricista urgente. Proteja a sua família em Bragança. Guia completo de segurança elétrica 2026." />
  <script type="application/ld+json">
  {JSON.stringify({
@@ -372,7 +372,7 @@ export default function SinaisCasaPrecisaEletricistaUrgente() {
  <ul className="space-y-2 mb-6 text-gray-800">
  <li className="flex items-start">
  <span className="text-orange-600 mr-2">✓</span>
- <span>Disponível 24h/7 dias</span>
+ <span>Atendimento 24h/7d/7 dias</span>
  </li>
  <li className="flex items-start">
  <span className="text-orange-600 mr-2">✓</span>

@@ -382,13 +382,13 @@ export default function ProblemasCanalizacaoInverno() {
  <div className="container text-center">
  <Snowflake className="w-16 h-16 mx-auto mb-6 opacity-80" />
  <h2 className="text-3xl font-black mb-4">
- Urgências de Canalização 24/7
+ Urgências de Canalização Atendimento 24h/7d
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Atendemos urgências de inverno em <a href="/canalizador-braganca" className="underline hover:no-underline">Bragança</a>, 
  <a href="/canalizador-chaves" className="underline hover:no-underline"> Chaves</a>, 
  <a href="/canalizador-montalegre" className="underline hover:no-underline"> Montalegre</a> e toda a região. 
- Disponíveis 24 horas, incluindo fins de semana.
+ Disponíveis Atendimento 24h/7d, incluindo fins de semana.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

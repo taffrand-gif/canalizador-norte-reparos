@@ -32,7 +32,7 @@ document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domic
  metaKeywords.setAttribute('name', 'keywords');
  document.head.appendChild(metaKeywords);
  }
- metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador 24 horas bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
+ metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador Atendimento 24h/7d bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
  
  
  // Canonical URL
@@ -112,8 +112,8 @@ document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domic
  answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente 40 minutos. Inclui todo o concelho."
  },
  {
- question: "Fazem urgências 24 horas em Bragança?",
- answer: "Sim, atendemos urgências de canalização 24 horas por dia, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência imediata."
+ question: "Fazem urgências Atendimento 24h/7d em Bragança?",
+ answer: "Sim, atendemos urgências de canalização Atendimento 24h/7d, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência imediata."
  },
  {
  question: "Fornecem serviço de canalização em Bragança?",

@@ -27,7 +27,7 @@ export default function Desentupimentos() {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimentos em Trás-os-Montes",
- "description": "Serviço profissional de desentupimentos para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Urgências 24 horas.",
+ "description": "Serviço profissional de desentupimentos para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Urgências Atendimento 24h/7d.",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -97,7 +97,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupir canos, sanitas, esgotos, pias e ralos com equipamento moderno e técnicas não invasivas. 
- Urgências 24 horas, garantia no serviço e sem compromisso.
+ Urgências Atendimento 24h/7d, garantia no serviço e sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
@@ -136,7 +136,7 @@ export default function Desentupimentos() {
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Processo de Trabalho</h3>
  <ol className="space-y-4 list-decimal pl-5">
  <li><strong>Diagnóstico:</strong> Inspeção com câmaras para localizar o entupimento</li>
- <li><strong>Desentupimento:</strong> Utilização de máquinas de alta pressão (Ridgid K9-204)</li>
+ <li><strong>Desentupimento:</strong> Utilização de máquinas de alta pressão (Ridgid K9-102)</li>
  <li><strong>Limpeza:</strong> Remoção completa dos resíduos e obstruções</li>
  <li><strong>Teste:</strong> Verificação do fluxo normal da água</li>
  <li><strong>Prevenção:</strong> Recomendações para evitar futuros entupimentos</li>
@@ -212,7 +212,7 @@ export default function Desentupimentos() {
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Zonas de Atuação</h3>
  <div className="grid grid-cols-2 gap-3">
  {[
- "Macedo de Cavaleiros", "Bragança", "Mirandela", "Chaves",
+ "Trás-os-Montes", "Bragança", "Mirandela", "Chaves",
  "Valpaços", "Vinhais", "Miranda do Douro", "Mogadouro",
  "Torre de Moncorvo", "Freixo de Espada à Cinta"
  ].map((city, idx) => (
@@ -253,12 +253,12 @@ export default function Desentupimentos() {
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
  <a href="/canalizador-macedo-de-cavaleiros" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
- <div className="text-blue-600 font-bold">Macedo de Cavaleiros</div>
+ <div className="text-blue-600 font-bold">Trás-os-Montes</div>
  <div className="text-sm text-gray-600">Desentupimentos urgentes</div>
  </a>
  <a href="/canalizador-braganca" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
  <div className="text-blue-600 font-bold">Bragança</div>
- <div className="text-sm text-gray-600">Serviço 24 horas</div>
+ <div className="text-sm text-gray-600">Serviço Atendimento 24h/7d</div>
  </a>
  <a href="/canalizador-mirandela" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
  <div className="text-blue-600 font-bold">Mirandela</div>
@@ -283,7 +283,7 @@ export default function Desentupimentos() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Não que a situação piore! Contacte-nos agora para um serviço rápido e eficiente. 
- Atendemos urgências 24 horas por dia, incluindo fins de semana e feriados.
+ Atendemos urgências Atendimento 24h/7d, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">
  <a

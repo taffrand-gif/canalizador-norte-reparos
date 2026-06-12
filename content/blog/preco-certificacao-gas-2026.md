@@ -278,7 +278,7 @@ A certificação de instalações de gás é obrigatória por lei para venda e a
 
 - [Certificação Gás Obrigatória: Guia Completo](https://canalizador-norte-reparos.pt/blog/certificacao-gas-obrigatoria-quando-como)
 - [Melhores Canalizadores Bragança](https://canalizador-norte-reparos.pt/blog/melhores-canalizadores-braganca-2026)
-- [Canalizador 24 Horas: Como Funciona](https://canalizador-norte-reparos.pt/blog/canalizador-24-horas-guia-completo)
+- [Canalizador Atendimento 24h/7d: Como Funciona](https://canalizador-norte-reparos.pt/blog/canalizador-24-horas-guia-completo)
 - [Quanto Custa Mudar Canalização Antiga](https://canalizador-norte-reparos.pt/blog/quanto-custa-mudar-canalizacao-antiga-2026)
 
 ## Precisa de Certificação Gás?

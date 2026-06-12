@@ -185,7 +185,7 @@ function generateFAQs(service: any, city: any, isPlumber: boolean) {
  },
  {
  question: `Atendem em ${city.name} ao fim de semana?`,
- answer: `Sim, estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, o tempo de resposta é de 30-90 minutos.`
+ answer: `Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, o tempo de resposta é de 30-90 minutos.`
  },
  {
  question: `Quanto tempo demora a chegar a ${city.name}?`,

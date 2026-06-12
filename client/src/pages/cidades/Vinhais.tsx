@@ -64,7 +64,7 @@ export default function Vinhais() {
   const cidadesProximas = getCidadesProximas('vinhais');
   const faqs = [
     { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 110€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Vinhais?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Vinhais. Ligue +351 928 484 451." },
+    { question: "Fazem urgências em Vinhais?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vinhais. Ligue +351 928 484 451." },
     { question: "Atendem aldeias rurais de Vinhais?", answer: "Sim, servimos todo o conselho incluindo aldeias de montanha e propriedades isoladas." },
     { question: "Têm câmara termográfica?", answer: "Sim, utilizamos FLIR e geofone para deteção precisa de fugas sem demolição." },
     { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
@@ -114,7 +114,7 @@ export default function Vinhais() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
-                  <p className="text-gray-600">WC, lavatórios, fossas sépticas. Equipamento Ridgid K9-204 para desentupimentos profundos em zonas rurais.</p>
+                  <p className="text-gray-600">WC, lavatórios, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos em zonas rurais.</p>
                   <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -151,7 +151,7 @@ export default function Vinhais() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
-                <p className="text-gray-600">Ridgid K9-204, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
+                <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>

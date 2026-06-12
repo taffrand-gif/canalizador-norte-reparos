@@ -23,7 +23,7 @@ export default function StructuredData() {
  // Lista das 10 cidades servidas
  const citiesServed = [
  // Proximidade Macedo (<20km)
- "Macedo de Cavaleiros", "Alfândega da Fé", "Carrazeda de Ansiães", "Vila Flor",
+ "Trás-os-Montes", "Alfândega da Fé", "Carrazeda de Ansiães", "Vila Flor",
  // Raio 20-40km
  "Mirandela", "Bragança", "Vimioso", "Valpaços", "Murça", "Torre de Moncorvo", "Mogadouro", "Vinhais",
  // Raio 40-60km
@@ -191,7 +191,7 @@ export default function StructuredData() {
  { path: '/canalizador-chaves', city: 'Chaves' },
  { path: '/canalizador-braganca', city: 'Bragança' },
  { path: '/canalizador-mirandela', city: 'Mirandela' },
- { path: '/canalizador-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+ { path: '/canalizador-macedo-de-cavaleiros', city: 'Trás-os-Montes' },
  { path: '/canalizador-valpacos', city: 'Valpaços' },
  { path: '/canalizador-vinhais', city: 'Vinhais' },
  { path: '/canalizador-miranda-douro', city: 'Miranda do Douro' },
@@ -366,7 +366,7 @@ export default function StructuredData() {
  "name": `Qual é o horário de atendimento do ${config.serviceType}?`,
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Estamos disponíveis 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Serviço de urgência permanente."
+ "text": "Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Serviço de urgência permanente."
  }
  },
  {
@@ -418,7 +418,7 @@ export default function StructuredData() {
  { path: '/canalizador-chaves', city: 'Chaves' },
  { path: '/canalizador-braganca', city: 'Bragança' },
  { path: '/canalizador-mirandela', city: 'Mirandela' },
- { path: '/canalizador-macedo-de-cavaleiros', city: 'Macedo de Cavaleiros' },
+ { path: '/canalizador-macedo-de-cavaleiros', city: 'Trás-os-Montes' },
  { path: '/canalizador-valpacos', city: 'Valpaços' },
  { path: '/canalizador-vinhais', city: 'Vinhais' },
  { path: '/canalizador-miranda-douro', city: 'Miranda do Douro' },

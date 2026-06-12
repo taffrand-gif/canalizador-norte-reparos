@@ -135,8 +135,8 @@ export const siteConfig: SiteConfig = {
 
   // Pricing Zones - NOVA GRELHA 2026
   pricingZones: [
-    // Z1 - Macedo de Cavaleiros + redor
-    { zone: 'Z1', name: 'Macedo de Cavaleiros', cities: 'Macedo de Cavaleiros, Torre de Dona Chama', price: '15€', time: '< 30 min' },
+    // Z1 - Trás-os-Montes + redor
+    { zone: 'Z1', name: 'Trás-os-Montes', cities: 'Trás-os-Montes, Torre de Dona Chama', price: '15€', time: '< 30 min' },
     // Z2 - Mirandela, Vila Flor, Alfândega, Carrazeda
     { zone: 'Z2', name: 'Zona 2', cities: 'Mirandela, Vila Flor, Alfândega da Fé, Carrazeda de Ansiães', price: '25€', time: '< 40 min' },
     // Z3 - Bragança, Vinhais, Vimioso, Torre Moncorvo, Mogadouro, Freixo
@@ -164,14 +164,14 @@ export const siteConfig: SiteConfig = {
   seo: {
     keywords: [
       'canalizador bragança', 'canalizador mirandela', 'canalizador macedo de cavaleiros',
-      'canalizador urgente bragança', 'canalizador 24 horas mirandela', 'canalizador chaves',
+      'canalizador urgente bragança', 'canalizador Atendimento 24h/7d mirandela', 'canalizador chaves',
       'canalizador vila real', 'canalizador vinhais', 'canalizador miranda do douro',
       'canalizador mogadouro', 'canalizador torre de moncorvo', 'canalizador trás-os-montes',
       'desentupimento bragança', 'desentupimento mirandela', 'desentupir sanita bragança',
       'desentupir wc mirandela', 'fuga de água bragança', 'fuga água urgente mirandela',
       'esquentador bragança', 'esquentador mirandela', 'sanita entupida', 'wc entupido',
       'cano rebentado', 'canalizador profissional trás-os-montes',
-      'desentupimento urgente bragança', 'canalizador 24 horas mirandela', 'fuga de água urgente',
+      'desentupimento urgente bragança', 'canalizador Atendimento 24h/7d mirandela', 'fuga de água urgente',
       'cano entupido macedo de cavaleiros', 'arranjo caldeira trás-os-montes',
       'desentupir sanita preço', 'canalizador perto de mim bragança',
       'desentupimento esgotos bragança', 'arranjo autoclismo',
@@ -193,7 +193,7 @@ export const siteConfig: SiteConfig = {
     { id: '2', name: 'Maria Ferreira', location: 'Mirandela', service: 'Arranjo Fuga', rating: 5, text: 'Fuga de água resolvida no mesmo dia. Muito satisfeito.' },
     { id: '3', name: 'João Costa', location: 'Vila Real', service: 'Esquentador', rating: 5, text: 'Instalou o esquentador novo. Trabalho limpo e preço justo.' },
     { id: '4', name: 'Rosa Marques', location: 'Chaves', service: 'Canalização', rating: 5, text: 'Profissional confiável. Já recorri várias vezes.' },
-    { id: '5', name: 'Pedro Almeida', location: 'Macedo de Cavaleiros', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
+    { id: '5', name: 'Pedro Almeida', location: 'Trás-os-Montes', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
     { id: '6', name: 'Ana Rodrigues', location: 'Valpaços', service: 'Manutenção', rating: 5, text: 'Manutenção preventiva bem feita. Recomendo.' },
   ],
 
@@ -204,7 +204,7 @@ export const siteConfig: SiteConfig = {
       location: 'Bragança',
       situation: 'Cliente acordou com água a inundar a cozinha. Não sabia onde estava a fuga.',
       emotion: 'Pânico total às 3h da manhã',
-      solution: 'Chegámos em 40 minutos, detetámos a fuga com câmara e reparámos sem quebrar azulejos.'
+      solution: 'Chegámos Atendimento prioritário, detetámos a fuga com câmara e reparámos sem quebrar azulejos.'
     },
     {
       title: 'Esquentador parado em pleno inverno',

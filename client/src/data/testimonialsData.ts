@@ -21,7 +21,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  service: "Arranjo Fuga de Água",
  rating: 5,
  date: "2026-01-15",
- text: "Tive uma fuga de água grave às 23h e liguei em desespero. Chegaram em 25 minutos! Resolveram o problema rapidamente e o preço foi justo. Profissionais de confiança, recomendo sem hesitar.",
+ text: "Tive uma fuga de água grave às 23h e liguei em desespero. Chegaram Atendimento prioritário! Resolveram o problema rapidamente e o preço foi justo. Profissionais de confiança, recomendo sem hesitar.",
  verified: true
  },
  {
@@ -37,7 +37,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  {
  id: 3,
  name: "António Rodrigues",
- city: "Macedo de Cavaleiros",
+ city: "Trás-os-Montes",
  service: "Instalação Esquentador",
  rating: 5,
  date: "2026-01-08",
@@ -71,7 +71,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  service: "Desentupimento Pia",
  rating: 5,
  date: "2025-12-10",
- text: "A pia da cozinha estava completamente entupida. Tentei vários produtos mas nada funcionou. Eles vieram com equipamento profissional e resolveram em 30 minutos. Recomendo!",
+ text: "A pia da cozinha estava completamente entupida. Tentei vários produtos mas nada funcionou. Eles vieram com equipamento profissional e resolveram Atendimento prioritário. Recomendo!",
  verified: true
  },
  {
@@ -137,7 +137,7 @@ export const NORTE_REPAROS_TESTIMONIALS: Testimonial[] = [
  {
  id: 13,
  name: "José Ribeiro",
- city: "Macedo de Cavaleiros",
+ city: "Trás-os-Montes",
  service: "Desentupimento Esgoto",
  rating: 5,
  date: "2025-09-15",

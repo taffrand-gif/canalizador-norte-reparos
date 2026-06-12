@@ -79,7 +79,7 @@ export default function Valpacos() {
 
   const cidadesProximas = getCidadesProximas('valpacos');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Valpaços?', 'answer': 'Desde 110€ em Valpaços. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Valpaços?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Valpaços. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Valpaços?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Valpaços?', 'answer': 'Desde 110€ em Valpaços. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Valpaços?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Valpaços. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Valpaços?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function Valpacos() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 110€</p>
@@ -213,7 +213,7 @@ export default function Valpacos() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

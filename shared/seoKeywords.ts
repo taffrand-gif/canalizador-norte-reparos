@@ -13,15 +13,15 @@ export interface CitySEOConfig {
 
 export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'macedo-de-cavaleiros': {
- cityName: 'Macedo de Cavaleiros',
+ cityName: 'Trás-os-Montes',
  title: 'Canalizador Macedo Cavaleiros 💧 24h | 928 484 451',
- description: 'Cano rebentado em Macedo de Cavaleiros? Estamos aí em menos de 30 min. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
+ description: 'Cano rebentado em Trás-os-Montes? Estamos aí em menos de 30 min. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
  keywords: [
  'canalizador macedo de cavaleiros',
  'canalizador urgente macedo de cavaleiros',
  'desentupimentos macedo de cavaleiros',
  'arranjo fugas água macedo de cavaleiros',
- 'canalizador 24 horas macedo de cavaleiros',
+ 'canalizador Atendimento 24h/7d macedo de cavaleiros',
  'preço canalizador macedo de cavaleiros',
  'canalização nova macedo de cavaleiros',
  'arranjo esquentador macedo de cavaleiros'
@@ -37,7 +37,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente bragança',
  'desentupimentos bragança',
  'arranjo fugas água bragança',
- 'canalizador 24 horas bragança',
+ 'canalizador Atendimento 24h/7d bragança',
  'preço canalizador bragança',
  'canalização nova bragança',
  'arranjo esquentador bragança'
@@ -53,7 +53,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente mirandela',
  'desentupimentos mirandela',
  'arranjo fugas água mirandela',
- 'canalizador 24 horas mirandela',
+ 'canalizador Atendimento 24h/7d mirandela',
  'preço canalizador mirandela',
  'canalização nova mirandela',
  'arranjo esquentador mirandela'
@@ -69,7 +69,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente chaves',
  'desentupimentos chaves',
  'arranjo fugas água chaves',
- 'canalizador 24 horas chaves',
+ 'canalizador Atendimento 24h/7d chaves',
  'preço canalizador chaves',
  'canalização nova chaves',
  'arranjo esquentador chaves'
@@ -85,7 +85,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente valpaços',
  'desentupimentos valpaços',
  'arranjo fugas água valpaços',
- 'canalizador 24 horas valpaços',
+ 'canalizador Atendimento 24h/7d valpaços',
  'preço canalizador valpaços',
  'canalização nova valpaços',
  'arranjo esquentador valpaços'
@@ -101,7 +101,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente vinhais',
  'desentupimentos vinhais',
  'arranjo fugas água vinhais',
- 'canalizador 24 horas vinhais',
+ 'canalizador Atendimento 24h/7d vinhais',
  'preço canalizador vinhais',
  'canalização nova vinhais',
  'arranjo esquentador vinhais'
@@ -117,7 +117,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente miranda do douro',
  'desentupimentos miranda do douro',
  'arranjo fugas água miranda do douro',
- 'canalizador 24 horas miranda do douro',
+ 'canalizador Atendimento 24h/7d miranda do douro',
  'preço canalizador miranda do douro',
  'canalização nova miranda do douro',
  'arranjo esquentador miranda do douro'
@@ -133,7 +133,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente mogadouro',
  'desentupimentos mogadouro',
  'arranjo fugas água mogadouro',
- 'canalizador 24 horas mogadouro',
+ 'canalizador Atendimento 24h/7d mogadouro',
  'preço canalizador mogadouro',
  'canalização nova mogadouro',
  'arranjo esquentador mogadouro'
@@ -149,7 +149,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente torre de moncorvo',
  'desentupimentos torre de moncorvo',
  'arranjo fugas água torre de moncorvo',
- 'canalizador 24 horas torre de moncorvo',
+ 'canalizador Atendimento 24h/7d torre de moncorvo',
  'preço canalizador torre de moncorvo',
  'canalização nova torre de moncorvo',
  'arranjo esquentador torre de moncorvo'
@@ -165,7 +165,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'canalizador urgente freixo de espada à cinta',
  'desentupimentos freixo de espada à cinta',
  'arranjo fugas água freixo de espada à cinta',
- 'canalizador 24 horas freixo de espada à cinta',
+ 'canalizador Atendimento 24h/7d freixo de espada à cinta',
  'preço canalizador freixo de espada à cinta',
  'canalização nova freixo de espada à cinta',
  'arranjo esquentador freixo de espada à cinta'

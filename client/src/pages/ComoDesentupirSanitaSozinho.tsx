@@ -160,7 +160,7 @@ export default function ComoDesentupirSanitaSozinho() {
  </h1>
  <p className="text-xl mb-8">
  5 métodos caseiros eficazes passo a passo. Poupe dinheiro e resolva já.
- Se não funcionar, chamamos em 30 minutos.
+ Se não funcionar, chamamos Atendimento prioritário.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -283,7 +283,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
- ✅ Chegamos em 30-60 minutos<br />
+ ✅ Resposta rápida garantida-60 minutos<br />
  ✅ Sem compromisso sem compromisso
  </p>
  <a
@@ -313,7 +313,7 @@ export default function ComoDesentupirSanitaSozinho() {
  Métodos Caseiros Não Funcionaram?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Canalizador profissional resolve em 30 minutos.
+ Canalizador profissional resolve Atendimento prioritário.
  Atendimento urgente 24h.
  </p>
  <a

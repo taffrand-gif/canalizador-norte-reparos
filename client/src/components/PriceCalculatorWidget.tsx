@@ -26,7 +26,7 @@ const servicesNorte: ServicePrice[] = [
  { id: 'torneira', label: 'Arranjo Torneira', priceMin: 58, priceMax: 115, nightMultiplier: 1.5 },
  { id: 'autoclismo', label: 'Autoclismo', priceMin: 40, priceMax: 135, nightMultiplier: 1.5 }
 ];
-// STAFF SEEKERS - Grille tarifaire officielle 2026
+//  - Grille tarifaire officielle 2026
 const servicesStaff: ServicePrice[] = [
  { id: 'tomada', label: 'Tomada Nova', priceMin: 66, priceMax: 90, nightMultiplier: 1.5 },
  { id: 'disjuntor', label: 'Disjuntor', priceMin: 75, priceMax: 95, nightMultiplier: 1.5 },
@@ -96,7 +96,7 @@ function PriceCalculatorWidget() {
  Calcule o Preço da Sua Arranjo
  </h2>
  <p className="text-xl text-gray-600">
- Preço fixo garantido. Sem surpresas. Orçamento confirmado em 2 minutos por telefone.
+ Preço fixo garantido. Sem surpresas. Orçamento confirmado Atendimento prioritário por telefone.
  </p>
  </div>
  {/* Calculator Card */}
@@ -225,7 +225,7 @@ function PriceCalculatorWidget() {
  )}
  </div>
  <p className="text-xs text-gray-500 mt-4 text-center">
- *Preço final confirmado por telefone em 2 minutos
+ *Preço final confirmado por telefone Atendimento prioritário
  </p>
  </div>
  )}
@@ -252,7 +252,7 @@ function PriceCalculatorWidget() {
  </button>
  </div>
  <p className="text-center text-xs text-gray-500 mt-4">
- ✅ Sem compromisso • ✅ Sem compromisso • ✅ Resposta em 2 minutos
+ ✅ Sem compromisso • ✅ Sem compromisso • ✅ Resposta rápida garantida
  </p>
  </div>
  </div>

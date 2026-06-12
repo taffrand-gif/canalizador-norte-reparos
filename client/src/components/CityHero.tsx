@@ -41,7 +41,7 @@ function CityHero({
  {serviceName} em {cityName} 24H
  </h1>
  <p className="text-xl mb-8">
- Serviço de urgência disponível 24 horas por dia em {cityName} e arredores
+ Serviço de urgência disponível Atendimento 24h/7d em {cityName} e arredores
  </p>
  <button
  onClick={onPhoneClick}

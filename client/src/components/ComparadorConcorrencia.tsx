@@ -223,7 +223,7 @@ export default function ComparadorConcorrencia() {
  💬 Escolher o Melhor → WhatsApp
  </a>
  <p className="text-sm text-gray-600 mt-3">
- ⚡ Resposta em 5 minutos • Orçamento grátis • Sem compromisso
+ ⚡ Resposta rápida garantida • Orçamento grátis • Sem compromisso
  </p>
  </div>
  {/* Disclaimer */}

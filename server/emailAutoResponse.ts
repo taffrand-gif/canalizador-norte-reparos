@@ -21,12 +21,12 @@ export async function sendAutoResponse(params: AutoResponseParams): Promise<bool
  const { clientName, clientEmail, serviceType, urgency, phone, city } = params;
 
  // Déterminer le nom de l'entreprise selon le domaine
- const isStaffSeekers = process.env.VITE_APP_TITLE?.includes('Eletricista');
- const companyName = isStaffSeekers 
+ const is = process.env.VITE_APP_TITLE?.includes('Eletricista');
+ const companyName = is 
  ? 'Eletricista de Trás-os-Montes' 
  : 'Canalizador de Trás-os-Montes';
- const companyPhone = isStaffSeekers ? '928 484 451' : '928 484 451';
- const whatsappNumber = isStaffSeekers ? '351932321892' : '351928484451';
+ const companyPhone = is ? '928 484 451' : '928 484 451';
+ const whatsappNumber = is ? '351932321892' : '351928484451';
 
  // Template email selon urgence
  const emailContent = urgency === 'urgent' 
@@ -90,7 +90,7 @@ Um dos o nosso serviço irá contactá-lo brevemente para:
 📞 Ligue agora: ${companyPhone}
 💬 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+canalizador+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
-Estamos disponíveis 24/7 para emergências.
+Estamos disponíveis Atendimento 24h/7d para emergências.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -150,7 +150,7 @@ Telefone: ${companyPhone}
 WhatsApp: https://wa.me/${whatsappNumber}?text=Olá%2C+preciso+de+um+canalizador+em+Trás-os-Montes.+Podem+dar-me+um+orçamento%3F
 
 Horário: Segunda a Sexta, 8h-19h
-Urgências 24/7: Sempre disponível
+Urgências Atendimento 24h/7d: Sempre disponível
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

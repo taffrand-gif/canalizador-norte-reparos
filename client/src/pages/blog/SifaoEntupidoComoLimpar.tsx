@@ -4,7 +4,7 @@ import { useSEO } from '@/hooks/useSEO';
 const SifaoEntupidoComoLimpar: React.FC = () => {
  useSEO({
  title: 'Sifão Entupido: Como Limpar Corretamente [Guia 2026]',
- description: 'Aprenda a limpar sifão entupido em 15 minutos. Guia passo a passo com fotos, materiais necessários e dicas profissionais para evitar entupimentos.',
+ description: 'Aprenda a limpar sifão entupido Atendimento prioritário. Guia passo a passo com fotos, materiais necessários e dicas profissionais para evitar entupimentos.',
  keywords: 'sifão entupido, limpar sifão, desentupir sifão, sifão lavatório, sifão lava-loiça, mau cheiro sifão'
  });
  return (
@@ -726,7 +726,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Intervenção Rápida</p>
- <p className="text-sm text-white/80">Chegamos em 30-60 minutos</p>
+ <p className="text-sm text-white/80">Resposta rápida garantida-60 minutos</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
@@ -767,7 +767,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

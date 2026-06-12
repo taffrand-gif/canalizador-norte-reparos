@@ -13,7 +13,7 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  { name: 'Chaves', slug: 'canalizador-chaves', region: 'Norte' },
  { name: 'Mirandela', slug: 'canalizador-mirandela', region: 'Norte' },
  { name: 'Vila Real', slug: 'canalizador-vila-real', region: 'Norte' },
- { name: 'Macedo de Cavaleiros', slug: 'canalizador-macedo-cavaleiros', region: 'Centro' },
+ { name: 'Trás-os-Montes', slug: 'canalizador-macedo-cavaleiros', region: 'Centro' },
  { name: 'Valpaços', slug: 'canalizador-valpacos', region: 'Norte' },
  { name: 'Mogadouro', slug: 'canalizador-mogadouro', region: 'Norte' },
  { name: 'Torre de Moncorvo', slug: 'canalizador-torre-moncorvo', region: 'Norte' },

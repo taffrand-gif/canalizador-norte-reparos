@@ -40,7 +40,7 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  options: [
  'Bragança',
  'Mirandela',
- 'Macedo de Cavaleiros',
+ 'Trás-os-Montes',
  'Outra cidade'
  ]
  }
@@ -72,7 +72,7 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  options: [
  'Bragança',
  'Mirandela',
- 'Macedo de Cavaleiros',
+ 'Trás-os-Montes',
  'Outra cidade'
  ]
  }
@@ -139,7 +139,7 @@ export default function CommitmentQuiz({ serviceType = 'canalizador' }: Commitme
  <div className="flex items-start gap-2 text-sm text-gray-600">
  <CheckCircle className="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" />
  <p>
- Após completar, receberá um orçamento personalizado em menos de 5 minutos
+ Após completar, receberá um orçamento personalizado Resposta rápida garantida
  </p>
  </div>
  </div>

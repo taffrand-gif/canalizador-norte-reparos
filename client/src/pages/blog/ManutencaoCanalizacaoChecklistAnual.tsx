@@ -908,7 +908,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -931,7 +931,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </li>
  <li>
  <a href="/blog/torneira-a-pingar-como-reparar" className="text-cyan-600 hover:text-cyan-700 font-medium">
- → Torneira a Pingar: Como Reparar em 10 Minutos
+ → Torneira a Pingar: Como Reparar Atendimento prioritário
  </a>
  </li>
  </ul>

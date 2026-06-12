@@ -52,7 +52,7 @@ export default function SistemaReservacao() {
  'Inspeção elétrica'
  ];
  const cities = [
- 'Bragança', 'Mirandela', 'Macedo de Cavaleiros', 'Vila Real', 'Chaves',
+ 'Bragança', 'Mirandela', 'Trás-os-Montes', 'Vila Real', 'Chaves',
  'Vinhais', 'Vimioso', 'Miranda do Douro', 'Mogadouro', 'Torre de Moncorvo',
  'Alfândega da Fé', 'Vila Flor', 'Carrazeda de Ansiães', 'Valpaços', 'Murça'
  ];

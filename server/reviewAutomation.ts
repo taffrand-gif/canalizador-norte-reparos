@@ -101,7 +101,7 @@ export const reviewTemplates = {
  </div>
  <div class="footer">
  <p>Norte Reparos - Serviços Profissionais em Trás-os-Montes<br>
- Garantia 2 anos • Disponível 24h/7d • 86 cidades</p>
+ Garantia 2 anos • Atendimento 24h/7d/7d • 86 cidades</p>
  </div>
  </div>
 </body>

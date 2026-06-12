@@ -1,7 +1,7 @@
 /* TEAM */
 Canalizador: Norte Reparos
 Função: Canalizador Profissional
-Localização: Macedo de Cavaleiros, Trás-os-Montes, Portugal
+Localização: Trás-os-Montes, Trás-os-Montes, Portugal
 Contacto: +351 928 484 451
 WhatsApp: https://wa.me/351928484451
 Site: https://norte-reparos.com

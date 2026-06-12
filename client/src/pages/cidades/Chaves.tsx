@@ -79,7 +79,7 @@ export default function Chaves() {
 
   const cidadesProximas = getCidadesProximas('chaves');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Chaves?', 'answer': 'Desde 110€ em Chaves. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Chaves?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Chaves. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Chaves?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Chaves?', 'answer': 'Desde 110€ em Chaves. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Chaves?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Chaves. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Chaves?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function Chaves() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 110€</p>
@@ -213,7 +213,7 @@ export default function Chaves() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

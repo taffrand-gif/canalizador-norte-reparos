@@ -62,9 +62,9 @@ export default function TransparencePrix() {
  price: "100€ - 200€",
  duration: "Imediato",
  includes: [
- "Chegada em 40 minutos",
+ "Chegada Atendimento prioritário",
  "Equipamento profissional",
- "Disponível 24/7",
+ "Disponível Atendimento 24h/7d",
  "Resolução garantida"
  ]
  },
@@ -91,7 +91,7 @@ export default function TransparencePrix() {
  const faqPrix = [
  {
  question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
- answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida em 40 minutos, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
+ answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida Atendimento prioritário, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
  },
  {
  question: "O preço final pode ser diferente do orçamento?",

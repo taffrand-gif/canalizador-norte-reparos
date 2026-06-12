@@ -29,7 +29,7 @@ const QuadroEletricoDispara: React.FC = () => {
  <span className="text-2xl">⚡</span>
  </div>
  <div>
- <p className="font-semibold text-gray-900">Equipa Staff Seekers</p>
+ <p className="font-semibold text-gray-900">Equipa </p>
  <p className="text-gray-600">Eletricistas Certificados</p>
  </div>
  </div>
@@ -932,7 +932,7 @@ const QuadroEletricoDispara: React.FC = () => {
  Se não consegue resolver sozinho, contacte eletricista certificado imediatamente.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
- <h3 className="text-2xl font-bold mb-4">Staff Seekers - Eletricista em Bragança</h3>
+ <h3 className="text-2xl font-bold mb-4"> - Eletricista em Bragança</h3>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
@@ -952,7 +952,7 @@ const QuadroEletricoDispara: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Intervenção Rápida</p>
- <p className="text-sm text-white/80">Chegamos em 30-60 minutos</p>
+ <p className="text-sm text-white/80">Resposta rápida garantida-60 minutos</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
@@ -979,7 +979,7 @@ const QuadroEletricoDispara: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

@@ -819,7 +819,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Secador de cabelo:</strong> 30-60 minutos</li>
  <li>• <strong>Toalhas quentes:</strong> 1-2 horas</li>
  <li>• <strong>Aquecimento ambiente:</strong> 3-6 horas</li>
- <li>• <strong>Temperatura natural:</strong> 6-24 horas</li>
+ <li>• <strong>Temperatura natural:</strong> 6-Atendimento 24h/7d</li>
  </ul>
  <p className="text-yellow-700 font-semibold mt-3">
  ⚠️ Não apresse processo. Descongelamento gradual é mais seguro.
@@ -865,7 +865,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Canos Rebentados? Ajuda Urgente 24h</h2>
  <p className="text-xl mb-6">
- Emergência de canalização? Chegamos em 30-60 minutos.
+ Emergência de canalização? Resposta rápida garantida-60 minutos.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Emergências 24h/7 dias</h3>
@@ -915,7 +915,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

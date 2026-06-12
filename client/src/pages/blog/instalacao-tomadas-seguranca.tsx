@@ -5,7 +5,7 @@ export default function InstalacaoTomadasSeguranca() {
  return (
  <>
  <Helmet>
- <title>Instalação de Tomadas: Guia de Segurança 2026 | Staff Seekers</title>
+ <title>Instalação de Tomadas: Guia de Segurança 2026 | </title>
  <meta name="description" content="Guia completo sobre instalação segura de tomadas elétricas. Normas, tipos, preços e quando chamar eletricista em Trás-os-Montes." />
  <meta name="keywords" content="instalação tomadas, tomadas elétricas, eletricista Bragança, segurança elétrica, normas tomadas Portugal" />
  <link rel="canonical" href="https://eletricista-norte-reparos.pt/blog/instalacao-tomadas-seguranca" />
@@ -321,7 +321,7 @@ export default function InstalacaoTomadasSeguranca() {
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-8 mt-12 text-white text-center">
  <h3 className="text-2xl font-bold mb-4">Precisa de Instalar ou Substituir Tomadas?</h3>
  <p className="text-blue-100 mb-6 text-lg">
- Eletricistas certificados em Bragança, Mirandela, Macedo de Cavaleiros e toda a região de Trás-os-Montes
+ Eletricistas certificados em Bragança, Mirandela, Trás-os-Montes e toda a região de Trás-os-Montes
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351932321892" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition flex items-center justify-center gap-2">

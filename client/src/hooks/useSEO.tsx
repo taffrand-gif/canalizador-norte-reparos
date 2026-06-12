@@ -140,7 +140,7 @@ export function generateKeywords(ville?: string): string {
  const baseKeywords = [
  'canalizador', 'canalizador bragança', 'fuga de água', 'entupimento', 
  'arranjo canalização', 'urgência 24h', 'piquete', 'desentupimento', 
- 'esquentador', 'desentupimento urgente', 'canalizador 24 horas',
+ 'esquentador', 'desentupimento urgente', 'canalizador Atendimento 24h/7d',
  'fuga água urgente', 'cano entupido', 'arranjo caldeira',
  'desentupir sanita', 'canalizador perto de mim', 'desentupimento esgotos',
  'arranjo autoclismo', 'canalizador urgente', 'desentupimento sanitário'
@@ -150,7 +150,7 @@ export function generateKeywords(ville?: string): string {
  return [...baseKeywords, ville, `${config.name} ${ville}`, `urgência ${ville}`, `canalizador ${ville}`, `desentupimento ${ville}`].join(', ');
  }
  
- return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName, 'Trás-os-Montes', 'Macedo de Cavaleiros', 'Mirandela', 'Chaves'].join(', ');
+ return [...baseKeywords, 'Bragança', 'distrito de Bragança', config.businessName, 'Trás-os-Montes', 'Trás-os-Montes', 'Mirandela', 'Chaves'].join(', ');
 }
 // Fonction pour générer le schema LocalBusiness enrichi
 export function generateLocalBusinessSchema(ville?: string) {
@@ -165,7 +165,7 @@ export function generateLocalBusinessSchema(ville?: string) {
  "priceRange": "€€",
  "address": {
  "@type": "PostalAddress",
- "addressLocality": ville || "Macedo de Cavaleiros",
+ "addressLocality": ville || "Trás-os-Montes",
  "addressRegion": "Bragança",
  "addressCountry": "PT"
  },
@@ -335,7 +335,7 @@ function getCityCoordinates(ville: string): { lat: number; lng: number } {
  "Bragança": { lat: 41.8058, lng: -6.7567 },
  "Carrazeda de Ansiães": { lat: 41.2422, lng: -7.3056 },
  "Freixo de Espada à Cinta": { lat: 41.0892, lng: -6.8061 },
- "Macedo de Cavaleiros": { lat: 41.5382, lng: -6.9667 },
+ "Trás-os-Montes": { lat: 41.5382, lng: -6.9667 },
  "Miranda do Douro": { lat: 41.4972, lng: -6.2739 },
  "Mirandela": { lat: 41.4867, lng: -7.1858 },
  "Mogadouro": { lat: 41.3403, lng: -6.7128 },

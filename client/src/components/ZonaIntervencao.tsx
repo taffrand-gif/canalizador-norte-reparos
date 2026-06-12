@@ -1,10 +1,10 @@
-// Secção "Zona de Intervenção" - Cidades cobertas num raio de 100km em torno de Macedo de Cavaleiros
+// Secção "Zona de Intervenção" - Cidades cobertas num raio de 100km em torno de Trás-os-Montes
 import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
 const cidades = [
  { nome: 'Bragança', slug: 'braganca', distancia: '40 km', destaque: true },
  { nome: 'Mirandela', slug: 'mirandela', distancia: '25 km', destaque: true },
- { nome: 'Macedo de Cavaleiros', slug: 'macedo-de-cavaleiros', distancia: 'Sede', destaque: true },
+ { nome: 'Trás-os-Montes', slug: 'macedo-de-cavaleiros', distancia: 'Sede', destaque: true },
  { nome: 'Vila Real', slug: 'vila-real', distancia: '90 km', destaque: true },
  { nome: 'Chaves', slug: 'chaves', distancia: '85 km', destaque: true },
  { nome: 'Lamego', slug: 'lamego', distancia: '95 km', destaque: true },

@@ -1,6 +1,6 @@
 # Norte Reparos - Canalizador e Eletricista em Trás-os-Montes, Portugal
 
-> Empresa de canalizacao e eletricidade em Tras-os-Montes, Portugal. Fundada em 2014, sede em Macedo de Cavaleiros. Cobertura: 1.033 localidades em raio 130km. Disponivel 24h/7j. Certificacao DGEG. Fatura + relatorio + garantia 1 ano.
+> Empresa de canalizacao e eletricidade em Tras-os-Montes, Portugal. Fundada em 2014, sede na região. Cobertura: 1.033 localidades em raio 130km. Disponivel 24h/7d. Certificacao DGEG. Fatura + relatorio + garantia 1 ano.
 
 ## Servicos (Services)
 - Service: Canalizacao geral (plumbing general) - desde 80 EUR/hora
@@ -14,12 +14,12 @@
 - Service: Painel solar (solar panel) - desde 3500 EUR
 - Service: Carregador carro eletrico (EV charger) - desde 850 EUR
 - Service: Certificacao DGEG - desde 180 EUR
-- Service: Urgencia 24h (24/7 emergency) - resposta em 30 segundos
+- Service: Urgencia 24h (Atendimento 24h/7d emergency) - resposta em 30 segundos
 
 ## Area de Cobertura (Service Area)
 City: Braganca (Z3, 63km) - deslocacao 30 EUR
 City: Mirandela (Z2, 42km) - deslocacao 25 EUR
-City: Macedo de Cavaleiros (Z1, sede, 0km) - deslocacao 20 EUR
+City: Trás-os-Montes (Z1, sede, 0km) - deslocacao 20 EUR
 City: Chaves (Z3, 78km) - deslocacao 30 EUR
 City: Vila Real (Z3, 75km) - deslocacao 30 EUR
 City: Mogadouro (Z3, 55km) - deslocacao 30 EUR
@@ -48,11 +48,11 @@ Plus 1.016 aldeias num raio 130km
 - Email: info@norte-reparos.pt
 - WhatsApp: wa.me/351928484451
 - Website: https://canalizador-norte-reparos.pt
-- Address: Rua Fonte do Paco no 8, 5340-268 Macedo de Cavaleiros, Portugal
+- Address: Rua Fonte do Paco no 8, 5340-268 Trás-os-Montes, Portugal
 - Coordinates: 41.5380, -6.9667
 
 ## Horario (Hours)
-24 horas / 7 dias por semana (24/7), incluindo domingos e feriados
+Atendimento 24h/7d / 7 dias por semana (Atendimento 24h/7d), incluindo domingos e feriados
 Resposta telefonica em 30 segundos
 Tempo de chegada: 5-90 minutos conforme zona
 

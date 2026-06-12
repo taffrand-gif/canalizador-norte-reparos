@@ -85,7 +85,7 @@ function GuaranteeBox({
  <div className="text-sm text-gray-700 font-semibold">Garantia Total</div>
  </div>
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
- <div className="text-3xl font-black text-blue-600 mb-1">24/7</div>
+ <div className="text-3xl font-black text-blue-600 mb-1">Atendimento 24h/7d</div>
  <div className="text-sm text-gray-700 font-semibold">Disponibilidade</div>
  </div>
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">

@@ -43,14 +43,14 @@ export const canalizadorReviews: ReviewData[] = [
  author: "João M.",
  rating: 5,
  date: "2026-02-15",
- text: "Fuga de água às 3h da manhã. Chegaram em 35 minutos e resolveram tudo. Preço justo, serviço impecável!",
+ text: "Fuga de água às 3h da manhã. Chegaram Atendimento prioritário e resolveram tudo. Preço justo, serviço impecável!",
  city: "Bragança"
  },
  {
  author: "Maria S.",
  rating: 5,
  date: "2026-02-28",
- text: "Sanita entupida no domingo. Atenderam logo e resolveram em 20 minutos. Muito profissionais!",
+ text: "Sanita entupida no domingo. Atenderam logo e resolveram Atendimento prioritário. Muito profissionais!",
  city: "Bragança"
  },
  {
@@ -79,14 +79,14 @@ export const canalizadorReviews: ReviewData[] = [
  rating: 5,
  date: "2026-02-18",
  text: "Cano rebentado no jardim. Chegaram rápido e fizeram trabalho perfeito. Preço combinado antes!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Teresa M.",
  rating: 5,
  date: "2026-02-25",
  text: "Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia. Obrigada!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "José A.",
@@ -116,7 +116,7 @@ export const eletricistaReviews: ReviewData[] = [
  author: "Paulo R.",
  rating: 5,
  date: "2026-02-16",
- text: "Curto-circuito às 2h da manhã. Chegaram em 35 minutos e resolveram tudo com segurança. certificação elétrica incluída!",
+ text: "Curto-circuito às 2h da manhã. Chegaram Atendimento prioritário e resolveram tudo com segurança. certificação elétrica incluída!",
  city: "Bragança"
  },
  {
@@ -152,14 +152,14 @@ export const eletricistaReviews: ReviewData[] = [
  rating: 5,
  date: "2026-02-19",
  text: "Bomba de água sem funcionar. Identificaram problema elétrico e resolveram no mesmo dia. Perfeito!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Isabel C.",
  rating: 5,
  date: "2026-02-26",
  text: "certificação elétrica para casa nova. Serviço impecável e preço combinado antes. Obrigada!",
- city: "Macedo de Cavaleiros"
+ city: "Trás-os-Montes"
  },
  {
  author: "Rui A.",

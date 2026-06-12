@@ -3,13 +3,13 @@ import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 const TorneiraAPingarComoReparar: React.FC = () => {
  useSEO({
- title: 'Torneira a Pingar: Como Reparar em 10 Minutos [Guia 2026]',
- description: 'Aprenda a reparar torneira a pingar em 10 minutos. Guia passo a passo com fotos, materiais necessários e dicas profissionais.',
+ title: 'Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]',
+ description: 'Aprenda a reparar torneira a pingar Atendimento prioritário. Guia passo a passo com fotos, materiais necessários e dicas profissionais.',
  keywords: 'torneira a pingar, reparar torneira, junta torneira, torneira goteja, consertar torneira'
  });
  return (
  <BlogLayout
- title="Torneira a Pingar: Como Reparar em 10 Minutos [Guia 2026]"
+ title="Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]"
  description="Guia completo para reparar torneira a pingar rapidamente e poupar água"
  >
  <article className="max-w-4xl mx-auto">
@@ -22,7 +22,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
- Torneira a Pingar: Como Reparar em 10 Minutos [Guia 2026]
+ Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]
  </h1>
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
@@ -37,7 +37,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-900 font-semibold text-lg">
- 💰 Uma torneira a pingar desperdiça 30 litros/dia = 25€/ano. Repare em 10 minutos e poupe!
+ 💰 Uma torneira a pingar desperdiça 30 litros/dia = 25€/ano. Repare Atendimento prioritário e poupe!
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
@@ -574,7 +574,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Reparação em 30 Minutos</p>
+ <p className="font-bold">Reparação Atendimento prioritário</p>
  <p className="text-sm text-white/80">Rápido e eficiente</p>
  </div>
  </div>
@@ -595,7 +595,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Disponível 24h/7 dias</p>
+ <p className="font-bold">Atendimento 24h/7d/7 dias</p>
  <p className="text-sm text-white/80">Sempre disponíveis</p>
  </div>
  </div>
@@ -616,7 +616,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  </div>
  </div>
  <p className="text-center text-white/90">
- <strong>Zonas atendidas:</strong> Bragança, Vila Real, Macedo de Cavaleiros, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
+ <strong>Zonas atendidas:</strong> Bragança, Vila Real, Trás-os-Montes, Mirandela, Chaves, Lamego, Régua, Torre de Moncorvo, Mogadouro, Alfândega da Fé, Vila Flor, Valpaços
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

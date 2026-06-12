@@ -81,7 +81,7 @@ export default function FreixoNumão() {
 
   const faqs = [
     { question: "Qual o preço de canalizador em Freixo de Numão?", answer: "Desde 110€ em Freixo de Numão. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Freixo de Numão?", answer: "Sim, atendimento 24 horas, 7 dias por semana em Freixo de Numão. Ligue +351 928 484 451." },
+    { question: "Fazem urgências em Freixo de Numão?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Freixo de Numão. Ligue +351 928 484 451." },
     { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
     { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
     { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
@@ -148,7 +148,7 @@ export default function FreixoNumão() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
-                  <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para desentupimentos profundos.</p>
+                  <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos.</p>
                   <p className="text-blue-600 font-bold mt-3">desde 110€</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -185,7 +185,7 @@ export default function FreixoNumão() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
-                <p className="text-gray-600">Ridgid K9-204, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
+                <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>

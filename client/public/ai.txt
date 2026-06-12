@@ -3,15 +3,15 @@ Name: Norte Reparos (Canalizador)
 Type: LocalBusiness
 SubType: PlumbingService
 Founded: 2014
-Headquarters: Macedo de Cavaleiros, Trás-os-Montes, Portugal
+Headquarters: Trás-os-Montes, Trás-os-Montes, Portugal
 ServiceArea: 130km radius, 1.033 localities
 Country: Portugal
 Languages: pt-PT
 PrimaryPhone: +351-928-484-451
 Email: info@norte-reparos.pt
 Website: https://canalizador-norte-reparos.pt
-Address: Rua Fonte do Paço nº 8, 5340-268 Macedo de Cavaleiros
-Hours: 24/7
+Address: Rua Fonte do Paço nº 8, 5340-268 Trás-os-Montes
+Hours: Atendimento 24h/7d
 EmergencyService: true
 Certifications: DGEG
 Experience: 12+ years

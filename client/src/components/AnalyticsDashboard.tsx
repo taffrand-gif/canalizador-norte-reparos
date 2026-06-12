@@ -107,7 +107,7 @@ export default function AnalyticsDashboard() {
  topCities: [
  { city: 'Bragança', visitors: 2341, leads: 87 },
  { city: 'Mirandela', visitors: 1876, leads: 64 },
- { city: 'Macedo de Cavaleiros', visitors: 1234, leads: 52 },
+ { city: 'Trás-os-Montes', visitors: 1234, leads: 52 },
  { city: 'Vila Real', visitors: 987, leads: 41 },
  { city: 'Chaves', visitors: 765, leads: 33 }
  ],

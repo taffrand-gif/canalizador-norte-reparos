@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { Phone, Home, Lightbulb, Shield, Zap, CheckCircle } from 'lucide-react';
 export default function AutomacaoResidencialGuia() {
  useEffect(() => {
- document.title = "Automação Residencial em Trás-os-Montes: Guia Completo para Casa Inteligente 2026 | Staff Seekers";
+ document.title = "Automação Residencial em Trás-os-Montes: Guia Completo para Casa Inteligente 2026 | ";
  
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
@@ -31,11 +31,11 @@ export default function AutomacaoResidencialGuia() {
  "description": "Guia completo de automação residencial em Trás-os-Montes. Descubra como transformar a sua casa numa casa inteligente.",
  "author": {
  "@type": "Organization",
- "name": "Staff Seekers"
+ "name": ""
  },
  "publisher": {
  "@type": "Organization",
- "name": "Staff Seekers",
+ "name": "",
  "logo": {
  "@type": "ImageObject",
  "url": "https://eletricista-norte-reparos.pt/logo.png"
@@ -65,7 +65,7 @@ export default function AutomacaoResidencialGuia() {
  {
  titulo: "Segurança e Vigilância",
  descricao: "Câmaras, sensores de movimento, fechaduras inteligentes e alarmes conectados.",
- beneficios: ["Monitorização 24/7", "Alertas em tempo real", "Gravação na nuvem"],
+ beneficios: ["Monitorização Atendimento 24h/7d", "Alertas em tempo real", "Gravação na nuvem"],
  custo: "300€ - 1.500€"
  },
  {

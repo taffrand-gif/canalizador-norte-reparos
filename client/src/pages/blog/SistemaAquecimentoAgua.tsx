@@ -330,7 +330,7 @@ export default function SistemaAquecimentoAgua() {
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Instalamos e fazemos manutenção de esquentadores, caldeiras e bombas de calor em 
- <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline"> Macedo de Cavaleiros</a>, 
+ <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline"> Trás-os-Montes</a>, 
  <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,5 +1,5 @@
 // Página SEO: Zona de Intervenção - Canalizador em Trás-os-Montes
-// Lista completa das 34 cidades servidas com distâncias desde Macedo de Cavaleiros
+// Lista completa das 34 cidades servidas com distâncias desde a nossa base
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useSite } from '@/contexts/SiteContext';
@@ -15,7 +15,7 @@ const districts = {
  name: 'Distrito de Bragança',
  cities: [
  { name: 'Bragança', distance: '45 km', slug: 'braganca' },
- { name: 'Macedo de Cavaleiros', distance: '0 km', slug: 'macedo-de-cavaleiros' },
+ { name: 'Trás-os-Montes', distance: '0 km', slug: 'macedo-de-cavaleiros' },
  { name: 'Mirandela', distance: '35 km', slug: 'mirandela' },
  { name: 'Miranda do Douro', distance: '60 km', slug: 'miranda-douro' },
  { name: 'Mogadouro', distance: '60 km', slug: 'mogadouro' },
@@ -67,7 +67,7 @@ export default function Zonas() {
  }
  metaDescription.setAttribute(
  'content',
- 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde Macedo de Cavaleiros. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
+ 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde a nossa base. Serviço rápido em Bragança, Vila Real, Chaves, Mirandela e toda a região.'
  );
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -109,7 +109,7 @@ export default function Zonas() {
  ],
  serviceType: 'Canalizador',
  description:
- 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 100km desde Macedo de Cavaleiros.'});
+ 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 100km desde a nossa base.'});
  document.head.appendChild(schemaScript);
  return () => {
  if (schemaScript.parentNode) {
@@ -146,7 +146,7 @@ export default function Zonas() {
  Zona de Intervenção — Canalizador em Trás-os-Montes
  </h1>
  <p className="text-xl text-blue-100 mb-8">
- Servimos 34 cidades num raio de 100km desde Macedo de Cavaleiros. Intervenção rápida em toda a região de
+ Servimos 34 cidades num raio de 100km desde a nossa base. Intervenção rápida em toda a região de
  Trás-os-Montes.
  </p>
  <div className="flex flex-wrap justify-center gap-6 text-lg">

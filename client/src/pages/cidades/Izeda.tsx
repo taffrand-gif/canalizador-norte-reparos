@@ -79,7 +79,7 @@ export default function Izeda() {
 
   const cidadesProximas = getCidadesProximas('izada');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Izeda?', 'answer': 'Desde 90€ em Izeda. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Izeda?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Izeda. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Izeda?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Izeda?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Izeda?', 'answer': 'Desde 90€ em Izeda. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Izeda?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Izeda. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Izeda?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Izeda?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function Izeda() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 90€</p>
@@ -213,7 +213,7 @@ export default function Izeda() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

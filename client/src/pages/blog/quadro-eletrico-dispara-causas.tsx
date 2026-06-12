@@ -4,7 +4,7 @@ export default function QuadroEletricoDisparaCausas() {
  return (
  <>
  <Helmet>
- <title>Quadro Elétrico Dispara: 8 Causas Comuns e Soluções | Staff Seekers</title>
+ <title>Quadro Elétrico Dispara: 8 Causas Comuns e Soluções | </title>
  <meta name="description" content="Descubra porque o quadro elétrico dispara constantemente. 8 causas comuns, soluções práticas e quando chamar eletricista em Bragança e Trás-os-Montes." />
  <script type="application/ld+json">
  {JSON.stringify({
@@ -299,7 +299,7 @@ export default function QuadroEletricoDisparaCausas() {
  </table>
  </div>
  <p className="text-sm text-gray-600 mt-4">
- * Preços incluem IVA e mão de obra. Material incluído conforme especificado. Válido para Bragança, Mirandela, Chaves, Vila Real e Macedo de Cavaleiros.
+ * Preços incluem IVA e mão de obra. Material incluído conforme especificado. Válido para Bragança, Mirandela, Chaves, Vila Real e Trás-os-Montes.
  </p>
  </div>
  <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">

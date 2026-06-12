@@ -25,16 +25,16 @@ export default function FAQPage() {
  answer: "Basta contactar-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente à sua casa para avaliar o problema, apresentamos um orçamento detalhado e só avançamos com o trabalho após sua aprovação. Sem custos ocultos."
  },
  {
- question: "Tem canalizador urgente disponível 24h?",
- answer: "Sim! Temos serviço de urgência 24 horas por dia, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para intervenção imediata."
+ question: "Tem canalizador urgente Atendimento 24h/7d?",
+ answer: "Sim! Temos serviço de urgência Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para intervenção imediata."
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Na zona de Macedo de Cavaleiros e arredores (até 20km): 30-45 minutos. Para outras localidades do distrito: 45 minutos a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
+ answer: "Na zona de Trás-os-Montes e arredores (até 20km): 30-45 minutos. Para outras localidades do distrito: 45 minutos a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
  },
  {
  question: "Fazem desentupimentos à noite ou fim de semana?",
- answer: "Sim, trabalhamos 24/7. Não importa se é meia-noite, domingo ou feriado - temos equipas de piquete sempre disponíveis para emergências. O preço de urgência aplica-se fora do horário comercial."
+ answer: "Sim, trabalhamos Atendimento 24h/7d. Não importa se é meia-noite, domingo ou feriado - temos equipas de piquete sempre disponíveis para emergências. O preço de urgência aplica-se fora do horário comercial."
  },
  {
  question: "Quais os serviços de canalização que oferecem?",
@@ -50,11 +50,11 @@ export default function FAQPage() {
  },
  {
  question: "Quais cidades servem no distrito de Bragança?",
- answer: "Servimos todo o distrito: Bragança, Mirandela, Macedo de Cavaleiros, Chaves, Vila Flor, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Freixo de Espada à Cinta, e todas as aldeias circundantes."
+ answer: "Servimos todo o distrito: Bragança, Mirandela, Trás-os-Montes, Chaves, Vila Flor, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Alfândega da Fé, Freixo de Espada à Cinta, e todas as aldeias circundantes."
  },
  {
  question: "Qual é o raio de ação máximo?",
- answer: "Atendemos num raio de 100km a partir de Macedo de Cavaleiros. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
+ answer: "Atendemos num raio de 100km a partir de Trás-os-Montes. Para localidades mais distantes, aplicamos uma taxa de deslocação adicional (consultar). Cobrimos praticamente todo o Nordeste Transmontano."
  },
  {
  question: "Quanto tempo demora um desentupimento normal?",
@@ -82,7 +82,7 @@ export default function FAQPage() {
  },
  {
  question: "Usam equipamento profissional?",
- answer: "Sim, trabalhamos com equipamento de última geração: câmaras de inspeção Ridgid SeeSnake, máquinas de desentupir K9-204, detetores de fugas por ultrassons, máquinas de soldar PPR, ferramentas específicas para cada intervenção."
+ answer: "Sim, trabalhamos com equipamento de última geração: câmaras de inspeção Ridgid SeeSnake, máquinas de desentupir K9-102, detetores de fugas por ultrassons, máquinas de soldar PPR, ferramentas específicas para cada intervenção."
  },
  {
  question: "São canalizadores certificados?",
@@ -216,7 +216,7 @@ export default function FAQPage() {
  <li><Link href="/canalizador-braganca" className="text-blue-600 hover:underline">Canalizador Bragança</Link></li>
  <li><Link href="/canalizador-mirandela" className="text-blue-600 hover:underline">Canalizador Mirandela</Link></li>
  <li><Link href="/canalizador-chaves" className="text-blue-600 hover:underline">Canalizador Chaves</Link></li>
- <li><Link href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Canalizador Macedo de Cavaleiros</Link></li>
+ <li><Link href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline">Canalizador Trás-os-Montes</Link></li>
  <li><Link href="/canalizador-vinhais" className="text-blue-600 hover:underline">Canalizador Vinhais</Link></li>
  </ul>
  </div>
@@ -238,7 +238,7 @@ export default function FAQPage() {
  Ainda tem dúvidas? Fale connosco!
  </h3>
  <p className="mb-6 text-blue-100">
- Estamos disponíveis 24 horas por dia para esclarecer todas as suas questões sobre canalização
+ Estamos disponíveis Atendimento 24h/7d para esclarecer todas as suas questões sobre canalização
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -259,7 +259,7 @@ export default function FAQPage() {
  </a>
  </div>
  <p className="mt-6 text-sm text-blue-200">
- Resposta em menos de 5 minutos durante o dia • Urgências 24/7
+ Resposta rápida garantida durante o dia • Urgências Atendimento 24h/7d
  </p>
  </div>
  </div>

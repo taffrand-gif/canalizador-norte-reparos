@@ -79,7 +79,7 @@ export default function AguiarBeira() {
 
   const cidadesProximas = getCidadesProximas('aguiar-da-beira');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Aguiar da Beira?', 'answer': 'Desde 140€ em Aguiar da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Aguiar da Beira?', 'answer': 'Sim, atendimento 24 horas, 7 dias por semana em Aguiar da Beira. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Aguiar da Beira?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Aguiar da Beira?', 'answer': 'Desde 140€ em Aguiar da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Aguiar da Beira?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Aguiar da Beira. Ligue +351 928 484 451.'}, {'question': 'Até onde chegam a partir de Aguiar da Beira?', 'answer': 'Servimos toda a região limite, incluindo aldeias remotas e propriedades isoladas.'}, {'question': 'Têm equipamento para zonas de difícil acesso?', 'answer': 'Sim, os nossos veículos têm equipamento completo para intervenções em qualquer localização.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>
@@ -145,7 +145,7 @@ export default function AguiarBeira() {
                     🔧 Desentupimentos
                   </h3>
                   <p className="text-gray-600">
-                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
+                    WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
                     desentupimentos profundos. Resolução garantida.
                   </p>
                   <p className="text-blue-600 font-bold mt-3">desde 140€</p>
@@ -213,7 +213,7 @@ export default function AguiarBeira() {
                   🔍 Equipamento Profissional
                 </h3>
                 <p className="text-gray-600">
-                  Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
+                  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
                   deteção de fugas, geofone para tubagens enterradas.
                 </p>
               </div>

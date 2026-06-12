@@ -105,7 +105,7 @@ export default function PriceTable() {
 <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
     <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
     <ul className="space-y-1 text-blue-800 text-sm">
-      <li className="flex justify-between"><span>Deslocação (Macedo de Cavaleiros):</span> <span>80€</span></li>
+      <li className="flex justify-between"><span>Deslocação (Trás-os-Montes):</span> <span>80€</span></li>
       <li className="flex justify-between"><span>Desentupimento simples (30min):</span> <span>65€ - 130€</span></li>
       <li className="border-t border-blue-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>145€ - 210€</span></li>
     </ul>
