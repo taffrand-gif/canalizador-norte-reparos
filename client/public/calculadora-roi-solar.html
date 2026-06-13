@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Calculadora ROI Painel Solar 2026 - Quanto Poupa? | Norte Reparos</title>
 <meta name="description" content="Calculadora interativa: descubra quanto poupa com painel solar em 2026. ROI real, payback period, custo vs poupança. Norte Reparos, Tras-os-Montes.">
-<link rel="canonical" href="https://canalizador-norte-reparos.pt/calculadora-roi-solar">
+<li>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quanto custa um painel solar em 2026?","acceptedAnswer":{"@type":"Answer","text":"Kit 3kW: 4500-6500 EUR. Kit 5kW: 7000-9500 EUR. Inclui instalacao e certificacao."}},{"@type":"Question","name":"Quanto tempo demora o payback?","acceptedAnswer":{"@type":"Answer","text":"5-9 anos em Tras-os-Montes, dependendo do consumo e tamanho do kit."}}]}</script>
 <style>body{font-family:sans-serif;line-height:1.7;color:#222;background:#fff;max-width:920px;margin:0 auto;padding:2rem 1.5rem}h1{color:#FF6B35;font-size:2rem}.calculator{background:#f8f9fa;padding:2rem;border-radius:12px;margin:2rem 0}.form-group{margin-bottom:1.5rem}label{display:block;font-weight:700;margin-bottom:.5rem}input,select{width:100%;padding:.75rem;border:2px solid #ddd;border-radius:8px;font-size:1rem}input:focus,select:focus{outline:none;border-color:#FF6B35}.btn{background:linear-gradient(135deg,#FF6B35,#cc5529);color:#fff;padding:1rem 2rem;border:none;border-radius:50px;font-size:1.1rem;font-weight:900;cursor:pointer;width:100%}.result{background:linear-gradient(135deg,#10b981,#059669);color:#fff;padding:2rem;border-radius:12px;margin-top:1rem;display:none}.result.show{display:block}.result-num{font-size:2.5rem;font-weight:900;margin:1rem 0}.cta{background:linear-gradient(135deg,#2193b0,#1a7a9a);color:#fff;padding:2rem;border-radius:12px;text-align:center;margin:2rem 0}.cta a{display:inline-block;background:#fff;color:#2193b0;padding:.7rem 1.5rem;border-radius:50px;font-weight:900;text-decoration:none;margin:.5rem}</style>
@@ -18,16 +18,16 @@
 <body>
 
 <!-- Breadcrumb visible -->
-<nav aria-label="Breadcrumb" style="background: #f0f9ff; padding: .8rem 1.5rem; border-radius: 8px; margin: 1rem auto; max-width: 1100px; font-size: .9rem;">
-  <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem;">
-    <li><a href="/" style="color: #2193b0; text-decoration: none;">Início</a> <span style="color: #999;">›</span></li>
-    <li><a href="/distritos/tras-os-montes.html" style="color: #2193b0; text-decoration: none;">Trás-os-Montes</a></li>
-    <li style="color: #555;">Esta página</li>
-  </ol>
+<nav aria-label="Breadcrumb" style="background: #f0f9ff; padding:.8rem 1.5rem; border-radius: 8px; margin: 1rem auto; max-width: 1100px; font-size:.9rem;">
+ <ol style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap:.5rem;">
+ <li><a href="/" style="color: #2193b0; text-decoration: none;">Início</a> <span style="color: #999;">›</span></li>
+ <li><a href="/distritos/tras-os-montes.html" style="color: #2193b0; text-decoration: none;">Trás-os-Montes</a></li>
+ <li>Esta página</li>
+ </ol>
 </nav>
 
 <h1>☀️ Calculadora ROI Painel Solar 2026</h1>
-<p>Descubra em 30 segundos quanto vai poupar e em quantos anos recupera o investimento.</p>
+<p>Descubra rapidamente quanto vai poupar e em quantos anos recupera o investimento.</p>
 
 <div class="calculator">
 <h2>Os seus dados</h2>
@@ -61,7 +61,7 @@
 <p>Custo do kit: <span id="custoKit">-</span></p>
 <p>Poupança anual: <span id="poupancaAnual">-</span></p>
 <p>Payback (anos): <span id="payback">-</span></p>
-<p>Poupança em 25 anos: <span id="poupanca25">-</span></p>
+<p>Poupança em: <span id="poupanca25">-</span></p>
 <div class="result-num" id="paybackNum">-</div>
 <p>anos para recuperar o investimento</p>
 </div>
@@ -69,9 +69,9 @@
 
 <h2>💡 Como interpretamos os números</h2>
 <ul>
-<li><strong>Payback &lt; 7 anos:</strong> Excelente investimento. Recomendado.</li>
+<li><strong>Payback &lt;:</strong> Excelente investimento. Recomendado.</li>
 <li><strong>Payback 7-10 anos:</strong> Bom. Considere.</li>
-<li><strong>Payback &gt; 10 anos:</strong> Espere 1-2 anos (preços vão baixar).</li>
+<li><strong>Payback &gt;:</strong> Espere 1-2 anos (preços vão baixar).</li>
 </ul>
 
 <h2>🔋 Bateria vale a pena?</h2>
@@ -79,41 +79,41 @@
 
 <div class="cta">
 <h2>Quer instalar?</h2>
-<p>Norte Reparos: instalacao profissional, certificacao DGEG, garantia 25 anos nos paineis</p>
+<p>Norte Reparos: instalacao profissional, garantia nos paineis</p>
 <a href="tel:+351928484451">📞 928 484 451</a>
 <a href="https://wa.me/351928484451">💬 WhatsApp</a>
 </div>
 
 <script>
 function calcular() {
-    const consumo = parseFloat(document.getElementById('consumo').value);
-    const preco = parseFloat(document.getElementById('preco').value);
-    const kit = parseInt(document.getElementById('kit').value);
-    const autoconsumo = parseFloat(document.getElementById('autoconsumo').value) / 100;
-    
-    // Custo médio por kW instalado (2026)
-    const custoPorKWh = {3: 5500, 5: 8500, 10: 15000};
-    const custo = custoPorKWh[kit];
-    
-    // Poupança anual
-    const poupancaAnual = consumo * autoconsumo;
-    
-    // Payback
-    const payback = custo / poupancaAnual;
-    
-    // Poupança em 25 anos (vida util painéis)
-    const poupanca25 = poupancaAnual * 25;
-    
-    // Mostrar resultado
-    document.getElementById('custoKit').textContent = custo.toFixed(0) + '€';
-    document.getElementById('poupancaAnual').textContent = poupancaAnual.toFixed(0) + '€';
-    document.getElementById('payback').textContent = payback.toFixed(1) + ' anos';
-    document.getElementById('poupanca25').textContent = poupanca25.toFixed(0) + '€';
-    document.getElementById('paybackNum').textContent = payback.toFixed(1);
-    document.getElementById('resultado').classList.add('show');
-    
-    // Scroll
-    document.getElementById('resultado').scrollIntoView({behavior: 'smooth', block: 'center'});
+ const consumo = parseFloat(document.getElementById('consumo').value);
+ const preco = parseFloat(document.getElementById('preco').value);
+ const kit = parseInt(document.getElementById('kit').value);
+ const autoconsumo = parseFloat(document.getElementById('autoconsumo').value) / 100;
+ 
+ // Custo médio por kW instalado (2026)
+ const custoPorKWh = {3: 5500, 5: 8500, 10: 15000};
+ const custo = custoPorKWh[kit];
+ 
+ // Poupança anual
+ const poupancaAnual = consumo * autoconsumo;
+ 
+ // Payback
+ const payback = custo / poupancaAnual;
+ 
+ // Poupança em 25 anos (vida util painéis)
+ const poupanca25 = poupancaAnual * 25;
+ 
+ // Mostrar resultado
+ document.getElementById('custoKit').textContent = custo.toFixed(0) + '€';
+ document.getElementById('poupancaAnual').textContent = poupancaAnual.toFixed(0) + '€';
+ document.getElementById('payback').textContent = payback.toFixed(1) + ' anos';
+ document.getElementById('poupanca25').textContent = poupanca25.toFixed(0) + '€';
+ document.getElementById('paybackNum').textContent = payback.toFixed(1);
+ document.getElementById('resultado').classList.add('show');
+ 
+ // Scroll
+ document.getElementById('resultado').scrollIntoView({behavior: 'smooth', block: 'center'});
 }
 
 // Auto-calculate on load
@@ -122,36 +122,36 @@ window.addEventListener('load', calcular);
 
 
 <section class="services-complementares" style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
-  <h2 style="color: #2193b0; margin-top: 0;">Serviços complementares em Trás-os-Montes</h2>
-  <p>Além do serviço principal que descrevemos nesta página, a <strong>Norte Reparos</strong> oferece uma gama completa de serviços técnicos em Trás-os-Montes e arredores. Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados, sem qualquer custo adicional.</p>
-  
-  <h3>Tipos de intervenção que realizamos</h3>
-  <p>A nossa equipa de técnicos certificados trata qualquer problema de canalização ou eletricidade numa só deslocação. Para casos mais complexos, fazemos um diagnóstico detalhado no local e apresentamos um orçamento gratuito antes de qualquer trabalho. O preço de deslocação é fixo e comunicado antes da nossa chegada, sem surpresas.</p>
+ <h2 style="color: #2193b0; margin-top: 0;">Serviços complementares em Trás-os-Montes</h2>
+ <p>Além do serviço principal que descrevemos nesta página, a <strong>Norte Reparos</strong> oferece uma gama completa de serviços técnicos em Trás-os-Montes e arredores. Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados, sem qualquer custo adicional.</p>
+ 
+ <h3>Tipos de intervenção que realizamos</h3>
+ <p>A nossa equipa de técnicos certificados trata qualquer problema de canalização ou eletricidade numa só deslocação. Para casos mais complexos, fazemos um diagnóstico detalhado no local e apresentamos um orçamento gratuito antes de qualquer trabalho. O preço de deslocação é fixo e comunicado antes da nossa chegada, sem surpresas.</p>
 
-  <h3>Zonas servidas em redor de Trás-os-Montes</h3>
-  <p>Servimos toda a região transmontana, com tempos de resposta rápidos para Trás-os-Montes e todas as aldeias vizinhas. A nossa base na região permite-nos deslocar-nos rapidamente a Bragança, Mirandela, Vinhais, Mogadouro, Vimioso, Miranda do Douro, Valpaços, Chaves, Vila Real, Lamego, Peso da Régua e muitas outras localidades.</p>
+ <h3>Zonas servidas em redor de Trás-os-Montes</h3>
+ <p>Servimos toda a região transmontana, com tempos de resposta rápidos para Trás-os-Montes e todas as aldeias vizinhas. A nossa base na região permite-nos deslocar-nos rapidamente a Bragança, Mirandela, Vinhais, Mogadouro, Vimioso, Miranda do Douro, Valpaços, Chaves, Vila Real, Lamego, Peso da Régua e muitas outras localidades.</p>
 
-  <h3>Porquê escolher a Norte Reparos</h3>
-  <p>Empresa registada com mais de 12 anos de experiência no setor. Todos os nossos técnicos são certificados e formados regularmente. Emitimos fatura com NIF, oferecemos garantia de 2 anos sobre todos os trabalhos realizados e temos seguro de responsabilidade civil. Trabalhamos com as melhores marcas do mercado (Grohe, Roca, Sanindusa, Schneider Electric, ABB, entre outras) para garantir a qualidade e durabilidade das nossas instalações.</p>
+ <h3>Porquê escolher a Norte Reparos</h3>
+ <p>Empresa registada com mais de experiência no setor. Todos os nossos técnicos são certificados e formados regularmente. Emitimos fatura com NIF, oferecemos garantia de sobre todos os trabalhos realizados e temos seguro de responsabilidade civil. Trabalhamos com as melhores marcas do mercado (Grohe, Roca, Sanindusa, Schneider Electric, ABB, entre outras) para garantir a qualidade e durabilidade das nossas instalações.</p>
 
-  <h3>Como agendar uma intervenção</h3>
-  <p>Pode contactar-nos por telefone, WhatsApp ou email. Para emergências, atendemos imediatamente. Para serviços programados, agendamos para a data e hora que melhor lhe convier, incluindo fins de semana e feriados. O orçamento é sempre gratuito e sem compromisso.</p>
+ <h3>Como agendar uma intervenção</h3>
+ <p>Pode contactar-nos por telefone, WhatsApp ou email. Para emergências, atendemos imediatamente. Para serviços programados, agendamos para a data e hora que melhor lhe convier, incluindo fins de semana e feriados. O orçamento é sempre gratuito e sem compromisso.</p>
 </section>
 
 <section class="faq-extra" style="background: #fff; padding: 2rem; border-radius: 8px; margin: 2rem 0; border: 1px solid #e0e0e0;">
-  <h2 style="color: #2193b0; margin-top: 0;">Perguntas Frequentes - Norte Reparos Trás-os-Montes</h2>
-  
-  <h3>Qual o horário de funcionamento em Trás-os-Montes?</h3>
-  <p>Atendemos Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana, feriados nacionais e locais. Não fechamos em época alguma.</p>
-  
-  <h3>Quanto tempo demora a chegar a Trás-os-Montes?</h3>
-  <p>Para Trás-os-Montes, o tempo médio de resposta é inferior a 60 minutos após a chamada. Para casos urgentes (fuga de água, curto-circuito, etc.), priorizamos a chegada no tempo mais curto possível.</p>
-  
-  <h3>Posso pagar com cartão ou MB Way?</h3>
-  <p>Sim, aceitamos pagamento em numerário, multibanco, MB Way, transferência bancária e cartão de débito ou crédito. A fatura é sempre emitida com o seu NIF.</p>
-  
-  <h3>Os preços são fixos ou podem variar?</h3>
-  <p>O preço de deslocação é fixo e comunicado antes da nossa chegada. A mão de obra é cobrada à hora, com tarifário claro. Após o diagnóstico, apresentamos orçamento detalhado e só iniciamos o trabalho após a sua aprovação.</p>
+ <h2 style="color: #2193b0; margin-top: 0;">Perguntas Frequentes - Norte Reparos Trás-os-Montes</h2>
+ 
+ <h3>Qual o horário de funcionamento em Trás-os-Montes?</h3>
+ <p>Atendemos Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana, feriados nacionais e locais. Não fechamos em época alguma.</p>
+ 
+ <h3>Quanto tempo demora a chegar a Trás-os-Montes?</h3>
+ <p>Para Trás-os-Montes, o tempo médio de resposta é inferior a 60 minutos após a chamada. Para casos urgentes (fuga de água, curto-circuito, etc.), priorizamos a chegada no tempo mais curto possível.</p>
+ 
+ <h3>Posso pagar com cartão ou MB Way?</h3>
+ <p>Sim, aceitamos pagamento em numerário, multibanco, MB Way, transferência bancária e cartão de débito ou crédito. A fatura é sempre emitida com o seu NIF.</p>
+ 
+ <h3>Os preços são fixos ou podem variar?</h3>
+ <p>O preço de deslocação é fixo e comunicado antes da nossa chegada. A mão de obra é cobrada à hora, com tarifário claro. Após o diagnóstico, apresentamos orçamento detalhado e só iniciamos o trabalho após a sua aprovação.</p>
 </section>
 
 </body>
