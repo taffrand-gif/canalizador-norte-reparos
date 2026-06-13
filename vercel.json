@@ -62,6 +62,10 @@
       "destination": "/esquentadores-:city.html"
     },
     {
+      "source": "/detecao-fugas-agua",
+      "destination": "/detecao-fugas-agua.html"
+    },
+    {
       "source": "/blog/:slug",
       "destination": "/blog/:slug.html"
     },
