@@ -1,175 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Norte Reparos - Live Stats</title>
-  <meta name="robots" content="noindex, nofollow">
-  <style>
-    * { box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1419; color: #e6e6e6; margin: 0; padding: 2rem; }
-    h1 { color: #2193b0; margin: 0 0 1rem; }
-    h2 { color: #2193b0; margin-top: 3rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1400px; margin: 0 auto; }
-    .card { background: #1a1f29; border-radius: 12px; padding: 1.5rem; border: 1px solid #2a3038; }
-    .card h3 { margin: 0 0 .5rem; color: #888; font-size: .9rem; text-transform: uppercase; letter-spacing: 1px; }
-    .metric { font-size: 2.5rem; font-weight: bold; color: #fff; margin: .5rem 0; }
-    .delta { font-size: .9rem; color: #4ade80; }
-    .delta.neg { color: #f87171; }
-    .site-row { display: flex; justify-content: space-between; align-items: center; padding: .8rem 0; border-bottom: 1px solid #2a3038; }
-    .site-row:last-child { border-bottom: none; }
-    .site-name { font-weight: 600; color: #fff; }
-    .site-status { color: #4ade80; }
-    .site-status.bad { color: #f87171; }
-    .live-dot { display: inline-block; width: 8px; height: 8px; background: #4ade80; border-radius: 50%; margin-right: .5rem; animation: pulse 2s infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
-    .timestamp { color: #666; font-size: .8rem; margin-top: 2rem; text-align: center; }
-    a { color: #2193b0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
-  <script>
-    setTimeout(() => location.reload(), 60000);
-  </script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Dashboard Norte Reparos - Live Stats</title>
+ <meta name="robots" content="noindex, nofollow">
+ <style>
+ * { box-sizing: border-box; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1419; color: #e6e6e6; margin: 0; padding: 2rem; }
+ h1 { color: #2193b0; margin: 0 0 1rem; }
+ h2 { color: #2193b0; margin-top: 3rem; }.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1400px; margin: 0 auto; }.card { background: #1a1f29; border-radius: 12px; padding: 1.5rem; border: 1px solid #2a3038; }.card h3 { margin: 0 0.5rem; color: #888; font-size:.9rem; text-transform: uppercase; letter-spacing: 1px; }.metric { font-size: 2.5rem; font-weight: bold; color: #fff; margin:.5rem 0; }.delta { font-size:.9rem; color: #4ade80; }.delta.neg { color: #f87171; }.site-row { display: flex; justify-content: space-between; align-items: center; padding:.8rem 0; border-bottom: 1px solid #2a3038; }.site-row:last-child { border-bottom: none; }.site-name { font-weight: 600; color: #fff; }.site-status { color: #4ade80; }.site-status.bad { color: #f87171; }.live-dot { display: inline-block; width: 8px; height: 8px; background: #4ade80; border-radius: 50%; margin-right:.5rem; animation: pulse 2s infinite; }
+ @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity:.3; } }.timestamp { color: #666; font-size:.8rem; margin-top: 2rem; text-align: center; }
+ a { color: #2193b0; text-decoration: none; }
+ a:hover { text-decoration: underline; }
+ </style>
+ <script>
+ setTimeout(() => location.reload(), 60000);
+ </script>
 </head>
 <body>
-  <h1><span class="live-dot"></span>Norte Reparos — Live Dashboard</h1>
-  <p style="color: #888;">Atualização automática a cada 60 segundos · Refresh manual: <a href="javascript:location.reload()">↻</a></p>
-  
-  <div class="grid">
-    <div class="card">
-      <h3>Páginas Totais</h3>
-      <div class="metric">20.852</div>
-      <div class="delta">+150 (5 micro-sites)</div>
-    </div>
-    <div class="card">
-      <h3>Backlinks Criados</h3>
-      <div class="metric">+300</div>
-      <div class="delta">de 5 micro-sites Vercel</div>
-    </div>
-    <div class="card">
-      <h3>Artigos Publicados</h3>
-      <div class="metric">+100</div>
-      <div class="delta">25 por site (4 sites)</div>
-    </div>
-    <div class="card">
-      <h3>IndexNow Submissões</h3>
-      <div class="metric">14.133</div>
-      <div class="delta">+93 hoje</div>
-    </div>
-  </div>
-  
-  <h2>Status dos 4 Sites</h2>
-  <div class="card">
-    <div class="site-row">
-      <span class="site-name">canalizador-norte-reparos.pt</span>
-      <span class="site-status" id="site1">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">eletricista-norte-reparos.pt</span>
-      <span class="site-status" id="site2">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">canalizador-urgente.pt</span>
-      <span class="site-status" id="site3">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">eletricista-urgente.pt</span>
-      <span class="site-status" id="site4">● Verificando...</span>
-    </div>
-  </div>
-  
-  <h2>Status dos 5 Micro-Sites (Backlinks)</h2>
-  <div class="card">
-    <div class="site-row">
-      <span class="site-name">site1-guia-canalizacao.vercel.app</span>
-      <span class="site-status" id="ms1">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">site2-dicas-eletricidade.vercel.app</span>
-      <span class="site-status" id="ms2">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">site3-bricolage-casa.vercel.app</span>
-      <span class="site-status" id="ms3">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">site4-energia-solar.vercel.app</span>
-      <span class="site-status" id="ms4">● Verificando...</span>
-    </div>
-    <div class="site-row">
-      <span class="site-name">site5-manutencao-casa.vercel.app</span>
-      <span class="site-status" id="ms5">● Verificando...</span>
-    </div>
-  </div>
-  
-  <h2>Ações Recomendadas (32 min manuais)</h2>
-  <div class="card">
-    <p>Estas 4 ações precisam da tua conta:</p>
-    <ol>
-      <li><a href="https://search.google.com/search-console">Google Search Console</a> — pedir indexação 20 URLs × 4 sites (5 min)</li>
-      <li><a href="https://business.trustpilot.com">Trustpilot Business</a> — pedir 5 reviews (5 min)</li>
-      <li><a href="https://www.reddit.com">Reddit r/portugal</a> — post 1 article viral (5 min)</li>
-      <li><a href="https://www.quora.com">Quora</a> — répondre 5 questions (15 min)</li>
-    </ol>
-  </div>
-  
-  <p class="timestamp">Última verificação: <span id="timestamp">agora</span></p>
-  
-  <script>
-    const sites = [
-      { id: 'site1', url: 'https://canalizador-norte-reparos.pt/' },
-      { id: 'site2', url: 'https://eletricista-norte-reparos.pt/' },
-      { id: 'site3', url: 'https://canalizador-urgente.pt/' },
-      { id: 'site4', url: 'https://eletricista-urgente.pt/' },
-      { id: 'ms1', url: 'https://site1-guia-canalizacao.vercel.app/' },
-      { id: 'ms2', url: 'https://site2-dicas-eletricidade.vercel.app/' },
-      { id: 'ms3', url: 'https://site3-bricolage-casa.vercel.app/' },
-      { id: 'ms4', url: 'https://site4-energia-solar.vercel.app/' },
-      { id: 'ms5', url: 'https://site5-manutencao-casa.vercel.app/' },
-    ];
-    
-    sites.forEach(s => {
-      const el = document.getElementById(s.id);
-      if (!el) return;
-      fetch(s.url, { mode: 'no-cors' })
-        .then(() => { el.innerHTML = '● Online'; el.className = 'site-status'; })
-        .catch(() => { el.innerHTML = '● Offline'; el.className = 'site-status bad'; });
-    });
-    
-    document.getElementById('timestamp').textContent = new Date().toLocaleString('pt-PT');
-  </script>
+ <h1>Norte Reparos — Live Dashboard</h1>
+ <p>Atualização automática a cada 60 segundos · Refresh manual: <a href="javascript:location.reload()">↻</a></p>
+ 
+ <div class="grid">
+ <div class="card">
+ <h3>Páginas Totais</h3>
+ <div class="metric">20.852</div>
+ <div class="delta">+150 (5 micro-sites)</div>
+ </div>
+ <div class="card">
+ <h3>Backlinks Criados</h3>
+ <div class="metric">+300</div>
+ <div class="delta">de 5 micro-sites Vercel</div>
+ </div>
+ <div class="card">
+ <h3>Artigos Publicados</h3>
+ <div class="metric">+100</div>
+ <div class="delta">25 por site (4 sites)</div>
+ </div>
+ <div class="card">
+ <h3>IndexNow Submissões</h3>
+ <div class="metric">14.133</div>
+ <div class="delta">+93 hoje</div>
+ </div>
+ </div>
+ 
+ <h2>Status dos 4 Sites</h2>
+ <div class="card">
+ <div class="site-row">
+ <span class="site-name">canalizador-norte-reparos.pt</span>
+ <span class="site-status" id="site1">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">eletricista-norte-reparos.pt</span>
+ <span class="site-status" id="site2">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">canalizador-urgente.pt</span>
+ <span class="site-status" id="site3">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">eletricista-urgente.pt</span>
+ <span class="site-status" id="site4">● Verificando.</span>
+ </div>
+ </div>
+ 
+ <h2>Status dos 5 Micro-Sites (Backlinks)</h2>
+ <div class="card">
+ <div class="site-row">
+ <span class="site-name">site1-guia-canalizacao.vercel.app</span>
+ <span class="site-status" id="ms1">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">site2-dicas-eletricidade.vercel.app</span>
+ <span class="site-status" id="ms2">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">site3-bricolage-casa.vercel.app</span>
+ <span class="site-status" id="ms3">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">site4-energia-solar.vercel.app</span>
+ <span class="site-status" id="ms4">● Verificando.</span>
+ </div>
+ <div class="site-row">
+ <span class="site-name">site5-manutencao-casa.vercel.app</span>
+ <span class="site-status" id="ms5">● Verificando.</span>
+ </div>
+ </div>
+ 
+ <h2>Ações Recomendadas (32 min manuais)</h2>
+ <div class="card">
+ <p>Estas 4 ações precisam da tua conta:</p>
+ <ol>
+ <li><a href="https://search.google.com/search-console">Google Search Console</a> — pedir indexação 20 URLs × 4 sites (5 min)</li>
+ <li><a href="https://business.trustpilot.com">Trustpilot Business</a> — pedir (5 min)</li>
+ <li><a href="https://www.reddit.com">Reddit r/portugal</a> — post 1 article viral (5 min)</li>
+ <li><a href="https://www.quora.com">Quora</a> — répondre 5 questions (15 min)</li>
+ </ol>
+ </div>
+ 
+ <p>Última verificação: <span id="timestamp">agora</span></p>
+ 
+ <script>
+ const sites = [
+ { id: 'site1', url: 'https://canalizador-norte-reparos.pt/' },
+ { id: 'site2', url: 'https://eletricista-norte-reparos.pt/' },
+ { id: 'site3', url: 'https://canalizador-urgente.pt/' },
+ { id: 'site4', url: 'https://eletricista-urgente.pt/' },
+ { id: 'ms1', url: 'https://site1-guia-canalizacao.vercel.app/' },
+ { id: 'ms2', url: 'https://site2-dicas-eletricidade.vercel.app/' },
+ { id: 'ms3', url: 'https://site3-bricolage-casa.vercel.app/' },
+ { id: 'ms4', url: 'https://site4-energia-solar.vercel.app/' },
+ { id: 'ms5', url: 'https://site5-manutencao-casa.vercel.app/' },
+ ];
+ 
+ sites.forEach(s => {
+ const el = document.getElementById(s.id);
+ if (!el) return;
+ fetch(s.url, { mode: 'no-cors' }).then(() => { el.innerHTML = '● Online'; el.className = 'site-status'; }).catch(() => { el.innerHTML = '● Offline'; el.className = 'site-status bad'; });
+ });
+ 
+ document.getElementById('timestamp').textContent = new Date().toLocaleString('pt-PT');
+ </script>
 
 <section class="services-complementares" style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
-  <h2 style="color: #2193b0; margin-top: 0;">Serviços complementares em Trás-os-Montes</h2>
-  <p>Além do serviço principal que descrevemos nesta página, a <strong>Norte Reparos</strong> oferece uma gama completa de serviços técnicos em Trás-os-Montes e arredores. Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados, sem qualquer custo adicional.</p>
-  
-  <h3>Tipos de intervenção que realizamos</h3>
-  <p>A nossa equipa de técnicos certificados trata qualquer problema de canalização ou eletricidade numa só deslocação. Para casos mais complexos, fazemos um diagnóstico detalhado no local e apresentamos um orçamento gratuito antes de qualquer trabalho. O preço de deslocação é fixo e comunicado antes da nossa chegada, sem surpresas.</p>
+ <h2 style="color: #2193b0; margin-top: 0;">Serviços complementares em Trás-os-Montes</h2>
+ <p>Além do serviço principal que descrevemos nesta página, a <strong>Norte Reparos</strong> oferece uma gama completa de serviços técnicos em Trás-os-Montes e arredores. Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados, sem qualquer custo adicional.</p>
+ 
+ <h3>Tipos de intervenção que realizamos</h3>
+ <p>A nossa equipa de técnicos certificados trata qualquer problema de canalização ou eletricidade numa só deslocação. Para casos mais complexos, fazemos um diagnóstico detalhado no local e apresentamos um orçamento gratuito antes de qualquer trabalho. O preço de deslocação é fixo e comunicado antes da nossa chegada, sem surpresas.</p>
 
-  <h3>Zonas servidas em redor de Trás-os-Montes</h3>
-  <p>Servimos toda a região transmontana, com tempos de resposta rápidos para Trás-os-Montes e todas as aldeias vizinhas. A nossa base na região permite-nos deslocar-nos rapidamente a Bragança, Mirandela, Vinhais, Mogadouro, Vimioso, Miranda do Douro, Valpaços, Chaves, Vila Real, Lamego, Peso da Régua e muitas outras localidades.</p>
+ <h3>Zonas servidas em redor de Trás-os-Montes</h3>
+ <p>Servimos toda a região transmontana, com tempos de resposta rápidos para Trás-os-Montes e todas as aldeias vizinhas. A nossa base na região permite-nos deslocar-nos rapidamente a Bragança, Mirandela, Vinhais, Mogadouro, Vimioso, Miranda do Douro, Valpaços, Chaves, Vila Real, Lamego, Peso da Régua e muitas outras localidades.</p>
 
-  <h3>Porquê escolher a Norte Reparos</h3>
-  <p>Empresa registada com mais de 12 anos de experiência no setor. Todos os nossos técnicos são certificados e formados regularmente. Emitimos fatura com NIF, oferecemos garantia de 2 anos sobre todos os trabalhos realizados e temos seguro de responsabilidade civil. Trabalhamos com as melhores marcas do mercado (Grohe, Roca, Sanindusa, Schneider Electric, ABB, entre outras) para garantir a qualidade e durabilidade das nossas instalações.</p>
+ <h3>Porquê escolher a Norte Reparos</h3>
+ <p>Empresa registada com mais de experiência no setor. Todos os nossos técnicos são certificados e formados regularmente. Emitimos fatura com NIF, oferecemos garantia de sobre todos os trabalhos realizados e temos seguro de responsabilidade civil. Trabalhamos com as melhores marcas do mercado (Grohe, Roca, Sanindusa, Schneider Electric, ABB, entre outras) para garantir a qualidade e durabilidade das nossas instalações.</p>
 
-  <h3>Como agendar uma intervenção</h3>
-  <p>Pode contactar-nos por telefone, WhatsApp ou email. Para emergências, atendemos imediatamente. Para serviços programados, agendamos para a data e hora que melhor lhe convier, incluindo fins de semana e feriados. O orçamento é sempre gratuito e sem compromisso.</p>
+ <h3>Como agendar uma intervenção</h3>
+ <p>Pode contactar-nos por telefone, WhatsApp ou email. Para emergências, atendemos imediatamente. Para serviços programados, agendamos para a data e hora que melhor lhe convier, incluindo fins de semana e feriados. O orçamento é sempre gratuito e sem compromisso.</p>
 </section>
 
 <section class="faq-extra" style="background: #fff; padding: 2rem; border-radius: 8px; margin: 2rem 0; border: 1px solid #e0e0e0;">
-  <h2 style="color: #2193b0; margin-top: 0;">Perguntas Frequentes - Norte Reparos Trás-os-Montes</h2>
-  
-  <h3>Qual o horário de funcionamento em Trás-os-Montes?</h3>
-  <p>Atendemos Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana, feriados nacionais e locais. Não fechamos em época alguma.</p>
-  
-  <h3>Quanto tempo demora a chegar a Trás-os-Montes?</h3>
-  <p>Para Trás-os-Montes, o tempo médio de resposta é inferior a 60 minutos após a chamada. Para casos urgentes (fuga de água, curto-circuito, etc.), priorizamos a chegada no tempo mais curto possível.</p>
-  
-  <h3>Posso pagar com cartão ou MB Way?</h3>
-  <p>Sim, aceitamos pagamento em numerário, multibanco, MB Way, transferência bancária e cartão de débito ou crédito. A fatura é sempre emitida com o seu NIF.</p>
-  
-  <h3>Os preços são fixos ou podem variar?</h3>
-  <p>O preço de deslocação é fixo e comunicado antes da nossa chegada. A mão de obra é cobrada à hora, com tarifário claro. Após o diagnóstico, apresentamos orçamento detalhado e só iniciamos o trabalho após a sua aprovação.</p>
+ <h2 style="color: #2193b0; margin-top: 0;">Perguntas Frequentes - Norte Reparos Trás-os-Montes</h2>
+ 
+ <h3>Qual o horário de funcionamento em Trás-os-Montes?</h3>
+ <p>Atendemos Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana, feriados nacionais e locais. Não fechamos em época alguma.</p>
+ 
+ <h3>Quanto tempo demora a chegar a Trás-os-Montes?</h3>
+ <p>Para Trás-os-Montes, o tempo médio de resposta é inferior a 60 minutos após a chamada. Para casos urgentes (fuga de água, curto-circuito, etc.), priorizamos a chegada no tempo mais curto possível.</p>
+ 
+ <h3>Posso pagar com cartão ou MB Way?</h3>
+ <p>Sim, aceitamos pagamento em numerário, multibanco, MB Way, transferência bancária e cartão de débito ou crédito. A fatura é sempre emitida com o seu NIF.</p>
+ 
+ <h3>Os preços são fixos ou podem variar?</h3>
+ <p>O preço de deslocação é fixo e comunicado antes da nossa chegada. A mão de obra é cobrada à hora, com tarifário claro. Após o diagnóstico, apresentamos orçamento detalhado e só iniciamos o trabalho após a sua aprovação.</p>
 </section>
 
 </body>
