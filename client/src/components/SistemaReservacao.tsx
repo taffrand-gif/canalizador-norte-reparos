@@ -152,7 +152,7 @@ export default function SistemaReservacao() {
  Reserva Enviada!
  </h3>
  <p className="text-gray-700 mb-6">
- Receberá confirmação por SMS e Email em 5-10 minutos.
+ Receberá confirmação por SMS e Email resposta prioritária.
  </p>
  <div className="bg-blue-50 border-2 border-blue-200 rounded-lg p-4 mb-6">
  <p className="text-sm text-blue-900 font-semibold">
@@ -451,7 +451,7 @@ export default function SistemaReservacao() {
  </button>
  </div>
  <p className="text-xs text-gray-600 text-center">
- Receberá confirmação por SMS e Email em 5-10 minutos
+ Receberá confirmação por SMS e Email resposta prioritária
  </p>
  </form>
  )}

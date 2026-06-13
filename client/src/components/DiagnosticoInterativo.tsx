@@ -103,7 +103,7 @@ export default function DiagnosticoInterativo() {
  if (urgentCount > 0) {
  urgency = 'urgent';
  price = 150;
- responseTime = '30min';
+ responseTime = 'resposta prioritária';
  } else if (highCount > 0) {
  urgency = 'high';
  price = 120;

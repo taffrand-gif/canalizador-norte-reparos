@@ -26,33 +26,33 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  const faqs = [
  {
  question: "Quanto tempo demora desentupir sanita entupida?",
- answer: "Entupimento simples: 15-30 minutos. Entupimento médio: 30-60 minutos. Entupimento grave: 1-3 horas. Inclui: diagnóstico, desentupimento, teste, limpeza. Canalizador chega em 30-45 min. Urgente 24h: 928 484 451"
+ answer: "Entupimento simples: 15-resposta prioritária. Entupimento médio: 30-resposta prioritária. Entupimento grave: 1-3 horas. Inclui: diagnóstico, desentupimento, teste, limpeza. Canalizador chega resposta prioritária. Urgente 24h: 928 484 451"
  },
  {
  question: "Posso usar sanita logo após desentupir?",
- answer: "SIM, imediatamente após teste final (5-10 min). Fazemos teste completo: descarga normal, papel higiénico, verificação escoamento. Se tudo OK, pode usar normalmente."
+ answer: "SIM, imediatamente após teste final (5-resposta prioritária). Fazemos teste completo: descarga normal, papel higiénico, verificação escoamento. Se tudo OK, pode usar normalmente."
  },
  {
  question: "Quanto tempo canalizador demora a chegar?",
- answer: "Urgente 24h: 30-45 minutos em Trás-os-Montes. Horário normal: 1-3 horas. Atendemos chamadas urgentes imediatamente. Sanita entupida é prioridade: 928 484 451"
+ answer: "Urgente 24h: 30-resposta prioritária em Trás-os-Montes. Horário normal: 1-3 horas. Atendemos chamadas urgentes imediatamente. Sanita entupida é prioridade: 928 484 451"
  },
  {
  question: "Quanto tempo fico sem usar sanita?",
- answer: "Tempo total sem usar: 15 minutos a 3 horas (durante desentupimento). Se tiver 2ª casa de banho, use essa. Se não, avisamos tempo exacto e trabalhamos rápido."
+ answer: "Tempo total sem usar: resposta prioritária a 3 horas (durante desentupimento). Se tiver 2ª casa de banho, use essa. Se não, avisamos tempo exacto e trabalhamos rápido."
  }
  ];
  const tempos = [
  {
  tipo: "Entupimento Simples",
  causa: "Papel higiénico, pequeno objecto",
- tempo: "15-30 min",
+ tempo: "15-resposta prioritária",
  metodo: "Ventosa manual",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 5 min",
- "Desentupir ventosa: 5-10 min",
- "Teste: 5 min",
- "Limpeza: 5 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: resposta prioritária",
+ "Desentupir ventosa: 5-resposta prioritária",
+ "Teste: resposta prioritária",
+ "Limpeza: resposta prioritária"
  ],
  urgencia: "BAIXA",
  icon: CheckCircle
@@ -60,14 +60,14 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  {
  tipo: "Entupimento Médio",
  causa: "Acumulação papel, toalhitas",
- tempo: "30-60 min",
+ tempo: "30-resposta prioritária",
  metodo: "Mola desentupidora",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico: 10 min",
- "Desentupir mola: 15-30 min",
- "Teste pressão: 10 min",
- "Limpeza: 10 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico: resposta prioritária",
+ "Desentupir mola: 15-resposta prioritária",
+ "Teste pressão: resposta prioritária",
+ "Limpeza: resposta prioritária"
  ],
  urgencia: "MÉDIA",
  icon: Wrench
@@ -78,11 +78,11 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  tempo: "1-3h",
  metodo: "Máquina profissional",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico câmara: 15-20 min",
- "Desentupir máquina: 30-90 min",
- "Teste completo: 15-20 min",
- "Limpeza profunda: 15-20 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico câmara: 15-resposta prioritária",
+ "Desentupir máquina: 30-resposta prioritária",
+ "Teste completo: 15-resposta prioritária",
+ "Limpeza profunda: 15-resposta prioritária"
  ],
  urgencia: "ALTA",
  icon: AlertTriangle
@@ -93,12 +93,12 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  tempo: "2-4h",
  metodo: "Desentupimento completo",
  detalhes: [
- "Chegada: 30-45 min",
- "Diagnóstico câmara: 20-30 min",
- "Localizar bloqueio: 30-60 min",
- "Desentupir máquina: 60-120 min",
- "Teste sistema: 20-30 min",
- "Limpeza: 20 min"
+ "Chegada: 30-resposta prioritária",
+ "Diagnóstico câmara: 20-resposta prioritária",
+ "Localizar bloqueio: 30-resposta prioritária",
+ "Desentupir máquina: 60-resposta prioritária",
+ "Teste sistema: 20-resposta prioritária",
+ "Limpeza: resposta prioritária"
  ],
  urgencia: "CRÍTICA",
  icon: Zap
@@ -108,34 +108,34 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  {
  factor: "Tipo de Entupimento",
  impacto: "Papel: rápido. Objecto sólido: mais tempo. Raízes: muito tempo",
- tempo: "+10min a +2h"
+ tempo: "+resposta prioritária a +2h"
  },
  {
  factor: "Localização Bloqueio",
  impacto: "Sanita: rápido. Tubagem: médio. Canalização principal: longo",
- tempo: "+15min a +3h"
+ tempo: "+resposta prioritária a +3h"
  },
  {
  factor: "Acessibilidade",
  impacto: "Fácil acesso: rápido. Difícil acesso (cave, exterior): mais tempo",
- tempo: "+20min a +1h"
+ tempo: "+resposta prioritária a +1h"
  },
  {
  factor: "Equipamento Necessário",
  impacto: "Ventosa: rápido. Mola: médio. Máquina profissional: mais tempo",
- tempo: "+10min a +1h30"
+ tempo: "+resposta prioritária a +1h30"
  },
  {
  factor: "Estado Canalização",
  impacto: "Canos novos: rápido. Canos antigos (calcário, ferrugem): mais tempo",
- tempo: "+15min a +1h"
+ tempo: "+resposta prioritária a +1h"
  }
  ];
  return (
  <>
  <Helmet>
  <title>Quanto Tempo Demora Desentupir Sanita? Tempos Reais 2026 | 928 484 451</title>
- <meta name="description" content="Quanto tempo demora desentupir sanita? 15min-3h dependendo gravidade. Simples: 15-30min, Médio: 30-60min, Grave: 1-3h. Canalizador chega 30-45min. Urgente 24h: 928 484 451" />
+ <meta name="description" content="Quanto tempo demora desentupir sanita? resposta prioritária-3h dependendo gravidade. Simples: 15-resposta prioritária, Médio: 30-resposta prioritária, Grave: 1-3h. Canalizador chega 30-resposta prioritária. Urgente 24h: 928 484 451" />
  <script type="application/ld+json">
  {JSON.stringify(schemaData)}
  </script>
@@ -154,8 +154,8 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  Quanto Tempo Demora Desentupir Sanita?
  </h1>
  <p className="text-xl mb-8">
- Tempos reais: 15 minutos a 3 horas dependendo gravidade.
- Canalizador chega em 30-45 minutos. Atendimento urgente 24h.
+ Tempos reais: resposta prioritária a 3 horas dependendo gravidade.
+ Canalizador chega resposta prioritária. Atendimento urgente 24h.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -282,13 +282,13 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  <div className="max-w-3xl mx-auto">
  <div className="space-y-6">
  {[
- { tempo: "0 min", acao: "Liga para 928 484 451", descricao: "Atendimento imediato, explicamos o que NÃO fazer" },
- { tempo: "5 min", acao: "Canalizador a caminho", descricao: "Confirmamos chegada em 30-45 minutos" },
- { tempo: "35 min", acao: "Canalizador chega", descricao: "Avaliação visual e diagnóstico" },
- { tempo: "45 min", acao: "Início desentupimento", descricao: "Uso mola desentupidora profissional" },
- { tempo: "60 min", acao: "Desentupimento concluído", descricao: "Bloqueio removido, canalização livre" },
- { tempo: "70 min", acao: "Teste completo", descricao: "Descarga normal + papel + verificação escoamento" },
- { tempo: "80 min", acao: "Limpeza e conclusão", descricao: "Sanita limpa, pode usar imediatamente" }
+ { tempo: "resposta prioritária", acao: "Liga para 928 484 451", descricao: "Atendimento imediato, explicamos o que NÃO fazer" },
+ { tempo: "resposta prioritária", acao: "Canalizador a caminho", descricao: "Confirmamos chegada resposta prioritária" },
+ { tempo: "resposta prioritária", acao: "Canalizador chega", descricao: "Avaliação visual e diagnóstico" },
+ { tempo: "resposta prioritária", acao: "Início desentupimento", descricao: "Uso mola desentupidora profissional" },
+ { tempo: "resposta prioritária", acao: "Desentupimento concluído", descricao: "Bloqueio removido, canalização livre" },
+ { tempo: "resposta prioritária", acao: "Teste completo", descricao: "Descarga normal + papel + verificação escoamento" },
+ { tempo: "resposta prioritária", acao: "Limpeza e conclusão", descricao: "Sanita limpa, pode usar imediatamente" }
  ].map((step, index) => (
  <div key={index} className="flex gap-4">
  <div className="flex flex-col items-center">

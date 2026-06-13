@@ -17,7 +17,7 @@ export default function VilaReal() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Vila Real 💧 24h | 928 484 451";
+    document.title = "💧 Canalizador Vila Real — Orçamento Grátis | Garantia Escrita";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

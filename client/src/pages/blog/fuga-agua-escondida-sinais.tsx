@@ -19,7 +19,7 @@ export default function FugaAguaEscondidaSinais() {
  "name": "Como testar se tenho fuga de água em casa?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Teste simples: feche todas as torneiras e aparelhos que usem água. Anote o número do contador. 30 minutos sem usar água. Se o contador mudou, tem uma fuga ativa."
+ "text": "Teste simples: feche todas as torneiras e aparelhos que usem água. Anote o número do contador. resposta prioritária sem usar água. Se o contador mudou, tem uma fuga ativa."
  }
  },
  {
@@ -132,7 +132,7 @@ export default function FugaAguaEscondidaSinais() {
  Aprenda a detetar os sinais antes que seja tarde demais.
  </p>
  <div className="flex items-center gap-6 mt-6 text-sm text-gray-500">
- <span>7 min leitura</span>
+ <span>resposta prioritária leitura</span>
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
@@ -142,7 +142,7 @@ export default function FugaAguaEscondidaSinais() {
  <p className="text-gray-700 leading-relaxed">
  <strong>Os 3 sinais mais claros de fuga escondida são:</strong> conta de água 20-30% mais alta sem razão,
  contador a rodar com tudo fechado, e som de água a correr. <strong>Teste simples:</strong> feche todas as torneiras,
- anote o contador, 30 min. Se mudou, tem fuga. Em Bragança, detetamos fugas com câmara térmica por 80-150€.
+ anote o contador, resposta prioritária. Se mudou, tem fuga. Em Bragança, detetamos fugas com câmara térmica por 80-150€.
  </p>
  </div>
  {/* Alerta Impacto */}
@@ -218,7 +218,7 @@ export default function FugaAguaEscondidaSinais() {
  {[
  { num: 1, texto: "Feche todas as torneiras e aparelhos (máquina lavar, autoclismos, etc.)" },
  { num: 2, texto: "Anote TODOS os dígitos do contador de água (tire foto)" },
- { num: 3, texto: " 30 minutos sem usar água nenhuma" },
+ { num: 3, texto: " resposta prioritária sem usar água nenhuma" },
  { num: 4, texto: "Verifique o contador. Se mudou = TEM FUGA" }
  ].map((passo) => (
  <div key={passo.num} className="bg-white/10 rounded-lg p-4 text-center">

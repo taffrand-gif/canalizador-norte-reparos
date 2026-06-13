@@ -109,3 +109,14 @@ temp/
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
 .vercel
+
+# Backups (local only)
+client/src/components/.backups/
+**/.backups/
+
+# Mac
+.DS_Store
+
+# Archives
+*.tar.gz
+*.zip

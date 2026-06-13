@@ -18,7 +18,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <span className="px-3 py-1 bg-orange-100 text-orange-800 font-semibold rounded-full">
  Problema Comum
  </span>
- <span>⏱️ 12 min de leitura</span>
+ <span>⏱️ resposta prioritária de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -277,7 +277,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="font-bold text-cyan-900 mb-3 text-lg">💡 Teste Simples de Diagnóstico</h3>
  <ol className="text-cyan-800 space-y-2 list-decimal pl-6">
  <li>Despeje 1 litro de água no ralo com cheiro</li>
- <li>Aguarde 5 minutos</li>
+ <li>Aguarde resposta prioritária</li>
  <li>Cheire novamente</li>
  </ol>
  <div className="mt-4 space-y-2">
@@ -305,14 +305,14 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Encher Sifão Seco</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐⭐ (Solução imediata)</p>
- <p className="text-cyan-800 text-sm">Resolve 40% dos casos | Custo: 0€ | Tempo: 2 minutos</p>
+ <p className="text-cyan-800 text-sm">Resolve 40% dos casos | Custo: 0€ | Tempo: resposta prioritária</p>
  </div>
  </div>
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje 1-2 litros de água no ralo com cheiro</li>
- <li>Aguarde 5 minutos</li>
+ <li>Aguarde resposta prioritária</li>
  <li>Cheire novamente para verificar</li>
  <li>Se cheiro desapareceu, problema resolvido</li>
  </ol>
@@ -336,7 +336,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Limpar Sifão Entupido</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐⭐ (Solução definitiva)</p>
- <p className="text-cyan-800 text-sm">Resolve 25% dos casos | Custo: 0-5€ | Tempo: 15-20 minutos</p>
+ <p className="text-cyan-800 text-sm">Resolve 25% dos casos | Custo: 0-5€ | Tempo: 15-resposta prioritária</p>
  </div>
  </div>
  </div>
@@ -365,7 +365,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Bicarbonato + Vinagre + Água Quente</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐ (Limpeza profunda)</p>
- <p className="text-cyan-800 text-sm">Solução natural | Custo: 2-3€ | Tempo: 45 minutos</p>
+ <p className="text-cyan-800 text-sm">Solução natural | Custo: 2-3€ | Tempo: resposta prioritária</p>
  </div>
  </div>
  </div>
@@ -379,7 +379,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje bicarbonato de sódio no ralo</li>
  <li>Adicione vinagre branco (vai fazer espuma - é normal)</li>
- <li>Deixe atuar 30 minutos (reação química dissolve gordura)</li>
+ <li>Deixe atuar resposta prioritária (reação química dissolve gordura)</li>
  <li>Despeje água quente para enxaguar</li>
  <li>Repita se necessário</li>
  </ol>
@@ -398,7 +398,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Substituir Junta Danificada</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐⭐ (Solução permanente)</p>
- <p className="text-cyan-800 text-sm">Resolve 10% dos casos | Custo: 2-5€ | Tempo: 10 minutos</p>
+ <p className="text-cyan-800 text-sm">Resolve 10% dos casos | Custo: 2-5€ | Tempo: resposta prioritária</p>
  </div>
  </div>
  </div>
@@ -449,7 +449,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Compre água oxigenada 10 volumes (farmácia)</li>
  <li>Despeje 200ml no ralo</li>
- <li>Deixe atuar 30-60 minutos</li>
+ <li>Deixe atuar 30-resposta prioritária</li>
  <li>Enxague com água quente abundante</li>
  <li>Repita semanalmente durante 1 mês (casos graves)</li>
  </ol>
@@ -522,7 +522,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• 100g bicarbonato + 200ml vinagre mensalmente</li>
- <li>• Deixe atuar 30 minutos</li>
+ <li>• Deixe atuar resposta prioritária</li>
  <li>• Enxague com água quente</li>
  <li>• Previne 80% dos problemas de odor</li>
  </ul>
@@ -559,7 +559,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Previne acumulação excessiva</li>
  <li>• Deteta problemas precocemente</li>
- <li>• Demora apenas 15 minutos por sifão</li>
+ <li>• Demora apenas resposta prioritária por sifão</li>
  <li>• Prioridade: cozinha e casa de banho principal</li>
  </ul>
  </div>
@@ -581,7 +581,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  Humidade favorece crescimento de bactérias e mofo.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Abra janela após duche (10-15 minutos)</li>
+ <li>• Abra janela após duche (10-resposta prioritária)</li>
  <li>• Use extrator de ar se não houver janela</li>
  <li>• Mantenha casa de banho seca</li>
  <li>• Limpe regularmente para evitar mofo</li>
@@ -637,7 +637,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Canalização sempre funcional</li>
  <li>• Menos stress e preocupações</li>
  <li>• Valoriza o imóvel</li>
- <li>• Investimento: 30 minutos/mês</li>
+ <li>• Investimento: resposta prioritária/mês</li>
  </ul>
  </div>
  </div>
@@ -745,12 +745,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Como eliminar mau cheiro da canalização rapidamente?</h3>
  <p className="text-gray-700 mb-2">
- <strong>Solução rápida (5 minutos):</strong>
+ <strong>Solução rápida (resposta prioritária):</strong>
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
  <li>Despeje 1-2 litros de água no ralo</li>
  <li>Se persistir: 100g bicarbonato + 200ml vinagre</li>
- <li>Deixe atuar 30 minutos</li>
+ <li>Deixe atuar resposta prioritária</li>
  <li>Enxague com água quente</li>
  </ol>
  <p className="text-green-700 font-semibold mt-3">
@@ -902,7 +902,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Intervenção Rápida</p>
- <p className="text-sm text-white/80">Resposta rápida garantida-60 minutos</p>
+ <p className="text-sm text-white/80">Resposta rápida garantida-resposta prioritária</p>
  </div>
  </div>
  <div className="flex items-start gap-3">

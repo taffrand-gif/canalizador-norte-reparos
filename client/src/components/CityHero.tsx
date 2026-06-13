@@ -48,7 +48,7 @@ function CityHero({
  className="bg-red-600 hover:bg-red-700 text-white text-2xl font-bold px-12 py-4 rounded-lg transition-colors inline-flex items-center gap-3"
  >
  <span>📞</span>
- <span>Ligar Agora → Técnico em 30min</span>
+ <span>Ligar Agora → Técnico resposta prioritária</span>
  </button>
  <p className="mt-6 text-lg opacity-90">
  ✅ Mais de {interventionsCount} intervenções em {cityName} • ⚡ Resposta rápida

@@ -20,7 +20,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  Dicas Práticas
  </span>
- <span>⏱️ 7 min de leitura</span>
+ <span>⏱️ resposta prioritária de leitura</span>
  <span>📅 13 Fev 2026</span>
  <span>👁️ 1.5K visualizações</span>
  </div>
@@ -184,7 +184,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">3</span>
  <div>
  <p className="font-semibold">Deixe atuar</p>
- <p className="text-gray-600">Tape o ralo e deixe a mistura atuar por 30 minutos a 1 hora.</p>
+ <p className="text-gray-600">Tape o ralo e deixe a mistura atuar por resposta prioritária a 1 hora.</p>
  </div>
  </li>
  <li className="flex items-start gap-3">

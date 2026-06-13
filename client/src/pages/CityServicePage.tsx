@@ -88,13 +88,13 @@ export default function CityServicePage() {
  className="bg-white hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
  style={{ color: accentColor }}
  >
- 📞 Ligar Agora → Técnico em 30min
+ 📞 Ligar Agora → Técnico resposta prioritária
  </a>
  <a
  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
  >
- 💬 WhatsApp → Resposta em 5min
+ 💬 WhatsApp → Resposta prioritária
  </a>
  </div>
  </div>
@@ -124,7 +124,7 @@ export default function CityServicePage() {
  className="block w-full text-center text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
  style={{ backgroundColor: '#25D366' }}
  >
- 💬 Orçamento Grátis em 2min → Sem Compromisso
+ 💬 Orçamento Grátis resposta prioritária → Sem Compromisso
  </a>
  </div>
  </div>
@@ -160,7 +160,7 @@ export default function CityServicePage() {
  className="bg-white hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
  style={{ color: accentColor }}
  >
- 📞 Ligar → Atendemos em 30min
+ 📞 Ligar → Atendemos resposta prioritária
  </a>
  <a
  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
@@ -185,11 +185,11 @@ function generateFAQs(service: any, city: any, isPlumber: boolean) {
  },
  {
  question: `Atendem em ${city.name} ao fim de semana?`,
- answer: `Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, o tempo de resposta é de 30-90 minutos.`
+ answer: `Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, o tempo de resposta é de 30-resposta prioritária.`
  },
  {
  question: `Quanto tempo demora a chegar a ${city.name}?`,
- answer: `O tempo de resposta para ${city.name} é normalmente entre 30 a 90 minutos, dependendo da localização exata e disponibilidade. Para urgências, priorizamos sempre a rapidez.`
+ answer: `O tempo de resposta para ${city.name} é normalmente entre 30 a resposta prioritária, dependendo da localização exata e disponibilidade. Para urgências, priorizamos sempre a rapidez.`
  }
  ];
  return baseFAQs;

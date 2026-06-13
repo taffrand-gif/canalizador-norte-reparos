@@ -90,11 +90,11 @@ export default function CanoRebentado() {
  <SolutionTimeline
  title="Como Paramos a Inundação Atendimento prioritário"
  subtitle="Resposta de emergência. Rápida, eficaz, profissional."
- totalTime="20-60 minutos"
+ totalTime="20-resposta prioritária"
  guaranteeText="Paramos a inundação ou não paga. Garantia total."
  steps={[
  {
- time: '0-2 min',
+ time: '0-resposta prioritária',
  title: 'Liga AGORA',
  description: 'Atendemos imediatamente. Damos instruções para fechar a água e minimizar danos enquanto corremos para aí.',
  icon: 'phone'
@@ -106,13 +106,13 @@ export default function CanoRebentado() {
  icon: 'map'
  },
  {
- time: '15-25 min',
+ time: '15-resposta prioritária',
  title: 'Paramos a Água',
  description: 'Identificamos o cano rebentado, fechamos a água, paramos a inundação. Danos controlados.',
  icon: 'wrench'
  },
  {
- time: '25-60 min',
+ time: '25-resposta prioritária',
  title: 'Arranjo de Emergência',
  description: 'Arranjamos ou substituímos o cano. Testamos. Restauramos o fornecimento de água. Casa salva.',
  icon: 'check'
@@ -128,7 +128,7 @@ export default function CanoRebentado() {
  city: 'Bragança',
  problem: 'Cano rebentado',
  solution: 'Cano rebentou na cozinha às 7h da manhã. Água a jorrar! Liguei em pânico. Chegaram Atendimento prioritário, pararam a água, salvaram a cozinha. Heróis!',
- timeframe: '30 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -137,7 +137,7 @@ export default function CanoRebentado() {
  city: 'Mirandela',
  problem: 'Inundação urgente',
  solution: 'Cano rebentou na parede. Casa a inundar, móveis a flutuar. Chegaram rapidíssimo, pararam tudo, arranjaram no mesmo dia. Salvaram a minha casa!',
- timeframe: '45 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -146,7 +146,7 @@ export default function CanoRebentado() {
  city: 'Chaves',
  problem: 'Cano rebentado inverno',
  solution: 'Inverno rigoroso, cano rebentou com o gelo. Água a jorrar pela garagem. Vieram rapidamente, resolveram tudo. Profissionais top!',
- timeframe: '40 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -155,7 +155,7 @@ export default function CanoRebentado() {
  city: 'Vila Real',
  problem: 'Cano rebentado noite',
  solution: 'Meia-noite, cano rebentou no teto. Água a cair na sala. Pânico total! Atenderam logo, chegaram rápido, pararam a catástrofe. Muito obrigada!',
- timeframe: '35 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -173,7 +173,7 @@ export default function CanoRebentado() {
  city: 'Mogadouro',
  problem: 'Cano rebentado urgente',
  solution: 'Domingo de manhã, cano rebentou na casa de banho. Água por todo o lado. Vieram imediatamente, resolveram tudo. Preço justo. 5 estrelas!',
- timeframe: '50 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  }

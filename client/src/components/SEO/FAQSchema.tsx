@@ -35,7 +35,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Resposta rápida em Bragança e até 60 minutos nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
+ answer: "Resposta rápida em Bragança e até resposta prioritária nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
  },
  {
  question: "Trabalham Atendimento 24h/7d?",

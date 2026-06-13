@@ -33,7 +33,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "35 000 habitants",
  logements: "12 000 logements dont 60% construits avant 1990",
  problemesFrequents: "Fugas de água em canalizações antigas (200+ casos/ano), entupimentos em prédios antigos, esquentadores obsoletos",
- delaiIntervention: "40 minutos centre-ville, 50 minutes périphérie",
+ delaiIntervention: "resposta prioritária centre-ville, 50 minutes périphérie",
  testimonials: [
  {
  name: "João M.",
@@ -61,7 +61,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "450+ intervenções em Bragança",
- tempsReponse: "Média 38 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em canalizações antigas do centro histórico",
@@ -76,7 +76,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "23 000 habitants",
  logements: "8 500 logements dont 55% construits avant 1985",
  problemesFrequents: "Entupimentos em fossas sépticas (150+ casos/ano), fugas em esquentadores antigos, canalizações calcárias",
- delaiIntervention: "45 minutos centre-ville, 60 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 60 minutes aldeias",
  testimonials: [
  {
  name: "Técnico R.",
@@ -99,7 +99,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "320+ intervenções em Mirandela",
  tauxSatisfaction: "",
- tempsReponse: "Média 42 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em fossas sépticas rurais",
@@ -114,7 +114,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "15 000 habitants",
  logements: "5 500 logements dont 50% em zonas rurais",
  problemesFrequents: "Fugas em canalizações exteriores (120+ casos/ano), entupimentos em casas antigas, problemas de pressão de água",
- delaiIntervention: "35 minutos centre-ville, 55 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 55 minutes aldeias",
  testimonials: [
  {
  name: "Técnico F.",
@@ -137,7 +137,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "280+ intervenções em Macedo",
  tauxSatisfaction: "",
- tempsReponse: "Média 35 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Base permanente em Trás-os-Montes",
@@ -152,7 +152,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "41 000 habitants",
  logements: "14 000 logements dont 65% construits avant 1995",
  problemesFrequents: "Fugas em aquecimento central (180+ casos/ano), entupimentos em prédios, corrosão em canalizações antigas",
- delaiIntervention: "50 minutos centre-ville, 70 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 70 minutes aldeias",
  testimonials: [
  {
  name: "Técnico A.",
@@ -169,7 +169,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "380+ intervenções em Chaves",
  tauxSatisfaction: "",
- tempsReponse: "Média 48 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em aquecimento central",
@@ -184,7 +184,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "51 000 habitants",
  logements: "18 000 logements dont 70% em zona urbana",
  problemesFrequents: "Entupimentos em prédios altos (220+ casos/ano), fugas em apartamentos, problemas de pressão",
- delaiIntervention: "55 minutos centre-ville, 75 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 75 minutes aldeias",
  testimonials: [
  {
  name: "Pedro S.",
@@ -201,7 +201,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "420+ intervenções em Vila Real",
  tauxSatisfaction: "",
- tempsReponse: "Média 52 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Equipamento para prédios altos",
@@ -216,7 +216,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "9 000 habitants",
  logements: "3 500 logements maioritariamente rurais",
  problemesFrequents: "Fugas em casas isoladas (80+ casos/ano), fossas sépticas, canalizações antigas",
- delaiIntervention: "60 minutos centre-ville, 80 minutes aldeias remotas",
+ delaiIntervention: "resposta prioritária centre-ville, 80 minutes aldeias remotas",
  testimonials: [
  {
  name: "Joaquim B.",
@@ -232,7 +232,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "180+ intervenções em Vinhais",
- tempsReponse: "Média 58 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em zonas rurais remotas",
@@ -247,7 +247,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "7 500 habitants",
  logements: "2 800 logements em zona fronteiriça",
  problemesFrequents: "Fugas em casas antigas (70+ casos/ano), entupimentos, esquentadores",
- delaiIntervention: "65 minutos centre-ville, 85 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 85 minutes aldeias",
  testimonials: [
  {
  name: "Luís M.",
@@ -264,7 +264,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "160+ intervenções em Miranda",
  tauxSatisfaction: "",
- tempsReponse: "Média 62 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Cobertura zona fronteiriça",
@@ -279,7 +279,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "9 500 habitants",
  logements: "3 800 logements em zona rural",
  problemesFrequents: "Fossas sépticas (90+ casos/ano), fugas em quintas, canalizações antigas",
- delaiIntervention: "60 minutos centre-ville, 80 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 80 minutes aldeias",
  testimonials: [
  {
  name: "Francisco C.",
@@ -295,7 +295,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  },
  stats: {
  interventionsAnnuelles: "200+ intervenções em Mogadouro",
- tempsReponse: "Média 58 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em fossas rurais",
@@ -310,7 +310,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "5 000 habitants",
  logements: "2 000 logements rurais",
  problemesFrequents: "Fugas em casas antigas (60+ casos/ano), entupimentos, bombas de água",
- delaiIntervention: "55 minutos centre-ville, 75 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 75 minutes aldeias",
  testimonials: [
  {
  name: "Rosa P.",
@@ -327,7 +327,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "140+ intervenções em Alfândega",
  tauxSatisfaction: "",
- tempsReponse: "Média 53 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Especialistas em bombas de água",
@@ -342,7 +342,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  population: "7 000 habitants",
  logements: "2 700 logements",
  problemesFrequents: "Entupimentos (75+ casos/ano), fugas, esquentadores",
- delaiIntervention: "60 minutos centre-ville, 80 minutes aldeias",
+ delaiIntervention: "resposta prioritária centre-ville, 80 minutes aldeias",
  testimonials: [
  {
  name: "Miguel T.",
@@ -359,7 +359,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  stats: {
  interventionsAnnuelles: "170+ intervenções em Vila Flor",
  tauxSatisfaction: "",
- tempsReponse: "Média 58 minutos"
+ tempsReponse: "Média resposta prioritária"
  },
  specificites: [
  "Cobertura completa concelho",

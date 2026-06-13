@@ -32,7 +32,7 @@ export default function DesentupirWCMetodos() {
  const metodosCaseiros = [
  {
  nome: "Água Quente + Detergente",
- como: "Deite 1L de água quente (não fervente) com detergente da loiça. 15 min.",
+ como: "Deite 1L de água quente (não fervente) com detergente da loiça. resposta prioritária.",
  eficacia: "60%",
  quando: "Entupimentos leves por matéria orgânica",
  cuidado: "Não use água a ferver - pode rachar a sanita"
@@ -46,7 +46,7 @@ export default function DesentupirWCMetodos() {
  },
  {
  nome: "Bicarbonato + Vinagre",
- como: "1 chávena de bicarbonato + 1 chávena de vinagre. 30 min, depois água quente.",
+ como: "1 chávena de bicarbonato + 1 chávena de vinagre. resposta prioritária, depois água quente.",
  eficacia: "50%",
  quando: "Entupimentos leves, maus cheiros",
  cuidado: "Não misture com outros produtos químicos"

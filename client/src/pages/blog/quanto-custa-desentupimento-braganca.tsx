@@ -53,28 +53,28 @@ export default function QuantoCustaDesentupimentoBraganca() {
  servico: "Desentupir Sanita (WC)",
  simples: "60-80€",
  grave: "100-120€",
- tempo: "30-60 min",
+ tempo: "30-resposta prioritária",
  descricao: "Entupimento por papel higiénico, matéria orgânica ou objetos pequenos"
  },
  {
  servico: "Desentupir Lava-Loiça",
  simples: "50-70€",
  grave: "80-100€",
- tempo: "20-45 min",
+ tempo: "20-resposta prioritária",
  descricao: "Gordura acumulada, restos de comida, ou objetos no sifão"
  },
  {
  servico: "Desentupir Lavatório",
  simples: "40-60€",
  grave: "70-90€",
- tempo: "20-40 min",
+ tempo: "20-resposta prioritária",
  descricao: "Cabelo, sabão acumulado, ou sifão entupido"
  },
  {
  servico: "Desentupir Duche/Banheira",
  simples: "50-70€",
  grave: "90-120€",
- tempo: "30-60 min",
+ tempo: "30-resposta prioritária",
  descricao: "Cabelo, sabão, ou entupimento no ralo"
  },
  {
@@ -118,7 +118,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  Sem surpresas, sem custos escondidos.
  </p>
  <div className="flex items-center gap-6 mt-6 text-sm text-gray-500">
- <span>6 min leitura</span>
+ <span>resposta prioritária leitura</span>
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>

@@ -18,7 +18,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <span className="px-3 py-1 bg-orange-100 text-orange-800 font-semibold rounded-full">
  Reparação
  </span>
- <span>⏱️ 10 min de leitura</span>
+ <span>⏱️ resposta prioritária de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -349,7 +349,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 1: Substituir Pilhas</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
- <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: 5 minutos</p>
+ <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: resposta prioritária</p>
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
@@ -373,7 +373,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 2: Verificar e Abrir Gás</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
- <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: 2 minutos</p>
+ <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐ (Muito Fácil) | Tempo: resposta prioritária</p>
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
@@ -396,7 +396,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Solução 3: Limpar Queimador</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
- <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐⭐⭐ (Média) | Tempo: 30-45 minutos</p>
+ <p className="font-bold text-cyan-900 mb-2">Dificuldade: ⭐⭐⭐ (Média) | Tempo: 30-resposta prioritária</p>
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
@@ -408,7 +408,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche gás e água</li>
- <li>Aguarde 30 minutos para esquentador arrefecer</li>
+ <li>Aguarde resposta prioritária para esquentador arrefecer</li>
  <li>Retire painel frontal (normalmente 2-4 parafusos)</li>
  <li>Localize queimador (peça metálica com orifícios)</li>
  <li>Escove suavemente para remover sujidade</li>

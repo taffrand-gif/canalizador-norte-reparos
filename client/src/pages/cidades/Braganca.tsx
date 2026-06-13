@@ -15,7 +15,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 export default function Braganca() {
  const { config } = useSite();
  useEffect(() => {
-document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domicílio 24h";
+document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia Escrita";
   
   // Optimized meta description
   let metaDescription = document.querySelector('meta[name="description"]');
@@ -53,7 +53,7 @@ document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domic
  "@type": "LocalBusiness",
  "@id": "https://canalizador-norte-reparos.pt/#organization",
  "name": "Canalizador Profissional — Canalizador em Bragança",
- "image": "/images/hero/hero-plumber-portugal.png",
+ "image": "/images-optimized/hero/hero-plumber-portugal.webp",
  "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
  "address": {
  "@type": "PostalAddress",
@@ -109,7 +109,7 @@ document.title = "Canalizador em Bragança | Norte Reparos — Serviço ao Domic
  const faqs = [
  {
  question: "Qual o custo de deslocação a Bragança?",
- answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente 40 minutos. Inclui todo o concelho."
+ answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente resposta prioritária. Inclui todo o concelho."
  },
  {
  question: "Fazem urgências Atendimento 24h/7d em Bragança?",

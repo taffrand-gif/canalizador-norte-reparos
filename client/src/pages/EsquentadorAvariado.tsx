@@ -54,7 +54,7 @@ export default function EsquentadorAvariado() {
  whatsappMessage="Olá! O meu esquentador avariou. Preciso de arranjo urgente!"
  ctaPrimary="REPARAR AGORA"
  ctaSecondary="WhatsApp Urgente"
- responseTime="30 minutos"
+ responseTime="resposta prioritária"
  />
  <PainPointSection
  title="Sabemos o Desconforto Que Está a Passar"
@@ -94,25 +94,25 @@ export default function EsquentadorAvariado() {
  guaranteeText="Água quente hoje ou não paga. Garantia do serviço."
  steps={[
  {
- time: '0-10 min',
+ time: '0-resposta prioritária',
  title: 'Liga e Descreve',
  description: 'Atendemos, fazemos perguntas sobre os sintomas. Já sabemos o que pode ser. Parranjamos peças.',
  icon: 'phone'
  },
  {
- time: '10-40 min',
+ time: '10-resposta prioritária',
  title: 'Chegamos Parranjados',
  description: 'Técnico especializado em esquentadores chega com ferramentas e peças comuns. Pronto para arranjar.',
  icon: 'map'
  },
  {
- time: '40-90 min',
+ time: '40-resposta prioritária',
  title: 'Diagnóstico e Arranjo',
  description: 'Inspecionamos, identificamos o problema, arranjamos ou substituímos peças. Testamos tudo.',
  icon: 'wrench'
  },
  {
- time: '90-120 min',
+ time: '90-resposta prioritária',
  title: 'Água Quente Garantida',
  description: 'Esquentador funciona perfeitamente. Testamos temperatura, pressão, segurança. Explicamos tudo.',
  icon: 'check'

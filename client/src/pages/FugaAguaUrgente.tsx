@@ -27,7 +27,7 @@ export default function FugaAguaUrgente() {
  "name": "O que fazer quando tenho uma fuga de água urgente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. Resposta rápida garantida-30 minutos."
+ "text": "1) Feche a torneira de segurança principal. 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. Resposta rápida garantida-resposta prioritária."
  }
  },
  {
@@ -43,7 +43,7 @@ export default function FugaAguaUrgente() {
  "name": "Quanto tempo demora a parar uma fuga de água?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Resposta rápida garantida-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa em 1-2 horas dependendo da gravidade."
+ "text": "Resposta rápida garantida-resposta prioritária. Paramos a fuga resposta prioritária na maioria dos casos. Arranjo completa em 1-2 horas dependendo da gravidade."
  }
  }
  ]
@@ -62,7 +62,7 @@ export default function FugaAguaUrgente() {
  whatsappMessage="Olá! Tenho uma fuga de água urgente. Preciso de ajuda imediata!"
  ctaPrimary="PARAR FUGA AGORA"
  ctaSecondary="WhatsApp Urgente"
- responseTime="15 minutos"
+ responseTime="resposta prioritária"
  />
  <PainPointSection
  title="Sabemos Exatamente Como Se Sente"
@@ -98,29 +98,29 @@ export default function FugaAguaUrgente() {
  <SolutionTimeline
  title="Como Paramos a Sua Fuga Atendimento prioritário"
  subtitle="Processo rápido, eficiente e sem stress. Você relaxa, nós resolvemos."
- totalTime="30-60 minutos"
+ totalTime="30-resposta prioritária"
  guaranteeText="Paramos a fuga ou não paga. Garantia 100% satisfação."
  steps={[
  {
- time: '0-5 min',
+ time: '0-resposta prioritária',
  title: 'Liga e Relaxa',
  description: 'Atendemos imediatamente. Damos instruções para minimizar danos enquanto estamos a caminho.',
  icon: 'phone'
  },
  {
- time: '5-20 min',
+ time: '5-resposta prioritária',
  title: 'Chegamos Rápido',
- description: 'Técnico certificado chega em 15-20 minutos com todas as ferramentas necessárias.',
+ description: 'Técnico certificado chega resposta prioritária com todas as ferramentas necessárias.',
  icon: 'map'
  },
  {
- time: '20-30 min',
+ time: '20-resposta prioritária',
  title: 'Paramos a Fuga',
  description: 'Identificamos a origem, fechamos a água, paramos a fuga. Danos controlados.',
  icon: 'wrench'
  },
  {
- time: '30-60 min',
+ time: '30-resposta prioritária',
  title: 'Arranjo Completa',
  description: 'Arranjamos definitivamente. Testamos. Limpamos. Garantia de 2 anos. Problema resolvido.',
  icon: 'check'
@@ -136,7 +136,7 @@ export default function FugaAguaUrgente() {
  city: 'Bragança',
  problem: 'Fuga de água urgente',
  solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram Atendimento prioritário, pararam a fuga e arranjaram tudo. Salvaram a minha casa!',
- timeframe: '45 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -172,7 +172,7 @@ export default function FugaAguaUrgente() {
  city: 'Trás-os-Montes',
  problem: 'Fuga urgente noturna',
  solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram Atendimento prioritário! Pararam a fuga, salvaram os móveis. Heróis!',
- timeframe: '30 minutos',
+ timeframe: 'resposta prioritária',
  rating: 5,
  verified: true
  },
@@ -205,8 +205,8 @@ export default function FugaAguaUrgente() {
  },
  {
  icon: 'clock',
- title: 'Chegada em 15min',
- description: 'Garantimos chegada em 15-30 minutos em toda a região de Trás-os-Montes.'
+ title: 'Chegada resposta prioritária',
+ description: 'Garantimos chegada resposta prioritária em toda a região de Trás-os-Montes.'
  },
  {
  icon: 'award',
@@ -225,7 +225,7 @@ export default function FugaAguaUrgente() {
  {[
  {
  q: 'O que fazer quando tenho uma fuga de água urgente?',
- a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. 5) Tire fotos para seguro se necessário. Resposta rápida garantida-30 minutos e paramos a fuga.'
+ a: '1) Feche a torneira de segurança principal (normalmente perto do contador). 2) Ligue imediatamente para +351 928 484 451. 3) Coloque baldes para minimizar danos. 4) Afaste equipamentos da água. 5) Tire fotos para seguro se necessário. Resposta rápida garantida-resposta prioritária e paramos a fuga.'
  },
  {
  q: 'Quanto custa arranjar uma fuga de água urgente?',
@@ -237,7 +237,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Quanto tempo demora a parar uma fuga?',
- a: 'Resposta rápida garantida-30 minutos. Paramos a fuga em 10-20 minutos na maioria dos casos. Arranjo completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
+ a: 'Resposta rápida garantida-resposta prioritária. Paramos a fuga resposta prioritária na maioria dos casos. Arranjo completa demora 1-2 horas dependendo da gravidade. O importante é parar a água rapidamente.'
  },
  {
  q: 'Têm equipamento para detetar fugas escondidas?',
