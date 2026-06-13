@@ -53,7 +53,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  "@type": "LocalBusiness",
  "@id": "https://canalizador-norte-reparos.pt/#organization",
  "name": "Canalizador Profissional — Canalizador em Bragança",
- "image": "/images/hero/hero-plumber-portugal.png",
+ "image": "/images-optimized/hero/hero-plumber-portugal.webp",
  "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
  "address": {
  "@type": "PostalAddress",
