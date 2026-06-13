@@ -17,7 +17,7 @@ export default function Chaves() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Chaves 💧 24h | 928 484 451";
+    document.title = "💧 Canalizador Chaves — Orçamento Grátis | Garantia Escrita";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

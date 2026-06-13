@@ -17,7 +17,7 @@ export default function MacedoCavaleiros() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Macedo de Cavaleiros 💧 24h | 928 484 451";
+    document.title = "💧 Canalizador Macedo Cavaleiros — Orçamento Grátis | Garantia Escrita";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {

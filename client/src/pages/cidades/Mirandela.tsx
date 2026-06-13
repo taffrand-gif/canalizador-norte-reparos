@@ -17,7 +17,7 @@ export default function Mirandela() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "Canalizador Mirandela 💧 24h | 928 484 451";
+    document.title = "💧 Canalizador Mirandela — Orçamento Grátis | Garantia Escrita";
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
