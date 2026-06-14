@@ -1760,6 +1760,16 @@
   ],
   "redirects": [
     {
+      "source": "/imprensa",
+      "destination": "/sobre.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/imprensa.html",
+      "destination": "/sobre.html",
+      "statusCode": 301
+    },
+    {
       "source": "/tecnologia-roleak-deteccao-gas",
       "destination": "/tecnologia-roleak-acustica",
       "statusCode": 301

@@ -76,7 +76,6 @@ Tempo de chegada: 5-90 minutos conforme zona
 - Sobre Nos: /sobre.html
 - Equipa: /equipa.html
 - Garantia e Seguros: /garantia.html
-- Imprensa: /imprensa.html
 - Marcas e Parceiros: /parceiros.html
 - Metodologia: /metodologia.html
 - Testemunhos: /testemunhos.html
