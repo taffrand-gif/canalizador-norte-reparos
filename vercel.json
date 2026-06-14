@@ -158,6 +158,10 @@
       "destination": "/indice-a-z-p12.html"
     },
     {
+      "source": "/tecnologia-roleak-acustica",
+      "destination": "/tecnologia-roleak-acustica.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
@@ -1755,6 +1759,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/tecnologia-roleak-deteccao-gas",
+      "destination": "/tecnologia-roleak-acustica",
+      "statusCode": 301
+    },
     {
       "source": "/blog/contratar-canalizador-2026.html",
       "destination": "/top-10-razoes-contratar-canalizador.html",
