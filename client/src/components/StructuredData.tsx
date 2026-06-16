@@ -373,7 +373,7 @@ export default function StructuredData() {
  "name": "Quanto tempo demora a chegar em caso de urgência?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em situações de urgência, o nosso tempo médio de resposta é de 30-resposta prioritária. Para zonas mais afastadas, até resposta prioritária."
+ "text": "Em situações de urgência, o nosso tempo médio de resposta é variável. Para zonas mais afastadas, o tempo é a confirmar caso a caso."
  }
  },
  {
