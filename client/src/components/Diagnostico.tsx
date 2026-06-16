@@ -21,7 +21,7 @@ const urgencies = [
  { icon: '🗓️', label: 'Sem pressa', value: 'sem-pressa' },
 ];
 const cities = [
- { label: 'Trás-os-Montes', value: 'macedo', zone: 1, price: 15, time: 'rápido' },
+ { label: 'Trás-os-Montes', value: 'macedo', zone: 1, price: 15, time: 'A confirmar' },
  { label: 'Mirandela', value: 'mirandela', zone: 2, price: 25, time: 'A confirmar' },
  { label: 'Bragança', value: 'braganca', zone: 3, price: 35, time: 'A confirmar' },
  { label: 'Vila Real', value: 'vila-real', zone: 5, price: 55, time: 'A confirmar' },
