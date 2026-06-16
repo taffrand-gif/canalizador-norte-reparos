@@ -347,8 +347,7 @@ export default function StructuredData() {
  }
  ],
  "sameAs": [
- `https://wa.me/${config.whatsapp || '351928484451'}?text=${encodeURIComponent(config.whatsappMessage)}`,
- "https://www.facebook.com/nortereparos"
+ `https://wa.me/${config.whatsapp || '351928484451'}?text=${encodeURIComponent(config.whatsappMessage)}`
  ],
  "priceRange": "€€",
  "currenciesAccepted": "EUR",
