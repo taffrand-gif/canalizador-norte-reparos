@@ -166,7 +166,6 @@
       "destination": "/index.html"
     }
   ],
-  "public": true,
   "headers": [
     {
       "source": "/assets/(.*)",
