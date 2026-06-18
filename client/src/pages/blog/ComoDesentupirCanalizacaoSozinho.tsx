@@ -29,6 +29,17 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
           {"@type": "HowToStep", "name": "Se persistir, chame canalizador profissional", "text": "Entupimentos em ramais principais, com mau cheiro de esgoto, ou que voltam sistematicamente, requerem equipamento de alta pressão. Ligue 928 484 451."}
         ]
       }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+        "mainEntity": [
+          {"@type": "Question", "name": "Posso usar produtos químicos desentupidores?", "acceptedAnswer": {"@type": "Answer", "text": "Não recomendamos. Produtos químicos danificam canos de PVC, são tóxicos e perigosos para a saúde, poluem o ambiente e raramente resolvem entupimentos graves. Alternativa natural e eficaz: bicarbonato + vinagre."}},
+          {"@type": "Question", "name": "O entupimento volta sempre. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas comuns de entupimentos recorrentes: problema na canalização principal (raízes ou cano partido), inclinação insuficiente dos canos, acumulação crónica de gordura, ou sifão mal instalado. Solução definitiva: inspeção com câmara por profissional."}},
+          {"@type": "Question", "name": "Água quente danifica canos?", "acceptedAnswer": {"@type": "Answer", "text": "Depende do material: PVC antigo (20+ anos) pode deformar acima de 80°C, PVC moderno aguenta até 95°C, cobre e metal não têm problema com água fervente. Se os canos tiverem mais de 20 anos, use água morna a 60-70°C."}},
+          {"@type": "Question", "name": "Quando devo chamar canalizador para desentupimento?", "acceptedAnswer": {"@type": "Answer", "text": "Chame um profissional se: os métodos caseiros não resolvem após 2-3 tentativas, o entupimento volta repetidamente, há mau cheiro de esgoto, a água sobe pela sanita ou chão de balneário, ou se suspeitar de cano partido."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

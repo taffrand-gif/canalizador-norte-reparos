@@ -28,6 +28,18 @@ const TorneiraAPingarComoReparar: React.FC = () => {
           {"@type": "HowToStep", "name": "Remonte e teste a torneira", "text": "Remonte em ordem inversa. Aperte sem forçar. Abra lentamente a água no contador e teste. Se ainda pingar, verifique o assento da torneira."}
         ]
       }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
+        "mainEntity": [
+          {"@type": "Question", "name": "Quanto custa reparar uma torneira a pingar?", "acceptedAnswer": {"@type": "Answer", "text": "DIY: 2-5€ em material (junta nova) + 10-30 minutos. Canalizador: 50-80€ (mão de obra + material). Poupança fazendo você mesmo: 45-75€."}},
+          {"@type": "Question", "name": "Troquei a junta mas continua a pingar. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas possíveis: junta mal encaixada (reposicione), tamanho errado da junta (verifique tamanho correto), assento da torneira danificado (precisa polir ou substituir torneira), ou aperto insuficiente."}},
+          {"@type": "Question", "name": "Posso usar cola ou silicone na junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não. A junta encaixa por pressão e não precisa de cola ou silicone. Cola dificulta remoção futura, pode danificar a torneira e não melhora a vedação."}},
+          {"@type": "Question", "name": "Quanto tempo dura uma junta nova?", "acceptedAnswer": {"@type": "Answer", "text": "3-5 anos com uso normal. Fatores que reduzem vida útil: água muito calcária (2-3 anos), uso intensivo (2-4 anos), fecho forçado (1-2 anos), pressão de água alta (2-3 anos)."}},
+          {"@type": "Question", "name": "Todas as torneiras usam a mesma junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não, existem vários tamanhos: 1/2 polegada (12mm) para lavatórios, 3/4 polegada (19mm) para cozinhas, 1 polegada (25mm) para torneiras grandes. Leve a junta velha à loja para confirmar o tamanho correto."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
