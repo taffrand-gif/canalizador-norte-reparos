@@ -12,6 +12,22 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  title="Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]"
  description="Guia completo para reparar torneira a pingar rapidamente e poupar água"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como Reparar Torneira a Pingar",
+        "description": "Guia passo a passo para parar uma torneira a pingar, substituindo a vedação ou cartucho, sem necessidade de canalizador.",
+        "totalTime": "PT40M",
+        "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
+        "step": [
+          {"@type": "HowToStep", "name": "Feche a água no contador ou válvula de seccionamento", "text": "Feche sempre a água antes de abrir qualquer torneira. Encontre a válvula de corte sob o lavatório ou o contador geral."},
+          {"@type": "HowToStep", "name": "Abra a torneira para drenar a pressão restante", "text": "Abra a torneira que vai reparar até não sair mais água. Isto remove a pressão e facilita o desmonte."},
+          {"@type": "HowToStep", "name": "Retire o manípulo ou pega da torneira", "text": "Procure parafuso escondido sob tampa decorativa. Retire com chave Allen ou de fendas. Puxe o manípulo para cima."},
+          {"@type": "HowToStep", "name": "Identifique o tipo de torneira e vedação", "text": "Torneiras monobloco modernas: cartucho cerâmico. Torneiras tradicionais: vedante de borracha. O tipo determina a peça a substituir."},
+          {"@type": "HowToStep", "name": "Substitua a vedação ou cartucho", "text": "Vedante: desaparafuse o obturador, retire a borracha gasta, coloque nova do mesmo tamanho. Cartucho: puxe para fora e encaixe o novo."},
+          {"@type": "HowToStep", "name": "Remonte e teste a torneira", "text": "Remonte em ordem inversa. Aperte sem forçar. Abra lentamente a água no contador e teste. Se ainda pingar, verifique o assento da torneira."}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

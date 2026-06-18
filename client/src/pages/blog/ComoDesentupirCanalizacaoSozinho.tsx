@@ -12,6 +12,23 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  title="Como Desentupir Canalização Sozinho? [Guia Completo 2026]"
  description="Métodos profissionais para resolver entupimentos de canalização sem gastar dinheiro"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como Desentupir Canalização Sozinho",
+        "description": "Guia prático para desentupir canalização em casa sem chamar canalizador, com materiais simples e técnicas seguras.",
+        "totalTime": "PT30M",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+        "step": [
+          {"@type": "HowToStep", "name": "Identifique o tipo e localização do entupimento", "text": "Verifique se é no lavatório, lava-louça, banheira ou escoamento do chão. O entupimento pode estar no sifão ou mais fundo na canalização."},
+          {"@type": "HowToStep", "name": "Tente desentupir com água a ferver", "text": "Ferva água e deite em jatos lentos diretamente no ralo. Água quente dissolve gorduras. Não use em canos de PVC antigos."},
+          {"@type": "HowToStep", "name": "Use a ventosa (desentupidor de borracha)", "text": "Coloque a ventosa sobre o ralo com água suficiente para cobrir a borracha. Faça movimentos de pressão/sucção vigorosos durante 30 segundos."},
+          {"@type": "HowToStep", "name": "Limpe o sifão manualmente", "text": "Coloque balde sob o sifão. Desaparafuse o sifão (maioria é manual). Limpe o interior com uma escova. Recoloque e aperte."},
+          {"@type": "HowToStep", "name": "Use desentupidor de mola (cobra)", "text": "Introduza a mola metálica pelo ralo e rode. Avança e quebra entupimentos mais profundos. Retire lentamente com o entupimento preso."},
+          {"@type": "HowToStep", "name": "Trate com bicarbonato e vinagre", "text": "Deite 200g de bicarbonato no ralo, seguido de 200ml de vinagre branco. Espere 30 minutos e passe água quente para limpar resíduos."},
+          {"@type": "HowToStep", "name": "Se persistir, chame canalizador profissional", "text": "Entupimentos em ramais principais, com mau cheiro de esgoto, ou que voltam sistematicamente, requerem equipamento de alta pressão. Ligue 928 484 451."}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
