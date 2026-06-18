@@ -12,6 +12,33 @@ const BlogIndex: React.FC = () => {
  // Articles data - 15 artigos PLOMBERIE réels (alignés avec App.tsx)
  const articles = [
  {
+ slug: 'sifao-entupido-como-limpar',
+ title: 'Sifão Entupido: Como Limpar Corretamente [Guia 2026]',
+ excerpt: 'Como limpar o sifão entupido passo a passo, com ou sem ferramentas. Acabe com o escoamento lento e os maus cheiros na cozinha e casa de banho.',
+ category: 'Desentupimentos',
+ readTime: '7',
+ date: '18 Jun 2026',
+ imageUrl: '/images-optimized/blog/unclogging-sink.jpg'
+ },
+ {
+ slug: 'torneira-a-pingar-como-reparar',
+ title: 'Torneira a Pingar: Como Reparar e Poupar Água [Guia 2026]',
+ excerpt: 'Repare uma torneira a pingar sozinho e poupe água. Causas, ferramentas e passo a passo para torneiras monocomando e de cruzeta.',
+ category: 'Reparação',
+ readTime: '8',
+ date: '18 Jun 2026',
+ imageUrl: '/images-optimized/blog/water-leak-detection.jpg'
+ },
+ {
+ slug: 'canalizacao-com-mau-cheiro',
+ title: 'Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]',
+ excerpt: 'Elimine o mau cheiro da canalização: sifões secos, ralos, bicarbonato e vinagre, e quando chamar o canalizador. 6 soluções práticas.',
+ category: 'Manutenção',
+ readTime: '8',
+ date: '18 Jun 2026',
+ imageUrl: '/images-optimized/blog/desentupir-lava-loica.jpg'
+ },
+ {
  slug: 'como-desentupir-lava-loica-passos',
  title: 'Como Desentupir a Lava-Loiça: 7 Passos Que Funcionam',
  excerpt: 'Guia prático para desentupir a lava-loiça da cozinha sem chamar ajuda profissional. Métodos caseiros e ferramentas.',
