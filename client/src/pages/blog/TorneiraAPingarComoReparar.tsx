@@ -3,13 +3,13 @@ import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 const TorneiraAPingarComoReparar: React.FC = () => {
  useSEO({
- title: 'Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]',
- description: 'Aprenda a reparar torneira a pingar Atendimento prioritário. Guia passo a passo com fotos, materiais necessários e dicas profissionais.',
+ title: 'Torneira a Pingar: Como Reparar e Poupar Água [Guia 2026]',
+ description: 'Aprenda a reparar uma torneira a pingar em casa. Guia passo a passo com materiais necessários e dicas profissionais.',
  keywords: 'torneira a pingar, reparar torneira, junta torneira, torneira goteja, consertar torneira'
  });
  return (
  <BlogLayout
- title="Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]"
+ title="Torneira a Pingar: Como Reparar e Poupar Água [Guia 2026]"
  description="Guia completo para reparar torneira a pingar rapidamente e poupar água"
  >
        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -40,6 +40,17 @@ const TorneiraAPingarComoReparar: React.FC = () => {
           {"@type": "Question", "name": "Todas as torneiras usam a mesma junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não, existem vários tamanhos: 1/2 polegada (12mm) para lavatórios, 3/4 polegada (19mm) para cozinhas, 1 polegada (25mm) para torneiras grandes. Leve a junta velha à loja para confirmar o tamanho correto."}}
         ]
       }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Torneira a Pingar: Como Reparar e Poupar Água",
+        "description": "Como reparar uma torneira a pingar em casa, passo a passo, e parar o desperdício de água.",
+        "author": { "@type": "Organization", "name": "Norte Reparos" },
+        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+        "datePublished": "2026-06-18",
+        "dateModified": "2026-06-18",
+        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar"
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -50,7 +61,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
- Torneira a Pingar: Como Reparar Atendimento prioritário [Guia 2026]
+ Torneira a Pingar: Como Reparar e Poupar Água [Guia 2026]
  </h1>
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-cyan-200 rounded-full flex items-center justify-center">
@@ -65,7 +76,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-900 font-semibold text-lg">
- 💰 Uma torneira a pingar desperdiça 30 litros/dia = 25€/ano. Repare Atendimento prioritário e poupe!
+ 💰 Uma torneira a pingar desperdiça 30 litros/dia = 25€/ano. Repare você mesmo e poupe!
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
@@ -602,7 +613,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Reparação Atendimento prioritário</p>
+ <p className="font-bold">Reparação Rápida</p>
  <p className="text-sm text-white/80">Rápido e eficiente</p>
  </div>
  </div>

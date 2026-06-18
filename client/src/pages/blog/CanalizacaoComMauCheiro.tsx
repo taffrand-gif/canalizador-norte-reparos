@@ -28,6 +28,17 @@ const CanalizacaoComMauCheiro: React.FC = () => {
           ]
         }) }}
       />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Canalização com Mau Cheiro: 6 Soluções Eficazes",
+        "description": "Causas e soluções para eliminar o mau cheiro da canalização: sifões secos, ralos, bicarbonato e vinagre, e quando chamar o canalizador.",
+        "author": { "@type": "Organization", "name": "Norte Reparos" },
+        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+        "datePublished": "2026-06-18",
+        "dateModified": "2026-06-18",
+        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/canalizacao-com-mau-cheiro"
+      }) }} />
       <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

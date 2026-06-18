@@ -4,7 +4,7 @@ import { useSEO } from '@/hooks/useSEO';
 const SifaoEntupidoComoLimpar: React.FC = () => {
  useSEO({
  title: 'Sifão Entupido: Como Limpar Corretamente [Guia 2026]',
- description: 'Aprenda a limpar sifão entupido Atendimento prioritário. Guia passo a passo com fotos, materiais necessários e dicas profissionais para evitar entupimentos.',
+ description: 'Aprenda a limpar um sifão entupido passo a passo. Guia com materiais necessários e dicas profissionais para evitar entupimentos.',
  keywords: 'sifão entupido, limpar sifão, desentupir sifão, sifão lavatório, sifão lava-loiça, mau cheiro sifão'
  });
  return (
@@ -38,6 +38,17 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
           {"@type": "Question", "name": "Posso limpar sifão sem desmontar?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, mas é menos eficaz. Métodos sem desmontagem: água quente com detergente remove gordura leve, bicarbonato + vinagre dissolve resíduos orgânicos, ventosa desaloja bloqueios parciais. A desmontagem é sempre mais eficaz e permite inspeção visual."}},
           {"@type": "Question", "name": "Quanto tempo demora a limpar um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Com desmontagem completa: 5-10 minutos para sifão simples, 15-20 minutos para sifão com acessórios. Sem desmontagem: 5-15 minutos por método."}}
         ]
+      }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Sifão Entupido: Como Limpar Corretamente",
+        "description": "Guia para limpar um sifão entupido em lavatório ou lava-louça, passo a passo, e prevenir maus cheiros.",
+        "author": { "@type": "Organization", "name": "Norte Reparos" },
+        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+        "datePublished": "2026-06-18",
+        "dateModified": "2026-06-18",
+        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar"
       }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
