@@ -12,7 +12,22 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  title="Fuga de Água: Como Detetar e Reparar Rapidamente"
  description="Guia completo para identificar e resolver fugas de água antes que causem danos graves"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'Como sei se tenho fuga de água escondida em casa?',"acceptedAnswer":{"@type":"Answer","text":'Faça o teste do contador: feche toda a água, anote os números do contador, aguarde 2 horas sem usar água e volte ao contador. Se os números mudaram tem fuga ativa. Outros sinais: conta de água elevada, manchas de humidade, cheiro a mofo, som de água a correr, pressão baixa.'}},
+    {"@type":"Question","name":'Quanto custa reparar uma fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo e localização: torneira a pingar 5-30€ (DIY) ou 50-80€ (profissional); autoclismo 15-30€ (DIY) ou 60-100€ (profissional); junta de cano 2-10€ (DIY) ou 60-120€ (profissional); fuga em parede 150-500€; cano rebentado 200-800€.'}},
+    {"@type":"Question","name":'Uma fuga pequena é urgente ou pode esperar?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre urgente. Fuga pequena torna-se grande rapidamente; o desperdício acumula (200-400€/ano); humidade causa bolor e danos estruturais; reparação precoce é 10x mais barata. Repare nas primeiras 24-48 horas.'}},
+    {"@type":"Question","name":'Posso reparar uma fuga de água sozinho ou preciso de canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Pode reparar sozinho: torneira a pingar (trocar junta), autoclismo a perder água (trocar válvula), junta de cano solta (fita teflon), mangueira flexível rachada. Precisa de canalizador: fuga dentro da parede, cano rebentado ou partido, fuga no esquentador, canalização enterrada, infiltração do andar de cima.'}},
+    {"@type":"Question","name":'Como encontrar uma fuga de água dentro da parede?',"acceptedAnswer":{"@type":"Answer","text":'Métodos profissionais: câmara termográfica (deteta diferenças de temperatura), detetor acústico (amplifica som de água a correr), câmara endoscópica (inserida em pequeno furo) e teste de pressão. Custo de deteção: 120-180€ — evita escavações desnecessárias de 500-1000€.'}},
+    {"@type":"Question","name":'O seguro de casa cobre danos de fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice e causa. Normalmente cobre fugas súbitas e acidentais (cano rebenta). Não cobre falta de manutenção, desgaste gradual ou negligência. Reporte imediatamente (24-48h) e documente com fotos e faturas. Leia a apólice antes de reparar.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">

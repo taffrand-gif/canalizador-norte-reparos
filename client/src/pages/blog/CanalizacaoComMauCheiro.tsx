@@ -12,7 +12,23 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  title="Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]"
  description="Guia completo para identificar causas e eliminar mau cheiro da canalização permanentemente"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'Porque é que a minha canalização cheira mal?',"acceptedAnswer":{"@type":"Answer","text":'As 3 causas mais comuns (75% dos casos): sifão seco (40%) — água evaporou, gases do esgoto entram; sifão entupido (25%) — resíduos acumulados apodrecem; ventilação insuficiente (15%) — sistema bloqueado. Teste simples: despeje 1L de água no ralo. Se o cheiro desaparecer era sifão seco.'}},
+    {"@type":"Question","name":'Como eliminar mau cheiro da canalização rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Solução rápida em 4 passos: 1. Despeje 1-2 litros de água no ralo; 2. Se persistir: 100g bicarbonato + 200ml vinagre; 3. Deixe atuar 30 minutos; 4. Enxague com água quente. Resolve 80% dos casos de mau cheiro.'}},
+    {"@type":"Question","name":'Bicarbonato e vinagre realmente funcionam contra o mau cheiro?',"acceptedAnswer":{"@type":"Answer","text":'Sim, é muito eficaz para dissolver gordura acumulada, eliminar biofilme bacteriano e neutralizar odores. Vantagens: ecológico, seguro, barato (2-3€), não danifica canos. Ideal também como limpeza preventiva mensal.'}},
+    {"@type":"Question","name":'Com que frequência devo limpar os sifões?',"acceptedAnswer":{"@type":"Answer","text":'Depende do uso: cozinha (lava-loiça) a cada 3 meses; casa de banho principal e duche/banheira a cada 6 meses; ralos pouco usados anualmente ou quando cheirar. Manutenção preventiva mensal com bicarbonato + vinagre evita limpezas profundas.'}},
+    {"@type":"Question","name":'O mau cheiro na canalização pode ser perigoso para a saúde?',"acceptedAnswer":{"@type":"Answer","text":'Depende da causa. Sifão seco ou entupido: desagradável mas não perigoso em baixa concentração. Odor muito intenso pode indicar metano ou sulfeto de hidrogénio. Emergência se cheirar a gás: abra janelas, não acenda luzes, chame bombeiros. Se o odor causar tonturas ventile bem e chame canalizador urgente.'}},
+    {"@type":"Question","name":'Quanto custa resolver mau cheiro na canalização?',"acceptedAnswer":{"@type":"Answer","text":'Solução DIY com bicarbonato/vinagre: 2-5€. Limpeza de sifão (DIY): 0-5€. Substituição de junta: 2-5€. Canalizador (diagnóstico + limpeza): 60-150€. Reparação estrutural: 200-800€. 90% dos casos resolvem-se com soluções DIY de 0-5€.'}},
+    {"@type":"Question","name":'O cheiro vem de um ralo ou de vários? O que indica?',"acceptedAnswer":{"@type":"Answer","text":'Se vem de apenas 1 ralo é problema local (sifão seco, entupido ou junta danificada) — solução DIY. Se vem de vários ralos é problema na canalização principal ou ventilação — chame canalizador. Se vem de todos os ralos é problema grave (entupimento principal, ventilação bloqueada) — urgente.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-orange-100 text-orange-800 font-semibold rounded-full">

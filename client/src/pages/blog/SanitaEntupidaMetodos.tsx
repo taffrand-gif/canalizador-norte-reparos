@@ -12,7 +12,23 @@ const SanitaEntupidaMetodos: React.FC = () => {
  title="Sanita Entupida: 5 Métodos Que Funcionam [Guia 2026]"
  description="Guia completo com 5 métodos profissionais para desentupir sanita rapidamente"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'Como desentupir sanita rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Método mais rápido em 3 passos: 1. Água quente + detergente (aguarde 30 minutos); 2. Se não funcionar, use ventosa (20-30 movimentos vigorosos); 3. Se persistir, bicarbonato + vinagre (aguarde 30 minutos). Taxa de sucesso: 80% com estes 3 métodos.'}},
+    {"@type":"Question","name":'Posso usar lixívia para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado. Lixívia não dissolve entupimentos eficazmente: não dissolve papel ou gordura, pode danificar canalização antiga, os vapores são tóxicos e não deve ser misturada com outros produtos. Alternativa segura: bicarbonato + vinagre.'}},
+    {"@type":"Question","name":'Quanto tempo demora a desentupir uma sanita?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método e gravidade: água quente + detergente 20-30 minutos total; bicarbonato + vinagre 45-60 minutos; ventosa 5-15 minutos; mola desentupidora 15-30 minutos; canalizador profissional 30-45 minutos.'}},
+    {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (120-180€).'}},
+    {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação imediata: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
+    {"@type":"Question","name":'Posso usar Destop ou produtos químicos na sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado para sanitas. Produtos químicos são para ralos, não sanitas; podem danificar porcelana e juntas; são ineficazes contra papel e objetos sólidos; perigosos se misturados com água parada. Melhor opção: métodos mecânicos como ventosa ou mola.'}},
+    {"@type":"Question","name":'Quanto custa chamar canalizador para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em Portugal 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€. Ligue 932 321 892 para orçamento gratuito.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">

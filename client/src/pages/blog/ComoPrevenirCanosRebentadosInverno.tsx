@@ -12,7 +12,22 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  title="Como Prevenir Canos Rebentados no Inverno [Guia 2026]"
  description="Proteja a sua canalização do frio com 10 métodos profissionais e evite danos de milhares de euros"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'A que temperatura congelam os canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo de cano: canos expostos começam a congelar a -2°C a -4°C; canos isolados resistem até -7°C a -10°C; canos em paredes congelam a -5°C a -7°C. Regra geral: risco significativo quando a temperatura exterior atinge -4°C por mais de 6 horas.'}},
+    {"@type":"Question","name":'Quanto custa isolar os canos para prevenir congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Custos DIY: manga isolante 2-5€/metro; casa média (20-30 metros) 40-150€ total. Custos profissionais: canalizador 150-400€ (material + mão de obra); cabo aquecedor 200-500€ (instalação completa). ROI: investimento de 100€ evita reparações de 2000-8000€.'}},
+    {"@type":"Question","name":'Deixar torneiras a pingar no inverno gasta muita água?',"acceptedAnswer":{"@type":"Answer","text":'O consumo é mínimo: fio fino (recomendado) gasta 20-40 litros/noite; custo 0,10-0,20€/noite por torneira; para 10 noites frias de inverno: 2-4€ total. Gastar 3€ em água versus 3000€ em reparações é a escolha óbvia.'}},
+    {"@type":"Question","name":'Posso usar anticongelante nos canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Apenas em situações específicas: SIM para sifões de ralos (não contacta com água potável) e sistemas de aquecimento fechados (radiadores). NÃO para canos de água potável (é tóxico) nem autoclismos. Se usar, escolha anticongelante próprio para canalizações não tóxico.'}},
+    {"@type":"Question","name":'O seguro de casa cobre canos rebentados por congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice. A maioria cobre danos por água súbitos e acidentais. Pode não cobrir se a casa estava vazia sem aquecimento ou por falta de manutenção preventiva. Franquia normalmente 250-500€. Verifique a apólice e informe a seguradora se a casa ficar vazia no inverno.'}},
+    {"@type":"Question","name":'Quanto tempo demora a descongelar um cano congelado?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método: secador de cabelo 30-60 minutos; toalhas quentes embebidas em água quente 1-2 horas; aquecimento ambiente 3-6 horas; temperatura natural 6-24 horas. Nunca use maçarico nem água a ferver — podem rachar o cano. Se o cano já rebentou ligue 932 321 892.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
