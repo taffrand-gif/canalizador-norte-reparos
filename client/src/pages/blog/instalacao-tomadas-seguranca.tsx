@@ -8,7 +8,7 @@ export default function InstalacaoTomadasSeguranca() {
  <title>Instalação de Tomadas: Guia de Segurança 2026 | </title>
  <meta name="description" content="Guia completo sobre instalação segura de tomadas elétricas. Normas, tipos, preços e quando chamar eletricista em Trás-os-Montes." />
  <meta name="keywords" content="instalação tomadas, tomadas elétricas, eletricista Bragança, segurança elétrica, normas tomadas Portugal" />
- <link rel="canonical" href="https://eletricista-norte-reparos.pt/blog/instalacao-tomadas-seguranca" />
+ <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/instalacao-tomadas-seguranca" />
  <script type="application/ld+json">
  {JSON.stringify({
  "@context": "https://schema.org",

@@ -20,7 +20,7 @@ export default function InstalacaoEletricaCasaAntiga() {
  canonical.setAttribute('rel', 'canonical');
  document.head.appendChild(canonical);
  }
- canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/instalacao-eletrica-casa-antiga-renovacao');
+ canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/instalacao-eletrica-casa-antiga-renovacao');
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -38,7 +38,7 @@ export default function InstalacaoEletricaCasaAntiga() {
  "name": "",
  "logo": {
  "@type": "ImageObject",
- "url": "https://eletricista-norte-reparos.pt/logo.png"
+ "url": "https://canalizador-norte-reparos.pt/logo.png"
  }
  },
  "datePublished": "2026-02-19",
