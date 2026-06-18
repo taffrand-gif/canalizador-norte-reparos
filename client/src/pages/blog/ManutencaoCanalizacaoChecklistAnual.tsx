@@ -342,8 +342,8 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Ligue à torneira exterior ou máquina lavar</li>
  <li>• Abra torneira completamente</li>
  <li>• Leia pressão (ideal: 2-3 bar)</li>
- <li>• Se muito alta (>4 bar): instale redutor de pressão</li>
- <li>• Se muito baixa (<1.5 bar): contacte empresa águas</li>
+ <li>• Se muito alta (&gt;4 bar): instale redutor de pressão</li>
+ <li>• Se muito baixa (&lt;1.5 bar): contacte empresa águas</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">

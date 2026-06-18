@@ -590,7 +590,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 💧 Controle a Pressão de Água</h3>
  <p className="text-gray-700 mb-2">
- Pressão excessiva (>4 bar) desgasta juntas e válvulas.
+ Pressão excessiva (&gt;4 bar) desgasta juntas e válvulas.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Pressão ideal: 2,5-3,5 bar</li>

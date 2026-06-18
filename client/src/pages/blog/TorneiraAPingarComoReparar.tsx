@@ -478,7 +478,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 💧 Controle a Pressão de Água</h3>
  <p className="text-gray-700 mb-2">
- Pressão excessiva (>4 bar) desgasta juntas mais rapidamente.
+ Pressão excessiva (&gt;4 bar) desgasta juntas mais rapidamente.
  </p>
  <p className="text-cyan-700 text-sm">
  💡 Instale redutor de pressão se necessário (50-100€).
