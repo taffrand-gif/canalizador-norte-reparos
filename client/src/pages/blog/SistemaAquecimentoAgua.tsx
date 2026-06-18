@@ -45,6 +45,19 @@ export default function SistemaAquecimentoAgua() {
  "dateModified": "2026-02-19"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Qual é mais barato: esquentador, caldeira ou bomba de calor?", "acceptedAnswer": { "@type": "Answer", "text": "Para instalar: esquentador (250-600€) < caldeira (800-1.500€) < bomba de calor (1.200-2.500€). Para uso mensal: bomba de calor (20-35€) < esquentador (30-50€) < caldeira (50-80€). A bomba de calor amortiza o investimento extra em 3-5 anos." } },
+ { "@type": "Question", "name": "Qual sistema de aquecimento de água é melhor para Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Depende: esquentador para 1-2 pessoas em apartamentos com orçamento limitado; caldeira mural para famílias grandes que precisam de aquecimento central no inverno frio da região; bomba de calor para casas com espaço exterior e perspetiva de longo prazo." } },
+ { "@type": "Question", "name": "Qual a vida útil de um esquentador a gás?", "acceptedAnswer": { "@type": "Answer", "text": "Um esquentador bem mantido dura 15 ou mais anos. A manutenção anual obrigatória é essencial para manter eficiência, segurança e garantia do fabricante. Após 10 anos, avalie substituição preventiva." } },
+ { "@type": "Question", "name": "A bomba de calor funciona no frio intenso de Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A bomba de calor é menos eficiente em frio extremo (abaixo de -5°C). Em Trás-os-Montes, onde as temperaturas de inverno podem ser muito baixas, a caldeira mural é frequentemente mais adequada para aquecimento central completo." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const sistemas = [
  {
