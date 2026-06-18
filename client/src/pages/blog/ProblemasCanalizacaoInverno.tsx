@@ -52,6 +52,23 @@ export default function ProblemasCanalizacaoInverno() {
  "dateModified": "2026-02-19"
  });
  document.head.appendChild(script);
+ const howtoScript = document.createElement('script');
+ howtoScript.type = 'application/ld+json';
+ howtoScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Isolar Tubagens para Proteger da Geada",
+ "description": "Instalação de isolamento térmico em tubagens expostas para prevenir congelamento no inverno em Trás-os-Montes.",
+ "totalTime": "PT2H",
+ "step": [
+ { "@type": "HowToStep", "position": 1, "name": "Limpeza e Secagem", "text": "Limpe e seque completamente o tubo antes de aplicar o isolamento. Remova sujidade, ferrugem superficial e humidade." },
+ { "@type": "HowToStep", "position": 2, "name": "Cortar o Isolamento", "text": "Meça e corte o isolamento de espuma ou lã mineral no comprimento exato necessário para cobrir toda a tubagem exposta." },
+ { "@type": "HowToStep", "position": 3, "name": "Encaixar no Tubo", "text": "Abra a fenda longitudinal do isolamento e encaixe firmemente em torno do tubo, garantindo total cobertura sem folgas." },
+ { "@type": "HowToStep", "position": 4, "name": "Selar com Fita ou Abraçadeiras", "text": "Feche a fenda com fita adesiva de alumínio ou abraçadeiras plásticas para manter o isolamento no lugar." },
+ { "@type": "HowToStep", "position": 5, "name": "Isolar Junções e Cotovelos", "text": "Dê especial atenção às junções, cotovelos e passagens por paredes — são os pontos mais vulneráveis ao congelamento." }
+ ]
+ });
+ document.head.appendChild(howtoScript);
  }, []);
  const problemas = [
  {
