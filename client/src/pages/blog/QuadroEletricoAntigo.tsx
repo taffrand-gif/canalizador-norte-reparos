@@ -45,6 +45,20 @@ export default function QuadroEletricoAntigo() {
  ]
  });
  document.head.appendChild(howtoScript);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.id = 'schema-faq-quadro-eletrico-antigo';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Quanto custa trocar um quadro elétrico antigo com fusíveis?", "acceptedAnswer": { "@type": "Answer", "text": "Apartamento (T1-T3): 200-350€ (quadro 8-12 módulos + instalação). Moradia: 350-600€ (quadro 18-24 módulos). Inclui quadro, disjuntores, diferencial 30mA e mão de obra." } },
+ { "@type": "Question", "name": "Quais sinais indicam que devo trocar o quadro elétrico?", "acceptedAnswer": { "@type": "Answer", "text": "Fusíveis de porcelana ou vidro, quadro de madeira ou baquelite, fios de alumínio, fusíveis que saltam frequentemente, cheiro a queimado no quadro (URGENTE) e mais de 25 anos sem intervenção." } },
+ { "@type": "Question", "name": "Porque é perigoso manter um quadro elétrico antigo?", "acceptedAnswer": { "@type": "Answer", "text": "Quadros com mais de 30 anos são responsáveis por 40% dos incêndios domésticos de origem elétrica em Portugal. Os fusíveis antigos não protegem contra fugas de corrente, o maior risco de eletrocussão." } },
+ { "@type": "Question", "name": "Quais as vantagens de um quadro elétrico moderno?", "acceptedAnswer": { "@type": "Answer", "text": "Proteção diferencial que corta a corrente em 30ms se houver fuga (salva vidas), disjuntores rearmáveis em vez de fusíveis queimados, circuitos separados protegidos individualmente e capacidade para carregador de carro elétrico e ar condicionado." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  return (
  <div className="min-h-screen flex flex-col">

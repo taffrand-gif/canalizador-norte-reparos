@@ -31,21 +31,35 @@ export default function AutomacaoResidencialGuia() {
  "description": "Guia completo de automação residencial em Trás-os-Montes. Descubra como transformar a sua casa numa casa inteligente.",
  "author": {
  "@type": "Organization",
- "name": ""
+ "name": "Norte Reparos"
  },
  "publisher": {
  "@type": "Organization",
- "name": "",
+ "name": "Norte Reparos",
  "logo": {
  "@type": "ImageObject",
  "url": "https://canalizador-norte-reparos.pt/logo.png"
  }
  },
  "datePublished": "2026-02-19",
- "dateModified": "2026-02-19"
+ "dateModified": "2026-06-18"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Quanto custa automatizar uma casa em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Automação básica (iluminação inteligente 3-4 divisões): 500-1.000€. Intermédia (iluminação + climatização + estores): 2.000-4.000€. Avançada (sistema completo integrado): 5.000-10.000€. Valores incluem equipamento e instalação." } },
+ { "@type": "Question", "name": "Quanto posso poupar com automação residencial?", "acceptedAnswer": { "@type": "Answer", "text": "Uma casa inteligente reduz a conta de luz em 20-40% com gestão automática de iluminação e climatização. Termostatos inteligentes poupam 20-30% no aquecimento e a iluminação inteligente até 60%." } },
+ { "@type": "Question", "name": "Preciso de eletricista certificado para instalar automação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A instalação deve ser feita por eletricista certificado para garantir segurança e funcionamento correto. Primeiro avalia-se se a instalação elétrica existente suporta os novos dispositivos." } },
+ { "@type": "Question", "name": "A automação residencial valoriza o imóvel?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Casas inteligentes valorizam até 5% no mercado imobiliário, além de oferecerem maior conforto, segurança reforçada e poupança de energia a longo prazo." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  return () => {
+ document.head.removeChild(faqScript);
  document.head.removeChild(script);
  };
  }, []);

@@ -69,6 +69,19 @@ export default function ProblemasCanalizacaoInverno() {
  ]
  });
  document.head.appendChild(howtoScript);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Como evitar tubos congelados no inverno em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Isole as tubagens expostas, deixe torneiras a pingar em noites abaixo de -5°C (água em movimento não congela), mantenha aquecimento mínimo a 10-12°C mesmo ausente e isole a caixa do contador com esferovite ou lã de rocha." } },
+ { "@type": "Question", "name": "O que fazer se um tubo rebentar com o frio?", "acceptedAnswer": { "@type": "Answer", "text": "1) Feche imediatamente a torneira geral (junto ao contador). 2) Desligue a eletricidade se a água atingir o quadro elétrico. 3) Ligue um canalizador de urgência — não tente arranjar sozinho. 4) Documente os danos com fotos para o seguro." } },
+ { "@type": "Question", "name": "Quanto custa isolar tubagens para proteger da geada?", "acceptedAnswer": { "@type": "Answer", "text": "O isolamento custa 100-300€ e evita arranjos de 1.000-5.000€. Espuma de polietileno (Tubolit): 2-4€/metro (protege até -5°C). Lã de rocha: 4-7€/metro (até -15°C). Cabo aquecedor elétrico: 15-25€/metro para casos extremos." } },
+ { "@type": "Question", "name": "Quais são as zonas de maior risco de congelamento?", "acceptedAnswer": { "@type": "Answer", "text": "Sótãos e águas-furtadas, tubagens exteriores e caixas de contador são de risco muito alto. Garagens não aquecidas e paredes exteriores viradas a norte são de risco alto. Caves e porões, risco médio." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const problemas = [
  {
