@@ -12,6 +12,34 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  title="Como Desentupir Canalização Sozinho? [Guia Completo 2026]"
  description="Métodos profissionais para resolver entupimentos de canalização sem gastar dinheiro"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como Desentupir Canalização Sozinho",
+        "description": "Guia prático para desentupir canalização em casa sem chamar canalizador, com materiais simples e técnicas seguras.",
+        "totalTime": "PT30M",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+        "step": [
+          {"@type": "HowToStep", "name": "Identifique o tipo e localização do entupimento", "text": "Verifique se é no lavatório, lava-louça, banheira ou escoamento do chão. O entupimento pode estar no sifão ou mais fundo na canalização."},
+          {"@type": "HowToStep", "name": "Tente desentupir com água a ferver", "text": "Ferva água e deite em jatos lentos diretamente no ralo. Água quente dissolve gorduras. Não use em canos de PVC antigos."},
+          {"@type": "HowToStep", "name": "Use a ventosa (desentupidor de borracha)", "text": "Coloque a ventosa sobre o ralo com água suficiente para cobrir a borracha. Faça movimentos de pressão/sucção vigorosos durante 30 segundos."},
+          {"@type": "HowToStep", "name": "Limpe o sifão manualmente", "text": "Coloque balde sob o sifão. Desaparafuse o sifão (maioria é manual). Limpe o interior com uma escova. Recoloque e aperte."},
+          {"@type": "HowToStep", "name": "Use desentupidor de mola (cobra)", "text": "Introduza a mola metálica pelo ralo e rode. Avança e quebra entupimentos mais profundos. Retire lentamente com o entupimento preso."},
+          {"@type": "HowToStep", "name": "Trate com bicarbonato e vinagre", "text": "Deite 200g de bicarbonato no ralo, seguido de 200ml de vinagre branco. Espere 30 minutos e passe água quente para limpar resíduos."},
+          {"@type": "HowToStep", "name": "Se persistir, chame canalizador profissional", "text": "Entupimentos em ramais principais, com mau cheiro de esgoto, ou que voltam sistematicamente, requerem equipamento de alta pressão. Ligue 928 484 451."}
+        ]
+      }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+        "mainEntity": [
+          {"@type": "Question", "name": "Posso usar produtos químicos desentupidores?", "acceptedAnswer": {"@type": "Answer", "text": "Não recomendamos. Produtos químicos danificam canos de PVC, são tóxicos e perigosos para a saúde, poluem o ambiente e raramente resolvem entupimentos graves. Alternativa natural e eficaz: bicarbonato + vinagre."}},
+          {"@type": "Question", "name": "O entupimento volta sempre. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas comuns de entupimentos recorrentes: problema na canalização principal (raízes ou cano partido), inclinação insuficiente dos canos, acumulação crónica de gordura, ou sifão mal instalado. Solução definitiva: inspeção com câmara por profissional."}},
+          {"@type": "Question", "name": "Água quente danifica canos?", "acceptedAnswer": {"@type": "Answer", "text": "Depende do material: PVC antigo (20+ anos) pode deformar acima de 80°C, PVC moderno aguenta até 95°C, cobre e metal não têm problema com água fervente. Se os canos tiverem mais de 20 anos, use água morna a 60-70°C."}},
+          {"@type": "Question", "name": "Quando devo chamar canalizador para desentupimento?", "acceptedAnswer": {"@type": "Answer", "text": "Chame um profissional se: os métodos caseiros não resolvem após 2-3 tentativas, o entupimento volta repetidamente, há mau cheiro de esgoto, a água sobe pela sanita ou chão de balneário, ou se suspeitar de cano partido."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

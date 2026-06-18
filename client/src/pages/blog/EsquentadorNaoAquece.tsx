@@ -12,6 +12,17 @@ const EsquentadorNaoAquece: React.FC = () => {
  title="Esquentador Não Aquece: 7 Causas e Soluções [Guia 2026]"
  description="Guia completo para diagnosticar e resolver problemas de esquentador que não aquece água"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/esquentador-nao-aquece",
+        "mainEntity": [
+          {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico certificado (80-150€)."}},
+          {"@type": "Question", "name": "Posso reparar esquentador sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Pode fazer: trocar pilhas, verificar a válvula de gás, limpeza superficial do queimador com experiência. Precisa de técnico: substituição do termopar, reparação da válvula de gás, descalcificação, problemas elétricos."}},
+          {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: 60-100€. Substituição do termopar: 80-150€. Descalcificação: 80-150€. Reparação de válvula: 100-200€."}},
+          {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico certificado."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

@@ -12,6 +12,33 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  title="Sifão Entupido: Como Limpar Corretamente [Guia 2026]"
  description="Guia completo para limpar sifão entupido rapidamente e prevenir futuros entupimentos"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como Limpar Sifão Entupido Corretamente",
+        "description": "Guia para limpar sifão entupido em lavatório ou lava-louça, passo a passo, em menos de 10 minutos.",
+        "totalTime": "PT10M",
+        "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
+        "step": [
+          {"@type": "HowToStep", "name": "Prepare o espaço de trabalho", "text": "Coloque um balde ou bacia sob o sifão para recolher a água. Tenha luvas e um pano à mão. Não precisa de ferramentas especiais."},
+          {"@type": "HowToStep", "name": "Rode o sifão para o abrir", "text": "A maioria dos sifões modernos abre à mão, rodando no sentido contrário ao relógio. Se estiver preso, use alicate com pano para proteger."},
+          {"@type": "HowToStep", "name": "Retire o sifão e esvazie o conteúdo", "text": "Deite o conteúdo no balde. Vai encontrar cabelo, resíduos de sabão e gordura — a principal causa dos maus cheiros e entupimentos."},
+          {"@type": "HowToStep", "name": "Limpe o interior com escova", "text": "Use uma escova de garrafas ou palito para limpar o interior do sifão em forma de U. Lave com água quente e detergente."},
+          {"@type": "HowToStep", "name": "Recoloque o sifão com a junta correta", "text": "Verifique se a junta de borracha está em bom estado. Recoloque o sifão e aperte bem à mão. Não force com ferramentas para não danificar a rosca."},
+          {"@type": "HowToStep", "name": "Teste a estanqueidade", "text": "Abra a torneira e deixe correr água durante 1 minuto. Verifique se há fugas nas juntas. Se o sifão tiver rachaduras, substitua por um novo (5-15€)."}
+        ]
+      }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
+        "mainEntity": [
+          {"@type": "Question", "name": "Sifão continua a cheirar mal após limpeza. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Possíveis causas: água do sifão evaporou (despeje 1 litro), ventilação insuficiente no tubo, junta danificada pelos gases, entupimento mais à frente na canalização principal, ou sifão mal montado. Se persistir, chame canalizador."}},
+          {"@type": "Question", "name": "Quanto custa substituir um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Material (sifão novo): 8-25€. Instalação DIY: 0€. Instalação por canalizador: 40-80€. A substituição DIY é muito fácil e poupa 40-80€ em mão de obra."}},
+          {"@type": "Question", "name": "Posso limpar sifão sem desmontar?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, mas é menos eficaz. Métodos sem desmontagem: água quente com detergente remove gordura leve, bicarbonato + vinagre dissolve resíduos orgânicos, ventosa desaloja bloqueios parciais. A desmontagem é sempre mais eficaz e permite inspeção visual."}},
+          {"@type": "Question", "name": "Quanto tempo demora a limpar um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Com desmontagem completa: 5-10 minutos para sifão simples, 15-20 minutos para sifão com acessórios. Sem desmontagem: 5-15 minutos por método."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

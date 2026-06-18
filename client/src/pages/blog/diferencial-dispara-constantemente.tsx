@@ -8,7 +8,7 @@ export default function DiferencialDisparaConstantemente() {
  <title>Diferencial Dispara Constantemente: 7 Causas e Soluções | </title>
  <meta name="description" content="Diferencial dispara sempre? Descubra as 7 causas principais, como identificar o problema e quando chamar eletricista em Bragança e Trás-os-Montes." />
  <meta name="keywords" content="diferencial dispara, disjuntor diferencial, fuga corrente, eletricista Bragança, problemas elétricos" />
- <link rel="canonical" href="https://eletricista-norte-reparos.pt/blog/diferencial-dispara-constantemente" />
+ <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/diferencial-dispara-constantemente" />
  <script type="application/ld+json">
  {JSON.stringify({
  "@context": "https://schema.org",

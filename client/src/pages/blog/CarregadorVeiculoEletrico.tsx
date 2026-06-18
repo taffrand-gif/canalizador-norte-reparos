@@ -20,7 +20,7 @@ export default function CarregadorVeiculoEletrico() {
  canonical.setAttribute('rel', 'canonical');
  document.head.appendChild(canonical);
  }
- canonical.setAttribute('href', 'https://eletricista-norte-reparos.pt/blog/carregador-veiculo-eletrico-casa');
+ canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/carregador-veiculo-eletrico-casa');
  // JSON-LD Article Schema
  const script = document.createElement('script');
  script.type = 'application/ld+json';
@@ -38,7 +38,7 @@ export default function CarregadorVeiculoEletrico() {
  "name": "",
  "logo": {
  "@type": "ImageObject",
- "url": "https://eletricista-norte-reparos.pt/logo.png"
+ "url": "https://canalizador-norte-reparos.pt/logo.png"
  }
  },
  "datePublished": "2026-02-19",
