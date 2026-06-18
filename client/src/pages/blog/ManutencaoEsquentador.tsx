@@ -28,6 +28,20 @@ export default function ManutencaoEsquentador() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/manutencao-esquentador-guia');
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "De quanto em quanto tempo devo fazer manutenção ao esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "A revisão anual é obrigatória para garantir segurança e eficiência — além de ser exigida pela maioria das garantias. O melhor momento é antes do inverno (Setembro/Outubro). Após 10 anos de uso, avalie substituição ou revisão profunda." } },
+ { "@type": "Question", "name": "O que inclui uma manutenção completa do esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "Inclui: limpeza do queimador, verificação do termopar, limpeza do permutador de calor, teste de estanquicidade (fugas de gás), verificação da tiragem, limpeza dos filtros de água, ajuste da pressão de gás e teste de funcionamento completo." } },
+ { "@type": "Question", "name": "Quanto custa a manutenção do esquentador em 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Manutenção anual completa (limpeza e verificação): 60€ a 90€. Arranjo com substituição de peças: 80€ a 150€, dependendo do componente. Preços para esquentadores domésticos, deslocação incluída na zona de Macedo de Cavaleiros e Bragança." } },
+ { "@type": "Question", "name": "A chama do esquentador deve ser azul ou amarela?", "acceptedAnswer": { "@type": "Answer", "text": "A chama deve ser sempre azul. Chama amarela ou alaranjada indica combustão incompleta e produção de monóxido de carbono — perigoso para a saúde. Agende manutenção urgente com um técnico certificado." } },
+ { "@type": "Question", "name": "O que fazer se sentir cheiro a gás no esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "Urgente: não acenda luzes nem fósforos. Abra todas as janelas, feche a torneira geral de gás, saia de casa imediatamente e ligue para o técnico do exterior. Nunca ignore cheiro a gás — risco de explosão e intoxicação." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  return (
  <div className="min-h-screen flex flex-col">
