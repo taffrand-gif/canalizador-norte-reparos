@@ -980,7 +980,7 @@ const QuadroEletricoDispara: React.FC = () => {
  href="tel:+351928484451"
  className="flex-1 bg-white text-cyan-600 px-6 py-4 rounded-lg font-bold text-center hover:bg-gray-100 transition-colors text-lg"
  >
- 📞 932 321 892
+ 📞 928 484 451
  </a>
  <a
  href="https://wa.me/351928484451?text=Olá,%20o%20quadro%20elétrico%20dispara%20constantemente"
