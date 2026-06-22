@@ -12,7 +12,23 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  title="Quanto Custa um Canalizador em Portugal? [Preços 2026]"
  description="Descubra os preços reais de serviços de canalizador em Portugal e como obter o melhor valor"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: reparação simples 50-100€; desentupimento 60-150€; instalação 80-300€; urgência +20-50€; deslocação 30-50€ se não houver trabalho. Os preços variam com a urgência, complexidade e localização.'}},
+    {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-50€ de deslocação; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
+    {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
+    {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
+    {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
+    {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Profissionais sérios oferecem garantia: reparações 3-6 meses; instalações 6-12 meses; trabalhos complexos até 24 meses. Exija garantia por escrito no orçamento.'}},
+    {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€; cano rebentado 150-400€.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">

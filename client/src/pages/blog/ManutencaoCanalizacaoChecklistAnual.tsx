@@ -12,7 +12,21 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  title="Manutenção de Canalização: Checklist Anual Completa [2026]"
  description="Guia completo de manutenção preventiva para evitar avarias caras e prolongar vida útil da canalização"
  >
- <article className="max-w-4xl mx-auto">
+       <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+    {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'O custo total anual ronda 297-517€: tarefas DIY mensais/trimestrais 50-100€; limpeza de esquentador 2x por ano 120-200€; inspeção profissional anual 80-150€; peças e materiais 47-67€. Investir 300-500€/ano evita reparações de 2000-10000€.'}},
+    {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
+    {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
+    {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: 300-500€. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
+    {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; consumo excessivo de água e energia (+30%); problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
+          ]
+        }) }}
+      />
+      <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">
@@ -328,8 +342,8 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Ligue à torneira exterior ou máquina lavar</li>
  <li>• Abra torneira completamente</li>
  <li>• Leia pressão (ideal: 2-3 bar)</li>
- <li>• Se muito alta (>4 bar): instale redutor de pressão</li>
- <li>• Se muito baixa (<1.5 bar): contacte empresa águas</li>
+ <li>• Se muito alta (&gt;4 bar): instale redutor de pressão</li>
+ <li>• Se muito baixa (&lt;1.5 bar): contacte empresa águas</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">

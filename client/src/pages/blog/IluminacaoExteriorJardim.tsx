@@ -1,11 +1,4 @@
 // Blog article: "Iluminação Exterior e de Jardim: Guia Completo 2026"
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
@@ -38,21 +31,35 @@ export default function IluminacaoExteriorJardim() {
  "description": "Guia completo de iluminação exterior: LED, IP65, segurança, ambiance e economia de energia.",
  "author": {
  "@type": "Organization",
- "name": ""
+ "name": "Norte Reparos"
  },
  "publisher": {
  "@type": "Organization",
- "name": "",
+ "name": "Norte Reparos",
  "logo": {
  "@type": "ImageObject",
  "url": "https://canalizador-norte-reparos.pt/logo.png"
  }
  },
  "datePublished": "2026-02-19",
- "dateModified": "2026-02-19"
+ "dateModified": "2026-06-18"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Que índice de proteção IP devo usar na iluminação de jardim?", "acceptedAnswer": { "@type": "Answer", "text": "Para jardins em Trás-os-Montes (chuva, neve, geada), use sempre IP65 ou superior. IP44 só para zonas cobertas (alpendre, varanda), IP67 para zonas húmidas perto de fontes e IP68 para iluminação submersa de piscina." } },
+ { "@type": "Question", "name": "Quanto se poupa com iluminação LED no exterior?", "acceptedAnswer": { "@type": "Answer", "text": "O LED consome 80% menos que halogéneo/incandescente e dura 20.000-50.000 horas (vs 1.000-2.000h). Acende instantaneamente, resiste a vibrações e não contém mercúrio." } },
+ { "@type": "Question", "name": "Quanto custa iluminar o exterior de uma casa?", "acceptedAnswer": { "@type": "Answer", "text": "Projeto básico (2 focos de segurança + 4 balizas de caminho): 300-500€. Intermédio (segurança + caminhos + destaque): 800-1.500€. Completo (integrado com automação e sensores): 2.000-4.000€. Inclui material e instalação." } },
+ { "@type": "Question", "name": "Que temperatura de cor escolher para iluminação exterior?", "acceptedAnswer": { "@type": "Answer", "text": "Branco quente (2700-3000K) para terraços e zonas de estar; branco neutro (4000-4500K) para caminhos e entradas; branco frio (5000-6500K) para segurança e garagens." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  return () => {
+ document.head.removeChild(faqScript);
  document.head.removeChild(script);
  };
  }, []);

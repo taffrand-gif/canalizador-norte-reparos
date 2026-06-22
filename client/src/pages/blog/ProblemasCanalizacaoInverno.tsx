@@ -1,11 +1,4 @@
 // Blog article: "Problemas de Canalização no Inverno: Soluções e Prevenção"
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
@@ -52,6 +45,36 @@ export default function ProblemasCanalizacaoInverno() {
  "dateModified": "2026-02-19"
  });
  document.head.appendChild(script);
+ const howtoScript = document.createElement('script');
+ howtoScript.type = 'application/ld+json';
+ howtoScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Isolar Tubagens para Proteger da Geada",
+ "description": "Instalação de isolamento térmico em tubagens expostas para prevenir congelamento no inverno em Trás-os-Montes.",
+ "totalTime": "PT2H",
+ "step": [
+ { "@type": "HowToStep", "position": 1, "name": "Limpeza e Secagem", "text": "Limpe e seque completamente o tubo antes de aplicar o isolamento. Remova sujidade, ferrugem superficial e humidade." },
+ { "@type": "HowToStep", "position": 2, "name": "Cortar o Isolamento", "text": "Meça e corte o isolamento de espuma ou lã mineral no comprimento exato necessário para cobrir toda a tubagem exposta." },
+ { "@type": "HowToStep", "position": 3, "name": "Encaixar no Tubo", "text": "Abra a fenda longitudinal do isolamento e encaixe firmemente em torno do tubo, garantindo total cobertura sem folgas." },
+ { "@type": "HowToStep", "position": 4, "name": "Selar com Fita ou Abraçadeiras", "text": "Feche a fenda com fita adesiva de alumínio ou abraçadeiras plásticas para manter o isolamento no lugar." },
+ { "@type": "HowToStep", "position": 5, "name": "Isolar Junções e Cotovelos", "text": "Dê especial atenção às junções, cotovelos e passagens por paredes — são os pontos mais vulneráveis ao congelamento." }
+ ]
+ });
+ document.head.appendChild(howtoScript);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Como evitar tubos congelados no inverno em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Isole as tubagens expostas, deixe torneiras a pingar em noites abaixo de -5°C (água em movimento não congela), mantenha aquecimento mínimo a 10-12°C mesmo ausente e isole a caixa do contador com esferovite ou lã de rocha." } },
+ { "@type": "Question", "name": "O que fazer se um tubo rebentar com o frio?", "acceptedAnswer": { "@type": "Answer", "text": "1) Feche imediatamente a torneira geral (junto ao contador). 2) Desligue a eletricidade se a água atingir o quadro elétrico. 3) Ligue um canalizador de urgência — não tente arranjar sozinho. 4) Documente os danos com fotos para o seguro." } },
+ { "@type": "Question", "name": "Quanto custa isolar tubagens para proteger da geada?", "acceptedAnswer": { "@type": "Answer", "text": "O isolamento custa 100-300€ e evita arranjos de 1.000-5.000€. Espuma de polietileno (Tubolit): 2-4€/metro (protege até -5°C). Lã de rocha: 4-7€/metro (até -15°C). Cabo aquecedor elétrico: 15-25€/metro para casos extremos." } },
+ { "@type": "Question", "name": "Quais são as zonas de maior risco de congelamento?", "acceptedAnswer": { "@type": "Answer", "text": "Sótãos e águas-furtadas, tubagens exteriores e caixas de contador são de risco muito alto. Garagens não aquecidas e paredes exteriores viradas a norte são de risco alto. Caves e porões, risco médio." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const problemas = [
  {

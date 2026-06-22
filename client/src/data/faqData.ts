@@ -74,7 +74,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 11,
  question: "Preciso de licença para trocar o esquentador?",
- answer: "Sim, a substituição de esquentador a gás requer certificação obrigatória por técnico certificado. Após a instalação, emitimos certificado de conformidade que deve ser enviado à Câmara Municipal no prazo de 30 dias. Para esquentadores elétricos, não é obrigatória licença mas recomendamos sempre instalação profissional por questões de segurança e garantia. Trabalhamos apenas com técnicos certificados e tratamos de toda a documentação sem custos adicionais. A falta de certificação pode invalidar seguros e causar problemas na venda do imóvel. Instalação completa com certificação: a partir de 180€ (sem equipamento).",
+ answer: "A substituição de um esquentador a gás requer, por lei, certificação por técnico habilitado para gás e emissão de certificado de conformidade. De momento NÃO fazemos instalação nem certificação de gás (habilitação em curso); para esses trabalhos recomendamos um técnico habilitado para gás. Para esquentadores elétricos fazemos a substituição e recomendamos sempre instalação profissional por segurança. A falta de certificação de gás pode invalidar seguros.",
  category: "Legislação"
  },
  {
@@ -110,7 +110,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 17,
  question: "Preciso de certificação para instalação de gás?",
- answer: "Sim, qualquer instalação ou alteração de gás (canalizado ou botija) requer obrigatoriamente técnico certificado e emissão de certificado de conformidade. Isto inclui: instalação de esquentador a gás, caldeira, fogão, ou alteração de tubagens de gás. O certificado deve ser enviado à entidade distribuidora (se gás canalizado) ou guardado para inspeções. Instalações sem certificação são ilegais, perigosas, e invalidam seguros. Todos os nossos técnicos são certificados e emitimos certificação incluída no preço do serviço. Penalizações por instalação ilegal: multas de 250€ a 3.740€ + responsabilidade civil em caso de acidente. Regularizamos instalações antigas sem certificação.",
+ answer: "Sim. Por lei, qualquer instalação ou alteração de gás (canalizado ou botija) requer técnico habilitado para gás e emissão de certificado de conformidade — inclui esquentador a gás, caldeira, fogão ou tubagens de gás. De momento NÃO fazemos instalação nem certificação de gás (habilitação em curso); para esses trabalhos recomendamos um técnico habilitado para gás. Instalações sem certificação são ilegais e podem invalidar seguros.",
  category: "Legislação"
  },
  {
@@ -161,7 +161,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 25,
  question: "Como escolher um canalizador de confiança em Trás-os-Montes?",
- answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, técnicos certificados, orçamentos gratuitos, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
+ answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, técnicos qualificados, orçamentos gratuitos, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
  category: "Dicas"
  }
 ];

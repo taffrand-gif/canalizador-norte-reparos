@@ -1,11 +1,4 @@
 // Blog article: "Quadro Elétrico Antigo - Quando Trocar"
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
@@ -28,6 +21,37 @@ export default function QuadroEletricoAntigo() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/quadro-eletrico-antigo-fusíveis-trocar');
+ const howtoScript = document.createElement('script');
+ howtoScript.type = 'application/ld+json';
+ howtoScript.id = 'schema-howto-quadro-eletrico-antigo';
+ howtoScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Substituir um Quadro Elétrico Antigo com Fusíveis",
+ "description": "Processo profissional de substituição de quadro elétrico antigo por disjuntores modernos com diferencial 30mA.",
+ "totalTime": "PT5H",
+ "step": [
+ { "@type": "HowToStep", "position": 1, "name": "Inspeção e Diagnóstico", "text": "Avaliamos o estado atual do quadro elétrico, dimensionamos o novo quadro e identificamos os circuitos existentes." },
+ { "@type": "HowToStep", "position": 2, "name": "Orçamento Fechado", "text": "Apresentamos preço total sem surpresas — materiais e mão de obra incluídos — antes de iniciar qualquer trabalho." },
+ { "@type": "HowToStep", "position": 3, "name": "Instalação do Novo Quadro", "text": "Substituição do quadro com mínima interrupção de corrente. Instalação de disjuntores, diferencial 30mA e proteções adequadas." },
+ { "@type": "HowToStep", "position": 4, "name": "Testes e Certificação", "text": "Testamos todos os circuitos, medimos a resistência de terra e emitimos declaração de conformidade da instalação." }
+ ]
+ });
+ document.head.appendChild(howtoScript);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.id = 'schema-faq-quadro-eletrico-antigo';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Quanto custa trocar um quadro elétrico antigo com fusíveis?", "acceptedAnswer": { "@type": "Answer", "text": "Apartamento (T1-T3): 200-350€ (quadro 8-12 módulos + instalação). Moradia: 350-600€ (quadro 18-24 módulos). Inclui quadro, disjuntores, diferencial 30mA e mão de obra." } },
+ { "@type": "Question", "name": "Quais sinais indicam que devo trocar o quadro elétrico?", "acceptedAnswer": { "@type": "Answer", "text": "Fusíveis de porcelana ou vidro, quadro de madeira ou baquelite, fios de alumínio, fusíveis que saltam frequentemente, cheiro a queimado no quadro (URGENTE) e mais de 25 anos sem intervenção." } },
+ { "@type": "Question", "name": "Porque é perigoso manter um quadro elétrico antigo?", "acceptedAnswer": { "@type": "Answer", "text": "Quadros com mais de 30 anos são responsáveis por 40% dos incêndios domésticos de origem elétrica em Portugal. Os fusíveis antigos não protegem contra fugas de corrente, o maior risco de eletrocussão." } },
+ { "@type": "Question", "name": "Quais as vantagens de um quadro elétrico moderno?", "acceptedAnswer": { "@type": "Answer", "text": "Proteção diferencial que corta a corrente em 30ms se houver fuga (salva vidas), disjuntores rearmáveis em vez de fusíveis queimados, circuitos separados protegidos individualmente e capacidade para carregador de carro elétrico e ar condicionado." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  return (
  <div className="min-h-screen flex flex-col">

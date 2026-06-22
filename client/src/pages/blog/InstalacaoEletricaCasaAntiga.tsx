@@ -31,21 +31,35 @@ export default function InstalacaoEletricaCasaAntiga() {
  "description": "Guia para renovar instalação elétrica em casas antigas de pedra: normas, custos e soluções.",
  "author": {
  "@type": "Organization",
- "name": ""
+ "name": "Norte Reparos"
  },
  "publisher": {
  "@type": "Organization",
- "name": "",
+ "name": "Norte Reparos",
  "logo": {
  "@type": "ImageObject",
  "url": "https://canalizador-norte-reparos.pt/logo.png"
  }
  },
  "datePublished": "2026-02-19",
- "dateModified": "2026-02-19"
+ "dateModified": "2026-06-18"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Quanto custa renovar a instalação elétrica de uma casa antiga?", "acceptedAnswer": { "@type": "Answer", "text": "Renovação parcial (quadro + terra + circuitos críticos): 1.500-3.000€. Completa T2 com certificação: 3.500-6.000€. Completa T3/T4: 6.000-10.000€. Valores incluem material, mão-de-obra e certificação." } },
+ { "@type": "Question", "name": "É possível renovar a eletricidade sem destruir paredes de pedra?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Usamos calhas técnicas, rodapés elétricos, tubagem à vista estilo industrial e, quando necessário furar, brocas de diamante que perfuram granito sem rachar. Preserva-se a estética da casa de pedra." } },
+ { "@type": "Question", "name": "A certificação elétrica é obrigatória após a renovação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Qualquer renovação deve cumprir as Regras Técnicas (RTIEBT) e obter certificado de eletricista certificado. Sem ele não pode vender nem arrendar o imóvel." } },
+ { "@type": "Question", "name": "Que sinais indicam que preciso renovar a instalação elétrica?", "acceptedAnswer": { "@type": "Answer", "text": "Instalação com mais de 30 anos, fios de alumínio ou tecido, tomadas de 2 pinos sem terra, quadro com fusíveis cerâmicos, tomadas/interruptores queimados e disjuntores que disparam frequentemente." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  return () => {
+ document.head.removeChild(faqScript);
  document.head.removeChild(script);
  };
  }, []);

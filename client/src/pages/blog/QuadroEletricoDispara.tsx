@@ -12,6 +12,18 @@ const QuadroEletricoDispara: React.FC = () => {
  title="Quadro Elétrico Dispara: 7 Causas e Soluções [Guia 2026]"
  description="Guia completo para identificar porque o quadro elétrico dispara e resolver o problema de forma segura"
  >
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Porque é que o quadro elétrico dispara constantemente?", "acceptedAnswer": { "@type": "Answer", "text": "As 3 causas mais comuns (80% dos casos): sobrecarga elétrica (40% — demasiados aparelhos ligados ao mesmo tempo), curto-circuito (25% — fio danificado ou ligação mal feita) e fuga de corrente (15% — isolamento danificado ou humidade)." } },
+ { "@type": "Question", "name": "Posso religar o disjuntor várias vezes?", "acceptedAnswer": { "@type": "Answer", "text": "Pode religar 1-2 vezes se disparou por sobrecarga pontual — desligue alguns aparelhos e religue. Não religue repetidamente se dispara imediatamente ou há cheiro a queimado. Religar constantemente sem resolver a causa pode causar incêndio." } },
+ { "@type": "Question", "name": "Qual a diferença entre disjuntor e diferencial?", "acceptedAnswer": { "@type": "Answer", "text": "O disjuntor (magnetotérmico) protege contra sobrecarga e curto-circuito. O diferencial protege contra choques elétricos, detetando fugas de corrente. Ambos são necessários para proteção completa e o diferencial é obrigatório por lei." } },
+ { "@type": "Question", "name": "Quanto custa resolver um quadro elétrico que dispara?", "acceptedAnswer": { "@type": "Answer", "text": "Diagnóstico profissional: 40-80€. Substituir disjuntor defeituoso: 40-100€. Reparar curto-circuito: 80-200€. Resolver fuga de corrente: 60-150€. Resolver sobrecarga redistribuindo aparelhos: 0€ (DIY)." } },
+ { "@type": "Question", "name": "É perigoso o quadro elétrico disparar?", "acceptedAnswer": { "@type": "Answer", "text": "Depende da causa. Sobrecarga ocasional não é perigosa (o disjuntor está a proteger). Curto-circuito é perigoso (risco de incêndio). Fuga de corrente é muito perigosa (risco de choque fatal) — nunca ignore um diferencial que dispara." } },
+ { "@type": "Question", "name": "O diferencial dispara quando chove. É normal?", "acceptedAnswer": { "@type": "Answer", "text": "Não é normal — indica problema grave: infiltração de água na instalação, tomadas exteriores sem proteção adequada, fios com isolamento danificado ou humidade em caixas de derivação. Chame eletricista urgente, há risco de choque fatal." } }
+ ]
+ }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">

@@ -1,11 +1,4 @@
 // Blog article: "Sinais de Fugas de Água Escondidas"
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
@@ -28,6 +21,36 @@ export default function SinaisFugasAgua() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/sinais-fugas-agua-escondidas');
+ const howtoScript = document.createElement('script');
+ howtoScript.type = 'application/ld+json';
+ howtoScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Detetar uma Fuga de Água Escondida em Casa",
+ "description": "Teste simples com o contador de água para verificar se há fuga escondida na canalização.",
+ "totalTime": "PT30M",
+ "step": [
+ { "@type": "HowToStep", "position": 1, "name": "Fechar Todas as Torneiras", "text": "Feche todas as torneiras e aparelhos que usem água (máquina lavar roupa, louça, etc.). Certifique-se que ninguém usará água durante o teste." },
+ { "@type": "HowToStep", "position": 2, "name": "Anotar o Contador", "text": "Anote com precisão o número atual no contador de água — todos os dígitos, incluindo os decimais." },
+ { "@type": "HowToStep", "position": 3, "name": "Aguardar 30 Minutos", "text": "Aguarde 30 minutos sem usar água em nenhum ponto da casa. Não abra torneiras, não use autoclismos." },
+ { "@type": "HowToStep", "position": 4, "name": "Verificar o Contador", "text": "Verifique o contador novamente. Se o número mudou — mesmo ligeiramente — há uma fuga ativa na sua canalização. Chame um canalizador." }
+ ]
+ });
+ document.head.appendChild(howtoScript);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Como saber se tenho uma fuga de água escondida?", "acceptedAnswer": { "@type": "Answer", "text": "Feche todas as torneiras, anote o contador de água, aguarde 30 minutos sem usar água e verifique se o número mudou. Se mudou, há fuga. Outros sinais: conta de água anormalmente alta, manchas de humidade, cheiro a mofo ou som de água a correr com torneiras fechadas." } },
+ { "@type": "Question", "name": "O que significa a conta de água ter subido muito sem razão?", "acceptedAnswer": { "@type": "Answer", "text": "Aumento súbito de 20-30% sem mudança de hábitos é sinal claro de fuga escondida. Compare com os meses anteriores. Uma fuga de 1 gota por segundo desperdiça 9.000 litros por ano." } },
+ { "@type": "Question", "name": "O que fazer se ouvir água a correr com todas as torneiras fechadas?", "acceptedAnswer": { "@type": "Answer", "text": "É urgente — indica fuga ativa. Feche a torneira geral imediatamente e chame um canalizador profissional. Temos equipamento de deteção térmica para encontrar a fuga sem partir paredes." } },
+ { "@type": "Question", "name": "O contador de água a rodar sozinho indica fuga?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Se fechar todas as torneiras e o contador continuar a rodar, existe uma fuga ativa na instalação. Ligue imediatamente para um canalizador — quanto mais tarde, maior o dano e o desperdício." } },
+ { "@type": "Question", "name": "As manchas de humidade nas paredes indicam fuga de canalização?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, manchas amareladas ou acastanhadas que crescem indicam infiltração de água, possivelmente de canalização embutida. Não pinte por cima sem encontrar a origem — a humidade continuará e causará danos estruturais." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const sinais = [
  {

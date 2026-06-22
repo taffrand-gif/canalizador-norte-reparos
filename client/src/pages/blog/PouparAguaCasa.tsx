@@ -45,6 +45,20 @@ export default function PouparAguaCasa() {
  "dateModified": "2026-02-19"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Quanto poupo ao instalar arejadores nas torneiras?", "acceptedAnswer": { "@type": "Answer", "text": "Os arejadores são a solução mais barata e eficaz — 5-15€ por torneira e podem reduzir o consumo até 50%, baixando o caudal de 12L/min para 6L/min sem perder pressão. O investimento amortiza em poucas semanas." } },
+ { "@type": "Question", "name": "Quanto desperdiça uma torneira a pingar?", "acceptedAnswer": { "@type": "Answer", "text": "Uma torneira a pingar 1 gota por segundo desperdiça 25 litros por dia — mais de 9.000 litros por ano. Uma fuga no autoclismo pode desperdiçar até 200 litros diários. Reparar fugas é a medida de maior impacto na conta de água." } },
+ { "@type": "Question", "name": "Qual a diferença de consumo entre banho e duche?", "acceptedAnswer": { "@type": "Answer", "text": "Banho de imersão: 150-200 litros. Duche de 5 minutos: 50-60 litros. Uma família de 4 pessoas que substitui um banho semanal por duche poupa mais de 20.000 litros por ano." } },
+ { "@type": "Question", "name": "Vale a pena instalar recuperação de água da chuva em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Em Trás-os-Montes chovem 800-1.000mm por ano. Um sistema básico (200-800€) fornece água para rega, lavar carro e autoclismo, poupando 30-50% do consumo nessas utilizações. O retorno é entre 2 e 5 anos." } },
+ { "@type": "Question", "name": "Autoclismo moderno poupa mesmo água?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, significativamente. Autoclismos antigos gastam 12-15 litros por descarga. Os modelos com dupla descarga usam apenas 3 ou 6 litros. Uma família de 4 pessoas pode poupar mais de 6.000 litros por mês — o equivalente a 72.000 litros por ano." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const dicas = [
  {

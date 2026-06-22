@@ -13,6 +13,28 @@ const ComoInstalarCandeeiroTeto: React.FC = () => {
  title="Como Instalar um Candeeiro de Teto com Segurança"
  description="Guia completo para instalação segura de candeeiros de teto - passo a passo com imagens e dicas de segurança"
  >
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Instalar um Candeeiro de Teto com Segurança",
+ "description": "Instalação segura de um candeeiro de teto, passo a passo, respeitando as normas de segurança elétrica.",
+ "totalTime": "PT1H",
+ "step": [
+ { "@type": "HowToStep", "position": 1, "name": "Desligar a energia", "text": "Desligue o disjuntor correspondente ao circuito no quadro elétrico. Se não tem a certeza, desligue o disjuntor geral." },
+ { "@type": "HowToStep", "position": 2, "name": "Confirmar ausência de tensão", "text": "Use um detetor de tensão para confirmar que não há corrente nos fios antes de lhes tocar. Não confie apenas no disjuntor." },
+ { "@type": "HowToStep", "position": 3, "name": "Identificar e ligar os fios", "text": "Ligue os fios respeitando o código de cores: castanho/preto (fase), azul (neutro), verde/amarelo (terra). Use bornes de ligação adequados." },
+ { "@type": "HowToStep", "position": 4, "name": "Fixar o candeeiro", "text": "Fixe o suporte ao teto com parafusos adequados e monte o candeeiro sem forçar as ligações." },
+ { "@type": "HowToStep", "position": 5, "name": "Religar e testar", "text": "Volte a ligar o disjuntor e teste o funcionamento. Se houver faísca, cheiro a queimado ou o disjuntor disparar, desligue e contacte um eletricista." }
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Posso instalar um candeeiro se não tenho experiência?", "acceptedAnswer": { "@type": "Answer", "text": "Para instalações simples em casas com instalação elétrica moderna e em bom estado, sim — sempre seguindo rigorosamente as medidas de segurança. Se tem dúvidas ou a casa tem mais de 20 anos, recomenda-se chamar um profissional." } },
+ { "@type": "Question", "name": "Quanto custa a instalação de um candeeiro por um eletricista?", "acceptedAnswer": { "@type": "Answer", "text": "Em Trás-os-Montes, o preço médio para instalação de um candeeiro simples varia entre 25€ e 50€, dependendo da complexidade e deslocação. Para instalações múltiplas ou sistemas complexos, o preço pode ser superior." } }
+ ]
+ }) }} />
  <article className="max-w-4xl mx-auto">
  {/* Meta info */}
  <div className="mb-8">

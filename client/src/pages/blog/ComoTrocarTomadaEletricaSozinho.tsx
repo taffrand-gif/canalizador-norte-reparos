@@ -1,11 +1,4 @@
 import React from 'react';
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import BlogLayout from '@/components/blog/BlogLayout';
 import { useSEO } from '@/hooks/useSEO';
 const ComoTrocarTomadaEletricaSozinho: React.FC = () => {
@@ -19,6 +12,34 @@ const ComoTrocarTomadaEletricaSozinho: React.FC = () => {
  title="Como Trocar Tomada Elétrica Sozinho [Guia Seguro 2026]"
  description="Guia completo e seguro para trocar tomada elétrica sem chamar eletricista"
  >
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como Trocar uma Tomada Elétrica em Segurança",
+        "description": "Substituição de uma tomada elétrica antiga ou danificada, passo a passo, com segurança total.",
+        "totalTime": "PT20M",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-trocar-tomada-eletrica-sozinho",
+        "step": [
+          {"@type": "HowToStep", "name": "Desligar a corrente", "text": "No quadro elétrico, desligue o disjuntor do circuito da tomada. Cole um aviso 'NÃO LIGAR - TRABALHOS'."},
+          {"@type": "HowToStep", "name": "Confirmar 0V", "text": "Teste a tomada com um testador de tensão para confirmar que está a 0V. Não confie apenas no disjuntor."},
+          {"@type": "HowToStep", "name": "Remover a tomada antiga", "text": "Desaparafuse a tampa e a tomada da caixa. Fotografe a ligação antes de soltar os fios dos terminais."},
+          {"@type": "HowToStep", "name": "Ligar a tomada nova", "text": "Ligue os fios respeitando as cores: castanho/preto (fase), azul (neutro), verde/amarelo (terra)."},
+          {"@type": "HowToStep", "name": "Fixar na caixa", "text": "Encaixe a tomada na caixa sem forçar e aperte os parafusos suavemente. Coloque a tampa."},
+          {"@type": "HowToStep", "name": "Religar e testar", "text": "Ligue o disjuntor e teste a tomada com um aparelho. Se houver faísca ou aquecimento, desligue e chame um eletricista."}
+        ]
+      }) }} />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "url": "https://canalizador-norte-reparos.pt/blog/como-trocar-tomada-eletrica-sozinho",
+        "mainEntity": [
+          {"@type": "Question", "name": "Quanto tempo demora trocar uma tomada?", "acceptedAnswer": {"@type": "Answer", "text": "Para quem segue o passo a passo, 15 a 20 minutos por tomada. A parte mais demorada é identificar e desligar o disjuntor correto e confirmar que não há tensão."}},
+          {"@type": "Question", "name": "Preciso de desligar a corrente de toda a casa?", "acceptedAnswer": {"@type": "Answer", "text": "Não. Basta desligar o disjuntor do circuito da tomada. Confirme sempre com um testador de tensão que a tomada está a 0V antes de tocar nos fios."}},
+          {"@type": "Question", "name": "Como sei qual é o fio da fase?", "acceptedAnswer": {"@type": "Answer", "text": "Em Portugal, a fase é castanho ou preto, o neutro é azul e a terra é verde/amarelo. Confirme sempre com um busca-pólos ou testador, pois em instalações antigas as cores podem não estar normalizadas."}},
+          {"@type": "Question", "name": "Posso trocar uma tomada simples por uma com USB?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, desde que a caixa de encastrar tenha profundidade suficiente e os fios estejam em bom estado. A ligação é igual (fase, neutro, terra); a tomada USB integra o transformador."}},
+          {"@type": "Question", "name": "Quando devo chamar um eletricista em vez de trocar sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Se a tomada tiver mais de 3 fios, não houver ligação à terra, os fios forem de alumínio, a caixa estiver danificada, for uma zona húmida sem proteção IP, ou se não tiver qualquer experiência com eletricidade."}}
+        ]
+      }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -268,3 +289,144 @@ const ComoTrocarTomadaEletricaSozinho: React.FC = () => {
  </p>
  </div>
  </section>
+ <section id="passo-passo" className="mb-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">🔧 Passo a Passo Completo</h2>
+ <p className="mb-6">
+ Com a corrente desligada e confirmada a 0V com o testador, troque a tomada em 6 passos:
+ </p>
+ <div className="space-y-4">
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Desligar o disjuntor</h3>
+ <p className="text-gray-700 text-sm">No quadro elétrico, desligue o disjuntor do circuito da tomada. Cole um aviso "NÃO LIGAR - TRABALHOS" para evitar que alguém volte a ligar.</p>
+ </div>
+ </div>
+ </div>
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Confirmar 0V</h3>
+ <p className="text-gray-700 text-sm">Aproxime o testador de tensão dos terminais. Só avance quando confirmar que não há corrente. Nunca confie apenas no disjuntor.</p>
+ </div>
+ </div>
+ </div>
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Remover a tomada antiga</h3>
+ <p className="text-gray-700 text-sm">Desaparafuse a tampa e os parafusos de fixação. Puxe a tomada para fora da caixa. <strong>Fotografe a ligação</strong> antes de soltar os fios — facilita a montagem da nova.</p>
+ </div>
+ </div>
+ </div>
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">4</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Ligar a tomada nova</h3>
+ <p className="text-gray-700 text-sm">Ligue cada fio ao terminal correto: <strong>castanho/preto</strong> na fase, <strong>azul</strong> no neutro, <strong>verde/amarelo</strong> na terra. Aperte bem para não deixar fios soltos.</p>
+ </div>
+ </div>
+ </div>
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">5</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Fixar na caixa</h3>
+ <p className="text-gray-700 text-sm">Encaixe a tomada na caixa sem forçar e aperte os parafusos de fixação suavemente. Coloque a tampa.</p>
+ </div>
+ </div>
+ </div>
+ <div className="bg-white p-6 rounded-xl border-2 border-cyan-200">
+ <div className="flex items-start gap-4">
+ <div className="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">6</div>
+ <div>
+ <h3 className="text-xl font-bold text-gray-900 mb-2">Religar e testar</h3>
+ <p className="text-gray-700 text-sm">Volte a ligar o disjuntor e teste com um aparelho. Se houver faísca, cheiro a queimado ou aquecimento, desligue de imediato e chame um eletricista.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <section id="tipos-tomadas" className="mb-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">🔌 Tipos de Tomadas</h2>
+ <div className="grid md:grid-cols-3 gap-4">
+ <div className="bg-blue-50 p-5 rounded-xl">
+ <h3 className="font-bold text-blue-900 mb-2">Schuko (Tipo F)</h3>
+ <p className="text-blue-800 text-sm">A mais comum em Portugal. 2 pinos redondos + contactos de terra laterais. Suporta até 3680W (16A). 5-10€.</p>
+ </div>
+ <div className="bg-purple-50 p-5 rounded-xl">
+ <h3 className="font-bold text-purple-900 mb-2">Com USB</h3>
+ <p className="text-purple-800 text-sm">Schuko com portas USB integradas. Prática para quartos e escritórios. Exige caixa com profundidade suficiente. 15-25€.</p>
+ </div>
+ <div className="bg-cyan-50 p-5 rounded-xl">
+ <h3 className="font-bold text-cyan-900 mb-2">Estanque (IP44+)</h3>
+ <p className="text-cyan-800 text-sm">Com proteção contra água, obrigatória em casas de banho, cozinhas e exterior. Tampa de proteção. 8-15€.</p>
+ </div>
+ </div>
+ </section>
+ <section id="problemas-comuns" className="mb-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">⚠️ Problemas Comuns Após a Troca</h2>
+ <div className="space-y-3">
+ <div className="bg-gray-50 p-4 rounded-lg">
+ <p className="text-gray-800"><strong>A tomada não funciona:</strong> verifique se o disjuntor está ligado e se todos os fios estão bem apertados nos terminais.</p>
+ </div>
+ <div className="bg-gray-50 p-4 rounded-lg">
+ <p className="text-gray-800"><strong>Faz faísca ao ligar:</strong> indica mau contacto. Desligue a corrente e reaperte os fios. Se persistir, chame um eletricista.</p>
+ </div>
+ <div className="bg-gray-50 p-4 rounded-lg">
+ <p className="text-gray-800"><strong>A tomada aquece:</strong> sinal de sobrecarga ou ligação frouxa. Não use e mande verificar.</p>
+ </div>
+ <div className="bg-gray-50 p-4 rounded-lg">
+ <p className="text-gray-800"><strong>A ficha não segura:</strong> contactos gastos ou tomada de má qualidade. Substitua por uma de marca.</p>
+ </div>
+ </div>
+ </section>
+ <section id="faq" className="mb-12">
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes</h2>
+ <div className="space-y-6">
+ <div className="bg-gray-50 p-6 rounded-xl">
+ <h3 className="font-bold text-gray-900 mb-2">Quanto tempo demora trocar uma tomada?</h3>
+ <p className="text-gray-700">Para quem segue o passo a passo, 15 a 20 minutos por tomada. A parte mais demorada é identificar o disjuntor correto e confirmar que não há tensão.</p>
+ </div>
+ <div className="bg-gray-50 p-6 rounded-xl">
+ <h3 className="font-bold text-gray-900 mb-2">Preciso de desligar a corrente de toda a casa?</h3>
+ <p className="text-gray-700">Não. Basta desligar o disjuntor do circuito da tomada. Confirme sempre com um testador que a tomada está a 0V antes de tocar nos fios.</p>
+ </div>
+ <div className="bg-gray-50 p-6 rounded-xl">
+ <h3 className="font-bold text-gray-900 mb-2">Como sei qual é o fio da fase?</h3>
+ <p className="text-gray-700">Em Portugal, a fase é castanho ou preto, o neutro é azul e a terra é verde/amarelo. Confirme sempre com um busca-pólos, pois em instalações antigas as cores podem não estar normalizadas.</p>
+ </div>
+ <div className="bg-gray-50 p-6 rounded-xl">
+ <h3 className="font-bold text-gray-900 mb-2">Posso trocar uma tomada simples por uma com USB?</h3>
+ <p className="text-gray-700">Sim, desde que a caixa de encastrar tenha profundidade suficiente e os fios estejam em bom estado. A ligação é igual (fase, neutro, terra).</p>
+ </div>
+ <div className="bg-gray-50 p-6 rounded-xl">
+ <h3 className="font-bold text-gray-900 mb-2">Quando devo chamar um eletricista?</h3>
+ <p className="text-gray-700">Se a tomada tiver mais de 3 fios, não houver terra, os fios forem de alumínio, a caixa estiver danificada, for uma zona húmida sem proteção IP, ou se não tiver experiência com eletricidade.</p>
+ </div>
+ </div>
+ </section>
+ <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
+ <h2 className="text-3xl font-bold mb-4">📞 Prefere um Profissional?</h2>
+ <p className="text-xl mb-6">
+ Se a instalação é antiga, sem terra ou tem dúvidas, contacte um técnico certificado. Mais vale prevenir.
+ </p>
+ <div className="flex flex-col sm:flex-row gap-4">
+ <a href="tel:+351928484451" className="flex-1 bg-white text-cyan-600 px-6 py-4 rounded-lg font-bold text-center hover:bg-gray-100 transition-colors text-lg">
+ 📞 928 484 451
+ </a>
+ <a href="https://wa.me/351928484451?text=Ol%C3%A1,%20preciso%20de%20ajuda%20com%20uma%20tomada%20el%C3%A9trica" className="flex-1 bg-green-500 text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg">
+ 💬 WhatsApp
+ </a>
+ </div>
+ </div>
+ </div>
+ </article>
+ </BlogLayout>
+ );
+};
+export default ComoTrocarTomadaEletricaSozinho;

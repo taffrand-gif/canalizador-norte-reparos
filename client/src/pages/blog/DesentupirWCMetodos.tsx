@@ -1,11 +1,4 @@
 // Blog article: "Desentupir WC - Métodos Caseiros vs Profissional"
-useEffect(() => {
-  const meta = document.createElement('meta');
-  meta.name = 'robots';
-  meta.content = 'noindex';
-  document.head.appendChild(meta);
-}, []);
-
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useEffect } from 'react';
@@ -28,6 +21,20 @@ export default function DesentupirWCMetodos() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/blog/desentupir-wc-metodos-caseiros');
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Como desentupir um WC entupido em casa?", "acceptedAnswer": { "@type": "Answer", "text": "Experimente pela ordem: 1) Água quente com detergente da loiça (eficácia 60%). 2) Desentupidor de borracha com movimentos push-pull (eficácia 75%). 3) Bicarbonato + vinagre seguido de água quente (eficácia 50%). Se nenhum funcionar em 2-3 tentativas, chame um canalizador." } },
+ { "@type": "Question", "name": "O desentupidor de borracha funciona para o WC?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, com eficácia de 75% para entupimentos médios por objetos moles. Coloque o desentupidor sobre o buraco e faça movimentos de bomba ritmados. Importante: deve haver água suficiente na sanita para criar vácuo." } },
+ { "@type": "Question", "name": "Posso usar produtos químicos fortes para desentupir o WC?", "acceptedAnswer": { "@type": "Answer", "text": "Não. Produtos ácidos danificam os canos e a porcelana da sanita. Nunca misture lixívia com outros produtos de desentupimento — a reação cria gases tóxicos perigosos." } },
+ { "@type": "Question", "name": "Quando devo chamar um canalizador para o WC entupido?", "acceptedAnswer": { "@type": "Answer", "text": "Chame um canalizador se os métodos caseiros não funcionaram em 2-3 tentativas, se a água sobe noutros pontos da casa, se há mau cheiro persistente, se os entupimentos são frequentes (mais de 1x/mês), ou se suspeita de objeto sólido como brinquedo ou telemóvel." } },
+ { "@type": "Question", "name": "Quanto custa um canalizador para desentupir o WC?", "acceptedAnswer": { "@type": "Answer", "text": "Um canalizador profissional custa entre 60€ e 100€ para desentupir o WC, incluindo diagnóstico da causa raiz e garantia no trabalho. A deslocação em Trás-os-Montes custa entre 15€ e 65€ conforme a distância." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const metodosCaseiros = [
  {

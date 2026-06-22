@@ -75,6 +75,9 @@ const CanalizacaoCasaAntiga = lazy(() => import("@/pages/blog/CanalizacaoCasaAnt
 const PiscinaTanqueAgua = lazy(() => import("@/pages/blog/PiscinaTanqueAgua"));
 const PouparAguaCasa = lazy(() => import("@/pages/blog/PouparAguaCasa"));
 const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCanalizacaoInverno"));
+const SifaoEntupidoComoLimpar = lazy(() => import("@/pages/blog/SifaoEntupidoComoLimpar"));
+const TorneiraAPingarComoReparar = lazy(() => import("@/pages/blog/TorneiraAPingarComoReparar"));
+const CanalizacaoComMauCheiro = lazy(() => import("@/pages/blog/CanalizacaoComMauCheiro"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
@@ -160,6 +163,9 @@ function Router() {
  <Route path={"/blog/piscina-tanque-agua-canalizacao"} component={PiscinaTanqueAgua} />
  <Route path={"/blog/poupar-agua-casa-dicas-praticas"} component={PouparAguaCasa} />
  <Route path={"/blog/problemas-canalizacao-inverno-solucoes"} component={ProblemasCanalizacaoInverno} />
+ <Route path={"/blog/sifao-entupido-como-limpar"} component={SifaoEntupidoComoLimpar} />
+ <Route path={"/blog/torneira-a-pingar-como-reparar"} component={TorneiraAPingarComoReparar} />
+ <Route path={"/blog/canalizacao-com-mau-cheiro"} component={CanalizacaoComMauCheiro} />
  <Route path={"/faq"} component={FAQPage} />
  <Route path={"/zonas"} component={Zonas} />
  <Route path={"/transparence-prix"} component={TransparencePrix} />

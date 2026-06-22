@@ -45,6 +45,19 @@ export default function CanalizacaoCasaAntiga() {
  "dateModified": "2026-02-19"
  });
  document.head.appendChild(script);
+ const faqScript = document.createElement('script');
+ faqScript.type = 'application/ld+json';
+ faqScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ { "@type": "Question", "name": "Como saber se a minha casa antiga tem tubos de chumbo?", "acceptedAnswer": { "@type": "Answer", "text": "Casas construídas antes de 1980 frequentemente têm tubos de chumbo. Identifique pelo aspeto cinzento-escuro, textura mole ao riscar e tubos flexíveis. São proibidos desde 2003 e tóxicos — chame um canalizador para inspeção e substituição total." } },
+ { "@type": "Question", "name": "É perigoso ter tubos de chumbo na canalização?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, é crítico. Tubos de chumbo contaminam a água de consumo, causando danos neurológicos especialmente em crianças. São proibidos em Portugal desde 2003. A única solução segura é substituição total por tubos PEX, PPR ou multicamada." } },
+ { "@type": "Question", "name": "Como passar canalização em paredes de granito maciço de Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Em casas com paredes de granito maciço, o ideal é evitar furar a parede. As melhores soluções são: tubagem à vista com calha decorativa, passagem pelo exterior da parede, ou percursos pelos tectos. Temos experiência específica nestas casas tradicionais de Trás-os-Montes." } },
+ { "@type": "Question", "name": "Qual o risco dos tubos de ferro galvanizado em casas antigas?", "acceptedAnswer": { "@type": "Answer", "text": "Tubos de ferro galvanizado oxidam por dentro ao longo dos anos, reduzindo a pressão da água e contaminando-a com ferrugem. Devem ser substituídos por multicamada ou cobre, com vida útil de 40-50 anos." } }
+ ]
+ });
+ document.head.appendChild(faqScript);
  }, []);
  const problemas = [
  {
