@@ -35,7 +35,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Resposta rápida em Bragança e até resposta prioritária nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
+ answer: "Disponível 24h/7 dias em Bragança e até A confirmar nas aldeias circundantes. Serviço 24h/7 dias incluindo feriados."
  },
  {
  question: "Trabalham Atendimento 24h/7d?",
@@ -51,7 +51,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "Quanto custa desentupir uma sanita?",
- answer: "Desentupimento de sanita custa €60 em Bragança. Inclui deslocação e equipamento profissional. Resolvemos 95% dos casos Resposta rápida garantida."
+ answer: "Desentupimento de sanita custa €60 em Bragança. Inclui deslocação e equipamento profissional. Resolvemos 95% dos casos Disponível 24h/7 dias garantida."
  },
  {
  question: "Fazem sem compromisso?",
@@ -75,7 +75,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos imediatamente: 928 484 451. Resposta rápida."
+ answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos imediatamente: 928 484 451. Disponível 24h/7 dias."
  },
  {
  question: "Fazem reparações em domingo?",

@@ -26,13 +26,13 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 3,
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis Atendimento 24h/7d para emergências. Tempo médio de resposta: 15-resposta prioritária em Bragança e arredores. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
+ answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis Atendimento 24h/7d para emergências. Tempo médio de resposta: A confirmar em Bragança e arredores. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
  category: "Emergências"
  },
  {
  id: 4,
  question: "Quanto tempo demora um desentupimento?",
- answer: "O tempo de desentupimento varia conforme a gravidade e localização da obstrução. Desentupimentos simples de sanitas ou lavatórios levam entre 30 a resposta prioritária. Obstruções em canalizações principais podem demorar 1 a 3 horas. Casos complexos que requerem equipamento especializado (câmara de inspeção, máquina de desentupimento de alta pressão) podem levar até 4 horas. Na maioria dos casos (85%), resolvemos o problema na primeira visita. Utilizamos equipamento profissional que garante desentupimento completo e duradouro, evitando que o problema volte em poucos dias.",
+ answer: "O tempo de desentupimento varia conforme a gravidade e localização da obstrução. Desentupimentos simples de sanitas ou lavatórios levam entre 30 a A confirmar. Obstruções em canalizações principais podem demorar 1 a 3 horas. Casos complexos que requerem equipamento especializado (câmara de inspeção, máquina de desentupimento de alta pressão) podem levar até 4 horas. Na maioria dos casos (85%), resolvemos o problema na primeira visita. Utilizamos equipamento profissional que garante desentupimento completo e duradouro, evitando que o problema volte em poucos dias.",
  category: "Serviços"
  },
  {
@@ -62,7 +62,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 9,
  question: "O que fazer se a água sai amarela ou castanha?",
- answer: "Água amarela ou castanha geralmente indica ferrugem nas canalizações. Causas comuns: canalizações antigas de ferro (mais de 30 anos), trabalhos na rede pública que revolveram sedimentos, ou corrosão acelerada por água muito ácida. Primeiro, deixe a água correr 5-resposta prioritária - se clarear, o problema é temporário da rede pública. Se persistir, o problema está nas suas canalizações. Água com ferrugem não é tóxica mas mancha roupa e louça, e indica que as canalizações precisam substituição em breve. Recomendamos análise profissional e orçamento para substituição gradual das canalizações mais afetadas. Ignorar o problema pode levar a fugas graves.",
+ answer: "Água amarela ou castanha geralmente indica ferrugem nas canalizações. Causas comuns: canalizações antigas de ferro (mais de 30 anos), trabalhos na rede pública que revolveram sedimentos, ou corrosão acelerada por água muito ácida. Primeiro, deixe a água correr A confirmar - se clarear, o problema é temporário da rede pública. Se persistir, o problema está nas suas canalizações. Água com ferrugem não é tóxica mas mancha roupa e louça, e indica que as canalizações precisam substituição em breve. Recomendamos análise profissional e orçamento para substituição gradual das canalizações mais afetadas. Ignorar o problema pode levar a fugas graves.",
  category: "Problemas Comuns"
  },
  {
@@ -137,7 +137,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 21,
  question: "Quanto tempo dura uma arranjo de fuga de água?",
- answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas simples em torneiras: 30-resposta prioritária. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
+ answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas simples em torneiras: A confirmar. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
  category: "Arranjos"
  },
  {

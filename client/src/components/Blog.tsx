@@ -12,19 +12,19 @@ export default function Blog() {
  title: `5 Sinais de que Precisa de um ${config.serviceType} Urgente`,
  excerpt: `Descubra os principais sinais de alerta que indicam a necessidade de chamar um ${config.serviceType.toLowerCase()} profissional imediatamente.`,
  date: '15 Jan 2026',
- readTime: 'resposta prioritária',
+ readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop'},
  {
  title: 'Como Escolher um Profissional Certificado',
  excerpt: 'Guia completo para escolher um profissionais qualificados e evitar problemas futuros com certificações e garantias.',
  date: '10 Jan 2026',
- readTime: 'resposta prioritária',
+ readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop'},
  {
  title: 'Manutenção Preventiva: Poupe Dinheiro',
  excerpt: 'Saiba como a manutenção preventiva pode evitar avarias graves e poupar centenas de euros em arranjos urgentes.',
  date: '5 Jan 2026',
- readTime: 'resposta prioritária',
+ readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=600&fit=crop'},
  ];
  return (

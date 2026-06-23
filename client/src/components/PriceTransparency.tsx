@@ -34,7 +34,7 @@ function PriceTransparency() {
  icon: '✅',
  items: [
  'Preço fixo ANTES de sair',
- 'Orçamento grátis resposta prioritária telefone',
+ 'Orçamento grátis A confirmar telefone',
  'Garantia do serviço escrita',
  'Sem surpresas garantido',
  'Preço = Preço combinado'

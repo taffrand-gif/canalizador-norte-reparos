@@ -19,7 +19,7 @@ function FAQ() {
  answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.'},
  {
  question: 'Quanto tempo demora a chegar um canalizador urgente?',
- answer: 'Resposta rápida garantida. Serviço disponível Atendimento 24h/7d, 7 dias por semana. Serviço disponível Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados.'},
+ answer: 'Disponível 24h/7 dias garantida. Serviço disponível Atendimento 24h/7d, 7 dias por semana. Serviço disponível Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados.'},
  {
  question: 'O que fazer em caso de fuga de água urgente?',
  answer: 'Em caso de fuga de água urgente: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue imediatamente para 928 484 451. Resolvemos o problema rapidamente.'},

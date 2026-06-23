@@ -52,9 +52,9 @@ function getDistanceToCity(cityName: string): number {
 // Calculate arrival time based on distance
 function getArrivalTime(distance: number): string {
  if (distance <= 20) return 'rapidamente';
- if (distance <= 40) return '40-resposta prioritária';
- if (distance <= 60) return '50-resposta prioritária';
- return '60-resposta prioritária';
+ if (distance <= 40) return 'A confirmar';
+ if (distance <= 60) return 'A confirmar';
+ return 'A confirmar';
 }
 // Calculate price adjustment based on distance
 function getPriceAdjustment(distance: number): number {

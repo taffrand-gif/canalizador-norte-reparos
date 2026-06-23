@@ -25,7 +25,7 @@ export default function UrgencyTimer({
  <Clock className="w-6 h-6 animate-pulse" />
  <div>
  <p className="font-bold text-lg">
- Resposta garantida em {guaranteedResponseTime} minutos
+ A confirmar em {guaranteedResponseTime} minutos
  </p>
  <p className="text-sm text-white/90">
  ou desconto {discountPercentage}% no serviço

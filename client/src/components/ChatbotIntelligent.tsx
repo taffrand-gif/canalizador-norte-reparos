@@ -79,7 +79,7 @@ export default function ChatbotIntelligent() {
  newDiagnostic.step = 3;
  setDiagnostic(newDiagnostic);
  setTimeout(() => {
- const responseTime = reply.includes('Urgente') ? '30-resposta prioritária' : '2-4 horas';
+ const responseTime = reply.includes('Urgente') ? 'A confirmar' : '2-4 horas';
  addMessage(
  `✅ Diagnóstico completo!\n\n` +
  `📋 Problema: ${newDiagnostic.problem}\n` +
@@ -174,7 +174,7 @@ export default function ChatbotIntelligent() {
  </div>
  {diagnostic.step < 3 && (
  <div className="p-4 bg-white border-t border-gray-200">
- <p className="text-xs text-gray-600 mb-2 font-semibold">Respostas rápidas:</p>
+ <p className="text-xs text-gray-600 mb-2 font-semibold">Disponível 24h/7 dias:</p>
  <div className="flex flex-wrap gap-2">
  {diagnostic.step === 0 && problemOptions.map((option) => (
  <button

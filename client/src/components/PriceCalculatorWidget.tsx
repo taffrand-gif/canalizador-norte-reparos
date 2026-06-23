@@ -252,7 +252,7 @@ function PriceCalculatorWidget() {
  </button>
  </div>
  <p className="text-center text-xs text-gray-500 mt-4">
- ✅ Sem compromisso • ✅ Sem compromisso • ✅ Resposta rápida garantida
+ ✅ Sem compromisso • ✅ Sem compromisso • ✅ Disponível 24h/7 dias garantida
  </p>
  </div>
  </div>

@@ -104,7 +104,7 @@ function ContactForm() {
  </div>
  </form>
  <p className="text-center text-gray-500 text-sm mt-6">
- Orçamento sem compromisso. Resposta rápida garantida.
+ Orçamento sem compromisso. Disponível 24h/7 dias garantida.
  </p>
  </div>
  </div>

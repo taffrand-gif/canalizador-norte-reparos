@@ -10,7 +10,7 @@ export default function ComparadorConcorrencia() {
  const comparisons: CompetitorComparison[] = [
  {
  criterion: 'Tempo de Resposta',
- norteReparos: '30-resposta prioritária',
+ norteReparos: 'Resposta ágil',
  competitorA: '2-4 horas',
  competitorB: '1-2 dias',
  winner: 'norte'
@@ -186,7 +186,7 @@ export default function ComparadorConcorrencia() {
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
  <div>
  <p className="font-semibold text-gray-900">Resposta Mais Rápida</p>
- <p className="text-sm text-gray-700">30-resposta prioritária vs 2-4 horas da concorrência</p>
+ <p className="text-sm text-gray-700">Resposta ágil vs 2-4 horas da concorrência</p>
  </div>
  </div>
  <div className="flex items-start gap-3">
@@ -223,7 +223,7 @@ export default function ComparadorConcorrencia() {
  💬 Escolher o Melhor → WhatsApp
  </a>
  <p className="text-sm text-gray-600 mt-3">
- ⚡ Resposta rápida garantida • Orçamento grátis • Sem compromisso
+ ⚡ Disponível 24h/7 dias • Orçamento por escrito
  </p>
  </div>
  {/* Disclaimer */}

@@ -87,7 +87,7 @@ const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
  </li>
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
- <span>Resposta rápidas</span>
+ <span>Disponível 24h/7 dias</span>
  </li>
  <li className="flex items-center gap-2 text-sm font-semibold">
  <span className="text-green-600 text-lg">✓</span>
