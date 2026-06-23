@@ -14,7 +14,7 @@ export function ServicesSlider() {
  const [currentSlide, setCurrentSlide] = useState(0);
  const [touchStart, setTouchStart] = useState(0);
  const [touchEnd, setTouchEnd] = useState(0);
- const isPlumbing = config.name === 'norte-reparos';
+ const isPlumbing = config.id === 'norte-reparos';
  const services: Service[] = useMemo(() => isPlumbing ? [
  {
  icon: '🔧',

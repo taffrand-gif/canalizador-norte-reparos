@@ -98,10 +98,6 @@
       "destination": "/canalizador-:city.html"
     },
     {
-      "source": "/eletricista-:city.html",
-      "destination": "/eletricista-:city.html"
-    },
-    {
       "source": "/blog/:slug",
       "destination": "/blog/:slug.html"
     },
@@ -210,33 +206,7 @@
       ]
     },
     {
-      "source": "/eletricista-viana-do-bolo",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/canalizador-viana-do-bolo",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/eletricista-viana-do-bolo",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -275,33 +245,7 @@
       ]
     },
     {
-      "source": "/eletricista-vitigudino",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/canalizador-vitigudino",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/eletricista-vitigudino",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -340,19 +284,6 @@
       ]
     },
     {
-      "source": "/eletricista-puebla-de-sanabria",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/canalizador-puebla-de-sanabria",
       "headers": [
         {
@@ -367,19 +298,6 @@
     },
     {
       "source": "/canalizador-urgente-puebla-de-sanabria",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/eletricista-puebla-de-sanabria",
       "headers": [
         {
           "key": "X-Robots-Tag",
