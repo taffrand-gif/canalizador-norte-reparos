@@ -27,7 +27,7 @@ export default function SanitaEntupida() {
  "name": "Como desentupir uma sanita entupida rapidamente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Ligue para +351 928 484 451. Resposta rápida garantida-resposta prioritária com equipamento profissional. Desentupimos resposta prioritária sem partir nada. Garantia total."
+ "text": "Ligue para +351 928 484 451. Disponível 24h/7 dias com equipamento profissional. Desentupimos A confirmar sem partir nada. Garantia total."
  }
  },
  {
@@ -46,20 +46,20 @@ export default function SanitaEntupida() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
  <EmotionalHero
  painPoint="SANITA ENTUPIDA URGENTE"
- headline="Sanita Entupida? Desentupimos Atendimento prioritário"
+ headline="Sanita Entupida? Desentupimos Disponível 24h/7 dias"
  subheadline="Sabemos o embaraço que sente. Visitas a chegar, casa de banho inutilizável, cheiro insuportável. Resolvemos já."
- urgencyText="Técnico Atendimento 24h • Desentupimos Atendimento prioritário"
+ urgencyText="Técnico Atendimento 24h • Desentupimos Disponível 24h/7 dias"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! Tenho a sanita entupida. Preciso de ajuda urgente!"
  ctaPrimary="DESENTUPIR AGORA"
  ctaSecondary="WhatsApp Urgente"
- responseTime="resposta prioritária"
+ responseTime="A confirmar"
  />
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Passar"
  subtitle="Uma sanita entupida não é só inconveniente. É vergonha, stress e urgência."
- empathyStatement="Já desentupimos milhares de sanitas em Trás-os-Montes. Sabemos que precisa de discrição e rapidez. Chegamos Atendimento prioritário, resolvemos sem drama."
+ empathyStatement="Já desentupimos milhares de sanitas em Trás-os-Montes. Sabemos que precisa de discrição e rapidez. Chegamos Disponível 24h/7 dias, resolvemos sem drama."
  painPoints={[
  {
  icon: 'alert',
@@ -88,31 +88,31 @@ export default function SanitaEntupida() {
  ]}
  />
  <SolutionTimeline
- title="Como Desentupimos Atendimento prioritário"
+ title="Como Desentupimos Disponível 24h/7 dias"
  subtitle="Rápido, limpo, discreto. Sem partir nada, sem sujeira."
- totalTime="20-resposta prioritária"
+ totalTime="20-alguns minutos"
  guaranteeText="Desentupimos ou não paga. Garantia 100% satisfação."
  steps={[
  {
- time: '0-resposta prioritária',
+ time: 'A confirmar',
  title: 'Liga Sem Vergonha',
  description: 'Atendemos com discrição. Acontece a toda a gente. Damos dicas enquanto estamos a caminho.',
  icon: 'phone'
  },
  {
- time: '5-resposta prioritária',
+ time: 'A confirmar',
  title: 'Chegamos Discretamente',
  description: 'Carrinha discreta, técnico profissional. Ninguém precisa saber. Trazemos todo o equipamento.',
  icon: 'map'
  },
  {
- time: '20-resposta prioritária',
+ time: 'A confirmar',
  title: 'Desentupimos Rápido',
  description: 'Usamos equipamento profissional. Desentupimos sem partir, sem sujar. Testamos várias vezes.',
  icon: 'wrench'
  },
  {
- time: '30-resposta prioritária',
+ time: 'A confirmar',
  title: 'Deixamos Impecável',
  description: 'Limpamos tudo, desinfetamos, testamos. Sanita funciona perfeitamente. Problema resolvido.',
  icon: 'check'
@@ -127,8 +127,8 @@ export default function SanitaEntupida() {
  name: 'Sofia Martins',
  city: 'Bragança',
  problem: 'Sanita entupida',
- solution: 'Sábado à tarde, visitas a chegar em 2 horas, sanita entupida. Pânico! Chegaram Atendimento prioritário, resolveram em 20. Salvaram o meu jantar!',
- timeframe: 'resposta prioritária',
+ solution: 'Sábado à tarde, visitas a chegar em algumas horas, sanita entupida. Pânico! Chegaram A confirmar, resolveram em 20. Salvaram o meu jantar!',
+ timeframe: 'A confirmar',
  rating: 5,
  verified: true
  },
@@ -137,7 +137,7 @@ export default function SanitaEntupida() {
  city: 'Mirandela',
  problem: 'Entupimento grave',
  solution: 'Sanita entupida há 2 dias. Outros canalizadores não conseguiram. Estes vieram com equipamento profissional e resolveram. Top!',
- timeframe: 'resposta prioritária',
+ timeframe: 'A confirmar',
  rating: 5,
  verified: true
  },
@@ -146,7 +146,7 @@ export default function SanitaEntupida() {
  city: 'Chaves',
  problem: 'Sanita a transbordar',
  solution: 'Água a transbordar, pânico total. Atenderam logo, chegaram rápido, desentupirão sem sujar nada. Muito profissionais e simpáticos.',
- timeframe: 'resposta prioritária',
+ timeframe: 'A confirmar',
  rating: 5,
  verified: true
  },
@@ -164,7 +164,7 @@ export default function SanitaEntupida() {
  city: 'Trás-os-Montes',
  problem: 'Sanita entupida noite',
  solution: 'Meia-noite, sanita entupida, bebé em casa. Atenderam, vieram na hora. Discretos, rápidos, eficientes. Muito obrigada!',
- timeframe: 'resposta prioritária',
+ timeframe: 'A confirmar',
  rating: 5,
  verified: true
  },
@@ -172,8 +172,8 @@ export default function SanitaEntupida() {
  name: 'Tiago Lopes',
  city: 'Mogadouro',
  problem: 'Entupimento urgente',
- solution: 'Domingo de manhã, casa cheia de família, sanita entupida. Vieram Atendimento prioritário, resolveram sem stress. Preço justo. Recomendo!',
- timeframe: 'resposta prioritária',
+ solution: 'Domingo de manhã, casa cheia de família, sanita entupida. Vieram A confirmar, resolveram sem stress. Preço justo. Recomendo!',
+ timeframe: 'A confirmar',
  rating: 5,
  verified: true
  }
@@ -197,8 +197,8 @@ export default function SanitaEntupida() {
  },
  {
  icon: 'clock',
- title: 'Chegada resposta prioritária',
- description: 'Garantimos chegada resposta prioritária em toda a região de Trás-os-Montes.'
+ title: 'Chegada A confirmar',
+ description: 'Garantimos chegada A confirmar em toda a região de Trás-os-Montes.'
  },
  {
  icon: 'award',
@@ -217,7 +217,7 @@ export default function SanitaEntupida() {
  {[
  {
  q: 'Como desentupir uma sanita entupida rapidamente?',
- a: 'A forma mais rápida e segura é ligar para profissionais: +351 928 484 451. Resposta rápida garantida-resposta prioritária com equipamento adequado (mola profissional, máquina de pressão). Desentupimos resposta prioritária sem partir nada. Métodos caseiros (desentupidor, arame) podem piorar o entupimento.'
+ a: 'A forma mais rápida e segura é ligar para profissionais: +351 928 484 451. Disponível 24h/7 dias com equipamento adequado (mola profissional, máquina de pressão). Desentupimos A confirmar sem partir nada. Métodos caseiros (desentupidor, arame) podem piorar o entupimento.'
  },
  {
  q: 'Quanto custa desentupir uma sanita?',
@@ -255,7 +255,7 @@ export default function SanitaEntupida() {
  Não Fique Mais Tempo Sem Casa de Banho
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Técnico Atendimento 24h. Chegamos Atendimento prioritário. Desentupimos em 20.
+ Técnico Atendimento 24h. Chegamos A confirmar. Desentupimos em 20.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a

@@ -32,7 +32,7 @@ export default function ArranjacaoFugasAgua() {
  <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Arranjo de Fugas de Água em Trás-os-Montes</h1>
- <p className="text-xl mb-8 max-w-2xl mx-auto">Deteção e arranjo profissional de fugas de água. Equipamento moderno, resposta rápida 24h/7d em toda a região.</p>
+ <p className="text-xl mb-8 max-w-2xl mx-auto">Deteção e arranjo profissional de fugas de água. Equipamento moderno, Disponível 24h/7 dias 24h/7d em toda a região.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

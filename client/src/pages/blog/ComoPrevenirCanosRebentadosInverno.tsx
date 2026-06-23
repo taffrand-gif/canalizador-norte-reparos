@@ -33,7 +33,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  Prevenção
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -831,7 +831,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Depende do método:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Secador de cabelo:</strong> 30-resposta prioritária</li>
+ <li>• <strong>Secador de cabelo:</strong> A confirmar</li>
  <li>• <strong>Toalhas quentes:</strong> 1-2 horas</li>
  <li>• <strong>Aquecimento ambiente:</strong> 3-6 horas</li>
  <li>• <strong>Temperatura natural:</strong> 6-Atendimento 24h/7d</li>
@@ -869,7 +869,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Isolamento:</strong> Dura 5-10 anos (verificar anualmente)</li>
  <li>• <strong>Torneiras exteriores:</strong> Esvaziar todos os anos</li>
  <li>• <strong>Vedações:</strong> Verificar e renovar se necessário</li>
- <li>• <strong>Inspeção:</strong> resposta prioritária/ano</li>
+ <li>• <strong>Inspeção:</strong> A confirmar/ano</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  ✅ Após instalação inicial, manutenção anual é mínima
@@ -880,7 +880,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Canos Rebentados? Ajuda Urgente 24h</h2>
  <p className="text-xl mb-6">
- Emergência de canalização? Resposta rápida garantida-resposta prioritária.
+ Emergência de canalização? Disponível 24h/7 dias.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Emergências 24h/7 dias</h3>
@@ -889,7 +889,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Chegada Rápida</p>
- <p className="text-sm text-white/80">30-resposta prioritária em emergências</p>
+ <p className="text-sm text-white/80">A confirmar em emergências</p>
  </div>
  </div>
  <div className="flex items-start gap-3">

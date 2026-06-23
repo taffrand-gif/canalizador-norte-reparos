@@ -81,7 +81,7 @@ export default function ValePenaArranjarVsSubstituir() {
  arranjar: {
  custo: "40-100€",
  quando: "Autoclismo avariado, fuga pequena",
- vantagens: ["Barato", "Rápido (30-resposta prioritária)"],
+ vantagens: ["Barato", "Rápido (30-alguns minutos)"],
  desvantagens: ["Peças velhas podem avariar", "Consumo água alto"]
  },
  substituir: {

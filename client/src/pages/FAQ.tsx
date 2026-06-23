@@ -30,7 +30,7 @@ export default function FAQPage() {
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Na zona de Trás-os-Montes e arredores (até 20km): 30-resposta prioritária. Para outras localidades do distrito: resposta prioritária a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
+ answer: "Na zona de Trás-os-Montes e arredores (até 20km): A confirmar. Para outras localidades do distrito: A confirmar a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
  },
  {
  question: "Fazem desentupimentos à noite ou fim de semana?",
@@ -58,7 +58,7 @@ export default function FAQPage() {
  },
  {
  question: "Quanto tempo demora um desentupimento normal?",
- answer: "A maioria dos desentupimentos simples (sanita, lava-loiça) resolve-se resposta prioritária. Casos mais complexos (esgotos entupidos, raízes nas tubagens) podem levar 2-3 horas. Usamos equipamento profissional (hidrojateamento, sondas)."
+ answer: "A maioria dos desentupimentos simples (sanita, lava-loiça) resolve-se A confirmar. Casos mais complexos (esgotos entupidos, raízes nas tubagens) podem levar 2-3 horas. Usamos equipamento profissional (hidrojateamento, sondas)."
  },
  {
  question: "Dão garantia no trabalho realizado?",
@@ -259,7 +259,7 @@ export default function FAQPage() {
  </a>
  </div>
  <p className="mt-6 text-sm text-blue-200">
- Resposta rápida garantida durante o dia • Urgências Atendimento 24h/7d
+ Disponível 24h/7 dias garantida durante o dia • Urgências Atendimento 24h/7d
  </p>
  </div>
  </div>

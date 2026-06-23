@@ -49,25 +49,25 @@ export default function ManutencaoCanalizacaoChecklist() {
  ]
  };
  const checklistMensal = [
- { tarefa: "Limpar ralos de duche e lavatórios", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Verificar torneiras a pingar", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Testar autoclismos (fugas silenciosas)", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Verificar debaixo de lava-loiças (humidade)", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Limpar filtros de torneiras", tempo: "resposta prioritária", dificuldade: "Fácil" }
+ { tarefa: "Limpar ralos de duche e lavatórios", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Verificar torneiras a pingar", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Testar autoclismos (fugas silenciosas)", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Verificar debaixo de lava-loiças (humidade)", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Limpar filtros de torneiras", tempo: "alguns minutos", dificuldade: "Fácil" }
  ];
  const checklistTrimestral = [
- { tarefa: "Limpar sifões de lava-loiça e lavatórios", tempo: "resposta prioritária", dificuldade: "Média" },
- { tarefa: "Verificar pressão de água", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Limpar filtro de esquentador/caldeira", tempo: "resposta prioritária", dificuldade: "Média" },
- { tarefa: "Verificar válvulas de corte", tempo: "resposta prioritária", dificuldade: "Fácil" },
- { tarefa: "Inspecionar tubos visíveis (oxidação)", tempo: "resposta prioritária", dificuldade: "Fácil" }
+ { tarefa: "Limpar sifões de lava-loiça e lavatórios", tempo: "alguns minutos", dificuldade: "Média" },
+ { tarefa: "Verificar pressão de água", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Limpar filtro de esquentador/caldeira", tempo: "alguns minutos", dificuldade: "Média" },
+ { tarefa: "Verificar válvulas de corte", tempo: "alguns minutos", dificuldade: "Fácil" },
+ { tarefa: "Inspecionar tubos visíveis (oxidação)", tempo: "alguns minutos", dificuldade: "Fácil" }
  ];
  const checklistAnual = [
  { tarefa: "Inspeção profissional completa", tempo: "1-2h", custo: "80-120€", profissional: true },
  { tarefa: "Limpeza preventiva de canalização", tempo: "1h", custo: "60-100€", profissional: true },
- { tarefa: "Teste de pressão e fugas", tempo: "resposta prioritária", custo: "Incluído", profissional: true },
+ { tarefa: "Teste de pressão e fugas", tempo: "alguns minutos", custo: "Incluído", profissional: true },
  { tarefa: "Manutenção de esquentador/caldeira", tempo: "1h", custo: "50-80€", profissional: true },
- { tarefa: "Verificação de fossa séptica (se aplicável)", tempo: "resposta prioritária", custo: "40-60€", profissional: true }
+ { tarefa: "Verificação de fossa séptica (se aplicável)", tempo: "alguns minutos", custo: "40-60€", profissional: true }
  ];
  return (
  <>
@@ -95,7 +95,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  para manter a canalização da sua casa em perfeito estado.
  </p>
  <div className="flex items-center gap-6 mt-6 text-sm text-gray-500">
- <span>resposta prioritária leitura</span>
+ <span>A confirmar leitura</span>
  <span>Atualizado: 3 Março 2026</span>
  </div>
  </header>
@@ -103,7 +103,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
  <p className="text-gray-700 leading-relaxed">
- <strong>Manutenção ideal:</strong> Mensal (limpar ralos, verificar torneiras - resposta prioritária),
+ <strong>Manutenção ideal:</strong> Mensal (limpar ralos, verificar torneiras - A confirmar),
  Trimestral (limpar sifões, verificar pressão - 1h), Anual (inspeção profissional - 80-120€).
  <strong>Resultado:</strong> Previne 90% das avarias e poupa 500-2000€ em arranjos de emergência.
  </p>
@@ -151,7 +151,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Mensal (resposta prioritária)</h2>
  <div className="bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200 rounded-xl p-6">
  <p className="text-gray-700 mb-6">
- <strong>Frequência:</strong> 1x por mês • <strong>Tempo total:</strong> resposta prioritária • <strong>Dificuldade:</strong> Fácil
+ <strong>Frequência:</strong> 1x por mês • <strong>Tempo total:</strong> alguns minutos • <strong>Dificuldade:</strong> Fácil
  </p>
  <div className="space-y-4">
  {checklistMensal.map((item, i) => (
@@ -279,7 +279,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  {[
  "Deite 5-10 gotas de corante alimentar (ou azul de lavar) na cisterna",
  "NÃO puxe o autoclismo",
- " 15-resposta prioritária",
+ " A confirmar",
  "Verifique a sanita: se a água ficou colorida, há fuga na válvula",
  "Fuga confirmada = trocar válvula (15-30€ peça + 40-60€ mão de obra)"
  ].map((passo, i) => (
@@ -328,7 +328,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  "Encha um balde de 10 litros",
  "Cronometre o tempo que demora",
  "Pressão normal: 10L em 30-40 segundos",
- "Se demorar mais de resposta prioritária: pressão baixa (verificar válvula geral ou filtros)",
+ "Se demorar mais de A confirmar: pressão baixa (verificar válvula geral ou filtros)",
  "Se muito rápido (<20s): pressão alta (pode danificar aparelhos)"
  ].map((passo, i) => (
  <li key={i} className="flex items-start gap-3">

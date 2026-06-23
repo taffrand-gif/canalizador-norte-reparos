@@ -22,7 +22,7 @@ function Urgencia() {
  </div>
  <h1 className="text-4xl md:text-6xl font-black mb-6">
  Canalizador Urgente<br />
- Atendimento Imediato 24h
+ Disponível 24h/7 dias 24h
  </h1>
  <div className="flex flex-wrap justify-center gap-4 text-xl md:text-2xl font-bold mb-8">
  <span className="flex items-center gap-2">💧 Fuga de Água?</span>

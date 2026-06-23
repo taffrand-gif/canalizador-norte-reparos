@@ -10,7 +10,7 @@ tags: ['aquecimento central', 'manutenção', 'preventiva', 'caldeira', 'radiado
 
 # Aquecimento Central - Manutenção Preventiva 2026
 
-**Problemas com aquecimento central em Trás-os-Montes?** Neste guia completo para 2026, apresentamos soluções profissionais, preços atualizados e processos otimizados para a região. Com 💧 **Canalizador Profissional**, tem garantia de qualidade e resposta rápida.
+**Problemas com aquecimento central em Trás-os-Montes?** Neste guia completo para 2026, apresentamos soluções profissionais, preços atualizados e processos otimizados para a região. Com 💧 **Canalizador Profissional**, tem garantia de qualidade e Disponível 24h/7 dias.
 
 ## Manutenção Preventiva de Aquecimento Central
 
@@ -33,7 +33,7 @@ tags: ['aquecimento central', 'manutenção', 'preventiva', 'caldeira', 'radiado
 1. **Verificação mensal** de pressão
 2. **Escuta de ruídos** anormais
 3. **Controlo de consumo** comparativo
-4. **Resposta rápida** a qualquer anomalia
+4. **Disponível 24h/7 dias** a qualquer anomalia
 
 ### Após o Inverno (Abril-Maio)
 1. **Limpeza completa** do sistema

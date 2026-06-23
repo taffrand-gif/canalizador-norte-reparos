@@ -34,7 +34,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">
  Preços 2026
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -94,12 +94,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupimento urgente</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-cyan-600">80-150€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Fuga de água urgente</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-cyan-600">100-200€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -130,7 +130,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar torneira a pingar</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">20-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">50-80€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -140,7 +140,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar autoclismo</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">60-100€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -150,12 +150,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar fuga em junta</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">60-120€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir sifão</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">50-90€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -181,17 +181,17 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir lavatório/lava-loiça</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">60-100€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir sanita</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">70-120€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir duche/banheira</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">60-110€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -283,7 +283,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Teste de pressão do sistema</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">30-resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold text-orange-600">80-150€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -336,7 +336,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <p className="font-bold text-red-900 mb-2">Serviço Urgente</p>
  <ul className="text-red-800 text-sm space-y-1">
  <li>• Noites, fins de semana, feriados</li>
- <li>• Chegada imediata (30-resposta prioritária)</li>
+ <li>• Chegada imediata (A confirmar)</li>
  <li>• Preço base + 30-50€</li>
  </ul>
  </div>

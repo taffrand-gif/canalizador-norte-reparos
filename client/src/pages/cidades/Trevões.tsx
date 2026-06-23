@@ -181,7 +181,7 @@ export default function Trevões() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
-                <p className="text-gray-600">Resposta rápida em Trevões. Atendimento 24h para urgências.</p>
+                <p className="text-gray-600">Disponível 24h/7 dias em Trevões. Atendimento 24h para urgências.</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>

@@ -46,7 +46,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <span className="px-3 py-1 bg-cyan-100 text-cyan-800 font-semibold rounded-full">
  Guia Completo
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -145,7 +145,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>Ferva 2 litros de água numa panela grande</li>
  <li>Adicione 100ml de detergente da loiça à água fervente</li>
  <li>Despeje lentamente no ralo entupido</li>
- <li>Aguarde resposta prioritária para a mistura dissolver a gordura</li>
+ <li>Aguarde alguns minutos para a mistura dissolver a gordura</li>
  <li>Enxague com água fria abundante</li>
  </ol>
  <div className="bg-blue-50 p-4 rounded-lg mb-4">
@@ -173,7 +173,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>Despeje 200g de bicarbonato de sódio diretamente no ralo</li>
  <li>Adicione 200ml de vinagre branco (vai fazer espuma)</li>
  <li>Tape o ralo imediatamente com um pano molhado</li>
- <li>Aguarde resposta prioritária para a reação química dissolver resíduos</li>
+ <li>Aguarde alguns minutos para a reação química dissolver resíduos</li>
  <li>Enxague com 2 litros de água quente</li>
  </ol>
  <div className="bg-blue-50 p-4 rounded-lg mb-4">
@@ -318,9 +318,9 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div>
  <p className="font-bold text-cyan-900 mb-2">⚡ Rapidez</p>
  <ul className="text-cyan-800 space-y-1 text-sm">
- <li>• Resolve resposta prioritária</li>
+ <li>• Resolve A confirmar</li>
  <li>• Atendimento 24h/7d/7 dias</li>
- <li>• Chegada Atendimento prioritário</li>
+ <li>• Chegada Disponível 24h/7 dias</li>
  </ul>
  </div>
  <div>
@@ -432,7 +432,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Desmonte e limpe uma vez por mês</li>
  <li>• Remove acumulação antes de entupir</li>
- <li>• Leva apenas resposta prioritária</li>
+ <li>• Leva apenas alguns minutos</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -481,11 +481,11 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a desentupir?</h3>
  <p className="text-gray-700 mb-2">Depende do método escolhido:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Água quente: 15-resposta prioritária</li>
- <li>• Bicarbonato + vinagre: 30-resposta prioritária</li>
- <li>• Ventosa: 10-resposta prioritária</li>
- <li>• Mola: 20-resposta prioritária</li>
- <li>• Profissional: 30-resposta prioritária</li>
+ <li>• Água quente: A confirmar</li>
+ <li>• Bicarbonato + vinagre: A confirmar</li>
+ <li>• Ventosa: A confirmar</li>
+ <li>• Mola: A confirmar</li>
+ <li>• Profissional: A confirmar</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -541,7 +541,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegamos Atendimento prioritário</p>
+ <p className="font-bold">Chegamos Disponível 24h/7 dias</p>
  <p className="text-sm text-white/80">Cobertura em Trás-os-Montes</p>
  </div>
  </div>

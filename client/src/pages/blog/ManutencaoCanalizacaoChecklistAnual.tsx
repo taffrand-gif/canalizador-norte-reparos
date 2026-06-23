@@ -32,7 +32,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">
  Manutenção
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -179,7 +179,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Feche todas as torneiras completamente</li>
- <li>• Ouça se há pingos (aguarde resposta prioritária)</li>
+ <li>• Ouça se há pingos (aguarde alguns minutos)</li>
  <li>• Verifique debaixo de lavatórios (fugas escondidas)</li>
  <li>• Teste autoclismos (coloque corante, se passar para sanita = fuga)</li>
  <li>• Verifique pressão de água (deve ser constante)</li>
@@ -187,7 +187,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 0€
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
@@ -215,7 +215,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 2€ (bicarbonato/vinagre)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 2€ (bicarbonato/vinagre)
  </p>
  </div>
  </div>
@@ -243,7 +243,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária (+ 1h espera) | <strong>💰 Custo:</strong> 0€
+ <strong>⏱️ Tempo:</strong> alguns minutos (+ 1h espera) | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
@@ -271,7 +271,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 0€
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
@@ -279,13 +279,13 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Mensal</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Verificar torneiras e autoclismos (resposta prioritária)</li>
- <li>✓ Limpar ralos e sifões (resposta prioritária)</li>
- <li>✓ Verificar contador de água (resposta prioritária)</li>
- <li>✓ Testar esquentador/caldeira (resposta prioritária)</li>
+ <li>✓ Verificar torneiras e autoclismos (A confirmar)</li>
+ <li>✓ Limpar ralos e sifões (A confirmar)</li>
+ <li>✓ Verificar contador de água (A confirmar)</li>
+ <li>✓ Testar esquentador/caldeira (A confirmar)</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
- <strong>Total:</strong> resposta prioritária/mês | <strong>Custo:</strong> 2€/mês
+ <strong>Total:</strong> A confirmar/mês | <strong>Custo:</strong> 2€/mês
  </p>
  </div>
  </section>
@@ -348,7 +348,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 10-20€ (manómetro)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 10-20€ (manómetro)
  </p>
  </div>
  </div>
@@ -377,7 +377,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 5€ (juntas novas)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 5€ (juntas novas)
  </p>
  </div>
  </div>
@@ -405,7 +405,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 20-50€ (isolamento)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 20-50€ (isolamento)
  </p>
  </div>
  </div>
@@ -414,12 +414,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Semestral</h3>
  <ul className="text-green-800 space-y-2">
  <li>✓ Limpar esquentador/caldeira (técnico: 60-100€)</li>
- <li>✓ Verificar pressão de água (resposta prioritária)</li>
- <li>✓ Limpar sifões profundamente (resposta prioritária)</li>
- <li>✓ Verificar isolamento de canos (resposta prioritária)</li>
+ <li>✓ Verificar pressão de água (A confirmar)</li>
+ <li>✓ Limpar sifões profundamente (A confirmar)</li>
+ <li>✓ Verificar isolamento de canos (A confirmar)</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
- <strong>Total:</strong> resposta prioritária + técnico | <strong>Custo:</strong> 95-175€/semestre
+ <strong>Total:</strong> A confirmar + técnico | <strong>Custo:</strong> 95-175€/semestre
  </p>
  </div>
  </section>
@@ -580,7 +580,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Limpar esquentador (semestral)</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária + técnico</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
  <td className="text-right py-3 px-4 font-semibold">62-102€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
@@ -590,7 +590,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -601,7 +601,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Inspeção profissional anual</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária + técnico</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
  <td className="text-right py-3 px-4 font-semibold">82-152€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
@@ -612,7 +612,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist trimestral</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">8€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -622,7 +622,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
@@ -632,7 +632,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -644,7 +644,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist semestral</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária + técnico</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
  <td className="text-right py-3 px-4 font-semibold">103-183€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
@@ -654,7 +654,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -664,7 +664,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
@@ -676,7 +676,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Preparação inverno (isolamento)</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">28-58€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -686,7 +686,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  <tr>
@@ -696,7 +696,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Checklist mensal</li>
  </ul>
  </td>
- <td className="text-center py-3 px-4 text-sm">resposta prioritária</td>
+ <td className="text-center py-3 px-4 text-sm">A confirmar</td>
  <td className="text-right py-3 px-4 font-semibold">2€</td>
  </tr>
  </tbody>
@@ -819,9 +819,9 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <strong>Tempo total por ano:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Tarefas DIY mensais: resposta prioritária × 12 = 7 horas</li>
- <li>• Tarefas trimestrais: resposta prioritária × 4 = 4.5 horas</li>
- <li>• Tarefas semestrais: resposta prioritária × 2 = 3 horas</li>
+ <li>• Tarefas DIY mensais: A confirmar × 12 = 7 horas</li>
+ <li>• Tarefas trimestrais: A confirmar × 4 = 4.5 horas</li>
+ <li>• Tarefas semestrais: A confirmar × 2 = 3 horas</li>
  <li>• Técnico (esquentador + inspeção): 2-3 horas</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
@@ -945,7 +945,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </li>
  <li>
  <a href="/blog/torneira-a-pingar-como-reparar" className="text-cyan-600 hover:text-cyan-700 font-medium">
- → Torneira a Pingar: Como Reparar Atendimento prioritário
+ → Torneira a Pingar: Como Reparar A confirmar
  </a>
  </li>
  </ul>
@@ -979,14 +979,14 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
  <li>Desenrosque ponta da torneira (arejador)</li>
  <li>Retire filtro/rede metálica</li>
- <li>Mergulhe em vinagre branco resposta prioritária</li>
+ <li>Mergulhe em vinagre branco A confirmar</li>
  <li>Escove com escova de dentes velha</li>
  <li>Enxague e volte a montar</li>
  </ol>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 1€ (vinagre)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 1€ (vinagre)
  </p>
  </div>
  </div>
@@ -1014,7 +1014,7 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 5€ (óleo desengripante)
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 5€ (óleo desengripante)
  </p>
  </div>
  </div>
@@ -1042,7 +1042,7 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 0€
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
@@ -1070,7 +1070,7 @@ export default ManutencaoCanalizacaoChecklistAnual;
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> resposta prioritária | <strong>💰 Custo:</strong> 0€
+ <strong>⏱️ Tempo:</strong> alguns minutos | <strong>💰 Custo:</strong> 0€
  </p>
  </div>
  </div>
@@ -1078,13 +1078,13 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Trimestral</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Limpar filtros de torneiras (resposta prioritária)</li>
- <li>✓ Verificar válvulas e registos (resposta prioritária)</li>
- <li>✓ Inspecionar canos visíveis (resposta prioritária)</li>
- <li>✓ Limpar grelhas de ventilação (resposta prioritária)</li>
+ <li>✓ Limpar filtros de torneiras (A confirmar)</li>
+ <li>✓ Verificar válvulas e registos (A confirmar)</li>
+ <li>✓ Inspecionar canos visíveis (A confirmar)</li>
+ <li>✓ Limpar grelhas de ventilação (A confirmar)</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
- <strong>Total:</strong> resposta prioritária/trimestre | <strong>Custo:</strong> 6€/trimestre
+ <strong>Total:</strong> A confirmar/trimestre | <strong>Custo:</strong> 6€/trimestre
  </p>
  </div>
  </section>
