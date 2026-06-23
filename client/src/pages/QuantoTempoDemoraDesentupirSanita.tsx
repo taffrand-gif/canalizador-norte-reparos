@@ -1,18 +1,19 @@
-// Page SEO optimisée: "Quanto Tempo Demora Desentupir Sanita" - Intention planification/urgence
-// Recherche fréquente: "quanto tempo demora desentupir sanita", "tempo desentupir wc", "quanto tempo canalizador"
+// Page SEO reconçue (Tâche 2.1c) — R12 conforme
+// Intention informationnelle : "quanto tempo demora desentupir sanita"
+// Approche éditoriale : facteurs + méthodes (pas de promesse de délai chiffré)
 import { Helmet } from 'react-helmet-async';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FAQSection from '@/components/FAQSection';
 import { useSite } from '@/contexts/SiteContext';
-import { Phone, Clock, CheckCircle, AlertTriangle, Wrench, Zap } from 'lucide-react';
+import { Phone, Clock, CheckCircle, AlertTriangle, Wrench, Zap, Shield, Search } from 'lucide-react';
 export default function QuantoTempoDemoraDesentupirSanita() {
  const { config } = useSite();
- const schemaData = {
+ const articleSchema = {
  "@context": "https://schema.org",
  "@type": "Article",
- "headline": "Quanto Tempo Demora Desentupir Sanita? Tempos Reais 2026",
- "description": "Guia completo de tempos para desentupir sanita: desde diagnóstico até conclusão",
+ "headline": "Quanto Tempo Demora Desentupir uma Sanita? Métodos e Diagnóstico",
+ "description": "O tempo para desentupir uma sanita depende do tipo de bloqueio, da localização e do estado da canalização. Filipe Bragança dá orçamento por escrito antes de qualquer intervenção, em Trás-os-Montes.",
  "author": {
  "@type": "Organization",
  "name": config.businessName
@@ -23,121 +24,169 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  "telephone": config.phone
  }
  };
- const faqs = [
+ const faqSchema = {
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
  {
- question: "Quanto tempo demora desentupir sanita entupida?",
- answer: "Entupimento simples: 15-resposta prioritária. Entupimento médio: 30-resposta prioritária. Entupimento grave: 1-3 horas. Inclui: diagnóstico, desentupimento, teste, limpeza. Canalizador chega resposta prioritária. Urgente 24h: 928 484 451"
- },
- {
- question: "Posso usar sanita logo após desentupir?",
- answer: "SIM, imediatamente após teste final (5-resposta prioritária). Fazemos teste completo: descarga normal, papel higiénico, verificação escoamento. Se tudo OK, pode usar normalmente."
- },
- {
- question: "Quanto tempo canalizador demora a chegar?",
- answer: "Urgente 24h: 30-resposta prioritária em Trás-os-Montes. Horário normal: 1-3 horas. Atendemos chamadas urgentes imediatamente. Sanita entupida é prioridade: 928 484 451"
- },
- {
- question: "Quanto tempo fico sem usar sanita?",
- answer: "Tempo total sem usar: resposta prioritária a 3 horas (durante desentupimento). Se tiver 2ª casa de banho, use essa. Se não, avisamos tempo exacto e trabalhamos rápido."
+ "@type": "Question",
+ "name": "O desentupimento resolve sempre?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Na maioria dos casos, sim. Utilizamos métodos progressivos — do mais simples ao mais complexo — e só avançamos para o passo seguinte se o anterior não resultar. Se houver um problema estrutural (cano partido, raiz), explicamos antes de continuar."
  }
- ];
- const tempos = [
- {
- tipo: "Entupimento Simples",
- causa: "Papel higiénico, pequeno objecto",
- tempo: "15-resposta prioritária",
- metodo: "Ventosa manual",
- detalhes: [
- "Chegada: 30-resposta prioritária",
- "Diagnóstico: resposta prioritária",
- "Desentupir ventosa: 5-resposta prioritária",
- "Teste: resposta prioritária",
- "Limpeza: resposta prioritária"
- ],
- urgencia: "BAIXA",
- icon: CheckCircle
  },
  {
- tipo: "Entupimento Médio",
- causa: "Acumulação papel, toalhitas",
- tempo: "30-resposta prioritária",
- metodo: "Mola desentupidora",
- detalhes: [
- "Chegada: 30-resposta prioritária",
- "Diagnóstico: resposta prioritária",
- "Desentupir mola: 15-resposta prioritária",
- "Teste pressão: resposta prioritária",
- "Limpeza: resposta prioritária"
- ],
- urgencia: "MÉDIA",
+ "@type": "Question",
+ "name": "Quando é necessário abrir parede ou chão?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Só em último caso, quando o bloqueio está num cano embutido e os métodos tradicionais não chegam. Antes de abrir, utilizamos câmara de inspeção para localizar o problema com precisão — sem partir o que não é preciso."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Posso usar a sanita logo após o desentupimento?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Sim, após o teste final. Fazemos descarga completa, verificação de escoamento e teste com papel higiénico. Se tudo OK, pode usar normalmente."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Quanto custa desentupir uma sanita?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Trabalhamos a 65 €/hora (dia) e 97,50 €/hora (noite, fim de semana e feriado). Deslocação conforme a zona: Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 €, Z6 = 65 €. Orçamento por escrito antes de qualquer trabalho."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Atendem urgências 24h em Trás-os-Montes?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Sim, 24h/7 dias em todo o distrito de Bragança, Vila Real e zonas envolventes. Sanita entupida com mais de uma casa de banho indisponível tem prioridade na deslocação."
+ }
+ }
+ ]
+ };
+ const serviceSchema = {
+ "@context": "https://schema.org",
+ "@type": "Service",
+ "serviceType": "Desentupimento de sanitas e canalização",
+ "provider": {
+ "@type": "Plumber",
+ "name": config.businessName,
+ "telephone": config.phone,
+ "priceRange": "€€"
+ },
+ "areaServed": [
+ { "@type": "City", "name": "Macedo de Cavaleiros" },
+ { "@type": "City", "name": "Bragança" },
+ { "@type": "City", "name": "Mirandela" },
+ { "@type": "City", "name": "Vila Real" },
+ { "@type": "City", "name": "Chaves" },
+ { "@type": "City", "name": "Miranda do Douro" }
+ ]
+ };
+ const zonas = [
+ { zona: "Zona 1", cidades: "Macedo de Cavaleiros", deslocacao: "15 €" },
+ { zona: "Zona 2", cidades: "Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães", deslocacao: "25 €" },
+ { zona: "Zona 3", cidades: "Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta", deslocacao: "35 €" },
+ { zona: "Zona 4", cidades: "Miranda do Douro, Foz Côa, Murça, Valpaços, Pesqueira", deslocacao: "45 €" },
+ { zona: "Zona 5", cidades: "Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta. Marta de Penaguião, Mesão Frio", deslocacao: "55 €" },
+ { zona: "Zona 6", cidades: "Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono", deslocacao: "65 €" }
+ ];
+ const metodos = [
+ {
+ metodo: "Ventosa manual",
+ uso: "Bloqueios simples perto da saída (papel higiénico, pequenos objectos)",
  icon: Wrench
  },
  {
- tipo: "Entupimento Grave",
- causa: "Objecto grande, raízes",
- tempo: "1-3h",
- metodo: "Máquina profissional",
- detalhes: [
- "Chegada: 30-resposta prioritária",
- "Diagnóstico câmara: 15-resposta prioritária",
- "Desentupir máquina: 30-resposta prioritária",
- "Teste completo: 15-resposta prioritária",
- "Limpeza profunda: 15-resposta prioritária"
- ],
- urgencia: "ALTA",
+ metodo: "Mola desentupidora profissional",
+ uso: "Bloqueios médios mais afastados, acumulação de papel e resíduos",
+ icon: Zap
+ },
+ {
+ metodo: "Máquina elétrica profissional",
+ uso: "Bloqueios顽固es, raízes, objetos sólidos, tubagem principal",
+ icon: Shield
+ },
+ {
+ metodo: "Hidrojateamento",
+ uso: "Limpeza profunda de tubagem, remoção de gordura e calcário acumulado",
  icon: AlertTriangle
  },
  {
- tipo: "Entupimento Canalização",
- causa: "Problema tubagem principal",
- tempo: "2-4h",
- metodo: "Desentupimento completo",
- detalhes: [
- "Chegada: 30-resposta prioritária",
- "Diagnóstico câmara: 20-resposta prioritária",
- "Localizar bloqueio: 30-resposta prioritária",
- "Desentupir máquina: 60-resposta prioritária",
- "Teste sistema: 20-resposta prioritária",
- "Limpeza: resposta prioritária"
- ],
- urgencia: "CRÍTICA",
- icon: Zap
+ metodo: "Câmara de inspeção 30 m",
+ uso: "Localização exacta do bloqueio sem abrir parede ou chão",
+ icon: Search
  }
  ];
  const factores = [
  {
- factor: "Tipo de Entupimento",
- impacto: "Papel: rápido. Objecto sólido: mais tempo. Raízes: muito tempo",
- tempo: "+resposta prioritária a +2h"
+ factor: "Tipo de bloqueio",
+ impacto: "Papel higiénico ou objeto pequeno perto da saída resolve-se depressa. Raízes ou objeto sólido na tubagem principal exige equipamento profissional e mais tempo.",
+ icon: AlertTriangle
  },
  {
- factor: "Localização Bloqueio",
- impacto: "Sanita: rápido. Tubagem: médio. Canalização principal: longo",
- tempo: "+resposta prioritária a +3h"
+ factor: "Localização do bloqueio",
+ impacto: "Na sanita é mais simples. No sifão ou curva exige mola. Na tubagem principal exige máquina elétrica e, por vezes, câmara de inspeção.",
+ icon: Search
  },
  {
  factor: "Acessibilidade",
- impacto: "Fácil acesso: rápido. Difícil acesso (cave, exterior): mais tempo",
- tempo: "+resposta prioritária a +1h"
+ impacto: "Sanita acessível é diferente de sanita em cave, em arrecadação ou em espaço apertado. A logística da deslocação e do trabalho é contabilizada no orçamento.",
+ icon: Shield
  },
  {
- factor: "Equipamento Necessário",
- impacto: "Ventosa: rápido. Mola: médio. Máquina profissional: mais tempo",
- tempo: "+resposta prioritária a +1h30"
+ factor: "Estado da canalização",
+ impacto: "Canos antigos (calcário, ferrugem, deformações) reduzem o diâmetro útil e criam bloqueios recorrentes. Nestes casos, propomos solução duradoura, não apenas desentupir.",
+ icon: Wrench
  },
  {
- factor: "Estado Canalização",
- impacto: "Canos novos: rápido. Canos antigos (calcário, ferrugem): mais tempo",
- tempo: "+resposta prioritária a +1h"
+ factor: "Hora do dia",
+ impacto: "Trabalhamos 24h/7 dias. O horário da chamada pode alterar a logística, mas não a qualidade do serviço nem o valor do orçamento.",
+ icon: Clock
+ }
+ ];
+ const faqs = [
+ {
+ question: "O desentupimento resolve sempre?",
+ answer: "Na maioria dos casos, sim. Utilizamos métodos progressivos — do mais simples ao mais complexo — e só avançamos para o passo seguinte se o anterior não resultar. Se houver um problema estrutural (cano partido, raiz), explicamos antes de continuar."
+ },
+ {
+ question: "Quando é necessário abrir parede ou chão?",
+ answer: "Só em último caso, quando o bloqueio está num cano embutido e os métodos tradicionais não chegam. Antes de abrir, utilizamos câmara de inspeção para localizar o problema com precisão — sem partir o que não é preciso."
+ },
+ {
+ question: "Posso usar a sanita logo após o desentupimento?",
+ answer: "Sim, após o teste final. Fazemos descarga completa, verificação de escoamento e teste com papel higiénico. Se tudo OK, pode usar normalmente."
+ },
+ {
+ question: "Quanto custa desentupir uma sanita?",
+ answer: "Trabalhamos a 65 €/hora (dia) e 97,50 €/hora (noite, fim de semana e feriado). Deslocação conforme a zona: Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 €, Z6 = 65 €. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
+ },
+ {
+ question: "Atendem urgências 24h em Trás-os-Montes?",
+ answer: "Sim, 24h/7 dias em todo o distrito de Bragança, Vila Real e zonas envolventes. Sanita entupida com mais de uma casa de banho indisponível tem prioridade na deslocação. Ligue 928 484 451 ou envie WhatsApp."
  }
  ];
  return (
  <>
  <Helmet>
- <title>Quanto Tempo Demora Desentupir Sanita? Tempos Reais 2026 | 928 484 451</title>
- <meta name="description" content="Quanto tempo demora desentupir sanita? resposta prioritária-3h dependendo gravidade. Simples: 15-resposta prioritária, Médio: 30-resposta prioritária, Grave: 1-3h. Canalizador chega 30-resposta prioritária. Urgente 24h: 928 484 451" />
+ <title>Quanto Tempo Demora Desentupir uma Sanita? Métodos e Diagnóstico | 928 484 451</title>
+ <meta name="description" content="O tempo para desentupir uma sanita depende do tipo de bloqueio, da localização e do estado da canalização. Filipe Bragança dá orçamento por escrito, em Trás-os-Montes, antes de qualquer trabalho. 65€/h." />
+ <link rel="canonical" href="https://canalizador-norte-reparos.pt/quanto-tempo-demora-desentupir-sanita" />
  <script type="application/ld+json">
- {JSON.stringify(schemaData)}
+ {JSON.stringify(articleSchema)}
+ </script>
+ <script type="application/ld+json">
+ {JSON.stringify(faqSchema)}
+ </script>
+ <script type="application/ld+json">
+ {JSON.stringify(serviceSchema)}
  </script>
  </Helmet>
  <Header />
@@ -147,15 +196,17 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  <div className="container mx-auto px-4">
  <div className="max-w-4xl mx-auto text-center">
  <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full font-semibold mb-6">
- <Clock className="w-5 h-5" />
- TEMPOS REAIS 2026
+ <Shield className="w-5 h-5" />
+ SEM PROMESSA DE TEMPO — SEM SURPRESA NA FATURA
  </div>
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Quanto Tempo Demora Desentupir Sanita?
+ Quanto Tempo Demora Desentupir uma Sanita?
  </h1>
- <p className="text-xl mb-8">
- Tempos reais: resposta prioritária a 3 horas dependendo gravidade.
- Canalizador chega resposta prioritária. Atendimento urgente 24h.
+ <p className="text-xl mb-4">
+ Não existe um tempo único. Depende do tipo de bloqueio, da localização e do estado da canalização.
+ </p>
+ <p className="text-lg mb-8 opacity-95">
+ A Norte Reparos dá-lhe o tempo estimado por escrito, no orçamento, antes de qualquer intervenção. Filipe Bragança — 24h/7 dias em Trás-os-Montes.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -163,10 +214,10 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg flex items-center justify-center gap-2"
  >
  <Phone className="w-6 h-6" />
- Urgente: {config.phone}
+ Ligar: {config.phone}
  </a>
  <a
- href={`https://wa.me/${config.whatsapp}?text=Sanita entupida. Quanto tempo demora?`}
+ href={`https://wa.me/${config.whatsapp}?text=Tenho uma sanita entupida. Podem avaliar?`}
  target="_blank"
  rel="noopener noreferrer"
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg"
@@ -177,147 +228,200 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  </div>
  </div>
  </section>
- {/* Tabela de Tempos */}
- <section className="py-16 bg-white">
+ {/* Transparence prix */}
+ <section className="py-12 bg-white border-b-2 border-[#2193b0]">
  <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center mb-4">
- ⏱️ Tabela de Tempos por Gravidade
+ <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-gray-900">
+ Preço claro antes de começar
  </h2>
- <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
- Tempos incluem: chegada canalizador + diagnóstico + desentupimento + teste
+ <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
+ Trabalhamos com tarifa horária fixa e告知 prévio por escrito. Sem surpresas.
  </p>
- <div className="max-w-5xl mx-auto space-y-6">
- {tempos.map((item, index) => (
- <div key={index} className={`rounded-xl shadow-lg overflow-hidden border-2 ${
- item.urgencia === 'CRÍTICA' ? 'border-red-500 bg-red-50' :
- item.urgencia === 'ALTA' ? 'border-orange-500 bg-orange-50' :
- item.urgencia === 'MÉDIA' ? 'border-yellow-500 bg-yellow-50' :
- 'border-green-500 bg-green-50'
- }`}>
- <div className={`p-6 ${
- item.urgencia === 'CRÍTICA' ? 'bg-gradient-to-r from-red-600 to-red-500' :
- item.urgencia === 'ALTA' ? 'bg-gradient-to-r from-orange-600 to-orange-500' :
- item.urgencia === 'MÉDIA' ? 'bg-gradient-to-r from-yellow-600 to-yellow-500' :
- 'bg-gradient-to-r from-green-600 to-green-500'
- } text-white`}>
- <div className="flex items-center justify-between">
- <div className="flex items-center gap-3">
- <item.icon className="w-8 h-8" />
- <div>
- <h3 className="text-2xl font-bold">{item.tipo}</h3>
- <p className="text-sm opacity-90">{item.causa}</p>
+ <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-4 mb-6">
+ <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
+ <p className="text-sm text-gray-600">Tarifa diurna</p>
+ <p className="text-2xl font-bold text-gray-900">65 €/hora</p>
+ </div>
+ <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
+ <p className="text-sm text-gray-600">Noite / fim de semana / feriado</p>
+ <p className="text-2xl font-bold text-gray-900">97,50 €/hora <span className="text-sm font-normal text-gray-600">(+50 %)</span></p>
+ </div>
+ <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
+ <p className="text-sm text-gray-600">Deslocação</p>
+ <p className="text-2xl font-bold text-gray-900">15 € a 65 €</p>
+ <p className="text-xs text-gray-600">conforme zona Z1-Z6</p>
  </div>
  </div>
- <div className="text-right">
- <div className="text-3xl font-bold">{item.tempo}</div>
- <div className="text-sm opacity-90">tempo total</div>
- </div>
- </div>
- </div>
- <div className="p-6">
- <div className="grid md:grid-cols-2 gap-6">
- <div>
- <h4 className="font-bold text-gray-900 mb-3">Etapas:</h4>
- <ul className="space-y-2">
- {item.detalhes.map((detalhe, i) => (
- <li key={i} className="flex items-start gap-2 text-gray-700">
- <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
- <span>{detalhe}</span>
- </li>
- ))}
- </ul>
- </div>
- <div className="space-y-4">
- <div className="bg-white p-4 rounded-lg border-2 border-gray-200">
- <div className="text-sm text-gray-600 mb-1">Método:</div>
- <div className="text-xl font-bold text-gray-900">{item.metodo}</div>
- </div>
- <div className="bg-white p-4 rounded-lg border-2 border-gray-200">
- <div className="text-sm text-gray-600 mb-1">Urgência:</div>
- <div className={`text-xl font-bold ${
- item.urgencia === 'CRÍTICA' ? 'text-red-600' :
- item.urgencia === 'ALTA' ? 'text-orange-600' :
- item.urgencia === 'MÉDIA' ? 'text-yellow-600' :
- 'text-green-600'
- }`}>{item.urgencia}</div>
- </div>
- </div>
- </div>
- </div>
- </div>
- ))}
- </div>
+ <p className="text-center text-gray-700 max-w-3xl mx-auto">
+ <strong className="text-[#2193b0]">Orçamento por escrito antes de qualquer intervenção.</strong> Explicamos o problema, indicamos a solução, dizemos quanto vai custar e quanto tempo vai demorar — tudo por escrito.
+ </p>
  </div>
  </section>
- {/* Factores */}
+ {/* Factores que influenciam a duração */}
  <section className="py-16 bg-gray-50">
  <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center mb-12">
- ⚙️ Factores que Afectam o Tempo
+ <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+ ⚙️ Fatores que influenciam a duração
  </h2>
+ <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+ Cada entupimento é diferente. A Norte Reparos avalia no local e indica o tempo estimado por escrito. Estes são os principais fatores que analisamos.
+ </p>
  <div className="max-w-4xl mx-auto space-y-4">
  {factores.map((item, index) => (
  <div key={index} className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#2193b0]">
- <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+ <div className="flex items-start gap-4">
+ <item.icon className="w-8 h-8 text-[#2193b0] flex-shrink-0 mt-1" />
  <div className="flex-1">
  <h3 className="text-xl font-bold text-gray-900 mb-2">{item.factor}</h3>
  <p className="text-gray-600">{item.impacto}</p>
  </div>
- <div className="bg-blue-50 px-4 py-2 rounded-lg text-center">
- <div className="text-sm text-gray-600">Impacto</div>
- <div className="text-lg font-bold text-[#2193b0]">{item.tempo}</div>
- </div>
  </div>
  </div>
  ))}
  </div>
  </div>
  </section>
- {/* Timeline */}
+ {/* Métodos que utilizamos (section spécifique page 2) */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center mb-12">
- 📅 Timeline Típica (Entupimento Médio)
+ <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+ 🔧 Métodos que utilizamos
  </h2>
- <div className="max-w-3xl mx-auto">
- <div className="space-y-6">
+ <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+ Aplicamos métodos progressivos — do mais simples ao mais complexo — e só avançamos para o passo seguinte se o anterior não resultar. O método é definido após o diagnóstico no local.
+ </p>
+ <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+ {metodos.map((item, index) => (
+ <div key={index} className="bg-blue-50 p-6 rounded-lg">
+ <item.icon className="w-10 h-10 text-[#2193b0] mb-3" />
+ <h3 className="text-xl font-bold text-gray-900 mb-2">{item.metodo}</h3>
+ <p className="text-gray-700">{item.uso}</p>
+ </div>
+ ))}
+ </div>
+ </div>
+ </section>
+ {/* O que avaliamos no local */}
+ <section className="py-16 bg-gray-50">
+ <div className="container mx-auto px-4">
+ <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+ 🔍 O que avaliamos no local
+ </h2>
+ <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+ <div className="bg-white p-6 rounded-lg shadow">
+ <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
+ <h3 className="font-bold text-gray-900 mb-2">Tipo de bloqueio</h3>
+ <p className="text-gray-700">Papel higiénico, toalhitas, objeto sólido, raízes, acumulação de gordura ou calcário. Cada tipo pede equipamento e tempo diferentes.</p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
+ <h3 className="font-bold text-gray-900 mb-2">Profundidade do bloqueio</h3>
+ <p className="text-gray-700">Quanto mais afastado da sanita, mais equipamento é necessário. A câmara de inspeção localiza o problema sem adivinhar.</p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
+ <h3 className="font-bold text-gray-900 mb-2">Idade da canalização</h3>
+ <p className="text-gray-700">Em Trás-os-Montes, muitos canos têm 30+ anos (ferro galvanizado, PVC antigo). Reduzem o diâmetro útil e criam bloqueios recorrentes.</p>
+ </div>
+ <div className="bg-white p-6 rounded-lg shadow">
+ <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
+ <h3 className="font-bold text-gray-900 mb-2">Recorrência</h3>
+ <p className="text-gray-700">Se entope com frequência, há uma causa estrutural. Indicamos a solução duradoura no orçamento, não apenas o desentupimento pontual.</p>
+ </div>
+ </div>
+ </div>
+ </section>
+ {/* Como trabalhamos */}
+ <section className="py-16 bg-white">
+ <div className="container mx-auto px-4">
+ <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+ 🛠️ Como trabalhamos
+ </h2>
+ <div className="max-w-4xl mx-auto space-y-4">
  {[
- { tempo: "resposta prioritária", acao: "Liga para 928 484 451", descricao: "Atendimento imediato, explicamos o que NÃO fazer" },
- { tempo: "resposta prioritária", acao: "Canalizador a caminho", descricao: "Confirmamos chegada resposta prioritária" },
- { tempo: "resposta prioritária", acao: "Canalizador chega", descricao: "Avaliação visual e diagnóstico" },
- { tempo: "resposta prioritária", acao: "Início desentupimento", descricao: "Uso mola desentupidora profissional" },
- { tempo: "resposta prioritária", acao: "Desentupimento concluído", descricao: "Bloqueio removido, canalização livre" },
- { tempo: "resposta prioritária", acao: "Teste completo", descricao: "Descarga normal + papel + verificação escoamento" },
- { tempo: "resposta prioritária", acao: "Limpeza e conclusão", descricao: "Sanita limpa, pode usar imediatamente" }
- ].map((step, index) => (
- <div key={index} className="flex gap-4">
- <div className="flex flex-col items-center">
- <div className="w-12 h-12 bg-[#2193b0] rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">
- {index + 1}
+ { step: '1', title: 'Atendimento imediato', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que NÃO fazer (não usar produtos químicos agressivos antes da nossa chegada — podem danificar os canos).' },
+ { step: '2', title: 'Diagnóstico no local', desc: 'Identificamos o bloqueio. Se necessário, utilizamos câmara de inspeção 30 m para localizar a obstrução sem partir parede ou chão.' },
+ { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos o método, dizemos quanto vai custar e quanto tempo vai demorar. Por escrito. Só começamos depois do seu OK.' },
+ { step: '4', title: 'Desentupimento progressivo', desc: 'Começamos pelo método mais simples. Só avançamos para o seguinte se o anterior não resultar — assim não pagamos por trabalho desnecessário.' },
+ { step: '5', title: 'Teste e verificação', desc: 'Descarga completa, papel higiénico, verificação de escoamento. Se necessário, câmara de inspeção final para confirmar tubagem limpa.' }
+ ].map((item, i) => (
+ <div key={i} className="flex gap-4 items-start bg-gray-50 p-6 rounded-lg shadow-md">
+ <div className="bg-[#2193b0] text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">
+ {item.step}
  </div>
- {index < 6 && <div className="w-0.5 h-full bg-[#2193b0] mt-2"></div>}
- </div>
- <div className="flex-1 pb-8">
- <div className="bg-blue-50 p-4 rounded-lg">
- <div className="flex items-center gap-3 mb-2">
- <Clock className="w-5 h-5 text-[#2193b0]" />
- <span className="font-bold text-[#2193b0]">{step.tempo}</span>
- <span className="text-gray-900 font-semibold">{step.acao}</span>
- </div>
- <p className="text-gray-600 text-sm ml-8">{step.descricao}</p>
- </div>
+ <div>
+ <h3 className="font-bold text-lg text-gray-900 mb-1">{item.title}</h3>
+ <p className="text-gray-700">{item.desc}</p>
  </div>
  </div>
  ))}
  </div>
+ </div>
+ </section>
+ {/* Quem Somos */}
+ <section className="py-16 bg-gray-50">
+ <div className="container mx-auto px-4">
+ <div className="max-w-4xl mx-auto">
+ <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+ 👋 Quem somos
+ </h2>
+ <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+ A Norte Reparos é uma empresa de canalização em Trás-os-Montes. Fala sempre connosco — do primeiro contacto à fatura.
+ </p>
+ <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border-l-4 border-[#2193b0]">
+ <h3 className="text-2xl font-bold text-gray-900 mb-3">Filipe Bragança · Responsável técnico</h3>
+ <p className="text-gray-700 mb-4">
+ A Norte Reparos trata cada entupimento como se fosse na nossa própria casa. Atendemos, deslocamo-nos, avaliamos e orçamentamos — tudo por escrito, tudo com o mesmo interlocutor. Pode confiar que a pessoa que atende o telefone é a mesma que resolve o problema.
+ </p>
+ <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+ <div className="flex items-start gap-2">
+ <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
+ <span>Fatura com NIF · seguro de responsabilidade civil</span>
+ </div>
+ <div className="flex items-start gap-2">
+ <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
+ <span>Equipamento profissional verificado (câmara 30 m, máquina profissional)</span>
+ </div>
+ <div className="flex items-start gap-2">
+ <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
+ <span>Trabalhos em conformidade com a DGEG (registo em curso)</span>
+ </div>
+ <div className="flex items-start gap-2">
+ <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
+ <span>24h/7 dias · Trás-os-Montes</span>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+ {/* Zonas de intervenção */}
+ <section className="py-16 bg-white">
+ <div className="container mx-auto px-4">
+ <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">
+ 📍 Zonas de intervenção
+ </h2>
+ <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+ Base em Macedo de Cavaleiros. Deslocação cobrada conforme a zona — o valor é confirmado no orçamento por escrito.
+ </p>
+ <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4">
+ {zonas.map((z, i) => (
+ <div key={i} className="bg-gray-50 p-5 rounded-lg shadow border-l-4 border-[#2193b0]">
+ <div className="flex justify-between items-start mb-2">
+ <span className="font-bold text-gray-900">{z.zona}</span>
+ <span className="font-bold text-[#2193b0]">{z.deslocacao}</span>
+ </div>
+ <p className="text-sm text-gray-700">{z.cidades}</p>
+ </div>
+ ))}
  </div>
  </div>
  </section>
  {/* FAQ */}
  <section className="py-16 bg-gray-50">
  <div className="container max-w-4xl">
- <h2 className="text-3xl font-bold text-center mb-12">
- Perguntas Frequentes - Tempo Desentupir Sanita
+ <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+ Perguntas frequentes
  </h2>
  <FAQSection faqs={faqs} />
  </div>
@@ -325,14 +429,14 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  {/* CTA Final */}
  <section className="py-16 bg-gradient-to-r from-[#2193b0] to-[#6dd5ed] text-white">
  <div className="container mx-auto px-4 text-center">
- <Clock className="w-16 h-16 mx-auto mb-6" />
+ <Phone className="w-16 h-16 mx-auto mb-6" />
  <h2 className="text-3xl font-bold mb-4">
- Sanita Entupida? Resposta rápida garantida-45 Minutos
+ Sanita entupida? Ligue, avaliamos e desentupimos por escrito
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Atendimento urgente 24h em Trás-os-Montes.
- Resolvemos hoje, pode usar sanita imediatamente após.
+ Atendimento 24h/7 dias em Trás-os-Montes · Orçamento por escrito antes de qualquer trabalho.
  </p>
+ <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors inline-flex items-center gap-2 shadow-lg"
@@ -340,6 +444,15 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  <Phone className="w-6 h-6" />
  {config.phone}
  </a>
+ <a
+ href={`https://wa.me/${config.whatsapp}?text=Tenho uma sanita entupida. Podem avaliar?`}
+ target="_blank"
+ rel="noopener noreferrer"
+ className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-xl transition-colors inline-flex items-center gap-2 shadow-lg"
+ >
+ 💬 WhatsApp
+ </a>
+ </div>
  </div>
  </section>
  </main>
