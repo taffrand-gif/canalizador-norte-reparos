@@ -9,7 +9,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { NORTE_REPAROS_TESTIMONIALS, type Testimonial } from "@/data/testimonialsData";
 import { CheckCircle } from "lucide-react";
 export default function Testemunhos() {
  const config = ACTIVE_CONFIG;
@@ -55,7 +54,7 @@ export default function Testemunhos() {
  }});
  useSEO({
  title: `Testemunhos de Clientes | ${config.businessName}`,
- description: `Veja o que os nossos clientes dizem sobre os serviços de ${config.name.toLowerCase()}. Centenas de clientes em todo o distrito de Bragança.`,
+ description: `Veja as avaliações verificadas dos nossos clientes em Trás-os-Montes. Partilhe a sua experiência após a intervenção.`,
  canonical: `https://${config.domain}/testemunhos`});
  const handleSubmit = (e: React.FormEvent) => {
  e.preventDefault();
@@ -67,8 +66,8 @@ export default function Testemunhos() {
  ...formData,
  rating});
  };
- const averageRating = reviews.length > 0 
- ? (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1)
+ const averageRating = dbReviews.length > 0
+ ? (dbReviews.reduce((acc, r) => acc + r.rating, 0) / dbReviews.length).toFixed(1)
  : "0.0";
  const StarRating = ({ rating: r, interactive = false, onRate }: { rating: number; interactive?: boolean; onRate?: (r: number) => void }) => {
  return (
@@ -115,7 +114,11 @@ export default function Testemunhos() {
  <span key={i} className="text-yellow-400 text-2xl">★</span>
  ))}
  </div>
- <p className="text-gray-600">Baseado em {reviews.length} avaliações</p>
+ {dbReviews.length > 0 ? (
+ <p className="text-gray-600">Baseado em {dbReviews.length} avaliações verificadas</p>
+ ) : (
+ <p className="text-gray-600">Seja o primeiro a partilhar a sua experiência</p>
+ )}
  </div>
  </div>
  </div>
