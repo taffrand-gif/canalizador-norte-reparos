@@ -93,7 +93,7 @@ export default function SinaisFugasAgua() {
  titulo: "7. Contador de Água a Rodar Sozinho",
  descricao: "Feche todas as torneiras e verifique o contador. Se roda, há fuga.",
  urgencia: "critica",
- acao: "Teste simples: feche tudo, resposta prioritária, verifique contador."
+ acao: "Teste simples: feche tudo, A confirmar, verifique contador."
  },
  {
  titulo: "8. Pressão de Água Reduzida",
@@ -187,7 +187,7 @@ export default function SinaisFugasAgua() {
  </li>
  <li className="flex items-start gap-4">
  <span className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">3</span>
- <div><strong> resposta prioritária</strong> sem usar água nenhuma</div>
+ <div><strong> A confirmar</strong> sem usar água nenhuma</div>
  </li>
  <li className="flex items-start gap-4">
  <span className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">4</span>

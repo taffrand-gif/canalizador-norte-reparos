@@ -12,11 +12,11 @@ export default function ComoDesentupirSanitaSozinho() {
  const faqs = [
  {
  question: "Como desentupir sanita entupida com cocó?",
- answer: "Use ventosa primeiro (10-15 tentativas). Se não funcionar, água quente + detergente líquido. Deixe atuar resposta prioritária e puxe autoclismo. Se persistir, use arame flexível com cuidado. NUNCA use produtos químicos agressivos."
+ answer: "Use ventosa primeiro (10-15 tentativas). Se não funcionar, água quente + detergente líquido. Deixe atuar alguns minutos e puxe autoclismo. Se persistir, use arame flexível com cuidado. NUNCA use produtos químicos agressivos."
  },
  {
  question: "Bicarbonato e vinagre desentope sanita?",
- answer: "SIM, para entupimentos leves. Despeje 1 chávena bicarbonato + 2 chávenas vinagre. Deixe reagir resposta prioritária. Despeje água quente. Eficaz para papel higiénico e resíduos orgânicos. Não funciona para objetos sólidos."
+ answer: "SIM, para entupimentos leves. Despeje 1 chávena bicarbonato + 2 chávenas vinagre. Deixe reagir alguns minutos. Despeje água quente. Eficaz para papel higiénico e resíduos orgânicos. Não funciona para objetos sólidos."
  },
  {
  question: "Quando devo chamar canalizador para sanita entupida?",
@@ -31,7 +31,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 1: Ventosa (Desentupidor)",
  dificuldade: "Fácil",
- tempo: "10-resposta prioritária",
+ tempo: "10-alguns minutos",
  eficacia: "80%",
  passos: [
  "Encha sanita com água até cobrir ventosa (15-20cm)",
@@ -48,13 +48,13 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 2: Água Quente + Detergente",
  dificuldade: "Muito Fácil",
- tempo: "20-resposta prioritária",
+ tempo: "20-alguns minutos",
  eficacia: "60%",
  passos: [
  "Aqueça 5-6 litros de água (quente mas NÃO fervente)",
  "Adicione 3-4 colheres sopa de detergente líquido loiça",
  "Despeje lentamente na sanita de altura média (50cm)",
- "Deixe atuar 15-resposta prioritária",
+ "Deixe atuar 15-alguns minutos",
  "Puxe autoclismo",
  "Repita se necessário"
  ],
@@ -64,13 +64,13 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 3: Bicarbonato + Vinagre",
  dificuldade: "Fácil",
- tempo: "30-resposta prioritária",
+ tempo: "30-alguns minutos",
  eficacia: "50%",
  passos: [
  "Retire excesso de água da sanita (deixe só fundo)",
  "Despeje 1 chávena (250ml) de bicarbonato de sódio",
  "Adicione 2 chávenas (500ml) de vinagre branco",
- "Deixe reagir e fazer espuma (resposta prioritária)",
+ "Deixe reagir e fazer espuma (alguns minutos)",
  "Despeje água quente",
  "Puxe autoclismo",
  "Repita se necessário"
@@ -81,7 +81,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 4: Arame Flexível (Mola)",
  dificuldade: "Média",
- tempo: "15-resposta prioritária",
+ tempo: "15-alguns minutos",
  eficacia: "70%",
  passos: [
  "Use arame flexível ou cabide desdobrado",
@@ -98,7 +98,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 5: Saco Plástico + Água Quente",
  dificuldade: "Média",
- tempo: "20-resposta prioritária",
+ tempo: "20-alguns minutos",
  eficacia: "65%",
  passos: [
  "Encha saco plástico resistente com água quente",
@@ -160,7 +160,7 @@ export default function ComoDesentupirSanitaSozinho() {
  </h1>
  <p className="text-xl mb-8">
  5 métodos caseiros eficazes passo a passo. Poupe dinheiro e resolva já.
- Se não funcionar, chamamos Atendimento prioritário.
+ Se não funcionar, chamamos A confirmar.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -283,7 +283,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
- ✅ Resposta rápida garantida-resposta prioritária<br />
+ ✅ Disponível 24h/7 dias<br />
  ✅ Sem compromisso sem compromisso
  </p>
  <a
@@ -313,7 +313,7 @@ export default function ComoDesentupirSanitaSozinho() {
  Métodos Caseiros Não Funcionaram?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Canalizador profissional resolve Atendimento prioritário.
+ Canalizador profissional resolve A confirmar.
  Atendimento urgente 24h.
  </p>
  <a

@@ -47,7 +47,7 @@ export default function UrgenciaFugaAgua() {
  </div>
  <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
  Fuga de Água Urgente em Bragança?<br />
- <span className="text-yellow-300">Estamos Aí Atendimento prioritário</span> 💧
+ <span className="text-yellow-300">Estamos Aí Disponível 24h/7 dias</span> 💧
  </h1>
  <p className="text-xl md:text-2xl mb-8 text-red-100">
  Cano rebentado? Água a jorrar? NÃO ENTRE EM PÂNICO!
@@ -56,7 +56,7 @@ export default function UrgenciaFugaAgua() {
  <div className="flex items-start gap-3">
  <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
  <div>
- <p className="font-bold">Resposta rápida garantida-resposta prioritária</p>
+ <p className="font-bold">Disponível 24h/7 dias</p>
  <p className="text-sm text-red-100">Bragança e arredores</p>
  </div>
  </div>
@@ -95,7 +95,7 @@ export default function UrgenciaFugaAgua() {
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-5 rounded-xl text-lg transition-all shadow-2xl hover:shadow-3xl flex items-center justify-center gap-2"
  >
  <MessageCircle className="w-6 h-6" />
- WhatsApp: Resposta prioritária
+ WhatsApp: A confirmar
  </a>
  </div>
  <p className="mt-6 text-sm text-red-100">
@@ -113,7 +113,7 @@ export default function UrgenciaFugaAgua() {
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-red-500">
  <p className="text-2xl mb-2">😰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">"A minha casa vai inundar!"</p>
- <p className="text-gray-600">Cada segundo conta. Resposta rápida garantida-resposta prioritária para parar a fuga.</p>
+ <p className="text-gray-600">Cada segundo conta. Disponível 24h/7 dias para parar a fuga.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
  <p className="text-2xl mb-2">💸</p>
@@ -150,9 +150,9 @@ export default function UrgenciaFugaAgua() {
  </p>
  <div className="space-y-6">
  {[
- { step: '1', title: 'Liga ou envia WhatsApp', time: 'resposta prioritária', desc: 'Atendemos imediatamente. Explicamos o processo.' },
- { step: '2', title: 'Técnico a caminho', time: '30-resposta prioritária', desc: 'Confirmamos hora de chegada por SMS/WhatsApp.' },
- { step: '3', title: 'Diagnóstico + Orçamento', time: 'resposta prioritária', desc: 'Identificamos o problema. Preço fixo antes de começar.' },
+ { step: '1', title: 'Liga ou envia WhatsApp', time: '—', desc: 'Atendemos imediatamente. Explicamos o processo.' },
+ { step: '2', title: 'Técnico a caminho', time: 'A confirmar', desc: 'Confirmamos hora de chegada por SMS/WhatsApp.' },
+ { step: '3', title: 'Diagnóstico + Orçamento', time: '—', desc: 'Identificamos o problema. Preço fixo antes de começar.' },
  { step: '4', title: 'Arranjo imediata', time: '1-3 horas', desc: 'Resolvemos com equipamento profissional.' },
  { step: '5', title: 'Garantia do serviço', time: 'Por escrito', desc: 'Certificado de garantia entregue no final.' }
  ].map((item, i) => (
@@ -206,7 +206,7 @@ export default function UrgenciaFugaAgua() {
  {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />)}
  </div>
  <p className="text-gray-800 mb-4 italic">
- "Fuga às 23h, chegaram resposta prioritária. Preço justo, trabalho impecável. Recomendo!"
+ "Fuga às 23h, chegaram A confirmar. Preço justo, trabalho impecável. Recomendo!"
  </p>
  <p className="text-sm text-gray-600 font-semibold">Maria S., Bragança</p>
  </div>
@@ -233,7 +233,7 @@ export default function UrgenciaFugaAgua() {
  {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />)}
  </div>
  <p className="text-gray-800 mb-4 italic">
- "Domingo de manhã, fuga grave. Atenderam e resolveram em 2 horas. Top!"
+ "Domingo de manhã, fuga grave. Atenderam e resolveram em algumas horas. Top!"
  </p>
  <p className="text-sm text-gray-600 font-semibold">Carla F., Trás-os-Montes</p>
  </div>
@@ -262,7 +262,7 @@ export default function UrgenciaFugaAgua() {
  },
  {
  q: 'Quanto tempo demora a chegar?',
- a: '30-resposta prioritária em Bragança e arredores. Confirmamos hora exata por SMS/WhatsApp assim que o técnico sai.'
+ a: 'A confirmar em Bragança e arredores. Confirmamos hora exata por SMS/WhatsApp assim que o técnico sai.'
  },
  {
  q: 'Têm garantia?',
@@ -305,7 +305,7 @@ export default function UrgenciaFugaAgua() {
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-5 rounded-xl text-lg transition-all shadow-2xl flex items-center justify-center gap-2"
  >
  <MessageCircle className="w-6 h-6" />
- WhatsApp: Orçamento resposta prioritária
+ WhatsApp: Orçamento A confirmar
  </a>
  </div>
  <p className="text-sm text-red-100">

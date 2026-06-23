@@ -33,7 +33,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">
  Urgente
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -253,8 +253,8 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Adicione 10 gotas de corante alimentar (azul ou vermelho) no autoclismo</li>
- <li>Não puxe o autoclismo durante resposta prioritária</li>
- <li>Após resposta prioritária, verifique a sanita</li>
+ <li>Não puxe o autoclismo durante A confirmar</li>
+ <li>Após A confirmar, verifique a sanita</li>
  <li>Se a água da sanita ficou colorida, tem fuga na válvula</li>
  </ol>
  <div className="bg-red-50 p-4 rounded-lg">
@@ -276,7 +276,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>Fechar entrada principal de água</li>
  <li>Ligar manómetro ao sistema</li>
  <li>Pressurizar sistema (3-4 bar)</li>
- <li>Monitorizar pressão durante resposta prioritária</li>
+ <li>Monitorizar pressão durante A confirmar</li>
  <li>Queda de pressão = fuga confirmada</li>
  </ol>
  </div>
@@ -549,7 +549,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Procure gotas, humidade ou manchas</li>
  <li>• Verifique debaixo de lavatórios e lava-loiças</li>
- <li>• Leva apenas resposta prioritária</li>
+ <li>• Leva apenas alguns minutos</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -726,9 +726,9 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a reparar uma fuga?</h3>
  <p className="text-gray-700 mb-2">Depende da complexidade:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Torneira a pingar: 15-resposta prioritária</li>
- <li>• Autoclismo: 30-resposta prioritária</li>
- <li>• Junta de cano: 20-resposta prioritária</li>
+ <li>• Torneira a pingar: A confirmar</li>
+ <li>• Autoclismo: A confirmar</li>
+ <li>• Junta de cano: A confirmar</li>
  <li>• Fuga em parede (acessível): 2-4 horas</li>
  <li>• Fuga em parede (requer abertura): 1-2 dias</li>
  <li>• Substituição de canalização: 2-5 dias</li>
@@ -754,7 +754,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegamos Atendimento prioritário</p>
+ <p className="font-bold">Chegamos Disponível 24h/7 dias</p>
  <p className="text-sm text-white/80">Cobertura em Trás-os-Montes</p>
  </div>
  </div>

@@ -52,7 +52,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  {
  nome: "Desentupidor de Borracha (Ventosa)",
  eficacia: "75%",
- tempo: "10-resposta prioritária",
+ tempo: "10-alguns minutos",
  custo: "5-15€",
  como: "Coloque o desentupidor sobre o buraco da sanita, certifique-se que há água suficiente para cobrir a borracha. Faça movimentos vigorosos de bomba (push-pull) durante 20-30 segundos. Repita 3-4 vezes.",
  quando: "Entupimentos médios, papel higiénico, matéria orgânica",
@@ -62,9 +62,9 @@ export default function DesentupirSanitaMetodosEficazes() {
  {
  nome: "Água Quente + Detergente",
  eficacia: "60%",
- tempo: "20-resposta prioritária",
+ tempo: "20-alguns minutos",
  custo: "0€",
- como: "Aqueça 2 litros de água (quente mas não fervente). Adicione 3 colheres de detergente da loiça. Despeje lentamente na sanita. Aguarde 15-resposta prioritária. Puxe o autoclismo.",
+ como: "Aqueça 2 litros de água (quente mas não fervente). Adicione 3 colheres de detergente da loiça. Despeje lentamente na sanita. Aguarde 15-alguns minutos. Puxe o autoclismo.",
  quando: "Entupimentos leves por gordura ou matéria orgânica",
  pros: ["Gratuito", "Seguro", "Sempre disponível em casa"],
  contras: ["Baixa eficácia", "Não funciona com papel ou objetos"]
@@ -72,9 +72,9 @@ export default function DesentupirSanitaMetodosEficazes() {
  {
  nome: "Bicarbonato de Sódio + Vinagre",
  eficacia: "50%",
- tempo: "30-resposta prioritária",
+ tempo: "30-alguns minutos",
  custo: "2-3€",
- como: "Despeje 1 chávena de bicarbonato de sódio na sanita. Adicione 2 chávenas de vinagre branco. Deixe reagir resposta prioritária (vai fazer espuma). Despeje água quente. Puxe o autoclismo.",
+ como: "Despeje 1 chávena de bicarbonato de sódio na sanita. Adicione 2 chávenas de vinagre branco. Deixe reagir alguns minutos (vai fazer espuma). Despeje água quente. Puxe o autoclismo.",
  quando: "Entupimentos muito leves, maus cheiros",
  pros: ["Natural", "Não tóxico", "Elimina odores"],
  contras: ["Baixa eficácia", "Demorado", "Não resolve entupimentos graves"]
@@ -82,7 +82,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  {
  nome: "Mola Desentupidora (Cabo Flexível)",
  eficacia: "85%",
- tempo: "15-resposta prioritária",
+ tempo: "15-alguns minutos",
  custo: "15-30€",
  como: "Insira a ponta da mola no buraco da sanita. Rode a manivela enquanto empurra suavemente. Quando sentir resistência, continue a rodar para quebrar a obstrução. Retire a mola e puxe o autoclismo.",
  quando: "Entupimentos graves, objetos presos",
@@ -92,9 +92,9 @@ export default function DesentupirSanitaMetodosEficazes() {
  {
  nome: "Canalizador Profissional",
  eficacia: "99%",
- tempo: "30-resposta prioritária",
+ tempo: "30-alguns minutos",
  custo: "120€ (noite: 180€)",
- como: "Ligue para +351 928 484 451. Canalizador chega resposta prioritária com equipamento profissional (mola elétrica, câmara de inspeção). Resolve o problema e identifica a causa.",
+ como: "Ligue para +351 928 484 451. Canalizador chega alguns minutos com equipamento profissional (mola elétrica, câmara de inspeção). Resolve o problema e identifica a causa.",
  quando: "Métodos caseiros falharam, entupimentos recorrentes, objetos sólidos",
  pros: ["Eficácia garantida", "Identifica causa raiz", "Equipamento profissional", "Garantia"],
  contras: ["Custo mais elevado"]
@@ -128,7 +128,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  <div className="flex items-center gap-6 mt-6 text-sm text-gray-500">
  <span className="flex items-center gap-2">
  <Clock className="w-4 h-4" />
- resposta prioritária leitura
+ A confirmar leitura
  </span>
  <span>Atualizado: 3 Março 2026</span>
  </div>
@@ -138,7 +138,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>O método mais eficaz é o desentupidor de borracha (ventosa)</strong> com 75% de sucesso em entupimentos médios.
- Para entupimentos graves ou recorrentes em Bragança e Trás-os-Montes, um canalizador profissional resolve resposta prioritária
+ Para entupimentos graves ou recorrentes em Bragança e Trás-os-Montes, um canalizador profissional resolve A confirmar
  por 60-120€ com garantia. <strong>Nunca use água a ferver</strong> - pode rachar a porcelana.
  </p>
  </div>
@@ -307,7 +307,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <h3 className="text-2xl font-bold mb-4">Métodos Caseiros Não Funcionaram?</h3>
  <p className="text-lg mb-6 opacity-90">
- Resolvemos resposta prioritária com equipamento profissional. Preço fixo, sem surpresas.
+ Resolvemos A confirmar com equipamento profissional. Preço fixo, sem surpresas.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -424,7 +424,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Resposta rápida garantida • Sem compromisso • Garantia no trabalho
+ Disponível 24h/7 dias garantida • Sem compromisso • Garantia no trabalho
  </p>
  </div>
  </article>

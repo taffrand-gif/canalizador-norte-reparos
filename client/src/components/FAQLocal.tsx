@@ -23,7 +23,7 @@ function FAQLocal() {
  answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
  {
  question: 'Há canalizador de urgência em Miranda do Douro?',
- answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente 50-resposta prioritária. Disponível Atendimento 24h/7d para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.'},
+ answer: 'Sim, prestamos serviço de canalização de urgência em Miranda do Douro e toda a zona raiana. Tempo de chegada: aproximadamente A confirmar. Disponível Atendimento 24h/7d para emergências como fugas graves, canos rebentados ou entupimentos urgentes. Ligue 928 484 451.'},
  {
  question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
  answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: 100-200€ (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},

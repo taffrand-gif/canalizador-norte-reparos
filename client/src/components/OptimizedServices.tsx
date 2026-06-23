@@ -45,7 +45,7 @@ const serviceFeatures = {
  'Testes de pressão e estanquicidade'
  ],
  'Urgências 24h': [
- 'Resposta rápida garantida',
+ 'Disponível 24h/7 dias • Orçamento por escrito',
  'Equipe equipada para qualquer emergência',
  'Sem compromisso no local'
  ]
@@ -158,7 +158,7 @@ const OptimizedServices: React.FC = () => {
  ))}
  </div>
  <p className="mt-4 text-gray-600 text-sm">
- Servimos toda a região de Trás-os-Montes e arredores com resposta rápida.
+ Servimos toda a região de Trás-os-Montes e arredores com atendimento 24h/7 dias.
  </p>
  <div className="mt-6 p-4 bg-orange-50 border border-orange-200 rounded-lg">
  <p className="text-orange-800 font-semibold">

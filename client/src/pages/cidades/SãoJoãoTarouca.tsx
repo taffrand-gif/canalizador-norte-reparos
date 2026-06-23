@@ -205,7 +205,7 @@ export default function SãoJoãoTarouca() {
                   ⚡ Rápido e Eficiente
                 </h3>
                 <p className="text-gray-600">
-                  Resposta rápida em São João de Tarouca. Atendimento 24h para urgências.
+                  Disponível 24h/7 dias em São João de Tarouca. Atendimento 24h para urgências.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">

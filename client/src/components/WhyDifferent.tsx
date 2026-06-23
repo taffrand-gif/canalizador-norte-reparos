@@ -42,7 +42,7 @@ function WhyDifferent() {
  icon: '🚫',
  title: 'Não Atende Urgência Noite',
  others: '24h falso, não atende depois 22h',
- us: 'Telefone 24h REAL + WhatsApp <resposta prioritária',
+ us: 'Telefone 24h REAL + WhatsApp direto',
  value: 'Economiza €200 (urgência real)'},
  {
  icon: '🏠',
@@ -164,7 +164,7 @@ function WhyDifferent() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- Atendimento 24h/7d/7 dias • Resposta rápida • Orçamento grátis
+ Atendimento 24h/7d • Orçamento por escrito
  </p>
  </div>
  {/* Social Proof */}

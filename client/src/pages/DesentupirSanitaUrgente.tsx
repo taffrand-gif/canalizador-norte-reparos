@@ -50,7 +50,7 @@ export default function DesentupirSanitaUrgente() {
  <div className="grid md:grid-cols-3 gap-4 mb-8 text-left">
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
  <Zap className="w-8 h-8 text-yellow-300 mb-2" />
- <p className="font-bold">Resposta rápida garantida-resposta prioritária</p>
+ <p className="font-bold">Disponível 24h/7 dias</p>
  <p className="text-sm text-orange-100">Bragança e arredores</p>
  </div>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
@@ -77,7 +77,7 @@ export default function DesentupirSanitaUrgente() {
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-5 rounded-xl text-lg transition-all shadow-2xl flex items-center justify-center gap-2"
  >
  <MessageCircle className="w-6 h-6" />
- WhatsApp - Resposta prioritária
+ WhatsApp - A confirmar
  </a>
  </div>
  </div>
@@ -203,9 +203,9 @@ export default function DesentupirSanitaUrgente() {
  </h2>
  <div className="grid md:grid-cols-4 gap-6">
  {[
- { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos Atendimento prioritário' },
- { icon: '🚗', title: 'Técnico a caminho', desc: '30-resposta prioritária' },
- { icon: '🔧', title: 'Desentupimento', desc: '30-resposta prioritária' },
+ { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos A confirmar' },
+ { icon: '🚗', title: 'Técnico a caminho', desc: 'A confirmar' },
+ { icon: '🔧', title: 'Desentupimento', desc: 'A confirmar' },
  { icon: '✅', title: 'Problema resolvido', desc: 'Garantia 6 meses' }
  ].map((step, i) => (
  <div key={i} className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -245,7 +245,7 @@ export default function DesentupirSanitaUrgente() {
  <div className="grid md:grid-cols-3 gap-6">
  {[
  {
- text: "Sanita entupida às 22h. Chegaram resposta prioritária e resolveram resposta prioritária. Preço justo. Recomendo!",
+ text: "Sanita entupida às 22h. Chegaram A confirmar e resolveram A confirmar. Preço justo. Recomendo!",
  author: "Cliente L., Bragança"
  },
  {
@@ -282,7 +282,7 @@ export default function DesentupirSanitaUrgente() {
  },
  {
  q: 'Quanto tempo demora?',
- a: 'Desentupimento em si: 30-resposta prioritária. Tempo total (desde chamada até resolução): 1-2 horas.'
+ a: 'Desentupimento em si: 30-alguns minutos. Tempo total (desde chamada até resolução): 1-2 horas.'
  },
  {
  q: 'Atendem aos fins de semana?',

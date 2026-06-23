@@ -117,7 +117,7 @@ const InnovativeHero: React.FC = () => {
  <div className="inline-flex items-center gap-3 bg-blue-900/80 border-2 border-white/60 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
  <span className="text-3xl" role="img" aria-label="Goutte d'eau">💧</span>
  <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
- CANALIZADOR Atendimento 24h — Resposta rápida garantida
+ CANALIZADOR Atendimento 24h — Disponível 24h/7 dias garantida
  </span>
  <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
  </div>
@@ -203,7 +203,7 @@ const InnovativeHero: React.FC = () => {
  { icon: '💧', value: 'Certificado', label: 'Seguro Ativo', color: 'from-blue-400 to-blue-600' },
  { icon: '🔬', value: 'Ridgid', label: 'Câmara Inspeção', color: 'from-orange-400 to-orange-600' },
  { icon: '🛡️', value: '500+', label: 'Intervenções', color: 'from-blue-500 to-blue-700' },
- { icon: '📞', value: 'resposta prioritária', label: 'Chegada Bragança', color: 'from-orange-500 to-orange-700' }
+ { icon: '📞', value: 'A confirmar', label: 'Chegada Bragança', color: 'from-orange-500 to-orange-700' }
  ].map((stat, index) => (
  <div 
  key={index}

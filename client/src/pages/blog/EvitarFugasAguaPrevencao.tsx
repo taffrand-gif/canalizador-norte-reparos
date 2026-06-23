@@ -20,7 +20,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  Manutenção Preventiva
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 14 Fev 2026</span>
  <span>👁️ 920 visualizações</span>
  </div>

@@ -110,7 +110,7 @@ function GuaranteeBox({
  {ctaText}
  </a>
  <p className="text-sm text-gray-600 mt-4">
- Orçamento 100% gratuito • Sem compromisso • Resposta imediata
+ Orçamento 100% gratuito • Sem compromisso • A confirmar
  </p>
  </div>
  )}

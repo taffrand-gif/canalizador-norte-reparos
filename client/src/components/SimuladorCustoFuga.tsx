@@ -203,7 +203,7 @@ export default function SimuladorCustoFuga({
  💬 Resolver Agora e Evitar €{totalLoss.toFixed(0)} de Prejuízo
  </a>
  <p className="text-xs text-center text-gray-600 mt-3">
- ⚡ Técnico disponível resposta prioritária • Arranjo definitiva • Garantia do serviço
+ ⚡ Técnico disponível A confirmar • Arranjo definitiva • Garantia do serviço
  </p>
  </div>
  );

@@ -154,7 +154,7 @@ export default function GoogleReviews() {
  >
  {review.initial}
  </div>
- <div className="flex-resposta prioritária-w-0">
+ <div className="flex-A confirmar-w-0">
  <p className="font-semibold text-gray-900 text-sm">{review.name}</p>
  <p className="text-xs text-gray-400">{review.city} · {review.date}</p>
  </div>

@@ -57,7 +57,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  DIY Fácil
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -82,7 +82,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
  Reparar uma torneira a pingar é uma das tarefas mais simples de canalização que pode
  fazer sozinho. Neste guia passo a passo, vamos mostrar-lhe como resolver o problema
- em apenas resposta prioritária, com materiais que custam menos de 5€.
+ em apenas alguns minutos, com materiais que custam menos de 5€.
  </p>
  </div>
  <div className="bg-gray-50 rounded-2xl p-6 mb-10">
@@ -152,7 +152,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  </tbody>
  </table>
  <p className="text-red-800 font-semibold mt-4 text-center">
- ⚠️ Reparar custa 5€ e demora resposta prioritária. Ignorar custa 25-250€/ano!
+ ⚠️ Reparar custa 5€ e demora A confirmar. Ignorar custa 25-250€/ano!
  </p>
  </div>
  </section>
@@ -211,7 +211,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📝 Reparação Passo a Passo</h2>
  <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
- ⏱️ Tempo total: 10-resposta prioritária | Dificuldade: ⭐ (Muito Fácil)
+ ⏱️ Tempo total: 10-alguns minutos | Dificuldade: ⭐ (Muito Fácil)
  </p>
  </div>
  <div className="space-y-8">
@@ -288,7 +288,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Cuidado:</strong> Não force. Se não conseguir desapertar, use óleo desengripante e aguarde resposta prioritária.
+ <strong>⚠️ Cuidado:</strong> Não force. Se não conseguir desapertar, use óleo desengripante e aguarde alguns minutos.
  </p>
  </div>
  </div>
@@ -374,13 +374,13 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <li>• Abra a válvula lentamente</li>
  <li>• Verifique se há fugas nas juntas</li>
  <li>• Feche a torneira completamente</li>
- <li>• Aguarde resposta prioritária e verifique se pinga</li>
+ <li>• Aguarde alguns minutos e verifique se pinga</li>
  </ul>
  </div>
  </div>
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
- <strong>✅ Sucesso:</strong> Se não pingar após resposta prioritária, reparação concluída com sucesso!
+ <strong>✅ Sucesso:</strong> Se não pingar após A confirmar, reparação concluída com sucesso!
  </p>
  </div>
  </div>
@@ -503,7 +503,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Custo: 2-5€ por junta</li>
  <li>• Previne pingos inesperados</li>
- <li>• Leva resposta prioritária</li>
+ <li>• Leva A confirmar</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -536,7 +536,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar uma torneira a pingar?</h3>
  <p className="text-gray-700 mb-2">
- <strong>DIY (você mesmo):</strong> 2-5€ (junta) + resposta prioritária
+ <strong>DIY (você mesmo):</strong> 2-5€ (junta) + A confirmar
  </p>
  <p className="text-gray-700 mb-2">
  <strong>Canalizador:</strong> 50-80€ (mão de obra + material)
@@ -548,7 +548,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto tempo demora a reparar?</h3>
  <p className="text-gray-700">
- <strong>10-resposta prioritária</strong> para torneira tradicional de rosca (primeira vez pode demorar 20-resposta prioritária).
+ <strong>A confirmar</strong> para torneira tradicional de rosca (primeira vez pode demorar A confirmar).
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

@@ -26,7 +26,7 @@ const OptimizedHero: React.FC = () => {
           {/* Badge urgence */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-8">
             <span className="text-2xl">💧</span>
-            <span className="text-white font-semibold text-lg">CANALIZADOR Atendimento 24h — Resposta rápida garantida</span>
+            <span className="text-white font-semibold text-lg">CANALIZADOR Atendimento 24h — Disponível 24h/7 dias garantida</span>
           </div>
 
           {/* Titre principal */}
@@ -43,7 +43,7 @@ const OptimizedHero: React.FC = () => {
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
  <a
  href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="inline-flex items-center justify-center gap-3 bg-orange-600 hover:bg-orange-500 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-resposta prioritária-w-[250px]"
+ className="inline-flex items-center justify-center gap-3 bg-orange-600 hover:bg-orange-500 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-A confirmar-w-[250px]"
  >
  <span className="text-2xl">📞</span>
  <span>Ligue Agora</span>
@@ -53,7 +53,7 @@ const OptimizedHero: React.FC = () => {
  href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(config.whatsappMessage)}`}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-100 text-blue-900 font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-resposta prioritária-w-[250px]"
+ className="inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-100 text-blue-900 font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-A confirmar-w-[250px]"
  >
  <span className="text-2xl">💬</span>
  <span>Pedir Orçamento</span>

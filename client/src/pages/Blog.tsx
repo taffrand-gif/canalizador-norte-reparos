@@ -17,7 +17,7 @@ export default function Blog() {
  title: 'Como Detetar Fuga de Água Escondida: Método Termográfico',
  excerpt: 'Fugas escondidas desperdiçam centenas de litros por dia e aumentam a fatura em 100-300€/mês. Aprenda a detetar com termografia sem partir paredes.',
  date: '7 de fevereiro de 2026',
- readTime: 'resposta prioritária',
+ readTime: '5 min',
  image: '/blog/fuga-agua.jpg',
  category: 'Deteção de Fugas'
  }
@@ -27,7 +27,7 @@ export default function Blog() {
  title: '10 Sinais Que Precisa Trocar o Quadro Elétrico',
  excerpt: 'Quadros antigos são responsáveis por 25% dos incêndios domésticos. Descubra os 10 sinais de alerta e quando substituir o seu quadro elétrico.',
  date: '7 de fevereiro de 2026',
- readTime: 'resposta prioritária',
+ readTime: '5 min',
  image: '/blog/quadro-eletrico.jpg',
  category: 'Segurança Elétrica'
  }

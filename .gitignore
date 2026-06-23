@@ -120,3 +120,8 @@ client/src/components/.backups/
 # Archives
 *.tar.gz
 *.zip
+
+# Audit Tâche 2 (temporaires)
+tache2-1-*.py
+audit-2-1-*.py
+audit-r12-r145.py

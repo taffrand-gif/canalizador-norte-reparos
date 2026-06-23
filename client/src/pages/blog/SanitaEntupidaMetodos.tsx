@@ -34,7 +34,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">
  Urgente
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 10 Mar 2026</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -157,7 +157,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Aqueça 5 litros de água (quente mas não fervente - 60-70°C)</li>
  <li>Adicione 200ml de detergente da loiça</li>
  <li>Despeje rapidamente na sanita de uma altura de 1 metro</li>
- <li>Aguarde 15-resposta prioritária</li>
+ <li>Aguarde 15-alguns minutos</li>
  <li>Puxe o autoclismo</li>
  <li>Repita se necessário</li>
  </ol>
@@ -196,7 +196,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>Retire o máximo de água possível da sanita (use copo)</li>
  <li>Despeje 300g de bicarbonato de sódio na sanita</li>
  <li>Adicione 300ml de vinagre branco (vai fazer espuma)</li>
- <li>Aguarde 30-resposta prioritária</li>
+ <li>Aguarde 30-alguns minutos</li>
  <li>Despeje 5 litros de água quente</li>
  <li>Puxe o autoclismo</li>
  </ol>
@@ -504,12 +504,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Como desentupir sanita rapidamente?</h3>
  <p className="text-gray-700 mb-2">
- <strong>Método mais rápido (5-resposta prioritária):</strong>
+ <strong>Método mais rápido (A confirmar):</strong>
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
- <li>Água quente + detergente (aguarde resposta prioritária)</li>
+ <li>Água quente + detergente (aguarde alguns minutos)</li>
  <li>Se não funcionar, use ventosa (20-30 movimentos vigorosos)</li>
- <li>Se persistir, bicarbonato + vinagre (aguarde resposta prioritária)</li>
+ <li>Se persistir, bicarbonato + vinagre (aguarde alguns minutos)</li>
  </ol>
  <p className="text-cyan-700 font-semibold mt-3">
  💡 Taxa de sucesso: 80% com estes 3 métodos
@@ -536,11 +536,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <strong>Depende do método e gravidade:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Água quente + detergente: 20-resposta prioritária (total)</li>
- <li>• Bicarbonato + vinagre: 45-resposta prioritária (total)</li>
- <li>• Ventosa: 5-resposta prioritária</li>
- <li>• Mola desentupidora: 15-resposta prioritária</li>
- <li>• Canalizador profissional: 30-resposta prioritária</li>
+ <li>• Água quente + detergente: A confirmar (total)</li>
+ <li>• Bicarbonato + vinagre: A confirmar (total)</li>
+ <li>• Ventosa: A confirmar</li>
+ <li>• Mola desentupidora: A confirmar</li>
+ <li>• Canalizador profissional: A confirmar</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -570,7 +570,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
  <li>Não puxe autoclismo novamente (pode transbordar)</li>
- <li>Aguarde resposta prioritária para água baixar</li>
+ <li>Aguarde alguns minutos para água baixar</li>
  <li>Use método água quente + detergente</li>
  <li>Se não resolver, use ventosa</li>
  </ol>
@@ -602,7 +602,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Urgência (noite/fim de semana): +30-50€</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
- 💡 DIY poupa 70-120€ mas requer 30-resposta prioritária
+ 💡 DIY poupa 70-120€ mas requer A confirmar
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -615,7 +615,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </p>
  <ul className="text-red-700 space-y-1 ml-4">
  <li>• Água sobe até rebordo</li>
- <li>• Água não baixa após resposta prioritária</li>
+ <li>• Água não baixa após A confirmar</li>
  <li>• Água volta por outros ralos</li>
  </ul>
  <p className="text-red-900 font-semibold mt-3">
@@ -700,7 +700,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </li>
  <li>
  <a href="/blog/torneira-a-pingar-como-reparar" className="text-cyan-600 hover:text-cyan-700 font-medium">
- → Torneira a Pingar: Como Reparar Atendimento prioritário
+ → Torneira a Pingar: Como Reparar A confirmar
  </a>
  </li>
  </ul>

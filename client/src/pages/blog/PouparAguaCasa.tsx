@@ -90,7 +90,7 @@ export default function PouparAguaCasa() {
  titulo: "Duches em Vez de Banhos",
  poupanca: "100L por banho",
  custo: "€0",
- descricao: "Banho de imersão: 150-200L. Duche de resposta prioritária: 50-60L. Reduza tempo de duche para resposta prioritária.",
+ descricao: "Banho de imersão: 150-200L. Duche de alguns minutos: 50-60L. Reduza tempo de duche para alguns minutos.",
  dificuldade: "Fácil (mudança de hábito)"
  },
  {
@@ -114,7 +114,7 @@ export default function PouparAguaCasa() {
  titulo: "Feche Torneira ao Lavar Dentes/Barbear",
  poupanca: "12L por dia/pessoa",
  custo: "€0",
- descricao: "Torneira aberta resposta prioritária = 24L desperdiçados. Use copo para enxaguar.",
+ descricao: "Torneira aberta alguns minutos = 24L desperdiçados. Use copo para enxaguar.",
  dificuldade: "Fácil (mudança de hábito)"
  },
  {
@@ -130,7 +130,7 @@ export default function PouparAguaCasa() {
  titulo: "Lave Carro com Balde",
  poupanca: "300L por lavagem",
  custo: "€0",
- descricao: "Mangueira aberta resposta prioritária = 400L. Balde + esponja = 100L. Ou use lavagem automática (recicla água).",
+ descricao: "Mangueira aberta alguns minutos = 400L. Balde + esponja = 100L. Ou use lavagem automática (recicla água).",
  dificuldade: "Fácil (mudança de hábito)"
  },
  {

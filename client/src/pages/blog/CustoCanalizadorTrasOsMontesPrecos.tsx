@@ -20,7 +20,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
  Guia de Preços
  </span>
- <span>⏱️ resposta prioritária de leitura</span>
+ <span>⏱️ alguns minutos de leitura</span>
  <span>📅 18 Fev 2026</span>
  <span>👁️ 3.2K visualizações</span>
  </div>
@@ -102,14 +102,14 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <td className="py-4 px-6">45€</td>
  <td className="py-4 px-6">65€</td>
  <td className="py-4 px-6">95€</td>
- <td className="py-4 px-6">30-resposta prioritária</td>
+ <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Desentupimento sanita</td>
  <td className="py-4 px-6">55€</td>
  <td className="py-4 px-6">80€</td>
  <td className="py-4 px-6">120€</td>
- <td className="py-4 px-6">45-resposta prioritária</td>
+ <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Desentupimento canalização geral</td>
@@ -130,7 +130,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <td className="py-4 px-6">40€</td>
  <td className="py-4 px-6">60€</td>
  <td className="py-4 px-6">90€</td>
- <td className="py-4 px-6">30-resposta prioritária</td>
+ <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Instalação sanita nova</td>

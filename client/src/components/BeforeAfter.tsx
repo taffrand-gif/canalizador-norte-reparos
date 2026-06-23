@@ -24,7 +24,7 @@ function BeforeAfter() {
  title: 'Autoclismo Não Parava de Correr',
  problem: 'Autoclismo corria água 24h. Conta água €180/mês.',
  solution: 'Substituição mecanismo completo + teste pressão.',
- time: 'resposta prioritária',
+ time: '—',
  cost: '€80',
  savings: '€50/mês = €600/ano',
  beforeEmoji: '💔',
@@ -180,7 +180,7 @@ function BeforeAfter() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Diagnóstico grátis • ✅ Garantia 6 meses • ✅ Resposta rápida
+ ✅ Diagnóstico grátis • ✅ Garantia 6 meses • ✅ Disponível 24h/7 dias
  </p>
  </div>
  {/* Social Proof */}

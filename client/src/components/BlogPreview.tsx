@@ -7,21 +7,21 @@ const FEATURED_POSTS = [
  title: 'Como Escolher um Canalizador Profissional',
  excerpt: 'Guia completo para contratar um canalizador de confiança em Trás-os-Montes.',
  date: '2026-03-01',
- readTime: 'resposta prioritária'
+ readTime: '5 min'
  },
  {
  slug: 'fuga-agua-como-detetar-reparar',
  title: 'Fuga de Água: Como Detetar e Reparar',
  excerpt: 'Aprenda a identificar fugas de água e quando chamar um profissional.',
  date: '2026-02-28',
- readTime: 'resposta prioritária'
+ readTime: '5 min'
  },
  {
  slug: 'desentupir-sanita-metodos-eficazes',
  title: 'Desentupir Sanita: Métodos Eficazes',
  excerpt: 'Soluções práticas para desentupimentos e quando precisa de ajuda profissional.',
  date: '2026-02-25',
- readTime: 'resposta prioritária'
+ readTime: '5 min'
  }
 ];
 export default function BlogPreview() {

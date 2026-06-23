@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function EsquentadorAvariado() {
  useEffect(() => {
- document.title = "Esquentador Avariado? Água Quente em 2 Horas | Norte Reparos";
+document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Esquentador avariado? Sem água quente? Arranjamos ou substituímos em 2 horas. Atendimento 24h/7d. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Esquentador avariado? Sem água quente? Arranjamos ou substituímos em algumas horas. Atendimento 24h/7d. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -46,20 +46,20 @@ export default function EsquentadorAvariado() {
  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
  <EmotionalHero
  painPoint="ESQUENTADOR AVARIADO"
- headline="Sem Água Quente? Resolvemos em 2 Horas"
+ headline="Sem Água Quente? Chamenos Agora"
  subheadline="Sabemos o desconforto que sente. Banhos frios no inverno, louça por lavar, família a reclamar. Devolvemos o conforto hoje."
- urgencyText="Técnico Atendimento 24h • Água quente em 2 horas"
+ urgencyText="Disponível 24h/7 dias"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! O meu esquentador avariou. Preciso de arranjo urgente!"
  ctaPrimary="REPARAR AGORA"
  ctaSecondary="WhatsApp Urgente"
- responseTime="resposta prioritária"
+ responseTime="A confirmar"
  />
  <PainPointSection
  title="Sabemos o Desconforto Que Está a Passar"
  subtitle="Viver sem água quente não é apenas inconveniente. É desconforto diário e stress familiar."
- empathyStatement="Já reparámos milhares de esquentadores em Trás-os-Montes. Sabemos que precisa de água quente HOJE. Chegamos Atendimento prioritário, arranjamos em 2 horas."
+ empathyStatement="Já reparámos milhares de esquentadores em Trás-os-Montes. Sabemos que precisa de água quente HOJE. Chegamos Disponível 24h/7 dias, arranjamos em algumas horas."
  painPoints={[
  {
  icon: 'alert',
@@ -88,31 +88,31 @@ export default function EsquentadorAvariado() {
  ]}
  />
  <SolutionTimeline
- title="Como Devolvemos Água Quente em 2 Horas"
+ title="Como Devolvemos Água Quente em algumas horas"
  subtitle="Diagnóstico rápido, arranjo eficaz, água quente garantida."
  totalTime="2-4 horas"
  guaranteeText="Água quente hoje ou não paga. Garantia do serviço."
  steps={[
  {
- time: '0-resposta prioritária',
+ time: 'A confirmar',
  title: 'Liga e Descreve',
  description: 'Atendemos, fazemos perguntas sobre os sintomas. Já sabemos o que pode ser. Parranjamos peças.',
  icon: 'phone'
  },
  {
- time: '10-resposta prioritária',
+ time: 'A confirmar',
  title: 'Chegamos Parranjados',
  description: 'Técnico especializado em esquentadores chega com ferramentas e peças comuns. Pronto para arranjar.',
  icon: 'map'
  },
  {
- time: '40-resposta prioritária',
+ time: 'A confirmar',
  title: 'Diagnóstico e Arranjo',
  description: 'Inspecionamos, identificamos o problema, arranjamos ou substituímos peças. Testamos tudo.',
  icon: 'wrench'
  },
  {
- time: '90-resposta prioritária',
+ time: 'A confirmar',
  title: 'Água Quente Garantida',
  description: 'Esquentador funciona perfeitamente. Testamos temperatura, pressão, segurança. Explicamos tudo.',
  icon: 'check'
@@ -154,7 +154,7 @@ export default function EsquentadorAvariado() {
  name: 'Rui Fernandes',
  city: 'Vila Real',
  problem: 'Esquentador antigo',
- solution: 'Esquentador com 15 anos, sempre a avariar. Aconselharam substituir. Instalaram novo em 3 horas. Água quente perfeita. Vale cada cêntimo!',
+ solution: 'Esquentador com 15 anos, sempre a avariar. Aconselharam substituir. Instalaram novo em algumas horas. Água quente perfeita. Vale cada cêntimo!',
  timeframe: '3 horas',
  rating: 5,
  verified: true
@@ -304,7 +304,7 @@ export default function EsquentadorAvariado() {
  Recupere o Conforto Hoje
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Técnico especializado disponível. Água quente em 2 horas. Garantia total.
+ Técnico especializado disponível. Água quente em algumas horas. Garantia total.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a

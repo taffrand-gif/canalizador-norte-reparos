@@ -79,7 +79,7 @@ export default function Izeda() {
 
   const cidadesProximas = getCidadesProximas('izada');
 
-  const faqs = [{'question': 'Qual o preço de canalizador em Izeda?', 'answer': 'Desde 90€ em Izeda. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Izeda?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Izeda. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Izeda?', 'answer': 'Tempo de chegada depends da localização exacta. Atendimento prioritário para urgências.'}, {'question': 'Que serviços fazem em Izeda?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+  const faqs = [{'question': 'Qual o preço de canalizador em Izeda?', 'answer': 'Desde 90€ em Izeda. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Izeda?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Izeda. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Izeda?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Izeda?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
   return (
     <>
@@ -205,7 +205,7 @@ export default function Izeda() {
                   ⚡ Rápido e Eficiente
                 </h3>
                 <p className="text-gray-600">
-                  Resposta rápida em Izeda. Atendimento 24h para urgências.
+                  Disponível 24h/7 dias em Izeda. Atendimento 24h para urgências.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">

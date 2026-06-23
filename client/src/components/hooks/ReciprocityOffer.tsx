@@ -98,7 +98,7 @@ export default function ReciprocityOffer({
  💬 {offer.cta}
  </a>
  <p className="text-xs text-center text-gray-500">
- ⚡ Resposta rápida garantida
+ ⚡ Disponível 24h/7 dias garantida
  </p>
  </div>
  )}
