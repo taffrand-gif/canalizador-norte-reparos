@@ -20,7 +20,7 @@ As emergências de canalização podem causar danos significativos em poucas hor
 
 1. **Fugas de água visíveis ou ocultas** - Deteção e arranjo urgente
 2. **Canalizações totalmente entupidas** - Desentupimento com equipamento profissional
-3. **Falta de água em toda a casa** - Diagnóstico e restauro rápido
+3. **Falta de água em toda a casa** - Diagnóstico e restauro profissional
 4. **Retorno de águas residuais** - Situações de risco sanitário
 5. **Avarias em sistemas de aquecimento central** - Crítico no inverno
 6. **Problemas com esgotos e fossas** - Soluções imediatas

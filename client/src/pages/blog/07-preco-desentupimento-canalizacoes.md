@@ -24,7 +24,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 - **Fossa séptica:** Intervenção especializada
 
 ### 2. Grau de Obstrução
-- **Parcial (água escoa lentamente):** Mais fácil e rápido
+- **Parcial (água escoa lentamente):** Mais fácil e imediato
 - **Total (não escoa nada):** Exige equipamento profissional
 - **Recorrente (entope frequentemente):** Pode indicar problemas estruturais
 
