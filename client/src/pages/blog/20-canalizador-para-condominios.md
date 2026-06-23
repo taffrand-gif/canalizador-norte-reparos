@@ -76,7 +76,7 @@ tags: ['canalizador condomínios', 'preços especiais', 'manutenção', 'condom�
 - **€600+/mês** taxa fixa
 - **Visitas conforme necessidades**
 - **20% desconto** em serviços extras
-- **Resposta urgente** Atendimento rápido
+- **Resposta urgente** Atendimento profissional
 - **Monitorização avançada** Atendimento 24h/7d
 - **Gestor dedicado** para o condomínio
 - **Relatório mensal** detalhado
