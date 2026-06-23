@@ -106,7 +106,7 @@ export default function Vilarandelo() {
               </h1>
               <p className="text-xl mb-8">
                 Serviços de canalização certificados em Vilarandelo e arredores.
-                Resolução rápida, preço justo, garantia de 12 meses.
+                Resolução profissional, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -198,7 +198,7 @@ export default function Vilarandelo() {
         <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Vilarandelo</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção profissional, preço justo, garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
                  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">

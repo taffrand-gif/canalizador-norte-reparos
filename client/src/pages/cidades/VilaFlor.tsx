@@ -100,7 +100,7 @@ export default function VilaFlor() {
               </h1>
               <p className="text-xl mb-8">
                 Serviços de canalização certificados em Vila Flor e arredores.
-                Resolução rápida, preço justo, garantia de 12 meses.
+                Resolução profissional, preço justo, garantia de 12 meses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -275,7 +275,7 @@ export default function VilaFlor() {
               Canalizador em <span className="text-orange-300">Vila Flor</span>
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Intervenção rápida, preço justo, garantia de 12 meses.
+              Intervenção profissional, preço justo, garantia de 12 meses.
               Ligue agora para um orçamento sem compromisso.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
