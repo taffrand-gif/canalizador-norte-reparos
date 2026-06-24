@@ -88,7 +88,7 @@ export default function ProblemasCanalizacaoInverno() {
  problema: "Tubos Rebentados",
  sintomas: "Água a jorrar, manchas de humidade súbitas, pressão zero",
  urgencia: "CRÍTICA",
- solucao: "Fechar torneira geral IMEDIATAMENTE. Ligar canalizador de urgência.",
+ solucao: "Fechar torneira geral URGENTEMENTE. Ligar canalizador de urgência.",
  prevencao: "Isolamento adequado, drenar tubagens exteriores no inverno"
  },
  {
@@ -365,7 +365,7 @@ export default function ProblemasCanalizacaoInverno() {
  </h2>
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-6 font-bold">
- Se um tubo rebentar, siga estes passos IMEDIATAMENTE:
+ Se um tubo rebentar, siga estes passos URGENTEMENTE:
  </p>
  <ol className="space-y-4">
  <li className="flex items-start gap-4">
