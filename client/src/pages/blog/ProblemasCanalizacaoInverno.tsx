@@ -69,7 +69,7 @@ export default function ProblemasCanalizacaoInverno() {
  "@type": "FAQPage",
  "mainEntity": [
  { "@type": "Question", "name": "Como evitar tubos congelados no inverno em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Isole as tubagens expostas, deixe torneiras a pingar em noites abaixo de -5°C (água em movimento não congela), mantenha aquecimento mínimo a 10-12°C mesmo ausente e isole a caixa do contador com esferovite ou lã de rocha." } },
- { "@type": "Question", "name": "O que fazer se um tubo rebentar com o frio?", "acceptedAnswer": { "@type": "Answer", "text": "1) Feche imediatamente a torneira geral (junto ao contador). 2) Desligue a eletricidade se a água atingir o quadro elétrico. 3) Ligue um canalizador de urgência — não tente arranjar sozinho. 4) Documente os danos com fotos para o seguro." } },
+ { "@type": "Question", "name": "O que fazer se um tubo rebentar com o frio?", "acceptedAnswer": { "@type": "Answer", "text": "1) Feche urgentemente a torneira geral (junto ao contador). 2) Desligue a eletricidade se a água atingir o quadro elétrico. 3) Ligue um canalizador de urgência — não tente arranjar sozinho. 4) Documente os danos com fotos para o seguro." } },
  { "@type": "Question", "name": "Quanto custa isolar tubagens para proteger da geada?", "acceptedAnswer": { "@type": "Answer", "text": "O isolamento custa 100-300€ e evita arranjos de 1.000-5.000€. Espuma de polietileno (Tubolit): 2-4€/metro (protege até -5°C). Lã de rocha: 4-7€/metro (até -15°C). Cabo aquecedor elétrico: 15-25€/metro para casos extremos." } },
  { "@type": "Question", "name": "Quais são as zonas de maior risco de congelamento?", "acceptedAnswer": { "@type": "Answer", "text": "Sótãos e águas-furtadas, tubagens exteriores e caixas de contador são de risco muito alto. Garagens não aquecidas e paredes exteriores viradas a norte são de risco alto. Caves e porões, risco médio." } }
  ]
@@ -88,7 +88,7 @@ export default function ProblemasCanalizacaoInverno() {
  problema: "Tubos Rebentados",
  sintomas: "Água a jorrar, manchas de humidade súbitas, pressão zero",
  urgencia: "CRÍTICA",
- solucao: "Fechar torneira geral IMEDIATAMENTE. Ligar canalizador de urgência.",
+ solucao: "Fechar torneira geral URGENTEMENTE. Ligar canalizador de urgência.",
  prevencao: "Isolamento adequado, drenar tubagens exteriores no inverno"
  },
  {
@@ -194,7 +194,7 @@ export default function ProblemasCanalizacaoInverno() {
  </p>
  <div className="space-y-2">
  <div className="bg-white/70 p-3 rounded-lg">
- <p className="text-sm"><strong className="text-red-600">Solução Imediata:</strong> {item.solucao}</p>
+ <p className="text-sm"><strong className="text-red-600">Solução urgente:</strong> {item.solucao}</p>
  </div>
  <div className="bg-white/70 p-3 rounded-lg">
  <p className="text-sm"><strong className="text-green-600">Prevenção:</strong> {item.prevencao}</p>
@@ -365,7 +365,7 @@ export default function ProblemasCanalizacaoInverno() {
  </h2>
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-6 font-bold">
- Se um tubo rebentar, siga estes passos IMEDIATAMENTE:
+ Se um tubo rebentar, siga estes passos URGENTEMENTE:
  </p>
  <ol className="space-y-4">
  <li className="flex items-start gap-4">

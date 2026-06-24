@@ -632,7 +632,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </table>
  </div>
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
- <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Sinais de Alerta - Aja Imediatamente</h3>
+ <h3 className="font-bold text-red-900 mb-3 text-lg">🚨 Sinais de Alerta - Aja urgentemente</h3>
  <ul className="text-red-800 space-y-2">
  <li>• <strong>Previsão de -4°C ou menos:</strong> Deixe torneiras a pingar essa noite</li>
  <li>• <strong>Vaga de frio anunciada:</strong> Reforce isolamento em 24h</li>
@@ -666,7 +666,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">2. Fechar Válvula Geral (Precaução)</h3>
  <p className="text-gray-700 mb-3">
- Se suspeitar que cano pode ter rebentado, feche válvula geral imediatamente.
+ Se suspeitar que cano pode ter rebentado, feche válvula geral urgentemente.
  Quando descongelar, água não inundará casa.
  </p>
  </div>
@@ -895,7 +895,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Reparação Imediata</p>
+ <p className="font-bold">Reparação urgente</p>
  <p className="text-sm text-white/80">Equipamento profissional</p>
  </div>
  </div>

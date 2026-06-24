@@ -22,7 +22,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
     {"@type":"Question","name":'Posso usar lixívia para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado. Lixívia não dissolve entupimentos eficazmente: não dissolve papel ou gordura, pode danificar canalização antiga, os vapores são tóxicos e não deve ser misturada com outros produtos. Alternativa segura: bicarbonato + vinagre.'}},
     {"@type":"Question","name":'Quanto tempo demora a desentupir uma sanita?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método e gravidade: água quente + detergente 20-30 minutos total; bicarbonato + vinagre 45-60 minutos; ventosa 5-15 minutos; mola desentupidora 15-30 minutos; canalizador profissional 30-45 minutos.'}},
     {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (120-180€).'}},
-    {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação imediata: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
+    {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação urgente: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
     {"@type":"Question","name":'Posso usar Destop ou produtos químicos na sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado para sanitas. Produtos químicos são para ralos, não sanitas; podem danificar porcelana e juntas; são ineficazes contra papel e objetos sólidos; perigosos se misturados com água parada. Melhor opção: métodos mecânicos como ventosa ou mola.'}},
     {"@type":"Question","name":'Quanto custa chamar canalizador para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em Portugal 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€. Ligue 928 484 451 para orçamento gratuito.'}}
           ]
@@ -421,7 +421,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Verifique se enche completamente</li>
  <li>• Ajuste nível de água se necessário</li>
- <li>• Repare fugas imediatamente</li>
+ <li>• Repare fugas urgentemente</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -440,11 +440,11 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <section id="quando-chamar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📞 Quando Chamar Canalizador</h2>
  <p className="mb-6">
- Algumas situações requerem profissional imediatamente:
+ Algumas situações requerem profissional urgentemente:
  </p>
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
- <h3 className="font-bold text-red-900 mb-3 text-xl">🚨 Emergência Imediata</h3>
+ <h3 className="font-bold text-red-900 mb-3 text-xl">🚨 Emergência</h3>
  <ul className="space-y-2 text-red-800">
  <li>✗ Água a transbordar</li>
  <li>✗ Várias sanitas entupidas</li>
@@ -566,7 +566,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <strong>Entupimento parcial.</strong> Água escoa lentamente.
  </p>
  <p className="text-gray-600 mb-2">
- Ação imediata:
+ Ação urgente:
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
  <li>Não puxe autoclismo novamente (pode transbordar)</li>

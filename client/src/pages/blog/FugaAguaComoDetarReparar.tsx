@@ -23,7 +23,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
     {"@type":"Question","name":'Uma fuga pequena é urgente ou pode esperar?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre urgente. Fuga pequena torna-se grande rapidamente; o desperdício acumula (200-400€/ano); humidade causa bolor e danos estruturais; reparação precoce é 10x mais barata. Repare nas primeiras 24-48 horas.'}},
     {"@type":"Question","name":'Posso reparar uma fuga de água sozinho ou preciso de canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Pode reparar sozinho: torneira a pingar (trocar junta), autoclismo a perder água (trocar válvula), junta de cano solta (fita teflon), mangueira flexível rachada. Precisa de canalizador: fuga dentro da parede, cano rebentado ou partido, fuga no esquentador, canalização enterrada, infiltração do andar de cima.'}},
     {"@type":"Question","name":'Como encontrar uma fuga de água dentro da parede?',"acceptedAnswer":{"@type":"Answer","text":'Métodos profissionais: câmara termográfica (deteta diferenças de temperatura), detetor acústico (amplifica som de água a correr), câmara endoscópica (inserida em pequeno furo) e teste de pressão. Custo de deteção: 120-180€ — evita escavações desnecessárias de 500-1000€.'}},
-    {"@type":"Question","name":'O seguro de casa cobre danos de fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice e causa. Normalmente cobre fugas súbitas e acidentais (cano rebenta). Não cobre falta de manutenção, desgaste gradual ou negligência. Reporte imediatamente (24-48h) e documente com fotos e faturas. Leia a apólice antes de reparar.'}}
+    {"@type":"Question","name":'O seguro de casa cobre danos de fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice e causa. Normalmente cobre fugas súbitas e acidentais (cano rebenta). Não cobre falta de manutenção, desgaste gradual ou negligência. Reporte urgentemente (24-48h) e documente com fotos e faturas. Leia a apólice antes de reparar.'}}
           ]
         }) }}
       />
@@ -435,7 +435,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>✗ Pressão de água muito baixa em toda a casa</li>
  </ul>
  <p className="text-red-900 font-semibold mt-4">
- Nestas situações, contacte canalizador profissional imediatamente.
+ Nestas situações, contacte canalizador profissional urgentemente.
  </p>
  </div>
  </section>
@@ -512,7 +512,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="text-2xl font-bold text-green-900 mb-4">✅ Comparação: Reparar vs Ignorar</h3>
  <div className="grid md:grid-cols-2 gap-6">
  <div>
- <p className="font-bold text-green-900 mb-3">Reparar Imediatamente:</p>
+ <p className="font-bold text-green-900 mb-3">Reparar urgentemente:</p>
  <ul className="text-green-800 space-y-2 text-sm">
  <li>✅ Custo reparação: 50-150€</li>
  <li>✅ Tempo: 1-2 horas</li>
@@ -715,7 +715,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>✅ <strong>Normalmente cobre:</strong> Fuga súbita e acidental (cano rebenta)</li>
  <li>✗ <strong>Não cobre:</strong> Falta de manutenção, desgaste gradual, negligência</li>
- <li>⚠️ <strong>Importante:</strong> Reporte imediatamente (24-48h)</li>
+ <li>⚠️ <strong>Importante:</strong> Reporte urgentemente (24-48h)</li>
  <li>📸 <strong>Documente:</strong> Fotos, vídeos, faturas de reparação</li>
  </ul>
  <p className="text-blue-700 font-semibold mt-3">
