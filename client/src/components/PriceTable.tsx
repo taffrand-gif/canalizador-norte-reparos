@@ -115,7 +115,7 @@ export default function PriceTable() {
     <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
     <ul className="space-y-1 text-amber-800 text-sm">
       <li className="flex justify-between"><span>Deslocação (Bragança):</span> <span>110€</span></li>
-      <li className="flex justify-between"><span>Intervenção Urgência (1h):</span> <span>65€ - 130€</span></li>
+      <li className="flex justify-between"><span>Intervenção Urgência:</span> <span>65€ - 130€</span></li>
       <li className="border-t border-amber-200 mt-2 pt-2 font-bold flex justify-between text-lg"><span>Total:</span> <span>175€ - 240€</span></li>
     </ul>
     <p className="text-xs text-amber-700 mt-2 italic">+50% sobre deslocação e mão de obra (noturno/fim de semana). Preço anunciado ao telefone ANTES de sair.</p>
