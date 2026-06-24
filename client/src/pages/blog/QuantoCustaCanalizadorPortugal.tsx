@@ -336,7 +336,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <p className="font-bold text-red-900 mb-2">Serviço Urgente</p>
  <ul className="text-red-800 text-sm space-y-1">
  <li>• Noites, fins de semana, feriados</li>
- <li>• Chegada imediata (A confirmar)</li>
+ <li>• Chegada (a confirmar mediante zona)</li>
  <li>• Preço base + 30-50€</li>
  </ul>
  </div>
@@ -737,7 +737,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
- <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Pressão para Decidir Imediatamente</h3>
+ <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Pressão para Decidir urgentemente</h3>
  <p className="text-red-800 mb-2">
  "Oferta válida só hoje", "preço especial se decidir agora".
  </p>
