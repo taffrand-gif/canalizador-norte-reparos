@@ -14,7 +14,7 @@ function FAQLocal() {
  const localFaqs = isPlumber ? [
  {
  question: 'Existe canalizador disponível em Mirandela ao fim de semana?',
- answer: 'Sim, a Norte Reparos disponibiliza canalizador em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona Atendimento 24h/7d. Tempo de resposta em Mirandela: rápido.'},
+ answer: 'Sim, a Norte Reparos disponibiliza canalizador em Mirandela todos os dias da semana, incluindo sábados, domingos e feriados. O nosso serviço de urgência funciona Atendimento 24h/7d.'},
  {
  question: 'Quanto custa um canalizador em Bragança para desentupimento?',
  answer: 'O preço de um desentupimento em Bragança: sanita 80-120€, lavatório 100€, lava-loiça 110€ (sem IVA). Urgência noturna: +50%. Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
