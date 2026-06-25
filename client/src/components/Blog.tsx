@@ -15,8 +15,8 @@ export default function Blog() {
  readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop'},
  {
- title: 'Como Escolher um Profissional Certificado',
- excerpt: 'Guia completo para escolher um profissionais qualificados e evitar problemas futuros com certificações e garantias.',
+ title: 'Como Escolher um profissional com experiência',
+ excerpt: 'Guia completo para escolher um profissionais com experiência e evitar problemas futuros com certificações e garantias.',
  date: '10 Jan 2026',
  readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop'},

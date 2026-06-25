@@ -98,7 +98,7 @@ const OptimizedServices: React.FC = () => {
  <div className="space-y-3">
  {(serviceFeatures[service as keyof typeof serviceFeatures] || [
  'Equipamento moderno e especializado',
- 'Técnicos certificados e experientes',
+ 'técnicos com experiência e experientes',
  'Garantia em todos os serviços'
  ]).map((feature, idx) => (
  <div key={idx} className="flex items-center gap-2 text-gray-700">

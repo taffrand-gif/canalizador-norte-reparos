@@ -14,7 +14,7 @@ export default function VideoGallery({ category, limit }: VideoGalleryProps) {
  Vídeos Explicativos
  </h2>
  <p className="text-gray-700 mb-8">
- Aprenda com os nossos técnicos profissionais. Dicas, tutoriais e casos reais.
+ Aprenda com os nossos técnicos com experiência. Dicas, tutoriais e casos reais.
  </p>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
  {displayVideos.map((video) => (
