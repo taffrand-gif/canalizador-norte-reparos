@@ -22,7 +22,7 @@ export default function TrustBadges() {
  {
  icon: '🏆',
  title: 'Certificado',
- description: isPlumber ? 'profissionais com experiência' : 'certificação elétrica'},
+ description: isPlumber ? 'Garantia 12 meses por escrito' : 'Garantia 12 meses por escrito'},
  {
  icon: '⚡',
  title: 'Resposta mediante contacto',
