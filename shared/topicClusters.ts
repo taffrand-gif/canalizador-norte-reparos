@@ -68,20 +68,20 @@ export const canalizadorClusters: TopicCluster[] = [
  },
  {
  pillarSlug: 'certificacao-gas',
- pillarTitle: 'Certificação de Gás: Guia Completo DGEG 2026',
+ pillarTitle: 'Certificação de Gás: Guia Completo 2026',
  pillarKeyword: 'certificação gás',
  clusterPages: [
  {
  slug: 'certificado-gas-obrigatorio',
  title: 'Certificado de Gás é Obrigatório? Quando Precisa',
- keywords: ['certificado gás obrigatório', 'certificação DGEG', 'inspeção gás'],
+ keywords: ['certificado gás obrigatório', 'Experiência profissional', 'inspeção gás'],
  targetSnippet: 'Certificado gás obrigatório: Sim, para venda/arrendamento, instalação nova, alteração sistema. Válido 10 anos. Multa sem certificado: €1000-10000.'
  },
  {
  slug: 'custo-certificado-gas',
  title: 'Quanto Custa Certificado de Gás em Portugal 2026',
  keywords: ['custo certificado gás', 'preço certificação', 'orçamento DGEG'],
- targetSnippet: 'Custo certificado gás: €150-300 dependendo complexidade. Inclui inspeção, testes segurança, emissão certificado DGEG. Prazo: 3-5 dias úteis.'
+ targetSnippet: 'Custo certificado gás: €150-300 dependendo complexidade. Inclui inspeção, testes segurança, emissão Profissional. Prazo: 3-5 dias úteis.'
  }
  ]
  }
@@ -104,13 +104,13 @@ export const eletricistaClusters: TopicCluster[] = [
  slug: 'custo-certificado-ited',
  title: 'Quanto Custa Certificado ITED em Portugal 2026',
  keywords: ['custo certificado ITED', 'preço certificação', 'orçamento elétrico'],
- targetSnippet: 'Custo certificado ITED: €200-400 dependendo área e complexidade. Inclui inspeção, testes, termo responsabilidade, registo DGEG. Prazo: 5-7 dias.'
+ targetSnippet: 'Custo certificado ITED: €200-400 dependendo área e complexidade. Inclui inspeção, testes, termo responsabilidade, registo. Prazo: 5-7 dias.'
  },
  {
  slug: 'como-obter-certificado-ited',
  title: 'Como Obter Certificado ITED: Passo a Passo',
  keywords: ['obter certificado ITED', 'processo certificação', 'documentos necessários'],
- targetSnippet: 'Obter certificado ITED: 1) Contactar eletricista certificado 2) Agendar inspeção 3) Corrigir não-conformidades 4) Emissão termo responsabilidade 5) Registo DGEG online'
+ targetSnippet: 'Obter certificado ITED: 1) Contactar eletricista com experiência 2) Agendar inspeção 3) Corrigir não-conformidades 4) Emissão termo responsabilidade 5) Registo online'
  }
  ]
  },
