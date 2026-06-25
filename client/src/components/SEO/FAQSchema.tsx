@@ -66,8 +66,8 @@ export const canalizadorFAQs: FAQ[] = [
  answer: "Instalação de esquentador custa €100 em Bragança (sem o equipamento). Inclui ligação de gás, água e teste de segurança."
  },
  {
- question: "São certificados?",
- answer: "Sim, somos canalizadores certificados com experiência em Trás-os-Montes em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
+ question: "têm experiência?",
+ answer: "Sim, somos canalizadores com experiência com experiência em Trás-os-Montes em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
  },
  {
  question: "Atendem em que cidades?",

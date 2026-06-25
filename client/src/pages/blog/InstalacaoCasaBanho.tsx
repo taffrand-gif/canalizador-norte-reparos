@@ -56,7 +56,7 @@ export default function InstalacaoCasaBanho() {
  "step": [
  { "@type": "HowToStep", "position": 1, "name": "Planeamento e Projeto", "text": "Definir o layout, escolher materiais e sanitários, e obter orçamentos comparativos. Projeto técnico: 200-500€. Duração: 1-2 semanas." },
  { "@type": "HowToStep", "position": 2, "name": "Demolição e Remoção", "text": "Retirar sanitários antigos, azulejos e preparar o espaço para a nova instalação. Custo: 300-600€. Duração: 1-2 dias." },
- { "@type": "HowToStep", "position": 3, "name": "Canalização e Eletricidade", "text": "Instalar tubagens de água e esgoto, pontos elétricos e tomadas. Esta etapa requer canalizador e eletricista certificados. Custo: 800-1.500€. Duração: 2-3 dias." },
+ { "@type": "HowToStep", "position": 3, "name": "Canalização e Eletricidade", "text": "Instalar tubagens de água e esgoto, pontos elétricos e tomadas. Esta etapa requer canalizador e eletricista com experiências. Custo: 800-1.500€. Duração: 2-3 dias." },
  { "@type": "HowToStep", "position": 4, "name": "Impermeabilização", "text": "Aplicar tela impermeável no chão e paredes da zona do duche — etapa crítica para evitar infiltrações. Custo: 200-400€. Duração: 1 dia." },
  { "@type": "HowToStep", "position": 5, "name": "Revestimentos", "text": "Colocar azulejos nas paredes e pavimento, incluindo acabamentos e rejuntes. Custo: 1.000-2.500€. Duração: 3-5 dias." },
  { "@type": "HowToStep", "position": 6, "name": "Instalação de Sanitários", "text": "Montar sanita, lavatório, duche ou banheira, torneiras e acessórios. Custo: 400-800€. Duração: 1-2 dias." }
@@ -72,7 +72,7 @@ export default function InstalacaoCasaBanho() {
  { "@type": "Question", "name": "Quanto tempo demora a instalar uma casa de banho completa?", "acceptedAnswer": { "@type": "Answer", "text": "Uma instalação completa demora tipicamente 10-15 dias de trabalho: planeamento (1-2 semanas), demolição (1-2 dias), canalização e eletricidade (2-3 dias), impermeabilização (1 dia), revestimentos (3-5 dias) e instalação de sanitários (1-2 dias)." } },
  { "@type": "Question", "name": "Quanto custa instalar uma casa de banho completa em Trás-os-Montes em 2026?", "acceptedAnswer": { "@type": "Answer", "text": "O custo total (materiais e mão de obra) varia entre 3.000€ e 7.000€. Projeto: 200-500€, demolição: 300-600€, canalização e eletricidade: 800-1.500€, impermeabilização: 200-400€, revestimentos: 1.000-2.500€, sanitários e torneiras: 400-800€." } },
  { "@type": "Question", "name": "Qual a parte mais crítica na instalação de casa de banho?", "acceptedAnswer": { "@type": "Answer", "text": "A impermeabilização é a etapa mais crítica. Uma falha na tela impermeável do duche pode causar infiltrações nas divisões abaixo, com danos muito mais caros do que o custo da própria impermeabilização (200-400€)." } },
- { "@type": "Question", "name": "Preciso de canalizador profissional para a instalação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, as ligações às tubagens de água e esgoto requerem um canalizador certificado. Em Trás-os-Montes, a Norte Reparos trata de toda a canalização e coordena com o eletricista para a instalação completa." } }
+ { "@type": "Question", "name": "Preciso de canalizador profissional para a instalação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, as ligações às tubagens de água e esgoto requerem um canalizador com experiência. Em Trás-os-Montes, a Norte Reparos trata de toda a canalização e coordena com o eletricista para a instalação completa." } }
  ]
  });
  document.head.appendChild(faqScript);

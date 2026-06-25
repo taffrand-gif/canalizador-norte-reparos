@@ -33,7 +33,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </div>
  <div>
  <p className="font-semibold text-gray-900">Técnico Mendes</p>
- <p className="text-gray-600">Canalizador Certificado com experiência em Trás-os-Montes</p>
+ <p className="text-gray-600">canalizador com experiência com experiência em Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -276,7 +276,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
  <p className="text-gray-700 mb-4">
- <strong>Técnico Mendes</strong> é canalizador certificado com experiência em Trás-os-Montes em Trás-os-Montes. Especialista em deteção e arranjo de fugas de água, já resolveu mais de 800 casos na região, incluindo situações de emergência no inverno.
+ <strong>Técnico Mendes</strong> é canalizador com experiência com experiência em Trás-os-Montes em Trás-os-Montes. Especialista em deteção e arranjo de fugas de água, já resolveu mais de 800 casos na região, incluindo situações de emergência no inverno.
  </p>
  <p className="text-gray-600">Para emergências ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
  </div>

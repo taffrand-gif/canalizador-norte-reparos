@@ -17,10 +17,10 @@ const EsquentadorNaoAquece: React.FC = () => {
         "@type": "FAQPage",
         "url": "https://canalizador-norte-reparos.pt/blog/esquentador-nao-aquece",
         "mainEntity": [
-          {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico certificado (80-150€)."}},
+          {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico com experiência (80-150€)."}},
           {"@type": "Question", "name": "Posso reparar esquentador sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Pode fazer: trocar pilhas, verificar a válvula de gás, limpeza superficial do queimador com experiência. Precisa de técnico: substituição do termopar, reparação da válvula de gás, descalcificação, problemas elétricos."}},
           {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: 60-100€. Substituição do termopar: 80-150€. Descalcificação: 80-150€. Reparação de válvula: 100-200€."}},
-          {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico certificado."}}
+          {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico com experiência."}}
         ]
       }) }} />
  <article className="max-w-4xl mx-auto">
@@ -502,7 +502,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <section id="quando-chamar" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📞 Quando Chamar Técnico</h2>
  <p className="mb-6">
- Algumas situações requerem profissional certificado:
+ Algumas situações requerem profissional com experiência:
  </p>
  <div className="grid md:grid-cols-2 gap-6 mb-8">
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
@@ -624,7 +624,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  </li>
  </ul>
  <p className="text-yellow-700 font-semibold mt-3">
- ⚠️ Se não tem experiência, contacte técnico certificado
+ ⚠️ Se não tem experiência, contacte técnico com experiência
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -683,7 +683,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Esquentador Avariado?</h2>
  <p className="text-xl mb-6">
- Técnicos certificados disponíveis 24h. Reparação rápida e garantida.
+ técnicos com experiência disponíveis 24h. Reparação rápida e garantida.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Especialistas em Esquentadores</h3>

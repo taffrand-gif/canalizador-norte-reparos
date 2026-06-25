@@ -20,7 +20,7 @@ export default function Servicos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, arranjo de fugas, instalação sanitários, aquecimento central. Profissionais certificados, sem compromisso, urgências 24h.');
+ metaDescription.setAttribute('content', 'Serviços completos de canalizador em Trás-os-Montes: desentupimentos, arranjo de fugas, instalação sanitários, aquecimento central. profissionais com experiência, sem compromisso, urgências 24h.');
  }, [config]);
  const servicesDetails = [
  {
@@ -92,7 +92,7 @@ export default function Servicos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Serviços completos de canalização para residências, comércios e indústrias. 
- Profissionais certificados, equipamento moderno e garantia no serviço.
+ profissionais com experiência, equipamento moderno e garantia no serviço.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a

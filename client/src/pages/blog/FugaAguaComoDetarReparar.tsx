@@ -742,7 +742,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Não deixe uma fuga pequena tornar-se num problema caro. Contacte canalizador profissional agora.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
- <h3 className="text-2xl font-bold mb-4">Norte Reparos - Canalizador Certificado</h3>
+ <h3 className="text-2xl font-bold mb-4">Norte Reparos - canalizador com experiência</h3>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>

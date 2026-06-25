@@ -149,7 +149,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  </h1>
  
  <p className="text-xl mb-8">
- Serviços de canalizador certificado em Bragança e arredores. 
+ Serviços de canalizador com experiência em Bragança e arredores. 
  Especialistas em sistema de água e sistemas de aquecimento para a região.
  </p>
  

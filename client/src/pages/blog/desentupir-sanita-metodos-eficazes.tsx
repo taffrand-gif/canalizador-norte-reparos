@@ -404,7 +404,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
  <h3 className="text-3xl font-bold mb-4">Precisa de Ajuda Profissional?</h3>
  <p className="text-lg mb-6 opacity-90 max-w-2xl mx-auto">
- Canalizadores certificados em Bragança, Mirandela, Chaves e toda a região de Trás-os-Montes.
+ canalizadores com experiência em Bragança, Mirandela, Chaves e toda a região de Trás-os-Montes.
  Atendimento 24h/7d para urgências.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">

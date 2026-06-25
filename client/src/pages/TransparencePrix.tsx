@@ -90,7 +90,7 @@ export default function TransparencePrix() {
  const faqPrix = [
  {
  question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
- answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com experiência em Trás-os-Montes, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
+ answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores com experiência com experiência em Trás-os-Montes, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
  },
  {
  question: "O preço final pode ser diferente do orçamento?",
@@ -286,7 +286,7 @@ export default function TransparencePrix() {
  <div className="grid md:grid-cols-2 gap-8">
  <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl border-2 border-blue-200">
  <Award className="w-12 h-12 text-blue-600 mb-4" />
- <h3 className="text-xl font-bold mb-3 text-gray-900">Canalizadores Certificados</h3>
+ <h3 className="text-xl font-bold mb-3 text-gray-900">canalizadores com experiência</h3>
  <p className="text-gray-700 leading-relaxed">
  Todos os nossos técnicos têm experiência em Trás-os-Montes e certificação profissional.
  Formação contínua obrigatória. Não contratamos "ajudantes" sem qualificação.

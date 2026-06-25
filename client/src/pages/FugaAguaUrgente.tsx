@@ -110,7 +110,7 @@ export default function FugaAguaUrgente() {
  {
  time: 'A confirmar',
  title: 'Confirmamos a deslocação por telefone',
- description: 'Técnico certificado chega A confirmar com todas as ferramentas necessárias.',
+ description: 'técnico com experiência chega A confirmar com todas as ferramentas necessárias.',
  icon: 'map'
  },
  {
@@ -210,8 +210,8 @@ export default function FugaAguaUrgente() {
  },
  {
  icon: 'award',
- title: 'Técnicos Certificados',
- description: 'Todos os técnicos são certificados, experientes e com seguro de responsabilidade civil.'
+ title: 'técnicos com experiência',
+ description: 'Todos os técnicos têm experiência, experientes e com seguro de responsabilidade civil.'
  }
  ]}
  />

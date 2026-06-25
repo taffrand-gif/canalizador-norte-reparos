@@ -319,7 +319,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Recomendação:</strong> Contrate técnico certificado | <strong>💰 Custo:</strong> 60-100€
+ <strong>⚠️ Recomendação:</strong> Contrate técnico com experiência | <strong>💰 Custo:</strong> 60-100€
  </p>
  </div>
  </div>
@@ -454,7 +454,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Essencial:</strong> Contrate canalizador certificado | <strong>💰 Custo:</strong> 80-150€
+ <strong>⚠️ Essencial:</strong> Contrate canalizador com experiência | <strong>💰 Custo:</strong> 80-150€
  </p>
  </div>
  </div>
@@ -716,7 +716,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Configure lembretes no telemóvel para cada tarefa</li>
  <li>• Crie pasta com faturas e relatórios de manutenção</li>
  <li>• Tire fotos antes/depois de cada intervenção</li>
- <li>• Mantenha lista de contactos de técnicos certificados</li>
+ <li>• Mantenha lista de contactos de técnicos com experiência</li>
  <li>• Guarde garantias de equipamentos e peças substituídas</li>
  </ul>
  </div>

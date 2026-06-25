@@ -224,7 +224,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border border-gray-200 md:col-span-2">
  <h3 className="font-bold text-gray-900 mb-3">👨‍🔧 Experiência do Profissional</h3>
  <p className="text-gray-700">
- Canalizadores certificados com anos de experiência podem cobrar mais, mas oferecem garantia, 
+ canalizadores com experiência com anos de experiência podem cobrar mais, mas oferecem garantia, 
  conhecimento local (especificidades de Trás-os-Montes) e menor risco de erros que geram custos adicionais.
  </p>
  </div>

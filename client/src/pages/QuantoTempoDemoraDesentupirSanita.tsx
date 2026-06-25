@@ -384,7 +384,7 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
- <span>Trabalhos em conformidade com a DGEG (registo em curso)</span>
+ <span>Trabalhos em conformidade com a (registo em curso)</span>
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />

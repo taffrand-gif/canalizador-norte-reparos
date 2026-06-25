@@ -14,7 +14,7 @@ export default function ReciprocityOffer({
  diagnosis: {
  icon: Gift,
  title: title || 'Diagnóstico Gratuito no Local',
- description: 'Técnico certificado analisa o problema sem compromisso',
+ description: 'técnico com experiência analisa o problema sem compromisso',
  benefits: [
  'Visita gratuita em 24h',
  'Relatório detalhado do problema',

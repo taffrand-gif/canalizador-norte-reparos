@@ -33,7 +33,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  <div>
  <p className="font-semibold text-gray-900">Técnico Mendes</p>
- <p className="text-gray-600">Canalizador Certificado com experiência em Trás-os-Montes</p>
+ <p className="text-gray-600">canalizador com experiência com experiência em Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -186,7 +186,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <section id="profissional" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">5. 👨‍🔧 Instalação Profissional</h2>
  <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8">
- <p className="text-lg text-gray-700 mb-6">Tanto o esquentador como o termoacumulador devem ser instalados por um profissional certificado. Uma instalação incorreta pode causar fugas de gás, fugas de água ou riscos elétricos.</p>
+ <p className="text-lg text-gray-700 mb-6">Tanto o esquentador como o termoacumulador devem ser instalados por um profissional com experiência. Uma instalação incorreta pode causar fugas de gás, fugas de água ou riscos elétricos.</p>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div className="bg-white p-6 rounded-xl">
  <h4 className="font-bold text-gray-900 mb-3">🔥 Instalação Esquentador</h4>
@@ -257,7 +257,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
  <p className="text-gray-700 mb-4">
- <strong>Técnico Mendes</strong> é canalizador certificado com experiência em Trás-os-Montes em Trás-os-Montes. Especialista em instalação e manutenção de sistemas de aquecimento de água, já instalou mais de 400 esquentadores e termoacumuladores na região.
+ <strong>Técnico Mendes</strong> é canalizador com experiência com experiência em Trás-os-Montes em Trás-os-Montes. Especialista em instalação e manutenção de sistemas de aquecimento de água, já instalou mais de 400 esquentadores e termoacumuladores na região.
  </p>
  <p className="text-gray-600">Para questões técnicas ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
  </div>
