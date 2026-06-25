@@ -21,7 +21,7 @@ export default function Certificacoes() {
  Certificações e Garantias
  </h1>
  <p className="text-xl text-red-100">
- Trabalho profissional certificado com garantia de 12 meses.
+ Trabalho profissional com experiência com garantia de 12 meses.
  </p>
  </div>
  </section>
@@ -32,7 +32,7 @@ export default function Certificacoes() {
  <Shield className="h-16 w-16 text-red-600 mx-auto mb-4" />
  <h3 className="font-bold text-xl mb-2">Certificação Profissional</h3>
  <p className="text-gray-600">
- Canalizador certificado com experiência em Trás-os-Montes
+ canalizador com experiência com experiência em Trás-os-Montes
  </p>
  </Card>
  <Card className="p-8 text-center">
@@ -55,7 +55,7 @@ export default function Certificacoes() {
  Serviços de Certificação
  </h2>
  <p className="text-blue-800">
- Todos os nossos trabalhos são certificados e cumprem rigorosamente as normas técnicas portuguesas.
+ Todos os nossos trabalhos têm experiência e cumprem rigorosamente as normas técnicas portuguesas.
  </p>
  </Card>
  </div>

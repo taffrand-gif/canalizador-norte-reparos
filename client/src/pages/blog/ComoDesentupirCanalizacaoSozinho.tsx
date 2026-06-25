@@ -58,7 +58,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </div>
  <div>
  <p className="font-semibold text-gray-900">Equipa Norte Reparos</p>
- <p className="text-gray-600">Canalizadores Certificados | 500+ Intervenções</p>
+ <p className="text-gray-600">canalizadores com experiência | 500+ Intervenções</p>
  </div>
  </div>
  </div>
@@ -536,7 +536,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  Se os métodos caseiros não funcionaram ou o entupimento é grave, contacte um canalizador profissional.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
- <h3 className="text-2xl font-bold mb-4">Norte Reparos - Canalizador Certificado</h3>
+ <h3 className="text-2xl font-bold mb-4">Norte Reparos - canalizador com experiência</h3>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>

@@ -123,7 +123,7 @@ export default function UrgenciaFugaAgua() {
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
  <p className="text-2xl mb-2">⏰</p>
  <p className="font-bold text-lg mb-2 text-gray-900">"Preciso de alguém AGORA!"</p>
- <p className="text-gray-600">Técnico certificado a caminho em minutos. Atendemos Atendimento 24h/7d.</p>
+ <p className="text-gray-600">técnico com experiência a caminho em minutos. Atendemos Atendimento 24h/7d.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
  <p className="text-2xl mb-2">🔧</p>

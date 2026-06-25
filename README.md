@@ -14,7 +14,7 @@ Plateforme multi-sites pour services de plomberie et électricité Atendimento 2
 - **Secteur** : Services électriques
 - **Téléphone** : 928 484 451
 - **Couleur principale** : Orange (#ea580c)
-- **Services** : Substituição Quadro Elétrico, Instalação Tomadas, Arranjo Curto-Circuito, Certificação DGEG
+- **Services** : Substituição Quadro Elétrico, Instalação Tomadas, Arranjo Curto-Circuito, Experiência profissional
 
 ## Design Philosophy : Brutalisme Numérique Fonctionnel
 

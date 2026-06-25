@@ -48,7 +48,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['segurança elétrica', 'quadro elétrico', 'disjuntor', 'perigo'],
  uploadDate: '2026-03-03',
- transcript: 'Atenção a estes sinais de perigo: cheiro a queimado perto do quadro, disjuntores que disparam frequentemente, ruídos estranhos, calor excessivo, fios soltos ou derretidos. Qualquer destes sinais requer intervenção urgente de eletricista certificado. Não tente arranjar sozinho.'
+ transcript: 'Atenção a estes sinais de perigo: cheiro a queimado perto do quadro, disjuntores que disparam frequentemente, ruídos estranhos, calor excessivo, fios soltos ou derretidos. Qualquer destes sinais requer intervenção urgente de eletricista com experiência. Não tente arranjar sozinho.'
  },
  {
  id: 'electrical-safety-overload',
@@ -72,7 +72,7 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['segurança', 'perigos', 'eletricidade', 'prevenção'],
  uploadDate: '2026-03-03',
- transcript: 'NUNCA trabalhe com eletricidade sem desligar disjuntor. NUNCA use ferramentas metálicas sem isolamento. NUNCA ignore cheiro a queimado. NUNCA toque em fios expostos. NUNCA faça arranjos elétricas sem certificação. Eletricidade mata. Chame sempre profissional certificado.'
+ transcript: 'NUNCA trabalhe com eletricidade sem desligar disjuntor. NUNCA use ferramentas metálicas sem isolamento. NUNCA ignore cheiro a queimado. NUNCA toque em fios expostos. NUNCA faça arranjos elétricas sem certificação. Eletricidade mata. Chame sempre profissional com experiência.'
  },
 
  // DIY Prevention (4 videos)

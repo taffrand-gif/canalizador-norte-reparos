@@ -24,7 +24,7 @@ export function TestimonialsSection() {
  <ul className="text-left max-w-2xl mx-auto space-y-3 text-gray-700">
  <li>✅ Há mais de 10 anos a servir Trás-os-Montes</li>
  <li>✅ Garantia 12 meses em todas as intervenções</li>
- <li>✅ Fatura com NIF + seguro RC + fichas DGEG em conformidade</li>
+ <li>✅ Fatura com NIF + seguro RC + fichas em conformidade</li>
  <li>✅ Fala sempre com a mesma pessoa — não um call center</li>
  </ul>
  </div>

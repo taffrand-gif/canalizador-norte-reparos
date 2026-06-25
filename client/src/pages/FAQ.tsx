@@ -85,7 +85,7 @@ export default function FAQPage() {
  answer: "Sim, trabalhamos com equipamento de última geração: câmaras de inspeção Ridgid SeeSnake, máquinas de desentupir K9-102, detetores de fugas por ultrassons, máquinas de soldar PPR, ferramentas específicas para cada intervenção."
  },
  {
- question: "São canalizadores certificados?",
+ question: "São canalizadores com experiência?",
  answer: "Sim, temos certificação profissional e formação contínua. Trabalhamos de acordo com as normas NP EN 806 (instalações de água) e legislação portuguesa. Todos os técnicos têm curso profissional de canalizador."
  },
  {
@@ -114,7 +114,7 @@ export default function FAQPage() {
  <>
  <SEOHead 
  title="Perguntas Frequentes | Norte Reparos | Canalizador Trás-os-Montes"
- description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, arranjo caldeiras, zonas servidas. Canalizador certificado em Bragança."
+ description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, arranjo caldeiras, zonas servidas. canalizador com experiência em Bragança."
  canonical="/faq"
  />
  

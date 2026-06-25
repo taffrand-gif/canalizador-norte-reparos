@@ -16,7 +16,7 @@ interface LikingTechnicianProps {
 export default function LikingTechnician({ technician }: LikingTechnicianProps) {
  const defaultTechnician: Technician = {
  name: 'Cliente',
- role: 'Técnico Certificado',
+ role: 'técnico com experiência',
  experience: 12,
  specialties: ['Fugas de água', 'Aquecimento central', 'Remodelações'],
  rating: 4.9,

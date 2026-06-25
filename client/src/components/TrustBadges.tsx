@@ -22,7 +22,7 @@ export default function TrustBadges() {
  {
  icon: '🏆',
  title: 'Certificado',
- description: isPlumber ? 'Profissionais certificados' : 'certificação elétrica'},
+ description: isPlumber ? 'profissionais com experiência' : 'certificação elétrica'},
  {
  icon: '⚡',
  title: 'Resposta mediante contacto',

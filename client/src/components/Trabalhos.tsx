@@ -68,7 +68,7 @@ function Trabalhos() {
  <div className="aspect-[4/3] overflow-hidden">
  <img
  src={project.image}
- alt={`${project.title} em ${project.location} - Trabalho realizado por canalizador profissional certificado`}
+ alt={`${project.title} em ${project.location} - Trabalho realizado por canalizador profissional com experiência`}
  loading="lazy"
  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
  width="400"
