@@ -12,45 +12,45 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  title="Torneira a Pingar: Como Reparar e Poupar Água [Guia 2026]"
  description="Guia completo para reparar torneira a pingar rapidamente e poupar água"
  >
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Como Reparar Torneira a Pingar",
-        "description": "Guia passo a passo para parar uma torneira a pingar, substituindo a vedação ou cartucho, sem necessidade de canalizador.",
-        "totalTime": "PT40M",
-        "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
-        "step": [
-          {"@type": "HowToStep", "name": "Feche a água no contador ou válvula de seccionamento", "text": "Feche sempre a água antes de abrir qualquer torneira. Encontre a válvula de corte sob o lavatório ou o contador geral."},
-          {"@type": "HowToStep", "name": "Abra a torneira para drenar a pressão restante", "text": "Abra a torneira que vai reparar até não sair mais água. Isto remove a pressão e facilita o desmonte."},
-          {"@type": "HowToStep", "name": "Retire o manípulo ou pega da torneira", "text": "Procure parafuso escondido sob tampa decorativa. Retire com chave Allen ou de fendas. Puxe o manípulo para cima."},
-          {"@type": "HowToStep", "name": "Identifique o tipo de torneira e vedação", "text": "Torneiras monobloco modernas: cartucho cerâmico. Torneiras tradicionais: vedante de borracha. O tipo determina a peça a substituir."},
-          {"@type": "HowToStep", "name": "Substitua a vedação ou cartucho", "text": "Vedante: desaparafuse o obturador, retire a borracha gasta, coloque nova do mesmo tamanho. Cartucho: puxe para fora e encaixe o novo."},
-          {"@type": "HowToStep", "name": "Remonte e teste a torneira", "text": "Remonte em ordem inversa. Aperte sem forçar. Abra lentamente a água no contador e teste. Se ainda pingar, verifique o assento da torneira."}
-        ]
-      }) }} />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
-        "mainEntity": [
-          {"@type": "Question", "name": "Quanto custa reparar uma torneira a pingar?", "acceptedAnswer": {"@type": "Answer", "text": "DIY: 2-5€ em material (junta nova) + 10-30 minutos. Canalizador: 50-80€ (mão de obra + material). Poupança fazendo você mesmo: 45-75€."}},
-          {"@type": "Question", "name": "Troquei a junta mas continua a pingar. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas possíveis: junta mal encaixada (reposicione), tamanho errado da junta (verifique tamanho correto), assento da torneira danificado (precisa polir ou substituir torneira), ou aperto insuficiente."}},
-          {"@type": "Question", "name": "Posso usar cola ou silicone na junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não. A junta encaixa por pressão e não precisa de cola ou silicone. Cola dificulta remoção futura, pode danificar a torneira e não melhora a vedação."}},
-          {"@type": "Question", "name": "Quanto tempo dura uma junta nova?", "acceptedAnswer": {"@type": "Answer", "text": "3-5 anos com uso normal. Fatores que reduzem vida útil: água muito calcária (2-3 anos), uso intensivo (2-4 anos), fecho forçado (1-2 anos), pressão de água alta (2-3 anos)."}},
-          {"@type": "Question", "name": "Todas as torneiras usam a mesma junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não, existem vários tamanhos: 1/2 polegada (12mm) para lavatórios, 3/4 polegada (19mm) para cozinhas, 1 polegada (25mm) para torneiras grandes. Leve a junta velha à loja para confirmar o tamanho correto."}}
-        ]
-      }) }} />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Torneira a Pingar: Como Reparar e Poupar Água",
-        "description": "Como reparar uma torneira a pingar em casa, passo a passo, e parar o desperdício de água.",
-        "author": { "@type": "Organization", "name": "Norte Reparos" },
-        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
-        "datePublished": "2026-06-18",
-        "dateModified": "2026-06-18",
-        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar"
-      }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Reparar Torneira a Pingar",
+ "description": "Guia passo a passo para parar uma torneira a pingar, substituindo a vedação ou cartucho, sem necessidade de canalizador.",
+ "totalTime": "PT40M",
+ "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
+ "step": [
+ {"@type": "HowToStep", "name": "Feche a água no contador ou válvula de seccionamento", "text": "Feche sempre a água antes de abrir qualquer torneira. Encontre a válvula de corte sob o lavatório ou o contador geral."},
+ {"@type": "HowToStep", "name": "Abra a torneira para drenar a pressão restante", "text": "Abra a torneira que vai reparar até não sair mais água. Isto remove a pressão e facilita o desmonte."},
+ {"@type": "HowToStep", "name": "Retire o manípulo ou pega da torneira", "text": "Procure parafuso escondido sob tampa decorativa. Retire com chave Allen ou de fendas. Puxe o manípulo para cima."},
+ {"@type": "HowToStep", "name": "Identifique o tipo de torneira e vedação", "text": "Torneiras monobloco modernas: cartucho cerâmico. Torneiras tradicionais: vedante de borracha. O tipo determina a peça a substituir."},
+ {"@type": "HowToStep", "name": "Substitua a vedação ou cartucho", "text": "Vedante: desaparafuse o obturador, retire a borracha gasta, coloque nova do mesmo tamanho. Cartucho: puxe para fora e encaixe o novo."},
+ {"@type": "HowToStep", "name": "Remonte e teste a torneira", "text": "Remonte em ordem inversa. Aperte sem forçar. Abra lentamente a água no contador e teste. Se ainda pingar, verifique o assento da torneira."}
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
+ "mainEntity": [
+ {"@type": "Question", "name": "Quanto custa reparar uma torneira a pingar?", "acceptedAnswer": {"@type": "Answer", "text": "DIY: 2-5€ em material (junta nova) + 10-30 minutos. Canalizador: 50-80€ (mão de obra + material). Poupança fazendo você mesmo: 45-75€."}},
+ {"@type": "Question", "name": "Troquei a junta mas continua a pingar. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas possíveis: junta mal encaixada (reposicione), tamanho errado da junta (verifique tamanho correto), assento da torneira danificado (precisa polir ou substituir torneira), ou aperto insuficiente."}},
+ {"@type": "Question", "name": "Posso usar cola ou silicone na junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não. A junta encaixa por pressão e não precisa de cola ou silicone. Cola dificulta remoção futura, pode danificar a torneira e não melhora a vedação."}},
+ {"@type": "Question", "name": "Quanto tempo dura uma junta nova?", "acceptedAnswer": {"@type": "Answer", "text": "3-5 anos com uso normal. Fatores que reduzem vida útil: água muito calcária (2-3 anos), uso intensivo (2-4 anos), fecho forçado (1-2 anos), pressão de água alta (2-3 anos)."}},
+ {"@type": "Question", "name": "Todas as torneiras usam a mesma junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não, existem vários tamanhos: 1/2 polegada (12mm) para lavatórios, 3/4 polegada (19mm) para cozinhas, 1 polegada (25mm) para torneiras grandes. Leve a junta velha à loja para confirmar o tamanho correto."}}
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Torneira a Pingar: Como Reparar e Poupar Água",
+ "description": "Como reparar uma torneira a pingar em casa, passo a passo, e parar o desperdício de água.",
+ "author": { "@type": "Organization", "name": "Norte Reparos" },
+ "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+ "datePublished": "2026-06-18",
+ "dateModified": "2026-06-18",
+ "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar"
+ }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -164,7 +164,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div>
  <p className="font-bold text-green-900 mb-3">Materiais:</p>
  <ul className="text-green-800 space-y-2">
- <li>✓ Junta de torneira (2-5€)</li>
+ <li>✓ Junta de torneira (2-5€</li>
  <li>✓ Pano seco</li>
  <li>✓ Balde pequeno</li>
  </ul>
@@ -173,7 +173,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <p className="font-bold text-green-900 mb-3">Ferramentas:</p>
  <ul className="text-green-800 space-y-2">
  <li>✓ Chave inglesa ou alicate</li>
- <li>✓ Chave de fendas (opcional)</li>
+ <li>✓ Chave de fendas (opcional</li>
  </ul>
  </div>
  </div>
@@ -226,7 +226,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  Localize e feche a válvula de água da torneira.
  </p>
  <ul className="text-gray-600 text-sm space-y-2">
- <li>• <strong>Válvula individual:</strong> Debaixo do lavatório/lava-loiça (recomendado)</li>
+ <li>• <strong>Válvula individual:</strong> Debaixo do lavatório/lava-loiça (recomendado</li>
  <li>• <strong>Válvula geral:</strong> Se não houver válvula individual</li>
  <li>• <strong>Como fechar:</strong> Rode no sentido horário até parar</li>
  </ul>
@@ -270,10 +270,10 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Torneira de Rosca (Tradicional):</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
- <li>Retire a tampa decorativa (se houver)</li>
+ <li>Retire a tampa decorativa (se houver</li>
  <li>Desaperte o parafuso central com chave de fendas</li>
  <li>Retire a manípulo</li>
- <li>Desaperte a porca superior com chave inglesa (sentido anti-horário)</li>
+ <li>Desaperte a porca superior com chave inglesa (sentido anti-horário</li>
  <li>Retire o corpo da torneira</li>
  </ol>
  </div>
@@ -329,7 +329,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-2">
  <li>• Certifique-se que junta está limpa e seca</li>
  <li>• Encaixe firmemente no assento</li>
- <li>• Verifique que está bem posicionada (sem dobras)</li>
+ <li>• Verifique que está bem posicionada (sem dobras</li>
  <li>• Não use massa ou cola - junta encaixa por pressão</li>
  </ul>
  </div>
@@ -347,10 +347,10 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  </p>
  <ol className="text-gray-600 text-sm space-y-2 list-decimal pl-4">
  <li>Coloque o corpo da torneira de volta</li>
- <li>Aperte a porca superior com chave inglesa (firme mas sem forçar)</li>
+ <li>Aperte a porca superior com chave inglesa (firme mas sem forçar</li>
  <li>Coloque o manípulo</li>
  <li>Aperte o parafuso central</li>
- <li>Coloque a tampa decorativa (se houver)</li>
+ <li>Coloque a tampa decorativa (se houver</li>
  </ol>
  </div>
  </div>
@@ -412,7 +412,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <p className="font-bold text-green-900 mb-2">✅ Vantagens:</p>
  <ul className="text-green-800 text-sm space-y-1">
  <li>• Muito fácil de reparar</li>
- <li>• Peças baratas (2-5€)</li>
+ <li>• Peças baratas (2-5€</li>
  <li>• Duráveis</li>
  </ul>
  </div>
@@ -434,7 +434,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <p className="font-bold text-yellow-900 mb-2">⚠️ Complexidade:</p>
  <ul className="text-yellow-800 text-sm space-y-1">
  <li>• Mais difícil de reparar</li>
- <li>• Cartucho cerâmico (20-50€)</li>
+ <li>• Cartucho cerâmico (20-50€</li>
  <li>• Requer manual do fabricante</li>
  </ul>
  </div>
@@ -524,7 +524,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Feche completamente e ouça se pinga</li>
- <li>• Verifique debaixo do lavatório (fugas escondidas)</li>
+ <li>• Verifique debaixo do lavatório (fugas escondidas</li>
  <li>• Teste suavidade do fecho</li>
  </ul>
  </div>
@@ -571,7 +571,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <li>• Junta mal encaixada - reposicione</li>
  <li>• Tamanho errado - compre tamanho correto</li>
  <li>• Assento danificado - precisa polir ou substituir torneira</li>
- <li>• Não apertou suficientemente - aperte mais (sem forçar)</li>
+ <li>• Não apertou suficientemente - aperte mais (sem forçar</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -580,10 +580,10 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <strong>3-5 anos</strong> com uso normal. Fatores que reduzem vida útil:
  </p>
  <ul className="text-gray-600 space-y-1 ml-4 mt-2">
- <li>• Água muito calcária (2-3 anos)</li>
- <li>• Uso intensivo (2-4 anos)</li>
- <li>• Fecho forçado (1-2 anos)</li>
- <li>• Pressão alta (2-3 anos)</li>
+ <li>• Água muito calcária (2-3 anos</li>
+ <li>• Uso intensivo (2-4 anos</li>
+ <li>• Fecho forçado (1-2 anos</li>
+ <li>• Pressão alta (2-3 anos</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

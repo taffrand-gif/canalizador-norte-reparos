@@ -12,23 +12,23 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  title="Quanto Custa um Canalizador em Portugal? [Preços 2026]"
  description="Descubra os preços reais de serviços de canalizador em Portugal e como obter o melhor valor"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: reparação simples 50-100€; desentupimento 60-150€; instalação 80-300€; urgência +20-50€; deslocação 30-50€ se não houver trabalho. Os preços variam com a urgência, complexidade e localização.'}},
-    {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-deslocação segundo zona oficial; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
-    {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
-    {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
-    {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
-    {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Profissionais sérios oferecem garantia: reparações 3-6 meses; instalações 6-12 meses; trabalhos complexos até 24 meses. Exija garantia por escrito no orçamento.'}},
-    {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€; cano rebentado 150-400€.'}}
-          ]
-        }) }}
-      />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: reparação simples 50-100€; desentupimento 60-150€; instalação 80-300€; urgência +20-50€; deslocação 30-50€ se não houver trabalho. Os preços variam com a urgência, complexidade e localização.'}},
+ {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-deslocação segundo zona oficial; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
+ {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
+ {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
+ {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
+ {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Profissionais sérios oferecem garantia: reparações 3-6 meses; instalações 6-12 meses; trabalhos complexos até 24 meses. Exija garantia por escrito no orçamento.'}},
+ {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€; cano rebentado 150-400€.'}}
+ ]
+ }) }}
+ />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">
@@ -336,7 +336,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <p className="font-bold text-red-900 mb-2">Serviço Urgente</p>
  <ul className="text-red-800 text-sm space-y-1">
  <li>• Noites, fins de semana, feriados</li>
- <li>• Chegada (a confirmar mediante zona)</li>
+ <li>• Chegada (a confirmar mediante zona</li>
  <li>• Preço base + 30-50€</li>
  </ul>
  </div>
@@ -598,9 +598,9 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  Algumas reparações são fáceis e não requerem profissional.
  </p>
  <ul className="text-gray-600 text-sm space-y-1 mb-3">
- <li>✅ Trocar junta de torneira (5€ vs 60€)</li>
- <li>✅ Substituir válvula de autoclismo (20€ vs 80€)</li>
- <li>✅ Aplicar fita teflon em junta (3€ vs 70€)</li>
+ <li>✅ Trocar junta de torneira (5€ vs 60€</li>
+ <li>✅ Substituir válvula de autoclismo (20€ vs 80€</li>
+ <li>✅ Aplicar fita teflon em junta (3€ vs 70€</li>
  </ul>
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
@@ -647,9 +647,9 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  Muitos profissionais estão dispostos a negociar, especialmente para:
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Trabalhos grandes (desconto 5-15%)</li>
- <li>• Clientes regulares (desconto 10-20%)</li>
- <li>• Pagamento a pronto (desconto 5-10%)</li>
+ <li>• Trabalhos grandes (desconto 5-15%</li>
+ <li>• Clientes regulares (desconto 10-20%</li>
+ <li>• Pagamento a pronto (desconto 5-10%</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
@@ -760,13 +760,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <div className="grid md:grid-cols-2 gap-4">
  <ul className="text-green-800 space-y-2">
  <li>✅ Orçamento detalhado por escrito</li>
- <li>✅ Identificação completa (nome, NIF, morada)</li>
+ <li>✅ Identificação completa (nome, NIF, morada</li>
  <li>✅ Referências verificáveis</li>
  <li>✅ Seguro responsabilidade civil</li>
  </ul>
  <ul className="text-green-800 space-y-2">
- <li>✅ Garantia do trabalho (6-12 meses)</li>
- <li>✅ Pagamento faseado (sinal + final)</li>
+ <li>✅ Garantia do trabalho (6-12 meses</li>
+ <li>✅ Pagamento faseado (sinal + final</li>
  <li>✅ Recibo/fatura oficial</li>
  <li>✅ Avaliações positivas online</li>
  </ul>
@@ -786,7 +786,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Desentupimento: 60-150€</li>
  <li>• Instalação: 80-300€</li>
  <li>• Urgência: +20-50€</li>
- <li>• Deslocação: 30-50€ (se não houver trabalho)</li>
+ <li>• Deslocação: 30-50€ (se não houver trabalho</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -812,7 +812,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>✅ Descrição detalhada do trabalho</li>
  <li>✅ Custo de mão de obra</li>
- <li>✅ Custo de materiais (especificados)</li>
+ <li>✅ Custo de materiais (especificados</li>
  <li>✅ Prazo de execução</li>
  <li>✅ Garantia oferecida</li>
  <li>✅ Forma de pagamento</li>
@@ -873,11 +873,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Sim, em muitos casos:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>✅ Trabalhos grandes (desconto 5-15%)</li>
- <li>✅ Vários serviços juntos (desconto 10-20%)</li>
- <li>✅ Pagamento a pronto (desconto 5-10%)</li>
- <li>✅ Cliente regular (desconto 10-15%)</li>
- <li>✅ Época baixa (desconto 5-10%)</li>
+ <li>✅ Trabalhos grandes (desconto 5-15%</li>
+ <li>✅ Vários serviços juntos (desconto 10-20%</li>
+ <li>✅ Pagamento a pronto (desconto 5-10%</li>
+ <li>✅ Cliente regular (desconto 10-15%</li>
+ <li>✅ Época baixa (desconto 5-10%</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  💡 Não custa nada perguntar: "Consegue fazer melhor preço?"

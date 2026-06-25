@@ -240,7 +240,7 @@ export default function CanalizacaoCasaAntiga() {
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="font-bold text-lg mb-3 text-blue-600">PPR (Polipropileno)</h3>
  <ul className="space-y-2 text-sm text-gray-700 mb-4">
- <li>✅ Muito durável (50+ anos)</li>
+ <li>✅ Muito durável (50+ anos</li>
  <li>✅ Resistente a altas temperaturas</li>
  <li>✅ Não contamina água</li>
  <li>✅ Ideal para água quente</li>

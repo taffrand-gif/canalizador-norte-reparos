@@ -336,7 +336,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  Pode Deitar na Sanita
  </h3>
  <ul className="space-y-2 text-gray-700">
- <li>• Papel higiénico (quantidade moderada)</li>
+ <li>• Papel higiénico (quantidade moderada</li>
  <li>• Dejetos humanos</li>
  <li>• Água</li>
  <li className="text-sm text-gray-500 italic mt-4">Só isto. Nada mais.</li>
@@ -348,7 +348,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  NUNCA Deite na Sanita
  </h3>
  <ul className="space-y-2 text-gray-700">
- <li>• Toalhitas húmidas (mesmo as "biodegradáveis")</li>
+ <li>• Toalhitas húmidas (mesmo as "biodegradáveis"</li>
  <li>• Pensos higiénicos e tampões</li>
  <li>• Preservativos</li>
  <li>• Fio dental</li>

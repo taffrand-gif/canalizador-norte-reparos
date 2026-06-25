@@ -12,22 +12,22 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  title="Fuga de Água: Como Detetar e Reparar Rapidamente"
  description="Guia completo para identificar e resolver fugas de água antes que causem danos graves"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'Como sei se tenho fuga de água escondida em casa?',"acceptedAnswer":{"@type":"Answer","text":'Faça o teste do contador: feche toda a água, anote os números do contador, aguarde 2 horas sem usar água e volte ao contador. Se os números mudaram tem fuga ativa. Outros sinais: conta de água elevada, manchas de humidade, cheiro a mofo, som de água a correr, pressão baixa.'}},
-    {"@type":"Question","name":'Quanto custa reparar uma fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo e localização: torneira a pingar 5-30€ (DIY) ou 50-80€ (profissional); autoclismo 15-30€ (DIY) ou 60-100€ (profissional); junta de cano 2-10€ (DIY) ou 60-120€ (profissional); fuga em parede 150-500€; cano rebentado 200-800€.'}},
-    {"@type":"Question","name":'Uma fuga pequena é urgente ou pode esperar?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre urgente. Fuga pequena torna-se grande rapidamente; o desperdício acumula (200-400€/ano); humidade causa bolor e danos estruturais; reparação precoce é 10x mais barata. Repare nas primeiras 24-48 horas.'}},
-    {"@type":"Question","name":'Posso reparar uma fuga de água sozinho ou preciso de canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Pode reparar sozinho: torneira a pingar (trocar junta), autoclismo a perder água (trocar válvula), junta de cano solta (fita teflon), mangueira flexível rachada. Precisa de canalizador: fuga dentro da parede, cano rebentado ou partido, fuga no esquentador, canalização enterrada, infiltração do andar de cima.'}},
-    {"@type":"Question","name":'Como encontrar uma fuga de água dentro da parede?',"acceptedAnswer":{"@type":"Answer","text":'Métodos profissionais: câmara termográfica (deteta diferenças de temperatura), detetor acústico (amplifica som de água a correr), câmara endoscópica (inserida em pequeno furo) e teste de pressão. Custo de deteção: 120-180€ — evita escavações desnecessárias de 500-1000€.'}},
-    {"@type":"Question","name":'O seguro de casa cobre danos de fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice e causa. Normalmente cobre fugas súbitas e acidentais (cano rebenta). Não cobre falta de manutenção, desgaste gradual ou negligência. Reporte urgentemente (24-48h) e documente com fotos e faturas. Leia a apólice antes de reparar.'}}
-          ]
-        }) }}
-      />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'Como sei se tenho fuga de água escondida em casa?',"acceptedAnswer":{"@type":"Answer","text":'Faça o teste do contador: feche toda a água, anote os números do contador, aguarde 2 horas sem usar água e volte ao contador. Se os números mudaram tem fuga ativa. Outros sinais: conta de água elevada, manchas de humidade, cheiro a mofo, som de água a correr, pressão baixa.'}},
+ {"@type":"Question","name":'Quanto custa reparar uma fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo e localização: torneira a pingar 5-30€ (DIY) ou 50-80€ (profissional); autoclismo 15-30€ (DIY) ou 60-100€ (profissional); junta de cano 2-10€ (DIY) ou 60-120€ (profissional); fuga em parede 150-500€; cano rebentado 200-800€.'}},
+ {"@type":"Question","name":'Uma fuga pequena é urgente ou pode esperar?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre urgente. Fuga pequena torna-se grande rapidamente; o desperdício acumula (200-400€/ano); humidade causa bolor e danos estruturais; reparação precoce é 10x mais barata. Repare nas primeiras 24-48 horas.'}},
+ {"@type":"Question","name":'Posso reparar uma fuga de água sozinho ou preciso de canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Pode reparar sozinho: torneira a pingar (trocar junta), autoclismo a perder água (trocar válvula), junta de cano solta (fita teflon), mangueira flexível rachada. Precisa de canalizador: fuga dentro da parede, cano rebentado ou partido, fuga no esquentador, canalização enterrada, infiltração do andar de cima.'}},
+ {"@type":"Question","name":'Como encontrar uma fuga de água dentro da parede?',"acceptedAnswer":{"@type":"Answer","text":'Métodos profissionais: câmara termográfica (deteta diferenças de temperatura), detetor acústico (amplifica som de água a correr), câmara endoscópica (inserida em pequeno furo) e teste de pressão. Custo de deteção: 120-180€ — evita escavações desnecessárias de 500-1000€.'}},
+ {"@type":"Question","name":'O seguro de casa cobre danos de fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice e causa. Normalmente cobre fugas súbitas e acidentais (cano rebenta). Não cobre falta de manutenção, desgaste gradual ou negligência. Reporte urgentemente (24-48h) e documente com fotos e faturas. Leia a apólice antes de reparar.'}}
+ ]
+ }) }}
+ />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">
@@ -154,7 +154,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Fissuras, rachaduras ou deformações em paredes e tetos.
  </p>
  <ul className="text-pink-700 space-y-1 text-sm">
- <li>• Fissuras nas paredes (especialmente verticais)</li>
+ <li>• Fissuras nas paredes (especialmente verticais</li>
  <li>• Teto a ceder ou deformado</li>
  <li>• Azulejos soltos ou partidos</li>
  <li>• Estrutura comprometida</li>
@@ -188,7 +188,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche todas as torneiras, duches e autoclismos</li>
- <li>Desligue máquinas de lavar (roupa e loiça)</li>
+ <li>Desligue máquinas de lavar (roupa e loiça</li>
  <li>Certifique-se que ninguém usa água durante 2 horas</li>
  <li>Tire foto do contador ou anote os números exatos</li>
  <li>Aguarde 2 horas sem usar água</li>
@@ -215,10 +215,10 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">🚿 Casa de Banho</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Base do autoclismo (junção ao chão)</li>
- <li>• Torneiras (embaixo do lavatório)</li>
- <li>• Duche/banheira (silicone e juntas)</li>
- <li>• Canos visíveis (procure gotas ou humidade)</li>
+ <li>• Base do autoclismo (junção ao chão</li>
+ <li>• Torneiras (embaixo do lavatório</li>
+ <li>• Duche/banheira (silicone e juntas</li>
+ <li>• Canos visíveis (procure gotas ou humidade</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
@@ -226,17 +226,17 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Debaixo do lava-loiça</li>
  <li>• Ligações da máquina de lavar loiça</li>
- <li>• Torneira (base e ligações)</li>
+ <li>• Torneira (base e ligações</li>
  <li>• Canos do sifão</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">🏠 Outras Zonas</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Esquentador (base e ligações)</li>
- <li>• Máquina de lavar roupa (mangueiras)</li>
- <li>• Radiadores (válvulas e juntas)</li>
- <li>• Tetos (manchas castanhas ou amarelas)</li>
+ <li>• Esquentador (base e ligações</li>
+ <li>• Máquina de lavar roupa (mangueiras</li>
+ <li>• Radiadores (válvulas e juntas</li>
+ <li>• Tetos (manchas castanhas ou amarelas</li>
  </ul>
  </div>
  </div>
@@ -275,7 +275,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
  <li>Fechar entrada principal de água</li>
  <li>Ligar manómetro ao sistema</li>
- <li>Pressurizar sistema (3-4 bar)</li>
+ <li>Pressurizar sistema (3-4 bar</li>
  <li>Monitorizar pressão durante A confirmar</li>
  <li>Queda de pressão = fuga confirmada</li>
  </ol>
@@ -296,7 +296,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Vantagens:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>✅ Localização exata da fuga (precisão centimétrica)</li>
+ <li>✅ Localização exata da fuga (precisão centimétrica</li>
  <li>✅ Sem necessidade de escavação exploratória</li>
  <li>✅ Identifica estado geral da canalização</li>
  <li>✅ Grava vídeo para análise</li>
@@ -325,16 +325,16 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Chave inglesa ou alicate</li>
- <li>Junta nova (2-5€ em ferragens)</li>
+ <li>Junta nova (2-5€ em ferragens</li>
  <li>Pano</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Feche a água (válvula debaixo do lavatório ou geral)</li>
+ <li>Feche a água (válvula debaixo do lavatório ou geral</li>
  <li>Abra a torneira para esvaziar água residual</li>
  <li>Desaperte a parte superior da torneira com chave inglesa</li>
- <li>Retire a junta velha (anel de borracha)</li>
- <li>Coloque junta nova (mesmo tamanho)</li>
+ <li>Retire a junta velha (anel de borracha</li>
+ <li>Coloque junta nova (mesmo tamanho</li>
  <li>Aperte novamente a torneira</li>
  <li>Abra a água e teste</li>
  </ol>
@@ -350,7 +350,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Válvula de descarga nova (15-30€)</li>
+ <li>Válvula de descarga nova (15-30€</li>
  <li>Chave inglesa</li>
  <li>Balde</li>
  </ul>
@@ -358,11 +358,11 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche a válvula de entrada do autoclismo</li>
  <li>Puxe o autoclismo para esvaziar</li>
- <li>Desaperte a válvula antiga (gira no sentido anti-horário)</li>
+ <li>Desaperte a válvula antiga (gira no sentido anti-horário</li>
  <li>Retire a válvula velha</li>
- <li>Instale válvula nova (siga instruções da embalagem)</li>
+ <li>Instale válvula nova (siga instruções da embalagem</li>
  <li>Aperte bem para evitar fugas</li>
- <li>Abra a água e ajuste nível (marca indicada no autoclismo)</li>
+ <li>Abra a água e ajuste nível (marca indicada no autoclismo</li>
  <li>Teste com corante (método anterior) para confirmar reparação</li>
  </ol>
  <div className="bg-green-50 p-4 rounded-lg">
@@ -377,19 +377,19 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Fita de teflon (PTFE)</li>
+ <li>Fita de teflon (PTFE</li>
  <li>Chave inglesa</li>
  <li>Pano</li>
  <li>Balde</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Feche a água (válvula geral)</li>
+ <li>Feche a água (válvula geral</li>
  <li>Coloque balde debaixo da junta</li>
  <li>Desaperte a junta com chave inglesa</li>
  <li>Limpe as roscas com pano seco</li>
- <li>Enrole fita de teflon nas roscas (sentido horário, 3-4 voltas)</li>
- <li>Aperte novamente a junta (firme mas sem forçar)</li>
+ <li>Enrole fita de teflon nas roscas (sentido horário, 3-4 voltas</li>
+ <li>Aperte novamente a junta (firme mas sem forçar</li>
  <li>Abra a água gradualmente</li>
  <li>Verifique se há fugas</li>
  </ol>
@@ -405,7 +405,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Mangueira flexível nova (5-15€)</li>
+ <li>Mangueira flexível nova (5-15€</li>
  <li>Chave inglesa</li>
  <li>Balde</li>
  </ul>
@@ -415,7 +415,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>Coloque balde debaixo</li>
  <li>Desaperte as duas pontas da mangueira</li>
  <li>Retire mangueira velha</li>
- <li>Instale mangueira nova (aperte bem ambas as pontas)</li>
+ <li>Instale mangueira nova (aperte bem ambas as pontas</li>
  <li>Abra a água gradualmente</li>
  <li>Verifique se há fugas nas juntas</li>
  </ol>
@@ -427,10 +427,10 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mt-8">
  <h3 className="font-bold text-red-900 mb-3 text-xl">🚨 Quando NÃO Reparar Sozinho</h3>
  <ul className="text-red-800 space-y-2">
- <li>✗ Fuga em canalização principal (dentro da parede)</li>
+ <li>✗ Fuga em canalização principal (dentro da parede</li>
  <li>✗ Cano rebentado ou partido</li>
  <li>✗ Fuga no esquentador ou caldeira</li>
- <li>✗ Infiltração no teto (vem do andar de cima)</li>
+ <li>✗ Infiltração no teto (vem do andar de cima</li>
  <li>✗ Fuga em canalização enterrada</li>
  <li>✗ Pressão de água muito baixa em toda a casa</li>
  </ul>
@@ -490,20 +490,20 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="bg-red-50 p-6 rounded-xl border-2 border-red-200">
  <h3 className="font-bold text-red-900 mb-3 text-xl">💸 Custos Diretos</h3>
  <ul className="space-y-2 text-red-800">
- <li>✗ Conta de água elevada (até +300€/ano)</li>
- <li>✗ Reparação de danos (500-5000€)</li>
- <li>✗ Substituição de pavimentos/azulejos (1000-3000€)</li>
- <li>✗ Tratamento de bolor (200-800€)</li>
- <li>✗ Pintura e reparação de paredes (300-1000€)</li>
+ <li>✗ Conta de água elevada (até +300€/ano</li>
+ <li>✗ Reparação de danos (500-5000€</li>
+ <li>✗ Substituição de pavimentos/azulejos (1000-3000€</li>
+ <li>✗ Tratamento de bolor (200-800€</li>
+ <li>✗ Pintura e reparação de paredes (300-1000€</li>
  </ul>
  </div>
  <div className="bg-orange-50 p-6 rounded-xl border-2 border-orange-200">
  <h3 className="font-bold text-orange-900 mb-3 text-xl">🏚️ Custos Indiretos</h3>
  <ul className="space-y-2 text-orange-800">
- <li>✗ Desvalorização do imóvel (5-15%)</li>
- <li>✗ Problemas de saúde (bolor, humidade)</li>
+ <li>✗ Desvalorização do imóvel (5-15%</li>
+ <li>✗ Problemas de saúde (bolor, humidade</li>
  <li>✗ Danos em móveis e eletrodomésticos</li>
- <li>✗ Aumento de consumo energético (humidade)</li>
+ <li>✗ Aumento de consumo energético (humidade</li>
  <li>✗ Stress e inconveniência</li>
  </ul>
  </div>
@@ -560,7 +560,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Guarde faturas para comparação</li>
  <li>• Tire foto do contador mensalmente</li>
- <li>• Use app da empresa de águas (se disponível)</li>
+ <li>• Use app da empresa de águas (se disponível</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -581,7 +581,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Canos congelados podem rebentar e causar inundações graves.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Isole canos expostos (sótão, garagem, exterior)</li>
+ <li>• Isole canos expostos (sótão, garagem, exterior</li>
  <li>• Deixe torneiras pingar em noites muito frias</li>
  <li>• Mantenha aquecimento mínimo (15°C) se ausente</li>
  <li>• Feche válvula geral se casa vazia no inverno</li>
@@ -594,8 +594,8 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Pressão ideal: 2,5-3,5 bar</li>
- <li>• Instale redutor de pressão se necessário (50-100€)</li>
- <li>• Teste pressão com manómetro (10€ em ferragens)</li>
+ <li>• Instale redutor de pressão se necessário (50-100€</li>
+ <li>• Teste pressão com manómetro (10€ em ferragens</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -606,7 +606,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Verifique silicone de duche/banheira semestralmente</li>
  <li>• Substitua se rachado, preto (bolor) ou solto</li>
- <li>• Use silicone sanitário (anti-fungos)</li>
+ <li>• Use silicone sanitário (anti-fungos</li>
  <li>• Aplicação correta: limpo, seco, contínuo</li>
  </ul>
  </div>
@@ -616,9 +616,9 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Saiba onde estão válvulas e como fechar água em emergência.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Localize válvula geral (normalmente na rua)</li>
- <li>• Identifique válvulas individuais (WC, cozinha, etc.)</li>
- <li>• Teste válvulas anualmente (podem gripar)</li>
+ <li>• Localize válvula geral (normalmente na rua</li>
+ <li>• Identifique válvulas individuais (WC, cozinha, etc.</li>
+ <li>• Teste válvulas anualmente (podem gripar</li>
  <li>• Ensine família a fechar água em emergência</li>
  </ul>
  </div>
@@ -631,7 +631,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>• Inspeção completa: 80-120€</li>
  <li>• Inclui teste de pressão e verificação geral</li>
  <li>• Recomendado para casas com +15 anos</li>
- <li>• Previne reparações caras (ROI 10x)</li>
+ <li>• Previne reparações caras (ROI 10x</li>
  </ul>
  </div>
  </div>
@@ -652,11 +652,11 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar uma fuga de água?</h3>
  <p className="text-gray-700 mb-2">Depende do tipo e localização:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Torneira a pingar: 5-30€ (DIY) ou 50-80€ (profissional)</li>
- <li>• Autoclismo: 15-30€ (DIY) ou 60-100€ (profissional)</li>
- <li>• Junta de cano: 2-10€ (DIY) ou 60-120€ (profissional)</li>
- <li>• Fuga em parede: 150-500€ (requer abertura)</li>
- <li>• Cano rebentado: 200-800€ (substituição)</li>
+ <li>• Torneira a pingar: 5-30€ (DIY) ou 50-80€ (profissional</li>
+ <li>• Autoclismo: 15-30€ (DIY) ou 60-100€ (profissional</li>
+ <li>• Junta de cano: 2-10€ (DIY) ou 60-120€ (profissional</li>
+ <li>• Fuga em parede: 150-500€ (requer abertura</li>
+ <li>• Cano rebentado: 200-800€ (substituição</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -666,7 +666,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>• Fuga pequena torna-se grande rapidamente</li>
- <li>• Desperdício acumula (200-400€/ano)</li>
+ <li>• Desperdício acumula (200-400€/ano</li>
  <li>• Humidade causa bolor e danos estruturais</li>
  <li>• Reparação precoce é 10x mais barata</li>
  </ul>
@@ -678,10 +678,10 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Posso reparar fuga sozinho ou preciso de canalizador?</h3>
  <p className="text-gray-700 mb-2"><strong>Pode reparar sozinho:</strong></p>
  <ul className="text-gray-600 space-y-1 ml-4 mb-3">
- <li>✅ Torneira a pingar (trocar junta)</li>
- <li>✅ Autoclismo a perder água (trocar válvula)</li>
- <li>✅ Junta de cano solta (fita teflon)</li>
- <li>✅ Mangueira flexível rachada (substituir)</li>
+ <li>✅ Torneira a pingar (trocar junta</li>
+ <li>✅ Autoclismo a perder água (trocar válvula</li>
+ <li>✅ Junta de cano solta (fita teflon</li>
+ <li>✅ Mangueira flexível rachada (substituir</li>
  </ul>
  <p className="text-gray-700 mb-2"><strong>Precisa de canalizador:</strong></p>
  <ul className="text-gray-600 space-y-1 ml-4">
@@ -698,7 +698,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Métodos profissionais:
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Câmara termográfica:</strong> Deteta diferenças de temperatura (zona molhada mais fria)</li>
+ <li>• <strong>Câmara termográfica:</strong> Deteta diferenças de temperatura (zona molhada mais fria</li>
  <li>• <strong>Detetor acústico:</strong> Amplifica som de água a correr</li>
  <li>• <strong>Câmara endoscópica:</strong> Insere-se em pequeno furo para ver interior</li>
  <li>• <strong>Teste de pressão:</strong> Identifica zona com perda de pressão</li>
@@ -713,9 +713,9 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <strong>Depende da apólice e causa:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>✅ <strong>Normalmente cobre:</strong> Fuga súbita e acidental (cano rebenta)</li>
+ <li>✅ <strong>Normalmente cobre:</strong> Fuga súbita e acidental (cano rebenta</li>
  <li>✗ <strong>Não cobre:</strong> Falta de manutenção, desgaste gradual, negligência</li>
- <li>⚠️ <strong>Importante:</strong> Reporte urgentemente (24-48h)</li>
+ <li>⚠️ <strong>Importante:</strong> Reporte urgentemente (24-48h</li>
  <li>📸 <strong>Documente:</strong> Fotos, vídeos, faturas de reparação</li>
  </ul>
  <p className="text-blue-700 font-semibold mt-3">

@@ -12,34 +12,34 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  title="Como Desentupir Canalização Sozinho? [Guia Completo 2026]"
  description="Métodos profissionais para resolver entupimentos de canalização sem gastar dinheiro"
  >
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Como Desentupir Canalização Sozinho",
-        "description": "Guia prático para desentupir canalização em casa sem chamar canalizador, com materiais simples e técnicas seguras.",
-        "totalTime": "PT30M",
-        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
-        "step": [
-          {"@type": "HowToStep", "name": "Identifique o tipo e localização do entupimento", "text": "Verifique se é no lavatório, lava-louça, banheira ou escoamento do chão. O entupimento pode estar no sifão ou mais fundo na canalização."},
-          {"@type": "HowToStep", "name": "Tente desentupir com água a ferver", "text": "Ferva água e deite em jatos lentos diretamente no ralo. Água quente dissolve gorduras. Não use em canos de PVC antigos."},
-          {"@type": "HowToStep", "name": "Use a ventosa (desentupidor de borracha)", "text": "Coloque a ventosa sobre o ralo com água suficiente para cobrir a borracha. Faça movimentos de pressão/sucção vigorosos durante 30 segundos."},
-          {"@type": "HowToStep", "name": "Limpe o sifão manualmente", "text": "Coloque balde sob o sifão. Desaparafuse o sifão (maioria é manual). Limpe o interior com uma escova. Recoloque e aperte."},
-          {"@type": "HowToStep", "name": "Use desentupidor de mola (cobra)", "text": "Introduza a mola metálica pelo ralo e rode. Avança e quebra entupimentos mais profundos. Retire lentamente com o entupimento preso."},
-          {"@type": "HowToStep", "name": "Trate com bicarbonato e vinagre", "text": "Deite 200g de bicarbonato no ralo, seguido de 200ml de vinagre branco. Espere 30 minutos e passe água quente para limpar resíduos."},
-          {"@type": "HowToStep", "name": "Se persistir, chame canalizador profissional", "text": "Entupimentos em ramais principais, com mau cheiro de esgoto, ou que voltam sistematicamente, requerem equipamento de alta pressão. Ligue 928 484 451."}
-        ]
-      }) }} />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
-        "mainEntity": [
-          {"@type": "Question", "name": "Posso usar produtos químicos desentupidores?", "acceptedAnswer": {"@type": "Answer", "text": "Não recomendamos. Produtos químicos danificam canos de PVC, são tóxicos e perigosos para a saúde, poluem o ambiente e raramente resolvem entupimentos graves. Alternativa natural e eficaz: bicarbonato + vinagre."}},
-          {"@type": "Question", "name": "O entupimento volta sempre. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas comuns de entupimentos recorrentes: problema na canalização principal (raízes ou cano partido), inclinação insuficiente dos canos, acumulação crónica de gordura, ou sifão mal instalado. Solução definitiva: inspeção com câmara por profissional."}},
-          {"@type": "Question", "name": "Água quente danifica canos?", "acceptedAnswer": {"@type": "Answer", "text": "Depende do material: PVC antigo (20+ anos) pode deformar acima de 80°C, PVC moderno aguenta até 95°C, cobre e metal não têm problema com água fervente. Se os canos tiverem mais de 20 anos, use água morna a 60-70°C."}},
-          {"@type": "Question", "name": "Quando devo chamar canalizador para desentupimento?", "acceptedAnswer": {"@type": "Answer", "text": "Chame um profissional se: os métodos caseiros não resolvem após 2-3 tentativas, o entupimento volta repetidamente, há mau cheiro de esgoto, a água sobe pela sanita ou chão de balneário, ou se suspeitar de cano partido."}}
-        ]
-      }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Desentupir Canalização Sozinho",
+ "description": "Guia prático para desentupir canalização em casa sem chamar canalizador, com materiais simples e técnicas seguras.",
+ "totalTime": "PT30M",
+ "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+ "step": [
+ {"@type": "HowToStep", "name": "Identifique o tipo e localização do entupimento", "text": "Verifique se é no lavatório, lava-louça, banheira ou escoamento do chão. O entupimento pode estar no sifão ou mais fundo na canalização."},
+ {"@type": "HowToStep", "name": "Tente desentupir com água a ferver", "text": "Ferva água e deite em jatos lentos diretamente no ralo. Água quente dissolve gorduras. Não use em canos de PVC antigos."},
+ {"@type": "HowToStep", "name": "Use a ventosa (desentupidor de borracha)", "text": "Coloque a ventosa sobre o ralo com água suficiente para cobrir a borracha. Faça movimentos de pressão/sucção vigorosos durante 30 segundos."},
+ {"@type": "HowToStep", "name": "Limpe o sifão manualmente", "text": "Coloque balde sob o sifão. Desaparafuse o sifão (maioria é manual). Limpe o interior com uma escova. Recoloque e aperte."},
+ {"@type": "HowToStep", "name": "Use desentupidor de mola (cobra)", "text": "Introduza a mola metálica pelo ralo e rode. Avança e quebra entupimentos mais profundos. Retire lentamente com o entupimento preso."},
+ {"@type": "HowToStep", "name": "Trate com bicarbonato e vinagre", "text": "Deite 200g de bicarbonato no ralo, seguido de 200ml de vinagre branco. Espere 30 minutos e passe água quente para limpar resíduos."},
+ {"@type": "HowToStep", "name": "Se persistir, chame canalizador profissional", "text": "Entupimentos em ramais principais, com mau cheiro de esgoto, ou que voltam sistematicamente, requerem equipamento de alta pressão. Ligue 928 484 451."}
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-canalizacao-sozinho",
+ "mainEntity": [
+ {"@type": "Question", "name": "Posso usar produtos químicos desentupidores?", "acceptedAnswer": {"@type": "Answer", "text": "Não recomendamos. Produtos químicos danificam canos de PVC, são tóxicos e perigosos para a saúde, poluem o ambiente e raramente resolvem entupimentos graves. Alternativa natural e eficaz: bicarbonato + vinagre."}},
+ {"@type": "Question", "name": "O entupimento volta sempre. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas comuns de entupimentos recorrentes: problema na canalização principal (raízes ou cano partido), inclinação insuficiente dos canos, acumulação crónica de gordura, ou sifão mal instalado. Solução definitiva: inspeção com câmara por profissional."}},
+ {"@type": "Question", "name": "Água quente danifica canos?", "acceptedAnswer": {"@type": "Answer", "text": "Depende do material: PVC antigo (20+ anos) pode deformar acima de 80°C, PVC moderno aguenta até 95°C, cobre e metal não têm problema com água fervente. Se os canos tiverem mais de 20 anos, use água morna a 60-70°C."}},
+ {"@type": "Question", "name": "Quando devo chamar canalizador para desentupimento?", "acceptedAnswer": {"@type": "Answer", "text": "Chame um profissional se: os métodos caseiros não resolvem após 2-3 tentativas, o entupimento volta repetidamente, há mau cheiro de esgoto, a água sobe pela sanita ou chão de balneário, ou se suspeitar de cano partido."}}
+ ]
+ }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -171,7 +171,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje 200g de bicarbonato de sódio diretamente no ralo</li>
- <li>Adicione 200ml de vinagre branco (vai fazer espuma)</li>
+ <li>Adicione 200ml de vinagre branco (vai fazer espuma</li>
  <li>Tape o ralo mediante confirmação com um pano molhado</li>
  <li>Aguarde alguns minutos para a reação química dissolver resíduos</li>
  <li>Enxague com 2 litros de água quente</li>
@@ -188,7 +188,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
- <li>Ventosa de qualidade (borracha grossa)</li>
+ <li>Ventosa de qualidade (borracha grossa</li>
  <li>Água</li>
  <li>Pano para tapar overflow</li>
  </ul>
@@ -197,7 +197,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>Encha o lavatório ou banheira com 5-10cm de água</li>
  <li>Tape o overflow (buraco superior) com pano molhado</li>
  <li>Coloque a ventosa sobre o ralo, cobrindo completamente</li>
- <li>Faça movimentos rápidos para cima e para baixo (20-30 vezes)</li>
+ <li>Faça movimentos rápidos para cima e para baixo (20-30 vezes</li>
  <li>Retire a ventosa bruscamente</li>
  <li>Repita 3-4 vezes se necessário</li>
  </ol>
@@ -249,10 +249,10 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque o balde debaixo do sifão</li>
- <li>Desaperte as porcas com a chave inglesa (sentido anti-horário)</li>
- <li>Retire o sifão com cuidado (vai sair água suja)</li>
+ <li>Desaperte as porcas com a chave inglesa (sentido anti-horário</li>
+ <li>Retire o sifão com cuidado (vai sair água suja</li>
  <li>Limpe o interior do sifão com escova e água</li>
- <li>Verifique as borrachas de vedação (substitua se danificadas)</li>
+ <li>Verifique as borrachas de vedação (substitua se danificadas</li>
  <li>Volte a montar o sifão, apertando bem as porcas</li>
  <li>Teste com água para verificar se há fugas</li>
  </ol>
@@ -297,7 +297,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div className="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
  <h3 className="font-bold text-blue-900 mb-3 text-xl">🛠️ Falta de Equipamento</h3>
  <ul className="space-y-2 text-blue-800">
- <li>✗ Entupimento profundo (mais de 5 metros)</li>
+ <li>✗ Entupimento profundo (mais de 5 metros</li>
  <li>✗ Necessita câmara de inspeção</li>
  <li>✗ Necessita máquina de alta pressão</li>
  <li>✗ Entupimento na canalização principal</li>
@@ -419,7 +419,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  Use quantidade moderada e nunca deite outros produtos.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Não deite toalhitas (mesmo "biodegradáveis")</li>
+ <li>• Não deite toalhitas (mesmo "biodegradáveis"</li>
  <li>• Não deite pensos ou tampões</li>
  <li>• Não deite cotonetes ou fio dental</li>
  </ul>
@@ -468,7 +468,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <strong>Não recomendamos.</strong> Produtos químicos:
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Danificam canos (especialmente PVC)</li>
+ <li>• Danificam canos (especialmente PVC</li>
  <li>• São tóxicos e perigosos para a saúde</li>
  <li>• Poluem o ambiente</li>
  <li>• Raramente resolvem entupimentos graves</li>
@@ -492,7 +492,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">O entupimento volta sempre. Porquê?</h3>
  <p className="text-gray-700 mb-2">Causas comuns de entupimentos recorrentes:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Problema na canalização principal (raízes, cano partido)</li>
+ <li>• Problema na canalização principal (raízes, cano partido</li>
  <li>• Inclinação insuficiente dos canos</li>
  <li>• Acumulação crónica de gordura</li>
  <li>• Sifão mal instalado ou danificado</li>

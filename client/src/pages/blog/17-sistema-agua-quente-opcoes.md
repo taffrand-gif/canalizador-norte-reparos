@@ -44,7 +44,7 @@ tags: ['água quente', 'sistema', 'económico', 'preços', 'instalação']
 
 **Preços por capacidade:**
 - 30L: €200-€350 + €100-€200 instalação
-- 50L: €300-€500 + €120-€250 instalação  
+- 50L: €300-€500 + €120-€250 instalação 
 - 80L: €400-€700 + €150-€300 instalação
 - 100L: €500-€900 + €180-€350 instalação
 

@@ -12,17 +12,17 @@ const EsquentadorNaoAquece: React.FC = () => {
  title="Esquentador Não Aquece: 7 Causas e Soluções [Guia 2026]"
  description="Guia completo para diagnosticar e resolver problemas de esquentador que não aquece água"
  >
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "url": "https://canalizador-norte-reparos.pt/blog/esquentador-nao-aquece",
-        "mainEntity": [
-          {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico com experiência (80-150€)."}},
-          {"@type": "Question", "name": "Posso reparar esquentador sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Pode fazer: trocar pilhas, verificar a válvula de gás, limpeza superficial do queimador com experiência. Precisa de técnico: substituição do termopar, reparação da válvula de gás, descalcificação, problemas elétricos."}},
-          {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: 60-100€. Substituição do termopar: 80-150€. Descalcificação: 80-150€. Reparação de válvula: 100-200€."}},
-          {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico com experiência."}}
-        ]
-      }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "url": "https://canalizador-norte-reparos.pt/blog/esquentador-nao-aquece",
+ "mainEntity": [
+ {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico com experiência (80-150€)."}},
+ {"@type": "Question", "name": "Posso reparar esquentador sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Pode fazer: trocar pilhas, verificar a válvula de gás, limpeza superficial do queimador com experiência. Precisa de técnico: substituição do termopar, reparação da válvula de gás, descalcificação, problemas elétricos."}},
+ {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: 60-100€. Substituição do termopar: 80-150€. Descalcificação: 80-150€. Reparação de válvula: 100-200€."}},
+ {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico com experiência."}}
+ ]
+ }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -139,10 +139,10 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
- <li>Abra compartimento das pilhas (normalmente na parte inferior)</li>
+ <li>Abra compartimento das pilhas (normalmente na parte inferior</li>
  <li>Retire pilhas velhas</li>
  <li>Limpe contactos com pano seco</li>
- <li>Coloque pilhas novas (tipo D, 1.5V)</li>
+ <li>Coloque pilhas novas (tipo D, 1.5V</li>
  <li>Teste esquentador</li>
  </ol>
  <p className="text-green-700 font-semibold mt-2 text-sm">
@@ -168,13 +168,13 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Fogão também não funciona</li>
  <li>• Ouve faísca mas não acende</li>
  <li>• Válvula de gás fechada</li>
- <li>• Botija vazia (gás engarrafado)</li>
+ <li>• Botija vazia (gás engarrafado</li>
  </ul>
  </div>
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ol className="text-green-800 text-sm space-y-1 list-decimal pl-4">
- <li>Verifique se válvula de gás está aberta (paralela ao tubo = aberta)</li>
+ <li>Verifique se válvula de gás está aberta (paralela ao tubo = aberta</li>
  <li>Se gás engarrafado, verifique se botija tem gás</li>
  <li>Teste fogão para confirmar que há gás</li>
  <li>Se gás canalizado, contacte fornecedor</li>
@@ -229,7 +229,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Chama amarela ou laranja (deve ser azul)</li>
+ <li>• Chama amarela ou laranja (deve ser azul</li>
  <li>• Água aquece pouco</li>
  <li>• Cheiro a gás não queimado</li>
  <li>• Esquentador com mais de 2 anos sem limpeza</li>
@@ -272,7 +272,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Solução:</p>
  <ul className="text-green-800 text-sm space-y-1">
- <li>• Verifique pressão geral da casa (deve ser 2-3 bar)</li>
+ <li>• Verifique pressão geral da casa (deve ser 2-3 bar</li>
  <li>• Limpe filtros de torneiras</li>
  <li>• Verifique se válvula de entrada está totalmente aberta</li>
  <li>• Se problema persiste, contacte empresa de águas</li>
@@ -299,7 +299,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Água aquece mas não fica muito quente</li>
  <li>• Problema piora gradualmente ao longo de meses</li>
- <li>• Zona com água muito dura (calcária)</li>
+ <li>• Zona com água muito dura (calcária</li>
  <li>• Esquentador com mais de 5 anos sem descalcificação</li>
  </ul>
  </div>
@@ -339,7 +339,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Feche gás e água</li>
  <li>Retire painel frontal</li>
  <li>Limpe elétrodos com lixa fina</li>
- <li>Ajuste distância (3-4mm do queimador)</li>
+ <li>Ajuste distância (3-4mm do queimador</li>
  <li>Teste esquentador</li>
  </ol>
  <p className="text-green-700 font-semibold mt-2 text-sm">
@@ -369,11 +369,11 @@ const EsquentadorNaoAquece: React.FC = () => {
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Localize compartimento das pilhas (parte inferior do esquentador)</li>
- <li>Abra tampa (normalmente desliza ou tem parafuso)</li>
+ <li>Localize compartimento das pilhas (parte inferior do esquentador</li>
+ <li>Abra tampa (normalmente desliza ou tem parafuso</li>
  <li>Retire pilhas velhas</li>
- <li>Limpe contactos metálicos com pano seco (remove oxidação)</li>
- <li>Insira pilhas novas respeitando polaridade (+/-)</li>
+ <li>Limpe contactos metálicos com pano seco (remove oxidação</li>
+ <li>Insira pilhas novas respeitando polaridade (+/-</li>
  <li>Feche tampa</li>
  <li>Abra torneira de água quente e teste</li>
  </ol>
@@ -388,7 +388,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Localize válvula de gás (normalmente ao lado do esquentador)</li>
+ <li>Localize válvula de gás (normalmente ao lado do esquentador</li>
  <li>Verifique posição da alavanca:
  <ul className="list-disc pl-6 mt-2 space-y-1 text-sm">
  <li>Paralela ao tubo = ABERTA ✅</li>
@@ -396,7 +396,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  </ul>
  </li>
  <li>Se fechada, rode alavanca 90° para abrir</li>
- <li>Se gás engarrafado, verifique se botija tem gás (agite levemente)</li>
+ <li>Se gás engarrafado, verifique se botija tem gás (agite levemente</li>
  <li>Teste fogão para confirmar que há gás</li>
  <li>Teste esquentador</li>
  </ol>
@@ -413,15 +413,15 @@ const EsquentadorNaoAquece: React.FC = () => {
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Chave de fendas</li>
  <li>Escova macia</li>
- <li>Ar comprimido (opcional)</li>
+ <li>Ar comprimido (opcional</li>
  <li>Pano seco</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche gás e água</li>
  <li>Aguarde alguns minutos para esquentador arrefecer</li>
- <li>Retire painel frontal (normalmente 2-4 parafusos)</li>
- <li>Localize queimador (peça metálica com orifícios)</li>
+ <li>Retire painel frontal (normalmente 2-4 parafusos</li>
+ <li>Localize queimador (peça metálica com orifícios</li>
  <li>Escove suavemente para remover sujidade</li>
  <li>Sopre orifícios com ar comprimido</li>
  <li>Limpe elétrodos com pano seco</li>
@@ -491,7 +491,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  Verifique sinais de problemas uma vez por mês.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Chama deve ser azul (não amarela)</li>
+ <li>• Chama deve ser azul (não amarela</li>
  <li>• Sem fugas de água</li>
  <li>• Sem cheiro anormal a gás</li>
  <li>• Temperatura constante</li>
@@ -511,7 +511,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>✗ Cheiro forte a gás</li>
  <li>✗ Chama amarela ou laranja persistente</li>
  <li>✗ Fumo ou fuligem</li>
- <li>✗ Ruídos estranhos (explosões pequenas)</li>
+ <li>✗ Ruídos estranhos (explosões pequenas</li>
  <li>✗ Fuga de água</li>
  </ul>
  </div>
@@ -573,12 +573,12 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Causas mais comuns (por ordem de frequência):</strong>
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
- <li>Pilhas gastas (40%)</li>
- <li>Gás cortado ou válvula fechada (25%)</li>
- <li>Termopar avariado (15%)</li>
- <li>Queimador sujo (10%)</li>
- <li>Pressão de água baixa (5%)</li>
- <li>Outros (5%)</li>
+ <li>Pilhas gastas (40%</li>
+ <li>Gás cortado ou válvula fechada (25%</li>
+ <li>Termopar avariado (15%</li>
+ <li>Queimador sujo (10%</li>
+ <li>Pressão de água baixa (5%</li>
+ <li>Outros (5%</li>
  </ol>
  <p className="text-cyan-700 font-semibold mt-3">
  💡 Comece por verificar pilhas e gás - resolve 65% dos casos
@@ -656,10 +656,10 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Calendário de manutenção recomendado:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Mensal:</strong> Inspeção visual (chama, fugas, cheiros)</li>
+ <li>• <strong>Mensal:</strong> Inspeção visual (chama, fugas, cheiros</li>
  <li>• <strong>Semestral:</strong> Trocar pilhas</li>
  <li>• <strong>Anual:</strong> Limpeza profissional completa</li>
- <li>• <strong>2-3 anos:</strong> Descalcificação (zonas calcárias)</li>
+ <li>• <strong>2-3 anos:</strong> Descalcificação (zonas calcárias</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -669,7 +669,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>• Esquentador tem mais de 12-15 anos</li>
- <li>• Avarias frequentes (mais de 2-3 por ano)</li>
+ <li>• Avarias frequentes (mais de 2-3 por ano</li>
  <li>• Custo de reparação superior a 50% do preço de novo</li>
  <li>• Consumo excessivo de gás</li>
  <li>• Peças de substituição já não disponíveis</li>

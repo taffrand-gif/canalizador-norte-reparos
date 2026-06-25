@@ -188,7 +188,7 @@ export default function DesentupirWCMetodos() {
  <ul className="space-y-2 text-sm">
  <li className="flex items-center gap-2"><ThumbsUp className="w-4 h-4 text-green-500" /> Gratuito ou muito barato</li>
  <li className="flex items-center gap-2"><ThumbsUp className="w-4 h-4 text-green-500" /> Imediato, sem espera</li>
- <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Eficácia limitada (50-75%)</li>
+ <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Eficácia limitada (50-75%</li>
  <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Não resolve causa raiz</li>
  <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Risco de piorar</li>
  </ul>

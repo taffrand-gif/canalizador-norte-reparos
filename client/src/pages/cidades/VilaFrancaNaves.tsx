@@ -14,224 +14,224 @@ import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
 export default function VilaFrancaNaves() {
-  const { config } = useSite();
+ const { config } = useSite();
 
-  useEffect(() => {
-    document.title = "Canalizador Vila Franca das Naves 💧 24h | 928 484 451";
-    
-    let metaDescription = document.querySelector('meta[name="description"]');
-    if (!metaDescription) {
-      metaDescription = document.createElement('meta');
-      metaDescription.setAttribute('name', 'description');
-      document.head.appendChild(metaDescription);
-    }
-    metaDescription.setAttribute('content', 'Canalizador urgente em Vila Franca das Naves. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ useEffect(() => {
+ document.title = "Canalizador Vila Franca das Naves 💧 24h | 928 484 451";
+ 
+ let metaDescription = document.querySelector('meta[name="description"]');
+ if (!metaDescription) {
+ metaDescription = document.createElement('meta');
+ metaDescription.setAttribute('name', 'description');
+ document.head.appendChild(metaDescription);
+ }
+ metaDescription.setAttribute('content', 'Canalizador urgente em Vila Franca das Naves. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
 
-    let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) {
-      canonical = document.createElement('link');
-      canonical.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonical);
-    }
-    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-franca-das-navas');
+ let canonical = document.querySelector('link[rel="canonical"]');
+ if (!canonical) {
+ canonical = document.createElement('link');
+ canonical.setAttribute('rel', 'canonical');
+ document.head.appendChild(canonical);
+ }
+ canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-franca-das-navas');
 
-    const cityAddress = getCityAddress('vila-franca-das-navas');
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.id = 'schema-vila-franca-das-navas';
-    schemaScript.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Canalizador Profissional — Vila Franca das Naves",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": cityAddress.streetAddress,
-        "addressLocality": cityAddress.addressLocality,
-        "addressRegion": cityAddress.addressRegion,
-        "addressCountry": cityAddress.addressCountry,
-        "postalCode": cityAddress.postalCode
-      },
-      "geo": { "@type": "GeoCoordinates", "latitude": "40.9667", "longitude": "-7.2500" },
-      "telephone": businessInfo.phone,
-      "openingHours": "Mo-Su 00:00-23:59"
-    });
-    document.head.appendChild(schemaScript);
+ const cityAddress = getCityAddress('vila-franca-das-navas');
+ const schemaScript = document.createElement('script');
+ schemaScript.type = 'application/ld+json';
+ schemaScript.id = 'schema-vila-franca-das-navas';
+ schemaScript.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Canalizador Profissional — Vila Franca das Naves",
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": cityAddress.streetAddress,
+ "addressLocality": cityAddress.addressLocality,
+ "addressRegion": cityAddress.addressRegion,
+ "addressCountry": cityAddress.addressCountry,
+ "postalCode": cityAddress.postalCode
+ },
+ "geo": { "@type": "GeoCoordinates", "latitude": "40.9667", "longitude": "-7.2500" },
+ "telephone": businessInfo.phone,
+ "openingHours": "Mo-Su 00:00-23:59"
+ });
+ document.head.appendChild(schemaScript);
 
-    const faqSchema = document.createElement('script');
-    faqSchema.type = 'application/ld+json';
-    faqSchema.setAttribute('data-faq-schema', 'true');
-    faqSchema.text = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-      }))
-    });
-    document.head.appendChild(faqSchema);
+ const faqSchema = document.createElement('script');
+ faqSchema.type = 'application/ld+json';
+ faqSchema.setAttribute('data-faq-schema', 'true');
+ faqSchema.text = JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": faqs.map(faq => ({
+ "@type": "Question",
+ "name": faq.question,
+ "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+ }))
+ });
+ document.head.appendChild(faqSchema);
 
-    return () => {
-      document.head.removeChild(schemaScript);
-      document.head.removeChild(faqSchema);
-    };
-  }, []);
+ return () => {
+ document.head.removeChild(schemaScript);
+ document.head.removeChild(faqSchema);
+ };
+ }, []);
 
-  const cidadesProximas = getCidadesProximas('vila-franca-das-navas');
+ const cidadesProximas = getCidadesProximas('vila-franca-das-navas');
 
-  const faqs = [
-    { question: "Qual o preço de canalizador em Vila Franca das Naves?", answer: "Desde 130€ em Vila Franca das Naves. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
-    { question: "Fazem urgências em Vila Franca das Naves?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vila Franca das Naves. Ligue +351 928 484 451." },
-    { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
-    { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
-    { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
-  ];
+ const faqs = [
+ { question: "Qual o preço de canalizador em Vila Franca das Naves?", answer: "Desde 130€ em Vila Franca das Naves. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Fazem urgências em Vila Franca das Naves?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vila Franca das Naves. Ligue +351 928 484 451." },
+ { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
+ { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
+ { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
+ ];
 
-  return (
-    <>
-      <SEOHeadEnhanced citySlug="vila-franca-das-navas" pageType="city" />
-      <StructuredData />
-      <Header />
-      <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl">
-              <Breadcrumbs items={[
-                { label: 'Canalizador', href: '/' },
-                { label: 'Trás-os-Montes', href: '/tras-os-montes' },
-                { label: 'Vila Franca das Naves', href: '/canalizador-vila-franca-das-navas' }
-              ]} />
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Canalizador Profissional em <span className="text-orange-400">Vila Franca das Naves</span>
-              </h1>
-              <p className="text-xl mb-8">
-                Serviços de canalização certificados em Vila Franca das Naves e arredores.
-                Resolução rápida, preço justo, garantia de 12 meses.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
-                   className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  📞 Canalizador Vila Franca das Naves: {config.phone}
-                </a>
-                <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Franca das Naves`}
-                   target="_blank" rel="noopener noreferrer"
-                   className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                  💬 WhatsApp
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+ return (
+ <>
+ <SEOHeadEnhanced citySlug="vila-franca-das-navas" pageType="city" />
+ <StructuredData />
+ <Header />
+ <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+ <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+ <div className="container mx-auto px-4">
+ <div className="max-w-4xl">
+ <Breadcrumbs items={[
+ { label: 'Canalizador', href: '/' },
+ { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Vila Franca das Naves', href: '/canalizador-vila-franca-das-navas' }
+ ]} />
+ <h1 className="text-4xl md:text-5xl font-bold mb-6">
+ Canalizador Profissional em <span className="text-orange-400">Vila Franca das Naves</span>
+ </h1>
+ <p className="text-xl mb-8">
+ Serviços de canalização certificados em Vila Franca das Naves e arredores.
+ Resolução rápida, preço justo, garantia de 12 meses.
+ </p>
+ <div className="flex flex-col sm:flex-row gap-4">
+ <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
+ className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
+ 📞 Canalizador Vila Franca das Naves: {config.phone}
+ </a>
+ <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Franca das Naves`}
+ target="_blank" rel="noopener noreferrer"
+ className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
+ 💬 WhatsApp
+ </a>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Vila Franca das Naves — Terra da Serra e do Azeite
-            </h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-gray-700 mb-4">
-                Freguesia do conselho de Trancoso com tradição na olivicultura. A Serra da Estrela influencia o clima local.
-              </p>
-              <p className="text-gray-700">
-                Zona agrícola com economia assente na produção de azeite e cereais. Os sistemas de água para irrigação são essenciais.
-              </p>
-            </div>
-          </div>
-        </section>
+ <section className="py-16 bg-white">
+ <div className="container mx-auto px-4">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+ Vila Franca das Naves — Terra da Serra e do Azeite
+ </h2>
+ <div className="max-w-4xl mx-auto">
+ <p className="text-gray-700 mb-4">
+ Freguesia do conselho de Trancoso com tradição na olivicultura. A Serra da Estrela influencia o clima local.
+ </p>
+ <p className="text-gray-700">
+ Zona agrícola com economia assente na produção de azeite e cereais. Os sistemas de água para irrigação são essenciais.
+ </p>
+ </div>
+ </div>
+ </section>
 
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-5xl mx-auto">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                Serviços de Canalização em Vila Franca das Naves
-              </h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
-                  <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
-                  <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
-                  <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
-                </div>
-                <div className="bg-white p-6 rounded-xl shadow-lg">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
-                  <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
-                  <p className="text-blue-600 font-bold mt-3">desde 130€</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+ <section className="py-16">
+ <div className="container mx-auto px-4">
+ <div className="max-w-5xl mx-auto">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+ Serviços de Canalização em Vila Franca das Naves
+ </h2>
+ <div className="grid md:grid-cols-2 gap-6">
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
+ <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos.</p>
+ <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
+ <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
+ <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
+ <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
+ <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
+ <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
+ <p className="text-blue-600 font-bold mt-3">desde 130€</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section className="py-16 bg-blue-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Vila Franca das Naves</h2>
-            <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
-                <p className="text-gray-600">Fatura com NIF, garantia escrita de 12 meses, preço combinado antes da intervenção.</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
-                <p className="text-gray-600">Disponível 24h/7 dias em Vila Franca das Naves. Atendimento 24h para urgências.</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
-                <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>
-                <p className="text-gray-600">Todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+ <section className="py-16 bg-blue-50">
+ <div className="container mx-auto px-4">
+ <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Vila Franca das Naves</h2>
+ <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
+ <p className="text-gray-600">Fatura com NIF, garantia escrita de 12 meses, preço combinado antes da intervenção.</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
+ <p className="text-gray-600">Disponível 24h/7 dias em Vila Franca das Naves. Atendimento 24h para urgências.</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
+ <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
+ </div>
+ <div className="bg-white p-6 rounded-xl shadow-lg">
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>
+ <p className="text-gray-600">Todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.</p>
+ </div>
+ </div>
+ </div>
+ </section>
 
-        <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Vila Franca das Naves</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
-                 className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                📞 {config.phone}
-              </a>
-              <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Franca das Naves`}
-                 target="_blank" rel="noopener noreferrer"
-                 className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
-                💬 WhatsApp
-              </a>
-            </div>
-            <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
-              <p className="text-lg">
-                ⚡ <strong>Precisa de eletricista?</strong> Visite:{' '}
-                <a href="https://eletricista-norte-reparos.pt" className="underline font-bold">
-                  eletricista-norte-reparos.pt
-                </a>
-              </p>
-            </div>
-          </div>
-        </section>
+ <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
+ <div className="container mx-auto px-4 text-center">
+ <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Vila Franca das Naves</span></h2>
+ <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
+ <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+ <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
+ className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
+ 📞 {config.phone}
+ </a>
+ <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Franca das Naves`}
+ target="_blank" rel="noopener noreferrer"
+ className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
+ 💬 WhatsApp
+ </a>
+ </div>
+ <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
+ <p className="text-lg">
+ ⚡ <strong>Precisa de eletricista?</strong> Visite:{' '}
+ <a href="https://eletricista-norte-reparos.pt" className="underline font-bold">
+ eletricista-norte-reparos.pt
+ </a>
+ </p>
+ </div>
+ </div>
+ </section>
 
-        <section className="py-16">
-          <div className="container max-w-4xl">
-            <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Franca das Naves</h2>
-            <FAQSection faqs={faqs} />
-          </div>
-        </section>
+ <section className="py-16">
+ <div className="container max-w-4xl">
+ <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Franca das Naves</h2>
+ <FAQSection faqs={faqs} />
+ </div>
+ </section>
 
-        <CidadesProximas currentCity="Vila Franca das Naves" cidades={cidadesProximas} serviceType="canalizador" />
-        <RelatedCities currentCity="Vila Franca das Naves" currentCitySlug="canalizador-vila-franca-das-navas" />
-      </main>
-      <Footer />
-    </>
-  );
+ <CidadesProximas currentCity="Vila Franca das Naves" cidades={cidadesProximas} serviceType="canalizador" />
+ <RelatedCities currentCity="Vila Franca das Naves" currentCitySlug="canalizador-vila-franca-das-navas" />
+ </main>
+ <Footer />
+ </>
+ );
 }

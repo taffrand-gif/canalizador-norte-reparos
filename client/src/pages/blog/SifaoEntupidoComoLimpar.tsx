@@ -12,44 +12,44 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  title="Sifão Entupido: Como Limpar Corretamente [Guia 2026]"
  description="Guia completo para limpar sifão entupido rapidamente e prevenir futuros entupimentos"
  >
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Como Limpar Sifão Entupido Corretamente",
-        "description": "Guia para limpar sifão entupido em lavatório ou lava-louça, passo a passo, em menos de 10 minutos.",
-        "totalTime": "PT10M",
-        "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
-        "step": [
-          {"@type": "HowToStep", "name": "Prepare o espaço de trabalho", "text": "Coloque um balde ou bacia sob o sifão para recolher a água. Tenha luvas e um pano à mão. Não precisa de ferramentas especiais."},
-          {"@type": "HowToStep", "name": "Rode o sifão para o abrir", "text": "A maioria dos sifões modernos abre à mão, rodando no sentido contrário ao relógio. Se estiver preso, use alicate com pano para proteger."},
-          {"@type": "HowToStep", "name": "Retire o sifão e esvazie o conteúdo", "text": "Deite o conteúdo no balde. Vai encontrar cabelo, resíduos de sabão e gordura — a principal causa dos maus cheiros e entupimentos."},
-          {"@type": "HowToStep", "name": "Limpe o interior com escova", "text": "Use uma escova de garrafas ou palito para limpar o interior do sifão em forma de U. Lave com água quente e detergente."},
-          {"@type": "HowToStep", "name": "Recoloque o sifão com a junta correta", "text": "Verifique se a junta de borracha está em bom estado. Recoloque o sifão e aperte bem à mão. Não force com ferramentas para não danificar a rosca."},
-          {"@type": "HowToStep", "name": "Teste a estanqueidade", "text": "Abra a torneira e deixe correr água durante 1 minuto. Verifique se há fugas nas juntas. Se o sifão tiver rachaduras, substitua por um novo (5-15€)."}
-        ]
-      }) }} />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
-        "mainEntity": [
-          {"@type": "Question", "name": "Sifão continua a cheirar mal após limpeza. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Possíveis causas: água do sifão evaporou (despeje 1 litro), ventilação insuficiente no tubo, junta danificada pelos gases, entupimento mais à frente na canalização principal, ou sifão mal montado. Se persistir, chame canalizador."}},
-          {"@type": "Question", "name": "Quanto custa substituir um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Material (sifão novo): 8-25€. Instalação DIY: 0€. Instalação por canalizador: 40-80€. A substituição DIY é muito fácil e poupa 40-80€ em mão de obra."}},
-          {"@type": "Question", "name": "Posso limpar sifão sem desmontar?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, mas é menos eficaz. Métodos sem desmontagem: água quente com detergente remove gordura leve, bicarbonato + vinagre dissolve resíduos orgânicos, ventosa desaloja bloqueios parciais. A desmontagem é sempre mais eficaz e permite inspeção visual."}},
-          {"@type": "Question", "name": "Quanto tempo demora a limpar um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Com desmontagem completa: 5-10 minutos para sifão simples, 15-20 minutos para sifão com acessórios. Sem desmontagem: 5-15 minutos por método."}}
-        ]
-      }) }} />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Sifão Entupido: Como Limpar Corretamente",
-        "description": "Guia para limpar um sifão entupido em lavatório ou lava-louça, passo a passo, e prevenir maus cheiros.",
-        "author": { "@type": "Organization", "name": "Norte Reparos" },
-        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
-        "datePublished": "2026-06-18",
-        "dateModified": "2026-06-18",
-        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar"
-      }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Limpar Sifão Entupido Corretamente",
+ "description": "Guia para limpar sifão entupido em lavatório ou lava-louça, passo a passo, em menos de 10 minutos.",
+ "totalTime": "PT10M",
+ "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
+ "step": [
+ {"@type": "HowToStep", "name": "Prepare o espaço de trabalho", "text": "Coloque um balde ou bacia sob o sifão para recolher a água. Tenha luvas e um pano à mão. Não precisa de ferramentas especiais."},
+ {"@type": "HowToStep", "name": "Rode o sifão para o abrir", "text": "A maioria dos sifões modernos abre à mão, rodando no sentido contrário ao relógio. Se estiver preso, use alicate com pano para proteger."},
+ {"@type": "HowToStep", "name": "Retire o sifão e esvazie o conteúdo", "text": "Deite o conteúdo no balde. Vai encontrar cabelo, resíduos de sabão e gordura — a principal causa dos maus cheiros e entupimentos."},
+ {"@type": "HowToStep", "name": "Limpe o interior com escova", "text": "Use uma escova de garrafas ou palito para limpar o interior do sifão em forma de U. Lave com água quente e detergente."},
+ {"@type": "HowToStep", "name": "Recoloque o sifão com a junta correta", "text": "Verifique se a junta de borracha está em bom estado. Recoloque o sifão e aperte bem à mão. Não force com ferramentas para não danificar a rosca."},
+ {"@type": "HowToStep", "name": "Teste a estanqueidade", "text": "Abra a torneira e deixe correr água durante 1 minuto. Verifique se há fugas nas juntas. Se o sifão tiver rachaduras, substitua por um novo (5-15€)."}
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
+ "mainEntity": [
+ {"@type": "Question", "name": "Sifão continua a cheirar mal após limpeza. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Possíveis causas: água do sifão evaporou (despeje 1 litro), ventilação insuficiente no tubo, junta danificada pelos gases, entupimento mais à frente na canalização principal, ou sifão mal montado. Se persistir, chame canalizador."}},
+ {"@type": "Question", "name": "Quanto custa substituir um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Material (sifão novo): 8-25€. Instalação DIY: 0€. Instalação por canalizador: 40-80€. A substituição DIY é muito fácil e poupa 40-80€ em mão de obra."}},
+ {"@type": "Question", "name": "Posso limpar sifão sem desmontar?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, mas é menos eficaz. Métodos sem desmontagem: água quente com detergente remove gordura leve, bicarbonato + vinagre dissolve resíduos orgânicos, ventosa desaloja bloqueios parciais. A desmontagem é sempre mais eficaz e permite inspeção visual."}},
+ {"@type": "Question", "name": "Quanto tempo demora a limpar um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Com desmontagem completa: 5-10 minutos para sifão simples, 15-20 minutos para sifão com acessórios. Sem desmontagem: 5-15 minutos por método."}}
+ ]
+ }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Sifão Entupido: Como Limpar Corretamente",
+ "description": "Guia para limpar um sifão entupido em lavatório ou lava-louça, passo a passo, e prevenir maus cheiros.",
+ "author": { "@type": "Organization", "name": "Norte Reparos" },
+ "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+ "datePublished": "2026-06-18",
+ "dateModified": "2026-06-18",
+ "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar"
+ }) }} />
  <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
@@ -189,14 +189,14 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>✓ Escova velha ou escova de dentes</li>
  <li>✓ Detergente da loiça</li>
  <li>✓ Água quente</li>
- <li>✓ Luvas de borracha (opcional)</li>
+ <li>✓ Luvas de borracha (opcional</li>
  </ul>
  </div>
  <div>
  <p className="font-bold text-green-900 mb-3">Ferramentas:</p>
  <ul className="text-green-800 space-y-2">
- <li>✓ Chave inglesa ou alicate (se necessário)</li>
- <li>✓ Lanterna (para ver melhor)</li>
+ <li>✓ Chave inglesa ou alicate (se necessário</li>
+ <li>✓ Lanterna (para ver melhor</li>
  </ul>
  </div>
  </div>
@@ -239,10 +239,10 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-2">
  <li>• Retire todos os objetos de debaixo do lavatório</li>
- <li>• Coloque panos velhos no chão (vai pingar água)</li>
+ <li>• Coloque panos velhos no chão (vai pingar água</li>
  <li>• Coloque balde ou bacia debaixo do sifão</li>
  <li>• Tenha lanterna à mão para ver melhor</li>
- <li>• Vista luvas se preferir (opcional)</li>
+ <li>• Vista luvas se preferir (opcional</li>
  </ul>
  </div>
  </div>
@@ -261,9 +261,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão em U (tradicional):</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
- <li>Localize as duas porcas de aperto (uma de cada lado do U)</li>
+ <li>Localize as duas porcas de aperto (uma de cada lado do U</li>
  <li>Desenrosque à mão no sentido anti-horário</li>
- <li>Se estiver apertado, use chave inglesa (cuidado para não danificar)</li>
+ <li>Se estiver apertado, use chave inglesa (cuidado para não danificar</li>
  <li>Retire o sifão em U completo</li>
  <li>Água vai escorrer - é normal, balde vai apanhar</li>
  </ol>
@@ -271,7 +271,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão garrafa:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
- <li>Localize a base do sifão (parte inferior cilíndrica)</li>
+ <li>Localize a base do sifão (parte inferior cilíndrica</li>
  <li>Desenrosque a base no sentido anti-horário</li>
  <li>Retire a base completamente</li>
  <li>Interior do sifão fica acessível</li>
@@ -280,8 +280,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg">
  <p className="font-bold text-gray-900 mb-2">Sifão de chão:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
- <li>Retire a grelha superior (levante ou desenrosque)</li>
- <li>Retire o copo interior (se houver)</li>
+ <li>Retire a grelha superior (levante ou desenrosque</li>
+ <li>Retire o copo interior (se houver</li>
  <li>Acesso direto ao sifão</li>
  </ol>
  </div>
@@ -307,7 +307,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-2">
  <li>• Esvazie água e resíduos no balde</li>
  <li>• Inspecione o conteúdo: cabelos, gordura, sabão, calcário?</li>
- <li>• Verifique se há objetos sólidos (anéis, brincos, etc.)</li>
+ <li>• Verifique se há objetos sólidos (anéis, brincos, etc.</li>
  <li>• Olhe para dentro dos canos com lanterna</li>
  <li>• Verifique se entupimento está no sifão ou mais à frente</li>
  </ul>
@@ -335,9 +335,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Retire todos os resíduos sólidos (cabelos, gordura) com as mãos</li>
  <li>Lave o sifão com água quente corrente</li>
  <li>Adicione detergente da loiça</li>
- <li>Esfregue interior com escova (chegue a todos os cantos)</li>
- <li>Para gordura persistente: use bicarbonato + vinagre (deixe A confirmar)</li>
- <li>Para calcário: mergulhe em vinagre puro (A confirmar)</li>
+ <li>Esfregue interior com escova (chegue a todos os cantos</li>
+ <li>Para gordura persistente: use bicarbonato + vinagre (deixe A confirmar</li>
+ <li>Para calcário: mergulhe em vinagre puro (A confirmar</li>
  <li>Enxague abundantemente com água quente</li>
  <li>Verifique que está completamente limpo</li>
  </ol>
@@ -363,8 +363,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-2">
  <li>• Retire as juntas de borracha</li>
  <li>• Lave-as com água e detergente</li>
- <li>• Verifique estado: rachadas ou deformadas = substituir (2-3€)</li>
- <li>• Limpe roscas com escova (retire resíduos acumulados)</li>
+ <li>• Verifique estado: rachadas ou deformadas = substituir (2-3€</li>
+ <li>• Limpe roscas com escova (retire resíduos acumulados</li>
  <li>• Seque tudo com pano limpo</li>
  </ul>
  </div>
@@ -383,8 +383,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-2">
  <li>• Olhe para dentro do cano de saída (parede) com lanterna</li>
  <li>• Se vir resíduos, retire com escova ou arame</li>
- <li>• Despeje água quente pelo cano (1-2 litros)</li>
- <li>• Limpe também o cano de entrada (do lavatório)</li>
+ <li>• Despeje água quente pelo cano (1-2 litros</li>
+ <li>• Limpe também o cano de entrada (do lavatório</li>
  <li>• Verifique que água escoa livremente</li>
  </ul>
  </div>
@@ -403,8 +403,8 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ol className="text-gray-600 text-sm space-y-2 list-decimal pl-4">
  <li>Verifique que juntas de borracha estão bem posicionadas</li>
  <li>Encaixe o sifão nos canos</li>
- <li>Aperte as porcas à mão (firme mas sem forçar)</li>
- <li>Não use chave inglesa para apertar (pode rachar)</li>
+ <li>Aperte as porcas à mão (firme mas sem forçar</li>
+ <li>Não use chave inglesa para apertar (pode rachar</li>
  <li>Verifique que tudo está bem alinhado</li>
  </ol>
  </div>
@@ -429,9 +429,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <li>Deixe balde debaixo do sifão</li>
  <li>Abra a torneira lentamente</li>
  <li>Deixe água correr A confirmar</li>
- <li>Verifique todas as junções (não deve pingar)</li>
+ <li>Verifique todas as junções (não deve pingar</li>
  <li>Se pingar: aperte ligeiramente a porca dessa junção</li>
- <li>Encha o lavatório e esvazie de uma vez (teste pressão)</li>
+ <li>Encha o lavatório e esvazie de uma vez (teste pressão</li>
  <li>Verifique novamente todas as junções</li>
  </ol>
  </div>
@@ -447,7 +447,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <h3 className="font-bold text-red-900 mb-3 text-lg">❌ Se Continuar Entupido</h3>
  <p className="text-red-800 mb-3">Possíveis causas:</p>
  <ul className="text-red-700 space-y-2">
- <li>• Entupimento está mais à frente na canalização (não no sifão)</li>
+ <li>• Entupimento está mais à frente na canalização (não no sifão</li>
  <li>• Cano de saída entupido - use mola desentupidora</li>
  <li>• Problema na canalização principal - chame canalizador</li>
  <li>• Inclinação insuficiente dos canos - problema estrutural</li>
@@ -466,7 +466,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="font-bold text-red-900 mb-2">❌ Proibido:</p>
  <ul className="text-red-800 text-sm space-y-1">
- <li>• Cabelos (causa #1 de entupimentos)</li>
+ <li>• Cabelos (causa #1 de entupimentos</li>
  <li>• Restos de comida</li>
  <li>• Óleo e gordura</li>
  <li>• Cotonetes e fio dental</li>
@@ -492,7 +492,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  Grelha retém cabelos e resíduos antes de entrarem no ralo.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Instale grelha em todos os ralos (duche, lavatório, lava-loiça)</li>
+ <li>• Instale grelha em todos os ralos (duche, lavatório, lava-loiça</li>
  <li>• Limpe grelha após cada uso</li>
  <li>• Custo: 2-5€ por grelha</li>
  <li>• Previne 80% dos entupimentos</li>
@@ -506,7 +506,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Dissolve gordura acumulada</li>
  <li>• Previne formação de bloqueios</li>
- <li>• Use água quente (não fervente)</li>
+ <li>• Use água quente (não fervente</li>
  <li>• 2-3 litros por ralo</li>
  </ul>
  </div>
@@ -529,7 +529,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Raspe pratos para o lixo antes de lavar</li>
- <li>• Nunca deite óleo pelo ralo (use garrafa)</li>
+ <li>• Nunca deite óleo pelo ralo (use garrafa</li>
  <li>• Limpe panelas com papel antes de lavar</li>
  <li>• Use água quente ao lavar loiça gordurosa</li>
  </ul>
@@ -598,9 +598,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <strong>Depende do uso:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Lava-loiça (cozinha):</strong> A cada 3 meses (uso intenso)</li>
+ <li>• <strong>Lava-loiça (cozinha):</strong> A cada 3 meses (uso intenso</li>
  <li>• <strong>Lavatório casa de banho:</strong> A cada 6 meses</li>
- <li>• <strong>Duche/banheira:</strong> A cada 6 meses (ou quando escoa lento)</li>
+ <li>• <strong>Duche/banheira:</strong> A cada 6 meses (ou quando escoa lento</li>
  <li>• <strong>Lavatório pouco usado:</strong> Anualmente</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
@@ -630,9 +630,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <strong>Possíveis causas:</strong>
  </p>
  <ul className="text-gray-600 space-y-2 ml-4">
- <li>• <strong>Água evaporou:</strong> Sifão seco (despeje 1 litro de água)</li>
+ <li>• <strong>Água evaporou:</strong> Sifão seco (despeje 1 litro de água</li>
  <li>• <strong>Ventilação insuficiente:</strong> Problema no tubo de ventilação</li>
- <li>• <strong>Junta danificada:</strong> Gases escapam pela junta (substitua)</li>
+ <li>• <strong>Junta danificada:</strong> Gases escapam pela junta (substitua</li>
  <li>• <strong>Entupimento mais à frente:</strong> Problema na canalização principal</li>
  <li>• <strong>Sifão mal montado:</strong> Verifique que está bem apertado</li>
  </ul>
@@ -701,9 +701,9 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  Métodos sem desmontagem:
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Água quente + detergente (remove gordura leve)</li>
- <li>• Bicarbonato + vinagre (dissolve resíduos orgânicos)</li>
- <li>• Ventosa (desaloja bloqueios parciais)</li>
+ <li>• Água quente + detergente (remove gordura leve</li>
+ <li>• Bicarbonato + vinagre (dissolve resíduos orgânicos</li>
+ <li>• Ventosa (desaloja bloqueios parciais</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
  💡 Mas desmontagem é sempre mais eficaz e permite inspeção visual

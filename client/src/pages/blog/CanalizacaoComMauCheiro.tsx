@@ -12,34 +12,34 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  title="Canalização com Mau Cheiro: 6 Soluções Eficazes [2026]"
  description="Guia completo para identificar causas e eliminar mau cheiro da canalização permanentemente"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'Porque é que a minha canalização cheira mal?',"acceptedAnswer":{"@type":"Answer","text":'As 3 causas mais comuns (75% dos casos): sifão seco (40%) — água evaporou, gases do esgoto entram; sifão entupido (25%) — resíduos acumulados apodrecem; ventilação insuficiente (15%) — sistema bloqueado. Teste simples: despeje 1L de água no ralo. Se o cheiro desaparecer era sifão seco.'}},
-    {"@type":"Question","name":'Como eliminar mau cheiro da canalização rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Solução rápida em 4 passos: 1. Despeje 1-2 litros de água no ralo; 2. Se persistir: 100g bicarbonato + 200ml vinagre; 3. Deixe atuar 30 minutos; 4. Enxague com água quente. Resolve 80% dos casos de mau cheiro.'}},
-    {"@type":"Question","name":'Bicarbonato e vinagre realmente funcionam contra o mau cheiro?',"acceptedAnswer":{"@type":"Answer","text":'Sim, é muito eficaz para dissolver gordura acumulada, eliminar biofilme bacteriano e neutralizar odores. Vantagens: ecológico, seguro, barato (2-3€), não danifica canos. Ideal também como limpeza preventiva mensal.'}},
-    {"@type":"Question","name":'Com que frequência devo limpar os sifões?',"acceptedAnswer":{"@type":"Answer","text":'Depende do uso: cozinha (lava-loiça) a cada 3 meses; casa de banho principal e duche/banheira a cada 6 meses; ralos pouco usados anualmente ou quando cheirar. Manutenção preventiva mensal com bicarbonato + vinagre evita limpezas profundas.'}},
-    {"@type":"Question","name":'O mau cheiro na canalização pode ser perigoso para a saúde?',"acceptedAnswer":{"@type":"Answer","text":'Depende da causa. Sifão seco ou entupido: desagradável mas não perigoso em baixa concentração. Odor muito intenso pode indicar metano ou sulfeto de hidrogénio. Emergência se cheirar a gás: abra janelas, não acenda luzes, chame bombeiros. Se o odor causar tonturas ventile bem e chame canalizador urgente.'}},
-    {"@type":"Question","name":'Quanto custa resolver mau cheiro na canalização?',"acceptedAnswer":{"@type":"Answer","text":'Solução DIY com bicarbonato/vinagre: 2-5€. Limpeza de sifão (DIY): 0-5€. Substituição de junta: 2-5€. Canalizador (diagnóstico + limpeza): 60-150€. Reparação estrutural: 200-800€. 90% dos casos resolvem-se com soluções DIY de 0-5€.'}},
-    {"@type":"Question","name":'O cheiro vem de um ralo ou de vários? O que indica?',"acceptedAnswer":{"@type":"Answer","text":'Se vem de apenas 1 ralo é problema local (sifão seco, entupido ou junta danificada) — solução DIY. Se vem de vários ralos é problema na canalização principal ou ventilação — chame canalizador. Se vem de todos os ralos é problema grave (entupimento principal, ventilação bloqueada) — urgente.'}}
-          ]
-        }) }}
-      />
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Canalização com Mau Cheiro: 6 Soluções Eficazes",
-        "description": "Causas e soluções para eliminar o mau cheiro da canalização: sifões secos, ralos, bicarbonato e vinagre, e quando chamar o canalizador.",
-        "author": { "@type": "Organization", "name": "Norte Reparos" },
-        "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
-        "datePublished": "2026-06-18",
-        "dateModified": "2026-06-18",
-        "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/canalizacao-com-mau-cheiro"
-      }) }} />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'Porque é que a minha canalização cheira mal?',"acceptedAnswer":{"@type":"Answer","text":'As 3 causas mais comuns (75% dos casos): sifão seco (40%) — água evaporou, gases do esgoto entram; sifão entupido (25%) — resíduos acumulados apodrecem; ventilação insuficiente (15%) — sistema bloqueado. Teste simples: despeje 1L de água no ralo. Se o cheiro desaparecer era sifão seco.'}},
+ {"@type":"Question","name":'Como eliminar mau cheiro da canalização rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Solução rápida em 4 passos: 1. Despeje 1-2 litros de água no ralo; 2. Se persistir: 100g bicarbonato + 200ml vinagre; 3. Deixe atuar 30 minutos; 4. Enxague com água quente. Resolve 80% dos casos de mau cheiro.'}},
+ {"@type":"Question","name":'Bicarbonato e vinagre realmente funcionam contra o mau cheiro?',"acceptedAnswer":{"@type":"Answer","text":'Sim, é muito eficaz para dissolver gordura acumulada, eliminar biofilme bacteriano e neutralizar odores. Vantagens: ecológico, seguro, barato (2-3€), não danifica canos. Ideal também como limpeza preventiva mensal.'}},
+ {"@type":"Question","name":'Com que frequência devo limpar os sifões?',"acceptedAnswer":{"@type":"Answer","text":'Depende do uso: cozinha (lava-loiça) a cada 3 meses; casa de banho principal e duche/banheira a cada 6 meses; ralos pouco usados anualmente ou quando cheirar. Manutenção preventiva mensal com bicarbonato + vinagre evita limpezas profundas.'}},
+ {"@type":"Question","name":'O mau cheiro na canalização pode ser perigoso para a saúde?',"acceptedAnswer":{"@type":"Answer","text":'Depende da causa. Sifão seco ou entupido: desagradável mas não perigoso em baixa concentração. Odor muito intenso pode indicar metano ou sulfeto de hidrogénio. Emergência se cheirar a gás: abra janelas, não acenda luzes, chame bombeiros. Se o odor causar tonturas ventile bem e chame canalizador urgente.'}},
+ {"@type":"Question","name":'Quanto custa resolver mau cheiro na canalização?',"acceptedAnswer":{"@type":"Answer","text":'Solução DIY com bicarbonato/vinagre: 2-5€. Limpeza de sifão (DIY): 0-5€. Substituição de junta: 2-5€. Canalizador (diagnóstico + limpeza): 60-150€. Reparação estrutural: 200-800€. 90% dos casos resolvem-se com soluções DIY de 0-5€.'}},
+ {"@type":"Question","name":'O cheiro vem de um ralo ou de vários? O que indica?',"acceptedAnswer":{"@type":"Answer","text":'Se vem de apenas 1 ralo é problema local (sifão seco, entupido ou junta danificada) — solução DIY. Se vem de vários ralos é problema na canalização principal ou ventilação — chame canalizador. Se vem de todos os ralos é problema grave (entupimento principal, ventilação bloqueada) — urgente.'}}
+ ]
+ }) }}
+ />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Canalização com Mau Cheiro: 6 Soluções Eficazes",
+ "description": "Causas e soluções para eliminar o mau cheiro da canalização: sifões secos, ralos, bicarbonato e vinagre, e quando chamar o canalizador.",
+ "author": { "@type": "Organization", "name": "Norte Reparos" },
+ "publisher": { "@type": "Organization", "name": "Norte Reparos", "logo": { "@type": "ImageObject", "url": "https://canalizador-norte-reparos.pt/logo.png" } },
+ "datePublished": "2026-06-18",
+ "dateModified": "2026-06-18",
+ "mainEntityOfPage": "https://canalizador-norte-reparos.pt/blog/canalizacao-com-mau-cheiro"
+ }) }} />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-orange-100 text-orange-800 font-semibold rounded-full">
@@ -104,7 +104,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="font-bold text-red-900 mb-2">Quando Acontece:</p>
  <ul className="text-red-800 text-sm space-y-1">
- <li>• Casa de banho pouco usada (férias, quartos vazios)</li>
+ <li>• Casa de banho pouco usada (férias, quartos vazios</li>
  <li>• Clima muito seco ou quente</li>
  <li>• Ralos de chão sem uso regular</li>
  <li>• Após semanas sem usar lavatório</li>
@@ -126,7 +126,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <div className="bg-orange-50 p-4 rounded-lg">
  <p className="font-bold text-orange-900 mb-2">Resíduos Comuns:</p>
  <ul className="text-orange-800 text-sm space-y-1">
- <li>• Cabelos (apodrecem e cheiram mal)</li>
+ <li>• Cabelos (apodrecem e cheiram mal</li>
  <li>• Gordura e restos de comida</li>
  <li>• Sabão e champô acumulados</li>
  <li>• Biofilme bacteriano</li>
@@ -172,7 +172,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ul className="text-blue-800 text-sm space-y-1">
  <li>• Cheiro vem de debaixo do lavatório</li>
  <li>• Pode haver humidade visível</li>
- <li>• Odor constante (não intermitente)</li>
+ <li>• Odor constante (não intermitente</li>
  <li>• Piora quando usa o ralo</li>
  </ul>
  </div>
@@ -370,12 +370,12 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque balde debaixo do sifão</li>
- <li>Desenrosque sifão (normalmente à mão)</li>
+ <li>Desenrosque sifão (normalmente à mão</li>
  <li>Esvazie água e resíduos no balde</li>
  <li>Lave sifão com água quente e escova</li>
  <li>Retire todos os cabelos e gordura acumulados</li>
- <li>Verifique juntas de borracha (substitua se gastas)</li>
- <li>Volte a montar e teste (sem fugas)</li>
+ <li>Verifique juntas de borracha (substitua se gastas</li>
+ <li>Volte a montar e teste (sem fugas</li>
  </ol>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
@@ -400,13 +400,13 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>100g bicarbonato de sódio</li>
  <li>200ml vinagre branco</li>
- <li>2 litros água quente (não fervente)</li>
+ <li>2 litros água quente (não fervente</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje bicarbonato de sódio no ralo</li>
- <li>Adicione vinagre branco (vai fazer espuma - é normal)</li>
- <li>Deixe atuar alguns minutos (reação química dissolve gordura)</li>
+ <li>Adicione vinagre branco (vai fazer espuma - é normal</li>
+ <li>Deixe atuar alguns minutos (reação química dissolve gordura</li>
  <li>Despeje água quente para enxaguar</li>
  <li>Repita se necessário</li>
  </ol>
@@ -431,20 +431,20 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Quando Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Cheiro vem de debaixo do lavatório (não do ralo)</li>
+ <li>Cheiro vem de debaixo do lavatório (não do ralo</li>
  <li>Humidade visível nas juntas</li>
  <li>Junta de borracha rachada ou deformada</li>
  <li>Odor persiste após limpar sifão</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Compre junta nova (leve a antiga para garantir tamanho correto)</li>
+ <li>Compre junta nova (leve a antiga para garantir tamanho correto</li>
  <li>Desmonte sifão</li>
  <li>Retire junta velha</li>
  <li>Limpe bem as roscas</li>
  <li>Coloque junta nova</li>
  <li>Volte a montar sifão</li>
- <li>Teste com água (sem fugas = sucesso)</li>
+ <li>Teste com água (sem fugas = sucesso</li>
  </ol>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
@@ -469,16 +469,16 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Cheiro a mofo ou terra persistente</li>
  <li>Biofilme bacteriano nas paredes dos canos</li>
- <li>Após limpeza mecânica (complemento)</li>
+ <li>Após limpeza mecânica (complemento</li>
  <li>Canos antigos com acumulação</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Compre água oxigenada 10 volumes (farmácia)</li>
+ <li>Compre água oxigenada 10 volumes (farmácia</li>
  <li>Despeje 200ml no ralo</li>
  <li>Deixe atuar 30-alguns minutos</li>
  <li>Enxague com água quente abundante</li>
- <li>Repita semanalmente durante 1 mês (casos graves)</li>
+ <li>Repita semanalmente durante 1 mês (casos graves</li>
  </ol>
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
@@ -509,7 +509,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">O Que o Profissional Faz:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Inspeção com câmara (identifica problema exato)</li>
+ <li>Inspeção com câmara (identifica problema exato</li>
  <li>Desentupimento com mola profissional</li>
  <li>Limpeza com máquina alta pressão</li>
  <li>Reparação de canos rachados</li>
@@ -539,7 +539,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Despeje 1 litro de água semanalmente em ralos pouco usados</li>
  <li>• Casas de banho de hóspedes: use pelo menos 1x por semana</li>
  <li>• Antes de viajar: despeje água em todos os ralos</li>
- <li>• Ralos de chão: não esquecer (garagem, lavandaria)</li>
+ <li>• Ralos de chão: não esquecer (garagem, lavandaria</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -573,7 +573,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Despeje 2-3 litros água quente semanalmente</li>
- <li>• Água quente (não fervente - pode danificar canos PVC)</li>
+ <li>• Água quente (não fervente - pode danificar canos PVC</li>
  <li>• Faça em todos os ralos da casa</li>
  <li>• Melhor momento: após lavar loiça</li>
  </ul>
@@ -608,7 +608,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  Humidade favorece crescimento de bactérias e mofo.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Abra janela após duche (A confirmar)</li>
+ <li>• Abra janela após duche (A confirmar</li>
  <li>• Use extrator de ar se não houver janela</li>
  <li>• Mantenha casa de banho seca</li>
  <li>• Limpe regularmente para evitar mofo</li>
@@ -620,7 +620,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  Desentupidores químicos danificam juntas e canos.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Preferir soluções naturais (bicarbonato, vinagre)</li>
+ <li>• Preferir soluções naturais (bicarbonato, vinagre</li>
  <li>• Químicos corroem juntas de borracha</li>
  <li>• Podem causar fugas a longo prazo</li>
  <li>• Limpeza mecânica é mais eficaz e segura</li>
@@ -647,7 +647,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Inspeção completa da canalização</li>
  <li>• Identifica problemas antes de agravar</li>
  <li>• Limpeza profissional preventiva</li>
- <li>• Custo: 80-120€/ano (poupa milhares em reparações)</li>
+ <li>• Custo: 80-120€/ano (poupa milhares em reparações</li>
  </ul>
  </div>
  </div>
@@ -739,7 +739,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <div className="grid md:grid-cols-2 gap-4">
  <ul className="text-cyan-800 space-y-2">
  <li>• Diagnóstico preciso com equipamento especializado</li>
- <li>• Solução definitiva (não temporária)</li>
+ <li>• Solução definitiva (não temporária</li>
  <li>• Garantia do trabalho realizado</li>
  <li>• Previne agravamento do problema</li>
  </ul>
@@ -822,7 +822,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <strong>Depende do uso:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Cozinha (lava-loiça):</strong> A cada 3 meses (uso intenso)</li>
+ <li>• <strong>Cozinha (lava-loiça):</strong> A cada 3 meses (uso intenso</li>
  <li>• <strong>Casa de banho principal:</strong> A cada 6 meses</li>
  <li>• <strong>Duche/banheira:</strong> A cada 6 meses</li>
  <li>• <strong>Ralos pouco usados:</strong> Anualmente ou quando cheirar</li>
