@@ -124,7 +124,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </header>
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
- <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
+ <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>Preços médios em Bragança 2026:</strong> Sanita 60-120€, lava-loiça 50-100€, canalização principal 120-250€.
  Preço inclui deslocação (até 20km), diagnóstico, mão de obra e equipamento básico.

@@ -41,7 +41,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  "name": "E se a reparação demorar mais do que o previsto?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Avisamos imediatamente, explicamos o motivo (peça especial, dano estrutural, etc.) e damos o novo tempo estimado por escrito. Só continuamos com a sua confirmação."
+ "text": "Avisamos mediante confirmação, explicamos o motivo (peça especial, dano estrutural, etc.) e damos o novo tempo estimado por escrito. Só continuamos com a sua confirmação."
  }
  },
  {
@@ -131,7 +131,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  },
  {
  question: "E se a reparação demorar mais do que o previsto?",
- answer: "Avisamos imediatamente, explicamos o motivo (peça especial, dano estrutural, etc.) e damos o novo tempo estimado por escrito. Só continuamos com a sua confirmação. Sem avançar sem o seu OK."
+ answer: "Avisamos mediante confirmação, explicamos o motivo (peça especial, dano estrutural, etc.) e damos o novo tempo estimado por escrito. Só continuamos com a sua confirmação. Sem avançar sem o seu OK."
  },
  {
  question: "Quanto custa arranjar uma fuga de água?",
@@ -292,7 +292,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  </h2>
  <div className="max-w-4xl mx-auto space-y-4">
  {[
- { step: '1', title: 'Atendimento imediato', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que fazer enquanto o técnico não chega (cortar água no contador, etc.).' },
+ { step: '1', title: 'Atendimento 24h/7d', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que fazer enquanto o técnico não chega (cortar água no contador, etc.).' },
  { step: '2', title: 'Diagnóstico no local', desc: 'Identificamos a fuga com equipamento profissional: câmara termográfica FLIR, deteção acústica ROLeak Aqua 3Plus, câmara de inspeção 30 m. Sem partir o que não é preciso.' },
  { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos a solução, dizemos quanto vai custar e quanto tempo vai demorar. Por escrito. Só começamos depois do seu OK.' },
  { step: '4', title: 'Reparação profissional', desc: 'Trabalhamos com peças de qualidade. Cortamos a água apenas no circuito afetado — não deixa a casa toda sem água.' },

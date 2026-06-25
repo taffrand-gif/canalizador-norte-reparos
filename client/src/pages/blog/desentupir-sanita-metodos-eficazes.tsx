@@ -135,7 +135,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  </header>
  {/* Resposta Direta GEO */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
- <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
+ <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>O método mais eficaz é o desentupidor de borracha (ventosa)</strong> com 75% de sucesso em entupimentos médios.
  Para entupimentos graves ou recorrentes em Bragança e Trás-os-Montes, um canalizador profissional resolve A confirmar

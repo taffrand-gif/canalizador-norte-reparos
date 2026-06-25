@@ -10,7 +10,7 @@ function Urgencia() {
  return (
  <>
  <Helmet>
- <title>Urgência Canalizador 24h | Norte Reparos</title>
+ <title>Urgência Canalizador — Intervenção mediante confirmação 24h | Norte Reparos</title>
  <meta name="description" content="Urgência canalizador 24h em Trás-os-Montes. Fuga de água? Entupimento? Cano rebentado? Atendemos rapidamente. Equipamento profissional. 928 484 451" />
  </Helmet>
  {/* Hero Urgência */}
@@ -184,7 +184,7 @@ function Urgencia() {
  <div className="bg-red-100 rounded-lg p-4 mb-4">
  <p className="text-sm font-bold text-red-900">
  🚨 Feche registo geral<br />
- Ligue IMEDIATAMENTE
+ Ligue mediante confirmação
  </p>
  </div>
  <a

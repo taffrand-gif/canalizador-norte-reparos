@@ -10,7 +10,7 @@ export default function Blog() {
  const articles = [
  {
  title: `5 Sinais de que Precisa de um ${config.serviceType} Urgente`,
- excerpt: `Descubra os principais sinais de alerta que indicam a necessidade de chamar um ${config.serviceType.toLowerCase()} profissional imediatamente.`,
+ excerpt: `Descubra os principais sinais de alerta que indicam a necessidade de chamar um ${config.serviceType.toLowerCase()} profissional mediante confirmação.`,
  date: '15 Jan 2026',
  readTime: '5 min',
  image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop'},

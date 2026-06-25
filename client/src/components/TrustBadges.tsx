@@ -25,7 +25,7 @@ export default function TrustBadges() {
  description: isPlumber ? 'Profissionais certificados' : 'certificação elétrica'},
  {
  icon: '⚡',
- title: 'Resposta Rápida',
+ title: 'Resposta mediante contacto',
  description: 'Menos de 1 hora'},
  {
  icon: '💯',

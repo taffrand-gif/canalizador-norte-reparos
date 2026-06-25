@@ -33,7 +33,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  <div>
  <p className="font-semibold text-gray-900">Técnico Mendes</p>
- <p className="text-gray-600">Canalizador Certificado com 12+ anos de experiência</p>
+ <p className="text-gray-600">Canalizador Certificado com experiência em Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -94,7 +94,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <ul className="space-y-2 text-gray-700">
  <li>• Aquece e armazena água num depósito (30-200L)</li>
  <li>• Funciona a eletricidade (ou solar)</li>
- <li>• Água quente disponível imediatamente</li>
+ <li>• Água quente disponível mediante confirmação</li>
  <li>• Capacidade medida em litros de depósito</li>
  </ul>
  </div>
@@ -257,7 +257,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
  <p className="text-gray-700 mb-4">
- <strong>Técnico Mendes</strong> é canalizador certificado com mais de 12 anos de experiência em Trás-os-Montes. Especialista em instalação e manutenção de sistemas de aquecimento de água, já instalou mais de 400 esquentadores e termoacumuladores na região.
+ <strong>Técnico Mendes</strong> é canalizador certificado com experiência em Trás-os-Montes em Trás-os-Montes. Especialista em instalação e manutenção de sistemas de aquecimento de água, já instalou mais de 400 esquentadores e termoacumuladores na região.
  </p>
  <p className="text-gray-600">Para questões técnicas ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
  </div>

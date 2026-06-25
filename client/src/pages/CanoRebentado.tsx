@@ -27,7 +27,7 @@ export default function CanoRebentado() {
  "name": "O que fazer quando um cano rebenta?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "1) Feche imediatamente a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Paramos a inundação rapidamente."
+ "text": "1) Feche mediante confirmação a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Paramos a inundação rapidamente."
  }
  },
  {
@@ -96,13 +96,13 @@ export default function CanoRebentado() {
  {
  time: 'A confirmar',
  title: 'Liga AGORA',
- description: 'Atendemos imediatamente. Damos instruções para fechar a água e minimizar danos enquanto corremos para aí.',
+ description: 'Atendemos mediante confirmação. Damos instruções para fechar a água e minimizar danos enquanto corremos para aí.',
  icon: 'phone'
  },
  {
  time: 'rapido',
  title: 'Corremos Para Aí',
- description: 'Técnico de emergência sai imediatamente com todas as ferramentas. Rapidez garantida.',
+ description: 'Técnico de emergência sai mediante confirmação com todas as ferramentas. Rapidez garantida.',
  icon: 'map'
  },
  {
@@ -172,7 +172,7 @@ export default function CanoRebentado() {
  name: 'Beatriz Santos',
  city: 'Mogadouro',
  problem: 'Cano rebentado urgente',
- solution: 'Domingo de manhã, cano rebentou na casa de banho. Água por todo o lado. Vieram imediatamente, resolveram tudo. Preço justo. 5 estrelas!',
+ solution: 'Domingo de manhã, cano rebentou na casa de banho. Água por todo o lado. Vieram mediante confirmação, resolveram tudo. Preço justo. 5 estrelas!',
  timeframe: 'A confirmar',
  rating: 5,
  verified: true
@@ -187,8 +187,8 @@ export default function CanoRebentado() {
  guarantees={[
  {
  icon: 'clock',
- title: 'Chegada Rápida',
- description: 'Em emergências, garantimos Disponível 24h/7 dias. Técnico sai imediatamente.'
+ title: 'Confirmação por telefone',
+ description: 'Em emergências, garantimos Disponível 24h/7 dias. Técnico sai mediante confirmação.'
  },
  {
  icon: 'shield',
@@ -217,7 +217,7 @@ export default function CanoRebentado() {
  {[
  {
  q: 'O que fazer quando um cano rebenta?',
- a: '1) FECHE IMEDIATAMENTE a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Paramos a inundação rapidamente.'
+ a: '1) FECHE mediante confirmação a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Paramos a inundação rapidamente.'
  },
  {
  q: 'Quanto custa arranjar um cano rebentado?',

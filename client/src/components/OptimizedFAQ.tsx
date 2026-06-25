@@ -111,7 +111,7 @@ const OptimizedFAQ: React.FC = () => {
  Precisa de ajuda urgente com canalização?
  </h3>
  <p className="text-gray-600 mb-4">
- Não que o problema piore. Contacte-nos agora para atendimento imediato.
+ Não que o problema piore. Contacte-nos agora para Atendimento 24h/7d.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a

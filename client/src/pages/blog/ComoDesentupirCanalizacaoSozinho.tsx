@@ -172,7 +172,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Despeje 200g de bicarbonato de sódio diretamente no ralo</li>
  <li>Adicione 200ml de vinagre branco (vai fazer espuma)</li>
- <li>Tape o ralo imediatamente com um pano molhado</li>
+ <li>Tape o ralo mediante confirmação com um pano molhado</li>
  <li>Aguarde alguns minutos para a reação química dissolver resíduos</li>
  <li>Enxague com 2 litros de água quente</li>
  </ol>

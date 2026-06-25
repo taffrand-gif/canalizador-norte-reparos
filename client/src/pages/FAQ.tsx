@@ -26,7 +26,7 @@ export default function FAQPage() {
  },
  {
  question: "Tem canalizador urgente Atendimento 24h/7d?",
- answer: "Sim! Temos serviço de urgência Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para intervenção imediata."
+ answer: "Sim! Temos serviço de urgência Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para Intervenção mediante confirmação."
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",

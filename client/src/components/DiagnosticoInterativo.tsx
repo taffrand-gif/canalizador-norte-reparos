@@ -137,7 +137,7 @@ export default function DiagnosticoInterativo() {
  </h3>
  <p className="text-gray-700 mb-4">
  {result.urgency === 'urgent'
- ? '⚠️ Situação urgente! Requer intervenção imediata.'
+ ? '⚠️ Situação urgente! Requer Intervenção mediante confirmação.'
  : '✅ Situação controlada. Podemos agendar intervenção.'}
  </p>
  <div className="grid grid-cols-2 gap-4 mb-4">
