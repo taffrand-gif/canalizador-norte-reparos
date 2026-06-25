@@ -55,7 +55,7 @@ export default function FugaAguaEscondidaSinais() {
  descricao: "Aumento súbito de 20-30% na fatura sem mudança de hábitos é o sinal mais claro de fuga escondida.",
  urgencia: "alta",
  detalhes: "Compare as últimas 3-6 faturas. Se o consumo subiu sem razão aparente (não tem visitas, não encheu piscina, não mudou hábitos), há uma fuga ativa.",
- acao: "Faça o teste do contador (explicado abaixo). Se confirmar fuga, ligue imediatamente."
+ acao: "Faça o teste do contador (explicado abaixo). Se confirmar fuga, ligue mediante confirmação."
  },
  {
  numero: 2,
@@ -63,7 +63,7 @@ export default function FugaAguaEscondidaSinais() {
  descricao: "O teste mais definitivo: feche todas as torneiras e verifique o contador. Se roda, há fuga.",
  urgencia: "critica",
  detalhes: "Este é o teste mais fiável. Com tudo fechado, o contador não deve mexer nem 1 dígito. Se roda, mesmo devagar, está a perder água constantemente.",
- acao: "URGENTE: Feche a torneira geral e contacte um canalizador imediatamente."
+ acao: "URGENTE: Feche a torneira geral e contacte um canalizador mediante confirmação."
  },
  {
  numero: 3,
@@ -138,7 +138,7 @@ export default function FugaAguaEscondidaSinais() {
  </header>
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
- <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
+ <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>Os 3 sinais mais claros de fuga escondida são:</strong> conta de água 20-30% mais alta sem razão,
  contador a rodar com tudo fechado, e som de água a correr. <strong>Teste simples:</strong> feche todas as torneiras,

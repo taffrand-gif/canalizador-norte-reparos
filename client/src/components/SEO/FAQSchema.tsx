@@ -67,7 +67,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "São certificados?",
- answer: "Sim, somos canalizadores certificados com mais de 10 anos de experiência em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
+ answer: "Sim, somos canalizadores certificados com experiência em Trás-os-Montes em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
  },
  {
  question: "Atendem em que cidades?",
@@ -75,7 +75,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos imediatamente: 928 484 451. Disponível 24h/7 dias."
+ answer: "1) Feche a torneira de segurança principal 2) Desligue a eletricidade se houver água perto de tomadas 3) Ligue-nos mediante confirmação: 928 484 451. Disponível 24h/7 dias."
  },
  {
  question: "Fazem reparações em domingo?",

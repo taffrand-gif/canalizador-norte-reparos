@@ -455,7 +455,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre a Autora</h3>
  <p className="text-gray-700 mb-4">
- <strong>Ana Rodrigues</strong> é especialista em orçamentos de canalização com mais de 8 anos de experiência 
+ <strong>Ana Rodrigues</strong> é especialista em orçamentos de canalização com experiência em Trás-os-Montes 
  na região de Trás-os-Montes. Já analisou mais de 1. a obter 
  preços justos e transparentes. É defensora da transparência total nos preços e da educação do consumidor.
  </p>

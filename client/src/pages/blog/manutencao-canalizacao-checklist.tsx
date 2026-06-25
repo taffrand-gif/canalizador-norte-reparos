@@ -101,7 +101,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  </header>
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
- <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
+ <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>Manutenção ideal:</strong> Mensal (limpar ralos, verificar torneiras - A confirmar),
  Trimestral (limpar sifões, verificar pressão - 1h), Anual (inspeção profissional - 80-120€).
@@ -405,7 +405,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  </ul>
  <div className="mt-6 bg-white rounded-lg p-4">
  <p className="font-bold text-gray-900">
- ⚠️ Se detetar qualquer destes sinais, não pela manutenção anual. Contacte um canalizador imediatamente.
+ ⚠️ Se detetar qualquer destes sinais, não pela manutenção anual. Contacte um canalizador mediante confirmação.
  </p>
  </div>
  </div>

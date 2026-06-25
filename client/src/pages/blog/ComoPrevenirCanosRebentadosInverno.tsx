@@ -888,7 +888,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegada Rápida</p>
+ <p className="font-bold">Confirmação por telefone</p>
  <p className="text-sm text-white/80">A confirmar em emergências</p>
  </div>
  </div>

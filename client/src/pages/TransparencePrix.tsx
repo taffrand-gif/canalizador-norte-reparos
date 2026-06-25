@@ -90,7 +90,7 @@ export default function TransparencePrix() {
  const faqPrix = [
  {
  question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
- answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com 15+ anos de experiência, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
+ answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores certificados com experiência em Trás-os-Montes, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
  },
  {
  question: "O preço final pode ser diferente do orçamento?",
@@ -102,7 +102,7 @@ export default function TransparencePrix() {
  },
  {
  question: "A deslocação está incluída no preço?",
- answer: "Não. A deslocação é cobrada à parte conforme a zona: Zona 1 (Macedo, Mirandela) = 15€, Zona 2 (Bragança, Vinhais) = 20€, Zona 3 (Vila Real, Chaves) = 30€. Este valor cobre apenas o gasóleo e desgaste da carrinha. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
+ answer: "Não. A deslocação é cobrada à parte conforme a zona: Zona 1 = 15€, Zona 2 = 25€, Zona 3 = 35€. Este valor cobre apenas o gasóleo e desgaste da carrinha. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
  },
  {
  question: "Oferecem desconto para clientes regulares?",
@@ -114,14 +114,14 @@ export default function TransparencePrix() {
  },
  {
  question: "Porque devo escolher-vos em vez de um canalizador mais barato?",
- answer: "Porque valorizamos a sua segurança e paz de espírito. Um canalizador barato pode: usar materiais de baixa qualidade que falham rapidamente, não ter seguro (se causar danos por infiltração, o problema é seu), não ter equipamento adequado (desentupimentos 'à sorte'), desaparecer quando há problemas. Nós somos uma empresa estabelecida há 15 anos, com 600+ clientes, seguro de responsabilidade civil, e garantia real. O barato sai caro."
+ answer: "Porque valorizamos a sua segurança e paz de espírito. Um canalizador barato pode: usar materiais de baixa qualidade que falham rapidamente, não ter seguro (se causar danos por infiltração, o problema é seu), não ter equipamento adequado (desentupimentos 'à sorte'), desaparecer quando há problemas. Nós somos uma empresa estabelecida há 15 anos, com clientes em Trás-os-Montes, seguro de responsabilidade civil, e garantia real. O barato sai caro."
  }
  ];
  return (
  <>
  <SEOHead
- title={`Transparência de Preços - O ÚNICO Canalizador de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
- description="Somos o ÚNICO canalizador em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
+ title={`Transparência de Preços - Um canalizador profissional de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
+ description="Somos Um canalizador profissional em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
  />
  <Header />
  <main>
@@ -288,7 +288,7 @@ export default function TransparencePrix() {
  <Award className="w-12 h-12 text-blue-600 mb-4" />
  <h3 className="text-xl font-bold mb-3 text-gray-900">Canalizadores Certificados</h3>
  <p className="text-gray-700 leading-relaxed">
- Todos os nossos técnicos têm 15+ anos de experiência e certificação profissional.
+ Todos os nossos técnicos têm experiência em Trás-os-Montes e certificação profissional.
  Formação contínua obrigatória. Não contratamos "ajudantes" sem qualificação.
  </p>
  </div>

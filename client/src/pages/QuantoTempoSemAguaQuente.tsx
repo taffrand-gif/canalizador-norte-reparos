@@ -363,7 +363,7 @@ export default function QuantoTempoSemAguaQuente() {
  </h2>
  <div className="max-w-4xl mx-auto space-y-4">
  {[
- { step: '1', title: 'Atendimento imediato', desc: 'Atendemos a chamada ou WhatsApp. Em caso de cheiro a gás, indicamos como arejar a casa e cortar o gás em segurança antes da nossa chegada.' },
+ { step: '1', title: 'Atendimento 24h/7d', desc: 'Atendemos a chamada ou WhatsApp. Em caso de cheiro a gás, indicamos como arejar a casa e cortar o gás em segurança antes da nossa chegada.' },
  { step: '2', title: 'Diagnóstico no local', desc: 'Avaliamos o esquentador: chama, pressão, temperatura, ventilação, tubagem. Sem partir nada — inspeção visual + instrumentação (FLIR, manómetro, câmara 30 m).' },
  { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos a solução (arranjar ou substituir), discriminamos mão de obra e peças, dizemos quanto tempo vai demorar. Por escrito.' },
  { step: '4', title: 'Intervenção profissional', desc: 'Trabalhamos com peças de qualidade. Em caso de fuga de gás, testamos a estanquidade antes de sair. Em conformidade com a DGEG (registo em curso).' },

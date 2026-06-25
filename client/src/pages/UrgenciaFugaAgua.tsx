@@ -150,7 +150,7 @@ export default function UrgenciaFugaAgua() {
  </p>
  <div className="space-y-6">
  {[
- { step: '1', title: 'Liga ou envia WhatsApp', time: '—', desc: 'Atendemos imediatamente. Explicamos o processo.' },
+ { step: '1', title: 'Liga ou envia WhatsApp', time: '—', desc: 'Atendemos mediante confirmação. Explicamos o processo.' },
  { step: '2', title: 'Técnico a caminho', time: 'A confirmar', desc: 'Confirmamos hora de chegada por SMS/WhatsApp.' },
  { step: '3', title: 'Diagnóstico + Orçamento', time: '—', desc: 'Identificamos o problema. Preço fixo antes de começar.' },
  { step: '4', title: 'Arranjo imediata', time: '1-3 horas', desc: 'Resolvemos com equipamento profissional.' },

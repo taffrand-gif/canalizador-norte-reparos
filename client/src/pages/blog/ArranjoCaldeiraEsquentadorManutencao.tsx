@@ -43,7 +43,7 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <li><strong>Água não aquece o suficiente</strong> — pode indicar problemas no queimador ou no permutador de calor</li>
  <li><strong>Chama amarela ou laranja</strong> — a chama deve ser azul; cores diferentes indicam combustão incompleta</li>
  <li><strong>Ruídos estranhos</strong> — estalos, assobios ou vibrações podem indicar calcário acumulado</li>
- <li><strong>Cheiro a gás</strong> — desligue imediatamente e contacte um profissional</li>
+ <li><strong>Cheiro a gás</strong> — desligue mediante confirmação e contacte um profissional</li>
  <li><strong>Fugas de água</strong> — gotas ou humidade à volta do equipamento</li>
  <li><strong>Consumo de gás elevado</strong> — perda de eficiência por falta de manutenção</li>
  </ul>

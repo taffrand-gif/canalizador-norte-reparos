@@ -199,7 +199,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-gray-900 mb-2">Como Identificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Esquentador acende mas apaga imediatamente</li>
+ <li>• Esquentador acende mas apaga mediante confirmação</li>
  <li>• Precisa manter botão premido muito tempo</li>
  <li>• Chama apaga-se sozinha após alguns segundos</li>
  </ul>

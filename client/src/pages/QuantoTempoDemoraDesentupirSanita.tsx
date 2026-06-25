@@ -339,7 +339,7 @@ export default function QuantoTempoDemoraDesentupirSanita() {
  </h2>
  <div className="max-w-4xl mx-auto space-y-4">
  {[
- { step: '1', title: 'Atendimento imediato', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que NÃO fazer (não usar produtos químicos agressivos antes da nossa chegada — podem danificar os canos).' },
+ { step: '1', title: 'Atendimento 24h/7d', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que NÃO fazer (não usar produtos químicos agressivos antes da nossa chegada — podem danificar os canos).' },
  { step: '2', title: 'Diagnóstico no local', desc: 'Identificamos o bloqueio. Se necessário, utilizamos câmara de inspeção 30 m para localizar a obstrução sem partir parede ou chão.' },
  { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos o método, dizemos quanto vai custar e quanto tempo vai demorar. Por escrito. Só começamos depois do seu OK.' },
  { step: '4', title: 'Desentupimento progressivo', desc: 'Começamos pelo método mais simples. Só avançamos para o seguinte se o anterior não resultar — assim não pagamos por trabalho desnecessário.' },

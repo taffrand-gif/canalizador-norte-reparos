@@ -98,7 +98,7 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  </header>
  {/* Resposta Direta */}
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
- <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta Rápida</h2>
+ <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>Regra geral:</strong> Repare se o esquentador tem menos de 8 anos e o custo é inferior a 50% de um novo.
  Substitua se tem mais de 10 anos, avarias frequentes, ou arranjo custa mais de 60% de um novo.
@@ -350,7 +350,7 @@ export default function EsquentadorAvariadoArranjarSubstituir() {
  {
  problema: "Cheiro a gás",
  causas: "Fuga na válvula, ligação solta, queimador avariado",
- solucao: "URGENTE: Fechar gás, ventilar, chamar técnico imediatamente.",
+ solucao: "URGENTE: Fechar gás, ventilar, chamar técnico mediante confirmação.",
  decisao: "Depende da gravidade"
  }
  ].map((item, i) => (
