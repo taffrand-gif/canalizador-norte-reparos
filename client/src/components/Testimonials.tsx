@@ -10,8 +10,8 @@ import { Button } from './ui/button';
 // memo removed from 'react';
 import { useLocalTestimonials } from '@/hooks/useLocationContent';
 function Testimonials() {
-  const { config } = useSite();
-  const localTestimonials = useLocalTestimonials(config.testimonials || []);
+ const { config } = useSite();
+ const localTestimonials = useLocalTestimonials(config.testimonials || []);
  // Generate Review schema for each testimonial
  const reviewSchemas = localTestimonials.map((testimonial) => ({
  "@type": "Review",

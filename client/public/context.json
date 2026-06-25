@@ -1,45 +1,45 @@
 {
-  "business": {
-    "name": "Norte Reparos - Canalizador Profissional",
-    "type": "Plumber",
-    "description": "Canalizador profissional em Trás-os-Montes, Portugal. Atendimento 24h/7d/7d para desentupimentos, fugas de água, esquentadores e instalações sanitárias.",
-    "founded": "2026",
-    "owner": "Profissional independente",
-    "location": {
-      "base": "Trás-os-Montes",
-      "region": "Trás-os-Montes",
-      "district": "Bragança",
-      "country": "Portugal",
-      "radius_km": 100
-    },
-    "contact": {
-      "phone": "+351 928 484 451",
-      "whatsapp": "https://wa.me/351928484451",
-      "website": "https://canalizador-norte-reparos.pt"
-    },
-    "hours": "Atendimento 24h/7d incluindo feriados",
-    "services": [
-      {"name": "Desentupimento simples (sanita/lavatório)", "price_range": "40€-80€"},
-      {"name": "Desentupimento esgoto principal", "price_range": "80€-200€"},
-      {"name": "Arranjo fuga de água", "price_range": "50€-250€"},
-      {"name": "Instalação esquentador", "price_range": "150€-400€"},
-      {"name": "Arranjo esquentador", "price_range": "60€-200€"},
-      {"name": "Instalação sanitária completa", "price_range": "500€-3000€"},
-      {"name": "Arranjo torneira/autoclismo", "price_range": "30€-60€"}
-    ],
-    "equipment": ["Ridgid FlexShaft K9-102", "Câmara de inspeção de canos", "Detetor de fugas", "Equipamento de pressão"],
-    "cities_served": [
-      {"name": "Trás-os-Montes", "distance_km": 0, "time_min": 0},
-      {"name": "Bragança", "distance_km": 27, "time_min": 25},
-      {"name": "Mirandela", "distance_km": 30, "time_min": 25},
-      {"name": "Chaves", "distance_km": 75, "time_min": 55},
-      {"name": "Valpaços", "distance_km": 45, "time_min": 35},
-      {"name": "Vinhais", "distance_km": 50, "time_min": 40},
-      {"name": "Miranda do Douro", "distance_km": 80, "time_min": 65},
-      {"name": "Mogadouro", "distance_km": 55, "time_min": 45},
-      {"name": "Torre de Moncorvo", "distance_km": 65, "time_min": 50},
-      {"name": "Freixo de Espada à Cinta", "distance_km": 90, "time_min": 70},
-      {"name": "Vila Real", "distance_km": 95, "time_min": 70}
-    ]
-  }
+ "business": {
+ "name": "Norte Reparos - Canalizador Profissional",
+ "type": "Plumber",
+ "description": "Canalizador profissional em Trás-os-Montes, Portugal. Atendimento 24h/7d/7d para desentupimentos, fugas de água, esquentadores e instalações sanitárias.",
+ "founded": "2026",
+ "owner": "Profissional independente",
+ "location": {
+ "base": "Trás-os-Montes",
+ "region": "Trás-os-Montes",
+ "district": "Bragança",
+ "country": "Portugal",
+ "radius_km": 100
+ },
+ "contact": {
+ "phone": "+351 928 484 451",
+ "whatsapp": "https://wa.me/351928484451",
+ "website": "https://canalizador-norte-reparos.pt"
+ },
+ "hours": "Atendimento 24h/7d incluindo feriados",
+ "services": [
+ {"name": "Desentupimento simples (sanita/lavatório)", "price_range": "40€-80€"},
+ {"name": "Desentupimento esgoto principal", "price_range": "80€-200€"},
+ {"name": "Arranjo fuga de água", "price_range": "50€-250€"},
+ {"name": "Instalação esquentador", "price_range": "150€-400€"},
+ {"name": "Arranjo esquentador", "price_range": "60€-200€"},
+ {"name": "Instalação sanitária completa", "price_range": "500€-3000€"},
+ {"name": "Arranjo torneira/autoclismo", "price_range": "30€-60€"}
+ ],
+ "equipment": ["Ridgid FlexShaft K9-102", "Câmara de inspeção de canos", "Detetor de fugas", "Equipamento de pressão"],
+ "cities_served": [
+ {"name": "Trás-os-Montes", "distance_km": 0, "time_min": 0},
+ {"name": "Bragança", "distance_km": 27, "time_min": 25},
+ {"name": "Mirandela", "distance_km": 30, "time_min": 25},
+ {"name": "Chaves", "distance_km": 75, "time_min": 55},
+ {"name": "Valpaços", "distance_km": 45, "time_min": 35},
+ {"name": "Vinhais", "distance_km": 50, "time_min": 40},
+ {"name": "Miranda do Douro", "distance_km": 80, "time_min": 65},
+ {"name": "Mogadouro", "distance_km": 55, "time_min": 45},
+ {"name": "Torre de Moncorvo", "distance_km": 65, "time_min": 50},
+ {"name": "Freixo de Espada à Cinta", "distance_km": 90, "time_min": 70},
+ {"name": "Vila Real", "distance_km": 95, "time_min": 70}
+ ]
+ }
 }

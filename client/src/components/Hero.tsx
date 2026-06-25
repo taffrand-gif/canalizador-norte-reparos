@@ -19,8 +19,8 @@ function Hero() {
  return `${config.hero.title.split('—')[0]}— ${city}`;
  }, [config.hero.title, city]);
 const personalizedSubtitle = useMemo(() => {
-    return `Ao seu domicílio em ${city} — 24h/7d. Sem surpresas.`;
-  }, [city]);
+ return `Ao seu domicílio em ${city} — 24h/7d. Sem surpresas.`;
+ }, [city]);
  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
  return (
  <section
@@ -51,8 +51,8 @@ const personalizedSubtitle = useMemo(() => {
  {/* Urgency badge */}
  <div className="mb-6 inline-block">
 <div className="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm animate-pulse">
-    🚨 TÉCNICO DISPONÍVEL EM {city.toUpperCase()} • SERVIÇO AO DOMICÍLIO
-  </div>
+ 🚨 TÉCNICO DISPONÍVEL EM {city.toUpperCase()} • SERVIÇO AO DOMICÍLIO
+ </div>
  </div>
  {/* CTA buttons — mobile: full width stacked, desktop: inline */}
  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

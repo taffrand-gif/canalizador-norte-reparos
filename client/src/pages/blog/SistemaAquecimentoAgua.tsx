@@ -279,7 +279,7 @@ export default function SistemaAquecimentoAgua() {
  </h3>
  <ul className="space-y-2 text-gray-700">
  <li>• Mora sozinho ou com 1-2 pessoas</li>
- <li>• Tem orçamento limitado (menos de €600)</li>
+ <li>• Tem orçamento limitado (menos de €600</li>
  <li>• Não tem espaço para equipamento grande</li>
  <li>• Já tem gás canalizado ou botija</li>
  </ul>
@@ -290,8 +290,8 @@ export default function SistemaAquecimentoAgua() {
  </h3>
  <ul className="space-y-2 text-gray-700">
  <li>• Precisa de aquecimento central + água quente</li>
- <li>• Tem família grande (4+ pessoas)</li>
- <li>• Vive em zona muito fria (Montalegre, Bragança)</li>
+ <li>• Tem família grande (4+ pessoas</li>
+ <li>• Vive em zona muito fria (Montalegre, Bragança</li>
  <li>• Quer conforto máximo no inverno</li>
  </ul>
  </div>

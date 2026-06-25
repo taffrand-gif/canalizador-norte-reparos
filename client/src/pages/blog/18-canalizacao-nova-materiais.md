@@ -29,7 +29,7 @@ tags: ['canalização nova', 'materiais', 'tubos', 'instalação', 'preços']
 
 **Preços:**
 - Ø20mm: €2-€4/metro
-- Ø25mm: €3-€5/metro  
+- Ø25mm: €3-€5/metro 
 - Ø32mm: €4-€7/metro
 - Instalação: €8-€15/metro
 

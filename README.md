@@ -39,21 +39,21 @@ Le design adopte une approche brutaliste moderne qui privilégie :
 ### Structure du projet
 ```
 client/
-  src/
-    components/
-      Header.tsx          # Navigation sticky avec CTA téléphone
-      Hero.tsx            # Section hero avec image de fond
-      PriceCalculator.tsx # Calculateur de prix interactif
-      Testimonials.tsx    # Témoignages clients
-      CompanyInfo.tsx     # Présentation entreprise + raisons
-      Footer.tsx          # Footer avec contact
-      FloatingButtons.tsx # Boutons WhatsApp et Chat
-    contexts/
-      SiteContext.tsx     # Contexte pour configuration multi-sites
-    pages/
-      Home.tsx            # Page d'accueil assemblant tous les composants
+ src/
+ components/
+ Header.tsx # Navigation sticky avec CTA téléphone
+ Hero.tsx # Section hero avec image de fond
+ PriceCalculator.tsx # Calculateur de prix interactif
+ Testimonials.tsx # Témoignages clients
+ CompanyInfo.tsx # Présentation entreprise + raisons
+ Footer.tsx # Footer avec contact
+ FloatingButtons.tsx # Boutons WhatsApp et Chat
+ contexts/
+ SiteContext.tsx # Contexte pour configuration multi-sites
+ pages/
+ Home.tsx # Page d'accueil assemblant tous les composants
 shared/
-  siteConfig.ts           # Configuration centralisée des deux sites
+ siteConfig.ts # Configuration centralisée des deux sites
 ```
 
 ### Configuration multi-sites
@@ -138,22 +138,22 @@ Toutes les images sont stockées dans `/home/ubuntu/webdev-static-assets/` et ut
 ### Déploiement sur Manus (recommandé)
 
 1. Créer un checkpoint :
-   ```
-   Description : "Version initiale des deux sites"
-   ```
+ ```
+ Description : "Version initiale des deux sites"
+ ```
 
 2. Cliquer sur "Publish" dans l'interface Manus
 
 3. Configurer les domaines :
-   - Norte-Reparos : `canalizador-norte-reparos.pt`
-   - Staff-Seekers : `
+ - Norte-Reparos : `canalizador-norte-reparos.pt`
+ - Staff-Seekers : `
 
 ### Déploiement externe (Cloudflare Pages)
 
 1. Build de production :
-   ```bash
-   pnpm build
-   ```
+ ```bash
+ pnpm build
+ ```
 
 2. Déployer le dossier `dist/public` sur Cloudflare Pages
 
@@ -195,10 +195,10 @@ Le site sera accessible sur `http://localhost:3000`
 Éditer `shared/siteConfig.ts` :
 ```typescript
 colors: {
-  primary: '#1e40af',      // Couleur principale
-  primaryDark: '#1e3a8a',  // Version foncée (footer)
-  primaryLight: '#3b82f6', // Version claire (boutons)
-  accent: '#dc2626',       // Accent (CTAs urgents)
+ primary: '#1e40af', // Couleur principale
+ primaryDark: '#1e3a8a', // Version foncée (footer)
+ primaryLight: '#3b82f6', // Version claire (boutons)
+ accent: '#dc2626', // Accent (CTAs urgents)
 }
 ```
 
@@ -207,12 +207,12 @@ colors: {
 Éditer `shared/siteConfig.ts` dans la section `testimonials` :
 ```typescript
 {
-  id: '4',
-  name: 'Nom Client',
-  location: 'Ville',
-  service: 'Type de service',
-  text: 'Témoignage...',
-  rating: 5,
+ id: '4',
+ name: 'Nom Client',
+ location: 'Ville',
+ service: 'Type de service',
+ text: 'Témoignage...',
+ rating: 5,
 }
 ```
 
@@ -221,9 +221,9 @@ colors: {
 Éditer `shared/siteConfig.ts` dans la section `services` :
 ```typescript
 {
-  id: 'service-id',
-  label: 'Nom du service',
-  basePrice: 100, // Prix de base en euros
+ id: 'service-id',
+ label: 'Nom du service',
+ basePrice: 100, // Prix de base en euros
 }
 ```
 

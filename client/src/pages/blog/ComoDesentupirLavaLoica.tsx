@@ -13,21 +13,21 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  title="Como Desentupir um Lava-Loiça em 5 Passos Simples"
  description="Guia completo para resolver entupimentos no lava-loiça com métodos seguros e eficazes"
  >
-       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Como Desentupir um Lava-Loiça em 5 Passos Simples",
-        "description": "Guia passo a passo para desentupir lava-louça rapidamente com produtos domésticos e ferramentas básicas.",
-        "totalTime": "PT20M",
-        "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-lava-loica",
-        "step": [
-          {"@type": "HowToStep", "name": "Retire o máximo de água parada", "text": "Use um balde ou esponja para retirar a água acumulada. Isto facilita o acesso ao entupimento e torna o trabalho mais eficaz."},
-          {"@type": "HowToStep", "name": "Use a ventosa com energia", "text": "Tape o segundo ralo (se existir) com um pano húmido. Aplique a ventosa e faça 20 movimentos rápidos de pressão/sucção. Repita 3 vezes."},
-          {"@type": "HowToStep", "name": "Verifique e limpe o sifão", "text": "Coloque balde sob o armário. Rode o sifão (sentido contrário ao relógio). Retire, limpe com escova, elimine a gordura acumulada e recoloque."},
-          {"@type": "HowToStep", "name": "Aplique produto desentupidor", "text": "Deite produto comercial desentupidor (ex: Mr. Músculo) ou mistura de bicarbonato + vinagre. Aguarde 15-30 minutos e passe água quente."},
-          {"@type": "HowToStep", "name": "Teste com água corrente abundante", "text": "Abra a torneira no máximo durante 2 minutos. Se escoa bem, o trabalho está feito. Se não, o entupimento está mais fundo e precisa de canalizador."}
-        ]
-      }) }} />
+ <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Como Desentupir um Lava-Loiça em 5 Passos Simples",
+ "description": "Guia passo a passo para desentupir lava-louça rapidamente com produtos domésticos e ferramentas básicas.",
+ "totalTime": "PT20M",
+ "url": "https://canalizador-norte-reparos.pt/blog/como-desentupir-lava-loica",
+ "step": [
+ {"@type": "HowToStep", "name": "Retire o máximo de água parada", "text": "Use um balde ou esponja para retirar a água acumulada. Isto facilita o acesso ao entupimento e torna o trabalho mais eficaz."},
+ {"@type": "HowToStep", "name": "Use a ventosa com energia", "text": "Tape o segundo ralo (se existir) com um pano húmido. Aplique a ventosa e faça 20 movimentos rápidos de pressão/sucção. Repita 3 vezes."},
+ {"@type": "HowToStep", "name": "Verifique e limpe o sifão", "text": "Coloque balde sob o armário. Rode o sifão (sentido contrário ao relógio). Retire, limpe com escova, elimine a gordura acumulada e recoloque."},
+ {"@type": "HowToStep", "name": "Aplique produto desentupidor", "text": "Deite produto comercial desentupidor (ex: Mr. Músculo) ou mistura de bicarbonato + vinagre. Aguarde 15-30 minutos e passe água quente."},
+ {"@type": "HowToStep", "name": "Teste com água corrente abundante", "text": "Abra a torneira no máximo durante 2 minutos. Se escoa bem, o trabalho está feito. Se não, o entupimento está mais fundo e precisa de canalizador."}
+ ]
+ }) }} />
  <article className="max-w-4xl mx-auto">
  {/* Meta info */}
  <div className="mb-8">
@@ -130,9 +130,9 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-6">
  <h3 className="font-bold text-blue-800 text-lg mb-2">Material Necessário:</h3>
  <ul className="text-blue-700 space-y-1">
- <li>• Desentupidor de ventosa (disponível em qualquer loja de ferragens)</li>
+ <li>• Desentupidor de ventosa (disponível em qualquer loja de ferragens</li>
  <li>• Panos para limpeza</li>
- <li>• Balde (opcional)</li>
+ <li>• Balde (opcional</li>
  </ul>
  </div>
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Técnica Correta:</h3>
@@ -231,7 +231,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <div className="bg-white p-6 rounded-xl">
  <h4 className="font-bold text-gray-900 mb-3">🏠 Problemas Estruturais</h4>
  <ul className="space-y-2 text-gray-700">
- <li>• Casas com mais de 30 anos (canalização antiga)</li>
+ <li>• Casas com mais de 30 anos (canalização antiga</li>
  <li>• Entupimentos recorrentes no mesmo local</li>
  <li>• Ruídos estranhos na canalização</li>
  <li>• Pressão da água muito fraca</li>

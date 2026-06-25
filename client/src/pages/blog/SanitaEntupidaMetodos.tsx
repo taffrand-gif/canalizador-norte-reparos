@@ -12,23 +12,23 @@ const SanitaEntupidaMetodos: React.FC = () => {
  title="Sanita Entupida: 5 Métodos Que Funcionam [Guia 2026]"
  description="Guia completo com 5 métodos profissionais para desentupir sanita rapidamente"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'Como desentupir sanita rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Método mais rápido em 3 passos: 1. Água quente + detergente (aguarde 30 minutos); 2. Se não funcionar, use ventosa (20-30 movimentos vigorosos); 3. Se persistir, bicarbonato + vinagre (aguarde 30 minutos). Taxa de sucesso: 80% com estes 3 métodos.'}},
-    {"@type":"Question","name":'Posso usar lixívia para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado. Lixívia não dissolve entupimentos eficazmente: não dissolve papel ou gordura, pode danificar canalização antiga, os vapores são tóxicos e não deve ser misturada com outros produtos. Alternativa segura: bicarbonato + vinagre.'}},
-    {"@type":"Question","name":'Quanto tempo demora a desentupir uma sanita?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método e gravidade: água quente + detergente 20-30 minutos total; bicarbonato + vinagre 45-60 minutos; ventosa 5-15 minutos; mola desentupidora 15-30 minutos; canalizador profissional 30-45 minutos.'}},
-    {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (120-180€).'}},
-    {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação urgente: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
-    {"@type":"Question","name":'Posso usar Destop ou produtos químicos na sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado para sanitas. Produtos químicos são para ralos, não sanitas; podem danificar porcelana e juntas; são ineficazes contra papel e objetos sólidos; perigosos se misturados com água parada. Melhor opção: métodos mecânicos como ventosa ou mola.'}},
-    {"@type":"Question","name":'Quanto custa chamar canalizador para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em Portugal 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€. Ligue 928 484 451 para orçamento gratuito.'}}
-          ]
-        }) }}
-      />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'Como desentupir sanita rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Método mais rápido em 3 passos: 1. Água quente + detergente (aguarde 30 minutos); 2. Se não funcionar, use ventosa (20-30 movimentos vigorosos); 3. Se persistir, bicarbonato + vinagre (aguarde 30 minutos). Taxa de sucesso: 80% com estes 3 métodos.'}},
+ {"@type":"Question","name":'Posso usar lixívia para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado. Lixívia não dissolve entupimentos eficazmente: não dissolve papel ou gordura, pode danificar canalização antiga, os vapores são tóxicos e não deve ser misturada com outros produtos. Alternativa segura: bicarbonato + vinagre.'}},
+ {"@type":"Question","name":'Quanto tempo demora a desentupir uma sanita?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método e gravidade: água quente + detergente 20-30 minutos total; bicarbonato + vinagre 45-60 minutos; ventosa 5-15 minutos; mola desentupidora 15-30 minutos; canalizador profissional 30-45 minutos.'}},
+ {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (120-180€).'}},
+ {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação urgente: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
+ {"@type":"Question","name":'Posso usar Destop ou produtos químicos na sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado para sanitas. Produtos químicos são para ralos, não sanitas; podem danificar porcelana e juntas; são ineficazes contra papel e objetos sólidos; perigosos se misturados com água parada. Melhor opção: métodos mecânicos como ventosa ou mola.'}},
+ {"@type":"Question","name":'Quanto custa chamar canalizador para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em Portugal 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€. Ligue 928 484 451 para orçamento gratuito.'}}
+ ]
+ }) }}
+ />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-red-100 text-red-800 font-semibold rounded-full">
@@ -149,12 +149,12 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Balde com 5 litros de água quente (não fervente)</li>
+ <li>Balde com 5 litros de água quente (não fervente</li>
  <li>200ml de detergente da loiça</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Aqueça 5 litros de água (quente mas não fervente - 60-70°C)</li>
+ <li>Aqueça 5 litros de água (quente mas não fervente - 60-70°C</li>
  <li>Adicione 200ml de detergente da loiça</li>
  <li>Despeje rapidamente na sanita de uma altura de 1 metro</li>
  <li>Aguarde 15-alguns minutos</li>
@@ -193,9 +193,9 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Retire o máximo de água possível da sanita (use copo)</li>
+ <li>Retire o máximo de água possível da sanita (use copo</li>
  <li>Despeje 300g de bicarbonato de sódio na sanita</li>
- <li>Adicione 300ml de vinagre branco (vai fazer espuma)</li>
+ <li>Adicione 300ml de vinagre branco (vai fazer espuma</li>
  <li>Aguarde 30-alguns minutos</li>
  <li>Despeje 5 litros de água quente</li>
  <li>Puxe o autoclismo</li>
@@ -221,17 +221,17 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Ventosa de sanita (borracha grossa, formato cônico)</li>
+ <li>Ventosa de sanita (borracha grossa, formato cônico</li>
  <li>Luvas de borracha</li>
  <li>Panos velhos</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque luvas de proteção</li>
- <li>Certifique-se que há água suficiente na sanita (deve cobrir ventosa)</li>
+ <li>Certifique-se que há água suficiente na sanita (deve cobrir ventosa</li>
  <li>Coloque ventosa sobre o buraco de saída, cobrindo completamente</li>
  <li>Pressione firmemente para criar vácuo</li>
- <li>Faça movimentos rápidos para cima e para baixo (20-30 vezes)</li>
+ <li>Faça movimentos rápidos para cima e para baixo (20-30 vezes</li>
  <li>Mantenha ventosa sempre coberta com água</li>
  <li>Retire ventosa bruscamente no último movimento</li>
  <li>Repita 3-4 vezes se necessário</li>
@@ -262,7 +262,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Mola desentupidora para sanita (3-5 metros)</li>
+ <li>Mola desentupidora para sanita (3-5 metros</li>
  <li>Luvas de borracha grossas</li>
  <li>Balde</li>
  <li>Panos velhos</li>
@@ -271,7 +271,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Coloque luvas de proteção</li>
  <li>Insira ponta da mola no buraco de saída da sanita</li>
- <li>Empurre mola lentamente enquanto roda manivela (sentido horário)</li>
+ <li>Empurre mola lentamente enquanto roda manivela (sentido horário</li>
  <li>Quando sentir resistência, rode mais rápido para perfurar entupimento</li>
  <li>Continue empurrando até mola passar pelo entupimento</li>
  <li>Puxe e empurre várias vezes para desalojar completamente</li>
@@ -304,14 +304,14 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Filme aderente (tipo Parafilm)</li>
+ <li>Filme aderente (tipo Parafilm</li>
  <li>Fita adesiva forte</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Passo a Passo:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Seque completamente o rebordo da sanita</li>
  <li>Cubra toda a abertura da sanita com 3-4 camadas de filme aderente</li>
- <li>Cole bem as bordas com fita adesiva (deve ficar hermético)</li>
+ <li>Cole bem as bordas com fita adesiva (deve ficar hermético</li>
  <li>Puxe o autoclismo</li>
  <li>Quando filme inchar, pressione firmemente para baixo com as mãos</li>
  <li>Repita 5-10 vezes</li>
@@ -337,7 +337,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="font-bold text-red-900 mb-2">❌ Proibido:</p>
  <ul className="text-red-800 text-sm space-y-1">
- <li>• Toalhitas (mesmo "biodegradáveis")</li>
+ <li>• Toalhitas (mesmo "biodegradáveis"</li>
  <li>• Pensos higiénicos e tampões</li>
  <li>• Cotonetes e fio dental</li>
  <li>• Preservativos</li>
@@ -350,7 +350,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="font-bold text-green-900 mb-2">✅ Permitido:</p>
  <ul className="text-green-800 text-sm space-y-1">
- <li>• Papel higiénico (quantidade moderada)</li>
+ <li>• Papel higiénico (quantidade moderada</li>
  <li>• Fezes</li>
  <li>• Urina</li>
  <li>• Água</li>
@@ -364,9 +364,9 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Quantidade excessiva é causa principal de entupimentos.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Use quantidade necessária (não exagere)</li>
+ <li>• Use quantidade necessária (não exagere</li>
  <li>• Se precisa muito papel, puxe autoclismo entre usos</li>
- <li>• Prefira papel de qualidade (desfaz-se melhor)</li>
+ <li>• Prefira papel de qualidade (desfaz-se melhor</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -430,7 +430,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Canalizador verifica estado da canalização.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Inspeção com câmara (opcional)</li>
+ <li>• Inspeção com câmara (opcional</li>
  <li>• Identifica problemas antes de agravar</li>
  <li>• Custo: 80-120€</li>
  </ul>
@@ -507,9 +507,9 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <strong>Método mais rápido (A confirmar):</strong>
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
- <li>Água quente + detergente (aguarde alguns minutos)</li>
- <li>Se não funcionar, use ventosa (20-30 movimentos vigorosos)</li>
- <li>Se persistir, bicarbonato + vinagre (aguarde alguns minutos)</li>
+ <li>Água quente + detergente (aguarde alguns minutos</li>
+ <li>Se não funcionar, use ventosa (20-30 movimentos vigorosos</li>
+ <li>Se persistir, bicarbonato + vinagre (aguarde alguns minutos</li>
  </ol>
  <p className="text-cyan-700 font-semibold mt-3">
  💡 Taxa de sucesso: 80% com estes 3 métodos
@@ -524,7 +524,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Não dissolve papel ou gordura</li>
  <li>• Pode danificar canalização antiga</li>
  <li>• Vapores tóxicos perigosos</li>
- <li>• Não misture com outros produtos (reação química perigosa)</li>
+ <li>• Não misture com outros produtos (reação química perigosa</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  ✅ Alternativa segura: Bicarbonato + vinagre
@@ -536,8 +536,8 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <strong>Depende do método e gravidade:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Água quente + detergente: A confirmar (total)</li>
- <li>• Bicarbonato + vinagre: A confirmar (total)</li>
+ <li>• Água quente + detergente: A confirmar (total</li>
+ <li>• Bicarbonato + vinagre: A confirmar (total</li>
  <li>• Ventosa: A confirmar</li>
  <li>• Mola desentupidora: A confirmar</li>
  <li>• Canalizador profissional: A confirmar</li>
@@ -569,7 +569,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  Ação urgente:
  </p>
  <ol className="text-gray-600 space-y-1 ml-4 list-decimal">
- <li>Não puxe autoclismo novamente (pode transbordar)</li>
+ <li>Não puxe autoclismo novamente (pode transbordar</li>
  <li>Aguarde alguns minutos para água baixar</li>
  <li>Use método água quente + detergente</li>
  <li>Se não resolver, use ventosa</li>

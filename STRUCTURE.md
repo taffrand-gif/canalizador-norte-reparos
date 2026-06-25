@@ -16,23 +16,23 @@ Build = **npm** (voir §7). Déploiement = **push Git** (jamais API/CLI Vercel).
 ```
 canalizador/
 ├── client/src/
-│   ├── components/   composants UI partagés (front). Contiennent le conditionnel tél — voir §6
-│   ├── contexts/     React contexts
-│   ├── data/         contenu éditorial : cityContent.ts, cidadesProximas.ts
-│   ├── hooks/        TOUS les hooks (client/src/_core fusionné ici — choix 1A)
-│   ├── lib/          utilitaires bas niveau
-│   ├── pages/        pages racine + blog/ + cidades/ + CityServicePage.tsx (template villes)
-│   ├── shared/       composants partagés FRONT uniquement
-│   ├── utils/
-│   └── App.tsx       table de routes (dont la route dynamique ville — voir §4)
-├── shared/           DONNÉES + CONFIG lues par build/server/drizzle. NE PAS déplacer
-│   ├── serviceConfig.ts      ← CITIES[] (liste des villes, SOURCE) + autres configs
-│   ├── cityServiceMatrix.ts  ← SERVICES[] + getCityServiceData() (moteur ville×service)
-│   ├── siteConfig.ts         ← config site (nom, phone flat, SEO de base)
-│   ├── seoKeywords.ts  serviceConfig images.ts videoData.ts topicClusters.ts const.ts types.ts
-│   └── _core/errors.ts       (helper erreurs — voir §9)
+│ ├── components/ composants UI partagés (front). Contiennent le conditionnel tél — voir §6
+│ ├── contexts/ React contexts
+│ ├── data/ contenu éditorial : cityContent.ts, cidadesProximas.ts
+│ ├── hooks/ TOUS les hooks (client/src/_core fusionné ici — choix 1A)
+│ ├── lib/ utilitaires bas niveau
+│ ├── pages/ pages racine + blog/ + cidades/ + CityServicePage.tsx (template villes)
+│ ├── shared/ composants partagés FRONT uniquement
+│ ├── utils/
+│ └── App.tsx table de routes (dont la route dynamique ville — voir §4)
+├── shared/ DONNÉES + CONFIG lues par build/server/drizzle. NE PAS déplacer
+│ ├── serviceConfig.ts ← CITIES[] (liste des villes, SOURCE) + autres configs
+│ ├── cityServiceMatrix.ts ← SERVICES[] + getCityServiceData() (moteur ville×service)
+│ ├── siteConfig.ts ← config site (nom, phone flat, SEO de base)
+│ ├── seoKeywords.ts serviceConfig images.ts videoData.ts topicClusters.ts const.ts types.ts
+│ └── _core/errors.ts (helper erreurs — voir §9)
 ├── content/ drizzle/ public/ server/
-├── scripts/          generate-sitemap.ts, generate-favicons, optimize-images.js
+├── scripts/ generate-sitemap.ts, generate-favicons, optimize-images.js
 ├── vite.config.ts vercel.json package.json tsconfig.json components.json
 └── package-lock.json (lockfile npm — PAS de pnpm, voir §7)
 ```
@@ -55,10 +55,10 @@ Pages = `CITIES × SERVICES`. Ajouter une ville crée donc toutes ses pages-serv
 ## 4. Ajouter une ville (procédure prouvée)
 
 1. Éditer `shared/serviceConfig.ts` → ajouter un objet à `CITIES[]` :
-   ```ts
-   { name: 'Nova Vila', slug: 'nova-vila', district: 'Bragança' }
-   ```
-   (`slug` = nom en minuscules, sans accent, tirets. `parentCity` optionnel : si absent = ville majeure, priorité sitemap boostée.)
+ ```ts
+ { name: 'Nova Vila', slug: 'nova-vila', district: 'Bragança' }
+ ```
+ (`slug` = nom en minuscules, sans accent, tirets. `parentCity` optionnel : si absent = ville majeure, priorité sitemap boostée.)
 2. Aucune autre édition de routing/template requise : la route `/:service-:city` + `CityServicePage.tsx` rendent automatiquement chaque `/{service}-{slug}`.
 3. Régénérer le sitemap : `npx tsx scripts/generate-sitemap.ts` (ou le script npm équivalent).
 4. Vérifier en local (§7) puis push → déploiement auto.
@@ -69,8 +69,8 @@ Pages = `CITIES × SERVICES`. Ajouter une ville crée donc toutes ses pages-serv
 
 - **1A — hooks unifiés** : un seul `client/src/hooks/`. `client/src/_core` a été fusionné dedans. (≠ `shared/_core`, voir §9.)
 - **2A — deux `shared/` distincts, frontière nette (PAS de fusion)** :
-  - `shared/` (racine) = données/config lues par build + server + drizzle. **Déplacer = casser les imports build.**
-  - `client/src/shared/` = composants partagés du front uniquement.
+ - `shared/` (racine) = données/config lues par build + server + drizzle. **Déplacer = casser les imports build.**
+ - `client/src/shared/` = composants partagés du front uniquement.
 
 ## 6. ⚠️ Piège : numéro de téléphone 928 / 932
 
@@ -78,11 +78,11 @@ Deux niveaux, à ne pas confondre :
 
 1. **Identité du site** : `shared/siteConfig.ts` → `phone: '928 484 451'` (littéral plat, propre à ce repo plombier).
 2. **Conditionnel partagé** : les composants UI partagés (`Diagnostico.tsx`, `Garantias.tsx`, `CalculadorPreco.tsx`, `Tarifas.tsx`, `WhyWePublishPrices.tsx`, `server/emailAutoResponse.ts`…) contiennent :
-   ```ts
-   const isPlumber = config.id === 'norte-reparos';
-   const phone = isPlumber ? '928484451' : '932321892';
-   ```
-   → C'est pourquoi le littéral **`932` apparaît dans CE repo plombier** : c'est la branche électricien du composant partagé, jamais affichée ici.
+ ```ts
+ const isPlumber = config.id === 'norte-reparos';
+ const phone = isPlumber ? '928484451' : '932321892';
+ ```
+ → C'est pourquoi le littéral **`932` apparaît dans CE repo plombier** : c'est la branche électricien du composant partagé, jamais affichée ici.
 
 🔴 **Ne JAMAIS remplacer `932` en aveugle (search-replace global).** Ça casse la branche `else` du ternaire (régression réelle déjà survenue, cf. execution-log #98). Corriger un display-text en dur = OK ; toucher au ternaire `isPlumber ? … : …` = NON sans intention claire.
 

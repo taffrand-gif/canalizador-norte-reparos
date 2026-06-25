@@ -12,22 +12,22 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  title="Como Prevenir Canos Rebentados no Inverno [Guia 2026]"
  description="Proteja a sua canalização do frio com 10 métodos profissionais e evite danos de milhares de euros"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'A que temperatura congelam os canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo de cano: canos expostos começam a congelar a -2°C a -4°C; canos isolados resistem até -7°C a -10°C; canos em paredes congelam a -5°C a -7°C. Regra geral: risco significativo quando a temperatura exterior atinge -4°C por mais de 6 horas.'}},
-    {"@type":"Question","name":'Quanto custa isolar os canos para prevenir congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Custos DIY: manga isolante 2-5€/metro; casa média (20-30 metros) 40-150€ total. Custos profissionais: canalizador 150-400€ (material + mão de obra); cabo aquecedor 200-500€ (instalação completa). ROI: investimento de 100€ evita reparações de 2000-8000€.'}},
-    {"@type":"Question","name":'Deixar torneiras a pingar no inverno gasta muita água?',"acceptedAnswer":{"@type":"Answer","text":'O consumo é mínimo: fio fino (recomendado) gasta 20-40 litros/noite; custo 0,10-0,20€/noite por torneira; para 10 noites frias de inverno: 2-4€ total. Gastar 3€ em água versus 3000€ em reparações é a escolha óbvia.'}},
-    {"@type":"Question","name":'Posso usar anticongelante nos canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Apenas em situações específicas: SIM para sifões de ralos (não contacta com água potável) e sistemas de aquecimento fechados (radiadores). NÃO para canos de água potável (é tóxico) nem autoclismos. Se usar, escolha anticongelante próprio para canalizações não tóxico.'}},
-    {"@type":"Question","name":'O seguro de casa cobre canos rebentados por congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice. A maioria cobre danos por água súbitos e acidentais. Pode não cobrir se a casa estava vazia sem aquecimento ou por falta de manutenção preventiva. Franquia normalmente 250-500€. Verifique a apólice e informe a seguradora se a casa ficar vazia no inverno.'}},
-    {"@type":"Question","name":'Quanto tempo demora a descongelar um cano congelado?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método: secador de cabelo 30-60 minutos; toalhas quentes embebidas em água quente 1-2 horas; aquecimento ambiente 3-6 horas; temperatura natural 6-24 horas. Nunca use maçarico nem água a ferver — podem rachar o cano. Se o cano já rebentou ligue 928 484 451.'}}
-          ]
-        }) }}
-      />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'A que temperatura congelam os canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo de cano: canos expostos começam a congelar a -2°C a -4°C; canos isolados resistem até -7°C a -10°C; canos em paredes congelam a -5°C a -7°C. Regra geral: risco significativo quando a temperatura exterior atinge -4°C por mais de 6 horas.'}},
+ {"@type":"Question","name":'Quanto custa isolar os canos para prevenir congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Custos DIY: manga isolante 2-5€/metro; casa média (20-30 metros) 40-150€ total. Custos profissionais: canalizador 150-400€ (material + mão de obra); cabo aquecedor 200-500€ (instalação completa). ROI: investimento de 100€ evita reparações de 2000-8000€.'}},
+ {"@type":"Question","name":'Deixar torneiras a pingar no inverno gasta muita água?',"acceptedAnswer":{"@type":"Answer","text":'O consumo é mínimo: fio fino (recomendado) gasta 20-40 litros/noite; custo 0,10-0,20€/noite por torneira; para 10 noites frias de inverno: 2-4€ total. Gastar 3€ em água versus 3000€ em reparações é a escolha óbvia.'}},
+ {"@type":"Question","name":'Posso usar anticongelante nos canos de água?',"acceptedAnswer":{"@type":"Answer","text":'Apenas em situações específicas: SIM para sifões de ralos (não contacta com água potável) e sistemas de aquecimento fechados (radiadores). NÃO para canos de água potável (é tóxico) nem autoclismos. Se usar, escolha anticongelante próprio para canalizações não tóxico.'}},
+ {"@type":"Question","name":'O seguro de casa cobre canos rebentados por congelamento?',"acceptedAnswer":{"@type":"Answer","text":'Depende da apólice. A maioria cobre danos por água súbitos e acidentais. Pode não cobrir se a casa estava vazia sem aquecimento ou por falta de manutenção preventiva. Franquia normalmente 250-500€. Verifique a apólice e informe a seguradora se a casa ficar vazia no inverno.'}},
+ {"@type":"Question","name":'Quanto tempo demora a descongelar um cano congelado?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método: secador de cabelo 30-60 minutos; toalhas quentes embebidas em água quente 1-2 horas; aquecimento ambiente 3-6 horas; temperatura natural 6-24 horas. Nunca use maçarico nem água a ferver — podem rachar o cano. Se o cano já rebentou ligue 928 484 451.'}}
+ ]
+ }) }}
+ />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-blue-100 text-blue-800 font-semibold rounded-full">
@@ -171,10 +171,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-blue-50 p-6 rounded-xl">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">🌡️ Temperaturas Críticas</h3>
  <ul className="text-blue-800 space-y-2">
- <li>• <strong>0°C:</strong> Água começa a congelar (mas canos ainda seguros)</li>
- <li>• <strong>-2°C:</strong> Risco moderado (canos expostos podem congelar)</li>
- <li>• <strong>-4°C:</strong> Risco alto (maioria dos canos em perigo)</li>
- <li>• <strong>-7°C ou menos:</strong> Risco extremo (canos rebentam em 4-6 horas)</li>
+ <li>• <strong>0°C:</strong> Água começa a congelar (mas canos ainda seguros</li>
+ <li>• <strong>-2°C:</strong> Risco moderado (canos expostos podem congelar</li>
+ <li>• <strong>-4°C:</strong> Risco alto (maioria dos canos em perigo</li>
+ <li>• <strong>-7°C ou menos:</strong> Risco extremo (canos rebentam em 4-6 horas</li>
  </ul>
  </div>
  </section>
@@ -254,14 +254,14 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Manga isolante de espuma (tubo pré-cortado)</li>
+ <li>Manga isolante de espuma (tubo pré-cortado</li>
  <li>Fita adesiva resistente</li>
  <li>Tesoura ou x-ato</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Meça comprimento dos canos a proteger</li>
- <li>Compre manga isolante do diâmetro correto (1/2", 3/4", 1")</li>
+ <li>Compre manga isolante do diâmetro correto (1/2", 3/4", 1"</li>
  <li>Abra manga ao longo do corte pré-feito</li>
  <li>Encaixe manga à volta do cano</li>
  <li>Cole abertura com fita adesiva</li>
@@ -298,7 +298,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Abra torneira exterior completamente</li>
  <li>Deixe água escorrer totalmente</li>
  <li>Deixe torneira aberta durante todo o inverno</li>
- <li>Retire e guarde mangueiras (água retida congela)</li>
+ <li>Retire e guarde mangueiras (água retida congela</li>
  <li>Se possível, coloque tampa isolante na torneira</li>
  </ol>
  <div className="bg-red-50 p-4 rounded-lg">
@@ -323,14 +323,14 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Quando Usar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
  <li>Previsão de temperatura abaixo de -4°C</li>
- <li>Noites muito frias (mesmo com isolamento)</li>
+ <li>Noites muito frias (mesmo com isolamento</li>
  <li>Canos em zonas de risco que não podem ser isolados</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Identifique torneiras em zonas de risco</li>
- <li>Abra torneira ligeiramente (fio fino de água)</li>
- <li>Água quente E fria (se misturadora)</li>
+ <li>Abra torneira ligeiramente (fio fino de água</li>
+ <li>Água quente E fria (se misturadora</li>
  <li>Deixe pingar toda a noite</li>
  <li>Feche de manhã quando temperatura subir</li>
  </ol>
@@ -355,8 +355,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Recomendações:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
- <li><strong>Casa ocupada:</strong> Mínimo 18°C (conforto + proteção)</li>
- <li><strong>Casa vazia (férias):</strong> Mínimo 12-15°C (modo anti-gelo)</li>
+ <li><strong>Casa ocupada:</strong> Mínimo 18°C (conforto + proteção</li>
+ <li><strong>Casa vazia (férias):</strong> Mínimo 12-15°C (modo anti-gelo</li>
  <li><strong>Noites muito frias:</strong> Não baixe aquecimento abaixo de 15°C</li>
  <li><strong>Divisões não usadas:</strong> Mantenha portas abertas para circular calor</li>
  </ul>
@@ -412,14 +412,14 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">Material Necessário:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-1">
- <li>Espuma expansiva (fendas grandes)</li>
- <li>Silicone (fendas pequenas)</li>
+ <li>Espuma expansiva (fendas grandes</li>
+ <li>Silicone (fendas pequenas</li>
  <li>Fita isolante</li>
  <li>Vedantes para portas e janelas</li>
  </ul>
  <h4 className="font-bold text-gray-900 mb-3">Onde Vedar:</h4>
  <ul className="list-disc pl-6 mb-4 space-y-2">
- <li>Fendas em paredes exteriores (onde passam canos)</li>
+ <li>Fendas em paredes exteriores (onde passam canos</li>
  <li>Janelas e portas de sótão, cave, garagem</li>
  <li>Aberturas de ventilação não usadas</li>
  <li>Espaços à volta de canos que entram na casa</li>
@@ -452,10 +452,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <h4 className="font-bold text-gray-900 mb-3">Como Fazer (Requer Canalizador):</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
  <li>Feche válvula geral de água</li>
- <li>Abra todas as torneiras (quente e fria)</li>
+ <li>Abra todas as torneiras (quente e fria</li>
  <li>Puxe todos os autoclismos</li>
  <li>Esvazie esquentador/caldeira</li>
- <li>Esvazie sifões (coloque anticongelante)</li>
+ <li>Esvazie sifões (coloque anticongelante</li>
  <li>Abra válvulas de purga nos pontos baixos</li>
  <li>Use compressor para soprar água residual</li>
  </ol>
@@ -490,7 +490,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>Canos impossíveis de isolar</li>
  <li>Zonas de risco extremo</li>
  <li>Histórico de canos congelados</li>
- <li>Regiões muito frias (Trás-os-Montes, Serra da Estrela)</li>
+ <li>Regiões muito frias (Trás-os-Montes, Serra da Estrela</li>
  </ul>
  <div className="bg-blue-50 p-4 rounded-lg mb-3">
  <p className="text-blue-900 text-sm">
@@ -544,7 +544,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </div>
  <h4 className="font-bold text-gray-900 mb-3">O Que Fazer:</h4>
  <ol className="list-decimal pl-6 mb-4 space-y-2">
- <li>Localize válvula geral de água (normalmente junto ao contador)</li>
+ <li>Localize válvula geral de água (normalmente junto ao contador</li>
  <li>Teste que consegue fechar facilmente</li>
  <li>Se enferrujada, aplique óleo desengripante</li>
  <li>Ensine todos em casa onde está e como fechar</li>
@@ -656,11 +656,11 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-4 text-xl">1. Identificar Cano Congelado</h3>
  <p className="text-gray-700 mb-3"><strong>Sinais:</strong></p>
  <ul className="text-gray-600 space-y-1 mb-4">
- <li>• Torneira não sai água (ou muito pouco)</li>
+ <li>• Torneira não sai água (ou muito pouco</li>
  <li>• Autoclismo não enche</li>
  <li>• Cano coberto de gelo/geada</li>
  <li>• Cano frio ao toque</li>
- <li>• Odor estranho (se cano rebentou)</li>
+ <li>• Odor estranho (se cano rebentou</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
@@ -685,8 +685,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <p className="font-bold text-red-900 mb-2">❌ NUNCA Use:</p>
  <ul className="text-red-800 space-y-1 ml-4 text-sm">
  <li>• Maçarico ou chama direta</li>
- <li>• Água fervente (choque térmico rebenta cano)</li>
- <li>• Aquecedor muito próximo (risco de incêndio)</li>
+ <li>• Água fervente (choque térmico rebenta cano</li>
+ <li>• Aquecedor muito próximo (risco de incêndio</li>
  </ul>
  </div>
  </div>
@@ -711,7 +711,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </p>
  <ul className="text-gray-600 space-y-1">
  <li>• Procure gotas, humidade, manchas</li>
- <li>• Verifique juntas e curvas (pontos fracos)</li>
+ <li>• Verifique juntas e curvas (pontos fracos</li>
  <li>• Se encontrar fuga, feche válvula e chame canalizador</li>
  </ul>
  </div>
@@ -720,7 +720,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <h3 className="text-2xl font-bold text-red-900 mb-4 text-center">🚨 Quando Chamar Canalizador Urgente</h3>
  <div className="grid md:grid-cols-2 gap-4">
  <ul className="text-red-800 space-y-2">
- <li>✗ Cano rebentou (água a jorrar)</li>
+ <li>✗ Cano rebentou (água a jorrar</li>
  <li>✗ Fuga visível após descongelar</li>
  <li>✗ Não consegue localizar cano congelado</li>
  <li>✗ Cano em local inacessível</li>
@@ -766,8 +766,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Custos profissionais:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Canalizador: 150-400€ (material + mão de obra)</li>
- <li>• Cabo aquecedor: 200-500€ (instalação completa)</li>
+ <li>• Canalizador: 150-400€ (material + mão de obra</li>
+ <li>• Cabo aquecedor: 200-500€ (instalação completa</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  ✅ ROI: Investimento de 100€ evita reparações de 2000-8000€
@@ -866,7 +866,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Sim, mas manutenção é simples:</strong>
  </p>
  <ul className="text-gray-600 space-y-2 ml-4">
- <li>• <strong>Isolamento:</strong> Dura 5-10 anos (verificar anualmente)</li>
+ <li>• <strong>Isolamento:</strong> Dura 5-10 anos (verificar anualmente</li>
  <li>• <strong>Torneiras exteriores:</strong> Esvaziar todos os anos</li>
  <li>• <strong>Vedações:</strong> Verificar e renovar se necessário</li>
  <li>• <strong>Inspeção:</strong> A confirmar/ano</li>

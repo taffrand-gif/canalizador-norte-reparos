@@ -168,7 +168,7 @@ export default function AnchoringPrice({ serviceType = 'standard' }: AnchoringPr
  </p>
  <ul className="text-sm text-blue-800 space-y-1">
  <li>✓ Sem intermediários ou franchising</li>
- <li>✓ Equipa local (menos deslocações)</li>
+ <li>✓ Equipa local (menos deslocações</li>
  <li>✓ Parcerias diretas com fornecedores</li>
  <li>✓ Eficiência operacional</li>
  </ul>

@@ -92,8 +92,8 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <h3 className="font-bold text-orange-800 mb-3 text-xl">⚡ Termoacumulador</h3>
  <p className="text-gray-700 mb-4">Armazena água num depósito isolado e aquece-a com resistência elétrica ou serpentina.</p>
  <ul className="space-y-2 text-gray-700">
- <li>• Aquece e armazena água num depósito (30-200L)</li>
- <li>• Funciona a eletricidade (ou solar)</li>
+ <li>• Aquece e armazena água num depósito (30-200L</li>
+ <li>• Funciona a eletricidade (ou solar</li>
  <li>• Água quente disponível mediante confirmação</li>
  <li>• Capacidade medida em litros de depósito</li>
  </ul>
@@ -176,8 +176,8 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <ul className="space-y-2 text-gray-700">
  <li className="flex items-center gap-2">✅ Não tem acesso a gás ou prefere evitá-lo</li>
  <li className="flex items-center gap-2">✅ Apartamento sem chaminé/exaustão</li>
- <li className="flex items-center gap-2">✅ Família pequena (1-2 pessoas)</li>
- <li className="flex items-center gap-2">✅ Tem tarifa bi-horária (aquecer à noite)</li>
+ <li className="flex items-center gap-2">✅ Família pequena (1-2 pessoas</li>
+ <li className="flex items-center gap-2">✅ Tem tarifa bi-horária (aquecer à noite</li>
  <li className="flex items-center gap-2">✅ Quer combinar com painéis solares térmicos</li>
  </ul>
  </div>

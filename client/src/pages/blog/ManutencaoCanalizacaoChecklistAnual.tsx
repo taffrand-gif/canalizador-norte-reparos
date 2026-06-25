@@ -12,21 +12,21 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  title="Manutenção de Canalização: Checklist Anual Completa [2026]"
  description="Guia completo de manutenção preventiva para evitar avarias caras e prolongar vida útil da canalização"
  >
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-    {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'O custo total anual ronda 297-517€: tarefas DIY mensais/trimestrais 50-100€; limpeza de esquentador 2x por ano 120-200€; inspeção profissional anual 80-150€; peças e materiais 47-67€. Investir 300-500€/ano evita reparações de 2000-10000€.'}},
-    {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
-    {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
-    {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: 300-500€. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
-    {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; consumo excessivo de água e energia (+30%); problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
-          ]
-        }) }}
-      />
-      <article className="max-w-4xl mx-auto">
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'O custo total anual ronda 297-517€: tarefas DIY mensais/trimestrais 50-100€; limpeza de esquentador 2x por ano 120-200€; inspeção profissional anual 80-150€; peças e materiais 47-67€. Investir 300-500€/ano evita reparações de 2000-10000€.'}},
+ {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
+ {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
+ {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: 300-500€. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
+ {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; consumo excessivo de água e energia (+30%); problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
+ ]
+ }) }}
+ />
+ <article className="max-w-4xl mx-auto">
  <div className="mb-8">
  <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
  <span className="px-3 py-1 bg-green-100 text-green-800 font-semibold rounded-full">
@@ -82,8 +82,8 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl border-2 border-green-200">
  <h3 className="font-bold text-green-900 mb-3 text-lg">💰 Poupança Financeira</h3>
  <ul className="text-green-800 space-y-2">
- <li>• Evita avarias caras (2000-5000€)</li>
- <li>• Reduz consumo de água (20-30%)</li>
+ <li>• Evita avarias caras (2000-5000€</li>
+ <li>• Reduz consumo de água (20-30%</li>
  <li>• Prolonga vida útil equipamentos</li>
  <li>• Manutenção custa 200€/ano vs 3000€ reparação</li>
  </ul>
@@ -179,10 +179,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Feche todas as torneiras completamente</li>
- <li>• Ouça se há pingos (aguarde alguns minutos)</li>
- <li>• Verifique debaixo de lavatórios (fugas escondidas)</li>
- <li>• Teste autoclismos (coloque corante, se passar para sanita = fuga)</li>
- <li>• Verifique pressão de água (deve ser constante)</li>
+ <li>• Ouça se há pingos (aguarde alguns minutos</li>
+ <li>• Verifique debaixo de lavatórios (fugas escondidas</li>
+ <li>• Teste autoclismos (coloque corante, se passar para sanita = fuga</li>
+ <li>• Verifique pressão de água (deve ser constante</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
@@ -208,9 +208,9 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Retire grelhas de ralos e limpe cabelos/resíduos</li>
  <li>• Despeje água quente (não fervente) nos ralos</li>
- <li>• Use bicarbonato + vinagre mensalmente (previne acumulação)</li>
+ <li>• Use bicarbonato + vinagre mensalmente (previne acumulação</li>
  <li>• Verifique se água escoa rapidamente</li>
- <li>• Limpe sifões visíveis (debaixo lavatório)</li>
+ <li>• Limpe sifões visíveis (debaixo lavatório</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
@@ -264,7 +264,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Abra torneira de água quente</li>
  <li>• Verifique se esquentador acende normalmente</li>
- <li>• Chama deve ser azul (não amarela)</li>
+ <li>• Chama deve ser azul (não amarela</li>
  <li>• Água deve aquecer em 30-60 segundos</li>
  <li>• Sem ruídos estranhos ou cheiro a gás</li>
  </ul>
@@ -279,10 +279,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Mensal</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Verificar torneiras e autoclismos (A confirmar)</li>
- <li>✓ Limpar ralos e sifões (A confirmar)</li>
- <li>✓ Verificar contador de água (A confirmar)</li>
- <li>✓ Testar esquentador/caldeira (A confirmar)</li>
+ <li>✓ Verificar torneiras e autoclismos (A confirmar</li>
+ <li>✓ Limpar ralos e sifões (A confirmar</li>
+ <li>✓ Verificar contador de água (A confirmar</li>
+ <li>✓ Testar esquentador/caldeira (A confirmar</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
  <strong>Total:</strong> A confirmar/mês | <strong>Custo:</strong> 2€/mês
@@ -312,7 +312,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Limpeza de queimador e elétrodos</li>
  <li>• Verificação de termopar e válvulas</li>
- <li>• Limpeza de permutador (se necessário)</li>
+ <li>• Limpeza de permutador (se necessário</li>
  <li>• Teste de combustão e segurança</li>
  <li>• Substituição de pilhas</li>
  </ul>
@@ -338,10 +338,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Compre manómetro de pressão (10-20€)</li>
+ <li>• Compre manómetro de pressão (10-20€</li>
  <li>• Ligue à torneira exterior ou máquina lavar</li>
  <li>• Abra torneira completamente</li>
- <li>• Leia pressão (ideal: 2-3 bar)</li>
+ <li>• Leia pressão (ideal: 2-3 bar</li>
  <li>• Se muito alta (&gt;4 bar): instale redutor de pressão</li>
  <li>• Se muito baixa (&lt;1.5 bar): contacte empresa águas</li>
  </ul>
@@ -368,11 +368,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
  <li>Coloque balde debaixo do sifão</li>
- <li>Desenrosque sifão (normalmente à mão)</li>
+ <li>Desenrosque sifão (normalmente à mão</li>
  <li>Esvazie água e resíduos no balde</li>
  <li>Lave sifão com água quente e escova</li>
- <li>Verifique juntas de borracha (substitua se gastas)</li>
- <li>Volte a montar e teste (sem fugas)</li>
+ <li>Verifique juntas de borracha (substitua se gastas</li>
+ <li>Volte a montar e teste (sem fugas</li>
  </ol>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
@@ -413,10 +413,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Semestral</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Limpar esquentador/caldeira (técnico: 60-100€)</li>
- <li>✓ Verificar pressão de água (A confirmar)</li>
- <li>✓ Limpar sifões profundamente (A confirmar)</li>
- <li>✓ Verificar isolamento de canos (A confirmar)</li>
+ <li>✓ Limpar esquentador/caldeira (técnico: 60-100€</li>
+ <li>✓ Verificar pressão de água (A confirmar</li>
+ <li>✓ Limpar sifões profundamente (A confirmar</li>
+ <li>✓ Verificar isolamento de canos (A confirmar</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
  <strong>Total:</strong> A confirmar + técnico | <strong>Custo:</strong> 95-175€/semestre
@@ -473,7 +473,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Quando Necessário:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Água muito dura (calcária)</li>
+ <li>• Água muito dura (calcária</li>
  <li>• Pressão de água reduzida</li>
  <li>• Água demora a aquecer</li>
  <li>• Manchas brancas em torneiras</li>
@@ -529,11 +529,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Componentes a Verificar:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Juntas de torneiras (se pingam)</li>
- <li>• Flexíveis de ligação (se mais de 5 anos)</li>
+ <li>• Juntas de torneiras (se pingam</li>
+ <li>• Flexíveis de ligação (se mais de 5 anos</li>
  <li>• Válvulas enferrujadas ou difíceis de rodar</li>
  <li>• Autoclismos com fugas persistentes</li>
- <li>• Mangueiras de máquinas (se rachadas)</li>
+ <li>• Mangueiras de máquinas (se rachadas</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
@@ -546,10 +546,10 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Anual</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Inspeção profissional completa (80-150€)</li>
- <li>✓ Descalcificação se necessário (80-150€)</li>
- <li>✓ Limpeza canalização exterior (1h ou 100-200€)</li>
- <li>✓ Substituir componentes gastos (20-100€)</li>
+ <li>✓ Inspeção profissional completa (80-150€</li>
+ <li>✓ Descalcificação se necessário (80-150€</li>
+ <li>✓ Limpeza canalização exterior (1h ou 100-200€</li>
+ <li>✓ Substituir componentes gastos (20-100€</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
  <strong>Total:</strong> 1-2 horas + técnico | <strong>Custo:</strong> 180-600€/ano
@@ -577,7 +577,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <td className="py-3 px-4">
  <ul className="text-sm space-y-1">
  <li>• Checklist mensal</li>
- <li>• Limpar esquentador (semestral)</li>
+ <li>• Limpar esquentador (semestral</li>
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
@@ -673,7 +673,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-sm space-y-1">
  <li>• Checklist mensal</li>
  <li>• Checklist trimestral</li>
- <li>• Preparação inverno (isolamento)</li>
+ <li>• Preparação inverno (isolamento</li>
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar</td>
@@ -762,9 +762,9 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <strong>Calendário recomendado:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Semestral:</strong> Limpeza esquentador/caldeira (Janeiro + Julho)</li>
- <li>• <strong>Anual:</strong> Inspeção completa do sistema (Março)</li>
- <li>• <strong>Quando necessário:</strong> Descalcificação (zonas calcárias)</li>
+ <li>• <strong>Semestral:</strong> Limpeza esquentador/caldeira (Janeiro + Julho</li>
+ <li>• <strong>Anual:</strong> Inspeção completa do sistema (Março</li>
+ <li>• <strong>Quando necessário:</strong> Descalcificação (zonas calcárias</li>
  <li>• <strong>Emergências:</strong> Fugas, entupimentos graves, avarias</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
@@ -802,12 +802,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <strong>Consequências de negligenciar manutenção:</strong>
  </p>
  <ul className="text-red-700 space-y-2 ml-4">
- <li>• Avarias súbitas e caras (canos rebentados, fugas)</li>
- <li>• Redução vida útil equipamentos (50% menos)</li>
- <li>• Consumo excessivo água e energia (+30%)</li>
- <li>• Problemas de saúde (água contaminada, humidade)</li>
- <li>• Desvalorização do imóvel (5-10%)</li>
- <li>• Emergências inconvenientes (sem água quente, inundações)</li>
+ <li>• Avarias súbitas e caras (canos rebentados, fugas</li>
+ <li>• Redução vida útil equipamentos (50% menos</li>
+ <li>• Consumo excessivo água e energia (+30%</li>
+ <li>• Problemas de saúde (água contaminada, humidade</li>
+ <li>• Desvalorização do imóvel (5-10%</li>
+ <li>• Emergências inconvenientes (sem água quente, inundações</li>
  </ul>
  <p className="text-red-900 font-semibold mt-3">
  ⚠️ Negligência custa 10x mais que prevenção
@@ -977,7 +977,7 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ol className="text-gray-700 text-sm space-y-1 list-decimal pl-4">
- <li>Desenrosque ponta da torneira (arejador)</li>
+ <li>Desenrosque ponta da torneira (arejador</li>
  <li>Retire filtro/rede metálica</li>
  <li>Mergulhe em vinagre branco A confirmar</li>
  <li>Escove com escova de dentes velha</li>
@@ -1005,8 +1005,8 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <div className="bg-gray-50 p-4 rounded-lg mb-3">
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
- <li>• Localize todas as válvulas (geral, individuais)</li>
- <li>• Teste abertura e fecho (deve rodar suavemente)</li>
+ <li>• Localize todas as válvulas (geral, individuais</li>
+ <li>• Teste abertura e fecho (deve rodar suavemente</li>
  <li>• Se enferrujada, aplique óleo desengripante</li>
  <li>• Verifique se há fugas nas válvulas</li>
  <li>• Etiquete válvulas para fácil identificação</li>
@@ -1034,10 +1034,10 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <p className="font-bold text-gray-900 mb-2">Como Fazer:</p>
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Inspecione canos em cave, sótão, garagem</li>
- <li>• Procure sinais de corrosão (ferrugem, manchas verdes)</li>
- <li>• Verifique juntas e conexões (humidade = fuga)</li>
- <li>• Toque canos (se húmidos = problema)</li>
- <li>• Verifique isolamento térmico (se houver)</li>
+ <li>• Procure sinais de corrosão (ferrugem, manchas verdes</li>
+ <li>• Verifique juntas e conexões (humidade = fuga</li>
+ <li>• Toque canos (se húmidos = problema</li>
+ <li>• Verifique isolamento térmico (se houver</li>
  </ul>
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
@@ -1078,10 +1078,10 @@ export default ManutencaoCanalizacaoChecklistAnual;
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Trimestral</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Limpar filtros de torneiras (A confirmar)</li>
- <li>✓ Verificar válvulas e registos (A confirmar)</li>
- <li>✓ Inspecionar canos visíveis (A confirmar)</li>
- <li>✓ Limpar grelhas de ventilação (A confirmar)</li>
+ <li>✓ Limpar filtros de torneiras (A confirmar</li>
+ <li>✓ Verificar válvulas e registos (A confirmar</li>
+ <li>✓ Inspecionar canos visíveis (A confirmar</li>
+ <li>✓ Limpar grelhas de ventilação (A confirmar</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
  <strong>Total:</strong> A confirmar/trimestre | <strong>Custo:</strong> 6€/trimestre

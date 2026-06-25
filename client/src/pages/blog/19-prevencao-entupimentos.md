@@ -16,35 +16,35 @@ tags: ['prevenção entupimentos', 'dicas', 'práticas', 'canalizações', 'manu
 
 ### Na Cozinha
 1. **Não deite gordura** nas canalizações
-   - Espere arrefecer e deite no lixo
-   - Use papel para absorver antes de deitar
-   - Limpe panelas com papel antes de lavar
+ - Espere arrefecer e deite no lixo
+ - Use papel para absorver antes de deitar
+ - Limpe panelas com papel antes de lavar
 
 2. **Use filtros** em todos os ralos
-   - Troque regularmente (cada 1-2 meses)
-   - Prefira filtros metálicos reutilizáveis
-   - Limpe após cada uso intensivo
+ - Troque regularmente (cada 1-2 meses)
+ - Prefira filtros metálicos reutilizáveis
+ - Limpe após cada uso intensivo
 
 3. **Água quente regular**
-   - Deite água a ferver semanalmente nos ralos
-   - Adicione bicarbonato e vinagre mensalmente
-   - Não use produtos químicos agressivos
+ - Deite água a ferver semanalmente nos ralos
+ - Adicione bicarbonato e vinagre mensalmente
+ - Não use produtos químicos agressivos
 
 ### Na Casa de Banho
 1. **Cabelos** - Principal culpado
-   - Use filtros específicos para chuveiros
-   - Limpe regularmente a armadilha do ralo
-   - Escove o cabelo antes do banho
+ - Use filtros específicos para chuveiros
+ - Limpe regularmente a armadilha do ralo
+ - Escove o cabelo antes do banho
 
 2. **Produtos de higiene**
-   - Não deite cotonetes, fio dental, pensos
-   - Use papel higiénico de uma camada apenas
-   - Não deite medicamentos líquidos
+ - Não deite cotonetes, fio dental, pensos
+ - Use papel higiénico de uma camada apenas
+ - Não deite medicamentos líquidos
 
 3. **Sanita não é caixote do lixo**
-   - Apenas papel higiénico e dejetos humanos
-   - Nunca deite toalhitas (mesmo as ditas biodegradáveis)
-   - Produtos femininos no contentor apropriado
+ - Apenas papel higiénico e dejetos humanos
+ - Nunca deite toalhitas (mesmo as ditas biodegradáveis)
+ - Produtos femininos no contentor apropriado
 
 ## Manutenção Preventiva Profissional
 

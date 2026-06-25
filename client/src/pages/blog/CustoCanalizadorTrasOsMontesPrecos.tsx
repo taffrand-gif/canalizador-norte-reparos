@@ -166,9 +166,9 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mt-6">
  <h3 className="font-bold text-yellow-800 text-lg mb-2">📝 Notas Importantes:</h3>
  <ul className="text-yellow-700 space-y-2">
- <li>• <strong>Preços incluem IVA a 23%</strong> (exceto se indicado otherwise)</li>
+ <li>• <strong>Preços incluem IVA a 23%</strong> (exceto se indicado otherwise</li>
  <li>• <strong>Deslocação:</strong> Incluída até 25km. Acima disso: +0,50€/km</li>
- <li>• <strong>Materiais:</strong> Não incluídos nos preços acima (ver tabela de materais mais abaixo)</li>
+ <li>• <strong>Materiais:</strong> Não incluídos nos preços acima (ver tabela de materais mais abaixo</li>
  <li>• <strong>Emergências:</strong> Fora do horário comercial (19h-8h, fins-de-semana): +30-50%</li>
  </ul>
  </div>
