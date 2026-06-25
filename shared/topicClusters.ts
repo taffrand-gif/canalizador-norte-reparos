@@ -80,7 +80,7 @@ export const canalizadorClusters: TopicCluster[] = [
  {
  slug: 'custo-certificado-gas',
  title: 'Quanto Custa Certificado de Gás em Portugal 2026',
- keywords: ['custo certificado gás', 'preço certificação', 'orçamento DGEG'],
+ keywords: ['custo certificado gás', 'preço certificação', 'orçamento '],
  targetSnippet: 'Custo certificado gás: €150-300 dependendo complexidade. Inclui inspeção, testes segurança, emissão Profissional. Prazo: 3-5 dias úteis.'
  }
  ]
@@ -97,7 +97,7 @@ export const eletricistaClusters: TopicCluster[] = [
  {
  slug: 'certificado-ited-obrigatorio',
  title: 'Certificado ITED é Obrigatório? Quando Precisa',
- keywords: ['certificado ITED obrigatório', 'certificação elétrica', 'inspeção DGEG'],
+ keywords: ['certificado ITED obrigatório', 'certificação elétrica', 'inspeção '],
  targetSnippet: 'Certificado ITED obrigatório: Sim, para venda/arrendamento, instalação nova, alteração quadro. Válido 10 anos. Multa sem certificado: €1000-10000.'
  },
  {
