@@ -19,7 +19,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
           "@type": "FAQPage",
           "mainEntity": [
     {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: reparação simples 50-100€; desentupimento 60-150€; instalação 80-300€; urgência +20-50€; deslocação 30-50€ se não houver trabalho. Os preços variam com a urgência, complexidade e localização.'}},
-    {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-50€ de deslocação; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
+    {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-deslocação segundo zona oficial; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
     {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
     {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
     {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
@@ -796,7 +796,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>• Se fizer trabalho: normalmente incluído no preço</li>
- <li>• Se não fizer trabalho: 30-50€ de deslocação</li>
+ <li>• Se não fizer trabalho: 30-deslocação segundo zona oficial</li>
  <li>• Urgências: pode ter taxa extra de 20-40€</li>
  <li>• Zonas rurais: pode cobrar mais pela distância</li>
  </ul>
