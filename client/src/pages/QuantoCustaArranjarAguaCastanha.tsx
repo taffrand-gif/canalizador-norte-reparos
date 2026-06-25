@@ -177,7 +177,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  <p className="text-gray-600 mb-4">
  ✅ Sem compromisso sem compromisso<br />
  ✅ Preços finais após diagnóstico no local<br />
- ✅ Garantia de Trabalho garantido por escrito
+ ✅ Garantia de Orçamento por escrito
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -233,7 +233,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  { icon: CheckCircle, text: "Diagnóstico completo da causa" },
  { icon: CheckCircle, text: "Mão-de-obra especializada" },
  { icon: CheckCircle, text: "Material básico necessário" },
- { icon: CheckCircle, text: "Garantia de Trabalho garantido por escrito" },
+ { icon: CheckCircle, text: "Garantia de Orçamento por escrito" },
  { icon: CheckCircle, text: "Limpeza após intervenção" }
  ].map((item, index) => (
  <div key={index} className="flex items-start gap-3 bg-green-50 p-4 rounded-lg">
