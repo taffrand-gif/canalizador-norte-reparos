@@ -253,11 +253,11 @@ function Urgencia() {
  </div>
  <p className="flex items-center gap-2 text-gray-700">
 <span className="text-green-500 font-bold">✓</span>
-  Serviço ao domicílio em toda a região
-  </p>
-  <p className="flex items-center gap-2 text-gray-700">
-  <span className="text-green-500 font-bold">✓</span>
-  Não estamos "do outro lado do país"
+ Serviço ao domicílio em toda a região
+ </p>
+ <p className="flex items-center gap-2 text-gray-700">
+ <span className="text-green-500 font-bold">✓</span>
+ Não estamos "do outro lado do país"
  </p>
  </div>
  </div>

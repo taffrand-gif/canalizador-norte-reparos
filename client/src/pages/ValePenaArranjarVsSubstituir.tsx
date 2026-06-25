@@ -311,7 +311,7 @@ export default function ValePenaArranjarVsSubstituir() {
  <div className="bg-white p-4 rounded-lg">
  <p className="font-semibold mb-2">Exemplo prático:</p>
  <ul className="space-y-2 text-gray-700">
- <li>• Esquentador com 12 anos (vida útil: 10-12 anos = 100%)</li>
+ <li>• Esquentador com 12 anos (vida útil: 10-12 anos = 100%</li>
  <li>• Arranjo: 250€ | Substituir: 500€</li>
  <li>• 250€ = 50% de 500€ ✅</li>
  <li>• 12 anos = 100% vida útil ✅</li>

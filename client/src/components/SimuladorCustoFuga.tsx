@@ -186,9 +186,9 @@ export default function SimuladorCustoFuga({
  ⚠️ Riscos Adicionais:
  </p>
  <ul className="space-y-1 text-sm text-yellow-800">
- {structuralDamage > 0 && <li>• Danos estruturais (humidade nas paredes)</li>}
+ {structuralDamage > 0 && <li>• Danos estruturais (humidade nas paredes</li>}
  {moldRisk > 0 && <li>• Bolor e problemas de saúde</li>}
- {neighborDamage > 0 && <li>• Infiltração nos vizinhos (responsabilidade civil)</li>}
+ {neighborDamage > 0 && <li>• Infiltração nos vizinhos (responsabilidade civil</li>}
  <li>• Aumento exponencial dos custos</li>
  </ul>
  </div>

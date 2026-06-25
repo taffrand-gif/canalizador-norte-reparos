@@ -7,40 +7,40 @@ function ExitIntentPopup() {
  const [showPopup, setShowPopup] = useState(false);
  const [hasShown, setHasShown] = useState(false);
 const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
-  const { city, arrivalTime } = useLocationContent();
-  const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
+ const { city, arrivalTime } = useLocationContent();
+ const whatsappMessage = usePersonalizedWhatsAppMessage('Vi o vosso site e preciso de um orçamento urgente. Podem ajudar?');
 
-  // Memoize tracking functions to avoid recreation on every render
-  const trackedRef = useRef<{ shown: boolean }>({ shown: false });
+ // Memoize tracking functions to avoid recreation on every render
+ const trackedRef = useRef<{ shown: boolean }>({ shown: false });
 
-  useEffect(() => {
-    // Skip if already shown
-    if (trackedRef.current.shown) return;
+ useEffect(() => {
+ // Skip if already shown
+ if (trackedRef.current.shown) return;
 
-    const isMobile = window.innerWidth < 768;
-    const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
+ const isMobile = window.innerWidth < 768;
+ const delay = isMobile ? 60000 : 30000; // 60s mobile, 30s desktop
 
-    const timer = setTimeout(() => {
-      if (!trackedRef.current.shown) {
-        trackedRef.current.shown = true;
-        trackExitPopupShown();
-      }
-    }, delay);
+ const timer = setTimeout(() => {
+ if (!trackedRef.current.shown) {
+ trackedRef.current.shown = true;
+ trackExitPopupShown();
+ }
+ }, delay);
 
-    const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0 && !trackedRef.current.shown) {
-        trackedRef.current.shown = true;
-        clearTimeout(timer);
-        trackExitPopupShown();
-      }
-    };
+ const handleMouseLeave = (e: MouseEvent) => {
+ if (e.clientY <= 0 && !trackedRef.current.shown) {
+ trackedRef.current.shown = true;
+ clearTimeout(timer);
+ trackExitPopupShown();
+ }
+ };
 
-    document.addEventListener('mouseleave', handleMouseLeave);
-    return () => {
-      document.removeEventListener('mouseleave', handleMouseLeave);
-      clearTimeout(timer);
-    };
-  }, [trackExitPopupShown]);
+ document.addEventListener('mouseleave', handleMouseLeave);
+ return () => {
+ document.removeEventListener('mouseleave', handleMouseLeave);
+ clearTimeout(timer);
+ };
+ }, [trackExitPopupShown]);
  if (!showPopup) return null;
  const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
@@ -121,7 +121,7 @@ const { trackExitPopupShown, trackExitPopupConversion } = useAnalytics();
  setShowPopup(false);
  }}
  >
-  {ACTIVE_CONFIG.phone}
+ {ACTIVE_CONFIG.phone}
  </a>
  </div>
  {/* Trust indicator with urgency */}

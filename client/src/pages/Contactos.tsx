@@ -384,11 +384,11 @@ Todo o distrito de Bragança, Vila Real, Guarda e Viseu
  </h2>
  <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-8">
 Servimos toda a região de Trás-os-Montes — distrito de Bragança, Vila Real, Guarda e Viseu
-  </p>
-  <div className="bg-gray-200 rounded-lg h-64 sm:h-96 flex items-center justify-center">
-  <p className="text-gray-600 text-sm sm:text-base">
-  📍 Serviço ao domicílio — Trás-os-Montes, Portugal
-  </p>
+ </p>
+ <div className="bg-gray-200 rounded-lg h-64 sm:h-96 flex items-center justify-center">
+ <p className="text-gray-600 text-sm sm:text-base">
+ 📍 Serviço ao domicílio — Trás-os-Montes, Portugal
+ </p>
  </div>
  </div>
  </div>

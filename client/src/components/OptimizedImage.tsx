@@ -51,29 +51,29 @@ export default function OptimizedImage({
  observer.disconnect();
  };
  }, [priority]);
-  // Determinar se a imagem é externa
-  const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
-  // Gerar srcset para imagens responsivas
-  const generateSrcSet = (imagePath: string): string => {
-  if (isExternalImage) {
-  return '';
-  }
-  // Para imagens locais
-  const pathParts = imagePath.split('.');
-  const extension = pathParts.pop();
-  const basePath = pathParts.join('.');
-  return [
-  `${basePath}-320w.webp 320w`,
-  `${basePath}-640w.webp 640w`,
-  `${basePath}-1024w.webp 1024w`,
-  `${basePath}-1920w.webp 1920w`,
-  ].join(', ');
-  };
-  // Gerar URL WebP
-  const getWebPSrc = (imagePath: string): string => {
-  if (isExternalImage) {
-  return imagePath;
-  }
+ // Determinar se a imagem é externa
+ const isExternalImage = src.startsWith('http://') || src.startsWith('https://');
+ // Gerar srcset para imagens responsivas
+ const generateSrcSet = (imagePath: string): string => {
+ if (isExternalImage) {
+ return '';
+ }
+ // Para imagens locais
+ const pathParts = imagePath.split('.');
+ const extension = pathParts.pop();
+ const basePath = pathParts.join('.');
+ return [
+ `${basePath}-320w.webp 320w`,
+ `${basePath}-640w.webp 640w`,
+ `${basePath}-1024w.webp 1024w`,
+ `${basePath}-1920w.webp 1920w`,
+ ].join(', ');
+ };
+ // Gerar URL WebP
+ const getWebPSrc = (imagePath: string): string => {
+ if (isExternalImage) {
+ return imagePath;
+ }
  const pathParts = imagePath.split('.');
  pathParts.pop();
  return `${pathParts.join('.')}.webp`;
