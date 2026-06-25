@@ -235,3 +235,4 @@ function App() {
 }
 export default App;
 // force rebuild 1772742743
+// Touch: Thu Jun 25 15:14:22 BST 2026 - force Vite rebuild
