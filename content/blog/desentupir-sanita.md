@@ -465,3 +465,24 @@ Na maioria dos casos (70%), consegue **desentupir a sanita sozinho em 10-30 minu
 - [Mau Cheiro no Ralo: 5 Causas e Soluções Definitivas](/blog/mau-cheiro-ralo)
 - [Autoclismo Não Enche: 6 Causas e Como Arranjar](/blog/autoclismo-nao-enche)
 - [Desentupir Ralo de Chuveiro: 5 Métodos Eficazes](/blog/desentupir-ralo-chuveiro)
+
+## Perguntas Frequentes (FAQ)
+
+### Quanto custa desentupir uma sanita em Trás-os-Montes?
+O preço médio para desentupir uma sanita em Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros) varia entre **40€ e 80€**, dependendo da gravidade do entupimento e da hora. Em horário normal (8h-20h, dias úteis), o preço médio é 40-60€. Para urgências noturnas, fins de semana ou feriados, acresce uma taxa de urgência de +50%. Orçamento gratuito por telefone: **+351 928 484 451**.
+
+### Posso desentupir a sanita sozinho ou preciso de um canalizador?
+Para entupimentos simples (papel acumulado, pequena obstrução), métodos DIY como **desentupidor de borracha, bicarbonato + vinagre, ou cabo de aço flexível** resolvem em 10-30 minutos. Para entupimentos recorrentes, água que não desce, ou múltiplos sanitários entupidos em simultâneo, é necessário um **canalizador profissional** com equipamento específico (cabo elétrico, hidrojato, câmara de inspeção).
+
+### Quanto tempo demora um canalizador a desentupir uma sanita?
+Uma desentupimento profissional de sanita demora tipicamente **20 a 45 minutos** para casos simples (entupimento por papel ou objeto). Casos complexos (cano entupido longe, raízes, acumulação de gordura) podem levar 1-2 horas. Em Trás-os-Montes, o tempo de resposta do canalizador é geralmente inferior a 1 hora em horário normal.
+
+### A sanita entope com frequência. O que fazer?
+Sanita que entope frequentemente indica **problema estrutural**: (1) Cano de esgoto com declive insuficiente, (2) Raízes de árvores nas canalizações, (3) Acumulação de gordura ou resíduos, (4) Cano de pequeno diâmetro (≤90mm). Recomendação: **inspeção vídeo CCTV** do cano (120-200€) para identificar causa raiz e solução definitiva.
+
+### O desentupimento da sanita é urgente ou posso esperar?
+**Urgente** se: (1) Sanita é a única casa de banho da habitação, (2) Entupimento afeta vários sanitários, (3) Há refluxo de água suja ou risco de inundação. **Pode esperar** se: (1) Há outra casa de banho disponível, (2) Entupimento é parcial (água desce lentamente), (3) Sem risco de danos. Serviço 24h disponível em Trás-os-Montes: **+351 928 484 451**.
+
+### Vocês desentupem sanitas em todas as cidades de Trás-os-Montes?
+Sim. Servimos **Bragança, Mirandela, Macedo de Cavaleiros, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso, Montalegre, Chaves, Vila Real, Lamego** e todas as aldeias num raio de 100km de Macedo de Cavaleiros.
+
