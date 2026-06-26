@@ -67,7 +67,7 @@ export const canalizadorFAQs: FAQ[] = [
  },
  {
  question: "têm experiência?",
- answer: "Sim, somos canalizadores com experiência com experiência em Trás-os-Montes em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
+ answer: "Sim, somos canalizadores com 12 anos de experiência em Trás-os-Montes. Todos os trabalhos cumprem as normas portuguesas."
  },
  {
  question: "Atendem em que cidades?",
