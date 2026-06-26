@@ -198,6 +198,86 @@
       "destination": "/sanita-entupida-:city.html"
     },
     {
+      "source": "/reparacao-urgente-:city",
+      "destination": "/reparacao-urgente-:city.html"
+    },
+    {
+      "source": "/faq-canalizador-:city",
+      "destination": "/faq-canalizador-:city.html"
+    },
+    {
+      "source": "/sem-agua-:city",
+      "destination": "/sem-agua-:city.html"
+    },
+    {
+      "source": "/pressao-agua-:city",
+      "destination": "/pressao-agua-:city.html"
+    },
+    {
+      "source": "/ralo-entupido-:city",
+      "destination": "/ralo-entupido-:city.html"
+    },
+    {
+      "source": "/torneira-pinga-:city",
+      "destination": "/torneira-pinga-:city.html"
+    },
+    {
+      "source": "/dicas-manutencao-:city",
+      "destination": "/dicas-manutencao-:city.html"
+    },
+    {
+      "source": "/problemas-comuns-:city",
+      "destination": "/problemas-comuns-:city.html"
+    },
+    {
+      "source": "/perguntas-frequentes-:city",
+      "destination": "/perguntas-frequentes-:city.html"
+    },
+    {
+      "source": "/reparacao-fugas-:city",
+      "destination": "/reparacao-fugas-:city.html"
+    },
+    {
+      "source": "/reparacao-esquentador-:city",
+      "destination": "/reparacao-esquentador-:city.html"
+    },
+    {
+      "source": "/detecao-fugas-:city",
+      "destination": "/detecao-fugas-:city.html"
+    },
+    {
+      "source": "/reparacao-esquentadores-:city",
+      "destination": "/reparacao-esquentadores-:city.html"
+    },
+    {
+      "source": "/melhores-torneiras-:city",
+      "destination": "/melhores-torneiras-:city.html"
+    },
+    {
+      "source": "/melhores-bombas-:city",
+      "destination": "/melhores-bombas-:city.html"
+    },
+    {
+      "source": "/como-desentupir-:city",
+      "destination": "/como-desentupir-:city.html"
+    },
+    {
+      "source": "/guia-:city",
+      "destination": "/guia-:city.html"
+    },
+    {
+      "source": "/servicos-:city",
+      "destination": "/servicos-:city.html"
+    },
+    {
+      "source": "/tecnologia-:city",
+      "destination": "/tecnologia-:city.html"
+    },
+    {
+      "source": "/zonas-:city",
+      "destination": "/zonas-:city.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
