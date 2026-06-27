@@ -320,3 +320,38 @@ Tudo sobre desentupimento.
 **Orçamento grátis por telefone — sem compromisso.**
 
 [Pedir orçamento agora](tel:+351928484451)
+
+## Perguntas Frequentes (FAQ)
+
+### Qual é o melhor produto para desentupir canos?
+O melhor produto **DIY** para desentupir canos é uma combinação de **bicarbonato de sódio + vinagre branco + água quente** (200g + 200ml + 1L a 80°C). Esta solução é eficaz para entupimentos orgânicos (gordura, restos alimentares, cabelo) sem danificar os canos. Para entupimentos graves ou químicos, **cabo de aço flexível** ou **hidrojato profissional** são mais eficazes. Evite soda cáustica em canos de PVC (corrosão a longo prazo).
+
+### Quanto custa um serviço de desentupimento em Trás-os-Montes?
+Preços indicativos 2026 em Trás-os-Montes:
+- **Desentupimento simples** (sanita, lavatório, ralo): 40-80€
+- **Desentupimento esgotos/columna**: 120-250€
+- **Hidrojato profissional**: 150-300€
+- **Inspeção vídeo CCTV**: 120-200€
+- **Limpeza fossa séptica**: 200-400€
+
+Urgências noturnas/fim de semana: +50%. Orçamento grátis por telefone: **+351 928 484 451**.
+
+### É seguro usar soda cáustica para desentupir?
+**Não recomendado** para uso doméstico regular. Soda cáustica (hidróxido de sódio) é altamente corrosiva e pode: (1) Danificar canos de PVC a longo prazo, (2) Causar queimaduras graves em contacto com pele ou olhos, (3) Libertar gases tóxicos em espaços fechados. Use apenas como último recurso com equipamento de proteção completo, e NUNCA misture com outros produtos químicos (risco de reação explosiva).
+
+### Como prevenir entupimentos no futuro?
+**5 regras de ouro**:
+1. **Nunca deite gordura** no lava-loiça (solidifica nos canos)
+2. **Use redes/coadores** em ralos de chuveiro e lavatório (captura cabelo)
+3. **Não deite papel higiénico em excesso** de uma só vez
+4. **Faça limpeza preventiva** mensal com bicarbonato + vinagre
+5. **Inspeção vídeo anual** se tem mais de 20 anos (detetar raízes ou danos)
+
+### O autoclismo entope com frequência. Como resolver?
+Autoclismo que entope frequentemente tem geralmente **3 causas**:
+1. **Válvula de descarga danificada** (substituição: 20-40€ + 30min DIY)
+2. **Mecanismo de enchimento com calcário** (limpeza com vinagre ou substituição: 15-30€)
+3. **Cano de evacuação parcial obstruído** (desentupimento profissional: 60-120€)
+
+Recomendação: chamar canalizador se problema persiste após limpeza DIY. Serviço em Trás-os-Montes: **+351 928 484 451**.
+
