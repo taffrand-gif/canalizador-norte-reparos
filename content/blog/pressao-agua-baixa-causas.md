@@ -276,7 +276,7 @@ Canalizador usa **manómetro digital** que mede:
 
 ## 📞 Quando Chamar Canalizador
 
-### Ligue URGENTE (24h) se:
+### Ligue URGENTE (mediante confirmação por telefone) se:
 - ✅ Pressão zero (sem água)
 - ✅ Pressão baixa súbita
 - ✅ Suspeita de fuga grande
@@ -327,7 +327,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 928 484 451**
 💬 **[WhatsApp](https://wa.me/351928484451?text=Pressão%20água%20baixa%20diagnóstico)**
 
-**Resposta rápida garantida. Orçamento sem compromisso.**
+**Resposta mediante confirmação por telefone. Orçamento sem compromisso.**
 
 ---
 
