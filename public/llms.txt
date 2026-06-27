@@ -1,12 +1,12 @@
-# Norte-Reparos.com - Canalizador Profissional em Trás-os-Montes, Portugal
+# Canalizador Norte Reparos - Canalizador Profissional em Trás-os-Montes, Portugal
 
-> Canalizador profissional disponível Atendimento 24h/7d, 7 dias por semana, em toda a região de Trás-os-Montes, Norte de Portugal.
+> Canalizador disponível 24h/7, 7 dias por semana, em toda a região de Trás-os-Montes, Norte de Portugal.
 
 ## Informação de Contacto
 
 - **Telefone**: +351 928 484 451
 - **WhatsApp**: https://wa.me/351928484451
-- **Website**: https://norte-reparos.com
+- **Website**: https://canalizador-norte-reparos.pt
 - **Horário**: Atendimento 24h/7d, incluindo feriados e fins de semana
 - **Tempo de Resposta**: Menos de 1 hora em urgências
 
@@ -17,7 +17,7 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 **Cidades Principais:**
 - Bragança (canalizador bragança)
 - Mirandela (canalizador mirandela)
-- Trás-os-Montes (canalizador macedo de cavaleiros) - SEDE
+- Macedo de Cavaleiros (canalizador macedo de cavaleiros) - SEDE
 - Chaves (canalizador chaves)
 - Vila Real (canalizador vila real)
 
@@ -26,11 +26,11 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 - Miranda do Douro (canalizador miranda do douro)
 - Mogadouro (canalizador mogadouro)
 - Torre de Moncorvo (canalizador torre de moncorvo)
-- Freixo de Espada à Cinta (canalizador freixo)
+- Freixo de Espada à Cinta (canalizador freixo de espada à cinta)
 - Valpaços (canalizador valpaços)
 - Alfândega da Fé (canalizador alfândega da fé)
 - Vila Flor (canalizador vila flor)
-- Carrazeda de Ansiães (canalizador carrazeda)
+- Carrazeda de Ansiães (canalizador carrazeda de ansiães)
 - Vimioso (canalizador vimioso)
 - Montalegre (canalizador montalegre)
 - Boticas (canalizador boticas)
@@ -54,35 +54,28 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 
 ## Serviços de Canalização
 
-### Desentupimentos 24h
-- Desentupimento WC/Sanita (desentupir sanita bragança, sanita entupida mirandela)
-- Desentupimento lavatório (lavatório entupido)
-- Desentupimento lava-loiça (lava-loiça entupido)
-- Desentupimento banheira/duche
-- Desentupimento esgotos (esgoto entupido bragança)
-- Limpeza fossas sépticas (fossa séptica bragança)
-- Câmara de inspeção vídeo
+### Urgências de Canalização 24h
+- Desentupimento de sanita, lavatório, ralo, esgotos
+- Fuga de água (detecção e reparação)
+- Rotura de tubagem
+- Autoclismo avariado (não para de encher ou não enche)
+- Esquentador avariado
+- Inundação
 
-### Fugas de Água
-- Fuga de água urgente (fuga de água bragança, fuga água mirandela)
-- Deteção de fugas com câmara térmica
-- Cano rebentado (cano rebentado bragança)
-- Cano a pingar
-- Torneira a pingar (torneira a pingar mirandela)
-- Autoclismo a perder água
+### Instalação e Reparação
+- Instalação de canalização nova
+- Substituição de tubagens
+- Instalação sanitária (casa de banho, cozinha)
+- Instalação e reparação de autoclismos
+- Instalação e manutenção de esquentadores
+- Reparação de válvulas e torneiras
+- Limpeza de caixas de esgoto
 
-### Esquentadores e Caldeiras
-- Instalação esquentador (esquentador bragança, esquentador mirandela)
-- Reparação esquentador (esquentador avariado, esquentador não liga)
-- Esquentador sem água quente
-- Manutenção anual esquentador
-- Caldeiras murais
-
-### Instalações Sanitárias
-- Instalação sanita e lavatório
-- Substituição autoclismo
-- Instalação base de duche
-- Torneiras e misturadoras
+### Diagnóstico Especializado
+- Inspeção de canalização com câmara
+- Detecção de fugas sem demolições
+- Teste de pressão
+- Análise de caudal
 
 ## Preços Indicativos 2026
 
@@ -91,15 +84,13 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 | Deslocação Macedo (zona local) | 15€ |
 | Deslocação Bragança/Mirandela | 20-30€ |
 | Deslocação Chaves/Vila Real | 45-50€ |
-| Reparação de torneira | 60€ - 80€ |
-| Deteção de fuga | 100€ - 150€ |
-| Substituição de cano | 150€ - 250€ |
-| Desentupimento simples | 40€ - 60€ |
-| Fuga de água visível | 60€ - 90€ |
-| Fuga oculta (deteção + reparação) | 120€ - 250€ |
-| Esquentador (instalação) | 200€ - 400€ |
-| Esquentador (reparação) | 50€ - 120€ |
-| Casa de banho completa | 800€ - 1800€ |
+| Desentupimento simples | 50€ - 80€ |
+| Reparação de fuga | 60€ - 120€ |
+| Reparação autoclismo | 40€ - 80€ |
+| Instalação sanitária | 200€ - 500€ |
+| Instalação de esquentador | 150€ - 350€ |
+| Substituição de tubagem (metro linear) | 30€ - 60€ |
+| Inspeção com câmara | 80€ - 150€ |
 
 *Preços sem IVA. Orçamento gratuito. Urgências noturnas/fim de semana: +50%*
 
@@ -108,7 +99,7 @@ Servimos toda a região de Trás-os-Montes e Alto Douro:
 Se procura por qualquer um destes termos, podemos ajudar:
 
 - canalizador urgente bragança
-- canalizador Atendimento 24h/7d mirandela
+- canalizador 24h mirandela
 - canalizador perto de mim trás-os-montes
 - quanto custa canalizador bragança
 - melhor canalizador trás-os-montes
@@ -116,22 +107,16 @@ Se procura por qualquer um destes termos, podemos ajudar:
 - canalizador de confiança bragança
 - desentupimento bragança
 - desentupimento mirandela
-- desentupir sanita bragança
-- desentupir wc mirandela
-- sanita entupida bragança
-- wc entupido mirandela
 - fuga de água bragança
-- fuga água urgente mirandela
-- cano rebentado bragança
-- esquentador avariado mirandela
-- esquentador não liga bragança
+- autoclismo avariado mirandela
+- esquentador aviado bragança
 
 ## Porquê Escolher-nos?
 
-1. **Disponibilidade Atendimento 24h/7d** - Urgências a qualquer hora, qualquer dia
+1. **Disponibilidade 24h/7d** - Urgências a qualquer hora, qualquer dia
 2. **Resposta Rápida** - Menos de 1 hora na zona local
-3. **Equipamento Profissional** - Câmara inspeção, deteção térmica
-4. **Preço Justo** - Orçamento antes de começar, sem surpresas
+3. **Preço Justo** - Orçamento antes de começar, sem surpresas
+4. **Experiência** - Mais de 10 anos no setor
 5. **Cobertura Total** - Toda a região de Trás-os-Montes
 
 ## Contacte-nos
@@ -140,8 +125,8 @@ Para problemas de canalização em Trás-os-Montes:
 
 📞 **Ligar**: +351 928 484 451
 💬 **WhatsApp**: https://wa.me/351928484451
-🌐 **Website**: https://norte-reparos.com
+🌐 **Website**: https://canalizador-norte-reparos.pt
 
 ---
 
-*Ficheiro otimizado para assistentes de IA. Última atualização: Fevereiro 2026.*
+*Ficheiro otimizado para assistentes de IA. Última atualização: Junho 2026.*
