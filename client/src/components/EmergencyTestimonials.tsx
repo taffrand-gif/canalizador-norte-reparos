@@ -113,7 +113,7 @@ function EmergencyTestimonials({
  </div>
  <div className="text-left">
  <div className="font-black text-2xl text-gray-900"></div>
- <div className="text-sm text-gray-600">500+ avaliações verificadas</div>
+ <div className="text-sm text-gray-600">feedback verificado de clientes</div>
  </div>
  </div>
  </div>

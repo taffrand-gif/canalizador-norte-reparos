@@ -32,7 +32,7 @@ export default function Certificacoes() {
  <Shield className="h-16 w-16 text-red-600 mx-auto mb-4" />
  <h3 className="font-bold text-xl mb-2">Certificação Profissional</h3>
  <p className="text-gray-600">
- canalizador com experiência com experiência em Trás-os-Montes
+ canalizador com 12 anos de experiência em Trás-os-Montes
  </p>
  </Card>
  <Card className="p-8 text-center">
