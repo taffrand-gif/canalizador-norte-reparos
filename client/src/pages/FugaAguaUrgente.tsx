@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function FugaAguaUrgente() {
  useEffect(() => {
- document.title = "Fuga de Água Urgente? Paramos Atendimento prioritário | Norte Reparos";
+ document.title = "Fuga de Água Urgente? Paramos Atendimento mediante confirmação | Norte Reparos";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Fuga de água em casa? Técnico a caminho Atendimento prioritário. Paramos a fuga, evitamos danos maiores. Atendimento 24h/7d. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Fuga de água em casa? Técnico a caminho Atendimento mediante confirmação. Paramos a fuga, evitamos danos maiores. Atendimento 24h/7d. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",

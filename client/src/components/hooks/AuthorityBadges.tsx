@@ -7,8 +7,6 @@ interface AuthorityBadgesProps {
 }
 export default function AuthorityBadges({
  certifications = ['ITED'],
- yearsExperience = 15,
- partnersCount = 12
 }: AuthorityBadgesProps) {
  return (
  <div className="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-sm">
@@ -39,12 +37,9 @@ export default function AuthorityBadges({
  <div className="flex items-start gap-3">
  <Users className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
  <div>
- <p className="font-semibold text-gray-900">Experiência Comprovada</p>
- <p className="text-2xl font-black text-primary mt-1">
- {yearsExperience}+ anos
- </p>
- <p className="text-sm text-gray-600">
- Mais de 5.000 intervenções realizadas
+ <p className="font-semibold text-gray-900">Experiência Consolidada</p>
+ <p className="text-sm text-gray-600 mt-1">
+ Vasta experiência na região de Trás-os-Montes, com centenas de clientes servidos ao longo dos anos.
  </p>
  </div>
  </div>
@@ -52,9 +47,9 @@ export default function AuthorityBadges({
  <div className="flex items-start gap-3 md:col-span-2">
  <Shield className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
  <div>
- <p className="font-semibold text-gray-900">Parceiros de Confiança</p>
+ <p className="font-semibold text-gray-900">Materiais Profissionais</p>
  <p className="text-sm text-gray-600 mt-1">
- Trabalhamos com {partnersCount} marcas líderes: Roca, Grohe, Legrand, Schneider Electric, e mais
+ Trabalhamos com materiais de marcas profissionais reconhecidas no setor.
  </p>
  </div>
  </div>
@@ -63,11 +58,11 @@ export default function AuthorityBadges({
  <div className="flex items-center gap-2">
  <CheckCircle className="w-5 h-5 text-green-600" />
  <p className="font-bold text-green-900">
- Garantia de 2 Anos em Todos os Serviços
+ Garantia sobre os trabalhos realizados
  </p>
  </div>
  <p className="text-sm text-green-700 mt-1">
- + Seguro de Responsabilidade Civil até €500.000
+ Cobertura de responsabilidade civil profissional — detalhes no contrato.
  </p>
  </div>
  </div>

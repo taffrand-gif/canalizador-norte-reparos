@@ -125,3 +125,6 @@ client/src/components/.backups/
 tache2-1-*.py
 audit-2-1-*.py
 audit-r12-r145.py
+
+# Archives locales (ne jamais commit, servent de témoins R8 uniquement)
+_archive/

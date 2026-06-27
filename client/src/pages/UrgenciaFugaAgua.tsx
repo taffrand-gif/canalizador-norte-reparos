@@ -6,10 +6,10 @@ import { Phone, MessageCircle, CheckCircle, Clock, Shield, Star } from 'lucide-r
 export default function UrgenciaFugaAgua() {
  const { config } = useSite();
  useEffect(() => {
- document.title = 'Fuga de Água Urgente Bragança | resposta prioritária | 928 484 451';
+ document.title = 'Fuga de Água Urgente Bragança | Resposta mediante confirmação | 928 484 451';
  const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
  meta.setAttribute('name', 'description');
- meta.setAttribute('content', 'Fuga de água urgente? Canalizador em Bragança resposta prioritária. Sem partir azulejos, preço fixo. Orçamento grátis. Ligue: 928 484 451');
+ meta.setAttribute('content', 'Fuga de água urgente? Canalizador em Bragança Resposta mediante confirmação. Sem partir azulejos, preço fixo. Orçamento grátis. Ligue: 928 484 451');
  if (!meta.parentElement) document.head.appendChild(meta);
  }, []);
  const whatsappMessage = encodeURIComponent('Olá! Tenho uma fuga de água urgente. Podem ajudar?');

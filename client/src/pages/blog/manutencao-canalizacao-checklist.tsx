@@ -148,7 +148,7 @@ export default function ManutencaoCanalizacaoChecklist() {
  </section>
  {/* Checklist Mensal */}
  <section className="mb-12">
- <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Mensal (resposta prioritária)</h2>
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">Checklist Mensal (Resposta mediante confirmação)</h2>
  <div className="bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200 rounded-xl p-6">
  <p className="text-gray-700 mb-6">
  <strong>Frequência:</strong> 1x por mês • <strong>Tempo total:</strong> alguns minutos • <strong>Dificuldade:</strong> Fácil

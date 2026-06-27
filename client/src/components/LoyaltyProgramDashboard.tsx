@@ -272,7 +272,7 @@ export default function LoyaltyProgramDashboard() {
  </h3>
  <ul className="text-sm text-gray-700 space-y-1">
  <li>• 15% desconto permanente</li>
- <li>• Atendimento prioritário</li>
+ <li>• Atendimento mediante confirmação</li>
  <li>• Todos os benefícios Bronze</li>
  <li>• Ofertas exclusivas</li>
  </ul>

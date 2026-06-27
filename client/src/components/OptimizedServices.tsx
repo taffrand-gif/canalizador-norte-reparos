@@ -30,7 +30,7 @@ const serviceFeatures = {
  'Relatório técnico para seguro e condomínio incluído',
  ],
  'Instalação Sanitários': [
- 'Materiais de marcas premium (Grohe, Sanindusa)',
+ 'Materiais de marcas profissionais reconhecidas',
  'Projeto hidráulico gratuito',
  'Instalação com certificação'
  ],
