@@ -37,19 +37,19 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "João M.",
- text: "Fuga de água às 3h da manhã. Chegaram Atendimento prioritário e resolveram tudo. Preço justo, serviço impecável!",
+ text: "Fuga de água às 3h da manhã. Resolveram tudo com profissionalismo. Preço combinado antes, serviço impecável!",
  rating: 5,
  date: "2026-02-15"
  },
  {
  name: "Maria S.",
- text: "Sanita entupida no domingo. Atenderam logo e resolveram Atendimento prioritário. Muito profissionais!",
+ text: "Sanita entupida no domingo. Resolveram com profissionalismo. Muito profissionais!",
  rating: 5,
  date: "2026-02-28"
  },
  {
  name: "António P.",
- text: "Instalaram esquentador novo. Trabalho limpo, rápido e com garantia. Recomendo!",
+ text: "Instalaram esquentador novo. Trabalho limpo e bem feito. Recomendo!",
  rating: 5,
  date: "2026-03-05"
  }
@@ -118,7 +118,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Técnico F.",
- text: "Cano rebentado no jardim. Chegaram rápido e fizeram trabalho perfeito. Preço combinado antes!",
+ text: "Cano rebentado no jardim. Fizeram trabalho perfeito. Preço combinado antes!",
  rating: 5,
  date: "2026-02-18"
  },
@@ -156,7 +156,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Técnico A.",
- text: "Fuga no aquecimento central. Vieram logo e repararam com garantia. Muito bom serviço!",
+ text: "Fuga no aquecimento central. Repararam com cuidado. Muito bom serviço!",
  rating: 5,
  date: "2026-02-22"
  }
@@ -251,7 +251,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Luís M.",
- text: "Serviço rápido mesmo estando longe. Preço justo e trabalho bem feito!",
+ text: "Serviço de qualidade mesmo estando longe. Preço justo e trabalho bem feito!",
  rating: 5,
  date: "2026-02-24"
  }
@@ -283,7 +283,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Francisco C.",
- text: "Fossa entupida na quinta. Vieram com máquina e resolveram rápido. Recomendo!",
+ text: "Fossa entupida na quinta. Vieram com máquina e resolveram. Recomendo!",
  rating: 5,
  date: "2026-03-03"
  }
@@ -346,7 +346,7 @@ export const canalizadorCityContent: Record<string, CityContent> = {
  testimonials: [
  {
  name: "Miguel T.",
- text: "Entupimento resolvido Atendimento prioritário. Preço combinado antes, sem surpresas!",
+ text: "Entupimento resolvido com profissionalismo. Preço combinado antes, sem surpresas!",
  rating: 5,
  date: "2026-03-04"
  }
