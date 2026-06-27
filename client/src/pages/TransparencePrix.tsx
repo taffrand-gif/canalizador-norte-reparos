@@ -90,7 +90,7 @@ export default function TransparencePrix() {
  const faqPrix = [
  {
  question: "Porque os vossos preços são 15-20% mais elevados que a concorrência?",
- answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores com experiência com experiência em Trás-os-Montes, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
+ answer: "Os nossos preços refletem a qualidade superior do serviço: canalizadores com 12 anos de experiência em Trás-os-Montes, materiais de marcas premium (Grohe, Roca, Geberit), garantia alargada de 12 meses, chegada garantida A confirmar, e equipamento profissional (câmaras de inspeção, máquinas desentupimento). Não fazemos trabalhos 'baratos' que falham em 6 meses. O barato sai caro em canalização - uma fuga mal arranjada pode causar infiltrações e danos estruturais."
  },
  {
  question: "O preço final pode ser diferente do orçamento?",
