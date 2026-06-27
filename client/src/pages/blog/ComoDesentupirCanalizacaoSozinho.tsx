@@ -58,12 +58,12 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </div>
  <div>
  <p className="font-semibold text-gray-900">Equipa Norte Reparos</p>
- <p className="text-gray-600">canalizadores com experiência | 500+ Intervenções</p>
+ <p className="text-gray-600">canalizadores com experiência | Intervenções profissionais</p>
  </div>
  </div>
  </div>
  <div className="prose prose-lg max-w-none mb-10">
- <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg mb-8">
+ <div className="bg-cyan-50 border-l-4 border-cyan-Centenas p-6 rounded-r-lg mb-8">
  <p className="text-cyan-900 font-semibold text-lg">
  ⚡ Última atualização: 10 de março de 2026
  </p>
@@ -91,28 +91,28 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  Antes de começar, identifique os sinais de entupimento para escolher o método adequado:
  </p>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">💧 Água Escoa Lentamente</h3>
  <p className="text-gray-700">
  Se a água do lavatório, banheira ou duche demora a escoar, é sinal de entupimento parcial.
  Este é o momento ideal para agir antes de piorar.
  </p>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">👃 Mau Cheiro</h3>
  <p className="text-gray-700">
  Odores desagradáveis vindos do ralo indicam acumulação de resíduos orgânicos.
  Gordura, cabelo e sabão criam uma camada que fermenta.
  </p>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">🔊 Gorgolejos</h3>
  <p className="text-gray-700">
  Sons estranhos ao escoar água sugerem ar preso na canalização.
  Isto acontece quando o entupimento bloqueia parcialmente o fluxo.
  </p>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-xl">⚠️ Água Volta</h3>
  <p className="text-gray-700">
  Se a água volta quando puxa o autoclismo ou usa outro equipamento, o entupimento é grave.
@@ -123,7 +123,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </section>
  <section id="metodos" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🛠️ 5 Métodos para Desentupir Canalização</h2>
- <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg mb-8">
+ <div className="bg-yellow-50 border-l-4 border-yellow-Centenas p-6 rounded-r-lg mb-8">
  <p className="text-yellow-900 font-semibold">
  ⚠️ Importante: Comece sempre pelo método mais simples. Se não funcionar, avance para o próximo.
  </p>
@@ -380,7 +380,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  Prevenir é sempre melhor que remediar. Siga estas 7 dicas para evitar entupimentos futuros:
  </p>
  <div className="space-y-6">
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 🕸️ Use Redes nos Ralos</h3>
  <p className="text-gray-700 mb-2">
  Impedem cabelo, restos de comida e resíduos de entrar na canalização.
@@ -391,7 +391,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Reduzem entupimentos em 80%</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. 🚫 Não Deite Gordura no Ralo</h3>
  <p className="text-gray-700 mb-2">
  Gordura solidifica nos canos e cria entupimentos graves.
@@ -402,7 +402,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Use água quente após lavar louça gordurosa</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 🔥 Enxague com Água Quente Semanalmente</h3>
  <p className="text-gray-700 mb-2">
  Manutenção preventiva simples e eficaz.
@@ -413,7 +413,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Previne maus cheiros</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🧻 Evite Papel Higiénico em Excesso</h3>
  <p className="text-gray-700 mb-2">
  Use quantidade moderada e nunca deite outros produtos.
@@ -424,7 +424,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Não deite cotonetes ou fio dental</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 🔧 Limpe Sifões Mensalmente</h3>
  <p className="text-gray-700 mb-2">
  Manutenção preventiva que evita entupimentos graves.
@@ -435,7 +435,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Leva apenas alguns minutos</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 🧪 Use Bicarbonato Preventivamente</h3>
  <p className="text-gray-700 mb-2">
  Método natural para manter canos limpos.
@@ -446,7 +446,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <li>• Mantém canos limpos e sem cheiro</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-Centenas transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 👨‍🔧 Manutenção Profissional Anual</h3>
  <p className="text-gray-700 mb-2">
  Investimento que previne problemas caros.
@@ -530,7 +530,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </div>
  </div>
  </section>
- <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
+ <div className="bg-gradient-to-r from-cyan-Centenas to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Precisa de Ajuda Profissional?</h2>
  <p className="text-xl mb-6">
  Se os métodos caseiros não funcionaram ou o entupimento é grave, contacte um canalizador profissional.
@@ -576,7 +576,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </a>
  <a
  href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20um%20canalizador"
- className="flex-1 bg-green-500 text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg"
+ className="flex-1 bg-green-Centenas text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg"
  >
  💬 WhatsApp
  </a>

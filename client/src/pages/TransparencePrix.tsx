@@ -288,7 +288,7 @@ export default function TransparencePrix() {
  <Award className="w-12 h-12 text-blue-600 mb-4" />
  <h3 className="text-xl font-bold mb-3 text-gray-900">canalizadores com experiência</h3>
  <p className="text-gray-700 leading-relaxed">
- Todos os nossos técnicos têm experiência em Trás-os-Montes e certificação profissional.
+ Toda a nossa equipa tem experiência em Trás-os-Montes e certificação profissional.
  Formação contínua obrigatória. Não contratamos "ajudantes" sem qualificação.
  </p>
  </div>

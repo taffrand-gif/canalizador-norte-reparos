@@ -210,8 +210,8 @@ export default function FugaAguaUrgente() {
  },
  {
  icon: 'award',
- title: 'técnicos com experiência',
- description: 'Todos os técnicos têm experiência, experientes e com seguro de responsabilidade civil.'
+ title: 'nossa equipa técnica',
+ description: 'Todos os técnicos têm formação e seguro de responsabilidade civil.'
  }
  ]}
  />

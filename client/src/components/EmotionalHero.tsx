@@ -96,7 +96,7 @@ function EmotionalHero({
  <div className="hidden sm:block text-white/50">•</div>
  <div className="flex items-center gap-2">
  <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
- <span className="font-bold"> (500+ avaliações)</span>
+ <span className="font-bold"> (com feedback verificado)</span>
  </div>
  </div>
  </div>
