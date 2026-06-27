@@ -23,7 +23,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 - ✅ Como instalar redutor de pressão
 - ✅ Custos em Trás-os-Montes
 
-**📞 Picheleiro 24h:** [928 484 451](tel:+351928484451) 
+**📞 Picheleiro (mediante confirmação por telefone):** [928 484 451](tel:+351928484451) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20pressão%20de%20água%20muito%20alta%20e%20preciso%20de%20ajuda!)
 
 ---
