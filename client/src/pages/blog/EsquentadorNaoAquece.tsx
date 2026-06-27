@@ -683,7 +683,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Esquentador Avariado?</h2>
  <p className="text-xl mb-6">
- técnicos com experiência disponíveis 24h. Reparação rápida e garantida.
+ nossa equipa técnica disponíveis 24h. Reparação rápida e garantida.
  </p>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
  <h3 className="text-2xl font-bold mb-4">Norte Reparos - Especialistas em Esquentadores</h3>

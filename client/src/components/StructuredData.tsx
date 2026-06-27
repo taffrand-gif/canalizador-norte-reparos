@@ -397,7 +397,7 @@ export default function StructuredData() {
  "name": "Têm certificação profissional?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim, somos profissionais com experiência com anos de experiência na região. Trabalhamos com equipamento profissional Ridgid e seguimos todas as normas de segurança."
+ "text": "Sim, somos profissionais qualificados com anos de atividade na região. Trabalhamos com equipamento profissional Ridgid e seguimos todas as normas de segurança."
  }
  }
  ]

@@ -133,7 +133,7 @@ export default function UrgenciaFugaAgua() {
  </div>
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-xl">
  <p className="text-lg text-gray-800">
- <strong className="text-blue-900">Já ajudámos 500+ famílias em Bragança</strong> com o mesmo problema.
+ <strong className="text-blue-900">Já ajudámos centenas de famílias em Bragança</strong> com o mesmo problema.
  Pode confiar na nossa experiência e profissionalismo.
  </p>
  </div>

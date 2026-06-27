@@ -202,7 +202,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  },
  {
  icon: 'award',
- title: 'técnicos com experiência',
+ title: 'nossa equipa técnica',
  description: 'Especialistas em esquentadores de todas as marcas. Certificação de gás.'
  }
  ]}
@@ -278,7 +278,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  },
  {
  q: 'Trabalham com todas as marcas?',
- a: 'Sim! Arranjamos todas as marcas: Vulcano, Junkers, Roca, Cointra, Fagor, Ariston, etc. Temos peças das marcas principais em stock. técnicos com experiência para todas as marcas.'
+ a: 'Sim! Arranjamos todas as marcas: Vulcano, Junkers, Roca, Cointra, Fagor, Ariston, etc. Temos peças das marcas principais em stock. nossa equipa técnica para todas as marcas.'
  },
  {
  q: 'Dão garantia na arranjo?',

@@ -716,7 +716,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>• Configure lembretes no telemóvel para cada tarefa</li>
  <li>• Crie pasta com faturas e relatórios de manutenção</li>
  <li>• Tire fotos antes/depois de cada intervenção</li>
- <li>• Mantenha lista de contactos de técnicos com experiência</li>
+ <li>• Mantenha lista de contactos de nossa equipa técnica</li>
  <li>• Guarde garantias de equipamentos e peças substituídas</li>
  </ul>
  </div>

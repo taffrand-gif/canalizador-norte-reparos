@@ -4,7 +4,7 @@ export default function Equipa() {
  const badges = [
  {
  icon: <Award className="w-10 h-10" />,
- stat: '500+',
+ stat: 'Centenas',
  label: 'Canalizações Arranjadas',
  desc: 'Fugas ocultas encontradas sem partir um único azulejo — câmara de inspeção Ridgid.'},
  {

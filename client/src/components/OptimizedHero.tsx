@@ -43,7 +43,7 @@ const OptimizedHero: React.FC = () => {
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
  <a
  href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="inline-flex items-center justify-center gap-3 bg-orange-600 hover:bg-orange-500 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-A confirmar-w-[250px]"
+ className="inline-flex items-center justify-center gap-3 bg-orange-600 hover:bg-orange-Centenas text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-A confirmar-w-[250px]"
  >
  <span className="text-2xl">📞</span>
  <span>Ligue Agora</span>
@@ -76,7 +76,7 @@ const OptimizedHero: React.FC = () => {
  
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
  <div className="text-3xl mb-3">🛡️</div>
- <h3 className="text-white font-bold text-lg mb-2">500+ Intervenções</h3>
+ <h3 className="text-white font-bold text-lg mb-2">Intervenções profissionais</h3>
  <p className="text-white/80">Preço dito ao telefone. Sem surpresas.</p>
  </div>
  </div>
