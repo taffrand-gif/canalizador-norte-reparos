@@ -18,12 +18,9 @@ export const businessInfo = {
  whatsapp: '351928484451',
  email: 'info@canalizador-norte-reparos.pt',
  domain: 'canalizador-norte-reparos.pt',
- // Base address (Bragança headquarters)
+ // Base address (géo-neutre — règle 5 AGENTS.md, pas de streetAddress précise)
  baseAddress: {
- streetAddress: 'Bragança, Distrito de Bragança',
- addressLocality: 'Bragança',
- addressRegion: 'Bragança',
- postalCode: '5300-001',
+ addressRegion: 'Trás-os-Montes',
  addressCountry: 'PT'
  }
 };

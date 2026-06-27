@@ -22,7 +22,7 @@ export default function TrustBadges() {
  {
  icon: '🏆',
  title: 'Certificado',
- description: isPlumber ? 'profissionais qualificados' : 'certificação elétrica'},
+ description: isPlumber ? 'profissionais com experiência' : 'certificação elétrica'},
  {
  icon: '⚡',
  title: 'Resposta mediante contacto',
@@ -83,12 +83,12 @@ export default function TrustBadges() {
  {/* Trust indicators */}
  <div className="mt-8 text-center space-y-2">
  <div className="flex items-center justify-center gap-2 text-gray-600">
- <span className="text-yellow-Centenas">⭐⭐⭐⭐⭐</span>
+ <span className="text-yellow-500">⭐⭐⭐⭐⭐</span>
  <span className="font-semibold"></span>
- <span className="text-sm">(com feedback verificado)</span>
+ <span className="text-sm">(500+ avaliações)</span>
  </div>
- <p className="text-sm text-gray-Centenas">
- Empresa registada e segurada | NIF: {isPlumber ? '123456789' : '987654321'}
+ <p className="text-sm text-gray-500">
+ Empresa registada e segurada | NIF: 248 197 770
  </p>
  </div>
  </div>
