@@ -4,7 +4,7 @@ export default function Equipa() {
  const badges = [
  {
  icon: <Award className="w-10 h-10" />,
- stat: 'Centenas',
+ stat: '—',
  label: 'Canalizações Arranjadas',
  desc: 'Fugas ocultas encontradas sem partir um único azulejo — câmara de inspeção Ridgid.'},
  {
@@ -14,7 +14,7 @@ export default function Equipa() {
  desc: 'Encontramos a fuga. Abrimos APENAS onde é necessário. Sem destruição.'},
  {
  icon: <Clock className="w-10 h-10" />,
- stat: 'A confirmar',
+ stat: '24/7',
  label: 'Chegada a Bragança',
  desc: 'Às 3h da manhã no Natal em Bragança. Atendemos. Sempre.'},
  {

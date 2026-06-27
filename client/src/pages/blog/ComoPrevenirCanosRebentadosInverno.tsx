@@ -171,10 +171,10 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="bg-blue-50 p-6 rounded-xl">
  <h3 className="font-bold text-blue-900 mb-3 text-lg">🌡️ Temperaturas Críticas</h3>
  <ul className="text-blue-800 space-y-2">
- <li>• <strong>0°C:</strong> Água começa a congelar (mas canos ainda seguros</li>
- <li>• <strong>-2°C:</strong> Risco moderado (canos expostos podem congelar</li>
- <li>• <strong>-4°C:</strong> Risco alto (maioria dos canos em perigo</li>
- <li>• <strong>-7°C ou menos:</strong> Risco extremo (canos rebentam em 4-6 horas</li>
+ <li>• <strong>0°C:</strong> Água começa a congelar (mas canos ainda seguros)</li>
+ <li>• <strong>-2°C:</strong> Risco moderado (canos expostos podem congelar)</li>
+ <li>• <strong>-4°C:</strong> Risco alto (maioria dos canos em perigo)</li>
+ <li>• <strong>-7°C ou menos:</strong> Risco extremo (canos rebentam em 4-6 horas)</li>
  </ul>
  </div>
  </section>
@@ -831,7 +831,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Depende do método:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• <strong>Secador de cabelo:</strong> A confirmar</li>
+ <li>• <strong>Secador de cabelo:</strong> Variável</li>
  <li>• <strong>Toalhas quentes:</strong> 1-2 horas</li>
  <li>• <strong>Aquecimento ambiente:</strong> 3-6 horas</li>
  <li>• <strong>Temperatura natural:</strong> 6-Atendimento 24h/7d</li>
@@ -869,7 +869,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <li>• <strong>Isolamento:</strong> Dura 5-10 anos (verificar anualmente</li>
  <li>• <strong>Torneiras exteriores:</strong> Esvaziar todos os anos</li>
  <li>• <strong>Vedações:</strong> Verificar e renovar se necessário</li>
- <li>• <strong>Inspeção:</strong> A confirmar/ano</li>
+ <li>• <strong>Inspeção:</strong> anual recomendada</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  ✅ Após instalação inicial, manutenção anual é mínima
@@ -889,7 +889,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Confirmação por telefone</p>
- <p className="text-sm text-white/80">A confirmar em emergências</p>
+ <p className="text-sm text-white/80">Confirmação por telefone em emergências</p>
  </div>
  </div>
  <div className="flex items-start gap-3">

@@ -262,8 +262,7 @@ function PriceCalculatorWidget() {
  ★★★★★
  </div>
  <p className="text-gray-600">
- <strong className="text-gray-900"></strong> baseado em{' '}
- <strong className="text-gray-900">Centenas</strong> orçamentos confirmados
+ <strong className="text-gray-900"></strong> baseado em orçamentos confirmados pela nossa equipa
  </p>
  </div>
  </div>

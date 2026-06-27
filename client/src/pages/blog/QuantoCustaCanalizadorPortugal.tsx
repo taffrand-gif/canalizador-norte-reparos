@@ -24,7 +24,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
  {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
  {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Profissionais sérios oferecem garantia: reparações 3-6 meses; instalações 6-12 meses; trabalhos complexos até 24 meses. Exija garantia por escrito no orçamento.'}},
- {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-Centenas€; cano rebentado 150-400€.'}}
+ {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€+; cano rebentado 150-400€.'}}
  ]
  }) }}
  />
@@ -51,13 +51,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </div>
  </div>
  <div className="prose prose-lg max-w-none mb-10">
- <div className="bg-cyan-50 border-l-4 border-cyan-Centenas p-6 rounded-r-lg mb-8">
+ <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg mb-8">
  <p className="text-cyan-900 font-semibold text-lg">
- 💡 Atualização: Preços baseados em Centenas+ orçamentos reais em Portugal (2026)
+ 💡 Atualização: Faixas de preços baseadas em orçamentos reais do mercado português (2026)
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">
- Contratar um canalizador em Portugal pode custar entre 50€ e Centenas€, dependendo do serviço.
+ Contratar um canalizador em Portugal pode custar entre 50€ em diante, consoante o serviço e a zona.
  Neste guia completo, vamos mostrar-lhe preços reais por tipo de serviço, fatores que
  influenciam o custo e como garantir que não paga demais.
  </p>
@@ -94,12 +94,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupimento urgente</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-cyan-600">80-150€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Fuga de água urgente</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-cyan-600">100-200€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -130,7 +130,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar torneira a pingar</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">50-80€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -140,7 +140,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar autoclismo</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">60-100€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -150,12 +150,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar fuga em junta</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">60-120€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir sifão</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-green-600">50-90€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -181,17 +181,17 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir lavatório/lava-loiça</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">60-100€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir sanita</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">70-120€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir duche/banheira</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-blue-600">60-110€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -283,7 +283,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Teste de pressão do sistema</td>
- <td className="text-center py-3 px-4 text-sm text-gray-600">A confirmar</td>
+ <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
  <td className="text-right py-3 px-4 font-semibold text-orange-600">80-150€</td>
  </tr>
  <tr className="border-b border-gray-100">
@@ -294,7 +294,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Remodelação casa de banho completa</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">5-10 dias</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">2000-Centenas€</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">2000-6000€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Deslocação normal (sem trabalho)</td>
@@ -357,7 +357,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <p className="text-gray-700 text-sm">Substituir autoclismo, desentupir canalização principal, reparar fuga em parede</p>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
- <p className="font-bold text-gray-900 mb-2">Complexo (250-Centenas€+)</p>
+ <p className="font-bold text-gray-900 mb-2">Complexo (250€+)</p>
  <p className="text-gray-700 text-sm">Substituir canalização, instalar casa de banho completa, reparar sistema completo</p>
  </div>
  </div>
@@ -420,7 +420,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Sanita completa</td>
- <td className="text-right py-2">150-Centenas€</td>
+ <td className="text-right py-2">150-400€</td>
  </tr>
  </tbody>
  </table>
@@ -554,7 +554,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  Siga estas 10 dicas para reduzir custos sem comprometer qualidade:
  </p>
  <div className="space-y-6">
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">1. 📋 Peça Múltiplos Orçamentos</h3>
  <p className="text-gray-700 mb-2">
  Compare pelo menos 3 orçamentos de profissionais diferentes.
@@ -565,7 +565,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">2. ⏰ Evite Urgências</h3>
  <p className="text-gray-700 mb-2">
  Agende serviços em horário normal sempre que possível.
@@ -576,7 +576,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">3. 🛠️ Compre Materiais Você Mesmo</h3>
  <p className="text-gray-700 mb-2">
  Alguns canalizadores cobram margem de 20-40% sobre materiais.
@@ -592,15 +592,15 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">4. 🔧 Faça Reparações Simples Sozinho</h3>
  <p className="text-gray-700 mb-2">
  Algumas reparações são fáceis e não requerem profissional.
  </p>
  <ul className="text-gray-600 text-sm space-y-1 mb-3">
- <li>✅ Trocar junta de torneira (5€ vs 60€</li>
- <li>✅ Substituir válvula de autoclismo (20€ vs 80€</li>
- <li>✅ Aplicar fita teflon em junta (3€ vs 70€</li>
+ <li>✅ Trocar junta de torneira (5€ vs 60€)</li>
+ <li>✅ Substituir válvula de autoclismo (20€ vs 80€)</li>
+ <li>✅ Aplicar fita teflon em junta (3€ vs 70€)</li>
  </ul>
  <div className="bg-green-50 p-4 rounded-lg">
  <p className="text-green-900 text-sm">
@@ -608,7 +608,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">5. 📅 Agrupe Vários Serviços</h3>
  <p className="text-gray-700 mb-2">
  Faça várias reparações na mesma visita para diluir custo de deslocação.
@@ -619,7 +619,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  </div>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">6. 🔍 Verifique Garantias</h3>
  <p className="text-gray-700 mb-2">
  Equipamentos novos podem ter garantia do fabricante.
@@ -630,29 +630,29 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Autoclismos: 2-5 anos</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">7. 🏠 Manutenção Preventiva</h3>
  <p className="text-gray-700 mb-2">
  Prevenir é 10x mais barato que reparar emergências.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Inspeção anual: 80-120€</li>
- <li>• Evita reparações de Centenas-2000€</li>
+ <li>• Evita reparações de 500-2000€</li>
  <li>• ROI: 5-20x</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">8. 💬 Negocie</h3>
  <p className="text-gray-700 mb-2">
  Muitos profissionais estão dispostos a negociar, especialmente para:
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Trabalhos grandes (desconto 5-15%</li>
- <li>• Clientes regulares (desconto 10-20%</li>
- <li>• Pagamento a pronto (desconto 5-10%</li>
+ <li>• Trabalhos grandes (desconto 5-15%)</li>
+ <li>• Clientes regulares (desconto 10-20%)</li>
+ <li>• Pagamento a pronto (desconto 5-10%)</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">9. 🎓 Aprenda Básico de Canalização</h3>
  <p className="text-gray-700 mb-2">
  Conhecimento básico permite fazer pequenas reparações e diagnosticar problemas.
@@ -660,10 +660,10 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Tutoriais online gratuitos</li>
  <li>• Ferramentas básicas: 50-100€</li>
- <li>• Poupança anual: 200-Centenas€</li>
+ <li>• Poupança anual: 200-500€</li>
  </ul>
  </div>
- <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-Centenas transition-colors">
+ <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-green-500 transition-colors">
  <h3 className="font-bold text-gray-900 mb-3 text-lg">10. 📱 Use Plataformas de Comparação</h3>
  <p className="text-gray-700 mb-2">
  Plataformas online facilitam comparação de orçamentos.
@@ -890,13 +890,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Torneira a pingar: 50-80€</li>
  <li>• Junta de cano: 60-120€</li>
  <li>• Fuga em parede (acessível): 100-250€</li>
- <li>• Fuga em parede (requer abertura): 200-Centenas€</li>
+ <li>• Fuga em parede (requer abertura): 200-500€+</li>
  <li>• Cano rebentado: 150-400€</li>
  </ul>
  </div>
  </div>
  </section>
- <div className="bg-gradient-to-r from-cyan-Centenas to-cyan-600 text-white p-8 rounded-2xl mb-12">
+ <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white p-8 rounded-2xl mb-12">
  <h2 className="text-3xl font-bold mb-4">📞 Precisa de um Canalizador?</h2>
  <p className="text-xl mb-6">
  Sem compromisso e transparente. Sem surpresas no preço final.
@@ -942,7 +942,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </a>
  <a
  href="https://wa.me/351928484451?text=Olá,%20preciso%20de%20um%20orçamento"
- className="flex-1 bg-green-Centenas text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg"
+ className="flex-1 bg-green-500 text-white px-6 py-4 rounded-lg font-bold text-center hover:bg-green-600 transition-colors text-lg"
  >
  💬 WhatsApp
  </a>

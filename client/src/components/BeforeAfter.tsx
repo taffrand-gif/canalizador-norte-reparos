@@ -103,7 +103,7 @@ function BeforeAfter() {
  <div className="bg-white rounded-lg border-4 shadow-xl overflow-hidden" style={{ borderColor: config.colors.primary }}>
  <div className="grid md:grid-cols-2">
  {/* BEFORE */}
- <div className="p-8 bg-red-50 border-r-4 border-red-Centenas">
+ <div className="p-8 bg-red-50 border-r-4 border-red-500">
  <div className="flex items-center gap-3 mb-6">
  <span className="text-5xl">{currentCase.beforeEmoji}</span>
  <div>
@@ -174,19 +174,19 @@ function BeforeAfter() {
  href={`https://wa.me/351${config.phone.replace(/\s/g, '')}?text=Olá, vi os casos resolvidos. Tenho problema parecido!`}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center justify-center gap-2 px-8 py-5 font-bold text-white bg-green-Centenas rounded-lg shadow-lg hover:shadow-xl transition-all text-xl"
+ className="inline-flex items-center justify-center gap-2 px-8 py-5 font-bold text-white bg-green-500 rounded-lg shadow-lg hover:shadow-xl transition-all text-xl"
  >
  💬 WhatsApp
  </a>
  </div>
- <p className="text-sm text-gray-Centenas mt-4">
+ <p className="text-sm text-gray-500 mt-4">
  ✅ Diagnóstico grátis • ✅ Garantia 6 meses • ✅ Disponível 24h/7 dias
  </p>
  </div>
  {/* Social Proof */}
  <div className="mt-12 p-6 bg-white rounded-lg border-2 border-gray-200">
  <p className="text-center text-gray-700">
- <strong className="text-gray-900">Centenas+ casos resolvidos</strong> em Bragança e região.
+ <strong className="text-gray-900">Casos resolvidos</strong> em Bragança e região pela nossa equipa.
  Problemas que outros não conseguiram resolver.
  </p>
  </div>

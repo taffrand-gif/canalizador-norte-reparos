@@ -173,8 +173,7 @@ function WhyDifferent() {
  ★★★★★
  </div>
  <p className="text-gray-600">
- <strong className="text-gray-900"></strong> baseado em{' '}
- <strong className="text-gray-900">Centenas</strong> Intervenções profissionais bem-sucedidas
+ <strong className="text-gray-900"></strong> baseado em Intervenções profissionais bem-sucedidas
  </p>
  </div>
  </div>
