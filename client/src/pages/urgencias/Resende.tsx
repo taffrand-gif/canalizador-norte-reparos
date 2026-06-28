@@ -50,7 +50,7 @@ export default function Resende() {
     return () => { document.head.removeChild(schema); };
   }, []);
   const faqs = [
-    { question: 'Qual o prazo de chegada em Resende?', answer: 'Atendimento prioritário 24h/7d em Resende e arredores. Ligue 928 484 451.' },
+    { question: 'Qual o prazo de chegada em Resende?', answer: 'Atendimento mediante confirmação por telefone 24h/7d em Resende e arredores. Ligue 928 484 451.' },
     { question: 'Quanto custa uma urgência em Resende?', answer: 'O preço é combinado antes da intervenção. Sem surpresas. Fatura com NIF incluída.' },
     { question: 'Trabalham aos fins de semana em Resende?', answer: 'Sim, atendimento 24 horas, 7 dias por semana, incluindo feriados.' },
     { question: 'Têm equipamento profissional?', answer: 'Sim, câmara termográfica FLIR, geofone, máquina de desentupimento Ridgid K9-102.' },

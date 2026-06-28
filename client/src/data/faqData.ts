@@ -98,7 +98,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 15,
  question: "O que fazer se o autoclismo não para de correr?",
- answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Arranjamos 90% dos casos Atendimento prioritário. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
+ answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Arranjamos 90% dos casos Atendimento mediante confirmação por telefone. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
  category: "Arranjos"
  },
  {

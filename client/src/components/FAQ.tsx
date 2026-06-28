@@ -25,7 +25,7 @@ function FAQ() {
  answer: 'Em caso de fuga de água urgente: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue mediante confirmação para 928 484 451. Resolvemos o problema rapidamente.'},
  {
  question: 'Como desentupir uma sanita entupida rapidamente?',
- answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar Atendimento prioritário, ligue 928 484 451. Evite produtos químicos agressivos.'},
+ answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar Atendimento mediante confirmação por telefone, ligue 928 484 451. Evite produtos químicos agressivos.'},
  {
  question: 'Canalizador trabalha aos fins de semana e feriados?',
  answer: 'Sim, o serviço de canalizador urgente está disponível Atendimento 24h/7d, 7 dias por semana, incluindo sábados, domingos e feriados. Não há majoração de preço aos fins de semana. Ligue 928 484 451 a qualquer hora.'},
