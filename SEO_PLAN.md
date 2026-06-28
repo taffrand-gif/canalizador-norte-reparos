@@ -34,9 +34,9 @@
 ---
 
 
-## 🚨 AUDIT R11/R12 — VIOLATIONS MASSIVES DÉTECTÉES (29/06/2026)
+## 🚨 AUDIT R11/R12 — VIOLATIONS MASSIVES DÉTECTÉES (audit planifié 29/06/2026)
 
-**Audit mené le 29/06 matin par Hermes**. Le site `canalizador-norte-reparos.pt` (déployé en prod) contient **de multiples violations R11 ZÉRO INVENTION** que je n'avais pas vues en travaillant uniquement sur Hero.tsx.
+**Audit préparé le 28/06 par Hermes** (à exécuter 29/06 matin). Le site `canalizador-norte-reparos.pt` (déployé en prod) contient **de multiples violations R11 ZÉRO INVENTION** que je n'avais pas vues en travaillant uniquement sur Hero.tsx.
 
 ### Violations confirmées
 
