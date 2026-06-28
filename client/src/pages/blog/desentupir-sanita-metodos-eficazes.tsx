@@ -27,7 +27,7 @@ export default function DesentupirSanitaMetodosEficazes() {
  "name": "Quanto custa chamar um canalizador para desentupir sanita em Bragança?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em Bragança e Trás-os-Montes, o desentupimento de sanita custa 120€ (urgência noite: 180€). Preço fixo garantido, sem surpresas."
+ "text": "Em Bragança e Trás-os-Montes, o desentupimento de sanita custa 120€ (urgência noite: 180€). Preço fixo comunicado por telefone, sem surpresas."
  }
  },
  {

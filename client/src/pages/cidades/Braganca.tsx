@@ -113,7 +113,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  },
  {
  question: "Fazem urgências Atendimento 24h/7d em Bragança?",
- answer: "Sim, atendemos urgências de canalização Atendimento 24h/7d, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência imediata."
+ answer: "Sim, atendemos urgências de canalização Atendimento 24h/7d, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência mediante confirmação por telefone."
  },
  {
  question: "Fornecem serviço de canalização em Bragança?",
