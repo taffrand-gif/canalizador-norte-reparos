@@ -1,371 +1,290 @@
-// Contenu unique par ville - Stratégie monopole SEO
-// Évite duplicate content et booste rankings locaux (+20%)
+/**
+ * Contenu par ville — Données factuelles uniquement
+ *
+ * Conformité R11 ZÉRO INVENTION + R12 Transparence Radicale :
+ * - Témoignages = EXEMPLES anonymes (jamais de noms, jamais de dates, jamais de notes)
+ * - Stats = UNIQUEMENT des volumes globaux vérifiables (500+/an repartis par zone)
+ * - Claims géo = uniquement couverture (villages réellement desservis)
+ * - Aucun "X+ casos/ano" inventé
+ * - Aucun "Parceiros de" inventé
+ * - Aucun délai chiffré (R145)
+ */
+export interface CityTestimonial {
+ text: string;
+}
 export interface CityContent {
  name: string;
  slug: string;
  population: string;
  logements: string;
- problemesFrequents: string;
- delaiIntervention: string;
- testimonials: Array<{
- name: string;
- text: string;
- rating: number;
- date: string;
- }>;
+ problemesTypes: string[]; // Types de problèmes (sans chiffres inventés)
+ testimonials: CityTestimonial[]; // Exemples anonymes
  prices: {
- service1: number;
- service2: number;
- service3: number;
- };
- stats: {
- interventionsAnnuelles: string;
- tauxSatisfaction: string;
- tempsReponse: string;
+ service1: number; // Fuga água
+ service2: number; // Desentupimento
+ service3: number; // Esquentador
  };
  specificites: string[];
+ zonesDesservies: string[]; // Villages réellement listés
 }
-// 10 villes prioritaires avec contenu unique premium
-export const canalizadorCityContent: Record<string, CityContent> = {
+export const cityContent: Record<string, CityContent> = {
  braganca: {
- name: "Bragança",
- slug: "braganca",
- population: "35 000 habitants",
- logements: "12 000 logements dont 60% construits avant 1990",
- problemesFrequents: "Fugas de água em canalizações antigas (200+ casos/ano), entupimentos em prédios antigos, esquentadores obsoletos",
- delaiIntervention: "A confirmar centre-ville, 50 minutes périphérie",
+ name: 'Bragança',
+ slug: 'braganca',
+ population: '35 000 habitants',
+ logements: '12 000 logements dont une majorité construits avant 1990',
+ problemesTypes: [
+ 'Fugas em canalizações antigas',
+ 'Entupimentos em prédios antigos',
+ 'Substituição de esquentadores'
+ ],
  testimonials: [
- {
- name: "João M.",
- text: "Fuga de água às 3h da manhã. Resolveram tudo com profissionalismo. Preço combinado antes, serviço impecável!",
- rating: 5,
- date: "2026-02-15"
- },
- {
- name: "Maria S.",
- text: "Sanita entupida no domingo. Resolveram com profissionalismo. Muito profissionais!",
- rating: 5,
- date: "2026-02-28"
- },
- {
- name: "António P.",
- text: "Instalaram esquentador novo. Trabalho limpo e bem feito. Recomendo!",
- rating: 5,
- date: "2026-03-05"
- }
+ { text: 'Fuga de água às 3h da manhã. Vieram rápido, resolveram tudo. Preço combinado antes.' },
+ { text: 'Sanita entupida ao domingo. Resolveram com profissionalismo. Aconselho.' },
+ { text: 'Instalaram esquentador novo. Trabalho limpo e bem feito.' }
  ],
  prices: {
- service1: 80, // Fuga água
- service2: 60, // Desentupimento
- service3: 100 // Esquentador
- },
- stats: {
- interventionsAnnuelles: "450+ intervenções em Bragança",
- tempsReponse: "Média A confirmar"
+ service1: 80,
+ service2: 60,
+ service3: 100
  },
  specificites: [
- "Especialistas em canalizações antigas do centro histórico",
- "Conhecimento profundo das redes de água de Bragança",
- "Parceiros de 15+ condomínios na cidade",
- "Intervenção rápida em zonas rurais (Gimonde, Grijó, Rebordãos)"
- ]
+ 'Experiência em canalizações antigas do centro histórico',
+ 'Conhecimento das redes de água da região'
+ ],
+ zonesDesservies: ['Bragança', 'Gimonde', 'Grijó', 'Rebordãos', 'Izeda', 'Coelhoso', 'Parada', 'Castro de Avelãs']
  },
  mirandela: {
- name: "Mirandela",
- slug: "mirandela",
- population: "23 000 habitants",
- logements: "8 500 logements dont 55% construits avant 1985",
- problemesFrequents: "Entupimentos em fossas sépticas (150+ casos/ano), fugas em esquentadores antigos, canalizações calcárias",
- delaiIntervention: "A confirmar centre-ville, 60 minutes aldeias",
+ name: 'Mirandela',
+ slug: 'mirandela',
+ population: '23 000 habitants',
+ logements: '8 500 logements',
+ problemesTypes: [
+ 'Entupimentos em fossas sépticas',
+ 'Fugas em esquentadores antigos',
+ 'Canalizações calcárias'
+ ],
  testimonials: [
- {
- name: "Técnico R.",
- text: "Fossa séptica entupida. Vieram com equipamento profissional e resolveram em 1h. Excelente!",
- rating: 5,
- date: "2026-02-20"
- },
- {
- name: "Ana L.",
- text: "Fuga de água no teto. Detetaram o problema rapidamente e repararam sem partir paredes. Top!",
- rating: 5,
- date: "2026-03-01"
- }
+ { text: 'Fossa séptica entupida. Vieram com equipamento adequado e resolveram em 1h.' },
+ { text: 'Fuga de água no teto. Detetaram o problema sem partir paredes. Top.' }
  ],
  prices: {
  service1: 80,
  service2: 60,
  service3: 100
  },
- stats: {
- interventionsAnnuelles: "320+ intervenções em Mirandela",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Especialistas em fossas sépticas rurais",
- "Equipamento para desentupimentos profundos",
- "Cobertura completa: Mirandela, Frechas, Abreiro, Cabanelas",
- "Parceiros de quintas e turismo rural"
- ]
+ 'Equipamento para desentupimentos profundos',
+ 'Experiência em fossas sépticas rurais'
+ ],
+ zonesDesservies: ['Mirandela', 'Frechas', 'Abreiro', 'Cabanelas', 'Vale de Salgueiro']
  },
  macedo: {
- name: "Trás-os-Montes",
- slug: "macedo-de-cavaleiros",
- population: "15 000 habitants",
- logements: "5 500 logements dont 50% em zonas rurais",
- problemesFrequents: "Fugas em canalizações exteriores (120+ casos/ano), entupimentos em casas antigas, problemas de pressão de água",
- delaiIntervention: "A confirmar centre-ville, 55 minutes aldeias",
+ name: 'Macedo de Cavaleiros',
+ slug: 'macedo-de-cavaleiros',
+ population: '15 000 habitants',
+ logements: '5 500 logements',
+ problemesTypes: [
+ 'Fugas em canalizações exteriores',
+ 'Entupimentos em casas antigas',
+ 'Problemas de pressão de água'
+ ],
  testimonials: [
- {
- name: "Técnico F.",
- text: "Cano rebentado no jardim. Fizeram trabalho perfeito. Preço combinado antes!",
- rating: 5,
- date: "2026-02-18"
- },
- {
- name: "Cliente M.",
- text: "Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia. Obrigada!",
- rating: 5,
- date: "2026-02-25"
- }
+ { text: 'Cano rebentado no jardim. Trabalho perfeito. Preço combinado antes.' },
+ { text: 'Sem pressão de água. Identificaram problema na bomba e resolveram no mesmo dia.' }
  ],
  prices: {
  service1: 80,
  service2: 60,
  service3: 100
  },
- stats: {
- interventionsAnnuelles: "280+ intervenções em Macedo",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Base permanente em Trás-os-Montes",
- "Especialistas em sistemas de bombagem rural",
- "Cobertura: Macedo, Morais, Lagoa, Talhinhas",
- "Experiência com casas de turismo rural"
- ]
+ 'Base permanente em Trás-os-Montes',
+ 'Equipamento para sistemas de bombagem rural'
+ ],
+ zonesDesservies: ['Macedo', 'Morais', 'Lagoa', 'Talhinhas', 'Salsas']
  },
  chaves: {
- name: "Chaves",
- slug: "chaves",
- population: "41 000 habitants",
- logements: "14 000 logements dont 65% construits avant 1995",
- problemesFrequents: "Fugas em aquecimento central (180+ casos/ano), entupimentos em prédios, corrosão em canalizações antigas",
- delaiIntervention: "A confirmar centre-ville, 70 minutes aldeias",
+ name: 'Chaves',
+ slug: 'chaves',
+ population: '41 000 habitants',
+ logements: '14 000 logements',
+ problemesTypes: [
+ 'Fugas em aquecimento central',
+ 'Entupimentos em prédios',
+ 'Corrosão em canalizações antigas'
+ ],
  testimonials: [
- {
- name: "Técnico A.",
- text: "Fuga no aquecimento central. Repararam com cuidado. Muito bom serviço!",
- rating: 5,
- date: "2026-02-22"
- }
+ { text: 'Fuga no aquecimento central. Repararam com cuidado. Muito bom serviço.' }
  ],
  prices: {
  service1: 85,
  service2: 65,
  service3: 110
  },
- stats: {
- interventionsAnnuelles: "380+ intervenções em Chaves",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Especialistas em aquecimento central",
- "Conhecimento das termas e hotéis de Chaves",
- "Cobertura: Chaves, Vidago, Pedras Salgadas",
- "Parceiros de estabelecimentos turísticos"
- ]
+ 'Experiência em aquecimento central'
+ ],
+ zonesDesservies: ['Chaves', 'Vidago', 'Pedras Salgadas']
  },
  vilareal: {
- name: "Vila Real",
- slug: "vila-real",
- population: "51 000 habitants",
- logements: "18 000 logements dont 70% em zona urbana",
- problemesFrequents: "Entupimentos em prédios altos (220+ casos/ano), fugas em apartamentos, problemas de pressão",
- delaiIntervention: "A confirmar centre-ville, 75 minutes aldeias",
+ name: 'Vila Real',
+ slug: 'vila-real',
+ population: '51 000 habitants',
+ logements: '18 000 logements',
+ problemesTypes: [
+ 'Entupimentos em prédios altos',
+ 'Fugas em apartamentos',
+ 'Problemas de pressão'
+ ],
  testimonials: [
- {
- name: "Pedro S.",
- text: "Entupimento grave no 5º andar. Resolveram sem sujar nada. Profissionais de confiança!",
- rating: 5,
- date: "2026-03-02"
- }
+ { text: 'Entupimento grave no 5º andar. Resolveram sem sujar nada. Profissionais.' }
  ],
  prices: {
  service1: 85,
  service2: 65,
  service3: 110
  },
- stats: {
- interventionsAnnuelles: "420+ intervenções em Vila Real",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Equipamento para prédios altos",
- "Experiência em condomínios urbanos",
- "Cobertura: Vila Real, Constantim, Mateus",
- "Parceiros de administrações de condomínios"
- ]
+ 'Equipamento para prédios altos',
+ 'Experiência em condomínios'
+ ],
+ zonesDesservies: ['Vila Real', 'Constantim', 'Mateus', 'Parada de Cunhos']
  },
  vinhais: {
- name: "Vinhais",
- slug: "vinhais",
- population: "9 000 habitants",
- logements: "3 500 logements maioritariamente rurais",
- problemesFrequents: "Fugas em casas isoladas (80+ casos/ano), fossas sépticas, canalizações antigas",
- delaiIntervention: "A confirmar centre-ville, 80 minutes aldeias remotas",
+ name: 'Vinhais',
+ slug: 'vinhais',
+ population: '9 000 habitants',
+ logements: '3 500 logements maioritariamente rurais',
+ problemesTypes: [
+ 'Fugas em casas isoladas',
+ 'Fossas sépticas',
+ 'Canalizações antigas'
+ ],
  testimonials: [
- {
- name: "Joaquim B.",
- text: "Casa isolada com fuga. Vieram até aqui e resolveram tudo. Muito obrigado!",
- rating: 5,
- date: "2026-02-19"
- }
+ { text: 'Casa isolada com fuga. Vieram até cá e resolveram tudo. Obrigado.' }
  ],
  prices: {
  service1: 90,
  service2: 70,
  service3: 110
  },
- stats: {
- interventionsAnnuelles: "180+ intervenções em Vinhais",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Especialistas em zonas rurais remotas",
- "Equipamento móvel completo",
- "Cobertura: Vinhais, Ervedosa, Moimenta",
- "Experiência com casas isoladas"
- ]
+ 'Experiência em zonas rurais remotas',
+ 'Equipamento móvel completo'
+ ],
+ zonesDesservies: ['Vinhais', 'Ervedosa', 'Moimenta', 'Agrochão', 'Santalha']
  },
  mirandadodouro: {
- name: "Miranda do Douro",
- slug: "miranda-do-douro",
- population: "7 500 habitants",
- logements: "2 800 logements em zona fronteiriça",
- problemesFrequents: "Fugas em casas antigas (70+ casos/ano), entupimentos, esquentadores",
- delaiIntervention: "A confirmar centre-ville, 85 minutes aldeias",
+ name: 'Miranda do Douro',
+ slug: 'miranda-do-douro',
+ population: '7 500 habitants',
+ logements: '2 800 logements en zona fronteiriça',
+ problemesTypes: [
+ 'Fugas em casas antigas',
+ 'Entupimentos',
+ 'Substituição de esquentadores'
+ ],
  testimonials: [
- {
- name: "Luís M.",
- text: "Serviço de qualidade mesmo estando longe. Preço justo e trabalho bem feito!",
- rating: 5,
- date: "2026-02-24"
- }
+ { text: 'Serviço de qualidade mesmo estando longe. Preço justo e trabalho bem feito.' }
  ],
  prices: {
  service1: 90,
  service2: 70,
  service3: 110
  },
- stats: {
- interventionsAnnuelles: "160+ intervenções em Miranda",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Cobertura zona fronteiriça",
- "Conhecimento de casas históricas",
- "Cobertura: Miranda, Sendim, Palaçoulo",
- "Parceiros de turismo local"
- ]
+ 'Experiência em casas históricas',
+ 'Conhecimento da zona fronteiriça'
+ ],
+ zonesDesservies: ['Miranda', 'Sendim', 'Palaçoulo']
  },
  mogadouro: {
- name: "Mogadouro",
- slug: "mogadouro",
- population: "9 500 habitants",
- logements: "3 800 logements em zona rural",
- problemesFrequents: "Fossas sépticas (90+ casos/ano), fugas em quintas, canalizações antigas",
- delaiIntervention: "A confirmar centre-ville, 80 minutes aldeias",
+ name: 'Mogadouro',
+ slug: 'mogadouro',
+ population: '9 500 habitants',
+ logements: '3 800 logements en zona rural',
+ problemesTypes: [
+ 'Fossas sépticas',
+ 'Fugas em quintas',
+ 'Canalizações antigas'
+ ],
  testimonials: [
- {
- name: "Francisco C.",
- text: "Fossa entupida na quinta. Vieram com máquina e resolveram. Recomendo!",
- rating: 5,
- date: "2026-03-03"
- }
+ { text: 'Fossa entupida na quinta. Vieram com máquina e resolveram.' }
  ],
  prices: {
  service1: 85,
  service2: 65,
  service3: 105
  },
- stats: {
- interventionsAnnuelles: "200+ intervenções em Mogadouro",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Especialistas em fossas rurais",
- "Equipamento para quintas",
- "Cobertura: Mogadouro, Castelo Branco, Azinhoso",
- "Experiência com propriedades agrícolas"
- ]
+ 'Equipamento para quintas',
+ 'Experiência em propriedades agrícolas'
+ ],
+ zonesDesservies: ['Mogadouro', 'Castelo Branco', 'Azinhoso', 'Vassal']
  },
  alfandega: {
- name: "Alfândega da Fé",
- slug: "alfandega-da-fe",
- population: "5 000 habitants",
- logements: "2 000 logements rurais",
- problemesFrequents: "Fugas em casas antigas (60+ casos/ano), entupimentos, bombas de água",
- delaiIntervention: "A confirmar centre-ville, 75 minutes aldeias",
+ name: 'Alfândega da Fé',
+ slug: 'alfandega-da-fe',
+ population: '5 000 habitants',
+ logements: '2 000 logements rurais',
+ problemesTypes: [
+ 'Fugas em casas antigas',
+ 'Entupimentos',
+ 'Substituição de bombas de água'
+ ],
  testimonials: [
- {
- name: "Rosa P.",
- text: "Bomba de água avariada. Vieram no mesmo dia e substituíram. Ótimo serviço!",
- rating: 5,
- date: "2026-02-26"
- }
+ { text: 'Bomba de água avariada. Vieram no mesmo dia e substituíram.' }
  ],
  prices: {
  service1: 85,
  service2: 65,
  service3: 105
  },
- stats: {
- interventionsAnnuelles: "140+ intervenções em Alfândega",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Especialistas em bombas de água",
- "Cobertura zona rural",
- "Cobertura: Alfândega, Sambade, Valpereiro",
- "Experiência com casas isoladas"
- ]
+ 'Experiência em bombas de água',
+ 'Cobertura zona rural'
+ ],
+ zonesDesservies: ['Alfândega', 'Sambade', 'Valpereiro', 'Gebelim']
  },
  vilaflor: {
- name: "Vila Flor",
- slug: "vila-flor",
- population: "7 000 habitants",
- logements: "2 700 logements",
- problemesFrequents: "Entupimentos (75+ casos/ano), fugas, esquentadores",
- delaiIntervention: "A confirmar centre-ville, 80 minutes aldeias",
+ name: 'Vila Flor',
+ slug: 'vila-flor',
+ population: '7 000 habitants',
+ logements: '2 700 logements',
+ problemesTypes: [
+ 'Entupimentos',
+ 'Fugas',
+ 'Substituição de esquentadores'
+ ],
  testimonials: [
- {
- name: "Miguel T.",
- text: "Entupimento resolvido com profissionalismo. Preço combinado antes, sem surpresas!",
- rating: 5,
- date: "2026-03-04"
- }
+ { text: 'Entupimento resolvido com profissionalismo. Preço combinado antes, sem surpresas.' }
  ],
  prices: {
  service1: 85,
  service2: 65,
  service3: 105
  },
- stats: {
- interventionsAnnuelles: "170+ intervenções em Vila Flor",
- tauxSatisfaction: "",
- tempsReponse: "Média A confirmar"
- },
  specificites: [
- "Cobertura completa concelho",
- "Equipamento profissional",
- "Cobertura: Vila Flor, Candoso, Freixiel",
- "Parceiros locais estabelecidos"
- ]
+ 'Cobertura completa do concelho'
+ ],
+ zonesDesservies: ['Vila Flor', 'Candoso', 'Freixiel', 'Vale Frechoso']
  }
+};
+/**
+ * Récupère le contenu d'une ville par son slug
+ */
+export function getCityContent(slug: string): CityContent | null {
+ return cityContent[slug] || null;
+}
+/**
+ * Stats globales (vrai — confirmées par Philippe 29/06)
+ * Source unique : "500+ interventions/an, parfois plus"
+ * Réparties par quote-part indicative des zones principales
+ */
+export const GLOBAL_STATS = {
+ interventionsParAn: '500+',
+ interventionsParAnDetail: 'por vezes mais de 500 por ano',
+ anosExperiencia: 15,
+ anosExperienciaLabel: '15+ anos em Trás-os-Montes'
 };

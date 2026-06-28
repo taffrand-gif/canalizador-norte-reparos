@@ -48,10 +48,10 @@ const personalizedSubtitle = useMemo(() => {
  <p className="text-xl md:text-2xl font-medium mb-12 max-w-3xl mx-auto">
  {personalizedSubtitle}
  </p>
- {/* Urgency badge */}
+ {/* Service zone badge (sobre, sans pulsation agressive) */}
  <div className="mb-6 inline-block">
-<div className="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm animate-pulse">
- 🚨 TÉCNICO DISPONÍVEL EM {city.toUpperCase()} • SERVIÇO AO DOMICÍLIO
+ <div className="bg-white/95 text-gray-900 px-6 py-2 rounded-full font-bold text-sm border border-gray-300">
+ Serviço ao domicílio em {city} e Trás-os-Montes
  </div>
  </div>
  {/* CTA buttons — mobile: full width stacked, desktop: inline */}
@@ -82,19 +82,18 @@ const personalizedSubtitle = useMemo(() => {
  💬 WhatsApp Grátis
  </a>
  </div>
- {/* Trust indicators below CTA */}
+ {/* Honnesty indicator below CTA — conforme R11 ZÉRO INVENTION + R12 Transparence Radicale */}
  <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 text-white text-sm">
- <div className="flex items-center gap-2">
- <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
- <span className="font-bold"> (com feedback verificado)</span>
+ <div className="font-semibold">
+ ✓ Orçamento por escrito, sem surpresas
  </div>
  <div className="hidden sm:block text-white/50">•</div>
  <div className="font-semibold">
- ✓ Orçamento 100% Grátis
+ ✓ Fala sempre com a mesma pessoa
  </div>
  <div className="hidden sm:block text-white/50">•</div>
  <div className="font-semibold">
- ✓ Garantia 12 Meses
+ ✓ Estamos a começar — em breve partilhamos os primeiros depoimentos
  </div>
  </div>
  </div>

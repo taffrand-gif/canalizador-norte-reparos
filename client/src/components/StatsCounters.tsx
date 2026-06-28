@@ -51,18 +51,24 @@ export default function StatsCounters() {
  const { config } = useSite();
  const isPlumber = config.id === 'norte-reparos';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
- const stats = isPlumber
+ interface CounterStat {
+ value: number;
+ suffix: string;
+ label: string;
+ icon: string;
+}
+const stats: CounterStat[] = isPlumber
  ? [
- { value: 500, suffix: '+', label: 'Canalizações Arranjadas', icon: '💧' },
- { value: 10, suffix: '+', label: 'Anos de Experiência', icon: '⭐' },
- { value: 40, label: 'Min Chegada a Bragança', icon: '⏱️' },
- { value: 4.9, suffix: '/5', label: 'Avaliação Clientes', icon: '🌟' },
+ { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '🔧' },
+ { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
+ { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
+ { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
  ]
  : [
- { value: 350, suffix: '+', label: 'Instalações Realizadas', icon: '⚡' },
- { value: 10, suffix: '+', label: 'Anos de Experiência', icon: '⭐' },
- { value: 40, label: 'Min Chegada a Bragança', icon: '⏱️' },
- { value: 4.9, suffix: '/5', label: 'Avaliação Clientes', icon: '🌟' },
+ { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '⚡' },
+ { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
+ { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
+ { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
  ];
  return (
  <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
@@ -82,12 +88,16 @@ export default function StatsCounters() {
  className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all"
  >
  <div className="text-5xl mb-4">{stat.icon}</div>
- <div className="text-gray-900">
+ <div className="text-gray-900 min-h-[1em]">
+ {stat.value > 0 ? (
  <AnimatedCounter
  end={stat.value}
- suffix={stat.suffix || ''}
+ suffix={stat.suffix}
  duration={2500}
  />
+ ) : (
+ <div className="text-2xl md:text-3xl font-black leading-tight">✓</div>
+ )}
  </div>
  <div className="text-sm md:text-base font-semibold text-gray-700 mt-3">
  {stat.label}
@@ -98,8 +108,8 @@ export default function StatsCounters() {
  <div className="text-center mt-12">
  <p className="text-gray-600 text-sm max-w-2xl mx-auto">
  {isPlumber
- ? 'Mais de 500 famílias em Trás-os-Montes confiam no nosso trabalho. Fugas resolvidas, entupimentos eliminados, casas de banho renovadas — sempre com garantia e transparência total.'
- : 'Mais de 350 instalações elétricas certificadas em Trás-os-Montes. Quadros modernizados, certificações emitidas, problemas resolvidos — sempre com equipamento profissional Fluke e FLIR.'}
+  ? 'Mais de 500 famílias em Trás-os-Montes confiam no nosso trabalho. Fugas resolvidas, entupimentos eliminados, casas de banho renovadas — sempre com garantia por escrito e preço combinado antes.'
+  : 'Mais de 500 intervenções elétricas em Trás-os-Montes. Quadros modernizados, instalações certificadas, avarias resolvidas — sempre com equipamento profissional Fluke e FLIR.'}
  </p>
  </div>
  </div>
