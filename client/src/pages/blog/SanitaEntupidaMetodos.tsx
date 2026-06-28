@@ -635,7 +635,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Chegada prioritária-60 Minutos</p>
+ <p className="font-bold">Chegada mediante confirmação por telefone</p>
  <p className="text-sm text-white/80">Serviço urgente disponível</p>
  </div>
  </div>
