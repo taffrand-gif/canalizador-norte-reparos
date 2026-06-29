@@ -616,3 +616,5 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 **Sync origin :** local main = `3752f905e` (25 commits en retard vs `ecd711a5f`).
 
 **Note technique :** clone local pointe `taffrand-gif/norte-reparos` (repo déplacé, pas MAJ).
+
+| 2026-06-30 | Hermes (loop #4) | **Fix 2 erreurs TS critiques CU + cleanup orphelins** | 7 branches orphelines CNR safe-droppées + bundles backup. 2 fichiers TS corrigés CU : useGeolocation.ts (accolade orpheline identique EU), PriceTransparency.tsx (strong JSX non fermé). **PR #85 CU** ouverte. **Erreurs TS CU réelles : 192** (handover disait 2, sous-estimait massivement). Reste dominant : `server/_core/*` modules manquants (×8), `lib/trpc.ts @trpc/client` non installé, `streetAddress/addressLocality` type R5 violation × 30+ cidades, `'urgency'` type non accepté × 16 urgencias, server/routers.ts types any implicites × 8. À traiter en PRs séparées. | R3 (STOP validation), R6 (nouvelles branches), R7 (PR ouverte) | 7 branches supprimées, 2 fichiers modifiés, 1 PR ouverte | 🛑 STOP - PR ouverte, attente GO merge |
