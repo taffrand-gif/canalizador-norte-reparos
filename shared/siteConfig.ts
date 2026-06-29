@@ -1,7 +1,7 @@
 // Configuração para Norte-Reparos - Canalizador
 // Site canalizador-norte-reparos.pt
 // Preços sem IVA - NOVA GRELHA TARIFÁRIA 2026
-// Z1-Z6 com preços de deslocação + taxa horária 70€/h
+// Z1-Z6 com preços de deslocação + taxa horária 65€/h
 // Surcharge urgência: 50% (×1.5)
 
 export type SiteId = 'norte-reparos';
@@ -52,7 +52,7 @@ export interface SiteConfig {
 
  // Pricing config
  urgencyMultiplier: number; // 1.5 = +50% pour urgence
- hourlyRate: number; // 70€/h
+ hourlyRate: number; // 65€/h
 
  // Company info
  company: {
@@ -99,7 +99,7 @@ export interface SiteConfig {
 // Z5: 55€ — Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta Marta, Mesão Frio — 60-resposta prioritária
 // Z6: 65€ — Chaves, Vila Pouca, Boticas, Montalegre, Ribeira de Pena, Mondim, Moimenta, Sernancelhe, Penedono — sob marcação
 // Urgência: ×1.5 (50% supplement)
-// Taxa horária: 70€/h
+// Taxa horária: 65€/h
 
 export const siteConfig: SiteConfig = {
  id: 'norte-reparos',
@@ -151,7 +151,7 @@ export const siteConfig: SiteConfig = {
 
  // NOVO: Urgência + Taxa Horária
  urgencyMultiplier: 1.5, // +50% pour urgence / fim de semana
- hourlyRate: 70, // 70€/h
+ hourlyRate: 65, // 65€/h
 
  company: {
  fullName: 'Canalizador Profissional',
