@@ -43,7 +43,7 @@ export default function StructuredData() {
  "legalName": config.company.fullName,
  "alternateName": serviceName,
  "description": `${config.description} Atualmente a servir ${detectedCity} e região.`,
- "slogan": `Serviço 24h/7d em ${detectedCity} • Disponível 24h/7 dias • Orçamento por escrito`,
+ "slogan": "Orçamento por escrito • Trás-os-Montes • Resposta por telefone",
  "url": `https://${config.domain}`,
  "telephone": businessInfo.phone,
  "email": config.email,
@@ -188,7 +188,7 @@ export default function StructuredData() {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": `${serviceName} em ${currentCity.city}`,
- "description": `${serviceName} profissional em ${currentCity.city}, Trás-os-Montes. Serviço 24h, urgências, sem compromisso.`,
+ "description": `${serviceName} profissional em ${currentCity.city}, Trás-os-Montes. Orçamento por escrito, sem surpresas.`,
  "provider": {
  "@id": `https://${config.domain}/#organization`
  },
@@ -329,7 +329,7 @@ export default function StructuredData() {
  "currenciesAccepted": "EUR",
  "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "MB WAY"],
  "knowsLanguage": ["pt-PT"],
- "slogan": "Serviço 24h/7d em Trás-os-Montes • Disponível 24h/7 dias • Orçamento por escrito"
+ "slogan": "Orçamento por escrito • Trás-os-Montes • Resposta por telefone"
  };
  // FAQ Schema enriquecido
  const faqSchema = {
@@ -341,7 +341,7 @@ export default function StructuredData() {
  "name": `Qual é o horário de atendimento do ${config.serviceType}?`,
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Serviço de urgência permanente."
+ "text": "Atendimento por telefone durante o horário comercial. Para questões urgentes fora de horário, deixe mensagem e respondemos assim que possível."
  }
  },
  {
