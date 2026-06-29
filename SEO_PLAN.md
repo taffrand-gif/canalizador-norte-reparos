@@ -6,7 +6,7 @@
 
 **Propriétaire** : Philippe Braganca (Filipe)
 **Site** : https://canalizador-norte-reparos.pt
-**Repo** : `taffrand-gif/norte-reparos` (working copy locale : `~/work/Sites/canalizador/`)
+**Repo** : `taffrand-gif/canalizador-norte-reparos` (working copy locale : `~/work/Sites/canalizador/`)
 **Branche prod** : `main` | **Branche dev** : `seo-2026-q3` (à créer)
 **NAP** : +351 928 484 451 | Norte Reparos | Trás-os-Montes
 **Doctrine site** : A+ COMPLÈTE v2 (déjà déployée 28/06/2026)
@@ -483,14 +483,14 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 - ❌ `norte-reparos-clean` (doublon détenant `canalizador-norte-reparos.pt`, a servi du contenu DOWN après incident Index.html)
 
 ### Actions correctives réalisées
-- ✅ Transfert domaine `canalizador-norte-reparos.pt` : `norte-reparos-clean` (DOWN) → `canalizador-norte-reparos` (UP, lié à `taffrand-gif/norte-reparos`)
+- ✅ Transfert domaine `canalizador-norte-reparos.pt` : `norte-reparos-clean` (DOWN) → `canalizador-norte-reparos` (UP, lié à `taffrand-gif/canalizador-norte-reparos`)
 - ✅ Détachement des domaines legacy `norte-reparos.com` + `www.norte-reparos.com` (redirections historiques désactivées)
 - ✅ Site `canalizador-norte-reparos.pt` restored après incident commit vide `457e56cd` (contenu réel restauré byte-à-byte via PUT /contents avec base64)
 
 ### État final propre — mapping 1-pour-1
 | URL | Repo GitHub | Projet Vercel | Status |
 |-----|-------------|---------------|--------|
-| canalizador-norte-reparos.pt | taffrand-gif/norte-reparos | canalizador-norte-reparos | ✅ |
+| canalizador-norte-reparos.pt | taffrand-gif/canalizador-norte-reparos | canalizador-norte-reparos | ✅ |
 | eletricista-norte-reparos.pt | taffrand-gif/eletricista-norte-reparos | eletricista-norte-reparos | ✅ |
 | canalizador-urgente.pt | taffrand-gif/canalizador-urgente | canalizador-urgente | ✅ |
 | eletricista-urgente.pt | taffrand-gif/eletricista-urgente | eletricista-urgente | ✅ |
