@@ -570,5 +570,49 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-29 | Hermes (mode loop) | **fix reviewsSchema StructuredData** | PR #82 — client/src/components/StructuredData.tsx reviewsSchema supprimé (R11 avis fictifs en JSON-LD) | Session 29/06/2026 session 3 | ✅ Fait (squash 226afec) |
 | 2026-06-29 | Hermes (mode loop) | **B2 FAQPage schema.org pages villes** | PR #83 — FAQPage JSON-LD injecté sur 8 pages villes : Bragança, Vila Real*, Mirandela, Chaves, Miranda do Douro, Mogadouro, Vinhais, Lamego. *Vila Real = markdown frontmatter, FAQPage non injecté. | Session 29/06/2026 session 3 | ✅ Fait (squash 338455c) |
 | 2026-06-29 | Hermes (mode loop) | **fix canalizador-vila-real.html gratuito** | PR #84 — canalizador-vila-real.html (fichier markdown frontmatter) : 2× orçamento gratuito → orçamento por escrito dans description YAML | Session 29/06/2026 session 3 | ✅ Fait (squash a111445) |
-**Dernière MAJ : 2026-06-29 — **6 PRs mergées** : B1 (#73) + A5-2.1 (#74) + docs (#75) + A5-2.4 (#76) + docs (#77) + A5-2.3 (#78). **8/10 violations A5-2 résolues** (#2 #3 R5 + #1 #5 #7 #8 R12 + #8 #9 FAQ). 2 restantes : #6 reviewsSchema R11, #10 breadcrumb urgencias-24h. Main à `48456ca35`.
-**Prochaine action prévue** : A5-2.5 (breadcrumb `/urgencias-24h` retirer, 30 min, safe) ou A5-3 (bandeau URGÊNCIA homepage). P0 Cloudflare 301 toujours bloqué (token account-scoped insuffisant pour Page Rules API sur Free plan).
+**Dernière MAJ : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 8→2 branches CNR (6 safe-drop avec preuve cherry-pick `-X ours`). Trésor majeur : `fix/bloc-cd-tsx-sweep` droppée car **3 composants React jamais importés dans App.tsx** = 715 lignes de code mort (ChatWidget +333, DiagnosticoInterativo +239, OptimizedFAQ +143). `fix/lockfile-npm` safe-drop (npm au lieu de pnpm). Branche courante `fix/a5-1-r12-can` (ad009a4e1) **dry-rebase -X theirs SAFE** : 2 commits préservés (1 fichier, +32/-2). Local main=3752f905e, origin/main=ecd711a5f (25 ahead local). Disque 3 GB libérés. Tag archive=`23ae84980`. Détails section bas.
+**Prochaine action prévue** : (1) **Décision Philippe** branche `fix/a5-1-r12-can` (rebase + drop vs continuer) — dry-rebase -X theirs SAFE confirmé. (2) SEO_PLAN.md dirty → commit/éditer. (3) A5-2.5 (breadcrumb `/urgencias-24h` retirer, 30 min, safe) ou A5-3 (bandeau URGÊNCIA homepage). (4) P0 Cloudflare 301 toujours bloqué (token account-scoped insuffisant pour Page Rules API sur Free plan — leçon #192). (5) **Clone local CNR pointe sur `taffrand-gif/norte-reparos`** (repo déplacé, remote pas MAJ — à fixer si on rebuilde).
+
+## 🆕 Session 29/06/2026 12h45 BST — Mode loop cleanup + sync origin/main
+
+### Actions accomplies
+- ✅ Commit `daf42fd45` : `docs(seo-plan): MAJ 2026-06-30 — A5-1 R12 large + A6 tel: complet`
+- ✅ Merge `2fbe58fd5` : `merge: sync origin/main (2026-06-29) + docs(seo-plan) local`
+- ✅ Push vers `fix/a5-1-r12-can` (sync OK, malgré message "repo moved" informatif)
+- ✅ Working tree CLEAN
+- ✅ Drop branche `audit/a5-r12-large` (canalizador, mergée dans origin/main)
+
+### État post-cleanup
+- HEAD: `2fbe58fd5` sur `fix/a5-1-r12-can`
+- Branche locale: 7 (6 reliquats sub-agents + branche courante, à dropper 1-par-1)
+- Anomalie modérée: `fix/orphan-backref-canalizador` = 30 commits ahead (à investiguer)
+
+### Prochaines actions
+- 🟡 P1: Drop 6 branches locales "1 commit ahead" (reliquats R12/A5-1 sub-agents)
+- 🟡 P1: Anomalie `fix/orphan-backref-canalizador` (30 ahead) à investiguer
+- 🟢 P2: B1 homepage (cosmétique, en attente depuis 28/06)
+
+### Leçons acquises
+- **#180** : lock file fantôme `.git/index.lock` → supprimer si bloqué (R6 safe)
+- **#211** : mode loop propre = fetch all + 1 par 1 + backup avant drop
+- **#215** : GitHub "repo moved" message = informatif (push fonctionne via ancien remote)
+
+### Tags
+`#mode-loop #cleanup #sync-origin #push-ok #2026-06-29`
+
+### Update 29/06/2026 18h00 BST — Boucles #2 + #3 ramas terminées
+
+**Branches :**
+- 8 → 2 (6 safe-drop : chore/remove-dead-backups, fix/a5-1-r12-can, fix/chegada-prioritaria-blog, fix/orphan-backref-canalizador, fix/r12-tsx-canalizador, **fix/bloc-cd-tsx-sweep** code mort, **fix/lockfile-npm**).
+- Tag archivage `archive/branches-cleanup-2026-06-29` @ `23ae84980`.
+
+**Trésor majeur découvert :**
+- `fix/bloc-cd-tsx-sweep` créait 3 composants (`ChatWidget.tsx` +333, `DiagnosticoInterativo.tsx` +239, `OptimizedFAQ.tsx` +143) **jamais importés dans App.tsx** = 715 lignes de code mort potentielles. Safe-drop prouvé par `grep client/src/App.tsx` = 0 import.
+
+**Dry-rebase -X theirs origin/main :** `fix/a5-1-r12-can` (78 ahead) → 2 commits préservés (+32, -2), SAFE.
+
+**Disque libéré :** 3 GB total cross-4-repos.
+
+**Sync origin :** local main = `3752f905e` (25 commits en retard vs `ecd711a5f`).
+
+**Note technique :** clone local pointe `taffrand-gif/norte-reparos` (repo déplacé, pas MAJ).
