@@ -111,6 +111,38 @@
 
 J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je fais l'erreur (leçon #181 du 28/06, même pattern aujourd'hui). **Règle interne que je m'impose** : avant toute modif sur un site déployé, je fais un `grep -rln 'testimoni\|rating\|review\|anos\|intervenções'` pour mesurer l'ampleur. 30 secondes de grep qui évitent 30 minutes de patch à côté de la plaque.
 
+---
+
+## 🚨 BACKLOG A5-2 — Violations schema.org R5/R11/R12 (audit 30/06/2026)
+
+**Découverte** : `client/src/components/StructuredData.tsx` (497 lignes) injecte dynamiquement du schema.org avec **10 violations** des règles verrouillées. Détecté en lisant le code AVANT patch B1 (leçon #181 appliquée : grep d'abord).
+
+| # | Ligne | Violation | Règle | Criticité |
+|---|---|---|---|---|
+| 1 | L46 | `slogan: "Serviço 24h/7d em ${detectedCity}"` dans Plumber | R12 confusion installation/urgence | 🔴 |
+| 2 | L55-58 | `streetAddress` + `postalCode` dans `PostalAddress` | **R5 violation directe** (géo non neutre) | 🔴 |
+| 3 | L62-65 | `geo` avec lat/lng précises (Macedo) | **R5 violation** géo non neutre | 🔴 |
+| 4 | L130 | `availability: "InStock"` pour un service | schema inadapté (InStock = produits) | 🟠 |
+| 5 | L208 | `"Serviço 24h, urgências, sem compromisso"` dans pages de ville | R12 confusion | 🔴 |
+| 6 | L237-264 | `reviewsSchema` qui sérialise `config.testimonials` en `Review` schema.org | **R11 violation massive** : avis injectés | 🔴 |
+| 7 | L356 | `slogan: "Serviço 24h/7d em Trás-os-Montes"` (Organization) | R12 | 🔴 |
+| 8 | L368 | FAQ "Estamos disponíveis Atendimento 24h/7d" | R12 | 🔴 |
+| 9 | L392 | FAQ "Preços a partir de 60€ para desentupimentos simples" | R12 (grille = 65€/h + Z1-Z6 + 50%) | 🔴 |
+| 10 | L445 | `'/urgencias-24h': 'Urgências 24h'` dans breadcrumb | site installation ne devrait pas avoir cette page | 🟠 |
+
+**Effort estimé** : 4-6h pour nettoyage complet (refonte `StructuredData.tsx` + refonte FAQ + retrait reviewsSchema + retrait streetAddress/geo)
+
+**Risque** : MOYEN (schema.org = critique pour SEO, toucher = risque régression rich snippets Google)
+
+**Stratégie proposée** : scinder en 5+ PRs thématiques :
+- PR A5-2.1 : retrait `streetAddress` + `geo` précises (R5, ~30 min)
+- PR A5-2.2 : retrait `reviewsSchema` (R11, ~30 min — peut casser les étoiles SERP si Google les indexe déjà)
+- PR A5-2.3 : refonte FAQ schema (R12, ~1h)
+- PR A5-2.4 : retrait slogans 24h (R12, ~30 min)
+- PR A5-2.5 : nettoyage `urgencias-24h` breadcrumb + page (R12, ~1h si page existe)
+
+**Statut** : ⏸️ En attente GO Philippe — chaque PR sera présentée avec diff + témoins R8 avant patch.
+
 
 ---
 
@@ -405,5 +437,6 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-29 | Hermes | A3 satellite cross-ref | Référence à l'A3 Doctrine §12 étendue sur les 2 sites `-urgente` (570 fichiers canalizador-urgente PR #48 + 266 fichiers eletricista-urgente PR #35). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine insérés. Aucune action requise sur ce repo `canalizador` lui-même (pas de page service satellite). | Suivi cross-site via PRs upstream | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 fichiers eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351****1892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4-BIS satellite cross-ref** | Référence à l'A4-BIS cleanup résiduel sur eletricista-urgente (271 fichiers typo téléphone PR #39 + 184 fichiers SEO cleanup PR #38). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine (total cumul A3+A4+A4-BIS = 4757 fichiers Doctrine §12 sur 2 sites). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #214-#215 documentées** : suppression branche avant merge = perte → récupérer depuis reflog ; `merge_commit_sha` API peut être trompeur pour PR draft. **Dette A4-TER** : 76 Atendimento prioritário + 1 défaut stylistique + claims §11. | Pas de modification locale | ✅ Fait (cross-ref) |
-**Dernière MAJ** : 2026-06-29 — **A4-BIS cross-ref PR #38 + #39 (eletricista-urgente 184 + 271 fichiers) mergés**. Total A3+A4+A4-BIS cumulé = **4757 fichiers Doctrine §12 sur les 2 sites `-urgente`** (canal = 1827 + elec = 2930). Backlinks `canalizador-norte-reparos.pt` + `eletricista-norte-reparos.pt` cités dans tous les blocs Doctrine insérés.
-**Prochaine action prévue** : B1 (homepage "installation/devis") — en attente GO Philippe. **Dette A4-TER** : 76 `[Aa]tendimento prioritário` survivants + 1 défaut stylistique sur `alij.html` + claims §11 type « Termas e património romano » à auditer.
+| 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
+**Dernière MAJ** : 2026-06-30 — **B1 Strate 1 livré** : `client/index.html` title + meta alignés R12 (1 fichier, 2 lignes). **Backlog A5-2 créé** : 10 violations schema.org détectées dans `StructuredData.tsx` (R5/R11/R12) à traiter en 5+ PRs thématiques.
+**Prochaine action prévue** : A5-2.1 (retrait `streetAddress` + `geo` précises, R5) — en attente GO Philippe. PR B1 ouverte, attente GO merge (R7).
