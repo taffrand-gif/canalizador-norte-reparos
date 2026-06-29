@@ -143,6 +143,26 @@ J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je 
 
 **Statut** : ⏸️ En attente GO Philippe — chaque PR sera présentée avec diff + témoins R8 avant patch.
 
+### ✅ A5-2.1 — LIVRÉ (PR #74, commit `bf8124c51`, 30/06/2026)
+
+**Action** : retrait `streetAddress`, `postalCode`, et tous les blocs `geo`/`geoMidpoint` avec lat/lng précises (Macedo) dans `client/src/components/StructuredData.tsx`. 6 blocs patchés (Plumber + Organization).
+
+**Témoins R8 mesurés** :
+| Témoin | Avant | Après |
+|---|---|---|
+| `streetAddress` | 1 | **0** ✅ |
+| `postalCode` | 2 | **0** ✅ |
+| `latitude 41.5362124` (Macedo) | 4 | **0** ✅ |
+| `longitude -6.9560267` (Macedo) | 4 | **0** ✅ |
+| `geoMidpoint` | 2 | **0** ✅ |
+| `addressLocality` (conservé) | 4 | 4 ✅ |
+| `geoRadius: 130000` (conservé) | 2 | 2 ✅ |
+| `addressCountry` (conservé) | 2 | 2 ✅ |
+
+**Conformité** : R5 ✅ (géo-neutre strict, propriétés larges uniquement). R15 ✅ (1 fichier, -24 lignes). R16 ✅ (build 4.07s, tsc OK). PR #74 mergée via R7-bis (squash).
+
+**Violations A5-2 restantes** : 8/10 → voir backlog ci-dessous.
+
 
 ---
 
@@ -438,5 +458,6 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 fichiers eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351****1892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4-BIS satellite cross-ref** | Référence à l'A4-BIS cleanup résiduel sur eletricista-urgente (271 fichiers typo téléphone PR #39 + 184 fichiers SEO cleanup PR #38). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine (total cumul A3+A4+A4-BIS = 4757 fichiers Doctrine §12 sur 2 sites). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #214-#215 documentées** : suppression branche avant merge = perte → récupérer depuis reflog ; `merge_commit_sha` API peut être trompeur pour PR draft. **Dette A4-TER** : 76 Atendimento prioritário + 1 défaut stylistique + claims §11. | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
-**Dernière MAJ** : 2026-06-30 — **B1 Strate 1 livré** : `client/index.html` title + meta alignés R12 (1 fichier, 2 lignes). **Backlog A5-2 créé** : 10 violations schema.org détectées dans `StructuredData.tsx` (R5/R11/R12) à traiter en 5+ PRs thématiques.
-**Prochaine action prévue** : A5-2.1 (retrait `streetAddress` + `geo` précises, R5) — en attente GO Philippe. PR B1 ouverte, attente GO merge (R7).
+| 2026-06-30 | Hermes | A5-2.1 (R5 géo-neutre) | Patch `client/src/components/StructuredData.tsx` : retrait `streetAddress` + `postalCode` + blocs `geo`/`geoMidpoint` avec lat/lng Macedo précises (6 blocs Plumber + Organization). Conservé propriétés larges (`addressLocality: 'Trás-os-Montes'`, `addressRegion`, `addressCountry: 'PT'`, `geoRadius: '130000'`). | R3, R5 (géo-neutre strict), R15 (1 fichier -24 lignes), R16 (tsc + build verts) | 1 fichier modifié, -24 lignes, 8 violations A5-2 restantes, build 4.07s, bundle réduit. **Grep `napConfig` = 50 fichiers** (blast radius évité, scope borné). | ✅ Fait (PR #74 mergée R7-bis squash → bf8124c51) |
+**Dernière MAJ** : 2026-06-30 — **B1 + A5-2.1 mergés** : PR #73 (homepage R12) + PR #74 (schema.org R5 géo-neutre). **2/10 violations A5-2 résolues** (R5 pur). 8 restantes : #1 #4 #5 #6 #7 #8 #9 #10. Main à `bf8124c51`.
+**Prochaine action prévue** : A5-2.4 (retrait slogans "24h/7d" schema.org, R12, 30min) — en attente GO Philippe. PR A5-2.1 mergée. Backlog mis à jour.
