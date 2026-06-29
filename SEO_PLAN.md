@@ -184,6 +184,26 @@ J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je 
 
 **Violations A5-2 restantes** : 4/10 → FAQ #6 reviewsSchema, FAQ #8 "tempo resposta" R145, FAQ #9 "Preços a partir de 60€" R12, breadcrumb #10 /urgencias-24h.
 
+### ✅ A5-2.3 — LIVRÉ (PR #78, commit `48456ca35`, 30/06/2026)
+
+**Action** : refonte FAQ schema dans `client/src/components/StructuredData.tsx`. 2 FAQ patchées :
+- L347-353 : remplace question "Quanto tempo demora a chegar em caso de urgência?" (R145 violation, délai chiffré interdit) par "Como é feito o orçamento?" (réponse R12 : orçamento por escrito, sem compromisso, descrição trabalho + materiais + prazo estimado)
+- L363-369 : remplace "Quanto custa uma intervenção?" (R12 violation, "à partir de 60€" hors grille) par version conforme à la **grille verrouillée AGENTS.md R12 §1** : 65€/h + Z1=15€/Z2=25€/Z3=35€/Z4=45€/Z5=55€/Z6=65€ + majoration nuit/WE/feriado +50% + "orçamento por escrito antes de qualquer trabalho"
+
+**Témoins R8 mesurés** :
+| Témoin | Avant | Après |
+|---|---|---|
+| "urgência" dans StructuredData | 2 | **1** ✅ (breadcrumb L421 hors scope A5-2.5) |
+| "tempo médio" (R145 violation) | 1 | **0** ✅ |
+| "à partir de 60€" (R12 violation) | 1 | **0** ✅ |
+| "65€/hora" (R12 grille) | 0 | **1** ✅ |
+| "Orçamento por escrito" | 3 | **4** ✅ |
+| Majoration +50% (R12) | 0 | **1** ✅ |
+
+**Conformité** : R12 ✅ (grille officielle + "sem surpresas"). R145 ✅ (question urgence retirée). R4 ✅ (prix = grille AGENTS.md R12 §1 verrouillée, pas d'invention). R15 ✅ (1 fichier +3/-3). R16 ✅ (build 4.46s).
+
+**Violations A5-2 restantes** : 2/10 → #6 reviewsSchema R11, #10 breadcrumb /urgencias-24h.
+
 
 ---
 
@@ -481,5 +501,6 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
 | 2026-06-30 | Hermes | A5-2.1 (R5 géo-neutre) | Patch `client/src/components/StructuredData.tsx` : retrait `streetAddress` + `postalCode` + blocs `geo`/`geoMidpoint` avec lat/lng Macedo précises (6 blocs Plumber + Organization). Conservé propriétés larges (`addressLocality: 'Trás-os-Montes'`, `addressRegion`, `addressCountry: 'PT'`, `geoRadius: '130000'`). | R3, R5 (géo-neutre strict), R15 (1 fichier -24 lignes), R16 (tsc + build verts) | 1 fichier modifié, -24 lignes, 8 violations A5-2 restantes, build 4.07s, bundle réduit. **Grep `napConfig` = 50 fichiers** (blast radius évité, scope borné). | ✅ Fait (PR #74 mergée R7-bis squash → bf8124c51) |
 | 2026-06-30 | Hermes | A5-2.4 (R12 slogans 24h/7d) | Patch `client/src/components/StructuredData.tsx` : retrait slogans "24h/7d" + "urgências" dans Plumber.slogan (L46), cityServiceSchema.description (L191), Organization.slogan (L332), FAQ horaire (L344). Slogan R12 uniforme "Orçamento por escrito • Trás-os-Montes • Resposta por telefone". | R3, R12 (différenciation installation ≠ urgente), R145 (pas de délai chiffré), R15 (1 fichier +4/-4), R16 (build 4.89s) | 1 fichier modifié, +4/-4 lignes, 4 violations A5-2 résolues (#1 #5 #7 #8), 6 restantes. | ✅ Fait (PR #76 mergée R7-bis squash → fd0636e72) |
-**Dernière MAJ** : 2026-06-30 — **4 PRs mergées** : B1 (#73) + A5-2.1 (#74) + docs (#75) + A5-2.4 (#76). **6/10 violations A5-2 résolues** (#2 #3 R5 + #1 #5 #7 #8 R12). 4 restantes : #6 reviewsSchema R11, #8 FAQ "tempo resposta" R145, #9 FAQ "60€" R12, #10 breadcrumb urgencias-24h. Main à `fd0636e72`.
-**Prochaine action prévue** : A5-2.3 (FAQ "tempo resposta" R145 + "Preços 60€" R12) — 2 questions FAQ à patcher, 30 min, safe. P0 Cloudflare 301 reste ouvert (token API requis).
+| 2026-06-30 | Hermes | A5-2.3 (FAQ schema R145 + R12 grille) | Patch `client/src/components/StructuredData.tsx` : 2 FAQ patchées. L347-353 remplace question "urgência" (R145 violation) par "Como é feito o orçamento?" (R12 réponse). L363-369 remplace "à partir de 60€" (R12 violation) par grille officielle 65€/h + Z1-Z6 + majoration +50%. | R3, R4 (pas d'invention, prix = grille AGENTS.md R12 §1), R12 (Transparence Radicale), R145 (pas de délai chiffré), R15 (1 fichier +3/-3), R16 (build 4.46s) | 1 fichier modifié, +3/-3 lignes, 2 violations A5-2 résolues (#8 #9), 2 restantes (#6 reviewsSchema, #10 breadcrumb). | ✅ Fait (PR #78 mergée R7-bis squash → 48456ca35) |
+**Dernière MAJ** : 2026-06-30 — **6 PRs mergées** : B1 (#73) + A5-2.1 (#74) + docs (#75) + A5-2.4 (#76) + docs (#77) + A5-2.3 (#78). **8/10 violations A5-2 résolues** (#2 #3 R5 + #1 #5 #7 #8 R12 + #8 #9 FAQ). 2 restantes : #6 reviewsSchema R11, #10 breadcrumb urgencias-24h. Main à `48456ca35`.
+**Prochaine action prévue** : A5-2.5 (breadcrumb `/urgencias-24h` retirer, 30 min, safe) ou A5-3 (bandeau URGÊNCIA homepage). P0 Cloudflare 301 toujours bloqué (token account-scoped insuffisant pour Page Rules API sur Free plan).
