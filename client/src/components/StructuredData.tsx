@@ -346,10 +346,10 @@ export default function StructuredData() {
  },
  {
  "@type": "Question",
- "name": "Quanto tempo demora a chegar em caso de urgência?",
+ "name": "Como é feito o orçamento?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em situações de urgência, o nosso tempo médio de resposta é variável. Para zonas mais afastadas, o tempo é a confirmar caso a caso."
+ "text": "O orçamento é sempre fornecido por escrito antes de qualquer intervenção, sem compromisso. Inclui descrição do trabalho, materiais e prazo estimado. Para trabalhos fora da grelha standard, apresentamos orçamento sob medida."
  }
  },
  {
@@ -365,7 +365,7 @@ export default function StructuredData() {
  "name": "Quanto custa uma intervenção?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Os preços variam conforme o serviço e a localização. Oferecemos sem compromisso e sem compromisso. Preços a partir de 60€ para desentupimentos simples."
+ "text": "Grelha standard: 65€/hora para canalização + deslocação Z1=15€/Z2=25€/Z3=35€/Z4=45€/Z5=55€/Z6=65€ conforme distância. Majoração noite/fim-de-semana/feriado: +50%. Orçamento por escrito antes de qualquer trabalho, sem surpresas na fatura."
  }
  },
  {
