@@ -163,6 +163,27 @@ J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je 
 
 **Violations A5-2 restantes** : 8/10 → voir backlog ci-dessous.
 
+### ✅ A5-2.4 — LIVRÉ (PR #76, commit `fd0636e72`, 30/06/2026)
+
+**Action** : retrait slogans "24h/7d" et "urgências" dans `client/src/components/StructuredData.tsx`. 4 blocs patchés :
+- L46 Plumber.slogan
+- L191 cityServiceSchema.description
+- L332 Organization.slogan
+- L344 FAQ "horário atendimento"
+
+**Slogan R12 uniforme** : "Orçamento por escrito • Trás-os-Montes • Resposta por telefone" (Plumber + Organization)
+
+**Témoins R8 mesurés** :
+| Témoin | Avant | Après |
+|---|---|---|
+| `24h/7d` dans StructuredData | 4 | **1** ✅ (FAQ urgence L349 hors scope A5-2.3) |
+| Slogan R12 "Orçamento por escrito" | 0 | **3** ✅ |
+| "Resposta por telefone" | 0 | **2** ✅ |
+
+**Conformité** : R12 ✅ (différenciation installation ≠ urgente). R145 ✅ (FAQ retire "24h/7d permanente", adopte "horário comercial + mensagem hors horário"). R15 ✅ (1 fichier +4/-4). R16 ✅ (build 4.89s).
+
+**Violations A5-2 restantes** : 4/10 → FAQ #6 reviewsSchema, FAQ #8 "tempo resposta" R145, FAQ #9 "Preços a partir de 60€" R12, breadcrumb #10 /urgencias-24h.
+
 
 ---
 
@@ -459,5 +480,6 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4-BIS satellite cross-ref** | Référence à l'A4-BIS cleanup résiduel sur eletricista-urgente (271 fichiers typo téléphone PR #39 + 184 fichiers SEO cleanup PR #38). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine (total cumul A3+A4+A4-BIS = 4757 fichiers Doctrine §12 sur 2 sites). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #214-#215 documentées** : suppression branche avant merge = perte → récupérer depuis reflog ; `merge_commit_sha` API peut être trompeur pour PR draft. **Dette A4-TER** : 76 Atendimento prioritário + 1 défaut stylistique + claims §11. | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
 | 2026-06-30 | Hermes | A5-2.1 (R5 géo-neutre) | Patch `client/src/components/StructuredData.tsx` : retrait `streetAddress` + `postalCode` + blocs `geo`/`geoMidpoint` avec lat/lng Macedo précises (6 blocs Plumber + Organization). Conservé propriétés larges (`addressLocality: 'Trás-os-Montes'`, `addressRegion`, `addressCountry: 'PT'`, `geoRadius: '130000'`). | R3, R5 (géo-neutre strict), R15 (1 fichier -24 lignes), R16 (tsc + build verts) | 1 fichier modifié, -24 lignes, 8 violations A5-2 restantes, build 4.07s, bundle réduit. **Grep `napConfig` = 50 fichiers** (blast radius évité, scope borné). | ✅ Fait (PR #74 mergée R7-bis squash → bf8124c51) |
-**Dernière MAJ** : 2026-06-30 — **B1 + A5-2.1 mergés** : PR #73 (homepage R12) + PR #74 (schema.org R5 géo-neutre). **2/10 violations A5-2 résolues** (R5 pur). 8 restantes : #1 #4 #5 #6 #7 #8 #9 #10. Main à `bf8124c51`.
-**Prochaine action prévue** : A5-2.4 (retrait slogans "24h/7d" schema.org, R12, 30min) — en attente GO Philippe. PR A5-2.1 mergée. Backlog mis à jour.
+| 2026-06-30 | Hermes | A5-2.4 (R12 slogans 24h/7d) | Patch `client/src/components/StructuredData.tsx` : retrait slogans "24h/7d" + "urgências" dans Plumber.slogan (L46), cityServiceSchema.description (L191), Organization.slogan (L332), FAQ horaire (L344). Slogan R12 uniforme "Orçamento por escrito • Trás-os-Montes • Resposta por telefone". | R3, R12 (différenciation installation ≠ urgente), R145 (pas de délai chiffré), R15 (1 fichier +4/-4), R16 (build 4.89s) | 1 fichier modifié, +4/-4 lignes, 4 violations A5-2 résolues (#1 #5 #7 #8), 6 restantes. | ✅ Fait (PR #76 mergée R7-bis squash → fd0636e72) |
+**Dernière MAJ** : 2026-06-30 — **4 PRs mergées** : B1 (#73) + A5-2.1 (#74) + docs (#75) + A5-2.4 (#76). **6/10 violations A5-2 résolues** (#2 #3 R5 + #1 #5 #7 #8 R12). 4 restantes : #6 reviewsSchema R11, #8 FAQ "tempo resposta" R145, #9 FAQ "60€" R12, #10 breadcrumb urgencias-24h. Main à `fd0636e72`.
+**Prochaine action prévue** : A5-2.3 (FAQ "tempo resposta" R145 + "Preços 60€" R12) — 2 questions FAQ à patcher, 30 min, safe. P0 Cloudflare 301 reste ouvert (token API requis).
