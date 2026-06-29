@@ -298,7 +298,7 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 
 ### 🟧 B2 — Schema.org FAQPage sur pages /zonas/ existantes (S4)
 
-**Statut** : ⏳ À FAIRE
+**Statut** : ✅ FAIT (PR #83+#84, 29/06/2026) — FAQPage sur 7/8 villes + fix Vila Real markdown
 **Priorité** : MOYENNE
 **Effort** : ~30 min/ville × 8 villes = 4h
 **Risque** : BAS (ajout, pas modification)
