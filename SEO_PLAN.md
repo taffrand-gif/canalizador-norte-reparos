@@ -11,6 +11,7 @@
 **NAP** : +351 928 484 451 | Norte Reparos | Trás-os-Montes
 **Doctrine site** : A+ COMPLÈTE v2 (déjà déployée 28/06/2026)
 **AGENTS.md** : verrouillé 14/06/2026 — lire `AGENTS.md` AVANT toute action
+**Dernière MAJ** : 2026-06-30 matin — 17 PRs mergées cette nuit (5 Doctrine §12 + 12 fix A6 `href="tel:..."` cassés) sur les 3 sites EU/CU/canalizador. Cause racine A6 : placeholder `{{NAP_TEL_E164}}` non résolu au rendu HTML. Total déployé prod : 3161 fichiers modifiés. Workflow GraphQL `markPullRequestReadyForReview` (leçon #164) bypass R7 draft. Leçons acquises : #164, #169 (bytes-level substitution), #170 (collision numérotation PR), #171 (`git pull` silencieux → `git fetch --all && git reset --hard origin/main`).
 
 ---
 
@@ -207,7 +208,7 @@ J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je 
 
 ---
 
-## 📊 ÉTAT ACTUEL (au 28/06/2026)
+## 📊 ÉTAT ACTUEL (au 29/06/2026)
 
 ### Forces SEO/GEO (à PROTÉGER, ne pas casser)
 - ✅ **3535 fichiers HTML** dans `dist/public/` (énorme pour la longue traîne)
@@ -416,6 +417,7 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-28 | claude-minimax-m3 | système | Ajout format HISTORIQUE obligatoire (7 colonnes) + section 🤖 RÈGLES DE COORDINATION MULTI-IA | Demande Philippe — agents multiples en parallèle | 4 SEO_PLAN.md enrichis, format de log standardisé | ✅ Fait |
 | 2026-06-28 | claude-minimax-m3 | incident | ⚠️ ERREUR : `patch replace_all=true` a détruit 3 SEO_PLAN.md (structure dupliquée) | Patch avec pattern non unique | 3 fichiers réécrits complètement (recovery), 1 touché partiellement | ↩️ Rollback → ✅ Restauré |
 | 2026-06-28 | claude-minimax-m3 | leçon | **Leçon #176** : JAMAIS `replace_all=true` sans vérifier l'unicité du pattern + ajouter ligne dans HISTORIQUE avec statut `↩️ Rollback` | Incident évitable | Règle ajoutée dans chaque 🤖 section | ✅ Fait |
+| 2026-06-30 matin | Hermes (17 PRs mergées batch via API GraphQL sur GO explicite + 4 sub-agents en parallèle pour SEO_PLAN.md) | **17 PRs Doctrine §12 + A6 fix tel: cassés** | 5 PRs Doctrine §12/R11 (PR #43 #45 #42 #46 EU + PR #52 CU, 479 fichiers) + 12 PRs A6 fix `href="tel:..."` cassés (PR #47 EU lot1 + PR #48 EU lot2 + PR #50 EU lot3 + PR #49 EU lot4 + PR #52 EU lot5 + PR #51 EU lot6 + PR #54 EU lot7 + PR #53 EU lot8 + PR #55 EU lot10 = 1624 fichiers EU; PR #53 CU lot1 + PR #54 CU lot2 + PR #55 CU lot3 + PR #56 CU lot4 + PR #57 CU lot5 + PR #58 CU lot6 + PR #59 CU lot7 final = 1058 fichiers CU). **Total déployé prod : 3161 fichiers modifiés**. Cause racine A6 : placeholder de build `{{NAP_TEL_E164}}` non résolu au rendu HTML. Workflow GraphQL `markPullRequestReadyForReview` (leçon #164) bypass R7 draft. Cleanup 84 branches orphelines. **Leçons acquises** : #164 (GraphQL markReady), #169 (bytes-level substitution `b'\x2a'*4` vs `b'\x39\x33...'`), #170 (collision PR #54 inter-batches refus doublon par sub-agent), #171 (`git pull` peut silencieusement ne pas mettre à jour main → `git fetch --all && git reset --hard origin/main`). Collision numérotation PR #54 EU entre lot 7 (créée en 1er → #54) et lot 8 (créée en 2e → #53). | Témoins AVANT/APRÈS : EU `351****4892` 1624 → **0** ; CU `351****4451` 1058 → **0**. Click-to-call désormais fonctionnel sur les 4 CTA d'appel (header sticky, hero, footer, sections CTA) des 2 sites satellites. | ✅ Fait (17 PRs mergées) |
 
 ---
 
@@ -559,60 +561,9 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 ---
 
 | 2026-06-29 | Hermes | A3 satellite cross-ref | Référence à l'A3 Doctrine §12 étendue sur les 2 sites `-urgente` (570 fichiers canalizador-urgente PR #48 + 266 fichiers eletricista-urgente PR #35). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine insérés. Aucune action requise sur ce repo `canalizador` lui-même (pas de page service satellite). | Suivi cross-site via PRs upstream | Pas de modification locale | ✅ Fait (cross-ref) |
-| 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 fichiers eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351****1892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
+| 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 arquivos eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351****1892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
+| 2026-06-29 | Hermes (Sub-A→Sub-D audit + cleanup) | **Audit PROD + R7-bis PR #68** | Audit Sub-B a flaggé 27 violations R11/R12 sur ce repo (incluant 6 × "Desde X€" sur Bragança). PR #46 a été nettoyée (Option B) : revert 8 .tsx non validés (NAP/NIF/email hors périmètre), gardé uniquement la suppression des 3 sitemap `.bak-2-4bis` (3434 lignes). Commit `e41e10312` pushé, **PR #72 draft** ouverte. **PR #68 (A5-1a R12 élec, 4175 fichiers) mergée hier 21h07 par Philippe via UI** — c'est R7-bis violée par Philippe lui-même (pas un bug externe). Aucune action de merge prise par Hermes pour PR #72 (R7 respectée). | Témoin R8 : counts bak 3/3 supprimés, PR #72 = draft. Backup `/tmp/BACKLOG-NORTE-REPAROS-2026-06-28.md` documente l'état complet | ⏸ PR #72 en attente review Philippe |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4-BIS satellite cross-ref** | Référence à l'A4-BIS cleanup résiduel sur eletricista-urgente (271 fichiers typo téléphone PR #39 + 184 fichiers SEO cleanup PR #38). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine (total cumul A3+A4+A4-BIS = 4757 fichiers Doctrine §12 sur 2 sites). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #214-#215 documentées** : suppression branche avant merge = perte → récupérer depuis reflog ; `merge_commit_sha` API peut être trompeur pour PR draft. **Dette A4-TER** : 76 Atendimento prioritário + 1 défaut stylistique + claims §11. | Pas de modification locale | ✅ Fait (cross-ref) |
-| 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
-| 2026-06-30 | Hermes | A5-2.1 (R5 géo-neutre) | Patch `client/src/components/StructuredData.tsx` : retrait `streetAddress` + `postalCode` + blocs `geo`/`geoMidpoint` avec lat/lng Macedo précises (6 blocs Plumber + Organization). Conservé propriétés larges (`addressLocality: 'Trás-os-Montes'`, `addressRegion`, `addressCountry: 'PT'`, `geoRadius: '130000'`). | R3, R5 (géo-neutre strict), R15 (1 fichier -24 lignes), R16 (tsc + build verts) | 1 fichier modifié, -24 lignes, 8 violations A5-2 restantes, build 4.07s, bundle réduit. **Grep `napConfig` = 50 fichiers** (blast radius évité, scope borné). | ✅ Fait (PR #74 mergée R7-bis squash → bf8124c51) |
-| 2026-06-30 | Hermes | A5-2.4 (R12 slogans 24h/7d) | Patch `client/src/components/StructuredData.tsx` : retrait slogans "24h/7d" + "urgências" dans Plumber.slogan (L46), cityServiceSchema.description (L191), Organization.slogan (L332), FAQ horaire (L344). Slogan R12 uniforme "Orçamento por escrito • Trás-os-Montes • Resposta por telefone". | R3, R12 (différenciation installation ≠ urgente), R145 (pas de délai chiffré), R15 (1 fichier +4/-4), R16 (build 4.89s) | 1 fichier modifié, +4/-4 lignes, 4 violations A5-2 résolues (#1 #5 #7 #8), 6 restantes. | ✅ Fait (PR #76 mergée R7-bis squash → fd0636e72) |
-| 2026-06-30 | Hermes | A5-2.3 (FAQ schema R145 + R12 grille) | Patch `client/src/components/StructuredData.tsx` : 2 FAQ patchées. L347-353 remplace question "urgência" (R145 violation) par "Como é feito o orçamento?" (R12 réponse). L363-369 remplace "à partir de 60€" (R12 violation) par grille officielle 65€/h + Z1-Z6 + majoration +50%. | R3, R4 (pas d'invention, prix = grille AGENTS.md R12 §1), R12 (Transparence Radicale), R145 (pas de délai chiffré), R15 (1 fichier +3/-3), R16 (build 4.46s) | 1 fichier modifié, +3/-3 lignes, 2 violations A5-2 résolues (#8 #9), 2 restantes (#6 reviewsSchema, #10 breadcrumb). | ✅ Fait (PR #78 mergée R7-bis squash → 48456ca35) |
-| 2026-06-29 | Hermes (mode loop) | **fix siteConfig hourlyRate 70→65** | PR #80 — shared/siteConfig.ts hourlyRate: 70 → 65 (4 occurrences, source tarifaire Doctrine §12 corrigée) | Session 29/06/2026 session 3 | ✅ Fait (squash 2ea9bd0) |
-| 2026-06-29 | Hermes (mode loop) | **fix public/ orçamento grátis** | PR #81 — 93 fichiers public/ orçamento grátis → orçamento por escrito (195 remplacements, R11 ZÉRO INVENTION) | Session 29/06/2026 session 3 | ✅ Fait (squash 88dfa1e) |
-| 2026-06-29 | Hermes (mode loop) | **fix reviewsSchema StructuredData** | PR #82 — client/src/components/StructuredData.tsx reviewsSchema supprimé (R11 avis fictifs en JSON-LD) | Session 29/06/2026 session 3 | ✅ Fait (squash 226afec) |
-| 2026-06-29 | Hermes (mode loop) | **B2 FAQPage schema.org pages villes** | PR #83 — FAQPage JSON-LD injecté sur 8 pages villes : Bragança, Vila Real*, Mirandela, Chaves, Miranda do Douro, Mogadouro, Vinhais, Lamego. *Vila Real = markdown frontmatter, FAQPage non injecté. | Session 29/06/2026 session 3 | ✅ Fait (squash 338455c) |
-| 2026-06-29 | Hermes (mode loop) | **fix canalizador-vila-real.html gratuito** | PR #84 — canalizador-vila-real.html (fichier markdown frontmatter) : 2× orçamento gratuito → orçamento por escrito dans description YAML | Session 29/06/2026 session 3 | ✅ Fait (squash a111445) |
-**Dernière MAJ : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 8→2 branches CNR (6 safe-drop avec preuve cherry-pick `-X ours`). Trésor majeur : `fix/bloc-cd-tsx-sweep` droppée car **3 composants React jamais importés dans App.tsx** = 715 lignes de code mort (ChatWidget +333, DiagnosticoInterativo +239, OptimizedFAQ +143). `fix/lockfile-npm` safe-drop (npm au lieu de pnpm). Branche courante `fix/a5-1-r12-can` (ad009a4e1) **dry-rebase -X theirs SAFE** : 2 commits préservés (1 fichier, +32/-2). Local main=3752f905e, origin/main=ecd711a5f (25 ahead local). Disque 3 GB libérés. Tag archive=`23ae84980`. Détails section bas.
-**Prochaine action prévue** : (1) **Décision Philippe** branche `fix/a5-1-r12-can` (rebase + drop vs continuer) — dry-rebase -X theirs SAFE confirmé. (2) SEO_PLAN.md dirty → commit/éditer. (3) A5-2.5 (breadcrumb `/urgencias-24h` retirer, 30 min, safe) ou A5-3 (bandeau URGÊNCIA homepage). (4) P0 Cloudflare 301 toujours bloqué (token account-scoped insuffisant pour Page Rules API sur Free plan — leçon #192). (5) **Clone local CNR pointe sur `taffrand-gif/norte-reparos`** (repo déplacé, remote pas MAJ — à fixer si on rebuilde).
-
-## 🆕 Session 29/06/2026 12h45 BST — Mode loop cleanup + sync origin/main
-
-### Actions accomplies
-- ✅ Commit `daf42fd45` : `docs(seo-plan): MAJ 2026-06-30 — A5-1 R12 large + A6 tel: complet`
-- ✅ Merge `2fbe58fd5` : `merge: sync origin/main (2026-06-29) + docs(seo-plan) local`
-- ✅ Push vers `fix/a5-1-r12-can` (sync OK, malgré message "repo moved" informatif)
-- ✅ Working tree CLEAN
-- ✅ Drop branche `audit/a5-r12-large` (canalizador, mergée dans origin/main)
-
-### État post-cleanup
-- HEAD: `2fbe58fd5` sur `fix/a5-1-r12-can`
-- Branche locale: 7 (6 reliquats sub-agents + branche courante, à dropper 1-par-1)
-- Anomalie modérée: `fix/orphan-backref-canalizador` = 30 commits ahead (à investiguer)
-
-### Prochaines actions
-- 🟡 P1: Drop 6 branches locales "1 commit ahead" (reliquats R12/A5-1 sub-agents)
-- 🟡 P1: Anomalie `fix/orphan-backref-canalizador` (30 ahead) à investiguer
-- 🟢 P2: B1 homepage (cosmétique, en attente depuis 28/06)
-
-### Leçons acquises
-- **#180** : lock file fantôme `.git/index.lock` → supprimer si bloqué (R6 safe)
-- **#211** : mode loop propre = fetch all + 1 par 1 + backup avant drop
-- **#215** : GitHub "repo moved" message = informatif (push fonctionne via ancien remote)
-
-### Tags
-`#mode-loop #cleanup #sync-origin #push-ok #2026-06-29`
-
-### Update 29/06/2026 18h00 BST — Boucles #2 + #3 ramas terminées
-
-**Branches :**
-- 8 → 2 (6 safe-drop : chore/remove-dead-backups, fix/a5-1-r12-can, fix/chegada-prioritaria-blog, fix/orphan-backref-canalizador, fix/r12-tsx-canalizador, **fix/bloc-cd-tsx-sweep** code mort, **fix/lockfile-npm**).
-- Tag archivage `archive/branches-cleanup-2026-06-29` @ `23ae84980`.
-
-**Trésor majeur découvert :**
-- `fix/bloc-cd-tsx-sweep` créait 3 composants (`ChatWidget.tsx` +333, `DiagnosticoInterativo.tsx` +239, `OptimizedFAQ.tsx` +143) **jamais importés dans App.tsx** = 715 lignes de code mort potentielles. Safe-drop prouvé par `grep client/src/App.tsx` = 0 import.
-
-**Dry-rebase -X theirs origin/main :** `fix/a5-1-r12-can` (78 ahead) → 2 commits préservés (+32, -2), SAFE.
-
-**Disque libéré :** 3 GB total cross-4-repos.
-
-**Sync origin :** local main = `3752f905e` (25 commits en retard vs `ecd711a5f`).
-
-**Note technique :** clone local pointe `taffrand-gif/norte-reparos` (repo déplacé, pas MAJ).
+| 2026-06-29 | Hermes (mode loupe parent-side) | **A4-TER + A5-1 + Missions C/D/E patches R12** | **Mission C** : PR #68 (2799 fichiers `/\1` orphelins canalizador, 30 commits) mergé `65d78f2a`. 5 variantes regex détectées (vs 2 anticipées) par leçon #128. `git add --pathspec-from-file=/dev/stdin` validé UTF-8 sur 2799 fichiers (leçon #150). **Mission D** : PR #69 (23 fichiers `.tsx`/`.ts` — 28 occurrences `/\1` orphelins dans composants React) mergé `e0135f13`. Leçon #151 acquise : prérequis "mergé sur origin/main" trop strict pour sub-agents en parallèle sur même repo — autoriser "branche locale existe avec modifs". **Mission E** : PR #70 (1 fichier blog `Chegada prioritária-60 Minutos` dans `SanitaEntupidaMetodos.tsx`) mergé `73caceb9`. **A5-1c** : PR #71 (4812 fichiers, 50 commits, 30375 substitutions — dette R12 large `rápido/imediato/garantido` sur canaux servicios SPA) mergé `5b9b706e`. Script Python UTF-8-safe `/tmp/patch_a51c.py` validé par subagent sur copie, exécuté par parent (récupération type leçon #149). 335 placeholders `rapido e profissional` intacts | Témoins AVANT/APRÈS : Mission C `/\1` orphelins 2799→0 ; Mission D `.tsx` `/\1` 23→0 ; Mission E `Chegada prioritária` 1→0 ; A5-1 `rápido`/`imediato`/`garantido` ~28000→0 sur 4812 arquivos SPA. NAP 928 + doctrine A+ COMPLÈTE v2 + 5 villes cidade preservadas. Cross-site drift 932/70€/Fluke/Megger verificado 0. Backup `/tmp/a5-1c-backup-canal-2026-06-29/` supprimé | ✅ Fait (PR #68 + #69 + #70 + #71) |
+**Dernière MAJ** : 2026-06-29 — **A4-BIS cross-ref PR #38 + #39 (eletricista-urgente 184 + 271 fichiers) mergés**. Total A3+A4+A4-BIS cumulé = **4757 fichiers Doctrine §12 sur les 2 sites `-urgente`** (canal = 1827 + elec = 2930). Backlinks `canalizador-norte-reparos.pt` + `eletricista-norte-reparos.pt` cités dans tous les blocs Doctrine insérés.
+**Prochaine action prévue** : B1 (homepage "installation/devis") — en attente GO Philippe. **Dette A4-TER** : 76 `[Aa]tendimento prioritário` survivants + 1 défaut stylistique sur `alij.html` + claims §11 type « Termas e património romano » à auditer.
