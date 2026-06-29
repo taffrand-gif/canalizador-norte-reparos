@@ -70,6 +70,16 @@ const Moucos = lazy(() => import("@/pages/cidades/Moucos"));
 const Pinhao = lazy(() => import("@/pages/cidades/Pinhao"));
 const Salzedas = lazy(() => import("@/pages/cidades/Salzedas"));
 const Cumieira = lazy(() => import("@/pages/cidades/Cumieira"));
+const Britiande = lazy(() => import("@/pages/cidades/Britiande"));
+const Cambres = lazy(() => import("@/pages/cidades/Cambres"));
+const Cedovim = lazy(() => import("@/pages/cidades/Cedovim"));
+const Favaios = lazy(() => import("@/pages/cidades/Favaios"));
+const Trevoes = lazy(() => import("@/pages/cidades/Trevoes"));
+const Valdigem = lazy(() => import("@/pages/cidades/Valdigem"));
+const AguiarBeira = lazy(() => import("@/pages/cidades/AguiarBeira"));
+const Cerva = lazy(() => import("@/pages/cidades/Cerva"));
+const Tarouca = lazy(() => import("@/pages/cidades/Tarouca"));
+const Lalim = lazy(() => import("@/pages/cidades/Lalim"));
 const BlogIndex = lazy(() => import("@/pages/blog/BlogIndex"));
 const ComoDesentupirLavaLoica = lazy(() => import("@/pages/blog/ComoDesentupirLavaLoica"));
 const EvitarFugasAguaPrevencao = lazy(() => import("@/pages/blog/EvitarFugasAguaPrevencao"));
@@ -170,6 +180,17 @@ function Router() {
  <Route path={"/canalizador-pinhao"} component={Pinhao} />
  <Route path={"/canalizador-salzedas"} component={Salzedas} />
  <Route path={"/canalizador-cumieira"} component={Cumieira} />
+ {/* Cidades Lot 2 — 2026-06-29 */}
+ <Route path={"/canalizador-britiande"} component={Britiande} />
+ <Route path={"/canalizador-cambres"} component={Cambres} />
+ <Route path={"/canalizador-cedovim"} component={Cedovim} />
+ <Route path={"/canalizador-favaios"} component={Favaios} />
+ <Route path={"/canalizador-trevoes"} component={Trevoes} />
+ <Route path={"/canalizador-valdigem"} component={Valdigem} />
+ <Route path={"/canalizador-aguiar-da-beira"} component={AguiarBeira} />
+ <Route path={"/canalizador-cerva"} component={Cerva} />
+ <Route path={"/canalizador-tarouca"} component={Tarouca} />
+ <Route path={"/canalizador-lalim"} component={Lalim} />
  <Route path={"/blog"} component={BlogIndex} />
  <Route path={"/blog/como-desentupir-lava-loica-passos"} component={ComoDesentupirLavaLoica} />
  <Route path={"/blog/evitar-fugas-agua-prevencao"} component={EvitarFugasAguaPrevencao} />
