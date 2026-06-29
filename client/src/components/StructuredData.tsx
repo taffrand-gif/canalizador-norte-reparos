@@ -52,25 +52,13 @@ export default function StructuredData() {
  "logo": `https://${config.domain}/logo.png`,
  "address": {
  "@type": "PostalAddress",
- "streetAddress": businessInfo.baseAddress.streetAddress,
  "addressLocality": businessInfo.baseAddress.addressLocality,
  "addressRegion": businessInfo.baseAddress.addressRegion,
- "postalCode": businessInfo.baseAddress.postalCode,
  "addressCountry": businessInfo.baseAddress.addressCountry
- },
- "geo": {
- "@type": "GeoCoordinates",
- "latitude": "41.5362124",
- "longitude": "-6.9560267"
  },
  "areaServed": [
  {
  "@type": "GeoCircle",
- "geoMidpoint": {
- "@type": "GeoCoordinates",
- "latitude": "41.5362124",
- "longitude": "-6.9560267"
- },
  "geoRadius": "130000"
  },
  {
@@ -105,11 +93,6 @@ export default function StructuredData() {
  "hasMap": `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(businessInfo.baseAddress.addressLocality + ', Portugal')}`,
  "serviceArea": {
  "@type": "GeoCircle",
- "geoMidpoint": {
- "@type": "GeoCoordinates",
- "latitude": "41.5362124",
- "longitude": "-6.9560267"
- },
  "geoRadius": "130000"
  },
  "makesOffer": config.services.map(service => ({
@@ -295,16 +278,9 @@ export default function StructuredData() {
  "foundingDate": config.company.yearEstablished,
  "address": {
  "@type": "PostalAddress",
- "streetAddress": businessInfo.baseAddress.streetAddress,
  "addressLocality": businessInfo.baseAddress.addressLocality,
  "addressRegion": businessInfo.baseAddress.addressRegion,
- "postalCode": businessInfo.baseAddress.postalCode,
  "addressCountry": businessInfo.baseAddress.addressCountry
- },
- "geo": {
- "@type": "GeoCoordinates",
- "latitude": "41.5362124",
- "longitude": "-6.9560267"
  },
  "areaServed": {
  "@type": "AdministrativeArea",
