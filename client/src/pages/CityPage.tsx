@@ -62,10 +62,13 @@ export default function CityPage() {
  <>
  <Header />
 {/* Hero Section with Image */}
+ {/* M8 activation : CSS image-set() webp + jpg fallback (reversible). */}
  <section className="relative bg-gray-900 py-20">
- <div 
+ <div
  className="absolute inset-0 bg-cover bg-center opacity-40"
- style={{ backgroundImage: `url(${heroImage})` }}
+ style={{
+ backgroundImage: `image-set(url(${heroImage.replace(/\.jpg$/i, '.webp')}) type("image/webp"), url(${heroImage}) type("image/jpeg"))`,
+ }}
  />
  <div className="relative container">
  <div className="max-w-4xl mx-auto text-center text-white">

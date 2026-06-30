@@ -111,7 +111,8 @@ export default function OptimizedImage({
  />
  )}
  <img
- src={hasError ? '/images/placeholder.svg' : webpSrc}
+ {/* M8 activation : fallback src = original (jpg/png), webp servi via <source>. Reversible. */}
+ src={hasError ? '/images/placeholder.svg' : src}
  alt={alt}
  style={imgStyle}
  loading={priority ? 'eager' : 'lazy'}
