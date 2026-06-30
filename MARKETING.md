@@ -10,13 +10,13 @@
 Propriétaire avec **projet planifié** (rénovation salle de bain, remplacement chauffe-eau, installation neuve). Décision **sur jours/semaines**, compare les artisans. Cherche confiance + devis clair, pas le moins cher. Peur : devis qui dérape + chantier bâclé/inachevé.
 
 ## Spine — positionnement (Purple Cow / Godin)
-Différenciateur = artisan local **transparent et fiable** dans un marché de devis flous. Permission marketing (Godin) : capturer le contact pour la relation longue (contrat manutenção), pas vendre fort une fois.
+Différenciateur = équipe locale **transparente et fiable** (Norte Reparos) dans un marché de devis flous. Permission marketing (Godin) : capturer le contact pour la relation longue (contrat manutenção), pas vendre fort une fois.
 
 ## Value Equation (Hormozi) — quel levier pousser
 - **Dream Outcome** : chantier propre, fini dans les temps, sans mauvaise surprise.
-- **Perceived Likelihood ↑ ← LEVIER GAGNANT** : orçamento por escrito détaillé, Filipe Bragança identifiable, garantia mão de obra + materiais, fatura NIF + seguro RC.
+- **Perceived Likelihood ↑ ← LEVIER GAGNANT** : orçamento por escrito détaillé, responsable identifiable (Filipe Bragança) présenté en « a nossa equipa », garantia mão de obra + materiais, fatura NIF + seguro RC.
 - **Time Delay** : peu pertinent ici (intention planifiée). Ne PAS promettre de délai (R145 reste valable).
-- **Effort ↓** : « tratamos do projeto do início ao fim », interlocuteur unique.
+- **Effort ↓** : « tratamos do projeto do início ao fim », continuité (mesmo interlocutor de « a nossa equipa »).
 
 ## Construction de hook (Suby / Kennedy)
 Patron : **[peur du dépassement/bâclé] → [retournement transparence + garantie]**.
@@ -35,4 +35,4 @@ Tél **928 484 451** + WhatsApp + formulaire orçamento. Demande de devis = acti
 Devis travaux → chantier → satisfaction → (futur) avis RÉEL + contrat manutenção recorrente. Récupère aussi le trafic urgence du satellite.
 
 ## Garde-fous (rappel — détail dans AGENTS.md)
-R11 zéro invention (0 avis/chantier inventé — section témoignages = « a recolher as primeiras avaliações ») · transparence prix/devis · R145 zéro délai chiffré · géo-neutre · services interdits (clima/PAC/solaire/VE) · différencier de `canalizador-urgente.pt` (intention) · **STOP : pas de batch sans validation ; jamais merger `main` sans GO Philippe**.
+R11 zéro invention (0 avis/chantier inventé — section témoignages = « a recolher as primeiras avaliações ») · transparence prix/devis · R145 zéro délai chiffré · géo-neutre · **pronom client « nós / a nossa equipa / os nossos técnicos » ; JAMAIS « je / sozinho / entreprise individuelle / contacto pessoal » (bloc identité verrouillé 30/06)** · services interdits (clima/PAC/solaire/VE) · différencier de `canalizador-urgente.pt` (intention) · **STOP : pas de batch sans validation ; jamais merger `main` sans GO Philippe**.
