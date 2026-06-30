@@ -27,7 +27,12 @@ const personalizedSubtitle = useMemo(() => {
  id="home"
  className="relative min-h-[600px] flex items-center justify-center bg-gray-900"
  >
- {/* Hero image with fetchpriority for LCP optimization */}
+ {/* M8 activation : <picture> avec source WebP + fallback JPG (reversible). */}
+ <picture>
+ <source
+ type="image/webp"
+ srcSet={`${config.hero.backgroundImage.replace(/\.jpg$/i, '.webp')} 1x`}
+ />
  <img
  src={config.hero.backgroundImage}
  alt="Canalizador profissional a trabalhar em Trás-os-Montes"
@@ -35,6 +40,7 @@ const personalizedSubtitle = useMemo(() => {
  className="absolute inset-0 w-full h-full object-cover"
  style={{ filter: 'brightness(0.35)' }}
  />
+ </picture>
  <div className="container py-20 text-center text-white relative z-10">
  {/* Services Slider */}
  <div className="mb-12">
