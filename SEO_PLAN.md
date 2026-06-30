@@ -59,6 +59,7 @@
 | 6 | `client/src/components/Testimonials.tsx`, `EmergencyTestimonials.tsx`, `blog/...` | Fichiers "témoignages" partout | À vérifier un par un | ~30 pages |
 | 7 | `client/src/pages/Equipa.tsx`, `Certificacoes.tsx` | Pages entières potentiellement concernées | À auditer | 2 pages |
 | 8 | `client/src/data/testimonialsData.ts` | Source secondaire de témoignages | À vérifier | Multiples |
+| 2026-06-30 21:56 | Hermes (sub-agent M5-purge) + reprise locale (R7 STOP) | Purge R11 ACTIVE | branch feat/M5-purge-fake-reviews | 8 fichiers patchés | placeholder honnête + WA CTA + NAP | R11 + leçons #272/273 | PR #106 en attente STOP validation Philippe |
 
 ### Risques
 

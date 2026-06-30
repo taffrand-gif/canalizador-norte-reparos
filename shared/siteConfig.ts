@@ -189,13 +189,8 @@ export const siteConfig: SiteConfig = {
 
  // Testimonials for Testimonials component
  testimonials: [
- { id: '1', name: 'António Santos', location: 'Bragança', service: 'Desentupimento', rating: 5, text: 'Resolveu o entupimento rapidamente. Profissional e eficiente.' },
- { id: '2', name: 'Maria Ferreira', location: 'Mirandela', service: 'Arranjo Fuga', rating: 5, text: 'Fuga de água resolvida no mesmo dia. Muito satisfeito.' },
- { id: '3', name: 'João Costa', location: 'Vila Real', service: 'Esquentador', rating: 5, text: 'Instalou o esquentador novo. Trabalho limpo e preço justo.' },
- { id: '4', name: 'Rosa Marques', location: 'Chaves', service: 'Canalização', rating: 5, text: 'Profissional confiável. Já recorri várias vezes.' },
- { id: '5', name: 'Pedro Almeida', location: 'Trás-os-Montes', service: 'Urgência', rating: 5, text: 'Cano rebentou à meia-noite e veio rapidamente. Excelente serviço.' },
- { id: '6', name: 'Ana Rodrigues', location: 'Valpaços', service: 'Manutenção', rating: 5, text: 'Manutenção preventiva bem feita. Recomendo.' },
- ],
+ // R11 ZÉRO INVENTION — témoignages fictifs purgés 2026-07-01 (voir M5-AUDIT-AVIS-REELS-2026-07-01.md)
+ ] as Array<{ id: string; name: string; location: string; service: string; rating: number; text: string }>,
 
  // Real stories for RealStories component
  stories: [

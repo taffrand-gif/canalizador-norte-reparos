@@ -122,62 +122,7 @@ export default function SanitaEntupida() {
  <EmergencyTestimonials
  title="Já Desentupimos Milhares de Sanitas"
  subtitle="Clientes satisfeitos que recuperaram a paz de espírito."
- testimonials={[
- {
- name: 'Sofia Martins',
- city: 'Bragança',
- problem: 'Sanita entupida',
- solution: 'Sábado à tarde, visitas a chegar em algumas horas, sanita entupida. Pânico! Chegaram A confirmar, resolveram em 20. Salvaram o meu jantar!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Ricardo Sousa',
- city: 'Mirandela',
- problem: 'Entupimento grave',
- solution: 'Sanita entupida há 2 dias. Outros canalizadores não conseguiram. Estes vieram com equipamento profissional e resolveram. Top!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Carla Fernandes',
- city: 'Chaves',
- problem: 'Sanita a transbordar',
- solution: 'Água a transbordar, pânico total. Atenderam logo, chegaram rápido, desentupirão sem sujar nada. Muito profissionais e simpáticos.',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Paulo Dias',
- city: 'Vila Real',
- problem: 'Entupimento recorrente',
- solution: 'Sanita entupia toda a semana. Descobriram o problema real (raízes no cano). Resolveram definitivamente. Nunca mais entupiu!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Inês Ribeiro',
- city: 'Trás-os-Montes',
- problem: 'Sanita entupida noite',
- solution: 'Meia-noite, sanita entupida, bebé em casa. Atenderam, vieram na hora. Discretos, rápidos, eficientes. Muito obrigada!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Tiago Lopes',
- city: 'Mogadouro',
- problem: 'Entupimento urgente',
- solution: 'Domingo de manhã, casa cheia de família, sanita entupida. Vieram A confirmar, resolveram sem stress. Preço justo. Recomendo!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- }
- ]}
+ testimonials={[]}
  />
  <GuaranteeBox
  title="Garantias Que Dão Tranquilidade"

@@ -130,62 +130,7 @@ export default function FugaAguaUrgente() {
  <EmergencyTestimonials
  title="Já Ajudámos Centenas em Situações Urgentes"
  subtitle="Pessoas reais, problemas reais, soluções reais. Leia o que dizem."
- testimonials={[
- {
- name: 'Maria Silva',
- city: 'Bragança',
- problem: 'Fuga de água urgente',
- solution: 'Às 23h rebentou um cano na cozinha. Liguei em pânico. Chegaram A confirmar, pararam a fuga e arranjaram tudo. Salvaram a minha casa!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'João Pereira',
- city: 'Mirandela',
- problem: 'Fuga no autoclismo',
- solution: 'Conta de água subiu €200. Descobriram fuga escondida no autoclismo. Arranjaram no mesmo dia. Profissionais top!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Ana Costa',
- city: 'Chaves',
- problem: 'Cano rebentado',
- solution: 'Domingo de manhã, cano rebentado na casa de banho. Atenderam logo, chegaram rápido. Resolveram tudo antes do almoço. Muito obrigada!',
- timeframe: '1h30',
- rating: 5,
- verified: true
- },
- {
- name: 'Técnico Rodrigues',
- city: 'Vila Real',
- problem: 'Fuga na parede',
- solution: 'Parede húmida há semanas. Usaram câmara térmica, encontraram a fuga escondida. Arranjaram sem partir tudo. Excelente trabalho.',
- timeframe: '2 horas',
- rating: 5,
- verified: true
- },
- {
- name: 'Cliente Alves',
- city: 'Trás-os-Montes',
- problem: 'Fuga urgente noturna',
- solution: 'Meia-noite, água a correr pela escada. Pânico total. Chegaram A confirmar! Pararam a fuga, salvaram os móveis. Heróis!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Técnico Santos',
- city: 'Mogadouro',
- problem: 'Fuga no esquentador',
- solution: 'Esquentador a pingar, chão inundado. Vieram no mesmo dia, substituíram peça, testaram tudo. Preço justo, serviço 5 estrelas.',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- }
- ]}
+ testimonials={[]}
  />
  <GuaranteeBox
  title="Garantias Que Dão Paz de Espírito"
