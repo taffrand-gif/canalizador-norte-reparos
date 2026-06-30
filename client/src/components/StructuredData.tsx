@@ -390,7 +390,6 @@ export default function StructuredData() {
  } else if (location !== '/') {
  // Para todas as outras páginas
  const pageTitles: Record<string, string> = {
- '/urgencias-24h': 'Urgências 24h',
  '/simulador-preco': 'Simulador de Preço',
  '/servicos-restauracao': 'Serviços para Restauração',
  '/servicos-hotelaria': 'Serviços para Hotelaria',
