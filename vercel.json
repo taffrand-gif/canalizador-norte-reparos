@@ -2195,6 +2195,11 @@
       "source": "/blog/blog-deteccao-fugas-agua-profissional",
       "destination": "/blog/blog-deteccao-fugas-agua-profissional",
       "statusCode": 410
+    },
+    {
+      "source": "/carregadores-viaturas-eletricas",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
