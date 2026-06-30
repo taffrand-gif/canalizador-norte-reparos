@@ -773,3 +773,34 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#264** : 1627 pages avec violations R11+R145 découvertes en vérifiant mon propre travail
 - **#265** : page `canalizador-braganca.html` a 6 violations R concurrentes (template de M2-exec)
 - **#266** : script M5-NETTOYAGE a 95 fichiers avec duplication texte résiduelle
+
+---
+
+## 🔍 Session 2026-06-30 — Audit workspace (Filipe + Claude)
+
+> Audit des 4 repos du workspace `norte-os-sites`. Deux findings P0 sur CNR. Mission Hermes ci-dessous.
+
+### 🔴 Finding #1 (P0 — risque perte de travail) : 3822 fichiers NON COMMITÉS
+
+`git status` = **3822 fichiers `client/public/*.html` modifiés, non commités, sur aucune branche.** Ce sont les fichiers d'un find-replace de masse (purge claims FAQ schema, ex. suppression de la phrase dupliquée « garantimos atenção mediante confirmação por telefone »).
+
+**Deux problèmes :**
+1. Travail non sauvegardé → un `git checkout` = perte des 3822 fichiers.
+2. **Find-replace bâclé** : laisse des fragments cassés. Exemples relevés :
+   - Question name garbled : `« Atendem urgencias Atendimento mediante confirmação por telefone — ligue 928... »`
+   - Phrase dangling : `« Emitimos fichas eletrotécnicas em conformidade com a, através de... »` (le « com a, » ne pointe nulle part).
+
+**Mission Hermes — M8a** : 🛑 STOP avant commit. Décider avec Filipe : (a) corriger les fragments cassés puis commit propre sur branche dédiée `fix/faq-schema-cleanup-2026-06-30`, ou (b) jeter (`git checkout`) si le diff n'est pas fiable. NE PAS commit en l'état (R3/R8). Script de correction des fragments : cibler `Atendimento mediante confirmação` dans les `name` de FAQPage + `em conformidade com a,` dangling.
+
+### 🟡 Finding #2 (P0 trust) : résidus services FAUX
+
+0 page dédiée (conforme), mais ~186 mentions `carregador elétric` + 10 `painéis solares` + 3 `ar condicionado` en body / index-blog dans `client/public/`. La plupart = liste d'articles blog (`painéis solares, carregadores VE. Todos os artigos…`) → à vérifier au cas par cas.
+
+**Mission Hermes — M8b** : classer (claim de service → purger ; lien blog éducatif / index → garder), puis purger les claims. Cf [[norte-reparos-verites]].
+
+### 🟡 Finding #3 : `.vercel/` local absent
+
+CNR est le seul des 4 repos sans `.vercel/project.json` local (lien projet Vercel manquant). À relier (`vercel link`) pour cohérence outillage. P1.
+
+### État réel
+- Branche `main`, repo ~1 Go (bloat à investiguer P3), 13 branches locales mortes à nettoyer.
