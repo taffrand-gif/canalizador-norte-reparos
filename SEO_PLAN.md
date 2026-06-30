@@ -733,7 +733,6 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 
 - Re-tenter merge #90 CNR après 24h (rate-limit Vercel reset) ou après up plan Vercel
 - Fixer le remote CNR local (`git remote set-url origin https://github.com/taffrand-gif/canalizador-norte-reparos.git`)
-
 #fin loop #7
 
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
@@ -748,6 +747,7 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 | 2026-07-01 | Hermes | cleanup .bak | Archive + suppression 1765 fichiers .bak Claude Code legacy (29 MB récupérés) | 1765 fichiers vers ~/Archives/enr-bak-pre-cleanup-2026-07-01/ | 1765 fichiers, 29 MB libérés | ✅ Fait |
 | 2026-07-01 | Hermes (sub-agent) | loop PR #90 | PR [loop] A5-2.5 retrait breadcrumb mergée : 1 commit, 4 fichiers +156/-52 | PR #90 MERGED sur origin/main | PR #90 MERGED | ✅ Fait |
 | 2026-07-01 | Hermes | PR #91 CONFLICTING | PR A5-2.5 breadcrumb loop conflict, R3 STOP validation Filipe nécessaire (rebase manuel) | Bloqué | Bloqué - R3 STOP | 🛑 STOP - attente Filipe |
+| **2026-06-30 12:50 UTC** | **Hermes (mode loop batch — GO global)** | **M1 body purge #97 MERGE + PR #91 rebase+merge** | PR #97 MERGED `6ea609943` (6 fichiers CNR M1). PR #91 loop rebasée via cherry-pick atomique sur main post-#97 — conflit SEO_PLAN.md résolu (les 2 entrées HISTORIQUE conservées : sessions 01/07 + b437c766b). | R9 12/12 ✅ triple audit, R6 safe force loop, R8 témoins | 2 commits cherry-pick (fix + docs), rebase clean | **✅ Fait — PR #91 mergée** |
 
 ### État actuel post-session
 
@@ -757,10 +757,10 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **Cleanup .bak** : ✅ FAIT. 1765 fichiers .bak archivés, 29 MB libérés.
 - **NAP** : 928 484 451 plomberie (cohérent partout).
 - **PRs mergées aujourd'hui** : #92, #93, #94 + #90 (loop).
+- **M1 + PR #91 batch 30/06** : ✅ Fait (#97, #91).
 
 ### Prochaines actions
 
-- 🛑 **PR #91** (CONFLICTING) : R3 STOP — rebase manuel nécessaire avant merge.
 - 🛑 **M2-exec prototype Bragança** : réécrire `canalizador-braganca.html` avec angles distincts vs CU urgente (Doctrine §12 différenciation intent). Page actuelle a 6 violations R concurrentes (Leçon #265).
 - 🛑 **Faux négatif PR #80** côté ENR : `carregadores-viaturas-eletricas.html` non purgée (à traiter en mission dédiée).
 - 🟡 **M6 (P3 hub-and-spoke)** : après M2-exec, audit maillage local.
@@ -776,3 +776,8 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#264** : 1627 pages avec violations R11+R145 découvertes en vérifiant mon propre travail
 - **#265** : page `canalizador-braganca.html` a 6 violations R concurrentes (template de M2-exec)
 - **#266** : script M5-NETTOYAGE a 95 fichiers avec duplication texte résiduelle
+- **#271 (30/06)** : cherry-pick atomique > rebase interactif pour conflits SEO_PLAN.md — rebase interactive a écrasé 88 lignes historiques, cherry-pick préserve mieux l'intention.
+- **#272 (30/06)** : mode loop batch GO global = max 3 agents simultanés + actions réversibles systématiques + preuves git log.
+#fin loop #6
+
+| 2026-06-30 | claude-sonnet-4-6 (loop auto) | A5-2.5 (breadcrumb R12) | Retrait clé `/urgencias-24h` dans pageTitles du BreadcrumbList schema.org (StructuredData.tsx L393). Site installation ≠ site urgence (R12). | R12 (Transparence Radicale), R8 (grep avant/après) | 1 fichier modifié, -1 ligne. Grep avant: 1 occurrence, grep après: 0. | ✅ Fait (PR #91 mergée) |
