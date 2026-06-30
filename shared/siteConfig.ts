@@ -104,8 +104,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
  id: 'norte-reparos',
  name: 'Canalizador Profissional',
- title: 'Canalizador em Trás-os-Montes | Norte Reparos — Serviço ao Domicílio 24h',
- description: 'Canalizador profissional ao seu domicílio em Trás-os-Montes. Fugas de água, desentupimentos, urgências 24h. Orçamento gratuito. Ligue 928 484 451.',
+ title: 'Canalizador para instalação e remodelação em Trás-os-Montes | Norte Reparos',
+ description: 'Canalizador para instalação e remodelação em Trás-os-Montes. Orçamento por escrito em 48h, garantia 1 ano. Bragança, Vila Real, Mirandela, Chaves.',
  phone: '928 484 451',
  whatsapp: '351928484451',
  whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
@@ -120,8 +120,8 @@ export const siteConfig: SiteConfig = {
  },
 
  hero: {
- title: 'Água a Pingar? Cano Rebentado?',
- subtitle: 'Serviço ao domicílio em Trás-os-Montes — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
+ title: 'Canalizador para instalação e remodelação — Trás-os-Montes',
+ subtitle: 'Instalação, remodelação e projetos ao seu domicílio. Orçamento por escrito em 48h, garantia 1 ano.',
  backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
  ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg'
  },

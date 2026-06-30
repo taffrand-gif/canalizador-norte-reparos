@@ -270,7 +270,7 @@ Voir : `~/work/Sites/canalizador-urgente/SEO_PLAN.md`
 
 ### 🟧 B1 — Homepage "installation/devis/méthode" (S3)
 
-**Statut** : ⏳ À FAIRE
+**Statut** : ✅ FAIT (PR loop/2026-06-29-canalizador-b1-homepage-h1, 29/06/2026)
 **Priorité** : HAUTE
 **Effort** : ~2h
 **Risque** : MOYEN (toucher à la homepage, beaucoup de fichiers liés)
@@ -587,6 +587,7 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 2026-06-29 | Hermes (mode loop) | **fix reviewsSchema StructuredData** | PR #82 — client/src/components/StructuredData.tsx reviewsSchema supprimé (R11 avis fictifs en JSON-LD) | Session 29/06/2026 session 3 | ✅ Fait (squash 226afec) |
 | 2026-06-29 | Hermes (mode loop) | **B2 FAQPage schema.org pages villes** | PR #83 — FAQPage JSON-LD injecté sur 8 pages villes : Bragança, Vila Real*, Mirandela, Chaves, Miranda do Douro, Mogadouro, Vinhais, Lamego. *Vila Real = markdown frontmatter, FAQPage non injecté. | Session 29/06/2026 session 3 | ✅ Fait (squash 338455c) |
 | 2026-06-29 | Hermes (mode loop) | **fix canalizador-vila-real.html gratuito** | PR #84 — canalizador-vila-real.html (fichier markdown frontmatter) : 2× orçamento gratuito → orçamento por escrito dans description YAML | Session 29/06/2026 session 3 | ✅ Fait (squash a111445) |
+| 2026-06-29 | cowork-loop | **B1 homepage H1 + R12 cleanup** | 2 fichiers, 2 commits : (1) `shared/siteConfig.ts` — hero.title "Água a Pingar?" → "Canalizador para instalação e remodelação — Trás-os-Montes", hero.subtitle et site title/description retrait 24h/7d (R12). (2) `client/src/components/Hero.tsx` — personalizedSubtitle "24h/7d" → "Instalação e remodelação ao seu domicílio em {city}. Orçamento por escrito, garantia 1 ano." Grep avant: 24h/7d = 2 occurrences. Grep après: 0 occurrences. Branch: loop/2026-06-29-canalizador-b1-homepage-h1 | R12 (différenciation installation≠urgente), R4 (zéro invention), R8 (témoins 2→0) | ⏳ PR ouverte — attente merge Philippe |
 **Dernière MAJ : 2026-06-30 18h00 BST — **Loops Hermes ramas #2+#3 terminées** : 8→2 branches CNR (6 safe-drop avec preuve cherry-pick `-X ours`). Trésor majeur : `fix/bloc-cd-tsx-sweep` droppée car **3 composants React jamais importés dans App.tsx** = 715 lignes de code mort (ChatWidget +333, DiagnosticoInterativo +239, OptimizedFAQ +143). `fix/lockfile-npm` safe-drop (npm au lieu de pnpm). Branche courante `fix/a5-1-r12-can` (ad009a4e1) **dry-rebase -X theirs SAFE** : 2 commits préservés (1 fichier, +32/-2). Local main=3752f905e, origin/main=ecd711a5f (25 ahead local). Disque 3 GB libérés. Tag archive=`23ae84980`. Détails section bas.
 **Prochaine action prévue** : (1) **Décision Philippe** branche `fix/a5-1-r12-can` (rebase + drop vs continuer) — dry-rebase -X theirs SAFE confirmé. (2) SEO_PLAN.md dirty → commit/éditer. (3) A5-2.5 (breadcrumb `/urgencias-24h` retirer, 30 min, safe) ou A5-3 (bandeau URGÊNCIA homepage). (4) P0 Cloudflare 301 toujours bloqué (token account-scoped insuffisant pour Page Rules API sur Free plan — leçon #192). (5) **Clone local CNR pointe sur `taffrand-gif/norte-reparos`** (repo déplacé, remote pas MAJ — à fixer si on rebuilde).
  (docs(seo-plan): MAJ 2026-06-30 18h00 BST — loops Hermes #2+#3 ramas terminées)
