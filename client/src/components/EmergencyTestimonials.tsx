@@ -33,6 +33,23 @@ function EmergencyTestimonials({
  {subtitle}
  </p>
  </div>
+ {/* R11 ZÉRO INVENTION — témoignages fictifs purgés 2026-07-01. Si vide, on affiche un placeholder honnête. */}
+ {testimonials.length === 0 ? (
+ <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl border border-gray-200 text-center">
+ <h3 className="text-2xl font-bold text-gray-900 mb-3">
+ Ainda estamos a recolher os primeiros testemunhos verificados
+ </h3>
+ <p className="text-gray-600 mb-4 leading-relaxed">
+ A nossa equipa intervém em situações urgentes em toda a região de Trás-os-Montes.
+ Só publicamos avaliações depois de obtida confirmação por WhatsApp com o cliente.
+ </p>
+ <p className="text-sm text-gray-500">
+ Prefere falar diretamente connosco? Contacte via WhatsApp — descrevemos-lhe a
+ intervenção mais adequada ao seu caso.
+ </p>
+ </div>
+ ) : (
+ <>
  {/* Testimonials Grid */}
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
  {testimonials.map((testimonial, index) => (
@@ -101,22 +118,8 @@ function EmergencyTestimonials({
  </div>
  ))}
  </div>
- {/* Trust Footer */}
- <div className="mt-12 text-center">
- <div className="inline-flex items-center gap-3 bg-white px-8 py-4 rounded-full border-2 border-gray-200">
- <div className="flex items-center gap-1">
- <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
- <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
- <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
- <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
- <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
- </div>
- <div className="text-left">
- <div className="font-black text-2xl text-gray-900"></div>
- <div className="text-sm text-gray-600">feedback verificado de clientes</div>
- </div>
- </div>
- </div>
+ </>
+ )}
  </div>
  </section>
  );

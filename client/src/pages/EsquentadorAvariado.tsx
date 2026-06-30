@@ -122,62 +122,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  <EmergencyTestimonials
  title="Já Devolvemos Água Quente a Milhares"
  subtitle="Famílias que recuperaram o conforto no mesmo dia."
- testimonials={[
- {
- name: 'Sandra Oliveira',
- city: 'Bragança',
- problem: 'Esquentador não acende',
- solution: 'Esquentador não acendia há 3 dias. Banhos frios horríveis. Vieram, descobriram que era a pilha e um sensor. Arranjaram Atendimento rápido. Água quente de volta!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Miguel Teixeira',
- city: 'Mirandela',
- problem: 'Água não aquece',
- solution: 'Água saía morna, nunca quente. Substituíram a membrana e limparam o queimador. Agora funciona perfeitamente. Preço justo!',
- timeframe: '1h30',
- rating: 5,
- verified: true
- },
- {
- name: 'Cristina Lopes',
- city: 'Chaves',
- problem: 'Esquentador com fuga',
- solution: 'Esquentador a pingar água. Medo de estragar tudo. Vieram rápido, substituíram vedantes, testaram. Problema resolvido. Muito profissionais!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Rui Fernandes',
- city: 'Vila Real',
- problem: 'Esquentador antigo',
- solution: 'Esquentador com 15 anos, sempre a avariar. Aconselharam substituir. Instalaram novo em algumas horas. Água quente perfeita. Vale cada cêntimo!',
- timeframe: '3 horas',
- rating: 5,
- verified: true
- },
- {
- name: 'Paula Marques',
- city: 'Trás-os-Montes',
- problem: 'Sem água quente urgente',
- solution: 'Inverno rigoroso, esquentador avariou. Família toda sem banho. Vieram no mesmo dia, arranjaram. Salvaram o nosso inverno!',
- timeframe: '2 horas',
- rating: 5,
- verified: true
- },
- {
- name: 'Vítor Sousa',
- city: 'Mogadouro',
- problem: 'Esquentador faz barulho',
- solution: 'Esquentador fazia barulho estranho, cheiro a gás. Preocupado com segurança. Vieram, limparam, ajustaram. Funciona silencioso agora. Top!',
- timeframe: '1h30',
- rating: 5,
- verified: true
- }
- ]}
+ testimonials={[]}
  />
  <GuaranteeBox
  title="Garantias de Conforto"

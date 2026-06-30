@@ -122,62 +122,7 @@ export default function CanoRebentado() {
  <EmergencyTestimonials
  title="Já Parámos Centenas de Inundações"
  subtitle="Famílias que salvaram as suas casas graças à nossa rapidez."
- testimonials={[
- {
- name: 'António Ferreira',
- city: 'Bragança',
- problem: 'Cano rebentado',
- solution: 'Cano rebentou na cozinha às 7h da manhã. Água a jorrar! Liguei em pânico. Chegaram A confirmar, pararam a água, salvaram a cozinha. Heróis!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Cliente Gomes',
- city: 'Mirandela',
- problem: 'Inundação urgente',
- solution: 'Cano rebentou na parede. Casa a inundar, móveis a flutuar. Chegaram rapidíssimo, pararam tudo, arranjaram no mesmo dia. Salvaram a minha casa!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Técnico Silva',
- city: 'Chaves',
- problem: 'Cano rebentado inverno',
- solution: 'Inverno rigoroso, cano rebentou com o gelo. Água a jorrar pela garagem. Vieram rapidamente, resolveram tudo. Profissionais top!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Mariana Costa',
- city: 'Vila Real',
- problem: 'Cano rebentado noite',
- solution: 'Meia-noite, cano rebentou no teto. Água a cair na sala. Pânico total! Atenderam logo, chegaram rápido, pararam a catástrofe. Muito obrigada!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Técnico Rodrigues',
- city: 'Trás-os-Montes',
- problem: 'Inundação grave',
- solution: 'Cano principal rebentou. Casa toda a inundar. Chegaram em tempo recorde, pararam a água, substituíram o cano. Trabalho impecável!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Beatriz Santos',
- city: 'Mogadouro',
- problem: 'Cano rebentado urgente',
- solution: 'Domingo de manhã, cano rebentou na casa de banho. Água por todo o lado. Vieram mediante confirmação, resolveram tudo. Preço justo. 5 estrelas!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- }
- ]}
+ testimonials={[]}
  />
  <GuaranteeBox
  title="Garantias de Emergência"

@@ -122,62 +122,7 @@ export default function CheiroMauCanalizacao() {
  <EmergencyTestimonials
  title="Já Eliminámos Cheiros em Centenas de Casas"
  subtitle="Famílias que recuperaram o conforto e dignidade."
- testimonials={[
- {
- name: 'Cliente Pires',
- city: 'Bragança',
- problem: 'Cheiro mau casa de banho',
- solution: 'Cheiro horrível há semanas. Tentei tudo, nada funcionou. Descobriram que o sifão estava seco. Encheram, explicaram. Cheiro desapareceu! Simples assim.',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Armando Costa',
- city: 'Mirandela',
- problem: 'Cheiro a esgoto',
- solution: 'Cheiro a esgoto insuportável na cozinha. Descobriram entupimento parcial no cano. Limparam profundamente. Casa voltou ao normal. Obrigado!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Fátima Alves',
- city: 'Chaves',
- problem: 'Cheiro mau persistente',
- solution: 'Cheiro mau há meses. Outros canalizadores não resolveram. Estes descobriram falta de ventilação. Instalaram válvula. Problema resolvido definitivamente!',
- timeframe: '1h30',
- rating: 5,
- verified: true
- },
- {
- name: 'Joaquim Ribeiro',
- city: 'Vila Real',
- problem: 'Cheiro mau cozinha',
- solution: 'Cheiro horrível vinha do lava-louça. Descobriram acumulação de gordura nos canos. Limparam tudo com máquina. Cheiro desapareceu. Top!',
- timeframe: '1 hora',
- rating: 5,
- verified: true
- },
- {
- name: 'Rosa Santos',
- city: 'Trás-os-Montes',
- problem: 'Cheiro insuportável',
- solution: 'Não conseguia receber visitas. Vergonha total. Vieram, encontraram o problema (sifão partido), substituíram. Casa cheira bem agora. Muito obrigada!',
- timeframe: 'A confirmar',
- rating: 5,
- verified: true
- },
- {
- name: 'Alberto Mendes',
- city: 'Mogadouro',
- problem: 'Cheiro mau esgoto',
- solution: 'Cheiro a esgoto na garagem. Descobriram que era fossa séptica cheia. Limparam, resolveram. Serviço rápido e eficiente. Recomendo!',
- timeframe: '2 horas',
- rating: 5,
- verified: true
- }
- ]}
+ testimonials={[]}
  />
  <GuaranteeBox
  title="Garantias de Eliminação"
