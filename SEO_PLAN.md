@@ -688,4 +688,36 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Merger branche Vague 2 SEO CNR (1 commit avec 3 commits intégrés)
 - Décision critique : merger ou non le patch App.tsx (`~/Documents/ObsidianVault/NORTE-OS/routes_patch_proposed_2026-06-27.txt`) qui rendrait visibles les 30 pages SEO via nav. Sans ce patch, les pages sont accessibles par URL mais invisibles depuis le menu/nav.
 
-#fin loop #6
+## 🆕 Session 01/07/2026 18h00 BST — PR #90 [loop] B1 prête (Vercel rate-limited)
+
+### Actions accomplies
+
+- ✅ **PR #90 validée** : `[loop] canalizador — B1 Homepage H1 + R12 cleanup` (https://github.com/taffrand-gif/canalizador-norte-reparos/pull/90)
+  - **Statut GitHub** : OPEN, mergeable MERGEABLE, pas draft, CI rate-limited Vercel
+  - **Fichiers** : `shared/siteConfig.ts` (title/description/hero.title/hero.subtitle), `client/src/components/Hero.tsx` (personalizedSubtitle), `SEO_PLAN.md` (B1 statut ✅ + ligne HISTORIQUE)
+  - **Diff** : 3 fichiers, +7/-6
+  - **Verdict R-multi** : R4 (zéro invention), R11 (pas de délais/chiffres inventés), R12 (retrait "24h/7d. Sem surpresas" + "Serviço ao Domicílio 24h" + "urgências 24h. Orçamento gratuito" → installation-focused), NAP 928 484 451 maintenu
+  - **Témoins R8** : grep AVANT `24h/7d`=2, APRÈS=0 ✅
+  - **Hero.title** : "Água a Pingar? Cano Rebentado?" → "Canalizador para instalação e remodelação — Trás-os-Montes" ✅
+  - **Différenciation vs -urgente** : OK (installation vs urgence)
+
+- 🟡 **Bloqueur** : Vercel rate-limit (Free plan). Retry dans 24h après 29/06 20h48 UTC = 30/06 20h48 UTC minimum. OU up Vercel plan.
+
+### État final post-session
+
+- **main** : 5a1e6731e8 (sessions #5+#6 stables) — en attente push après merge #90
+- **4/4 SEO_PLAN.md** présents, branches main synchros origin/main
+- **PRs ouvertes** : #90 CNR (cette PR), 2 autres sur CU/EU (#67, #64) — toutes rate-limited
+- **PR #77 ENR mergée** (loop #7 sur ce même fichier ENR) — référence pour le pattern
+
+### Leçons acquises session 01/07
+
+- **#251** (cross-référence) : Vercel Free plan a un rate-limit de déploiements/jour. Si 4 PRs `[loop]` sont poussées le même jour, 3 seront rate-limited. À espacer les pushes (1 PR / heure minimum) ou échelonner sur 2 jours.
+- **#252** : Le clone local CNR pointe sur `taffrand-gif/norte-reparos` (repo déplacé, remote pas MAJ) — déjà flag dans loop #6, à fixer si on rebuilde.
+
+### Prochaines actions (décisions Philippe)
+
+- Re-tenter merge #90 CNR après 24h (rate-limit Vercel reset) ou après up plan Vercel
+- Fixer le remote CNR local (`git remote set-url origin https://github.com/taffrand-gif/canalizador-norte-reparos.git`)
+
+#fin loop #7
