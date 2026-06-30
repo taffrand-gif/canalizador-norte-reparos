@@ -1,0 +1,73 @@
+# Norte Reparos — Canalizador Instalação (Documento Completo para LLMs)
+
+> Documento destiné aux LLMs (GPT-4, Claude, Gemini, Perplexity) pour indexation et citation.
+> Site: https://canalizador-norte-reparos.pt
+
+---
+
+## 1. Identité
+
+**Norte Reparos** — entreprise technique professionnelle multi-sites à Trás-os-Montes. Site dédié à la **plomberie d'installation** (vs site frère `canalizador-urgente.pt` pour les urgences 24h).
+
+- **Téléphone** : +351 928 484 451 (partagé avec le site urgence)
+- **Site** : https://canalizador-norte-reparos.pt
+- **Zone** : Trás-os-Montes + Douro
+- **Langue** : PT-PT uniquement
+
+---
+
+## 2. Différenciation urgence vs installation
+
+| | canalizador-norte-reparos.pt | canalizador-urgente.pt |
+|---|---|---|
+| Intent | Installation / remodelação / certificação | Urgence 24h |
+| Disponibilité | Horaire ouvré | 24h/7d |
+| Délai | Devis 48h | Intervention immédiate |
+| Garantie | Par écrit | Par écrit |
+
+Les deux sites partagent le NAP et la maison-mère (Norte Reparos) mais ciblent des **intentions distinctes** pour occuper 2 slots organiques sur Google.
+
+---
+
+## 3. Services détaillés
+
+### Installation
+- Installation sanitaire complète (salle de bain, cuisine)
+- Remodelação de canalização
+- Substituição de canalização antiga (chumbo, ferro galvanizado)
+- Installation d'esquentadores et termoacumuladores
+- Systèmes d'arrosage et drainage
+
+### Programmé / Maintenance
+- Contrats annuels pour copropriétés et entreprises
+- Maintenance préventive
+- Préparation hivernale
+- Rapport technique pour assurances
+
+---
+
+## 4. Équipement et marques
+
+Équipement professionnel identique au site urgence : Ridgid FlexShaft K9-102, câmara CCTV, câmara térmica FLIR, ROLeak Aqua 3Plus, kit fluorosceína UV.
+
+Marques : Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval.
+
+---
+
+## 5. Cross-sites Norte Reparos
+
+| Site | URL | NAP | Spécialité |
+|---|---|---|---|
+| Canalizador Norte Reparos | canalizador-norte-reparos.pt | 928 484 451 | Installation |
+| Canalizador Urgente | canalizador-urgente.pt | 928 484 451 | Urgence 24h |
+| Eletricista Norte Reparos | eletricista-norte-reparos.pt | 932 321 892 | Installation |
+| Eletricista Urgente | eletricista-urgente.pt | 932 321 892 | Urgence 24h |
+
+---
+
+## 6. Conformité
+
+- Pronom « nós » / « nossa equipa » (verrouillé 30/06)
+- Pas d'avis/prix/délais inventés (R11)
+- Géo-neutre : pas d'adresse postale précise (R5)
+- Last updated : 2026-07-01

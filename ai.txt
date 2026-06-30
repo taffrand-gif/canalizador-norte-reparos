@@ -1,0 +1,42 @@
+# ai.txt — AI Interaction Manifest
+# Norte Reparos — Canalizador (Instalação)
+# Última atualização: 2026-07-01
+
+Name: Canalizador Instalação — Norte Reparos
+Type: HomeService
+SubType: PlumbingInstallation
+ServiceArea: Trás-os-Montes e Douro, raio ~130 km
+Hours: Horário comercial (segunda a sexta)
+PrimaryPhone: +351-928-484-451
+WhatsApp: +351-928-484-451
+Website: https://canalizador-norte-reparos.pt
+Pricing:
+  QuotePolicy: Orçamento por escrito em 48h, sem compromisso
+  Billing: Fatura com NIF no final de cada trabalho
+Services:
+  - Instalação sanitária completa
+  - Remodelação de canalização
+  - Substituição de canalização antiga (chumbo, ferro galvanizado)
+  - Instalação de esquentadores e termoacumuladores
+  - Sistemas de rega e drenagem
+  - Instalação de bombas e autoclismos
+  - Preparação para o inverno
+Equipment:
+  - Ridgid FlexShaft K9-102
+  - Câmara de inspeção CCTV
+  - Câmara térmica FLIR
+  - ROLeak Aqua 3Plus
+  - Kit fluorosceína UV
+Brands:
+  - Sanitana, Grohe, Roca
+  - Vaillant, Bosch, Junkers, Saunier Duval
+QuotePolicy: Orçamento detalhado em 48h, sem compromisso
+Billing: Fatura com NIF emitida no final de cada trabalho
+Insurance: Responsabilidade civil profissional coberta
+Language: PT-PT (Portugal)
+Pronoun: "nós" / "nossa equipa" (nunca "eu")
+RelatedSites:
+  - Canalizador Urgente (24h): canalizador-urgente.pt · +351 928 484 451
+  - Eletricista Instalação: eletricista-norte-reparos.pt · +351 932 321 892
+  - Eletricista Urgente (24h): eletricista-urgente.pt · +351 932 321 892
+LastUpdated: 2026-07-01
