@@ -689,3 +689,5 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Décision critique : merger ou non le patch App.tsx (`~/Documents/ObsidianVault/NORTE-OS/routes_patch_proposed_2026-06-27.txt`) qui rendrait visibles les 30 pages SEO via nav. Sans ce patch, les pages sont accessibles par URL mais invisibles depuis le menu/nav.
 
 #fin loop #6
+
+| 2026-06-30 | claude-sonnet-4-6 (loop auto) | A5-2.5 (breadcrumb R12) | Retrait clé `/urgencias-24h` dans pageTitles du BreadcrumbList schema.org (StructuredData.tsx L393). Site installation ≠ site urgence (R12). | R12 (Transparence Radicale), R8 (grep avant/après) | 1 fichier modifié, -1 ligne. Grep avant: 1 occurrence, grep après: 0. | ⏳ En cours — PR à ouvrir |
