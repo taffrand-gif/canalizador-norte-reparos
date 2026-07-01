@@ -884,3 +884,42 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - 🟡 **Cluster « fabrication marcas »** : review résiduelle sur d'autres pages EU/CU (cf. PR #86 fermée, PR #88 V2 propre).
 - 🟢 **Push SEO_PLAN** : ce commit est local-only (NE PAS PUSH tant que Philippe n'a pas donné GO final).
 #fin session 03/07 massive close
+
+## 🆕 Session 04/07 00h BST — P1 régression + P2 cleanup + 3 merges
+
+| DATE | AGENT | TÂCHE | ACTION | JUSTIFICATION | RÉSULTAT | STATUT |
+|------|-------|-------|--------|---------------|----------|--------|
+| 2026-07-04 | hermes-mini | P1 | Audit `git log --follow client/public/programa-fidelidade.html` | Cause : PR #110 (`chore(faux): purge complète services non fournis`) avait réintroduit programa-fidelidade.html via commit `7c1fb4aec` ("CONTENT EXPANSION: ... fidelidade ...") APRÈS que PR #117 l'ait supprimé en `a98905ffe` | Cause identifiée, scope délimité à 2 fichiers + vercel.json | ✅ Fait |
+| 2026-07-04 | hermes-mini | P1 | `git rm client/public/programa-fidelidade.html` + `case-study-fuga-braganca.html` + `.bak` orphelin | R12 Pattern A promo explicite ("5% OFF / desconto acumulável até 25%") + R11 case-study fabrication | 3 fichiers supprimés, vercel.json +3 redirects 301 vers `/` (le 4e existait déjà) | ✅ Fait |
+| 2026-07-04 | hermes-mini | P1 | Sub-agent dispatch `fix/cnr-regression-programa-fidelidade-case-study` | Leçon #294 (worktree obligatoire), R8 (témoins md5), R7 (PR draft) | PR #126 créée, merge SHA `b07a247c8e`, vercel.json JSON valide, robots.txt md5 inchangé | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | §9.3 bulk loop : drop 4 branches stale (`docs/seo-plan-maj-*`, `fix/r12-desde-euro-chiffre-batch`) | Toutes tree-identical après rebase → safe-drop | 4 branches droppées, branche sub-agent P1 conservée temporairement | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | Purge 3152 `.bak` orphelins (CNR, hors `_archive/`) | R6 respectée (7 fichiers `_archive/*.bak` conservés) | 0 .bak résiduels hors _archive | ✅ Fait |
+| 2026-07-04 | hermes-mini | P2 | Purge worktree orphelin `/private/tmp/cnr-desde` (branche `fix/r12-desde-euro-chiffre-batch`) | Leçon #190-bis worktree-deletion trap, worktree déjà detached | Worktree `cnr-desde` supprimé, prune OK | ✅ Fait |
+| 2026-07-04 | hermes-mini | go-merge | R7-bis delegation activée par "GO merge tout" (Philippe 00h) | Leçon #188 R7-bis Philippe-unlocked delegation | PR #126 CNR mergée via REST API + GraphQL mark-ready | ✅ Fait |
+| 2026-07-04 | hermes-mini | post-merge | Empty commit `chore: trigger Vercel deploy post-merge` + push | Leçon #145/#283 Vercel Free 100/jour rate-limit, plan B nudge webhook | Push OK SHA `a66a77d54`, mais webhook Vercel DOWN (rate-limit) | 🟡 Vercel à reset minuit UTC |
+| 2026-07-04 | hermes-mini | diagnostic | 4 hits `canalizador com experiência` sur EU mais pré-existants (leçon #316, comparaison main vs PR) | Pré-merge check 6d du pre-merge-checklist skill | False alarm, hits = sur main = safe | ✅ Fait |
+
+### Leçons codées cette session (#319-#326)
+
+- **#322** : mon brief P1 surévaluait "4 redirects" alors que `/programa-fidelidade` (sans .html) existait DÉJÀ dans vercel.json. Toujours spot-check 5 fichiers avant de quantifier dans brief sub-agent.
+- **#324** : pattern merge R7-bis validé — REST API pour PUT merge + GraphQL pour `markPullRequestReadyForReview` (REST ne supporte pas `draft:false`).
+- **#325** : leçon #160 + #283 confirmées — webhook Vercel DOWN post-squash merge. Plan B empty commit nudge ne réveille PAS systématiquement. Reset quota minuit UTC nécessaire.
+
+### État post-session 04/07 (CNR)
+
+- **PR mergée cette session** : #126 (régression 2 fichiers + 3 redirects 301).
+- **Prod encore en 200** sur `/programa-fidelidade.html` — Vercel n'a pas déployé (rate-limit). Attendu : 301 → `/` après reset quota.
+- **Branches ahead de main** : 1 (worktree sub-agent cleanup fait).
+- **0 stash** | 1 worktree (main) | 0 `.bak` orphelin hors `_archive/`.
+- **4 repos synchronisés sur main** (CNR/ENR/EU/CU).
+
+### Prochaines actions (P0/P1 batch 4 à programmer)
+
+- 🟡 **Vérification prod post-Vercel-deploy** : `curl -I /programa-fidelidade.html` doit retourner 301 après reset quota.
+- 🛑 **CNR `Testimonials.tsx`** : JSON-LD `Review`/`AggregateRating`/`reviewBody` conditionnel sur `siteConfig.testimonials` — vérifier si DB contient données non-vérifiées (R11).
+- 🛑 **CNR `BandwagonEffect.tsx` + `LikingTechnician.tsx`** : dark-patterns Cialdini (psychological tricks) — à supprimer (R11+R9).
+- 🛑 **CNR `Testemunhos.tsx`** : utilise `trpc.reviews.list.useQuery()` — auditer DB.
+- 🟡 **Sitemap cleanup** : `/avaliacoes-clientes` présent sur CNR → vérifier si page encore servie (404 sinon).
+- 🟡 **CNR `UrgenciaFugaAgua.tsx` + `DesentupirSanitaUrgente.tsx`** : sections Testimonials inline (lignes 235+) à inspecter.
+- 🟡 **Investigations stash EU orphelins** : `wip-fix-marcas-parallel-agent-20260701` + `UNRELATED-pre-existing-changes-by-parallel-agents-1782918321` — possible vrai travail non committé.
+- 🟢 **Push SEO_PLAN** : ce commit est local-only (NE PAS PUSH tant que Philippe n'a pas donné GO final).
