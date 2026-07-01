@@ -297,7 +297,6 @@ Em Trás-os-Montes, onde água é dura (calcário) e invernos rigorosos (-5°C),
 ### Melhor Para
 
 ✅ Água quente e fria 
-✅ Aquecimento piso radiante 
 ✅ Renovações (passa por espaços) 
 ✅ Zonas frias (resistente gelo) 
 ✅ Instalação rápida 
