@@ -772,6 +772,7 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#286** : "M1 strict vs M2 élargi" — brief liste 6-8 fichiers mais audit large en trouve 110+. Stratégie smart = MERGE M1 immédiat + M2 = purge ciblée (Pattern A vs B) + M3 = cleanup final. Anti-pattern = 1 mega-PR (scope creep, fatigue sub-agent).
 - **#287 (codage)** : "Pattern A vs B" distinction = retirer FAUX promotionnel déguisé, garder anti-funnel "Não instalamos X, contacte..." = signal SEO positif (clarifie scope).
 - **#290 (2026-07-02)** : "Re-grip réconcilié post-merge" (leçon #267 appliquée) — après M1+M2+M3 mergées, scan exhaustif a détecté 6 fichiers Pattern A résiduels (3 CNR + 3 EU). M4-fin-residuel a patché 3 (CNR mapa-do-site/termos-condicoes JSON-LD FAQPage, EU calculadora option VE). 3 autres hits grep = contextes légitimes (Pattern B anti-funnel, guides théoriques, doc interne cross-site) = GARDÉS.
+- **#291 (2026-07-02)** : "Gisement M5 ENR" — 588 occurrences Pattern A sur 121 fichiers ENR détectées par audit large. M5 = script Python batch avec whitelist Pattern B + DGEG. Top : indice-a-z-p7 (159), blog/index.html (29), shared/blogArticles.ts (14), ~100 content/blog/*.md. **M5-purge-final EXÉCUTÉ** (PR #101 MERGÉE) : 48 fichiers modifiés, 270+ occurrences Pattern A retirées (vs 588 estimés), 6+ Pattern B/DGEG PROTÉGÉES. Leçon #292 "Scope regex limité" : 588 estimés → 270 effectives, reste ~100 content/blog/*.md = gisement M6 optionnel.
 #fin loop #8
 
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
