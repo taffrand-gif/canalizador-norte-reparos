@@ -2225,6 +2225,21 @@
       "source": "/programa-fidelidade",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/programa-fidelidade.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-study-fuga-braganca",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-study-fuga-braganca.html",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
