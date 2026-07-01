@@ -6,6 +6,8 @@ city: "Macedo de Cavaleiros"
 summary: "A nossa base. Resposta em minutos, não em horas. Para qualquer problema elétrico em Macedo e arredores."
 ---
 
+<!-- Doc interne cross-site : énumère services Norte Reparos tous sites. Pas une page service client. -->
+
 # Eletricista Macedo de Cavaleiros — Sede Norte Reparos
 
 A nossa base. Resposta em minutos, não em horas. Para qualquer problema elétrico em Macedo e arredores.
