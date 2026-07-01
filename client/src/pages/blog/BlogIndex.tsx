@@ -131,7 +131,7 @@ const BlogIndex: React.FC = () => {
  {
  slug: 'sistema-aquecimento-agua-melhor-opcao',
  title: 'Sistema de Aquecimento de Água: Melhor Opção 2026',
- excerpt: 'Comparação de sistemas de aquecimento de água: esquentador, caldeira, bomba de calor, solar. Custos e eficiência.',
+ excerpt: 'Comparação de sistemas de aquecimento de água: esquentador, caldeira mural e alternativas eficientes. Custos, consumo e qual escolher em 2026.',
  category: 'Aquecimento',
  readTime: '12',
  date: '19 Fev 2026',
