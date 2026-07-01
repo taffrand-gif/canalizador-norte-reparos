@@ -474,19 +474,19 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
  <a href="/canalizador-braganca" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
  <span className="font-semibold text-blue-700">Bragança</span>
- <p className="text-sm text-gray-600 mt-1">Preços desde 45€</p>
+ <p className="text-sm text-gray-600 mt-1">Preços sob orçamento</p>
  </a>
  <a href="/canalizador-mirandela" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
  <span className="font-semibold text-blue-700">Mirandela</span>
- <p className="text-sm text-gray-600 mt-1">Preços desde 50€</p>
+ <p className="text-sm text-gray-600 mt-1">Preços sob orçamento</p>
  </a>
  <a href="/canalizador-chaves" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
  <span className="font-semibold text-blue-700">Chaves</span>
- <p className="text-sm text-gray-600 mt-1">Preços desde 55€</p>
+ <p className="text-sm text-gray-600 mt-1">Preços sob orçamento</p>
  </a>
  <a href="/canalizador-macedo-cavaleiros" className="bg-white p-4 rounded-xl text-center hover:shadow-md transition-shadow">
  <span className="font-semibold text-blue-700">Trás-os-Montes</span>
- <p className="text-sm text-gray-600 mt-1">Preços desde 50€</p>
+ <p className="text-sm text-gray-600 mt-1">Preços sob orçamento</p>
  </a>
  </div>
  </div>

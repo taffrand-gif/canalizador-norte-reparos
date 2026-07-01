@@ -121,7 +121,7 @@ export default function TransparencePrix() {
  <>
  <SEOHead
  title={`Transparência de Preços - Um canalizador profissional de Trás-os-Montes que Publica os Seus Preços | ${config.name}`}
- description="Somos Um canalizador profissional em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo desde 35€, instalação sanitários desde 120€. Garantia satisfeito ou reembolsado."
+ description="Somos Um canalizador profissional em Trás-os-Montes com preços 100% transparentes publicados online. Veja todos os nossos preços, sem surpresas, sem letra pequena. Pequena arranjo sob orçamento, instalação sanitários sob orçamento. Garantia satisfeito ou reembolsado."
  />
  <Header />
  <main>

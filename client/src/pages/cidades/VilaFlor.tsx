@@ -148,7 +148,7 @@ export default function VilaFlor() {
  WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
  desentupimentos profundos. Resolução garantida.
  </p>
- <p className="text-blue-600 font-bold mt-3">desde 90€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -158,7 +158,7 @@ export default function VilaFlor() {
  Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
- <p className="text-blue-600 font-bold mt-3">desde 90€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -168,7 +168,7 @@ export default function VilaFlor() {
  Instalação e reparação de esquentadores a gás. Substituição de termostatos
  e termopares. Certificação profissional.
  </p>
- <p className="text-blue-600 font-bold mt-3">desde 90€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -178,7 +178,7 @@ export default function VilaFlor() {
  Instalação completa de canalizações novas. Tubagem em PPR, conexões
  estanhadas, válvulas de corte. Garantia 12 meses.
  </p>
- <p className="text-blue-600 font-bold mt-3">desde 90€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  </div>
  </div>

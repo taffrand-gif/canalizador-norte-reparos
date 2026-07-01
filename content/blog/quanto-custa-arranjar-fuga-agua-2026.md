@@ -13,7 +13,7 @@ keywords: ["quanto custa arranjar fuga água", "preço reparar torneira", "fuga 
 
 # Quanto Custa Arranjar Fuga Água 2026: Preços Reais
 
-Fuga de água pode custar desde 40€ (vedante torneira) até 500€+ (rotura canalização enterrada). Este guia completo explica preços reais 2026 para todos os tipos de fugas em Trás-os-Montes.
+Fuga de água pode custar sob orçamento (vedante torneira) até 500€+ (rotura canalização enterrada). Este guia completo explica preços reais 2026 para todos os tipos de fugas em Trás-os-Montes.
 
 ## Tabela Resumo Preços 2026
 
