@@ -771,6 +771,7 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - **#285** : "Silent partial completion" — sub-agents modifs disque sans commit final. Recovery = `git status` + finir git workflow parent-side (~5 min vs redispatcher ~15 min). Inverse du pattern #266 : parent fait MÉCANIQUE (commit+push+PR+merge), sub-agent fait INTELLECTUEL (script+test).
 - **#286** : "M1 strict vs M2 élargi" — brief liste 6-8 fichiers mais audit large en trouve 110+. Stratégie smart = MERGE M1 immédiat + M2 = purge ciblée (Pattern A vs B) + M3 = cleanup final. Anti-pattern = 1 mega-PR (scope creep, fatigue sub-agent).
 - **#287 (codage)** : "Pattern A vs B" distinction = retirer FAUX promotionnel déguisé, garder anti-funnel "Não instalamos X, contacte..." = signal SEO positif (clarifie scope).
+- **#290 (2026-07-02)** : "Re-grip réconcilié post-merge" (leçon #267 appliquée) — après M1+M2+M3 mergées, scan exhaustif a détecté 6 fichiers Pattern A résiduels (3 CNR + 3 EU). M4-fin-residuel a patché 3 (CNR mapa-do-site/termos-condicoes JSON-LD FAQPage, EU calculadora option VE). 3 autres hits grep = contextes légitimes (Pattern B anti-funnel, guides théoriques, doc interne cross-site) = GARDÉS.
 #fin loop #8
 
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
