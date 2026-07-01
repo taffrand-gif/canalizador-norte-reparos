@@ -11,7 +11,7 @@
 **NAP** : +351 928 484 451 | Norte Reparos | Trás-os-Montes
 **Doctrine site** : A+ COMPLÈTE v2 (déjà déployée 28/06/2026)
 **AGENTS.md** : verrouillé 14/06/2026 — lire `AGENTS.md` AVANT toute action
-**Dernière MAJ** : 2026-07-02 — **Session 03/07 reprise+go : SEO_PLAN sync cross-sites, 0 PR ouvert sur CNR**. Cross-sites : 14 PRs loop OUVERTES sur CU/EU (#87-#96, ~2500 fichiers R12 INTERDIT cleanés). Sites installation (CNR/ENR) : 0 PR ouvert cette session (SEO_PLAN déjà synchronisé 02/07 via PRs #108 #109). Gisement restant CNR : client/public+dist/public regénération build (~25k hits R12) + SEO duplicate content. Sites prod HTTP 200. Leçons #307-#311 codées.
+**Dernière MAJ** : 2026-07-02 21h45 BST — **✅ SESSION 03/07 CLOSE : 0 PR ouvert sur CNR (SEO_PLAN sync #124 mergée) + 14 PRs loop R12 cleanup sur CU/EU toutes mergées** (squash, --delete-branch). CNR/ENR = sites installation, 0 PR ouvert cette session (SEO_PLAN synchronisé 02/07 via PRs #108 #109 CNR, #95 #96 ENR). Cross-sites : ~2500 fichiers R12 INTERDIT cleanés sur CU/EU. Sites prod HTTP 200. Leçons #307-#311 codées. **Gisement restant CNR** : client/public+dist/public regénération build (~25k hits R12) + SEO duplicate content. **Prochain chat** : reprendre sur gisement CNR/ENR.
 
 ---
 
