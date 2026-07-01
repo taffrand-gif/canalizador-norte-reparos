@@ -126,3 +126,4 @@ tache2-1-*.py
 audit-2-1-*.py
 audit-r12-r145.py
 .env*
+.hermes/
