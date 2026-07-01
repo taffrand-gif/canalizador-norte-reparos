@@ -297,7 +297,7 @@ Contador DN15 (diâmetro 15mm) limita o caudal. Casa grande precisa DN20 ou DN25
 | Substituir redutor de pressão | €80-180 |
 | Urgência mediante confirmação por telefone | +€50-80 |
 
-> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendimento mediante confirmação por telefone, orçamento grátis.
+> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendemos 24h/7 dias, mediante confirmação por telefone, orçamento grátis.
 
 ## 🔍 Como Diagnosticar o Problema
 
