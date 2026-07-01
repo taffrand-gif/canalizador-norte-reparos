@@ -481,10 +481,6 @@ export default function PoupancaEnergiaInverno() {
  <h3 className="font-bold text-orange-500 mb-1">Iluminação Exterior LED</h3>
  <p className="text-sm text-gray-600">Guia completo de iluminação exterior eficiente.</p>
  </a>
- <a href="/blog/paineis-solares-tras-os-montes-guia" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
- <h3 className="font-bold text-orange-500 mb-1">Painéis Solares</h3>
- <p className="text-sm text-gray-600">Guia completo de energia solar em Trás-os-Montes.</p>
- </a>
  </div>
  </div>
  </section>
