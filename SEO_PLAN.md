@@ -738,6 +738,41 @@ Branche : `feat/seo-vague2-2026-06-30` @ 3 commits (c6ba77562, 305963c53, 6abdb2
 - Fixer le remote CNR local (`git remote set-url origin https://github.com/taffrand-gif/canalizador-norte-reparos.git`)
 #fin loop #7
 
+## 🆕 Session 2026-07-02 (mode loop batch) — Hermes M1+M2+M3 purge FAUX
+
+### Mission M1-purge (PR #111 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent CNR + parent rattrapage git) | M1-purge-articles-FAUX | git rm `content/blog/guia-bomba-calor-2026.md` (FAUX, hors-scope canalizador), cleanup composant React `AutomacaoResidencialGuia.tsx` (7 mentions "climatização" retirées), ajout `.hermes/` au .gitignore. | R11 Doctrine (zéro invention), brief Philippe 02/07. Domotique GARDÉE (cluster légitime). | 3 fichiers, +13 / -344 lignes. PR #111 mergée en squash `56b8df55e` → `5496c5478`. | ✅ Fait |
+
+### Mission M2-purge-ciblée (PR #112 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent CNR + parent rattrapage git) | M2-purge-ciblée 186 pages | Retrait Pattern A (PROMOTIONNEL DÉGUISÉ : "Carregadores de carro elétrico", "sistemas de climatização") via script Python batch. Pattern B (ANTI-FUNNEL : "Não instalamos X, contacte...") GARDÉ. | R11 + M1 incomplet (110+ fichiers additionnels détectés en audit large post-M1). | 186 fichiers modifiés, +2 / -189 lignes. PR #112 mergée en squash `63384735c` → `68f1b9a0e`. | ✅ Fait |
+
+### Mission M3-cleanup-final (PR #113 MERGÉE)
+
+| Date | Agent | Tâche | Action | Justification | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-07-02 | Hermes (sub-agent CNR + parent rattrapage git) | M3 Étape 3-5 (sitemaps/liens) | Retrait URLs orphelines de `client/public/sitemap-full-backup.xml` (-3) et `public/sitemap.xml` (-1). Pas de vercel.json / shared/blogArticles.ts / indices A-Z / liens internes à modifier. | Fin Étapes 3-5 du brief original Philippe 02/07. | 2 fichiers modifiés, -4 lignes. PR #113 mergée en squash `11f993576` → `744cb1c45`. | ✅ Fait |
+
+### Cumul M1+M2+M3 CNR
+
+- **191 fichiers touchés** (3 + 186 + 2)
+- **+15 / -537 lignes purgées**
+- 3 PRs mergées en squash
+- 0 lien mort, 0 URL orpheline, Pattern A vidé, Pattern B préservé
+- Doctrine R11 respectée (zéro invention, fourchettes, délais, témoignages)
+
+### Leçons acquises session 2026-07-02
+
+- **#285** : "Silent partial completion" — sub-agents modifs disque sans commit final. Recovery = `git status` + finir git workflow parent-side (~5 min vs redispatcher ~15 min). Inverse du pattern #266 : parent fait MÉCANIQUE (commit+push+PR+merge), sub-agent fait INTELLECTUEL (script+test).
+- **#286** : "M1 strict vs M2 élargi" — brief liste 6-8 fichiers mais audit large en trouve 110+. Stratégie smart = MERGE M1 immédiat + M2 = purge ciblée (Pattern A vs B) + M3 = cleanup final. Anti-pattern = 1 mega-PR (scope creep, fatigue sub-agent).
+- **#287 (codage)** : "Pattern A vs B" distinction = retirer FAUX promotionnel déguisé, garder anti-funnel "Não instalamos X, contacte..." = signal SEO positif (clarifie scope).
+#fin loop #8
+
 ## 🆕 Session 2026-07-01 (mode loop batch) — Hermes
 
 ### Actions accomplies (PRs mergées)
