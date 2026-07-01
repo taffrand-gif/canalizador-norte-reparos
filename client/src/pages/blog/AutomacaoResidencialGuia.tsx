@@ -13,7 +13,7 @@ export default function AutomacaoResidencialGuia() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Guia completo de automação residencial em Trás-os-Montes. Descubra como transformar a sua casa numa casa inteligente: iluminação, segurança, climatização e muito mais.');
+ metaDescription.setAttribute('content', 'Guia completo de automação residencial em Trás-os-Montes. Descubra como transformar a sua casa numa casa inteligente: iluminação, segurança e muito mais.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -51,8 +51,8 @@ export default function AutomacaoResidencialGuia() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Quanto custa automatizar uma casa em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Automação básica (iluminação inteligente 3-4 divisões): 500-1.000€. Intermédia (iluminação + climatização + estores): 2.000-4.000€. Avançada (sistema completo integrado): 5.000-10.000€. Valores incluem equipamento e instalação." } },
- { "@type": "Question", "name": "Quanto posso poupar com automação residencial?", "acceptedAnswer": { "@type": "Answer", "text": "Uma casa inteligente reduz a conta de luz em 20-40% com gestão automática de iluminação e climatização. Termostatos inteligentes poupam 20-30% no aquecimento e a iluminação inteligente até 60%." } },
+ { "@type": "Question", "name": "Quanto custa automatizar uma casa em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Automação básica (iluminação inteligente 3-4 divisões): 500-1.000€. Intermédia (iluminação + estores): 2.000-4.000€. Avançada (sistema completo integrado): 5.000-10.000€. Valores incluem equipamento e instalação." } },
+ { "@type": "Question", "name": "Quanto posso poupar com automação residencial?", "acceptedAnswer": { "@type": "Answer", "text": "Uma casa inteligente reduz a conta de luz em 20-40% com gestão automática de iluminação. A iluminação inteligente permite poupança até 60%." } },
  { "@type": "Question", "name": "Preciso de eletricista com experiência para instalar automação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A instalação deve ser feita por eletricista com experiência para garantir segurança e funcionamento correto. Primeiro avalia-se se a instalação elétrica existente suporta os novos dispositivos." } },
  { "@type": "Question", "name": "A automação residencial valoriza o imóvel?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Casas inteligentes valorizam até 5% no mercado imobiliário, além de oferecerem maior conforto, segurança reforçada e poupança de energia a longo prazo." } }
  ]
@@ -71,22 +71,16 @@ export default function AutomacaoResidencialGuia() {
  custo: "150€ - 800€"
  },
  {
- titulo: "Climatização Automatizada",
- descricao: "Termostatos inteligentes que aprendem os seus hábitos e ajustam a temperatura automaticamente.",
- beneficios: ["Redução de 20-30% no aquecimento", "Controlo por zonas", "Programação inteligente"],
- custo: "200€ - 500€"
+ titulo: "Estores e Persianas Motorizadas",
+ descricao: "Abra e feche estores automaticamente conforme a luz solar ou horário.",
+ beneficios: ["Eficiência térmica", "Privacidade programada", "Integração com sensores"],
+ custo: "100€ - 400€ por janela"
  },
  {
  titulo: "Segurança e Vigilância",
  descricao: "Câmaras, sensores de movimento, fechaduras inteligentes e alarmes conectados.",
  beneficios: ["Monitorização Atendimento 24h/7d", "Alertas em tempo real", "Gravação na nuvem"],
  custo: "300€ - 1.500€"
- },
- {
- titulo: "Estores e Persianas Motorizadas",
- descricao: "Abra e feche estores automaticamente conforme a luz solar ou horário.",
- beneficios: ["Eficiência térmica", "Privacidade programada", "Integração com sensores"],
- custo: "100€ - 400€ por janela"
  }
  ];
  return (
@@ -133,8 +127,8 @@ export default function AutomacaoResidencialGuia() {
  <h2 className="text-3xl font-black mb-6">O Que É Automação Residencial?</h2>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <p className="text-gray-700 mb-4">
- Automação residencial é a integração de tecnologia na sua casa para controlar automaticamente 
- sistemas como iluminação, climatização, segurança, entretenimento e eletrodomésticos.
+ Automação residencial é a integração de tecnologia na sua casa para controlar automaticamente
+ sistemas como iluminação, segurança, entretenimento e eletrodomésticos.
  </p>
  <p className="text-gray-700 mb-4">
  Através de uma <strong>central de controlo</strong> (smartphone, tablet, assistente de voz), 
@@ -189,7 +183,7 @@ export default function AutomacaoResidencialGuia() {
  <Lightbulb className="w-10 h-10 text-yellow-500 mb-3" />
  <h3 className="text-xl font-bold mb-2">Poupança de Energia</h3>
  <p className="text-gray-700 text-sm">
- Reduza a conta de luz em 20-40% com gestão inteligente de iluminação e climatização.
+ Reduza a conta de luz em 20-40% com gestão inteligente de iluminação.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -235,7 +229,7 @@ export default function AutomacaoResidencialGuia() {
  <div>
  <h3 className="font-bold mb-1">Escolha do Sistema</h3>
  <p className="text-sm text-gray-700">
- Defina o que quer automatizar: iluminação, climatização, segurança ou tudo integrado.
+ Defina o que quer automatizar: iluminação, segurança ou tudo integrado.
  </p>
  </div>
  </div>
@@ -283,7 +277,7 @@ export default function AutomacaoResidencialGuia() {
  <tr>
  <td className="py-3">
  <strong>Intermédio</strong><br/>
- <span className="text-xs text-gray-600">Iluminação + climatização + estores</span>
+ <span className="text-xs text-gray-600">Iluminação + estores</span>
  </td>
  <td className="text-right py-3 font-bold">2.000€ - 4.000€</td>
  </tr>
@@ -339,10 +333,6 @@ export default function AutomacaoResidencialGuia() {
  <a href="/blog/protecao-sobrecargas-eletricas-casa" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
  <h3 className="font-bold text-orange-500 mb-1">Proteção Contra Sobrecargas</h3>
  <p className="text-sm text-gray-600">Como proteger a sua casa de sobrecargas elétricas.</p>
- </a>
- <a href="/blog/carregador-veiculo-eletrico-casa" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
- <h3 className="font-bold text-orange-500 mb-1">Carregador de Veículo Elétrico</h3>
- <p className="text-sm text-gray-600">Guia para instalar wallbox em casa.</p>
  </a>
  </div>
  </div>
