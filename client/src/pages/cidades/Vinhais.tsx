@@ -115,22 +115,22 @@ export default function Vinhais() {
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
  <p className="text-gray-600">WC, lavatórios, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos em zonas rurais.</p>
- <p className="text-blue-600 font-bold mt-3">desde 110€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
  <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
- <p className="text-blue-600 font-bold mt-3">desde 110€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
  <p className="text-gray-600">Instalação e reparação de esquentadores. Substituição de termostatos. Certificação profissional.</p>
- <p className="text-blue-600 font-bold mt-3">desde 110€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
  <p className="text-gray-600">Instalação completa com proteção contra geadas. Tubagem em PPR, isolamento térmico. Garantia 12 meses.</p>
- <p className="text-blue-600 font-bold mt-3">desde 110€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  </div>
  </div>
