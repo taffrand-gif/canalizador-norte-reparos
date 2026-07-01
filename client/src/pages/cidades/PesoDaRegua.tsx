@@ -149,22 +149,22 @@ export default function PesoRégua() {
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
  <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos.</p>
- <p className="text-blue-600 font-bold mt-3">desde 120€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
  <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
- <p className="text-blue-600 font-bold mt-3">desde 120€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
  <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
- <p className="text-blue-600 font-bold mt-3">desde 120€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
  <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
- <p className="text-blue-600 font-bold mt-3">desde 120€</p>
+ <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  </div>
  </div>
