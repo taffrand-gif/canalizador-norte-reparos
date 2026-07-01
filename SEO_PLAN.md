@@ -15,6 +15,14 @@
 
 ---
 
+## 🔎 AUDIT VÉRIFIÉ 2026-07-01 (grep réel workspace) — ce repo (CNR)
+> Corrige les chiffres périmés. File d'action 12 lots + détail : `~/work/Sites/MONOPOLE_SEO_2026Q3.md`.
+- 🟢 **Services FAUX** : 4 fichiers résiduels seulement (bas risque). 0 page dédiée.
+- 🔴 **P0.3 faux avis** : `GoogleReviews.tsx` expose 6 avis inventés non-traçables (audit M5 01/07) = **R11 violation ACTIVE en prod** (légal + E-E-A-T). **Lot 1 prioritaire** → purge/placeholder honnête après GO.
+- 🔴 **P3.1 maillage** : hubs `concelhos/`+`distritos/` = 2 liens sortants vs 10-30 (audit M6 01/07). **Lot 4** → grilles zone-grid (localités réelles only, R11/R5).
+- 🔤 **Mots-clés (P6)** : `shared/seoKeywords.ts` **contamine l'intent** — cible `canalizador urgente`/`24h`/`resposta prioritária` (R145) sur un site installation → cannibalise le domaine urgente + viole R145. **Lot 6a** : réparer (install = kw installation only) + pilote `canalizador×Bragança` (recon Google gratuit : autocomplete/PAA/SERP). Voir master P6.
+- ⏭️ Suite : P0.2 différenciation vs urgente, P2.1 page prix citable, P5.2 actif "Observatório de preços" (=backlinks+GEO).
+
 ## 🏆 STRATÉGIE MONOPOLE SERP/GEO → voir `~/work/Sites/MONOPOLE_SEO_2026Q3.md`
 
 > Plan maître cross-sites (établi 30/06/2026). Objectif: occuper **plusieurs surfaces d'un seul résultat** par requête (Local Pack + 2 domaines organic + AI Overview + PAA + image pack + étoiles).
