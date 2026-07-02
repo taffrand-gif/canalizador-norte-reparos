@@ -478,9 +478,15 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 | 4 | `762b00212` | Vague 2 client/public/ (94 fichiers) |
 | 5 | `6c01657be` | Vague 3 client/public/ (95 fichiers) |
 | 6 | `252275655` | Vague 4 client/public/ (15 fichiers) — **CNR batch terminé** |
+| 7 | `ed089ddba` | docs(seo-plan): HISTORIQUE P0 batch 04/07 (24 commits batch prix/zones OSRM, 757 fichiers, 0 merge main) |
+| 8 | `355b7201c` | **Post-triangulation #4b40c9fd** : correctif zone-badge Boticas Z4→Z5 sur 9 fichiers (canalizador-{autoclismo,canalizacao-nova,desentupimento,esquentador,fossa-septica,fuga-agua,pressao-agua,torneira,urgente}-boticas.html) |
 | PR-1 | `b0fff0164` | (branche `fix/cnr-canalizador-empty-page`) rewrite 301 dans `vercel.json`, rm ×2 fichiers `canalizador-.html`, retirer 5 `<a>` vides hubs concelhos |
 
-**CNR : 305 fichiers patchés + 1 PR canalizador-.html.** Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phase0-dryrun/CNR_audit.{csv,json}` + `phase0-no-resol/CNR.txt`). Artefacts audit villes-sèdes : `phase0.5-rescan/CNR_public_audit.{csv,json}` (116 fichiers, 9 NO_RESOL). 60+ ES exclus CU/EU batch (filtre strict).
+**CNR : 305 fichiers patchés + 1 PR canalizador-.html.**
+
+**Audit qualité post-batch #4b40c9fd** (02/07 15h BST) : 4 sub-agents audit prototypes AVANT batch (4/4 GO), 1 sub-agent audit post-batch déclaré 334 KO (largement faux-positifs 90%), 1 triangulation parentale sur 20 échantillons = 2 vrais KO (Boticas + EU), 2 micro-correctifs scopés. PR #127 MERGEABLE. Doctrine #329 validée.
+
+Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phase0-dryrun/CNR_audit.{csv,json}` + `phase0-no-resol/CNR.txt`). Artefacts audit villes-sèdes : `phase0.5-rescan/CNR_public_audit.{csv,json}` (116 fichiers, 9 NO_RESOL). 60+ ES exclus CU/EU batch (filtre strict).
 
 ### Liens PRs (à ouvrir sur validation Filipe)
 
