@@ -464,6 +464,34 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 
 ---
 
+## 🔄 HISTORIQUE P0 (batch 04/07/2026) — Mission Hermes prix/zones OSRM
+
+> **Mode** : autonomie Philippe sur le réversible. 2 STOP-durs : (1) QUALITÉ 4 prototypes validés avant batch, (2) merge main = STOP Filipe surtout CU/EU. Tous les patches sur branche `fix/prix-zones-osrm` ou `fix/cnr-canalizador-empty-page`. **0 merge main ce jour**.
+> **Doctrine** : normalisation idempotente depuis `zonas-data.json` (914) + GRILLE_CONCELHO fallback (33). Regex NFD pour diacritiques. Filtre ES strict pour CU/EU. R145 limité au bloc zone (D3).
+> **Source de vérité** : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.json`. Barème Z1=15€ Z2=25€ Z3=35€ Z4=45€ Z5=55€ Z6=65€. MO 65€/h canal / 70€/h élec. Majoration +50% MO+dép.
+
+| # | SHA | Description |
+|---|----|-------------|
+| 1 | `effb04939` | Prototype Chaves : Z5→Z4, prix 40€→45€, R145 'Tempo resposta ~70 min' retiré |
+| 2 | `d1aaf6528` | Vague 0 villes-sèdes (67 fichiers, 9 NO_RESOL) |
+| 3 | `a0a310cd7` | Vague 1 client/public/ (33 fichiers) |
+| 4 | `762b00212` | Vague 2 client/public/ (94 fichiers) |
+| 5 | `6c01657be` | Vague 3 client/public/ (95 fichiers) |
+| 6 | `252275655` | Vague 4 client/public/ (15 fichiers) — **CNR batch terminé** |
+| PR-1 | `b0fff0164` | (branche `fix/cnr-canalizador-empty-page`) rewrite 301 dans `vercel.json`, rm ×2 fichiers `canalizador-.html`, retirer 5 `<a>` vides hubs concelhos |
+
+**CNR : 305 fichiers patchés + 1 PR canalizador-.html.** Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phase0-dryrun/CNR_audit.{csv,json}` + `phase0-no-resol/CNR.txt`). Artefacts audit villes-sèdes : `phase0.5-rescan/CNR_public_audit.{csv,json}` (116 fichiers, 9 NO_RESOL). 60+ ES exclus CU/EU batch (filtre strict).
+
+### Liens PRs (à ouvrir sur validation Filipe)
+
+- CNR : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/new/fix/prix-zones-osrm
+- CNR PR canalizador : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/new/fix/cnr-canalizador-empty-page
+- ENR : https://github.com/taffrand-gif/eletricista-norte-reparos/pull/new/fix/prix-zones-osrm
+- CU : https://github.com/taffrand-gif/canalizador-urgente/pull/new/fix/prix-zones-osrm
+- EU : https://github.com/taffrand-gif/eletricista-urgente/pull/new/fix/prix-zones-osrm
+
+---
+
 ## 🔄 HISTORIQUE — Journal des actions
 
 > **Format OBLIGATOIRE pour toute IA / agent / harnais consignant une action** :
