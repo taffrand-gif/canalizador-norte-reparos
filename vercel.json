@@ -1717,6 +1717,16 @@
   ],
   "redirects": [
     {
+      "source": "/canalizador-.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
       "source": "/imprensa",
       "destination": "/sobre.html",
       "statusCode": 301
