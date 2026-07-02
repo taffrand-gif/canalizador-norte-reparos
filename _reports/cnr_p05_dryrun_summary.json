@@ -1,0 +1,18 @@
+{
+  "tot_files": 3459,
+  "with_loc": 1984,
+  "with_badge": 743,
+  "ko_badge_vs_truth_count": 273,
+  "ko_page_zonax_count": 150,
+  "ko_body_price_count": 0,
+  "ko_jsonld_offer_price_count": 0,
+  "ko_jsonld_offer_price": [],
+  "arrival_total": 177,
+  "arrival_in_ko_count": 7,
+  "eslang_count": 0,
+  "prefixed_count": 1155,
+  "unprefixed_count": 829,
+  "doublons_pairs_count": 135,
+  "unprefixed_in_pair": 135,
+  "prefixed_in_pair": 135
+}
