@@ -23,6 +23,64 @@
 - 🔤 **Mots-clés (P6)** : `shared/seoKeywords.ts` **contamine l'intent** — cible `canalizador urgente`/`24h`/`resposta prioritária` (R145) sur un site installation → cannibalise le domaine urgente + viole R145. **Lot 6a** : réparer (install = kw installation only) + pilote `canalizador×Bragança` (recon Google gratuit : autocomplete/PAA/SERP). Voir master P6.
 - ⏭️ Suite : P0.2 différenciation vs urgente, P2.1 page prix citable, P5.2 actif "Observatório de preços" (=backlinks+GEO).
 
+## 🗺️ ROADMAP MONOPOLE — TODO ce repo (CNR) — owner exécution : **Hermes**
+
+> Roadmap phasée maître : `~/work/Sites/MONOPOLE_SEO_2026Q3.md` §ROADMAP PHASÉE. Ici = todos concrets CNR. Claude+Filipe conçoivent, Hermes coche.
+
+- [ ] **M0** — Retirer faux avis `GoogleReviews.tsx` + schema `Review`/`aggregateRating` associé → placeholder honnête (R11 ACTIF prod).
+- [ ] **M0** — Purger 4 fichiers résiduels services FAUX (bas risque).
+- [ ] **M1** — Maillage COMPLET : 19 hubs (14 concelhos + 5 distritos) → localités (page **primaire** only) ; remontant breadcrumb sur ~3441 pages localité → hub concelho→distrito ; latéral 6-8 sœurs même concelho. **Signal unique/hub** (anti scaled-content). Localités RÉELLES only (R11/R5). Vagues R15, grep AVANT/APRÈS, 0 lien 404.
+- [ ] **M2** — Fix `shared/seoKeywords.ts` : retirer `urgente`/`24h`/`resposta prioritária` (stop cannibalisation domaine urgente) → pilote `canalizador×Bragança`, livrable `keyword-map.csv`.
+- [ ] **M3** — (schema LocalBusiness/areaServed/FAQPage déjà présents ✅) → **créer** pages `preço-canalizador-<ville>-2026` datées citables (4 districts, tableau Z1-Z6 + 65€/h + date visible, schema Offer) + **retirer** `streetAddress` de `contactos.html` (SAB). Détail : master §M3 DESIGN.
+- [ ] **M4** — Actif « Observatório de preços » (agrège pages prix M3, citable/outreach) ; Review schema **BLOQUÉ** tant que 0 avis réel → lancer boucle collecte (WhatsApp/n8n après job). Détail : master §M4 DESIGN.
+
+---
+
+## 🆕 P0 — Prix/zones OSRM (CNR) — dry-run 04/07/2026
+
+> **Mission en cours** (doctrine doc-only, pattern #327) : consigner ici le périmètre P0 avant toute modification code.
+> **Source de vérité** : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.json` (914) + `~/Documents/ObsidianVault/NORTE-OS/Methodologie/GRILLE-ZONES-OFFICIELLE-2026-06-24.md` (fallback concelho).
+> **Barème** : Z1=15€ · Z2=25€ · Z3=35€ · Z4=45€ · Z5=55€ · Z6=65€ (déplacement) · MO 65€/h canal · majoration +50% MO+dép.
+> **R145** : limité au bloc `<div class="zone-info">` (R145 hors-bloc zone = mission séparée, `mediante confirmação` pending Filipe).
+> **Doctrine** : normalisation idempotente depuis source, **jamais inventer une zone pour NO_RESOL**.
+> **Artefacts** : `~/work/Sites/_audit/phase0-dryrun/` + `~/work/Sites/_audit/phase0.5-rescan/`.
+
+### Counts CNR (lecture seule dry-run)
+
+| Couche | Pages | OK | NO-OP | AJUSTER | INCOHERENT | NO_RESOL |
+|---|---:|---:|---:|---:|---:|---:|
+| `client/public/canalizador-*.html` (villages/aldeias) | 1808 | 482 | 0 | 1203 | 10 | 113 |
+| `public/canalizador-*.html` (villes-sèdes principales) | 116 | 1 | 15 | 46 | 18 | 36 |
+| **TOTAL CNR** | **1924** | **483** | **15** | **1249** | **28** | **149** |
+
+### Villes-sèdes (focus critique — fort trafic / haute valeur)
+
+| Ville | Zone OSRM | Badge actuel | Statut |
+|---|---|---|---|
+| Macedo de Cavaleiros | Z1 | Z1 | ✓ NO-OP |
+| Mirandela | Z2 | Z2 | ✓ NO-OP |
+| **Bragança** | Z2 | **Z4** | ❌ AJUSTER |
+| **Chaves** | Z4 | **Z5** | ❌ AJUSTER (∆Z=−1) |
+| **Vila Real** | Z4 | **Z5** | ❌ AJUSTER |
+| **Lamego** | Z6 | **Z5** | ❌ AJUSTER |
+
+### Plan d'attaque CNR
+
+- [ ] PR #1 `canalizador-.html` (rewrite 301 dans vercel.json, rm ×2 fichiers, retirer 5 `<a>` vides hubs concelhos)
+- [ ] Branche `fix/prix-zones-osrm` (CNR) + prototype `public/canalizador-chaves.html` → STOP diff Filipe → GO batch R15
+- [ ] Vague 0 villes-sèdes (75 pages) : patch idempotent depuis source
+- [ ] Vague 1 : INCOHERENT CU+EU (360) si pertinent
+- [ ] Vague 2-N : AJUSTER restant (1174 + amortissement INCOHERENT = ~1200) en vagues ≤95 fichiers
+- [ ] Mission M-NO_RESOL séparée (149 localités) — décision Filipe par catégorie (hors-zone / typo / cassé)
+
+### Liens artefacts
+
+- Audit complet : `~/work/Sites/_audit/phase0-dryrun/CNR_audit.{csv,json}`
+- Audit villes-sèdes : `~/work/Sites/_audit/phase0.5-rescan/CNR_public_audit.{csv,json}`
+- NO_RESOL consolidés : `~/work/Sites/_audit/phase0-no-resol/CNR.txt` (149 lignes)
+
+---
+
 ## 🏆 STRATÉGIE MONOPOLE SERP/GEO → voir `~/work/Sites/MONOPOLE_SEO_2026Q3.md`
 
 > Plan maître cross-sites (établi 30/06/2026). Objectif: occuper **plusieurs surfaces d'un seul résultat** par requête (Local Pack + 2 domaines organic + AI Overview + PAA + image pack + étoiles).
