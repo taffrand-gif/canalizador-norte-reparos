@@ -1129,3 +1129,24 @@ Source unique zones : `~/work/Sites/norte-os-marketing/prototypes/zonas-data.jso
 **Si NO-GO D5-*** : re-scoping mission, nouveaux briefs sub-agents selon retours.
 
 **Ne pas oublier** (priorité oubliée 02/07 15h49) : correctif 2 531 `<title>` racine dupliqués (CU+EU) — branche séparée `fix/restore-titles-from-og-title-2026-07-02` depuis main, fix = 1 sed/fichier (`<og:title>` → `<title>`). Source : `~/work/Sites/.tooling/next_session_priorities.md`.
+
+
+---
+
+## 🎯 SESSION 02/07 17h — P0.5 PROTOTYPE CNR LIVRÉ, STOP D5
+
+**Suite directe CU/EU.** Prototype CNR : `ea721f9fc wip(CNR): P0.5 prototype S2 — client/public/desentupimento-vila-real Z5→Z4`.
+
+### ✅ Prototype P0.5 S2 strict livré (modèle Norte Reparos)
+
+Vila Real = Z4 (zones-data.json). Badge data-zone Z5 → Z4, prix 55€ → 45€,
+total 1h 135€. Conformité R12 (orçamento por escrito em 48h, NAP 928 484 451).
+
+8 surfaces alignées : title, meta description, og:title/desc, twitter,
+data-zone, zone-info visible, JSON-LD FAQPage text.
+
+NON touché : aucun Offer JSON-LD service.
+
+### 🚦 STOP strict — En attente GO D5
+
+58 KO1 totaux CNR + 211 KO2bis + 4 KO3 prix JSON-LD → vagues à venir.
