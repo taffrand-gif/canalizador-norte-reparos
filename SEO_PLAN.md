@@ -1309,4 +1309,14 @@ Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
 Vagues 4-5 dispatchees en parallele via deleg_61c15033 (4 sub-agents).
 Patcher canonique apply_vague.py SHA 6ab04f4d8, garde-fous R8 OpenClaw respectes.
 
+---
+
+## 🔄 HISTORIQUE P0.6 vague 1 — Mission Hermes p0.6 KO2ter
+
+> **Mode** : P0.6 vague 1 lancée en parallèle EU (CU déjà fait 739→0, EU lancé). Branche `fix/prix-zones-osrm` (working tree propre). Patcher canonique `patch_ko2ter.py` aligne body `Deslocação Zona N` sur `zone_attendue` tirée de `norte-os-marketing/prototypes/zonas-data.json` (source-of-truth unique, 914 localités).
+
+| # | SHA | Action |
+|---|----|----|
+| 9 | `30c27d5d4` | p0.6 KO2ter CNR : dry-run 640/640, run 640/640, self-audit AFTER KO2ter=0 ✓. KO TOTAL repo = 365 (KO1=72, KO3=156, KO4=137). Témoins R8 Bragança/Vinhais/Macedo CV conformes. KO4 delais=137 confirmé normal (R145 info-only sur -norte, leçon #298). Working tree post-commit vide. |
+
 Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
