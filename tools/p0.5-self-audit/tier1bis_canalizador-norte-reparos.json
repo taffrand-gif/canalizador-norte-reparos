@@ -1,0 +1,31 @@
+{
+  "files": [
+    "client/public/canalizador-urgente-vila-pouca-de-aguiar.html",
+    "client/public/canalizador-urgente-santa-marta-de-penaguiao.html",
+    "client/public/canalizador-canalizacao-nova-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-canalizacao-nova-braganca.html",
+    "client/public/canalizador-urgente-peso-da-regua.html",
+    "client/public/canalizador-urgente-lamego.html",
+    "client/public/canalizador-desentupimento-braganca.html",
+    "client/public/canalizador-desentupimento-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-urgente-tabuaco.html",
+    "client/public/canalizador-fossa-septica-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-urgente-mondim-de-basto.html",
+    "client/public/canalizador-fuga-agua-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-urgente-vimioso.html",
+    "client/public/canalizador-urgente-torre-de-moncorvo.html",
+    "client/public/canalizador-urgente-ribeira-de-pena.html",
+    "client/public/canalizador-fossa-septica-braganca.html",
+    "client/public/canalizador-urgente-sernancelhe.html",
+    "client/public/canalizador-urgente-boticas.html",
+    "client/public/canalizador-urgente-penedono.html",
+    "client/public/canalizador-urgente-vila-real.html",
+    "client/public/canalizador-urgente-sao-joao-da-pesqueira.html",
+    "client/public/canalizador-urgente-sabrosa.html",
+    "client/public/canalizador-fuga-agua-braganca.html",
+    "client/public/canalizador-urgente-armamar.html",
+    "client/public/canalizador-urgente-mesao-frio.html",
+    "client/public/canalizador-urgente-miranda-do-douro.html",
+    "client/public/canalizador-urgente-montalegre.html"
+  ]
+}

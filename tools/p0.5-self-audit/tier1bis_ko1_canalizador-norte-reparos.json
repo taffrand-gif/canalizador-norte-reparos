@@ -1,0 +1,12 @@
+{
+  "files": [
+    "client/public/canalizador-canalizacao-nova-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-canalizacao-nova-braganca.html",
+    "client/public/canalizador-desentupimento-braganca.html",
+    "client/public/canalizador-desentupimento-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-fossa-septica-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-fuga-agua-carrazeda-de-ansiaes.html",
+    "client/public/canalizador-fossa-septica-braganca.html",
+    "client/public/canalizador-fuga-agua-braganca.html"
+  ]
+}
