@@ -45,7 +45,8 @@ User-agent: CCBot
 Allow: /
 
 # Sitemap
-Sitemap: https://norte-reparos.com/sitemap.xml
+Sitemap: https://canalizador-norte-reparos.pt/sitemap.xml
+Sitemap: https://canalizador-norte-reparos.pt/sitemap-plain.xml
 
 # Default
 User-agent: *
