@@ -52,7 +52,7 @@ export default function Sendim() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador sendim, canalizador urgente sendim, desentupimento sendim, fuga agua sendim, canalizador miranda do douro, canalizador tras-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador sendim, canalizador 24h sendim, desentupimento sendim, fuga agua sendim, canalizador miranda do douro, canalizador tras-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

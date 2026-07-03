@@ -52,7 +52,7 @@ export default function Izeda() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador izeda, canalizador urgente izeda, desentupimento izeda, fuga agua izeda, canalizador braganca, canalizador tras-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador izeda, canalizador 24h izeda, desentupimento izeda, fuga agua izeda, canalizador braganca, canalizador tras-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

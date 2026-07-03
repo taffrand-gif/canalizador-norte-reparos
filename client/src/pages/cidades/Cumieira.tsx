@@ -43,7 +43,7 @@ export default function Cumieira() {
 
     let mk = document.querySelector('meta[name="keywords"]');
     if (!mk) { mk = document.createElement('meta'); mk.setAttribute('name', 'keywords'); document.head.appendChild(mk); }
-    mk.setAttribute('content', 'canalizador cumieira, canalizador urgente cumieira, desentupimento cumieira, fuga agua santa marta, canalizador vila real, canalizador tras-os-montes');
+    mk.setAttribute('content', 'canalizador cumieira, canalizador 24h cumieira, desentupimento cumieira, fuga agua santa marta, canalizador vila real, canalizador tras-os-montes');
 
     let can = document.querySelector('link[rel="canonical"]');
     if (!can) { can = document.createElement('link'); can.setAttribute('rel', 'canonical'); document.head.appendChild(can); }

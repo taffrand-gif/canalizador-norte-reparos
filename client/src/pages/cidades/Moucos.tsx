@@ -43,7 +43,7 @@ export default function Moucos() {
 
     let mk = document.querySelector('meta[name="keywords"]');
     if (!mk) { mk = document.createElement('meta'); mk.setAttribute('name', 'keywords'); document.head.appendChild(mk); }
-    mk.setAttribute('content', 'canalizador moucos, canalizador urgente moucos, desentupimento moucos, fuga agua santa marta penaguiao, canalizador douro, canalizador tras-os-montes');
+    mk.setAttribute('content', 'canalizador moucos, canalizador 24h moucos, desentupimento moucos, fuga agua santa marta penaguiao, canalizador douro, canalizador tras-os-montes');
 
     let can = document.querySelector('link[rel="canonical"]');
     if (!can) { can = document.createElement('link'); can.setAttribute('rel', 'canonical'); document.head.appendChild(can); }

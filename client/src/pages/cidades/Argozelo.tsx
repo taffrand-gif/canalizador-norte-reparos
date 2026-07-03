@@ -52,7 +52,7 @@ export default function Argozelo() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador argozelo, canalizador urgente argozelo, desentupimento argozelo, fuga agua vimioso, canalizador vimioso, canalizador tras-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador argozelo, canalizador 24h argozelo, desentupimento argozelo, fuga agua vimioso, canalizador vimioso, canalizador tras-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
