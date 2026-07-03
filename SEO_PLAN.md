@@ -1496,5 +1496,5 @@ U4 CNR + ENR = terminé. Prochain front à décider :
 - `u4_patcher_o1_aldeias_inlinks.py`
 - `u4_m1_scout_urgency.py`
 
-### Attente
-**GO nominatif Philippe** par PR.
+### Statut
+✅ **PRs SQUASH-MERGED** sur main (13h03 BST) — CU squash  + EU squash .
