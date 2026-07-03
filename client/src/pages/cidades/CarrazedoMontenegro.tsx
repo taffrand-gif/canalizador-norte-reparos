@@ -52,7 +52,7 @@ export default function CarrazedoMontenegro() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador carrazedo de montenegro, canalizador urgente carrazedo, desentupimento carrazedo montenegro, fuga agua valpacos, canalizador valpacos, canalizador tras-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador carrazedo de montenegro, canalizador 24h carrazedo, desentupimento carrazedo montenegro, fuga agua valpacos, canalizador valpacos, canalizador tras-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

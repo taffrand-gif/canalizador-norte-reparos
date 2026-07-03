@@ -52,7 +52,7 @@ export default function TorreDonaChama() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador torre de dona chama, canalizador urgente torre de dona chama, desentupimento torre de dona chama, fuga agua torre de dona chama, canalizador mirandela, canalizador trás-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador torre de dona chama, canalizador 24h torre de dona chama, desentupimento torre de dona chama, fuga agua torre de dona chama, canalizador mirandela, canalizador trás-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

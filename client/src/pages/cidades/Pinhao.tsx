@@ -43,7 +43,7 @@ export default function Pinhao() {
 
     let mk = document.querySelector('meta[name="keywords"]');
     if (!mk) { mk = document.createElement('meta'); mk.setAttribute('name', 'keywords'); document.head.appendChild(mk); }
-    mk.setAttribute('content', 'canalizador pinhao, canalizador urgente pinhão, desentupimento pinhão, fuga agua pinhão, canalizador alijo, canalizador douro');
+    mk.setAttribute('content', 'canalizador pinhao, canalizador 24h pinhão, desentupimento pinhão, fuga agua pinhão, canalizador alijo, canalizador douro');
 
     let can = document.querySelector('link[rel="canonical"]');
     if (!can) { can = document.createElement('link'); can.setAttribute('rel', 'canonical'); document.head.appendChild(can); }

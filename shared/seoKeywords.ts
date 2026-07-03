@@ -18,7 +18,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Cano rebentado em Trás-os-Montes? Estamos aí em menos de resposta prioritária. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
  keywords: [
  'canalizador macedo de cavaleiros',
- 'canalizador urgente macedo de cavaleiros',
+ 'canalizador 24h macedo de cavaleiros',
  'desentupimentos macedo de cavaleiros',
  'arranjo fugas água macedo de cavaleiros',
  'canalizador Atendimento 24h/7d macedo de cavaleiros',
@@ -34,7 +34,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Bragança. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador bragança',
- 'canalizador urgente bragança',
+ 'canalizador 24h bragança',
  'desentupimentos bragança',
  'arranjo fugas água bragança',
  'canalizador Atendimento 24h/7d bragança',
@@ -50,7 +50,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Mirandela. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador mirandela',
- 'canalizador urgente mirandela',
+ 'canalizador 24h mirandela',
  'desentupimentos mirandela',
  'arranjo fugas água mirandela',
  'canalizador Atendimento 24h/7d mirandela',
@@ -66,7 +66,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Chaves. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador chaves',
- 'canalizador urgente chaves',
+ 'canalizador 24h chaves',
  'desentupimentos chaves',
  'arranjo fugas água chaves',
  'canalizador Atendimento 24h/7d chaves',
@@ -82,7 +82,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Valpaços. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador valpaços',
- 'canalizador urgente valpaços',
+ 'canalizador 24h valpaços',
  'desentupimentos valpaços',
  'arranjo fugas água valpaços',
  'canalizador Atendimento 24h/7d valpaços',
@@ -98,7 +98,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Vinhais. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador vinhais',
- 'canalizador urgente vinhais',
+ 'canalizador 24h vinhais',
  'desentupimentos vinhais',
  'arranjo fugas água vinhais',
  'canalizador Atendimento 24h/7d vinhais',
@@ -114,7 +114,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Miranda do Douro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador miranda do douro',
- 'canalizador urgente miranda do douro',
+ 'canalizador 24h miranda do douro',
  'desentupimentos miranda do douro',
  'arranjo fugas água miranda do douro',
  'canalizador Atendimento 24h/7d miranda do douro',
@@ -130,7 +130,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Mogadouro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador mogadouro',
- 'canalizador urgente mogadouro',
+ 'canalizador 24h mogadouro',
  'desentupimentos mogadouro',
  'arranjo fugas água mogadouro',
  'canalizador Atendimento 24h/7d mogadouro',
@@ -146,7 +146,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Torre de Moncorvo. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador torre de moncorvo',
- 'canalizador urgente torre de moncorvo',
+ 'canalizador 24h torre de moncorvo',
  'desentupimentos torre de moncorvo',
  'arranjo fugas água torre de moncorvo',
  'canalizador Atendimento 24h/7d torre de moncorvo',
@@ -162,7 +162,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  description: 'Canalizador profissional em Freixo de Espada à Cinta. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
  keywords: [
  'canalizador freixo de espada à cinta',
- 'canalizador urgente freixo de espada à cinta',
+ 'canalizador 24h freixo de espada à cinta',
  'desentupimentos freixo de espada à cinta',
  'arranjo fugas água freixo de espada à cinta',
  'canalizador Atendimento 24h/7d freixo de espada à cinta',

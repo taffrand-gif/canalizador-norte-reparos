@@ -52,7 +52,7 @@ export default function Vidago() {
       metaKeywords.setAttribute('name', 'keywords');
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', 'canalizador vidago, canalizador urgente vidago, desentupimento vidago, fuga agua vidago, canalizador chaves, canalizador tras-os-montes');
+    metaKeywords.setAttribute('content', 'canalizador vidago, canalizador 24h vidago, desentupimento vidago, fuga agua vidago, canalizador chaves, canalizador tras-os-montes');
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

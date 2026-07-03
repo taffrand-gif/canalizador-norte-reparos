@@ -32,7 +32,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  metaKeywords.setAttribute('name', 'keywords');
  document.head.appendChild(metaKeywords);
  }
- metaKeywords.setAttribute('content', 'canalizador urgente bragança, canalizador Atendimento 24h/7d bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
+ metaKeywords.setAttribute('content', 'canalizador 24h bragança, canalizador Atendimento 24h/7d bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
  
  
  // Canonical URL
