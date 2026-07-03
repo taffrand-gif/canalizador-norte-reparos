@@ -1320,3 +1320,76 @@ Patcher canonique apply_vague.py SHA 6ab04f4d8, garde-fous R8 OpenClaw respectes
 | 9 | `30c27d5d4` | p0.6 KO2ter CNR : dry-run 640/640, run 640/640, self-audit AFTER KO2ter=0 ✓. KO TOTAL repo = 365 (KO1=72, KO3=156, KO4=137). Témoins R8 Bragança/Vinhais/Macedo CV conformes. KO4 delais=137 confirmé normal (R145 info-only sur -norte, leçon #298). Working tree post-commit vide. |
 
 Co-Authored-By: Claude (Fable 5 Sonnet) <noreply@anthropic.com>
+
+---
+
+## 🆕 Session 2026-07-03 — P0.6 U1 close + U4-M1 strict (PRs ready)
+
+### P0.6 U1 — 4 repos mergés sur main (squash 23:43-23:46Z)
+
+| Repo | PR | HEAD main | patched | KO TOTAL |
+|---|---|---|---|---|
+| canalizador-urgente | #101 | `52dde87fc` | 1569 | 0 |
+| canalizador-norte-reparos | #127 | `dcaf4620d` | 1810 | 0 |
+| eletricista-urgente | #101 | `ac7c633e3` | 1471 | 0 |
+| eletricista-norte-reparos | #114 | `252dbd59dc` | 1674 | 0 |
+| **TOTAL** | 4 | — | **6524** | **0** |
+
+Baseline 4 074 → 0 KO = 100% U1 résolu. NO_RESOL résiduel = 6 561 unknown + 4 ooa (Trancoso, Fornos D6 CEO gardés intacts). 13 commits de vague avec chiffre collé DANS le message (doctrine #335). Récap complet : `_audit/p0.6/U1_RECAP_FINAL.md`.
+
+### U4-M1 Scout + Strict (PRs ready for review, STOP R7)
+
+**Scout baseline** : `~/work/Sites/_audit/u4/U4_M1_BASELINE.md` + script canonique `u4_m1_scout.py` (réutilisable). Constat : 39/39 hubs déjà ≥2 localités, mais **0/39 BreadcrumbList** + **0/39 maillage hub↔hub**.
+
+**Strict** : patcher canonique `_audit/u4/patch_breadcrumb_hub.py` (1 patcher paramétrable `--repo --origin` pour 4 patchers, idempotent). Patches sur 19/19 hubs CNR + 20/20 ENR = 39/39. Commits :
+- `779ae9037` fix(CNR): U4-M1 strict 19/19 hubs (BreadcrumbList + maillage hub↔hub, scout 19/19 BC + 19/19 conformes)
+- `c9460155c3` fix(ENR): U4-M1 strict 20/20 hubs (BreadcrumbList + maillage hub↔hub, scout 20/20 BC + 20/20 conformes)
+
+**PRs** : #128 CNR + #115 ENR sur branches `fix/u4-m1-breadcrumb-hub-{canalizador,eletricista}` → main. **STOP MERGE R7** : attente GO nominatif par PR.
+
+**Non-régression** : `p0.5-self-audit` retourne toujours KO TOTAL=0 sur les 2 repos après patch.
+
+### Suite (post-merge U4-M1)
+
+- **U4-M2** : ✅ FAIT 03/07 — PRs **#129 CNR + #116 ENR** ready for review (22+5 keywords purge urgente→24h, idempotent, Vercel SUCCESS). STOP MERGE R7.
+- **U4-M3** : ✅ FAIT 03/07 — PRs **#130 CNR + #117 ENR** (M3 Vague A datation 2025→2026-07-01, 38+39 fichiers) + **#131 CNR** (M3 Vague B disclaimer aside, 31 fichiers). Tous ready, STOP MERGE R7.
+- **U4-M4** : Actif « Observatório de preços » — SPEC design ✅ FAIT parent-side (sub-agent timeout) : `_audit/u4/U4_M4_observatorio_DESIGN.md` + `..._BRIEF.md`. Étape 2 (création page `/observatorio-precos-canalizador.html`, 33 liens M3, barème Z1-Z6, FAQPage+BreadcrumbList, NAP 928 484 451) en attente GO nominatif. Review schema BLOQUÉ tant que 0 avis réel (D4).
+
+---
+
+## 🆕 Session 2026-07-03 close — 7 PRs U4 SQUASH-MERGED sur main (11:11 BST)
+
+**GO nominatif CEO 12:00 BST** (« GO merge les 7 ») après audit CEO #5 (9,5/10) — formule R7-bis appliquée.
+
+| PR | Repo | Mission | HEAD squash | Fichiers +/− | CI post-merge | Vercel |
+|---|---|---|---|---|---|---|
+| **#128** | CNR | U4-M1 hubs (BreadcrumbList + hub↔hub) | `6fbe44a8` | 19 / +626/-0 | success ✓ | READY |
+| **#115** | ENR | U4-M1 hubs | `10f1fed8` | 20 / +693/-40 | success ✓ | READY |
+| **#129** | CNR | U4-M2 keywords urgente→24h | `8740588f` | 13 / +22/-22 | success ✓ | READY |
+| **#116** | ENR | U4-M2 keywords | `44bdf771` | 5 / +5/-5 | success ✓ | READY |
+| **#130** | CNR | U4-M3 Vague A datation 2025→2026-07-01 | `bf34ad3f` | 38 / +38/-38 | success ✓ | READY |
+| **#117** | ENR | U4-M3 Vague A datation | `71650c14` | 39 / +39/-39 | success ✓ | READY |
+| **#131** | CNR | U4-M3 Vague B disclaimer aside | `4508bf02` | 31 / +92/-30 | success ✓ | READY |
+
+**Triangulation pre-merge** : `mergeStateStatus=CLEAN` + `mergeable=true` + base=main sur les 7 PRs (vérif API GitHub juste avant `gh pr merge`).
+
+**Triangulation post-merge** (curl prod) :
+- CNR `braganca.html` (hub concelho) : 200, BreadcrumbList ✓, section « Concelhos relacionados » ✓, datation 2026-07-01 ✓
+- ENR `braganca.html` (hub concelho) : 200, BreadcrumbList ✓, datation 2026-07-01 ✓
+- CNR `braganca.html` distrito : 200, BreadcrumbList ✓
+- ENR `braganca.html` distrito : 200, BreadcrumbList ✓
+
+### Leçons codées
+
+- **#340** (date) : `date` AVANT d'écrire toute date dans un artefact. Bugfix appliqué : `patch_meta_keywords.py:5` 04/07 → 03/07. Grep propagation = vide.
+- **#343** (memory-before-plan) : un ordre CEO qui contredit la mémoire = signal de réconciliation de rapport, pas re-travail de code. Skill créée : `~/.hermes/skills/memory-before-plan/SKILL.md`. Déclencheur émotionnel verrouillé : « le CEO me reprend → urgence de m'aligner » = précisément le moment où vérifier AVANT. Source : épisode 12h où j'ai planifié un re-travail M1 avant de vérifier que les PRs #128/#115 étaient déjà OPEN CLEAN.
+- **CEO leçon miroir** : « audit = commits + PRs ouvertes + trees, JAMAIS la branche active seule » — symétrie honnêteté CEO ↔ Hermes.
+
+### Suite (pendant attente CU/EU)
+
+U4 CNR + ENR = terminé. Prochain front à décider :
+- **Option A — U4 sur CU/EU** (hubs urgence) si pas fait. Vérifier baseline + scope avant vague.
+- **Option B — D-liste** autre priorité (M2 différenciation intent norte vs urgente reste à acter).
+
+À toi de trancher, je documente puis exécute.
+
