@@ -2240,6 +2240,1071 @@
       "source": "/case-study-fuga-braganca.html",
       "destination": "/",
       "statusCode": 301
+    },
+    {
+      "source": "/canalizador-torre-do-pinhão",
+      "destination": "/canalizador-torre-do-pinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bouça",
+      "destination": "/canalizador-bouca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-seixo-de-ansiães",
+      "destination": "/canalizador-seixo-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-pádua-freixo",
+      "destination": "/canalizador-padua-freixo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-brinço",
+      "destination": "/canalizador-brinco",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-pedro-velho",
+      "destination": "/canalizador-sao-pedro-velho",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-horta-da-vilariça",
+      "destination": "/canalizador-horta-da-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lebução",
+      "destination": "/canalizador-lebucao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-suçães",
+      "destination": "/canalizador-sucaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carção",
+      "destination": "/canalizador-carcao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carlão",
+      "destination": "/canalizador-carlao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-chãos",
+      "destination": "/canalizador-chaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-freixeda-do-torrão",
+      "destination": "/canalizador-freixeda-do-torrao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-caçarelhos",
+      "destination": "/canalizador-cacarelhos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carrazedo-do-alvão",
+      "destination": "/canalizador-carrazedo-do-alvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilarinho-de-agrochão",
+      "destination": "/canalizador-vilarinho-de-agrochao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-custóias",
+      "destination": "/canalizador-custoias",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-távora",
+      "destination": "/canalizador-tavora",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-martinho-do-peso",
+      "destination": "/canalizador-sao-martinho-do-peso",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-freixo-de-espada-à-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-castro-de-avelãs",
+      "destination": "/canalizador-castro-de-avelas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-parada-do-pinhão",
+      "destination": "/canalizador-parada-do-pinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-murçós",
+      "destination": "/canalizador-murcos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-múrias",
+      "destination": "/canalizador-murias",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-penha-de-águia",
+      "destination": "/canalizador-penha-de-aguia",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santa-leocádia",
+      "destination": "/canalizador-santa-leocadia",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bruçó",
+      "destination": "/canalizador-bruco",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-negrões",
+      "destination": "/canalizador-negroes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mourão",
+      "destination": "/canalizador-mourao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alvações-do-corgo",
+      "destination": "/canalizador-alvacoes-do-corgo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-deilão",
+      "destination": "/canalizador-deilao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cachão",
+      "destination": "/canalizador-cachao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-azêvo",
+      "destination": "/canalizador-azevo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-o-riós",
+      "destination": "/canalizador-o-rios",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-baçal",
+      "destination": "/canalizador-bacal",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-chãs",
+      "destination": "/canalizador-chas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-pedro-de-veiga-de-lila",
+      "destination": "/canalizador-sao-pedro-de-veiga-de-lila",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-fiães",
+      "destination": "/canalizador-fiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-campo-de-víboras",
+      "destination": "/canalizador-campo-de-viboras",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vila-boa-de-ousilhão",
+      "destination": "/canalizador-vila-boa-de-ousilhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carviçais",
+      "destination": "/canalizador-carvicais",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gandariças",
+      "destination": "/canalizador-gandaricas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-presandães",
+      "destination": "/canalizador-presandaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cidões",
+      "destination": "/canalizador-cidoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-maçores",
+      "destination": "/canalizador-macores",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mondrões",
+      "destination": "/canalizador-mondroes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gorgoço",
+      "destination": "/canalizador-gorgoco",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-cibrão",
+      "destination": "/canalizador-sao-cibrao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-avinhó",
+      "destination": "/canalizador-avinho",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-telões",
+      "destination": "/canalizador-teloes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-miguel-de-lobrigos",
+      "destination": "/canalizador-sao-miguel-de-lobrigos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lodões",
+      "destination": "/canalizador-lodoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-genísio",
+      "destination": "/canalizador-genisio",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-várzea-de-trevões",
+      "destination": "/canalizador-varzea-de-trevoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-arcossó",
+      "destination": "/canalizador-arcosso",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilar-chão",
+      "destination": "/canalizador-vilar-chao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-valença-do-douro",
+      "destination": "/canalizador-valenca-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bilhó",
+      "destination": "/canalizador-bilho",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carrazeda-de-ansiães",
+      "destination": "/canalizador-carrazeda-de-ansiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-abaças",
+      "destination": "/canalizador-abacas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santa-eugénia",
+      "destination": "/canalizador-santa-eugenia",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-paradela-de-guiães",
+      "destination": "/canalizador-paradela-de-guiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-poço-do-canto",
+      "destination": "/canalizador-poco-do-canto",
+      "statusCode": 301
+    },
+    {
+      "source": "/reparar-vs-substituir-canalização",
+      "destination": "/reparar-vs-substituir-canalizacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilarinho-de-samardã",
+      "destination": "/canalizador-vilarinho-de-samarda",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-quinta-de-são-pedro",
+      "destination": "/canalizador-quinta-de-sao-pedro",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-póvoa-de-agrações",
+      "destination": "/canalizador-povoa-de-agracoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-parâmio",
+      "destination": "/canalizador-paramio",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-julião-de-montenegro",
+      "destination": "/canalizador-sao-juliao-de-montenegro",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-palaçoulo",
+      "destination": "/canalizador-palacoulo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bairro-do-fundo-de-fomento-à-habitação",
+      "destination": "/canalizador-bairro-do-fundo-de-fomento-a-habitacao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-joão-da-pesqueira",
+      "destination": "/canalizador-sao-joao-da-pesqueira",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilarinho-de-são-romão",
+      "destination": "/canalizador-vilarinho-de-sao-romao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-paçô-de-sortes",
+      "destination": "/canalizador-paco-de-sortes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-quintela-de-lampaças",
+      "destination": "/canalizador-quintela-de-lampacas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mogrão",
+      "destination": "/canalizador-mograo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bouçoães",
+      "destination": "/canalizador-boucoaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-águas-frias",
+      "destination": "/canalizador-aguas-frias",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-pedro-de-agostém",
+      "destination": "/canalizador-sao-pedro-de-agostem",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-salvador",
+      "destination": "/canalizador-sao-salvador",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alfaião",
+      "destination": "/canalizador-alfaiao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-carçãozinho",
+      "destination": "/canalizador-carcaozinho",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-sapiãos",
+      "destination": "/canalizador-sapiaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-pópulo",
+      "destination": "/canalizador-populo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-samaiões",
+      "destination": "/canalizador-samaioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-ervões",
+      "destination": "/canalizador-ervoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-beça",
+      "destination": "/canalizador-beca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó",
+      "destination": "/canalizador-alijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gradíssimo",
+      "destination": "/canalizador-gradissimo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santo-aleixo-de-além-tâmega",
+      "destination": "/canalizador-santo-aleixo-de-alem-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santo-andré",
+      "destination": "/canalizador-santo-andre",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vila-chã-de-braciosa",
+      "destination": "/canalizador-vila-cha-de-braciosa",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-bouças",
+      "destination": "/canalizador-boucas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gralhós",
+      "destination": "/canalizador-gralhos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-faiões",
+      "destination": "/canalizador-faioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lixa-do-alvão",
+      "destination": "/canalizador-lixa-do-alvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-rebordãos",
+      "destination": "/canalizador-rebordaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gouvães-da-serra",
+      "destination": "/canalizador-gouvaes-da-serra",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-julião-de-palácios",
+      "destination": "/canalizador-sao-juliao-de-palacios",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-póvoa-de-lila",
+      "destination": "/canalizador-povoa-de-lila",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cortiços",
+      "destination": "/canalizador-corticos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-corriça",
+      "destination": "/canalizador-corrica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-calvão",
+      "destination": "/canalizador-calvao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-limãos",
+      "destination": "/canalizador-limaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lagoaça",
+      "destination": "/canalizador-lagoaca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-grijó",
+      "destination": "/canalizador-grijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-freixo-de-numão",
+      "destination": "/canalizador-freixo-de-numao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-samões",
+      "destination": "/canalizador-samoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-tomé-do-castelo",
+      "destination": "/canalizador-sao-tome-do-castelo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cabaços",
+      "destination": "/canalizador-cabacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santulhão",
+      "destination": "/canalizador-santulhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-castelãos",
+      "destination": "/canalizador-castelaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-friões",
+      "destination": "/canalizador-frioes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-fontão",
+      "destination": "/canalizador-fontao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-numão",
+      "destination": "/canalizador-numao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-ferreruela-de-tábara",
+      "destination": "/canalizador-ferreruela-de-tabara",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-marzagão",
+      "destination": "/canalizador-marzagao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alfândega-da-fé",
+      "destination": "/canalizador-alfandega-da-fe",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-gouvães-do-douro",
+      "destination": "/canalizador-gouvaes-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-faílde",
+      "destination": "/canalizador-failde",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-agrochão",
+      "destination": "/canalizador-agrochao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-castainço",
+      "destination": "/canalizador-castainco",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilar-de-maçada",
+      "destination": "/canalizador-vilar-de-macada",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-tabuaço",
+      "destination": "/canalizador-tabuaco",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santa-comba-de-vilariça",
+      "destination": "/canalizador-santa-comba-de-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-sardão",
+      "destination": "/canalizador-sardao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-senhora-da-penha-de-frança",
+      "destination": "/canalizador-senhora-da-penha-de-franca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-touça",
+      "destination": "/canalizador-touca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-limões",
+      "destination": "/canalizador-limoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santo-estêvão",
+      "destination": "/canalizador-santo-estevao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lamas-de-orelhão",
+      "destination": "/canalizador-lamas-de-orelhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-couços",
+      "destination": "/canalizador-coucos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-andrães",
+      "destination": "/canalizador-andraes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-águas-vivas",
+      "destination": "/canalizador-aguas-vivas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santo-adrião",
+      "destination": "/canalizador-santo-adriao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilela-do-tâmega",
+      "destination": "/canalizador-vilela-do-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-martinho-de-anta",
+      "destination": "/canalizador-sao-martinho-de-anta",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-mamede-de-ribatua",
+      "destination": "/canalizador-sao-mamede-de-ribatua",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-lourenço-de-ribapinhão",
+      "destination": "/canalizador-sao-lourenco-de-ribapinhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-tazém",
+      "destination": "/canalizador-tazem",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-urrós",
+      "destination": "/canalizador-urros",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-cristóvão-do-douro",
+      "destination": "/canalizador-sao-cristovao-do-douro",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilardevós",
+      "destination": "/canalizador-vilardevos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-póvoa-de-penela",
+      "destination": "/canalizador-povoa-de-penela",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-pedro-de-sarracenos",
+      "destination": "/canalizador-sao-pedro-de-sarracenos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-jerusalém-do-romeu",
+      "destination": "/canalizador-jerusalem-do-romeu",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-vilares-da-vilariça",
+      "destination": "/canalizador-vilares-da-vilarica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-grijó-de-parada",
+      "destination": "/canalizador-grijo-de-parada",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-vicente",
+      "destination": "/canalizador-sao-vicente",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-quirás",
+      "destination": "/canalizador-quiras",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-ousilhão",
+      "destination": "/canalizador-ousilhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-frança",
+      "destination": "/canalizador-franca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-cedães",
+      "destination": "/canalizador-cedaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-jomil",
+      "destination": "/canalizador-sao-jomil",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-paços",
+      "destination": "/canalizador-pacos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-água-revés",
+      "destination": "/canalizador-agua-reves",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-pedro-de-vale-do-conde",
+      "destination": "/canalizador-sao-pedro-de-vale-do-conde",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-chavães",
+      "destination": "/canalizador-chavaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mouçós",
+      "destination": "/canalizador-moucos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-guiães",
+      "destination": "/canalizador-guiaes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-fiães-do-tâmega",
+      "destination": "/canalizador-fiaes-do-tamega",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-murça",
+      "destination": "/canalizador-murca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-martinho-de-angueira",
+      "destination": "/canalizador-sao-martinho-de-angueira",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-milhão",
+      "destination": "/canalizador-milhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-escalhão",
+      "destination": "/canalizador-escalhao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-lanção",
+      "destination": "/canalizador-lancao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santa-maria-de-émeres",
+      "destination": "/canalizador-santa-maria-de-emeres",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-ardãos",
+      "destination": "/canalizador-ardaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-açoreira",
+      "destination": "/canalizador-acoreira",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-trevões",
+      "destination": "/canalizador-trevoes",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-são-joão-da-corveira",
+      "destination": "/canalizador-sao-joao-da-corveira",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-santo-antónio-de-monforte",
+      "destination": "/canalizador-santo-antonio-de-monforte",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-fermentãos",
+      "destination": "/canalizador-fermentaos",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-castelo-de-balsamão",
+      "destination": "/canalizador-castelo-de-balsamao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-quintã-de-pero-martins",
+      "destination": "/canalizador-quinta-de-pero-martins",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-urgente",
+      "destination": "/canalizador-meda-urgente",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-reparacao-esquentador",
+      "destination": "/canalizador-meda-reparacao-esquentador",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-aceita-cartao",
+      "destination": "/canalizador-alijo-aceita-cartao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-preco-justo",
+      "destination": "/canalizador-meda-preco-justo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-orcamento-gratis",
+      "destination": "/canalizador-alijo-orcamento-gratis",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-confianca",
+      "destination": "/canalizador-meda-confianca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-fossa-septica",
+      "destination": "/canalizador-meda-fossa-septica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-noite",
+      "destination": "/canalizador-meda-noite",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-trabalha-feriado",
+      "destination": "/canalizador-alijo-trabalha-feriado",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-fuga-agua",
+      "destination": "/canalizador-alijo-fuga-agua",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-perto-de-mim-mêda",
+      "destination": "/canalizador-perto-de-mim-meda",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-barato",
+      "destination": "/canalizador-meda-barato",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-orcamento-gratis",
+      "destination": "/canalizador-meda-orcamento-gratis",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-24-horas",
+      "destination": "/canalizador-meda-24-horas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-urgente",
+      "destination": "/canalizador-alijo-urgente",
+      "statusCode": 301
+    },
+    {
+      "source": "/quanto-custa-canalizador-alijó",
+      "destination": "/quanto-custa-canalizador-alijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-avaliar-online",
+      "destination": "/canalizador-alijo-avaliar-online",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-recomendado",
+      "destination": "/canalizador-meda-recomendado",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-trabalha-feriado",
+      "destination": "/canalizador-meda-trabalha-feriado",
+      "statusCode": 301
+    },
+    {
+      "source": "/quanto-custa-canalizador-mêda",
+      "destination": "/quanto-custa-canalizador-meda",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-avaliar-online",
+      "destination": "/canalizador-meda-avaliar-online",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-desentupimento",
+      "destination": "/canalizador-alijo-desentupimento",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-fuga-agua",
+      "destination": "/canalizador-meda-fuga-agua",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-emergencia-domingo",
+      "destination": "/canalizador-alijo-emergencia-domingo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-aceita-cartao",
+      "destination": "/canalizador-meda-aceita-cartao",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-preco-justo",
+      "destination": "/canalizador-alijo-preco-justo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-desentupimento",
+      "destination": "/canalizador-meda-desentupimento",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-perto-de-mim-alijó",
+      "destination": "/canalizador-perto-de-mim-alijo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-fossa-septica",
+      "destination": "/canalizador-alijo-fossa-septica",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-domingo",
+      "destination": "/canalizador-alijo-domingo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-emergencia-domingo",
+      "destination": "/canalizador-meda-emergencia-domingo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-24-horas",
+      "destination": "/canalizador-alijo-24-horas",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-noite",
+      "destination": "/canalizador-alijo-noite",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-barato",
+      "destination": "/canalizador-alijo-barato",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-confianca",
+      "destination": "/canalizador-alijo-confianca",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-mêda-domingo",
+      "destination": "/canalizador-meda-domingo",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-recomendado",
+      "destination": "/canalizador-alijo-recomendado",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalizador-alijó-reparacao-esquentador",
+      "destination": "/canalizador-alijo-reparacao-esquentador",
+      "statusCode": 301
     }
   ]
 }
