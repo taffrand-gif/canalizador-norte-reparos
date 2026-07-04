@@ -1722,172 +1722,167 @@
       "statusCode": 301
     },
     {
-      "source": "/imprensa.html",
-      "destination": "/sobre",
-      "statusCode": 301
-    },
-    {
       "source": "/tecnologia-roleak-deteccao-gas",
       "destination": "/tecnologia-roleak-acustica",
       "statusCode": 301
     },
     {
-      "source": "/blog/contratar-canalizador-2026.html",
+      "source": "/blog/contratar-canalizador-2026",
       "destination": "/top-10-razoes-contratar-canalizador",
       "statusCode": 301
     },
     {
-      "source": "/blog/guia-completo-canalizacao-casa-antiga.html",
+      "source": "/blog/guia-completo-canalizacao-casa-antiga",
       "destination": "/guia-completo-canalizacao-casa-antiga-portugal",
       "statusCode": 301
     },
     {
-      "source": "/amazon.html",
+      "source": "/amazon",
       "destination": "/",
       "statusCode": 301
     },
     {
-      "source": "/zonas-de-intervencao.html",
+      "source": "/zonas-de-intervencao",
       "destination": "/zona-intervencao",
       "statusCode": 301
     },
     {
-      "source": "/fugas-agua.html",
+      "source": "/fugas-agua",
       "destination": "/fuga-agua",
       "statusCode": 301
     },
     {
-      "source": "/desentupimentos.html",
+      "source": "/desentupimentos",
       "destination": "/desentupimento",
       "statusCode": 301
     },
     {
-      "source": "/tuto.html",
+      "source": "/tuto",
       "destination": "/tuto/",
       "statusCode": 301
     },
     {
-      "source": "/blog.html",
+      "source": "/blog",
       "destination": "/blog/",
       "statusCode": 301
     },
     {
-      "source": "/concelhos/bragan%C3%A7a.html",
+      "source": "/concelhos/bragan%C3%A7a",
       "destination": "/concelhos/braganca",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--obrigatoria.html",
+      "source": "/blog/certificacao--obrigatoria",
       "destination": "/blog/certificacao-obrigatoria",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--tudo-saber.html",
+      "source": "/blog/certificacao--tudo-saber",
       "destination": "/blog/certificacao-tudo-saber",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao-eletrica--guia.html",
+      "source": "/blog/certificacao-eletrica--guia",
       "destination": "/blog/certificacao-eletrica-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--alfandega-fe.html",
+      "source": "/blog/certificacao--alfandega-fe",
       "destination": "/blog/certificacao-alfandega-fe",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--alfandega-fe-guia.html",
+      "source": "/blog/certificacao--alfandega-fe-guia",
       "destination": "/blog/certificacao-alfandega-fe-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--algoso.html",
+      "source": "/blog/certificacao--algoso",
       "destination": "/blog/certificacao-algoso",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--alijo.html",
+      "source": "/blog/certificacao--alijo",
       "destination": "/blog/certificacao-alijo",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--alijo-guia.html",
+      "source": "/blog/certificacao--alijo-guia",
       "destination": "/blog/certificacao-alijo-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--armamar.html",
+      "source": "/blog/certificacao--armamar",
       "destination": "/blog/certificacao-armamar",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--boticas.html",
+      "source": "/blog/certificacao--boticas",
       "destination": "/blog/certificacao-boticas",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--boticas-guia.html",
+      "source": "/blog/certificacao--boticas-guia",
       "destination": "/blog/certificacao-boticas-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--braganca.html",
+      "source": "/blog/certificacao--braganca",
       "destination": "/blog/certificacao-braganca",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--braganca-guia.html",
+      "source": "/blog/certificacao--braganca-guia",
       "destination": "/blog/certificacao-braganca-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--carrazeda-ansiaes.html",
+      "source": "/blog/certificacao--carrazeda-ansiaes",
       "destination": "/blog/certificacao-carrazeda-ansiaes",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--carrazeda-ansiaes-guia.html",
+      "source": "/blog/certificacao--carrazeda-ansiaes-guia",
       "destination": "/blog/certificacao-carrazeda-ansiaes-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--chaves.html",
+      "source": "/blog/certificacao--chaves",
       "destination": "/blog/certificacao-chaves",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--chaves-guia.html",
+      "source": "/blog/certificacao--chaves-guia",
       "destination": "/blog/certificacao-chaves-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--duas-igrejas.html",
+      "source": "/blog/certificacao--duas-igrejas",
       "destination": "/blog/certificacao-duas-igrejas",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--foz-coa.html",
+      "source": "/blog/certificacao--foz-coa",
       "destination": "/blog/certificacao-foz-coa",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--freixo-espada-cinta.html",
+      "source": "/blog/certificacao--freixo-espada-cinta",
       "destination": "/blog/certificacao-freixo-espada-cinta",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--freixo-espada-cinta-guia.html",
+      "source": "/blog/certificacao--freixo-espada-cinta-guia",
       "destination": "/blog/certificacao-freixo-espada-cinta-guia",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--macedo-cavaleiros.html",
+      "source": "/blog/certificacao--macedo-cavaleiros",
       "destination": "/blog/certificacao-macedo-cavaleiros",
       "statusCode": 301
     },
     {
-      "source": "/blog/certificacao--macedo-cavaleiros-guia.html",
+      "source": "/blog/certificacao--macedo-cavaleiros-guia",
       "destination": "/blog/certificacao-macedo-cavaleiros-guia",
       "statusCode": 301
     },
@@ -2207,17 +2202,7 @@
       "statusCode": 301
     },
     {
-      "source": "/marcas-grohe-roca-junkers.html",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
       "source": "/parceiros",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/parceiros.html",
       "destination": "/",
       "statusCode": 301
     },
@@ -2227,17 +2212,7 @@
       "statusCode": 301
     },
     {
-      "source": "/programa-fidelidade.html",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
       "source": "/case-study-fuga-braganca",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/case-study-fuga-braganca.html",
       "destination": "/",
       "statusCode": 301
     },
