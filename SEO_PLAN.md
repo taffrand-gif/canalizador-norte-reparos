@@ -1533,3 +1533,11 @@ U4 CNR + ENR = terminé. Prochain front à décider :
 - **#360** Dry-run script avec `set -u` + side-effects peut créer markers parasites.
 - **#361** `ignoreCommand` se met dans `vercel.json` (PAS API Project Settings).
 - **OOM Node sur vercel.json >80KB** (Vite 1500+ rewrites) : contournement = API REST Vercel (Deploy Hooks) ou attendre 4GB `--max-old-space-size` (insuffisant sur le binaire actuel).
+
+## 04/07 nuit — CEO/Claude (sommeil Hermes) : M8/M10/M11 + deploys + GSC
+
+- **Deploy prod débloqué via API gitSource** (leçon #353) — 4 sites verts : robots 2 lignes, sitemap-plain complet, sitemap.xml 0 accents.
+- **PR M11 #137 (draft, GO Filipe)** : sources redirects percent-encodées (les sources unicode ne matchaient jamais au runtime, leçon #352) + redirects manquants des URLs accentuées M6.
+- **PR M8 #138 (draft, GO Filipe)** : `cleanUrls: true` — soft-200 catchall mesuré (leçons #354/#355). **Merger #138 AVANT ou AVEC #137.**
+- GSC : sitemap.xml + sitemap-plain soumis et vérifiés (lastSubmitted 04/07 01:07-01:17).
+- Reste : M7 canonicals .html→extensionless (scope mesuré : CU 150 / EU 2084 / CNR 1628 / ENR 1603 fichiers) = vagues Hermes.
