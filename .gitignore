@@ -121,6 +121,10 @@ client/src/components/.backups/
 *.tar.gz
 *.zip
 
+# Sitemap dérivé (P0 fix Option C) — source unique = TOP-LEVEL public/sitemap.xml
+# Régénéré au build par scripts/sync-client-sitemap.mjs (hook prebuild)
+client/public/sitemap.xml
+
 # Audit Tâche 2 (temporaires)
 tache2-1-*.py
 audit-2-1-*.py
