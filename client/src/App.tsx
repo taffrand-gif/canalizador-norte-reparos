@@ -99,6 +99,8 @@ const ProblemasCanalizacaoInverno = lazy(() => import("@/pages/blog/ProblemasCan
 const SifaoEntupidoComoLimpar = lazy(() => import("@/pages/blog/SifaoEntupidoComoLimpar"));
 const TorneiraAPingarComoReparar = lazy(() => import("@/pages/blog/TorneiraAPingarComoReparar"));
 const CanalizacaoComMauCheiro = lazy(() => import("@/pages/blog/CanalizacaoComMauCheiro"));
+const QuantoCustaCanalizadorHoraPortugal = lazy(() => import("@/pages/blog/QuantoCustaCanalizadorHoraPortugal"));
+const PrecoCanalizadorDesentupimentoUrgente = lazy(() => import("@/pages/blog/PrecoCanalizadorDesentupimentoUrgente"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
@@ -210,6 +212,8 @@ function Router() {
  <Route path={"/blog/sifao-entupido-como-limpar"} component={SifaoEntupidoComoLimpar} />
  <Route path={"/blog/torneira-a-pingar-como-reparar"} component={TorneiraAPingarComoReparar} />
  <Route path={"/blog/canalizacao-com-mau-cheiro"} component={CanalizacaoComMauCheiro} />
+ <Route path={"/blog/quanto-custa-canalizador-hora-portugal"} component={QuantoCustaCanalizadorHoraPortugal} />
+ <Route path={"/blog/preco-canalizador-desentupimento-urgente"} component={PrecoCanalizadorDesentupimentoUrgente} />
  <Route path={"/faq"} component={FAQPage} />
  <Route path={"/zonas"} component={Zonas} />
  <Route path={"/transparence-prix"} component={TransparencePrix} />
