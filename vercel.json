@@ -78,6 +78,10 @@
       "destination": "/contactos.html"
     },
     {
+      "source": "/contacto",
+      "destination": "/contactos.html"
+    },
+    {
       "source": "/sobre",
       "destination": "/sobre.html"
     },
