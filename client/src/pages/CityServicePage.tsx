@@ -1,6 +1,7 @@
 import { useRoute } from 'wouter';
 import { getCityServiceData } from '@/../../shared/cityServiceMatrix';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
+import { getLocalContext } from '@/../../shared/localContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedServices from '@/components/RelatedServices';
@@ -16,16 +17,23 @@ export default function CityServicePage() {
  const { city, service } = pageData;
  const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
+ // Bloc local unique (DIFFÉRENCIATION pertinence, audit GSC 11/07/2026)
+ // Rendu seulement pour les 10 villes stratégiques money — dégradation gracieuse pour les autres
+ const localContext = getLocalContext(city.slug);
  useEffect(() => {
- document.title = `${service.name} em ${city.name} | ${ACTIVE_CONFIG.businessName}`;
- // Meta description
+ document.title = localContext
+ ? `${service.name} em ${city.name} — ${localContext.freguesias.length} freguesias cobertas | ${ACTIVE_CONFIG.businessName}`
+ : `${service.name} em ${city.name} | ${ACTIVE_CONFIG.businessName}`;
+ // Meta description — intègre l'answer-first si dispo (levier featured snippet)
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', `${service.name} em ${city.name}. Serviço profissional 24h. Sem compromisso. Ligue ${ACTIVE_CONFIG.phone}`);
+ meta.setAttribute('content', localContext
+ ? `${localContext.answerFirst} Ligue ${ACTIVE_CONFIG.phone}`
+ : `${service.name} em ${city.name}. Serviço profissional 24h. Sem compromisso. Ligue ${ACTIVE_CONFIG.phone}`);
  // Canonical URL
  const canonicalUrl = `https://${ACTIVE_CONFIG.domain}/${params.service}-${params.city}`;
  let canonical = document.querySelector('link[rel="canonical"]');
@@ -35,8 +43,8 @@ export default function CityServicePage() {
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', canonicalUrl);
- }, [city.name, service.name, params.service, params.city]);
- const serviceSchema = {
+ }, [city.name, city.slug, service.name, params.service, params.city, localContext]);
+ const serviceSchema: any = {
  "@context": "https://schema.org",
  "@type": isPlumber ? "Plumber" : "Electrician",
  "name": `${service.name} em ${city.name}`,
@@ -45,14 +53,13 @@ export default function CityServicePage() {
  "name": ACTIVE_CONFIG.businessName,
  "telephone": ACTIVE_CONFIG.phone
  },
- "areaServed": {
- "@type": "City",
- "name": city.name
- },
+ "areaServed": localContext
+ ? { "@type": "City", "name": city.name, "containsPlace": localContext.freguesias.map(f => ({ "@type": "AdministrativeArea", "name": f })) }
+ : { "@type": "City", "name": city.name },
  "priceRange": "€€",
- "description": `${service.description} em ${city.name}`
+ "description": `${service.description} em ${city.name}. Cobertura: ${localContext ? localContext.freguesias.length + ' freguesias em ' + city.name : city.name + ' e arredores'}`
  };
- const faqItems = generateFAQs(service, city, isPlumber);
+ const faqItems = generateFAQs(service, city, isPlumber, localContext);
  // Breadcrumbs
  const breadcrumbItems = [
  { label: 'Home', href: '/' },
@@ -80,7 +87,9 @@ export default function CityServicePage() {
  {service.name} em {city.name}
  </h1>
  <p className="text-xl mb-8">
- {service.description}. Serviço profissional 24h/7d em {city.name}.
+ {localContext
+ ? localContext.heroSubtitle
+ : `${service.description}. Serviço profissional 24h/7d em ${city.name}.`}
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -99,6 +108,45 @@ export default function CityServicePage() {
  </div>
  </div>
  </section>
+ {/* Local Context — DIFFÉRENCIATION PERTINENCE (10 villes stratégiques money)
+ * Bloc local unique: freguesias desservidas, eixo rodoviário, tipo de habitat/rede,
+ * distância desde base Macedo. Aucun chute pour les 90+ autres pages (dégradation gracieuse). */}
+ {localContext && (
+ <section className="py-14 px-4 bg-white border-t-4" style={{ borderColor: accentColor }}>
+ <div className="max-w-4xl mx-auto">
+ <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+ {service.name} em {city.name} — cobertura local
+ </h2>
+ {/* Answer-first déclaratif (levier featured snippet Google) */}
+ <p className="text-lg font-semibold text-gray-800 mb-6 leading-relaxed" data-answer-first="true">
+ {localContext.answerFirst}
+ </p>
+ {/* Paragraphe de contexte — données vérifiables (R11 zero invenção) */}
+ <p className="text-gray-700 leading-relaxed mb-6">
+ {localContext.localParagraph}
+ </p>
+ {/* Freguesias desservies (lien interne vers la page freguesia + maillage local) */}
+ <div className="bg-gray-50 rounded-lg p-5">
+ <h3 className="text-sm font-bold text-gray-700 uppercase tracking-wide mb-3">
+ Freguesias cobertas em {city.name} ({localContext.freguesias.length}):
+ </h3>
+ <div className="flex flex-wrap gap-2">
+ {localContext.freguesias.map((f) => (
+ <span
+ key={f}
+ className="inline-block text-sm bg-white border border-gray-300 px-3 py-1 rounded-full text-gray-700"
+ >
+ 📍 {f}
+ </span>
+ ))}
+ </div>
+ <p className="text-xs text-gray-500 mt-4">
+ Deslocação desde Macedo de Cavaleiros (base operacional): <strong>{localContext.distanceFromBase}</strong>.
+ </p>
+ </div>
+ </div>
+ </section>
+ )}
  {/* Pricing Section */}
  <section className="py-16 px-4 bg-white">
  <div className="max-w-4xl mx-auto">
@@ -113,7 +161,10 @@ export default function CityServicePage() {
  </span>
  </div>
  <p className="text-gray-600 mb-6">
- Preço base para {service.name.toLowerCase()} em {city.name}. Orçamento final após diagnóstico no local.
+ {localContext
+ ? localContext.pricingHook
+ : `Preço base para ${service.name.toLowerCase()} em ${city.name}. Orçamento final após diagnóstico no local.`}
+ {' '}
  Oferecemos também serviços de{' '}
  <a href={`/desentupimentos-${params.city}`} className="text-blue-600 hover:underline">desentupimentos</a>,{' '}
  <a href={`/esquentador-${params.city}`} className="text-blue-600 hover:underline">esquentadores</a> e{' '}
@@ -177,7 +228,7 @@ export default function CityServicePage() {
  </>
  );
 }
-function generateFAQs(service: any, city: any, isPlumber: boolean) {
+function generateFAQs(service: any, city: any, isPlumber: boolean, localContext: any) {
  const baseFAQs = [
  {
  question: `Quanto custa ${service.name.toLowerCase()} em ${city.name}?`,
@@ -192,6 +243,13 @@ function generateFAQs(service: any, city: any, isPlumber: boolean) {
  answer: `O tempo de resposta para ${city.name} é normalmente entre 30 a A confirmar, dependendo da localização exata e disponibilidade. Para urgências, priorizamos sempre a rapidez.`
  }
  ];
+ // FAQ answer-first unique par ville (10 stratégiques money) — levier featured snippet
+ if (localContext) {
+ baseFAQs.push({
+ question: `Quais freguesias de ${city.name} são cobertas pelo serviço de ${service.name.toLowerCase()}?`,
+ answer: localContext.answerFirst + ` Cobrimos ${localContext.freguesias.length} freguesias em ${city.name}: ${localContext.freguesias.slice(0, 6).join(', ')}${localContext.freguesias.length > 6 ? ` e outras` : ''}. Deslocação desde Macedo de Cavaleiros: ${localContext.distanceFromBase}.`
+ });
+ }
  return baseFAQs;
 }
 function NotFoundContent() {
