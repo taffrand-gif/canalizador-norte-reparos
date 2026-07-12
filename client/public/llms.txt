@@ -1,84 +1,68 @@
-# Norte Reparos — Canalizador (Instalação) em Trás-os-Montes
+# Norte Reparos — Canalizador em Trás-os-Montes
 
-> Serviços de canalização programada e instalação em Trás-os-Montes, Portugal.
-> Site: https://canalizador-norte-reparos.pt · Telefone / WhatsApp: +351 928 484 451
-> Última atualização: 2026-07-01
+> Canalização, instalação, remodelação, manutenção e diagnóstico de fugas em Trás-os-Montes, com orçamento por escrito antes de qualquer intervenção.
 
-## Identidade
-- **Marca:** Norte Reparos (empresa técnica multi-sites)
-- **Serviço:** Canalizador para instalação, remodelação, certificação e manutenção programada
-- **Experiência:** mais de 20 anos de atividade na região de Trás-os-Montes, pelo técnico Filipe Bragança
-- **Zona de intervenção:** Trás-os-Montes e Douro (raio ~130 km autour de Macedo de Cavaleiros)
-- **Horário:** Atendimento em horário comercial (segunda a sexta). Para urgências 24h, ver canalizador-urgente.pt
-- **Contacto:** +351 928 484 451
-- **Idioma:** PT-PT apenas
+Site oficial: https://canalizador-norte-reparos.pt/
+Telefone e WhatsApp: +351 928 484 451
+Idioma: português europeu (pt-PT)
+Última atualização: 2026-07-12
 
-## Sobre a nossa empresa
-A Norte Reparos é uma empresa técnica profissional que atua na região de Trás-os-Montes. Para **urgências 24h**, visite o nosso site dedicado canalizador-urgente.pt — a nossa equipa garante a continuidade do serviço.
+## Informação essencial
 
-## Serviços de instalação
-- Instalação sanitária completa (casas de banho, cozinhas)
-- Remodelação de canalização
-- Substituição de canalização antiga (chumbo, ferro galvanizado)
-- Instalação de esquentadores e termoacumuladores
-- Sistemas de rega e drenagem
-- Instalação de bombas e autoclismos
-- Ligação de electrodomésticos (máquinas de lavar, loiça)
-- Preparação da canalização para o inverno
+- Marca: Norte Reparos
+- Atividade: serviços de canalização em Trás-os-Montes
+- Área de intervenção: concelhos dos distritos de Bragança e Vila Real e zonas abrangidas pelo site
+- Processo comercial: diagnóstico quando necessário e orçamento por escrito antes do início do trabalho
+- Preço-hora de referência publicado: 65 EUR/h; deslocação comunicada conforme a zona aplicável
+- Urgências: consultar o domínio dedicado https://canalizador-urgente.pt/
 
-## Serviços programados
-- Orçamento detalhado em 48h
-- Garantia por escrito (mão de obra e materiais)
-- Fatura com NIF emitida no final de cada trabalho
-- Relatório técnico disponível para seguradoras
-- Contratos anuais de manutenção para condomínios e empresas
+## Páginas principais
 
-## Cobertura
-Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Freixo de Espada à Cinta, Vimioso, Valpaços, Murça, Lamego, Peso da Régua, Alijó, Sabrosa.
+- [Página inicial](https://canalizador-norte-reparos.pt/): apresentação do serviço de canalização, contacto e compromisso de orçamento por escrito.
+- [Serviços de canalização](https://canalizador-norte-reparos.pt/servicos): visão geral dos serviços reais de canalização e das páginas especializadas.
+- [Pedir orçamento](https://canalizador-norte-reparos.pt/orcamento): formulário e contacto por WhatsApp para descrever o trabalho e pedir proposta escrita.
+- [Contactos](https://canalizador-norte-reparos.pt/contactos): telefone, WhatsApp e canais de contacto da Norte Reparos.
+- [Sobre a Norte Reparos](https://canalizador-norte-reparos.pt/sobre): apresentação da empresa, da equipa e da cobertura regional.
+- [Zona de intervenção](https://canalizador-norte-reparos.pt/zona-intervencao): localidades e organização da cobertura por zonas.
+- [Perguntas frequentes](https://canalizador-norte-reparos.pt/perguntas-frequentes): respostas sobre serviços, orçamento, deslocação e contacto.
+- [Avaliações de clientes](https://canalizador-norte-reparos.pt/avaliacoes-clientes): página transparente; as primeiras avaliações verificadas ainda estão a ser recolhidas.
 
-## Equipamento profissional
-- Ridgid FlexShaft K9-102 (desentupimento mecânico industrial)
-- Câmara de inspeção CCTV
-- Câmara térmica FLIR
-- ROLeak Aqua 3Plus (deteção acústica de fugas)
-- Kit fluorosceína UV
+## Serviços
 
-## Marcas de materiais (verídicas)
-Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval
+- [Desentupimentos profissionais](https://canalizador-norte-reparos.pt/desentupimentos-profissionais-tras-os-montes): desobstrução mecânica de sanitas, ralos, esgotos e tubagens, com inspeção quando necessária.
+- [Deteção e reparação de fugas](https://canalizador-norte-reparos.pt/detecao-fugas-agua): localização de fugas com diagnóstico térmico ou acústico e reparação localizada.
+- [Instalação de casa de banho](https://canalizador-norte-reparos.pt/instalacao-casa-banho-completa): instalação sanitária e canalização para casas de banho.
+- [Canalização nova](https://canalizador-norte-reparos.pt/canalizacao-nova-construcao): redes de água e esgoto para construção e remodelação.
+- [Manutenção preventiva](https://canalizador-norte-reparos.pt/manutencao-preventiva-canalizacao): inspeção da rede, pressão, válvulas, tubagens e pontos de consumo.
+- [Inspeção de canalização por câmara](https://canalizador-norte-reparos.pt/camera-inspecao-canalizacao): observação interior de tubagens para localizar obstruções ou danos.
 
-## Perguntas frequentes
+## Equipamento documentado
 
-**Fazem orçamentos grátis?**
-Sim, orçamento por escrito em 48h sem compromisso.
+- [Ridgid FlexShaft K9-102](https://canalizador-norte-reparos.pt/tecnologia-ridgid-k9-102-desentupimento): equipamento mecânico para desentupimento de tubagens.
+- [Câmara térmica FLIR](https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas): apoio à localização não invasiva de fugas ocultas.
+- [ROLeak Aqua 3Plus](https://canalizador-norte-reparos.pt/tecnologia-roleak-acustica): deteção acústica de fugas em tubagens.
 
-**Qual é o prazo de garantia?**
-Garantia por escrito, conforme âmbito dos trabalhos. Detalhes no orçamento.
+## Principais páginas locais
 
-**Trabalham com que marcas?**
-Trabalhamos com marcas líderes de mercado: Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval.
+- [Canalizador em Bragança](https://canalizador-norte-reparos.pt/canalizador-braganca): instalação, remodelação e canalização no concelho e distrito de Bragança.
+- [Canalizador em Mirandela](https://canalizador-norte-reparos.pt/canalizador-mirandela): serviços de canalização e cobertura local em Mirandela.
+- [Canalizador em Vila Real](https://canalizador-norte-reparos.pt/canalizador-vila-real): serviços de canalização e cobertura local em Vila Real.
+- [Canalizador em Chaves](https://canalizador-norte-reparos.pt/canalizador-chaves): serviços de canalização e cobertura local em Chaves.
+- [Canalizador em Miranda do Douro](https://canalizador-norte-reparos.pt/canalizador-miranda-do-douro): serviços de canalização e cobertura local no Planalto Mirandês.
+- [Canalizador em Mogadouro](https://canalizador-norte-reparos.pt/canalizador-mogadouro): serviços de canalização e cobertura local em Mogadouro.
+- [Canalizador em Vinhais](https://canalizador-norte-reparos.pt/canalizador-vinhais): serviços de canalização e cobertura local em Vinhais.
+- [Canalizador em Lamego](https://canalizador-norte-reparos.pt/canalizador-lamego): serviços de canalização e cobertura local em Lamego.
 
-**Emitem fatura?**
-Sim, fatura com NIF em todos os trabalhos. Relatório técnico disponível para seguradoras.
+## Recursos técnicos
 
-**Atendem urgências 24h?**
-Não — para urgências 24h, visite canalizador-urgente.pt · +351 928 484 451 (mesma equipa, resposta imediata).
-
-**Cobrem que zona?**
-Trás-os-Montes e Douro, raio ~130 km em torno de Macedo de Cavaleiros.
-
-**Falam sempre com a mesma pessoa?**
-Sim — fala sempre com a mesma pessoa da nossa equipa, garantimos acompanhamento personalizado.
+- [Detetar uma fuga sem partir paredes](https://canalizador-norte-reparos.pt/blog/como-detectar-fuga-agua-sem-partir-paredes): sinais, diagnóstico e métodos não invasivos.
+- [Reparar um cano furado na parede](https://canalizador-norte-reparos.pt/blog/cano-furado-parede-reparar): identificação e reparação localizada de tubagem embutida.
+- [Canalização em casas de pedra e granito](https://canalizador-norte-reparos.pt/blog/canalizacao-casa-pedra-granito): cuidados para instalação e renovação em construções tradicionais.
+- [Manutenção de esquentador](https://canalizador-norte-reparos.pt/blog/manutencao-esquentador-guia): verificações e manutenção do equipamento de água quente.
+- [Preparar a canalização para o inverno](https://canalizador-norte-reparos.pt/blog/preparar-canalizacao-inverno-tras-os-montes): isolamento, drenagem e prevenção de danos pelo frio.
 
 ## Contacto
-- **Norte Reparos — Canalizador (Instalação)**
-- Telefone / WhatsApp: **+351 928 484 451**
-- Site: https://canalizador-norte-reparos.pt
-- Horário: segunda a sexta, em horário comercial
 
-## Também prestamos serviços de eletricista (instalação)
-Para instalação elétrica: eletricista-norte-reparos.pt · +351 932 321 892
-
-## Notas editoriais
-- Pronom usado: "nossa equipa", "garantimos", "contacte-nos" (verrouillé 30/06)
-- Zero conteúdo inventado (R11): preços reais sob orçamento, equipamento real
-- Géo-neutre: sem streetAddress precisa
+Norte Reparos — Canalizador
+Telefone e WhatsApp: +351 928 484 451
+Website: https://canalizador-norte-reparos.pt/
