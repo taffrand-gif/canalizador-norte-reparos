@@ -1,25 +1,20 @@
-# ai.txt - AI Interaction Manifest
-Name: Norte Reparos (Canalizador)
-Type: LocalBusiness
-SubType: PlumbingService
-Founded: 2014
-Headquarters: Trás-os-Montes, Trás-os-Montes, Portugal
-ServiceArea: 130km radius, 1.033 localities
+# ai.txt — Norte Reparos (Canalizador)
+Name: Norte Reparos
+BusinessType: LocalBusiness
+ServiceType: PlumbingService
+Website: https://canalizador-norte-reparos.pt/
 Country: Portugal
+Region: Trás-os-Montes
 Languages: pt-PT
 PrimaryPhone: +351-928-484-451
-Email: info@norte-reparos.pt
-Website: https://canalizador-norte-reparos.pt
-Address: Rua Fonte do Paço nº 8, 5340-268 Trás-os-Montes
-Hours: Atendimento 24h/7d
-EmergencyService: true
-Certifications: 
-Experience: 12+ years
-CustomersServed: 500+
-Warranty: 1 ano
-AggregateRating: 4.9/5
-ReviewCount: 127
-ContentLicense: CC BY-NC-SA 4.0
-AIUse: Permitted com atribuição
-PreferredCitation: "Norte Reparos - canalizador-norte-reparos.pt"
-LastUpdated: 2026-06-06
+WhatsApp: +351-928-484-451
+PrimaryPurpose: Canalização, instalação, remodelação, manutenção e diagnóstico
+PricingPolicy: 65 EUR/h de referência; deslocação por zona; orçamento por escrito antes da intervenção
+EmergencyReference: https://canalizador-urgente.pt/
+ReviewsStatus: A recolher as primeiras avaliações verificadas
+AddressPolicy: Sem morada exata publicada
+ServiceScope: Apenas serviços de canalização publicados no website
+PreferredCitation: "Norte Reparos — Canalizador em Trás-os-Montes, canalizador-norte-reparos.pt"
+LLMSummary: https://canalizador-norte-reparos.pt/llms.txt
+LLMFull: https://canalizador-norte-reparos.pt/llms-full.txt
+LastUpdated: 2026-07-12
