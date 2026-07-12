@@ -499,6 +499,7 @@ Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phas
 ---
 
 ## 🔄 HISTORIQUE — Journal des actions
+| 2026-07-12 | Hermes (kanban t_6571aa09) | **Maillage w2a propre CNR post-w2b** | Ajout de 3 liens contextuels extensionless dans le bloc « Artigos Relacionados » de 10 blogs, soit 30 liens. Branche neuve depuis main frais, lock-check des PRs ouvertes = aucune vague concurrente. | Régénération sérialisée après fermeture de la première w2a ; cibles 200 direct, présentes au sitemap, sans noindex et hors blacklist doorway. | 10 fichiers blog + SEO_PLAN ; 0 merge main. | ⏳ PR review |
 
 > **Format OBLIGATOIRE pour toute IA / agent / harnais consignant une action** :
 > ```
