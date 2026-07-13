@@ -1552,3 +1552,18 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Fossiles pré-migration purgés** (leçon #361) : ENR sitemap servi était 8 URLs norte-reparos.com → vrai sitemap 3860 locs extensionless (PR #128) · CNR 6 sitemaps fossiles 1263 URLs ancien domaine + security.txt (PR #141) · 98 HTML cross-link « Precisa de canalizador? » → domaine mort réparés (ENR #128, EU #109). GUARD-4-SITES : 0 violation résiduelle servie.
 - P0.1 : 2 pages sitemap purgées (PR ENR #127 mergée) ; vague 36 CLAIM + 71 AMBIGU = mission Hermes prête.
 - Tout mergé, deploy au premier tick launchd post-quota (gitSource-first).
+
+### 13/07 — P1 chirurgical maillage blog → pages urgence différenciées (Hermes t_3d82d6a7)
+- **PR #188 (ENR) + PR #190 (CNR) — DRAFT, STOP MERGE R7** : 4 liens contextuels blog → pages urgence EU/CU différenciées.
+- **Méthode** : pré-checkup via skill `norte-os-internal-linking-vagues` (Pitfall #5 200 + #6 indexabilité + #7 coordination).
+- **Sources blog** (4 fichiers, money-adjacent, non-baseline) :
+  - ENR : `disjuntor-cai-microondas-solucao` (1070 mots) + `tomada-preta-queimada-o-que-fazer` (768 mots)
+  - CNR : `barulho-canos-agua-noite-causa` (960 mots) + `como-desentupir-ralo-duche` (2169 mots)
+- **Destinations différenciées** (validées `_audit/geo-410/keep_geo.txt`) :
+  - EU : `/eletricista-quadro-eletrico-braganca`, `/eletricista-avaria-eletrica-braganca`
+  - CU : `/canalizador-desentupimento-chaves`, `/canalizador-desentupimento-mirandela`
+- **Ancres 100% uniques** (4 ancres distinctes, partial-match naturel).
+- **DoD prouvé** : 4/4 dest curl 200 prod · 0 dans candidat_exp · 0 dans blacklist_doorway · 0 pilote touché · diff minimal (2+/2- par fichier) · 1 lien par blog.
+- **Worktrees isolés** : `fix/p1-blog-money-enr` + `fix/p1-blog-money-cnr` depuis main propre.
+- **Refus Mapping 1** : 4 fichiers cibles initiaux (cheiro-queimado-tomada, disjuntor-a-saltar, cano-rebentado, como-desentupir-sanita) tous en cours d'édition par 8-10 worktrees parallèles (risque conflit Pitfall #7). Re-scopage sur fichiers money-adjacent hors scope = 0 conflit attendu.
+- **Refs** : t_3d82d6a7 (mission B P1), leçon #362 ci-dessous.
