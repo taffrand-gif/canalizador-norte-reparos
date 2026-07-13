@@ -43,8 +43,12 @@
 }
 
 :root {
- /* Brutalisme Numérique Fonctionnel - Design tokens */
- --primary: var(--color-blue-700);
+ /* === Brand tokens — Pilote design CNR (2026-07-13) === */
+ /* Base teal (eau · calme · pro) + accent cuivre (CTA/H1 accents seulement) */
+ --brand-primary: #0E4E5C; /* teal Norte-OS install canal */
+ --brand-accent: #F39C12; /* cuivre — jamais sur body text (AA = FAIL sur <18px) */
+ /* Aliasing non-cassant : --primary pointe sur la marque, pas sur Radix blue */
+ --primary: var(--brand-primary);
  --primary-foreground: oklch(1 0 0);
  --sidebar-primary: var(--color-blue-600);
  --sidebar-primary-foreground: oklch(1 0 0);
@@ -80,7 +84,11 @@
 }
 
 .dark {
- --primary: var(--color-blue-700);
+ /* Brand tokens en mode sombre — identique à :root pour V1 pilote (cohérence light/dark) */
+ --brand-primary: #0E4E5C;
+ --brand-accent: #F39C12;
+ /* Aliasing : --primary pointe sur la marque, pas sur Radix blue */
+ --primary: var(--brand-primary);
  --primary-foreground: var(--color-blue-50);
  --sidebar-primary: var(--color-blue-500);
  --sidebar-primary-foreground: var(--color-blue-50);
@@ -278,6 +286,56 @@
 @font-face {
  font-family: 'Inter';
  font-display: swap;
+}
+
+/* ============================================
+ EFFET SIGNATURE — Onde/vague eau subtile (hero)
+ ============================================ */
+/* Pilote design CNR (2026-07-13) :
+ * Hero (#home, composant Hero.tsx) reçoit une onde/eau discrète
+ * via pseudo-element ::before — CSS-only, non-cassant.
+ * - 3 traits verticaux teal en phases différentes (suggestion vaguelettes)
+ * - 1 trait cuivre d'accent (#F39C12) en bas (reflet surface eau)
+ * - Dérive lente du pseudo-element ::after (cycle 12s, très discret)
+ * - pointer-events:none pour ne pas bloquer les clics
+ * - z-index:1 pour passer au-dessus du <picture> (z=0 implicite)
+ */
+#home::before {
+ content: "";
+ position: absolute;
+ inset: 0;
+ z-index: 1;
+ pointer-events: none;
+ background-image:
+ /* reflet cuivre — ligne basse subtile (suggestion surface eau) */
+ linear-gradient(180deg, transparent 97%, var(--brand-accent) 97%, var(--brand-accent) 99%, transparent 99%),
+ /* onde 1 — large, légèrement décalée (centre horizontal) */
+ linear-gradient(90deg, transparent 49%, var(--brand-primary) 49.5%, var(--brand-primary) 50.5%, transparent 51%),
+ /* onde 2 — plus fine, autre phase (offset droite) */
+ linear-gradient(90deg, transparent 79%, var(--brand-primary) 79.5%, var(--brand-primary) 80.5%, transparent 81%);
+ opacity: 0.12; /* facteur d'opacité global */
+ mix-blend-mode: overlay;
+}
+
+/* Dérive lente des ondes (cycle 12s = très discret, suggestion eau qui bouge) */
+@keyframes cnr-wave-drift {
+ 0% { background-position: 0 0, 0 0, 0 0; }
+ 50% { background-position: 0 0, 16px 0, -12px 0; }
+ 100% { background-position: 0 0, 0 0, 0 0; }
+}
+#home::after {
+ content: "";
+ position: absolute;
+ inset: 0;
+ z-index: 1;
+ pointer-events: none;
+ background-image:
+ linear-gradient(90deg, transparent 49%, var(--brand-primary) 49.5%, var(--brand-primary) 50.5%, transparent 51%),
+ linear-gradient(90deg, transparent 79%, var(--brand-primary) 79.5%, var(--brand-primary) 80.5%, transparent 81%);
+ background-repeat: repeat-x;
+ background-size: 280px 100%, 420px 100%;
+ animation: cnr-wave-drift 12s ease-in-out infinite;
+ opacity: 0.08;
 }
 
 /* Micro-animations subtiles pour les CTA */
