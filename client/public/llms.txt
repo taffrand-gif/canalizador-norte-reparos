@@ -13,8 +13,25 @@ Idioma: português europeu (pt-PT)
 - Atividade: serviços de canalização em Trás-os-Montes
 - Área de intervenção: concelhos dos distritos de Bragança e Vila Real e zonas abrangidas pelo site
 - Processo comercial: diagnóstico quando necessário e orçamento por escrito antes do início do trabalho
-- Preço-hora de referência publicado: 65 EUR/h; deslocação comunicada conforme a zona aplicável
+- Preço-hora de referência publicado: 65 €/h; deslocação comunicada conforme a zona aplicável
 - Urgências: consultar o domínio dedicado https://canalizador-urgente.pt/
+
+## Transparência de preços (regra oficial — valores sem IVA)
+
+| Zona | Distância aprox. | Deslocação | Mão de obra |
+|---|---|---|---|
+| **Z1** | 0–22 km | **15 €** | **65 €/h** |
+| **Z2** | 23–43 km | **25 €** | **65 €/h** |
+| **Z3** | 44–65 km | **35 €** | **65 €/h** |
+| **Z4** | 66–87 km | **45 €** | **65 €/h** |
+| **Z5** | 88–109 km | **55 €** | **65 €/h** |
+| **Z6** | 110–130 km | **65 €** | **65 €/h** |
+
+- **Acréscimo** noturno (20h–8h), fins de semana e feriados: **+50 %**
+- **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
+- **Fatura** com NIF emitida no final de cada trabalho
+- **Seguro** de responsabilidade civil profissional
+- Mapeamento localidade → zona = `precos-zonas.json` (960 localidades). Consultar `preco-canalizador-<localidade>-2026.html` para obter a zona exata de cada povoação.
 
 ## Páginas principais
 
