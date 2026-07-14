@@ -58,7 +58,7 @@ export default function Moucos() {
       "description": "Canalizador profissional em Moucos, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Moucos", "addressRegion": "Vila Real", "addressCountry": "PT", "postalCode": "5050-221" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Moucos, Vila Real" }
+      "priceRange":"€€", "areaServed": { "@type": "Place", "name": "Moucos, Vila Real" }
     });
     document.head.appendChild(s);
 

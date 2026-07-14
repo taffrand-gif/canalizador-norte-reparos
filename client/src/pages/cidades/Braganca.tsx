@@ -70,7 +70,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  },
  "telephone": businessInfo.phone,
  "openingHours": "Mo-Su 00:00-23:59",
- "priceRange": "€€",
+ "priceRange":"€€",
  "areaServed": {
  "@type": "City",
  "name": "Bragança"

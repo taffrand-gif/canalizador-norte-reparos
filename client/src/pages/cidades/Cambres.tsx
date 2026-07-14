@@ -60,7 +60,7 @@ export default function Cambres() {
       "name": "Norte Reparos — Canalizador Cambres",
       "description": "Canalizador profissional em Cambres. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Cambres, Lamego",
       "openingHours": "Mo-Su 00:00-24:00"
     });

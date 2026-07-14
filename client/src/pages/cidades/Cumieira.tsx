@@ -58,7 +58,7 @@ export default function Cumieira() {
       "description": "Canalizador profissional em Cumieira, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Cumieira", "addressRegion": "Vila Real", "addressCountry": "PT", "postalCode": "5050-071" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Cumieira, Vila Real" }
+      "priceRange":"€€", "areaServed": { "@type": "Place", "name": "Cumieira, Vila Real" }
     });
     document.head.appendChild(s);
 

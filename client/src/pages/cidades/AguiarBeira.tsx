@@ -60,7 +60,7 @@ export default function AguiarBeira() {
       "name": "Norte Reparos — Canalizador Aguiar da Beira",
       "description": "Canalizador profissional em Aguiar da Beira. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Aguiar da Beira, Aguiar da Beira",
       "openingHours": "Mo-Su 00:00-24:00"
     });

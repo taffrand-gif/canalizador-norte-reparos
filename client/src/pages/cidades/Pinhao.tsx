@@ -58,7 +58,7 @@ export default function Pinhao() {
       "description": "Canalizador profissional em Pinhão, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Pinhão", "addressRegion": "Vila Real", "addressCountry": "PT", "postalCode": "5085-010" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Pinhão, Vila Real" }
+      "priceRange":"€€", "areaServed": { "@type": "Place", "name": "Pinhão, Vila Real" }
     });
     document.head.appendChild(s);
 

@@ -58,7 +58,7 @@ export default function Lordelo() {
       "description": "Canalizador profissional em Lordelo, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Lordelo", "addressRegion": "Vila Real", "addressCountry": "PT", "postalCode": "5060-401" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Lordelo, Vila Real" }
+      "priceRange":"€€", "areaServed": { "@type": "Place", "name": "Lordelo, Vila Real" }
     });
     document.head.appendChild(s);
 

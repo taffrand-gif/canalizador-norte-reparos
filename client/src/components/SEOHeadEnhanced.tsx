@@ -160,7 +160,7 @@ export default function SEOHeadEnhanced({
  },
  "telephone": config.phone,
  "openingHours": "Mo-Su 00:00-23:59",
- "priceRange": "€€",
+ "priceRange":"€€",
  "areaServed": {
  "@type": "City",
  "name": citySEO?.cityName || "Trás-os-Montes"

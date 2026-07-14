@@ -60,7 +60,7 @@ export default function Cedovim() {
       "name": "Norte Reparos — Canalizador Cedovim",
       "description": "Canalizador profissional em Cedovim. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Cedovim, Vila Nova de Foz Côa",
       "openingHours": "Mo-Su 00:00-24:00"
     });

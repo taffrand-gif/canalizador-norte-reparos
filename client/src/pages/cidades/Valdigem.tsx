@@ -60,7 +60,7 @@ export default function Valdigem() {
       "name": "Norte Reparos — Canalizador Valdigem",
       "description": "Canalizador profissional em Valdigem. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Valdigem, Lamego",
       "openingHours": "Mo-Su 00:00-24:00"
     });

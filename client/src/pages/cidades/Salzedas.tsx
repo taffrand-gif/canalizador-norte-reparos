@@ -58,7 +58,7 @@ export default function Salzedas() {
       "description": "Canalizador profissional em Salzedas, Viseu. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Salzedas", "addressRegion": "Viseu", "addressCountry": "PT", "postalCode": "3610-090" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Salzedas, Viseu" }
+      "priceRange":"€€", "areaServed": { "@type": "Place", "name": "Salzedas, Viseu" }
     });
     document.head.appendChild(s);
 

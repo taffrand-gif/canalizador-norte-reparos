@@ -80,7 +80,7 @@ export default function Sendim() {
       },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": { "@type": "Place", "name": "Sendim, Bragança" }
     });
     document.head.appendChild(schemaScript);

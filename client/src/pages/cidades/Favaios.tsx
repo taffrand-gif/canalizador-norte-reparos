@@ -60,7 +60,7 @@ export default function Favaios() {
       "name": "Norte Reparos — Canalizador Favaios",
       "description": "Canalizador profissional em Favaios. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Favaios, Alijó",
       "openingHours": "Mo-Su 00:00-24:00"
     });

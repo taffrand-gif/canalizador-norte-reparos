@@ -60,7 +60,7 @@ export default function Cerva() {
       "name": "Norte Reparos — Canalizador Cerva",
       "description": "Canalizador profissional em Cerva. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Cerva, Ribeira de Pena",
       "openingHours": "Mo-Su 00:00-24:00"
     });

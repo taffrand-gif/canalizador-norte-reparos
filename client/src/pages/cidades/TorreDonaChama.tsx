@@ -80,7 +80,7 @@ export default function TorreDonaChama() {
       },
       "telephone": businessInfo.phone,
       "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": { "@type": "Place", "name": "Torre de Dona Chama, Mirandela" }
     });
     document.head.appendChild(schemaScript);

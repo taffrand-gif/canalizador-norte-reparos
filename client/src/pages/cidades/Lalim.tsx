@@ -60,7 +60,7 @@ export default function Lalim() {
       "name": "Norte Reparos — Canalizador Lalim",
       "description": "Canalizador profissional em Lalim. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Lalim, Lamego",
       "openingHours": "Mo-Su 00:00-24:00"
     });

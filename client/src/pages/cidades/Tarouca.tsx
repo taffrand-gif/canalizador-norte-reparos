@@ -60,7 +60,7 @@ export default function Tarouca() {
       "name": "Norte Reparos — Canalizador Tarouca",
       "description": "Canalizador profissional em Tarouca. Desentupimentos, fugas de água, instalações sanitárias. Urgências 24h.",
       "telephone": businessInfo.phone,
-      "priceRange": "€€",
+      "priceRange":"€€",
       "areaServed": "Tarouca, Tarouca",
       "openingHours": "Mo-Su 00:00-24:00"
     });

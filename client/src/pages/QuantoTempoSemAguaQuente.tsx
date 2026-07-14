@@ -78,7 +78,7 @@ export default function QuantoTempoSemAguaQuente() {
  "@type": "Plumber",
  "name": config.businessName,
  "telephone": config.phone,
- "priceRange": "€€"
+ "priceRange":"€€"
  },
  "areaServed": [
  { "@type": "City", "name": "Macedo de Cavaleiros" },
