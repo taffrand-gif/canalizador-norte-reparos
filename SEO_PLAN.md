@@ -1567,3 +1567,10 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Worktrees isolés** : `fix/p1-blog-money-enr` + `fix/p1-blog-money-cnr` depuis main propre.
 - **Refus Mapping 1** : 4 fichiers cibles initiaux (cheiro-queimado-tomada, disjuntor-a-saltar, cano-rebentado, como-desentupir-sanita) tous en cours d'édition par 8-10 worktrees parallèles (risque conflit Pitfall #7). Re-scopage sur fichiers money-adjacent hors scope = 0 conflit attendu.
 - **Refs** : t_3d82d6a7 (mission B P1), leçon #362 ci-dessous.
+
+
+### 2026-07-15 — P0 NAP click-to-call E.164 (Hermes t_73779eca)
+- Démasquage ciblé des 9 `tel:+351****4451` résiduels en `tel:+351928484451` dans les HTML suivis par Git.
+- Le numéro visible du même fichier et le NAP verrouillé (`AGENTS.md`/`SEO_PLAN.md`) servent de source de vérité ; aucune autre terminaison masquée ni aucun deuxième numéro n’est modifié.
+- Leçon : auditer uniquement les fichiers suivis par Git (`git ls-files -z`) afin de ne pas recompter les worktrees imbriqués ; les URL `tel:` doivent être en E.164 sans espace. Origine documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d’abord sur CU.
+- Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
