@@ -253,7 +253,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
           <div className="mt-12 p-8 bg-cyan-100 border-l-4 border-cyan-600 rounded-r-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">Precisa de canalizador em Trás-os-Montes?</h2>
             <p className="text-gray-800 mb-4">
-              Ligue ou contacte-nos por WhatsApp — falamos consigo antes de qualquer deslocação e entregamos orçamento por escrito detalhado. Fala sempre com a mesma pessoa; sem call center.
+              Ligue ou contacte-nos por WhatsApp — falamos consigo antes de qualquer deslocação e entregamos orçamento por escrito detalhado. Falamos consigo diretamente, sem call center.
             </p>
             <p className="text-2xl font-bold text-cyan-700 mb-4">
               <a href="tel:+351928484451" className="hover:underline">📞 +351 928 484 451</a>
