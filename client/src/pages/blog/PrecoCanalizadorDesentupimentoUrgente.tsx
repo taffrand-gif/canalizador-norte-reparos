@@ -219,7 +219,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
           <div className="mt-12 p-8 bg-cyan-100 border-l-4 border-cyan-600 rounded-r-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-3">Precisa de um desentupimento em Trás-os-Montes?</h2>
             <p className="text-gray-800 mb-4">
-              Ligue ou envie WhatsApp — orçamos por escrito antes de qualquer deslocação. Fala sempre com a mesma pessoa.
+              Ligue ou envie WhatsApp — orçamos por escrito antes de qualquer deslocação. Falamos consigo diretamente, sem call center.
             </p>
             <p className="text-2xl font-bold text-cyan-700 mb-4">
               <a href="tel:+351928484451" className="hover:underline">📞 +351 928 484 451</a>

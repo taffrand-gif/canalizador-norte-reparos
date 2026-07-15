@@ -95,7 +95,7 @@ const personalizedSubtitle = useMemo(() => {
  </div>
  <div className="hidden sm:block text-white/50">•</div>
  <div className="font-semibold">
- ✓ Fala sempre com a mesma pessoa
+ ✓ Falamos consigo diretamente, sem call center
  </div>
  <div className="hidden sm:block text-white/50">•</div>
  <div className="font-semibold">
