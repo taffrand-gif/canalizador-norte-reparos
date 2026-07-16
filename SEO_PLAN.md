@@ -1576,6 +1576,14 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - Leçon : auditer uniquement les fichiers suivis par Git (`git ls-files -z`) afin de ne pas recompter les worktrees imbriqués ; les URL `tel:` doivent être en E.164 sans espace. Origine documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d’abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
 
+### 2026-07-16 — R12 seo.keywords purge urgente/24h (cowork-loop, avant B3)
+- **Détection en lecture pré-B3** (règle R11/R12 : violation détectée = fixée en premier) : `shared/siteConfig.ts` → `seo.keywords` (rendu en meta keywords via `SEOHeadEnhanced.tsx` sur toutes les pages) contenait 8 occurrences de mots-clés `urgente`/`24h/7d`/`emergência`/`domingo` sur ce site 100% installation — cannibalisation directe de l'intent `canalizador-urgente.pt`, violation R12 (doctrine différenciation installation ≠ urgente), correspond au gisement P6 déjà identifié dans l'audit du 01/07 (`shared/seoKeywords.ts` avait été visé, mais la source réelle vivante est `shared/siteConfig.ts`).
+- **Action** : 8 chaînes remplacées par équivalents installation/remodelação honnêtes (`canalizador instalação bragança`, `canalizador instalação mirandela`, `fuga de água mirandela`, `desentupimento canalização bragança`, `canalizador remodelação mirandela`, `reparação fuga de água`, `canalizador instalação chaves`, `orçamento canalizador trás-os-montes`, `desentupimento remodelação vila real`), zéro invention (services réellement listés dans `services[]`), 42/42 mots-clés uniques avant et après (0 doublon introduit).
+- **Témoins R8** : `canalizador urgente bragança` 1→0, `Atendimento 24h/7d mirandela` 2→0, `fuga água urgente mirandela` 1→0, `desentupimento urgente bragança` 1→0, `fuga de água urgente` 1→0, `canalizador urgente chaves` 1→0, `canalizador emergência 24h` 1→0, `desentupimento urgente domingo` 1→0.
+- **Conformité** : R4 (zéro invention) ✅, R12 (différenciation installation≠urgente) ✅, R8 (témoins avant/après) ✅, atomique (1 fichier, 1 commit) ✅.
+- **Statut** : ✅ Fait — commit `c5f59cd7a`, branche `loop/2026-07-16-canalizador-norte-reparos-r12-seo-keywords`, PR à ouvrir.
+- **B3 (H1 sémantique Hero.tsx)** reporté au run suivant (non traité cette itération car la violation R12 primait).
+
 ### 2026-07-17 — MONOPOLE TACHE 4 (PR #206 draft, no merge) — Miroirs intent-info CNR ↔ pilier CU (Hermes)
 
 **Contexte** : `~/work/Sites/MONOPOLE-MONEY-KW-2026-07-17.md` RULING §3 — capter le 2e domaine/SERP sur les requetes miroir des piliers CU `https://canalizador-urgente.pt/desentupir-canos` (1300/6,3€) et `/entupimento` (110/16,6,6€). Miroir CNR de la TACHE 3 ENR PR #204 (lecon #412).
@@ -1648,3 +1656,14 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Liens cassés pré-existants** : 23 dans `guia-canalizacao.html` (vérifié `git show HEAD:...`) — dette héritée, pas régression vague 1. À traiter en backlog vague 2+.
 - **Leçon** : #435 ajoutée à `~/work/Sites/LECONS.md` (5 points : clustering honnête, patterns d'insertion variables, tel masqué signature site, dette héritée ≠ régression, barème verrouillé).
 - **Statut** : PR DRAFT en attente GO Filipe (AGENTS.md §11 R7 = STOP validation merge). J+14 mesures GSC à venir : stop-loss top-20 -5% (amendement A1 review), baseline gelée 258 clics / 16 628 imp blog 90j.
+---
+
+### 2026-07-16 — R12 seo.keywords purge urgente/24h (cowork-loop, avant B3)
+- **Détection en lecture pré-B3** (règle R11/R12 : violation détectée = fixée en premier) : `shared/siteConfig.ts` → `seo.keywords` (rendu en meta keywords via `SEOHeadEnhanced.tsx` sur toutes les pages) contenait 8 occurrences de mots-clés `urgente`/`24h/7d`/`emergência`/`domingo` sur ce site 100% installation — cannibalisation directe de l'intent `canalizador-urgente.pt`, violation R12 (doctrine différenciation installation ≠ urgente), correspond au gisement P6 déjà identifié dans l'audit du 01/07 (`shared/seoKeywords.ts` avait été visé, mais la source réelle vivante est `shared/siteConfig.ts`).
+- **Action** : 8 chaînes remplacées par équivalents installation/remodelação honnêtes (`canalizador instalação bragança`, `canalizador instalação mirandela`, `fuga de água mirandela`, `desentupimento canalização bragança`, `canalizador remodelação mirandela`, `reparação fuga de água`, `canalizador instalação chaves`, `orçamento canalizador trás-os-montes`, `desentupimento remodelação vila real`), zéro invention (services réellement listés dans `services[]`), 42/42 mots-clés uniques avant et après (0 doublon introduit).
+- **Témoins R8** : `canalizador urgente bragança` 1→0, `Atendimento 24h/7d mirandela` 2→0, `fuga água urgente mirandela` 1→0, `desentupimento urgente bragança` 1→0, `fuga de água urgente` 1→0, `canalizador urgente chaves` 1→0, `canalizador emergência 24h` 1→0, `desentupimento urgente domingo` 1→0.
+- **Conformité** : R4 (zéro invention) ✅, R12 (différenciation installation≠urgente) ✅, R8 (témoins avant/après) ✅, atomique (1 fichier, 1 commit) ✅.
+- **Statut** : ✅ Fait — commit `c5f59cd7a`, branche `loop/2026-07-16-canalizador-norte-reparos-r12-seo-keywords`, PR #203 ouverte.
+- **B3 (H1 sémantique Hero.tsx)** reporté au run suivant (non traité cette itération car la violation R12 primait).
+
+---
