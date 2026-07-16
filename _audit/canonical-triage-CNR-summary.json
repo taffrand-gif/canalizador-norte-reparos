@@ -1,0 +1,14 @@
+{
+  "scope": "client/public/**/*.html",
+  "total_files": 4854,
+  "rows": 4854,
+  "multi_canonical_count": 0,
+  "empty_canon_count": 0,
+  "parse_err_count": 0,
+  "counts_per_bucket": {
+    "self-ref-ok": 4459,
+    "no-canonical": 46,
+    "hub-money-same-concelho": 349
+  },
+  "probed_targets": {}
+}
