@@ -177,9 +177,10 @@ def write_outputs(rows: list[dict[str, str]], summary: dict[str, object], out_cs
     fields = ["file", "canon_target", "status_bucket", "http_status", "notes"]
     out_csv.parent.mkdir(parents=True, exist_ok=True)
     with out_csv.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
-        writer.writerows(rows)
+        for row in rows:
+            writer.writerow({key: (row[key].rstrip() if isinstance(row[key], str) else row[key]) for key in fields})
     local_csv = Path("_audit/canonical-triage-CNR.csv")
     local_csv.parent.mkdir(parents=True, exist_ok=True)
     local_csv.write_bytes(out_csv.read_bytes())
