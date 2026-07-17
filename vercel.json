@@ -67,7 +67,7 @@
     },
     {
       "source": "/blog/:slug",
-      "destination": "/blog/:slug.html"
+      "destination": "/index.html"
     },
     {
       "source": "/perguntas-frequentes",
@@ -103,7 +103,7 @@
     },
     {
       "source": "/blog/:slug",
-      "destination": "/blog/:slug.html"
+      "destination": "/index.html"
     },
     {
       "source": "/indice-a-z",
