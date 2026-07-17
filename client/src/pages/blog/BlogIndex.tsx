@@ -172,6 +172,25 @@ const BlogIndex: React.FC = () => {
  readTime: '11',
  date: '19 Fev 2026',
  imageUrl: '/images-optimized/blog/canalizacao-inverno.jpg'
+ },
+ // MONOPOLE money-kw 2026-07-17 — miroirs intent-info, cross-link 1 sens piliers CU
+ {
+ slug: 'guia-desentupir-canos',
+ title: 'Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho',
+ excerpt: 'Porque é que os canos entopem, como prevenir e quando é que a bricolage já não chega. Limites do "faça você mesmo" e sinais de problema mais fundo.',
+ category: 'Prevenção',
+ readTime: '7',
+ date: '17 Jul 2026',
+ imageUrl: '/images-optimized/blog/desentupir-lava-loica.jpg'
+ },
+ {
+ slug: 'guia-entupimentos-esgoto',
+ title: 'Entupimentos e Esgoto: Prevenção, Sinais e Manutenção da Fossa',
+ excerpt: 'Como prevenir entupimentos do esgoto, identificar sinais precoces de fossa cheia ou raízes, e quando chamar canalizador.',
+ category: 'Prevenção',
+ readTime: '7',
+ date: '17 Jul 2026',
+ imageUrl: '/images-optimized/blog/canalizacao-com-mau-cheiro.jpg'
  }
  ];
  // Schema.org Blog
