@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Penedono"
-// 100% unique content, zone Z4, preço 120€
+// 100% unique content, zone Z6, preço 130€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -79,7 +79,7 @@ export default function Penedono() {
 
  const cidadesProximas = getCidadesProximas('penedono');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Penedono?', 'answer': 'Desde 120€ em Penedono. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Penedono?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Penedono. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Penedono?', 'answer': 'Desde 130€ em Penedono. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Penedono?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Penedono. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>

@@ -1,5 +1,5 @@
 // Page SEO optimisée para "Canalizador Bragança"
-// 100% unique content, conforme políticas Google
+// 100% unique content, zone Z3, preço 100€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';

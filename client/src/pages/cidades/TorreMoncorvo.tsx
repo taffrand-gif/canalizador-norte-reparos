@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Torre de Moncorvo"
-// 100% unique content, zone Z3, preço 110€
+// 100% unique content, zone Z4, preço 100€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -79,7 +79,7 @@ export default function TorreMoncorvo() {
 
  const cidadesProximas = getCidadesProximas('torre-moncorvo');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 110€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 100€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

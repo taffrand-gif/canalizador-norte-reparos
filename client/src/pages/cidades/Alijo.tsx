@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Alijó"
-// 100% unique content, zone Z3, preço 110€
+// 100% unique content, zone Z5, preço 120€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -79,7 +79,7 @@ export default function Alijo() {
 
  const cidadesProximas = getCidadesProximas('alijo');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Alijó?', 'answer': 'Desde 110€ em Alijó. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alijó?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alijó. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Alijó?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Alijó?', 'answer': 'Desde 120€ em Alijó. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alijó?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alijó. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Alijó?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

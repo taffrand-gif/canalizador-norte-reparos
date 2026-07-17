@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Carrazeda de Ansiães"
-// 100% unique content, zone Z3, preço 110€
+// 100% unique content, zone Z4, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -80,7 +80,7 @@ export default function CarrazedaDeAnsiaes() {
  const cidadesProximas = getCidadesProximas('carrazeda-de-ansiaes');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Carrazeda de Ansiães?", answer: "Desde 110€ em Carrazeda de Ansiães. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Carrazeda de Ansiães?", answer: "Desde 90€ em Carrazeda de Ansiães. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Carrazeda de Ansiães?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Carrazeda de Ansiães. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

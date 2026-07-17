@@ -3,12 +3,12 @@ import { useSite } from '@/contexts/SiteContext';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 // memo removed from 'react';
 const zones = [
- { label: 'Trás-os-Montes (Zona 1)', price: 15 },
- { label: 'Mirandela / Vila Flor (Zona 2)', price: 25 },
- { label: 'Bragança / Vinhais (Zona 3)', price: 35 },
- { label: 'Miranda do Douro (Zona 4)', price: 45 },
- { label: 'Vila Real / Lamego (Zona 5)', price: 55 },
- { label: 'Chaves / Montalegre (Zona 6)', price: 65 },
+ { label: 'Zona 1 — Macedo de Cavaleiros e raio 15 km', price: 15 },
+ { label: 'Zona 2 — Mirandela (15-30 km)', price: 25 },
+ { label: 'Zona 3 — Bragança, Vinhais, Vila Flor, Alfândega da Fé (30-50 km)', price: 35 },
+ { label: 'Zona 4 — Torre de Moncorvo, Carrazeda de Ansiães, Murça (50-70 km)', price: 45 },
+ { label: 'Zona 5 — Chaves, Alijó, Vila Real, Sabrosa (70-90 km)', price: 55 },
+ { label: 'Zona 6 — Montalegre, Miranda do Douro, Lamego, Freixo de Espada à Cinta (90-140 km)', price: 65 },
 ];
 const servicesElec = [
  { label: 'Tomada / Interruptor', min: 30, max: 45 },

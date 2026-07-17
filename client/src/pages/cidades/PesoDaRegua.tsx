@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Peso da Régua"
-// 100% unique content, zone Z4, preço 120€
+// 100% unique content, zone Z6, preço 120€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';

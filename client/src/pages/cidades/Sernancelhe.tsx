@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Sernancelhe"
-// 100% unique content, zone Z5, preço 130€
+// 100% unique content, zone Z6, preço 130€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';

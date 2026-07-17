@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Vila Nova de Foz Côa"
-// 100% unique content, zone Z3, preço 110€
+// 100% unique content, zone Z4, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';

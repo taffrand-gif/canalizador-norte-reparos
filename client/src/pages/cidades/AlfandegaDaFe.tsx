@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Alfândega da Fé"
-// 100% unique content, zone Z2, preço 90€
+// 100% unique content, zone Z3, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
