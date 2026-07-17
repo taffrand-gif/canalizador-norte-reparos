@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador São João da Pesqueira"
-// 100% unique content, zone Z4, preço 120€
+// 100% unique content, zone Z5, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -80,7 +80,7 @@ export default function SãoJoãoPesqueira() {
  const cidadesProximas = getCidadesProximas('sao-joao-da-pesqueira');
 
  const faqs = [
- { question: "Qual o preço de canalizador em São João da Pesqueira?", answer: "Desde 120€ em São João da Pesqueira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em São João da Pesqueira?", answer: "Desde 110€ em São João da Pesqueira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em São João da Pesqueira?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em São João da Pesqueira. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

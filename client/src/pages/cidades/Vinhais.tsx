@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Vinhais"
-// 100% unique content, zone Z3, preço 110€
+// 100% unique content, zone Z3, preço 100€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -63,7 +63,7 @@ export default function Vinhais() {
 
  const cidadesProximas = getCidadesProximas('vinhais');
  const faqs = [
- { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 110€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 100€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Vinhais?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vinhais. Ligue +351 928 484 451." },
  { question: "Atendem aldeias rurais de Vinhais?", answer: "Sim, servimos todo o conselho incluindo aldeias de montanha e propriedades isoladas." },
  { question: "Têm câmara termográfica?", answer: "Sim, utilizamos FLIR e geofone para deteção precisa de fugas sem demolição." },

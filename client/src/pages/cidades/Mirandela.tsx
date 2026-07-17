@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Mirandela"
-// 100% unique content, zone Z1, preço 80€
+// 100% unique content, zone Z2, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -80,7 +80,7 @@ export default function Mirandela() {
  const cidadesProximas = getCidadesProximas('mirandela');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Mirandela?", answer: "Desde 80€ em Mirandela. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Mirandela?", answer: "Desde 90€ em Mirandela. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Mirandela?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Mirandela. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
