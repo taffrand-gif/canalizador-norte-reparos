@@ -1575,3 +1575,37 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - Le numéro visible du même fichier et le NAP verrouillé (`AGENTS.md`/`SEO_PLAN.md`) servent de source de vérité ; aucune autre terminaison masquée ni aucun deuxième numéro n’est modifié.
 - Leçon : auditer uniquement les fichiers suivis par Git (`git ls-files -z`) afin de ne pas recompter les worktrees imbriqués ; les URL `tel:` doivent être en E.164 sans espace. Origine documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d’abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
+
+### 2026-07-17 — MONOPOLE TACHE 4 (PR #206 draft, no merge) — Miroirs intent-info CNR ↔ pilier CU (Hermes)
+
+**Contexte** : `~/work/Sites/MONOPOLE-MONEY-KW-2026-07-17.md` RULING §3 — capter le 2e domaine/SERP sur les requetes miroir des piliers CU `https://canalizador-urgente.pt/desentupir-canos` (1300/6,3€) et `/entupimento` (110/16,6,6€). Miroir CNR de la TACHE 3 ENR PR #204 (lecon #412).
+
+**Livré** :
+- Branche `feat/monopole-guias-cnr` (worktree `.worktrees/monopole-guias-cnr/`, base origin/main frais = commit `2323383c9` PR #204 canonical fix)
+- 2 nouvelles pages React `.tsx` routing `/blog/<slug>` :
+  - `client/src/pages/blog/GuiaDesentupirCanos.tsx` → miroir de `canalizador-urgente.pt/desentupir-canos`
+  - `client/src/pages/blog/GuiaEntupimentosEsgoto.tsx` → miroir de `canalizador-urgente.pt/entupimento`
+- 2 modifs intégration :
+  - `client/src/App.tsx` : 2 lazy imports + 2 Routes
+  - `client/src/pages/blog/BlogIndex.tsx` : 2 entrées BlogCard categorie « Prevenção » datées 17 Jul 2026
+- Commit `84a78757a feat(CNR,monopole): 2 pages-espelho intent-info (desentupir-canos + entupimento-esgoto)` (574 insertions, 4 fichiers)
+- Push OK vers remote `github` (≠ origin) → branche trackée
+- PR #206 DRAFT (no merge, R7) : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/206
+- Trace LECONS.md #413 ajoutée (réplique #412 ENR avec specificités CNR : NAP 928484451, drainage/fossa, 65€/h canal)
+
+**DoD temoin par commande** :
+- `npm run build` → 3.86s, chunks `GuiaDesentupirCanos--Cq_kvBh.js` 29.05kB + `GuiaEntupimentosEsgoto-BtMLDUzh.js` 28.84kB. Aligné ENR #204 (~2kB plus lourds = contenu rural Trás-os-Montes).
+- `tsc --noEmit` → 0 erreur dans les 2 nouveaux fichiers + App.tsx + BlogIndex.tsx (erreurs pre-existantes UrgenciaFugaAgua/urgencias/server/* verrouillees hors-scope, 322 lignes).
+- JSON-LD valide : FAQPage 7Q + Article schema par page, json.loads OK.
+- Canonical self URL clean : `https://canalizador-norte-reparos.pt/blog/guia-desentupir-canos` + `/blog/guia-entupimentos-esgoto` (1 canonical/page, 0 query/utm).
+- Cross-link 1 sens CNR → CU : 3 refs par page (FAQ JSON-LD + footer link + bouton CTA), 0 back-link CNR attendu (pas d'auto-référence interne hors canonical).
+- Grille TomTom verrouillee : `65€/h em horário normal` + `deslocação entre 15€ e 65€ consoante a zona (Z1 a Z6)`. Source : `~/work/Sites/.tooling/preco-deslocacao.py` + `precos-zonas.json` (960 localités) + `PRICING.md`.
+- Grep claims interdits R11/R12 = 0 : `je suis/fais/garantis`, `mon entreprise`, `contacto pessoal`, `mediante confirmação`, `chegamos em X min`, `piquete 24h chega` → tous = 0 hit sur les 2 fichiers. Occurrences `sozinho` = FAQ conseil client (« tentar sozinho », « desentupir sozinho ») uniquement.
+
+**Pattern technique** : React `.tsx` routing sous `/blog/<slug>` (lecon bug-articles-tsx verifiee avant ecriture — cf. lecon #412 ENR pour la regle verrouillee). Pas de HTML statique racine.
+
+**Pattern SEO/GEO** : intent strict INFO/prevenção (pas d'urgence, pas de promesse minutes), FAQ orientée « quando chamar canalizador » + « quanto custa » + « o que fazer em segurança ». Cross-link 1 sens uniquement pour eviter cannibalisation (R0 do-not-mix).
+
+**Mesure d'efficacité** : 1 branche + 1 commit + 1 PR draft + 1 trace SEO_PLAN + 1 lecon LECONS en 1 session (~25 tool calls). Reprise propre apres crash provider session precedente (branche `feat/monopole-guias-cnr` deja creee vide, 0 commit fantome, working copy isole dans worktree dedie).
+
+**Status** : DRAFT PR #206 — en attente GO Filipe pour merge. Mesure GSC hebdo positions liste kw famille (queue 23/07 J+7) inchangée, suivi parallèle des 4 PRs monopole (CU piliers, CU+esgoto, ENR miroirs, CNR miroirs).

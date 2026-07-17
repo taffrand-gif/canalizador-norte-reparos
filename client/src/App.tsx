@@ -101,6 +101,9 @@ const TorneiraAPingarComoReparar = lazy(() => import("@/pages/blog/TorneiraAPing
 const CanalizacaoComMauCheiro = lazy(() => import("@/pages/blog/CanalizacaoComMauCheiro"));
 const QuantoCustaCanalizadorHoraPortugal = lazy(() => import("@/pages/blog/QuantoCustaCanalizadorHoraPortugal"));
 const PrecoCanalizadorDesentupimentoUrgente = lazy(() => import("@/pages/blog/PrecoCanalizadorDesentupimentoUrgente"));
+// MONOPOLE money-kw 2026-07-17 — pages-espelho intent-info (miroir des piliers CU)
+const GuiaDesentupirCanos = lazy(() => import("@/pages/blog/GuiaDesentupirCanos"));
+const GuiaEntupimentosEsgoto = lazy(() => import("@/pages/blog/GuiaEntupimentosEsgoto"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
@@ -214,6 +217,8 @@ function Router() {
  <Route path={"/blog/canalizacao-com-mau-cheiro"} component={CanalizacaoComMauCheiro} />
  <Route path={"/blog/quanto-custa-canalizador-hora-portugal"} component={QuantoCustaCanalizadorHoraPortugal} />
  <Route path={"/blog/preco-canalizador-desentupimento-urgente"} component={PrecoCanalizadorDesentupimentoUrgente} />
+ <Route path={"/blog/guia-desentupir-canos"} component={GuiaDesentupirCanos} />
+ <Route path={"/blog/guia-entupimentos-esgoto"} component={GuiaEntupimentosEsgoto} />
  <Route path={"/faq"} component={FAQPage} />
  <Route path={"/zonas"} component={Zonas} />
  <Route path={"/transparence-prix"} component={TransparencePrix} />
