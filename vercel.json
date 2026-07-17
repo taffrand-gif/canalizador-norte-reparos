@@ -102,10 +102,6 @@
       "destination": "/canalizador-:city.html"
     },
     {
-      "source": "/blog/:slug",
-      "destination": "/index.html"
-    },
-    {
       "source": "/indice-a-z",
       "destination": "/indice-a-z.html"
     },
