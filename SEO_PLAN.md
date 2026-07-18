@@ -686,7 +686,7 @@ Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phas
 ---
 
 | 2026-06-29 | Hermes | A3 satellite cross-ref | Référence à l'A3 Doctrine §12 étendue sur les 2 sites `-urgente` (570 fichiers canalizador-urgente PR #48 + 266 fichiers eletricista-urgente PR #35). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine insérés. Aucune action requise sur ce repo `canalizador` lui-même (pas de page service satellite). | Suivi cross-site via PRs upstream | Pas de modification locale | ✅ Fait (cross-ref) |
-| 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 arquivos eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351****1892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
+| 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 arquivos eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351932321892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (Sub-A→Sub-D audit + cleanup) | **Audit PROD + R7-bis PR #68** | Audit Sub-B a flaggé 27 violations R11/R12 sur ce repo (incluant 6 × "Desde X€" sur Bragança). PR #46 a été nettoyée (Option B) : revert 8 .tsx non validés (NAP/NIF/email hors périmètre), gardé uniquement la suppression des 3 sitemap `.bak-2-4bis` (3434 lignes). Commit `e41e10312` pushé, **PR #72 draft** ouverte. **PR #68 (A5-1a R12 élec, 4175 fichiers) mergée hier 21h07 par Philippe via UI** — c'est R7-bis violée par Philippe lui-même (pas un bug externe). Aucune action de merge prise par Hermes pour PR #72 (R7 respectée). | Témoin R8 : counts bak 3/3 supprimés, PR #72 = draft. Backup `/tmp/BACKLOG-NORTE-REPAROS-2026-06-28.md` documente l'état complet | ⏸ PR #72 en attente review Philippe |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4-BIS satellite cross-ref** | Référence à l'A4-BIS cleanup résiduel sur eletricista-urgente (271 fichiers typo téléphone PR #39 + 184 fichiers SEO cleanup PR #38). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine (total cumul A3+A4+A4-BIS = 4757 fichiers Doctrine §12 sur 2 sites). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #214-#215 documentées** : suppression branche avant merge = perte → récupérer depuis reflog ; `merge_commit_sha` API peut être trompeur pour PR draft. **Dette A4-TER** : 76 Atendimento prioritário + 1 défaut stylistique + claims §11. | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-30 | Hermes | B1 (Strate 1 — cosmétique) | Patch `client/index.html` L18-19 : title "Canalizador Profissional" → "Canalizador para instalação e remodelação" + meta description sans NAP, villes explicites (Bragança, Vila Real, Mirandela, Chaves). Scope = 1 fichier source (Option A validée Philippe). | R3 (STOP validation), R12 (doctrine installation ≠ urgente), R15 (1 fichier < 100 fichiers), R16 (build vert requis) | 1 fichier modifié, 2 lignes changées, 0 régression attendue. Détection **10 violations schema.org** dans StructuredData.tsx → backlog A5-2 créé (R5/R11/R12). | 🛑 STOP - PR ouverte, attente GO merge |
@@ -768,8 +768,8 @@ Subagent dryrun initial = 679 NO_RESOL consolidés (cf `~/work/Sites/_audit/phas
 
 ### Fix NAP tel: link (RFC 3966)
 
-- ✅ CNR `public/canalizador-vila-real.html` L62 : `tel:+351****4451` → `tel:+351928484451`
-- ✅ ENR `public/eletricista-macedo-cavaleiros.html` L106 : `tel:+351****1892` → `tel:+351932321892`
+- ✅ CNR `public/canalizador-vila-real.html` L62 : `tel:+351928484451` → `tel:+351928484451`
+- ✅ ENR `public/eletricista-macedo-cavaleiros.html` L106 : `tel:+351932321892` → `tel:+351932321892`
 - Le handover loop #5 évoquait JSON-LD ligne 35 mais le bug était UNIQUEMENT dans les liens tel: markdown des pages /zonas/.
 - VISIBLE était déjà correct (numéros lus correctement), seul le `href="tel:"` était cassé → mobile tap-to-call cassé.
 
@@ -1571,7 +1571,7 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 
 
 ### 2026-07-15 — P0 NAP click-to-call E.164 (Hermes t_73779eca)
-- Démasquage ciblé des 9 `tel:+351****4451` résiduels en `tel:+351928484451` dans les HTML suivis par Git.
+- Démasquage ciblé des 9 `tel:+351928484451` résiduels en `tel:+351928484451` dans les HTML suivis par Git.
 - Le numéro visible du même fichier et le NAP verrouillé (`AGENTS.md`/`SEO_PLAN.md`) servent de source de vérité ; aucune autre terminaison masquée ni aucun deuxième numéro n’est modifié.
 - Leçon : auditer uniquement les fichiers suivis par Git (`git ls-files -z`) afin de ne pas recompter les worktrees imbriqués ; les URL `tel:` doivent être en E.164 sans espace. Origine documentée dans `~/work/Sites/LECONS.md` (leçon #a7868915) : héritage de templates déjà masqués, confirmé d’abord sur CU.
 - Branche `fix/nap-phone-e164-4451`, PR draft, zéro merge.
