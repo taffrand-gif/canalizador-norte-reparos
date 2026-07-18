@@ -1630,3 +1630,21 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Leçon** : un merge Git et un sitemap source à jour ne prouvent pas le déploiement Vercel ni le HTTP 200 public.
 - **Suite** : revalider les deux guides et `/sitemap-blog.xml` après correction routing, puis seulement documenter le statut indexable.
 - **Statut de cette note** : documentation factuelle; aucun merge de la présente branche sans GO Filipe (R7).
+
+
+---
+
+## 🆕 2026-07-18 — VAGUE 1 HUBS CNR — Plan consolidation §1
+
+- **Scope** : exécution vague 1 du plan `~/work/Sites/_audit/CNR-BLOG-CONSOLIDATION-PLAN-2026-07-18.md` (GO-AMENDÉ review §sign-off conditionnel).
+- **Branche** : `feat/hubs-vague1` (worktree `/tmp/cnr-vague1`) basée `github/main` (`e9782a349`).
+- **Livrables** : 5 nouveaux hubs créés + 5 hubs existants renforcés + 74 articles TOP maillés.
+  - Nouveaux hubs : `guia-casa-de-banho.html` (217 articles cluster) · `guia-pressao-qualidade-agua.html` (88) · `guia-caldeiras-aquecimento.html` (58) · `guia-fossas-saneamento-rural.html` (52) · `guia-hidraulica-piscina-jardim.html` (18).
+  - Hubs renforcés (section cluster ajoutée) : `guia-canalizacao.html` (225) · `guia-precos-canalizador.html` (114) · `detecao-fugas-agua-camera.html` (99) · `reparacao-esquentadores-caldeiras.html` (70) · `desentupimentos-profissionais-tras-os-montes.html` (17).
+  - Articles maillés (1 lien/hub dans section Recursos Úteis) : 74 articles top GSC répartis sur 10 clusters.
+- **Gates passés** : (1) canonical self 10/10 hubs · (2) claims fabriqués 0 (seul barème R12 65€/h + Z1-Z6 15/25/35/45/55/65€ + majoration +50% + "mediante confirmação") · (3) tel masqué `+351****4451` présent dans les 10 hubs · (4) ≥10 liens `/blog/` cluster dans les 10 hubs (18-43 liens).
+- **Hors scope vague 1** : 0 désindexation · 0 301 · 0 canonical-to-hub (interdit par amendement A2/A3 review) · 0 suppression · 10 articles `outros` non reclassifiés (amendement A9).
+- **Décisions à valider avant vague 2** : A6 (split `guia-canalizacao` vs `guia-completo-canalizacao-tras-os-montes` : titres identiques confirmés, à trancher STOP Filipe) · A4 (split caldeiras 58 / esquentadores 70 : à justifier par query-distinct ou fusionner).
+- **Liens cassés pré-existants** : 23 dans `guia-canalizacao.html` (vérifié `git show HEAD:...`) — dette héritée, pas régression vague 1. À traiter en backlog vague 2+.
+- **Leçon** : #435 ajoutée à `~/work/Sites/LECONS.md` (5 points : clustering honnête, patterns d'insertion variables, tel masqué signature site, dette héritée ≠ régression, barème verrouillé).
+- **Statut** : PR DRAFT en attente GO Filipe (AGENTS.md §11 R7 = STOP validation merge). J+14 mesures GSC à venir : stop-loss top-20 -5% (amendement A1 review), baseline gelée 258 clics / 16 628 imp blog 90j.
