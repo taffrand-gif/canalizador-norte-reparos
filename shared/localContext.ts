@@ -94,7 +94,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Distância indicativa desde Macedo de Cavaleiros: ~30 km pela N15.",
     answerFirst:
       "Em Mirandela e nas 30 freguesias do concelho (Torre de Dona Chama, Aguieiras, Alvites, Carvalhais, Mascarenhas, etc.) " +
-      "garantimos atendimento 24h com deslocação rápida pela N15 e diagnóstico no local sem compromisso.",
+      "garantimos atenção mediante confirmação por telefone — ligue 928 484 451",
     heroSubtitle:
       "Cobertura completa do concelho de Mirandela (30 freguesias) a partir da base operacional em Trás-os-Montes. " +
       "Atendimento em prédios recentes do centro e construções rurais com fossas séticas. Serviço 24h/7d, sem compromisso.",
