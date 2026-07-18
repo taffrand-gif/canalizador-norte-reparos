@@ -1609,3 +1609,24 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 **Mesure d'efficacité** : 1 branche + 1 commit + 1 PR draft + 1 trace SEO_PLAN + 1 lecon LECONS en 1 session (~25 tool calls). Reprise propre apres crash provider session precedente (branche `feat/monopole-guias-cnr` deja creee vide, 0 commit fantome, working copy isole dans worktree dedie).
 
 **Status** : DRAFT PR #206 — en attente GO Filipe pour merge. Mesure GSC hebdo positions liste kw famille (queue 23/07 J+7) inchangée, suivi parallèle des 4 PRs monopole (CU piliers, CU+esgoto, ENR miroirs, CNR miroirs).
+
+---
+
+## 🆕 2026-07-17/18 — ÉTAT RÉEL GUIDES / ZONES / INTENT
+
+- **Guides blog** : les deux routes React `/blog/guia-desentupir-canos` et `/blog/guia-entupimentos-esgoto` sont bien présentes dans `main`.
+- **Merge code** : PR #206 a été mergée le 17/07 (`3a8f7d396`), avec FAQPage/Article et canonical self dans les deux guides.
+- **Vérification source** : `public/sitemap-blog.xml` contient 82 URLs, dont les deux nouveaux guides en `lastmod 2026-07-17`.
+- **Vérification production 18/07** : les deux URLs guides répondent encore HTTP 404 `NOT_FOUND`.
+- **Sitemap production** : `/sitemap-blog.xml` répond également HTTP 404 sur le domaine CNR.
+- **Honnêteté de statut** : les guides sont mergés dans Git, mais pas encore considérés comme live/indexables en production.
+- **Correction prod** : un correctif Vercel/routing dédié est en cours sur `fix/guias-prod-404`; aucun succès prod ne doit être déclaré avant nouveau curl 200.
+- **Zones/prix** : PR #205 a été mergée le 17/07 (`4bf57031c6`), recalage TomTom appliqué à Chaves, headers, FAQs et boundary concernés.
+- **Tarification conservée** : canal 65 €/h; déplacement Z1–Z6 = 15/25/35/45/55/65 €; majoration nuit/WE/férié +50 %.
+- **Rôle SEO** : ces pages `/blog/guia-*` portent un intent **info/prévention**, pas l’acquisition d’urgence.
+- **Rôle du domaine urgent** : `canalizador-urgente.pt` conserve les pages piliers et l’intent intervention urgente.
+- **Maillage** : chaque guide CNR pointe à sens unique vers son pilier CU correspondant; aucun backlink CU → guide CNR n’est attendu dans ce pattern.
+- **Garde-fou** : ne pas confondre route présente, URL dans sitemap source et disponibilité live; les trois états doivent être vérifiés séparément.
+- **Leçon** : un merge Git et un sitemap source à jour ne prouvent pas le déploiement Vercel ni le HTTP 200 public.
+- **Suite** : revalider les deux guides et `/sitemap-blog.xml` après correction routing, puis seulement documenter le statut indexable.
+- **Statut de cette note** : documentation factuelle; aucun merge de la présente branche sans GO Filipe (R7).
