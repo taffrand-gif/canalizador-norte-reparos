@@ -104,6 +104,9 @@ const PrecoCanalizadorDesentupimentoUrgente = lazy(() => import("@/pages/blog/Pr
 // MONOPOLE money-kw 2026-07-17 — pages-espelho intent-info (miroir des piliers CU)
 const GuiaDesentupirCanos = lazy(() => import("@/pages/blog/GuiaDesentupirCanos"));
 const GuiaEntupimentosEsgoto = lazy(() => import("@/pages/blog/GuiaEntupimentosEsgoto"));
+// FEAT:GUIA-ESGOTO — 3e page-espelho intent-info (pilier CU `desentupimento-esgoto`, Variante C CPC 10,3€).
+// Différenciation vs guia-entupimentos-esgoto (signaux/fosse) : ce guide couvre prévention domestique / calendrier fosse / check-list sazonal.
+const GuiaPrevencaoEsgotos = lazy(() => import("@/pages/blog/GuiaPrevencaoEsgotos"));
 const Zonas = lazy(() => import("@/pages/Zonas"));
 const CityServicePage = lazy(() => import("@/pages/CityServicePage"));
 const FreguesiasPage = lazy(() => import("@/pages/FreguesiasPage"));
@@ -219,6 +222,7 @@ function Router() {
  <Route path={"/blog/preco-canalizador-desentupimento-urgente"} component={PrecoCanalizadorDesentupimentoUrgente} />
  <Route path={"/blog/guia-desentupir-canos"} component={GuiaDesentupirCanos} />
  <Route path={"/blog/guia-entupimentos-esgoto"} component={GuiaEntupimentosEsgoto} />
+ <Route path={"/blog/guia-prevencao-esgotos"} component={GuiaPrevencaoEsgotos} />
  <Route path={"/faq"} component={FAQPage} />
  <Route path={"/zonas"} component={Zonas} />
  <Route path={"/transparence-prix"} component={TransparencePrix} />

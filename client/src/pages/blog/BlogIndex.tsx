@@ -184,14 +184,26 @@ const BlogIndex: React.FC = () => {
  imageUrl: '/images-optimized/blog/desentupir-lava-loica.jpg'
  },
  {
- slug: 'guia-entupimentos-esgoto',
- title: 'Entupimentos e Esgoto: Prevenção, Sinais e Manutenção da Fossa',
- excerpt: 'Como prevenir entupimentos do esgoto, identificar sinais precoces de fossa cheia ou raízes, e quando chamar canalizador.',
- category: 'Prevenção',
- readTime: '7',
- date: '17 Jul 2026',
- imageUrl: '/images-optimized/blog/canalizacao-com-mau-cheiro.jpg'
- }
+  slug: 'guia-entupimentos-esgoto',
+  title: 'Entupimentos e Esgoto: Prevenção, Sinais e Manutenção da Fossa',
+  excerpt: 'Como prevenir entupimentos do esgoto, identificar sinais precoces de fossa cheia ou raízes, e quando chamar canalizador.',
+  category: 'Prevenção',
+  readTime: '7',
+  date: '17 Jul 2026',
+  imageUrl: '/images-optimized/blog/canalizacao-com-mau-cheiro.jpg'
+  },
+  // FEAT:GUIA-ESGOTO — 3e page-espelho intent-info, distincte de 'guia-entupimentos-esgoto'.
+  // Celle-ci couvre les bonnes pratiques domestiques (o que deitar / nunca deitar), calendário fosse, check-list sazonal.
+  // Cross-link 1 sens CNR -> canalizador-urgente.pt/desentupimento-esgoto.
+  {
+  slug: 'guia-prevencao-esgotos',
+  title: 'Prevenção de Entupimentos de Esgoto: Guia Prático',
+  excerpt: 'O que deitar e o que nunca deitar no esgoto, manutenção periódica da fossa séptica, check-list sazonal e quando chamar canalizador.',
+  category: 'Prevenção',
+  readTime: '7',
+  date: '19 Jul 2026',
+  imageUrl: '/images-optimized/blog/desentupir-lava-loica.jpg'
+  }
  ];
  // Schema.org Blog
  const blogSchema = {
