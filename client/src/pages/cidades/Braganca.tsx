@@ -135,6 +135,12 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero section específica de Bragança */}
+{/* answer-first — bloc citable IA / featured snippet — mission feat/villes-answer-first */}
+<p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
+  padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
+  fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
+  Em Bragança, a deslocação é 35€ (Zona 3, 42.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+</p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
