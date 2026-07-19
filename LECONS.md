@@ -16,7 +16,7 @@
 
 ### Leçons métier
 
-5. **Doctrine CEO 18/07 sur le tel — clarifier avant toute mission.** La memory dit "JAMAIS d'astérisques" (CEO 18/07) MAIS sur le HTML rendu actuel de `github/main` on trouve `tel:+351****4451` (avec astérisques). La PR #217 en cours (`fix/tel-canonical`) démasque vers `+351****4451`. Pour rester cohérent avec **ce qui est actuellement prod** et avec le **patron ENR #216** (`tel:+351****1892` avec astérisques), cette mission utilise la convention à 4 astérisques `tel:+351****4451`. **À harmoniser en post-#217** (lorsque la PR #217 sera mergée, régénérer cette vague avec `+351****4451`).
+5. **Doctrine CEO 18/07 sur le tel = CONSTANTE, jamais lue depuis un fichier.** CEO 18/07 verrouille : canal = `+351928484451` (E.164 canonique), elec = `+351932321892`. Body display = `+351 928 484 451` (formaté humain). HTML `href="tel:..."` = `tel:+351928484451`. **JAMAIS d'astérisques `****` dans une insertion answer-first ou NAP** : ce n'est pas un pattern "conventionnel à harmoniser plus tard", c'est une récidive. Le tel vient de la CONSTANTE, jamais recopié d'un autre fichier. Cette mission a introduit 15 `tel:+351928484451` — corrigés à `tel:+351928484451` avant push.
 
 6. **Bloc answer-first = pattern symétrique ENR #216.** Mêmes principes : (a) pas de `role="answer"` (rôle ARIA inexistant, leçon #413), (b) `data-p1="answer-first"` conservé, (c) tél littéral canonique, (d) Z1–Z6 grille officielle, (e) km depuis source-of-truth TomTom. Validé 15/15 sur CNR.
 
@@ -28,7 +28,7 @@
 - **Pages dynamiques** (`/canalizador-<service>-<city>` via `CityServicePage.tsx`) : 100+ combinaisons service × ville, hors-scope de cette PR.
 - **Pages freguesias** (`FreguesiasPage.tsx`) : 498 pages, hors-scope.
 - **Régénération sitemap.xml** : à faire en mission dédiée si CEO le demande (impact SEO indirect).
-- **Démasquage `****4451 → 928484451`** : PR #217 en cours, à merger d'abord.
+- **Démasquage `****4451 → 928484451`** : corrigé dans cette PR (15/15 villes + LECONS.md), valeur canonique `tel:+351928484451` + body `928 484 451`.
 
 ### Refs
 
