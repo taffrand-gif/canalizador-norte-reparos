@@ -249,7 +249,7 @@ export default function GuiaDesentupirCanos() {
               Se há refluxo, cheiro intenso ou vários pontos afetados — desligue os aparelhos que usam água (máquina de lavar, louça) e contacte-nos. Em horário normal falamos consigo, confirmamos a zona e damos orçamento por escrito antes da deslocação.
             </p>
             <p className="text-2xl font-bold text-red-700 mb-4">
-              <a href="tel:+351****4451" className="hover:underline">📞 +351 928 484 451</a>
+              <a href="tel:+351928484451" className="hover:underline">📞 +351 928 484 451</a>
               <span className="mx-3 text-gray-500">·</span>
               <a href="https://wa.me/351928484451" className="hover:underline">WhatsApp</a>
             </p>
