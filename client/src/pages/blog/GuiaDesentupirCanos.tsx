@@ -112,7 +112,7 @@ export default function GuiaDesentupirCanos() {
             Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho
           </h1>
           <p className="text-lg text-gray-600">
-            Guia informativo · Causas habituais, prevenção e limites da bricolage · ~7 min de leitura
+            Guia informativo · Causas habituais, prevenção e limites da bricolage · leitura
           </p>
         </header>
         <div className="prose prose-lg max-w-none">
@@ -145,16 +145,16 @@ export default function GuiaDesentupirCanos() {
               <strong>Não deitar gordura ou óleo pelo lava-loiça</strong>. Coar para uma garrafa e entregar num oleão ou ponto de recolha. A gordura é a causa número um de entupimento na cozinha.
             </li>
             <li>
-              <strong>Redes nos ralos</strong> — uma rede simples no ralo do lava-loiça e na base do chuveiro apanha cabelos, restos de comida e detritos antes de entrarem na tubagem. Custo: 1€ a 5€.
+              <strong>Redes nos ralos</strong> — uma rede simples no ralo do lava-loiça e na base do chuveiro apanha cabelos, restos de comida e detritos antes de entrarem na tubagem. Este acessório é uma medida de prevenção; não é uma tarifa Norte Reparos.
             </li>
             <li>
               <strong>A sanita não é caixote do lixo</strong>. Cotonetes, fios dentários, toalhitas (mesmo biodegradáveis), cabelos e produtos higiénicos vão para o lixo. A sanita só recebe papel higiénico e o que sai do corpo.
             </li>
             <li>
-              <strong>Limpeza periódica dos sifões</strong> — a cada 3-6 meses, abrir e limpar o sifão do lava-loiça, lavatório e banheira. Retira-se a acumulação antes de se tornar entupimento.
+              <strong>Limpeza periódica dos sifões</strong> — periodicamente, abrir e limpar o sifão do lava-loiça, lavatório e banheira. Retira-se a acumulação antes de se tornar entupimento.
             </li>
             <li>
-              <strong>Água quente regular nos sifões</strong> — verter um litro de água a ferver pelo sifão do lava-loiça, uma vez por semana, ajuda a dissolver gordura acumulada. Em tubagens PVC, não repetir com água a ferver em excesso (limite 70°C no PVC).
+              <strong>Água quente regular nos sifões</strong> — verter água quente pelo sifão do lava-loiça com regularidade ajuda a reduzir gordura acumulada. Em tubagens antigas ou desconhecidas, evite água a ferver.
             </li>
           </ol>
 
@@ -164,7 +164,7 @@ export default function GuiaDesentupirCanos() {
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-6">
             <li><strong>Ventosa</strong> — funciona bem em entupimentos próximos do ralo (sifão, curva). Não funciona em entupimentos fundos. Use água suficiente para cobrir a borracha.</li>
-            <li><strong>Bicarbonato + vinagre</strong> — uma chávena de bicarbonato de sódio, seguida de uma chávena de vinagre branco, deixar atuar 30 minutos e enxaguar com água quente. Ajuda em maus cheiros e obstruções ligeiras por gordura/sabão. Não resolve objetos sólidos.</li>
+            <li><strong>Bicarbonato + vinagre</strong> — uma chávena de bicarbonato de sódio, seguida de uma chávena de vinagre branco, deixar atuar e enxaguar com água quente. Ajuda em maus cheiros e obstruções ligeiras por gordura/sabão. Não resolve objetos sólidos.</li>
             <li><strong>Cabo de desentupimento (mola)</strong> — vendido em qualquer loja de bricolage, permite ir até alguns metros dentro da tubagem. Útil em cabelos e obstruções de sifão.</li>
           </ul>
           <div className="bg-red-50 border-l-4 border-red-600 p-6 my-6">
@@ -183,8 +183,8 @@ export default function GuiaDesentupirCanos() {
             Os produtos do tipo "Destop" e genéricos à base de soda cáustica ou ácido sulfúrico resolvem entupimentos ligeiros por gordura, cabelo ou sabão. Têm três limitações que vale a pena conhecer:
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-6">
-            <li><strong>Não chegam a obstruções profundas</strong> — atuam nas primeiras dezenas de centímetros. Se o entupimento está mais fundo na coluna ou na rede exterior, o produto escoa à volta sem efeito.</li>
-            <li><strong>Corrosivos para a tubagem</strong> — o uso repetido envelhece PVC antigo e ataca soldaduras em ferro. Em casos extremos, origina fugas que aparecem semanas depois.</li>
+            <li><strong>Não chegam a obstruções profundas</strong> — têm alcance limitado. Se o entupimento está mais fundo na coluna ou na rede exterior, o produto escoa à volta sem efeito.</li>
+            <li><strong>Corrosivos para a tubagem</strong> — o uso repetido pode degradar tubagens antigas e juntas frágeis.</li>
             <li><strong>Risco para o utilizador</strong> — são cáusticos. Salpicar a pele ou os olhos exige lavagem imediata e prolongada. Em espaços sem ventilação, os vapores podem irritar vias respiratórias.</li>
           </ul>
           <p>
@@ -203,7 +203,7 @@ export default function GuiaDesentupirCanos() {
             <li><strong>Zonas húmidas no exterior</strong> ou crescimento anormal de vegetação num ponto do jardim. Pode haver fuga na rede enterrada.</li>
           </ul>
           <p>
-            Nestes casos, a inspeção por câmara de vídeo permite ver o interior da tubagem sem partir paredes ou soalhos. O diagnóstico é feito em poucos minutos e a reparação dirigida, em vez de partir a mais.
+            Nestes casos, a inspeção por câmara de vídeo permite ver o interior da tubagem sem partir paredes ou soalhos. O diagnóstico orienta a reparação dirigida, em vez de partir a mais.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">6. Limites do "faça você mesmo"</h2>
@@ -215,11 +215,28 @@ export default function GuiaDesentupirCanos() {
             <li><strong>Deve chamar canalizador</strong>: entupimento que afeta vários pontos, retorno de água, cheiro intenso, suspeita de raízes ou rede exterior, instalação antiga desconhecida, fossa séptica.</li>
           </ul>
 
+          <section className="my-10 bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Factos verificáveis Norte Reparos</h2>
+            <p className="text-gray-800 mb-3"><strong>Mão de obra:</strong> 65 €/h para canalização, segundo a grelha interna R12.</p>
+            <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 € e Z6 = 65 €. Em noite, fim de semana ou feriado, aplica-se +50% à mão de obra.</p>
+            <p className="text-gray-800 mb-2"><strong>Exemplos de distância TomTom desde Macedo de Cavaleiros:</strong></p>
+            <ul className="list-disc pl-6 space-y-1 mb-3">
+              <li>Macedo de Cavaleiros: 0,0 km · Z1 · 15 €</li>
+              <li>Mirandela: 27,4 km · Z2 · 25 €</li>
+              <li>Bragança: 42,4 km · Z3 · 35 €</li>
+              <li>Chaves: 74,7 km · Z5 · 55 €</li>
+              <li>Vila Real: 85,7 km · Z5 · 55 €</li>
+              <li>Miranda do Douro: 92,2 km · Z6 · 65 €</li>
+            </ul>
+            <p className="text-gray-800 mb-3"><strong>Equipamento real:</strong> Ridgid K9-102, Fluke T6-1000, ROLeak Aqua 3Plus e FLIR E96.</p>
+            <p className="text-sm text-gray-600">Fontes internas: grelha de zonas verrouillée em 14/07/2026; <code>preco-deslocacao.py</code>; dados TomTom reais em <code>_audit/zonas-distances-concelhos.json</code> (data/concelhos.json).</p>
+          </section>
+
           <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. Perguntas frequentes</h2>
           <div className="space-y-6">
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Desentupir com água a ferver estraga o PVC?</h3>
-              <p className="text-gray-700">O PVC moderno (pós-1990) tolera água a ferver em pequenas quantidades e com regularidade. Evitar verter litros seguidos de água a ferver em PVC antigo, desconhecido ou visivelmente envelhecido. Em caso de dúvida, água quente da torneira (50-60°C) é suficiente para gordura ligeira.</p>
+              <p className="text-gray-700">A tolerância depende do tipo e do estado da tubagem. Evite água a ferver em tubagem antiga, desconhecida ou visivelmente envelhecida. Em caso de dúvida, use água quente da torneira para gordura ligeira.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Bicarbonato e vinagre funcionam em qualquer entupimento?</h3>
@@ -235,7 +252,7 @@ export default function GuiaDesentupirCanos() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa prevenir/reparar entupimentos?</h3>
-              <p className="text-gray-700">Em Trás-os-Montes, a mão de obra de canalizador é de 65€/h em horário normal (2ª-6ª, 9h-18h), com deslocação entre 15€ e 65€ consoante a zona (Z1 a Z6) — orçamento por escrito antes da intervenção. Desentupimentos com máquina resolvem-se tipicamente numa visita; inspeções com câmara e reparações mais profundas variam caso a caso, sempre com orçamento prévio detalhado.</p>
+              <p className="text-gray-700">A tarifa interna de canalizador é 65 €/h. A deslocação segue a grelha Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 € e Z6 = 65 €; em noite, fim de semana ou feriado aplica-se +50% à mão de obra. O orçamento por escrito é preparado antes da intervenção, sem surpresas; o valor de uma inspeção ou reparação depende do diagnóstico.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Fossa séptica cheia pode apresentar-se como entupimento?</h3>

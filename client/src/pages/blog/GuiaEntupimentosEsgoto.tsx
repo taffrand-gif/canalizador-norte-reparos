@@ -33,7 +33,7 @@ export default function GuiaEntupimentosEsgoto() {
                 "name": "Como prevenir entupimentos no esgoto?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A prevenção passa por três frentes: não enviar para a rede materiais sólidos (toalhitas, algodão, fios dentários, gordura) — mesmo que o rótulo diga 'flushable'; manter caixas de inspeção acessíveis e limpas periodicamente; e em zonas com fossa séptica, respeitar o calendário de limpeza (tipicamente cada 2-4 anos consoante o tamanho da fossa e o número de pessoas em casa). Também ajuda correr água em quantidade por todos os pontos da casa uma vez por semana — mantém o fecho hídrico dos sifões."
+                  "text": "A prevenção passa por não enviar para a rede materiais sólidos (toalhitas, algodão, fios dentários, gordura); manter caixas de inspeção acessíveis e limpas periodicamente; e respeitar o calendário de limpeza definido para a capacidade da fossa e a utilização. Também ajuda correr água em quantidade por todos os pontos da casa com regularidade — mantém o fecho hídrico dos sifões."
                 }
               },
               {
@@ -41,7 +41,7 @@ export default function GuiaEntupimentosEsgoto() {
                 "name": "De quanto em quanto tempo se limpa uma fossa séptica?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A periodicidade depende do tamanho da fossa e do volume de água residual. Como regra para uma habitação típica em Trás-os-Montes (fossa entre 3.000 e 5.000 litros, família de 3-5 pessoas): limpeza a cada 2-4 anos. Fosse mais pequena ou família numerosa: pode exigir limpeza anual. Casas de fim-de-semana usadas pontualmente: a fossa pode durar mais, mas deve ser verificada de 5 em 5 anos."
+                  "text": "A periodicidade depende do tamanho da fossa e do volume de água residual. A periodicidade depende da capacidade da fossa, da utilização e da orientação da empresa de limpeza. Uma fossa mais pequena ou uma utilização mais intensa exige verificação mais frequente; uma casa usada pontualmente deve manter uma verificação regular."
                 }
               },
               {
@@ -65,7 +65,7 @@ export default function GuiaEntupimentosEsgoto() {
                 "name": "Posso desentupir a rede exterior sozinho?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Não é recomendado. A rede exterior tem troços longos, curvas, e por vezes raízes ou assentamentos. Tentar resolver com métodos caseiros arrisca empurrar a obstrução mais fundo, danificar a tubagem, ou simplesmente perder tempo. Um canalizador com máquina de cabos ou hidrojato resolve em poucas horas; inspeção por câmara permite ver a causa e decidir entre desentupimento, reparação pontual ou renovação do troço."
+                  "text": "Não é recomendado. A rede exterior tem troços longos, curvas e por vezes raízes ou assentamentos. Tentar resolver com métodos caseiros pode danificar a tubagem. Um canalizador usa máquina de cabos ou hidrojato e inspeção por câmara para identificar a causa."
                 }
               },
               {
@@ -112,14 +112,14 @@ export default function GuiaEntupimentosEsgoto() {
             Entupimentos e Esgoto: Prevenção, Sinais e Manutenção da Fossa
           </h1>
           <p className="text-lg text-gray-600">
-            Guia informativo · Causas exteriores, manutenção da fossa e limites da bricolage · ~7 min de leitura
+            Guia informativo · Causas exteriores, manutenção da fossa e limites da bricolage · leitura
           </p>
         </header>
         <div className="prose prose-lg max-w-none">
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-2">Em resumo:</p>
             <p className="text-gray-800">
-              Os entupimentos do esgoto e da rede exterior têm <strong>causas diferentes dos entupimentos interiores</strong>: raízes, fossa cheia, caixas de inspeção obstruídas, assentamento da rede, ou simplesmente idade da tubagem. Os sinais chegam primeiro pelo <strong>cheiro</strong> e pelo <strong>escoamento simultâneo de vários pontos</strong>. A manutenção preventiva — limpeza periódica da fossa, cuidado com o que se envia pela sanita, inspeção da rede por câmara quando há recorrência — é o que evita a maioria das emergências. Quando o problema aparece, a intervenção por canalizador com máquina e diagnóstico por câmara resolve em poucas horas.
+              Os entupimentos do esgoto e da rede exterior têm <strong>causas diferentes dos entupimentos interiores</strong>: raízes, fossa cheia, caixas de inspeção obstruídas, assentamento da rede, ou simplesmente idade da tubagem. Os sinais chegam primeiro pelo <strong>cheiro</strong> e pelo <strong>escoamento simultâneo de vários pontos</strong>. A manutenção preventiva — limpeza periódica da fossa, cuidado com o que se envia pela sanita, inspeção da rede por câmara quando há recorrência — é o que evita a maioria das emergências. Quando o problema aparece, a intervenção por canalizador usa máquina e diagnóstico por câmara para orientar a solução.
             </p>
           </div>
 
@@ -140,14 +140,14 @@ export default function GuiaEntupimentosEsgoto() {
             <li><strong>Fossa séptica cheia ou em fim de capacidade</strong> — em zonas sem rede de saneamento público (frequente em Trás-os-Montes), uma fossa que ultrapassa o limite de sólidos faz o sistema recuar. Toda a casa passa a escoar mal de repente.</li>
             <li><strong>Raízes nas juntas da rede exterior</strong> — árvores de grande porte (carvalhos, castanheiros, choupos) e tubagens antigas com juntas em betão ou grés são uma combinação clássica. As raízes infiltram-se e crescem dentro da tubagem, retendo detritos.</li>
             <li><strong>Caixas de inspeção sem tampa, partidas ou cheias</strong> — em casas antigas, há caixas que perderam a tampa, ou em que a tampa rachou e deixa entrar terra. Sedimentos acumulam-se e reduzem a secção útil.</li>
-            <li><strong>Assentamento da tubagem</strong> — em zonas com solo argiloso ou variações de humidade, a tubagem pode assentar e criar contra-flechas onde os detritos se acumulam. Causa frequente em moradias com mais de 20 anos.</li>
+            <li><strong>Assentamento da tubagem</strong> — em zonas com solo argiloso ou variações de humidade, a tubagem pode assentar e criar contra-flechas onde os detritos se acumulam. Pode ocorrer em moradias com rede antiga.</li>
             <li><strong>Envio indevido de materiais sólidos</strong> — toalhitas (mesmo as 'flushable'), algodão, fios dentários, gordura. As toalhitas são a causa número um de entupimento em redes de fossa e em redes públicas antigas.</li>
             <li><strong>Idade da rede</strong> — tubagens em ferro galvanizado perdem secção útil por corrosão interna; em betão, podem partir com a pressão do solo; em PVC antigo, podem ter juntas que cederam.</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">3. Sinais precoces — o que observar</h2>
           <p>
-            Os problemas de esgoto raramente aparecem de repente. Há sinais que avisam com semanas ou meses de antecedência:
+            Os problemas de esgoto podem dar sinais antes de se agravarem:
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-6">
             <li><strong>Cheiro a esgoto em zonas onde normalmente não se sente</strong> — cave, garagem, lavandaria. Pode ser fecho hídrico seco (sifão de um ralo que não é usado) ou início de problema na rede.</li>
@@ -164,7 +164,7 @@ export default function GuiaEntupimentosEsgoto() {
           </p>
           <ol className="list-decimal pl-6 space-y-3 mb-6">
             <li>
-              <strong>Periocidade</strong> — regra geral, cada 2-4 anos para uma família de 3-5 pessoas. Fosse pequena ou casa com piscina, jardim grande, ou família numerosa: encurtar a periocidade. Casas de fim-de-semana usadas pontualmente: pode esticar-se, mas com verificação periódica.
+              <strong>Periocidade</strong> — a periodicidade depende da capacidade da fossa, da utilização e da orientação da empresa de limpeza. Uma fossa mais pequena ou uma utilização mais intensa exige verificação mais frequente; uma casa usada pontualmente deve manter uma verificação regular.
             </li>
             <li>
               <strong>O que se limpa</strong> — retira-se a camada de sólidos (lodo) do fundo e a camada de escuma do topo. O líquido clarificado intermédio é reintroduzido no sistema. A limpeza deve ser feita por empresa equipada com cisterna.
@@ -173,7 +173,7 @@ export default function GuiaEntupimentosEsgoto() {
               <strong>O que NÃO fazer</strong> — não adicionar químicos 'ativadores' ou 'biológicos' sem critério. A maioria não tem benefício comprovado. Não deitar cinza, tinta, óleo de motor, medicamentos ou produtos químicos fortes pelo esgoto — interfere com o equilíbrio da fossa.
             </li>
             <li>
-              <strong>Após limpeza</strong> — encher a fossa com água limpa para restabelecer o nível operacional. Sem água, o sistema demora semanas até repor a flora bacteriana.
+              <strong>Após limpeza</strong> — encher a fossa com água limpa para restabelecer o nível operacional. Sem água, o sistema precisa de tempo para repor a flora bacteriana.
             </li>
           </ol>
 
@@ -182,9 +182,9 @@ export default function GuiaEntupimentosEsgoto() {
             Cinco cuidados que reduzem drasticamente a probabilidade de entupimento do esgoto:
           </p>
           <ol className="list-decimal pl-6 space-y-3 mb-6">
-            <li><strong>Toalhitas e algodão sempre no lixo</strong>, nunca na sanita. Mesmo as ditas "flushable" demoram semanas a degradar-se numa fossa e podem entupir a rede em poucas utilizações.</li>
+            <li><strong>Toalhitas e algodão sempre no lixo</strong>, nunca na sanita. Mesmo as ditas "flushable" degradam-se lentamente e podem entupir a rede.</li>
             <li><strong>Gordura nunca pela tubagem</strong>. Coar para recipiente próprio e entregar no oleão ou ponto de recolha.</li>
-            <li><strong>Correr água em quantidade por todos os pontos da casa uma vez por semana</strong>. Mantém o fecho hídrico dos sifões e ajuda a arrastar detritos pela tubagem antes que se acumulem.</li>
+            <li><strong>Correr água em quantidade por todos os pontos da casa com regularidade</strong>. Mantém o fecho hídrico dos sifões e ajuda a arrastar detritos pela tubagem antes que se acumulem.</li>
             <li><strong>Não plantar árvores de grande porte perto da rede</strong>, ou usar barreiras anti-raiz quando se renova a tubagem exterior.</li>
             <li><strong>Marcar a posição da fossa e das caixas de inspeção</strong>. Saber onde estão evita cobrí-las com pavimento e facilita a limpeza periódica.</li>
           </ol>
@@ -198,12 +198,29 @@ export default function GuiaEntupimentosEsgoto() {
             <li>O problema voltou pouco depois de resolvido (suspeita de raízes ou assentamento).</li>
             <li>Há refluxo de água suja ou cheiro intenso vindo dos ralos.</li>
             <li>A fossa está visivelmente cheia ou nunca foi limpa.</li>
-            <li>A casa tem rede antiga (mais de 20 anos) e nunca foi feita inspeção por câmara.</li>
+            <li>A casa tem rede antiga e nunca foi feita inspeção por câmara.</li>
             <li>Há zonas de vegetação anormal no jardim por cima da rede.</li>
           </ul>
           <p>
             O trabalho de um canalizador neste cenário passa por: localizar a obstrução (inspeção por câmara), desentupir com máquina de cabos ou hidrojato, e avaliar o estado da tubagem. Em raízes ou tubagem partida, a reparação é dirigida (ponto a ponto) em vez de renovar a rede inteira.
           </p>
+
+          <section className="my-10 bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Factos verificáveis Norte Reparos</h2>
+            <p className="text-gray-800 mb-3"><strong>Mão de obra:</strong> 65 €/h para canalização, segundo a grelha interna R12.</p>
+            <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 € e Z6 = 65 €. Em noite, fim de semana ou feriado, aplica-se +50% à mão de obra.</p>
+            <p className="text-gray-800 mb-2"><strong>Exemplos de distância TomTom desde Macedo de Cavaleiros:</strong></p>
+            <ul className="list-disc pl-6 space-y-1 mb-3">
+              <li>Macedo de Cavaleiros: 0,0 km · Z1 · 15 €</li>
+              <li>Mirandela: 27,4 km · Z2 · 25 €</li>
+              <li>Bragança: 42,4 km · Z3 · 35 €</li>
+              <li>Chaves: 74,7 km · Z5 · 55 €</li>
+              <li>Vila Real: 85,7 km · Z5 · 55 €</li>
+              <li>Miranda do Douro: 92,2 km · Z6 · 65 €</li>
+            </ul>
+            <p className="text-gray-800 mb-3"><strong>Equipamento real:</strong> Ridgid K9-102, Fluke T6-1000, ROLeak Aqua 3Plus e FLIR E96.</p>
+            <p className="text-sm text-gray-600">Fontes internas: grelha de zonas verrouillée em 14/07/2026; <code>preco-deslocacao.py</code>; dados TomTom reais em <code>_audit/zonas-distances-concelhos.json</code> (data/concelhos.json).</p>
+          </section>
 
           <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. Perguntas frequentes</h2>
           <div className="space-y-6">
@@ -225,7 +242,7 @@ export default function GuiaEntupimentosEsgoto() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa a manutenção ou desentupimento do esgoto?</h3>
-              <p className="text-gray-700">Em Trás-os-Montes, a mão de obra de canalizador é de 65€/h em horário normal (2ª-6ª, 9h-18h), com deslocação entre 15€ e 65€ consoante a zona (Z1 a Z6). Limpeza de fossa séptica por empresa especializada é tipicamente orçamentada por volume (litros) e distância. Diagnóstico por câmara e desentupimento mecânico resolvem-se habitualmente numa visita, com orçamento por escrito antes da intervenção.</p>
+              <p className="text-gray-700">A tarifa interna de canalizador é 65 €/h. A deslocação segue a grelha Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 € e Z6 = 65 €; em noite, fim de semana ou feriado aplica-se +50% à mão de obra. A limpeza de fossa é orçamentada pela empresa especializada segundo o volume e a distância. O orçamento por escrito é preparado antes da intervenção.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Vale a pena renovar a rede exterior?</h3>
