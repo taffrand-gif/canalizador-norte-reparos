@@ -4,8 +4,9 @@
 
 This script patches only existing canonical ``client/public/canalizador-<slug>.html``
 pages. It does not create doorway pages, call Indexing API, or infer business
-values: zone/price comes from precos-zonas.json and road distance/response data
-comes from the audited TomTom file.
+values: zone/price comes from the current precos-zonas.json source of truth and
+road distance comes from the audited TomTom file. The source zone is validated
+against the distance-band floor so a stale lower zone cannot underprice a page.
 """
 from __future__ import annotations
 
@@ -20,6 +21,7 @@ PUBLIC = ROOT / "client" / "public"
 PRECOS = ROOT / "precos-zonas.json"
 TOMTOM = Path.home() / "work" / "Sites" / "_audit" / "zonas-distances-concelhos.json"
 GRILLE = {1: 15, 2: 25, 3: 35, 4: 45, 5: 55, 6: 65}
+DISTANCE_CEILINGS_KM = {1: 22, 2: 43, 3: 65, 4: 87, 5: 109, 6: 130}
 TARIF_HORA = 65
 NAP = "+351 928 484 451"
 E164 = "+351928484451"
@@ -46,6 +48,26 @@ def title_name(slug: str, names: dict[str, str]) -> str:
     return names.get(slug, slug.replace("-", " ").title())
 
 
+def source_zone(raw_prices: dict[str, object], name: str) -> int:
+    candidates = [name]
+    normalized_name = unicodedata.normalize("NFKD", name)
+    candidates.append("".join(c for c in normalized_name if not unicodedata.combining(c)))
+    for candidate in candidates:
+        zone = raw_prices.get(candidate)
+        if isinstance(zone, int):
+            if zone not in GRILLE:
+                raise ValueError(f"Invalid source zone for {name}: Z{zone}")
+            return zone
+    raise ValueError(f"No source zone for {name}")
+
+
+def minimum_zone_for_distance(km: float) -> int:
+    for zone, ceiling in DISTANCE_CEILINGS_KM.items():
+        if km <= ceiling:
+            return zone
+    raise ValueError(f"Road distance outside supported service radius: {km:.1f} km")
+
+
 def load_sources() -> tuple[dict[str, dict], dict[str, str]]:
     raw_prices = json.loads(PRECOS.read_text(encoding="utf-8"))
     names = {slugify(name): name for name in raw_prices}
@@ -53,18 +75,19 @@ def load_sources() -> tuple[dict[str, dict], dict[str, str]]:
     rows: dict[str, dict] = {}
     for name, item in road.items():
         slug = item["slug"]
-        zone = raw_prices.get(name)
-        if not isinstance(zone, int):
-            normalized_name = unicodedata.normalize("NFKD", name)
-            normalized_name = "".join(c for c in normalized_name if not unicodedata.combining(c))
-            zone = raw_prices.get(normalized_name)
-        if not isinstance(zone, int):
-            raise ValueError(f"No source zone for {name}")
+        zone = source_zone(raw_prices, name)
+        km = float(item["km"])
+        minimum_zone = minimum_zone_for_distance(km)
+        if zone < minimum_zone:
+            raise ValueError(
+                f"Underpriced source zone for {name}: Z{zone} at {km:.1f} km; "
+                f"distance band requires at least Z{minimum_zone}"
+            )
         rows[slug] = {
             "name": name,
             "zone": zone,
             "desloc": GRILLE[zone],
-            "km": float(item["km"]),
+            "km": km,
             "minutes": int(item["temps_min"]),
             "district": item.get("distrito", "Trás-os-Montes"),
         }
@@ -154,6 +177,8 @@ def patch_page(row: dict, slug: str, all_rows: dict[str, dict], dry_run: bool) -
     if not path.exists():
         return False, ["MISSING"]
     original = path.read_text(encoding="utf-8")
+    if re.search(r"tel:\+351\*+\d+", original):
+        raise ValueError(f"Masked click-to-call link in source page: {path}")
     content = original
     n, z, price, km, minutes = row["name"], row["zone"], row["desloc"], row["km"], row["minutes"]
     content, _ = replace_once(content, r"<title>.*?</title>", f"<title>Canalizador em {n} — instalação, orçamento e remodelação | Norte Reparos</title>", re.S)
@@ -171,8 +196,9 @@ def patch_page(row: dict, slug: str, all_rows: dict[str, dict], dry_run: bool) -
     # Remove stale JSON-LD and add one valid graph. Existing pages in this family
     # contain malformed/truncated JSON-LD; keeping it would defeat the GEO gate.
     content = re.sub(r'<script\s+type=["\']application/ld\+json["\'][^>]*>.*?</script>', "", content, count=1, flags=re.I | re.S)
-    content = content.replace("</head>", f'<script type="application/ld+json">{escape_json(graph(row, slug))}</script>\n</head>', 1)
-    content = re.sub(r'\n<!-- GEO-DIFF CNR installation vague 1;.*?<!-- /GEO-DIFF CNR -->\n', "\n", content, count=1, flags=re.S)
+    graph_script = f'<script type="application/ld+json">{escape_json(graph(row, slug))}</script>'
+    content = re.sub(r'\s*</head>', f'\n{graph_script}\n</head>', content, count=1)
+    content = re.sub(r'\n+<!-- GEO-DIFF CNR installation vague 1;.*?<!-- /GEO-DIFF CNR -->\n+', "\n", content, count=1, flags=re.S)
     content = content.replace("</main>", block(row, slug, all_rows) + "\n</main>", 1) if "</main>" in content else content.replace("</body>", block(row, slug, all_rows) + "\n</body>", 1)
     if content == original:
         return False, ["NOOP"]
