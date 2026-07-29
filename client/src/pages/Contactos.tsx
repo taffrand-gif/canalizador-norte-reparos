@@ -58,7 +58,7 @@ export default function Contactos() {
  } else {
  body.message = formData.message;
  }
- const res = await fetch("https://formsubmit.co/ajax/taff.rand@gmail.com", {
+ const res = await fetch("https://formsubmit.co/ajax/contacto@canalizador-norte-reparos.pt", {
  method: "POST",
  headers: { "Content-Type": "application/json", Accept: "application/json" },
  body: JSON.stringify(body)});

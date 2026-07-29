@@ -109,7 +109,7 @@ export const siteConfig: SiteConfig = {
  phone: '928 484 451',
  whatsapp: '351928484451',
  whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
- email: 'info@canalizador-norte-reparos.pt',
+ email: 'contacto@canalizador-norte-reparos.pt',
  serviceType: 'Canalizador',
  domain: 'canalizador-norte-reparos.pt',
  colors: {

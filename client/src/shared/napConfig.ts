@@ -16,7 +16,7 @@ export const businessInfo = {
  phone: '+351 928 484 451',
  phoneFormatted: '928 484 451',
  whatsapp: '351928484451',
- email: 'info@canalizador-norte-reparos.pt',
+ email: 'contacto@canalizador-norte-reparos.pt',
  domain: 'canalizador-norte-reparos.pt',
  // Base address (géo-neutre — règle 5 AGENTS.md, pas de streetAddress précise)
  baseAddress: {

@@ -230,7 +230,7 @@ colors: {
 ## Support et maintenance
 
 Pour toute question ou assistance :
-- Email : info@canalizador-norte-reparos.pt ou info@
+- Email : contacto@canalizador-norte-reparos.pt ou info@
 - Téléphone : 928 484 451 (Norte-Reparos) ou 928 484 451 (Staff-Seekers)
 
 ## Licence
