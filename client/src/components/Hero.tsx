@@ -47,7 +47,7 @@ const personalizedSubtitle = useMemo(() => {
  <ServicesSlider />
  </div>
  {/* Main title - Brutalist massive heading */}
- <h1 className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
+ <h1 className="hero-title-shadow text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none">
  {personalizedTitle}
  </h1>
  {/* Subtitle */}
