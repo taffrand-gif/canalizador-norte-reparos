@@ -97,7 +97,7 @@ export const reviewTemplates = {
 
  <p>Obrigado,<br>
  <strong>Equipa Norte Reparos</strong><br>
- 📞 +351 928 484 451 | 📧 geral@canalizador-norte-reparos.pt</p>
+ 📞 +351 928 484 451 | 📧 contacto@canalizador-norte-reparos.pt</p>
  </div>
  <div class="footer">
  <p>Norte Reparos - Serviços Profissionais em Trás-os-Montes<br>
@@ -240,7 +240,7 @@ export class ReviewRequestScheduler {
 
  await sgMail.send({
  to: email,
- from: 'geral@canalizador-norte-reparos.pt',
+ from: 'contacto@canalizador-norte-reparos.pt',
  subject: subject,
  html: body
  });
