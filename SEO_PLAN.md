@@ -406,7 +406,7 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 
 ### 🟧 B3 — H1 sémantique (correction HTML) (S4)
 
-**Statut** : ⏳ À FAIRE
+**Statut** : ✅ Fait (2026-07-29, cowork-loop — homepage `Hero.tsx`). Volet "8 fichiers /zonas/" sans objet : aucun répertoire `zonas/` dans ce repo (vérifié) et 0 `<h1 ... style=` restant dans `client/src/` après patch.
 **Priorité** : BASSE (cosmétique SEO)
 **Effort** : ~1h
 **Risque** : BAS (refactoring CSS)
@@ -1666,5 +1666,19 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Conformité** : R4 (zéro invention) ✅, R12 (différenciation installation≠urgente) ✅, R8 (témoins avant/après) ✅, atomique (1 fichier, 1 commit) ✅.
 - **Statut** : ✅ Fait — commit `c5f59cd7a`, branche `loop/2026-07-16-canalizador-norte-reparos-r12-seo-keywords`, PR #203 ouverte.
 - **B3 (H1 sémantique Hero.tsx)** reporté au run suivant (non traité cette itération car la violation R12 primait).
+
+---
+
+### 2026-07-29 — B3 H1 sémantique : ombre inline → classe CSS (cowork-loop)
+- **Tâche** : B3 (§B3, priorité BASSE, cosmétique SEO/code-quality) — convertir le `style={{ textShadow: ... }}` inline du H1 homepage en classe CSS dédiée.
+- **Pré-contrôle R11/R12** : `Hero.tsx` grep `24h|urgente|urgência|emergência|grátis|gratuito` → **0 occurrence** dans le fichier cible, aucune violation à corriger en priorité sur ce périmètre. Gisement plus large signalé (voir « Blocages » ci-dessous), non traité ici car hors périmètre atomique.
+- **Action** (2 fichiers, 2 commits atomiques) :
+  1. `client/src/index.css` — ajout de `.hero-title-shadow { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }` (valeur strictement identique à l'inline).
+  2. `client/src/components/Hero.tsx` L50 — `<h1 className="text-5xl ... leading-none" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>` → `<h1 className="hero-title-shadow text-5xl ... leading-none">`.
+- **Témoins R8** : `textShadow` dans `Hero.tsx` 1→0 ; `hero-title-shadow` dans `index.css` 0→1 et dans `Hero.tsx` 0→1 ; `<h1 ... style=` dans `client/src/` 1→0.
+- **Critère GO/STOP §B3 (rendu visuel identique)** : ✅ respecté — même valeur `2px 2px 4px rgba(0,0,0,0.5)`, aucune utilitaire Tailwind ne définit `text-shadow` (pas de conflit de spécificité), diff limité à 1 ligne.
+- **Vérification build** : `npx tsc --noEmit` — aucune erreur nouvelle introduite (erreurs restantes toutes pré-existantes et situées dans `ForfaitsGrid.tsx`, `GoogleReviews.tsx`, `QuoteForm.tsx`, `StructuredData.tsx` ; 0 erreur dans `Hero.tsx`).
+- **Conformité** : R4 ✅ (aucun contenu ajouté), R6 ✅ (pas de force-push), R8 ✅ (témoins avant/après), commit atomique ✅ (1 fichier = 1 commit).
+- **Statut** : ✅ Fait — branche `loop/2026-07-29-canalizador-norte-reparos-b3-h1-semantique`.
 
 ---
