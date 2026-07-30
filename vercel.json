@@ -194,6 +194,10 @@
       "destination": "/sanita-entupida-:city.html"
     },
     {
+      "source": "/como-detetar-fuga-agua",
+      "destination": "/como-detetar-fuga-agua.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
