@@ -2,6 +2,7 @@ import { generateCityServiceMatrix } from '../shared/cityServiceMatrix';
 import { CITIES } from '../shared/serviceConfig';
 import * as fs from 'fs';
 import * as path from 'path';
+import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
@@ -9,69 +10,108 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const DOMAIN = 'https://canalizador-norte-reparos.pt';
+const REPO_ROOT = path.resolve(__dirname, '..');
+
+/**
+ * Renvoie la date du dernier commit (YYYY-MM-DD) pour `relPath` (chemin
+ * relatif depuis la racine du repo) ou la date du jour si git échoue.
+ *
+ * Justification : le sitemap généré doit exposer un `<lastmod>` qui reflète
+ * la dernière modification réelle du fichier .html servi, pas la date de
+ * génération du script. Audit AUDIT-SITEMAP-TIERS-2026-07-30 (t_85288418) :
+ * 9/10 sitemaps Norte-OS étaient à 0-1.5 % honnête. Patch est légitime
+ * tant qu'il ne supprime aucun fichier ni ne change la liste des URLs.
+ */
+function gitLastmod(relPath: string): string {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const out = execSync(
+      ['git', 'log', '-1', '--format=%aI', '--', relPath].join(' '),
+      { cwd: REPO_ROOT, stdio: ['pipe', 'pipe', 'pipe'] }
+    ).toString().trim();
+    if (!out) return today;
+    return out.slice(0, 10);
+  } catch {
+    return today;
+  }
+}
+
+interface SitemapEntry {
+  loc: string;
+  priority: number;
+  changefreq: string;
+  relPath: string;
+}
 
 function generateSitemap() {
- const urls: Array<{ loc: string; priority: number; changefreq: string }> = [];
- const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
+ const urls: SitemapEntry[] = [];
 
- // Homepage (highest priority)
+ // Homepage (highest priority) — sert `index.html` à la racine.
  urls.push({
  loc: `${DOMAIN}/`,
  priority: 1.0,
- changefreq: 'daily'
+ changefreq: 'daily',
+ relPath: 'public/index.html',
  });
 
- // Service hub pages (high priority)
+ // Service hub pages (high priority).
  const services = [
  'fugas-agua',
  'desentupimentos',
  'esquentadores',
  'casas-banho',
- 'canalizacao'
- ];
+ 'canalizacao',
+ ] as const;
 
  services.forEach(service => {
  urls.push({
  loc: `${DOMAIN}/${service}`,
  priority: 0.9,
- changefreq: 'weekly'
+ changefreq: 'weekly',
+ relPath: `public/${service}.html`,
  });
  });
 
- // Main city pages (high priority)
+ // Main city pages (high priority).
  const mainCities = CITIES.filter(c => !c.parentCity);
  mainCities.forEach(city => {
  urls.push({
  loc: `${DOMAIN}/canalizador-${city.slug}`,
  priority: 0.85,
- changefreq: 'weekly'
+ changefreq: 'weekly',
+ relPath: `public/canalizador-${city.slug}.html`,
  });
  });
 
- // City × Service pages (medium-high priority)
+ // City × Service pages (medium-high priority).
  const matrix = generateCityServiceMatrix();
  matrix.forEach(page => {
+ // `page.url` est déjà de la forme `/canalizador-X-service-Y.html` ; on
+ // essaie plusieurs chemins candidats vers le fichier servi (client/public
+ // d'abord car Vite y copie les sources, puis public/ legacy).
+ const urlPath = page.url.replace(/^\//, '');
  urls.push({
  loc: `${DOMAIN}${page.url}`,
  priority: page.priority,
- changefreq: 'monthly'
+ changefreq: 'monthly',
+ relPath: `client/public/${urlPath}`,
  });
  });
 
  // Static pages
  urls.push(
- { loc: `${DOMAIN}/servicos`, priority: 0.8, changefreq: 'monthly' },
- { loc: `${DOMAIN}/faq`, priority: 0.7, changefreq: 'monthly' },
- { loc: `${DOMAIN}/zonas`, priority: 0.7, changefreq: 'monthly' },
- { loc: `${DOMAIN}/blog`, priority: 0.8, changefreq: 'weekly' }
+ { loc: `${DOMAIN}/servicos`, priority: 0.8, changefreq: 'monthly', relPath: 'client/public/servicos.html' },
+ { loc: `${DOMAIN}/faq`, priority: 0.7, changefreq: 'monthly', relPath: 'client/public/faq.html' },
+ { loc: `${DOMAIN}/zonas`, priority: 0.7, changefreq: 'monthly', relPath: 'client/public/zonas.html' },
+ { loc: `${DOMAIN}/blog`, priority: 0.8, changefreq: 'weekly', relPath: 'client/public/blog/index.html' }
  );
 
- // Generate XML
+ // Generate XML — lastmod est calculé par fichier.
  const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => ` <url>
  <loc>${url.loc}</loc>
- <lastmod>${today}</lastmod>
+ <lastmod>${gitLastmod(url.relPath)}</lastmod>
  <priority>${url.priority.toFixed(1)}</priority>
  <changefreq>${url.changefreq}</changefreq>
  </url>`).join('\n')}
