@@ -117,7 +117,7 @@ Une absence de règle = autorisé par défaut. La règle 10 dit : **en cas de do
 - **Sites actifs** : canalizador-norte-reparos.pt (928 484 451) · canalizador-urgente.pt (928 484 451) · eletricista-norte-reparos.pt (932 321 892) · eletricista-urgente.pt (932 321 892)
 - **Zone** : Trás-os-Montes, ~34 concelhos, rayon ~130 km autour de Macedo de Cavaleiros
 - **Stack transversale** : React + Vite · GitHub (org `taffrand-gif`) · Vercel · Cloudflare DNS · n8n · Obsidian (vault `NORTE-OS`) · GA4 · Google Search Console · Google Ads · Meta Ads · TomTom · WhatsApp · ElevenLabs + Twilio (agent vocal, conçu, pas encore construit)
-- **Certification élec** : DGEG `1757/2026/DIEN` en attente · co-signature LDE Mirandela en attendant
+- **Certification élec** : DGEG `TRIESP 90062` **obtenue 24/07/2026** (despacho 23/07/2026) · Execução em Baixa Tensão · installations jusqu'à 41,4 kVA · Seguro RC ≥ 50 000 € · Lei n.º 14/2015. Filipe délivre officiellement Ficha Eletrotécnica + Termo de Responsabilidade. À partir de **350 €** pour le service certifié (Ficha + Termo). Source vérité : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md`. ⚠️ Sur **CNR (site plomberie)** : zéro claim DGEG, zéro mention « ficha eletrotécnica », « TRIESP », « instalação certificada ». Chargeur VE / wallbox = service **RÉEL** sur les 2 sites élec (EU + ENR) uniquement, JAMAIS sur CNR/CU.
 - **Langue** : interne FR informel · tout contenu client **PT-PT uniquement** (jamais PT-BR)
 
 **Règle pronom — rédaction client uniquement (verrouillée 30/06/2026)** :
@@ -127,3 +127,11 @@ Une absence de règle = autorisé par défaut. La règle 10 dit : **en cas de do
 - Vérifié à chaque livraison
 
 **Compatibilité** : ce bloc complète la doctrine locale (R1-R11 + §11 ci-dessus) sans la remplacer. En cas de contradiction, la doctrine locale prime.
+
+---
+
+## 13. Note 30/07/2026 — Chargeur VE & DGEG côté CNR (plomberie)
+
+- **Chargeur VE / wallbox** : HORS périmètre CNR (site plomberie). Ne JAMAIS lister comme service, ni dans le body ni dans le sitemap, ni dans les meta. Ne JAMAIS mentionner `carregador VE`, `wallbox`, `TRIESP`, `Ficha eletrotécnica`, `Termo de Responsabilidade` côté CNR.
+- **DGEG** : le status est transversal (cf. `§12 Identidade` ci-dessus), mais aucun claim DGEG ne doit apparaître sur les pages CNR — l'argumentaire cert vit exclusivement sur les 2 sites élec (EU + ENR). Claim DGEG côté plomberie = violation de scope (R5/R11).
+- Source vérité : `~/work/Sites/DGEG-CERT-SOURCE-OF-TRUTH.md` + `~/work/Sites/CONTEXTE-BUSINESS.md` §8.
