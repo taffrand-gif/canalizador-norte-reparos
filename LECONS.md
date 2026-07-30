@@ -37,3 +37,52 @@
 - `_audit/zonas-distances-concelhos.json` (SOT km TomTom)
 - PRICING.md §Déplacement (Z1=15 / Z2=25 / Z3=35 / Z4=45 / Z5=55 / Z6=65)
 - Leçon #413 (V5 minimal = Jaccard neutre, pas de `role="answer"`)
+
+
+## #CNR-POS-2026-07-29-01 — feat/seo-positioning-sav-q3-2026 (PR #229)
+
+**Contexte** : PR DRAFT CNR — positionnement on-page de 6 pages SAV/dépannage doux (autoclismo, termoacumulador/esquentador, válvula/torneira, fuga). Mission cadrée sur ROI immédiat : pages qui ont déjà des impressions GSC (90j) mais restent pos 21-25 = page 3 Google = 0 clic. Pas de création de pages en volume.
+
+### Leçons diagnostiques
+
+1. **Page intent pur `autoclismo-perder-agua.html` avait le TITRE de la home en SERP.** Le `<title>` était `💧 Canalizador em Trás-os-Montes | Norte Reparos` (= titre home, probablement copié-collé depuis un template partagé). L'`<og:title>` était correct (`Autoclismo a Perder Água? Como Resolver | 928 484 451`) mais le SERP Google utilise le `<title>` du head, pas l'og:title. Conséquence : Google classait la page sur l'intent "canalizador Trás-os-Montes" au lieu de "autoclismo perder água" → mismatch sémantique → pos 21-25. **Leçon : sur les pages à fort potentiel, le `<title>` du head DOIT être différent du titre home ET aligné sur la requête principale.**
+
+2. **H1 = slug brut = signal sémantique faible.** 5/6 pages blog avaient un H1 = nom du fichier (`Esquentador Nao Aquece Solucao`, `Fuga Agua Parede Como Encontrar`, etc.) sans accents, sans forme interrogative. Google lit l'H1 comme confirmation de l'intent title → si title="question" et H1="slug", Google hésite. Correctif : transformer l'H1 en question/intent avec accents (`Esquentador Não Aquece? Causas e Soluções Definitivas`).
+
+3. **Meta description avec variables template non remplacées = template leak.** `autoclismo-perder-agua.html` avait `<meta name="description" content="Canalizador profissional em Trás-os-Montes. 6 zonas tarifárias Preço tabelado por zona Z1-Z6 (15€ a 65€ deslocação) + 65€/h mão de obra (plomberie). Orçamento por escrito antes de qualquer intervenção.. mediante confirmação por telefone — ligue 928 484 451. +351 928 484 451.">` — variables `Preço tabelado por zona Z1-Z6...` jamais remplacées. Google peut détecter le leak comme signal de thin content → CTR SERP dégradé.
+
+4. **Bug bloquant `tel:++351928484451` (double +) = lien mort sur mobile.** 2 occurrences sur `fuga-agua-parede-como-encontrar.html`. Grep obligatoire après chaque patch on-page : `grep -E 'href="tel:\+\+351' client/public/blog/*.html` → doit retourner 0. La doctrine CEO verrouille `tel:+351928484451` (single +). Tout double + = régression à corriger immédiatement.
+
+5. **Claims inventés dans le body = à neutraliser, pas à propager.** La page `autoclismo-perder-agua.html` contenait "até 200 litros de água por dia" et "custa entre 30€ e 80€" — claims non sourcés. AGENTS.md R4 = "zéro faux contenu". J'ai neutralisé en remplaçant par formulation factuelle + référence à la grille tarifaire Z1-Z6 verrouillée (`orçamento por escrito`) — pas supprimé brutalement pour éviter de casser la structure de la page. **Leçon : sur une PR de positionnement, neutraliser les claims inventés, ne pas les laisser s'amplifier.**
+
+6. **Bloc answer-first = pattern à dupliquer sur toutes les pages SAV.** La page intent pur `autoclismo-perder-agua.html` n'avait aucun bloc answer-first. J'ai ajouté après le H1 : (a) paragraphe "Resposta rápida" 1-2 phrases, (b) bloc `<h2>O Que Fazer Agora</h2>` avec 5 étapes actionnables (`<ol><li>Feche a torneira...`), (c) tél cliquable inline. Pattern symétrique ENR #216 / CNR-AF-01 (`data-p1="answer-first"`) — à étendre aux autres pages intent pur manquantes.
+
+### Leçons process
+
+7. **Diagnostic PRÉ-CORRECTION obligatoire.** Le brief demandait de PROUVER le diagnostic avant tout patch. Méthode appliquée : (a) `git ls-tree -r origin/main --name-only | grep 'client/public/blog/'` pour lister les 966 fichiers blog, (b) `git show origin/main:public/sitemap-blog.xml` pour identifier les 82 URLs sitemap, (c) `grep -oE "<title>[^<]+</title>"` sur les 6 candidates, (d) `grep -oE 'href="tel:[^"]+"'` pour détecter les bugs bloquants. Sans ce diagnostic, j'aurais patché à l'aveugle et raté le vrai problème (title = titre home).
+
+8. **Selection chirurgique = 6 fichiers, pas volume.** Brief : "5-8 pages max à potentiel, pas de volume". J'ai tenu la fourchette basse (6) en privilégiant : (a) 1 page intent pur AUTOCLISMO (`autoclismo-perder-agua`), (b) 3 articles blog AUTOCLISMO (les 3 queries les plus cherchées : "não para de correr", "corre sempre", "perder água"), (c) 1 article ESQUENTADOR (intent termoacumulador/esquentador), (d) 2 articles FUGA. Total = 6 fichiers = scope tight, ROI immédiat.
+
+9. **`read_file` ajoute des newlines après chaque `>` pour la lisibilité — piège.** Quand le `<title>` et le `<meta name="description">` sont sur la même ligne dans le fichier, `read_file` les affiche sur 2 lignes. Si je copie-colle cette représentation dans `old_string` du `patch`, le match échoue. Solution : utiliser `python3` + `re.sub` ou `str.replace` directement sur le contenu brut pour les fichiers one-liner.
+
+### Leçons auto-audit
+
+10. **Audit final en tableau croisé intent × correctif.** Tableau 6 lignes × 4 colonnes (INTENT, TITLE, H1, TEL/WA) qui prouve chaque page corrigée sur chaque intent. Le brief disait "prouve" — le tableau est la preuve. Format reproductible pour toute mission SEO on-page ultérieure.
+
+11. **`curl -sIL` sur les URLs prod AVANT la PR.** Toutes les 6 URLs répondent 200 en prod → confirme que les pages sont crawlées/indexées et que mes correctifs vont bien aller en prod (pas de 404 préexistant qui aurait bloqué le merge).
+
+### Hors-scope documenté
+
+- Pages pSEO `ville × intent` (`autoclismo-alijo.html` etc.) : non touchées — le brief demande ROI sur pages à impressions, pas volume. Vague 2 si CEO confirme.
+- `termoacumulador-*` (autres pages intent pur manquantes côté CNR) : à créer en mission dédiée, pas dans cette PR (hors scope "améliorer l'existant").
+- Body content des pages blog (claims non sourcés restant hors `autoclismo-perder-agua`) : pas touché pour rester dans le scope "positionnement on-page" (= title/h1/meta). R12/R11 doctrine déjà appliquée via PR #215.
+- Schema.org/JSON-LD : pas touché (déjà conformes via PR #217 + #223, tel démasqué).
+
+### Refs
+
+- PR #229 CNR (DRAFT, ce patch)
+- Symétrique CNR-AF-01 (#CNR-AF-01, 2026-07-19) : bloc answer-first villes
+- Symétrique ENR #216 : bloc answer-first villes-sedes
+- AGENTS.md R4 (zéro faux contenu)
+- PR #217 CNR (démasquage tel + canonical self)
+- PR #215 CNR (R11 doctrine : "garantimos atendimento 24h" remplacé)
