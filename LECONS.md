@@ -38,7 +38,6 @@
 - PRICING.md §Déplacement (Z1=15 / Z2=25 / Z3=35 / Z4=45 / Z5=55 / Z6=65)
 - Leçon #413 (V5 minimal = Jaccard neutre, pas de `role="answer"`)
 
-
 ## #CNR-POS-2026-07-29-01 — feat/seo-positioning-sav-q3-2026 (PR #229)
 
 **Contexte** : PR DRAFT CNR — positionnement on-page de 6 pages SAV/dépannage doux (autoclismo, termoacumulador/esquentador, válvula/torneira, fuga). Mission cadrée sur ROI immédiat : pages qui ont déjà des impressions GSC (90j) mais restent pos 21-25 = page 3 Google = 0 clic. Pas de création de pages en volume.
@@ -86,3 +85,11 @@
 - AGENTS.md R4 (zéro faux contenu)
 - PR #217 CNR (démasquage tel + canonical self)
 - PR #215 CNR (R11 doctrine : "garantimos atendimento 24h" remplacé)
+
+## #CNR-MAILLAGE-01 — hubs/localités : ne pas réparer l'historique en même temps (2026-07-30)
+
+**Contexte** : vague de maillage demandant de relier les hubs piliers aux pages localité, alors que les hubs historiques contiennent déjà des hrefs `.html` et des slugs potentiellement morts.
+
+**Leçon** : séparer strictement l'ajout de liens sûrs de la réparation du stock historique. Dans cette mission, le scope a été limité à 9 paires primaire↔concelho ; 18 cibles nouvellement créées ont été extraites du diff puis testées en production avec `curl -sL -o /dev/null -w '%{http_code}'`. Résultat : 18/18 HTTP 200. Réécrire les liens hérités dans la même PR aurait mélangé deux causes, multiplié le risque et rendu le gate moins attribuable.
+
+**Réutilisable** : avant une vague, comparer les hrefs existants aux routes réellement servies ; si l'existant est douteux, ne pas le prendre comme modèle. Ajouter uniquement des hrefs extensionless dont chaque cible est prouvée 200, puis ouvrir une mission séparée pour les héritages non-200.

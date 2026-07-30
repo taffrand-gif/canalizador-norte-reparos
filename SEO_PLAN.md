@@ -1683,3 +1683,11 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Statut** : ✅ Fait — branche `loop/2026-07-29-canalizador-norte-reparos-b3-h1-semantique`.
 
 ---
+
+### 2026-07-30 — M1 maillage hubs piliers ↔ pages localité (Hermes t_b8ce65ca)
+- **Périmètre** : 9 pages primaires `canalizador-<localidade>` et 9 hubs `concelhos/<localidade>` : Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros, Miranda do Douro, Mogadouro, Vinhais et Lamego.
+- **Action** : ajout d'un lien contextuel extensionless dans chaque sens, soit 18 liens dans 18 fichiers. Les liens historiques non-200 potentiels n'ont pas été réécrits (brief resserré pour éviter une vague de réparation non auditée).
+- **Témoins** : `git diff --stat` = 18 fichiers, +27 lignes ; `git diff --check` = 0 erreur ; extraction des cibles = 18/18 ; gate `curl -sL -o /dev/null -w '%{http_code}'` = 18/18 HTTP 200 en production.
+- **Indexabilité** : les 9 pages primaires et 9 hubs servent `index,follow` dans les sources ; aucune blacklist indexability n'était disponible dans ce worktree, donc aucune cible doorway n'a été sélectionnée volontairement au-delà de ce contrôle.
+- **Conformité** : ancres PT-PT descriptives, pas de `.html` dans les nouveaux hrefs, pas de prix/délai/marque/claim ajouté, 2 liens maximum par page (1 nouveau lien par fichier).
+- **Statut** : 🛑 PR draft, aucun merge ; attente review/GO Philippe selon R7.
