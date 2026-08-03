@@ -93,3 +93,18 @@
 **Leçon** : séparer strictement l'ajout de liens sûrs de la réparation du stock historique. Dans cette mission, le scope a été limité à 9 paires primaire↔concelho ; 18 cibles nouvellement créées ont été extraites du diff puis testées en production avec `curl -sL -o /dev/null -w '%{http_code}'`. Résultat : 18/18 HTTP 200. Réécrire les liens hérités dans la même PR aurait mélangé deux causes, multiplié le risque et rendu le gate moins attribuable.
 
 **Réutilisable** : avant une vague, comparer les hrefs existants aux routes réellement servies ; si l'existant est douteux, ne pas le prendre comme modèle. Ajouter uniquement des hrefs extensionless dont chaque cible est prouvée 200, puis ouvrir une mission séparée pour les héritages non-200.
+
+## #CNR-MAILLAGE-02 — recompter les artefacts après les réécritures de hubs (2026-08-03, t_92de926d)
+
+**Contexte** : un nouveau dispatch du bloc d'audit arrivait après trois verdicts NO-OP. Le set-diff direct sur `github/main` a réfuté le verdict P3.1 précédent : 32 hubs existent, 26 conservent une `zone-grid`, mais 6 hubs Vila Real sont revenus à 0 lien localité après PR #175 (`fix(cnr): C1c-3a contenu unique Vila Real lot A`), qui avait remplacé leur contenu et supprimé les grilles M6 antérieures.
+
+**Leçon** : un audit historique et même plusieurs re-validations ne valent pas un set-diff actuel. Après toute réécriture de pages hubs, recompter les artefacts SEO structurants (`zone-grid`, BreadcrumbList, hrefs) sur le remote de déploiement. Une PR de contenu peut être fonctionnellement correcte tout en supprimant silencieusement le maillage ajouté par une PR antérieure.
+
+**Application** : vague finale strictement bornée à Alijó, Boticas, Mesão Frio, Mondim de Basto, Montalegre et Valpaços. Chaque hub reçoit 14 liens vers les pages locales primaires du district de Vila Real, toutes suivies par Git, HTTP 200 et canonical self. Témoins : `zone-grid` 26→32/32 ; 84 hrefs ajoutés ; 12/12 blocs JSON-LD inchangés et parsables ; build vert. Zéro merge sans GO R7.
+
+**Réutilisable** :
+1. Recompter sur `<remote>/main`, jamais le working tree sale.
+2. Comparer le set des fichiers attendus au set des fichiers portant l'artefact, pas seulement les totaux.
+3. Lire `git log -S '<artefact>' -- <fichier>` pour identifier la régression.
+4. Réparer uniquement le set manquant et tester toutes les nouvelles cibles.
+5. Après une PR de réécriture complète, ajouter un gate de non-régression sur les artefacts des PRs antérieures.
