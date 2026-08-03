@@ -1698,7 +1698,7 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 
 - **Contexte** : levée d'ambiguïté DGEG TRIESP 90062 (chargeur VE = RÉEL élec, INTERDIT plomberie). Cartographie site-by-site après certification du 24/07. Tâche brief : « Pour CNR+CU : vérifier qu'aucun "wallbox/DGEG/TRIESP" n'est mentionné (audit FAILLES le confirme mais recompte toi-même) ».
 - **Recompte CNR (`github/main` — `client/public/`, méthode `git grep` strict)** :
-  - `\bDGEG\b|\bTRIESP\b|90062` dans `client/public/` : **0** (la triade stricte est clean, comme déjà noté par `AUDIT-FAILLES-2026-08-03.md`).
+  - `\bDGEG\b|\bTRIESP\b|90062` dans `client/public/` : **0** (la triade stricte est clean, comme déjà noté par `AUDIT-FAULLES-2026-08-03.md`).
   - `ficha[s]? eletrot[eé]cnica` dans `client/public/` : **642 fichiers uniques** contiennent la chaîne (parmi 5187 fichiers `client/public/`). Échantillon vérifié : **639 fichiers** ont une **FAQPage JSON-LD injectée par template** avec Q/R « **Emitimos fichas eletrotécnicas em conformidade com a legislação aplicável, através de técnico habilitado, para venda de imóvel, aumento de potência ou instalação nova.** » (FAQPage question « Tem certificacao? ») + 3 fichiers `tecnologia-endoscopio-inspeccao-video.html` / `tecnologia-flir-deteccao-fugas.html` / `tecnologia-ridgid-k9-102-desentupimento.html` avec un paragraphe « A Norte Reparos é uma empresa inscrita na (Direção-Geral de Energia e Geologia) para a emissão de fichas eletrotécnicas assinadas por técnicos com experiência… ».
   - `carregador` (carro/veículo/VE/eletr) dans `client/public/` : 2 fichiers en mention légitime ou négative (FAQ « Carregador de carro elétrico? Não. Não instalamos carregadores de carro elétrico no âmbito dos serviços de canalização. Para essa especialidade, consulte eletricista-norte-reparos.pt. » — conforme §13).
   - `wallbox` dans `client/public/` : **0**.
@@ -1706,7 +1706,7 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Faux négatif `AUDIT-FAILLES-2026-08-03.md`** : l'audit regex `DGEG|TRIESP|90062` strict (catégorie B) sort 0/200 sur CNR et conclut « ✅ RAS — confirme F2-DGEG-CLAIMS-2026-07-29 ». **Faux négatif** : la regex manque les variantes `ficha eletrotécnica`, `através de técnico habilitado`, et le verbe `Emitimos` au pluriel. La doctrine source `DGEG-CERT-SOURCE-OF-TRUTH.md` ET `AGENTS.md` §12 CNR ET `AGENTS.md` §13 CNR verrouillée 30/07 interdisent explicitement **« ficha eletrotécnica »** sur CNR (pas seulement `DGEG`/`TRIESP`/`90062`).
 - **🛑 Recompte contradictoire vs brief** : le brief de la tâche `t_c49186be` cite « L'audit FAILLES 03/08 confirme 0/200 violation résiduelle côté plomberie ». **Ce n'est pas vrai** : 642 fichiers CNR contiennent une mention « ficha eletrotécnica » dont 639 sont des claims directs (« Emitimos fichas eletrotécnicas… »). La doctrine §13 est violée en prod live.
 - **Hors périmètre strict (≤5 fichiers)** : la présente tâche n'autorise pas l'ouverture d'un PR de purge de 642 fichiers. **Aucun PR draft ouvert**. Consignation seule dans ce §17 historique.
-- **🛑 ESCALADE OBLIGATOIRE** : cette violation sort du périmètre d'une carte de documentation (t_c49186be). Une **carte enfant dédiée** doit être ouverte pour : (1) rebrancher `AUDIT-FAILLES.py` pour intégrer `ficha[s]? eletrot[eé]cnica|atrav[eé]s de t[eé]cnico habilitado|inscrita na DGEG` dans la catégorie B ; (2) batch de purge des 639 FAQPage JSON-LD `Emitimos fichas eletrotécnicas em conformidade…` (remplacement par une formulation honnête plomberie : « Emitimos fatura com NIF e orçamento por escrito antes de qualquer intervenção. Para serviços de eletricidade / certificação DGEG, consulte eletricista-norte-reparos.pt. ») ; (3) nettoyage des 3 fichiers tecnologia-* ; (4) vague R15 en plusieurs commits ≤95 fichiers (7 vagues pour 642 fichiers). **GO Philippe obligatoire avant toute exécution** (R7 + R12 verrouillée).
+- **🛑 ESCALADE OBLIGATOIRE** : cette violation sort du périmètre d'une carte de documentation (t_c49186be). Une **carte enfant dédiée** doit être ouverte pour : (1) rebrancher `AUDIT-FAULLES.py` pour intégrer `ficha[s]? eletrot[eé]cnica|atrav[eé]s de t[eé]cnico habilitado|inscrita na DGEG` dans la catégorie B ; (2) batch de purge des 639 FAQPage JSON-LD `Emitimos fichas eletrotécnicas em conformidade…` (remplacement par une formulation honnête plomberie : « Emitimos fatura com NIF e orçamento por escrito antes de qualquer intervenção. Para serviços de eletricidade / certificação DGEG, consulte eletricista-norte-reparos.pt. ») ; (3) nettoyage des 3 fichiers tecnologia-* ; (4) vague R15 en plusieurs commits ≤95 fichiers (7 vagues pour 642 fichiers). **GO Philippe obligatoire avant toute exécution** (R7 + R12 verrouillée).
 - **Méthode audit reproductible** :
   ```bash
   cd /Users/admin/work/Sites/canalizador-norte-reparos
@@ -1733,3 +1733,62 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Gates** : JSON-LD parse 30 fichiers / 102 blocs = 0 fail ; `npm run build` vert (5.38s vite) ; cross-link eletricista-norte-reparos.pt HTTP 200 live ; ENR/EU/CU preserves (sample 200 aleatoire, 0 leak fiche).
 - **Conformité** : R4 ✅ (zero invention), R8 ✅ (témoins avant/après), R11 ✅ (géo-neutre preserve).
 - **Statut** : 🛑 PR #250 en DRAFT, branche `wt/t_f7016bfa`, push Git OK. **NE PAS auto-merge** (R7) — validation explicite Philippe requise pour merger vers main et declencher le rebuild Vercel.
+
+### 2026-08-03 — GEO URGENT : rendre citables par les IA les services réels plomberie (Hermes t_c8d60fd3)
+
+**Périmètre exécuté** (worktree CNR, branche `wt/t_c8d60fd3`) : axe PLOMBERIE uniquement. L'axe ÉLECTRICITÉ (DGEG TRIESP 90062, Ficha Eletrotécnica, chargeur VE) appartient aux worktrees ENR + EU et est HORS périmètre ici (cf. AGENTS.md §13 — zéro claim DGEG côté CNR).
+
+**Diagnostic d'entrée** (état mesuré sur `client/public/` du worktree) :
+- `desentupimentos.html` (308 lignes) : **0 bloc JSON-LD valide** (fichier statique contenant des artefacts TSX brisés `{ACTIVE_CONFIG.phone}`, `{`[...].map(...)}`) — Googlebot lisait un HTML cassé.
+- `arranjo-fugas-agua.html` (209 lignes) : **0 bloc JSON-LD valide** + artefacts TSX (`dangerouslySetInnerHTML`, `{faqItems.map(...)}`) — même casse.
+- `como-detetar-fuga-agua.html` (206 lignes) : **2 blocs JSON-LD valides** dont un `@graph` [Service + FAQPage + HowTo + BreadcrumbList] — déjà un modèle de citabilité GEO, pas touché.
+- `index.html` : **7 blocs JSON-LD valides** (Plumber + Service + LocalBusiness + FAQPage + BreadcrumbList + WebPage + Organization) — complet, FAQ pose déjà la question « Têm equipamento profissional ? » avec mention Ridgid K9-102.
+
+**Action livrée** (2 fichiers patchés, ~365 insertions / ~358 suppressions, branche `wt/t_c8d60fd3`) :
+
+1. **`client/public/desentupimentos.html`** — réécriture complète :
+   - 3 blocs JSON-LD valides ajoutés : `Service` (Plumber, offers 65 EUR/h), `FAQPage` (6 questions-utilisateur en langage naturel : « Quanto custa », « Que equipamento usam », « Quando é que o jato de água de alta pressão é indicado », « O desentupimento mecânico com Ridgid K9-102 danifica os canos ? », « Quanto tempo demora », « Atendem freguesias rurais »), `BreadcrumbList`.
+   - Body réécrit : 1 H1 déclaratif, **10 H2 par question utilisateur** (vs. intro marketing précédente), équipements nommés (Ridgid K9-102 FlexShaft câbles 32 mm tubes 50-150 mm, jato de água de alta pressão, câmara de inspeção vídeo), barème Z1-Z6 chiffré (15/25/35/45/55/65 EUR), 65 EUR/h répété 4 fois pour citabilité.
+   - Méta : titre « Desentupimentos em Trás-os-Montes | Ridgid K9-102 + Jato de Alta Pressão », description alignée équipements, suppression « Atendimento 24h/7d » du titre et de la description (CNR ≠ urgente, R12 doctrine différenciation).
+   - Suppression de tous les artefacts TSX (`{ACTIVE_CONFIG.phone}`, `{`[...].map((city, idx) => (...))`}`, etc.) — Googlebot reçoit désormais du HTML valide.
+
+2. **`client/public/arranjo-fugas-agua.html`** — réécriture complète :
+   - 3 blocs JSON-LD valides : `Service` (description explicite FLIR E96 + ROLeak Aqua 3Plus + câmara vídeo), `FAQPage` (6 questions : « Como detetar uma fuga de água escondida ? », « Quanto custa », « Que equipamento usam », « É possível detetar sem partir paredes ? », « Em que tipo de tubagens intervêm ? », « Fazem arranjo ao fim de semana ? »), `BreadcrumbList`.
+   - Body réécrit : 1 H1 déclaratif, **10 H2**, sections dédiées à chaque équipement nommé (**FLIR E96** = caméra thermique qui montre les écarts de température 1-3 °C ; **ROLeak Aqua 3Plus** = détecteur acoustique piézoélectrique ; **câmara de inspeção vídeo** = localisation interne du tube), barème Z1-Z6 chiffré.
+   - Méta + title alignés équipements, suppression « 24h » du titre.
+   - Suppression de tous les artefacts TSX.
+
+**Ancrages équipement nommés (rappel doctrine Filipe 03/08 — exception jato)** :
+- ✅ `Ridgid K9-102 FlexShaft` — nommé sur `desentupimentos.html` (9×) et FAQPage.
+- ✅ `FLIR E96` — nommé sur `arranjo-fugas-agua.html` (12×) et FAQPage.
+- ✅ `ROLeak Aqua 3Plus` — nommé sur `arranjo-fugas-agua.html` (12×) et FAQPage.
+- ✅ `jato de água de alta pressão` — service claimé SANS marque/modèle (Filipe explicite 03/08), formulation orientée problème (canalisation domestique, graisses/racines/sédiments, vs. obstruction ponctuelle dure).
+
+**Témoins (R8 anti-faux-claim)** :
+- `npm run check` = 215 erreurs TS AVANT et APRÈS mes modifs → 0 erreur nouvelle introduite (toutes pré-existantes en `server/`, hors périmètre HTML).
+- `npm run build` ✅ vert, `dist/public/desentupimentos.html` et `dist/public/arranjo-fugas-agua.html` contiennent chacun 3 blocs `<script type="application/ld+json">` (vérifié `grep -c`).
+- Validation JSON-LD : 3/3 blocs parsent via `json.loads` sur les 2 fichiers patchés.
+- Contrôle positif (R11) : sur `como-detetar-fuga-agua.html` (modèle intact) `FLIR` 10×, `ROLeak Aqua 3Plus` 11× → commande de détection prouvée.
+- Doctrines vérifiées (script) : 0 occurrence de `TRIESP`/`DGEG 90062`/`Ficha Eletrot`/`wallbox`/`carregador VE` sur les 3 pages plomberie piliers (R13 respectée).
+- Doctrines rédactionnelles (script) : 0 occurrence de `rápido e eficiente`/`rápido e profissional`/`o melhor` (R4 — zéro superlatif) sur mes patches ; « 24h/7d » purgé des titres + descriptions (R12 différenciation installation ≠ urgente) ; formulation collective « a nossa empresa », « a nossa equipa » partout (R12 pronom verrouillé 30/06).
+
+**Hors périmètre (rappels explicites au brief)** :
+- Axe ÉLECTRICITÉ (DGEG TRIESP 90062, Ficha Eletrotécnica, Termo de Responsabilidade, chargeur VE, schema Person hasCredential) — non traité ici, exigé sur worktrees ENR + EU.
+- `precos.html` contient déjà une contamination DGEG (« Emitimos fichas eletrotécnicas em conformidade com a legislação aplicável, através de técnico habilitado ») — violation AGENTS.md §13 active, NON corrigée dans cette tâche (hors périmètre brief GEO citabilité ; à traiter en suivi dédié si Filipe confirme).
+- `EquipamentoProfissional.tsx` (composant React, valeurs monétaires « €8.000 », « €12.000 », taux « 95%+ ») — porte des claims R4 potentiels (« €20.000+ investimento », « 95%+ taxa sucesso ») — non touché dans cette tâche (composant React, hors livrable HTML statique ; à auditer en suivi).
+- `desentupimentos.html` titre méta avant correction contenait « Urgência 24h » (R12/R145) — corrigé.
+- `desentupimentos.html` H1 avant correction contenait « Serviço Urgente 24h » — corrigé (déclaratif nu).
+- Migrations de pages hub/loc (~3278 fichiers FAQPage existants) — pas de vague de masse (R8 anti-boucle).
+
+**Découverte structurelle bloquante (à escalader)** :
+- `vercel.json` redirige `/desentupimentos` → **301** `/desentupimento` (sans `s`). Or `/desentupimento` n'a **aucun rewrite vers `.html`** et tombe sur le catch-all SPA Vercel → Googlebot voit la coquille SPA, PAS mon fichier GEO.
+- `/arranjo-fugas-agua` (sans `.html`) renvoie **HTTP 200 mais c'est la SPA shell** (`<title>Canalizador para instalação e remodelação em Trás-os-Montes | Norte Reparos</title>`, pas mon contenu GEO).
+- Conséquence concrète : mes patches GEO sont **accessibles uniquement via `/desentupimentos.html` et `/arranjo-fugas-agua.html`**. Sur les URLs canoniques propres, l'IA/Googlebot lit la SPA vide de schema.
+- Périmètre du fix nécessaire (HORS brief, à ouvrir en suivi dédié) : ajouter dans `vercel.json` les rewrites
+  `{"source": "/desentupimento", "destination": "/desentupimento.html"}` (sans `s` — destination du 301 actuel)
+  ET `{"source": "/arranjo-fugas-agua", "destination": "/arranjo-fugas-agua.html"}` (avant le catch-all SPA).
+- Tant que ce fix vercel.json n'est pas livré, la citabilité GEO réelle passe par Google qui crawl le `.html` directement via les sitemaps/breadcrumbs, ou par les LLMs qui lisent les sources alternatives (`llms.txt`, hub pages, etc.).
+- **Recommandation R08** : escalader à Filipe pour décision GO/STOP sur le fix vercel.json — c'est un changement de configuration infra (R3 STOP validation Philippe), mais sans lui le livrable de cette tâche est sous-optimal.
+
+**Statut** : 🛑 PR draft, aucun merge ; attente review/GO Philippe selon R7. Diff = 2 fichiers, +365/-358 lignes, aucune collision avec `main`.
+
