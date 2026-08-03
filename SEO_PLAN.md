@@ -1716,3 +1716,20 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
   git grep -nE 'inscrita na (DGEG|Direção-Geral de Energia e Geologia)' github/main -- client/public/tecnologia-*.html | wc -l  # = 3
   ```
 - **Statut** : 🛑 ESCALADE — violation §13 AGENTS.md CNR confirmée en prod (639 FAQPage + 3 tecnologia-*), hors périmètre strict de la carte t_c49186be. GO Philippe requis avant carte enfant.
+
+---
+
+### 2026-08-03 — P0 conformité : purge faux claim 'ficha eletrotecnica' / 'inscrita na DGEG' sur 642 fichiers CNR (Hermes t_f7016bfa)
+- **Tâche** : t_f7016bfa (P0 conformité). Le site PLOMBERIE canalizador-norte-reparos.pt affirmait delivrer des fiches electrotechniques et etre inscrit a la DGEG — faux. Lei 14/2015 ne s'applique qu'a l'electricite ; un canalisateur n'emet pas de ficha eletrotecnica ; TRIESP 90062 appartient a la verticale electricite uniquement.
+- **Mesure avant** : 639 FAQPage JSON-LD injectees par template avec claim frauduleux + 3 fichiers tecnologia-*.html ("A Norte Reparos e uma empresa inscrita na (Direcao-Geral de Energia e Geologia)"). canalizador-urgente.pt deja clean.
+- **Action** (7 vagues, 3 commits sur wt/t_f7016bfa) :
+  - `888e99208` vague 1/7 : 92 fichiers FAQPage
+  - `1bef29f30` vagues 2-6/7 : 460 fichiers
+  - `f7efafb0e` vague 7/7 : 93 fichiers (fichiers speciaux)
+- **Nouvelle reponse FAQ (validee)** : "Emitimos fatura com NIF e orcamento por escrito antes de qualquer intervencao. Para servicos de eletricidade e certificacao DGEG, consulte eletricista-norte-reparos.pt." La question "Tem certificacao?" reste coherente avec la nouvelle reponse (ce qu'on fait vraiment + redirection honnete vers elec pour la certif).
+- **3 tecnologia-*.html** : remplaces par "A Norte Reparos e uma empresa profissional de canalizacao em Tras-os-Montes. Emitimos fatura com NIF e orcamento por escrito antes de qualquer intervencao. Para servicos de eletricidade e certificacao DGEG, consulte eletricista-norte-reparos.pt."
+- **Cause racine corrigee** : `audit_failles.py` v2 cherchait `'DGEG|TRIESP|90062'` = 0 sur CNR (faux negatif). Patch livre en v3 : regex etendue (`ficha[s]? eletrot[eé]cnica`, `inscrita na (DGEG|Direcao-Geral)`, `atrav[é]s de t[é]cnico habilitado`) + sample aleatoire 200 (avant : 200 premiers alpha, cf. lecon #485). Re-test post-purge confirme 0 hit sur CNR local.
+- **Témoins R8** : `git grep -lE 'ficha[s]? eletrot[eé]cnica' client/public/` = 642 → 0 ; `git grep -lE 'inscrita na .?(DGEG|Direcao-Geral)' client/public/` = 3 → 0 ; `atrav[é]s de t[é]cnico habilitado` 639 → 0.
+- **Gates** : JSON-LD parse 30 fichiers / 102 blocs = 0 fail ; `npm run build` vert (5.38s vite) ; cross-link eletricista-norte-reparos.pt HTTP 200 live ; ENR/EU/CU preserves (sample 200 aleatoire, 0 leak fiche).
+- **Conformité** : R4 ✅ (zero invention), R8 ✅ (témoins avant/après), R11 ✅ (géo-neutre preserve).
+- **Statut** : 🛑 PR #250 en DRAFT, branche `wt/t_f7016bfa`, push Git OK. **NE PAS auto-merge** (R7) — validation explicite Philippe requise pour merger vers main et declencher le rebuild Vercel.
