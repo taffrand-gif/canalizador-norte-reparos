@@ -198,7 +198,31 @@
       "destination": "/como-detetar-fuga-agua.html"
     },
     {
-      "source": "/(.*)",
+      "source": "/blog",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/fugas-agua",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/esquentadores",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/casas-banho",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/canalizacao",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:service-:city",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:service-:freguesia-:parentCity",
       "destination": "/index.html"
     }
   ],
@@ -3668,5 +3692,5 @@
     }
   ],
   "ignoreCommand": "if bash ./vercel-ignore.sh; then exit 0; else exit 1; fi",
-  "cleanUrls": false
+  "cleanUrls": true
 }
