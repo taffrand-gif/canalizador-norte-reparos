@@ -138,3 +138,21 @@
 - PR #254 (DRAFT) : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/254
 - `/tmp/citab_final.py` : détecteur CITABILITE-LLM §1.1 fidèle, reproductible
 - `/tmp/patch_h2_questions.py` : script de patch originel (1 warning sur `<h3>Serviços Gerais</h3>` — header n'existait pas dans guia-precos-canalizador.html, résolu manuellement via `patch` tool)
+
+## #CNR-GEO-01 — Rebase PR dirty/conflit sur main avancé (2026-08-03)
+
+**Contexte** : PR #248 (GEO desentupimentos + arranjo-fugas-agua, 2 pages piliers CNR) en `mergeStateStatus=DIRTY, mergeable=CONFLICTING` parce que la branche était partie d'un main périmé : pendant qu'elle dormait, `github/main` a reçu #247 (purge '500.000€' assurances) et #249 (recompte DGEG + violation §13 documentée).
+
+**Leçons**
+
+1. **Remote `github` ≠ `origin` sur CNR.** `git push origin` retourne "Everything up-to-date" sans erreur, parce qu'`origin` est un mirror local à `/Users/admin/work/Sites/canalizador-norte-reparos` qui contient déjà la branche. `git ls-remote origin` montre la nouvelle SHA, mais `gh pr view <N>` continue d'afficher l'ancienne headRefOid. **Le remote pushant réellement le PR est `github`** (cf. PROTOCOLE-AGENTS-AUTONOMES R12 + `git remote -v` avant tout push). `git push --force-with-lease github wt/t_c8d60fd3` a fait avancer `headRefOid` de `d824205e9` → `ea6665fb5` et `mergeStateStatus` de `DIRTY/CONFLICTING` → `CLEAN/MERGEABLE`.
+
+2. **Conflit SEO_PLAN.md = deux entrées §17 historique indépendantes.** Le conflit opposait le bloc "recompte DGEG — violation §13" (#249) et le bloc "GEO URGENT — rendre citables IA" (#248). Les deux sont des entrées d'historique datées, aucune ne dépend de l'autre → résolution triviale : concaténer en gardant les deux blocs (résolu en droppant les marqueurs `<<<<<<<` / `=======` / `>>>>>>>` sans toucher au contenu). **Ne pas chercher à "merge" sémantiquement deux entrées historiques.**
+
+3. **SEO_PLAN.md mentionne les motifs interdits en contexte de documentation.** Le grep gate "500.000 / ficha eletrotécnica / DGEG / TRIESP / inscrita na Direção-Geral" sur la branche touche 3 fichiers (les 2 HTML + SEO_PLAN.md) → SEO_PLAN.md score 15× DGEG / 7× TRIESP / 3× ficha eletrotécnica mais TOUT est dans la section §17 historique **documentant la violation** (l'entrée #249 que cette PR elle-même a hérité au rebase). Les pages HTML piliers, qui sont l'objet réel de la PR, sont à 0 sur tous les motifs. **Le grep sur le fichier de doc demande une lecture en contexte, pas un compteur brut** — les §17 entries sont par construction un re-recueil des violations constatées.
+
+4. **Vercel preview ≠ final state de la PR.** Après `force-push`, le check Vercel preview apparaît SUCCESS en quelques secondes, mais le check CI `build` continue à run ~1 min. Le `mergeStateStatus` ne passe de `UNSTABLE` à `CLEAN` qu'après les deux SUCCESS. Ne pas conclure "MERGEABLE" sur le premier signal Vercel.
+
+5. **Le statut GitHub `mergeStateStatus: UNSTABLE` ≠ `CONFLICTING` quand Vercel + CI sont verts.** Les définitions GitHub : CONFLICTING = branche en conflit avec base, UNSTABLE = pas de conflit mais check en attente ou en échec, CLEAN = vert. À la lecture : UNSTABLE post-rebase = "rebase OK, on attend juste les checks". CLEAN = "go pour merge".
+
+**Réutilisable** : avant tout push d'une branche rebasée sur CNR, faire `git remote -v` et confirmer `github` (pas `origin`). Si le PR ne bouge pas après push, vérifier `git ls-remote <remote>` vs `gh pr view --json headRefOid` — mismatch = mauvais remote. Pour les conflits SEO_PLAN.md en §17 historique, résolution mécanique par concaténation (les entrées sont datées et indépendantes). Ne pas confondre UNSTABLE et CONFLICTING dans le statut GitHub.

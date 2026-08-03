@@ -1791,4 +1791,3 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Recommandation R08** : escalader à Filipe pour décision GO/STOP sur le fix vercel.json — c'est un changement de configuration infra (R3 STOP validation Philippe), mais sans lui le livrable de cette tâche est sous-optimal.
 
 **Statut** : 🛑 PR draft, aucun merge ; attente review/GO Philippe selon R7. Diff = 2 fichiers, +365/-358 lignes, aucune collision avec `main`.
-
