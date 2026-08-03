@@ -107,4 +107,34 @@
 2. Comparer le set des fichiers attendus au set des fichiers portant l'artefact, pas seulement les totaux.
 3. Lire `git log -S '<artefact>' -- <fichier>` pour identifier la régression.
 4. Réparer uniquement le set manquant et tester toutes les nouvelles cibles.
-5. Après une PR de réécriture complète, ajouter un gate de non-régression sur les artefacts des PRs antérieures.
+
+## #CNR-CITAB-H2-2026-08-03 — feat/cnr-h2-money-questions (PR #254)
+
+**Contexte** : 6 pages CNR money (areas-atuacao, precos-canalizador, guia-precos-canalizador, servicos, calculadora-de-preco, servicos-condominios) étaient à 5/6 sur la grille CITABILITE-LLM §1.1 (critère C2 = ≥3 H2 questions manquant). Déficit structurel CNR/ENR vs CU/EU (CU a jusqu'à 5 H2-Q par page, CNR 0/8). PR #254 DRAFT ouverte, branche feat/cnr-h2-money-questions poussée sur github.
+
+### Leçons techniques
+
+1. **Détecteur C2 strip les emojis décorateurs AVANT regex.** Donc "Quanto Custa..." (avec ou sans emoji) compte comme question, pas comme "Instrucoes". Pattern recommandé : préfixe emoji de catégorie (euro, outils, bouclier, question, horloge, gps) + mot interrogatif (Como/Quando/Onde/Quanto/Que/Quais) + point d'interrogation. Confirme le piège LECONS §309 référencé par la tâche : le détecteur ne s'arrête pas aux emojis.
+
+2. **6/6 obtenu par ajout de 3 H2-Q sémantiques par page, pas par hack.** Les H2 sont insérés en amont des sections existantes (Tarifs / Serviços / Categorias / Processos) avec un paragraphe introductif qui relie aux 4 piliers monétaires (fuga água, entupimento, instalação, emergência 24h). Aucun prix/zone/claim inventé — uniquement références au contenu déjà présent dans la page.
+
+3. **HTML sur 1 ligne = patch via Python, pas via patch tool.** Les 6 fichiers sont minifiés (29-148 lignes logiques mais body sur 1 ligne physique). Le patch tool matche bien avec `old_string` exact, mais pour 17+ insertions sur 6 fichiers en une passe, un script Python avec compte d'occurrences (=1 par patch) est plus sûr. Chaque `old_string` apparaît exactement 1 fois après les patches précédents.
+
+4. **C5 = détecteur large, pas que DGEG.** L'indicateur C5 matche ≥1 fait parmi DGEG/TRIESP/14-2015/Ficha €/h/Z1-Z6 OU équipement (Ridgid/FLIR/Fluke/FlexShaft) OU géographie (Bragança/Macedo/Mirandela/concelhos/Trás-os-Montes). Mon détecteur initial manquait les patterns equipment et geography. Réplication fidèle du détecteur officiel dans `/tmp/citab_final.py`.
+
+5. **Servicos.html = exception.** Cette page avait déjà 2 H2-Q fortuits ("O Que Dizem os Nossos Clientes" et "Áreas • Orçamento • Equipa Precisa de Canalizador Profissional?") qui matchent le regex via "Que" et "?". Mais ils n'apportent pas de valeur sémantique. J'ai quand même ajouté 3 H2-Q supplémentaires à contenu réel pour solidifier le passage à 6/6 (5/3 au final).
+
+### Leçons métier
+
+6. **Déficit structurel confirmé empiriquement.** 0/8 pages CNR avaient ≥3 H2-Q avant cette PR. CU piliers (desentupir-canos, entupimento, desentupimento-esgoto, desentupir-sanita) en ont 4-5 chacun. La doctrine "piliers money citable" doit explicitement demander des H2-Q — pas seulement des FAQPage JSON-LD qui passent C3 mais ne sortent pas en featured snippet GEO.
+
+7. **Worktree obligatoire = non négociable.** Le working tree partagé `/Users/admin/work/Sites/canalizador-norte-reparos` est sale (938 modifs, 8 untracked début août). Sans `git worktree add --detach /tmp/wt-t_<id> github/main` puis `git switch -c feat/...`, on pollue main avec 938 fichiers. Le worktree a un git status propre et permet une PR atomique.
+
+8. **PR draft, pas auto-merge (R7).** Doctrine CEO verrouillée : "pas de merge sans validation explicite de Philippe". Le worker doit pousser la branche, ouvrir la PR en draft via `gh pr create --draft`, et `kanban_block` pour STOP validation. Le merge est une décision CEO, pas un acte agent.
+
+### Refs
+
+- `_audit/CITABILITE-LLM.md` §1.1 (grille 6 critères) + §1.4 (CNR 5/6) + §1.8 (gap C2) + §7 (takeaway 1)
+- PR #254 (DRAFT) : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/254
+- `/tmp/citab_final.py` : détecteur CITABILITE-LLM §1.1 fidèle, reproductible
+- `/tmp/patch_h2_questions.py` : script de patch originel (1 warning sur `<h3>Serviços Gerais</h3>` — header n'existait pas dans guia-precos-canalizador.html, résolu manuellement via `patch` tool)
