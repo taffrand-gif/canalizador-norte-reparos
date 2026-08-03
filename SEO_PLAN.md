@@ -1692,6 +1692,15 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Indexabilité** : les 9 pages primaires et 9 hubs servent `index,follow` dans les sources ; aucune blacklist indexability n'était disponible dans ce worktree, donc aucune cible doorway n'a été sélectionnée volontairement au-delà de ce contrôle.
 - **Conformité** : ancres PT-PT descriptives, pas de `.html` dans les nouveaux hrefs, pas de prix/délai/marque/claim ajouté, 2 liens maximum par page (1 nouveau lien par fichier).
 - **Statut** : 🛑 PR draft, aucun merge ; attente review/GO Philippe selon R7.
+
+---
+
+### 2026-08-03 — GSC rank-push « como desentupir o lava loiça » (Hermes t_7221c8c6)
+- **Signal GSC** : query en position moyenne 12,1 sur 28 jours (0 clic, 0 impression dans l'export du brief) ; la page remontée par le brief, `/blog/valvula-seguranca-goteja`, ne répondait pas à l'intention.
+- **Découverte** : une page dédiée existait déjà dans la source réellement publiée, `client/public/blog/como-desentupir-lava-loica.html`, ainsi que plusieurs variantes proches. Décision : renforcer l'URL canonique existante au lieu de créer une nouvelle page concurrente.
+- **Action** : réécriture PT-PT de la page canonique avec title, meta description, H1 et réponse directe alignés sur « como desentupir o lava-loiça » ; procédure en 5 étapes ; signes d'arrêt ; prévention ; FAQ visible synchronisée avec les schémas Article, HowTo, FAQPage et BreadcrumbList.
+- **Conformité** : zéro prix, délai, marque, avis ou taux de réussite inventé ; zéro « je » côté client ; CTA fondé uniquement sur le NAP verrouillé et la phrase doctrinale « orçamento por escrito antes de qualquer intervenção, sem surpresas ».
+- **Statut** : ⏸ PR draft avant review/GO Philippe ; passer à ✅ seulement après GO/merge. Mesure à J+7 avec `gsc-trajectoire-cron.sh` : gain si position < 4 ; réévaluer si position > 10.
 ---
 
 ### 2026-08-03 — t_c49186be — Recompte doctrine DGEG — ⚠️ VIOLATION CRITIQUE DÉTECTÉE côté plomberie
