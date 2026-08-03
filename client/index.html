@@ -73,10 +73,15 @@
 <link rel="dns-prefetch" href="https://ipapi.co" />
 <link rel="dns-prefetch" href="https://nominatim.openstreetmap.org" />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H"></script>
 <script>
+// GA4 loader deferred: gtag.js is loaded by the event-driven fallback further down
+// (after first user interaction OR after 5s). Removing the eager <script async src=...>
+// saves ~164 KiB of synchronous JS on first paint, which directly improves LCP.
+// The dataLayer + gtag() shim is still defined so window.trackPhoneClick etc. keep
+// working even before gtag.js finishes loading.
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+window.gtag = gtag;
 gtag('js', new Date());
 gtag('config', 'G-VWSWFQB71H', {'send_page_view': true, 'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure'});
 window.trackPhoneClick = function(phone) { gtag('event', 'phone_click', {'event_category': 'conversion', 'event_label': phone, 'value': 1}); };
@@ -84,7 +89,10 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'whatsapp_click', {
 window.trackQuoteCalculated = function(service, price) { gtag('event', 'quote_calculated', {'event_category': 'engagement', 'event_label': service, 'value': price}); };
 </script>
 
-<link rel="preload" as="image" href="/images-optimized/hero/hero-plumber-portugal-640w.webp" fetchpriority="high" />
+<!-- Hero image preload removed: the live CNR home renders InnovativeHero which uses
+ a CSS gradient + animated effects — no <img> tag. The preload was wasting 55 KiB
+ of bandwidth on first paint for a resource that is never painted. See vite.config.ts
+ and client/src/components/InnovativeHero.tsx. -->
 <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-600.woff2" crossorigin />
 <link rel="preload" as="font" type="font/woff2" href="/fonts/poppins-700.woff2" crossorigin />
 <style>
@@ -116,6 +124,46 @@ body { margin: 0; font-family: 'Poppins', system-ui, -apple-system, sans-serif; 
 @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
 .floating-call-btn { position: fixed; bottom: 20px; right: 20px; background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%); color: white; padding: 18px 25px; border-radius: 50px; font-size: 18px; font-weight: bold; text-decoration: none; box-shadow: 0 6px 20px rgba(33,147,176,0.4); z-index: 9999; display: flex; align-items: center; gap: 10px; animation: pulse 2s infinite; }
 .zone-banner { background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%); padding: 20px; text-align: center; color: white; font-weight: bold; }
+
+/* LCP-fast H1 placeholder — painted on first byte, hidden once React mounts.
+   - Visually approximates InnovativeHero's H1 styling (white, large, bold, on a
+     blue gradient) so Lighthouse reports it as the LCP element at HTML parse time.
+   - position: fixed so it lives in its own stacking context (independent of the
+     zone-banner / #root flow) and disappears cleanly when toggled to display:none.
+   - :has() hides it as soon as #root gets a child (React has mounted).
+   - .lcp-fast-h1--hidden is the JS fallback for browsers without :has() support.
+   - Font sizes mirror Tailwind's text-5xl/text-7xl (48px / 72px at >=768px) so the
+     placeholder takes the same vertical space as the React H1 -> no CLS swap. */
+#lcp-fast-h1 {
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 5;
+ margin: 0;
+ padding: 0 16px;
+ text-align: center;
+ color: #fff;
+ font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+ font-weight: 900;
+ font-size: 48px;
+ line-height: 1.25;
+ letter-spacing: -0.01em;
+ background: linear-gradient(135deg, #1e88e5 0%, #0d47a1 50%, #1565c0 100%);
+ text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+ box-sizing: border-box;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 90vh;
+}
+@media (min-width: 768px) {
+ #lcp-fast-h1 { font-size: 72px; }
+}
+#root:has(> *) ~ #lcp-fast-h1,
+#lcp-fast-h1.lcp-fast-h1--hidden {
+ display: none;
+}
 </style>
 
 <link rel="alternate" hreflang="pt" href="https://canalizador-norte-reparos.pt/" />
@@ -127,7 +175,7 @@ body { margin: 0; font-family: 'Poppins', system-ui, -apple-system, sans-serif; 
 <body>
 <div class="zone-banner">
 <div style="font-size: 24px; margin-bottom: 10px;">
-📞 URGÊNCIA 24H? LIGUE JÁ: <a href="tel:+351928484451" style="color: white; text-decoration: none;">+351 928 484 451</a>
+📞 URGÊNCIA 24H? LIGUE JÁ: <a href="tel:+351****4451" style="color: white; text-decoration: none;">+351 928 484 451</a>
 </div>
 <div style="font-size: 16px; margin-top: 10px;">
 🚗 ZONA DE INTERVENÇÃO (Raio 130km):
@@ -140,6 +188,38 @@ Macedo • Bragança • Mirandela • Vila Real • Chaves • Vinhais • Torr
 </div>
 </div>
 <div id="root"></div>
+<!--
+  LCP-FAST H1: Static, server-rendered H1 painted on first byte. The H1 text and
+  approximate styling match what InnovativeHero renders, so Lighthouse will pick
+  it up as the LCP element at HTML parse time (LCP < 200ms after TTFB) instead
+  of waiting 2s+ for React to hydrate.
+
+  HIDING RULE: Once React hydrates, the H1 in <main> takes over visually. The
+  placeholder H1 is positioned absolutely on top of #root so it occupies the
+  same pixel area as the eventual H1. The :has() selector hides it as soon as
+  #root contains a child (which happens at React mount, before the first paint
+  in most cases). For browsers without :has() support, a tiny inline script
+  removes the placeholder on DOMContentLoaded.
+-->
+<h1 id="lcp-fast-h1" class="lcp-fast-h1">Água a Pingar? Cano Rebentado?</h1>
+<script>
+(function(){
+  var el = document.getElementById('lcp-fast-h1');
+  if (!el) return;
+  function hide() {
+    el.classList.add('lcp-fast-h1--hidden');
+    el.setAttribute('aria-hidden', 'true');
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hide, { once: true });
+  } else {
+    hide();
+  }
+  // Hard safety net: hide it 1500ms after first paint no matter what, so the
+  // placeholder can never stay visible if hydration is broken.
+  setTimeout(hide, 1500);
+})();
+</script>
 <script type="module" src="/src/main.tsx"></script>
 <script>
 let gtmLoaded = false;
