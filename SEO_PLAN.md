@@ -175,9 +175,72 @@
 - **0 PR draft ouvert** — le chantier ligne 22 = **NO-OP légitime septuplement confirmé** (7 verdicts successifs 03/08, mêmes sources primaires, variation numérique ≤3% attribuable au bruit de modif `urgencia-*`).
 - **R7 STOP verrouillé** : les 6 concelhos à 0 ont un pattern canonique connu (PR #238) et 60 localité cibles vérifiées = 1 PR acceptable (R15 ≤95 fichiers). **Mais** R7 interdit d'ouvrir une PR sans GO Philippe explicite — le brief t_96d5bf7b dit « 1 PR draft ou 1 ligne SEO_PLAN », pas « merger ». Ouvrir un draft seul, sans validation business de la priorisation, viole la doctrine.
 - **Recommandation hors-brief** : si Philippe veut prioriser ce chantier, créer 1 tâche kanban enfant `mae-cnr-p3.1-6-concelhos-secondaires` (assignee=default, parents=[t_96d5bf7b]) avec brief explicite : « ouvrir 1 PR draft strict sur les 6 concelhos à 0, 60 liens localité, pattern PR #238, attendre GO avant merge ». **Mais** ne pas auto-créer la tâche enfant : R3 STOP validation.
-- **Distritos (5 hubs)** demeurent hors-scope (sémantique agrégée ≠ pattern localité, voir M1 roadmap).
+| **Distritos (5 hubs)** demeurent hors-scope (sémantique agrégée ≠ pattern localité, voir M1 roadmap).
 
 **Leçons codées (LECONS.md)** : #CNR-CHANTIER-LIGNE-22-04 (7e re-validation stable = confirmer la clôture itérative, ne pas itérer une 8e fois sans modification source — leçon #469 doublon cache-lag s'applique doublement).
+
+### ✅ VERDICT 2026-08-04 (t_e618703b) — rank-push query money GSC 'desentupimento' (CPC=12.76€, vol=1600, GAP pos=None)
+
+> **Périmètre strict** : la query GSC money 'desentupimento' (DataForSEO vol=1600/mois PT-2620, CPC=12.76€ = plus cher du marché plomberie PT, score 20416) avec GAP total en GSC 28j (0 impr / 0 clic / pos=None). Branche en cours : `feat/cnr-rankpush-desentupir-canos-t_06389a27` (renommée depuis `feat/cnr-rankpush-desentupimento-t_e618703b` par hook pre-commit task-id alignment).
+
+**Diagnostic AVANT patch** :
+
+| Dimension | État 04/08 (live) | Action |
+|---|---|---|
+| Pages canoniques pour la query | 1 page existe : `/desentupimentos` (pluriel, 308 lignes, 1 H1 "Serviço de Desentupimentos em Trás-os-Montes") | Renforcer, **pas dupliquer** (singulier = pluriel même intent en PT, Google interchangeable) |
+| Title actuel | "Desentupimentos em Trás-os-Montes \| Serviço Urgente 24h \| Desentupir Canos, Sanita, Esgotos" | Réécrire aligné query + R12 (pas urgence) |
+| Meta description | "Urgências 24h, equipamento moderno, garantia no serviço. Sem compromisso." | Réécrire grille R4 + R12 |
+| H1 | "Serviço de Desentupimentos em Trás-os-Montes" | "Desentupimento em Trás-os-Montes" (singulier = match exact query) |
+| Schema.org Service | `geoMidpoint` + lat/lng Macedo 41.5378/-6.9603 + `geoRadius` 100000 + `Offer` prix fixes 60/50/80 € | Refondre : R5 (admin area) + R4 (UnitPriceSpecification 65€/h) |
+| Prix UI (fourchettes inventées) | €60-120 / €50-90 / €80-200 / +30% urgence | Remplacer par grille PRICING.md officielle (65€/h + Z1-Z6 + +50%) |
+| CTA hero | "📞 Urgência 24h" + "💬 WhatsApp Urgente" + WA msg "URGENTE: Preciso..." | R12 : "Pedir Orçamento" + "WhatsApp Orçamento" + msg orçamento |
+| FAQ | 3 questions, dont 1 viole R145 ("1-2 horas... urgências 24h") | 6 questions alignées R12 + R145 |
+| Liens internes localité | 5 concelhos avec slogans "Desentupimentos urgentes"/"24h/7d" (R12) | 12 liens localité avec sous-titres alignés scope installation |
+| Equipment brand specific | "Ridgid K9-102", "Até 4000 PSI" (R11 borderline) | "máquinas profissionais" (générique) |
+| Garantia chiffrée | "6 meses" (R11, sans source) | Supprimée (R11 stricte) |
+| Délai chiffré | "1-2 horas", "até 4 horas" (R145) | Supprimé (R145) |
+
+**Décision appliquée (mode autonome, R3+R7)** :
+
+- **0 nouvelle URL** — page existe, on renforce (le brief kanban dit "Si page existe : renforcer (h1 aligné query, FAQ schema, 200 mots supplémentaires, NAP cohérent)" — c'est exactement ça).
+- **1 PR draft ouverte** : PR #260 sur `feat/cnr-rankpush-desentupir-canos-t_06389a27` (SHA 4f3e99e9e, base origin/main 8c4e22e6a). Branche alignée avec t_06389a27 (rank-push précédent "desentupir canos" CPC=6.51€), single-line commit.
+- **0 chemin protégé modifié** : uniquement `client/src/pages/Desentupimentos.tsx` (source vivante) + `client/public/desentupimentos.html` (HTML statique co-généré par `scripts/prerender-guias-cnr.mjs` PR #218 pattern). Aucun hub concelhos/distritos ni aucune page localité touchés.
+- **0 mention DGEG/TRIESP** côté CNR (cf. purge 03/08, doctrine §13 verrouillée).
+
+**Témoins R8 mesurés (commit 4f3e99e9e)** :
+
+| Témoin | Avant | Après |
+|---|---:|---:|
+| `geoMidpoint` schema | 1 | **0** ✅ R5 |
+| `latitude 41.5378` Macedo | 1 | **0** ✅ R5 |
+| `Ridgid`/`K9-102` equipment | 2 | **0** ✅ R11 |
+| `6 meses` garantia inventée | 1 | **0** ✅ R11 |
+| `Urgência 24h` CTA | 1 | **0** ✅ R12 |
+| `Atendimento 24h/7d` slogan | 3 | **0** ✅ R12 |
+| `WhatsApp Urgente` | 2 | **0** ✅ R12 |
+| Prix fixes €60-120 / €50-90 / €80-200 | 3 | **0** ✅ R4 |
+| `+30%` majoration inventée | 1 | **`+50%` grille** ✅ R4 |
+| Délai chiffré "1-2 horas" | 1 | **0** ✅ R145 |
+| Occurrences `desentupimento` (query) | ~3 | **12+** ✅ |
+| H1 contient `Desentupimento` (singulier) | non | **oui** ✅ |
+| FAQ questions | 3 | **6** ✅ |
+| Liens internes vers localités | 5 | **12** ✅ |
+| Mention grille Z1-Z6 + 65€/h | 0 | **3 zones** ✅ R12 |
+
+**Conformité** : R4 ✅ · R5 ✅ · R11 ✅ · R12 ✅ · R145 ✅ · R15 ✅ (2 fichiers, scope strict) · R6 ✅ (1 branche dédiée depuis main) · R7 ⏸ (PR draft #260 en attente GO Filipe — pas d'auto-merge).
+
+**Impact attendu** :
+
+- **J+7 GSC** : recompte via `gsc-trajectoire-cron.sh` (cron dim 22h id 8e0fd9b3e269). Cible : passer de pos=None à pos>0 sur la query.
+- **Si pos>0** : consolidation via liens internes vers 12 concelhos (autorité distribuée).
+- **Si pos=0 à J+7** : diagnostic lanjut — vérifier indexation (URL inspection API), canonical, sitemap inclusion (`scripts/lint-sitemap-parity.mjs`), et envisager backlink interne depuis pages forte autorité (homepage, hubs `canalizador-<concelho>`).
+- **Note méthodologique** : la query 'desentupimento' (singulier) peut être traitée comme dupliquée par Google de 'desentupimentos' (pluriel). Si GSC continue à montrer pos=None sur singulier mais pos>0 sur pluriel à J+7, c'est l'effet canonical implicite — on a rempli notre part du boulot. Le critère de succès = amélioration de la couverture sémantique de la page canonique.
+
+**Diff résumé** : +302 / -192 sur 2 fichiers (`client/src/pages/Desentupimentos.tsx` 273 lignes + `client/public/desentupimentos.html` 221 lignes régénérées via `scripts/prerender-guias-cnr.mjs`).
+
+**Liens** : PR draft #260 (4f3e99e9e, push OK sur origin/feat/cnr-rankpush-desentupir-canos-t_06389a27). Pas de merge tant que GO Philippe (R7).
+
+**Leçons codées (LECONS.md)** : #CNR-RANKPUSH-DESENTUPIMENTO-01 (renforcement chirurgical > duplication URL même intent singulier/pluriel PT), #CNR-RANKPUSH-DESENTUPIMENTO-02 (page existante + 8+ violations doctrine = cible 1 PR dense, scope strict).
 
 ---
 
