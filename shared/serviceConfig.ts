@@ -53,8 +53,8 @@ export const plumberieConfig: ServiceConfig = {
  },
  accentColor: '#FF6D00', // Orange pour CTA
  
- heroTitle: 'Água a Pingar? Cano Rebentado?',
- heroSubtitle: 'Canalizador em Bragança Atendimento prioritário — 24h/7d. Sem quebrar azulejos. Preço dito antes de sair.',
+ heroTitle: 'Canalizador para instalação e remodelação — Trás-os-Montes',
+ heroSubtitle: 'Instalação, remodelação e projetos ao seu domicílio. Orçamento por escrito em 48h, garantia 1 ano.',
  heroEmoji: '💧',
  serviceEmoji: '🔧',
  
