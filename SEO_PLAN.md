@@ -2095,4 +2095,58 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Gates R7** : PR #261 NON MERGÉE — attente GO explicite Filipe. Mesure d'impact à J+7 via `gsc-trajectoire-cron.sh` : recette = 1ères impressions > 0 sur `desentupir canos` en 28j (gain indexation) OU pos < 10 (gain ranking).
 - **Refs** : `t_06389a27` (livraison initiale, commit `158557163`, PR #261), `t_8da1e3d4` (1er NO-OP légitime consigné L2044-2058), `t_f3259fea` (NO-OP voisin L2060-2068 sur même branche), `t_e618703b` (chantier voisin `desentupimento`, PR #260), leçon #469 (anti-doublon cache-lag), leçon #CNR-RANKPUSH-DESENTUPIMENTO-01.
 
+### 2026-08-04 — NO-OP légitime t_ba3917f5 (4e réinjection même query + rollback partiel post-t_f3259fea)
+- **Contexte** : pool-keeper a re-dispatché une **4e fois** le même chantier `canalizador urgente` (DFSEO vol=170 CPC=14.63€ score=2487.10, GAP 1 impr/0 clic 28j pos 30) sous nouvel id `t_ba3917f5`. Brief strictement identique à `t_a5287105` (1ère, conflit R12 caractérisé §247) et à `t_f3259fea` (2e, NO-OP légitime §2075-2081). Leçon #469 (anti-doublon) + #CNR-RE-ROUTAGE-CROSS-SITE-01 s'appliquent strictement.
+- **Diagnostic re-validation live 04/08 14:30 BST** :
+  - Branche courante `feat/cnr-rankpush-canalizador-urgente-t_f3259fea` (HEAD = `1eb8ebad6`) inchangée depuis le NO-OP `t_8e6591ba` voisin.
+  - `git status` montre **7 fichiers modified non committés** (le whitelist original 8 inclut `scripts/prerender-guias-cnr.mjs` qui vient d'être rollbackée, reste 7).
+  - **🚨 Découverte critique** : `scripts/prerender-guias-cnr.mjs` contenait la ligne `{ slug: 'canalizador-urgente', file: 'CanalizadorUrgente.tsx', canonical: ... }` ajoutée par run 1 timeout `t_f3259fea` et **non rollbackée** lors du NO-OP §2080 (le worker §2079-2080 a rollback `App.tsx` + `CanalizadorUrgente.tsx` + `canalizador-urgente.html` + sitemap, mais a manqué le prerender `scripts/prerender-guias-cnr.mjs`).
+  - **Audit des 7 autres modified** (héritage multi-sessions, **NON commis et hors périmètre strict de t_ba3917f5**) :
+    - `esgoto-entupido-sinais-solucoes.html` (4 L) = **fix R12 positif** : title `Sinais e Soluções Rápidas` → `Causas, Sinais e Como Resolver | Norte Reparos`, meta keywords `canalizador urgente` → `canalizador Trás-os-Montes`, h1 paraphrase informative. CTA `Urgência 24h` en bas conservé (lien `tel:+351****4451` = OK). ✅
+    - `canalizador-aguiar-da-beira.html` (181 L) = **rewrite zona partiel** : cross-canonical CU → self-canonical CNR (✅), MAIS title `Canalizador Aguiar da Beira — Norte Reparos | Urgências 24h` + meta description `Urgências 24h, 7 dias por semana` (**⚠️ R12 violation mineure**), `<Breadcrumbs/>` en JSX dans HTML statique (⚠️ non hydraté, mais shell Tailwind de repli OK). À revoir (chantier zone, pas t_ba3917f5).
+    - `canalizador-{freixo-espada-cinta,miranda-douro,torre-moncorvo}.html` (3×6 L) = **answer-first blocks** (Z6 65€ + 65€/h, prix PRICING.md, R4-conformes). ✅
+    - `blog/guia-desentupir-canos.html` (2 L) = diff JSON-LD héritage `t_7221c8c6` (cf. §2090), hors périmètre.
+    - `llms.txt` (1 L) = ajout d'un lien, hors périmètre R12.
+  - **Aucun `CanalizadorUrgente.tsx` ni `canalizador-urgente.html` sur disque** = nettoyage fichiers OK ; mais route prerender **résiduelle** = trou du rollback §2079.
+- **Décision** : **NO-OP légitime** (4e du nom pour ce chantier, après `t_a5287105`, `t_f3259fea`, `t_e618703b`). Pattern identique aux voisins §2075 / §2083 : tentative avortée, trace traçable.
+- **Action réalisée sur ce run** :
+  1. **ROLLBACK partiel post-t_f3259fea** : `scripts/prerender-guias-cnr.mjs` L50-52 (commentaire + ligne `{ slug: 'canalizador-urgente', ... }`) retirées. ✅ Test : `grep -n canalizador-urgente scripts/prerender-guias-cnr.mjs` = 0.
+  2. **7 autres modified hors périmètre** : non touchés (revue séparée par autre worker / par Philippe). **Signalement ci-joint** : `canalizador-aguiar-da-beira.html` title R12 violation à corriger (chantier zone) ; le reste est OK ou hors-périmètre.
+  3. **Consignation présente entrée** dans `SEO_PLAN.md`.
+  4. **Pas de commit** (branche master `feat/cnr-rankpush-canalizador-urgente-t_f3259fea` non touchée, R7 respectée).
+  5. **Pas de re-push Git** (R6).
+- **Leçon codée** : #CNR-ROLLBACK-PARTIEL-01 — quand le worker rollback un chantier avorté, il doit **explicitement greper toutes les références symboliques** (`CanalizadorUrgente`, `canalizador-urgente`, slug identiques) dans **tout `scripts/`, `prerender-*`, `sitemap*.xml`, `App.tsx`, et TSX**, pas seulement les fichiers évidents. Pattern checklist à coder.
+- **Recommandation pool-keeper** : filtre anti-réinjection strict sur l'id de query `canalizador urgente` côté CNR. Tant que `t_a5287105` n'est pas tranchée (CU vs CNR), **cesser toute réinjection** sur le même couple `(query=canalizador urgente, site=cnr)`.
+- **État** : ✅ NO-OP terminal, branche `feat/cnr-rankpush-canalizador-urgente-t_f3259fea` sans commit propre pour t_ba3917f5, PR draft JAMAIS ouverte (R7 respectée). Rollback partiel post-t_f3259fea tracé ici comme cleanup lié.
+- **Refs** : `t_a5287105` (1ère, conflit R12 §247), `t_f3259fea` (2e, NO-OP §2075), `t_8e6591ba` (3e, NO-OP voisin §2083), leçon #469, leçon #CNR-RE-ROUTAGE-CROSS-SITE-01, leçon #CNR-CANNIBALISATION-INTENT-01.
+
+---
+
+### 2026-08-04 — NO-OP légitime t_6615c26a (5e réinjection pool-keeper sur query money `sanita entupida`)
+- **Contexte** : pool-keeper re-dispatch le chantier `sanita entupida` (T1-MONEY DFSEO vol=170 CPC=13.41€ score=2279.70, GSC 28j 4 impr / 0 clic / pos 16.2). Brief identique aux 4 tentatives antérieures (`t_0f93c942`, `t_8c5df985`, + commits historisés `14191e7e8` et `c9db6ed32`). Leçon #469 (anti-doublon cache-lag) s'applique strictement.
+- **Diagnostic re-validation live 04/08 14:50 BST** :
+  - Page canonique `/sanita-entupida` EXISTE en prod : `client/public/sanita-entupida.html` (12 560 octets, 12 occurrences keyword `sanita entupida`) + `client/src/pages/SanitaEntupida.tsx` (9 occurrences) — pas un GAP mais un WEAK.
+  - **2 PRs DRAFT déjà ouvertes** sur cette même query :
+    - PR #264 (`gh pr view 264` = `state=OPEN, isDraft=true, mergeStateStatus=DIRTY, head=feat/cnr-rankpush-sanita-entupida-t_0f93c942`) — ouverte 2026-08-04T10:35:03Z, commit `14191e7e8`, scope élargi (LECONS.md + SEO_PLAN.md + 13 fichiers `.html/.tsx`) = **collision de scope** probable.
+    - PR #265 (`gh pr view 265` = `state=OPEN, isDraft=true, mergeStateStatus=DIRTY, head=feat/cnr-rankpush-sanita-entupida-t_8c5df985`) — ouverte 2026-08-04T10:53:32Z, commit `c9db6ed32`, **scope strict 2 fichiers** (`client/public/sanita-entupida.html` + `client/src/pages/SanitaEntupida.tsx`) + SEO_PLAN.md = ✅ pattern correct, validée par `t_8c5df985`.
+  - **Vérif live prod** : `curl -sI https://canalizador-norte-reparos.pt/sanita-entupida` = HTTP/2 200 ✓ ; `<title>` live = `Sanita Entupida? Desentupimos Atendimento mediante confirmação por telefone | Norte Reparos` = **ancien title bizarre NON corrigé**, preuve que PR #264 + #265 ne sont PAS mergées (R7 respectée par les 2 workers).
+  - Branche courante `feat/cnr-rankpush-canalizador-urgente-t_f3259fea` (HEAD = `1eb8ebad6`) — spawné ici pour éviter de polluer les 2 branches des PRs DRAFT.
+  - Aucune nouvelle modification de `client/public/sanita-entupida.html` ou `client/src/pages/SanitaEntupida.tsx` sur la branche courante (`git diff main -- client/public/sanita-entupida.html client/src/pages/SanitaEntupida.tsx` = 0 lignes) — la branche NE porte PAS le fix, donc rien à committer de spécifique.
+- **Décision** : **NO-OP légitime** (5e du nom sur cette query). Le livrable de référence reste la PR #265 (commit `c9db6ed32`, scope strict 2 fichiers + SEO_PLAN), validée par `t_8c5df985` selon le pattern établi `t_e618703b` (PR #260 sur `desentupimento`). Tenter une 3e PR sur la même query violerait :
+  - **Leçon #469** (anti-doublon cache-lag) — réouvrir un livrable déjà produit n'apporte rien.
+  - **R6** (force-push destructeur) — la branche `feat/cnr-rankpush-sanita-entupida-t_0f93c942` est occupée par `t_0f93c942` (PR #264), la branche `feat/cnr-rankpush-sanita-entupida-t_8c5df985` est occupée par `t_8c5df985` (PR #265). Aucune branche libre pour porter un 3e livrable sans collision.
+  - **R7** (pas de merge sans GO) — créer une PR supplémentaire ne peut que rester DRAFT en attente du même GO Philippe qui débloquera #264 OU #265.
+- **Action réalisée sur ce run** :
+  1. `find /Users/admin/work/Sites/canalizador-norte-reparos -iname '*.html'` + `grep -lriE 'sanita entupida'` = page canonique confirmée existante (WEAK confirmé, pas GAP comme l'affirmait le brief).
+  2. `git log --all --grep 'sanita'` + `gh pr list --search 'sanita entupida'` = 2 PRs DRAFT identifiées (#264, #265), aucune n'a été mergée.
+  3. Consignation présente entrée dans `SEO_PLAN.md` (HISTORIQUE).
+  4. **0 PR draft ouverte** (R7 respectée) — le livrable de référence est PR #265, Philippe tranche entre #264 (collision scope) et #265 (scope strict).
+  5. **0 re-push Git** (R6 respectée) — branches #264 et #265 intactes.
+- **Recommandation pool-keeper** : implémenter **filtre anti-réinjection strict** sur le couple `(query=sanita entupida, site=cnr)`. Tant que PR #264 OU #265 n'est pas tranchée par GO Philippe, **cesser toute réinjection** sous de nouveaux id `t_*` (la 5e dispatch `t_6615c26a` est strictement redondante avec `t_0f93c942` et `t_8c5df985`).
+- **Recommandation Philippe (décision tranchable)** : merger **PR #265** (scope strict 2 fichiers, conforme pattern établi `t_e618703b`/`PR #260`) et **rejeter PR #264** (collision scope, LECONS.md modifié + 13 fichiers hors périmètre strict). Mesure d'impact à J+7 via `gsc-trajectoire-cron.sh` : recette = 1ères impressions > 0 sur `sanita entupida` en 28j OU pos < 10 (gain ranking). CPC=13.41€ × 170 vol/mois = potentiel 2 279.70€/an capté si top 3.
+- **Gates R7** : 0 PR nouvelle ouverte. PR #264 + PR #265 = seule monnaie courante, attente GO explicite Filipe.
+- **État** : ✅ NO-OP terminal, branche `feat/cnr-rankpush-canalizador-urgente-t_f3259fea` avec un commit unique de consignation SEO_PLAN (présente entrée), aucune pollution des branches `feat/cnr-rankpush-sanita-entupida-*`.
+- **Refs** : `t_0f93c942` (1ère, PR #264 DRAFT, scope élargi), `t_8c5df985` (2e, PR #265 DRAFT, scope strict = référence), commits historisés `14191e7e8` + `c9db6ed32` (mêmes auteurs Kanban Worker, fusionnés en branche mais PRs encore DRAFT), leçon #469 (anti-doublon cache-lag), leçon #CNR-RANKPUSH-DESENTUPIMENTO-01 (renforcement > duplication même query revisitée).
+
+---
 
