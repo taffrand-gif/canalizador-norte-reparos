@@ -9,10 +9,10 @@ export default function GuiaDesentupirCanos() {
   return (
     <>
       <Helmet>
-        <title>Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho | Guia Norte Reparos</title>
+        <title>Desentupir Canos: Causas, Métodos Caseiros e Quando Chamar um Canalizador | Norte Reparos</title>
         <meta
           name="description"
-          content="Porque é que os canos entopem, como prevenir entupimentos e quando é que a intervenção de um canalizador é a escolha segura. Guia informativo Norte Reparos."
+          content="Desentupir canos em casa: causas mais frequentes, métodos que funcionam (ventosa, bicarbonato, cabo), limites do faça-você-mesmo e sinais de que precisa de um canalizador. Guia informativo Norte Reparos."
         />
         <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/guia-desentupir-canos" />
         <script type="application/ld+json">
@@ -20,6 +20,14 @@ export default function GuiaDesentupirCanos() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Como desentupir canos em casa sem partir a tubagem?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Para desentupir canos em casa comece pelo sifão: retire a água parada com um recipiente, desmonte o sifão sobre um balde, limpe os resíduos e volte a montar as roscas à mão sem forçar. Se o bloqueio persistir, use uma ventosa com água suficiente para cobrir a borracha, selando o segundo ralo em cubas duplas. Termine com água quente da torneira para gordura ligeira. Nunca use água a ferver em tubagens desconhecidas, evite misturar produtos químicos e, se o entupimento persistir após duas tentativas, pare e contacte um canalizador para evitar danos."
+                }
+              },
               {
                 "@type": "Question",
                 "name": "Porque é que os canos entopem?",
@@ -83,8 +91,8 @@ export default function GuiaDesentupirCanos() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            "headline": "Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho",
-            "description": "Guia informativo sobre entupimento de canos: causas habituais, prevenção, métodos caseiros, limites e quando chamar canalizador. Espelho do pilar canalizador-urgente.pt/desentupir-canos.",
+            "headline": "Desentupir Canos: Causas, Métodos Caseiros e Quando Chamar um Canalizador",
+            "description": "Guia informativo sobre como desentupir canos em casa: causas habituais, métodos que funcionam, limites do faça-você-mesmo e quando chamar um canalizador.",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": {
               "@type": "Organization",
@@ -92,7 +100,7 @@ export default function GuiaDesentupirCanos() {
               "url": "https://canalizador-norte-reparos.pt"
             },
             "datePublished": "2026-07-17",
-            "dateModified": "2026-07-17",
+            "dateModified": "2026-08-04",
             "url": "https://canalizador-norte-reparos.pt/blog/guia-desentupir-canos",
             "mainEntityOfPage": {
               "@type": "WebPage",
@@ -109,23 +117,23 @@ export default function GuiaDesentupirCanos() {
         </div>
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho
+            Desentupir Canos: Causas, Métodos Caseiros e Quando Chamar um Canalizador
           </h1>
           <p className="text-lg text-gray-600">
-            Guia informativo · Causas habituais, prevenção e limites da bricolage · leitura
+            Guia informativo · Como desentupir canos em casa com segurança, limites do faça-você-mesmo e sinais de alerta para chamar um profissional
           </p>
         </header>
         <div className="prose prose-lg max-w-none">
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-2">Em resumo:</p>
             <p className="text-gray-800">
-              Os canos entopem por <strong>acumulação gradual</strong> (gordura, cabelos, restos orgânicos, raízes, objetos indevidamente descartados) e por <strong>envelhecimento da rede</strong>. A maioria dos casos em habitação resolve-se com prevenção de base: redes nos ralos, cuidado com o que se deita na sanita, limpeza periódica dos sifões. Quando o entupimento é recorrente, afeta vários pontos ou os métodos caseiros falham, a intervenção de um canalizador é a escolha segura — evitar improvisar para não partir a tubagem ou empurrar a obstrução mais fundo.
+              <strong>Desentupir canos</strong> parte quase sempre de uma acumulação gradual (gordura, cabelos, restos orgânicos, raízes, objetos indevidamente descartados) e do envelhecimento da rede. Antes de <strong>desentupir canos</strong> por conta própria, três verificações: perceber onde está o bloqueio (sifão, coluna ou rede exterior); testar métodos mecânicos de baixo risco (ventosa, cabo flexível, limpeza do sifão); e saber parar a tempo. Quando o entupimento é recorrente, afeta vários pontos ou os métodos caseiros falham, a intervenção de um canalizador é a escolha segura — improvisar para <strong>desentupir canos</strong> pode partir a tubagem ou empurrar a obstrução mais fundo.
             </p>
           </div>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">1. Porque é que os canos entopem</h2>
           <p>
-            Um entupimento é quase sempre o resultado de um processo lento, não de um acidente único. As causas mais frequentes em habitação:
+            Antes de <strong>desentupir canos</strong>, vale a pena perceber a causa — porque a abordagem correta depende do que está a bloquear a tubagem. Um entupimento é quase sempre o resultado de um processo lento, não de um acidente único. As causas mais frequentes em habitação:
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-6">
             <li><strong>Gordura e restos de comida</strong> — a gordura quente passa líquida, mas solidifica nas paredes da tubagem à medida que arrefece. Camada a camada, reduz o diâmetro útil até bloquear.</li>
@@ -158,9 +166,9 @@ export default function GuiaDesentupirCanos() {
             </li>
           </ol>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">3. O que pode tentar em casa (e quando parar)</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">3. Como desentupir canos em casa (e quando parar)</h2>
           <p>
-            Para entupimentos ligeiros e isolados, há três abordagens caseiras com boa relação risco/resultado:
+            Para desentupir canos em entupimentos ligeiros e isolados, há três abordagens caseiras com boa relação risco/resultado. Tente por esta ordem:
           </p>
           <ul className="list-disc pl-6 space-y-2 mb-6">
             <li><strong>Ventosa</strong> — funciona bem em entupimentos próximos do ralo (sifão, curva). Não funciona em entupimentos fundos. Use água suficiente para cobrir a borracha.</li>
@@ -235,7 +243,11 @@ export default function GuiaDesentupirCanos() {
           <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. Perguntas frequentes</h2>
           <div className="space-y-6">
             <div>
-              <h3 className="font-bold text-gray-900 mb-2 text-xl">Desentupir com água a ferver estraga o PVC?</h3>
+              <h3 className="font-bold text-gray-900 mb-2 text-xl">Como desentupir canos em casa de forma segura?</h3>
+              <p className="text-gray-700">Para desentupir canos em casa comece pelo sifão: retire a água parada, desmonte o sifão (balde por baixo), limpe os resíduos e volte a montar sem forçar as roscas. Se o bloqueio persiste, use ventosa com água suficiente para cobrir a borracha, selando o segundo ralo se a cuba for dupla. Termine com água quente da torneira (não a ferver) para dissolver gordura leve. Se o entupimento não ceder em duas tentativas, pare e chame um canalizador.</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-2 text-xl">Desentupir canos com água a ferver estraga o PVC?</h3>
               <p className="text-gray-700">A tolerância depende do tipo e do estado da tubagem. Evite água a ferver em tubagem antiga, desconhecida ou visivelmente envelhecida. Em caso de dúvida, use água quente da torneira para gordura ligeira.</p>
             </div>
             <div>
