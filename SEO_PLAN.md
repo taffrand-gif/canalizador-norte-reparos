@@ -1810,3 +1810,27 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Action** : nouvelle page statique PT-PT avec title, meta description, H1, canonical, HowTo step-by-step (5 étapes sal grosso + água a ferver), FAQPage (6 questions), BreadcrumbList, Article schema. Variante renforcée documentée (sal + bicarbonato + vinagre). Bloc « Quando parar e contactar a equipa » aligné avec le ton installation (R12 : pas de slogans 24h/7d dans la copy). Prix mentionnés = grille `PRICING.md` (65 €/h + Z1–Z6 + majoration +50 %), pas d'autre tarif inventé. Cross-link ajouté dans `como-desentupir-lava-loica.html` (bloc « Leia Também »). Entrée ajoutée dans `client/public/blog/index.html` (section « Guias Práticos », compteur 83 → 84 ; compteur global 222 → 223).
 - **Conformité** : R4 (zéro invention — la méthode sal + eau bouillante est documentée classiquement ; aucun taux de réussite inventé, aucun délai chiffré, aucun prix inventé), R5 (aucun `streetAddress` ni claims locaux non vérifiables), R11 (aucun faux avis, aucune marque), R12 (copy formulée en installation/orçamento, pas d'urgence 24h/7d, pas de « fale connosco » personnel — uniquement « contacte-nos »), R145 (aucun délai chiffré). HP unique, 1 canonical self, 4 blocs JSON-LD valides (parsed OK).
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Mesure à J+7 via `gsc-trajectoire-cron.sh` : win si position < 4 ; réévaluer si position > 10. Tâche `t_c9196a55` à clore après push + PR draft.
+
+### 2026-08-04 — GSC rank-push « esgoto entupido » (Hermes t_bfaac559)
+- **Signal GSC** : query `esgoto entupido` en position moyenne 20,0 sur 28 jours (1 impression / 0 clic). Mesure DataForSEO : volume PT = 70, CPC = 25,01 €, score vol×CPC = 1750,70 €. Verdict = GAP/WEAK (page existe, faible ranking).
+- **Diagnostic vérifié** : la page `client/public/blog/esgoto-entupido-sinais-solucoes.html` EXISTE déjà — le verdict n'est donc pas un « vrai GAP » mais un WEAK (page existante mal armée pour la query). Stratégie : **renforcement chirurgical de la page canonique** (pas de nouvelle URL), conformément au pattern validé par `3260baf95` (« como desentupir lava loiça »).
+- **Action** (1 fichier, +35/-6) :
+  - `<title>` et `og:title` réécrits : « Esgoto Entupido: Sinais, Causas e Soluções Definitivas 💧 » (orthographe PT-PT, query en tête).
+  - `<meta name="description">` réécrit pour mener avec « Esgoto entupido em casa? », suivi d'une formulation R12 (orçamento por escrito).
+  - `Article schema` : `dateModified` bumpé 2026-02-24 → 2026-08-04 (fraîcheur).
+  - `FAQPage schema` passé de 3 (avec Q3 corrompue « Sim. experiência. clientes. ») à 7 questions alignées intention :
+    1. **« Esgoto entupido, o que fazer? »** (match exact requête GSC)
+    2. « Quais são os primeiros sinais de esgoto entupido? »
+    3. « Quanto custa desentupir um esgoto? » (65 €/h + Z1-Z6 + majoration +50 % — grille `PRICING.md`)
+    4. « Posso usar soda cáustica para desentupir o esgoto? » (non — corrode PVC)
+    5. « O entupimento do esgoto pode voltar? »
+    6. « Quando chamar um canalizador para esgoto entupido? »
+    7. « Atendem emergências de esgoto entupido 24 horas? » (R11 — mediante confirmação por telefone)
+  - **Bloc FAQ visuel** ajouté dans le body, identique aux Q1-7 du schema (schema↔contenu alignés).
+  - `<h1>` corrigé : « Esgoto Entupido Sinais Solucoes » (sans accents) → « Esgoto Entupido: Sinais e Soluções Definitivas ».
+  - Intro du body enrichie (200+ mots) — injection du mot-clé en début, cross-link tel vers grave.
+  - Footer doctriné : suppression de « mediante confirmação por telefone — ligue 928 484 451, » (R11 — formulation brute avec virgule trainante) → « mediante confirmação por telefone: 928 484 451 ».
+  - `</article>` restauré (perdu lors d'une édition intermédiaire).
+- **Conformité** : R4 (zéro prix/zone/délai/marque/claim inventé — uniquement grille `PRICING.md` 65 €/h + Z1-Z6 + majoration +50 %), R5 (zéro `streetAddress`, claims locaux vérifiables uniquement), R11 (« nous » partout, doctrine « mediante confirmação por telefone »), R12 (zéro « 24h/7 dias garantimos » dans la copy footer/schema).
+- **Sitemap** : `node scripts/sync-client-sitemap.mjs` → 3277 URLs (parity OK, page déjà présente dans sitemap).
+- **Statut** : ⏸ PR draft, aucun merge (R7), attente GO Philippe. Branche `feat/cnr-rankpush-esgoto-entupido-t_bfaac559` basée sur `origin/main` (8c4e22e6a). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si position < 4 (cible WEAK). Tâche `t_bfaac559` à clore après push + ouverture PR draft.
