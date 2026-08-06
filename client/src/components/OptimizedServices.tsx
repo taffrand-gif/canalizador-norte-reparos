@@ -15,7 +15,7 @@ const serviceDescriptions = {
  'Instalação Sanitários': 'Instalação completa de casas de banho, cozinhas e áreas de serviço. Torneiras, autoclismos, chuveiros, banheiras e sistemas de drenagem.',
  'Aquecimento Central': 'Instalação, manutenção e arranjo de sistemas de aquecimento central, caldeiras, esquentadores e radiadores.',
  'Canalização Nova': 'Instalação de nova canalização para construções, renovações ou ampliações. Materiais de qualidade e instalação profissional.',
- 'Urgências 24h': 'Atendimento de urgências Atendimento 24h/7d, 7 dias por semana, para fugas de água, entupimentos e outras emergências.'};
+ 'Urgências 24h': 'Intervenção em fugas de água, entupimentos e avarias na canalização, ao seu domicílio em Trás-os-Montes.'};
 const serviceFeatures = {
  'Desentupimentos': [
  'Equipamento de alta pressão e câmera de inspeção',
@@ -45,8 +45,8 @@ const serviceFeatures = {
  'Testes de pressão e estanquicidade'
  ],
  'Urgências 24h': [
- 'Disponível 24h/7 dias • Orçamento por escrito',
- 'Equipe equipada para qualquer emergência',
+ 'Orçamento por escrito em 48h',
+ 'A nossa equipa com equipamento profissional de diagnóstico',
  'Sem compromisso no local'
  ]
 };
@@ -139,7 +139,7 @@ const OptimizedServices: React.FC = () => {
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">🚨</div>
- <span className="text-gray-700">Serviço de urgência 24h todos os dias</span>
+ <span className="text-gray-700">Orçamento por escrito em 48h, garantia 1 ano</span>
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">💰</div>
@@ -158,7 +158,7 @@ const OptimizedServices: React.FC = () => {
  ))}
  </div>
  <p className="mt-4 text-gray-600 text-sm">
- Servimos toda a região de Trás-os-Montes e arredores com atendimento 24h/7 dias.
+ Servimos toda a região de Trás-os-Montes e arredores, ao seu domicílio.
  </p>
  <div className="mt-6 p-4 bg-orange-50 border border-orange-200 rounded-lg">
  <p className="text-orange-800 font-semibold">
