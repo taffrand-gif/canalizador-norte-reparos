@@ -1835,3 +1835,22 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Conformité** : R4 (zéro prix/zone/délai/marque/claim inventé — uniquement grille `PRICING.md` 65 €/h + Z1-Z6 + majoration +50 %), R5 (zéro `streetAddress`, claims locaux vérifiables uniquement), R11 (« nous » partout, doctrine « mediante confirmação por telefone »), R12 (zéro « 24h/7 dias garantimos » dans la copy footer/schema).
 - **Sitemap** : `node scripts/sync-client-sitemap.mjs` → 3277 URLs (parity OK, page déjà présente dans sitemap).
 - **Statut** : ⏸ PR draft, aucun merge (R7), attente GO Philippe. Branche `feat/cnr-rankpush-esgoto-entupido-t_bfaac559` basée sur `origin/main` (8c4e22e6a). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si position < 4 (cible WEAK). Tâche `t_bfaac559` à clore après push + ouverture PR draft.
+
+### 2026-08-10 — GSC rank-push « canalizador vila real » (Hermes t_c571ce0e)
+- **Signal GSC** : query `canalizador vila real` en position moyenne 17,0 sur 30 jours (3 impressions / 0 clic / CTR 0 %). Mesure DataForSEO : volume PT money local Z5 (Vila Real = capitale de distrito). Verdict = WEAK (page existe, sous-classée malgré contenu + canonical self + meta description correcte).
+- **Diagnostic vérifié (3 couches R02)** :
+  1. **DOUBLE H1** confirmé : `<h1>🔥 Canalizador Vila Real — Preços Fixos</h1>` (ligne 32) + `<h1 style="color: white; …">Canalizador em Vila Real</h1>` (ligne 38, hero box). 2 H1 concurrents = violation SEO majeure, signal « page confuse » à Google.
+  2. **Title/H1 mismatch** : `<title>` dit « Canalizador em Vila Real — instalação, orçamento e remodelação | Norte Reparos » (query-exact) mais le 1er H1 disait « Canalizador Vila Real — Preços Fixos » (sans « em », sans cohérence). Cohérence restaurée dans le patch.
+  3. **OG:title emoji** : `<meta property="og:title" content="🔥 Canalizador Vila Real — Preços Fixos | +351 928 484 451">` — emoji en tête OG peut signaler doorway low-quality à Google.
+- **Audit préventif (3 autres pages piliers money CNR)** :
+  - `canalizador-braganca.html` : h1=1, og_emoji=0, h1_emoji=0, total_emoji=0 — **PROPRE** (contrôle positif : sert de référence pour valider l'audit).
+  - `canalizador-mirandela.html` : h1=2, og_emoji=1, h1_emoji=1 — **MÊME BUG** que Vila Real (sujet d'une éventuelle vague séparée).
+  - `canalizador-chaves.html` : h1=2, og_emoji=0, h1_emoji=0 — **MÊME BUG H1** (sans emoji OG).
+  - 1 seul fichier patché dans cette tâche (Vila Real = cible rank-push), follow-up à créer pour Mira/Chaves si arbitrage GO.
+- **Action** (1 fichier, +3/-3) sur `client/public/canalizador-vila-real.html` :
+  - 1er H1 : `🔥 Canalizador Vila Real — Preços Fixos` → `Canalizador em Vila Real — Instalação, orçamento e remodelação` (drop emoji, alignement title/H1).
+  - 2ème H1 (hero box, blanc sur fond bleu) : `<h1>` → `<div>` (préserve tout le CSS inline + visibilité hero, supprime le doublon sémantique). Ajout `font-weight: 700` pour conserver le poids visuel.
+  - OG:title : `🔥 Canalizador Vila Real — Preços Fixos | +351 928 484 451` → `Canalizador em Vila Real — Instalação, orçamento e remodelação | Norte Reparos` (drop emoji, cohérence title).
+- **Préservation** : `<title>` (85 chars, déjà query-exact), meta description (Zona 5 55 €, 65 €/h), canonical self, JSON-LD `dict` (1 bloc, parse OK), 4 autres � restants (brand element + hero decoration, intentionnels hors H1/og:title), 2 `<li>` ouvert/fermé déjà déséquilibrés sur main (pré-existant, non causé par le patch).
+- **Conformité** : R4 (zéro donnée métier inventée — title/description/canonicals/Z1-Z6 intacts), R5 (zéro `streetAddress`, NAP inchangé), R11 (« nous »/collectif partout, doctrine « mediante confirmação por telefone » préservée), R12 (zéro slogan 24h/7d introduit), R145 (zéro délai chiffré ajouté), R03 (page existe bien — pas de catch-all SPA fantôme), R04 (état live vérifié via `curl -sL -A "NorteOS-UXCHECKER/1.0"` AVANT de patcher), R07 (0 merge — PR draft atomic, attente GO Philippe).
+- **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `seo/cnr-canalizador-vila-real-rankpush-t_c571ce0e` basée sur `github/main` (97a3138d6, fetched 2026-08-10). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si position < 4 (cible WEAK → TOP). Tâche `t_c571ce0e` à clore après push + ouverture PR draft.
