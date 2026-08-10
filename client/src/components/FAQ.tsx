@@ -15,23 +15,17 @@ function FAQ() {
  const { config } = useSite();
  const faqs = useMemo(() => [
  {
- question: 'Quanto custa um canalizador urgente em Bragança?',
- answer: 'O custo de um canalizador urgente em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.'},
+ question: 'Quanto custa um canalizador em Bragança?',
+ answer: 'O custo de um canalizador em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação: €15. Orçamento grátis pelo 928 484 451.'},
  {
- question: 'Quanto tempo demora a chegar um canalizador urgente?',
- answer: 'Disponível 24h/7 dias garantida. Serviço disponível Atendimento 24h/7d, 7 dias por semana. Serviço disponível Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados.'},
+ question: 'O que fazer em caso de fuga de água?',
+ answer: 'Em caso de fuga de água: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue 928 484 451.'},
  {
- question: 'O que fazer em caso de fuga de água urgente?',
- answer: 'Em caso de fuga de água urgente: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue mediante confirmação para 928 484 451. Resolvemos o problema rapidamente.'},
- {
- question: 'Como desentupir uma sanita entupida rapidamente?',
- answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar Atendimento mediante confirmação por telefone, ligue 928 484 451. Evite produtos químicos agressivos.'},
- {
- question: 'Canalizador trabalha aos fins de semana e feriados?',
- answer: 'Sim, o serviço de canalizador urgente está disponível Atendimento 24h/7d, 7 dias por semana, incluindo sábados, domingos e feriados. Não há majoração de preço aos fins de semana. Ligue 928 484 451 a qualquer hora.'},
+ question: 'Como desentupir uma sanita entupida?',
+ answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar, ligue 928 484 451. Evite produtos químicos agressivos.'},
  {
  question: 'Quanto custa arranjar uma fuga de água?',
- answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação urgente: €15. Orçamento grátis pelo 928 484 451.'},
+ answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação: €15. Orçamento grátis pelo 928 484 451.'},
  {
  question: 'Como detetar uma fuga de água escondida?',
  answer: 'Sinais de fuga escondida: 1) Conta de água inexplicavelmente alta, 2) Manchas húmidas em paredes ou teto, 3) Cheiro a mofo persistente, 4) Som de água correndo quando tudo está fechado, 5) Medidor de água girando com tudo fechado. Para deteção profissional com câmera térmica, ligue 928 484 451.'},
@@ -103,7 +97,7 @@ function FAQ() {
  <div className="mt-12 text-center p-8 border-4 bg-white" style={{ borderColor: config.colors.primary }}>
  <p className="text-lg font-bold mb-4">Não encontrou a resposta que procurava?</p>
  <p className="text-gray-600 mb-6">
- Entre em contacto connosco. A nosso trabalho está pronta para esclarecer todas as suas dúvidas.
+ Entre em contacto connosco. A nossa equipa está pronta para esclarecer todas as suas dúvidas.
  </p>
  <a
  href={`tel:+351${config.phone.replace(/\s/g, '')}`}
