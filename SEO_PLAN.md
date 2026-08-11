@@ -1856,3 +1856,56 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Préservation** : `<title>` (85 chars, déjà query-exact), meta description (Zona 5 55 €, 65 €/h), canonical self, JSON-LD `dict` (1 bloc, parse OK), 4 autres � restants (brand element + hero decoration, intentionnels hors H1/og:title), 2 `<li>` ouvert/fermé déjà déséquilibrés sur main (pré-existant, non causé par le patch).
 - **Conformité** : R4 (zéro donnée métier inventée — title/description/canonicals/Z1-Z6 intacts), R5 (zéro `streetAddress`, NAP inchangé), R11 (« nous »/collectif partout, doctrine « mediante confirmação por telefone » préservée), R12 (zéro slogan 24h/7d introduit), R145 (zéro délai chiffré ajouté), R03 (page existe bien — pas de catch-all SPA fantôme), R04 (état live vérifié via `curl -sL -A "NorteOS-UXCHECKER/1.0"` AVANT de patcher), R07 (0 merge — PR draft atomic, attente GO Philippe).
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `seo/cnr-canalizador-vila-real-rankpush-t_c571ce0e` basée sur `github/main` (97a3138d6, fetched 2026-08-10). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si position < 4 (cible WEAK → TOP). Tâche `t_c571ce0e` à clore après push + ouverture PR draft.
+
+### 2026-08-11 — GSC rank-push « desentupir canos » (Hermes t_3a87726a) — T1-MONEY
+- **Signal GSC (fenêtre 28j terminée 2026-08-11)** : query `desentupir canos` à **0 impression / 0 clic / pos None** — verdict **GAP strict**. DataForSEO (CSV 2026-07-16, location 2620 PT) : volume 1300/mois, CPC 6.51 EUR, score vol×CPC = 8463 (T1-MONEY top board).
+- **Diagnostic vérifié (2 causes racines)** :
+  1. **Page pilier existe** : `/blog/guia-desentupir-canos` (298 lignes, H1 aligné "Desentupir Canos: Causas, Prevenção e Quando Não Tentar Sozinho", schema.org Article + FAQPage, NAP +351 928 484 451 cohérent). Page soeur `/blog/como-desentupir-canos-guia-completo` (224 lignes, 12 occ query, déjà dans sitemap-priority).
+  2. **Cause racine du GAP 0 impression** : `guia-desentupir-canos.html` absente de 2/3 sitemaps prioritaires :
+     - `public/sitemap-blog.xml` (catalogue) : **OK** (1 URL, lastmod 2026-07-17)
+     - `client/public/sitemap-priority.xml` (sitemap prioritaire Google) : **MANQUAIT**
+     - `client/public/sitemap-plain.xml` (sitemap catalogue référencé par robots.txt) : **MANQUAIT**
+  3. **Cause aggravante** : page soeur `como-desentupir-canos-guia-completo` avait H1/title/schema commençant par "Como" alors que query exacte = "desentupir canos" (sans "como") → dilution du signal sémantique.
+- **Action (3 fichiers, +13/-5 sur branche `feat/t_3a87726a-cnr-desentupir-canos-gap`)** :
+  - `client/public/blog/como-desentupir-canos-guia-completo.html` (10 lignes) : alignement query exacte
+    - `<title>` : "Como desentupir canos..." → "Desentupir canos em Trás-os-Montes — como fazer..."
+    - `<meta name="description">` : début "Cano entupido em Trás-os-Montes? Como desentupir canos:" → "Desentupir canos em Trás-os-Montes:"
+    - `<h1>` : "Como desentupir canos em Trás-os-Montes" → "Desentupir canos em Trás-os-Montes — como fazer"
+    - `<p>` hero enrichi : "5 métodos caseiros..." → "Desentupir canos em casa: 5 métodos caseiros..."
+    - Schema.org Article `headline` aligné
+  - `client/public/sitemap-priority.xml` (+4 lignes) : ajout `<url><loc>.../blog/guia-desentupir-canos</loc><lastmod>2026-08-11</lastmod></url>` après page soeur
+  - `client/public/sitemap-plain.xml` (+4 lignes) : même ajout
+- **Préservation** : schema.org Service/FAQPage/HowTo/BreadcrumbList intacts, NAP canonique (+351 928 484 451), prix 65 €/h + Z1-Z6 conformes PRICING.md, 0 streetAddress.
+- **Conformité** : R4 (zéro donnée inventée — query alignée sur canonique existant), R5 (0 streetAddress), R11 (doctrine "mediante confirmação" + collectif préservée), R12 (0 slogan 24h/7d introduit), R145 (0 délai chiffré ajouté), R7 (PR draft atomic — 0 merge sans GO), R10 (robots.txt intact — pas de blocage crawler).
+- **Statut** : ⏸ PR draft #275 avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `feat/t_3a87726a-cnr-desentupir-canos-gap` basée sur `main` (653e05873). Mesure à J+14 via `gsc-trajectoire-cron.sh` : cible passage GAP (0 imp) → TOP10 (≥ 4 impressions 28j sur la query exacte). Tâche `t_3a87726a` à clore après ouverture PR draft.
+
+### 2026-08-11 — GSC rank-push « desentupimento » (Hermes t_09ee2c30) — T1-MONEY
+- **Signal GSC (fenêtre 28j terminée 2026-08-11)** : query `desentupimento` à **0 impression / 0 clic / pos None** — verdict **GAP strict**. DataForSEO (CSV 2026-07-16, location 2620 PT) : volume 1600/mois, CPC 12.76 €, score vol×CPC = 20 416 (la requête money la plus chère du marché portugais — gap prioritaire H1 du board T1-MONEY).
+- **Diagnostic vérifié (3 couches R02)** :
+  1. Page pilier `/desentupimentos` (route montée `App.tsx:141` → composant `client/src/pages/Desentupimentos.tsx`) **existe** (1160 mots, schema.org Service, FAQ 3Q). Donc verdict = **WEAK par alignement**, pas un vrai GAP de page.
+  2. **Title/H1/schema.name tous au pluriel** (« Desentupimentos em Trás-os-Montes ») alors que la query exacte est **singulier** « desentupimento ». Google ne matche pas la forme exacte → 0 impression.
+  3. Meta keywords du `SEOHeadEnhanced` (`shared/siteConfig.ts` seo.keywords) contient déjà « desentupimento bragança/mirandela/chaves » (cf. purge R12 du 16/07/2026), donc l'amplification du singulier au niveau du site est OK ; le manque était local à la page pilier.
+- **Action (1 fichier, +55/-22 sur `client/src/pages/Desentupimentos.tsx`)** — alignement de la query exacte en singulier sur les 4 signaux SEO majeurs :
+  - `<title>` : « Desentupimentos em Trás-os-Montes | ... » → « **Desentupimento** em Trás-os-Montes | ... ».
+  - `<meta name="description">` : commence par « Serviço de **desentupimento** », reformule en R12 (« Orçamento por escrito, deslocação Z1-Z6, equipamento profissional. Atendimento urgente. »).
+  - `<h1>` : « Serviço de **Desentupimentos** em Trás-os-Montes » → « Serviço de **Desentupimento** em Trás-os-Montes ».
+  - `<h2>` (colonne gauche) : « Desentupimentos Profissionais » → « **Desentupimento** Profissional ».
+  - `<h2>` (section villes) : « Serviço de Desentupimentos em Toda a Região » → « Serviço de **Desentupimento** em Toda a Região ».
+  - `<h2>` (CTA final) : « Precisa de Desentupir Canos ou Sanita em Trás-os-Montes? » → « Precisa de **Desentupimento** em Trás-os-Montes? ».
+  - `Schema.org Service.name` : « Desentupimentos em Trás-os-Montes » → « **Desentupimento** em Trás-os-Montes ». `description` schema étendue (« orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6, équipement Ridgid »).
+  - 3 nouveaux `<strong>` : « desentupimento de canos » / « desentupimento de sanita » (colonne gauche body).
+  - `<li>` « Desentupimento » : « Utilização de máquinas de alta pressão (Ridgid K9-102 » (texte coupé) → « Máquina de alta pressão (Ridgid K9-102 / K-6200) adaptada ao tipo de cano ».
+  - **FAQ** : 3 → 5 questions, dont 2 nouvelles alignées intention :
+    1. **« O que inclui exactamente um desentupimento profissional? »** (description process complète — body/schema)
+    2. « Quanto tempo demora um desentupimento? » (R12 — « mediante confirmação »)
+    3. « O equipamento de alta pressão danifica os canos? » (préservée)
+    4. « Oferecem garantia nos desentupimentos? » (préservée, R11 — collectif)
+    5. **« Quanto custa um desentupimento em Trás-os-Montes? »** (grille `PRICING.md` : Z1-Z6 15€-65€, 65€/h, orçamento por escrito)
+  - Hero `<p>` : introduit le singulier en tête, supprime le slogan « Atendimento 24h/7d » côté page pilier.
+  - Titre FAQ : « Perguntas Frequentes sobre Desentupimentos » → « Perguntas Frequentes sobre **Desentupimento** ».
+  - Première réponse FAQ : reformulée R12 (« Em casos urgentes, garantimos resposta prioritária **mediante confirmação** » au lieu de « Atendemos urgências 24h, incluindo fins de semana »).
+- **Préservation** : route `/desentupimentos` (App.tsx:141), NAP `ACTIVE_CONFIG.phone = +351****4451` (E.164 inchangé), `Schema.org LocalBusiness` provider (`StructuredData` global injecte déjà FAQPage + BreadcrumbList — pas de duplication), `client/src/pages/Desentupimentos.tsx` nom du composant (rename = breaking change, on garde `Desentupimentos` côté code).
+- **Conformité** : R4 (zéro invention — prix Z1-Z6/65€/h viennent strictement de `PRICING.md`, equipment Ridgid déjà listé dans `shared/videoData.ts`), R5 (zéro `streetAddress`, NAP inchangé), R7 (0 merge — PR draft atomic, attente GO Philippe), R8 (témoins avant/après — 1 fichier, +55/-22), R11 (collectif « nous » préservé), R12 (zéro slogan 24h/7d côté page pilier, copy reformulée en « mediante confirmação »), R13 (zéro mention DGEG/TRIESP côté CNR — confirmé `grep -iE 'DGEG|TRIESP|Ficha eletrotécnica|wallbox|carregador VE' client/src/pages/Desentupimentos.tsx` = 0).
+- **Témoins R8 (avant/après)** : `wc -w` 1160 → 1311 (+151 mots). Occurrences `desentupimento` (singulier, insensible casse) : ~12 → 33. Erreurs TS sur le fichier : 0 nouvelle (1 erreur pré-existante ligne 89 `customSchema` non déclarée sur `StructuredData` — `git show HEAD:client/src/pages/Desentupimentos.tsx` ligne 89 strictement identique, hors scope).
+- **Verifications** : `npm run build` ✓ (5.28s, bundle `dist/public/assets/Desentupimentos-DQc_C5yu.js` contient bien « Desentupimento em Trás-os-Montes » dans title, schema.name et CTA H2 — grep confirmé). `npm run check` ✓ sur le fichier (0 nouvelle erreur TS). ESLint config v9 cassée (`eslint.config.js` manquant) — pré-existant, hors scope.
+- **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `feat/cnr-rankpush-desentupimento-t_09ee2c30` basée sur `github/main` (653e05873, fetched 2026-08-11). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si `desentupimento` sort du GAP (impressions > 0) ; cible TOP 10 si volume 1600 × CTR cible 5 % ≈ 80 clics/mois. Tâche `t_09ee2c30` à clore après push + ouverture PR draft.
