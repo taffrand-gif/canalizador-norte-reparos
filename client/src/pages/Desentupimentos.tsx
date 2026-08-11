@@ -1,5 +1,7 @@
-// Page Service Dédié: Desentupimentos em Trás-os-Montes
-// Optimizada para SEO com keywords: desentupimentos, desentupir canos, desentupir sanita
+// Page Service Dédié: Desentupimento em Trás-os-Montes
+// Alinhada para a query MONEY 'desentupimento' (DFSEO CPC=12.76 EUR, vol=1600).
+// Cobertura: 'desentupimento' (singular MONEY) + 'desentupimentos' (plural long-tail).
+// Optimizada para SEO com keywords: desentupimento, desentupimentos, desentupir canos, desentupir sanita.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
@@ -11,8 +13,8 @@ import { useEffect } from 'react';
 export default function Desentupimentos() {
  const { config } = useSite();
  useEffect(() => {
- document.title = "Desentupimentos em Trás-os-Montes | Serviço Urgente 24h | Desentupir Canos, Sanita, Esgotos";
- 
+ document.title = "Desentupimento em Trás-os-Montes | Serviço Urgente 24h | Desentupir Canos, Sanita, Esgotos";
+
  // Update meta description
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
@@ -20,14 +22,14 @@ export default function Desentupimentos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviço de desentupimentos em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Urgências 24h, equipamento moderno, garantia no serviço. Sem compromisso.');
+ metaDescription.setAttribute('content', 'Serviço de desentupimento em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Orçamento por escrito, deslocação Z1-Z6, equipamento profissional. Atendimento urgente.');
  }, [config]);
  // Schema.org Service JSON-LD
  const serviceSchema = {
  "@context": "https://schema.org",
  "@type": "Service",
- "name": "Desentupimentos em Trás-os-Montes",
- "description": "Serviço profissional de desentupimentos para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Urgências Atendimento 24h/7d.",
+ "name": "Desentupimento em Trás-os-Montes",
+ "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6, equipamento profissional (Ridgid).",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -93,11 +95,12 @@ export default function Desentupimentos() {
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Serviço de <span className="text-orange-400">Desentupimentos</span> em Trás-os-Montes
+ Serviço de <span className="text-orange-400">Desentupimento</span> em Trás-os-Montes
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
- Desentupir canos, sanitas, esgotos, pias e ralos com equipamento moderno e técnicas não invasivas. 
- Urgências Atendimento 24h/7d, garantia no serviço e sem compromisso.
+ Desentupimento profissional de canos, sanitas, esgotos, pias e ralos em Trás-os-Montes.
+ Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6,
+ equipamento profissional (Ridgid) e técnicas não invasivas. Sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a
@@ -124,19 +127,19 @@ export default function Desentupimentos() {
  {/* Left column: Service description */}
  <div>
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
- Desentupimentos Profissionais em Trás-os-Montes
+ Desentupimento Profissional em Trás-os-Montes
  </h2>
- 
+
  <div className="space-y-6 text-lg text-gray-700">
  <p>
- Especializados em <strong>desentupir canos</strong>, <strong>desentupir sanita</strong>, esgotos, pias e ralos em toda a região de Trás-os-Montes. 
- Utilizamos equipamento de alta pressão e câmaras de inspeção para diagnóstico preciso.
+ Especializados em <strong>desentupimento de canos</strong>, <strong>desentupimento de sanita</strong>, esgotos, pias e ralos em toda a região de Trás-os-Montes.
+ Cada desentupimento é precedido de diagnóstico com câmara de inspeção e orçamento por escrito.
  </p>
- 
+
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Processo de Trabalho</h3>
  <ol className="space-y-4 list-decimal pl-5">
- <li><strong>Diagnóstico:</strong> Inspeção com câmaras para localizar o entupimento</li>
- <li><strong>Desentupimento:</strong> Utilização de máquinas de alta pressão (Ridgid K9-102</li>
+ <li><strong>Diagnóstico:</strong> Inspeção com câmara para localizar o entupimento</li>
+ <li><strong>Desentupimento:</strong> Máquina de alta pressão (Ridgid K9-102 / K-6200) adaptada ao tipo de cano</li>
  <li><strong>Limpeza:</strong> Remoção completa dos resíduos e obstruções</li>
  <li><strong>Teste:</strong> Verificação do fluxo normal da água</li>
  <li><strong>Prevenção:</strong> Recomendações para evitar futuros entupimentos</li>
@@ -228,19 +231,27 @@ export default function Desentupimentos() {
  {/* FAQ Section with Schema.org */}
  <section className="py-16 bg-gray-50">
  <FAQSection
- title="Perguntas Frequentes sobre Desentupimentos"
+ title="Perguntas Frequentes sobre Desentupimento"
  faqs={[
  {
+ question: "O que inclui exactamente um desentupimento profissional?",
+ answer: "O nosso desentupimento inclui diagnóstico com câmara de inspeção, desentupimento mecânico com máquina de alta pressão (Ridgid K9-102 / K-6200), limpeza do troço afectado, teste de fluxo e recomendações de prevenção. Fornecemos orçamento por escrito antes de qualquer intervenção."
+ },
+ {
  question: "Quanto tempo demora um desentupimento?",
- answer: "Na maioria dos casos, resolvemos em 1-2 horas. Situações complexas podem demorar até 4 horas. Atendemos urgências 24h, incluindo fins de semana."
+ answer: "Na maioria dos casos, resolvemos em 1-2 horas. Situações complexas podem demorar até 4 horas. Em casos urgentes, garantimos resposta prioritária mediante confirmação."
  },
  {
  question: "O equipamento de alta pressão danifica os canos?",
- answer: "Não. Utilizamos pressão controlada adequada ao tipo de canalização. As máquinas modernas permitem ajuste preciso para evitar danos."
+ answer: "Não. Utilizamos pressão controlada, adequada ao tipo de canalização. As máquinas modernas permitem ajuste preciso para evitar danos."
  },
  {
  question: "Oferecem garantia nos desentupimentos?",
  answer: "Sim, oferecemos garantia de 6 meses em todos os serviços de desentupimento. Se o problema voltar dentro deste período, voltamos sem custos adicionais."
+ },
+ {
+ question: "Quanto custa um desentupimento em Trás-os-Montes?",
+ answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). A deslocação é tarifada por zona Z1 a Z6 (15€ a 65€) e a mão-de-obra segue a grelha em vigor. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
  }
  ]}
  />
@@ -249,7 +260,7 @@ export default function Desentupimentos() {
  <section className="py-16">
  <div className="container mx-auto px-4">
  <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
- Serviço de Desentupimentos em Toda a Região
+ Serviço de Desentupimento em Toda a Região
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
  <a href="/canalizador-macedo-de-cavaleiros" className="bg-white hover:bg-blue-50 border border-gray-300 rounded-lg p-4 text-center transition-colors">
@@ -279,7 +290,7 @@ export default function Desentupimentos() {
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
  <h2 className="text-3xl font-bold mb-6">
- Precisa de Desentupir Canos ou Sanita em Trás-os-Montes?
+ Precisa de Desentupimento em Trás-os-Montes?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Não que a situação piore! Contacte-nos agora para um serviço rápido e eficiente. 
