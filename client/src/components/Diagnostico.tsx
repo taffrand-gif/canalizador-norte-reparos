@@ -149,7 +149,7 @@ export default function Diagnostico() {
  <>
  <div className="text-center mb-4">
  <p className="text-lg font-bold" style={{ color: accentColor }}>
- ✅ Técnico Atendimento 24h em {selectedCity.label}
+ ✅ Técnico ao seu domicílio em {selectedCity.label}
  </p>
  <p className="text-gray-600 mt-1">
  ⏱️ Chegada estimada: <strong>{selectedCity.time}</strong>
