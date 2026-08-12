@@ -344,7 +344,7 @@ function Urgencia() {
  </div>
  <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
  <h3 className="font-bold text-gray-900 mb-2">Domingo/Feriado</h3>
- <p className="text-3xl font-black text-red-600">90€/h</p>
+ <p className="text-3xl font-black text-red-600">65€/h</p>
  <p className="text-sm text-gray-600">+ deslocação conforme zona</p>
  </div>
  <div className="bg-purple-50 rounded-xl p-6 border-2 border-purple-200">
