@@ -1932,3 +1932,37 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Témoins R8 (avant/après)** : `wc -w` 1160 → 1311 (+151 mots). Occurrences `desentupimento` (singulier, insensible casse) : ~12 → 33. Erreurs TS sur le fichier : 0 nouvelle (1 erreur pré-existante ligne 89 `customSchema` non déclarée sur `StructuredData` — `git show HEAD:client/src/pages/Desentupimentos.tsx` ligne 89 strictement identique, hors scope).
 - **Verifications** : `npm run build` ✓ (5.28s, bundle `dist/public/assets/Desentupimentos-DQc_C5yu.js` contient bien « Desentupimento em Trás-os-Montes » dans title, schema.name et CTA H2 — grep confirmé). `npm run check` ✓ sur le fichier (0 nouvelle erreur TS). ESLint config v9 cassée (`eslint.config.js` manquant) — pré-existant, hors scope.
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `feat/cnr-rankpush-desentupimento-t_09ee2c30` basée sur `github/main` (653e05873, fetched 2026-08-11). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si `desentupimento` sort du GAP (impressions > 0) ; cible TOP 10 si volume 1600 × CTR cible 5 % ≈ 80 clics/mois. Tâche `t_09ee2c30` à clore après push + ouverture PR draft.
+
+
+---
+
+## 🔄 HISTORIQUE — Run loop 2026-08-12 · `PriceTable.tsx`
+
+| Date | Agent | Type | Action | Motif | Résultat | Statut |
+|---|---|---|---|---|---|---|
+| 2026-08-12 | cowork-loop | fix | `client/src/components/PriceTable.tsx` — deslocação 80€→15€ (Z1) et 110€→35€ (Z3), retrait des 2 totaux dérivés | **R4/R11 — prix faux servis sur la homepage**, en contradiction avec la grille rendue 40 lignes plus haut dans le même composant | 1 fichier, 1 commit. `tsc --noEmit` total 215 (baseline), 0 erreur sur le fichier | ✅ Fait |
+
+### Ce qui a été trouvé (et pourquoi ça prime sur la tâche R12 prévue)
+
+La tâche prévue était la purge R12 (rang 1, 4 occurrences). En lisant le fichier, une violation **R4/R11 plus grave** est apparue dans le même fichier : le bloc « Exemplos Reais » annonçait
+
+- « Deslocação (Trás-os-Montes) : **80 €** » → grille canonique **Z1 = 15 €** (écart **+433 %**)
+- « Deslocação (Bragança) : **110 €** » → grille canonique **Z3 = 35 €** (écart **+214 %**)
+
+Les deux chiffres contredisent le tableau de zones **rendu par le même composant** (L57-64, `config.pricingZones`) : la homepage affichait « Bragança … 35 € » et « Deslocação (Bragança) : 110 € » à 40 lignes d'écart.
+
+Sources de vérité croisées : `PRICING-CANONIQUE.md` (Z1 = 15 €, Z3 = 35 €), `shared/siteConfig.ts` L136-148, `precos-zonas.json` (`"Bragança": 3`). Valeurs reprises **verbatim**, zéro arithmétique.
+
+Totaux dérivés (`145€ - 210€`, `175€ - 240€`) **retirés et non recalculés** — patron mergé sur PR #240 (CU) et PR #268 (EU) : conserver les composants de la grille, supprimer le total dérivé.
+
+Témoins R8 : `80€` 1→0 · `110€` 1→0 · `145€ - 210€` 1→0 · `175€ - 240€` 1→0 · `15€` 0→1 · `35€` 0→1 · `65€ - 130€` 4→4 (main-d'œuvre intacte) · `Deslocação` 4→4 (contrôle positif). Source duale : **aucune** (chaque chaîne unique dans `client/` + `shared/`).
+
+### ⏸ Entrée R12 `PriceTable.tsx` — NON purgée ce run, statuée
+
+Les 4 occurrences R12 sont : L15 `service: "Fuga de Água / Urgência"`, L115 `"Urgência em Bragança num Domingo."` (×2 : `Urgência` + `Domingo`), L118 `Intervenção Urgência:`.
+
+**Elles ne sont pas des claims inventés.** `shared/siteConfig.ts` L153 verrouille `urgencyMultiplier: 1.5 // +50% pour urgence / fim de semana`, et `StructuredData.tsx` L340 énonce en production « Majoração noite/fim-de-semana/feriado : +50% ». La majoration week-end est **canonique sur CNR** : l'exemple du dimanche décrit une **modalité tarifaire réelle**, pas une promesse de disponibilité.
+
+Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la majoration urgence, ou la renvoyer entièrement à `canalizador-urgente.pt` ?), pas d'un correctif de conformité. Application directe de la leçon `Footer.tsx` du 10/08 : **le compteur R12 est un indicateur, pas un verdict**, et de la leçon `Diagnostico.tsx` du 11/08 : **R4 se viole dans les deux sens — inventer et effacer ce qui est vrai.**
+
+➡️ **Décision demandée à Philippe (1 ligne)** : sur un composant de **prix**, la majoration urgence/week-end (canonique) doit-elle rester affichée sur CNR ? Si oui → clore l'entrée `PriceTable.tsx` définitivement. Si non → même arbitrage que le blocage n°1 (`'Urgências 24h'` dans `serviceConfig.ts`), les deux se tranchent ensemble.
