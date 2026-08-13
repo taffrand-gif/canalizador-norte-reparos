@@ -1932,3 +1932,28 @@ M8 cleanUrls + M11 redirects + M10 clés IndexNow + M11-bis (sources .html → e
 - **Témoins R8 (avant/après)** : `wc -w` 1160 → 1311 (+151 mots). Occurrences `desentupimento` (singulier, insensible casse) : ~12 → 33. Erreurs TS sur le fichier : 0 nouvelle (1 erreur pré-existante ligne 89 `customSchema` non déclarée sur `StructuredData` — `git show HEAD:client/src/pages/Desentupimentos.tsx` ligne 89 strictement identique, hors scope).
 - **Verifications** : `npm run build` ✓ (5.28s, bundle `dist/public/assets/Desentupimentos-DQc_C5yu.js` contient bien « Desentupimento em Trás-os-Montes » dans title, schema.name et CTA H2 — grep confirmé). `npm run check` ✓ sur le fichier (0 nouvelle erreur TS). ESLint config v9 cassée (`eslint.config.js` manquant) — pré-existant, hors scope.
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Branche `feat/cnr-rankpush-desentupimento-t_09ee2c30` basée sur `github/main` (653e05873, fetched 2026-08-11). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si `desentupimento` sort du GAP (impressions > 0) ; cible TOP 10 si volume 1600 × CTR cible 5 % ≈ 80 clics/mois. Tâche `t_09ee2c30` à clore après push + ouverture PR draft.
+
+### 2026-08-13 — R11/R12 : régression Tailwind causée par la purge « <N> min » (loop Cowork)
+- **Contexte** : tâche prévue = rang 1 de la file loop (`OrcamentoGratuitoBadge.tsx`, 4 occ R12). **Violation détectée en lecture, traitée en priorité (R11/R12)** : la lecture de `Contactos.tsx` a révélé `className="border-A confirmar-h-32 text-base"` — une **classe Tailwind cassée en production**.
+- **Diagnostic** : une purge de conformité a substitué le motif `<N> min` → `A confirmar` **sur les chaînes `className` en plus du contenu rédactionnel**. Commit d'origine `e9782a3498` (PR #215, « R11 — remplacer "garantimos atendimento 24h" par doctrine (**1 .ts**) ») — le titre annonçait 1 fichier, l'import portait déjà la corruption sur **11 fichiers**.
+- **Étendue mesurée** : **17 classes cassées / 11 fichiers** dans `client/src/`. Reconstruction du motif confirmée sur les 17 : `border-2 min-h-32` → `border-A confirmar-h-32`, `z-50 min-w-[8rem]` → `z-A confirmar-w-[8rem]`, `px-1.5 min-w-8` → `px-1.A confirmar-w-8`, etc.
+- **Impact production** : `ui/menubar`, `ui/dropdown-menu`, `ui/context-menu` perdaient `z-50` (**menus rendus sous le contenu**) et `min-w`; `ui/toggle`, `ui/sidebar`, `ui/alert` perdaient leur dimensionnement ; `Header.tsx` perdait la **cible tactile 44 px** (accessibilité mobile) ; `Contactos.tsx` perdait bordure et hauteur minimale du `textarea` du formulaire.
+- **Source de vérité pour la restauration** : le jumeau **`eletricista-norte-reparos`** — même codebase, **0 classe cassée** (vérifié). Les 17 valeurs ont été relevées **verbatim** sur les lignes homologues d'ENR. **Zéro valeur inventée** (R4) : aucune reconstruction arithmétique, aucun défaut par défaut shadcn supposé.
+- **Binôme cross-repo (détecteur)** : scan des 4 repos → **CNR 17 / ENR 0 / CU 0 / EU 0**. La purge n'a frappé que CNR.
+- **Fichiers modifiés (11 commits, 1 fichier = 1 commit, 17 lignes)** :
+  - `client/src/components/Contactos.tsx` → `border-2 min-h-32`
+  - `client/src/components/DashboardLayout.tsx` → `gap-2 min-w-0`, `flex-1 min-w-0`
+  - `client/src/components/Header.tsx` → `p-3 min-w-[44px]` (×2)
+  - `client/src/components/LocationDetector.tsx` → `border-gray-200 min-h-[48px]`
+  - `client/src/components/QuoteCalculator.tsx` → `gap-2 min-w-[56px]`
+  - `client/src/components/ui/alert.tsx` → `line-clamp-1 min-h-4`
+  - `client/src/components/ui/context-menu.tsx` → `z-50 min-w-[8rem]`
+  - `client/src/components/ui/dropdown-menu.tsx` → `z-50 min-w-[8rem]`
+  - `client/src/components/ui/menubar.tsx` → `z-50 min-w-[12rem]`, `z-50 min-w-[8rem]`
+  - `client/src/components/ui/sidebar.tsx` → `h-5 min-w-5`, `h-7 min-w-0`
+  - `client/src/components/ui/toggle.tsx` → `px-2 min-w-9`, `px-1.5 min-w-8`, `px-2.5 min-w-10`
+- **Témoins R8 (avant → après, sur `client/src/`)** : `A confirmar-` **17 → 0** · `min-w-` **19 → 33** (+14) · `min-h-` **137 → 140** (+3) · `A confirmar` (total) **234 → 217** (−17, les 217 restants sont du contenu rédactionnel légitime — contrôle positif).
+- **Contrôle de sanité** : `./node_modules/.bin/tsc --noEmit` → **total 215** (baseline conforme), **0 erreur sur les 11 fichiers patchés**. `node_modules` symlinké puis retiré avant commit.
+- **Conformité** : R4 (zéro invention — restauration verbatim depuis le jumeau ENR), R6 (aucun `--force`), R7 (aucun merge), R8 (témoins avant/après ci-dessus), R-WT (travail en worktree, checkout partagé jamais modifié), commit atomique (11 fichiers = 11 commits).
+- **Statut** : ✅ Fait — PR ouverte, en attente de GO/merge Philippe (R7).
+- **Reste à faire, non traité ce run** : la file loop R12 est inchangée. `OrcamentoGratuitoBadge.tsx` **statué** en lecture : 3 des 4 occurrences sont `Gratuito` (**non-violations confirmées**), la 4ᵉ est `Resposta em 24h` (L15) — **violation réelle, ligne identique sur ENR** → binôme pour le prochain run. `Contactos.tsx` porte 4 lignes R12 (L167, L193, L234, L237) **identiques sur ENR** — binôme également.
