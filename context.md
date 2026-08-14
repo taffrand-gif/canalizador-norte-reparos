@@ -3,19 +3,32 @@
 > Écrit par le loop Cowork après chaque run. NE PAS ÉDITER MANUELLEMENT.
 
 ## Dernier run
-- Date : 2026-08-13
-- Tâche prévue : **file de tâches loop, rang 1 — `OrcamentoGratuitoBadge.tsx`** (4 occ R12).
-- Tâche réellement exécutée : **R11/R12 — régression détectée en lecture, traitée en priorité** (règle R11/R12).
-- Branche : `loop/2026-08-13-canalizador-norte-reparos-r11-classes-tailwind` (depuis `github/main`, **en worktree**)
-- Commits : **12** (11 fichiers de production, 1 par commit, + `SEO_PLAN.md`)
-- PR ouverte : https://github.com/taffrand-gif/canalizador-norte-reparos/pull/300
-- Résultat : ✅ **17 classes Tailwind cassées / 11 fichiers, restaurées verbatim.** Une purge de conformité a substitué le motif `<N> min` → `A confirmar` **à l'intérieur des chaînes `className`** : `border-2 min-h-32` → `border-A confirmar-h-32`, `z-50 min-w-[8rem]` → `z-A confirmar-w-[8rem]`, `px-1.5 min-w-8` → `px-1.A confirmar-w-8`. Origine : commit `e9782a3498` (PR #215, titre « … (**1 .ts**) » — le titre annonçait 1 fichier, la corruption en portait 11). Impact production : `ui/menubar`, `ui/dropdown-menu`, `ui/context-menu` perdaient `z-50` (**menus rendus sous le contenu**) ; `Header.tsx` perdait la **cible tactile 44 px** (accessibilité mobile) ; `Contactos.tsx` perdait bordure et hauteur mini du `textarea`. Témoins R8 : `A confirmar-` **17→0** · `min-w-` **19→33** · `min-h-` **137→140** · `A confirmar` total **234→217** (contrôle positif : la purge de contenu n'est pas défaite). `./node_modules/.bin/tsc --noEmit` : **215** (baseline conforme), 0 erreur sur les 11 fichiers.
+- Date : 2026-08-14
+- Tâche prévue : **file de tâches loop, rang 1 — `Contactos.tsx`** (binôme ENR).
+- Tâche réellement exécutée : **2 PR — (1) une régression R11/R12 détectée au contrôle d'ouverture, traitée en priorité, (2) la tâche prévue, requalifiée en R145.**
+- Branches (depuis `github/main`, **en worktree**) :
+  - `loop/2026-08-14-canalizador-norte-reparos-r11-restaure-pr300` → **PR #301** — 12 commits (11 fichiers de production + `SEO_PLAN.md`)
+  - `loop/2026-08-14-canalizador-norte-reparos-r145-resposta-24h` → **PR #302** — 4 commits (3 fichiers de production + `SEO_PLAN.md`)
 
+### 🔴 PR #301 — la PR #300 avait été mergée PUIS PERDUE
+Le contrôle d'ouverture prescrit ici même (`grep -rn 'A confirmar-' client/src` doit valoir **0**) est ressorti à **17**, sur les **mêmes 11 fichiers** que la PR #300 du 13/08. Or `gh pr view 300` déclare `state=MERGED, mergedAt=2026-08-13T01:33:15Z`.
+Diagnostic : le merge commit `5b187a3430` **n'est ancêtre d'aucune branche** (`git merge-base --is-ancestor 5b187a3430 github/main` → faux ; `git branch -a --contains` → vide). **`main` a été réécrit après le 13/08 01:33 UTC**, ce qui a silencieusement annulé la restauration.
+Audit de contrôle sur les **25 dernières PR mergées** : **#300 est la seule perdue** (24/25 ancêtres de `main`) → **incident isolé, pas systémique**. Audit équivalent mené sur ENR (12 dernières PR) : **aucune perte**.
+Restauration **verbatim** : `git checkout 5b187a3430 -- <fichier>`, après avoir vérifié que les 11 fichiers de `github/main` sont **identiques au parent du merge perdu** (`a6ff2ae0f4`) — ré-application exacte, sans conflit.
+Témoins R8 : `A confirmar-` **17→0** · `min-w-` **19→33** · `min-h-` **137→140** · `z-50` **28→31** · `A confirmar` total **234→217** (contrôle positif : la purge de contenu n'est pas défaite).
+
+### PR #302 — R145, et une requalification doctrinale
+Texte verrouillé de R145 (`~/.openclaw/workspace/AGENTS.md` §12) : « **24h/7 dias OK**, *resposta rápida* / *resposta prioritária* **BANNIS** ».
+➡️ Sur les 4 occurrences annoncées pour `Contactos.tsx`, **une seule est une violation réelle** : `Resposta em 24h` (L193). `Disponível Atendimento 24h/7d` (L167), `Atendimento 24h/7d` (L234) et `7 dias por semana, incluindo feriados` (L237) sont des claims de **disponibilité**, explicitement autorisés.
+🔎 Le compteur de la file **sous-estimait le périmètre** : `Resposta em 24h` existe en **3** exemplaires, pas 2 — `pages/Zonas.tsx` L155 n'y figurait pas.
+Traitement : `OrcamentoGratuitoBadge.tsx` L15 → `Orçamento por escrito em 48h` (verbatim `siteConfig.ts` L108/L124) · `Contactos.tsx` L192-194 → **retrait du `<p>`** · `Zonas.tsx` → 3 substitutions (span, hero `Intervenção rápida`, **meta description** `Serviço rápido`).
+Témoins R8 : `Resposta em 24h` **3→0** · `Intervenção rápida` **30→29** · `Serviço rápido` **2→1** · `Orçamento por escrito em 48h` **5→8**. `tsc` : **0 erreur** sur les fichiers patchés.
 ## ✅ Gate merge — aucun gate actif
-Vérifié ce run : les 4 `context.md` du 12/08 déclaraient #269 (CNR), #295 (ENR), #240 (CU), #200 (EU) **toutes MERGED**. Aucune mention d'attente. Aucun gate réécrit.
+Vérifié ce run : aucune mention d'attente dans les 4 `context.md`. Aucun gate réécrit.
 
 🔴 **Rappel de doctrine, à ne jamais réécrire** : R7 interdit de **MERGER**, pas de **PRODUIRE**. Une PR en attente ne gèle pas le repo. Entre le 06/08 et le 09/08, la mention « Attente GO merge (R7) » a été relue chaque nuit comme un ordre d'arrêt → **4 runs sans production** sur un backlog de 73 tâches. **Ne jamais réécrire un gate de ce type.**
 
+🆕 **Corollaire découvert ce run** : le statut `MERGED` de l'API GitHub **n'est pas une preuve de présence en production**. Voir §Contrôles obligatoires.
 ## 🎯 FILE DE TÂCHES LOOP — état au 2026-08-13
 
 Recompte effectué en début de run sur `github/main`. **Compteurs inchangés depuis le 12/08** (le run a porté sur une régression hors file).
@@ -38,11 +51,18 @@ Recompte effectué en début de run sur `github/main`. **Compteurs inchangés de
 - 🔗 **Ligne strictement identique sur ENR** (`OrcamentoGratuitoBadge.tsx` L15). **Binôme évident, à traiter dans le même run.**
 
 ## Tâche suivante recommandée
-1. **`Contactos.tsx`** (rang 1) — 4 lignes R12 relevées ce run : **L167** `Disponível Atendimento 24h/7d` · **L193** `Resposta em 24h` · **L234** `Atendimento 24h/7d` · **L237** `7 dias por semana, incluindo feriados`. **Le fichier est quasi identique sur ENR** (4 lignes aux mêmes numéros ; seules diffèrent l'adresse `formsubmit`, le `_subject` et la liste de villes L215). ➡️ **Binôme obligatoire : traiter CNR et ENR dans le même run.**
-2. **`OrcamentoGratuitoBadge.tsx` L15** — 1 ligne, même binôme ENR. Peut être groupé avec (1) : 2 fichiers = 2 commits par repo.
-3. Vocabulaire de remplacement validé, **verbatim** : `shared/siteConfig.ts` L107/L108/L123/L124/L158/L159 (`ao seu domicílio`, `Orçamento por escrito em 48h`, `garantia 1 ano`, `Não temos loja — vamos até si`). Pronoms : `AGENTS.md` §12. **Privilégier le RETRAIT** quand la ligne n'a pas d'équivalent honnête (patron validé sur ENR ce run : le Footer d'ENR a perdu son bloc « Horário » parce que le Footer CNR n'en a **aucun**).
-
+1. **`TrustBanner.tsx`** (rang 3) — L5 `'Disponível Atendimento 24h/7d'`. ⚠️ **À requalifier d'abord** : d'après le texte verrouillé de R145, `24h/7d` est **autorisé** — cette entrée est probablement une **non-violation**, comme 3 des 4 lignes de `Contactos.tsx`. **Statuer en lecture avant de patcher.**
+2. **Repasser toute la file au filtre R145.** Le compteur de la file agrège `24h|24 horas|urgent|urgência|emergência|7 dias|prioritári` — or **seuls `prioritári`, `rápid` et les délais chiffrés sont interdits**. Plusieurs rangs restants sont vraisemblablement vides de violations réelles. **Une passe de requalification vaut plusieurs runs de patch.**
+3. **Auditer `StructuredData.tsx` et `client/src/data/faqData.ts`** indépendamment du compteur — sur ENR, CU et EU, c'est là qu'étaient les violations les plus graves. Sur CNR ce contrôle n'a **jamais** été fait en entier.
+4. **Batch R145 `rápida`/`rápido`/`prioritári` — 130 occurrences dans `client/src/`.** GO Philippe requis. Le patron validé est : ventiler par variante → prototyper sur 1 page → demander le GO en un tap.
+5. Vocabulaire de remplacement validé, **verbatim** : `shared/siteConfig.ts` L107/L108/L123/L124/L158/L159. Pronoms : `AGENTS.md` §12. **Privilégier le RETRAIT** quand la ligne n'a pas d'équivalent honnête.
 ## Apprentissages (self-improving)
+- 🔴 **NOUVEAU — une PR mergée peut DISPARAÎTRE de `main`.** PR #300 : `state=MERGED`, merge commit ancêtre d'aucune branche. `main` a été réécrit après coup et la correction a été annulée sans aucun signal. ➡️ **Contrôle à passer en fin de run sur chaque PR déclarée mergée : `git merge-base --is-ancestor <mergeCommit> <remote>/main`.** Le statut `MERGED` seul ne prouve rien.
+- 🔴 **NOUVEAU — le compteur de la file mélange DEUX règles et sur-compte.** Le texte verrouillé de R145 autorise `24h/7 dias` ; seuls `resposta rápida`, `resposta prioritária` et les **délais chiffrés** sont interdits. Sur `Contactos.tsx`, **1 violation réelle sur 4 annoncées**. ➡️ **Requalifier chaque occurrence contre le texte verrouillé AVANT de patcher.** R4 se viole aussi en effaçant du contenu vrai.
+- 🔴 **NOUVEAU — le compteur de la file n'est pas exhaustif non plus.** Il ratait `pages/Zonas.tsx` (le compteur ne parcourt que les composants importés par `OptimizedHome.tsx`). ➡️ **Après avoir identifié le motif exact, le grepper sur TOUT `client/src/` avant de figer le périmètre.**
+- 🔴 **NOUVEAU — la divergence de rayon est tranchée par la doctrine.** `AGENTS.md` §12 (verrouillé 30/06 par Philippe) : « rayon **~130 km** autour de Macedo de Cavaleiros ». **ENR (130 km) est conforme ; c'est CNR (100 km) qui diverge.** Non patché — changer un rayon affiché est une décision d'offre. Signalé dans la PR #302. **1 tap tranche les 2 repos.**
+- ⚠️ **NOUVEAU — la baseline `tsc` a dérivé : 322, plus 215.** Mesurée à l'identique sur `github/main` intact et sur les branches. Le contrôle de sanité reste valable, **la constante est mise à jour ici : total attendu = 322**.
+- 🔴 **Le contrôle d'ouverture `grep -rn 'A confirmar-' client/src` = 0 a payé une seconde fois.** C'est lui qui a détecté la perte de la PR #300. **Le conserver en tête de run.**
 - 🔴 **NOUVEAU — une purge de conformité peut casser le CODE, pas seulement le texte.** Le motif `<N> min` vise « chegamos em 20 min » mais matche aussi `border-2 min-h-32`. ➡️ **Toute purge par motif court doit exclure les chaînes `className` et le répertoire `client/src/components/ui/`, ou être restreinte aux nœuds de texte.** Contrôle à passer en début de run : `grep -rn 'A confirmar-' client/src` doit retourner **0**.
 - 🔴 **NOUVEAU — le titre d'une PR de batch n'est pas une mesure de son étendue.** PR #215 annonçait « 1 .ts » et portait 11 fichiers corrompus. ➡️ **Vérifier `git show --stat`, jamais le titre.**
 - 🔴 **NOUVEAU — le repo jumeau est une source de vérité pour restaurer VERBATIM.** `git log -S` a buté sur un import initial (pas de pre-image reconstructible). Le jumeau ENR, non affecté, a fourni les 17 valeurs exactes sur les lignes homologues. **Zéro invention (R4).** Réutilisé une seconde fois le même run sur ENR (transplant d'une réponse JSON-LD). ➡️ **Réflexe à généraliser : avant de déclarer une valeur irrécupérable, regarder le jumeau.**
