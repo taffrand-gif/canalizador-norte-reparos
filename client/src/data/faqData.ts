@@ -26,7 +26,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 3,
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis Atendimento 24h/7d para emergências. Tempo médio de resposta: A confirmar em Bragança e arredores. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
+ answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis 24h/7d para emergências. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
  category: "Emergências"
  },
  {
@@ -92,13 +92,13 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 14,
  question: "Quanto custa trocar canalizações antigas?",
- answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): 400-800€, cozinha completa: 350-600€, apartamento T2 completo: 2.000-4.000€, moradia T3: 4.000-8.000€. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas. Sem compromisso e detalhado sem compromisso.",
+ answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): 400-800€, cozinha completa: 350-600€, apartamento T2 completo: 2.000-4.000€, moradia T3: 4.000-8.000€. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas.",
  category: "Preços"
  },
  {
  id: 15,
  question: "O que fazer se o autoclismo não para de correr?",
- answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Arranjamos 90% dos casos Atendimento mediante confirmação por telefone. Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
+ answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
  category: "Arranjos"
  },
  {
@@ -137,7 +137,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 21,
  question: "Quanto tempo dura uma arranjo de fuga de água?",
- answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas simples em torneiras: A confirmar. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
+ answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
  category: "Arranjos"
  },
  {
