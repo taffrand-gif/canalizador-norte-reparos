@@ -32,7 +32,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 4,
  question: "Quanto tempo demora um desentupimento?",
- answer: "O tempo de desentupimento varia conforme a gravidade e localização da obstrução. Desentupimentos simples de sanitas ou lavatórios levam entre 30 a A confirmar. Obstruções em canalizações principais podem demorar 1 a 3 horas. Casos complexos que requerem equipamento especializado (câmara de inspeção, máquina de desentupimento de alta pressão) podem levar até 4 horas. Na maioria dos casos (85%), resolvemos o problema na primeira visita. Utilizamos equipamento profissional que garante desentupimento completo e duradouro, evitando que o problema volte em poucos dias.",
+ answer: "O tempo de desentupimento varia conforme a gravidade e localização da obstrução. Obstruções em canalizações principais podem demorar 1 a 3 horas. Casos complexos que requerem equipamento especializado (câmara de inspeção, máquina de desentupimento de alta pressão) podem levar até 4 horas. Na maioria dos casos (85%), resolvemos o problema na primeira visita. Utilizamos equipamento profissional que garante desentupimento completo e duradouro, evitando que o problema volte em poucos dias.",
  category: "Serviços"
  },
  {
@@ -62,7 +62,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 9,
  question: "O que fazer se a água sai amarela ou castanha?",
- answer: "Água amarela ou castanha geralmente indica ferrugem nas canalizações. Causas comuns: canalizações antigas de ferro (mais de 30 anos), trabalhos na rede pública que revolveram sedimentos, ou corrosão acelerada por água muito ácida. Primeiro, deixe a água correr A confirmar - se clarear, o problema é temporário da rede pública. Se persistir, o problema está nas suas canalizações. Água com ferrugem não é tóxica mas mancha roupa e louça, e indica que as canalizações precisam substituição em breve. Recomendamos análise profissional e orçamento para substituição gradual das canalizações mais afetadas. Ignorar o problema pode levar a fugas graves.",
+ answer: "Água amarela ou castanha geralmente indica ferrugem nas canalizações. Causas comuns: canalizações antigas de ferro (mais de 30 anos), trabalhos na rede pública que revolveram sedimentos, ou corrosão acelerada por água muito ácida. Primeiro, deixe a água correr - se clarear, o problema é temporário da rede pública. Se persistir, o problema está nas suas canalizações. Água com ferrugem não é tóxica mas mancha roupa e louça, e indica que as canalizações precisam substituição em breve. Recomendamos análise profissional e orçamento para substituição gradual das canalizações mais afetadas. Ignorar o problema pode levar a fugas graves.",
  category: "Problemas Comuns"
  },
  {
