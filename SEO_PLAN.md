@@ -1967,3 +1967,18 @@ Les 4 occurrences R12 sont : L15 `service: "Fuga de Água / Urgência"`, L115 `"
 Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la majoration urgence, ou la renvoyer entièrement à `canalizador-urgente.pt` ?), pas d'un correctif de conformité. Application directe de la leçon `Footer.tsx` du 10/08 : **le compteur R12 est un indicateur, pas un verdict**, et de la leçon `Diagnostico.tsx` du 11/08 : **R4 se viole dans les deux sens — inventer et effacer ce qui est vrai.**
 
 ➡️ **Décision demandée à Philippe (1 ligne)** : sur un composant de **prix**, la majoration urgence/week-end (canonique) doit-elle rester affichée sur CNR ? Si oui → clore l'entrée `PriceTable.tsx` définitivement. Si non → même arbitrage que le blocage n°1 (`'Urgências 24h'` dans `serviceConfig.ts`), les deux se tranchent ensemble.
+
+---
+
+## 🔄 RUN LOOP 2026-08-15 — Premier audit JSON-LD + FAQ de CNR
+
+| # | Fichier | Statut |
+|---|---|---|
+| 1 | `client/src/components/StructuredData.tsx` | ✅ **Fait** — prix inventé `"price": "80-150"` retiré du `Service` des 11 pages ville (R12 : fourchette inventée, dans la surface que Google cite). Bloc `offers` **retiré** plutôt que réécrit : aucun prix unique honnête pour « tous services, toutes villes » (R4). |
+| 2 | `client/src/data/faqData.ts` | ✅ **Fait** — 6 artefacts de purge. `A confirmar` **4 → 0** (délais dont la valeur avait été consommée), `disponíveis Atendimento` 1→0, `Atendimento mediante confirmação` 1→0, doublon `e detalhado sem compromisso` 1→0, stat non sourcée `90% dos casos` 1→0. Contrôle positif : `24h/7d` conservé (R145 l'autorise). |
+
+**Contexte** : le `context.md` du 14/08 notait que l'audit JSON-LD n'avait **jamais** été mené en entier sur CNR, alors qu'il avait livré les violations les plus graves sur ENR, CU et EU. Il est fait. `faqData.ts` est **invisible au compteur de la file** (qui ne parcourt que les composants importés par `OptimizedHome.tsx`).
+
+`tsc` : **322**, baseline exacte de `github/main` — 0 erreur introduite.
+
+⚠️ **Leçon inscrite au run** : un résiduel ne se qualifie pas « légitime » sans lire la phrase qui le porte. Les 2 derniers `A confirmar` avaient été déclarés hors périmètre au commit 2 ; ils étaient en fait `levam entre 30 a A confirmar` et `deixe a água correr A confirmar` — même signature de purge. Corrigés au commit 3.
