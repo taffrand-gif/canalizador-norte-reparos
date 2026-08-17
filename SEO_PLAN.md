@@ -1992,3 +1992,38 @@ Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la m
 - **Témoins R8** : titre/H1 query exact `Esquema de Tubagem da Piscina`; `FAQPage` 5/5 parse OK; Article + BreadcrumbList + FAQPage valides; canonical self; 1 H1; 7 H2; 11 H3; contenu visible 1 176 mots; query exacte présente 1× dans le visible; `streetAddress|postalCode|DGEG|TRIESP|wallbox|24h|7 dias` = 0; `git diff --check` = 0.
 - **Sitemap** : l'URL canonique `https://canalizador-norte-reparos.pt/blog/canalizacao-piscina-guia` est déjà présente dans `client/public/sitemap-priority.xml`, `client/public/sitemap-extra.xml`, `client/public/sitemap-plain.xml` et `client/public/blog/index.html`; aucun ajout d'URL requis.
 - **Statut** : ⏸ PR draft, aucun merge (R7), attente GO Philippe. Mesure à J+7 via `gsc-trajectoire-cron.sh` : win si position < 4 ; rollback doctrinal possible si position reste > 10.
+
+### 2026-08-13 — GSC rank-push round 2 « esgoto entupido » (Hermes t_854e3643) — T2-MONEY-WEAK
+- **Signal GSC (fenêtre 28j terminée 2026-08-13)** : query `esgoto entupido` à **6 impressions / 0 clic / pos moyenne 7.3** — verdict **WEAK** (page existe, sous-classée hors top 3). DataForSEO (CSV 2026-07-16, location 2620 PT) : volume 70/mois, CPC 25.01 EUR, score vol×CPC = 1750.70 (T2-MONEY WEAK top board).
+- **Diagnostic vérifié (3 couches R02)** :
+  1. **Page canonique existe** : `/blog/esgoto-entupido-sinais-solucoes.html` (2119 mots, 1 H1, 5 blocs JSON-LD dont FAQPage 7Q, NAP +351 928 484 451 cohérent). Donc verdict = **WEAK** (page existante mal armée), pas un vrai GAP.
+  2. **Round 1 précédent** : `t_bfaac559` (04/08) avait déjà renforcé cette page (premier draft FAQ, schema.org complet). Round 2 = **approfondissement** de la même page-cible, pas de rebase ni refonte.
+  3. **Causes spécifiques WEAK 7.3** :
+     - Title et OG:title étaient trop génériques ('Sinais e Soluções') sans chiffres ni quantificateur → signal SEO faible vs pages top 3 (qui listent '7 sinais', '5 causas', etc.).
+     - FAQPage ne contenait pas la question **prix détaillé** (très intentée WEAK=MONEY) ni la question **assurance habitation** (intent commercial fort en WATER-DAMAGE).
+     - Pas de contexte Trás-os-Montes en intro (Bragança/Vila Real/Mirandela) → page peut sembler copiable ailleurs.
+     - CTA ne nommait pas les zonas couvertes → friction pour utilisateur hors-Z1 Macedo.
+- **Action (1 fichier, +19/-10 sur branche `fix/cnr-rankpush-esgoto-entupido-round2-t_854e3643`)** :
+  - **Title** : 'Esgoto Entupido: Sinais e Soluções Definitivas 💧' → 'Esgoto Entupido: 7 Sinais de Alerta + Soluções Definitivas (Guia 2026) 💧' (quantificateur + année).
+  - **OG:title** : 'Sinais, Causas e Soluções Definitivas' → '7 Sinais + Soluções Definitivas (Guia 2026)' (cohérence title).
+  - **Meta description** : ajout 'Preço desde 15 € deslocação + 65 €/h mão-de-obra' (snippet prix = CTR up).
+  - **Keywords** : ajout 'canalizador tras os montes' + 'preço desentupir esgoto' (long-tail money).
+  - **Article schema** : headline aligné + `dateModified: 2026-08-13` (signal freshness).
+  - **BreadcrumbList** : item 3 aligné.
+  - **FAQPage 7 → 9 questions** : nouvelles :
+    1. **« Quanto custa desentupir um esgoto em Trás-os-Montes? »** — grille complète + exemple chiffré (2h Bragança Z2 = 155 €).
+    2. **« Quanto tempo demora uma desentupição profissional em Trás-os-Montes? »** — 3 paliers (ligeira 30-60min, moderada 1-2h, grave 0.5-1 dia).
+    3. **« Esgoto entupido é coberto por seguro habitação? »** — 3 cas (manutenção non / evento externo possível / recommandation document descriptif).
+  - **FAQ 24h existante** : reformulée pour clarifier répartition CNR (horário comercial) ↔ canalizador-urgente.pt (24h/7d), conformément R12 + R11.
+  - **FAQ prix existante** : enrichie avec exemple chiffré (Bragança Z2 = 25 € + 130 € = 155 €).
+  - **Section 'Custos'** : ajout ligne 'Fora de horário comercial / feriado' avec majoration +50% explicite (vs ligne 'Urgência noturna' précédente unifiée).
+  - **Section intro (avant H2 'Sinais')** : nouveau contexte Trás-os-Montes (3 cas typiques : casas antigas Bragança/Mirandela, fossas sépticas Macedo/Vinhais, gelo Vila Real/Chaves) + 3 encadrés :
+    1. **« Porque é que esta página existe »** : 3 questions money répondues (preço, quando chamar, como evitar).
+    2. **« O que NÃO fazemos aqui »** : clarifie périmètre (pas d'urgences 24h/7d → canalizador-urgente.pt).
+    3. **Périmètre explicite** : horário comercial + mediante confirmação por telefone.
+  - **CTA** : explicite zones d'intervention ('Bragança, Vila Real, Mirandela, Chaves, Macedo de Cavaleiros e concelhos limítrofes') + 'orçamento por escrito antes de qualquer intervenção'.
+- **Préservation** : canonical self, NAP canonique +351 928 484 451, route intacte, 1 H1 unique, équipement Ridgid déjà référencé (K9-102 + câmara + hidrojato).
+- **Conformité** : R4 (zéro invention — prix Z1-Z6/65€/h/extraits PRICING.md, équipement Ridgid déjà listé), R5 (0 streetAddress, NAP inchangé), R7 (0 merge — PR draft atomic, attente GO Philippe), R8 (témoins avant/après — 1 fichier, +19/-10 lignes, +723 mots), R11 (collectif 'a nossa equipa' / 'contacte-nos' / 'mediante confirmação' préservés), R12 (zéro slogan 24h/7d côté CNR — renvoi explicite vers canalizador-urgente.pt), R13 (zéro mention DGEG/TRIESP/wallbox côté CNR — grep `DGEG|TRIESP|Ficha eletrotécnica|carregador VE|wallbox|Termo de Responsabilidade` = 0).
+- **Témoins R8 (avant/après)** : `wc -w` 2119 → 2842 (+723 mots, soit +34%). Occurrences `esgoto entupido` (insensible casse) : 13 → 14 (canonisation de la query exacte dans H1). JSON-LD valides : 5 blocs (Article, BreadcrumbList, FAQPage=9Q, Service, LocalBusiness). H1 unique (1), H2 (13), H3 (23). Canonical self. Erreurs TS/HTML : 0 nouvelle (page statique .html).
+- **Verifications** : 5 blocs JSON-LD parsés OK (`json.loads` confirmé). 1 H1 uniquement. PRICING.md conforme : 15 €/25 €/55 €/65 €/65 €/h + Z1/Z2/Z6. `npm run check` non applicable (page .html statique, hors scope TS). Build Vercel : déclenché à chaque push, pas de warning attendu.
+- **Statut** : ⏸ PR draft #298 ouvert, 0 merge (R7), attente GO Philippe. Branche `fix/cnr-rankpush-esgoto-entupido-round2-t_854e3643` rebasée sur `origin/main` (3ad204c7fe, fetched 2026-08-13). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si `esgoto entupido` passe pos < 4 (WEAK → TOP3) + impressions ≥ 30 (CTR cible 5 % × 70 vol = ~3 clics/mois → multiplication ×5). Tâche `t_854e3643` à clore après ouverture PR draft.
