@@ -197,15 +197,6 @@ export default function StructuredData() {
  "name": currentCity.city
  },
  "serviceType": config.serviceType,
- "offers": {
- "@type": "Offer",
- "priceCurrency": "EUR",
- "priceSpecification": {
- "@type": "PriceSpecification",
- "priceCurrency": "EUR",
- "price": "80-150"
- }
- },
  "availableChannel": {
  "@type": "ServiceChannel",
  "servicePhone": {
