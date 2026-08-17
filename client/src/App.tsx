@@ -114,6 +114,7 @@ const ServiceHub = lazy(() => import("@/pages/ServiceHub"));
 const TransparencePrix = lazy(() => import("@/pages/TransparencePrix"));
 // Emotional Landing Pages (SEO Premium) - Canalizador
 const FugaAguaUrgente = lazy(() => import("@/pages/FugaAguaUrgente"));
+const CanalizadorUrgente = lazy(() => import("@/pages/Urgencia"));
 const SanitaEntupida = lazy(() => import("@/pages/SanitaEntupida"));
 const CanoRebentado = lazy(() => import("@/pages/CanoRebentado"));
 const EsquentadorAvariado = lazy(() => import("@/pages/EsquentadorAvariado"));
@@ -231,6 +232,9 @@ function Router() {
  <Route path={"/404"} component={NotFound} />
  {/* Emotional Landing Pages - SEO Premium - Canalizador */}
  <Route path={"/fuga-agua-urgente"} component={FugaAguaUrgente} />
+ {/* Pilier MONEY query 'canalizador urgente' (Hermes t_a2adfe6b, DFSEO CPC=14.63 EUR vol=170) */}
+ {/* Must be declared BEFORE /:service-:city greedy route to take precedence over canalizador-urgente (greedy match service=canalizador city=urgente) */}
+ <Route path={"/canalizador-urgente"} component={CanalizadorUrgente} />
  <Route path={"/sanita-entupida"} component={SanitaEntupida} />
  <Route path={"/cano-rebentado"} component={CanoRebentado} />
  <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
