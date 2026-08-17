@@ -4,13 +4,13 @@ import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  useSEO({
- title: 'Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026',
- description: 'Tabela completa de preços para serviços de canalização em Trás-os-Montes. Descubra quanto custa desentupimentos, arranjos e instalações.',
- keywords: 'preço canalizador, custo desentupimento, preços canalização Trás-os-Montes, quanto custa canalizador, orçamento canalização'
+ title: 'Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona (Z1 a Z6)',
+ description: 'Quanto custa o serviço de um canalizador em Trás-os-Montes? Tabela 2026 por zona (Z1 a Z6), mão de obra 65€/h, deslocação 15€ a 65€. Orçamento por escrito.',
+ keywords: 'custo canalizador, custo canalizador tras os montes, quanto custa canalizador, preço canalizador, orçamento canalização, custo desentupimento, canalizador 24 horas preço'
  });
  return (
  <BlogLayout
- title="Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026"
+ title="Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona (Z1 a Z6)"
  description="Tabela completa e transparente de preços para todos os serviços de canalização na região de Trás-os-Montes"
  >
  <article className="max-w-4xl mx-auto">
@@ -26,7 +26,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
- Quanto Custa um Canalizador em Trás-os-Montes? Guia de Preços 2026
+ Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona
  </h1>
  
  <div className="flex items-center gap-4">
@@ -63,9 +63,18 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6">
- Contratar um canalizador em Trás-os-Montes pode gerar dúvidas sobre preços, especialmente para quem 
- nunca precisou destes serviços. Neste guia completo, partilho uma tabela detalhada de preços médios 
- para 2026, fatores que influenciam o custo final, e dicas para obter orçamentos justos e transparentes.
+ <strong>Qual o custo de um canalizador em Trás-os-Montes?</strong> É a pergunta mais frequente que
+ recebemos. A resposta curta: <strong>mão de obra a partir de 65€/hora</strong> + taxa de deslocação
+ por zona (Z1 a Z6, de 15€ a 65€), com majoração de +50% à noite, fim de semana e feriados.
+ Neste guia completo, mostramos uma tabela detalhada de custos médios para 2026, os fatores
+ que influenciam o custo final (zona, hora, complexidade, materiais) e como obter um orçamento
+ por escrito sem surpresas na fatura.
+ </p>
+ <p className="text-lg text-gray-700 mb-6">
+ O <strong>custo de um canalizador em Trás-os-Montes</strong> varia principalmente em função
+ da distância à nossa sede operacional em Macedo de Cavaleiros e da complexidade do serviço
+ (desentupimento simples, fuga acessível, instalação completa). Apresentamos abaixo a grelha
+ oficial 2026 com mão de obra e taxas de deslocação por zona, válida para toda a região.
  </p>
  </div>
  {/* Table of contents */}
@@ -83,7 +92,14 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  {/* Content sections */}
  <div className="prose prose-lg max-w-none">
  <section id="tabela-precos" className="mb-12">
- <h2 className="text-3xl font-bold text-gray-900 mb-6">📊 Tabela Completa de Preços 2026 - Serviços de Canalização</h2>
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">💶 Custo Canalizador em Trás-os-Montes — Tabela Completa 2026 por Zona (Z1 a Z6)</h2>
+ <p className="text-gray-700 mb-6 text-lg">
+ O <strong>custo de um canalizador em Trás-os-Montes</strong> é composto por duas partes:
+ <strong>mão de obra</strong> (65€/hora) e <strong>taxa de deslocação por zona</strong> (de 15€ em Z1
+ a 65€ em Z6, consoante a distância rodoviária até Macedo de Cavaleiros). Abaixo encontra a tabela
+ com os custos médios por tipo de serviço — todas as estimativas se baseiam em serviços reais
+ executados na região.
+ </p>
  
  <div className="overflow-x-auto">
  <table className="min-w-full bg-white border border-gray-300 rounded-xl">
@@ -417,6 +433,14 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "mainEntity": [
  {
  "@type": "Question",
+ "name": "Qual o custo médio de um canalizador em Trás-os-Montes?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "O custo médio de um canalizador em Trás-os-Montes em 2026 é de 65€/hora de mão de obra mais a taxa de deslocação por zona (Z1: 15€, Z2: 25€, Z3: 35€, Z4: 45€, Z5: 55€, Z6: 65€). Um desentupimento simples (pia ou lavatório) fica entre 45€ e 95€; uma fuga simples entre 70€ e 180€; a instalação de uma sanita nova entre 120€ e 280€. Os valores são indicativos — cada serviço exige orçamento por escrito antes de qualquer intervenção."
+ }
+ },
+ {
+ "@type": "Question",
  "name": "Porque é que os preços em Trás-os-Montes são diferentes do Porto ou Lisboa?",
  "acceptedAnswer": {
  "@type": "Answer",
@@ -429,6 +453,14 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "acceptedAnswer": {
  "@type": "Answer",
  "text": "Sim, todos os preços apresentados nesta tabela incluem IVA a 23%, que é a taxa normal para serviços de construção e arranjo em Portugal. Alguns profissionais podem apresentar preços sem IVA em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA. Exija sempre fatura-recibo com NIF para garantir conformidade fiscal."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Quanto custa chamar um canalizador ao fim de semana ou à noite?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "As chamadas ao fim de semana, feriados ou em horário noturno têm uma majoração de 50% sobre a mão de obra e sobre a taxa de deslocação. Exemplo: um serviço de 2h a 65€/h em Z2 (25€) em horário normal custaria 155€; em horário noturno ou fim de semana custaria cerca de 232,50€ (mão de obra 195€ + deslocação 37,50€). O orçamento por escrito é sempre fornecido antes de qualquer intervenção."
  }
  },
  {
