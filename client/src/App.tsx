@@ -118,6 +118,8 @@ const SanitaEntupida = lazy(() => import("@/pages/SanitaEntupida"));
 const CanoRebentado = lazy(() => import("@/pages/CanoRebentado"));
 const EsquentadorAvariado = lazy(() => import("@/pages/EsquentadorAvariado"));
 const CheiroMauCanalizacao = lazy(() => import("@/pages/CheiroMauCanalizacao"));
+// Pilier MONEY query 'canalizador 24 horas' (Hermes t_b05d5865, DFSEO CPC=18.63 EUR vol=320 score=5961.60)
+const Canalizador24Horas = lazy(() => import("@/pages/Canalizador24Horas"));
 // Emotional Landing Pages (SEO Premium) - Eletricista (legacy code)
 // Commercial Intent Pages (SEO Premium) - Canalizador
 const QuantoCustaArranjarAguaCastanha = lazy(() => import("@/pages/QuantoCustaArranjarAguaCastanha"));
@@ -233,6 +235,8 @@ function Router() {
  <Route path={"/cano-rebentado"} component={CanoRebentado} />
  <Route path={"/esquentador-avariado"} component={EsquentadorAvariado} />
  <Route path={"/cheiro-mau-canalizacao"} component={CheiroMauCanalizacao} />
+ {/* Pilier MONEY query 'canalizador 24 horas' (Hermes t_b05d5865, DFSEO CPC=18.63 EUR vol=320 score=5961.60). Must be declared BEFORE /:service-:city greedy route (greedy match service=canalizador city=24-horas). */}
+ <Route path={"/canalizador-24-horas"} component={Canalizador24Horas} />
  {/* Emotional Landing Pages - SEO Premium - Eletricista (legacy code) */}
  {/* Commercial Intent Pages - SEO Premium - Canalizador */}
  <Route path={"/quanto-custa-arranjar-agua-castanha"} component={QuantoCustaArranjarAguaCastanha} />
