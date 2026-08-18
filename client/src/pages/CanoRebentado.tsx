@@ -27,7 +27,7 @@ export default function CanoRebentado() {
  "name": "O que fazer quando um cano rebenta?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "1) Feche mediante confirmação a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Paramos a inundação rapidamente."
+ "text": "1) Feche imediatamente a torneira principal. 2) Ligue +351 928 484 451. 3) Afaste móveis e equipamentos. 4) Coloque baldes. Paramos a inundação rapidamente."
  }
  },
  {
@@ -102,7 +102,7 @@ export default function CanoRebentado() {
  {
  time: 'rapido',
  title: 'Corremos Para Aí',
- description: 'Técnico de emergência sai mediante confirmação com todas as ferramentas. Rapidez garantida.',
+ description: 'Técnico de emergência sai imediatamente com todas as ferramentas. Rapidez garantida.',
  icon: 'map'
  },
  {
@@ -162,7 +162,7 @@ export default function CanoRebentado() {
  {[
  {
  q: 'O que fazer quando um cano rebenta?',
- a: '1) FECHE mediante confirmação a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Paramos a inundação rapidamente.'
+ a: '1) FECHE IMEDIATAMENTE a torneira de segurança principal (perto do contador de água). 2) LIGUE +351 928 484 451 - atendemos na hora. 3) Afaste móveis e equipamentos da água. 4) Proteja objetos de valor. 5) Coloque baldes/toalhas para minimizar danos. Paramos a inundação rapidamente.'
  },
  {
  q: 'Quanto custa arranjar um cano rebentado?',
