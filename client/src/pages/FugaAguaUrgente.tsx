@@ -99,7 +99,6 @@ export default function FugaAguaUrgente() {
  title="Como Paramos a Sua Fuga Disponível 24h/7 dias"
  subtitle="Processo rápido, eficiente e sem stress. Você relaxa, nós resolvemos."
  totalTime="30-alguns minutos"
- guaranteeText="Paramos a fuga ou não paga. Garantia 100% satisfação."
  steps={[
  {
  time: 'A confirmar',
@@ -134,8 +133,7 @@ export default function FugaAguaUrgente() {
  />
  <GuaranteeBox
  title="Garantias Que Dão Paz de Espírito"
- subtitle="Não arriscamos a sua confiança. Todas as arranjos têm garantia total."
- mainGuarantee="Paramos a Fuga ou Não Paga"
+ subtitle="Não arriscamos a sua confiança. Todas as arranjos têm ."
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
@@ -190,14 +188,14 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Dão garantia na arranjo?',
- a: 'Sim! Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Garantia 100% satisfação ou dinheiro de volta.'
+ a: 'Sim! Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. % satisfação ou .'
  }
  ].map((item, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">
  <h3 className="font-bold text-xl text-gray-900 mb-3">{item.q}</h3>
  <p className="text-gray-700 leading-relaxed">{item.a}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -233,5 +231,5 @@ export default function FugaAguaUrgente() {
  </section>
  <Footer />
  </>
- );
+);
 }

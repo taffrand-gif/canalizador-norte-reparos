@@ -167,7 +167,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  {item.tempo}
  </td>
  </tr>
- ))}
+))}
  </tbody>
  </table>
  </div>
@@ -200,7 +200,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
  {item}
  </li>
- ))}
+))}
  </ul>
  </div>
  <div className="bg-orange-50 border-2 border-orange-200 rounded-xl p-6">
@@ -222,7 +222,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <span>{item.item}</span>
  <span className="font-bold text-orange-700">{item.preco}</span>
  </li>
- ))}
+))}
  </ul>
  </div>
  </div>
@@ -260,7 +260,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </h3>
  <p className="text-gray-700 text-sm">{item.explicacao}</p>
  </div>
- ))}
+))}
  </div>
  </section>
  {/* Como Poupar */}
@@ -283,7 +283,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <p className="text-sm text-green-700 mt-1">💰 {item.economia}</p>
  </div>
  </li>
- ))}
+))}
  </ul>
  </div>
  </section>
@@ -337,7 +337,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <td className="px-4 py-3 text-center text-gray-700">{item.canalizacao}</td>
  <td className="px-4 py-3 text-center text-sm text-gray-600">{item.deslocacao}</td>
  </tr>
- ))}
+))}
  </tbody>
  </table>
  </div>
@@ -355,7 +355,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  {faq.acceptedAnswer.text}
  </div>
  </details>
- ))}
+))}
  </div>
  </section>
  {/* Artigos Relacionados */}
@@ -406,11 +406,11 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Disponível 24h/7 dias garantida • Sem compromisso • Garantia 30 dias
+ Disponível 24h/7 dias garantida • Sem compromisso • 
  </p>
  </div>
  </article>
  </div>
  </>
- );
+);
 }

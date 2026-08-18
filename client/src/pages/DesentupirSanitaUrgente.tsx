@@ -9,7 +9,7 @@ export default function DesentupirSanitaUrgente() {
  document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 80-120€';
  const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
  meta.setAttribute('name', 'description');
- meta.setAttribute('content', 'Sanita entupida? Resolvemos Atendimento rápido ou não paga! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
+ meta.setAttribute('content', 'Sanita entupida? Resolvemos Atendimento rápido! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
  if (!meta.parentElement) document.head.appendChild(meta);
  }, []);
  const whatsappMessage = encodeURIComponent('Olá! Preciso desentupir sanita urgente. Podem ajudar?');
@@ -107,7 +107,7 @@ export default function DesentupirSanitaUrgente() {
  </div>
  <div className="bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-600 p-8 rounded-xl text-center">
  <p className="text-2xl font-bold text-gray-900 mb-4">
- Resolvemos Atendimento rápido ou Não Paga!
+ Resolvemos Atendimento rápido!
  </p>
  <p className="text-lg text-gray-700 mb-6">
  Temos tanta confiança no nosso trabalho que garantimos:<br />
@@ -213,7 +213,7 @@ export default function DesentupirSanitaUrgente() {
  <h3 className="font-bold text-lg mb-2 text-gray-900">{step.title}</h3>
  <p className="text-gray-600 text-sm">{step.desc}</p>
  </div>
- ))}
+))}
  </div>
  <div className="mt-12 text-center">
  <p className="text-2xl font-bold text-gray-900 mb-4">
@@ -264,7 +264,7 @@ export default function DesentupirSanitaUrgente() {
  <p className="text-gray-800 mb-4 italic">"{testimonial.text}"</p>
  <p className="text-sm text-gray-600 font-semibold">{testimonial.author}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -305,7 +305,7 @@ export default function DesentupirSanitaUrgente() {
  <h3 className="font-bold text-lg mb-2 text-gray-900">{faq.q}</h3>
  <p className="text-gray-600">{faq.a}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -346,5 +346,5 @@ export default function DesentupirSanitaUrgente() {
  </section>
  <Footer />
  </>
- );
+);
 }

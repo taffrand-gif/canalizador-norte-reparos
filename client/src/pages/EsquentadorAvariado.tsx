@@ -91,7 +91,6 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  title="Como Devolvemos Água Quente em algumas horas"
  subtitle="Diagnóstico rápido, arranjo eficaz, água quente garantida."
  totalTime="2-4 horas"
- guaranteeText="Água quente hoje ou não paga. Garantia do serviço."
  steps={[
  {
  time: 'A confirmar',
@@ -126,8 +125,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  />
  <GuaranteeBox
  title="Garantias de Conforto"
- subtitle="Arranjamos com garantia total. Água quente garantida ou dinheiro de volta."
- mainGuarantee="Água Quente Hoje ou Não Paga"
+ subtitle="Arranjamos com. Água quente garantida ou ."
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
@@ -238,7 +236,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  <h3 className="font-bold text-xl text-gray-900 mb-3">{item.q}</h3>
  <p className="text-gray-700 leading-relaxed">{item.a}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -249,7 +247,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  Recupere o Conforto Hoje
  </h2>
  <p className="text-xl md:text-2xl mb-8 font-semibold">
- Técnico especializado disponível. Água quente em algumas horas. Garantia total.
+ Técnico especializado disponível. Água quente em algumas horas..
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
  <a
@@ -274,5 +272,5 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  </section>
  <Footer />
  </>
- );
+);
 }

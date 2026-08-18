@@ -12,7 +12,6 @@ interface SolutionTimelineProps {
  subtitle: string;
  steps: TimelineStep[];
  totalTime: string;
- guaranteeText: string;
 }
 const iconMap = {
  phone: Phone,
@@ -23,8 +22,7 @@ function SolutionTimeline({
  title,
  subtitle,
  steps,
- totalTime,
- guaranteeText
+ totalTime
 }: SolutionTimelineProps) {
  return (
  <section className="py-16 px-4 bg-white">
@@ -84,7 +82,7 @@ function SolutionTimeline({
  {/* Spacer for alignment */}
  <div className="flex-1 hidden md:block"></div>
  </div>
- );
+);
  })}
  </div>
  </div>
@@ -92,14 +90,14 @@ function SolutionTimeline({
  <div className="mt-12 bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-xl text-center">
  <div className="flex items-center justify-center gap-3 mb-3">
  <CheckCircle className="w-8 h-8" />
- <h3 className="text-2xl font-black">GARANTIA TOTAL</h3>
+ <h3 className="text-2xl font-black"></h3>
  </div>
  <p className="text-xl font-semibold">
- {guaranteeText}
+ {""}
  </p>
  </div>
  </div>
  </section>
- );
+);
 }
 export default React.memo(SolutionTimeline);

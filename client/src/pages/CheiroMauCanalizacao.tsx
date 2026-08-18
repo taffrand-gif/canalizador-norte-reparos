@@ -91,7 +91,6 @@ export default function CheiroMauCanalizacao() {
  title="Como Eliminamos o Cheiro Atendimento rápido"
  subtitle="Identificamos a origem, não mascaramos. Solução definitiva."
  totalTime="1-2 horas"
- guaranteeText="Eliminamos o cheiro ou não paga. Garantia 30 dias."
  steps={[
  {
  time: 'A confirmar',
@@ -127,12 +126,11 @@ export default function CheiroMauCanalizacao() {
  <GuaranteeBox
  title="Garantias de Eliminação"
  subtitle="Eliminamos a origem, não mascaramos. Solução definitiva garantida."
- mainGuarantee="Cheiro Eliminado ou Não Paga"
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
  icon: 'shield',
- title: 'Garantia 30 Dias',
+ title: '',
  description: 'Se o cheiro voltar em 30 dias, voltamos gratuitamente e resolvemos.'
  },
  {
@@ -199,7 +197,7 @@ export default function CheiroMauCanalizacao() {
  <h3 className="text-xl font-bold text-gray-900 mb-2">{cause.title}</h3>
  <p className="text-gray-700 text-sm leading-relaxed">{cause.desc}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -240,7 +238,7 @@ export default function CheiroMauCanalizacao() {
  <h3 className="font-bold text-xl text-gray-900 mb-3">{item.q}</h3>
  <p className="text-gray-700 leading-relaxed">{item.a}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -270,11 +268,11 @@ export default function CheiroMauCanalizacao() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Orçamento Gratuito • ✓ Solução em 1-2h • ✓ Garantia 30 Dias
+ ✓ Orçamento Gratuito • ✓ Solução em 1-2h • ✓ 
  </p>
  </div>
  </section>
  <Footer />
  </>
- );
+);
 }
