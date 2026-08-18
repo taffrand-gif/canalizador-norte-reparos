@@ -109,7 +109,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             Quanto Custa um Desentupimento em Trás-os-Montes em 2026?
           </h1>
           <p className="text-lg text-gray-600">
-            Sanita, lavatório, esgoto principal, fossa · Tabela Norte Reparos 2026 · ~5 min de leitura
+            Sanita, lavatório, esgoto principal, fossa · Tabela Norte Reparos 2026 de leitura
           </p>
         </header>
         <div className="prose prose-lg max-w-none">

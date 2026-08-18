@@ -109,7 +109,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
             Quanto Custa um Canalizador à Hora em Portugal em 2026?
           </h1>
           <p className="text-lg text-gray-600">
-            Tabela Norte Reparos atualizada a 10 de julho de 2026 · ~6 min de leitura
+            Tabela Norte Reparos atualizada a 10 de julho de 2026 de leitura
           </p>
         </header>
         <div className="prose prose-lg max-w-none">
