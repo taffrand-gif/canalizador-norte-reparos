@@ -295,9 +295,9 @@ Contador DN15 (diâmetro 15mm) limita o caudal. Casa grande precisa DN20 ou DN25
 | Instalar bomba pressurizadora | €230-600 |
 | Substituir tubagem (T3) | €1.200-2.500 |
 | Substituir redutor de pressão | €80-180 |
-| Urgência mediante confirmação por telefone | +€50-80 |
+| Urgência | +€50-80 |
 
-> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendemos 24h/7 dias, mediante confirmação por telefone, orçamento grátis.
+> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendemos 24h/7 dias, orçamento grátis.
 
 ## 🔍 Como Diagnosticar o Problema
 
@@ -451,7 +451,7 @@ Pressão de água baixa tem **múltiplas causas**, desde simples (filtro entupid
 📞 **Ligue agora: [928 484 451](tel:+351928484451)** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20pressão%20de%20água%20baixa%20em%20casa.%20Pode%20ajudar%3F)**
 
-✅ Diagnóstico completo mediante confirmação por telefone 
+✅ Diagnóstico completo 
 ✅ Soluções definitivas (não provisórias) 
 ✅ Instalação de bombas pressurizadoras 
 ✅ Deteção de fugas com equipamento profissional 
