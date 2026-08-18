@@ -13,7 +13,7 @@ import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function Canalizador24Horas() {
   useEffect(() => {
     document.title =
-      'Canalizador 24 Horas em Trás-os-Montes | Resposta mediante confirmação por telefone';
+      'Canalizador 24 Horas em Trás-os-Montes | Resposta';
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
@@ -22,7 +22,7 @@ export default function Canalizador24Horas() {
     }
     meta.setAttribute(
       'content',
-      'Canalizador 24 horas em Trás-os-Montes: Atendimento mediante confirmação por telefone, dia e noite. Fugas de água, entupimentos, cano rebentado. Orçamento por escrito antes da intervenção. Ligue +351 928 484 451.'
+      'Canalizador 24 horas em Trás-os-Montes: Atendimento, dia e noite. Fugas de água, entupimentos, cano rebentado. Orçamento por escrito antes da intervenção. Ligue +351 928 484 451.'
     );
   }, []);
 
@@ -96,7 +96,7 @@ export default function Canalizador24Horas() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center">
             <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-2 rounded-full font-bold text-sm mb-6">
-              ⏰ Canalizador 24 horas — Resposta mediante confirmação por telefone
+              ⏰ Canalizador 24 horas — Resposta
             </div>
             <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
               Canalizador 24 Horas

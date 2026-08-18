@@ -102,7 +102,7 @@ desentupimento-izeda.html             ↔  canalizador-desentupimento-izeda.html
 | `<meta robots>` | Mal placé (`<li><meta...>`) | Position correcte | Bug HTML |
 | `og:title` | "Orçamento grátis" seulement | Ajout "Zona 5 · 55€ deslocação" | Cohérence |
 | `og:description` | "Limpeza, manutenção…" sans zone ni prix | Ajout "(Zona 5) · 55€ + 65€/h mão de obra · Orçamento grátis por escrito" | Cohérence |
-| `<h1>` | "Canalizador Profissional em Fossa Septica Vila Pouca De Aguiar - mediante confirmação por telefone — ligue 928 484 451, " | "Canalizador Profissional em Fossa Séptica Vila Pouca de Aguiar — Zona 5 (55€ deslocação + 65€/h mão de obra)" | Retrait "mediante confirmação" (D2) + zone+prix visibles |
+| `<h1>` | "Canalizador Profissional em Fossa Septica Vila Pouca De Aguiar - — ligue 928 484 451, " | "Canalizador Profissional em Fossa Séptica Vila Pouca de Aguiar — Zona 5 (55€ deslocação + 65€/h mão de obra)" | Retrait "mediante confirmação" (D2) + zone+prix visibles |
 | `<div class="zone-info" data-zone="5">` | "Zona 5 · 55€ deslocação" | **Identique** (déjà OK) | Badge correct, pas de modif |
 | Hero zone-badge | `📍 Zona 3 • Chegada em ~70 min` | `📍 Zona 5 · 55€ deslocação` | **Z3 → Z5** (badge=KO vs body) **+ retrait "Chegada em ~70 min"** (D1 pendante) |
 | Body "Deslocação Zona 3: 30€" | "Zona 3: 30€" + "Tempo de resposta médio: 70 minutos" | "Deslocação Zona 5: 55€" + "Mão de obra canalização: 65€/h" | **Z3 → Z5, 30€ → 55€, retrait "70 minutos"** (D1) |
@@ -114,7 +114,7 @@ desentupimento-izeda.html             ↔  canalizador-desentupimento-izeda.html
 | Offres JSON-LD Service (110/150/280) | AUCUNE (page n'en contient pas) | AUCUNE | **Respecté** — pas d'Offers SERVICE touchés car la page n'en a pas |
 | Footer "mediante confirmação por telefone" | Présent | **Retiré** | D2 (hors zone-block) |
 | Footer info | "Vila Pouca de Aguiar • Disponível mediante…" | "Vila Pouca de Aguiar (Zona 5) • 55€ deslocação • 65€/h mão de obra" | Cohérence zone+prix |
-| Section "Porquê Escolher…" | Item "Preço tabelado: dado Disponível mediante confirmação por telefone — ligue 928 484 451. sem surpresas" | "Preço tabelado: 55€ deslocação (Zona 5) + 65€/h mão de obra — sem surpresas" | Retire "mediante confirmação" (D2) + ajoute prix |
+| Section "Porquê Escolher…" | Item "Preço tabelado: dado Disponível — ligue 928 484 451. sem surpresas" | "Preço tabelado: 55€ deslocação (Zona 5) + 65€/h mão de obra — sem surpresas" | Retire "mediante confirmação" (D2) + ajoute prix |
 | Item Garantia | "1 ano em mão de obra" | "2 anos em mão de obra" | Cohérence avec FAQ "Garantia e fatura? 2 anos" |
 | JSON-LD telephone field | `+351****4451` (format masqué) | `+351****4451` (conservé, sécurité credentials AGENTS.md §Sécurité) | Pas d'invention, pas de plaintext |
 | CSS supplémentaire | — | Ajout `.faq details/summary` styles | Pour les FAQ `<details>` |
