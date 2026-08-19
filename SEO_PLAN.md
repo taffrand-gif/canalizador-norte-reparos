@@ -2037,6 +2037,33 @@ Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la m
 - **Verifications** : 5 blocs JSON-LD parsés OK (`json.loads` confirmé). 1 H1 uniquement. PRICING.md conforme : 15 €/25 €/55 €/65 €/65 €/h + Z1/Z2/Z6. `npm run check` non applicable (page .html statique, hors scope TS). Build Vercel : déclenché à chaque push, pas de warning attendu.
 - **Statut** : ⏸ PR draft #298 ouvert, 0 merge (R7), attente GO Philippe. Branche `fix/cnr-rankpush-esgoto-entupido-round2-t_854e3643` rebasée sur `origin/main` (3ad204c7fe, fetched 2026-08-13). Mesure à J+14 via `gsc-trajectoire-cron.sh` : win si `esgoto entupido` passe pos < 4 (WEAK → TOP3) + impressions ≥ 30 (CTR cible 5 % × 70 vol = ~3 clics/mois → multiplication ×5). Tâche `t_854e3643` à clore après ouverture PR draft.
 
+### 2026-08-20 — GSC rank-push round 3 « esgoto entupido » (Hermes t_45ec27ae) — T2-MONEY-WEAK
+- **Signal GSC (fenêtre 28j terminée 2026-08-20)** : query `esgoto entupido` à **8 impressions / 0 clic / pos moyenne 7.2** — verdict **WEAK top board** (vol=70, CPC=25,01 €, score 1 750,70 ; T2-MONEY gap). Round 2 (#298) n'a pas fait basculer pos 7.3 → 7.2 sur la fenêtre 28j. Round 3 nécessaire : correction du LocalBusiness schema (24/7 → horaires normaux) + FAQ + section « Como escolher » + zone NAP explicite.
+- **Diagnostic vérifié (avant)** : (1) title « 7 Sinais + Soluções » (signe + sans espace, pas d'Alerta) sans « Guia 2026 » ; (2) H1 « Sinais e Soluções Definitivas » sans mention « Guia 2026 » ni « Alerta » ; (3) LocalBusiness openingHoursSpecification `Mon-Sun 00:00-23:59` (incohérent — R12 CNR = horário comercial, pas 24/7) ; (4) FAQ JSON-LD 9 questions sans question d'aide au choix de prestataire ; (5) pas de section explicite « como escolher » alors que c'est l'intention profonde derrière la query (utilisateur hésite à appeler un concurrent top 3) ; (6) CTA « contacte-nos mediante confirmação » (incohérent post-purge R145 #317, signal dilué).
+- **Action** (1 fichier, +11/-7 sur branche `feat/t_45ec27ae-esgoto-entupido-round3` basée sur origin/main `bf6850c2fd`) :
+  - `client/public/blog/esgoto-entupido-sinais-solucoes.html` :
+    - title + og:title + og:description harmonisés sur « 7 Sinais de Alerta e Soluções Definitivas (Guia 2026) »
+    - H1 → « Esgoto Entupido: 7 Sinais de Alerta e Soluções Definitivas (Guia 2026) » (aligné query exacte + signal « Guia 2026 »)
+    - BreadcrumbList JSON-LD name aligné sur nouveau titre
+    - FAQPage 9 → **10 questions** : ajout « Como escolher um canalizador para esgoto entupido em Trás-os-Montes? » avec 5 critères (orçamento por escrito / preço tabelado por zona + 65 €/h explícito / equipamento profissional : mola elétrica + hidrojato + câmara / seguro RC ≥ 50 000 € / foco em desentupimento programado, instalação e remodelação) + redirection 24h/7d vers canalizador-urgente.pt
+    - LocalBusiness JSON-LD openingHoursSpecification : `Mon-Sun 00:00-23:59` → `Mon-Fri 08:00-19:00` (R12 CNR)
+    - Nouvelle section body H2 « 👷 Como Escolher um Canalizador para Esgoto Entupido em Trás-os-Montes » + sous-section « Porque é que estes critérios importam em Trás-os-Montes » (132 km Macedo, Z1-Z6 coûts)
+    - Nouvelle section H2 « 📍 Zona de Atuação e NAP » — liste explicite 16 villes (Bragança, Mirandela, Vila Real, Chaves, Macedo, Vinhais, Mogadouro, Miranda do Douro, Freixo de Espada à Cinta, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Lamego, Peso da Régua, Santa Marta de Penaguião, Murça, Alijó, Sabrosa) + NAP +351 928 484 451 + wa.me
+    - FAQ « 24 horas » reformulée : suppression « mediante confirmação por telefone » (R145 cohérence post-purge #317)
+    - CTA pluriel : « Ligue à nossa equipa » (R12 verrouillée 30/06)
+    - dateModified 2026-08-13 → 2026-08-20
+- **Conformité** : R4 (zéro invention, équipement générique, NAP verifié) ✅, R5 (zéro streetAddress précis, addressRegion « Trás-os-Montes » large) ✅, R11 (zéro témoignage, zéro Review JSON-LD) ✅, R12 (horaires CNR réels 08h-19h Mon-Fri, pluriel « nossa equipa » / « os nossos técnicos », suppression 24/7 du LocalBusiness schema) ✅, R145 (0 délai chiffré — grep vérifié : « em X minutos » / « em X horas » = 0) ✅, §13 (zéro DGEG/TRIESP/wallbox/chargeur VE sur CNR) ✅.
+- **Témoins R8 (avant/après commit `931413b0e0`)** :
+  - `wc -w` : 2 842 → 3 028 (+186 mots ciblés, +6,5 %)
+  - Occurrences `esgoto entupido` (insensible casse) : 14 → 16 (densité keyword saine, pas de stuffing)
+  - H1 unique : 1 / H2 : 13 → 14 / H3 : 23
+  - JSON-LD blocs valides : 5 (Article, BreadcrumbList, FAQPage 10Q, Service, LocalBusiness horaires 08-19 Mon-Fri)
+  - Mentions « 7 Sinais de Alerta » : 1 → 5 (title + og + twitter + breadcrumb JSON-LD + H1)
+  - Mentions « Guia 2026 » : 0 → 4 (title + og + breadcrumb JSON-LD + H1) — signal fraîcheur
+  - Erreurs TS/HTML : 0 nouvelle (page .html statique)
+  - `worktrees/` / `_indexing/` non trackés (gitignore)
+- **Statut** : ⏸ **PR #320 DRAFT** ouverte, 0 merge (R7), attente GO Philippe. Branche `feat/t_45ec27ae-esgoto-entupido-round3` pushée sur origin (commit `931413b0e0`). Mesure d'impact à J+7 / J+14 via `gsc-trajectoire-cron.sh` : win si pos < 4 + impressions ≥ 30 (CTR cible 5 % × 70 vol ≈ 3 clics/mois, multiplication ×5 vs round 2) ; stale acceptable si pos 6-7 avec CTR ≥ 3 % ; regress = rollback sur round 2 commit `3ad204c7fe`. Tâche `t_45ec27ae` à clore après ouverture PR draft (cf. kanban_complete).
+
 ### 2026-08-11 — GSC rank-push « custo canalizador » (Hermes t_2ce71047) — T3-INFO
 - **Signal GSC (fenêtre 28j terminée 2026-08-11)** : query `custo canalizador` à **20 impressions / 0 clic / pos 19.4** (fenêtre pos 4..20 = presque top3, mais 0 clic = titre/meta pas assez incitatifs). INTENTION=INFO pure (pas MONEY).
 - **Diagnostic vérifié (1 cause racine)** : la page pilier `/blog/custo-canalizador-tras-os-montes-precos` existe (slug aligné) avec contenu riche (PRICING, Z1-Z6, FAQ, HowTo), **mais le ciblage lexical était "preços" / "preço"** (synonyme proche mais distinct de "custo") sur title/H1/description/keywords → Google matche mal la query exacte. Cause aggravante : 0 mention "custo canalizador" dans title/description/H1 = pas de signal direct pour le ranker sur cette query.
