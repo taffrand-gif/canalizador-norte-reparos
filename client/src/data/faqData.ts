@@ -14,7 +14,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 1,
  question: "Quanto custa chamar um canalizador em Bragança?",
- answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). Deslocação incluída nas zonas próximas. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
+ answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€ (urgência noite: +50%). Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). A deslocação tem preço tabelado por zona (Z1 a Z6). Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
  category: "Preços"
  },
  {
@@ -56,7 +56,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 8,
  question: "Como economizar água em casa?",
- answer: "Pode reduzir o consumo de água em 30-50% com estas medidas: instale redutores de caudal nas torneiras (economia de 40%), substitua autoclismos antigos por modelos de dupla descarga (economia de 60% no autoclismo), repare fugas imediatamente (uma torneira a pingar desperdiça 25 litros/dia), tome duches em vez de banhos de imersão (economia de 100 litros por banho), instale torneiras termostáticas (evitam desperdício enquanto espera pela temperatura ideal), e reutilize água da chuva para rega. Uma família média em Bragança pode poupar 50-80€/ano na fatura da água com estas medidas simples. Fazemos auditorias gratuitas de consumo de água.",
+ answer: "Pode reduzir o consumo de água em 30-50% com estas medidas: instale redutores de caudal nas torneiras (economia de 40%), substitua autoclismos antigos por modelos de dupla descarga (economia de 60% no autoclismo), repare fugas imediatamente (uma torneira a pingar desperdiça 25 litros/dia), tome duches em vez de banhos de imersão (economia de 100 litros por banho), instale torneiras termostáticas (evitam desperdício enquanto espera pela temperatura ideal), e reutilize água da chuva para rega. Uma família média em Bragança pode poupar 50-80€/ano na fatura da água com estas medidas simples.",
  category: "Poupança"
  },
  {
@@ -68,7 +68,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 10,
  question: "Como aumentar a pressão da água?",
- answer: "Baixa pressão de água pode ter várias causas: calcário acumulado em torneiras e chuveiros (limpe com vinagre), válvula de corte parcialmente fechada (verifique se está totalmente aberta), canalizações entupidas ou com diâmetro inadequado, ou pressão baixa da rede pública. Soluções: limpeza de arejadores e chuveiros, substituição de canalizações antigas por diâmetros maiores, ou instalação de bomba pressurizadora (150-400€). Em Bragança, algumas zonas altas têm pressão naturalmente baixa - nesses casos, uma bomba pressurizadora resolve definitivamente. Fazemos diagnóstico gratuito e recomendamos a solução mais económica para o seu caso específico.",
+ answer: "Baixa pressão de água pode ter várias causas: calcário acumulado em torneiras e chuveiros (limpe com vinagre), válvula de corte parcialmente fechada (verifique se está totalmente aberta), canalizações entupidas ou com diâmetro inadequado, ou pressão baixa da rede pública. Soluções: limpeza de arejadores e chuveiros, substituição de canalizações antigas por diâmetros maiores, ou instalação de bomba pressurizadora (150-400€). Em Bragança, algumas zonas altas têm pressão naturalmente baixa - nesses casos, uma bomba pressurizadora resolve definitivamente. Recomendamos a solução mais económica para o seu caso específico.",
  category: "Problemas Comuns"
  },
  {
@@ -86,7 +86,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 13,
  question: "Como saber se tenho calcário nas canalizações?",
- answer: "Sinais de calcário acumulado: manchas brancas em torneiras e chuveiros, pressão de água reduzida progressivamente, água quente demora mais a chegar, ruídos no esquentador ao aquecer, consumo de gás aumentado, ou resistências de termoacumuladores que queimam frequentemente. Bragança tem água moderadamente dura (150-200 mg/L de calcário), o que causa acumulação em 8-12 anos. Soluções: descalcificação química das canalizações (200-400€), instalação de sistema anti-calcário (300-600€), ou substituição de troços mais afetados. Prevenção: manutenção anual do esquentador e limpeza regular de arejadores. Fazemos análise gratuita e recomendamos a solução mais adequada.",
+ answer: "Sinais de calcário acumulado: manchas brancas em torneiras e chuveiros, pressão de água reduzida progressivamente, água quente demora mais a chegar, ruídos no esquentador ao aquecer, consumo de gás aumentado, ou resistências de termoacumuladores que queimam frequentemente. Bragança tem água moderadamente dura (150-200 mg/L de calcário), o que causa acumulação em 8-12 anos. Soluções: descalcificação química das canalizações (200-400€), instalação de sistema anti-calcário (300-600€), ou substituição de troços mais afetados. Prevenção: manutenção anual do esquentador e limpeza regular de arejadores. Recomendamos a solução mais adequada ao seu caso.",
  category: "Manutenção"
  },
  {
@@ -122,7 +122,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 19,
  question: "Como escolher um esquentador adequado?",
- answer: "A escolha do esquentador depende de: número de pessoas (1-2 pessoas: 11L/min, 3-4 pessoas: 14L/min, 5+ pessoas: 17L/min), número de casas de banho (2+ casas de banho: mínimo 14L/min), tipo de energia disponível (gás natural, butano/propano, ou elétrico), e espaço de instalação (ventilação adequada para gás). Em Bragança, para uma família de 4 pessoas, recomendamos esquentador a gás de 14L/min (300-600€). Marcas recomendadas: Vulcano, Junkers, Roca (boa relação qualidade/preço). Evite modelos muito baratos (<200€) - duram metade e consomem mais. Fazemos análise gratuita das suas necessidades e recomendamos o modelo ideal.",
+ answer: "A escolha do esquentador depende de: número de pessoas (1-2 pessoas: 11L/min, 3-4 pessoas: 14L/min, 5+ pessoas: 17L/min), número de casas de banho (2+ casas de banho: mínimo 14L/min), tipo de energia disponível (gás natural, butano/propano, ou elétrico), e espaço de instalação (ventilação adequada para gás). Em Bragança, para uma família de 4 pessoas, recomendamos esquentador a gás de 14L/min (300-600€). Marcas recomendadas: Vulcano, Junkers, Roca (boa relação qualidade/preço). Evite modelos muito baratos (<200€) - duram metade e consomem mais. Analisamos as suas necessidades e recomendamos o modelo ideal.",
  category: "Equipamentos"
  },
  {
@@ -137,7 +137,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 21,
  question: "Quanto tempo dura uma arranjo de fuga de água?",
- answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos diagnóstico gratuito e orçamento detalhado.",
+ answer: "A duração de uma arranjo de fuga varia conforme a localização e gravidade. Fugas em canos acessíveis: 1-2 horas. Fugas em paredes que requerem deteção termográfica: 2-4 horas. Fugas graves que exigem substituição de canalização: 4-8 horas. Utilizamos técnicas modernas que minimizam o tempo de intervenção e evitam obras desnecessárias. Em 80% dos casos, resolvemos na primeira visita. Para fugas complexas, fazemos um diagnóstico e um orçamento por escrito detalhado.",
  category: "Arranjos"
  },
  {
@@ -161,7 +161,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 25,
  question: "Como escolher um canalizador de confiança em Trás-os-Montes?",
- answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, nossa equipa técnica, orçamentos gratuitos, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
+ answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 10 anos de experiência em Bragança, nossa equipa técnica, orçamento por escrito antes de qualquer intervenção, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
  category: "Dicas"
  }
 ];
