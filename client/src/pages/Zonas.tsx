@@ -109,7 +109,7 @@ export default function Zonas() {
  ],
  serviceType: 'Canalizador',
  description:
- 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 100km desde a nossa base.'});
+ 'Serviços de canalização profissional em 34 cidades de Trás-os-Montes, num raio de 130km desde a nossa base.'});
  document.head.appendChild(schemaScript);
  return () => {
  if (schemaScript.parentNode) {
@@ -146,7 +146,7 @@ export default function Zonas() {
  Zona de Intervenção — Canalizador em Trás-os-Montes
  </h1>
  <p className="text-xl text-blue-100 mb-8">
- Servimos 34 cidades num raio de 100km desde a nossa base.
+ Servimos 34 cidades num raio de 130km desde a nossa base.
  </p>
  <div className="flex flex-wrap justify-center gap-6 text-lg">
  <div className="flex items-center">

@@ -1,4 +1,4 @@
-// Secção "Zona de Intervenção" - Cidades cobertas num raio de 100km em torno de Trás-os-Montes
+// Secção "Zona de Intervenção" - Cidades cobertas num raio de 130km em torno de Trás-os-Montes
 import { useSite } from '@/contexts/SiteContext';
 import { MapPin } from 'lucide-react';
 const cidades = [
