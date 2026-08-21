@@ -226,7 +226,7 @@ export default function FAQPage() {
  <li><Link href="/servicos" className="text-blue-600 hover:underline">Todos os Serviços</Link></li>
  <li><Link href="/blog/custo-canalizador-tras-os-montes-precos" className="text-blue-600 hover:underline">Preços Canalizador</Link></li>
  <li><Link href="/blog/desentupir-wc-metodos-caseiros" className="text-blue-600 hover:underline">Desentupir WC</Link></li>
- <li><Link href="/blog/arranjacao-caldeira-esquentador-manutencao" className="text-blue-600 hover:underline">Arranjo Caldeira</Link></li>
+ <li><Link href="/blog/reparacao-caldeira-esquentador-manutencao" className="text-blue-600 hover:underline">Arranjo Caldeira</Link></li>
  <li><Link href="/blog" className="text-blue-600 hover:underline">Blog com Dicas</Link></li>
  </ul>
  </div>
