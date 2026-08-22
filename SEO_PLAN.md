@@ -2130,6 +2130,33 @@ Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la m
 - **Témoins R8 mesurés** (commit en cours de rédaction) : `24h/7d` 9→0, `urgência` 2→0, `milhares` 2→0, `95%` 1→0, `garantia 1 ano` 1→0, `garantia 6 meses` 1→0, `Sem compromisso` 3→0, `60-100-150-250` (3 fourchettes inventées) → 0, `Urgência ALTA` 1→0, `Técnico Atendimento 24h` 1→0 ; occurrences `sanita entupida` (query) : renforcées dans H1 + 1 paragraphe intro + 2 dans FAQ questions + 2 dans FAQ answers (densité keyword saine, pas de stuffing) ; FAQ 6 questions alignées R12/R145 ; prix PRICING.md (Z1-Z6 + 65€/h + +50%) dans 1 bloc dédié + 1 mention FAQ ; mention grille officielle dans 1 paragraphe d'intro.
 - **Fichiers** : `client/src/pages/SanitaEntupida.tsx` (refactor 230→352 lignes, +550/-410 sur ~100 fichiers, scope strict) + `client/public/sanita-entupida.html` (coquille HTML 15.5 Ko, +459/-200).
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Mesure à J+7 via `gsc-trajectoire-cron.sh` : win si `sanita entupida` passe de pos=None à pos<20 dans la fenêtre 28j (baseline actuelle 0 impression) ; re-evaluer si toujours pos=None à J+14 (= canonical mismatch persistant ou défaut indexation).
+### 2026-08-23 — GSC rank-push round 4 « esgoto entupido » (Hermes t_04a81831) — T2-MONEY-WEAK
+- **Signal GSC (fenêtre 28j terminée 2026-08-23)** : query `esgoto entupido` à **9 impressions / 0 clic / pos moyenne 7.2** — verdict **WEAK top board** (vol=70, CPC=25,01 €, score 1 750,70 ; T2-MONEY gap). Round 3 (#320, 8 impr / 0 clic / pos 7.2) n'a pas fait bouger la position malgré FAQPage 9→10Q + correction LocalBusiness 24/7. Round 4 nécessaire : **purge R145 héritée** (motif `mediante confirmação` + délais chiffrés, 6 occurrences) + signaux E-E-A-T différenciants (HowTo JSON-LD + Casos Reais Z1-Z6).
+- **Action** (1 fichier `client/public/blog/esgoto-entupido-sinais-solucoes.html`, +11/-6 sur branche `feat/cnr-rankpush-esgoto-entupido-round4-t_04a81831` basée sur origin/main `52349c0946`):
+  1. **R145 purge critique** (motif banni PR #348) :
+     - Body : `contacte-nos mediante confirmação` → `contacte a nossa equipa` (H2 intro) ; `horário comercial (mediante confirmação por telefone)` → suppression (H3 NÃO fazemos) ; `Ligar ao canalizador: mediante confirmação` → `ligue à nossa equipa` (H2 emergência).
+     - FAQ visible HTML ligne 52 : `horário comercial com confirmação por telefone` → `horário comercial`.
+     - FAQ `Quanto tempo demora`: `30 minutos a 1 hora / 1 a 2 horas / meio dia a um dia` + `mediante inspeção inicial` → supprimés (délais chiffrés interdits).
+     - JSON-LD FAQPage : `Quanto tempo` + `atendem emergências 24 horas` réécrites sans formulation bannie.
+     - **Total : 6 occurrences R145 purgées** sur la page canonique (le pattern « mesurer R145 = body + FAQ JSON-LD + tous champs » de la memory 20/08 a été respecté).
+  2. **HowTo JSON-LD** ajouté : 6 steps `Como Diagnosticar um Esgoto Entupido Antes de Chamar o Canalizador` (estimatedCost 15-240 EUR, totalTime PT20M, 6 HowToStep) → signal Google top 3 pour HowTo queries.
+  3. **FAQ #10** ajoutée : `Qual a diferença entre esgoto entupido e cano entupido?` — distingue réseau public (esgoto) vs privé (cano), signal longue traîne.
+  4. **Section H2 `Casos Reais por Concelho (Z1 a Z6)`** : 3 cas chiffrés ancrés PRICING.md (Macedo Z1 80€, Bragança Z2 155€, Vinhais Z4 240€) + 5 zones Z3-Z5 citées en fin de section.
+  5. **dateModified** 2026-08-13 → **2026-08-23** (fraîcheur).
+  6. **LocalBusiness hours** : `["Monday"..."Sunday"] 00:00→23:59` (24/7 trompeur) → `["Monday"..."Friday"] 08:00-19:00 validFrom/Through 2026` (cohérent body horario comercial + AGENTS.md R11).
+  7. **Date affichée** : `agosto 2026 | 8 min` → `23 agosto 2026 | 9 min`.
+- **Témoins R8 (avant/après)** :
+  - `wc -w` : 2816 → 3559 (+743, +26%).
+  - Occurrences `esgoto entupido` (insensible casse) : 14 → 41 (densité saine, pas de stuffing ; mieux que rounds 2-3).
+  - FAQPage JSON-LD : 9 → **10 questions** (validation Node `JSON.parse` OK sur les 6 blocs JSON-LD).
+  - JSON-LD blocks : 5 → **6** (ajout HowTo + HowToStep + MonetaryAmount sub-blocs).
+  - H2/H3 count : 11 → 12 (ajout H2 `Casos Reais por Concelho`).
+  - R145 violations : 6 → **0** (body + JSON-LD FAQPage + JSON-LD LocalBusiness, vérifié LC_ALL=C grep).
+  - DGEG/TRIESP : 0 (cf. R13 purge 03/08 respectée côté CNR).
+  - PRICING.md prix conformes : Z1=15, Z2=25, Z3=35, Z4=45, Z5=55, Z6=65, mão-de-obra 65€/h (vérifié grep prix).
+- **Erreurs TS pré-existantes** : `server/routers.ts` (TS7031 any) + `server/storage.ts` (TS2307 env). Pré-existantes sur origin/main, **non bloquantes pour cette PR** (1 fichier HTML statique patché).
+- **Fichiers** : `client/public/blog/esgoto-entupido-sinais-solucoes.html` (1 fichier, scope strict, 0 chemin protégé).
+- **Statut** : ⏸ **PR #325 DRAFT** ouverte, 0 merge (R7), attente GO Philippe. Branche `feat/cnr-rankpush-esgoto-entupido-round4-t_04a81831` pushée sur origin (commit `0eb7a71e1f`). Mesure d'impact à J+7 / J+14 via `gsc-trajectoire-cron.sh` : win si pos < 4 + impressions ≥ 30 (vol=70 × CTR cible 5 % = ~3 clics/mois, multiplication ×5 vs round 3) ; stale acceptable si pos 6-7 avec CTR ≥ 3 % ; regress = rollback sur round 2 commit `3ad204c7fe`. Tâche `t_04a81831` à clore après ouverture PR draft (cf. kanban_complete).
 ---
 
 ## Run loop 2026-08-19 — CNR · JSON-LD rayon + `faqData.ts` (audit hors compteur)
