@@ -23,7 +23,7 @@ export default function TorreDonaChama() {
     },
     {
       question: "Fazem desentupimentos em Torre de Dona Chama?",
-      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Torre de Dona Chama e toda a zona de Mirandela. Usamos máquinas de alta pressão adequadas para casas de granito com canalizações antigas. Orçamento gratuito antes de qualquer trabalho."
+      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Torre de Dona Chama e toda a zona de Mirandela. Usamos máquinas de alta pressão adequadas para casas de granito com canalizações antigas. Orçamento por escrito antes de qualquer trabalho."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Torre de Dona Chama?",
@@ -284,7 +284,7 @@ export default function TorreDonaChama() {
               <span className="text-blue-300">Torre de Dona Chama</span>
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">
-              Zona 1 — deslocação 15€. Orçamento gratuito. Garantia de 12 meses.
+              Zona 1 — deslocação 15€. Orçamento por escrito. Garantia de 12 meses.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a
