@@ -23,7 +23,7 @@ export default function Cambres() {
     },
     {
       question: "Fazem desentupimentos em Cambres?",
-      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Cambres. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento gratuito e sem compromisso."
+      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Cambres. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito e sem compromisso."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Cambres?",
