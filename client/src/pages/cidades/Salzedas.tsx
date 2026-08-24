@@ -23,7 +23,7 @@ export default function Salzedas() {
     },
     {
       question: "Fazem desentupimentos em Salzedas?",
-      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Salzedas. Somos especialistas em casas de xisto e granito com canalizações antigas e sistemas de drenagem em zona de Douro Sul. Orçamento gratuito antes de qualquer trabalho."
+      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Salzedas. Somos especialistas em casas de xisto e granito com canalizações antigas e sistemas de drenagem em zona de Douro Sul. Orçamento por escrito antes de qualquer trabalho."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Salzedas?",
@@ -100,7 +100,7 @@ export default function Salzedas() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🚰</div><h3 className="text-xl font-bold text-gray-900 mb-3">Desentupimentos</h3><p className="text-gray-600 mb-4">Especialistas em casas de xisto e granito com canalizações antigas e sistemas de drenagem em zona de Douro Sul.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Esgotos interiores e exteriores</li><li>✓ Sanitas e lavatórios</li><li>✓ Alta pressão e sonda mecânica</li><li>✓ Fossas sépticas</li></ul></div>
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">💧</div><h3 className="text-xl font-bold text-gray-900 mb-3">Fugas de Água 24h</h3><p className="text-gray-600 mb-4">Deteção sem destruição desnecessária.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Fugas em paredes e pavimentos</li><li>✓ Tubagens PEX e PVC</li><li>✓ Urgências 24h/7 dias</li><li>✓ Garantia 12 meses</li></ul></div>
-              <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🏡</div><h3 className="text-xl font-bold text-gray-900 mb-3">Instalações Sanitárias</h3><p className="text-gray-600 mb-4">Casas de banho, cozinhas e esquentadores.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Substituição de tubagens antigas</li><li>✓ Esquentadores e termoacumuladores</li><li>✓ Orçamento gratuito</li><li>✓ Garantia 12 meses</li></ul></div>
+              <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🏡</div><h3 className="text-xl font-bold text-gray-900 mb-3">Instalações Sanitárias</h3><p className="text-gray-600 mb-4">Casas de banho, cozinhas e esquentadores.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Substituição de tubagens antigas</li><li>✓ Esquentadores e termoacumuladores</li><li>✓ Orçamento por escrito</li><li>✓ Garantia 12 meses</li></ul></div>
             </div>
           </div>
         </section>
@@ -110,7 +110,7 @@ export default function Salzedas() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Salzedas e arredores</h2>
               <p className="text-gray-600 mb-4">Salzedas é uma aldeia histórica do concelho de Tarouca, junto ao Mosteiro de Salzedas, com casas de xisto e granito do Douro Sul. Conhecemos bem as particularidades hidráulicas: casas de xisto e granito com canalizações antigas e sistemas de drenagem em zona de Douro Sul.</p>
-              <p className="text-gray-600 mb-4">Cobrimos Salzedas e toda a área de Tarouca. Deslocação 55€ (Zona 5). Mão de obra 65€/h. Orçamento gratuito.</p>
+              <p className="text-gray-600 mb-4">Cobrimos Salzedas e toda a área de Tarouca. Deslocação 55€ (Zona 5). Mão de obra 65€/h. Orçamento por escrito.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Cobertura em <span className="text-blue-600">Salzedas</span></h3>
@@ -140,7 +140,7 @@ export default function Salzedas() {
         <section className="py-16 bg-gradient-to-r from-gray-900 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Canalizador em <span className="text-blue-300">Salzedas</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 55€. Orçamento gratuito. Garantia 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 55€. Orçamento por escrito. Garantia 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-10 py-4 rounded-lg text-lg transition-colors">🔧 {businessInfo.phoneFormatted}</a>
               <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um canalizador em Salzedas`} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
