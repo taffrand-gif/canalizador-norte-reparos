@@ -23,7 +23,7 @@ export default function Sendim() {
     },
     {
       question: "Fazem desentupimentos em Sendim?",
-      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Sendim. Somos especialistas em casas raiana e quintas com sistemas de bombagem do Douro. Usamos máquinas de alta pressão. Orçamento gratuito antes de qualquer trabalho."
+      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Sendim. Somos especialistas em casas raiana e quintas com sistemas de bombagem do Douro. Usamos máquinas de alta pressão. Orçamento por escrito antes de qualquer trabalho."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Sendim?",
@@ -195,7 +195,7 @@ export default function Sendim() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Sendim e arredores</h2>
                 <p className="text-gray-600 mb-4">Sendim é uma vila raiana do concelho de Miranda do Douro, conhecida pelos mirandeses e pelas suas quintas junto ao Douro Internacional. Conhecemos bem as particularidades hidráulicas desta zona: casas raiana e quintas com sistemas de bombagem do Douro, calcário nas canalizações e sistemas de drenagem que necessitam de manutenção regular.</p>
                 <p className="text-gray-600 mb-4">Cobrimos Sendim e toda a área envolvente de Miranda do Douro. Disponíveis 24h incluindo fins de semana e feriados.</p>
-                <p className="text-gray-600">Deslocação 45€ (Zona 4). Mão de obra 65€/h. Orçamento gratuito antes de qualquer trabalho.</p>
+                <p className="text-gray-600">Deslocação 45€ (Zona 4). Mão de obra 65€/h. Orçamento por escrito antes de qualquer trabalho.</p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Cobertura em <span className="text-blue-600">Sendim</span></h3>
@@ -235,7 +235,7 @@ export default function Sendim() {
         <section className="py-16 bg-gradient-to-r from-gray-900 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Canalizador em <span className="text-blue-300">Sendim</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 45€. Orçamento gratuito. Garantia de 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 45€. Orçamento por escrito. Garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-10 py-4 rounded-lg text-lg transition-colors">🔧 {businessInfo.phoneFormatted}</a>
               <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um canalizador em Sendim`} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

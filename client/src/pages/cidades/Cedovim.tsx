@@ -23,7 +23,7 @@ export default function Cedovim() {
     },
     {
       question: "Fazem desentupimentos em Cedovim?",
-      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Cedovim. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento gratuito e sem compromisso."
+      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Cedovim. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito e sem compromisso."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Cedovim?",

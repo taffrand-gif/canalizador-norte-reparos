@@ -24,7 +24,7 @@ document.title = "💧 Canalizador Bragança — Orçamento Grátis | Garantia E
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador profissional em Bragança e arredores. Fugas de água, desentupimentos, urgências 24h. Orçamento gratuito. Ligue 928 484 451.');
+ metaDescription.setAttribute('content', 'Canalizador profissional em Bragança e arredores. Fugas de água, desentupimentos, urgências 24h. Orçamento por escrito. Ligue 928 484 451.');
  // SEO meta keywords
  let metaKeywords = document.querySelector('meta[name="keywords"]');
  if (!metaKeywords) {

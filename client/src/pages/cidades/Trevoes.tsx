@@ -23,7 +23,7 @@ export default function Trevoes() {
     },
     {
       question: "Fazem desentupimentos em Trêvões?",
-      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Trêvões. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento gratuito e sem compromisso."
+      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Trêvões. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito e sem compromisso."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Trêvões?",
