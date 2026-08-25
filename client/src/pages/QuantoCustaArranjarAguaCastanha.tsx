@@ -229,7 +229,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
  {[
- { icon: CheckCircle, text: "Deslocação gratuita em Trás-os-Montes" },
+ { icon: CheckCircle, text: "Deslocação por zona Z1-Z6 (15-65€) em Trás-os-Montes" },
  { icon: CheckCircle, text: "Diagnóstico completo da causa" },
  { icon: CheckCircle, text: "Mão-de-obra especializada" },
  { icon: CheckCircle, text: "Material básico necessário" },
