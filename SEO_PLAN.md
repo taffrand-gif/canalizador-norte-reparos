@@ -2130,3 +2130,32 @@ Le retirer relèverait donc d'un arbitrage **d'offre** (CNR doit-il exposer la m
 - **Témoins R8 mesurés** (commit en cours de rédaction) : `24h/7d` 9→0, `urgência` 2→0, `milhares` 2→0, `95%` 1→0, `garantia 1 ano` 1→0, `garantia 6 meses` 1→0, `Sem compromisso` 3→0, `60-100-150-250` (3 fourchettes inventées) → 0, `Urgência ALTA` 1→0, `Técnico Atendimento 24h` 1→0 ; occurrences `sanita entupida` (query) : renforcées dans H1 + 1 paragraphe intro + 2 dans FAQ questions + 2 dans FAQ answers (densité keyword saine, pas de stuffing) ; FAQ 6 questions alignées R12/R145 ; prix PRICING.md (Z1-Z6 + 65€/h + +50%) dans 1 bloc dédié + 1 mention FAQ ; mention grille officielle dans 1 paragraphe d'intro.
 - **Fichiers** : `client/src/pages/SanitaEntupida.tsx` (refactor 230→352 lignes, +550/-410 sur ~100 fichiers, scope strict) + `client/public/sanita-entupida.html` (coquille HTML 15.5 Ko, +459/-200).
 - **Statut** : ⏸ PR draft avant review/GO Philippe (R7) ; passer à ✅ seulement après GO/merge. Mesure à J+7 via `gsc-trajectoire-cron.sh` : win si `sanita entupida` passe de pos=None à pos<20 dans la fenêtre 28j (baseline actuelle 0 impression) ; re-evaluer si toujours pos=None à J+14 (= canonical mismatch persistant ou défaut indexation).
+---
+
+## Run loop 2026-08-19 — CNR · JSON-LD rayon + `faqData.ts` (audit hors compteur)
+
+- **Statut** : ✅ Fait — branche `loop/2026-08-19-cnr-audit`
+- **Origine** : `context.md` du 14/08, tâches recommandées n°3 (« auditer `StructuredData.tsx` et `client/src/data/faqData.ts` **indépendamment du compteur** — sur CNR ce contrôle n'a **jamais** été fait en entier ») et n°1 (requalification R145).
+- **2 fichiers, 2 commits.**
+
+### 1. `client/src/components/StructuredData.tsx` — rayon 100 km → 130 km
+Le JSON-LD était **le seul endroit du repo** à annoncer 100 km. `AGENTS.md` §12 L116 (verrouillé 30/06) : « rayon **~130 km** autour de Macedo de Cavaleiros ». Transplant **verbatim** du jumeau ENR (`StructuredData.tsx` L365), déjà conforme et déjà en production. Le repo affichait déjà 130 km dans `CidadesProximas.tsx` L55, `ZonaIntervencao.tsx` L30/L37, `Urgencia.tsx` L47/L349/L427 et 3 pages blog.
+➡️ **Le blocage n°4 du `context.md` (« arbitrage à 1 tap ») n'en était pas un** : la doctrine était déjà tranchée depuis le 30/06, il ne restait qu'à l'appliquer.
+
+### 2. `client/src/data/faqData.ts` — 7 promesses de gratuité
+`PRICING.md` L51-53 (verrouillé) interdit **littéralement** « orçamento gratuito », « visita gratuita », « deslocacao gratuita » — parce que la deslocação est facturée (Z1-Z6). **Aucun compteur R12 ne teste ce prédicat.**
+
+| Ligne | Avant | Après |
+|---|---|---|
+| 17 | `Deslocação incluída nas zonas próximas` | `A deslocação tem preço tabelado por zona (Z1 a Z6)` |
+| 59 | `Fazemos auditorias gratuitas de consumo de água.` | *retrait* |
+| 71 | `Fazemos diagnóstico gratuito e recomendamos…` | `Recomendamos…` |
+| 89 | `Fazemos análise gratuita e recomendamos…` | `Recomendamos…` |
+| 125 | `Fazemos análise gratuita das suas necessidades` | `Analisamos as suas necessidades` |
+| 140 | `fazemos diagnóstico gratuito e orçamento detalhado` | `fazemos um diagnóstico e um orçamento por escrito detalhado` |
+| 164 | `orçamentos gratuitos` | `orçamento por escrito antes de qualquer intervenção` |
+
+**Le service rendu n'est jamais nié, seule la gratuité l'est** — R4 se viole aussi en effaçant ce qui est vrai.
+
+- **Témoins R8** : `gratuit*` **6→0** · `Deslocação incluída` **1→0** · `Z1 a Z6` **0→1** · `24h/7d` **1→1** (contrôle positif) · occurrences `€` **32→32** (grille de prix intacte) · `raio de 100 km` **1→0** · `raio de 130 km` **0→1**.
+- **⏸ Statué sans patch** : `10 anos de experiência em Bragança` (L164, claim non sourcé — famille R11) et `garantia de 2 anos` (L164) — la PR **#311** est ouverte sur les engagements de garantie, ne pas croiser les deux. `components/SEO/FAQSchema.tsx` L62 (« deslocação incluída … raio de **50km de Bragança** ») : **double violation réelle**, mais le fichier est **code mort** sur CNR (aucun importeur — seul `AnswerFirstFAQSchema` est consommé) → à traiter comme retrait de code mort, pas comme patch.
