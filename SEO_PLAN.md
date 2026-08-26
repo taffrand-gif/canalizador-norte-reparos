@@ -19,7 +19,7 @@
 > Corrige les chiffres périmés. File d'action 12 lots + détail : `~/work/Sites/MONOPOLE_SEO_2026Q3.md`.
 - 🟢 **Services FAUX** : 4 fichiers résiduels seulement (bas risque). 0 page dédiée.
 - ✅ **P0.3 faux avis** : `GoogleReviews.tsx` = placeholder honnête (ligne 1 « Placeholder honnête — R11 ZÉRO INVENTION », corps « Ainda estamos a recolher os primeiros testemunhos verificados » + CTA WhatsApp) ; `aggregateRating` 0 occ. dans `client/` ; `Testimonials.tsx`/`EmergencyTestimonials.tsx` n'existent plus ; PR **#106 [M5]** mergée 2026-07-01 (commit `1b1632020e`) ; lot PR **#92** R12 purge `review` JSON-LD dans 33 fichiers blog mergée 2026-07-01. Vérif reprise 2026-08-17 (t_616986a8) : **R11 plus ACTIVE**. À débloquer la prochaine fois que des avis RÉELS arrivent (chantier M4).
-- 🔴 **P3.1 maillage** : hubs `concelhos/`+`distritos/` = 2 liens sortants vs 10-30 (audit M6 01/07). **Lot 4** → grilles zone-grid (localités réelles only, R11/R5).
+- 🟡 **P3.1 maillage (corrigé t_135779a1)** : hubs `concelhos/`+`distritos/` — recompte live propre 2026-08-17 (t_135779a1, regex étendue `/concelhos|/distritos|/canalizador-`, ciblage **dernier** bloc `zone-grid` du fichier) : **32/32 hubs portent zone-grid**. **Concelhos** (27/27) : 714 liens, min=10, max=49, moy=26.4 → ✅ cible 10-30 largement dépassée (post-#251 vague finale Vila Real 03/08 commit `6efa5858b3`). **Distritos** (5/5) : 29 liens, min=2, max=14, moy=5.8 → ❌ **3/5 sous cible** (douro=2, viseu=2, vila-real=5 ; braganca=6, tras-os-montes=14). Source de vérité géographique : `~/work/Sites/_audit/zonas-distances-concelhos.json` (TomTom 14/07/2026) → Bragança 12 concelhos, Guarda 1, Vila Real 14, **Viseu 6** (armamar, lamego, penedono, sao-joao-da-pesqueira, sernancelhe, tabuaco — **0 n'existent dans `/concelhos/`**), **Douro 0** (la page `distritos/douro.html` est un artefact orphelin, R5 hors-périmètre P3.1). **Périmètre strict applicable** : seul `distritos/vila-real.html` (5 → 11+ concelhos Vila Real existants) ; **douro.html** et **viseu.html** **BLOQUÉS** par R11 (0 page concelho cible) + R5 (Douro artefakt). **Lot 4 zone-grid = PARTIELLEMENT RÉSOLU** côté concelhos ; côté distritos = chantier à GO Philippe (créer 5 pages concelhos Viseu manquantes OU retirer pages distrito artefacts, OU déclarer district "Douro" en R5 si réel). Voir leçon no-op-auto #nov-22 plus bas + **leçon #447 (recompte live strict) à enrichir**. PR draft `feat/cnr-p31-distrito-vila-real-t_135779a1` ouverte — attente GO Philippe (R7).
 - 🔤 **Mots-clés (P6)** : `shared/seoKeywords.ts` **contamine l'intent** — cible `canalizador urgente`/`24h`/`resposta prioritária` (R145) sur un site installation → cannibalise le domaine urgente + viole R145. **Lot 6a** : réparer (install = kw installation only) + pilote `canalizador×Bragança` (recon Google gratuit : autocomplete/PAA/SERP). Voir master P6.
 - ⏭️ Suite : P0.2 différenciation vs urgente, P2.1 page prix citable, P5.2 actif "Observatório de preços" (=backlinks+GEO).
 
@@ -238,6 +238,26 @@ J'aurais dû faire cet audit AVANT de patcher Hero.tsx. C'est la 2e fois que je 
 **Conformité** : R5 ✅ (géo-neutre strict, propriétés larges uniquement). R15 ✅ (1 fichier, -24 lignes). R16 ✅ (build 4.07s, tsc OK). PR #74 mergée via R7-bis (squash).
 
 **Violations A5-2 restantes** : 8/10 → voir backlog ci-dessous.
+
+#### ✅ A5-2.1 — RE-VÉRIF (kanban t_d1d08226, 17/08/2026 13h00 BST) — NO-OP LÉGITIME
+
+**Déclencheur** : carte kanban t_d1d08226 = « SEO_PLAN ligne 199, chantier A5-2 item #2 (L55-58 streetAddress + postalCode dans PostalAddress), flag R5 ».
+
+**Recompte live 17/08/2026 13h00 BST** sur `client/src/components/StructuredData.tsx` (worktree courant, branche `docs/seo-plan-p03-faux-avis-noop-t_616986a8` propre, ahead origin/main 1 commit = PR P0.3 faux-avis no-op séparée) :
+
+| Témoin R8 (re-vérif) | A5-2.1 LIVRÉ (30/06) | 17/08/2026 |
+|---|---|---|
+| `streetAddress` dans StructuredData.tsx | **0** ✅ | **0** ✅ (recopé via `grep -c`) |
+| `postalCode` dans StructuredData.tsx | **0** ✅ | **0** ✅ |
+| `latitude 41.5362124` (Macedo précise) | **0** ✅ | **0** ✅ |
+| `longitude -6.9560267` (Macedo précise) | **0** ✅ | **0** ✅ |
+| `geoMidpoint` | **0** ✅ | **0** ✅ |
+
+**Décision** : chantier A5-2 item #2 (R5 streetAddress + postalCode) **toujours conforme**, 0 régression depuis 30/06/2026. Aucune PR ouverte. Les occurrences `streetAddress` / `postalCode` résiduelles dans `client/src/pages/cidades/*.tsx` (50 fichiers) consomment `napConfig.ts` qui expose des PostalAddress **par ville** (postalCode commune, pas rue précise) — c'est l'usage pSEO légitime prévu, **pas une violation R5** (R5 vise les rues/adresses personnelles Filipe, pas les codes postaux communaux publiés par les CTT).
+
+**R8 réconcilié** : ✅ — `dist/public/` regénéré conforme.
+
+**LEÇON #LECON-t_d1d08226** : quand une carte kanban cite un numéro de ligne historique (L55-58) datant d'avant plusieurs PRs (PR #74 = 30/06, on est le 17/08, ~7 semaines et ~100+ commits plus tard), **toujours recompter sur le tree courant avant d'agir**. La table A5-2 ligne 199 = snapshot audit 30/06, pas un TODO ouvert. Pattern identique à t_616986a8 (P0.3 faux-avis) qui était aussi déjà FAIT.
 
 ### ✅ A5-2.4 — LIVRÉ (PR #76, commit `fd0636e72`, 30/06/2026)
 
