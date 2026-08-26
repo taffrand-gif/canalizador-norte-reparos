@@ -11,7 +11,6 @@ interface GuaranteeBoxProps {
  title: string;
  subtitle: string;
  guarantees: Guarantee[];
- mainGuarantee: string;
  ctaText?: string;
  phone: string;
  showCTA?: boolean;
@@ -25,7 +24,6 @@ function GuaranteeBox({
  title,
  subtitle,
  guarantees,
- mainGuarantee,
  ctaText = "GARANTIR SERVIÇO AGORA",
  phone,
  showCTA = true
@@ -36,9 +34,6 @@ function GuaranteeBox({
  <div className="max-w-6xl mx-auto">
  {/* Section Header */}
  <div className="text-center mb-12">
- <div className="inline-block bg-green-600 text-white px-6 py-2 rounded-full font-bold text-sm mb-4">
- 100% GARANTIDO
- </div>
  <h2 className="text-3xl md:text-5xl font-black text-gray-900 mb-4">
  {title}
  </h2>
@@ -50,7 +45,7 @@ function GuaranteeBox({
  <div className="bg-gradient-to-r from-green-600 to-green-700 text-white p-8 rounded-2xl text-center mb-12 shadow-xl">
  <Shield className="w-16 h-16 mx-auto mb-4" />
  <h3 className="text-3xl md:text-4xl font-black mb-2">
- {mainGuarantee}
+ {""}
  </h3>
  <p className="text-lg opacity-90">
  Se não ficar 100% satisfeito, devolvemos o seu dinheiro. Sem perguntas.
@@ -75,14 +70,14 @@ function GuaranteeBox({
  {guarantee.description}
  </p>
  </div>
- );
+);
  })}
  </div>
  {/* Trust Badges */}
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
  <div className="text-3xl font-black text-green-600 mb-1">2 Anos</div>
- <div className="text-sm text-gray-700 font-semibold">Garantia Total</div>
+ <div className="text-sm text-gray-700 font-semibold"></div>
  </div>
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
  <div className="text-3xl font-black text-blue-600 mb-1">Atendimento 24h/7d</div>
@@ -113,9 +108,9 @@ function GuaranteeBox({
  Orçamento 100% gratuito • Sem compromisso • A confirmar
  </p>
  </div>
- )}
+)}
  </div>
  </section>
- );
+);
 }
 export default React.memo(GuaranteeBox);

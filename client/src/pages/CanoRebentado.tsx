@@ -91,7 +91,6 @@ export default function CanoRebentado() {
  title="Como Paramos a Inundação Disponível 24h/7 dias"
  subtitle="Resposta de emergência. Rápida, eficaz, profissional."
  totalTime="20-alguns minutos"
- guaranteeText="Paramos a inundação ou não paga. Garantia total."
  steps={[
  {
  time: 'A confirmar',
@@ -127,7 +126,6 @@ export default function CanoRebentado() {
  <GuaranteeBox
  title="Garantias de Emergência"
  subtitle="Em situações de emergência, garantimos A confirmar e eficaz."
- mainGuarantee="Paramos a Inundação Disponível 24h/7 dias"
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
@@ -182,14 +180,14 @@ export default function CanoRebentado() {
  },
  {
  q: 'Dão garantia em arranjos de emergência?',
- a: 'Sim! Todas as arranjos têm garantia de 2 anos, incluindo arranjos de emergência. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Trabalho profissional com garantia total.'
+ a: 'Sim! Todas as arranjos têm garantia de 2 anos, incluindo arranjos de emergência. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Trabalho profissional com .'
  }
  ].map((item, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">
  <h3 className="font-bold text-xl text-gray-900 mb-3">{item.q}</h3>
  <p className="text-gray-700 leading-relaxed">{item.a}</p>
  </div>
- ))}
+))}
  </div>
  </div>
  </section>
@@ -225,5 +223,5 @@ export default function CanoRebentado() {
  </section>
  <Footer />
  </>
- );
+);
 }
