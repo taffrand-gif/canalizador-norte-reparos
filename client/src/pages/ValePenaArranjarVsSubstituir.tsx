@@ -129,7 +129,7 @@ export default function ValePenaArranjarVsSubstituir() {
  <>
  <Helmet>
  <title>Vale a Pena Arranjar ou Substituir? Guia Completo 2026 | 928 484 451</title>
- <meta name="description" content="Vale a pena arranjar ou substituir? Guia completo: esquentador, caldeira, canos, sanita. Critérios decisão + comparação custos. Orçamento grátis: 928 484 451" />
+ <meta name="description" content="Vale a pena arranjar ou substituir? Guia completo: esquentador, caldeira, canos, sanita. Critérios decisão + comparação custos. Orçamento por escrito: 928 484 451" />
  </Helmet>
  <Header />
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
