@@ -5,8 +5,10 @@
 ## Dernier run
 - Date : 2026-08-27
 - Tâche prévue : **rang 3 — les 27 interpolations JSX des 5 fichiers `client/public/` réservés**. ✅ **Exécutée.**
-- **1 PR ouverte** :
-  - **#330** — https://github.com/taffrand-gif/canalizador-norte-reparos/pull/330 — branche `loop/2026-08-27-cnr-interpolations-5-fichiers` — 6 commits, **5 fichiers de production** + `SEO_PLAN.md`
+- **PR #330** — https://github.com/taffrand-gif/canalizador-norte-reparos/pull/330 — branche `loop/2026-08-27-cnr-interpolations-5-fichiers` — 6 commits, **5 fichiers de production** + `SEO_PLAN.md`
+  - ✅ **MERGÉE PAR PHILIPPE à 02:30, cinq minutes après ouverture, pendant le run** (squash `268d6363ce`, branche supprimée). **Les 5 pages sont en production.**
+  - 🔴 **R7 intacte** : le loop n'a exécuté aucune commande de merge. L'auteur du commit de squash est `taffrand-gif`, celui du commit de `context.md` est `Kanban Pool` — **la distinction d'auteur est la preuve.**
+  - ⚠️ **Conséquence de méthode** : le contrôle de fin de run `gh pr list --state open` a rendu **0 PR pour CNR** — un compteur à zéro qui ressemblait à un échec de push. **Un contrôle de fin de run doit interroger `--state all`, pas `--state open` : une PR peut merger pendant le run.**
 - Branche partie de `github/main` = `122407645c`.
 
 ### 🟢 ÉVÉNEMENT MAJEUR DU RUN — le stock de PR est vide
@@ -70,7 +72,21 @@ Périmètre : `client/ server/ shared/ public/ api/ src/`, **hors `.md`**, hors 
 3. **Arbitrage `10 anos` vs `12 anos`** — une ligne de réponse débloque 88 occurrences.
 4. Uniformisation `tel:` avec/sans `+351`.
 
+## 🌐 Synthèse inter-repos du 2026-08-27 (mesure identique sur les 4)
+Même prédicat, même fenêtre (60 c), même exclusion de la doctrine racine :
+
+| Repo | `orçamento`↔`gratuit` | Fichiers | Type de site |
+|---|---:|---:|---|
+| **CNR** | **4 701** | **2 037** | installation |
+| **ENR** | **3 700** | **1 678** | installation |
+| **EU** | **181** | **144** | urgence |
+| **CU** | **110** | **100** | urgence |
+
+🔴 **Le clivage sépare les sites d'INSTALLATION (~4 000 occ. chacun) des sites d'URGENCE (~150 chacun) — facteur ~30.** L'hypothèse portée par les `context.md` du 25/08 (« les 4 compteurs ont la même origine ») est **infirmée par deux mesures indépendantes**. ➡️ **Il y a au moins DEUX chaînes de génération à auditer, pas une.** Le GO périmètre `gratuit` ne concerne que CNR et ENR ; sur CU et EU, c'est un run de nuit ordinaire.
+
 ## Apprentissages (self-improving)
+- 🔴 **NOUVEAU — un contrôle de fin de run doit interroger `--state all`, pas `--state open`.** La #330 a mergé **pendant** le run : le contrôle final a rendu **0 PR ouverte pour CNR**, ce qui ressemblait exactement à un échec de push. **Un zéro en fin de run doit distinguer « rien produit » de « déjà mergé ».**
+- 🔴 **NOUVEAU — une extrapolation inter-repos est une hypothèse, pas un résultat.** Voir §Synthèse inter-repos : le même prédicat varie d'un facteur 30 selon le type de site. **Ne jamais demander un GO sur un volume extrapolé.**
 - 🔴 **NOUVEAU — un blocage « mécanique » n'est pas un arbitrage : il se re-teste à chaque run.** Le rang 3 attendait un **merge**, pas un GO. Trois runs l'ont reconduit comme « bloqué » ; une seule commande (`gh pr list --state open`) l'a levé. ➡️ **Toujours écrire, à côté d'un blocage, PAR QUOI il tombe** — un merge, un GO, une mesure. Un blocage sans condition de levée se reconduit indéfiniment.
 - 🔴 **NOUVEAU — quand une PR corrige la source, vérifier immédiatement les jumeaux générés.** #319 a porté `100 km` → `130 km` dans `StructuredData.tsx`… et a laissé **22 occurrences de `100 km`** dans `client/public/`. La production **se contredit elle-même**. ➡️ **Toute PR qui touche une valeur de configuration doit compter la même valeur dans `client/public/` avant d'être déclarée close.**
 - 🔴 **NOUVEAU — un `${…}` dans un `<script>` n'est pas un défaut.** Le compteur brut annonçait 21 occurrences sur 7 fichiers ; 6 d'entre elles (`calculadora-de-preco.html`) sont du **JavaScript valide**. Sans exclusion de `<script>`, le run patchait du code sain. ➡️ **Tout prédicat sur du HTML doit énoncer s'il exclut `<script>` et les commentaires.**
