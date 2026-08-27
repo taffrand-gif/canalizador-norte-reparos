@@ -380,7 +380,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </a>
  </div>
  <p className="text-sm text-gray-600 mt-4">
- Orçamentos gratuitos e sem compromisso para toda a região de Trás-os-Montes
+ Orçamentos por escrito e sem compromisso para toda a região de Trás-os-Montes
  </p>
  </div>
  </div>
@@ -419,7 +419,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <p className="text-gray-700">
  Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias 
  superiores a 25km do centro operacional do canalizador. A taxa média é de <strong>0,50€/km</strong> 
- (ida e volta). Alguns profissionais incluem deslocação gratuita até certa distância ou para orçamentos 
+ (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos 
  acima de determinado valor (ex: gratuita para serviços acima de 200€). 
  <strong>Sempre pergunte sobre política de deslocações antes de marcar a visita.</strong>
  </p>
@@ -468,7 +468,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "name": "É normal pagar deslocação separada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias superiores a 25km do centro operacional. A taxa média é de 0,50€/km (ida e volta). Alguns profissionais incluem deslocação gratuita até certa distância ou para orçamentos acima de determinado valor. Sempre pergunte sobre política de deslocações antes de marcar a visita."
+ "text": "Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias superiores a 25km do centro operacional. A taxa média é de 0,50€/km (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos acima de determinado valor. Sempre pergunte sobre política de deslocações antes de marcar a visita."
  }
  }
  ]

@@ -136,7 +136,7 @@ export default function Lalim() {
               <div>
                 <p className="text-sm text-blue-700 font-semibold">Mão de obra</p>
                 <p className="text-2xl font-bold text-blue-900">65€/h</p>
-                <p className="text-xs text-blue-600">Orçamento grátis</p>
+                <p className="text-xs text-blue-600">Orçamento por escrito</p>
               </div>
             </div>
           </section>

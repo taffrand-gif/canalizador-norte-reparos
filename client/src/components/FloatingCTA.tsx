@@ -86,7 +86,7 @@ export default function FloatingCTA() {
  </a>
  {/* Pequeno texto com prova social */}
  <p className="text-xs text-gray-600 text-center mt-2 font-semibold">
- ✓ Orçamento grátis • ✓ Sem compromisso
+ ✓ Orçamento por escrito • ✓ Sem compromisso
  </p>
  </div>
  </div>

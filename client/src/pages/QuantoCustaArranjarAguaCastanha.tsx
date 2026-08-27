@@ -99,7 +99,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  <>
  <Helmet>
  <title>Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026 | 928 484 451</title>
- <meta name="description" content="Água castanha da torneira? Preços arranjo 2026: 40-150€. Causas: ferrugem, canos velhos, sedimentos. Orçamento grátis: 928 484 451" />
+ <meta name="description" content="Água castanha da torneira? Preços arranjo 2026: 40-150€. Causas: ferrugem, canos velhos, sedimentos. Orçamento por escrito: 928 484 451" />
  <script type="application/ld+json">
  {JSON.stringify(schemaData)}
  </script>
