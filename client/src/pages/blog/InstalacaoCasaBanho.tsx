@@ -88,7 +88,7 @@ export default function InstalacaoCasaBanho() {
  {
  numero: 2,
  titulo: "Demolição e Remoção",
- descricao: "Retirar sanitários antigos, azulejos e parranjar espaço.",
+ descricao: "Retirar sanitários antigos, azulejos e preparar espaço.",
  duracao: "1-2 dias",
  custo: "€300-600"
  },
