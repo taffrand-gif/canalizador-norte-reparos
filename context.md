@@ -39,7 +39,7 @@ Périmètre : `client/ server/ shared/ public/ api/ src/`, **hors `.md`**, hors 
 | `Orçamento gratuito` littéral | 2867 | 1434 |
 | `orçamento (é\|sempre) gratuito` | 583 | 559 |
 | `Atendimento 24h` | 408 | 254 |
-| **`raio de 100 km`** | **22** | **16** |
+| **`raio de 130 km`** | **22** | **16** |
 | corruption `*Parranj*` | 164 | 68 |
 | `10 anos` | 62 | 49 |
 | `Você` | 48 | 39 |
@@ -53,7 +53,7 @@ Périmètre : `client/ server/ shared/ public/ api/ src/`, **hors `.md`**, hors 
 | Rang | Cible | Statut |
 |---|---|---|
 | — | 27 interpolations JSX des 5 fichiers réservés | ✅ **traité ce run (#330)** |
-| **1** | 🔴 **`raio de 100 km` — 22 occ. / 16 fichiers.** **CONTRADICTION EN PRODUCTION** : `client/src/components/StructuredData.tsx` dit déjà **130 km** (L62, L96, L323, corrigé par #319 mergée), mais les jumeaux `client/public/` disent encore **100 km**. | 🟢 **AUCUN GO. Tâche du prochain run.** Valeur `130 km` **sourcée et déjà en production**. Fichiers : `areas-atuacao.html` (4), `sobre-mim.html` (3), `todas-perguntas-frequentes.html` (2), **`client/src/pages/Zonas.tsx` (1)**, `zonas.html`, `servicos.html`, `detecao-fugas-agua.html`, 6 pages `*-macedo-de-cavaleiros.html`, `blog/picheleiro-ou-canalizador-diferenca.html`, `blog/fuga-agua-urgente-braganca.html`. **Cas d'école source-duale : #319 a corrigé la source, pas les jumeaux.** |
+| **1** | 🔴 **`raio de 130 km` — 22 occ. / 16 fichiers.** **CONTRADICTION EN PRODUCTION** : `client/src/components/StructuredData.tsx` dit déjà **130 km** (L62, L96, L323, corrigé par #319 mergée), mais les jumeaux `client/public/` disent encore **100 km**. | 🟢 **AUCUN GO. Tâche du prochain run.** Valeur `130 km` **sourcée et déjà en production**. Fichiers : `areas-atuacao.html` (4), `sobre-mim.html` (3), `todas-perguntas-frequentes.html` (2), **`client/src/pages/Zonas.tsx` (1)**, `zonas.html`, `servicos.html`, `detecao-fugas-agua.html`, 6 pages `*-macedo-de-cavaleiros.html`, `blog/picheleiro-ou-canalizador-diferenca.html`, `blog/fuga-agua-urgente-braganca.html`. **Cas d'école source-duale : #319 a corrigé la source, pas les jumeaux.** |
 | **2** | 🔴 **Balises de composants JSX brutes dans `client/public/`** — `<EmotionalHero>`, `<GuaranteeBox>`, `<PainPointSection>`, `<FAQSection />`, `<Breadcrumbs />`… **des blocs entiers de contenu sont invisibles en production.** Symptôme mesurable : **0 `<h1>`** sur les 4 pages d'urgence. | 🛑 **GO requis.** Reconstruire le HTML rendu = invention (R4). **Plus gros défaut de CONTENU du repo.** |
 | **3** | 🔴 **Batch `orçamento`↔`gratuit` — 4701 occ. / 2037 fichiers.** Interdit **verbatim** par `PRICING.md` L51 | 🛑 **GO PÉRIMÈTRE requis.** Correctif prouvé et **mergé** (#327) : `Orçamento gratuito` → `Orçamento por escrito`. **Un GO d'une ligne débloque ~2000 fichiers.** |
 | **4** | **Corruption de prose `*Parranj*` — 164 occ. / 68 fichiers** (dont `Parranjo` = `Preparação`) | ⏳ **GO périmètre requis.** #329 a mergé 9129 corrections de texte ; **cette famille-ci a survécu**. |
@@ -67,7 +67,7 @@ Périmètre : `client/ server/ shared/ public/ api/ src/`, **hors `.md`**, hors 
 | — | `TrustBanner.tsx` · `SEOHead.tsx` · `CalculadorPreco.tsx` · `Blog.tsx` · `Equipa.tsx` | ⏸ `24h/7 dias` est **autorisé** par R145 |
 
 ## Tâche suivante recommandée
-1. 🟢 **`raio de 100 km` → `130 km`, 22 occ. / 16 fichiers.** **Aucun GO, valeur sourcée, correctif déterministe.** ⚠️ Traiter `client/src/pages/Zonas.tsx` **et** les 15 jumeaux `client/public/` dans le même run — sinon on refait exactement l'erreur de #319.
+1. 🟢 **`raio de 130 km` → `130 km`, 22 occ. / 16 fichiers.** **Aucun GO, valeur sourcée, correctif déterministe.** ⚠️ Traiter `client/src/pages/Zonas.tsx` **et** les 15 jumeaux `client/public/` dans le même run — sinon on refait exactement l'erreur de #319.
 2. 🔴 **Poser à Philippe les DEUX GO d'une ligne** : rang 2 (JSX brut servi en production) et rang 3 (batch `orçamento~gratuit`, ~2000 fichiers, correctif déjà mergé en #327).
 3. **Arbitrage `10 anos` vs `12 anos`** — une ligne de réponse débloque 88 occurrences.
 4. Uniformisation `tel:` avec/sans `+351`.

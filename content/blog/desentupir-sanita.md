@@ -484,5 +484,5 @@ Sanita que entope frequentemente indica **problema estrutural**: (1) Cano de esg
 **Urgente** se: (1) Sanita é a única casa de banho da habitação, (2) Entupimento afeta vários sanitários, (3) Há refluxo de água suja ou risco de inundação. **Pode esperar** se: (1) Há outra casa de banho disponível, (2) Entupimento é parcial (água desce lentamente), (3) Sem risco de danos. Serviço 24h disponível em Trás-os-Montes: **+351 928 484 451**.
 
 ### Vocês desentupem sanitas em todas as cidades de Trás-os-Montes?
-Sim. Servimos **Bragança, Mirandela, Macedo de Cavaleiros, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso, Montalegre, Chaves, Vila Real, Lamego** e todas as aldeias num raio de 100km de Macedo de Cavaleiros.
+Sim. Servimos **Bragança, Mirandela, Macedo de Cavaleiros, Vinhais, Miranda do Douro, Mogadouro, Torre de Moncorvo, Freixo de Espada à Cinta, Valpaços, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Vimioso, Montalegre, Chaves, Vila Real, Lamego** e todas as aldeias num raio de 130 km de Macedo de Cavaleiros.
 

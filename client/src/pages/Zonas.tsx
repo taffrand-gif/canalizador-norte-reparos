@@ -67,7 +67,7 @@ export default function Zonas() {
  }
  metaDescription.setAttribute(
  'content',
- 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 100km desde a nossa base. Orçamento por escrito em 48h. Bragança, Vila Real, Chaves, Mirandela e toda a região.'
+ 'Canalizador profissional em 34 cidades de Trás-os-Montes. Raio de 130 km desde a nossa base. Orçamento por escrito em 48h. Bragança, Vila Real, Chaves, Mirandela e toda a região.'
  );
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -155,7 +155,7 @@ export default function Zonas() {
  </div>
  <div className="flex items-center">
  <MapPin className="w-6 h-6 mr-2" />
- <span>100km de raio</span>
+ <span>130 km de raio</span>
  </div>
  <div className="flex items-center">
  <Phone className="w-6 h-6 mr-2" />
