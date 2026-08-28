@@ -17,7 +17,7 @@ export default function ArranjacaoFugasAgua() {
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
  "name": "Arranjo de Fugas de Água", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
- "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "100000" },
+ "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "130000" },
  "description": "Serviço profissional de deteção e arranjo de fugas de água em Trás-os-Montes."
  };
  return (

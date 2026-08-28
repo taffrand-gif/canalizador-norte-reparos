@@ -17,7 +17,7 @@ export default function InstalacaoCanalizacao() {
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
  "name": "Instalação de Canalização Nova", "provider": { "@type": "Plumber", "name": "Norte Reparos", "telephone": ACTIVE_CONFIG.phone },
- "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "100000" },
+ "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.4393, "longitude": -6.9603 }, "geoRadius": "130000" },
  "description": "Instalação profissional de canalização nova para casas, apartamentos e comércios em Trás-os-Montes."
  };
  return (

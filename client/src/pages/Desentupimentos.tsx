@@ -47,7 +47,7 @@ export default function Desentupimentos() {
  "latitude": 41.5378,
  "longitude": -6.9603
  },
- "geoRadius": "100000"
+ "geoRadius": "130000"
  },
  "hasOfferCatalog": {
  "@type": "OfferCatalog",
