@@ -91,7 +91,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 - **Câmara de inspeção:** Para diagnóstico preciso
 
 ### Etapa 3: Execução do Serviço
-- Parranjo da área de trabalho
+- Preparo da área de trabalho
 - Aplicação do método escolhido
 - Verificação do resultado
 - Limpeza do local

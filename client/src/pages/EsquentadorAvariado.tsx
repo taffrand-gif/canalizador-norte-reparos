@@ -95,12 +95,12 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  {
  time: 'A confirmar',
  title: 'Liga e Descreve',
- description: 'Atendemos, fazemos perguntas sobre os sintomas. Já sabemos o que pode ser. Parranjamos peças.',
+ description: 'Atendemos, fazemos perguntas sobre os sintomas. Já sabemos o que pode ser. Preparamos peças.',
  icon: 'phone'
  },
  {
  time: 'A confirmar',
- title: 'Chegamos Parranjados',
+ title: 'Chegamos Preparados',
  description: 'Técnico especializado em esquentadores chega com ferramentas e peças comuns. Pronto para arranjar.',
  icon: 'map'
  },

@@ -107,7 +107,7 @@ tags: [arranjo fugas, água, técnicas, profissional, fugas]
 4. **Planeamento logístico** para minimizar transtornos
 
 ### Fase 3: Execução da Arranjo (4-48 horas)
-1. **Parranjo da área** com proteção de superfícies
+1. **Preparo da área** com proteção de superfícies
 2. **Acesso ao ponto** da fuga (mínimo necessário)
 3. **Arranjo propriamente dita** com técnicas adequadas
 4. **Testes de estanquidade** rigorosos

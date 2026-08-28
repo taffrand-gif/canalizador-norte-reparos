@@ -37,11 +37,11 @@ tags: ['instalação sanitários', 'preço', 'sanita', 'lavatório', 'banheira']
 
 ## Processo de Instalação Profissional
 
-### Fase 1: Parranjo (1-2 horas)
+### Fase 1: Preparo (1-2 horas)
 - Desmontagem do sanitário antigo
 - Verificação das canalizações existentes
 - Adaptação de conexões se necessário
-- Parranjo do suporte para sanitário suspenso
+- Preparo do suporte para sanitário suspenso
 
 ### Fase 2: Instalação (2-6 horas)
 - Colocação do novo sanitário
