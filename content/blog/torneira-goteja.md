@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A sua torneira não para de pingar?** Aquele "plic, plic, plic" constante não é apenas irritante — está a **desperdiçar água e dinheiro**. Uma torneira que goteja 1 gota por segundo desperdiça cerca de **20.000 litros por ano**, o que representa **€60-200 na fatura da água** em Trás-os-Montes.
 
-Neste guia completo, vamos explicar as **5 causas principais** que fazem uma torneira gotejar, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 15 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de torneiras a pingar.
+Neste guia completo, vamos explicar as **5 causas principais** que fazem uma torneira gotejar, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 20 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de torneiras a pingar.
 
 **📞 Torneira goteja e não consegue arranjar? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20torneira%20não%20para%20de%20gotejar.%20Podem%20ajudar%3F)**

@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A água sai fraca das suas torneiras?** Pressão de água insuficiente é um dos problemas mais frustrantes em casas de Trás-os-Montes. Tomar banho demora o dobro do tempo, lavar louça torna-se uma tarefa interminável, e máquinas de lavar podem não funcionar corretamente.
 
-Neste guia completo, vamos explicar as **8 causas principais** de pressão de água fraca, como identificar cada uma, e as soluções definitivas (DIY e profissionais). Com mais de 15 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de casos de baixa pressão.
+Neste guia completo, vamos explicar as **8 causas principais** de pressão de água fraca, como identificar cada uma, e as soluções definitivas (DIY e profissionais). Com mais de 20 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de casos de baixa pressão.
 
 **📞 Pressão de água fraca? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20pressão%20de%20água%20na%20minha%20casa%20está%20muito%20fraca.%20Podem%20ajudar%3F)**
