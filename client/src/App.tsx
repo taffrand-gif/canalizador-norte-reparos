@@ -12,6 +12,7 @@ import FloatingCTA from "./components/FloatingCTA";
 import MobileStickyBar from "./components/MobileStickyBar";
 import StructuredData from "./components/StructuredData";
 import SkipLink from "./components/SkipLink";
+import CookieConsent from "./components/CookieConsent";
 import OptimizedHome from "./pages/OptimizedHome";
 
 // Lazy load conversion widgets (below-fold)
@@ -290,6 +291,7 @@ function App() {
  <FloatingCTA />
 
  <MobileStickyBar />
+ <CookieConsent />
  </TooltipProvider>
  </LocationProvider>
  </SiteProvider>
