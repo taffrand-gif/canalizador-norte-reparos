@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **Precisa de substituir uma torneira velha ou danificada?** Seja por desgaste (goteja constantemente), estética (modelo desatualizado), ou funcionalidade (quer torneira mais eficiente), substituir uma torneira é uma tarefa **relativamente simples** que pode fazer sozinho ou com ajuda profissional.
 
-Neste guia completo, vamos explicar **como escolher a torneira adequada**, instalação passo a passo, ferramentas necessárias, custos reais, e quando chamar um picheleiro certificado. Com mais de 15 anos de experiência em canalizações na região de Bragança, já instalámos milhares de torneiras.
+Neste guia completo, vamos explicar **como escolher a torneira adequada**, instalação passo a passo, ferramentas necessárias, custos reais, e quando chamar um picheleiro certificado. Com mais de 20 anos de experiência em canalizações na região de Bragança, já instalámos milhares de torneiras.
 
 **📞 Quer substituir torneira? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20quero%20substituir%20uma%20torneira.%20Podem%20ajudar%3F)**

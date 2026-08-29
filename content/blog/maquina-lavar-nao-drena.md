@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A sua máquina de lavar terminou o ciclo mas ficou com água dentro?** Este é um dos problemas mais comuns e frustrantes em máquinas de lavar roupa em Trás-os-Montes. A água não drena, a roupa fica encharcada, e a máquina pode apresentar código de erro. Felizmente, **70% dos casos resolvem-se com limpeza simples** do filtro ou mangueira.
 
-Neste guia completo, vamos explicar as **7 causas principais** que impedem a drenagem, como identificar cada uma, e as soluções (DIY ou profissional). Com mais de 15 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de problemas de drenagem.
+Neste guia completo, vamos explicar as **7 causas principais** que impedem a drenagem, como identificar cada uma, e as soluções (DIY ou profissional). Com mais de 20 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de problemas de drenagem.
 
 **📞 Máquina não drena? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20máquina%20de%20lavar%20não%20drena%20água.%20Podem%20ajudar%3F)**

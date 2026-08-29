@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **Quer instalar uma banheira nova ou substituir a antiga?** Seja por renovação da casa de banho, substituição de banheira danificada, ou simplesmente porque quer adicionar este elemento de conforto, instalar uma banheira é um projeto **mais complexo que parece** mas perfeitamente viável com planeamento adequado.
 
-Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrílico vs ferro fundido), instalação passo a passo, custos reais, ligações de água e esgoto, e quando chamar um picheleiro certificado. Com mais de 15 anos de experiência em instalações em Trás-os-Montes, já instalámos centenas de banheiras.
+Neste guia completo, vamos explicar **como escolher a banheira adequada** (acrílico vs ferro fundido), instalação passo a passo, custos reais, ligações de água e esgoto, e quando chamar um picheleiro certificado. Com mais de 20 anos de experiência em instalações em Trás-os-Montes, já instalámos centenas de banheiras.
 
 **📞 Quer instalar banheira? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20quero%20instalar%20uma%20banheira.%20Podem%20ajudar%3F)**

@@ -13,7 +13,7 @@ priority: "SEASONAL"
 
 **Os tubos de água congelaram no inverno?** Em Trás-os-Montes, onde as temperaturas podem descer até **-5°C a -10°C** entre dezembro e fevereiro, tubos congelados são um problema comum e potencialmente grave. Água congelada expande-se, pode **rebentar tubos**, causar **inundações** quando descongela, e deixá-lo **sem água** durante dias.
 
-Neste guia completo, vamos explicar **como descongelar tubos com segurança**, prevenir congelamento, identificar tubos rebentados, e quando chamar um picheleiro de urgência. Com mais de 15 anos de experiência em canalizações na região de Bragança, já resolvemos centenas de casos de tubos congelados.
+Neste guia completo, vamos explicar **como descongelar tubos com segurança**, prevenir congelamento, identificar tubos rebentados, e quando chamar um picheleiro de urgência. Com mais de 20 anos de experiência em canalizações na região de Bragança, já resolvemos centenas de casos de tubos congelados.
 
 **📞 Tubo congelado ou rebentado? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20os%20meus%20tubos%20congelaram.%20Preciso%20de%20ajuda%20urgente.)**

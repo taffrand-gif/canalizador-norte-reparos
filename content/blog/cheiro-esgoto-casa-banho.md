@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A sua casa de banho tem um cheiro desagradável a esgoto?** Este é um dos problemas mais incómodos e embaraçosos em casas de Trás-os-Montes. O mau cheiro não só torna a casa de banho inutilizável, como se espalha por toda a casa, afetando o conforto e a qualidade de vida de toda a família.
 
-Neste guia completo, vamos explicar as **7 causas principais** de cheiro a esgoto na casa de banho, como identificar cada uma, e as soluções definitivas. Com mais de 15 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de casos de maus cheiros.
+Neste guia completo, vamos explicar as **7 causas principais** de cheiro a esgoto na casa de banho, como identificar cada uma, e as soluções definitivas. Com mais de 20 anos de experiência em canalizações na região de Bragança, já resolvemos milhares de casos de maus cheiros.
 
 **📞 Cheiro a esgoto insuportável? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20cheiro%20a%20esgoto%20na%20casa%20de%20banho.%20Podem%20ajudar%3F)**

@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **O seu autoclismo não para de encher ou faz barulho constantemente?** Este é um dos problemas mais comuns e caros em casas de banho de Trás-os-Montes. Um autoclismo que enche continuamente pode **desperdiçar 200-400 litros por dia**, representando **€100-300/ano na fatura da água** — e o barulho constante é extremamente irritante.
 
-Neste guia completo, vamos explicar as **6 causas principais** que fazem um autoclismo encher constantemente, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 15 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de autoclismos problemáticos.
+Neste guia completo, vamos explicar as **6 causas principais** que fazem um autoclismo encher constantemente, como identificar cada uma, e como arranjar (DIY ou profissional). Com mais de 20 anos de experiência em arranjos de canalizações na região de Bragança, já resolvemos milhares de autoclismos problemáticos.
 
 **📞 Autoclismo não para de encher? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20autoclismo%20não%20para%20de%20encher.%20Podem%20ajudar%3F)**

@@ -13,7 +13,7 @@ priority: "HIGH DEMAND"
 
 **A sua fossa séptica está cheia e causa maus cheiros ou entupimentos?** Em Trás-os-Montes, onde muitas casas em zonas rurais dependem de fossas sépticas (não têm rede pública de esgoto), a **manutenção regular** é essencial para evitar problemas graves: maus cheiros, entupimentos, contaminação do solo, e até multas.
 
-Neste guia completo, vamos explicar **os 7 sinais de fossa cheia**, com que frequência limpar (2-4 anos), custos reais, como funciona a limpeza, e manutenção preventiva. Com mais de 15 anos de experiência em canalizações na região de Bragança, já resolvemos centenas de problemas com fossas sépticas.
+Neste guia completo, vamos explicar **os 7 sinais de fossa cheia**, com que frequência limpar (2-4 anos), custos reais, como funciona a limpeza, e manutenção preventiva. Com mais de 20 anos de experiência em canalizações na região de Bragança, já resolvemos centenas de problemas com fossas sépticas.
 
 **📞 Fossa séptica cheia? Ligue já: [928 484 451](tel:+351928484451)** 
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20fossa%20séptica%20está%20cheia.%20Preciso%20de%20limpeza%20urgente.)**
