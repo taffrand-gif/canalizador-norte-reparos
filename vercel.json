@@ -1911,11 +1911,6 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-a-gudia",
-      "destination": "/canalizador-a-gudina",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-alfndega-da-fe",
       "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
@@ -2406,11 +2401,6 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-o-ri%C3%B3s",
-      "destination": "/canalizador-o-rios",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-ba%C3%A7al",
       "destination": "/canalizador-bacal",
       "statusCode": 301
@@ -2816,11 +2806,6 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-ferreruela-de-t%C3%A1bara",
-      "destination": "/canalizador-ferreruela-de-tabara",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-marzag%C3%A3o",
       "destination": "/canalizador-marzagao",
       "statusCode": 301
@@ -2948,11 +2933,6 @@
     {
       "source": "/canalizador-s%C3%A3o-crist%C3%B3v%C3%A3o-do-douro",
       "destination": "/canalizador-sao-cristovao-do-douro",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-vilardev%C3%B3s",
-      "destination": "/canalizador-vilardevos",
       "statusCode": 301
     },
     {

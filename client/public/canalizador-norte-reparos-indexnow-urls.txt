@@ -1099,8 +1099,6 @@ https://canalizador-norte-reparos.pt/canalizacao-urgencia-vila-real
 https://canalizador-norte-reparos.pt/canalizacao-urgencia-vimioso
 https://canalizador-norte-reparos.pt/canalizacao-urgencia-vinhais
 https://canalizador-norte-reparos.pt/canalizador-
-https://canalizador-norte-reparos.pt/canalizador-a-gudia
-https://canalizador-norte-reparos.pt/canalizador-a-mezquita
 https://canalizador-norte-reparos.pt/canalizador-abacas
 https://canalizador-norte-reparos.pt/canalizador-abambres
 https://canalizador-norte-reparos.pt/canalizador-abreiro
@@ -1118,7 +1116,6 @@ https://canalizador-norte-reparos.pt/canalizador-aguieira
 https://canalizador-norte-reparos.pt/canalizador-aguieiras
 https://canalizador-norte-reparos.pt/canalizador-ala
 https://canalizador-norte-reparos.pt/canalizador-albarellos
-https://canalizador-norte-reparos.pt/canalizador-alcaices
 https://canalizador-norte-reparos.pt/canalizador-alcarva
 https://canalizador-norte-reparos.pt/canalizador-aldeia-vicosa
 https://canalizador-norte-reparos.pt/canalizador-aldeias
@@ -1437,7 +1434,6 @@ https://canalizador-norte-reparos.pt/canalizador-castelo-branco
 https://canalizador-norte-reparos.pt/canalizador-castelo-de-balsamao
 https://canalizador-norte-reparos.pt/canalizador-castelo-melhor
 https://canalizador-norte-reparos.pt/canalizador-castelo-rodrigo
-https://canalizador-norte-reparos.pt/canalizador-castrelo-do-val
 https://canalizador-norte-reparos.pt/canalizador-castrelos
 https://canalizador-norte-reparos.pt/canalizador-castro-de-avelas
 https://canalizador-norte-reparos.pt/canalizador-castro-roupal
@@ -1692,7 +1688,6 @@ https://canalizador-norte-reparos.pt/canalizador-failde
 https://canalizador-norte-reparos.pt/canalizador-faioes
 https://canalizador-norte-reparos.pt/canalizador-falde
 https://canalizador-norte-reparos.pt/canalizador-falgueiras
-https://canalizador-norte-reparos.pt/canalizador-fariza-de-sayago
 https://canalizador-norte-reparos.pt/canalizador-favaios
 https://canalizador-norte-reparos.pt/canalizador-feirao
 https://canalizador-norte-reparos.pt/canalizador-feital
@@ -1703,7 +1698,6 @@ https://canalizador-norte-reparos.pt/canalizador-ferradosa
 https://canalizador-norte-reparos.pt/canalizador-ferreira
 https://canalizador-norte-reparos.pt/canalizador-ferreirim
 https://canalizador-norte-reparos.pt/canalizador-ferreiros-de-avoes
-https://canalizador-norte-reparos.pt/canalizador-ferreruela-de-tabara
 https://canalizador-norte-reparos.pt/canalizador-fervidelas
 https://canalizador-norte-reparos.pt/canalizador-fiaes-do-rio
 https://canalizador-norte-reparos.pt/canalizador-fiaes-do-tamega
@@ -2024,7 +2018,6 @@ https://canalizador-norte-reparos.pt/canalizador-mondim-de-basto
 https://canalizador-norte-reparos.pt/canalizador-mondroes
 https://canalizador-norte-reparos.pt/canalizador-montalegre
 https://canalizador-norte-reparos.pt/canalizador-monteiras
-https://canalizador-norte-reparos.pt/canalizador-monterrei
 https://canalizador-norte-reparos.pt/canalizador-montouto
 https://canalizador-norte-reparos.pt/canalizador-morais
 https://canalizador-norte-reparos.pt/canalizador-moredo
@@ -2060,7 +2053,6 @@ https://canalizador-norte-reparos.pt/canalizador-nozelos
 https://canalizador-norte-reparos.pt/canalizador-numao
 https://canalizador-norte-reparos.pt/canalizador-nunes
 https://canalizador-norte-reparos.pt/canalizador-nuzedo-de-baixo
-https://canalizador-norte-reparos.pt/canalizador-o-rios
 https://canalizador-norte-reparos.pt/canalizador-olas
 https://canalizador-norte-reparos.pt/canalizador-olmos
 https://canalizador-norte-reparos.pt/canalizador-olo
@@ -2703,7 +2695,6 @@ https://canalizador-norte-reparos.pt/canalizador-vilar-seco-de-lomba
 https://canalizador-norte-reparos.pt/canalizador-vilar-seco
 https://canalizador-norte-reparos.pt/canalizador-vilar-torpim
 https://canalizador-norte-reparos.pt/canalizador-vilarandelo
-https://canalizador-norte-reparos.pt/canalizador-vilardevos
 https://canalizador-norte-reparos.pt/canalizador-vilarelho-da-raia
 https://canalizador-norte-reparos.pt/canalizador-vilarelhos
 https://canalizador-norte-reparos.pt/canalizador-vilares-da-torre
