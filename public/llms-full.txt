@@ -10,7 +10,7 @@
 - **Horário**: Urgências - confirmação por telefone, incluindo feriados e fins de semana
 - **Tempo de Resposta**: Resposta condicionada à disponibilidade operacional
 
-## Zona de Cobertura (Raio 100km)
+## Zona de Cobertura (Raio 130km)
 
 Servimos toda a região de Trás-os-Montes e Alto Douro com páginas dedicadas:
 

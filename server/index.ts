@@ -76,7 +76,7 @@ async function startServer() {
  },
  "/areas-atuacao": {
  title: "Áreas de Atuação | Norte Reparos - Canalizador Trás-os-Montes",
- description: "Zonas de intervenção do canalizador Norte Reparos. Raio 100km desde Macedo de Cavaleiros, cobrindo Bragança, Vila Real, Viseu, Guarda.",
+ description: "Zonas de intervenção do canalizador Norte Reparos. Raio 130km desde Macedo de Cavaleiros, cobrindo Bragança, Vila Real, Viseu, Guarda.",
  canonical: "https://canalizador-norte-reparos.pt/areas-atuacao"
  },
  "/transparencia-precos": {
