@@ -463,7 +463,7 @@ keywords: ["canalização velha", "substituir canos", "renovar canalização", "
 - Picheleiros certificados
 - Teste pressão obrigatório
 - Certificado instalação
-- Garantia 2 anos mão obra
+- Garantia 12 meses mão obra
 
 ### Mínimo Transtorno
 

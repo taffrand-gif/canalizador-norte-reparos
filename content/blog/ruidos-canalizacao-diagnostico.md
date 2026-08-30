@@ -401,7 +401,7 @@ Use a tabela acima para identificar o tipo de ruído.
 - Amortecedores qualidade
 - Válvulas redutoras Honeywell
 - Fixações profissionais
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Experiência Comprovada
 - 10+ anos experiência

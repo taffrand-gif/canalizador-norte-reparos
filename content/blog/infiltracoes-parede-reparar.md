@@ -399,7 +399,7 @@ keywords: ["infiltrações parede", "humidade parede", "bolor parede", "pichelei
 - Resolvemos causa raiz
 - Não tapamos problema
 - Materiais adequados
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Experiência Casas Antigas
 

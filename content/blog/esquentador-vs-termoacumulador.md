@@ -383,7 +383,7 @@ keywords: ["esquentador", "termoacumulador", "água quente", "gás vs elétrico"
 - eletricistas com experiência
 - Materiais qualidade
 - Experiência profissional
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Manutenção
 

@@ -409,7 +409,7 @@ priority: "SEASONAL"
 ✅ Instalação torneiras anti-congelamento 
 ✅ Isolamento profissional de canos 
 ✅ Orçamento grátis sem compromisso 
-✅ Garantia de 2 anos 
+✅ Garantia 12 meses 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20preciso%20de%20ajuda%20com%20torneira%20congelada!) 

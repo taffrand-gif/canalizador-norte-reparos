@@ -388,7 +388,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 ✅ Instalação de redutores de pressão 
 ✅ Regulação de bombas pressurizadoras 
 ✅ Orçamento grátis sem compromisso 
-✅ Garantia de 2 anos 
+✅ Garantia 12 meses 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20pressão%20de%20água%20muito%20alta%20e%20preciso%20de%20ajuda!) 

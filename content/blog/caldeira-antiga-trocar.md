@@ -501,7 +501,7 @@ keywords: ["caldeira antiga", "trocar caldeira", "caldeira condensação", "bomb
 - Materiais qualidade
 - Teste completo
 - Profissional
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Marcas Qualidade
 

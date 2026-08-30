@@ -128,7 +128,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 20,
  question: "Quanto custa instalar uma casa de banho nova?",
- answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): 2.500-4.000€, casa de banho média (5m²): 4.000-7.000€, casa de banho premium (7m²): 7.000-12.000€. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia de 2 anos em mão de obra.",
+ answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): 2.500-4.000€, casa de banho média (5m²): 4.000-7.000€, casa de banho premium (7m²): 7.000-12.000€. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia de 12 meses.",
  category: "Projetos"
  }
 ];
@@ -161,7 +161,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 25,
  question: "Como escolher um canalizador de confiança em Trás-os-Montes?",
- answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 20 anos de experiência em Bragança, nossa equipa técnica, orçamento por escrito antes de qualquer intervenção, garantia de 2 anos em todos os trabalhos. Contacte-nos para referências de clientes.",
+ answer: "Critérios para escolha: certificação profissional válida, anos de experiência na região, referências de clientes locais, orçamento detalhado por escrito, garantia do trabalho, e seguro de responsabilidade civil. Desconfie de preços muito baixos, pressão para decisão imediata, ou falta de documentos. A Norte Reparos reúne todos estes critérios: 20 anos de experiência em Bragança, nossa equipa técnica, orçamento por escrito antes de qualquer intervenção, garantia de 12 meses em todos os trabalhos. Contacte-nos para referências de clientes.",
  category: "Dicas"
  }
 ];

@@ -248,7 +248,7 @@ keywords: ["esquentador avariado", "esquentador não aquece", "canalizador urgen
 ### Preços Transparentes
 - Orçamento antes de começar
 - Sem surpresas
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Equipamento Profissional
 - Analisador combustão

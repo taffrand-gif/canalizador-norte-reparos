@@ -32,7 +32,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'custo-arranjacao-fuga-agua',
  title: 'Quanto Custa Arranjar Fuga de Água em Portugal 2026',
  keywords: ['custo arranjo fuga', 'preço arranjar fuga', 'orçamento fuga água'],
- targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais e garantia 2 anos.'
+ targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais e Garantia 12 meses.'
  },
  {
  slug: 'fuga-agua-urgente-24h',
@@ -148,7 +148,7 @@ export const eletricistaClusters: TopicCluster[] = [
  slug: 'instalar-iluminacao-led',
  title: 'Instalar Iluminação LED: Guia Completo e Preços',
  keywords: ['instalar LED', 'mudar para LED', 'custo instalação LED'],
- targetSnippet: 'Instalar iluminação LED: €8-15/lâmpada incluindo material e instalação. Compatível com instalação existente. Garantia 2 anos. Certificação incluída.'
+ targetSnippet: 'Instalar iluminação LED: €8-15/lâmpada incluindo material e instalação. Compatível com instalação existente. Garantia 12 meses. Certificação incluída.'
  }
  ]
  }

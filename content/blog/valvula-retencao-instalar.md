@@ -554,7 +554,7 @@ Em Trás-os-Montes, onde muitas casas têm bombas de água (poços, furos) ou es
 ✅ Sistemas de bombagem de água 
 ✅ Manutenção de bombas 
 ✅ Orçamento grátis sem compromisso 
-✅ Garantia de 2 anos 
+✅ Garantia 12 meses 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20preciso%20de%20instalar%20uma%20válvula%20de%20retenção!) 

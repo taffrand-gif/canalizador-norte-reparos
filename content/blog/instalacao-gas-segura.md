@@ -395,7 +395,7 @@ keywords: ["instalação gás", "certificação gás", "normas gás", "seguranç
 - Materiais qualidade
 - Teste estanquidade
 - Profissional
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Todas as Situações
 

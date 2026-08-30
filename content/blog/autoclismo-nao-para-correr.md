@@ -366,7 +366,7 @@ keywords: ["autoclismo não para", "autoclismo corre", "arranjar autoclismo", "p
 
 - Autoclismos dupla descarga
 - Instalação profissional
-- Garantia 2 anos
+- Garantia 12 meses
 - Poupança água garantida
 
 ## 🌍 Cobertura
