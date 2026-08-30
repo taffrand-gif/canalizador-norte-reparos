@@ -138,8 +138,8 @@ function TauxHoraireDisplay({ className = '' }: TauxHoraireDisplayProps) {
  </div>
  <div className="mt-6 bg-gray-50 rounded-xl p-4">
  <p className="text-sm text-gray-600 text-center">
- <strong>Note:</strong> Les frais de déplacement sont calculés en fonction de la distance.
- Les majorations nocturnes s'appliquent également aux frais de déplacement.
+ <strong>Note:</strong> Os custos de deslocação são calculados em função da distância.
+ As majorações noturnas também se aplicam aos custos de deslocação.
  </p>
  </div>
  </div>
