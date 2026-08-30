@@ -408,7 +408,7 @@ priority: "SEASONAL"
 ✅ Emergências 24h (canos rebentados) 
 ✅ Instalação torneiras anti-congelamento 
 ✅ Isolamento profissional de canos 
-✅ Orçamento grátis sem compromisso 
+✅ estimativa sem custo sem compromisso 
 ✅ Garantia 12 meses 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 

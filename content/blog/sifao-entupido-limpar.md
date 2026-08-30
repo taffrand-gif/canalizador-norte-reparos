@@ -385,7 +385,7 @@ keywords: ["sifão entupido", "limpar sifão", "mau cheiro lavatório", "água n
 
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
-- Orçamento grátis
+- estimativa sem custo
 
 ## 🌍 Cobertura
 
@@ -397,7 +397,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos
 
-### Orçamento Grátis
+### estimativa sem custo
 📞 **+351 928 484 451**
 💬 **[WhatsApp](https://wa.me/351928484451?text=Sifão%20entupido%20ajuda)**
 

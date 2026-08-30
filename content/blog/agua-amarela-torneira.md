@@ -492,7 +492,7 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos) e
 ✅ Substituição de canos enferrujados 
 ✅ Limpeza/substituição de termoacumuladores 
 ✅ Instalação de sistemas de filtração 
-✅ Orçamento grátis sem compromisso 
+✅ estimativa sem custo sem compromisso 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 
 **💬 WhatsApp:** [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20água%20amarela%20na%20torneira%20e%20preciso%20de%20ajuda!) 

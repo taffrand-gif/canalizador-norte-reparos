@@ -7,7 +7,7 @@ category: "Preços"
 excerpt: "Guia completo preços arranjar fugas água 2026: torneira, canalização, autoclismo, esquentador. Tabelas detalhadas, exemplos reais, quando chamar."
 image: "/images-optimized/blog/blog-fuga-agua.webp"
 metaTitle: "Quanto Custa Arranjar Fuga Água 2026 | Preços"
-metaDescription: "Arranjar fuga água: torneira 40-80€, canalização 80-250€, autoclismo 50-120€. Preços 2026 Trás-os-Montes. Orçamento grátis. Ligue 928 484 451!"
+metaDescription: "Arranjar fuga água: torneira 40-80€, canalização 80-250€, autoclismo 50-120€. Preços 2026 Trás-os-Montes. estimativa sem custo. Ligue 928 484 451!"
 keywords: ["quanto custa arranjar fuga água", "preço reparar torneira", "fuga canalização preço", "arranjar autoclismo"]
 ---
 
@@ -588,7 +588,7 @@ Fuga de água pode custar sob orçamento (vedante torneira) até 500€+ (rotura
 
 **Ligue agora: 928 484 451**
 
-✅ Orçamento gratuito por telefone
+✅ estimativa sem custo
 ✅ Diagnóstico profissional
 ✅ Preços transparentes sem surpresas
 ✅ Resposta rápida garantida-90 minutos

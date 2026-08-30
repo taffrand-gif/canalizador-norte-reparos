@@ -635,7 +635,7 @@ Se fizer 3+ reparações/ano, kit paga-se.
 
 **Ligue agora: 928 484 451**
 
-✅ Orçamento gratuito
+✅ orçamento por escrito antes da intervenção
 ✅ Conselho se DIY viável
 ✅ Reparação profissional se necessário
 ✅ Garantia 12 meses

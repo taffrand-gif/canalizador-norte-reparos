@@ -53,7 +53,7 @@ Com peças de reposição no veículo e técnicas minimamente invasivas, resolve
 | Localização e arranjo fuga oculta | €150-€300 | €220 | 2-5 horas |
 | Intervenção em sistema aquecimento | €80-€180 | €130 | 1-3 horas |
 
-*Nota: Preços podem variar conforme complexidade e materiais necessários. Orçamento sempre gratuito e sem compromisso.*
+*Nota: Preços podem variar conforme complexidade e materiais necessários. orçamento por escrito antes da intervenção e sem compromisso.*
 
 ## Zonas de Atuação em Vila Real e Arredores
 
@@ -105,14 +105,14 @@ Quando a água se torna um problema, cada minuto conta para evitar danos maiores
 - **WhatsApp:** [Enviar mensagem urgente](https://wa.me/351928484451)
 - **Disponibilidade:** Atendimento 24h/7d, incluindo feriados
 
-**A confirmar em 1h na zona urbana de Vila Real. Diagnóstico e orçamento sempre gratuitos.**
+**A confirmar em 1h na zona urbana de Vila Real. Diagnóstico e orçamento por escrito antes da intervençãos.**
 
 ---
 
 *Este artigo foi escrito pela equipa da **Norte Reparos - Canalizador Profissional em Vila Real**. Especialistas em emergências de canalização, desentupimentos e arranjos urgentes na região de Trás-os-Montes.*
 
 **Artigos Relacionados:**
-- [Preço Desentupimento Canalizações - Orçamento Grátis](/preco-desentupimento-canalizacoes)
+- [Preço Desentupimento Canalizações - estimativa sem custo](/preco-desentupimento-canalizacoes)
 - [Arranjo Fugas Água - Técnicas Profissionais](/arranjacao-fugas-agua)
 - [Instalação Sanitários - Preço por Unidade](/instalacao-sanitarios-preco)
 

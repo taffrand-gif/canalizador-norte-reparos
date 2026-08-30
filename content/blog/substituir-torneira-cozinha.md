@@ -303,7 +303,7 @@ priority: "HIGH DEMAND"
 
 **Tempo de instalação:** 30-45 minutos
 
-> 💡 **Quer instalação profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Orçamento grátis, garantia incluída.
+> 💡 **Quer instalação profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — estimativa sem custo, garantia incluída.
 
 ## ⚠️ Problemas Comuns e Soluções
 
@@ -454,7 +454,7 @@ Substituir uma torneira de cozinha é um trabalho **relativamente simples** que 
 ✅ Instalação rápida (30-45 minutos) 
 ✅ Garantia 1-2 anos no serviço 
 ✅ Fornecemos torneiras de qualidade 
-✅ Orçamento grátis sem compromisso 
+✅ estimativa sem custo sem compromisso 
 ✅ Técnico em sua casa em 30-45 minutos 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 

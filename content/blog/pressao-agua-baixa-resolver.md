@@ -484,7 +484,7 @@ R: Diagnóstico €60-120, bomba pressurizadora €230-700, substituir tubagem �
 - ✅ Instalação bomba pressurizadora €230-700
 - ✅ Solução definitiva e imediata
 - ✅ Garantia 12 meses
-- ✅ Orçamento grátis sem compromisso
+- ✅ estimativa sem custo sem compromisso
 
 💬 **WhatsApp:** [Clique para resolver](https://wa.me/351928484451?text=Olá,%20tenho%20pressão%20de%20água%20baixa%20em%20casa)
 

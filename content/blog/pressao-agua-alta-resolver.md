@@ -387,7 +387,7 @@ Pressão muito alta (>4 bar) não é apenas incómoda - **danifica torneiras, ca
 ✅ Medição de pressão gratuita 
 ✅ Instalação de redutores de pressão 
 ✅ Regulação de bombas pressurizadoras 
-✅ Orçamento grátis sem compromisso 
+✅ estimativa sem custo sem compromisso 
 ✅ Garantia 12 meses 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 

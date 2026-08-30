@@ -691,7 +691,7 @@ Não escolher automaticamente mais barato. Avaliar conjunto (qualidade + preço 
 ✅ Preços transparentes
 ✅ Atendimento 24h/7d urgências
 
-**WhatsApp:** [Orçamento gratuito](https://wa.me/351928484451?text=Preciso orçamento canalizador)
+**WhatsApp:** [orçamento por escrito antes da intervenção](https://wa.me/351928484451?text=Preciso orçamento canalizador)
 
 ---
 

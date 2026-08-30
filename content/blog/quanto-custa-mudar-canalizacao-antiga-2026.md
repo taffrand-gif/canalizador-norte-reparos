@@ -7,7 +7,7 @@ category: "Renovação"
 excerpt: "Guia completo preços mudar canalização antiga 2026: quando necessário, materiais, processo, prazos. T1 a T4+, preços reais Trás-os-Montes."
 image: "/images-optimized/blog/blog-renovacao-canalizacao.webp"
 metaTitle: "Quanto Custa Mudar Canalização Antiga 2026 | Preços"
-metaDescription: "Mudar canalização: T2 2500-4000€, T3 3500-6000€, T4 5000-8500€. Inclui material, mão obra, testes. Prazo 3-7 dias. Orçamento grátis 928 484 451!"
+metaDescription: "Mudar canalização: T2 2500-4000€, T3 3500-6000€, T4 5000-8500€. Inclui material, mão obra, testes. Prazo 3-7 dias. estimativa sem custo 928 484 451!"
 keywords: ["quanto custa mudar canalização", "renovar canalização antiga", "substituir tubos", "preço canalização nova"]
 ---
 
@@ -311,7 +311,7 @@ Mudar canalização antiga custa entre 2.500€ (T1) e 8.500€+ (T4+) em 2026. 
 - Assinar contrato
 - Agendar início
 
-**Custo:** Orçamento gratuito
+**Custo:** orçamento por escrito antes da intervenção
 
 **Prazo:** 2-3 dias úteis
 
@@ -623,7 +623,7 @@ Mudar canalização antiga custa entre 2.500€ (T1) e 8.500€+ (T4+) em 2026. 
 
 **Ligue agora: 928 484 451**
 
-✅ Orçamento gratuito sem compromisso
+✅ estimativa sem custo
 ✅ Visita técnica incluída
 ✅ Materiais certificados
 ✅ Equipa experiente

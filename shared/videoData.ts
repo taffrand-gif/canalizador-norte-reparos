@@ -141,8 +141,8 @@ export const videoData = [
  {
  id: 'process-quote',
  category: 'service-process',
- title: 'Como Funciona o Orçamento Gratuito',
- description: 'Orçamento 100% gratuito e sem compromisso: visita ao local, diagnóstico completo, preço fixo, sem surpresas.',
+ title: 'Como Funciona o orçamento por escrito antes da intervenção',
+ description: 'orçamento por escrito antes da intervenção e sem compromisso: visita ao local, diagnóstico completo, preço fixo, sem surpresas.',
  duration: 45,
  thumbnailUrl: '/images/ai-generated/technician/technician-010.jpg',
  youtubeId: 'dQw4w9WgXcQ',

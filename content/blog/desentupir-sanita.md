@@ -429,7 +429,7 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 ✅ Inspeção com câmara (identifica problema) 
 ✅ Limpeza de fossas sépticas 
 ✅ Urgências 24h/7 dias 
-✅ Orçamento grátis sem compromisso 
+✅ estimativa sem custo sem compromisso 
 
 **📞 Ligue já: [928 484 451](tel:+351928484451)**
 
@@ -457,7 +457,7 @@ Na maioria dos casos (70%), consegue **desentupir a sanita sozinho em 10-30 minu
 
 **Ligue JÁ: [928 484 451](tel:+351928484451)**
 
-**Picheleiro certificado • Urgências 24h • Intervenção em 30-45min • Orçamento grátis**
+**Picheleiro certificado • Urgências 24h • Intervenção em 30-45min • estimativa sem custo**
 
 ---
 
@@ -469,7 +469,7 @@ Na maioria dos casos (70%), consegue **desentupir a sanita sozinho em 10-30 minu
 ## Perguntas Frequentes (FAQ)
 
 ### Quanto custa desentupir uma sanita em Trás-os-Montes?
-O preço médio para desentupir uma sanita em Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros) varia entre **40€ e 80€**, dependendo da gravidade do entupimento e da hora. Em horário normal (8h-20h, dias úteis), o preço médio é 40-60€. Para urgências noturnas, fins de semana ou feriados, acresce uma taxa de urgência de +50%. Orçamento gratuito por telefone: **+351 928 484 451**.
+O preço médio para desentupir uma sanita em Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros) varia entre **40€ e 80€**, dependendo da gravidade do entupimento e da hora. Em horário normal (8h-20h, dias úteis), o preço médio é 40-60€. Para urgências noturnas, fins de semana ou feriados, acresce uma taxa de urgência de +50%. estimativa sem custo: **+351 928 484 451**.
 
 ### Posso desentupir a sanita sozinho ou preciso de um canalizador?
 Para entupimentos simples (papel acumulado, pequena obstrução), métodos DIY como **desentupidor de borracha, bicarbonato + vinagre, ou cabo de aço flexível** resolvem em 10-30 minutos. Para entupimentos recorrentes, água que não desce, ou múltiplos sanitários entupidos em simultâneo, é necessário um **canalizador profissional** com equipamento específico (cabo elétrico, hidrojato, câmara de inspeção).

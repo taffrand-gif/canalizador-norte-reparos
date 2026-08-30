@@ -239,7 +239,7 @@ Em noites muito frias (-5°C ou menos):
 ## ❓ Perguntas Frequentes
 
 ### Quanto custa arranjar um cano rebentado?
-**€80-800** dependendo da localização e extensão do dano. Orçamento grátis por telefone.
+**€80-800** dependendo da localização e extensão do dano. estimativa sem custo por telefone.
 
 ### Quanto tempo demora a arranjo?
 **1-4 horas** para maioria dos casos. Emergências são prioridade máxima.

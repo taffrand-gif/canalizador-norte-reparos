@@ -414,7 +414,7 @@ R: Use apenas como último recurso. Nunca misture produtos. Ventile bem. Prefira
 📞 **Ligue Agora: 928 484 451**
 - ✅ Atendimento 24h/7d (urgências)
 - ✅ Técnico chega em 30-60 minutos
-- ✅ Orçamento grátis sem compromisso
+- ✅ estimativa sem custo sem compromisso
 - ✅ Garantia 12 meses em todos os serviços
 - ✅ Equipamento profissional (mola elétrica, alta pressão)
 

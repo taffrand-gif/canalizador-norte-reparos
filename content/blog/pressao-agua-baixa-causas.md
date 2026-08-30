@@ -311,7 +311,7 @@ Canalizador usa **manómetro digital** que mede:
 ### Resposta Rápida
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
-- Orçamento grátis
+- estimativa sem custo
 
 ## 🌍 Cobertura
 

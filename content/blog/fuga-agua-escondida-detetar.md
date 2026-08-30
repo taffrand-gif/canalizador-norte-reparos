@@ -114,7 +114,7 @@ Para fugas em canalização enterrada:
 ### Resposta Rápida
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
-- Orçamento grátis
+- estimativa sem custo
 
 ### Garantia
 - **2 anos** em todos os trabalhos
@@ -135,7 +135,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 📞 **+351 928 484 451**
 💬 **[WhatsApp Urgente](https://wa.me/351928484451?text=Preciso%20detetar%20fuga%20água%20escondida)**
 
-### Orçamento Grátis
+### estimativa sem custo
 Resposta rápida garantida. Sem compromisso.
 
 ---
