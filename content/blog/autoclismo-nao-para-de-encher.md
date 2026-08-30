@@ -473,7 +473,7 @@ Um autoclismo que não para de encher é um **problema simples com solução fá
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20o%20meu%20autoclismo%20não%20para%20de%20encher.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Arranjo rápida (30-60 minutos)
 - Peças de qualidade (Geberit, Roca, Wirquin)
 - Orçamento transparente antes de iniciar

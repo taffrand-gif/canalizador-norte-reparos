@@ -465,7 +465,7 @@ Instalar uma banheira é um **investimento em conforto e valorização do imóve
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20quero%20instalar%20uma%20banheira.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Instalação profissional (nivelamento perfeito)
 - Teste completo de fugas
 - Garantia de 1 ano no trabalho

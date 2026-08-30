@@ -466,7 +466,7 @@ Uma fossa séptica bem mantida funciona eficazmente durante décadas, mas **negl
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20fossa%20séptica%20está%20cheia.%20Preciso%20de%20limpeza%20urgente.)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Equipamento profissional (camião limpa-fossas)
 - Limpeza completa (aspiração + lavagem)
 - Destino legal dos resíduos (ETAR)

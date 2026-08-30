@@ -460,7 +460,7 @@ Pressão de água fraca não é apenas inconveniente — **reduz qualidade de vi
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20pressão%20de%20água%20na%20minha%20casa%20está%20muito%20fraca.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Diagnóstico preciso com manómetro profissional
 - Soluções definitivas (não temporárias)
 - Orçamento transparente antes de iniciar

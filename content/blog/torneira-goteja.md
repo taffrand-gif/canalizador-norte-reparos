@@ -495,7 +495,7 @@ Uma torneira que goteja é um **problema simples com solução fácil**, mas que
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20torneira%20não%20para%20de%20gotejar.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Arranjo rápida (30-60 minutos)
 - Peças de qualidade (Grohe, Hansgrohe, Roca)
 - Orçamento transparente antes de iniciar

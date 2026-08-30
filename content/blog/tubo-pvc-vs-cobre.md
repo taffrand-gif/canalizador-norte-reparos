@@ -530,4 +530,4 @@ Em Trás-os-Montes, onde água é dura (calcário) e invernos rigorosos (-5°C),
 
 ---
 
-*Artigo escrito por picheleiros certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por picheleiros certificados com 20 anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*

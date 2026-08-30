@@ -448,7 +448,7 @@ Cheiro a esgoto na casa de banho não é apenas desagradável — **afeta qualid
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20tenho%20cheiro%20a%20esgoto%20na%20casa%20de%20banho.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Diagnóstico preciso (identifica causa raiz)
 - Soluções definitivas (não temporárias)
 - Equipamento profissional (câmara de inspeção)

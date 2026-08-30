@@ -506,4 +506,4 @@ Em Trás-os-Montes, onde muitas casas têm canalizações antigas (30-40 anos) e
 
 ---
 
-*Artigo escrito por picheleiros certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por picheleiros certificados com 20 anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*

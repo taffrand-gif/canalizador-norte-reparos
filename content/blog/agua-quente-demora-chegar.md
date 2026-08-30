@@ -433,4 +433,4 @@ Além do incómodo, **desperdiça água** (10-30 litros por cada vez que abre to
 
 ---
 
-*Artigo escrito por picheleiros certificados com 15+ anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*
+*Artigo escrito por picheleiros certificados com 20 anos de experiência em Trás-os-Montes. Atualizado em Março 2026.*

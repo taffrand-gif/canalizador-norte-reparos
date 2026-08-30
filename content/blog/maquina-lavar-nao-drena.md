@@ -474,7 +474,7 @@ Uma máquina de lavar que não drena é **frustrante mas geralmente tem soluçã
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20a%20minha%20máquina%20de%20lavar%20não%20drena%20água.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Diagnóstico preciso (identifica causa exata)
 - Arranjo rápida (1-2 horas)
 - Peças de qualidade (originais ou equivalentes)
