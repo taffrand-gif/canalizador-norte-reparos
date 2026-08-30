@@ -187,7 +187,7 @@ export default function Servicos() {
  },
  {
  question: "Oferecem garantia nos serviços?",
- answer: "Sim, oferecemos garantia de 2 anos em todos os serviços de mão de obra e 1 ano nos materiais fornecidos por nós. Para desentupimentos, garantia de 6 meses."
+ answer: "Sim. Todos os trabalhos têm garantia de 12 meses. Se a avaria voltar dentro de 12 meses, voltamos sem cobrar deslocação. Garantia escrita."
  },
  {
  question: "Quais são os sinais de uma fuga de água oculta?",

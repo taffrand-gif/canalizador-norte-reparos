@@ -507,7 +507,7 @@ keywords: ["poço perfurar", "furo água", "água própria", "custos poço", "Tr
 - Quadro elétrico certificado
 - Tubagem
 - Tratamento água
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Consultoria Completa
 

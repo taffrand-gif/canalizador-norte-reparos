@@ -341,7 +341,7 @@ keywords: ["entupimento grave", "desentupir canalização", "canalizador urgente
 ### Preços Transparentes
 - Orçamento antes de começar
 - Sem surpresas
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Limpeza Garantida
 - Proteção do espaço

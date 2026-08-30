@@ -396,7 +396,7 @@ keywords: ["chuveiro sem pressão", "duche fraco", "aumentar pressão chuveiro",
 - Não fazemos "remendos"
 - Resolvemos causa raiz
 - Materiais qualidade
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Especialização Grupos Hidropressores
 

@@ -372,7 +372,7 @@ keywords: ["sifão entupido", "limpar sifão", "mau cheiro lavatório", "água n
 
 - Sifões qualidade (PVC, anti-odor)
 - Instalação profissional
-- Garantia 2 anos
+- Garantia 12 meses
 - Preços transparentes
 
 ### Experiência Comprovada

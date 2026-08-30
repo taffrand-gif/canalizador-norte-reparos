@@ -131,7 +131,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  {
  icon: 'shield',
  title: 'Garantia 12 Meses',
- description: 'Todas as arranjos e instalações têm garantia de 2 anos. Peças e mão de obra.'
+ description: 'Todas as arranjos e instalações têm garantia de 12 meses.'
  },
  {
  icon: 'check',
@@ -225,7 +225,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  },
  {
  q: 'Dão garantia na arranjo?',
- a: 'Sim! Arranjos têm garantia de 2 anos (peças e mão de obra). Instalações de esquentadores novos têm garantia de 2 anos nossa + garantia do fabricante. Se voltar a ter problemas, voltamos gratuitamente.'
+ a: 'Sim! Arranjos têm garantia de 12 meses. Instalações de esquentadores novos têm garantia de 12 meses nossa + garantia do fabricante. Se voltar a ter problemas, voltamos gratuitamente.'
  },
  {
  q: 'O que fazer se o esquentador não acende?',

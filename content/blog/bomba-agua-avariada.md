@@ -428,7 +428,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 - Orçamento antes começar
 - Sem surpresas
 - Garantia 1 ano arranjos
-- Garantia 2 anos bombas novas
+- Garantia 12 meses bombas novas
 
 ## 🌍 Cobertura
 

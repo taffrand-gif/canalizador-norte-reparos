@@ -515,7 +515,7 @@ Em Trás-os-Montes, onde água é dura (calcário) e invernos rigorosos (-5°C),
 ✅ Especialistas em todos os materiais (PVC, cobre, PEX, PPR) 
 ✅ Consultoria gratuita (melhor solução para seu caso) 
 ✅ Orçamento detalhado sem compromisso 
-✅ Garantia de 2 anos 
+✅ Garantia 12 meses 
 ✅ Trabalhos rápidos e limpos 
 
 **📞 Ligue Agora:** [928 484 451](tel:+351928484451) 

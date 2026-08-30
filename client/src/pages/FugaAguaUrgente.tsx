@@ -121,7 +121,7 @@ export default function FugaAguaUrgente() {
  {
  time: 'A confirmar',
  title: 'Arranjo Completa',
- description: 'Arranjamos definitivamente. Testamos. Limpamos. Garantia de 2 anos. Problema resolvido.',
+ description: 'Arranjamos definitivamente. Testamos. Limpamos. Garantia 12 meses. Problema resolvido.',
  icon: 'check'
  }
  ]}
@@ -139,7 +139,7 @@ export default function FugaAguaUrgente() {
  {
  icon: 'shield',
  title: 'Garantia 12 Meses',
- description: 'Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas, voltamos grátis.'
+ description: 'Todas as arranjos têm Garantia 12 meses. Se voltar a ter problemas, voltamos grátis.'
  },
  {
  icon: 'check',
@@ -188,7 +188,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Dão garantia na arranjo?',
- a: 'Sim! Todas as arranjos têm garantia de 2 anos. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. % satisfação ou .'
+ a: 'Sim! Todas as arranjos têm Garantia 12 meses. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. % satisfação ou .'
  }
  ].map((item, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

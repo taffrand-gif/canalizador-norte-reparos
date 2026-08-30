@@ -300,7 +300,7 @@ Canalizador usa **manómetro digital** que mede:
 - Não fazemos "remendos"
 - Resolvemos a causa raiz
 - Materiais de qualidade
-- Garantia 2 anos
+- Garantia 12 meses
 
 ### Especialização em Grupos Hidropressores
 - Instalação 200+ sistemas
