@@ -94,12 +94,9 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
 </head>
 <body>
 <article class="py-16">
- <div class="container max-w-3xl">
- 
- {/* Importância */}
- <section class="mb-12">
+ <div class="container max-w-3xl"><section class="mb-12">
  <h2 class="text-2xl font-black mb-4 flex items-center gap-2">
- <Flame class="w-7 h-7 text-blue-600" />
+ 
  Porque é Importante a Manutenção?
  </h2>
  <div class="grid md:grid-cols-2 gap-4">
@@ -111,18 +108,16 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  ].map((item, i) => (
  <div key={i} class="p-4 bg-blue-50 rounded-lg">
  <div class="flex items-center gap-2 mb-2">
- <CheckCircle class="w-5 h-5 text-blue-600" />
+ 
  <strong>{item.titulo}</strong>
  </div>
  <p class="text-sm text-gray-600">{item.desc}</p>
  </div>
  ))}
  </div>
- </section>
- {/* Frequência */}
- <section class="mb-12">
+ </section><section class="mb-12">
  <h2 class="text-2xl font-black mb-4 flex items-center gap-2">
- <Calendar class="w-7 h-7 text-blue-600" />
+ 
  Quando Fazer Manutenção?
  </h2>
  <div class="bg-gray-50 rounded-xl p-6">
@@ -150,11 +145,9 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  </div>
  </div>
  </div>
- </section>
- {/* Sinais de Problemas */}
- <section class="mb-12">
+ </section><section class="mb-12">
  <h2 class="text-2xl font-black mb-4 flex items-center gap-2">
- <AlertTriangle class="w-7 h-7 text-orange-500" />
+ 
  Sinais de que Precisa de Manutenção Urgente
  </h2>
  <div class="space-y-3">
@@ -193,9 +186,7 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  Abra janelas, feche a torneira do gás, e saia de casa. Ligue-nos do exterior.
  </p>
  </div>
- </section>
- {/* O que inclui */}
- <section class="mb-12">
+ </section><section class="mb-12">
  <h2 class="text-2xl font-black mb-4">O Que Inclui uma Manutenção Completa?</h2>
  <div class="grid md:grid-cols-2 gap-4">
  {[
@@ -209,14 +200,12 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  "Teste de funcionamento completo"
  ].map((item, i) => (
  <div key={i} class="flex items-center gap-2 p-3 bg-gray-50 rounded-lg">
- <CheckCircle class="w-5 h-5 text-green-600" />
+ 
  <span>{item}</span>
  </div>
  ))}
  </div>
- </section>
- {/* Preços */}
- <section class="mb-12">
+ </section><section class="mb-12">
  <h2 class="text-2xl font-black mb-4">Quanto Custa? (Preços 2026)</h2>
  <div class="bg-blue-50 rounded-xl p-6">
  <div class="grid md:grid-cols-2 gap-6">
