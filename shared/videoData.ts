@@ -148,19 +148,19 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['orçamento', 'gratuito', 'preço', 'transparência'],
  uploadDate: '2026-03-03',
- transcript: 'Orçamento é 100% gratuito. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Só paga se aprovar e ficar satisfeito. Garantia 2 anos em todos os trabalhos.'
+ transcript: 'Orçamento é 100% gratuito. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Só paga se aprovar e ficar satisfeito. Garantia 12 meses em todos os trabalhos.'
  },
  {
  id: 'process-guarantee',
  category: 'service-process',
- title: 'Garantia de 2 Anos em Todos os Trabalhos',
- description: 'Nossa garantia de 2 anos: o que cobre, como acionar, por que oferecemos o dobro da concorrência.',
+ title: 'Garantia de 12 Meses em Todos os Trabalhos',
+ description: 'Nossa garantia de 12 meses: o que cobre, como acionar, por que oferecemos o dobro da concorrência.',
  duration: 40,
  thumbnailUrl: '/images/ai-generated/projects/projects-001.jpg',
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['garantia', '2 anos', 'qualidade', 'confiança'],
  uploadDate: '2026-03-03',
- transcript: 'Oferecemos garantia de 2 anos em todos os trabalhos. Concorrência oferece 6-12 meses. Por quê? Confiamos na qualidade do nosso trabalho. Usamos materiais de primeira. Técnicos experientes. Se algo falhar em 2 anos, arranjamos grátis. Garantia é prova de qualidade.'
+ transcript: 'Oferecemos garantia de 12 meses em todos os trabalhos. Concorrência oferece 6-12 meses. Por quê? Confiamos na qualidade do nosso trabalho. Usamos materiais de primeira. Técnicos experientes. Se algo falhar em 2 anos, arranjamos grátis. Garantia é prova de qualidade.'
  },
  {
  id: 'process-payment',
