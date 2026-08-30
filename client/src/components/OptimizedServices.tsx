@@ -40,7 +40,7 @@ const serviceFeatures = {
  'Certificação obrigatória incluída'
  ],
  'Canalização Nova': [
- 'Materiais PPR e cobre com garantia 10 anos',
+ 'Materiais PPR e cobre com garantia 20 anos',
  'Cumprimento normativo português',
  'Testes de pressão e estanquicidade'
  ],

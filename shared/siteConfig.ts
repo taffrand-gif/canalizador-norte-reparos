@@ -156,7 +156,7 @@ export const siteConfig: SiteConfig = {
  company: {
  fullName: 'Canalizador Profissional',
  shortDescription: 'Serviço de canalização ao seu domicílio em Trás-os-Montes. Não temos loja — vamos até si.',
- longDescription: 'A Norte Reparos é uma empresa de canalizações que serve toda a região de Trás-os-Montes e Norte de Portugal. Com mais de 10 anos de experiência no terreno, intervimos ao seu domicílio com equipamento profissional de diagnóstico — câmara térmica FLIR, câmara endoscópica de 30 metros e ferramentas calibradas Ridgid. Não temos loja — vamos até si. A sua zona é a nossa zona de trabalho.',
+ longDescription: 'A Norte Reparos é uma empresa de canalizações que serve toda a região de Trás-os-Montes e Norte de Portugal. Com mais de 20 anos de experiência no terreno, intervimos ao seu domicílio com equipamento profissional de diagnóstico — câmara térmica FLIR, câmara endoscópica de 30 metros e ferramentas calibradas Ridgid. Não temos loja — vamos até si. A sua zona é a nossa zona de trabalho.',
  coverage: 'Trás-os-Montes — Distrito de Bragança, Vila Real, Guarda e Viseu',
  yearEstablished: '2015'
  },
