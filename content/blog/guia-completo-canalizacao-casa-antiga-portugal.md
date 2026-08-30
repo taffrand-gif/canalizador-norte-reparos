@@ -292,7 +292,7 @@ Teste: feche todas as torneiras e veja se o contador continua a rodar. Se sim, h
 - Verificação de sifões
 - Possível substituição de torneiras
 
-**A cada 10 anos:**
+**A cada 20 anos:**
 - Revisão geral
 - Substituição preventiva de mecanismos
 - Possível upgrade para modelos mais eficientes

@@ -64,7 +64,7 @@ tags: ['aquecimento central', 'manutenção', 'preventiva', 'caldeira', 'radiado
 2. **Purga dos radiadores** antes do inverno
 3. **Verificação de pressão** semanal durante uso
 4. **Limpeza de filtros** conforme manual
-5. **Substituição de componentes** com mais de 10 anos
+5. **Substituição de componentes** com mais de 20 anos
 
 ## Conclusão: Solução Profissional em Trás-os-Montes
 
