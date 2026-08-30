@@ -156,3 +156,43 @@
 5. **Le statut GitHub `mergeStateStatus: UNSTABLE` ≠ `CONFLICTING` quand Vercel + CI sont verts.** Les définitions GitHub : CONFLICTING = branche en conflit avec base, UNSTABLE = pas de conflit mais check en attente ou en échec, CLEAN = vert. À la lecture : UNSTABLE post-rebase = "rebase OK, on attend juste les checks". CLEAN = "go pour merge".
 
 **Réutilisable** : avant tout push d'une branche rebasée sur CNR, faire `git remote -v` et confirmer `github` (pas `origin`). Si le PR ne bouge pas après push, vérifier `git ls-remote <remote>` vs `gh pr view --json headRefOid` — mismatch = mauvais remote. Pour les conflits SEO_PLAN.md en §17 historique, résolution mécanique par concaténation (les entrées sont datées et indépendantes). Ne pas confondre UNSTABLE et CONFLICTING dans le statut GitHub.
+
+## #OG-IMAGE-V2-01 — feat/og-image-v2 (2026-08-29)
+
+**Contexte** : PR de regeneration des 4 images og-image.png (1200x630) sur les 4 sites Norte Reparos.
+
+L'image og-image.png committee en binaire par "Bot" le 2026-06-09 contenait un faux avis client "4.9 (127 reviews)" avec des etoiles. Les etoiles et la note de 4.9 etaient un choix de gabarit assume par le Bot, pas un bug de rendu. La purge HTML du 13 juin (scripts/purge-fake-claims-20260613.py) a nettoyé tout le texte mais PAS les binaires (image, PDF, favicons, captures). 78 jours plus tard, l'image PNG portait toujours une phrase officiellement condamnee par le reste du code, propagee sur 7594 pages og:image.
+
+### Arbitrages Philippe (2026-08-29)
+
+**A retirer du nouveau gabarit :**
+- "⭐⭐⭐⭐⭐ 4.9 (127 reviews)" — INVENTE. Suppression totale, pas de note, pas de volume, pas d'etoiles tant qu'il n'existe pas de source reelle.
+- "Resposta Imediata 30 min" — promesse non tenable systematiquement. Supprimee.
+
+**A mettre a la place (vrai claims) :**
+- 2 sites plomberie (canalizador-norte-reparos.pt, canalizador-urgente.pt) :
+  - ligne 2 : "Instalacao e reparacao" / "Atendimento urgente"
+  - bas : "Garantia 12 meses"
+  - numero : 928 484 451 (conserve tel quel)
+- 2 sites elec (eletricista-norte-reparos.pt, eletricista-urgente.pt) :
+  - ligne 2 : "Instalacao e reparacao" / "Atendimento urgente"
+  - bas : "Certificado DGEG - TRIESP 90062"
+  - numero : 932 321 892 (conserve tel quel)
+
+**INTERDIT cote plomberie** : toute mention DGEG ou de certification (DGEG = uniquement elec BT <= 41,4 kVA, deja purge de 642 fichiers HTML le 13 juin).
+
+### Lecon technique
+
+1. **Toute purge de claim doit couvrir les binaires**, pas seulement HTML et JSON-LD. Une purge textuelle peut laisser 78 jours d'aperçu social portant une phrase que le reste du site a deja condamnee. **Predicat d'une purge complete = scan recursif incluant les blobs** : png, jpg, pdf, ico. Les SVG sont du texte, mais les PNG/JPG/PDF necessitent OCR ou regeneration.
+
+2. **Arial Unicode.ttf (/Library/Fonts/) contient tous les glyphes portugais**. Ne JAMAIS contourner un probleme d'encodage en retirant les accents. Si une police ne rend pas les accents, changer de police, pas le texte. Le client remarque un accent manquant immediatement.
+
+3. **Position verticale pour eviter troncature** : la derniere rangee de texte (brand "Norte Reparos") doit avoir au moins 30 px de marge avec le bord inferieur. Dimensions : 1200x630, derniere rangee centree a y=580 laisse une marge de 50 px.
+
+### Procedure de validation visuelle
+
+Pour chaque image generee :
+- Verifier dimensions : 1200x630 PNG
+- Verifier absence de pixels sur les 5 premiers/derniers pixels des bords (pas de texte coupe)
+- Verifier visuellement que "Instalacao" et "Tras-os-Montes" rendent avec leurs accents (validation visuelle obligatoire, OCR portugais non disponible sur ce systeme)
+- Sauvegarder ancienne image en .bak-<pid> avant d'ecraser
