@@ -48,7 +48,7 @@ function GuaranteeBox({
  {""}
  </h3>
  <p className="text-lg opacity-90">
- Se não ficar 100% satisfeito, devolvemos o seu dinheiro. Sem perguntas.
+ Orçamento por escrito antes da intervenção.
  </p>
  </div>
  {/* Guarantees Grid */}
@@ -105,7 +105,7 @@ function GuaranteeBox({
  {ctaText}
  </a>
  <p className="text-sm text-gray-600 mt-4">
- Orçamento 100% gratuito • Sem compromisso • A confirmar
+ Orçamento por escrito antes da intervenção.
  </p>
  </div>
 )}
