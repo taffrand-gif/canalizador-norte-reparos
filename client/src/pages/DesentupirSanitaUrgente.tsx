@@ -190,7 +190,7 @@ export default function DesentupirSanitaUrgente() {
  <div className="mt-8 bg-blue-50 border border-blue-200 p-6 rounded-xl">
  <p className="text-center text-gray-800">
  <strong className="text-blue-900">Importante:</strong> O preço é sempre comunicado ANTES de começar o trabalho.
- Se não concordar, não pagamos nada pela deslocação. Sem compromisso.
+ Orçamento por escrito antes da intervenção.
  </p>
  </div>
  </div>
@@ -298,7 +298,7 @@ export default function DesentupirSanitaUrgente() {
  },
  {
  q: 'Fazem sem compromisso?',
- a: 'Sim! Sem compromisso e sem compromisso. Se não concordar com o preço, não paga nada.'
+ a: 'Sim! Orçamento por escrito antes da intervenção.'
  }
  ].map((faq, i) => (
  <div key={i} className="bg-white p-6 rounded-xl border border-gray-200 hover:border-orange-300 transition-colors">
