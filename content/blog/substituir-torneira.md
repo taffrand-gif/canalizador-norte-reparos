@@ -555,7 +555,7 @@ Substituir uma torneira é uma tarefa **acessível para DIY** se tiver ferrament
 **💬 WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20quero%20substituir%20uma%20torneira.%20Podem%20ajudar%3F)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Instalação rápida (30-60 minutos)
 - Teste completo de fugas
 - Limpeza após trabalho

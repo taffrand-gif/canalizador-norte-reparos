@@ -416,7 +416,7 @@ Tubos congelados são um **problema sério mas evitável** em Trás-os-Montes. *
 **💬 WhatsApp urgente: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20os%20meus%20tubos%20congelaram.%20Preciso%20de%20ajuda%20urgente.)**
 
 **✅ Garantias Norte Reparos:**
-- Picheleiros certificados com 15+ anos de experiência
+- Picheleiros certificados com 20 anos de experiência
 - Disponível Atendimento 24h/7d durante vaga de frio
 - Equipamento profissional (descongelamento rápido)
 - Arranjo de tubos rebentados
