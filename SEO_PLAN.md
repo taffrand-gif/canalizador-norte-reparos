@@ -194,6 +194,37 @@
      corrections distinctes ; il faut les deux.**
      `measure.py` refuse désormais tout motif contenant `\n`, `\t` ou `\r`.
 
+ 10. UN CORRECTIF SE MESURE SUR CHAQUE DÉPÔT, JAMAIS SUR UN REPRÉSENTANT.
+     Contre-exemple, mesuré le 30/08 sur le même correctif — remplacer la
+     classe cassée `[^<>\n]` par `[^<>]` :
+       CU   196 → 196   la correction ne rapporte **RIEN**
+       CNR   42 → 262   la correction rapporte **220 fichiers**
+     Validé sur CU seul, on concluait que le défaut était imaginaire.
+     Validé sur CNR seul, on manquait les 61 fichiers que CU ne devait
+     qu'à la variante `grátis`. **Aucun dépôt n'est représentatif des
+     autres**, et ce n'est pas une question de taille : c'est le contenu
+     qui diffère.
+     Antécédent de la même famille : l'extrapolation inter-repos du 25/08
+     s'était révélée fausse d'un facteur 30 entre sites d'installation et
+     sites d'urgence.
+
+ 11. LE PROMPT EST LE POINT UNIQUE DE DÉFAILLANCE — et le seul artefact
+     non versionné de la chaîne. Outillage, registre, prédicats, listes
+     blanches : tout vit dans les dépôts et passe par une PR. Le prompt
+     vit dans la configuration de la tâche planifiée — hors git,
+     modifiable sans trace, sans revue.
+     Le 30/08, après deux jours de corrections, il portait encore
+     l'adressage par numéro de ligne, `context.md` comme file de tâches et
+     le gate merge relu comme ordre d'arrêt. **Réactiver la tâche en
+     l'état annulait tout le travail, et rien dans les dépôts ne l'aurait
+     montré.**
+     ➡️ Copie versionnée dans `.loop/PROMPT.md`. Premier acte de chaque
+     run : `python3 .loop/check_prompt.py --recu <prompt-reçu>`.
+     Divergence = **refus de démarrer**, pas un avertissement.
+     ➡️ Généralisation : **on corrige les données et on oublie
+     l'instruction qui les lit.** Chercher systématiquement l'artefact qui
+     pilote — il est rarement dans le périmètre qu'on vient d'auditer.
+
   ── Le recensement et la liste blanche I6 sont DEUX périmètres distincts,
      à ne jamais confondre :
        served.json      « cette PR change-t-elle ce qu'un visiteur reçoit ? »
