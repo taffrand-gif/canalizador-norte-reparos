@@ -317,7 +317,7 @@
 | X-DUP | **436 pages village quasi dupliquées** — différenciation PUIS canonisation | HAUTE | A_FAIRE | — | 🛑 **INTERDIT de toucher aux canonicals tant que Jaccard > 0.15.** Différencier d'abord, canoniser ensuite. Canoniser des pages encore identiques fige la duplication au lieu de la lever. | Mesurer la similarité Jaccard par paire sur le corpus village avant toute écriture. Condition de passage à la canonisation : **Jaccard ≤ 0.15**. |
 | X-R12 | « mesma pessoa » / « mesmo técnico » servis en production | HAUTE | A_FAIRE | — | — | `mesma pessoa\|mesmo t[ée]cnico` · tous formats, hors artefacts · brut **99 fichiers** (CNR 3 · ENR 9 · CU 78 · EU 9), **production 17** (2 · 6 · 4 · 5) — 82 sont des archives. R12 verrouillée : « nós » / « a nossa equipa ». **Exécution, aucun arbitrage.** |
 | X-MAIL | Email `privaterelay.appleid.com` publié comme contact — 7 fichiers | HAUTE | A_FAIRE | — | — | `privaterelay\.appleid\.com` · CNR 3 · ENR 2 · CU 1 · EU 1, tous en production. Correctif : `contacto@canalizador-norte-reparos.pt` (plomberie), `geral@eletricista-norte-reparos.pt` (électricité). |
-| X-ORC | « orçamento gratuito / grátis » | HAUTE | EN_COURS | — | 🛑 vagues 1 CNR et ENR en cours (Hermes) · **substituer LOCUTION par LOCUTION, jamais un match large par une chaîne fixe — voir règle 8** | `[Oo]r[çc]amento[^<>.!?]{0,40}(gratuit\|gr[áa]tis)` · fenêtre 40 c, sans traverser de balise. **Mesuré @ `5d87e82e29` : CNR 344 · ENR 205 · CU 250 · EU 49 = 848 fichiers.** ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>.!?]{0,30}gratuit` — **CNR 265 · ENR 289 · CU 3 · EU 4**, non violantes. |
+| X-ORC | « orçamento gratuito / grátis » | HAUTE | EN_COURS | #363 (DRAFT, rebase requis avant merge) | 🛑 vague 1/4 CNR couverte par **PR #363 DRAFT** (branche `fix/cnr-x-orc-v1-2026-08-30`, commit `30b95cab64` : 144 fichiers prod, 257 substitutions, **96 → 17 occ.**, 17 résiduelles = URLs/noms fichiers `*-orcamento-gratis.html` à arbitrer hors code) · **substituer LOCUTION par LOCUTION, jamais un match large par une chaîne fixe — voir règle 8** · rebase PR #363 sur main post-#370/#371 + validation GO Philippe requises avant merge | `[Oo]r[çc]amento[^<>.!?]{0,40}(gratuit\|gr[áa]tis)` · fenêtre 40 c, sans traverser de balise. **Mesuré @ `5d87e82e29` : CNR 344 · ENR 205 · CU 250 · EU 49 = 848 fichiers.** ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>.!?]{0,30}gratuit` — **CNR 265 · ENR 289 · CU 3 · EU 4**, non violantes. |
 | X-GEN | JSX non compilé servi en production — 22 CNR · 3 CU · 3 EU | HAUTE | A_VERIFIER | — | **livrable du 1er run = identification du GÉNÉRATEUR, pas un patch** | `=\{[a-zA-Z_$]\|=\{\{` · compléments `\]\.map\(\|\)\.map\(\(` et `dangerouslySetInnerHTML` · périmètre `client/public/*.html` (CNR, ENR) et `*.html` racine (CU, EU) · contrôle+ `<html` → 4897 / 4186 / 2487 / 2397. ⛔ **NE PAS utiliser `=\{` seul** : 4171 f. sur ENR — il matche le JS du bandeau RGPD. |
 | X-JSX | Résidus JSX servis | HAUTE | FAIT | #348 | — | clos le 30/08 |
 | X-CONF | Placeholder « A confirmar » | HAUTE | FAIT | #349 | — | clos le 30/08 |
@@ -517,38 +517,66 @@ Voir : `~/work/Sites/canalizador-urgente/SEO_PLAN.md`
 
 ### 🟧 B1 — Homepage "installation/devis/méthode" (S3)
 
-**Statut** : ✅ FAIT (PR loop/2026-06-29-canalizador-b1-homepage-h1, 29/06/2026)
-**Priorité** : HAUTE
-**Effort** : ~2h
-**Risque** : MOYEN (toucher à la homepage, beaucoup de fichiers liés)
+|**Statut** : 🟡 **À RE-SCOPER** (cible atteinte pour user / React, mais static H1 SSR = autre texte)
+|**Priorité** : HAUTE
+|**Effort** : ~30 min (re-scope + micro-patch conditionnel `client/index.html:223`)
+|**Risque** : MOYEN (toucher `client/index.html` peut régresser le LCP de PR #253)
 
-**Branche** : `seo-2026-q3` (à créer depuis `main`)
+|**Branche** : `seo-2026-q3` (à créer depuis `main`)
 
-**Fichiers à modifier (max 3)** :
-1. `dist/public/index.html` — H1 + meta description + premier paragraphe
-2. Schema.org JSON-LD sur la homepage (déjà présent, à compléter)
-3. (optionnel) Sitemap si nouvelle page
+|**Fichiers à modifier (max 3)** :
+|1. `dist/public/index.html` — H1 + meta description + premier paragraphe
+|2. Schema.org JSON-LD sur la homepage (déjà présent, à compléter)
+|3. (optionnel) Sitemap si nouvelle page
 
-**Règles à respecter** :
-- R3 : STOP validation Philippe avant commit
-- R4 : Zéro invention (pas de prix inventés, pas de témoignages)
-- R5 : Géo-neutre (pas d'adresse précise)
-- R8 : Témoin R8 avant/après (grep `canalizador-norte-reparos` dans le repo)
-- R9 : Grille validation 2 colonnes (technique + conformité)
+|**Règles à respecter** :
+|- R3 : STOP validation Philippe avant commit
+|- R4 : Zéro invention (pas de prix inventés, pas de témoignages)
+|- R5 : Géo-neutre (pas d'adresse précise)
+|- R8 : Témoin R8 avant/après (grep `canalizador-norte-reparos` dans le repo)
+|- R9 : Grille validation 2 colonnes (technique + conformité)
 
-**Critère GO/STOP** :
-- ✅ GO si : H1 unique "Instalação e remodelação em Trás-os-Montes" (différent de -urgente), meta description réécrite, schema.org validé
-- 🛑 STOP si : risque de casser un rewrite Vercel ou de modifier 3516 fichiers d'un coup
+|**Critère GO/STOP** :
+|- ✅ GO si : H1 unique "Instalação e remodelação em Trás-os-Montes" (différent de -urgente), meta description réécrite, schema.org validé
+|- 🛑 STOP si : risque de casser un rewrite Vercel ou de modifier 3516 fichiers d'un coup
 
-**H1 cible (à valider avec Philippe)** :
+|**H1 cible (à valider avec Philippe)** :
 ```html
 <h1>Canalizador para instalação e remodelação em Trás-os-Montes</h1>
 ```
 
-**Méta description cible** :
+|**Méta description cible** :
 ```
 Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orçamento em 48h, garantia 1 ano. Atendemos Bragança, Vila Real, Mirandela, Chaves.
 ```
+
+#### 🔁 Révision 2026-08-31 (Hermes t_76aedefc — ligne 541 revisitée)
+
+**Constat mesuré sur `main` (HEAD `992198dfbe`)** :
+1. **PR #90 (30/06/2026, B1)** : `shared/siteConfig.ts` + `client/src/components/Hero.tsx` modifiés — `heroTitle` = "Canalizador para instalação e remodelação — Trás-os-Montes" ✅
+2. **PR #253 (03/08/2026, LCP fix)** : `client/index.html:223` reçoit un `<h1 id="lcp-fast-h1">Água a Pingar? Cano Rebentado?</h1>` static SSR (LCP < 2.5s) ❌
+3. **Route live `/` → `OptimizedHome` → `InnovativeHero`** (import depuis `@/../../shared/serviceConfig`), **PAS** `Hero.tsx`. Donc `Hero.tsx` (cible B1) est sur **dead-code path**.
+4. **B1 cible en place pour l'utilisateur** : `shared/serviceConfig.ts:56` `heroTitle: 'Canalizador para instalação e remodelação — Trás-os-Montes'` ✅
+
+**Pourquoi 🟡 et pas ✅** :
+- Googlebot en mode "first byte only" (sans JS) voit le static H1 `Água a Pingar? Cano Rebentado?` — **PAS la cible B1**.
+- Googlebot en mode "rendered" voit `Canalizador para instalação e remodelação — Trás-os-Montes` via `InnovativeHero` + `shared/serviceConfig`.
+- **2 H1 différents servis selon le client crawler** = ambiguïté SEO que la doctrine R12 (1 H1 unique, installation ≠ urgente) cherche justement à éliminer.
+
+**Pourquoi pas un patch unilatéral `client/index.html:223`** :
+- Le static H1 est **painté sur le premier byte** (LCP 4.2s → < 2.5s, gain mesuré sur mobile). Régresser cette perf pour unifier la H1 = perdre des appels urgence sur le canal conversion #1.
+- R3 : décision métier (SEO vs LCP) → GO Philippe obligatoire.
+- R7 : ne pas toucher `client/index.html` sans validation explicite du trade-off LCP ↔ SEO.
+
+**Re-scope proposé** (à valider Philippe avant exécution) :
+- **Option α** : patcher `client/index.html:223` pour aligner le static H1 sur la cible (`Canalizador para instalação e remodelação — Trás-os-Montes`). Risque : régression LCP si Lighthouse mobile n'aime pas le texte plus long. **Gain SEO maximal**, perte perf à mesurer.
+- **Option β** : conserver le static H1 marketing `Água a Pingar? Cano Rebentado?` + laisser Googlebot rendu JS gagner (déjà cible atteinte via `InnovativeHero`). Risque : 0. **Gain SEO partiel** (Googlebot first-byte ≠ cible), gain perf conservé.
+- **Option γ** : pré-rendre la cible B1 dans le static H1 + conserver le hero marketing via JS swap (cohabitation). Plus complexe, à chiffrer.
+
+**Périmètre Kanban (t_76aedefc) : 0 PR ouvert, 0 merge.** Ce chantier attend un GO explicite de Philippe sur α/β/γ avant toute exécution. Tant que le choix n'est pas fait, B1 reste **🟡 À RE-SCOPER** et le précédent statut `✅ FAIT` (ligne 520) est **obsolète** (mensonger au sens "ce que voit Google n'est pas la cible").
+
+**LEÇON #PROVISOIRE (à numéroter après validation)** :
+> Quand une page a un static H1 SSR (LCP optimization) ET un React hero hydraté, l'audit SEO doit mesurer l'écart entre les deux textes. Un "✅ FAIT" dans SEO_PLAN sur la base du hero hydraté seul est trompeur : Googlebot first-byte rendra le SSR. Toujours cocher **les deux** avant de marquer un chantier SEO homepage terminé.
 
 ---
 
@@ -720,6 +748,7 @@ Canalizador para instalação, remodelação e projetos em Trás-os-Montes. Orç
 
 ---
 
+| 2026-08-31 | Hermes (t_76aedefc) | **Audit B1 ligne 541 — STOP critère revisité** | Constat mesuré : B1 (H1 cible "Canalizador para instalação e remodelação em Trás-os-Montes") **est en place pour l'utilisateur** via `shared/serviceConfig.ts:56` + `InnovativeHero.tsx` (route `/`), MAIS `client/index.html:223` static SSR H1 = `Água a Pingar? Cano Rebentado?` (PR #253 du 03/08/2026, LCP 4.2s → < 2.5s). Googlebot first-byte voit le SSR ≠ cible B1. Statut précédent `✅ FAIT` (ligne 520) marqué obsolète → nouveau statut `🟡 À RE-SCOPER` + 3 options α/β/γ proposées (SEO ↔ LCP trade-off, R3 GO Philippe obligatoire). `Hero.tsx` (cible B1 PR #90) sur dead-code path : route live = `OptimizedHome` → `InnovativeHero`. Aucune modification de code, scope strict = 1 entrée SEO_PLAN. | R3 (STOP Philippe), R7 (0 merge sans GO), R12 (1 H1 unique installation ≠ urgente), R16 (0 régression LCP) | 0 fichier code modifié, 1 entrée SEO_PLAN réécrite (+30/-22 lignes), 1 ligne HISTORIQUE ajoutée. LECON documentée : static SSR H1 vs React hero hydraté = double audit obligatoire avant statut FAIT. | 🛑 STOP - attente GO Philippe sur α/β/γ |
 | 2026-06-29 | Hermes | A3 satellite cross-ref | Référence à l'A3 Doctrine §12 étendue sur les 2 sites `-urgente` (570 fichiers canalizador-urgente PR #48 + 266 fichiers eletricista-urgente PR #35). Backlink `canalizador-norte-reparos.pt` cité dans tous les blocs Doctrine insérés. Aucune action requise sur ce repo `canalizador` lui-même (pas de page service satellite). | Suivi cross-site via PRs upstream | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (mode loupe parent-side) | **A4 satellite cross-ref** | Référence à l'A4 Doctrine §12 sur pages courtes des 2 sites `-urgente` (1827 fichiers canalizador-urgente PR #49 + 1642 arquivos eletricista-urgente PR #36). Backlink `canalizador-norte-reparos.pt` cité dans 1827 blocs Doctrine (canal-urgente). Aucune action locale requise. | Suivi cross-site via PRs upstream. **Leçons #211-#213 documentées** : git add silencieux + case-sensitive subagent + mode loupe parent-side. **Dette A4-BIS élec** : 180 orçamento grátis + 271 typo `+351932321892` + 2 régressions mineures | Pas de modification locale | ✅ Fait (cross-ref) |
 | 2026-06-29 | Hermes (Sub-A→Sub-D audit + cleanup) | **Audit PROD + R7-bis PR #68** | Audit Sub-B a flaggé 27 violations R11/R12 sur ce repo (incluant 6 × "Desde X€" sur Bragança). PR #46 a été nettoyée (Option B) : revert 8 .tsx non validés (NAP/NIF/email hors périmètre), gardé uniquement la suppression des 3 sitemap `.bak-2-4bis` (3434 lignes). Commit `e41e10312` pushé, **PR #72 draft** ouverte. **PR #68 (A5-1a R12 élec, 4175 fichiers) mergée hier 21h07 par Philippe via UI** — c'est R7-bis violée par Philippe lui-même (pas un bug externe). Aucune action de merge prise par Hermes pour PR #72 (R7 respectée). | Témoin R8 : counts bak 3/3 supprimés, PR #72 = draft. Backup `/tmp/BACKLOG-NORTE-REPAROS-2026-06-28.md` documente l'état complet | ⏸ PR #72 en attente review Philippe |
