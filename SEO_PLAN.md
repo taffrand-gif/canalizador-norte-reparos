@@ -268,6 +268,27 @@
      appelé par les trois outils : toute valeur d'argument contenant
      elle-même une option est refusée avant tout verdict.
 
+ 13. UNE FENÊTRE DE N CARACTÈRES DOIT EXCLURE LA PONCTUATION FORTE.
+     Sans `.!?` dans la classe, la fenêtre traverse une frontière de phrase
+     et relie deux propositions sans rapport — elle FABRIQUE des
+     violations. Cas ENR, 31/08 : `[Oo]r[çc]amento[^<>]{0,40}gratuit`
+     reliait « orçamento final no local. » à « Fornecemos diagnóstico
+     gratuito » de la phrase SUIVANTE, laquelle relève justement de
+     l'exclusion doctrinale.
+     Mesuré à `5d87e82e29` / `774f18d45f` :
+       CNR 346 → **160**   (186 faux positifs)
+       ENR 207 → **20**    (187 faux positifs)
+       CU  251 → 251 · EU 51 → 51   (aucun — règle 10 encore)
+     Sur ENR, **90 % du compte était faux** et le prédicat semblait sain.
+     ➡️ **Symétrique exact de la règle 8** : une fenêtre trop permissive
+     INVENTE des violations quand on compte, et DÉTRUIT le texte voisin
+     quand on substitue. Même cause, deux dégâts opposés — c'est pourquoi
+     un prédicat de comptage et un prédicat de substitution ont la même
+     exigence de bornage.
+     ➡️ `measure.py` refuse toute fenêtre `[^…]{0,N}` avec N ≥ 8 dont la
+     classe n'exclut pas `.`, `!`, `?`. Échappatoire explicite :
+     `--fenetre-sans-ponctuation` — assumée, jamais par défaut.
+
   ── Le recensement et la liste blanche I6 sont DEUX périmètres distincts,
      à ne jamais confondre :
        served.json      « cette PR change-t-elle ce qu'un visiteur reçoit ? »
@@ -296,7 +317,7 @@
 | X-DUP | **436 pages village quasi dupliquées** — différenciation PUIS canonisation | HAUTE | A_FAIRE | — | 🛑 **INTERDIT de toucher aux canonicals tant que Jaccard > 0.15.** Différencier d'abord, canoniser ensuite. Canoniser des pages encore identiques fige la duplication au lieu de la lever. | Mesurer la similarité Jaccard par paire sur le corpus village avant toute écriture. Condition de passage à la canonisation : **Jaccard ≤ 0.15**. |
 | X-R12 | « mesma pessoa » / « mesmo técnico » servis en production | HAUTE | A_FAIRE | — | — | `mesma pessoa\|mesmo t[ée]cnico` · tous formats, hors artefacts · brut **99 fichiers** (CNR 3 · ENR 9 · CU 78 · EU 9), **production 17** (2 · 6 · 4 · 5) — 82 sont des archives. R12 verrouillée : « nós » / « a nossa equipa ». **Exécution, aucun arbitrage.** |
 | X-MAIL | Email `privaterelay.appleid.com` publié comme contact — 7 fichiers | HAUTE | A_FAIRE | — | — | `privaterelay\.appleid\.com` · CNR 3 · ENR 2 · CU 1 · EU 1, tous en production. Correctif : `contacto@canalizador-norte-reparos.pt` (plomberie), `geral@eletricista-norte-reparos.pt` (électricité). |
-| X-ORC | « orçamento gratuito / grátis » | HAUTE | EN_COURS | — | 🛑 vagues 1 CNR et ENR en cours (Hermes) · **substituer LOCUTION par LOCUTION, jamais un match large par une chaîne fixe — voir règle 8** | `[Oo]r[çc]amento[^<>]{0,40}(gratuit\|gr[áa]tis)` · fenêtre 40 c, sans traverser de balise. **Mesuré @ `5d87e82e29` : CNR 344 · ENR 205 · CU 250 · EU 49 = 848 fichiers.** ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>]{0,30}gratuit` — **CNR 265 · ENR 289 · CU 3 · EU 4**, non violantes. |
+| X-ORC | « orçamento gratuito / grátis » | HAUTE | EN_COURS | — | 🛑 vagues 1 CNR et ENR en cours (Hermes) · **substituer LOCUTION par LOCUTION, jamais un match large par une chaîne fixe — voir règle 8** | `[Oo]r[çc]amento[^<>.!?]{0,40}(gratuit\|gr[áa]tis)` · fenêtre 40 c, sans traverser de balise. **Mesuré @ `5d87e82e29` : CNR 344 · ENR 205 · CU 250 · EU 49 = 848 fichiers.** ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>.!?]{0,30}gratuit` — **CNR 265 · ENR 289 · CU 3 · EU 4**, non violantes. |
 | X-GEN | JSX non compilé servi en production — 22 CNR · 3 CU · 3 EU | HAUTE | A_VERIFIER | — | **livrable du 1er run = identification du GÉNÉRATEUR, pas un patch** | `=\{[a-zA-Z_$]\|=\{\{` · compléments `\]\.map\(\|\)\.map\(\(` et `dangerouslySetInnerHTML` · périmètre `client/public/*.html` (CNR, ENR) et `*.html` racine (CU, EU) · contrôle+ `<html` → 4897 / 4186 / 2487 / 2397. ⛔ **NE PAS utiliser `=\{` seul** : 4171 f. sur ENR — il matche le JS du bandeau RGPD. |
 | X-JSX | Résidus JSX servis | HAUTE | FAIT | #348 | — | clos le 30/08 |
 | X-CONF | Placeholder « A confirmar » | HAUTE | FAIT | #349 | — | clos le 30/08 |
