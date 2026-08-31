@@ -235,18 +235,38 @@
      run : `python3 .loop/check_prompt.py --recu <prompt-reçu>`.
      Divergence = **refus de démarrer**, pas un avertissement.
 
- 12. UN GARDE-FOU QUI REFUSE TOUT RESSEMBLE À UN GARDE-FOU CASSÉ — et
-     l'erreur peut être du côté de celui qui teste.
-     Cas du 30/08 : la garde `check_prompt.py` a rendu `exit=2` sur les
-     trois cas, y compris le conforme. Elle était sur le point d'être
-     rejetée. L'invocation était fausse — fichier passé en positionnel au
-     lieu de `--recu` —, la garde était juste.
-     ➡️ Avant de conclure qu'un contrôle est cassé, **lire son `--help` et
-     vérifier son invocation**. Un refus uniforme est un symptôme
-     ambigu : il signale aussi bien un outil défaillant qu'un outil bien
-     défendu contre un appel malformé.
-     ➡️ Symétrique de la règle 1 : un zéro uniforme et un refus uniforme
-     demandent tous deux un contrôle positif pour être interprétés.
+ 12. UN CONTRÔLE AMBIGU EST PIRE QU'UN CONTRÔLE ABSENT — il produit de
+     fausses certitudes dans les deux sens.
+     Un garde-fou qui refuse tout ressemble à un garde-fou cassé, et
+     l'erreur peut être du côté de celui qui teste. **Arrivé DEUX FOIS en
+     une heure, à celui-là même qui avait formulé la règle 1** — ce n'est
+     pas un exemple théorique :
+       · 1er essai : `check_prompt.py` rend `exit=2` sur les trois cas,
+         conforme compris. Cause : fichier passé en positionnel.
+       · 2e essai, après correction de l'outil : `exit=4` sur les quatre
+         cas. Cause : `for c in "--recu f.md|libellé"` — **zsh ne fait pas
+         de word-splitting**, l'option et sa valeur arrivent comme un seul
+         argument.
+     Les deux fois, la garde avait raison et allait être déclarée en
+     panne. **Le doute s'est déplacé sur l'outil de contrôle, alors qu'il
+     aurait aussi bien pu se déplacer sur ce qu'il contrôle — le prompt.**
+     ➡️ Avant de conclure qu'un contrôle est cassé : lire son `--help` et
+     vérifier son invocation. Un refus uniforme est un symptôme ambigu —
+     il signale aussi bien un outil défaillant qu'un outil bien défendu.
+     ➡️ Symétrique exact de la règle 1 : un zéro uniforme et un refus
+     uniforme demandent tous deux un contrôle positif pour être
+     interprétés.
+     ➡️ **Charge à l'OUTIL, pas seulement à celui qui teste** : un outil de
+     contrôle doit rendre son propre mauvais usage évident. Codes de
+     sortie distincts (`0` conforme · `1` divergence · `3` fichier absent ·
+     `4` appel malformé) et message qui dit « ce n'est PAS un refus de
+     conformité, rien n'a été comparé ».
+     ➡️ **La leçon écrite ne protège pas — seul le code qui refuse le
+     fait.** Le piège zsh est consigné dans les leçons du dépôt depuis des
+     semaines ; il a frappé trois fois le 30-31/08, sur deux personnes.
+     C'est pourquoi il est désormais détecté par `.loop/argguard.py`,
+     appelé par les trois outils : toute valeur d'argument contenant
+     elle-même une option est refusée avant tout verdict.
 
   ── Le recensement et la liste blanche I6 sont DEUX périmètres distincts,
      à ne jamais confondre :
