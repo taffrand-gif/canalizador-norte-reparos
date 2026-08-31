@@ -159,6 +159,41 @@
      correctement placée, et sans aucun effet. Rien dans le fichier ne le
      dit — seule la preview le dit.
 
+  8. ON REMPLACE UNE LOCUTION PAR UNE LOCUTION — jamais un match large par
+     une chaîne fixe. **Si un motif peut capturer des mots qu'on ne compte
+     pas réécrire, il est FAUX — même quand son compteur de cible est
+     juste.** Le compteur mesure ce qu'on trouve, pas ce qu'on détruira.
+     Cas réel mesuré sur ENR, 30/08 :
+       « ✅ Orçamento correções antes de começar »
+         → « ✅ estimativa sem custo »
+     Ce segment ne contenait ni « grátis » ni « gratuito ». La fenêtre de
+     40 caractères a avalé « correções antes de começar », et la chaîne
+     fixe l'a effacé. Le motif restant vivant dans le corpus le montre :
+     `Orçamento reparação gratuit`, `Orçamento do serviço à parte,
+     gratuit`, `Orçamento por escrito, gratuit` — autant de segments dont
+     la substitution naïve détruirait le milieu.
+     ➡️ Avant tout batch : lister les FORMES CAPTURÉES
+     (`git grep -o` + `sort | uniq -c`) et vérifier que chacune supporte le
+     remplacement. Une forme qui ne le supporte pas sort du périmètre, elle
+     ne se force pas.
+
+  9. UNE CLASSE DE CARACTÈRES N'EST PAS UNE ÉCHAPPÉE — cinquième piège
+     ERE, et le plus durable de tous parce qu'il laisse un compteur
+     plausible. Dans `[^<>\n]`, `\n` n'est pas un saut de ligne : c'est le
+     backslash ET la lettre `n`. La classe exclut donc `<`, `>`, `\` et
+     **n** — n'importe quel mot contenant un « n » casse le motif.
+     Vérifié : `orcamento personalizado gratuito` ne matche PAS
+     `orcamento[^<>\n]{0,40}gratuit`.
+     Effet sur X-ORC, à `5d87e82e29` :
+       classe cassée              CNR  42 · ENR  14 · CU 196 · EU 34
+       classe corrigée `[^<>]`    CNR 262 · ENR 200 · CU 196 · EU 34
+       + variante `gr[áa]tis`     CNR 344 · ENR 205 · CU 250 · EU 49
+     Un facteur 6 sur CNR, et 121 fichiers supplémentaires portés par la
+     seule variante `grátis` — qu'aucune correction de classe n'aurait
+     rattrapée. **Corriger un motif et élargir un vocabulaire sont deux
+     corrections distinctes ; il faut les deux.**
+     `measure.py` refuse désormais tout motif contenant `\n`, `\t` ou `\r`.
+
   ── Le recensement et la liste blanche I6 sont DEUX périmètres distincts,
      à ne jamais confondre :
        served.json      « cette PR change-t-elle ce qu'un visiteur reçoit ? »
@@ -187,7 +222,7 @@
 | X-DUP | **436 pages village quasi dupliquées** — différenciation PUIS canonisation | HAUTE | A_FAIRE | — | 🛑 **INTERDIT de toucher aux canonicals tant que Jaccard > 0.15.** Différencier d'abord, canoniser ensuite. Canoniser des pages encore identiques fige la duplication au lieu de la lever. | Mesurer la similarité Jaccard par paire sur le corpus village avant toute écriture. Condition de passage à la canonisation : **Jaccard ≤ 0.15**. |
 | X-R12 | « mesma pessoa » / « mesmo técnico » servis en production | HAUTE | A_FAIRE | — | — | `mesma pessoa\|mesmo t[ée]cnico` · tous formats, hors artefacts · brut **99 fichiers** (CNR 3 · ENR 9 · CU 78 · EU 9), **production 17** (2 · 6 · 4 · 5) — 82 sont des archives. R12 verrouillée : « nós » / « a nossa equipa ». **Exécution, aucun arbitrage.** |
 | X-MAIL | Email `privaterelay.appleid.com` publié comme contact — 7 fichiers | HAUTE | A_FAIRE | — | — | `privaterelay\.appleid\.com` · CNR 3 · ENR 2 · CU 1 · EU 1, tous en production. Correctif : `contacto@canalizador-norte-reparos.pt` (plomberie), `geral@eletricista-norte-reparos.pt` (électricité). |
-| X-ORC | « orçamento gratuito » — 1070 fichiers | HAUTE | EN_COURS | — | vagues 1 CNR et ENR en cours (Hermes) | `[Oo]r[çc]amento[^<>\n]{0,40}gratuit` · fenêtre 40 c, sans traverser de balise. ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>\n]{0,30}gratuit` = 264 f. **non violantes**. |
+| X-ORC | « orçamento gratuito / grátis » | HAUTE | EN_COURS | — | 🛑 vagues 1 CNR et ENR en cours (Hermes) · **substituer LOCUTION par LOCUTION, jamais un match large par une chaîne fixe — voir règle 8** | `[Oo]r[çc]amento[^<>]{0,40}(gratuit\|gr[áa]tis)` · fenêtre 40 c, sans traverser de balise. **Mesuré @ `5d87e82e29` : CNR 344 · ENR 205 · CU 250 · EU 49 = 848 fichiers.** ⛔ EXCLUSION : `(diagn[óo]stico\|an[áa]lise\|avalia[çc][ãa]o\|inspe[çc][ãa]o)[^<>]{0,30}gratuit` — **CNR 265 · ENR 289 · CU 3 · EU 4**, non violantes. |
 | X-GEN | JSX non compilé servi en production — 22 CNR · 3 CU · 3 EU | HAUTE | A_VERIFIER | — | **livrable du 1er run = identification du GÉNÉRATEUR, pas un patch** | `=\{[a-zA-Z_$]\|=\{\{` · compléments `\]\.map\(\|\)\.map\(\(` et `dangerouslySetInnerHTML` · périmètre `client/public/*.html` (CNR, ENR) et `*.html` racine (CU, EU) · contrôle+ `<html` → 4897 / 4186 / 2487 / 2397. ⛔ **NE PAS utiliser `=\{` seul** : 4171 f. sur ENR — il matche le JS du bandeau RGPD. |
 | X-JSX | Résidus JSX servis | HAUTE | FAIT | #348 | — | clos le 30/08 |
 | X-CONF | Placeholder « A confirmar » | HAUTE | FAIT | #349 | — | clos le 30/08 |
