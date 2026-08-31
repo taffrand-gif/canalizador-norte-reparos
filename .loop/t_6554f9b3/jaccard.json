@@ -1,0 +1,134 @@
+{
+  "corpus_files": 1808,
+  "pairs_sampled": 2000,
+  "pairs_total": 1633528,
+  "self_jaccard_check": 1.0,
+  "jaccard_stats": {
+    "min": 0.108,
+    "p50": 0.2356,
+    "p90": 0.6951,
+    "p99": 0.9853,
+    "max": 0.9953,
+    "mean": 0.3491
+  },
+  "tokens_stats": {
+    "min": 115,
+    "median": 202,
+    "max": 474
+  },
+  "gate_015": {
+    "threshold": 0.15,
+    "frac_above": 0.74,
+    "est_pairs_total_above": 1208810,
+    "gate_verdict": "FAIL — différentiation requise AVANT canonisation. Réouvrir 1810 fichiers et injecter du signal distinctif (VILLE unique par page, données locales vérifiables, NAP par zone)."
+  },
+  "bucket_distribution": {
+    "<0.15": 520,
+    "0.15-0.30": 534,
+    "0.30-0.50": 562,
+    "0.50-0.70": 201,
+    ">=0.70": 183
+  },
+  "top_20_high_pairs": [
+    [
+      "canalizador-cadafaz.html",
+      "canalizador-sande.html",
+      0.155
+    ],
+    [
+      "canalizador-angueira.html",
+      "canalizador-torneira-sao-joao-da-pesqueira.html",
+      0.444
+    ],
+    [
+      "canalizador-desentupimento-sao-martinho-de-anta.html",
+      "canalizador-esquentador-britiande.html",
+      0.645
+    ],
+    [
+      "canalizador-canalizacao-nova-sabrosa.html",
+      "canalizador-desentupimento-carrazeda-de-ansiaes.html",
+      0.677
+    ],
+    [
+      "canalizador-brinco.html",
+      "canalizador-torneira-pinhao.html",
+      0.458
+    ],
+    [
+      "canalizador-seara-velha.html",
+      "canalizador-torneira-santo-estevao.html",
+      0.457
+    ],
+    [
+      "canalizador-argozelo.html",
+      "canalizador-arnas.html",
+      0.154
+    ],
+    [
+      "canalizador-bobadela.html",
+      "canalizador-desentupimento-alfandega-da-fe.html",
+      0.44
+    ],
+    [
+      "canalizador-arcas.html",
+      "canalizador-póvoa-de-agrações.html",
+      0.177
+    ],
+    [
+      "canalizador-cinco-vilas.html",
+      "canalizador-pressao-agua-alfandega-da-fe.html",
+      0.459
+    ],
+    [
+      "canalizador-santa-valha.html",
+      "canalizador-torneira-alfandega-da-fe.html",
+      0.449
+    ],
+    [
+      "canalizador-desentupimento-argozelo.html",
+      "canalizador-genisio.html",
+      0.424
+    ],
+    [
+      "canalizador-lamego.html",
+      "canalizador-pressao-agua-sernancelhe.html",
+      0.342
+    ],
+    [
+      "canalizador-esquentador-chaves.html",
+      "canalizador-vale-das-fontes.html",
+      0.462
+    ],
+    [
+      "canalizador-tresouras.html",
+      "canalizador-valdujo.html",
+      0.394
+    ],
+    [
+      "canalizador-carlao.html",
+      "canalizador-são-cibrão.html",
+      0.179
+    ],
+    [
+      "canalizador-fossa-septica-lordelo.html",
+      "canalizador-gondesende.html",
+      0.45
+    ],
+    [
+      "canalizador-candedo.html",
+      "canalizador-esquentador-chaves.html",
+      0.158
+    ],
+    [
+      "canalizador-curros.html",
+      "canalizador-ucanha.html",
+      0.332
+    ],
+    [
+      "canalizador-brinco.html",
+      "canalizador-fossa-septica-freixo-de-espada-a-cinta.html",
+      0.457
+    ]
+  ]
+}
