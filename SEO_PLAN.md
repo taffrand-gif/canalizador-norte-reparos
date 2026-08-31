@@ -218,12 +218,35 @@
      le gate merge relu comme ordre d'arrêt. **Réactiver la tâche en
      l'état annulait tout le travail, et rien dans les dépôts ne l'aurait
      montré.**
+     Le cas concret, dans son détail, parce que c'est lui qui rend la
+     règle utile : le 30/08 les FICHIERS étaient corrigés (split plan /
+     journal), l'OUTIL était corrigé (dispatch par ID, six invariants,
+     19 contrôles verts), le REGISTRE était corrigé (chantiers à ID,
+     prédicats reproductibles) — et l'instruction qui pilote les trois
+     portait encore l'adressage par numéro de ligne. Trois périmètres
+     audités, conformes, et un quatrième que personne ne regardait.
+     ➡️ **L'ARTEFACT QUI PILOTE N'EST PRESQUE JAMAIS DANS LE PÉRIMÈTRE
+     QU'ON VIENT D'AUDITER.** C'est ce qui le rend invisible : on vérifie
+     ce qu'on a corrigé, et l'instruction n'a jamais fait partie du lot.
+     ➡️ Généralisation : **on corrige les données et on oublie
+     l'instruction qui les lit.** Après tout audit, se demander ce qui
+     LIT ce qu'on vient de corriger, et si cet artefact est versionné.
      ➡️ Copie versionnée dans `.loop/PROMPT.md`. Premier acte de chaque
      run : `python3 .loop/check_prompt.py --recu <prompt-reçu>`.
      Divergence = **refus de démarrer**, pas un avertissement.
-     ➡️ Généralisation : **on corrige les données et on oublie
-     l'instruction qui les lit.** Chercher systématiquement l'artefact qui
-     pilote — il est rarement dans le périmètre qu'on vient d'auditer.
+
+ 12. UN GARDE-FOU QUI REFUSE TOUT RESSEMBLE À UN GARDE-FOU CASSÉ — et
+     l'erreur peut être du côté de celui qui teste.
+     Cas du 30/08 : la garde `check_prompt.py` a rendu `exit=2` sur les
+     trois cas, y compris le conforme. Elle était sur le point d'être
+     rejetée. L'invocation était fausse — fichier passé en positionnel au
+     lieu de `--recu` —, la garde était juste.
+     ➡️ Avant de conclure qu'un contrôle est cassé, **lire son `--help` et
+     vérifier son invocation**. Un refus uniforme est un symptôme
+     ambigu : il signale aussi bien un outil défaillant qu'un outil bien
+     défendu contre un appel malformé.
+     ➡️ Symétrique de la règle 1 : un zéro uniforme et un refus uniforme
+     demandent tous deux un contrôle positif pour être interprétés.
 
   ── Le recensement et la liste blanche I6 sont DEUX périmètres distincts,
      à ne jamais confondre :
