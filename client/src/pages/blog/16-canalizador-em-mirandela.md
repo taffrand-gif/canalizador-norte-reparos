@@ -65,7 +65,7 @@ Investir em serviços profissionais de canalizador não é apenas uma questão d
 - **WhatsApp:** [Enviar mensagem](https://wa.me/351928484451)
 - **Email:** descreva o problema para análise preliminar
 
-**Orçamento gratuito no local. Resposta em 1h para emergências. Garantia de 12-36 meses conforme serviço.**
+**estimativa sem custo no local. Resposta em 1h para emergências. Garantia de 12-36 meses conforme serviço.**
 
 ---
 

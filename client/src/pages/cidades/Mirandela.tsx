@@ -17,7 +17,7 @@ export default function Mirandela() {
  const { config } = useSite();
 
  useEffect(() => {
- document.title = "💧 Canalizador Mirandela — Orçamento Grátis | Garantia Escrita";
+ document.title = "💧 Canalizador Mirandela — estimativa sem custo | Garantia Escrita";
  
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {

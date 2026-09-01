@@ -268,7 +268,7 @@ export default function CheiroMauCanalizacao() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Orçamento Gratuito • ✓ Solução em 1-2h • ✓ 
+ ✓ estimativa sem custo • ✓ Solução em 1-2h • ✓ 
  </p>
  </div>
  </section>

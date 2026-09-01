@@ -198,8 +198,8 @@ export default function Servicos() {
  answer: "Sim: não deite gordura no lava-loiça, use filtros nos ralos, faça limpeza mensal com água quente e bicarbonato, e evite deitar objetos sólidos na sanita."
  },
  {
- question: "O orçamento é gratuito e sem compromisso?",
- answer: "Sim, todos os nossos orçamentos são gratuitos e sem compromisso. Incluem diagnóstico inicial e proposta detalhada por escrito com preços transparentes."
+ question: "O orçamento por escrito antes da intervençãoo e sem compromisso?",
+ answer: "Sim, todos os nossos orçamentos por escrito antes da intervençãoos e sem compromisso. Incluem diagnóstico inicial e proposta detalhada por escrito com preços transparentes."
  }
  ]}
  />
