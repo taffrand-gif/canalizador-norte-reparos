@@ -419,7 +419,7 @@ keywords: ["certificação gás", "certificado gás", "instalação gás", "cana
 
 ### Preços Transparentes
 
-- Orçamento grátis
+- Estimativa sem custo
 - Sem surpresas
 - Garantia trabalhos
 - Pagamento após certificado
@@ -440,7 +440,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ## 💬 Contacte-nos Agora
 
-### Orçamento Grátis
+### Estimativa sem custo
 📞 **+351 928 484 451**
 💬 **[WhatsApp](https://wa.me/351928484451?text=Certificação%20gás%20orçamento)**
 
@@ -473,6 +473,6 @@ Atendemos **86 cidades** em Trás-os-Montes:
 
 ---
 
-**Precisa certificação gás? Orçamento grátis Atendimento prioritário.**
+**Precisa certificação gás? Estimativa sem custo Atendimento prioritário.**
 
 📞 +351 928 484 451 | 💬 WhatsApp | 🌐 canalizador-norte-reparos.pt

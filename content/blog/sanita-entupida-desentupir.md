@@ -281,7 +281,7 @@ R: A cada 2-3 anos em uso normal. Anualmente se família numerosa (5+ pessoas).
 📞 **Ligue Agora: 928 484 451**
 - ✅ Atendimento 24h/7d (urgências)
 - ✅ Técnico chega em 30-60 minutos
-- ✅ Orçamento grátis sem compromisso
+- ✅ Estimativa sem custo sem compromisso
 - ✅ Garantia 12 meses em todos os serviços
 - ✅ Equipamento profissional (mola elétrica, alta pressão)
 

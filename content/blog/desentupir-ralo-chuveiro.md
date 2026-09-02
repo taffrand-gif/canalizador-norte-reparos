@@ -204,7 +204,7 @@ Antes de desentupir, é importante perceber as causas principais:
 - Com substituição de peças: €100-200
 - Urgência 24h: +€30-50
 
-> 💡 **Precisa de ajuda profissional?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Orçamento grátis, intervenção rápida.
+> 💡 **Precisa de ajuda profissional?** Picheleiro certificado em Bragança: **[928 484 451](tel:+351928484451)** — Estimativa sem custo, intervenção rápida.
 
 ## 💰 Comparação de Custos: DIY vs Profissional
 
@@ -317,7 +317,7 @@ O ralo do chuveiro entupido é um problema comum mas **facilmente resolvível** 
 💬 **WhatsApp: [Clique aqui](https://wa.me/351928484451?text=Olá%2C%20preciso%20de%20desentupir%20o%20ralo%20do%20chuveiro.%20Pode%20ajudar%3F)**
 
 ✅ Atendimento 24h/7d (urgências) 
-✅ Orçamento grátis sem compromisso 
+✅ Estimativa sem custo sem compromisso 
 ✅ Técnico em sua casa em 30-45 minutos 
 ✅ Garantia de 6 meses no serviço 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região

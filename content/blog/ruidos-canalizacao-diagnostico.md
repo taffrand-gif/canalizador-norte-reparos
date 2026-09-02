@@ -412,7 +412,7 @@ Use a tabela acima para identificar o tipo de ruído.
 ### Resposta Rápida
 - **30-60 minutos** em Bragança, Mirandela, Macedo
 - 24h/7d incluindo feriados
-- Orçamento grátis
+- Estimativa sem custo
 
 ## 🌍 Cobertura
 

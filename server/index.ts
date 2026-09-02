@@ -61,7 +61,7 @@ async function startServer() {
  const ROUTE_TITLES: Record<string, { title: string; description: string; canonical: string }> = {
  "/contactos": {
  title: "Contactos | Norte Reparos - Canalizador Profissional",
- description: "Entre em contacto connosco. Canalizador profissional Atendimento 24h/7d/dia. Ligue 928 484 451. Orçamento gratuito.",
+ description: "Entre em contacto connosco. Canalizador profissional Atendimento 24h/7d/dia. Ligue 928 484 451. Estimativa sem custo.",
  canonical: "https://canalizador-norte-reparos.pt/contactos"
  },
  "/equipa": {
