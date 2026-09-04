@@ -135,8 +135,8 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  },
  {
  icon: 'check',
- title: 'Orçamento Gratuito',
- description: 'Diagnóstico e orçamento 100% gratuitos. Só paga se aprovar e arranjarmos.'
+ title: 'estimativa sem custo',
+ description: 'Diagnóstico e orçamento por escrito antes da intervençãoos. Só paga se aprovar e arranjarmos.'
  },
  {
  icon: 'clock',
@@ -266,7 +266,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Orçamento Gratuito • ✓ Arranjo no Dia • ✓ Garantia 12 Meses
+ ✓ estimativa sem custo • ✓ Arranjo no Dia • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>

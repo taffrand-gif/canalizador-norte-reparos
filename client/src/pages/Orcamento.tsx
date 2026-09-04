@@ -5,7 +5,7 @@ export default function Orcamento() {
  const { businessName, phone } = ACTIVE_CONFIG;
  
  useSEO({
- title: `Pedir Orçamento Gratuito | ${businessName}`,
+ title: `Pedir estimativa sem custo | ${businessName}`,
  description: `Peça um sem compromisso e sem compromisso. Disponível 24h/7 dias e preços competitivos. Contacte-nos: ${phone}`,
  keywords: "sem compromisso, pedir orçamento, orçamento sem compromisso, preços competitivos"});
  return (

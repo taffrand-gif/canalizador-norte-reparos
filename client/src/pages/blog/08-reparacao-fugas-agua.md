@@ -191,7 +191,7 @@ Uma fuga de água mal arranjada ou ignorada pode custar **10-20 vezes mais** a l
 
 **Artigos Relacionados:**
 - [Canalizador Urgente em Vila Real - 1h Resposta](/canalizador-urgente-vila-real)
-- [Preço Desentupimento Canalizações - Orçamento Grátis](/preco-desentupimento-canalizacoes)
+- [Preço Desentupimento Canalizações - estimativa sem custo](/preco-desentupimento-canalizacoes)
 - [Instalação Sanitários - Preço por Unidade](/instalacao-sanitarios-preco)
 
 **Fontes e Referências:**

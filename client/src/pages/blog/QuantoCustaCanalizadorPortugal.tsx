@@ -907,7 +907,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Orçamento Gratuito por Escrito</p>
+ <p className="font-bold">estimativa sem custo por Escrito</p>
  <p className="text-sm text-white/80">Sem custos escondidos</p>
  </div>
  </div>

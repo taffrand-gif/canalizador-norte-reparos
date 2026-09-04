@@ -297,7 +297,7 @@ Contador DN15 (diâmetro 15mm) limita o caudal. Casa grande precisa DN20 ou DN25
 | Substituir redutor de pressão | €80-180 |
 | Urgência | +€50-80 |
 
-> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendemos 24h/7 dias, orçamento grátis.
+> 💡 **Precisa de diagnóstico profissional?** Picheleiro em Bragança: **[928 484 451](tel:+351928484451)** — Identificamos a causa Atendemos 24h/7 dias, Estimativa sem custo.
 
 ## 🔍 Como Diagnosticar o Problema
 
@@ -456,7 +456,7 @@ Pressão de água baixa tem **múltiplas causas**, desde simples (filtro entupid
 ✅ Instalação de bombas pressurizadoras 
 ✅ Deteção de fugas com equipamento profissional 
 ✅ Garantia 1 ano no serviço 
-✅ Orçamento grátis sem compromisso 
+✅ Estimativa sem custo sem compromisso 
 ✅ Cobrimos Bragança, Mirandela, Trás-os-Montes e toda a região
 
 **Não viva com pressão baixa!** Afeta conforto, higiene e funcionamento de aparelhos. Contacte-nos já para diagnóstico grátis.

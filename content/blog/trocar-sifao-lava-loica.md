@@ -487,7 +487,7 @@ Um sifão novo custa apenas **€8-25** e a instalação é tão simples que at�
 ✅ Arranjo de fugas 
 ✅ Desentupimentos 
 ✅ Manutenção preventiva 
-✅ Orçamento grátis sem compromisso 
+✅ Estimativa sem custo sem compromisso 
 ✅ Urgências 24h/7 dias 
 
 **📞 Ligue já: [928 484 451](tel:+351928484451)**
@@ -520,7 +520,7 @@ Trocar o sifão do lava-loiça é uma das **arranjos mais simples** que pode faz
 
 **Ligue JÁ: [928 484 451](tel:+351928484451)**
 
-**Picheleiro certificado • Intervenção rápida • Orçamento grátis • Garantia de qualidade**
+**Picheleiro certificado • Intervenção rápida • Estimativa sem custo • Garantia de qualidade**
 
 ---
 

@@ -426,7 +426,7 @@ Neste guia completo, vou mostrar-lhe os **6 sinais de alerta que nunca deve igno
 ✅ Arranjo de fugas em paredes, tetos, pisos 
 ✅ Substituição de canalização antiga 
 ✅ Tratamento de humidade e bolor 
-✅ Orçamento grátis sem compromisso 
+✅ Estimativa sem custo sem compromisso 
 ✅ Urgências 24h/7 dias 
 
 **📞 Ligue já: [928 484 451](tel:+351928484451)**
@@ -452,7 +452,7 @@ Uma fuga de água na parede **nunca se resolve sozinha** — só piora com o tem
 
 **Não arrisque. Ligue JÁ: [928 484 451](tel:+351928484451)**
 
-**Picheleiro certificado • Urgências 24h • Orçamento grátis • Intervenção em 30-45min**
+**Picheleiro certificado • Urgências 24h • Estimativa sem custo • Intervenção em 30-45min**
 
 ---
 

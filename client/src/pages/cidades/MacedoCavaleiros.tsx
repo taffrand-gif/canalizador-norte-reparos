@@ -17,7 +17,7 @@ export default function MacedoCavaleiros() {
  const { config } = useSite();
 
  useEffect(() => {
- document.title = "💧 Canalizador Macedo Cavaleiros — Orçamento Grátis | Garantia Escrita";
+ document.title = "💧 Canalizador Macedo Cavaleiros — estimativa sem custo | Garantia Escrita";
  
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {

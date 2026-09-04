@@ -347,7 +347,7 @@ export default function FugaAguaEscondidaSinais() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Disponível 24h/7 dias garantida • Deteção 80-150€ • Orçamento de arranjo gratuito
+ Disponível 24h/7 dias garantida • Deteção 80-150€ • estimativa sem custo
  </p>
  </div>
  </article>

@@ -127,7 +127,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg flex items-center justify-center gap-2"
  >
  <Phone className="w-6 h-6" />
- Orçamento Grátis: {config.phone}
+ estimativa sem custo: {config.phone}
  </a>
  <a
  href={`https://wa.me/${config.whatsapp}?text=Preciso orçamento para arranjar água castanha`}

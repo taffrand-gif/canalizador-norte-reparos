@@ -317,7 +317,7 @@ Tudo sobre desentupimento.
 - 📍 **Sede:** Trás-os-Montes
 
 **Preços tabelados por zona — sem surpresas.**
-**Orçamento grátis por telefone — sem compromisso.**
+**Estimativa sem custo por telefone — sem compromisso.**
 
 [Pedir orçamento agora](tel:+351928484451)
 
@@ -334,7 +334,7 @@ Preços indicativos 2026 em Trás-os-Montes:
 - **Inspeção vídeo CCTV**: 120-200€
 - **Limpeza fossa séptica**: 200-400€
 
-Urgências noturnas/fim de semana: +50%. Orçamento grátis por telefone: **+351 928 484 451**.
+Urgências noturnas/fim de semana: +50%. Estimativa sem custo por telefone: **+351 928 484 451**.
 
 ### É seguro usar soda cáustica para desentupir?
 **Não recomendado** para uso doméstico regular. Soda cáustica (hidróxido de sódio) é altamente corrosiva e pode: (1) Danificar canos de PVC a longo prazo, (2) Causar queimaduras graves em contacto com pele ou olhos, (3) Libertar gases tóxicos em espaços fechados. Use apenas como último recurso com equipamento de proteção completo, e NUNCA misture com outros produtos químicos (risco de reação explosiva).

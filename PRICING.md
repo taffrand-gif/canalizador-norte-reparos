@@ -48,7 +48,7 @@ Quatre engagements à publier (Filipe, 11/08) :
 
 ### Formulation bannie (R-canon-2026-08-11)
 
-- ❌ **JAMAIS** « orçamento gratuito » : la deslocacao est facturée, ce qui crée une fausse promesse.
+- ❌ **JAMAIS** « estimativa antes da intervenção » : la deslocacao est facturée, ce qui crée une fausse promesse.
 - ❌ **JAMAIS** « visita gratuita » : la visite technique est couplée à la deslocacao facturée.
 - ❌ **JAMAIS** « deslocacao gratuita » : la deslocacao a un prix tabelado par zone (Z1-Z6).
 - ✅ La formulation correcte met l'accent sur **estimativa sem custo** (pas de frais pour chiffrer par téléphone/WhatsApp si photos/vidéo permettent) et sur l'**engagement écrit avant intervention**.

@@ -15,7 +15,7 @@ export default function CeloricoDaBeira() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "💧 Canalizador Urgente Celorico da Beira — Atendimento 24h | Orçamento Grátis";
+    document.title = "💧 Canalizador Urgente Celorico da Beira — Atendimento 24h | estimativa sem custo";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');

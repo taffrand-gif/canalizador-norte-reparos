@@ -481,7 +481,7 @@ R: NÃO! Mesmo "biodegradáveis" demoram meses a desfazer-se. Causam 15% dos ent
 - ✅ Atendimento 24h/7d (urgências)
 - ✅ Técnico com equipamento profissional chega em 30-60 minutos
 - ✅ Mola elétrica + Alta pressão + Câmara inspeção
-- ✅ Orçamento grátis sem compromisso
+- ✅ Estimativa sem custo sem compromisso
 - ✅ Garantia 12 meses em todos os serviços
 
 💬 **WhatsApp:** [Clique para ajuda urgente](https://wa.me/351928484451?text=Olá,%20tenho%20canalização%20entupida%20e%20preciso%20de%20ajuda!)

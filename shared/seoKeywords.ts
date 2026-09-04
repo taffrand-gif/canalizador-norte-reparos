@@ -15,7 +15,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'macedo-de-cavaleiros': {
  cityName: 'Trás-os-Montes',
  title: 'Canalizador Macedo Cavaleiros 💧 24h | 928 484 451',
- description: 'Cano rebentado em Trás-os-Montes? Estamos aí em menos de resposta prioritária. Desentupimentos urgentes, orçamento gratuito. Ligue: 928 484 451',
+ description: 'Cano rebentado em Trás-os-Montes? Estamos aí em menos de resposta prioritária. Desentupimentos urgentes, estimativa sem custo. Ligue: 928 484 451',
  keywords: [
  'canalizador macedo de cavaleiros',
  'canalizador 24h macedo de cavaleiros',
@@ -31,7 +31,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'braganca': {
  cityName: 'Bragança',
  title: 'Canalizador em Bragança | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Bragança. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Bragança. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador bragança',
  'canalizador 24h bragança',
@@ -47,7 +47,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'mirandela': {
  cityName: 'Mirandela',
  title: 'Canalizador em Mirandela | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Mirandela. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Mirandela. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador mirandela',
  'canalizador 24h mirandela',
@@ -63,7 +63,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'chaves': {
  cityName: 'Chaves',
  title: 'Canalizador em Chaves | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Chaves. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Chaves. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador chaves',
  'canalizador 24h chaves',
@@ -79,7 +79,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'valpacos': {
  cityName: 'Valpaços',
  title: 'Canalizador em Valpaços | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Valpaços. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Valpaços. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador valpaços',
  'canalizador 24h valpaços',
@@ -95,7 +95,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'vinhais': {
  cityName: 'Vinhais',
  title: 'Canalizador em Vinhais | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Vinhais. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Vinhais. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador vinhais',
  'canalizador 24h vinhais',
@@ -111,7 +111,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'miranda-do-douro': {
  cityName: 'Miranda do Douro',
  title: 'Canalizador em Miranda do Douro | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Miranda do Douro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Miranda do Douro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador miranda do douro',
  'canalizador 24h miranda do douro',
@@ -127,7 +127,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'mogadouro': {
  cityName: 'Mogadouro',
  title: 'Canalizador em Mogadouro | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Mogadouro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Mogadouro. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador mogadouro',
  'canalizador 24h mogadouro',
@@ -143,7 +143,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'torre-de-moncorvo': {
  cityName: 'Torre de Moncorvo',
  title: 'Canalizador em Torre de Moncorvo | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Torre de Moncorvo. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Torre de Moncorvo. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador torre de moncorvo',
  'canalizador 24h torre de moncorvo',
@@ -159,7 +159,7 @@ export const norteReparosCitySEO: Record<string, CitySEOConfig> = {
  'freixo-de-espada-a-cinta': {
  cityName: 'Freixo de Espada à Cinta',
  title: 'Canalizador em Freixo de Espada à Cinta | Canalizador Profissional | 24h Urgências',
- description: 'Canalizador profissional em Freixo de Espada à Cinta. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Orçamento gratuito: 928 484 451',
+ description: 'Canalizador profissional em Freixo de Espada à Cinta. Desentupimentos, arranjo fugas água, instalação sanitários. Urgências 24h. Estimativa sem custo: 928 484 451',
  keywords: [
  'canalizador freixo de espada à cinta',
  'canalizador 24h freixo de espada à cinta',

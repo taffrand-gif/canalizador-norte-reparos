@@ -142,13 +142,13 @@ export const videoData = [
  id: 'process-quote',
  category: 'service-process',
  title: 'Como Funciona o Orçamento Gratuito',
- description: 'Orçamento 100% gratuito e sem compromisso: visita ao local, diagnóstico completo, preço fixo, sem surpresas.',
+ description: 'Estimativa por escrito antes da intervenção e sem compromisso: visita ao local, diagnóstico completo, preço fixo, sem surpresas.',
  duration: 45,
  thumbnailUrl: '/images/ai-generated/technician/technician-010.jpg',
  youtubeId: 'dQw4w9WgXcQ',
- keywords: ['orçamento', 'gratuito', 'preço', 'transparência'],
+ keywords: ['orçamento', 'sem custo', 'preço', 'transparência'],
  uploadDate: '2026-03-03',
- transcript: 'Orçamento é 100% gratuito. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Só paga se aprovar e ficar satisfeito. Garantia 12 meses em todos os trabalhos.'
+ transcript: 'Estimativa sem custo. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Só paga se aprovar e ficar satisfeito. Garantia 12 meses em todos os trabalhos.'
  },
  {
  id: 'process-guarantee',
