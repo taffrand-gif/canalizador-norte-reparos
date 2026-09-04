@@ -6,25 +6,26 @@
     "^client/public/",
     "^client/src/",
     "^client/index\\.html$",
-    "^public/",
     "^vite\\.config\\.ts$",
     "^package\\.json$",
     "^scripts/optimize\\-images\\.js$",
     "^scripts/sync\\-client\\-sitemap\\.mjs$",
     "^vercel\\.json$"
   ],
-  "jamais_servi": [],
+  "jamais_servi": [
+    "^public/"
+  ],
   "justification": [
     "^client/public/ — publicDir de vite, copié tel quel dans outDir",
     "^client/src/ — compilé dans outDir",
     "^client/index\\.html$ — point d'entrée vite",
-    "^public/ — alimente client/public via la chaîne prebuild",
     "^vite\\.config\\.ts$ — définit root, outDir et le contenu de la sortie",
     "^package\\.json$ — définit la chaîne prebuild/build/postbuild",
     "^scripts/optimize-images.js$ — invoqué par la chaîne build/optimize-images/prebuild/sync-client-sitemap",
     "^scripts/sync-client-sitemap.mjs$ — invoqué par la chaîne build/optimize-images/prebuild/sync-client-sitemap",
     "server/** EXCLU — bundlé par esbuild vers dist/, jamais publié : outputDirectory ne contient que dist/public",
     "scripts/** EXCLU en bloc — seuls les scripts effectivement invoqués sont retenus",
-    "^vercel.json$ — rewrites et headers changent ce qui est servi"
+    "^vercel.json$ — rewrites et headers changent ce qui est servi",
+    "^public/ JAMAIS SERVI — vérifié en production le 02/09/2026, deux témoins, empreintes exactes : /robots.txt rend md5 7c54a9903154ec5d31f009a582a1ccc7 (828 o) = client/public/robots.txt, PAS public/robots.txt (e998da3d…, 764 o) ; /.well-known/ai-plugin.json rend 69b55b9b53bad87fb074469c1d2ff5b5 (1135 o) = client/public/, PAS public/ (965ac08f…, 1641 o). 37 fichiers à la racine, 7 chemins en commun avec client/public/, aucun servi. L'ancienne justification « alimente client/public via la chaîne prebuild » est fausse : vite fixe root=client et publicDir=client/public, prebuild=optimize-images travaille dans client/public/images-optimized, postbuild synchronise dist/public et client/public. La racine n'est lue par aucune étape."
   ]
 }
