@@ -143,7 +143,7 @@ function WhyDifferent() {
  ✅ Garantia "Problema Volta = GRÁTIS"
  </h3>
  <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
- Se o problema voltar em 6 meses, voltamos GRATUITAMENTE.
+ Se o problema voltar em 12 meses, voltamos GRATUITAMENTE.
  Certificado de garantia por escrito. Sem letra pequena.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">

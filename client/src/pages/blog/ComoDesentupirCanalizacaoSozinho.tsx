@@ -334,7 +334,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div>
  <p className="font-bold text-cyan-900 mb-2">🛡️ Garantia</p>
  <ul className="text-cyan-800 space-y-1 text-sm">
- <li>• Serviço garantido 6 meses</li>
+ <li>• Serviço garantido 12 meses</li>
  <li>• Certificado profissional</li>
  <li>• Seguro responsabilidade civil</li>
  </ul>
@@ -562,7 +562,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Garantia 6 meses</p>
+ <p className="font-bold">Garantia 12 meses</p>
  <p className="text-sm text-white/80">Serviço certificado</p>
  </div>
  </div>

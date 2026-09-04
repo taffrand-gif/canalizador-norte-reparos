@@ -20,7 +20,7 @@ const serviceFeatures = {
  'Desentupimentos': [
  'Equipamento de alta pressão e câmera de inspeção',
  'Técnicas não invasivas (sem quebrar azulejos)',
- 'Garantia 6 meses contra reentupimento'
+ 'Garantia 12 meses contra reentupimento'
  ],
  'Arranjo de Fugas de Água': [
  'Câmara térmica FLIR — vemos a fuga sem partir paredes',
