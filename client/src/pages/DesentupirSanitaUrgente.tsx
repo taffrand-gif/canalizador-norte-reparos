@@ -290,7 +290,7 @@ export default function DesentupirSanitaUrgente() {
  },
  {
  q: 'E se o problema voltar?',
- a: 'Garantia de 6 meses. Se o entupimento voltar, arranjamos gratuitamente. Sem perguntas.'
+ a: 'Garantia de 12 meses. Se o entupimento voltar, arranjamos gratuitamente. Sem perguntas.'
  },
  {
  q: 'Aceitam que formas de pagamento?',

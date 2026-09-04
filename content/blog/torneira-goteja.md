@@ -499,7 +499,7 @@ Uma torneira que goteja é um **problema simples com solução fácil**, mas que
 - Arranjo rápida (30-60 minutos)
 - Peças de qualidade (Grohe, Hansgrohe, Roca)
 - Orçamento transparente antes de iniciar
-- Garantia de 6 meses na arranjo
+- Garantia de 12 meses na arranjo
 - Disponível Atendimento 24h/7d para urgências
 
 **Cada gota conta. Repare hoje e comece a poupar amanhã.**

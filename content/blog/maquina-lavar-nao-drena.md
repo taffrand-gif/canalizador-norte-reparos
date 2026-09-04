@@ -478,7 +478,7 @@ Uma máquina de lavar que não drena é **frustrante mas geralmente tem soluçã
 - Diagnóstico preciso (identifica causa exata)
 - Arranjo rápida (1-2 horas)
 - Peças de qualidade (originais ou equivalentes)
-- Garantia de 6 meses no trabalho
+- Garantia de 12 meses no trabalho
 - Orçamento transparente antes de iniciar
 
 **Não deixe roupa encharcada. Resolva hoje mesmo.**
