@@ -32,7 +32,7 @@ export default function TransparencePrix() {
  "Desentupimento canalização",
  "Arranjo tubagens",
  "Substituição válvulas",
- "Garantia 6 meses"
+ "Garantia 12 meses"
  ]
  },
  {
@@ -347,7 +347,7 @@ export default function TransparencePrix() {
  <div className="text-white/80">Garantia Instalações</div>
  </div>
  <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
- <div className="text-3xl font-black mb-2">6 meses</div>
+ <div className="text-3xl font-black mb-2">12 meses</div>
  <div className="text-white/80">Garantia Arranjos</div>
  </div>
  <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">

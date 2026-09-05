@@ -247,7 +247,7 @@ export default function Desentupimentos() {
  },
  {
  question: "Oferecem garantia nos desentupimentos?",
- answer: "Sim, oferecemos garantia de 6 meses em todos os serviços de desentupimento. Se o problema voltar dentro deste período, voltamos sem custos adicionais."
+ answer: "Sim, oferecemos garantia de 12 meses em todos os serviços de desentupimento. Se o problema voltar dentro deste período, voltamos sem custos adicionais."
  },
  {
  question: "Quanto custa um desentupimento em Trás-os-Montes?",

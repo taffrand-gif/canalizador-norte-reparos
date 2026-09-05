@@ -55,7 +55,7 @@ export default function DesentupirSanitaUrgente() {
  </div>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
  <Shield className="w-8 h-8 text-yellow-300 mb-2" />
- <p className="font-bold">Garantia 6 meses</p>
+ <p className="font-bold">Garantia 12 meses</p>
  <p className="text-sm text-orange-100">Se voltar, arranjamos grátis</p>
  </div>
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
@@ -154,7 +154,7 @@ export default function DesentupirSanitaUrgente() {
  </li>
  <li className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
- <span className="text-gray-700">Garantia 6 meses</span>
+ <span className="text-gray-700">Garantia 12 meses</span>
  </li>
  </ul>
  <p className="text-sm text-gray-600 italic">
@@ -206,7 +206,7 @@ export default function DesentupirSanitaUrgente() {
  { icon: '📱', title: 'Liga/WhatsApp', desc: 'Atendemos A confirmar' },
  { icon: '🚗', title: 'Técnico a caminho', desc: 'A confirmar' },
  { icon: '🔧', title: 'Desentupimento', desc: 'A confirmar' },
- { icon: '✅', title: 'Problema resolvido', desc: 'Garantia 6 meses' }
+ { icon: '✅', title: 'Problema resolvido', desc: 'Garantia 12 meses' }
  ].map((step, i) => (
  <div key={i} className="bg-white p-6 rounded-xl shadow-lg text-center">
  <div className="text-5xl mb-4">{step.icon}</div>
@@ -290,7 +290,7 @@ export default function DesentupirSanitaUrgente() {
  },
  {
  q: 'E se o problema voltar?',
- a: 'Garantia de 6 meses. Se o entupimento voltar, arranjamos gratuitamente. Sem perguntas.'
+ a: 'Garantia de 12 meses. Se o entupimento voltar, arranjamos gratuitamente. Sem perguntas.'
  },
  {
  q: 'Aceitam que formas de pagamento?',

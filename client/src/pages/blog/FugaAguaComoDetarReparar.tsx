@@ -768,7 +768,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Garantia 6 meses</p>
+ <p className="font-bold">Garantia 12 meses</p>
  <p className="text-sm text-white/80">Serviço certificado</p>
  </div>
  </div>
