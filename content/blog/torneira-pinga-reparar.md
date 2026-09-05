@@ -376,7 +376,7 @@ keywords: ["torneira pinga", "arranjar torneira", "junta torneira", "picheleiro"
 - Diagnóstico imediato
 - Peças stock (juntas, cartuchos)
 - Arranjo 15-30 minutos
-- Garantia 6 meses
+- Garantia 12 meses
 
 ### Todas Marcas
 

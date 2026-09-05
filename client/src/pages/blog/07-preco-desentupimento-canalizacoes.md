@@ -100,7 +100,7 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 - Teste de escoamento completo
 - Verificação de vazamentos
 - Emissão de relatório técnico
-- **Garantia de 6 meses no serviço**
+- **Garantia de 12 meses no serviço**
 
 ## Custos Adicionais a Considerar
 
@@ -156,7 +156,7 @@ Um desentupimento profissional pode parecer um custo inicial, mas é na verdade 
 - **WhatsApp:** [Pedir estimativa sem custo](https://wa.me/351928484451)
 - **Online:** Descreva o problema para estimativa preliminar
 
-**Diagnóstico gratuito no local. Orçamento transparente antes de qualquer intervenção. Garantia de 6 meses em todos os serviços.**
+**Diagnóstico gratuito no local. Orçamento transparente antes de qualquer intervenção. Garantia de 12 meses em todos os serviços.**
 
 ---
 

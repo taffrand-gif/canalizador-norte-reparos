@@ -31,7 +31,7 @@ function FAQ() {
  answer: 'Sinais de fuga escondida: 1) Conta de água inexplicavelmente alta, 2) Manchas húmidas em paredes ou teto, 3) Cheiro a mofo persistente, 4) Som de água correndo quando tudo está fechado, 5) Medidor de água girando com tudo fechado. Para deteção profissional com câmera térmica, ligue 928 484 451.'},
  {
  question: 'Qual a garantia do trabalho de canalizador?',
- answer: 'Oferecemos garantia de 6 meses em todos os trabalhos de arranjo e 12 meses em instalações novas. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais utilizados. Certificado de garantia fornecido após conclusão do serviço.'},
+ answer: 'Oferecemos garantia de 12 meses em todos os trabalhos, de arranjo a instalações novas. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais utilizados. Certificado de garantia fornecido após conclusão do serviço.'},
  {
  question: 'O que está incluído no serviço de canalizador?',
  answer: 'O serviço inclui: diagnóstico do problema, mão de obra especializada, materiais básicos (juntas, vedantes), limpeza após intervenção, garantia do trabalho realizado. Não incluído: peças de substituição caras (esquentadores, caldeiras), obras de alvenaria. Orçamento detalhado antes de iniciar.'},
