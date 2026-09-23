@@ -277,7 +277,7 @@ export default function CanalizacaoCasaAntiga() {
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-4">
  Em <a href="/canalizador-montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
- <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> e outras zonas frias, 
+ <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a>  
  as temperaturas podem chegar a <strong>-10°C no inverno</strong>. Tubos sem isolamento rebentam.
  </p>
  <h3 className="font-bold text-lg mb-3">Onde Isolar:</h3>

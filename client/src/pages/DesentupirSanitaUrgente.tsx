@@ -6,10 +6,10 @@ import { Phone, MessageCircle, CheckCircle, Clock, Shield, Star, Zap } from 'luc
 export default function DesentupirSanitaUrgente() {
  const { config } = useSite();
  useEffect(() => {
- document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido | 80-120€';
+ document.title = 'Desentupir Sanita Urgente | 1 Hora Garantido';
  const meta = document.querySelector('meta[name="description"]') || document.createElement('meta');
  meta.setAttribute('name', 'description');
- meta.setAttribute('content', 'Sanita entupida? Resolvemos Atendimento rápido! Preço 80-120€. Atendimento 24h. Ligue: 928 484 451');
+ meta.setAttribute('content', 'Sanita entupida? Resolvemos Atendimento rápido!  Atendimento 24h. Ligue: 928 484 451');
  if (!meta.parentElement) document.head.appendChild(meta);
  }, []);
  const whatsappMessage = encodeURIComponent('Olá! Preciso desentupir sanita urgente. Podem ajudar?');
@@ -44,7 +44,7 @@ export default function DesentupirSanitaUrgente() {
  </h1>
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>
- <p className="text-5xl font-bold">80-120€</p>
+ <p className="text-5xl font-bold"></p>
  <p className="text-sm text-gray-600 mt-1">(conforme complexidade)</p>
  </div>
  <div className="grid md:grid-cols-3 gap-4 mb-8 text-left">
@@ -142,7 +142,7 @@ export default function DesentupirSanitaUrgente() {
  <ul className="space-y-3 mb-6">
  <li className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
- <span className="text-gray-700">Deslocação com preço tabelado por zona</span>
+ <span className="text-gray-700">Deslocação 30 € (50 € noite/fim de semana)</span>
  </li>
  <li className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -321,7 +321,7 @@ export default function DesentupirSanitaUrgente() {
  </p>
  <div className="bg-white text-orange-600 inline-block px-8 py-4 rounded-2xl mb-8 shadow-2xl">
  <p className="text-sm font-semibold mb-1">PREÇO</p>
- <p className="text-5xl font-bold">80-120€</p>
+ <p className="text-5xl font-bold"></p>
  </div>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a

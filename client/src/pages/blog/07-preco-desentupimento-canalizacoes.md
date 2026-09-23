@@ -105,9 +105,9 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 ## Custos Adicionais a Considerar
 
 ### 1. Situações de Emergência
-- **Serviço 24h:** Acréscimo de 20-30%
-- **Fins de semana/Feriados:** Acréscimo de 25-35%
-- **Madrugada (22h-6h):** Acréscimo de 30-40%
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 
 ### 2. Materiais de Reposição
 - **Juntas e conexões:** €5-€20 por unidade

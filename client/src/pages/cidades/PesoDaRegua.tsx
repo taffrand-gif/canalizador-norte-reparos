@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Peso da Régua"
-// 100% unique content, zone Z6, preço 120€
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -80,7 +80,7 @@ export default function PesoRégua() {
  const cidadesProximas = getCidadesProximas('peso-da-regua');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Peso da Régua?", answer: "Desde 120€ em Peso da Régua. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Peso da Régua?", answer: "Desde 100€ (150 € noite/fim de semana) em Peso da Régua. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Peso da Régua?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Peso da Régua. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
@@ -97,7 +97,7 @@ export default function PesoRégua() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Peso da Régua, a deslocação é 65€ (Zona 6, 98.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Peso da Régua, a deslocação é 30€ (98.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

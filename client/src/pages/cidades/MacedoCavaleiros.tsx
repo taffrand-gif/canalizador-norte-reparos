@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Macedo de Cavaleiros"
-// 100% unique content, zone Z1, preço 80€
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -80,7 +80,7 @@ export default function MacedoCavaleiros() {
  const cidadesProximas = getCidadesProximas('macedo-de-cavaleiros');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Macedo de Cavaleiros?", answer: "Desde 80€ em Macedo de Cavaleiros. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Macedo de Cavaleiros?", answer: "Desde 100€ (150 € noite/fim de semana) em Macedo de Cavaleiros. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Macedo de Cavaleiros?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Macedo de Cavaleiros. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
@@ -97,7 +97,7 @@ export default function MacedoCavaleiros() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Macedo de Cavaleiros, a deslocação é 15€ (Zona 1, 0 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Macedo de Cavaleiros, a deslocação é 30€ (0 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

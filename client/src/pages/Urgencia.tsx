@@ -9,7 +9,7 @@ function CanalizadorUrgente() {
  const canonical = 'https://canalizador-norte-reparos.pt/canalizador-urgente';
 
  // 5 FAQ alinhadas intenção MONEY (DFSEO CPC=14.63 EUR vol=170)
- // Schema.org FAQPage — process, prix Z1-Z6, equipamento, cobertura, garantia
+ // Schema.org FAQPage
  // R12: slogans 24h/7d purgés, doctrine «mediante confirmação»
  const faqStructuredData = {
   "@context": "https://schema.org",
@@ -20,7 +20,7 @@ function CanalizadorUrgente() {
     "name": "Como funciona o serviço de canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Liga-nos, descreves o problema, validamos a deslocação por zona (Z1 a Z6, conforme distância a Macedo de Cavaleiros). Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
+     A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
     }
    },
    {
@@ -28,7 +28,7 @@ function CanalizadorUrgente() {
     "name": "Quanto custa um canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Mão de obra 65€/hora, deslocação conforme zona (Z1=15€, Z2=25€, Z3=35€, Z4=45€, Z5=55€, Z6=65€). Majoração +50% noite/fim-de-semana/feriado. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
+     "text": "Mão de obra 70€/hora, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
     }
    },
    {
@@ -63,7 +63,7 @@ function CanalizadorUrgente() {
   "@type": "Service",
   "name": "Canalizador urgente em Trás-os-Montes",
   "serviceType": "Canalizador urgente 24h",
-  "description": "Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado — orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6, equipamento profissional. Mão de obra 65€/hora.",
+  "description": "Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Mão de obra 70€/hora.",
   "areaServed": {
    "@type": "AdministrativeArea",
    "name": "Trás-os-Montes"
@@ -78,15 +78,15 @@ function CanalizadorUrgente() {
    "@type": "Offer",
    "priceCurrency": "EUR",
    "price": "65",
-   "description": "Mão de obra 65€/hora + deslocação Z1-Z6 (15-65€)"
+   "description": "Mão de obra 70€/hora + deslocação (30 €)"
   }
  };
 
  return (
  <>
  <Helmet>
- <title>Canalizador urgente em Trás-os-Montes — 65€/h · Z1-Z6 | Norte Reparos</title>
- <meta name="description" content="Canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Orçamento por escrito antes da intervenção, deslocação Z1-Z6 (15-65€) + 65€/h. Majoração +50% noite/fim-de-semana. Ligue 928 484 451." />
+ <title>Canalizador urgente em Trás-os-Montes — 70€/h · Norte Reparos</title>
+ <meta name="description" content="Canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Orçamento por escrito antes da intervenção, deslocação (30 €) + 70€/h. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Ligue 928 484 451." />
  <link rel="canonical" href={canonical} />
  <meta property="og:title" content="Canalizador urgente em Trás-os-Montes — Norte Reparos" />
  <meta property="og:description" content="Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Ligue 928 484 451." />
@@ -108,7 +108,7 @@ function CanalizadorUrgente() {
  em Trás-os-Montes
  </h1>
  <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto">
- <strong>Fuga de água</strong>, <strong>desentupimento</strong> ou <strong>cano rebentado</strong> — orçamento por escrito antes da intervenção. Mão de obra 65€/h, deslocação Z1-Z6. Majoração +50% noite e fim-de-semana.
+ <strong>Fuga de água</strong>, <strong>desentupimento</strong> ou <strong>cano rebentado</strong> — orçamento por escrito antes da intervenção. Mão de obra 70€/h, deslocação. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
@@ -130,15 +130,15 @@ function CanalizadorUrgente() {
  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto">
  <div className="grid grid-cols-3 gap-4 text-center">
  <div>
- <div className="text-3xl font-black">65€/h</div>
+ <div className="text-3xl font-black">70€/h</div>
  <div className="text-sm">Mão de obra</div>
  </div>
  <div>
- <div className="text-3xl font-black">Z1-Z6</div>
- <div className="text-sm">15-65€ deslocação</div>
+ <div className="text-3xl font-black"></div>
+ <div className="text-sm">30 € deslocação</div>
  </div>
  <div>
- <div className="text-3xl font-black">+50%</div>
+ <div className="text-3xl font-black">100 €/hora + deslocação 50 €</div>
  <div className="text-sm">Noite/Fds/Feriado</div>
  </div>
  </div>
@@ -253,18 +253,18 @@ function CanalizadorUrgente() {
  </div>
  </section>
 
- {/* Preços — Z1-Z6 grille desde PRICING.md, R12 «mediante confirmação» */}
+ {/* Preços — Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). */}
  <section className="py-16 bg-white">
  <div className="container mx-auto px-4 max-w-4xl">
  <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
  Preços de <strong>canalizador urgente</strong>
  </h2>
  <p className="text-center text-gray-600 mb-12 text-lg">
- Tabela transparente Z1-Z6 desde Macedo de Cavaleiros. Orçamento por escrito antes de qualquer intervenção.
+ Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="bg-gray-50 rounded-2xl p-8 shadow-xl mb-8">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">
- Deslocação por zona (tarifa única por visita)
+ Deslocação 30 € (50 € noite/fim de semana)
  </h3>
  <div className="overflow-x-auto">
  <table className="w-full">
@@ -276,54 +276,24 @@ function CanalizadorUrgente() {
  </tr>
  </thead>
  <tbody>
- <tr className="border-b border-gray-200">
- <td className="py-3 px-4 font-bold">Z1</td>
- <td className="py-3 px-4">Mais próxima</td>
- <td className="py-3 px-4 text-right font-bold">15 €</td>
- </tr>
- <tr className="border-b border-gray-200">
- <td className="py-3 px-4 font-bold">Z2</td>
- <td className="py-3 px-4">~30 km</td>
- <td className="py-3 px-4 text-right font-bold">25 €</td>
- </tr>
- <tr className="border-b border-gray-200">
- <td className="py-3 px-4 font-bold">Z3</td>
- <td className="py-3 px-4">~50 km</td>
- <td className="py-3 px-4 text-right font-bold">35 €</td>
- </tr>
- <tr className="border-b border-gray-200">
- <td className="py-3 px-4 font-bold">Z4</td>
- <td className="py-3 px-4">~75 km</td>
- <td className="py-3 px-4 text-right font-bold">45 €</td>
- </tr>
- <tr className="border-b border-gray-200">
- <td className="py-3 px-4 font-bold">Z5</td>
- <td className="py-3 px-4">~100 km</td>
- <td className="py-3 px-4 text-right font-bold">55 €</td>
- </tr>
- <tr>
- <td className="py-3 px-4 font-bold">Z6</td>
- <td className="py-3 px-4">~130 km</td>
- <td className="py-3 px-4 text-right font-bold">65 €</td>
- </tr>
- </tbody>
+ <tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Dias úteis (9h–17h)</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Noite (17h–9h), fins de semana e feriados</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 50 € · 100 €/hora</td></tr></tbody>
  </table>
  </div>
  <p className="text-sm text-gray-600 mt-4">
- Mão de obra: <strong>65 €/h</strong> · Majoração +50% noite/fim-de-semana/feriado (sobre mão de obra + deslocação).
+ Mão de obra: <strong>70 €/h</strong> · Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
  </div>
  <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-200">
  <h3 className="font-bold text-gray-900 mb-3">
- Exemplo: urgência domingo 22h em Bragança (Z3)
+ Exemplo: urgência domingo 22h em Bragança
  </h3>
  <div className="space-y-1 text-gray-700 text-sm">
  <div className="flex justify-between">
- <span>Deslocação Z3 (35€ + 50%):</span>
+ <span>Deslocação 30 € (50 € noite/fim de semana) · 70 €/hora (100 €/hora noite/fim de semana)</span>
  <span className="font-bold">52,50 €</span>
  </div>
  <div className="flex justify-between">
- <span>Mão de obra 1h (65€ + 50%):</span>
+ <span>Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</span>
  <span className="font-bold">97,50 €</span>
  </div>
  <hr className="border-gray-300 my-2" />
@@ -352,42 +322,42 @@ function CanalizadorUrgente() {
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Bragança</h3>
- <p className="text-sm text-gray-600">Z3</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Vila Real</h3>
- <p className="text-sm text-gray-600">Z5</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Mirandela</h3>
- <p className="text-sm text-gray-600">Z2</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Chaves</h3>
- <p className="text-sm text-gray-600">Z4</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Lamego</h3>
- <p className="text-sm text-gray-600">Z5</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Vinhais</h3>
- <p className="text-sm text-gray-600">Z3</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Torre de Moncorvo</h3>
- <p className="text-sm text-gray-600">Z3</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  <div className="bg-white rounded-xl p-6 shadow">
  <div className="text-3xl mb-2">📍</div>
  <h3 className="font-bold mb-2">Mogadouro</h3>
- <p className="text-sm text-gray-600">Z3</p>
+ <p className="text-sm text-gray-600"></p>
  </div>
  </div>
  <p className="text-center text-gray-600 mt-8 text-sm">
@@ -406,13 +376,13 @@ function CanalizadorUrgente() {
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Como funciona o serviço?</h3>
  <p className="text-gray-700">
- Liga, descreve o problema, validamos a deslocação por zona. Comunicamos o preço antes de sair. No local, orçamento por escrito antes de intervir. Fatura com NIF após a intervenção.
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, orçamento por escrito antes de intervir. Fatura com NIF após a intervenção.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Quanto custa?</h3>
  <p className="text-gray-700">
- Mão de obra <strong>65€/h</strong>, deslocação conforme zona (Z1=15€, Z2=25€, Z3=35€, Z4=45€, Z5=55€, Z6=65€). Majoração +50% noite/fim-de-semana/feriado. Orçamento por escrito antes de qualquer intervenção.
+ Mão de obra <strong>70€/h</strong>, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">
@@ -444,7 +414,7 @@ function CanalizadorUrgente() {
  Precisa de <strong>canalizador urgente</strong>?
  </h2>
  <p className="text-xl md:text-2xl mb-8">
- Ligue, validamos a deslocação por zona e damos-lhe o preço antes de sair. Orçamento por escrito no local.
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito no local.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
@@ -464,7 +434,7 @@ function CanalizadorUrgente() {
  </a>
  </div>
  <p className="text-lg">
- Cobertura Trás-os-Montes · Z1-Z6 · Mediante confirmação por telefone
+ Cobertura Trás-os-Montes · Mediante confirmação por telefone
  </p>
  </div>
  </section>

@@ -1,5 +1,5 @@
 // SEO optimizada para "Canalizador Sernancelhe"
-// 100% unique content, zone Z6, preço 130€
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -79,7 +79,7 @@ export default function Sernancelhe() {
 
  const cidadesProximas = getCidadesProximas('sernancelhe');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Sernancelhe?', 'answer': 'Desde 130€ em Sernancelhe. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sernancelhe?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Sernancelhe. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Sernancelhe?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Sernancelhe. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sernancelhe?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Sernancelhe. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Phone, MessageCircle, X } from 'lucide-react';
 import { useSite } from '@/contexts/SiteContext';
+import CalendlyCTA from '@/components/CalendlyCTA';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 export default function FloatingCTA() {
@@ -84,6 +85,7 @@ export default function FloatingCTA() {
  <MessageCircle className="w-5 h-5" />
  <span>💬 WhatsApp Grátis</span>
  </a>
+ <CalendlyCTA className="w-full" />
  {/* Pequeno texto com prova social */}
  <p className="text-xs text-gray-600 text-center mt-2 font-semibold">
  ✓ Orçamento por escrito • ✓ Sem compromisso

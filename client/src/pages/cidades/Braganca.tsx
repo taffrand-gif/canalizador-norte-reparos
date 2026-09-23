@@ -1,5 +1,5 @@
 // Page SEO optimisée para "Canalizador Bragança"
-// 100% unique content, zone Z3, preço 100€
+À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -109,7 +109,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  const faqs = [
  {
  question: "Qual o custo de deslocação a Bragança?",
- answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente A confirmar. Inclui todo o concelho."
+ answer: "A deslocação a Bragança é de 30€. Chegamos em aproximadamente A confirmar. Inclui todo o concelho."
  },
  {
  question: "Fazem urgências Atendimento 24h/7d em Bragança?",
@@ -139,7 +139,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Bragança, a deslocação é 35€ (Zona 3, 42.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Bragança, a deslocação é 30€ (42.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

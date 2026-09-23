@@ -15,7 +15,7 @@ export default function CarrazedoMontenegro() {
   const faqs = [
     {
       question: "Qual o preço de canalizador em Carrazedo de Montenegro?",
-      answer: "Em Carrazedo de Montenegro, a deslocação é de 45€ (Zona 4). A mão de obra é 65€/h. Exemplos: desentupimento de lavatório 80-155€, reparação de fuga de água 90-185€, substituição de sifão 55-115€. O preço é sempre comunicado antes de qualquer intervenção, sem surpresas."
+      answer: "Em Carrazedo de Montenegro, a deslocação é de 30€. A mão de obra é 70€/h. Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). O preço é sempre comunicado antes de qualquer intervenção, sem surpresas."
     },
     {
       question: "Fazem urgências de canalizações 24h em Carrazedo de Montenegro?",
@@ -27,7 +27,7 @@ export default function CarrazedoMontenegro() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Carrazedo de Montenegro?",
-      answer: "Sim, atendemos fugas de água em Carrazedo de Montenegro 24h, incluindo fins de semana e feriados. O acréscimo noturno/fim de semana é de 50% sobre a mão de obra e deslocação — sempre informado antes de avançar."
+      answer: "Sim, atendemos fugas de água em Carrazedo de Montenegro 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
     },
     {
       question: "Que zonas cobrem em Carrazedo de Montenegro?",
@@ -44,7 +44,7 @@ export default function CarrazedoMontenegro() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Carrazedo de Montenegro, Vila Real. Desentupimentos, fugas de água, instalações sanitárias. Deslocação 45€. Urgências 24h. Ligue 928 484 451.');
+    metaDescription.setAttribute('content', 'Canalizador em Carrazedo de Montenegro, Vila Real. Desentupimentos, fugas de água, instalações sanitárias. Deslocação 30€. Urgências 24h. Ligue 928 484 451.');
 
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -70,7 +70,7 @@ export default function CarrazedoMontenegro() {
       "@type": "LocalBusiness",
       "name": "Canalizador Profissional — Carrazedo de Montenegro",
       "image": "/images-optimized/hero/hero-plumber-portugal.jpg",
-      "description": "Canalizador profissional em Carrazedo de Montenegro, Vila Real. Desentupimentos, fugas de água e urgências 24h. Deslocação 45€.",
+      "description": "Canalizador profissional em Carrazedo de Montenegro, Vila Real. Desentupimentos, fugas de água e urgências 24h. Deslocação 30€.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Carrazedo de Montenegro",
@@ -129,7 +129,7 @@ export default function CarrazedoMontenegro() {
               </h1>
               <p className="text-xl mb-4 text-gray-200">
                 Sede de freguesia do concelho de Valpaços, no coração do Alto Tâmega transmontano. Urgências 24h, desentupimentos e fugas de água.
-                Deslocação 45€.
+                Deslocação 30€.
               </p>
               <p className="text-base mb-8 text-gray-300">
                 Cobrimos Carrazedo de Montenegro e toda a zona de Valpaços.
@@ -195,7 +195,7 @@ export default function CarrazedoMontenegro() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Carrazedo de Montenegro e arredores</h2>
                 <p className="text-gray-600 mb-4">Carrazedo de Montenegro é uma sede de freguesia do concelho de Valpaços, no coração do Alto Tâmega transmontano. Conhecemos bem as particularidades hidráulicas desta zona: habitações rurais e quintas com sistemas de rega e bombagem, calcário nas canalizações e sistemas de drenagem que necessitam de manutenção regular.</p>
                 <p className="text-gray-600 mb-4">Cobrimos Carrazedo de Montenegro e toda a área envolvente de Valpaços. Disponíveis 24h incluindo fins de semana e feriados.</p>
-                <p className="text-gray-600">Deslocação 45€ (Zona 4). Mão de obra 65€/h. Orçamento por escrito antes de qualquer trabalho.</p>
+                <p className="text-gray-600">Deslocação 30€. Mão de obra 70€/h. Orçamento por escrito antes de qualquer trabalho.</p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Cobertura em <span className="text-blue-600">Carrazedo de Montenegro</span></h3>
@@ -212,7 +212,7 @@ export default function CarrazedoMontenegro() {
                   </div>
                   <div className="flex items-center justify-between text-sm mb-2">
                     <span className="text-gray-600">Deslocação</span>
-                    <span className="font-bold text-blue-700">45€ (Zona 4)</span>
+                    <span className="font-bold text-blue-700">30€</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-gray-600">Disponibilidade</span>
@@ -234,7 +234,7 @@ export default function CarrazedoMontenegro() {
         <section className="py-16 bg-gradient-to-r from-gray-900 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Canalizador em <span className="text-blue-300">Carrazedo de Montenegro</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 45€. Orçamento por escrito. Garantia de 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 30€. Orçamento por escrito. Garantia de 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-10 py-4 rounded-lg text-lg transition-colors">🔧 {businessInfo.phoneFormatted}</a>
               <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um canalizador em Carrazedo de Montenegro`} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

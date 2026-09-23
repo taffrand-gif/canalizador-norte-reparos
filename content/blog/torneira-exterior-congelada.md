@@ -214,7 +214,7 @@ priority: "SEASONAL"
 
 ### 2. Deixar Água a Pingar ⭐⭐⭐⭐
 
-**Eficácia:** 90% (noites muito frias) 
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € 
 **Custo:** €2-5/mês (água) 
 **Dificuldade:** Muito fácil
 

@@ -22,14 +22,14 @@ export default function Desentupimentos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviço de desentupimento em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Orçamento por escrito, deslocação Z1-Z6, equipamento profissional. Atendimento urgente.');
+ metaDescription.setAttribute('content', 'Serviço de desentupimento em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Orçamento por escrito, deslocação, equipamento profissional. Atendimento urgente.');
  }, [config]);
  // Schema.org Service JSON-LD
  const serviceSchema = {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimento em Trás-os-Montes",
- "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6, equipamento profissional (Ridgid).",
+ "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -99,7 +99,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupimento profissional de canos, sanitas, esgotos, pias e ralos em Trás-os-Montes.
- Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6,
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
  equipamento profissional (Ridgid) e técnicas não invasivas. Sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -199,7 +199,7 @@ export default function Desentupimentos() {
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Serviço de Urgência 24h</h4>
- <span className="bg-orange-100 text-orange-800 font-bold px-4 py-2 rounded-full">+30%</span>
+ <span className="bg-orange-100 text-orange-800 font-bold px-4 py-2 rounded-full">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</span>
  </div>
  <p className="text-gray-600">Para situações críticas fora do horário normal</p>
  </div>
@@ -251,7 +251,7 @@ export default function Desentupimentos() {
  },
  {
  question: "Quanto custa um desentupimento em Trás-os-Montes?",
- answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). A deslocação é tarifada por zona Z1 a Z6 (15€ a 65€) e a mão-de-obra segue a grelha em vigor. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
+ answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
  }
  ]}
  />

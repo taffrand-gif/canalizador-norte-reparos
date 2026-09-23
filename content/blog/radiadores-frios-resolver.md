@@ -377,11 +377,11 @@ priority: "SEASONAL"
 2. **Válvulas termostáticas** (€20-40/cada) - poupam 20%
 3. **Termostato programável** (€50-150) - poupa 30%
 4. **Não cubra radiadores** (cortinas, móveis)
-5. **Purgue anualmente** (eficiência +15%)
+5. Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 6. **Isole tubagens** (€2/metro) - menos perda
 7. **Feche portas** (aquece divisões usadas)
 8. **Baixe à noite** (16°C suficiente)
-9. **Manutenção caldeira anual** (eficiência +15%)
+9. Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 10. **Reflectores atrás radiadores** (€5) - reflete calor
 
 ### Dimensionamento Correto:

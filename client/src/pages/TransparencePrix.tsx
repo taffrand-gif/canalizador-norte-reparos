@@ -82,9 +82,9 @@ export default function TransparencePrix() {
  ];
  // Taux horaire et majorations (RÈGLE OFFICIELLE Philippe)
  const tauxHoraire = {
- base: "65€/hora",
- majoracao: "+50% (noites, fins de semana e feriados)",
- deplacement: "15€ - 65€ (conforme zona)"
+ base: "70€/hora",
+ Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
+ deplacement: "15€ - 65€ (conforme o caso)"
  };
  // FAQ Prix
  const faqPrix = [
@@ -102,7 +102,7 @@ export default function TransparencePrix() {
  },
  {
  question: "A deslocação está incluída no preço?",
- answer: "Não. A deslocação é cobrada à parte conforme a zona: Zona 1 = 15€, Zona 2 = 25€, Zona 3 = 35€. Este valor cobre apenas o gasóleo e desgaste da carrinha. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
+ answer: "Não. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. É cobrado uma única vez por intervenção, mesmo que demore vários dias."
  },
  {
  question: "Oferecem desconto para clientes regulares?",
@@ -239,7 +239,7 @@ export default function TransparencePrix() {
  </div>
  </div>
  <p className="text-sm text-gray-600">
- Majoração única +50% (noites, fins de semana e feriados). Mínimo 30 minutos.
+ À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Mínimo 30 minutos.
  </p>
  </div>
  <div className="bg-white p-8 rounded-xl border-4 border-gray-200">
@@ -251,7 +251,7 @@ export default function TransparencePrix() {
  </div>
  </div>
  <p className="text-sm text-gray-600">
- Noite (18h-08h) e feriados: +50% sobre tarifa base. Fração mínima 1h.
+ Noite, fim de semana e feriado: 100 €/hora + deslocação 50 € Fração mínima 1h.
  </p>
  </div>
  <div className="bg-white p-8 rounded-xl border-4 border-gray-200">

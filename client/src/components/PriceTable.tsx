@@ -9,12 +9,12 @@ export default function PriceTable() {
  {
  service: "Desentupimento Simples",
  description: "Lava-loiça, bidé, lavatório",
- price: "65€ - 130€",
+ price: "70€ - 140€",
  details: ["Uso de bomba/mola", "Limpeza da zona", "Teste de escoamento"]},
  {
  service: "Fuga de Água / Urgência",
  description: "Arranjo de fugas visíveis ou ocultas",
- price: "65€ - 130€",
+ price: "70€ - 140€",
  details: ["1-2h de trabalho", "Estancamento imediato", "Substituição peças base"]},
  {
  service: "Instalação Equipamento",
@@ -41,16 +41,16 @@ export default function PriceTable() {
  <div className="mb-16">
  <h3 className="text-2xl font-bold mb-6 flex items-center">
  <MapPin className="w-6 h-6 mr-2 text-[var(--site-primary)]" />
- Zonas de Deslocação
+ Deslocação — preço único
  </h3>
  <div className="overflow-x-auto shadow-lg rounded-lg border border-gray-200">
  <table className="w-full text-left border-collapse">
  <thead>
  <tr className="bg-gray-100 text-gray-700 uppercase text-sm leading-normal">
- <th className="py-3 px-6">Zona</th>
+ <th className="py-3 px-6">Horário</th>
  <th className="py-3 px-6">Localidades</th>
  <th className="py-3 px-6 text-center">Custo Deslocação</th>
- <th className="py-3 px-6 text-center">Tempo Chegada</th>
+ <th className="py-3 px-6 text-center">Mão de obra</th>
  </tr>
  </thead>
  <tbody className="text-gray-600 text-sm font-light">
@@ -105,18 +105,18 @@ export default function PriceTable() {
 <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
  <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
  <ul className="space-y-1 text-blue-800 text-sm">
- <li className="flex justify-between"><span>Deslocação (Trás-os-Montes):</span> <span>15€</span></li>
- <li className="flex justify-between"><span>Desentupimento simples (A confirmar):</span> <span>65€ - 130€</span></li>
+ <li className="flex justify-between"><span>Deslocação (dias úteis 9h–17h):</span> <span>30€</span></li>
+ <li className="flex justify-between"><span>Desentupimento simples (1-2h a 70€/h):</span> <span>70€ - 140€</span></li>
  </ul>
  <p className="text-xs text-blue-700 mt-2 italic">* Preço exato confirmado ao telefone antes de sair.</p>
  </div>
  <div className="bg-amber-50 p-6 rounded-lg border border-amber-100">
  <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
  <ul className="space-y-1 text-amber-800 text-sm">
- <li className="flex justify-between"><span>Deslocação (Bragança):</span> <span>35€</span></li>
- <li className="flex justify-between"><span>Intervenção Urgência:</span> <span>65€ - 130€</span></li>
+ <li className="flex justify-between"><span>Deslocação (fim de semana):</span> <span>50€</span></li>
+ <li className="flex justify-between"><span>Intervenção Urgência (1-2h a 100€/h):</span> <span>100€ - 200€</span></li>
  </ul>
- <p className="text-xs text-amber-700 mt-2 italic">+50% sobre deslocação e mão de obra (noturno/fim de semana). Preço anunciado ao telefone ANTES de sair.</p>
+ <p className="text-xs text-amber-700 mt-2 italic">Noite (17h–9h), fins de semana e feriados: 100€/h + deslocação 50€. Cada hora começada é devida. Preço anunciado ao telefone ANTES de sair.</p>
  </div>
  </div>
  <div className="mt-8 bg-gray-900 text-white p-6 rounded-lg text-center">

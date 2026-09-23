@@ -18,7 +18,7 @@ export default function FAQPage() {
  const faqs = [
  {
  question: "Quanto custa um canalizador em Trás-os-Montes?",
- answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
+ answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 100€ (150 € noite/fim de semana), instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
  },
  {
  question: "Como funciona o sem compromisso?",

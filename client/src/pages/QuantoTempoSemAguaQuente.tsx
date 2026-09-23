@@ -57,7 +57,7 @@ export default function QuantoTempoSemAguaQuente() {
  "name": "Quanto custa arranjar um esquentador?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Trabalhamos a 65 €/hora (dia) e 97,50 €/hora (noite, fim de semana e feriado). Deslocação conforme a zona: Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 €, Z6 = 65 €. Orçamento por escrito antes de qualquer trabalho. Peças orçamentadas à parte."
+ "text": "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Peças orçamentadas à parte."
  }
  },
  {
@@ -90,12 +90,7 @@ export default function QuantoTempoSemAguaQuente() {
  ]
  };
  const zonas = [
- { zona: "Zona 1", cidades: "Macedo de Cavaleiros", deslocacao: "15 €" },
- { zona: "Zona 2", cidades: "Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães", deslocacao: "25 €" },
- { zona: "Zona 3", cidades: "Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta", deslocacao: "35 €" },
- { zona: "Zona 4", cidades: "Miranda do Douro, Foz Côa, Murça, Valpaços, Pesqueira", deslocacao: "45 €" },
- { zona: "Zona 5", cidades: "Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta. Marta de Penaguião, Mesão Frio", deslocacao: "55 €" },
- { zona: "Zona 6", cidades: "Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono", deslocacao: "65 €" }
+ { zona: "Todas as localidades servidas", cidades: "Macedo de Cavaleiros, Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães, Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta, Miranda do Douro, Foz Côa, Murça, Valpaços, Pesqueira, Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta. Marta de Penaguião, Mesão Frio, Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono", deslocacao: "30 € / 50 €" }
  ];
  const factores = [
  {
@@ -161,7 +156,7 @@ export default function QuantoTempoSemAguaQuente() {
  },
  {
  question: "Quanto custa arranjar um esquentador?",
- answer: "Trabalhamos a 65 €/hora (dia) e 97,50 €/hora (noite, fim de semana e feriado). Deslocação conforme a zona: Z1 = 15 €, Z2 = 25 €, Z3 = 35 €, Z4 = 45 €, Z5 = 55 €, Z6 = 65 €. Orçamento por escrito antes de qualquer trabalho. Peças orçamentadas à parte."
+ answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Peças orçamentadas à parte."
  },
  {
  question: "Atendem urgências 24h em Trás-os-Montes?",
@@ -172,7 +167,7 @@ export default function QuantoTempoSemAguaQuente() {
  <>
  <Helmet>
  <title>Quanto Tempo Sem Água Quente? Diagnóstico do Esquentador | 928 484 451</title>
- <meta name="description" content="O tempo para arranjar um esquentador depende do tipo de avaria, da disponibilidade de peças e da idade do equipamento. Filipe Bragança dá orçamento por escrito, em Trás-os-Montes, antes de qualquer trabalho. 65€/h." />
+ <meta name="description" content="O tempo para arranjar um esquentador depende do tipo de avaria, da disponibilidade de peças e da idade do equipamento. Filipe Bragança dá orçamento por escrito, em Trás-os-Montes, antes de qualquer trabalho. 70€/h." />
  <link rel="canonical" href="https://canalizador-norte-reparos.pt/quanto-tempo-sem-agua-quente" />
  <script type="application/ld+json">
  {JSON.stringify(articleSchema)}
@@ -235,16 +230,16 @@ export default function QuantoTempoSemAguaQuente() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-4 mb-6">
  <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
  <p className="text-sm text-gray-600">Tarifa diurna</p>
- <p className="text-2xl font-bold text-gray-900">65 €/hora</p>
+ <p className="text-2xl font-bold text-gray-900">70 €/hora</p>
  </div>
  <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
  <p className="text-sm text-gray-600">Noite / fim de semana / feriado</p>
- <p className="text-2xl font-bold text-gray-900">97,50 €/hora <span className="text-sm font-normal text-gray-600">(+50 %)</span></p>
+ <p className="text-2xl font-bold text-gray-900">100 €/hora <span className="text-sm font-normal text-gray-600">(noite, fim de semana, feriado)</span></p>
  </div>
  <div className="bg-blue-50 p-5 rounded-lg border-l-4 border-[#2193b0]">
  <p className="text-sm text-gray-600">Deslocação</p>
- <p className="text-2xl font-bold text-gray-900">15 € a 65 €</p>
- <p className="text-xs text-gray-600">conforme zona Z1-Z6</p>
+ <p className="text-2xl font-bold text-gray-900">30 € / 50 €</p>
+ <p className="text-xs text-gray-600">dias úteis / noite, fim de semana, feriado</p>
  </div>
  </div>
  <p className="text-center text-gray-700 max-w-3xl mx-auto">
@@ -426,7 +421,7 @@ export default function QuantoTempoSemAguaQuente() {
  📍 Zonas de intervenção
  </h2>
  <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
- Base em Macedo de Cavaleiros. Deslocação cobrada conforme a zona — o valor é confirmado no orçamento por escrito.
+ Base em Macedo de Cavaleiros. Deslocação a preço único: 30 € em dias úteis (9h–17h), 50 € à noite, fins de semana e feriados.
  </p>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4">
  {zonas.map((z, i) => (

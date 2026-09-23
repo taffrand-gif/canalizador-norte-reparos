@@ -27,7 +27,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Desentupimento urgente custa mais caro?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim. Serviço urgente (noites, fins de semana, feriados) tem acréscimo de 30-50% sobre o preço normal. Urgência durante o dia: +30%. Urgência noturna ou feriados: +50%."
+ "text": "Sim. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.  
  }
  },
  {
@@ -73,7 +73,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  {
  servico: "Desentupir Duche/Banheira",
  simples: "50-70€",
- grave: "90-120€",
+ 
  tempo: "A confirmar",
  descricao: "Cabelo, sabão, ou entupimento no ralo"
  },
@@ -128,7 +128,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <p className="text-gray-700 leading-relaxed">
  <strong>Preços médios em Bragança 2026:</strong> Sanita 60-120€, lava-loiça 50-100€, canalização principal 120-250€.
  Preço inclui deslocação (até 20km), diagnóstico, mão de obra e equipamento básico.
- <strong>Urgências</strong> (noites/fins de semana) têm acréscimo de 30-50%.
+ <strong>Urgências</strong> Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
  </p>
  </div>
  {/* Tabela de Preços */}
@@ -214,8 +214,8 @@ export default function QuantoCustaDesentupimentoBraganca() {
  { item: "Mola elétrica profissional", preco: "+40-60€" },
  { item: "Substituição de tubos", preco: "+80-200€" },
  { item: "Arranjo estrutural", preco: "Orçamento" },
- { item: "Urgência diurna", preco: "+30%" },
- { item: "Urgência noturna/feriado", preco: "+50%" },
+ { item: "Urgência diurna", preco: "Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €" },
+ { item: "Urgência noturna/feriado", preco: "100 €/hora + deslocação 50 €" },
  { item: "Deslocação >20km", preco: "+0,50€/km" }
  ].map((item, i) => (
  <li key={i} className="flex items-center justify-between text-gray-700">
@@ -242,7 +242,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  },
  {
  fator: "Horário do Serviço",
- explicacao: "Horário normal (8h-18h, dias úteis): preço base. Urgências noturnas, fins de semana ou feriados: +30-50%."
+ explicacao: "Horário normal (8h-18h, dias úteis): preço base. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
  },
  {
  fator: "Equipamento Necessário",
@@ -327,8 +327,8 @@ export default function QuantoCustaDesentupimentoBraganca() {
  {[
  { cidade: "Bragança", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" },
  { cidade: "Mirandela", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" },
- { cidade: "Chaves", sanita: "65-125€", canalizacao: "130-260€", deslocacao: "+10€" },
- { cidade: "Vila Real", sanita: "65-125€", canalizacao: "130-260€", deslocacao: "+15€" },
+ { cidade: "Chaves", sanita: "", canalizacao: "130-260€", deslocacao: "+10€" },
+ { cidade: "Vila Real", sanita: "", canalizacao: "130-260€", deslocacao: "+15€" },
  { cidade: "Trás-os-Montes", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" }
  ].map((item, i) => (
  <tr key={i} className="hover:bg-gray-50">

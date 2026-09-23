@@ -123,7 +123,7 @@ Mudar canalização antiga custa entre 2.500€ (T1) e 8.500€+ (T4+) em 2026. 
 - Valoriza imóvel
 - Tranquilidade
 
-**Poupança:** Renovação planeada vs urgência (poupa 20-30%).
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 
 **2. Compra Casa Antiga**
 - Canalização original

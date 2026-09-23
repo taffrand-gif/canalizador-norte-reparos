@@ -19,9 +19,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚰',
  title: 'Desentupimento Simples',
  description: 'Desobstrução de canalização básica',
- priceRange: '80-145€',
+ priceRange: '100-170€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Desentupimento mecânico',
  'Teste de escoamento',
  'Garantia 3 meses'
@@ -31,9 +31,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '💧',
  title: 'Fuga de Água Visível',
  description: 'Arranjo de fuga identificada',
- priceRange: '80-145€',
+ priceRange: '100-170€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Arranjo completa',
  'Material incluído',
  'Garantia 3 meses'
@@ -44,9 +44,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🔍',
  title: 'Fuga Oculta',
  description: 'Deteção + arranjo de fuga escondida',
- priceRange: '210-405€',
+ priceRange: '240-450€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Deteção com equipamento',
  'Arranjo incluída',
  'Relatório detalhado'
@@ -57,9 +57,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🔥',
  title: 'Arranjo Esquentador',
  description: 'Diagnóstico e arranjo',
- priceRange: '80-210€',
+ priceRange: '100-240€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Diagnóstico completo',
  'Arranjo ou substituição peças',
  'Garantia 3 meses'
@@ -69,9 +69,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚿',
  title: 'Instalação Torneira',
  description: 'Substituição ou instalação nova',
- priceRange: '80-145€',
+ priceRange: '100-170€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Instalação completa',
  'Vedação garantida',
  'Teste de pressão'
@@ -81,9 +81,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚽',
  title: 'Arranjo Sanita',
  description: 'Autoclismo, mecanismo ou vedação',
- priceRange: '80-145€',
+ priceRange: '100-170€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Substituição mecanismo',
  'Regulação completa',
  'Garantia 3 meses'
@@ -93,9 +93,9 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🏠',
  title: 'Casa de Banho Completa',
  description: 'Renovação total de canalização',
- priceRange: '1315-2615€',
+ priceRange: '1430-2830€',
  details: [
- 'Deslocação incluída (Zona 1)',
+ 'Deslocação incluída (30€, dias úteis)',
  'Sanita + lavatório + duche',
  'Tubagem completa',
  'Garantia 3 meses'
@@ -164,7 +164,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  >
  {forfait.priceRange}
  </div>
- <p className="text-xs text-gray-500">Zona 1 - Material padrão incluído</p>
+ <p className="text-xs text-gray-500">Dias úteis 9h–17h - Material padrão incluído</p>
  </div>
  {/* Details */}
  <ul className="space-y-2 mb-6">
@@ -201,7 +201,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  <div className="text-3xl mb-2">📍</div>
  <h4 className="font-bold text-gray-900 mb-1">Zonas de Deslocação</h4>
  <p className="text-sm text-gray-600">
- Preços indicados para Zona 1 (≤15km). Outras zonas: ver tabela tarifária.
+ Preços indicados para dias úteis 9h–17h (70€/h + deslocação 30€), qualquer localidade servida.
  </p>
  </div>
  <div className="text-center">
@@ -215,7 +215,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  <div className="text-3xl mb-2">⏰</div>
  <h4 className="font-bold text-gray-900 mb-1">Acréscimos</h4>
  <p className="text-sm text-gray-600">
- +50% (noites, fins de semana e feriados)
+ Noite (17h–9h), fins de semana e feriados: 100€/h + deslocação 50€
  </p>
  </div>
  </div>

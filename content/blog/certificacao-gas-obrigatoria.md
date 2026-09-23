@@ -195,7 +195,7 @@ keywords: ["certificação gás", "certificado gás", "instalação gás", "cana
 
 ### Urgente
 
-**Serviço expresso**: +50% custo
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 **Prazo**: 24-48 horas (se instalação OK)
 
 ## 🔍 Processo Certificação Passo a Passo
@@ -457,7 +457,7 @@ Atendemos **86 cidades** em Trás-os-Montes:
 **€150-250** (esquentador). **€200-300** (esquentador + fogão). **€250-400** (caldeira). Depende de complexidade.
 
 ### Quanto tempo demora?
-**3-7 dias** se instalação conforme. **5-12 dias** se precisa correções. Expresso: 24-48h (+50% custo).
+**3-7 dias** se instalação conforme. **5-12 dias** se precisa correções. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 ### Certificação gás expira?
 **Não**. Certificado é permanente. Mas se fizer alterações, precisa novo certificado.

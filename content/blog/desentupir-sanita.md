@@ -469,7 +469,7 @@ Na maioria dos casos (70%), consegue **desentupir a sanita sozinho em 10-30 minu
 ## Perguntas Frequentes (FAQ)
 
 ### Quanto custa desentupir uma sanita em Trás-os-Montes?
-O preço médio para desentupir uma sanita em Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros) varia entre **40€ e 80€**, dependendo da gravidade do entupimento e da hora. Em horário normal (8h-20h, dias úteis), o preço médio é 40-60€. Para urgências noturnas, fins de semana ou feriados, acresce uma taxa de urgência de +50%. Estimativa sem custo por telefone: **+351 928 484 451**.
+O preço médio para desentupir uma sanita em Trás-os-Montes (Bragança, Mirandela, Macedo de Cavaleiros) varia entre **40€ e 80€**, dependendo da gravidade do entupimento e da hora. Em horário normal (8h-20h, dias úteis), o preço médio é 40-60€. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Estimativa sem custo por telefone: **+351 928 484 451**.
 
 ### Posso desentupir a sanita sozinho ou preciso de um canalizador?
 Para entupimentos simples (papel acumulado, pequena obstrução), métodos DIY como **desentupidor de borracha, bicarbonato + vinagre, ou cabo de aço flexível** resolvem em 10-30 minutos. Para entupimentos recorrentes, água que não desce, ou múltiplos sanitários entupidos em simultâneo, é necessário um **canalizador profissional** com equipamento específico (cabo elétrico, hidrojato, câmara de inspeção).

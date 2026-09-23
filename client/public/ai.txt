@@ -9,7 +9,7 @@ Languages: pt-PT
 PrimaryPhone: +351-928-484-451
 WhatsApp: +351-928-484-451
 PrimaryPurpose: Canalização, instalação, remodelação, manutenção e diagnóstico
-PricingPolicy: 65 EUR/h de referência; deslocação por zona; orçamento por escrito antes da intervenção
+PricingPolicy: 70 EUR/h de referência; A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.; orçamento por escrito antes da intervenção
 EmergencyReference: https://canalizador-urgente.pt/
 ReviewsStatus: A recolher as primeiras avaliações verificadas
 AddressPolicy: Sem morada exata publicada

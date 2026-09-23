@@ -248,7 +248,7 @@ Em noites muito frias (-5°C ou menos):
 **Sim**, a maioria dos seguros habitação cobre canos rebentados. Fornecemos relatório técnico.
 
 ### Atendem de noite e fins de semana?
-**Sim**, 24h/7d incluindo feriados. Acréscimo 50% em horário noturno (20h-8h).
+**Sim**, 24h/7d incluindo feriados. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 
 ### Cobrem a minha zona?
 Cobrimos **86 cidades** em Trás-os-Montes. Ligue para confirmar tempo de chegada.

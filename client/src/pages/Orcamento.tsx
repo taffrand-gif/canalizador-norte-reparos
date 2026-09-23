@@ -15,7 +15,7 @@ export default function Orcamento() {
  <div className="container">
  <div className="max-w-3xl mx-auto text-center">
  <h1 className="text-4xl sm:text-5xl font-bold mb-4">
- Pedir Orçamento Gratuito
+ Pedir Orçamento por Escrito
  </h1>
  <p className="text-xl sm:text-2xl mb-6">
  Disponível 24h/7 dias e sem compromisso

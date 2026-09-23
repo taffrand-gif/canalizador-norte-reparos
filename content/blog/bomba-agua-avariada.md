@@ -242,7 +242,7 @@ keywords: ["bomba água avariada", "bomba poço", "sem água", "picheleiro urgen
 ### Urgência
 
 **Horário normal**: Preços acima
-**Noite/fim semana**: +50%
+Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
 **Feriados**: +100%
 
 **Mas**: Sem água = emergência, vale a pena

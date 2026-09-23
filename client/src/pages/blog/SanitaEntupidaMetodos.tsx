@@ -432,7 +432,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Inspeção com câmara (opcional</li>
  <li>• Identifica problemas antes de agravar</li>
- <li>• Custo: 80-120€</li>
+ <li></li>
  </ul>
  </div>
  </div>

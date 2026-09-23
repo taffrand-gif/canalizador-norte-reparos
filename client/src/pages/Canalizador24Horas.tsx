@@ -3,7 +3,7 @@
 // GAP confirmado: 0 impressões GSC 28j (t_b05d5865, fenêtre terminée 2026-08-11).
 // Strategia: criar página dedicada /canalizador-24-horas no motor SPA pilier
 // (mesmo padrão FugaAguaUrgente.tsx / DesentupirSanitaUrgente.tsx), com FAQPage
-// schema.org, preços PRICING.md (65 €/h + Z1-Z6 15-65 €), 0 DGEG/TRIESP (R13 +
+Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados.
 // purge 03/08), copy R12 'mediante confirmação por telefone' (sem slogans
 // '24h/7d' garantimos).
 import { useEffect } from 'react';
@@ -53,7 +53,7 @@ export default function Canalizador24Horas() {
         name: 'Quanto custa chamar um canalizador 24 horas em Trás-os-Montes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A mão-de-obra segue a grelha em vigor (65 €/h em horário normal). A deslocação é tarifada por zona Z1 a Z6 (15 € a 65 €) consoante a distância rodoviária desde Macedo de Cavaleiros. Aplicam-se majorações em horário noturno, fim de semana ou feriado. O orçamento é sempre entregue por escrito antes da intervenção.',
+          text: 'A mão-de-obra segue a grelha em vigor (70 €/h em horário normal). A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Aplicam-se majorações em horário noturno, fim de semana ou feriado. O orçamento é sempre entregue por escrito antes da intervenção.',
         },
       },
       {
@@ -69,7 +69,7 @@ export default function Canalizador24Horas() {
         name: 'Qual é o tempo de chegada após a chamada?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'O tempo de chegada depende da sua zona (Z1 a Z6) e das condições de tráfego. Confirmamos a previsão por telefone logo após o seu contacto. Em zonas Z1-Z3 (Macedo de Cavaleiros, Bragança, Mirandela), a chegada costuma ser rápida; em zonas Z4-Z6 (Vila Real, Chaves, Freixo de Espada à Cinta) o tempo de deslocação é maior — sempre explicado por telefone antes de comprometer.',
+          text: 'A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Confirmamos a previsão por telefone logo após o seu contacto.  — sempre explicado por telefone antes de comprometer.',
         },
       },
       {
@@ -126,7 +126,7 @@ export default function Canalizador24Horas() {
               </a>
             </div>
             <p className="text-lg opacity-90">
-              ✓ Orçamento por escrito &nbsp; ✓ Deslocação Z1-Z6 confirmada por
+              ✓ Orçamento por escrito &nbsp; ✓ Deslocação confirmada por
               telefone &nbsp; ✓ Resposta todos os dias, 24 horas
             </p>
           </div>
@@ -200,7 +200,7 @@ export default function Canalizador24Horas() {
           </h2>
           <p className="text-lg text-center text-gray-600 mb-12 max-w-3xl mx-auto">
             A nossa grelha de preços é transparente: mão-de-obra e deslocação
-            por zona. Orçamento por escrito antes de qualquer intervenção — sem
+             Orçamento por escrito antes de qualquer intervenção — sem
             surpresas na fatura.
           </p>
 
@@ -226,76 +226,18 @@ export default function Canalizador24Horas() {
                       Mão-de-obra (canalização)
                     </td>
                     <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      65 €/h
+                      70 €/h
                     </td>
                     <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
+                      100 €/hora + deslocação 50 €
                     </td>
                   </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-4 px-4 text-gray-800">
-                      Deslocação Z1 (perto de Macedo de Cavaleiros)
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      15 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-4 px-4 text-gray-800">Deslocação Z2</td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      25 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-4 px-4 text-gray-800">Deslocação Z3</td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      35 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-4 px-4 text-gray-800">Deslocação Z4</td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      45 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                  <tr className="border-b border-gray-100">
-                    <td className="py-4 px-4 text-gray-800">Deslocação Z5</td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      55 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="py-4 px-4 text-gray-800">
-                      Deslocação Z6 (limite ~130 km)
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-gray-900">
-                      65 €
-                    </td>
-                    <td className="py-4 px-4 text-right font-bold text-orange-700">
-                      +50 %
-                    </td>
-                  </tr>
-                </tbody>
+                  <tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Dias úteis (9h–17h)</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Noite (17h–9h), fins de semana e feriados</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 50 € · 100 €/hora</td></tr></tbody>
               </table>
             </div>
             <div className="mt-6 p-4 bg-blue-50 rounded-lg">
               <p className="text-blue-900 font-semibold">
-                💡 <strong>Nota:</strong> A zona exacta (Z1 a Z6) é
+                Deslocação 30 € (50 € noite/fim de semana)
                 confirmada por telefone no momento do contacto, com base na
                 distância rodoviária desde Macedo de Cavaleiros. Cada
                 intervenção é precedida de orçamento por escrito. Casos
@@ -323,7 +265,7 @@ export default function Canalizador24Horas() {
               {
                 step: '2',
                 title: 'Confirmamos a deslocação',
-                desc: 'Damos-lhe a zona (Z1-Z6), o tempo estimado de chegada e o valor estimado da deslocação.',
+                desc: 'Damos-lhe a zona, o tempo estimado de chegada e o valor estimado da deslocação.',
               },
               {
                 step: '3',
