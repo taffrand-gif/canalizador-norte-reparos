@@ -217,7 +217,7 @@ export default function DesentupirWCMetodos() {
  Métodos Caseiros Não Funcionaram?
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
- Não se preocupe. Resolvemos em menos de 1 hora, sem sujidade, preço fixo.
+ Não se preocupe. Avaliamos a situação por telefone e confirmamos consigo a intervenção e o preço antes de avançar.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

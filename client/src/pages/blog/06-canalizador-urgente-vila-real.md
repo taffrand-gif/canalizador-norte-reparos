@@ -75,7 +75,7 @@ Investimos em tecnologia de ponta para resolver problemas sem danos colaterais:
 ## Perguntas Frequentes - Canalizador 24h Vila Real
 
 ### Qual o tempo de resposta real?
-**Resposta:** Garantimos contacto A confirmar e chegada ao local em até 1 hora na zona urbana de Vila Real. Fora do centro, o tempo pode estender-se até 90 minutos.
+**Resposta:** Confirmamos o contacto e a disponibilidade por telefone; o horário da intervenção depende da localização e da disponibilidade da equipa.
 
 ### Trabalham com materiais de qualidade?
 **Resposta:** Utilizamos apenas materiais certificados (marças como Viega, Geberit, Uponor) com garantia de 5 anos contra defeitos de fabrico.
