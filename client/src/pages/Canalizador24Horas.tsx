@@ -3,7 +3,6 @@
 // GAP confirmado: 0 impressões GSC 28j (t_b05d5865, fenêtre terminée 2026-08-11).
 // Strategia: criar página dedicada /canalizador-24-horas no motor SPA pilier
 // (mesmo padrão FugaAguaUrgente.tsx / DesentupirSanitaUrgente.tsx), com FAQPage
-Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados.
 // purge 03/08), copy R12 'mediante confirmação por telefone' (sem slogans
 // '24h/7d' garantimos).
 import { useEffect } from 'react';

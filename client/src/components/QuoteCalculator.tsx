@@ -8,12 +8,12 @@ function QuoteCalculator() {
  const isPlumber = ACTIVE_CONFIG.type === 'plomberie';
  const accentColor = isPlumber ? '#0e7490' : '#D84315'; // Darker orange for better contrast
  const services = isPlumber ? [
- { id: 'fuga', name: 'Arranjo de Fuga de Água', base: 80, urgent: 120, icon: '💧' },
- { id: 'desentupimento', name: 'Desentupimento', base: 60, urgent: 90, icon: '🚿' },
- { id: 'esquentador', name: 'Arranjo Esquentador', base: 90, urgent: 130, icon: '🔥' },
- { id: 'torneira', name: 'Substituição Torneira', base: 50, urgent: 75, icon: '🚰' },
+ { id: 'fuga', name: 'Arranjo de Fuga de Água', base: 70, urgent: 100, icon: '💧' },
+ { id: 'desentupimento', name: 'Desentupimento', base: 70, urgent: 100, icon: '🚿' },
+ { id: 'esquentador', name: 'Arranjo Esquentador', base: 70, urgent: 100, icon: '🔥' },
+ { id: 'torneira', name: 'Substituição Torneira', base: 70, urgent: 100, icon: '🚰' },
  { id: 'sanita', name: 'Arranjo Sanita', base: 70, urgent: 100, icon: '🚽' },
- { id: 'canalizacao', name: 'Instalação Canalização Nova', base: 150, urgent: 200, icon: '🔧' },
+ { id: 'canalizacao', name: 'Instalação Canalização Nova', base: 70, urgent: 100, icon: '🔧' },
  ] : [
  { id: 'quadro', name: 'Arranjo Quadro Elétrico', base: 100, urgent: 150, icon: '⚡' },
  { id: 'tomada', name: 'Instalação Tomada/Interruptor', base: 40, urgent: 60, icon: '🔌' },
@@ -24,9 +24,7 @@ function QuoteCalculator() {
  ];
  const handleServiceClick = (selectedService: typeof services[0]) => {
  const basePrice = selectedService.base;
- const minPrice = Math.floor(basePrice * 0.9);
- const maxPrice = Math.ceil(basePrice * 1.3);
- const priceRange = `${minPrice}€ - ${maxPrice}€`;
+ const priceRange = `${basePrice} €/h + deslocação (30 € dia / 50 € noite, fim de semana e feriado)`;
  trackQuoteCalculated(selectedService.name, 'normal', priceRange);
  trackQuoteSentWhatsApp(selectedService.name);
  const message = `Olá! Vi o calculador no vosso site e preciso de:\n\nServiço: ${selectedService.name}\nOrçamento estimado: ${priceRange}\n\nPode confirmar o preço exato?`;
@@ -67,8 +65,6 @@ function QuoteCalculator() {
  {/* Service Cards Grid */}
  <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">
  {services.map((service) => {
- const minPrice = Math.floor(service.base * 0.9);
- const maxPrice = Math.ceil(service.base * 1.3);
  return (
  <button
  key={service.id}
@@ -82,7 +78,7 @@ function QuoteCalculator() {
  {service.name}
  </h4>
  <div className="text-base md:text-lg font-bold group-hover:text-current transition-colors" style={{ color: accentColor }}>
- {minPrice}€ - {maxPrice}€
+ 70 €/h + deslocação
  </div>
  <div className="mt-2 text-xs text-gray-500">
  Clique para pedir
@@ -99,7 +95,7 @@ function QuoteCalculator() {
  </div>
  <div className="flex items-center gap-2 text-base md:text-sm text-gray-700">
  <span className="text-green-600">✓</span>
- <span>Resposta em menos de 1 hora</span>
+ <span>Disponibilidade 24h/7d; prazo de chegada não garantido</span>
  </div>
  <div className="flex items-center gap-2 text-base md:text-sm text-gray-700">
  <span className="text-green-600">✓</span>

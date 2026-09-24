@@ -120,10 +120,10 @@ export const siteConfig: SiteConfig = {
  },
 
  services: [
- { id: 'fuga-agua', label: 'Arranjo Fuga Água', basePrice: 80 },
- { id: 'desentupimento', label: 'Desentupimento', basePrice: 60 },
- { id: 'esquentador', label: 'Instalação Esquentador', basePrice: 150 },
- { id: 'substituicao', label: 'Substituição Canalização', basePrice: 120 },
+ { id: 'fuga-agua', label: 'Arranjo Fuga Água', basePrice: 70 },
+ { id: 'desentupimento', label: 'Desentupimento', basePrice: 70 },
+ { id: 'esquentador', label: 'Instalação Esquentador', basePrice: 70 },
+ { id: 'substituicao', label: 'Substituição Canalização', basePrice: 70 },
  ],
 
  // Pricing Zones - NOVA GRELHA 2026

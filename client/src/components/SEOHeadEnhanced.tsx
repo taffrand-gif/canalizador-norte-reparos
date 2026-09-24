@@ -6,7 +6,7 @@ import { useLocation } from 'wouter';
 import { getCitySEOConfig } from '../../../shared/seoKeywords';
 interface SEOHeadEnhancedProps {
  citySlug?: string; // Slug da cidade (ex: 'macedo-de-cavaleiros')
- pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery';
+ pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery' | 'urgency';
  customTitle?: string;
  customDescription?: string;
  customKeywords?: string[];

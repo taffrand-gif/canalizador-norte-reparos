@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Torre de Moncorvo"
-À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';

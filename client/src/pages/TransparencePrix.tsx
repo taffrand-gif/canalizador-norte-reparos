@@ -83,8 +83,8 @@ export default function TransparencePrix() {
  // Taux horaire et majorations (RÈGLE OFFICIELLE Philippe)
  const tauxHoraire = {
  base: "70€/hora",
- Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
- deplacement: "15€ - 65€ (conforme o caso)"
+ majoracao: "Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €",
+ deplacement: "30 € (dia) / 50 € (noite, fim de semana e feriado)"
  };
  // FAQ Prix
  const faqPrix = [

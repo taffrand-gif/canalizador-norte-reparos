@@ -27,7 +27,7 @@ export default function Cumieira() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Cumieira?",
-      answer: "Sim, atendemos fugas de água em Cumieira 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
+      answer: "Sim, atendemos fugas de água em Cumieira 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
     },
     {
       question: "Que zonas cobrem em Cumieira?",

@@ -29,7 +29,7 @@ export default function Desentupimentos() {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimento em Trás-os-Montes",
- "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
+ "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",

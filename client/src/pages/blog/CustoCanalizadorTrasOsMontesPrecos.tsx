@@ -4,7 +4,7 @@ import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  useSEO({
- title: 'Custo Canalizador Trás-os-Montes 2026 — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.
+ title: 'Custo Canalizador Trás-os-Montes 2026 — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.',
  description: 'Quanto custa o serviço de um canalizador em Trás-os-Montes? Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito.',
  keywords: 'custo canalizador, custo canalizador tras os montes, quanto custa canalizador, preço canalizador, orçamento canalização, custo desentupimento, canalizador 24 horas preço'
  });

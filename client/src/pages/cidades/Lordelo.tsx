@@ -27,7 +27,7 @@ export default function Lordelo() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Lordelo?",
-      answer: "Sim, atendemos fugas de água em Lordelo 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
+      answer: "Sim, atendemos fugas de água em Lordelo 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
     },
     {
       question: "Que zonas cobrem em Lordelo?",

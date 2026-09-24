@@ -27,7 +27,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Desentupimento urgente custa mais caro?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.  
+ "text": "Sim. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.  "
  }
  },
  {
@@ -242,7 +242,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  },
  {
  fator: "Horário do Serviço",
- explicacao: "Horário normal (8h-18h, dias úteis): preço base. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
+ explicacao: "Horário normal (8h-18h, dias úteis): preço base. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.",
  },
  {
  fator: "Equipamento Necessário",

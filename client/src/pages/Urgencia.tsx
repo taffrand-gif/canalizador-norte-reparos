@@ -20,7 +20,7 @@ function CanalizadorUrgente() {
     "name": "Como funciona o serviço de canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
+     "text": "A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
     }
    },
    {

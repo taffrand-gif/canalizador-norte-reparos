@@ -21,35 +21,35 @@ export const SERVICES_NORTE_REPAROS: Service[] = [
  {
  slug: 'fugas-agua',
  name: 'Fugas de Água',
- basePrice: 80,
+ basePrice: 70,
  icon: '💧',
  description: 'Deteção e arranjo de fugas de água com equipamento profissional'
  },
  {
  slug: 'desentupimentos',
  name: 'Desentupimentos',
- basePrice: 65,
+ basePrice: 70,
  icon: '🚰',
  description: 'Desentupimento de canalizações, WC, lavatórios e esgotos'
  },
  {
  slug: 'esquentadores',
  name: 'Esquentadores',
- basePrice: 150,
+ basePrice: 70,
  icon: '🔥',
  description: 'Instalação, arranjo e manutenção de esquentadores'
  },
  {
  slug: 'casas-banho',
  name: 'Casas de Banho',
- basePrice: 400,
+ basePrice: 70,
  icon: '🚿',
  description: 'Remodelação completa de casas de banho'
  },
  {
  slug: 'canalizacao',
  name: 'Canalização',
- basePrice: 500,
+ basePrice: 70,
  icon: '🔧',
  description: 'Instalação de canalização nova e remodelações'
  },

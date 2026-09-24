@@ -21,7 +21,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 "name": "Quanto custa um canalizador à hora em Portugal em 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O preço final calcula-se como: deslocação (preço único) + horas de mão de obra × tarifa hora aplicável. Cada hora começada é devida. Orçamento por escrito sempre antes de qualquer intervenção."
+                  "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O preço final calcula-se como: deslocação (preço único) + horas de mão de obra × tarifa hora aplicável. Cada hora começada é devida. Orçamento por escrito sempre antes de qualquer intervenção."
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Quanto Custa um Canalizador à Hora em Portugal em 2026?",
-            Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.",
+            "description": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.\",",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": { "@type": "Organization", "name": "Norte Reparos", "url": "https://canalizador-norte-reparos.pt" },
             "datePublished": "2026-07-10",

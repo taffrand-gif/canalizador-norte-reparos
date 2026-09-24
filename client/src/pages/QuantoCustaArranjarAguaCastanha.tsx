@@ -27,7 +27,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  const faqs = [
  {
  question: "Quanto custa arranjar água castanha da torneira?",
-  Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
+ answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
  },
  {
  question: "Porque é que a água sai castanha da torneira?",

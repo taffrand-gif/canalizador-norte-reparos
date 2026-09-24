@@ -37,7 +37,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "E uma fossa entupida ou esgoto principal?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.
+                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados."
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Quanto Custa um Desentupimento em 2026?",
-            Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Tabela por tipo de cano.",
+            "description": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Tabela por tipo de cano.\",",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": { "@type": "Organization", "name": "Norte Reparos", "url": "https://canalizador-norte-reparos.pt" },
             "datePublished": "2026-07-10",
