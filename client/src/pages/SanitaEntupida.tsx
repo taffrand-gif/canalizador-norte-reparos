@@ -27,7 +27,7 @@ const faqItems = [
   {
     question: 'Quanto custa resolver uma sanita entupida?',
     answer:
-      'A mão de obra de canalização é 65 €/h. A deslocação depende da zona rodoviária: Z1 15 €, Z2 25 €, Z3 35 €, Z4 45 €, Z5 55 € e Z6 65 €. Noite, fim de semana e feriado têm majoração de 50 % sobre mão de obra e deslocação. Fornecemos orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.',
+      'A mão de obra de canalização é 70 €/h. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Fornecemos orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.',
   },
   {
     question: 'Porque volta a sanita a entupir?',
@@ -118,7 +118,7 @@ export default function SanitaEntupida() {
         <title>Sanita Entupida: Desentupimento Profissional em Trás-os-Montes | Norte Reparos</title>
         <meta
           name="description"
-          content="Sanita entupida em Trás-os-Montes? Diagnóstico da obstrução, desobstrução profissional e orçamento por escrito antes da intervenção. Mão de obra 65 €/h + deslocação por zona."
+          content="Sanita entupida em Trás-os-Montes? Diagnóstico da obstrução, desobstrução profissional e orçamento por escrito antes da intervenção. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
         />
         <link rel="canonical" href="https://canalizador-norte-reparos.pt/sanita-entupida" />
         <meta
@@ -161,8 +161,8 @@ export default function SanitaEntupida() {
             </p>
             <p className="mb-8 max-w-3xl text-lg text-blue-100">
               A nossa equipa responde a uma <strong>sanita entupida</strong> com orçamento por escrito
-              antes de qualquer intervenção, sem surpresas na fatura. Mão de obra 65 €/h e
-              deslocação tabelada por zona rodoviária.
+              antes de qualquer intervenção, sem surpresas na fatura. Mão de obra 70 €/h e
+              Deslocação 30 € (50 € noite/fim de semana)
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <a
@@ -223,36 +223,36 @@ export default function SanitaEntupida() {
               <div className="space-y-3">
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
                   <span className="text-gray-700">Mão de obra</span>
-                  <strong className="text-gray-900">65 €/h</strong>
+                  <strong className="text-gray-900">70 €/h</strong>
                 </div>
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-                  <span className="text-gray-700">Deslocação Z1</span>
-                  <strong className="text-gray-900">15 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-                  <span className="text-gray-700">Deslocação Z2</span>
-                  <strong className="text-gray-900">25 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-                  <span className="text-gray-700">Deslocação Z3</span>
-                  <strong className="text-gray-900">35 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-                  <span className="text-gray-700">Deslocação Z4</span>
-                  <strong className="text-gray-900">45 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
                 <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-                  <span className="text-gray-700">Deslocação Z5</span>
-                  <strong className="text-gray-900">55 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
                 <div className="flex items-center justify-between pb-3">
-                  <span className="text-gray-700">Deslocação Z6</span>
-                  <strong className="text-gray-900">65 €</strong>
+                  <span className="text-gray-700">Deslocação</span>
+                  <strong className="text-gray-900">30 €</strong>
                 </div>
               </div>
               <p className="mt-5 text-sm text-gray-600">
                 A zona de deslocação é definida pela distância rodoviária real desde Macedo de
-                Cavaleiros. Noite, fim de semana e feriado: +50 % sobre mão de obra e deslocação.
+                Cavaleiros. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
               </p>
               <p className="mt-4 font-semibold text-gray-900">
                 Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
@@ -370,7 +370,7 @@ export default function SanitaEntupida() {
                 </h2>
                 <p className="text-gray-700">
                   Trás-os-Montes: Macedo de Cavaleiros, Bragança, Vila Real, Mirandela, Chaves,
-                  Lamego e concelhos envolventes. Cobertura por zona rodoviária Z1 a Z6.
+                  Lamego e concelhos envolventes. Deslocação 30 € (50 € noite/fim de semana)
                 </p>
               </div>
               <div>

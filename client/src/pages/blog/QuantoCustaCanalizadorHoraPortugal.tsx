@@ -8,7 +8,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
         <title>Quanto Custa um Canalizador à Hora em Portugal em 2026? | Norte Reparos</title>
         <meta
           name="description"
-          content="Quanto custa um canalizador à hora em Portugal em 2026? Tabela Norte Reparos: 65€/h em horário normal, +50% noite/sábado/domingo/feriado. Z1-Z6 deslocação. Orçamento por escrito antes de qualquer intervenção."
+          content="Quanto custa um canalizador à hora em Portugal em 2026? Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção."
         />
         <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/quanto-custa-canalizador-hora-portugal" />
         <script type="application/ld+json">
@@ -21,7 +21,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 "name": "Quanto custa um canalizador à hora em Portugal em 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Em Portugal, o tarifário Norte Reparos para canalizador é 65€/hora em horário normal (segunda a sexta, 9h-18h), com majoração de +50% aplicada sobre a hora e a deslocação no período noturno (18h-8h), sábados, domingos e feriados — perfazendo 97,50€/h. O preço final calcula-se como: deslocação segundo a zona (Z1 15€ até Z6 65€) + horas de mão de obra × tarifa hora aplicável. Orçamento por escrito sempre antes de qualquer intervenção."
+                  "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O preço final calcula-se como: deslocação (preço único) + horas de mão de obra × tarifa hora aplicável. Cada hora começada é devida. Orçamento por escrito sempre antes de qualquer intervenção."
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Quanto Custa um Canalizador à Hora em Portugal em 2026?",
-            "description": "Tabela Norte Reparos 2026: 65€/h canalizador, majoração +50% noite/WE/feriado, deslocação Z1-Z6 de 15€ a 65€. Orçamento por escrito antes de qualquer intervenção.",
+            "description": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.\",",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": { "@type": "Organization", "name": "Norte Reparos", "url": "https://canalizador-norte-reparos.pt" },
             "datePublished": "2026-07-10",
@@ -116,7 +116,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
           <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-2">Resposta direta:</p>
             <p className="text-gray-800">
-              Em Portugal, a Norte Reparos cobra <strong>65€ por hora</strong> em horário normal (segunda a sexta, 9h-18h). No período noturno, sábado, domingo ou feriado, aplica-se <strong>majoração de +50%</strong> sobre a hora e a deslocação — <strong>97,50€/h</strong>. O preço final é: <strong>deslocação pela zona (Z1 15€ a Z6 65€) + horas × tarifa hora</strong>. Materiais à parte, especificados no orçamento por escrito.
+              Em Portugal, a Norte Reparos cobra <strong>70€ por hora</strong> em dias úteis. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O preço final é: <strong>deslocação (30 € ou 50 €) + horas × tarifa hora</strong>. Cada hora começada é devida. Materiais à parte, especificados no orçamento por escrito.
             </p>
           </div>
 
@@ -135,20 +135,20 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
               </thead>
               <tbody>
                 <tr className="bg-white">
-                  <td className="border border-gray-300 px-3 py-2">Horário normal (2ª-6ª, 9h-18h)</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">65€/h</td>
+                  <td className="border border-gray-300 px-3 py-2">Dias úteis (2ª-6ª, 9h–17h)</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">70€/h</td>
                   <td className="border border-gray-300 px-3 py-2">—</td>
                 </tr>
                 <tr className="bg-cyan-50">
-                  <td className="border border-gray-300 px-3 py-2">Noturno (18h-8h) / Sábado / Domingo / Feriado</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">97,50€/h</td>
-                  <td className="border border-gray-300 px-3 py-2">+50%</td>
+                  <td className="border border-gray-300 px-3 py-2">Noite (17h–9h), fim de semana e feriado</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">100€/h</td>
+                  <td className="border border-gray-300 px-3 py-2">100 €/hora + deslocação 50 €</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. Deslocação Z1 a Z6 — Trás-os-Montes</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. Deslocação a Trás-os-Montes</h2>
           <p>
             A deslocação é calculada com base na sua zona, definida pelas distâncias reais OSRM por estrada a partir de Macedo de Cavaleiros (sede operacional). Para saber a sua zona, indique-nos o nome da sua localidade ao pedir orçamento.
           </p>
@@ -163,47 +163,11 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z1</td>
-                  <td className="border border-gray-300 px-3 py-2">Macedo de Cavaleiros, Alfândega da Fé (centro)</td>
-                  <td className="border border-gray-300 px-3 py-2">15€</td>
-                  <td className="border border-gray-300 px-3 py-2">22,50€</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z2</td>
-                  <td className="border border-gray-300 px-3 py-2">Mirandela, Bragança (periferia sul), Vila Flor, Carrazeda de Ansiães</td>
-                  <td className="border border-gray-300 px-3 py-2">25€</td>
-                  <td className="border border-gray-300 px-3 py-2">37,50€</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z3</td>
-                  <td className="border border-gray-300 px-3 py-2">Bragança, Vinhais, Mogadouro, Torre de Moncorvo, Lamego (periferia)</td>
-                  <td className="border border-gray-300 px-3 py-2">35€</td>
-                  <td className="border border-gray-300 px-3 py-2">52,50€</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z4</td>
-                  <td className="border border-gray-300 px-3 py-2">Miranda do Douro, Freixo de Espada à Cinta, Vila Nova de Foz Coa</td>
-                  <td className="border border-gray-300 px-3 py-2">45€</td>
-                  <td className="border border-gray-300 px-3 py-2">67,50€</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z5</td>
-                  <td className="border border-gray-300 px-3 py-2">Concelhos limite norte/leste do raio</td>
-                  <td className="border border-gray-300 px-3 py-2">55€</td>
-                  <td className="border border-gray-300 px-3 py-2">82,50€</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Z6</td>
-                  <td className="border border-gray-300 px-3 py-2">Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Moimenta da Beira, Sernancelhe, Penedono (sob marcação)</td>
-                  <td className="border border-gray-300 px-3 py-2">65€</td>
-                  <td className="border border-gray-300 px-3 py-2">97,50€</td>
-                </tr>
-              </tbody>
+                <tr className="bg-white"><td className="border border-gray-300 px-3 py-2 font-semibold">Dias úteis (9h–17h)</td><td className="border border-gray-300 px-3 py-2">Qualquer localidade servida</td><td className="border border-gray-300 px-3 py-2">Qualquer localidade servida</td><td className="border border-gray-300 px-3 py-2">Deslocação 30 € · 70 €/hora</td></tr><tr className="bg-white"><td className="border border-gray-300 px-3 py-2 font-semibold">Noite (17h–9h), fins de semana e feriados</td><td className="border border-gray-300 px-3 py-2">Qualquer localidade servida</td><td className="border border-gray-300 px-3 py-2">Qualquer localidade servida</td><td className="border border-gray-300 px-3 py-2">Deslocação 50 € · 100 €/hora</td></tr></tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600">
-            Exemplo: desentupimento simples, 2 horas em horário normal, Z3 (Bragança) = 35€ + 2 × 65€ = <strong>165€</strong>. Mesmo trabalho ao sábado em Chaves (Z6) = 97,50€ + 2 × 97,50€ = <strong>292,50€</strong>. Materiais sempre à parte, orçados por escrito.
+            Exemplo: desentupimento simples, 2 horas em dia útil, em Bragança = 30€ + 2 × 70€ = <strong>170€</strong>. Mesmo trabalho ao sábado em Chaves = 50€ + 2 × 100€ = <strong>250€</strong>. Materiais sempre à parte, orçados por escrito.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">3. Materiais: à parte, especificados por escrito</h2>
@@ -226,7 +190,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
           <div className="space-y-6">
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa um canalizador à hora em Portugal em 2026?</h3>
-              <p className="text-gray-700">65€/h em horário comercial, 97,50€/h (+50%) no período majorado. Mais deslocação Z1-Z6 (15€ a 65€). Materiais à parte.</p>
+              <p className="text-gray-700">Mão de obra: 70 €/hora em dias úteis (9h–17h) e 100 €/hora à noite (17h–9h), fins de semana e feriados. Mais deslocação (30 €). Materiais à parte.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Os preços são transparentes?</h3>
@@ -238,7 +202,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Trabalha ao sábado/domingo/feriado?</h3>
-              <p className="text-gray-700">Sim, com a majoração de +50% aplicada à mão de obra e à deslocação. Marque por telefone ou WhatsApp.</p>
+              <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Marque por telefone ou WhatsApp.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Posso fornecer os materiais?</h3>

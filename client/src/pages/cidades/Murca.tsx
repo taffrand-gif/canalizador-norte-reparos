@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Murça"
-// 100% unique content, zone Z4, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function Murça() {
 
  useEffect(() => {
  document.title = "Canalizador Murça 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -79,7 +78,7 @@ export default function Murça() {
 
  const cidadesProximas = getCidadesProximas('murca');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Murça?', 'answer': 'Desde 110€ em Murça. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Murça?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Murça. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Murça?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Murça?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Murça. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Murça?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Murça. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Murça?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

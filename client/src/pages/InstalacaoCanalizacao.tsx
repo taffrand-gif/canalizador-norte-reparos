@@ -91,7 +91,7 @@ export default function InstalacaoCanalizacao() {
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
  <div className="max-w-4xl mx-auto text-center">
  <h2 className="text-3xl font-bold mb-4">Precisa de Canalização Nova?</h2>
- <p className="text-xl mb-8">Peça já o seu sem compromisso. Respondemos em menos de 1 hora.</p>
+ <p className="text-xl mb-8">Peça já o seu sem compromisso. Respondemos assim que possível, mediante confirmação.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

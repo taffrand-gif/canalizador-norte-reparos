@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Alfândega da Fé"
-// 100% unique content, zone Z3, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function AlfândegaFé() {
 
  useEffect(() => {
  document.title = "Canalizador Alfândega da Fé 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -79,7 +78,7 @@ export default function AlfândegaFé() {
 
  const cidadesProximas = getCidadesProximas('alfandega-da-fe');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Alfândega da Fé?', 'answer': 'Desde 90€ em Alfândega da Fé. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alfândega da Fé?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alfândega da Fé. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Alfândega da Fé?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Alfândega da Fé?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Alfândega da Fé?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Alfândega da Fé. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alfândega da Fé?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alfândega da Fé. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Alfândega da Fé?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Alfândega da Fé?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>
@@ -91,7 +90,7 @@ export default function AlfândegaFé() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Alfândega da Fé, a deslocação é 35€ (Zona 3, 32.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Alfândega da Fé, a deslocação é 30€ (32.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

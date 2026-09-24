@@ -73,95 +73,95 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
 <body>
  <h1>🗺️ Preview: Carta Interativa de Zona de Atuação</h1>
  <p><strong>Onde vai aparecer:</strong> na página inicial (<code>/</code>) de cada um dos 4 sites, logo abaixo do hero/banner principal.</p>
- <p><strong>Quando passa o rato</strong> numa cidade → mostra nome + zona tarifária. <strong>Quando clica</strong> → vai para a página dedicada dessa cidade.</p>
+ <p><strong>Quando clica</strong> → vai para a página dedicada dessa cidade.</p>
 
  <div class="container">
  <h2>Versão 1: Vista Geral (raio 130km)</h2>
- <p>Mostra todo o norte de Portugal com Macedo no centro. Círculos concêntricos mostram as 4 zonas tarifárias.</p>
- 
+ <p>Mostra todo o norte de Portugal com Macedo no centro. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.</p>
+
  <div class="map-section">
  <div class="map-container">
  <svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
  <!-- Background: simplified north Portugal outline -->
  <rect x="0" y="0" width="600" height="500" fill="#f0f9ff"/>
- 
+
  <!-- Country/region outline (simplified) -->
- <path d="M 100 100 L 200 80 L 300 100 L 400 90 L 500 130 L 520 200 L 510 280 L 480 350 L 420 400 L 320 420 L 220 410 L 150 380 L 100 320 L 80 240 L 90 160 Z" 
+ <path d="M 100 100 L 200 80 L 300 100 L 400 90 L 500 130 L 520 200 L 510 280 L 480 350 L 420 400 L 320 420 L 220 410 L 150 380 L 100 320 L 80 240 L 90 160 Z"
  fill="#dbeafe" stroke="#1e40af" stroke-width="1.5" opacity="0.6"/>
- 
+
  <!-- Galicia/Spain outline -->
- <path d="M 30 100 L 100 100 L 90 160 L 80 240 L 60 250 L 30 200 Z" 
+ <path d="M 30 100 L 100 100 L 90 160 L 80 240 L 60 250 L 30 200 Z"
  fill="#fef3c7" stroke="#92400e" stroke-width="1" opacity="0.5"/>
  <text x="40" y="170" font-size="11" fill="#92400e" font-style="italic">ESPANHA</text>
- 
+
  <!-- Zone circles (centered on Macedo: 300, 270) -->
  <circle cx="300" cy="270" r="50" class="circle-zone circle-zone-z1"/>
  <circle cx="300" cy="270" r="100" class="circle-zone circle-zone-z2"/>
  <circle cx="300" cy="270" r="150" class="circle-zone circle-zone-z3"/>
  <circle cx="300" cy="270" r="200" class="circle-zone circle-zone-z4"/>
- 
+
  <!-- Zone labels -->
- <text x="300" y="225" text-anchor="middle" font-size="9" fill="#4ade80" font-weight="bold">Z1 · 30km · 20€</text>
- <text x="300" y="178" text-anchor="middle" font-size="9" fill="#fbbf24" font-weight="bold">Z2 · 50km · 25€</text>
- <text x="300" y="130" text-anchor="middle" font-size="9" fill="#fb923c" font-weight="bold">Z3 · 90km · 30€</text>
- <text x="300" y="80" text-anchor="middle" font-size="9" fill="#ef4444" font-weight="bold">Z4 · 130km · 40€</text>
- 
+ <text x="300" y="225" text-anchor="middle" font-size="9" fill="#4ade80" font-weight="bold">30km · 20€</text>
+ <text x="300" y="178" text-anchor="middle" font-size="9" fill="#fbbf24" font-weight="bold">50km · 25€</text>
+ <text x="300" y="130" text-anchor="middle" font-size="9" fill="#fb923c" font-weight="bold">90km · 30€</text>
+ <text x="300" y="80" text-anchor="middle" font-size="9" fill="#ef4444" font-weight="bold">130km · 40€</text>
+
  <!-- Macedo (center) - bigger -->
  <circle cx="300" cy="270" r="10" fill="#1e40af" stroke="white" stroke-width="3"/>
  <text x="300" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e40af">Macedo</text>
- 
- <!-- Z1 cities (closest) -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="320" cy="240" r="5" class="city-dot z1"/>
  <text x="325" y="244" class="city-label">Bragança</text>
- 
+
  <circle cx="260" cy="290" r="5" class="city-dot z1"/>
  <text x="245" y="294" class="city-label">Mirandela</text>
- 
+
  <circle cx="310" cy="295" r="4" class="city-dot z1"/>
  <text x="315" y="299" class="city-label">Vimioso</text>
- 
- <!-- Z2 cities -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="380" cy="240" r="5" class="city-dot z2"/>
  <text x="385" y="244" class="city-label">Chaves</text>
- 
+
  <circle cx="220" cy="240" r="5" class="city-dot z2"/>
  <text x="180" y="244" class="city-label">Mogadouro</text>
- 
+
  <circle cx="380" cy="290" r="5" class="city-dot z2"/>
  <text x="385" y="294" class="city-label">Vinhais</text>
- 
+
  <circle cx="200" cy="320" r="5" class="city-dot z2"/>
  <text x="160" y="324" class="city-label">Miranda Douro</text>
- 
+
  <circle cx="280" cy="200" r="5" class="city-dot z2"/>
  <text x="260" y="204" class="city-label">Valpaços</text>
- 
+
  <circle cx="260" cy="210" r="5" class="city-dot z2"/>
  <text x="220" y="214" class="city-label">Alijó</text>
- 
- <!-- Z3 cities (farther) -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="240" cy="170" r="5" class="city-dot z3"/>
  <text x="215" y="174" class="city-label">Vila Real</text>
- 
+
  <circle cx="180" cy="150" r="5" class="city-dot z3"/>
  <text x="140" y="154" class="city-label">Viseu</text>
- 
+
  <circle cx="450" cy="180" r="5" class="city-dot z3"/>
  <text x="455" y="184" class="city-label">Bragado</text>
- 
+
  <circle cx="120" cy="140" r="5" class="city-dot z3"/>
  <text x="80" y="144" class="city-label">Porto</text>
- 
- <!-- Z4 cities (farthest - would be noindex) -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="100" cy="100" r="4" class="city-dot z4" opacity="0.5"/>
  <text x="60" y="104" class="city-label" opacity="0.5">Viana</text>
- 
+
  <circle cx="150" cy="80" r="4" class="city-dot z4" opacity="0.5"/>
  <text x="115" y="84" class="city-label" opacity="0.5">Braga</text>
- 
+
  <circle cx="450" cy="120" r="4" class="city-dot z4" opacity="0.5"/>
  <text x="455" y="124" class="city-label" opacity="0.5">Guarda</text>
- 
+
  <!-- North arrow -->
  <g transform="translate(560, 50)">
  <text x="0" y="0" text-anchor="middle" font-size="11" font-weight="bold">N</text>
@@ -173,103 +173,103 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  </marker>
  </defs>
  </svg>
- <div class="map-tooltip" id="tooltip">Bragança · Z1 · 20€ deslocação</div>
+ <div class="map-tooltip" id="tooltip">Bragança · 20€ deslocação</div>
  </div>
- 
+
  <div class="city-list">
- <h3>Cidades Z1 (0-30km) <span class="badge" style="background:#4ade80;">15</span></h3>
+ <h3>Deslocação 30 € (50 € noite/fim de semana)</h3>
  <a href="#" class="city-link zone-z1">Bragança</a>
  <a href="#" class="city-link zone-z1">Mirandela</a>
  <a href="#" class="city-link zone-z1">Vimioso</a>
  <a href="#" class="city-link zone-z1">Podence</a>
  <a href="#" class="city-link zone-z1">Alfândega da Fé</a>
  <a href="#" class="city-link zone-z1">+ 10 outras aldeias</a>
- 
- <h3 style="margin-top:1.5rem;">Z2 (31-50km) <span class="badge" style="background:#fbbf24;">22</span></h3>
+
+ <h3 style="margin-top:1.5rem;">Deslocação 30 € (50 € noite/fim de semana)</h3>
  <a href="#" class="city-link zone-z2">Mogadouro</a>
  <a href="#" class="city-link zone-z2">Chaves</a>
  <a href="#" class="city-link zone-z2">Vinhais</a>
  <a href="#" class="city-link zone-z2">Miranda do Douro</a>
  <a href="#" class="city-link zone-z2">+ 18 outras</a>
- 
- <h3 style="margin-top:1.5rem;">Z3 (51-90km) <span class="badge" style="background:#fb923c;">12</span></h3>
+
+ <h3 style="margin-top:1.5rem;">Deslocação 30 € (50 € noite/fim de semana)</h3>
  <a href="#" class="city-link zone-z3">Vila Real</a>
  <a href="#" class="city-link zone-z3">Lamego</a>
  <a href="#" class="city-link zone-z3">+ 10 outras</a>
- 
- <h3 style="margin-top:1.5rem;">Z4 (91-130km) <span class="badge" style="background:#ef4444;">10</span></h3>
+
+ <h3 style="margin-top:1.5rem;">Deslocação 30 € (50 € noite/fim de semana)</h3>
  <a href="#" class="city-link zone-z4">Viseu</a>
  <a href="#" class="city-link zone-z4">Guarda</a>
  <a href="#" class="city-link zone-z4">+ 8 outras</a>
  </div>
  </div>
- 
+
  <div class="legend">
  <div class="legend-item"><div class="legend-dot" style="background:#1e40af"></div>Sede: Macedo</div>
- <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div>Z1 (0-30km)</div>
- <div class="legend-item"><div class="legend-dot" style="background:#fbbf24"></div>Z2 (31-50km)</div>
- <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div>Z3 (51-90km)</div>
- <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Z4 (91-130km)</div>
+ <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div>Deslocação 30 € (50 € noite/fim de semana)</div>
+ <div class="legend-item"><div class="legend-dot" style="background:#fbbf24"></div>Deslocação 30 € (50 € noite/fim de semana)</div>
+ <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div>Deslocação 30 € (50 € noite/fim de semana)</div>
+ <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Deslocação 30 € (50 € noite/fim de semana)</div>
  </div>
  </div>
- 
+
  <div class="container">
  <h2>Versão 2: Vista Aproximada (raio 30km)</h2>
  <p>Zoom sobre Macedo e arredores. Mostra freguesias e aldeias com mais detalhe.</p>
- 
+
  <div class="map-section">
  <div class="map-container">
  <svg viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
  <rect x="0" y="0" width="400" height="350" fill="#f0fdf4"/>
- 
- <!-- Z1 big circle -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="200" cy="175" r="150" class="circle-zone circle-zone-z1" stroke-width="2"/>
- 
+
  <!-- Macedo (center, bigger) -->
  <circle cx="200" cy="175" r="12" fill="#1e40af" stroke="white" stroke-width="4"/>
  <text x="200" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Trás-os-Montes</text>
- 
- <!-- Z1 villages -->
+
+ <!-- grelha de preços atualizada 2026-09-23 -->
  <circle cx="170" cy="140" r="4" class="city-dot z1"/>
  <text x="145" y="144" class="city-label">Bragança</text>
- 
+
  <circle cx="240" cy="200" r="4" class="city-dot z1"/>
  <text x="245" y="204" class="city-label">Mirandela</text>
- 
+
  <circle cx="180" cy="230" r="3" class="city-dot z1"/>
  <text x="160" y="234" class="city-label">Vimioso</text>
- 
+
  <circle cx="270" cy="150" r="3" class="city-dot z1"/>
  <text x="275" y="154" class="city-label">Podence</text>
- 
+
  <circle cx="130" cy="180" r="3" class="city-dot z1"/>
  <text x="80" y="184" class="city-label">Alfândega da Fé</text>
- 
+
  <circle cx="220" cy="100" r="3" class="city-dot z1"/>
  <text x="225" y="104" class="city-label">Mascarenhas</text>
- 
+
  <circle cx="160" cy="260" r="3" class="city-dot z1"/>
  <text x="120" y="264" class="city-label">Morais</text>
- 
+
  <circle cx="280" cy="250" r="3" class="city-dot z1"/>
  <text x="285" y="254" class="city-label">Cervos</text>
- 
+
  <circle cx="250" cy="80" r="3" class="city-dot z1"/>
  <text x="255" y="84" class="city-label">Sezulfe</text>
- 
+
  <circle cx="100" cy="240" r="3" class="city-dot z1"/>
  <text x="60" y="244" class="city-label">Saldanha</text>
- 
+
  <circle cx="320" cy="190" r="3" class="city-dot z1"/>
  <text x="325" y="194" class="city-label">Chacim</text>
- 
+
  <circle cx="320" cy="100" r="3" class="city-dot z1"/>
  <text x="325" y="104" class="city-label">Lamalonga</text>
  </svg>
  </div>
- 
+
  <div class="city-list">
- <h3>Freguesias Z1 <span class="badge" style="background:#4ade80;">30 aldeias</span></h3>
+ <h3></h3>
  <a href="#" class="city-link zone-z1">Trás-os-Montes</a>
  <a href="#" class="city-link zone-z1">Bragança (Sé)</a>
  <a href="#" class="city-link zone-z1">Mirandela (S. Pedro)</a>
@@ -281,11 +281,11 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  <a href="#" class="city-link zone-z1">Cervos</a>
  <a href="#" class="city-link zone-z1">Sezulfe</a>
  <a href="#" class="city-link zone-z1">+ 20 aldeias</a>
- <p style="margin-top: 1rem; font-size: .9rem; color: #666;">Todas aldeias com deslocação Z1 (20€) garantida.</p>
+ <p style="margin-top: 1rem; font-size: .9rem; color: #666;">Todas aldeias com deslocação (20€) garantida.</p>
  </div>
  </div>
  </div>
- 
+
  <div class="container">
  <h2>📍 Onde aparece na home page</h2>
  <p>Estrutura da página inicial atual (canalizador-norte-reparos.pt):</p>
@@ -307,7 +307,7 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  → Link interno mass para todas as páginas cidade (boost SEO)
  </div>
  </div>
- 
+
  <div class="container">
  <h2>📊 Impacto esperado</h2>
  <table style="width:100%; border-collapse: collapse;">
@@ -318,12 +318,12 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  <th style="padding: .8rem; text-align: left; border: 1px solid #ddd;">Ganho</th>
  </tr>
  <tr><td style="padding: .8rem; border: 1px solid #ddd;">Conversão visitante→chamada</td><td style="padding: .8rem; border: 1px solid #ddd;">~2-3%</td><td style="padding: .8rem; border: 1px solid #ddd;">~3-4%</td><td style="padding: .8rem; border: 1px solid #ddd;"><strong>+30-50%</strong></td></tr>
- <tr><td style="padding: .8rem; border: 1px solid #ddd;">Tempo na página</td><td style="padding: .8rem; border: 1px solid #ddd;">~30s</td><td style="padding: .8rem; border: 1px solid #ddd;">~50s</td><td style="padding: .8rem; border: 1px solid #ddd;"><strong>+60%</strong></td></tr>
- <tr><td style="padding: .8rem; border: 1px solid #ddd;">Páginas vistas por visita</td><td style="padding: .8rem; border: 1px solid #ddd;">~1.5</td><td style="padding: .8rem; border: 1px solid #ddd;">~2.5</td><td style="padding: .8rem; border: 1px solid #ddd;"><strong>+70%</strong></td></tr>
+ <tr><td style="padding: .8rem; border: 1px solid #ddd;">Tempo na página</td><td style="padding: .8rem; border: 1px solid #ddd;">~30s</td><td style="padding: .8rem; border: 1px solid #ddd;">~50s</td><td style="padding: .8rem; border: 1px solid #ddd;">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</td></tr>
+ <tr><td style="padding: .8rem; border: 1px solid #ddd;">Páginas vistas por visita</td><td style="padding: .8rem; border: 1px solid #ddd;">~1.5</td><td style="padding: .8rem; border: 1px solid #ddd;">~2.5</td><td style="padding: .8rem; border: 1px solid #ddd;">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</td></tr>
  <tr><td style="padding: .8rem; border: 1px solid #ddd;">Confiança ("é local")</td><td style="padding: .8rem; border: 1px solid #ddd;">★★★</td><td style="padding: .8rem; border: 1px solid #ddd;">★★★★★</td><td style="padding: .8rem; border: 1px solid #ddd;">qualitativo</td></tr>
  </table>
  </div>
- 
+
  <p style="text-align: center; color: #666; margin-top: 3rem;">
  🗺️ Preview criado para visualização · Não está em produção · URL: <code>/admin/preview-carte.html</code>
  </p>

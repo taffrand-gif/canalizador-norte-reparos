@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Valpaços"
-// 100% unique content, zone Z3, preço 110€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function Valpacos() {
 
  useEffect(() => {
  document.title = "Canalizador Valpaços 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -79,7 +78,7 @@ export default function Valpacos() {
 
  const cidadesProximas = getCidadesProximas('valpacos');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Valpaços?', 'answer': 'Desde 110€ em Valpaços. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Valpaços?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Valpaços. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Valpaços?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Valpaços?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Valpaços. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Valpaços?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Valpaços. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Valpaços?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

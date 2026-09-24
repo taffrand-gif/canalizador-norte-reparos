@@ -2,8 +2,8 @@ import React from 'react';
 // Design: Professional Service Layout
 // - Thick borders on form elements
 // - Clear visual hierarchy
-// - Instant price calculation with zone + urgency
-// - Formula: (basePrice + zonePrice) × urgencyMultiplier
+// - Instant price calculation: dias úteis (70 €/h + 30 €) ou noite/fim de semana/feriado (100 €/h + 50 €)
+ // - Formula: mão de obra por hora + deslocação única
 import { useSite } from '@/contexts/SiteContext';
 import { Calculator, Phone } from 'lucide-react';
 import { useState, memo, useCallback } from 'react';
@@ -21,30 +21,25 @@ import { RadioGroup, RadioGroupItem } from './ui/radio-group';
 function PriceCalculator() {
  const { config } = useSite();
  const [selectedService, setSelectedService] = useState<string>('');
- const [selectedZone, setSelectedZone] = useState<string>('Z1');
  const [urgency, setUrgency] = useState<'normal' | 'urgent'>('normal');
  const [calculatedPrice, setCalculatedPrice] = useState<number | null>(null);
  const [breakdown, setBreakdown] = useState<{ base: number; zone: number; total: number } | null>(null);
 
  const handleCalculate = useCallback(() => {
  const service = config.services.find(s => s.id === selectedService);
- const zone = config.pricingZones.find(z => z.zone === selectedZone);
+ const zone = config.pricingZones.find(z => z.zone === (urgency === 'urgent' ? 'NOITE' : 'DIA'));
 
  if (service && zone) {
  // Parse zone price (e.g. "15€" → 15)
  const zonePrice = parseInt(zone.price.replace(/[^\d]/g, ''), 10);
  const basePrice = service.basePrice;
- const multiplier = urgency === 'urgent' ? config.urgencyMultiplier : 1;
- const total = Math.round((basePrice + zonePrice) * multiplier);
+ const hourlyRate = urgency === 'urgent' ? 100 : 70;
+ const total = hourlyRate + zonePrice;
 
- setBreakdown({ base: basePrice, zone: zonePrice, total });
+ setBreakdown({ base: hourlyRate, zone: zonePrice, total });
  setCalculatedPrice(total);
  }
- }, [selectedService, selectedZone, urgency, config]);
-
- const urgencyLabel = urgency === 'urgent'
- ? `Urgente (+${Math.round((config.urgencyMultiplier - 1) * 100)}%)`
- : 'Normal';
+ }, [selectedService, urgency, config]);
 
  return (
  <section id="calculador-preco" className="py-20 bg-gray-50">
@@ -69,35 +64,6 @@ function PriceCalculator() {
 
  {/* Form */}
  <div className="space-y-6">
- {/* Zone selector */}
- <div>
- <Label htmlFor="zone" className="text-base font-bold mb-2 block">
- Zona de Intervenção
- </Label>
- <Select value={selectedZone} onValueChange={setSelectedZone}>
- <SelectTrigger
- id="zone"
- className="border-2 h-12 text-base font-medium"
- >
- <SelectValue placeholder="Selecione a zona..." />
- </SelectTrigger>
- <SelectContent>
- {config.pricingZones.map((zone) => (
- <SelectItem key={zone.zone} value={zone.zone}>
- {zone.name} — {zone.price} deslocação
- </SelectItem>
- ))}
- </SelectContent>
- </Select>
- {selectedZone && (
- <p className="text-sm text-gray-500 mt-1">
- {config.pricingZones.find(z => z.zone === selectedZone)?.cities}
- {' — '}
- {config.pricingZones.find(z => z.zone === selectedZone)?.time}
- </p>
- )}
- </div>
-
  {/* Service selector */}
  <div>
  <Label htmlFor="service" className="text-base font-bold mb-2 block">
@@ -113,7 +79,7 @@ function PriceCalculator() {
  <SelectContent>
  {config.services.map((service) => (
  <SelectItem key={service.id} value={service.id}>
- {service.label} (desde {service.basePrice}€)
+ {service.label} (70 €/h, primeira hora)
  </SelectItem>
  ))}
  </SelectContent>
@@ -122,7 +88,7 @@ function PriceCalculator() {
 
  {/* Urgency selector */}
  <div>
- <Label className="text-base font-bold mb-3 block">Urgência</Label>
+ <Label className="text-base font-bold mb-3 block">Horário</Label>
  <RadioGroup
  value={urgency}
  onValueChange={(v) => setUrgency(v as 'normal' | 'urgent')}
@@ -130,13 +96,13 @@ function PriceCalculator() {
  <div className="flex items-center space-x-2 mb-2">
  <RadioGroupItem value="normal" id="normal" />
  <Label htmlFor="normal" className="font-medium cursor-pointer">
- Normal
+ Dias úteis 9h–17h (70 €/h + deslocação 30 €)
  </Label>
  </div>
  <div className="flex items-center space-x-2">
  <RadioGroupItem value="urgent" id="urgent" />
  <Label htmlFor="urgent" className="font-medium cursor-pointer">
- Urgente (+{Math.round((config.urgencyMultiplier - 1) * 100)}%)
+ Noite (17h–9h), fim de semana ou feriado (100 €/h + deslocação 50 €)
  </Label>
  </div>
  </RadioGroup>
@@ -167,19 +133,17 @@ function PriceCalculator() {
  {/* Breakdown */}
  <div className="bg-gray-50 rounded-lg p-3 mb-4 text-left text-sm space-y-1">
  <div className="flex justify-between">
- <span>Serviço base:</span>
+ <span>Primeira hora de mão de obra:</span>
  <span className="font-bold">{breakdown.base}€</span>
  </div>
  <div className="flex justify-between">
- <span>Deslocação ({selectedZone}):</span>
+ <span>Deslocação:</span>
  <span className="font-bold">{breakdown.zone}€</span>
  </div>
  {urgency === 'urgent' && (
  <div className="flex justify-between text-red-600">
- <span>Supplemento urgência (+{Math.round((config.urgencyMultiplier - 1) * 100)}%):</span>
- <span className="font-bold">
- +{Math.round(breakdown.total - (breakdown.base + breakdown.zone))}€
- </span>
+ <span>Tarifa noite / fim de semana / feriado (100 €/h):</span>
+ <span className="font-bold">100 €/h</span>
  </div>
  )}
  <div className="border-t pt-1 mt-1 flex justify-between font-bold text-base">
@@ -190,7 +154,7 @@ function PriceCalculator() {
 
  <p className="text-xs text-gray-500 mt-2">
  *Valor aproximado, sujeito a confirmação após diagnóstico
- {urgency === 'urgent' && ' — serviço urgente'}
+ {urgency === 'urgent' && ' — noite, fim de semana ou feriado'}. Cada hora começada é devida.
  </p>
  </div>
  )}

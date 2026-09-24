@@ -15,7 +15,7 @@ export default function Trevoes() {
   const faqs = [
     {
       question: "Qual o preço de canalizador em Trêvões?",
-      answer: "Em Trêvões, a deslocação é de 55€ (Zona 5, zona de cobertura a partir de Macedo de Cavaleiros). A mão de obra é 65€/h. Exemplos de preços completos: desentupimento de lavatório 80-150€, reparação de fuga de água 90-180€, substituição de sifão 55-115€. O preço é sempre comunicado antes de qualquer intervenção."
+      answer: "Em Trêvões, a deslocação é de 30€ (zona de cobertura a partir de Macedo de Cavaleiros). A mão de obra é 70€/h. Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). O preço é sempre comunicado antes de qualquer intervenção."
     },
     {
       question: "Fazem urgências de canalizações 24h em Trêvões?",
@@ -27,11 +27,11 @@ export default function Trevoes() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Trêvões?",
-      answer: "Sim, estamos disponíveis ao fim de semana e feriados para reparação de fugas de água em Trêvões. A deslocação é de 55€ (Zona 5). Ligue 928 484 451."
+      answer: "Sim, estamos disponíveis ao fim de semana e feriados para reparação de fugas de água em Trêvões. A deslocação é de 30€. Ligue 928 484 451."
     },
     {
       question: "Que zonas cobrem a partir de Trêvões?",
-      answer: "A partir de Trêvões cobrimos toda a zona de São João da Pesqueira e arredores. Disponíveis 24h incluindo fins de semana e feriados. Deslocação 55€."
+      answer: "A partir de Trêvões cobrimos toda a zona de São João da Pesqueira e arredores. Disponíveis 24h incluindo fins de semana e feriados. Deslocação 30€."
     }
   ];
 
@@ -39,7 +39,7 @@ export default function Trevoes() {
     document.title = 'Canalizador Trêvões — Norte Reparos | Urgências 24h';
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta');
     metaDescription.setAttribute('name', 'description');
-    metaDescription.setAttribute('content', 'Canalizador em Trêvões — desentupimentos, fugas de água, instalações sanitárias. Urgências 24h. Deslocação 55€ (Zona 5). Ligue 928 484 451.');
+    metaDescription.setAttribute('content', 'Canalizador em Trêvões — desentupimentos, fugas de água, instalações sanitárias. Urgências 24h. Deslocação 30€. Ligue 928 484 451.');
     if (!metaDescription.parentNode) document.head.appendChild(metaDescription);
 
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta');
@@ -113,7 +113,7 @@ export default function Trevoes() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Serviços de Canalizador em Trêvões</h2>
             <p className="text-gray-700 mb-4">
               A Norte Reparos presta serviços de canalização profissional em Trêvões e toda a zona de São João da Pesqueira.
-              Deslocação de <strong>55€ (Zona 5)</strong> e mão de obra a <strong>65€/hora</strong>.
+              Deslocação de <strong>30€</strong> e mão de obra a <strong>70€/hora</strong>.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
               {['Desentupimentos de esgotos', 'Reparação de fugas de água', 'Instalação sanitária completa',
@@ -130,12 +130,12 @@ export default function Trevoes() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <p className="text-sm text-blue-700 font-semibold">Deslocação</p>
-                <p className="text-2xl font-bold text-blue-900">55€</p>
-                <p className="text-xs text-blue-600">(Zona 5)</p>
+                <p className="text-2xl font-bold text-blue-900">30€</p>
+                <p className="text-xs text-blue-600"></p>
               </div>
               <div>
                 <p className="text-sm text-blue-700 font-semibold">Mão de obra</p>
-                <p className="text-2xl font-bold text-blue-900">65€/h</p>
+                <p className="text-2xl font-bold text-blue-900">70€/h</p>
                 <p className="text-xs text-blue-600">Orçamento por escrito</p>
               </div>
             </div>

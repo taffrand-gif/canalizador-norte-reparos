@@ -15,11 +15,11 @@ export default function TorreDonaChama() {
   const faqs = [
     {
       question: "Qual o preço de canalizador em Torre de Dona Chama?",
-      answer: "Em Torre de Dona Chama, a deslocação é de 15€ (Zona 1 — zona de cobertura prioritária a partir de Macedo de Cavaleiros). A mão de obra é 65€/h. Exemplos de preços completos: desentupimento de lavatório 75-145€, reparação de fuga de água 85-175€, substituição de sifão 50-110€. O preço é sempre comunicado antes de qualquer intervenção."
+      answer: "Em Torre de Dona Chama, a deslocação é de 30€ (zona de cobertura prioritária a partir de Macedo de Cavaleiros). A mão de obra é 70€/h. Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). O preço é sempre comunicado antes de qualquer intervenção."
     },
     {
       question: "Fazem urgências de canalizações 24h em Torre de Dona Chama?",
-      answer: "Sim, atendemos urgências de fugas de água e desentupimentos 24h por dia, 7 dias por semana em Torre de Dona Chama. Por estar na nossa Zona 1, ficamos a menos de 20 minutos de distância. Ligue 928 484 451 para atendimento imediato."
+      answer: "Sim, atendemos urgências de fugas de água e desentupimentos 24h por dia, 7 dias por semana em Torre de Dona Chama. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Ligue 928 484 451 para atendimento imediato."
     },
     {
       question: "Fazem desentupimentos em Torre de Dona Chama?",
@@ -27,7 +27,7 @@ export default function TorreDonaChama() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Torre de Dona Chama?",
-      answer: "Sim, atendemos fugas de água em Torre de Dona Chama 24h, incluindo fins de semana e feriados. O acréscimo noturno/fim de semana é de 50% sobre a mão de obra e deslocação — sempre informado antes de avançar."
+      answer: "Sim, atendemos fugas de água em Torre de Dona Chama 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
     },
     {
       question: "Que zonas cobrem a partir de Torre de Dona Chama?",
@@ -44,7 +44,7 @@ export default function TorreDonaChama() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Canalizador em Torre de Dona Chama. Desentupimentos, fugas de água, instalações sanitárias. Zona 1 — deslocação 15€. Urgências 24h. Ligue 928 484 451.');
+    metaDescription.setAttribute('content', 'Canalizador em Torre de Dona Chama. Desentupimentos, fugas de água, instalações sanitárias. deslocação 30€. Urgências 24h. Ligue 928 484 451.');
 
     let metaKeywords = document.querySelector('meta[name="keywords"]');
     if (!metaKeywords) {
@@ -70,7 +70,7 @@ export default function TorreDonaChama() {
       "@type": "LocalBusiness",
       "name": "Canalizador Profissional — Torre de Dona Chama",
       "image": "/images-optimized/hero/hero-plumber-portugal.jpg",
-      "description": "Canalizador profissional em Torre de Dona Chama, Mirandela. Desentupimentos, fugas de água e urgências 24h. Zona 1 — deslocação 15€.",
+      "description": "Canalizador profissional em Torre de Dona Chama, Mirandela. Desentupimentos, fugas de água e urgências 24h. deslocação 30€.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Torre de Dona Chama",
@@ -128,8 +128,8 @@ export default function TorreDonaChama() {
                 <span className="text-blue-300">Torre de Dona Chama</span>
               </h1>
               <p className="text-xl mb-4 text-gray-200">
-                Zona 1 — a menos de 20 minutos da nossa base em Macedo de Cavaleiros.
-                Urgências 24h, desentupimentos e fugas de água. Deslocação 15€.
+                a menos de 20 minutos da nossa base em Macedo de Cavaleiros.
+                Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.
               </p>
               <p className="text-base mb-8 text-gray-300">
                 Cobrimos Torre de Dona Chama e toda a zona de Mirandela.
@@ -227,7 +227,7 @@ export default function TorreDonaChama() {
                 </p>
                 <p className="text-gray-600">
                   A nossa base em Macedo de Cavaleiros fica a menos de 20km — a zona mais próxima
-                  de todo o nosso território de serviço. Deslocação 15€ (Zona 1).
+                  de todo o nosso território de serviço. Deslocação 30€.
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
@@ -253,7 +253,7 @@ export default function TorreDonaChama() {
                   </div>
                   <div className="flex items-center justify-between text-sm mb-2">
                     <span className="text-gray-600">Deslocação</span>
-                    <span className="font-bold text-blue-700">15€ (Zona 1)</span>
+                    <span className="font-bold text-blue-700">30€</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-gray-600">Disponibilidade</span>
@@ -284,7 +284,7 @@ export default function TorreDonaChama() {
               <span className="text-blue-300">Torre de Dona Chama</span>
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">
-              Zona 1 — deslocação 15€. Orçamento por escrito. Garantia de 12 meses.
+              deslocação 30€. Orçamento por escrito. Garantia de 12 meses.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a

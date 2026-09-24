@@ -4,13 +4,13 @@ import { useSEO } from '@/hooks/useSEO';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  useSEO({
- title: 'Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona (Z1 a Z6)',
- description: 'Quanto custa o serviço de um canalizador em Trás-os-Montes? Tabela 2026 por zona (Z1 a Z6), mão de obra 65€/h, deslocação 15€ a 65€. Orçamento por escrito.',
+ title: 'Custo Canalizador Trás-os-Montes 2026 — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.',
+ description: 'Quanto custa o serviço de um canalizador em Trás-os-Montes? Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito.',
  keywords: 'custo canalizador, custo canalizador tras os montes, quanto custa canalizador, preço canalizador, orçamento canalização, custo desentupimento, canalizador 24 horas preço'
  });
  return (
  <BlogLayout
- title="Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona (Z1 a Z6)"
+ title="Custo Canalizador Trás-os-Montes 2026 — Deslocação 30 € (50 € noite/fim de semana)"
  description="Tabela completa e transparente de preços para todos os serviços de canalização na região de Trás-os-Montes"
  >
  <article className="max-w-4xl mx-auto">
@@ -24,11 +24,11 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <span>📅 18 Fev 2026</span>
  <span>👁️ 3.2K visualizações</span>
  </div>
- 
+
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
- Custo Canalizador Trás-os-Montes 2026 — Tabela por Zona
+ Custo Canalizador Trás-os-Montes 2026
  </h1>
- 
+
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center">
  <span className="text-2xl">💰</span>
@@ -57,15 +57,15 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-800 font-semibold text-lg">
- 💡 Transparência Total: Este guia baseia-se em dados reais de 150+ orçamentos executados em 2025 
- em Trás-os-Montes. Os preços refletem a realidade do mercado regional, considerando deslocações, 
+ 💡 Transparência Total: Este guia baseia-se em dados reais de 150+ orçamentos executados em 2025
+ em Trás-os-Montes. Os preços refletem a realidade do mercado regional, considerando deslocações,
  complexidade e materiais específicos para o clima da região.
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6">
  <strong>Qual o custo de um canalizador em Trás-os-Montes?</strong> É a pergunta mais frequente que
- recebemos. A resposta curta: <strong>mão de obra a partir de 65€/hora</strong> + taxa de deslocação
- por zona (Z1 a Z6, de 15€ a 65€), com majoração de +50% à noite, fim de semana e feriados.
+ recebemos. A resposta curta: <strong>mão de obra a partir de 70€/hora</strong> + taxa de deslocação
+ Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
  Neste guia completo, mostramos uma tabela detalhada de custos médios para 2026, os fatores
  que influenciam o custo final (zona, hora, complexidade, materiais) e como obter um orçamento
  por escrito sem surpresas na fatura.
@@ -74,7 +74,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  O <strong>custo de um canalizador em Trás-os-Montes</strong> varia principalmente em função
  da distância à nossa sede operacional em Macedo de Cavaleiros e da complexidade do serviço
  (desentupimento simples, fuga acessível, instalação completa). Apresentamos abaixo a grelha
- oficial 2026 com mão de obra e taxas de deslocação por zona, válida para toda a região.
+ Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
  </div>
  {/* Table of contents */}
@@ -92,15 +92,15 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  {/* Content sections */}
  <div className="prose prose-lg max-w-none">
  <section id="tabela-precos" className="mb-12">
- <h2 className="text-3xl font-bold text-gray-900 mb-6">💶 Custo Canalizador em Trás-os-Montes — Tabela Completa 2026 por Zona (Z1 a Z6)</h2>
+ <h2 className="text-3xl font-bold text-gray-900 mb-6">💶 Custo Canalizador em Trás-os-Montes — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados.</h2>
  <p className="text-gray-700 mb-6 text-lg">
  O <strong>custo de um canalizador em Trás-os-Montes</strong> é composto por duas partes:
- <strong>mão de obra</strong> (65€/hora) e <strong>taxa de deslocação por zona</strong> (de 15€ em Z1
- a 65€ em Z6, consoante a distância rodoviária até Macedo de Cavaleiros). Abaixo encontra a tabela
+ <strong>mão de obra</strong> (70€/hora) e <strong>Deslocação 30 € (50 € noite/fim de semana)</strong> (de 15€
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Abaixo encontra a tabela
  com os custos médios por tipo de serviço — todas as estimativas se baseiam em serviços reais
  executados na região.
  </p>
- 
+
  <div className="overflow-x-auto">
  <table className="min-w-full bg-white border border-gray-300 rounded-xl">
  <thead>
@@ -185,62 +185,62 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <li>• <strong>Preços incluem IVA a 23%</strong> (exceto se indicado otherwise</li>
  <li>• <strong>Deslocação:</strong> Incluída até 25km. Acima disso: +0,50€/km</li>
  <li>• <strong>Materiais:</strong> Não incluídos nos preços acima (ver tabela de materais mais abaixo</li>
- <li>• <strong>Emergências:</strong> Fora do horário comercial (19h-8h, fins-de-semana): +30-50%</li>
+ <li>• <strong>Emergências:</strong> Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</li>
  </ul>
  </div>
  </section>
  <section id="fatores-custo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">⚖️ 7 Fatores que Influenciam o Preço Final</h2>
- 
+
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">📍 Localização</h3>
  <p className="text-gray-700">
- Em Trás-os-Montes, a distância é crucial. Serviços em <a href="/canalizador-braganca" className="text-blue-600 underline">Bragança</a> ou 
- <a href="/canalizador-mirandela" className="text-blue-600 underline"> Mirandela</a> podem ser 15-20% mais baratos que em aldeias remotas 
+ Em Trás-os-Montes, a distância é crucial. Serviços em <a href="/canalizador-braganca" className="text-blue-600 underline">Bragança</a> ou
+ <a href="/canalizador-mirandela" className="text-blue-600 underline"> Mirandela</a> podem ser 15-20% mais baratos que em aldeias remotas
  devido aos custos de deslocação e tempo de viagem.
  </p>
  </div>
- 
+
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">🏠 Tipo de Construção</h3>
  <p className="text-gray-700">
- Casas antigas (anteriores a 1980) geralmente requerem mais tempo devido a canalização antiga, 
+ Casas antigas (anteriores a 1980) geralmente requerem mais tempo devido a canalização antiga,
  materiais obsoletos e acesso difícil. Pode acrescer 20-40% ao preço base.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">⏰ Hora do Serviço</h3>
  <p className="text-gray-700">
- Emergências fora do horário comercial (19h-8h, fins-de-semana, feriados) têm majoração de 
+ À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
  30-50%. Planeie serviços não urgentes para dias úteis entre 8h-18h.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">🔧 Complexidade</h3>
  <p className="text-gray-700">
- Problemas em paredes estruturais, canalização embutida em betão, ou necessidade de equipamento 
+ Problemas em paredes estruturais, canalização embutida em betão, ou necessidade de equipamento
  especial (câmaras de inspeção) aumentam significativamente o custo.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">📅 Época do Ano</h3>
  <p className="text-gray-700">
- Inverno (Nov-Fev) tem maior procura por emergências de gelo. Verão pode ter preços mais competitivos 
+ Inverno (Nov-Fev) tem maior procura por emergências de gelo. Verão pode ter preços mais competitivos
  para trabalhos de instalação ou renovação.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">🧱 Materiais Necessários</h3>
  <p className="text-gray-700">
- A qualidade dos materiais varia muito. Canos de cobre vs PEX, torneiras económicas vs premium, 
+ A qualidade dos materiais varia muito. Canos de cobre vs PEX, torneiras económicas vs premium,
  etc. Peça sempre especificação detalhada dos materais no orçamento.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200 md:col-span-2">
  <h3 className="font-bold text-gray-900 mb-3">👨‍🔧 Experiência do Profissional</h3>
  <p className="text-gray-700">
- canalizadores com experiência com anos de experiência podem cobrar mais, mas oferecem garantia, 
+ canalizadores com experiência com anos de experiência podem cobrar mais, mas oferecem garantia,
  conhecimento local (especificidades de Trás-os-Montes) e menor risco de erros que geram custos adicionais.
  </p>
  </div>
@@ -248,12 +248,12 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </section>
  <section id="desentupimentos" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">🚽 Preços de Desentupimentos - Análise Detalhada</h2>
- 
+
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-6">
  <h3 className="font-bold text-blue-800 text-lg mb-2">Porque é que os preços variam tanto?</h3>
  <p className="text-blue-700">
- Um desentupimento de sanita pode custar 55€ ou 250€ dependendo de: localização do entupimento, 
- métodos necessários (ventosa vs máquina de alta pressão), e se é um problema recorrente que indica 
+ Um desentupimento de sanita pode custar 55€ ou 250€ dependendo de: localização do entupimento,
+ métodos necessários (ventosa vs máquina de alta pressão), e se é um problema recorrente que indica
  problemas estruturais.
  </p>
  </div>
@@ -296,7 +296,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <tr className="hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Câmara de inspeção</td>
  <td className="py-4 px-6">Diagnóstico preciso</td>
- <td className="py-4 px-6">80-120€ + serviço</td>
+ <td className="py-4 px-6"></td>
  <td className="py-4 px-6">Identifica causa exata</td>
  </tr>
  </tbody>
@@ -305,24 +305,24 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="mt-6 p-6 bg-green-50 border border-green-200 rounded-xl">
  <h4 className="font-bold text-green-800 text-lg mb-2">💡 Dica de Economia:</h4>
  <p className="text-green-700">
- Para entupimentos recorrentes, considere um <strong>pacote de manutenção preventiva</strong> (150-250€/ano) 
+ Para entupimentos recorrentes, considere um <strong>pacote de manutenção preventiva</strong> (150-250€/ano)
  que inclui 1-2 limpezas anuais com jato de alta pressão. É mais barato que 2-3 desentupimentos de emergência por ano.
  </p>
  </div>
  </section>
  <section id="orcamento-justo" className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">📝 Como Obter um Orçamento Justo e Transparente</h2>
- 
+
  <div className="bg-white p-8 rounded-2xl border border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-6">Checklist para Orçamentos:</h3>
- 
+
  <div className="space-y-6">
  <div className="flex items-start gap-4">
  <div className="bg-blue-100 text-blue-800 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">1</div>
  <div>
  <h4 className="font-bold text-gray-900 mb-2">Peça orçamento por escrito</h4>
  <p className="text-gray-700">
- Nunca aceite orçamentos verbais. Exija documento com: descrição detalhada do serviço, 
+ Nunca aceite orçamentos verbais. Exija documento com: descrição detalhada do serviço,
  materiais a usar (marca/modelo), mão-de-obra separada, IVA, e validade do orçamento.
  </p>
  </div>
@@ -332,7 +332,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div>
  <h4 className="font-bold text-gray-900 mb-2">Compare 2-3 orçamentos</h4>
  <p className="text-gray-700">
- Para serviços acima de 300€, obtenha pelo menos 3 orçamentos. Compare não só o preço, 
+ Para serviços acima de 300€, obtenha pelo menos 3 orçamentos. Compare não só o preço,
  mas também os materiais propostos e o prazo de execução.
  </p>
  </div>
@@ -342,8 +342,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div>
  <h4 className="font-bold text-gray-900 mb-2">Verifique referências</h4>
  <p className="text-gray-700">
- Peça referências de trabalhos similares na sua zona (ex: em <a href="/canalizador-chaves" className="text-blue-600 underline">Chaves</a> ou 
- <a href="/canalizador-macedo-cavaleiros" className="text-blue-600 underline"> Trás-os-Montes</a>). 
+ Peça referências de trabalhos similares na sua zona (ex: em <a href="/canalizador-chaves" className="text-blue-600 underline">Chaves</a> ou
+ <a href="/canalizador-macedo-cavaleiros" className="text-blue-600 underline"> Trás-os-Montes</a>).
  Profissionais sérios terão clientes para referenciar.
  </p>
  </div>
@@ -353,7 +353,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div>
  <h4 className="font-bold text-gray-900 mb-2">Exija garantia</h4>
  <p className="text-gray-700">
- Serviços de canalização devem ter garantia mínima de 1 ano para mão-de-obra. 
+ Serviços de canalização devem ter garantia mínima de 1 ano para mão-de-obra.
  Materiais têm garantia do fabricante (normalmente 2-5 anos).
  </p>
  </div>
@@ -388,7 +388,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  {/* FAQ Section with JSON-LD Schema */}
  <section className="mb-12">
  <h2 className="text-3xl font-bold text-gray-900 mb-6">❓ Perguntas Frequentes sobre Preços de Canalização</h2>
- 
+
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">Porque é que os preços em Trás-os-Montes são diferentes do Porto ou Lisboa?</h3>
@@ -404,23 +404,23 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  No entanto, a qualidade do trabalho é frequentemente superior devido à especialização em problemas regionais.
  </p>
  </div>
- 
+
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">Os preços da tabela incluem IVA?</h3>
  <p className="text-gray-700">
- Sim, todos os preços apresentados nesta tabela <strong>incluem IVA a 23%</strong>, que é a taxa normal 
- para serviços de construção e arranjo em Portugal. Alguns profissionais podem apresentar preços sem IVA 
- em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA. 
+ Sim, todos os preços apresentados nesta tabela <strong>incluem IVA a 23%</strong>, que é a taxa normal
+ para serviços de construção e arranjo em Portugal. Alguns profissionais podem apresentar preços sem IVA
+ em orçamentos iniciais, mas o valor final a pagar deve sempre incluir o IVA.
  Exija sempre fatura-recibo com NIF para garantir conformidade fiscal.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">É normal pagar deslocação separada?</h3>
  <p className="text-gray-700">
- Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias 
- superiores a 25km do centro operacional do canalizador. A taxa média é de <strong>0,50€/km</strong> 
- (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos 
- acima de determinado valor (ex: gratuita para serviços acima de 200€). 
+ Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias
+ superiores a 25km do centro operacional do canalizador. A taxa média é de <strong>0,50€/km</strong>
+ (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos
+ acima de determinado valor (ex: gratuita para serviços acima de 200€).
  <strong>Sempre pergunte sobre política de deslocações antes de marcar a visita.</strong>
  </p>
  </div>
@@ -436,7 +436,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "name": "Qual o custo médio de um canalizador em Trás-os-Montes?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "O custo médio de um canalizador em Trás-os-Montes em 2026 é de 65€/hora de mão de obra mais a taxa de deslocação por zona (Z1: 15€, Z2: 25€, Z3: 35€, Z4: 45€, Z5: 55€, Z6: 65€). Um desentupimento simples (pia ou lavatório) fica entre 45€ e 95€; uma fuga simples entre 70€ e 180€; a instalação de uma sanita nova entre 120€ e 280€. Os valores são indicativos — cada serviço exige orçamento por escrito antes de qualquer intervenção."
+ "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Um desentupimento simples (pia ou lavatório) fica entre 45€ e 95€; uma fuga simples entre 70€ e 180€; a instalação de uma sanita nova entre 120€ e 280€. Os valores são indicativos — cada serviço exige orçamento por escrito antes de qualquer intervenção."
  }
  },
  {
@@ -460,7 +460,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "name": "Quanto custa chamar um canalizador ao fim de semana ou à noite?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "As chamadas ao fim de semana, feriados ou em horário noturno têm uma majoração de 50% sobre a mão de obra e sobre a taxa de deslocação. Exemplo: um serviço de 2h a 65€/h em Z2 (25€) em horário normal custaria 155€; em horário noturno ou fim de semana custaria cerca de 232,50€ (mão de obra 195€ + deslocação 37,50€). O orçamento por escrito é sempre fornecido antes de qualquer intervenção."
+ "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Exemplo: um serviço de 2h a 70€/h (25€) em horário normal custaria 155€; em horário noturno ou fim de semana custaria cerca de 232,50€ (mão de obra 195€ + deslocação 37,50€). O orçamento por escrito é sempre fornecido antes de qualquer intervenção."
  }
  },
  {
@@ -487,8 +487,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="md:w-3/4">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre a Autora</h3>
  <p className="text-gray-700 mb-4">
- <strong>Ana Rodrigues</strong> é especialista em orçamentos de canalização com experiência em Trás-os-Montes 
- na região de Trás-os-Montes. Já analisou mais de 1. a obter 
+ <strong>Ana Rodrigues</strong> é especialista em orçamentos de canalização com experiência em Trás-os-Montes
+ na região de Trás-os-Montes. Já analisou mais de 1. a obter
  preços justos e transparentes. É defensora da transparência total nos preços e da educação do consumidor.
  </p>
  <p className="text-gray-600">

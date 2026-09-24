@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Mirandela"
-// 100% unique content, zone Z2, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function Mirandela() {
 
  useEffect(() => {
  document.title = "💧 Canalizador Mirandela — estimativa sem custo | Garantia Escrita";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -80,7 +79,7 @@ export default function Mirandela() {
  const cidadesProximas = getCidadesProximas('mirandela');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Mirandela?", answer: "Desde 90€ em Mirandela. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Mirandela?", answer: "Desde 100€ (150 € noite/fim de semana) em Mirandela. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Mirandela?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Mirandela. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
@@ -97,7 +96,7 @@ export default function Mirandela() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Mirandela, a deslocação é 25€ (Zona 2, 27.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Mirandela, a deslocação é 30€ (27.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

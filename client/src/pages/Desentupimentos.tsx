@@ -22,14 +22,14 @@ export default function Desentupimentos() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Serviço de desentupimento em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Orçamento por escrito, deslocação Z1-Z6, equipamento profissional. Atendimento urgente.');
+ metaDescription.setAttribute('content', 'Serviço de desentupimento em Trás-os-Montes: desentupir canos, sanita, esgotos, pias e ralos. Orçamento por escrito, deslocação, equipamento profissional. Atendimento urgente.');
  }, [config]);
  // Schema.org Service JSON-LD
  const serviceSchema = {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimento em Trás-os-Montes",
- "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6, equipamento profissional (Ridgid).",
+ "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -87,9 +87,9 @@ export default function Desentupimentos() {
  <>
  <SEOHeadEnhanced pageType="service" />
  <StructuredData customSchema={serviceSchema} />
- 
+
  <Header />
- 
+
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero section */}
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
@@ -99,7 +99,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupimento profissional de canos, sanitas, esgotos, pias e ralos em Trás-os-Montes.
- Orçamento por escrito antes de qualquer intervenção, deslocação por zonas Z1-Z6,
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
  equipamento profissional (Ridgid) e técnicas não invasivas. Sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -144,7 +144,7 @@ export default function Desentupimentos() {
  <li><strong>Teste:</strong> Verificação do fluxo normal da água</li>
  <li><strong>Prevenção:</strong> Recomendações para evitar futuros entupimentos</li>
  </ol>
- 
+
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Equipamento Utilizado</h3>
  <ul className="space-y-3">
  <li className="flex items-center gap-3">
@@ -166,11 +166,11 @@ export default function Desentupimentos() {
  </ul>
  </div>
  </div>
- 
+
  {/* Right column: Pricing and coverage */}
  <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-6">Preços Indicativos</h3>
- 
+
  <div className="space-y-6">
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
@@ -179,7 +179,7 @@ export default function Desentupimentos() {
  </div>
  <p className="text-gray-600">Inclui diagnóstico, desentupimento e limpeza</p>
  </div>
- 
+
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Desentupimento de Pias e Lava-loiças</h4>
@@ -187,7 +187,7 @@ export default function Desentupimentos() {
  </div>
  <p className="text-gray-600">Para cozinhas e casas de banho</p>
  </div>
- 
+
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Limpeza de Esgotos e Canalizações</h4>
@@ -195,23 +195,23 @@ export default function Desentupimentos() {
  </div>
  <p className="text-gray-600">Para sistemas de drenagem externos</p>
  </div>
- 
+
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Serviço de Urgência 24h</h4>
- <span className="bg-orange-100 text-orange-800 font-bold px-4 py-2 rounded-full">+30%</span>
+ <span className="bg-orange-100 text-orange-800 font-bold px-4 py-2 rounded-full">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</span>
  </div>
  <p className="text-gray-600">Para situações críticas fora do horário normal</p>
  </div>
  </div>
- 
+
  <div className="mt-8 p-4 bg-blue-50 rounded-lg">
  <p className="text-blue-800 font-semibold">
- 💡 <strong>Nota:</strong> Preços podem variar conforme a complexidade do serviço. 
+ 💡 <strong>Nota:</strong> Preços podem variar conforme a complexidade do serviço.
  Sem compromisso no local.
  </p>
  </div>
- 
+
  <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Zonas de Atuação</h3>
  <div className="grid grid-cols-2 gap-3">
  {[
@@ -251,7 +251,7 @@ export default function Desentupimentos() {
  },
  {
  question: "Quanto custa um desentupimento em Trás-os-Montes?",
- answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). A deslocação é tarifada por zona Z1 a Z6 (15€ a 65€) e a mão-de-obra segue a grelha em vigor. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
+ answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
  }
  ]}
  />
@@ -293,7 +293,7 @@ export default function Desentupimentos() {
  Precisa de Desentupimento em Trás-os-Montes?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Não que a situação piore! Contacte-nos agora para um serviço rápido e eficiente. 
+ Não que a situação piore! Contacte-nos agora para um serviço rápido e eficiente.
  Atendemos urgências Atendimento 24h/7d, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -315,7 +315,7 @@ export default function Desentupimentos() {
  </div>
  </section>
  </main>
- 
+
  <Footer />
  </>
  );

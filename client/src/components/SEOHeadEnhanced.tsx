@@ -6,7 +6,7 @@ import { useLocation } from 'wouter';
 import { getCitySEOConfig } from '../../../shared/seoKeywords';
 interface SEOHeadEnhancedProps {
  citySlug?: string; // Slug da cidade (ex: 'macedo-de-cavaleiros')
- pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery';
+ pageType?: 'home' | 'city' | 'service' | 'blog' | 'gallery' | 'urgency';
  customTitle?: string;
  customDescription?: string;
  customKeywords?: string[];
@@ -84,7 +84,7 @@ export default function SEOHeadEnhanced({
  updateMetaTag('meta[name="author"]', 'content', config.name);
  updateMetaTag('meta[name="robots"]', 'content', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
  updateMetaTag('meta[name="googlebot"]', 'content', 'index, follow');
- 
+
  // Viewport (importante para mobile)
  updateMetaTag('meta[name="viewport"]', 'content', 'width=device-width, initial-scale=1.0');
 // Geo-targeting meta tags (local SEO)
@@ -144,7 +144,7 @@ export default function SEOHeadEnhanced({
  // Dados estruturados (Schema.org) para LocalBusiness
  const schemaScript = document.createElement('script');
  schemaScript.type = 'application/ld+json';
- 
+
  const schemaData = {
  "@context": "https://schema.org",
  "@type": "LocalBusiness",
@@ -210,7 +210,7 @@ export default function SEOHeadEnhanced({
  if (oldSchema) {
  document.head.removeChild(oldSchema);
  }
- 
+
  document.head.appendChild(schemaScript);
  // Google Ads tracking - deferred to avoid blocking main thread
  if (!window.dataLayer) {

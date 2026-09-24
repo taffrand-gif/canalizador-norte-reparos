@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Mondim da Beira"
-// 100% unique content, zone Z6, preço 130€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function MondimDeBasto() {
 
  useEffect(() => {
  document.title = "Canalizador Mondim da Beira 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -79,7 +78,7 @@ export default function MondimDeBasto() {
 
  const cidadesProximas = getCidadesProximas('mondim-da-beira');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Mondim da Beira?', 'answer': 'Desde 130€ em Mondim da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Mondim da Beira?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Mondim da Beira. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Mondim da Beira?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Mondim da Beira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Mondim da Beira?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Mondim da Beira. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>

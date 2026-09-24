@@ -647,7 +647,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>• Inspeção completa da canalização</li>
  <li>• Identifica problemas antes de agravar</li>
  <li>• Limpeza profissional preventiva</li>
- <li>• Custo: 80-120€/ano (poupa milhares em reparações</li>
+ <li></li>
  </ul>
  </div>
  </div>
@@ -698,7 +698,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-8">
  <h3 className="font-bold text-gray-900 mb-4 text-xl">💰 Custos de Intervenção Profissional</h3>
- 
+
  <table className="w-full text-sm">
  <thead>
  <tr className="border-b-2 border-gray-200">

@@ -15,7 +15,7 @@ export default function Cumieira() {
   const faqs = [
     {
       question: "Qual o preço de canalizador em Cumieira?",
-      answer: "Em Cumieira, a deslocação é de 55€ (Zona 5). A mão de obra é 65€/h. Exemplos: desentupimento de lavatório 80-155€, reparação de fuga de água 90-185€, substituição de sifão 55-115€. O preço é sempre comunicado antes de qualquer intervenção."
+      answer: "Em Cumieira, a deslocação é de 30€. A mão de obra é 70€/h. Mínimo faturado: 100 € em dias úteis e 150 € à noite, fins de semana e feriados (deslocação + 1 hora; cada hora começada é devida). O preço é sempre comunicado antes de qualquer intervenção."
     },
     {
       question: "Fazem urgências de canalizações 24h em Cumieira?",
@@ -27,7 +27,7 @@ export default function Cumieira() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Cumieira?",
-      answer: "Sim, atendemos fugas de água em Cumieira 24h, incluindo fins de semana e feriados. O acréscimo de 50% sobre mão de obra e deslocação é sempre informado antes de avançar."
+      answer: "Sim, atendemos fugas de água em Cumieira 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
     },
     {
       question: "Que zonas cobrem em Cumieira?",
@@ -39,7 +39,7 @@ export default function Cumieira() {
     document.title = '🔧 Canalizador Cumieira — 24h | 928 484 451';
     let md = document.querySelector('meta[name="description"]');
     if (!md) { md = document.createElement('meta'); md.setAttribute('name', 'description'); document.head.appendChild(md); }
-    md.setAttribute('content', 'Canalizador em Cumieira, Vila Real. Desentupimentos, fugas de água, instalações sanitárias. Deslocação 55€. Urgências 24h. Ligue 928 484 451.');
+    md.setAttribute('content', 'Canalizador em Cumieira, Vila Real. Desentupimentos, fugas de água, instalações sanitárias. Deslocação 30€. Urgências 24h. Ligue 928 484 451.');
 
     let mk = document.querySelector('meta[name="keywords"]');
     if (!mk) { mk = document.createElement('meta'); mk.setAttribute('name', 'keywords'); document.head.appendChild(mk); }
@@ -55,7 +55,7 @@ export default function Cumieira() {
       "@context": "https://schema.org", "@type": "LocalBusiness",
       "name": "Canalizador Profissional — Cumieira",
       "image": "/images-optimized/hero/hero-plumber-portugal.jpg",
-      "description": "Canalizador profissional em Cumieira, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 55€.",
+      "description": "Canalizador profissional em Cumieira, Vila Real. Desentupimentos, fugas e urgências 24h. Deslocação 30€.",
       "address": { "@type": "PostalAddress", "addressLocality": "Cumieira", "addressRegion": "Vila Real", "addressCountry": "PT", "postalCode": "5050-071" },
       "telephone": businessInfo.phone, "openingHours": "Mo-Su 00:00-23:59",
       "priceRange": "€€", "areaServed": { "@type": "Place", "name": "Cumieira, Vila Real" }
@@ -85,7 +85,7 @@ export default function Cumieira() {
           <div className="container mx-auto px-4"><div className="max-w-4xl">
             <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' }, { label: 'Santa Marta de Penaguião', href: '/canalizador-santa-marta-de-penaguiao' }, { label: 'Cumieira', href: '/canalizador-cumieira' } ]} />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador em{' '}<span className="text-blue-300">Cumieira</span></h1>
-            <p className="text-xl mb-4 text-gray-200">Freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Urgências 24h, desentupimentos e fugas de água. Deslocação 55€.</p>
+            <p className="text-xl mb-4 text-gray-200">Freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.</p>
             <p className="text-base mb-8 text-gray-300">Cobrimos Cumieira e toda a zona de Santa Marta de Penaguião. Disponíveis 24h incluindo fins de semana e feriados.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-8 py-4 rounded-lg text-lg transition-colors text-center">🔧 Ligar: {businessInfo.phoneFormatted}</a>
@@ -110,7 +110,7 @@ export default function Cumieira() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Cumieira e arredores</h2>
               <p className="text-gray-600 mb-4">Cumieira é uma freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Conhecemos bem as particularidades hidráulicas: habitações rurais e quintas com fossas sépticas e sistemas de captação de água de nascente.</p>
-              <p className="text-gray-600 mb-4">Cobrimos Cumieira e toda a área de Santa Marta de Penaguião. Deslocação 55€ (Zona 5). Mão de obra 65€/h. Orçamento por escrito.</p>
+              <p className="text-gray-600 mb-4">Cobrimos Cumieira e toda a área de Santa Marta de Penaguião. Deslocação 30€. Mão de obra 70€/h. Orçamento por escrito.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Cobertura em <span className="text-blue-600">Cumieira</span></h3>
@@ -123,7 +123,7 @@ export default function Cumieira() {
               </div>
               <div className="bg-blue-50 p-4 rounded-xl border border-blue-200">
                 <div className="flex items-center justify-between text-sm mb-2"><span className="text-gray-600">Distância da base</span><span className="font-bold text-blue-700">~80 km</span></div>
-                <div className="flex items-center justify-between text-sm mb-2"><span className="text-gray-600">Deslocação</span><span className="font-bold text-blue-700">55€ (Zona 5)</span></div>
+                <div className="flex items-center justify-between text-sm mb-2"><span className="text-gray-600">Deslocação</span><span className="font-bold text-blue-700">30€</span></div>
                 <div className="flex items-center justify-between text-sm"><span className="text-gray-600">Disponibilidade</span><span className="font-bold text-blue-700">24h / 7 dias</span></div>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function Cumieira() {
         <section className="py-16 bg-gradient-to-r from-gray-900 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Canalizador em <span className="text-blue-300">Cumieira</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 55€. Orçamento por escrito. Garantia 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 30€. Orçamento por escrito. Garantia 12 meses.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-10 py-4 rounded-lg text-lg transition-colors">🔧 {businessInfo.phoneFormatted}</a>
               <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um canalizador em Cumieira`} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

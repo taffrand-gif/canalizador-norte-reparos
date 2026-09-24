@@ -22,7 +22,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
  {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
  {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: 300-500€. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
- {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; consumo excessivo de água e energia (+30%); problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
+ {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; à noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.; problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
  ]
  }) }}
  />
@@ -419,7 +419,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <li>✓ Verificar isolamento de canos (A confirmar</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
- <strong>Total:</strong> A confirmar + técnico | <strong>Custo:</strong> 95-175€/semestre
+ <strong>Total:</strong> A confirmar + técnico | <strong>Custo:</strong>
  </p>
  </div>
  </section>
@@ -804,7 +804,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-red-700 space-y-2 ml-4">
  <li>• Avarias súbitas e caras (canos rebentados, fugas</li>
  <li>• Redução vida útil equipamentos (50% menos</li>
- <li>• Consumo excessivo água e energia (+30%</li>
+ <li>Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</li>
  <li>• Problemas de saúde (água contaminada, humidade</li>
  <li>• Desvalorização do imóvel (5-10%</li>
  <li>• Emergências inconvenientes (sem água quente, inundações</li>

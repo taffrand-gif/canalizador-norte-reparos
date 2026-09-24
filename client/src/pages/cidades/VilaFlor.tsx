@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Vila Flor"
-// 100% unique content, zone Z3, preço 90€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function VilaFlor() {
 
  useEffect(() => {
  document.title = "Canalizador Vila Flor 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -79,7 +78,7 @@ export default function VilaFlor() {
 
  const cidadesProximas = getCidadesProximas('vila-flor');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 90€ em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>
@@ -91,7 +90,7 @@ export default function VilaFlor() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Vila Flor, a deslocação é 35€ (Zona 3, 41.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Vila Flor, a deslocação é 30€ (41.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">

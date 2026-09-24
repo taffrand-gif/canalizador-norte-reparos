@@ -3,7 +3,7 @@ import QuoteForm from "@/components/QuoteForm";
 import { useSEO } from "@/hooks/useSEO";
 export default function Orcamento() {
  const { businessName, phone } = ACTIVE_CONFIG;
- 
+
  useSEO({
  title: `Pedir estimativa sem custo | ${businessName}`,
  description: `Peça um sem compromisso e sem compromisso. Disponível 24h/7 dias e preços competitivos. Contacte-nos: ${phone}`,
@@ -15,7 +15,7 @@ export default function Orcamento() {
  <div className="container">
  <div className="max-w-3xl mx-auto text-center">
  <h1 className="text-4xl sm:text-5xl font-bold mb-4">
- Pedir Orçamento Gratuito
+ Pedir Orçamento por Escrito
  </h1>
  <p className="text-xl sm:text-2xl mb-6">
  Disponível 24h/7 dias e sem compromisso
@@ -37,7 +37,7 @@ export default function Orcamento() {
  <div className="container">
  <div className="max-w-4xl mx-auto">
  <h2 className="text-3xl font-bold text-center mb-12">Porquê Escolher-nos?</h2>
- 
+
  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
  <div className="text-center">
  <div className="text-5xl mb-4">⚡</div>

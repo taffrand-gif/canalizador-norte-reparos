@@ -231,7 +231,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </ul>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
- <p className="font-bold text-gray-900 mb-2">🏠 Outras Zonas</p>
+ <p className="font-bold text-gray-900 mb-2"></p>
  <ul className="text-gray-700 text-sm space-y-1">
  <li>• Esquentador (base e ligações</li>
  <li>• Máquina de lavar roupa (mangueiras</li>
@@ -628,7 +628,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  Canalizador identifica problemas antes de se tornarem graves.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Inspeção completa: 80-120€</li>
+ <li></li>
  <li>• Inclui teste de pressão e verificação geral</li>
  <li>• Recomendado para casas com +15 anos</li>
  <li>• Previne reparações caras (ROI 10x</li>

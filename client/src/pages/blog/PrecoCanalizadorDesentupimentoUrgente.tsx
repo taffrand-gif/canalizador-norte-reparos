@@ -8,7 +8,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
         <title>Quanto Custa um Desentupimento em 2026? Preços por tipo de cano | Norte Reparos</title>
         <meta
           name="description"
-          content="Quanto custa um desentupimento em Trás-os-Montes? Tabela Norte Reparos: 65€/h canalizador base + deslocação Z1-Z6 + tarifas sanita, lavatório, esgotos. Orçamento por escrito antes de qualquer intervenção."
+          content="Quanto custa um desentupimento em Trás-os-Montes? Tabela Norte Reparos: 70€/h canalizador base + deslocação + tarifas sanita, lavatório, esgotos. Orçamento por escrito antes de qualquer intervenção."
         />
         <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/preco-canalizador-desentupimento-urgente" />
         <script type="application/ld+json">
@@ -21,7 +21,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "Quanto custa um desentupimento em Portugal em 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Norte Reparos pratica 65€/hora em horário normal (2ª-6ª, 9h-18h) e 97,50€/hora (+50%) no período majorado (noite, sábado, domingo, feriado), mais deslocação Z1-Z6 (15€ a 65€, também majorada no horário respetivo). Um desentupimento simples de lavatório ou sanita costuma demorar entre 1 e 2 horas; uma obstrução em canalização principal pode exigir 2-4 horas e eventualmente máquina de alta pressão. O orçamento detalhado por escrito é sempre entregue antes da deslocação."
+                  "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Um desentupimento simples de lavatório ou sanita costuma demorar entre 1 e 2 horas; uma obstrução em canalização principal pode exigir 2-4 horas e eventualmente máquina de alta pressão. O orçamento detalhado por escrito é sempre entregue antes da deslocação."
                 }
               },
               {
@@ -29,7 +29,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "Quanto custa desentupir uma sanita?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Desentupimento simples de sanita: tipicamente 1-2 horas → em Z3, horário normal, 35€ + (1 a 2) × 65€ = entre 100€ e 165€, sem materiais. Se houver necessidade de máquina de alta pressão, soma-se o tempo adicional. Valor indicado no orçamento por escrito antes do trabalho."
+                  "text": "Se houver necessidade de máquina de alta pressão, soma-se o tempo adicional. Valor indicado no orçamento por escrito antes do trabalho."
                 }
               },
               {
@@ -37,7 +37,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "E uma fossa entupida ou esgoto principal?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. Para zonas Z5-Z6, é necessário agendamento prévio."
+                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados."
                 }
               },
               {
@@ -53,7 +53,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "A Norte Reparos tem piquete de desentupimento 24h?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sim. Atuamos 24h/7 dias em Trás-os-Montes, com a majoração de +50% aplicada à mão de obra e à deslocação no período noturno, fim de semana e feriados. Z1-Z2 costumam ter resposta rápida no próprio dia; Z3-Z6 agendam-se conforme disponibilidade."
+                  "text": "Sim. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. "
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Quanto Custa um Desentupimento em 2026?",
-            "description": "Tarifário Norte Reparos para desentupimentos em Trás-os-Montes: 65€/h base + Z1-Z6 deslocação + majoração +50% urgência. Tabela por tipo de cano.",
+            "description": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Tabela por tipo de cano.\",",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": { "@type": "Organization", "name": "Norte Reparos", "url": "https://canalizador-norte-reparos.pt" },
             "datePublished": "2026-07-10",
@@ -116,13 +116,13 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
           <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-2">Resposta direta:</p>
             <p className="text-gray-800">
-              Na Norte Reparos, o preço de um desentupimento é calculado de forma simples: <strong>deslocação pela zona (Z1 15€ a Z6 65€) + horas × tarifário hora</strong> (65€/h em horário normal, 97,50€/h em horário majorado noite/sábado/domingo/feriado). Um desentupimento simples dura em média 1-2 horas; casos em canalização principal podem chegar a 2-4 horas e exigir máquina de alta pressão. <strong>Orçamento por escrito detalhado sempre antes da deslocação.</strong>
+              Na Norte Reparos, o preço de um desentupimento é calculado de forma simples: <strong>deslocação (30 € em dias úteis, 50 € à noite, fins de semana e feriados) + horas × tarifário hora</strong> (70€/h em dias úteis 9h–17h, 100€/h à noite 17h–9h, fins de semana e feriados; cada hora começada é devida). Um desentupimento simples dura em média 1-2 horas; casos em canalização principal podem chegar a 2-4 horas e exigir máquina de alta pressão. <strong>Orçamento por escrito detalhado sempre antes da deslocação.</strong>
             </p>
           </div>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">1. Estimativas por tipo de desentupimento</h2>
           <p>
-            Os valores abaixo são <strong>estimativas em horário normal e Z3 (Bragança ou perímetro equivalente)</strong> — a sua estimativa exata depende da zona e do tempo despendido, sempre confirmada por escrito antes da deslocação.
+             a sua estimativa exata depende da zona e do tempo despendido, sempre confirmada por escrito antes da deslocação.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="w-full border-collapse">
@@ -130,34 +130,34 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 <tr className="bg-cyan-600 text-white">
                   <th className="border border-gray-300 px-3 py-2 text-left">Tipo de desentupimento</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Tempo típico</th>
-                  <th className="border border-gray-300 px-3 py-2 text-left">Estimativa Z3 (horário normal)</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Preço (dias úteis)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-3 py-2">Lavatório ou lava-loiça</td>
                   <td className="border border-gray-300 px-3 py-2">1-2 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-165€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-170€</td>
                 </tr>
                 <tr className="bg-cyan-50">
                   <td className="border border-gray-300 px-3 py-2">Sanita</td>
                   <td className="border border-gray-300 px-3 py-2">1-2 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-165€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-170€</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-3 py-2">Ralo / sifão de duche</td>
                   <td className="border border-gray-300 px-3 py-2">1-2 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-165€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">100-170€</td>
                 </tr>
                 <tr className="bg-cyan-50">
                   <td className="border border-gray-300 px-3 py-2">Canalização principal (sem máquina)</td>
                   <td className="border border-gray-300 px-3 py-2">2-3 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">165-230€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">170-240€</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-3 py-2">Canalização principal (com máquina alta pressão)</td>
                   <td className="border border-gray-300 px-3 py-2">2-4 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">230-360€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">240-380€</td>
                 </tr>
                 <tr className="bg-cyan-50">
                   <td className="border border-gray-300 px-3 py-2">Fossa séptica (sob marcação)</td>
@@ -168,7 +168,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </table>
           </div>
           <p className="text-sm text-gray-600">
-            Valores = deslocação Z3 (35€) + horas × 65€. Outras zonas (Z1, Z2, Z4, Z5, Z6) alteram o preço final — confirme pelo telefone para uma estimativa exata.
+            Valores = deslocação 30€ + horas × 70€ (dias úteis 9h–17h). À noite, fins de semana e feriados: deslocação 50€ + horas × 100€. Confirme pelo telefone para uma estimativa exata.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. O que fazer antes de nos chamar</h2>
@@ -192,11 +192,11 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
           <div className="space-y-6">
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa um desentupimento em 2026?</h3>
-              <p className="text-gray-700">Norte Reparos: 65€/h + Z1-Z6 deslocação + majoração +50% em noite/WE/feriado. Para um desentupimento simples de sanita ou lavatório, prepare 100-165€ em Z3 (35€ + 1-2h × 65€).</p>
+              <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. </p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa desentupir uma sanita?</h3>
-              <p className="text-gray-700">Tipicamente 1-2 horas → 100€-165€ em Z3 horário normal. Outros casos ou zonas diferente alteram o valor — peça-nos orçamento por escrito.</p>
+              <p className="text-gray-700">Tipicamente 1-2 horas → 100€-165€ horário normal. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">E uma fossa entupida?</h3>
@@ -204,7 +204,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Trabalha 24h?</h3>
-              <p className="text-gray-700">Sim, em Trás-os-Montes, com a majoração de +50% aplicada à mão de obra e à deslocação no período majorado.</p>
+              <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Há garantia do trabalho?</h3>

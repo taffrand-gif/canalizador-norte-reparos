@@ -18,7 +18,7 @@ export default function FAQPage() {
  const faqs = [
  {
  question: "Quanto custa um canalizador em Trás-os-Montes?",
- answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 85€, instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
+ answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 100€ (150 € noite/fim de semana), instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
  },
  {
  question: "Como funciona o sem compromisso?",
@@ -112,19 +112,19 @@ export default function FAQPage() {
  };
  return (
  <>
- <SEOHead 
+ <SEOHead
  title="Perguntas Frequentes | Norte Reparos | Canalizador Trás-os-Montes"
  description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, arranjo caldeiras, zonas servidas. canalizador com experiência em Bragança."
  canonical="/faq"
  />
- 
+
  {/* Schema.org JSON-LD */}
  <script
  type="application/ld+json"
  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
  />
  <Header />
- 
+
  <main className="min-h-screen bg-gray-50">
  {/* Hero Section */}
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
@@ -191,7 +191,7 @@ export default function FAQPage() {
  )}
  </span>
  </button>
- 
+
  {openIndex === index && (
  <div className="px-6 pb-6">
  <div className="pt-4 border-t border-gray-100">

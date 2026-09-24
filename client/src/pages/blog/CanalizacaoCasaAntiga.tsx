@@ -6,7 +6,7 @@ import { Phone, Home, AlertTriangle, CheckCircle, Wrench } from 'lucide-react';
 export default function CanalizacaoCasaAntiga() {
  useEffect(() => {
  document.title = "Renovação de Canalização em Casas Antigas de Trás-os-Montes | Guia 2026";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -110,15 +110,15 @@ export default function CanalizacaoCasaAntiga() {
  <div className="container max-w-3xl">
  <div className="prose prose-lg max-w-none">
  <p className="text-lg text-gray-700 leading-relaxed">
- As casas antigas de <a href="/canalizador-braganca" className="text-blue-600 hover:underline">Bragança</a>, 
- <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>, 
- <a href="/canalizador-mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e 
- <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline"> Trás-os-Montes</a> têm 
- desafios únicos: <strong>paredes de granito maciço</strong>, <strong>tubos de chumbo</strong> e 
+ As casas antigas de <a href="/canalizador-braganca" className="text-blue-600 hover:underline">Bragança</a>,
+ <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a>,
+ <a href="/canalizador-mirandela" className="text-blue-600 hover:underline"> Mirandela</a> e
+ <a href="/canalizador-macedo-de-cavaleiros" className="text-blue-600 hover:underline"> Trás-os-Montes</a> têm
+ desafios únicos: <strong>paredes de granito maciço</strong>, <strong>tubos de chumbo</strong> e
  <strong> ausência de isolamento térmico</strong>.
  </p>
  <p className="text-lg text-gray-700 leading-relaxed mt-4">
- Renovar a canalização nestas casas requer conhecimento específico e técnicas adaptadas. 
+ Renovar a canalização nestas casas requer conhecimento específico e técnicas adaptadas.
  Este guia explica os problemas mais comuns e as melhores soluções.
  </p>
  </div>
@@ -132,7 +132,7 @@ export default function CanalizacaoCasaAntiga() {
  <div>
  <h2 className="text-xl font-bold text-red-700 mb-2">PERIGO: Tubos de Chumbo</h2>
  <p className="text-gray-700 mb-3">
- Se a sua casa foi construída antes de 1980, provavelmente tem tubos de chumbo. 
+ Se a sua casa foi construída antes de 1980, provavelmente tem tubos de chumbo.
  O chumbo contamina a água e causa problemas graves de saúde, especialmente em crianças.
  </p>
  <p className="text-gray-700 font-bold">
@@ -181,7 +181,7 @@ export default function CanalizacaoCasaAntiga() {
  <h2 className="text-3xl font-black mb-6 text-center">O Desafio das Paredes de Granito</h2>
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-4">
- As casas tradicionais de Trás-os-Montes têm paredes de <strong>granito maciço com 50-80cm de espessura</strong>. 
+ As casas tradicionais de Trás-os-Montes têm paredes de <strong>granito maciço com 50-80cm de espessura</strong>.
  Furar estas paredes é:
  </p>
  <ul className="space-y-2 mb-6">
@@ -276,8 +276,8 @@ export default function CanalizacaoCasaAntiga() {
  <h2 className="text-3xl font-black mb-6 text-center">Isolamento Térmico: OBRIGATÓRIO</h2>
  <div className="bg-white rounded-xl p-6 shadow-lg">
  <p className="text-gray-700 mb-4">
- Em <a href="/canalizador-montalegre" className="text-blue-600 hover:underline">Montalegre</a>, 
- <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> e outras zonas frias, 
+ Em <a href="/canalizador-montalegre" className="text-blue-600 hover:underline">Montalegre</a>,
+ <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a>
  as temperaturas podem chegar a <strong>-10°C no inverno</strong>. Tubos sem isolamento rebentam.
  </p>
  <h3 className="font-bold text-lg mb-3">Onde Isolar:</h3>
@@ -346,7 +346,7 @@ export default function CanalizacaoCasaAntiga() {
  Precisa de Renovar a Canalização?
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
- Especialistas em casas antigas de Trás-os-Montes. Conhecemos os desafios das paredes de granito 
+ Especialistas em casas antigas de Trás-os-Montes. Conhecemos os desafios das paredes de granito
  e do clima rigoroso. Sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">

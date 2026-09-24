@@ -495,19 +495,19 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Porto</td>
- <td className="text-center py-3 px-4">65-110€</td>
+ <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">85-140€</td>
  <td className="text-right py-3 px-4 text-red-600">+35-55€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Braga / Coimbra</td>
- <td className="text-center py-3 px-4">55-95€</td>
+ <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">75-120€</td>
  <td className="text-right py-3 px-4 text-orange-600">+30-45€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Setúbal / Aveiro</td>
- <td className="text-center py-3 px-4">55-90€</td>
+ <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">70-115€</td>
  <td className="text-right py-3 px-4 text-orange-600">+25-40€</td>
  </tr>
@@ -520,13 +520,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Alentejo</td>
  <td className="text-center py-3 px-4">50-85€</td>
- <td className="text-center py-3 px-4">+50% (65€ base)</td>
+ <td className="text-center py-3 px-4">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</td>
  <td className="text-right py-3 px-4 text-green-600">+20-35€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Algarve</td>
  <td className="text-center py-3 px-4">60-100€</td>
- <td className="text-center py-3 px-4">80-130€</td>
+ <td className="text-center py-3 px-4"></td>
  <td className="text-right py-3 px-4 text-orange-600">+30-50€</td>
  </tr>
  <tr>
@@ -636,7 +636,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  Prevenir é 10x mais barato que reparar emergências.
  </p>
  <ul className="text-gray-600 text-sm space-y-1">
- <li>• Inspeção anual: 80-120€</li>
+ <li></li>
  <li>• Evita reparações de 500-2000€</li>
  <li>• ROI: 5-20x</li>
  </ul>
@@ -684,7 +684,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <div className="bg-white p-4 rounded-lg">
  <p className="text-gray-700 mb-2"><strong>Exemplo: Reparação Urgente</strong></p>
  <p className="text-red-600 line-through">Sem otimização: 180€</p>
- <p className="text-green-600 font-bold text-xl">Com otimização: 90-120€</p>
+ <p className="text-green-600 font-bold text-xl"></p>
  </div>
  <div className="bg-white p-4 rounded-lg">
  <p className="text-gray-700 mb-2"><strong>Exemplo: Instalação Completa</strong></p>

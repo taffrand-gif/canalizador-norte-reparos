@@ -1,5 +1,4 @@
 // SEO optimizada para "Canalizador Tabuaço"
-// 100% unique content, zone Z6, preço 120€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -18,7 +17,7 @@ export default function Tabuaco() {
 
  useEffect(() => {
  document.title = "Canalizador Tabuaço 💧 24h | 928 484 451";
- 
+
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
  metaDescription = document.createElement('meta');
@@ -80,7 +79,7 @@ export default function Tabuaco() {
  const cidadesProximas = getCidadesProximas('tabuaco');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Tabuaço?", answer: "Desde 120€ em Tabuaço. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Tabuaço?", answer: "Desde 100€ (150 € noite/fim de semana) em Tabuaço. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Tabuaço?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Tabuaço. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

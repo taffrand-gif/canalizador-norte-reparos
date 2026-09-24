@@ -2,14 +2,11 @@ import React, { useState, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
 // memo removed from 'react';
-const zones = [
- { label: 'Zona 1 — Macedo de Cavaleiros e raio 15 km', price: 15 },
- { label: 'Zona 2 — Mirandela (15-30 km)', price: 25 },
- { label: 'Zona 3 — Bragança, Vinhais, Vila Flor, Alfândega da Fé (30-50 km)', price: 35 },
- { label: 'Zona 4 — Torre de Moncorvo, Carrazeda de Ansiães, Murça (50-70 km)', price: 45 },
- { label: 'Zona 5 — Chaves, Alijó, Vila Real, Sabrosa (70-90 km)', price: 55 },
- { label: 'Zona 6 — Montalegre, Miranda do Douro, Lamego, Freixo de Espada à Cinta (90-140 km)', price: 65 },
-];
+// Grelha única 2026-09-23 : deslocação 30 € (dias úteis 9h–17h) / 50 € (noite 17h–9h, fins de semana, feriados)
+// Mão de obra 70 €/h / 100 €/h — cada hora começada é devida
+const TRAVEL_DAY = 30;
+const TRAVEL_NIGHT = 50;
+const NIGHT_LABOR_FACTOR = 100 / 70;
 const servicesElec = [
  { label: 'Tomada / Interruptor', min: 30, max: 45 },
  { label: 'Avaria / Diagnóstico', min: 50, max: 80 },
@@ -42,9 +39,8 @@ const examplesElec = [
 ];
 function CalculadorPreco() {
  const { config } = useSite();
- const { city, priceAdjustment } = useLocationContent();
+ const { city } = useLocationContent();
  const isPlumber = config.id === 'norte-reparos';
- const [zoneIdx, setZoneIdx] = useState(0);
  const [serviceIdx, setServiceIdx] = useState(0);
  const [isUrgent, setIsUrgent] = useState(false);
  const services = isPlumber ? servicesPlumb : servicesElec;
@@ -53,27 +49,21 @@ function CalculadorPreco() {
  const whatsapp = isPlumber ? '351928484451' : '351928484451';
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
  const result = useMemo(() => {
- const zone = zones[zoneIdx];
  const service = services[serviceIdx];
- const mult = isUrgent ? 1.5 : 1;
- // Apply location-based price adjustment
- const travelBase = zone.price + priceAdjustment;
- const travel = Math.round(travelBase * mult);
+ const mult = isUrgent ? NIGHT_LABOR_FACTOR : 1;
+ const travel = isUrgent ? TRAVEL_NIGHT : TRAVEL_DAY;
  const laborMin = Math.round(service.min * mult);
  const laborMax = Math.round(service.max * mult);
  return {
  travel,
- travelBase: zone.price,
- locationAdjustment: priceAdjustment,
  laborMin,
  laborMax,
  totalMin: travel + laborMin,
  totalMax: travel + laborMax,
- zoneName: zone.label,
  serviceName: service.label};
- }, [zoneIdx, serviceIdx, isUrgent, services, priceAdjustment]);
+ }, [serviceIdx, isUrgent, services]);
  const waMsg = encodeURIComponent(
- `Olá! Estou em ${city}. Preciso de ${result.serviceName} em ${result.zoneName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
+ `Olá! Estou em ${city}. Preciso de ${result.serviceName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
  );
  return (
  <section className="py-16 bg-white">
@@ -114,22 +104,6 @@ function CalculadorPreco() {
  </p>
  </div>
  <div className="bg-gray-50 rounded-2xl shadow-lg p-8">
- {/* Zone */}
- <div className="mb-6">
- <label htmlFor="calc-zone" className="block text-sm font-bold text-gray-700 mb-2">📍 Onde está?</label>
- <select
- id="calc-zone"
- value={zoneIdx}
- onChange={e => setZoneIdx(Number(e.target.value))}
- className="w-full p-4 rounded-xl border-2 border-gray-200 focus:outline-none text-lg"
- style={{ borderColor: accentColor }}
- aria-label="Selecione a sua zona"
- >
- {zones.map((z, i) => (
- <option key={i} value={i}>{z.label} — {z.price}€</option>
- ))}
- </select>
- </div>
  {/* Service */}
  <div className="mb-6">
  <label htmlFor="calc-service" className="block text-sm font-bold text-gray-700 mb-2">🔧 Que serviço precisa?</label>
@@ -148,7 +122,7 @@ function CalculadorPreco() {
  </div>
  {/* Urgency toggle */}
  <div className="mb-8">
- <label className="block text-sm font-bold text-gray-700 mb-2">🕐 É urgência noturna ou fim de semana?</label>
+ <label className="block text-sm font-bold text-gray-700 mb-2">🕐 É à noite (17h–9h), fim de semana ou feriado?</label>
  <div className="flex gap-4">
  <button
  onClick={() => setIsUrgent(false)}
@@ -170,7 +144,7 @@ function CalculadorPreco() {
  color: isUrgent ? '#1f2937' : '#6b7280'}}
  aria-pressed={isUrgent}
  >
- Sim (+50%)
+ Sim (100 €/h + 50 €)
  </button>
  </div>
  </div>
@@ -181,19 +155,13 @@ function CalculadorPreco() {
  <span>Deslocação:</span>
  <span className="font-bold">{result.travel}€</span>
  </div>
- {result.locationAdjustment > 0 && (
- <div className="flex justify-between text-sm text-blue-600">
- <span>Ajuste distância ({city}):</span>
- <span className="font-bold">+{result.locationAdjustment}€</span>
- </div>
- )}
  <div className="flex justify-between text-gray-600">
  <span>Mão de obra (estimativa):</span>
  <span className="font-bold">{result.laborMin}€ - {result.laborMax}€</span>
  </div>
  {isUrgent && (
  <div className="flex justify-between text-red-600 text-sm">
- <span>Inclui acréscimo urgência (+50% deslocação e mão de obra)</span>
+ <span>Tarifa noite / fim de semana / feriado: 100 €/h + deslocação 50 €</span>
  </div>
  )}
  <hr />
@@ -205,7 +173,7 @@ function CalculadorPreco() {
  </div>
  </div>
  <p className="text-xs text-gray-500 mb-6">
- * Estimativa para {city}. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Noturno/fim de semana: +50% sobre deslocação e mão de obra.
+ * Estimativa para {city}. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Dias úteis 9h–17h: 70 €/h + deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/h + deslocação 50 €. Cada hora começada é devida.
  </p>
  <a
  href={`https://wa.me/${whatsapp}?text=${waMsg}`}

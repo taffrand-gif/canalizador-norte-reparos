@@ -1,13 +1,14 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CalendlyCTA from '@/components/CalendlyCTA';
 import { ACTIVE_CONFIG } from "../../../shared/serviceConfig";
 import { useSEO } from "@/hooks/useSEO";
 import { toast } from "sonner";
 export default function Contactos() {
  const config = ACTIVE_CONFIG;
  const formattedPhone = `${config.phone.slice(0, 3)} ${config.phone.slice(3, 6)} ${config.phone.slice(6)}`;
- 
+
  const [formType, setFormType] = useState<"contact" | "booking">("contact");
  const [isSubmitting, setIsSubmitting] = useState(false);
  const [formData, setFormData] = useState({
@@ -177,6 +178,7 @@ Todo o distrito de Bragança, Vila Real, Guarda e Viseu
  >
  📞 LIGUE AGORA: {formattedPhone}
  </button>
+ <CalendlyCTA className="w-full mt-3" />
  </div>
  </div>
  {/* Contact/Booking Form */}
@@ -359,10 +361,10 @@ Todo o distrito de Bragança, Vila Real, Guarda e Viseu
  disabled={isSubmitting}
  className="w-full bg-red-600 hover:bg-red-700 text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-colors text-base sm:text-lg disabled:opacity-50 disabled:cursor-not-allowed"
  >
- {isSubmitting 
- ? "A enviar..." 
- : formType === "booking" 
- ? "📅 Solicitar Visita" 
+ {isSubmitting
+ ? "A enviar..."
+ : formType === "booking"
+ ? "📅 Solicitar Visita"
  : "💬 Enviar Mensagem"
  }
  </button>

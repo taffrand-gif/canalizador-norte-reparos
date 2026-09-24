@@ -1,5 +1,4 @@
 // Page SEO optimisée para "Canalizador Bragança"
-// 100% unique content, zone Z3, preço 100€
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -16,7 +15,7 @@ export default function Braganca() {
  const { config } = useSite();
  useEffect(() => {
 document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia Escrita";
- 
+
  // Optimized meta description
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
@@ -33,8 +32,8 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  document.head.appendChild(metaKeywords);
  }
  metaKeywords.setAttribute('content', 'canalizador 24h bragança, canalizador Atendimento 24h/7d bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
- 
- 
+
+
  // Canonical URL
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -43,7 +42,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  document.head.appendChild(canonical);
  }
  canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-bragança');
- 
+
  // Schema.org LocalBusiness para Bragança
  const cityAddress = getCityAddress('braganca');
  const schemaScript = document.createElement('script');
@@ -109,7 +108,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  const faqs = [
  {
  question: "Qual o custo de deslocação a Bragança?",
- answer: "A deslocação a Bragança é de 35€ (Zona 3). Chegamos em aproximadamente A confirmar. Inclui todo o concelho."
+ answer: "A deslocação a Bragança é de 30€. Chegamos em aproximadamente A confirmar. Inclui todo o concelho."
  },
  {
  question: "Fazem urgências Atendimento 24h/7d em Bragança?",
@@ -130,16 +129,16 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  <>
  <SEOHead />
  <StructuredData />
- 
+
  <Header />
- 
+
  <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
  {/* Hero section específica de Bragança */}
 {/* answer-first — bloc citable IA / featured snippet — mission feat/villes-answer-first */}
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Bragança, a deslocação é 35€ (Zona 3, 42.4 km de Macedo de Cavaleiros). Mão de obra 65 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Bragança, a deslocação é 30€ (42.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
@@ -149,16 +148,16 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  { label: 'Trás-os-Montes', href: '/tras-os-montes' },
  { label: 'Bragança', href: '/canalizador-braganca' }
  ]} />
- 
+
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Canalizador Profissional em <span className="text-orange-400">Bragança</span>
  </h1>
- 
+
  <p className="text-xl mb-8">
- Serviços de canalizador com experiência em Bragança e arredores. 
+ Serviços de canalizador com experiência em Bragança e arredores.
  Especialistas em sistema de água e sistemas de aquecimento para a região.
  </p>
- 
+
  <div className="flex flex-col sm:flex-row gap-4">
  <a
  href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -186,7 +185,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  <h2 className="text-3xl font-bold text-gray-900 mb-6">
  Especialistas em Sistemas de Água em Bragança
  </h2>
- 
+
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
@@ -200,7 +199,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  aos minerais presentes na região.
  </p>
  </div>
- 
+
  <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
  <span className="text-blue-600">🏘️</span>
@@ -215,13 +214,13 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  </div>
  </div>
  </div>
- 
+
  <div>
  <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-xl border border-blue-200">
  <h3 className="text-2xl font-bold text-gray-900 mb-6">
  Cobertura em <span className="text-blue-600">Bragança</span>
  </h3>
- 
+
  <div className="grid grid-cols-2 gap-4 mb-8">
  {[
  'Centro Histórico', 'Santa Maria Maior', 'Madalena', 'Santa Cruz',
@@ -234,7 +233,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  </div>
  ))}
  </div>
- 
+
  <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
  <h4 className="text-lg font-bold text-gray-900 mb-3">
  ⏱️ Serviços Específicos para Bragança
@@ -265,7 +264,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
  Perguntas sobre <span className="text-blue-600">Canalizador em Bragança</span>
  </h2>
- 
+
  <div className="max-w-3xl mx-auto space-y-6">
  <div className="bg-white p-6 rounded-xl shadow-md">
  <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -278,7 +277,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  das águas da região de Bragança.
  </p>
  </div>
- 
+
  <div className="bg-white p-6 rounded-xl shadow-md">
  <h3 className="text-xl font-bold text-gray-900 mb-3">
  Trabalham em propriedades com piscinas água em Bragança?
@@ -289,7 +288,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  de sistema de água, garantindo a qualidade e segurança dos sistemas.
  </p>
  </div>
- 
+
  <div className="bg-white p-6 rounded-xl shadow-md">
  <h3 className="text-xl font-bold text-gray-900 mb-3">
  Qual a resposta para urgências nas zonas rurais de Bragança?
@@ -314,7 +313,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  Conhecemos as particularidades da água e canalização de Bragança.
  Desde o centro histórico até às hidrologia e propriedades rurais.
  </p>
- 
+
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a
  href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -331,11 +330,11 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  💬 WhatsApp para Bragança
  </a>
  </div>
- 
+
  <p className="text-orange-200">
  ♨️ <strong>Especialistas em sistema de água</strong> • 🏰 <strong>Património histórico</strong> • 🚜 <strong>Zonas rurais</strong>
  </p>
- 
+
  {/* Cross-link subtil */}
  <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
  <p className="text-lg">
@@ -366,7 +365,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia
  currentCitySlug="canalizador-braganca"
  />
  </main>
- 
+
  <Footer />
 </>
  );

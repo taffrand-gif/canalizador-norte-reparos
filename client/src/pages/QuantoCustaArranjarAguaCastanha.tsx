@@ -27,7 +27,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  const faqs = [
  {
  question: "Quanto custa arranjar água castanha da torneira?",
- answer: "Depende da causa: limpeza filtros/arejadores 40-60€, substituir troço cano 80-120€, limpeza depósito 100-150€, substituir canalização completa 500-2000€. Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
+ answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
  },
  {
  question: "Porque é que a água sai castanha da torneira?",
@@ -51,7 +51,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  servico: "Substituir Troço Cano",
- preco: "80-120€",
+
  tempo: "2-4 horas",
  descricao: "Substituir secção de cano enferrujado (até 2 metros)"
  },
@@ -229,7 +229,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
  {[
- { icon: CheckCircle, text: "Deslocação por zona Z1-Z6 (15-65€) em Trás-os-Montes" },
+ { icon: CheckCircle, text: "Deslocação 30 € (50 € noite/fim de semana)" },
  { icon: CheckCircle, text: "Diagnóstico completo da causa" },
  { icon: CheckCircle, text: "Mão-de-obra especializada" },
  { icon: CheckCircle, text: "Material básico necessário" },
