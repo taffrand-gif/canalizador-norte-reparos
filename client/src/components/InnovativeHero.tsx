@@ -202,8 +202,8 @@ const InnovativeHero: React.FC = () => {
  {[
  { icon: '💧', value: 'Certificado', label: 'Seguro Ativo', color: 'from-blue-400 to-blue-600' },
  { icon: '🔬', value: 'Ridgid', label: 'Câmara Inspeção', color: 'from-orange-400 to-orange-600' },
- { icon: '🛡️', value: 'Centenas', label: 'Intervenções', color: 'from-blue-500 to-blue-700' },
- { icon: '📞', value: 'A confirmar', label: 'Chegada Bragança', color: 'from-orange-500 to-orange-700' }
+     { icon: '🛡️', value: 'Profissional', label: 'Serviço documentado', color: 'from-blue-500 to-blue-700' },
+     { icon: '📞', value: 'A confirmar', label: 'Janela de chegada', color: 'from-orange-500 to-orange-700' }
  ].map((stat, index) => (
  <div 
  key={index}
