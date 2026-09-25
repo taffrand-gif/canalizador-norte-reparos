@@ -40,8 +40,6 @@ export default function OptimizedHome() {
  <OptimizedServices />
  <StatsCounters />
 
- <CalculadorPreco />
-
  {/* Secção tabela de preços */}
  <PriceTable />
 
