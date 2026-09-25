@@ -193,18 +193,10 @@ body { margin: 0; font-family: 'Poppins', system-ui, -apple-system, sans-serif; 
 
 <body>
 <div class="zone-banner">
-<div style="font-size: 24px; margin-bottom: 10px;">
-📞 URGÊNCIA 24H? LIGUE JÁ: <a href="tel:+351928484451" style="color: white; text-decoration: none;">+351 928 484 451</a>
-</div>
-<div style="font-size: 16px; margin-top: 10px;">
-🚗 ZONA DE INTERVENÇÃO (Raio 130km):
-</div>
-<div style="font-size: 14px; margin-top: 5px;">
-Macedo • Bragança • Mirandela • Vila Real • Chaves • Vinhais • Torre de Moncorvo • Mogadouro
-</div>
-<div style="font-size: 12px; margin-top: 8px;">
-✅ Intervenção &lt; 1h | ✅ 24h/7d | ✅ Orçamento por escrito
-</div>
+<div style="font-size: 24px; margin-bottom: 10px;">INTERVENÇÃO PLANEADA: PEDIR ORÇAMENTO</div>
+<div style="font-size: 16px; margin-top: 10px;">Instalação, remodelação e trabalhos de canalização em Trás-os-Montes</div>
+<div style="font-size: 14px; margin-top: 8px;">Orçamento por escrito em 48h | Visitas com marcação | Preços transparentes</div>
+<div style="font-size: 13px; margin-top: 10px;"><a href="https://calendly.com/norte-reparos/intervencao" style="color:white;text-decoration:underline;">Marcar uma intervenção não urgente</a></div>
 </div>
 <div id="root"></div>
 <!--
@@ -240,27 +232,7 @@ Macedo • Bragança • Mirandela • Vila Real • Chaves • Vinhais • Torr
 })();
 </script>
 <script type="module" src="/src/main.tsx"></script>
-<script>
-let gtmLoaded = false;
-function loadGTM() {
-if (gtmLoaded) return;
-gtmLoaded = true;
-const script = document.createElement('script');
-script.async = true;
-script.src = 'https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H';
-document.head.appendChild(script);
-script.onload = function() {
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-VWSWFQB71H');
-};
-}
-['scroll', 'click', 'touchstart', 'mousemove'].forEach(event => {
-window.addEventListener(event, loadGTM, { once: true, passive: true });
-});
-setTimeout(loadGTM, 5000);
-</script>
+
 <script>
 window.addEventListener('error', function(event) {
 console.error('Global error caught:', event.error);
