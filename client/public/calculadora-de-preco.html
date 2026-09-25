@@ -44,36 +44,19 @@ footer{text-align:center;color:#fff;margin-top:1rem;font-size:.85rem;opacity:.9}
 
 <div class="zonas-info" style="background: #f0f9ff; border: 2px solid #2193b0; border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0;">
  <h2>💶 Quanto Custa um Serviço de Canalização? (Estimativa Rápida)</h2><p>Esta calculadora dá-lhe uma <strong>estimativa orientadora</strong> do custo de um serviço de canalização em Trás-os-Montes. O valor final é sempre confirmado por orçamento por escrito, depois de contacto telefónico e análise do problema em detalhe.</p><h2 style="color: #2193b0; margin-top: 0;">Deslocação 30 € (50 € noite/fim de semana)</h2>
- <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
- <thead>
- <tr style="background: #2193b0; color: white;">
- <th style="padding:.8rem; text-align: left;">Zona</th>
- <th style="padding:.8rem; text-align: left;">Cidades</th>
- <th style="padding:.8rem; text-align: left;">€</th>
- <th style="padding:.8rem; text-align: left;">Tempo</th>
- </tr>
- </thead>
- <tbody>
- <tr><td><strong>1</strong></td><td>Trás-os-Montes, Torre Dona Chama</td><td>15€</td><td>&lt; 30 min</td></tr>
- <tr><td><strong>2</strong></td><td>Mirandela, Vila Flor, Alfândega da Fé, Carrazeda de Ansiães</td><td>25€</td><td>&lt; 40 min</td></tr>
- <tr><td><strong>3</strong></td><td>Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta</td><td>35€</td><td>&lt; 60 min</td></tr>
- <tr><td><strong>4</strong></td><td>Miranda do Douro, VN Foz Côa, S. João Pesqueira, Murça, Valpaços</td><td>45€</td><td>45-75 min</td></tr>
- <tr><td><strong>5</strong></td><td>Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Peso da Régua, Lamego</td><td>55€</td><td>60-90 min</td></tr>
- <tr><td><strong>6</strong></td><td>Chaves, VPA, Boticas, Montalegre, Ribeira de Pena, Moimenta da Beira</td><td>65€</td><td>Sob marcação</td></tr>
- </tbody>
- </table>
+ <p><strong>Deslocação:</strong> 30 € em dias úteis das 9h às 17h; 50 € à noite (17h–9h), aos fins de semana e feriados. É um forfait único, independentemente da distância na zona de intervenção. Cada hora iniciada é devida.</p>
  <p>
  ℹ️ Os preços acima são <strong>preços de deslocação</strong>. Acrescenta a mão-de-obra (canalização 70€/h, eletricidade 70€/h).
  Para orçamento exato, <a href="https://wa.me/351928484451">contacte-nos</a>.
  </p>
 </div>
-<p>Estimativa após contacto para serviço de canalizador ou eletricista. Sem compromisso. Preços incluem IVA e deslocação na zona indicada.</p><div class="tabs"><div class="tab active" onclick="setService('canal')">💧 Canalizador</div><div class="tab" onclick="setService('elec')">⚡ Eletricista</div></div><div class="form-group"><label>Tipo de serviço</label><select id="service" onchange="calculate()"><option value="">Escolha o serviço.</option></select></div><div class="form-group"><label>Zona (distância na região de Trás-os-Montes)</label><select id="zone" onchange="calculate()"><option value="1">Deslocação 30 € (50 € noite/fim de semana)</option><option value="2">Deslocação 30 € (50 € noite/fim de semana)</option><option value="3">Deslocação 30 € (50 € noite/fim de semana)</option><option value="4">Deslocação 30 € (50 € noite/fim de semana)</option><option value="5">Deslocação 30 € (50 € noite/fim de semana)</option><option value="6">Deslocação 30 € (50 € noite/fim de semana)</option></select></div><div class="form-group"><label>Urgência</label><select id="urgency" onchange="calculate()"><option value="normal">Normal (dias úteis 8h-18h) - preço base</option><option value="noite">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option><option value="sabado">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option><option value="domingo">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option></select></div><div class="form-group"><label>Duração estimada (horas)</label><select id="hours" onchange="calculate()"><option value="1">1 hora (mínimo)</option><option value="2" selected>2 horas (típico)</option><option value="3">3 horas</option><option value="4">4 horas (meio dia)</option><option value="8">8 horas (dia completo)</option></select></div><div id="result" class="result"><div class="label">Estimativa total (IVA incluído)</div><div class="price" id="price">€0</div><a href="tel:+351928484451" class="cta" id="phone-canal">📞 Ligar 928 484 451</a><a href="tel:+351932321892" class="cta hidden" id="phone-elec">📞 Ligar 932 321 892</a><a href="https://wa.me/351928484451" class="cta" id="wa-canal">💬 WhatsApp</a><a href="https://wa.me/351932321892" class="cta hidden" id="wa-elec">💬 WhatsApp</a></div><div class="urgency-info"><strong>⚠️ Aviso:</strong> Esta é uma estimativa. O preço final é sempre comunicado por telefone antes da deslocação. Preços podem variar conforme complexidade do trabalho.
+<p>Estimativa após contacto para serviço de canalizador ou eletricista. Sem compromisso. Preços incluem IVA e deslocação na zona indicada.</p><div class="tabs"><div class="tab active" onclick="setService('canal')">💧 Canalizador</div><div class="tab" onclick="setService('elec')">⚡ Eletricista</div></div><div class="form-group"><label>Tipo de serviço</label><select id="service" onchange="calculate()"><option value="">Escolha o serviço.</option></select></div><div class="form-group"><label>Urgência</label><select id="urgency" onchange="calculate()"><option value="normal">Normal (dias úteis 9h-17h) — 70 €/hora + deslocação 30 €</option><option value="noite">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option><option value="sabado">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option><option value="domingo">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</option></select></div><div class="form-group"><label>Duração estimada (horas)</label><select id="hours" onchange="calculate()"><option value="1">1 hora (mínimo)</option><option value="2" selected>2 horas (típico)</option><option value="3">3 horas</option><option value="4">4 horas (meio dia)</option><option value="8">8 horas (dia completo)</option></select></div><div id="result" class="result"><div class="label">Estimativa total (IVA incluído)</div><div class="price" id="price">€0</div><a href="tel:+351928484451" class="cta" id="phone-canal">📞 Ligar 928 484 451</a><a href="tel:+351932321892" class="cta hidden" id="phone-elec">📞 Ligar 932 321 892</a><a href="https://wa.me/351928484451" class="cta" id="wa-canal">💬 WhatsApp</a><a href="https://wa.me/351932321892" class="cta hidden" id="wa-elec">💬 WhatsApp</a></div><div class="urgency-info"><strong>⚠️ Aviso:</strong> Esta é uma estimativa. O preço final é sempre comunicado por telefone antes da deslocação. Preços podem variar conforme complexidade do trabalho.
 </div></div><footer role="contentinfo">© 2024 Norte Reparos — Serviços profissionais — ligue 928 484 451.</footer><script>
 const SERVICES = {
  canal: {
  icon: '💧',
  base_price: 110, // min service price
- hour_price: {1: 65, 2: 65, 3: 65, 4: 65, 5: 65},
+ hour_price: {1: 70, 2: 70, 3: 70, 4: 70, 5: 70},
  items: [
  {value: '', label: 'Escolha o serviço.'},
  {value: 'desentupimento', label: 'Desentupimento (sanita, ralo, esgoto)', base: 110},
@@ -133,23 +116,13 @@ function calculate() {
  const svc = SERVICES[currentService];
  const select = document.getElementById('service');
  const selectedOption = select.options[select.selectedIndex];
- const serviceBase = parseFloat(selectedOption?.dataset?.base) || svc.base_price;
- const zone = parseInt(document.getElementById('zone').value);
- const urgency = document.getElementById('urgency').value;
- const hours = parseInt(document.getElementById('hours').value);
- // Travel
- const travelPrices = {1: 15, 2: 25, 3: 35, 4: 45, 5: 55, 6: 65};
- let hourMultiplier = (urgency === 'normal') ? 1 : 1.5;
- const travel = (travelPrices[zone] || 15) * hourMultiplier;
- const hourBase = (currentService === 'canal') ? 65 : 70;
- const hourPrice = hourBase * hourMultiplier * hours;
- const total = travel + hourPrice;
+ const serviceBase = parseFloat(selectedOption?.dataset?.base) || svc.base_price; const urgency = document.getElementById('urgency').value; const hours = parseInt(document.getElementById('hours').value); const travel = (urgency === 'normal') ? 30 : 50; const hourBase = (urgency === 'normal') ? 70 : 100; const hourPrice = hourBase * hours; const total = travel + hourPrice;
  // Show result
  const result = document.getElementById('result');
  result.classList.add('show');
  document.getElementById('price').textContent = `€${Math.round(total)}`;
  document.getElementById('breakdown').innerHTML = `
- Deslocação (Zona ${zone}): €${travel}<br>
+ Deslocação: €${travel}<br>
  ${hours}h × €${Math.round(hourBase * hourMultiplier)}/h: €${Math.round(hourPrice)}
  `;
 }
