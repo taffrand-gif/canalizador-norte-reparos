@@ -7,7 +7,6 @@ import Diagnostico from '@/components/Diagnostico';
 import OrcamentoGratuitoBadge from '@/components/OrcamentoGratuitoBadge';
 import OptimizedServices from '@/components/OptimizedServices';
 import StatsCounters from '@/components/StatsCounters';
-import CalculadorPreco from '@/components/CalculadorPreco';
 import FAQ from '@/components/FAQ';
 import FAQLocal from '@/components/FAQLocal';
 import Trabalhos from '@/components/Trabalhos';
