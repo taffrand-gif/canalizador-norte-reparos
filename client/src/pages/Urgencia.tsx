@@ -71,7 +71,7 @@ function CanalizadorUrgente() {
   "provider": {
    "@type": "LocalBusiness",
    "name": "Norte Reparos",
-   "telephone": "+351****4451",
+   "telephone": "+351928484451",
    "areaServed": "Trás-os-Montes"
   },
   "offers": {
