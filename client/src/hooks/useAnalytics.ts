@@ -19,19 +19,11 @@ export const useAnalytics = () => {
  }
  }, []);
 
- const trackPhoneClick = useCallback((phoneNumber: string) => {
- trackEvent('phone_call_click', {
- event_category: 'conversion',
- event_label: `Phone: ${phoneNumber}`,
- value: 1});
- }, [trackEvent]);
+ // Clics téléphone et WhatsApp : mesurés une seule fois par /call-tracking.js (écouteur délégué).
+ // Ces fonctions restent pour la compatibilité des composants, sans émettre d'événement.
+ const trackPhoneClick = useCallback((_phoneNumber: string) => {}, []);
 
- const trackWhatsAppClick = useCallback((source: string) => {
- trackEvent('whatsapp_click', {
- event_category: 'conversion',
- event_label: `WhatsApp: ${source}`,
- value: 1});
- }, [trackEvent]);
+ const trackWhatsAppClick = useCallback((_source: string) => {}, []);
 
  const trackQuoteCalculated = useCallback((service: string, urgency: string, price: string) => {
  trackEvent('quote_calculated', {
@@ -54,12 +46,8 @@ export const useAnalytics = () => {
  event_label: 'Exit Intent Triggered'});
  }, [trackEvent]);
 
- const trackExitPopupConversion = useCallback((action: string) => {
- trackEvent('exit_popup_conversion', {
- event_category: 'conversion',
- event_label: `Exit Popup: ${action}`,
- value: 1});
- }, [trackEvent]);
+ // Clic contact dans le popup : mesuré par /call-tracking.js (link_position = "popup"), pas de second événement.
+ const trackExitPopupConversion = useCallback((_action: string) => {}, []);
 
  const trackScrollDepth = useCallback((percentage: number) => {
  trackEvent('scroll_depth', {
