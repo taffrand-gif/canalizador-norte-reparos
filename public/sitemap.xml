@@ -3432,4 +3432,10 @@
 <url><loc>https://canalizador-norte-reparos.pt/zonas-deslocacao</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
 <url><loc>https://canalizador-norte-reparos.pt/zonas-e-precos</loc><lastmod>2026-06-23</lastmod><priority>0.85</priority></url>
 <url><loc>https://canalizador-norte-reparos.pt/zonas</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
+ <url>
+ <loc>https://canalizador-norte-reparos.pt/canalizacao-mirandela</loc>
+ <lastmod>2026-10-01</lastmod>
+ <priority>0.8</priority>
+ <changefreq>monthly</changefreq>
+ </url>
 </urlset>

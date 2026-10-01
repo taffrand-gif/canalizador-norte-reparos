@@ -14,7 +14,8 @@
   "optimize-images": "node scripts/optimize-images.js",
   "sync-client-sitemap": "node scripts/sync-client-sitemap.mjs",
   "lint:sitemap-parity": "node scripts/lint-sitemap-parity.mjs",
-  "prebuild": "npm run optimize-images && npm run sync-client-sitemap"
+  "prebuild": "node scripts/prerender-piliers-cnr.mjs && node scripts/curate-piliers-cnr-sitemap.mjs && npm run optimize-images && npm run sync-client-sitemap",
+  "prerender:piliers": "node scripts/prerender-piliers-cnr.mjs"
  },
  "dependencies": {
  "@hookform/resolvers": "^5.2.2",
