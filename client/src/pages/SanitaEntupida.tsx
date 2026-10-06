@@ -39,6 +39,22 @@ const faqItems = [
     answer:
       'Contacte um canalizador quando a água ameaça transbordar, há refluxo noutros ralos, existe cheiro intenso a esgoto, caiu um objeto na sanita, o entupimento é recorrente ou a ventosa não resolveu. A nossa equipa confirma o atendimento por telefone e apresenta orçamento por escrito antes do trabalho.',
   },
+  {
+    question: "A ventosa não resolve a sanita entupida, o que fazer a seguir?",
+    answer: "Pare as tentativas para não empurrar a obstrução mais fundo. Se houver um objeto sólido visível (brinquedo, escova, tampa) não force a descarga. Feche a torneira de alimentação da sanita junto à parede, proteja o chão e contacte a nossa equipa.",
+  },
+  {
+    question: "Qual a diferença entre sanita entupida e esgoto entupido?",
+    answer: "Sanita entupida: bloqueio localizado na sanita ou no sifão, afecta apenas este aparelho. Esgoto entupido: bloqueio na coluna principal ou ramal exterior, afecta várias sanitas, ralos e lava-loiças ao mesmo tempo. O refluxo noutros pontos ou caixas de visita a transbordar são sinais claros de problema no esgoto, não na sanita.",
+  },
+  {
+    question: "Como desentupir sanita entupida com toalhitas?",
+    answer: "Toalhitas (mesmo as «biodegradáveis») formam nós compactos que não se dissolvem como papel higiénico. Não use ventosa — empurra o nó mais fundo. Ligue 928 484 451.",
+  },
+  {
+    question: "Sanita entupida por brinquedo ou objeto sólido, é grave?",
+    answer: "Pode ser. Objetos sólidos (brinquedos, escovas, tampas) podem ficar presos na curva do sifão e exigir remoção mecânica ou desmontagem parcial da sanita. Não puxe o autoclismo — a pressão pode empurrar o objeto para a coluna, agravando o problema. Contacte a nossa equipa: 928 484 451. Orçamento por escrito antes da intervenção.",
+  },
 ];
 
 const faqSchema = {
@@ -418,7 +434,17 @@ export default function SanitaEntupida() {
                 <h3 className="mb-3 text-xl font-bold text-gray-900">{faqItems[6].question}</h3>
                 <p className="text-gray-700">{faqItems[6].answer}</p>
               </article>
+              {faqItems.slice(7).map((item) => (
+                <article key={item.question} className="rounded-xl border border-gray-200 bg-white p-6">
+                  <h3 className="mb-3 text-xl font-bold text-gray-900">{item.question}</h3>
+                  <p className="text-gray-700">{item.answer}</p>
+                </article>
+              ))}
             </div>
+            <p className="mt-8 text-gray-700">
+              Veja também: <a href="/blog/esgoto-exterior-entupido" className="underline">esgoto exterior entupido</a> ·{' '}
+              <a href="/blog/como-desentupir-lava-loica" className="underline">como desentupir o lava-loiça</a>.
+            </p>
           </div>
         </section>
         <section className="bg-blue-800 py-14 text-white">
