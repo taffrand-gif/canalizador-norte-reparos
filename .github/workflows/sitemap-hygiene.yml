@@ -21,7 +21,7 @@ jobs:
           node scripts/curate-piliers-cnr-sitemap.mjs
           node scripts/sync-client-sitemap.mjs
       - name: Garde-fou sitemap (warning)
-        run: node .github/norte-guard/check-sitemap-hygiene.mjs --site CNR --json sitemap-hygiene-report.json
+        run: node .github/norte-guard/check-sitemap-hygiene.mjs --site CNR --json sitemap-hygiene-report.json || echo "::warning title=sitemap-hygiene::violations relevées (mode warning, non bloquant) — voir le rapport JSON"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
