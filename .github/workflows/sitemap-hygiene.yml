@@ -1,0 +1,30 @@
+name: Sitemap hygiene (warning)
+
+# Mode AVERTISSEMENT : ne bloque jamais le merge (continue-on-error).
+# Exécute d'abord les étapes sitemap réelles de la chaîne de build (prebuild : curate puis sync),
+# puis vérifie le résultat : URL noindex, redirigée, slug accentué, ou sans fichier source.
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  sitemap-hygiene:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Générateur actif (étapes sitemap de prebuild)
+        run: |
+          node scripts/curate-piliers-cnr-sitemap.mjs
+          node scripts/sync-client-sitemap.mjs
+      - name: Garde-fou sitemap (warning)
+        run: node .github/norte-guard/check-sitemap-hygiene.mjs --site CNR --json sitemap-hygiene-report.json || echo "::warning title=sitemap-hygiene::violations relevées (mode warning, non bloquant) — voir le rapport JSON"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sitemap-hygiene-report
+          path: sitemap-hygiene-report.json
+          if-no-files-found: ignore
