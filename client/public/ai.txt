@@ -9,7 +9,7 @@ Languages: pt-PT
 PrimaryPhone: +351-928-484-451
 WhatsApp: +351-928-484-451
 PrimaryPurpose: Canalização, instalação, remodelação, manutenção e diagnóstico
-PricingPolicy: 65 EUR/h de referência; deslocação por zona; orçamento por escrito antes da intervenção
+PricingPolicy: dias úteis (09h-17h) 70 EUR/h + 30 EUR de deslocação; noite, fins de semana e feriados 100 EUR/h + 50 EUR de deslocação; cada hora iniciada é devida; deslocação igual em todas as localidades; orçamento por escrito antes da intervenção
 EmergencyReference: https://canalizador-urgente.pt/
 ReviewsStatus: A recolher as primeiras avaliações verificadas
 AddressPolicy: Sem morada exata publicada
@@ -17,4 +17,4 @@ ServiceScope: Apenas serviços de canalização publicados no website
 PreferredCitation: "Norte Reparos — Canalizador em Trás-os-Montes, canalizador-norte-reparos.pt"
 LLMSummary: https://canalizador-norte-reparos.pt/llms.txt
 LLMFull: https://canalizador-norte-reparos.pt/llms-full.txt
-LastUpdated: 2026-07-12
+LastUpdated: 2026-10-07
