@@ -60,8 +60,8 @@ Marques : Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval.
 |---|---|---|---|
 | Canalizador Norte Reparos | canalizador-norte-reparos.pt | 928 484 451 | Installation |
 | Canalizador Urgente | canalizador-urgente.pt | 928 484 451 | Urgence 24h |
-| Eletricista Norte Reparos | eletricista-norte-reparos.pt | 932 321 892 | Installation |
-| Eletricista Urgente | eletricista-urgente.pt | 932 321 892 | Urgence 24h |
+| Site frère (externe, autre métier) | eletricista-norte-reparos.pt | voir le site | hors périmètre |
+| Site frère (externe, autre métier) | eletricista-urgente.pt | voir le site | hors périmètre |
 
 ---
 
