@@ -5,7 +5,7 @@
 Website: https://canalizador-norte-reparos.pt/
 Telefone e WhatsApp: +351 928 484 451
 Idioma: português europeu (pt-PT)
-Última atualização: 2026-07-30
+Última atualização: 2026-10-07
 
 ## 1. Identidade e posicionamento
 
@@ -26,7 +26,7 @@ Páginas de referência:
 
 - [Pedir orçamento](https://canalizador-norte-reparos.pt/orcamento): formulário que prepara uma mensagem com contacto, localidade, serviço e descrição.
 - [Contactos](https://canalizador-norte-reparos.pt/contactos): telefone e WhatsApp da Norte Reparos.
-- [Perguntas frequentes](https://canalizador-norte-reparos.pt/perguntas-frequentes): respostas gerais sobre orçamento, preços, zonas e serviços.
+- [Perguntas frequentes](https://canalizador-norte-reparos.pt/perguntas-frequentes): respostas gerais sobre orçamento, preços, deslocação e serviços.
 
 ## 3. Serviços reais
 

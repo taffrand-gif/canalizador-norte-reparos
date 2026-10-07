@@ -5,7 +5,7 @@
 Site oficial: https://canalizador-norte-reparos.pt/
 Telefone e WhatsApp: +351 928 484 451
 Idioma: português europeu (pt-PT)
-Última atualização: 2026-07-30
+Última atualização: 2026-10-07
 
 ## Informação essencial
 
@@ -16,7 +16,7 @@ Idioma: português europeu (pt-PT)
 - Preços publicados: dias úteis (09h–17h) 70 €/h de mão de obra + 30 € de deslocação; noite, fins de semana e feriados 100 €/h + 50 € de deslocação; cada hora iniciada é devida; deslocação igual em todas as localidades
 - Urgências: consultar o domínio dedicado https://canalizador-urgente.pt/
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Transparência de preços (regra oficial)
 
 | Período | Mão de obra | Deslocação |
 |---|---|---|
@@ -35,7 +35,7 @@ Idioma: português europeu (pt-PT)
 - [Pedir orçamento](https://canalizador-norte-reparos.pt/orcamento): formulário e contacto por WhatsApp para descrever o trabalho e pedir proposta escrita.
 - [Contactos](https://canalizador-norte-reparos.pt/contactos): telefone, WhatsApp e canais de contacto da Norte Reparos.
 - [Sobre a Norte Reparos](https://canalizador-norte-reparos.pt/sobre): apresentação da empresa, da equipa e da cobertura regional.
-- [Zona de intervenção](https://canalizador-norte-reparos.pt/zona-intervencao): localidades e organização da cobertura por zonas.
+- [Zona de intervenção](https://canalizador-norte-reparos.pt/zona-intervencao): localidades e concelhos cobertos.
 - [Perguntas frequentes](https://canalizador-norte-reparos.pt/perguntas-frequentes): respostas sobre serviços, orçamento, deslocação e contacto.
 - [Avaliações de clientes](https://canalizador-norte-reparos.pt/avaliacoes-clientes): página transparente; as primeiras avaliações verificadas ainda estão a ser recolhidas.
 
