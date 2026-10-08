@@ -30,7 +30,7 @@ const servicesStaff: ServicePrice[] = [
  { id: 'diagnostico', label: 'Diagnóstico Pane', priceMin: 80, priceMax: 120, nightMultiplier: 100 / 70 }
 ];
 // Zonas de deslocação (idênticas para os 2 sites)
-// Grelha única 2026-09-23 : deslocação 30€ (dias úteis 9h–17h) / 50€ (noite, fins de semana, feriados)
+// Grelha única 2026-09-23 : deslocação 30€ (dias úteis 9h–18h) / 50€ (noite, fins de semana, feriados)
 const TRAVEL_DAY = 30;
 const TRAVEL_NIGHT = 50;
 function PriceCalculatorWidget() {
@@ -133,7 +133,7 @@ function PriceCalculatorWidget() {
  }}
  aria-pressed={urgency === 'normal'}
  >
- Dias úteis 9h–17h
+ Dias úteis 9h–18h
  </button>
  <button
  onClick={() => setUrgency('urgent')}

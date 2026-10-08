@@ -6,7 +6,7 @@ CNR est le site plomberie `canalizador-norte-reparos.pt`. Ce fichier ne redéfin
 
 ## Tarif actif
 
-- **Jours ouvrés, 09:00–17:00 : 70 €/h + 30 € de déplacement.**
+- **Jours ouvrés, 09:00–18:00 : 70 €/h + 30 € de déplacement.**
 - **Nuit 17:00–09:00, week-ends et jours fériés : 100 €/h + 50 € de déplacement.**
 - Toute heure entamée est due.
 - Un devis écrit précède l’intervention.
