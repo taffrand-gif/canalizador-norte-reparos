@@ -8,8 +8,9 @@ Region: Trás-os-Montes
 Languages: pt-PT
 PrimaryPhone: +351-928-484-451
 WhatsApp: +351-928-484-451
+Arrival: A janela de chegada é confirmada por telefone e depende da situação operacional.
 PrimaryPurpose: Canalização, instalação, remodelação, manutenção e diagnóstico
-PricingPolicy: dias úteis (09h-17h) 70 EUR/h + 30 EUR de deslocação; noite, fins de semana e feriados 100 EUR/h + 50 EUR de deslocação; cada hora iniciada é devida; deslocação igual em todas as localidades; orçamento por escrito antes da intervenção
+PricingPolicy: dias úteis (09h-18h) 70 EUR/h + 30 EUR de deslocação; após as 18h, noite, fins de semana e feriados 100 EUR/h + 50 EUR de deslocação; valores TTC; toda a hora iniciada é devida; sem orçamento gratuito quando a deslocação é necessária; estimativa à distância indicativa, não definitiva
 EmergencyReference: https://canalizador-urgente.pt/
 ReviewsStatus: A recolher as primeiras avaliações verificadas
 AddressPolicy: Sem morada exata publicada

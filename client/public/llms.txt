@@ -13,20 +13,20 @@ Idioma: português europeu (pt-PT)
 - Atividade: serviços de canalização em Trás-os-Montes
 - Área de intervenção: concelhos dos distritos de Bragança e Vila Real e zonas abrangidas pelo site
 - Processo comercial: diagnóstico quando necessário e orçamento por escrito antes do início do trabalho
-- Preços publicados: dias úteis (09h–17h) 70 €/h de mão de obra + 30 € de deslocação; noite, fins de semana e feriados 100 €/h + 50 € de deslocação; cada hora iniciada é devida; deslocação igual em todas as localidades
+- Preços publicados: dias úteis (09h–18h) 70 €/h de mão de obra + 30 € de deslocação; após as 18h, noite, fins de semana e feriados 100 €/h + 50 € de deslocação; valores TTC; toda a hora iniciada é devida
 - Urgências: consultar o domínio dedicado https://canalizador-urgente.pt/
 
 ## Transparência de preços (regra oficial)
 
 | Período | Mão de obra | Deslocação |
 |---|---|---|
-| Dias úteis, 09h–17h | **70 €/h** | **30 €** |
-| Noite (17h–09h), fins de semana e feriados | **100 €/h** | **50 €** |
+| Dias úteis, 09h–18h | **70 €/h** | **30 €** |
+| Após as 18h, noite, fins de semana e feriados | **100 €/h** | **50 €** |
 
-- Cada hora iniciada é devida ; a deslocação é igual em todas as localidades
+- Valores TTC. Toda a hora iniciada é devida; a deslocação é devida sempre que há deslocação. Não há orçamento gratuito quando a deslocação é necessária. Uma estimativa à distância (descrição detalhada e fotos) é indicativa e não definitiva; cada situação é diferente e pode demorar mais ou menos tempo.
+- A janela de chegada é confirmada por telefone e depende da situação operacional.
 - **Orçamento por escrito** antes de qualquer intervenção, sem surpresas
 - **Fatura** com NIF emitida no final de cada trabalho
-- **Seguro** de responsabilidade civil profissional
 
 ## Páginas principais
 
@@ -52,7 +52,6 @@ Idioma: português europeu (pt-PT)
 
 - [Ridgid FlexShaft K9-102](https://canalizador-norte-reparos.pt/tecnologia-ridgid-k9-102-desentupimento): equipamento mecânico para desentupimento de tubagens.
 - [Câmara térmica FLIR](https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas): apoio à localização não invasiva de fugas ocultas.
-- [ROLeak Aqua 3Plus](https://canalizador-norte-reparos.pt/tecnologia-roleak-acustica): deteção acústica de fugas em tubagens.
 
 ## Principais páginas locais
 

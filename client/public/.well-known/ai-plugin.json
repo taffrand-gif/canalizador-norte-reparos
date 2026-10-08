@@ -2,16 +2,16 @@
  "schema_version": "v1",
  "name_for_human": "Norte Reparos — Canalizador Profissional",
  "name_for_model": "norte_reparos_canalizador",
- "description_for_human": "Canalizador profissional em Trás-os-Montes. Urgências 24h, resposta 40min, equipamento Ridgid, certificado. Desentupimentos, fugas, instalações.",
- "description_for_model": "Professional plumbing service in Trás-os-Montes, Portugal. Atendimento 24h/7d emergency service, 40-minute response time, Ridgid equipment, certified. Services: unclogging, leak detection and repair, water heater installation, bathroom installation, new plumbing, preventive maintenance. Coverage: 86 cities including Bragança, Vila Real, Chaves, Mirandela, Trás-os-Montes. Contact: +351 928 484 451, WhatsApp available. Pricing: €45-150 depending on service and zone.",
+ "description_for_human": "Canalizador profissional em Trás-os-Montes. Urgências, desentupimentos, fugas e instalações. Orçamento por escrito antes de qualquer intervenção.",
+ "description_for_model": "Professional plumbing service in Trás-os-Montes, Portugal, ~130 km radius around Macedo de Cavaleiros. Services: unclogging, leak detection and repair, water heater installation, bathroom installation, new plumbing, preventive maintenance. Pricing: dias úteis 09h–18h: 70 €/h de mão de obra + 30 € de deslocação; noite, fins de semana e feriados: 100 €/h + 50 € de deslocação; valores com IVA incluído; cada hora iniciada é devida; deslocação igual em todas as localidades; orçamento por escrito antes da intervenção. Arrival window is confirmed by phone and depends on operational situation. Contact: +351 928 484 451 (telemóvel e WhatsApp).",
  "auth": {
- "type": "none"
+  "type": "none"
  },
  "api": {
- "type": "openapi",
- "url": "https://canalizador-norte-reparos.pt/openapi.yaml"
+  "type": "openapi",
+  "url": "https://canalizador-norte-reparos.pt/openapi.yaml"
  },
- "logo_url": "https://canalizador-norte-reparos.pt/logo-512.png",
+ "logo_url": "https://canalizador-norte-reparos.pt/favicon.svg",
  "contact_email": "contacto@canalizador-norte-reparos.pt",
- "legal_info_url": "https://canalizador-norte-reparos.pt/legal"
+ "legal_info_url": "https://canalizador-norte-reparos.pt/termos-condicoes.html"
 }
