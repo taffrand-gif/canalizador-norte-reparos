@@ -133,7 +133,7 @@ function trackingFragments() {
 }
 
 function priceTable() {
-  return `<section class="card" aria-labelledby="precos"><h2 id="precos">Preços de deslocação e mão de obra</h2><table><thead><tr><th>Período</th><th>Mão de obra</th><th>Deslocação</th></tr></thead><tbody><tr><td>Dias úteis, 09:00–17:00</td><td>70 €/hora</td><td>30 €</td></tr><tr><td>Noite, fins de semana e feriados</td><td>100 €/hora</td><td>50 €</td></tr></tbody></table><p>A hora começada é devida. O orçamento por escrito é confirmado antes de qualquer intervenção.</p></section>`;
+  return `<section class="card" aria-labelledby="precos"><h2 id="precos">Preços de deslocação e mão de obra</h2><table><thead><tr><th>Período</th><th>Mão de obra</th><th>Deslocação</th></tr></thead><tbody><tr><td>Dias úteis, 09:00–18:00</td><td>70 €/hora</td><td>30 €</td></tr><tr><td>Noite, fins de semana e feriados</td><td>100 €/hora</td><td>50 €</td></tr></tbody></table><p>A hora começada é devida. O orçamento por escrito é confirmado antes de qualquer intervenção.</p></section>`;
 }
 
 function render(page, tracking) {

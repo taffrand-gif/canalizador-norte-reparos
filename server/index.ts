@@ -71,7 +71,7 @@ async function startServer() {
  },
  "/precos-canalizador": {
  title: "Preços Canalizador | Norte Reparos - Tabela Trás-os-Montes",
- description: "Tabela de preços do canalizador em Trás-os-Montes. 70€/h + deslocação 30€ em dias úteis (9h–17h); 100€/h + deslocação 50€ à noite, fins de semana e feriados.",
+ description: "Tabela de preços do canalizador em Trás-os-Montes. 70€/h + deslocação 30€ em dias úteis (9h–18h); 100€/h + deslocação 50€ à noite, fins de semana e feriados.",
  canonical: "https://canalizador-norte-reparos.pt/precos-canalizador"
  },
  "/areas-atuacao": {
