@@ -105,7 +105,7 @@ export default function PriceTable() {
 <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
  <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
  <ul className="space-y-1 text-blue-800 text-sm">
- <li className="flex justify-between"><span>Deslocação (dias úteis 9h–17h):</span> <span>30€</span></li>
+ <li className="flex justify-between"><span>Deslocação (dias úteis 9h–18h):</span> <span>30€</span></li>
  <li className="flex justify-between"><span>Desentupimento simples (1-2h a 70€/h):</span> <span>70€ - 140€</span></li>
  </ul>
  <p className="text-xs text-blue-700 mt-2 italic">* Preço exato confirmado ao telefone antes de sair.</p>
@@ -116,7 +116,7 @@ export default function PriceTable() {
  <li className="flex justify-between"><span>Deslocação (fim de semana):</span> <span>50€</span></li>
  <li className="flex justify-between"><span>Intervenção Urgência (1-2h a 100€/h):</span> <span>100€ - 200€</span></li>
  </ul>
- <p className="text-xs text-amber-700 mt-2 italic">Noite (17h–9h), fins de semana e feriados: 100€/h + deslocação 50€. Cada hora começada é devida. Preço anunciado ao telefone ANTES de sair.</p>
+ <p className="text-xs text-amber-700 mt-2 italic">Noite (18h–9h), fins de semana e feriados: 100€/h + deslocação 50€. Cada hora começada é devida. Preço anunciado ao telefone ANTES de sair.</p>
  </div>
  </div>
  <div className="mt-8 bg-gray-900 text-white p-6 rounded-lg text-center">

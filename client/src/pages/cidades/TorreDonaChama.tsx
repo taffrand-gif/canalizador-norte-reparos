@@ -19,7 +19,7 @@ export default function TorreDonaChama() {
     },
     {
       question: "Fazem urgências de canalizações 24h em Torre de Dona Chama?",
-      answer: "Sim, atendemos urgências de fugas de água e desentupimentos 24h por dia, 7 dias por semana em Torre de Dona Chama. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Ligue 928 484 451 para atendimento imediato."
+      answer: "Sim, atendemos urgências de fugas de água e desentupimentos 24h por dia, 7 dias por semana em Torre de Dona Chama. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Ligue 928 484 451 para atendimento imediato."
     },
     {
       question: "Fazem desentupimentos em Torre de Dona Chama?",
@@ -27,7 +27,7 @@ export default function TorreDonaChama() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Torre de Dona Chama?",
-      answer: "Sim, atendemos fugas de água em Torre de Dona Chama 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
+      answer: "Sim, atendemos fugas de água em Torre de Dona Chama 24h, incluindo fins de semana e feriados. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
     },
     {
       question: "Que zonas cobrem a partir de Torre de Dona Chama?",
