@@ -20,7 +20,7 @@ function CanalizadorUrgente() {
     "name": "Como funciona o serviço de canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
+     "text": "A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, confirmamos orçamento por escrito antes de intervir. Pagamento após a intervenção, fatura com NIF."
     }
    },
    {
@@ -28,7 +28,7 @@ function CanalizadorUrgente() {
     "name": "Quanto custa um canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Mão de obra 70€/hora, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
+     "text": "Mão de obra 70€/hora, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
     }
    },
    {
@@ -63,7 +63,7 @@ function CanalizadorUrgente() {
   "@type": "Service",
   "name": "Canalizador urgente em Trás-os-Montes",
   "serviceType": "Canalizador urgente 24h",
-  "description": "Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Mão de obra 70€/hora.",
+  "description": "Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado — A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção. Mão de obra 70€/hora.",
   "areaServed": {
    "@type": "AdministrativeArea",
    "name": "Trás-os-Montes"
@@ -86,7 +86,7 @@ function CanalizadorUrgente() {
  <>
  <Helmet>
  <title>Canalizador urgente em Trás-os-Montes — 70€/h · Norte Reparos</title>
- <meta name="description" content="Canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Orçamento por escrito antes da intervenção, deslocação (30 €) + 70€/h. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Ligue 928 484 451." />
+ <meta name="description" content="Canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Orçamento por escrito antes da intervenção, deslocação (30 €) + 70€/h. À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Ligue 928 484 451." />
  <link rel="canonical" href={canonical} />
  <meta property="og:title" content="Canalizador urgente em Trás-os-Montes — Norte Reparos" />
  <meta property="og:description" content="Serviço de canalizador urgente em Trás-os-Montes. Fuga de água, desentupimento ou cano rebentado. Ligue 928 484 451." />
@@ -108,7 +108,7 @@ function CanalizadorUrgente() {
  em Trás-os-Montes
  </h1>
  <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto">
- <strong>Fuga de água</strong>, <strong>desentupimento</strong> ou <strong>cano rebentado</strong> — orçamento por escrito antes da intervenção. Mão de obra 70€/h, deslocação. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
+ <strong>Fuga de água</strong>, <strong>desentupimento</strong> ou <strong>cano rebentado</strong> — orçamento por escrito antes da intervenção. Mão de obra 70€/h, deslocação. À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
@@ -276,11 +276,11 @@ function CanalizadorUrgente() {
  </tr>
  </thead>
  <tbody>
- <tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Dias úteis (9h–17h)</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Noite (17h–9h), fins de semana e feriados</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 50 € · 100 €/hora</td></tr></tbody>
+ <tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Dias úteis (9h–18h)</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-200"><td className="py-3 px-4 font-bold">Noite (18h–9h), fins de semana e feriados</td><td className="py-3 px-4">Qualquer localidade servida</td><td className="py-3 px-4 text-right font-bold">Deslocação 50 € · 100 €/hora</td></tr></tbody>
  </table>
  </div>
  <p className="text-sm text-gray-600 mt-4">
- Mão de obra: <strong>70 €/h</strong> · Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
+ Mão de obra: <strong>70 €/h</strong> · Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
  </div>
  <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-200">
@@ -376,13 +376,13 @@ function CanalizadorUrgente() {
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Como funciona o serviço?</h3>
  <p className="text-gray-700">
- A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, orçamento por escrito antes de intervir. Fatura com NIF após a intervenção.
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Comunicamos o preço antes de sair. No local, orçamento por escrito antes de intervir. Fatura com NIF após a intervenção.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Quanto custa?</h3>
  <p className="text-gray-700">
- Mão de obra <strong>70€/h</strong>, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
+ Mão de obra <strong>70€/h</strong>, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">
@@ -414,7 +414,7 @@ function CanalizadorUrgente() {
  Precisa de <strong>canalizador urgente</strong>?
  </h2>
  <p className="text-xl md:text-2xl mb-8">
- A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito no local.
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito no local.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
  <a
