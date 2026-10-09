@@ -143,8 +143,8 @@ export default function Cerva() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Cerva" />
-          <RelatedCities currentCity="Cerva" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Cerva" />
+          <RelatedCities currentCity="Cerva" currentCitySlug="canalizador-cerva" />
         </div>
       </main>
       <Footer />

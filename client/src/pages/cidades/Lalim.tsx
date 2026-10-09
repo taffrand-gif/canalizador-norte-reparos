@@ -143,8 +143,8 @@ export default function Lalim() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Lalim" />
-          <RelatedCities currentCity="Lalim" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Lalim" />
+          <RelatedCities currentCity="Lalim" currentCitySlug="canalizador-lalim" />
         </div>
       </main>
       <Footer />
