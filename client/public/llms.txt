@@ -42,7 +42,7 @@ Idioma: português europeu (pt-PT)
 ## Serviços
 
 - [Desentupimentos profissionais](https://canalizador-norte-reparos.pt/desentupimentos-profissionais-tras-os-montes): desobstrução mecânica de sanitas, ralos, esgotos e tubagens, com inspeção quando necessária.
-- [Deteção e reparação de fugas](https://canalizador-norte-reparos.pt/detecao-fugas-agua): localização de fugas com diagnóstico térmico ou acústico e reparação localizada.
+- [Deteção e reparação de fugas](https://canalizador-norte-reparos.pt/detecao-fugas-agua): localização de fugas com diagnóstico prévio no local e reparação localizada.
 - [Instalação de casa de banho](https://canalizador-norte-reparos.pt/instalacao-casa-banho-completa): instalação sanitária e canalização para casas de banho.
 - [Canalização nova](https://canalizador-norte-reparos.pt/canalizacao-nova-construcao): redes de água e esgoto para construção e remodelação.
 - [Manutenção preventiva](https://canalizador-norte-reparos.pt/manutencao-preventiva-canalizacao): inspeção da rede, pressão, válvulas, tubagens e pontos de consumo.
@@ -51,7 +51,6 @@ Idioma: português europeu (pt-PT)
 ## Equipamento documentado
 
 - [Ridgid FlexShaft K9-102](https://canalizador-norte-reparos.pt/tecnologia-ridgid-k9-102-desentupimento): equipamento mecânico para desentupimento de tubagens.
-- [Câmara térmica FLIR](https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas): apoio à localização não invasiva de fugas ocultas.
 
 ## Principais páginas locais
 

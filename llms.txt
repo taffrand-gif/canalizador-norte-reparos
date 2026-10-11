@@ -27,7 +27,7 @@ A Norte Reparos é uma empresa técnica profissional que atua na região de Trá
 - Preparação da canalização para o inverno
 
 ## Serviços programados
-- Orçamento detalhado em 48h
+- Orçamento por escrito antes de qualquer intervenção
 - Garantia por escrito (mão de obra e materiais)
 - Fatura com NIF emitida no final de cada trabalho
 - Relatório técnico disponível para seguradoras
@@ -38,10 +38,6 @@ Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhai
 
 ## Equipamento profissional
 - Ridgid FlexShaft K9-102 (desentupimento mecânico industrial)
-- Câmara de inspeção CCTV
-- Câmara térmica FLIR
-- ROLeak Aqua 3Plus (deteção acústica de fugas)
-- Kit fluorosceína UV
 
 ## Marcas de materiais (verídicas)
 Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval
@@ -49,7 +45,7 @@ Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval
 ## Perguntas frequentes
 
 **Como funciona o orçamento?**
-Sim, orçamento por escrito em 48h sem compromisso.
+Sim, orçamento por escrito antes de qualquer intervenção.
 
 **Qual é o prazo de garantia?**
 Garantia por escrito, conforme âmbito dos trabalhos. Detalhes no orçamento.

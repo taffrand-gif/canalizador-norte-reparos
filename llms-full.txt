@@ -22,7 +22,6 @@
 |---|---|---|
 | Intent | Installation / remodelação / certificação | Urgence 24h |
 | Disponibilité | Horaire ouvré | 24h/7d |
-| Délai | Devis 48h | Intervention immédiate |
 | Garantie | Par écrit | Par écrit |
 
 Les deux sites partagent le NAP et la maison-mère (Norte Reparos) mais ciblent des **intentions distinctes** pour occuper 2 slots organiques sur Google.
@@ -48,7 +47,7 @@ Les deux sites partagent le NAP et la maison-mère (Norte Reparos) mais ciblent 
 
 ## 4. Équipement et marques
 
-Équipement professionnel identique au site urgence : Ridgid FlexShaft K9-102, câmara CCTV, câmara térmica FLIR, ROLeak Aqua 3Plus, kit fluorosceína UV.
+Équipement : Ridgid FlexShaft K9-102 (désobstruction mécanique).
 
 Marques : Sanitana, Grohe, Roca, Vaillant, Bosch, Junkers, Saunier Duval.
 
