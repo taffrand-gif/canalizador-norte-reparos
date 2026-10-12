@@ -23,7 +23,7 @@ export default function Cumieira() {
     },
     {
       question: "Fazem desentupimentos em Cumieira?",
-      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Cumieira. Somos especialistas em habitações rurais e quintas com fossas sépticas e sistemas de captação de água de nascente. Orçamento por escrito antes de qualquer trabalho."
+      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Cumieira. Somos especialistas em habitações rurais e quintas com sistemas de captação de água de nascente. Orçamento por escrito antes de qualquer trabalho."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Cumieira?",
@@ -98,7 +98,7 @@ export default function Cumieira() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 mb-10 text-center">Serviços em <span className="text-blue-600">Cumieira</span></h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🚰</div><h3 className="text-xl font-bold text-gray-900 mb-3">Desentupimentos</h3><p className="text-gray-600 mb-4">Especialistas em habitações rurais e quintas com fossas sépticas e sistemas de captação de água de nascente.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Esgotos interiores e exteriores</li><li>✓ Sanitas e lavatórios</li><li>✓ Alta pressão e sonda mecânica</li><li>✓ Fossas sépticas</li></ul></div>
+              <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🚰</div><h3 className="text-xl font-bold text-gray-900 mb-3">Desentupimentos</h3><p className="text-gray-600 mb-4">Especialistas em habitações rurais e quintas com sistemas de captação de água de nascente.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Esgotos interiores e exteriores</li><li>✓ Sanitas e lavatórios</li><li>✓ Alta pressão e sonda mecânica</li></ul></div>
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">💧</div><h3 className="text-xl font-bold text-gray-900 mb-3">Fugas de Água 24h</h3><p className="text-gray-600 mb-4">Deteção sem destruição desnecessária.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Fugas em paredes e pavimentos</li><li>✓ Tubagens PEX e PVC</li><li>✓ Urgências 24h/7 dias</li><li>✓ Garantia 12 meses</li></ul></div>
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100"><div className="text-3xl mb-4">🏡</div><h3 className="text-xl font-bold text-gray-900 mb-3">Instalações Sanitárias</h3><p className="text-gray-600 mb-4">Casas de banho, cozinhas e esquentadores.</p><ul className="space-y-1 text-sm text-gray-500"><li>✓ Substituição de tubagens antigas</li><li>✓ Esquentadores e termoacumuladores</li><li>✓ Orçamento por escrito</li><li>✓ Garantia 12 meses</li></ul></div>
             </div>
@@ -109,7 +109,7 @@ export default function Cumieira() {
           <div className="container mx-auto px-4"><div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Cumieira e arredores</h2>
-              <p className="text-gray-600 mb-4">Cumieira é uma freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Conhecemos bem as particularidades hidráulicas: habitações rurais e quintas com fossas sépticas e sistemas de captação de água de nascente.</p>
+              <p className="text-gray-600 mb-4">Cumieira é uma freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Conhecemos bem as particularidades hidráulicas: habitações rurais e quintas com sistemas de captação de água de nascente.</p>
               <p className="text-gray-600 mb-4">Cobrimos Cumieira e toda a área de Santa Marta de Penaguião. Deslocação 30€. Mão de obra 70€/h. Orçamento por escrito.</p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100">

@@ -185,11 +185,6 @@ export default function CheiroMauCanalizacao() {
  title: 'Gordura Acumulada',
  desc: 'Gordura solidificada nos canos. Bactérias proliferam. Solução: limpeza química.',
  icon: '🧪'
- },
- {
- title: 'Fossa Séptica Cheia',
- desc: 'Fossa precisa limpeza. Gases voltam pelos canos. Solução: limpar fossa.',
- icon: '🚨'
  }
  ].map((cause, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

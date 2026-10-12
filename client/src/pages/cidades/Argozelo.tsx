@@ -23,7 +23,7 @@ export default function Argozelo() {
     },
     {
       question: "Fazem desentupimentos em Argozelo?",
-      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Argozelo. Somos especialistas em casas raianas com fossas sépticas e sistemas de captação de água de nascente. Usamos máquinas de alta pressão. Orçamento por escrito antes de qualquer trabalho."
+      answer: "Sim, fazemos desentupimentos de esgotos, lavatórios, sanitas e ralos em Argozelo. Somos especialistas em casas raianas com sistemas de captação de água de nascente. Usamos máquinas de alta pressão. Orçamento por escrito antes de qualquer trabalho."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Argozelo?",
@@ -154,7 +154,7 @@ export default function Argozelo() {
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
                 <div className="text-3xl mb-4">🚰</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Desentupimentos</h3>
-                <p className="text-gray-600 mb-4">Esgotos, lavatórios, sanitas e ralos. Especialistas em casas raianas com fossas sépticas e sistemas de captação de água de nascente.</p>
+                <p className="text-gray-600 mb-4">Esgotos, lavatórios, sanitas e ralos. Especialistas em casas raianas com sistemas de captação de água de nascente.</p>
                 <ul className="space-y-1 text-sm text-gray-500">
                   <li>✓ Esgotos interiores e exteriores</li>
                   <li>✓ Sanitas e lavatórios</li>
@@ -193,7 +193,7 @@ export default function Argozelo() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Canalizador em Argozelo e arredores</h2>
-                <p className="text-gray-600 mb-4">Argozelo é uma aldeia transmontana do concelho de Vimioso, com tradição agrícola e casas de granito raianas. Conhecemos bem as particularidades hidráulicas desta zona: casas raianas com fossas sépticas e sistemas de captação de água de nascente, calcário nas canalizações e sistemas de drenagem que necessitam de manutenção regular.</p>
+                <p className="text-gray-600 mb-4">Argozelo é uma aldeia transmontana do concelho de Vimioso, com tradição agrícola e casas de granito raianas. Conhecemos bem as particularidades hidráulicas desta zona: casas raianas com sistemas de captação de água de nascente, calcário nas canalizações e sistemas de drenagem que necessitam de manutenção regular.</p>
                 <p className="text-gray-600 mb-4">Cobrimos Argozelo e toda a área envolvente de Vimioso. Disponíveis 24h incluindo fins de semana e feriados.</p>
                 <p className="text-gray-600">Deslocação 30€. Mão de obra 70€/h. Orçamento por escrito antes de qualquer trabalho.</p>
               </div>

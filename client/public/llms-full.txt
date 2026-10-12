@@ -74,10 +74,6 @@ O site publica serviços de instalação, manutenção e reparação de equipame
 
 A equipa trabalha em autoclismos, torneiras, sifões, válvulas, pressão de água e ligações de máquinas aos pontos de água e esgoto. O orçamento depende do diagnóstico, das peças e do acesso.
 
-### 3.7 Fossas, drenagem e rega
-
-O conteúdo publicado inclui tubagens e ligações associadas a fossas sépticas, drenagem exterior e sistemas de rega. A intervenção concreta deve ser confirmada através de orçamento, pois o trabalho varia conforme o terreno, os acessos e a instalação existente.
-
 ### 3.8 Manutenção preventiva
 
 A manutenção pode incluir inspeção visual, verificação de pressão e caudal, válvulas, tubagens, pontos de consumo e teste de estanquidade quando aplicável.

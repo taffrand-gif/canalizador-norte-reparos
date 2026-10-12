@@ -173,8 +173,7 @@ export default function TorreDonaChama() {
                   <li>✓ Esgotos interiores e exteriores</li>
                   <li>✓ Sanitas e lavatórios</li>
                   <li>✓ Câmaras de inspeção</li>
-                  <li>✓ Fossas e sistemas de drenagem</li>
-                </ul>
+                  </ul>
               </div>
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
                 <div className="text-3xl mb-4">💧</div>

@@ -144,7 +144,7 @@ export default function Sabrosa() {
  🔧 Desentupimentos
  </h3>
  <p className="text-gray-600">
- WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
+ WC, lavatórios, esgotos. Equipamento Ridgid K9-102 para
  desentupimentos profundos. Resolução garantida.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -250,8 +250,7 @@ export default function Sabrosa() {
  Quais são os problemas mais comuns em Sabrosa?
  </h3>
  <p className="text-gray-600">
- Em Sabrosa, os problemas mais frequentes são entupimentos em fossas
- sépticas, fugas em canalizações antigas, e avarias em esquentadores.
+ Em Sabrosa, os problemas mais frequentes são fugas em canalizações antigas, e avarias em esquentadores.
  A nossa experiência local permite resolver rapidamente.
  </p>
  </div>
