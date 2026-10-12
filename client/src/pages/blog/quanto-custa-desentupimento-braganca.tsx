@@ -83,13 +83,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  grave: "200-250€",
  tempo: "1-2 horas",
  descricao: "Ramal principal entupido, raízes, ou obstrução profunda"
- },
- {
- servico: "Desentupir Fossa Séptica",
- simples: "150-200€",
- grave: "250-350€",
- tempo: "2-3 horas",
- descricao: "Limpeza e desentupimento de fossa, inclui aspiração se necessário"
  }
  ];
  return (

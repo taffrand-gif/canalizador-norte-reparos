@@ -40,7 +40,7 @@ Precisa de um canalizador urgente a qualquer hora? Este guia completo explica co
 
 **Resposta:** 15-90 minutos conforme localização.
 
-**Tipos intervenção:** Fugas água, entupimentos, avarias esquentador/caldeira, rotura canalização, fossa séptica.
+**Tipos intervenção:** Fugas água, entupimentos, avarias esquentador/caldeira, rotura canalização.
 
 ## Quando Chamar Canalizador Atendimento 24h/7d?
 

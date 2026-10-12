@@ -119,7 +119,7 @@ export default function Vinhais() {
  <div className="grid md:grid-cols-2 gap-6">
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
- <p className="text-gray-600">WC, lavatórios, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos em zonas rurais.</p>
+ <p className="text-gray-600">WC, lavatórios. Equipamento Ridgid K9-102 para desentupimentos profundos em zonas rurais.</p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

@@ -60,12 +60,10 @@ export const cityContent: Record<string, CityContent> = {
  population: '23 000 habitants',
  logements: '8 500 logements',
  problemesTypes: [
- 'Entupimentos em fossas sépticas',
  'Fugas em esquentadores antigos',
  'Canalizações calcárias'
  ],
  testimonials: [
- { text: 'Fossa séptica entupida. Vieram com equipamento adequado e resolveram em 1h.' },
  { text: 'Fuga de água no teto. Detetaram o problema sem partir paredes. Top.' }
  ],
  prices: {
@@ -75,7 +73,6 @@ export const cityContent: Record<string, CityContent> = {
  },
  specificites: [
  'Equipamento para desentupimentos profundos',
- 'Experiência em fossas sépticas rurais'
  ],
  zonesDesservies: ['Mirandela', 'Frechas', 'Abreiro', 'Cabanelas', 'Vale de Salgueiro']
  },
@@ -158,7 +155,6 @@ export const cityContent: Record<string, CityContent> = {
  logements: '3 500 logements maioritariamente rurais',
  problemesTypes: [
  'Fugas em casas isoladas',
- 'Fossas sépticas',
  'Canalizações antigas'
  ],
  testimonials: [
@@ -205,12 +201,10 @@ export const cityContent: Record<string, CityContent> = {
  population: '9 500 habitants',
  logements: '3 800 logements en zona rural',
  problemesTypes: [
- 'Fossas sépticas',
  'Fugas em quintas',
  'Canalizações antigas'
  ],
  testimonials: [
- { text: 'Fossa entupida na quinta. Vieram com máquina e resolveram.' }
  ],
  prices: {
  service1: 85,

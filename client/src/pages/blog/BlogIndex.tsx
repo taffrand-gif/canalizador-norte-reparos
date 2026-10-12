@@ -185,7 +185,7 @@ const BlogIndex: React.FC = () => {
  },
  {
   slug: 'guia-entupimentos-esgoto',
-  title: 'Entupimentos e Esgoto: Prevenção, Sinais e Manutenção da Fossa',
+  title: 'Entupimentos e Esgoto: Prevenção e Sinais',
   excerpt: 'Como prevenir entupimentos do esgoto, identificar sinais precoces de fossa cheia ou raízes, e quando chamar canalizador.',
   category: 'Prevenção',
   readTime: '7',
@@ -198,7 +198,7 @@ const BlogIndex: React.FC = () => {
   {
   slug: 'guia-prevencao-esgotos',
   title: 'Prevenção de Entupimentos de Esgoto: Guia Prático',
-  excerpt: 'O que deitar e o que nunca deitar no esgoto, manutenção periódica da fossa séptica, check-list sazonal e quando chamar canalizador.',
+  excerpt: 'O que deitar e o que nunca deitar no esgoto, check-list sazonal e quando chamar canalizador.',
   category: 'Prevenção',
   readTime: '7',
   date: '19 Jul 2026',

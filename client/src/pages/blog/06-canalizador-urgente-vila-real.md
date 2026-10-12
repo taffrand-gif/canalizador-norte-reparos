@@ -23,7 +23,6 @@ As emergências de canalização podem causar danos significativos em poucas hor
 3. **Falta de água em toda a casa** - Diagnóstico e restauro profissional
 4. **Retorno de águas residuais** - Situações de risco sanitário
 5. **Avarias em sistemas de aquecimento central** - Crítico no inverno
-6. **Problemas com esgotos e fossas** - Soluções imediatas
 
 ## Como Funciona o Nosso Serviço de Urgência 24h em Vila Real
 

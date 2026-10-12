@@ -30,10 +30,6 @@
       "destination": "/remodelacao-:service-:city.html"
     },
     {
-      "source": "/fossa-:service-:city",
-      "destination": "/fossa-:service-:city.html"
-    },
-    {
       "source": "/esquentador-:city",
       "destination": "/esquentador-:city.html"
     },
@@ -2001,11 +1997,6 @@
       "statusCode": 301
     },
     {
-      "source": "/melhor-fossa-septica-tavira",
-      "destination": "/melhor-fossa-septica-tavora",
-      "statusCode": 301
-    },
-    {
       "source": "/melhor-fuga-agua-tavira",
       "destination": "/melhor-fuga-agua-tavora",
       "statusCode": 301
@@ -3126,11 +3117,6 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-m%C3%AAda-fossa-septica",
-      "destination": "/canalizador-meda-fossa-septica",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-m%C3%AAda-noite",
       "destination": "/canalizador-meda-noite",
       "statusCode": 301
@@ -3233,11 +3219,6 @@
     {
       "source": "/canalizador-perto-de-mim-alij%C3%B3",
       "destination": "/canalizador-perto-de-mim-alijo",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-alij%C3%B3-fossa-septica",
-      "destination": "/canalizador-alijo-fossa-septica",
       "statusCode": 301
     },
     {

@@ -65,17 +65,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 
 ---
 
-### 4. Problemas na Fossa ou Canalização (8% dos casos)
-
-**Sinais:**
-- Várias sanitas entopem ao mesmo tempo
-- Água sobe em ralos de duche/lavatório
-- Mau cheiro constante
-
-**Solução:** Precisa de picheleiro (problema na fossa ou canalização principal).
-
----
-
 ### 5. Sanita Antiga ou Mal Instalada (2% dos casos)
 
 **Problemas:**
@@ -222,7 +211,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 
 **⚠️ ATENÇÃO:**
 - **NUNCA misture produtos** (pode criar gases tóxicos)
-- **NÃO use se tiver fossa séptica** (mata bactérias benéficas)
 - **Tóxico para crianças e animais**
 - **Pode danificar canos antigos**
 
@@ -277,7 +265,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 
 1. ✅ Tentou 2-3 métodos e continua entupida
 2. ✅ Água transborda constantemente
-3. ✅ Várias sanitas/ralos entopem ao mesmo tempo (problema na fossa)
 4. ✅ Mau cheiro forte (problema na canalização)
 5. ✅ Água sobe em outros ralos quando dá descarga
 6. ✅ Suspeita que há objeto grande preso
@@ -299,7 +286,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 | **Desentupir com máquina elétrica** | €120-200 | 1-2h |
 | **Desentupir canalização principal** | €150-300 | 2-4h |
 | **Inspeção com câmara** | €80-150 | 1h |
-| **Limpar fossa séptica** | €150-400 | 2-3h |
 | **Substituir sanita** | €150-400 | 2-3h |
 | **Urgência 24h (acréscimo)** | +€30-80 | — |
 
@@ -360,16 +346,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 
 ---
 
-### 5. Inspeção Anual da Fossa (Se Tiver)
-
-**Quando:**
-- 1x por ano (mínimo)
-- Ou quando notar sinais (mau cheiro, entupimentos frequentes)
-
-**Custo:** €80-150 (inspeção) + €150-400 (limpeza se necessário).
-
----
-
 ## ❓ Perguntas Frequentes (FAQ)
 
 ### 1. Posso usar Coca-Cola para desentupir?
@@ -385,14 +361,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 **SIM!** Água a ferver pode **rachar a porcelana** (especialmente no inverno quando a sanita está fria).
 
 **Solução:** Use água **quente mas não fervente** (60-70°C).
-
----
-
-### 3. Produtos químicos danificam a fossa séptica?
-
-**SIM!** Produtos como Destop, soda cáustica matam as **bactérias benéficas** que decompõem os resíduos na fossa.
-
-**Solução:** Se tem fossa, use métodos naturais (bicarbonato + vinagre) ou mecânicos (ventosa, mola).
 
 ---
 
@@ -427,7 +395,6 @@ Antes de desentupir, é importante perceber **o que causou o entupimento** para 
 ✅ Desentupimento de sanitas, ralos, canos 
 ✅ Máquina desentupidora profissional 
 ✅ Inspeção com câmara (identifica problema) 
-✅ Limpeza de fossas sépticas 
 ✅ Urgências 24h/7 dias 
 ✅ Estimativa sem custo sem compromisso 
 

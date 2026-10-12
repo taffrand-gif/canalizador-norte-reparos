@@ -332,7 +332,6 @@ Preços indicativos 2026 em Trás-os-Montes:
 - **Desentupimento esgotos/columna**: 120-250€
 - **Hidrojato profissional**: 150-300€
 - **Inspeção vídeo CCTV**: 120-200€
-- **Limpeza fossa séptica**: 200-400€
 
 Urgências noturnas/fim de semana: +50%. Estimativa sem custo por telefone: **+351 928 484 451**.
 

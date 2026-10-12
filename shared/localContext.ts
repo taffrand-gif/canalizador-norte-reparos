@@ -89,15 +89,14 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Torre de Dona Chama, Aguieiras, Alvites, Avantos, Carvalhais, Cedães, Cobro, Fradizela, Mascarenhas, " +
       "Múrias, Passos, Vale de Gouvinhas, Vale de Salgueiro e Vale de Telhas. " +
       "O acesso faz-se pela N15 (Bragança) e pela N213 (Vila Real). " +
-      "Habitação mista — prédios recentes no centro e construções rurais nas freguesias envolventes — " +
-      "com presença de fossas séticas em zonas não servidas por rede pública. " +
+      "Habitação mista — prédios recentes no centro e construções rurais nas freguesias envolventes. " +
       "Distância indicativa desde Macedo de Cavaleiros: ~30 km pela N15.",
     answerFirst:
       "Em Mirandela e nas 30 freguesias do concelho (Torre de Dona Chama, Aguieiras, Alvites, Carvalhais, Mascarenhas, etc.) " +
       "garantimos atenção — ligue 928 484 451",
     heroSubtitle:
       "Cobertura completa do concelho de Mirandela (30 freguesias) a partir da base operacional em Trás-os-Montes. " +
-      "Atendimento em prédios recentes do centro e construções rurais com fossas séticas. Serviço 24h/7d, sem compromisso.",
+      "Atendimento em prédios recentes do centro e construções rurais. Serviço 24h/7d, sem compromisso.",
     pricingHook:
       "Tarifa base para Mirandela e 30 freguesias (Torre de Dona Chama, Aguieiras, Alvites, Carvalhais, Mascarenhas). " +
       "Deslocação rápida pela N15. Orçamento final após diagnóstico no local.",
@@ -261,7 +260,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "estão Vinhais (sede), Ervedosa, Moimenta, Agrochão, Santalha, Vale de Janeiro, Candedo e Tuizelo. " +
       "Acesso por N102 (Macedo de Cavaleiros) e estradas municipais a partir da sede. " +
       "Predomina habitação rural isolada e quintas com sistemas de bombagem próprios — " +
-      "frequentemente os pedidos locais prendem-se com fugas em redes exteriores, fossas séticas e " +
+      "frequentemente os pedidos locais prendem-se com fugas em redes exteriores e " +
       "substituição de bombas de água. " +
       "Distância indicativa desde Macedo de Cavaleiros: ~30 km pela N102.",
     answerFirst:
@@ -269,7 +268,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "atendemos habitação rural isolada e quintas com sistemas de bombagem próprios, via N102.",
     heroSubtitle:
       "Concelho setentrional do distrito de Bragança, em zona de baixa densidade e habitat disperso. " +
-      "Pedidos frequentes em Vinhais: fugas em redes exteriores de quintas, fossas séticas e " +
+      "Pedidos frequentes em Vinhais: fugas em redes exteriores de quintas e " +
       "substituição de bombas de água. Acesso por N102. Equipa técnica 24h/7d.",
     pricingHook:
       "Tarifa base para Vinhais e 26 freguesias (Ervedosa, Moimenta, Agrochão, Santalha, Candedo). " +
@@ -298,14 +297,14 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Vale de Porco e Variz. " +
       "Acesso por N221 (Miranda do Douro) e IC5 (sul do distrito). " +
       "Habitação mista — sede com blocos recentes, freguesias com habitação rural e quintas agrícolas " +
-      "com sistemas de bombagem e fossas séticas próprias. " +
+      "com sistemas de bombagem próprios. " +
       "Distância indicativa desde Macedo de Cavaleiros: ~55 km (IC5).",
     answerFirst:
       "Em Mogadouro e nas 21 freguesias do concelho (Castelo Branco, Azinhoso, Bemposta, Bruçó, Penas Roias) " +
-      "atendemos quintas e habitação rural com fossas séticas e sistemas de bombagem próprios, via IC5 e N221.",
+      "atendemos quintas e habitação rural com sistemas de bombagem próprios, via IC5 e N221.",
     heroSubtitle:
       "Concelho rural do sul do distrito de Bragança, com forte presença de exploração agrícola. " +
-      "Atendemos Mogadouro e as suas 21 freguesias com equipamento para quintas, fossas séticas e " +
+      "Atendemos Mogadouro e as suas 21 freguesias com equipamento para quintas e " +
       "sistemas de bombagem próprios. Acesso por IC5 e N221. Equipa técnica 24h/7d.",
     pricingHook:
       "Tarifa base para Mogadouro e 21 freguesias (Castelo Branco, Azinhoso, Bemposta, Bruçó, Penas Roias). " +
@@ -370,7 +369,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "e Fornos. " +
       "Acesso por N220 (Foz Côa) e estrada municipal a partir do IC5. " +
       "Zona de baixa densidade com habitat disperso e aldeias históricas em xisto — " +
-      "predominam redes de água antigas (anteriores a 1980) e fossas séticas. " +
+      "predominam redes de água antigas (anteriores a 1980). " +
       "Distância indicativa desde Macedo de Cavaleiros: ~95 km (IC5+N220).",
     answerFirst:
       "Cobrimos Freixo de Espada à Cinta e as 6 freguesias do concelho (Lagoaça, Ligares, Mazouco, Poiares, Fornos) " +

@@ -34,14 +34,6 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
               },
               {
                 "@type": "Question",
-                "name": "E uma fossa entupida ou esgoto principal?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados."
-                }
-              },
-              {
-                "@type": "Question",
                 "name": "Posso tentar eu próprio antes de chamar o canalizador?",
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -159,12 +151,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                   <td className="border border-gray-300 px-3 py-2">2-4 h</td>
                   <td className="border border-gray-300 px-3 py-2 font-semibold">240-380€</td>
                 </tr>
-                <tr className="bg-cyan-50">
-                  <td className="border border-gray-300 px-3 py-2">Fossa séptica (sob marcação)</td>
-                  <td className="border border-gray-300 px-3 py-2">3-5 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">Sob orçamento</td>
-                </tr>
-              </tbody>
+                </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600">
@@ -199,9 +186,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
               <p className="text-gray-700">Tipicamente 1-2 horas → 100€-165€ horário normal. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 mb-2 text-xl">E uma fossa entupida?</h3>
-              <p className="text-gray-700">Casos com fossa séptica exigem geralmente 3-5h e podem necessitar de equipamento específico — orçamento detalhado após conversa telefónica.</p>
-            </div>
+              </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Trabalha 24h?</h3>
               <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>

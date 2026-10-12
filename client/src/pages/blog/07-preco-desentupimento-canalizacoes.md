@@ -21,7 +21,6 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 - **Sanita/WC:** Preço médio, atenção a objetos perdidos
 - **Ralo de chão:** Pode exigir equipamento especial
 - **Canalização principal:** Mais complexo e dispendioso
-- **Fossa séptica:** Intervenção especializada
 
 ### 2. Grau de Obstrução
 - **Parcial (água escoa lentamente):** Mais fácil e imediato
@@ -73,7 +72,6 @@ O custo de um desentupimento varia significativamente conforme múltiplos fatore
 | **Limpeza Hidrodinâmica** | €80-€150/m | Para obstruções resistentes |
 | **Localização por Georadar** | €150-€300 | Para fugas ou obstruções ocultas |
 | **Substituição de Troço** | €200-€500 | Por metro de canalização nova |
-| **Limpeza de Fossa Séptica** | €200-€400 | Depende da capacidade |
 
 ## Processo Profissional de Desentupimento
 
