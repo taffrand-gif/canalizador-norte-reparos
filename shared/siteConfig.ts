@@ -129,8 +129,8 @@ export const siteConfig: SiteConfig = {
  // Pricing Zones - NOVA GRELHA 2026
  pricingZones: [
  // Grelha única 2026-09-23 — deslocação independente da localidade
- { zone: 'DIA', name: 'Dias úteis 9h–17h', cities: 'Todas as localidades servidas', price: '30€', time: 'Mão de obra 70€/h' },
- { zone: 'NOITE', name: 'Noite (17h–9h), fins de semana e feriados', cities: 'Todas as localidades servidas', price: '50€', time: 'Mão de obra 100€/h' },
+ { zone: 'DIA', name: 'Dias úteis 9h–17h', cities: 'Disponibilidade confirmada conforme a localização', price: '30€', time: 'Mão de obra 70€/h' },
+ { zone: 'NOITE', name: 'Noite (17h–9h), fins de semana e feriados', cities: 'Disponibilidade confirmada conforme a localização', price: '50€', time: 'Mão de obra 100€/h' },
  ],
 
  // NOVO: Urgência + Taxa Horária
