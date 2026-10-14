@@ -167,7 +167,6 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  <li>✓ Substituição pilhas</li>
  <li>✓ Limpeza queimador</li>
  <li>✓ Ajustes simples</li>
- <li>✓ Garantia 1 ano</li>
  </ul>
  </div>
  <div className="bg-green-50 p-8 rounded-xl border-2 border-green-400 text-center relative">

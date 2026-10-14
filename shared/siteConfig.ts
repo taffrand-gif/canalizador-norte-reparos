@@ -1,6 +1,6 @@
 // Configuração para Norte-Reparos - Canalizador
 // Site canalizador-norte-reparos.pt
-// Preços sem IVA - NOVA GRELHA TARIFÁRIA 2026
+// Preços TTC (IVA incluído) - NOVA GRELHA TARIFÁRIA 2026
 // Grelha única: 70€/h + 30€ (dias úteis 9h–17h) · 100€/h + 50€ (noite, fins de semana, feriados)
 
 export type SiteId = 'norte-reparos';
@@ -98,7 +98,7 @@ export const siteConfig: SiteConfig = {
  id: 'norte-reparos',
  name: 'Canalizador Profissional',
  title: 'Canalizador para instalação e remodelação em Trás-os-Montes | Norte Reparos',
- description: 'Canalizador para instalação e remodelação em Trás-os-Montes. Orçamento por escrito em 48h, garantia 1 ano. Bragança, Vila Real, Mirandela, Chaves.',
+ description: 'Canalizador para instalação e remodelação em Trás-os-Montes. Orçamento por escrito. Bragança, Vila Real, Mirandela, Chaves.',
  phone: '928 484 451',
  whatsapp: '351928484451',
  whatsappMessage: 'Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?',
@@ -114,7 +114,7 @@ export const siteConfig: SiteConfig = {
 
  hero: {
  title: 'Canalizador para instalação e remodelação — Trás-os-Montes',
- subtitle: 'Instalação, remodelação e projetos ao seu domicílio. Orçamento por escrito em 48h, garantia 1 ano.',
+ subtitle: 'Instalação, remodelação e projetos ao seu domicílio. Orçamento por escrito.',
  backgroundImage: '/images-optimized/hero/hero-plumber-portugal.jpg',
  ogImage: '/images-optimized/hero/hero-plumber-portugal.jpg'
  },
