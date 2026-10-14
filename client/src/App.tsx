@@ -16,7 +16,6 @@ import OptimizedHome from "./pages/OptimizedHome";
 
 // Lazy load conversion widgets (below-fold)
 const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
-const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
 const Desentupimentos = lazy(() => import("@/pages/Desentupimentos"));
@@ -281,7 +280,6 @@ function App() {
 
  <Suspense fallback={null}>
  <ExitIntentPopup />
- <QuoteCalculator />
  </Suspense>
  <Router />
  <FloatingCTA />
