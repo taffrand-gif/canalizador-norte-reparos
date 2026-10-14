@@ -3,19 +3,18 @@
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocation as useWouterLocation } from 'wouter';
-import { useLocation } from '@/contexts/LocationContext';
+import { DEFAULT_CITY } from '@/hooks/useLocationContent';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 export default function StructuredData() {
  const { config } = useSite();
  const [location] = useWouterLocation();
- const { getCurrentCity } = useLocation();
  useEffect(() => {
  // Remover scripts existentes
  const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
  existingScripts.forEach(script => script.remove());
  const businessType = 'Plumber';
  const serviceName = 'Canalizador';
- const detectedCity = getCurrentCity();
+ const detectedCity = DEFAULT_CITY;
  // Não adicionar FAQPage nas páginas de cidade (CityServicePage já tem o seu próprio FAQPage)
  // Pattern: /:service-:city (ex: /canalizador-braganca, /desentupimento-mirandela)
  const isCityServicePage = location.match(/\/[a-z-]+-[a-z-]+$/);
@@ -429,6 +428,6 @@ export default function StructuredData() {
  script.text = JSON.stringify(schema);
  document.head.appendChild(script);
  });
- }, [config, location, getCurrentCity]);
+ }, [config, location]);
  return null;
 }
