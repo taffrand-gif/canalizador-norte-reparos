@@ -22,7 +22,6 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </span>
  <span>⏱️ alguns minutos de leitura</span>
  <span>📅 18 Fev 2026</span>
- <span>👁️ 3.2K visualizações</span>
  </div>
 
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -34,8 +33,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <span className="text-2xl">💰</span>
  </div>
  <div>
- <p className="font-semibold text-gray-900">Ana Rodrigues</p>
- <p className="text-gray-600">Especialista em Orçamentos de Canalização com 8+ anos</p>
+ <p className="font-semibold text-gray-900">Equipa Norte Reparos</p>
+ <p className="text-gray-600">Canalização em Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -485,11 +484,9 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </div>
  </div>
  <div className="md:w-3/4">
- <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre a Autora</h3>
+ <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre a Equipa</h3>
  <p className="text-gray-700 mb-4">
- <strong>Ana Rodrigues</strong> é especialista em orçamentos de canalização com experiência em Trás-os-Montes
- na região de Trás-os-Montes. Já analisou mais de 1. a obter
- preços justos e transparentes. É defensora da transparência total nos preços e da educação do consumidor.
+ Artigo preparado pela equipa Norte Reparos, com mais de 20 anos de experiência profissional. A informação é geral: cada situação é avaliada caso a caso, com orçamento por escrito antes de qualquer intervenção.
  </p>
  <p className="text-gray-600">
  Para análise de orçamentos ou dúvidas sobre preços, contacte através do telefone ou WhatsApp acima.
