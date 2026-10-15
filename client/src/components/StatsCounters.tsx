@@ -59,14 +59,14 @@ export default function StatsCounters() {
 }
 const stats: CounterStat[] = isPlumber
  ? [
- { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '🔧' },
- { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
+ { value: 0, suffix: '', label: 'Faturação horária', icon: '💶' },
+ { value: 0, suffix: '', label: 'Orçamento por escrito', icon: '📋' },
  { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
  { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
  ]
  : [
- { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '⚡' },
- { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
+ { value: 0, suffix: '', label: 'Faturação horária', icon: '💶' },
+ { value: 0, suffix: '', label: 'Orçamento por escrito', icon: '📋' },
  { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
  { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
  ];
@@ -78,7 +78,7 @@ const stats: CounterStat[] = isPlumber
  Números que Falam por Si
  </h2>
  <p className="text-lg text-gray-600">
- Experiência comprovada em Trás-os-Montes
+ Mais de 20 anos de experiência profissional em Trás-os-Montes
  </p>
  </div>
  <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -107,9 +107,7 @@ const stats: CounterStat[] = isPlumber
  </div>
  <div className="text-center mt-12">
  <p className="text-gray-600 text-sm max-w-2xl mx-auto">
- {isPlumber
-  ? 'Mais de 500 famílias em Trás-os-Montes confiam no nosso trabalho. Fugas resolvidas, entupimentos eliminados, casas de banho renovadas — sempre com garantia por escrito e preço combinado antes.'
-  : 'Mais de 500 intervenções elétricas em Trás-os-Montes. Quadros modernizados, instalações certificadas, avarias resolvidas — sempre com equipamento profissional Fluke e FLIR.'}
+ Orçamento por escrito antes de qualquer intervenção, faturação horária e equipamento profissional.
  </p>
  </div>
  </div>

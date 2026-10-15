@@ -355,10 +355,6 @@ export default function TransparencePrix() {
  <div className="text-white/80">Seguro Responsabilidade</div>
  </div>
  </div>
- <p className="text-sm text-white/70 italic">
- Em 15 anos de atividade, apenas 3 clientes pediram reembolso.
- A nossa taxa de satisfação é de 99.5%.
- </p>
  </div>
  </div>
  </section>
