@@ -129,7 +129,9 @@ function trackingFragments() {
   const rgpd = extractScript(seed, 'data-rgpd-marker');
   const ga4 = extractScripts(seed, (script) => script.includes('googletagmanager') || script.includes('G-VWSWFQB71H')).join('\n');
   const consent = extractScript(seed, 'rgpd-accept-cnr');
-  return [rgpd, ga4, consent].filter(Boolean).join('\n');
+  // call-tracking.js : écouteur unique phone_click / whatsapp_click (absent de la graine extraite ci-dessus)
+  const callTracking = '<script src="/call-tracking.js" defer></script>';
+  return [rgpd, ga4, consent, callTracking].filter(Boolean).join('\n');
 }
 
 function priceTable() {
