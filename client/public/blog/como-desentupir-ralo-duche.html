@@ -104,4 +104,18 @@ function init(){setTimeout(showBanner,400);}
 if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}
 })();
 </script>
+<script data-rgpd-offset="cnr-v1">
+(function(){
+  var root=document.documentElement;
+  function m(){var b=document.getElementById("rgpd-banner-cnr");root.style.setProperty("--rgpd-banner-h",(b?Math.ceil(b.getBoundingClientRect().height):0)+"px");}
+  var s=document.createElement("style");
+  s.textContent=".sticky-cta,.float-wa,.whatsapp-float,.phone-float,.floating-buttons{translate:0 calc(-1 * var(--rgpd-banner-h,0px))}";
+  document.head.appendChild(s);
+  m();
+  new MutationObserver(m).observe(document.body,{childList:true});
+  window.addEventListener("resize",m);
+  function sp(){var d=document.createElement("div");d.setAttribute("aria-hidden","true");d.style.height="var(--rgpd-banner-h,0px)";document.body.appendChild(d);}
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",sp);else sp();
+})();
+</script>
 </body></html>
