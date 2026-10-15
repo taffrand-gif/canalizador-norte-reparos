@@ -70,7 +70,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  </p>
  <p className="text-lg text-gray-700 mb-6">
  O <strong>custo de um canalizador em Trás-os-Montes</strong> varia principalmente em função
- da distância à nossa sede operacional em Macedo de Cavaleiros e da complexidade do serviço
+ do tempo de trabalho e da complexidade do serviço
  (desentupimento simples, fuga acessível, instalação completa). Apresentamos abaixo a grelha
  Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
  </p>
@@ -169,7 +169,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-3">📅 Época do Ano</h3>
  <p className="text-gray-700">
- Inverno (Nov-Fev) tem maior procura por emergências de gelo. Verão pode ter preços mais competitivos
+ Inverno (Nov-Fev) tem maior procura por emergências de gelo. O verão é um bom momento
  para trabalhos de instalação ou renovação.
  </p>
  </div>
@@ -290,8 +290,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div>
  <h4 className="font-bold text-gray-900 mb-2">Exija garantia</h4>
  <p className="text-gray-700">
- Serviços de canalização devem ter garantia mínima de 1 ano para mão-de-obra.
- Materiais têm garantia do fabricante (normalmente 2-5 anos).
+ Peça que as condições de garantia constem do orçamento por escrito.
+ Os materiais têm a garantia do respetivo fabricante.
  </p>
  </div>
  </div>
