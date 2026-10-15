@@ -11,29 +11,30 @@ import {
 function FAQLocal() {
  const { config } = useSite();
  const isPlumber = config.id === 'norte-reparos';
+ const priceNote = 'Mão de obra: 70 € por hora em dias úteis (09h-18h), mais 30 € de deslocação; à noite, aos fins de semana e feriados: 100 € por hora, mais 50 € de deslocação. Valores TTC, IVA incluído. Cada hora iniciada é devida.';
+ const availabilityNote = 'A disponibilidade é confirmada conforme a localização e a situação operacional.';
+ const mogadouro = {
+ question: 'Qual o canalizador mais perto de Mogadouro?',
+ answer: `A Norte Reparos atende em Mogadouro, ao domicílio. ${availabilityNote} O orçamento por escrito é apresentado antes da intervenção.`};
  const localFaqs = isPlumber ? [
  {
  question: 'A Norte Reparos faz instalação de canalização em Mirandela?',
- answer: 'Sim, a Norte Reparos faz instalação e remodelação de canalização em Mirandela e em todo o distrito de Bragança, ao domicílio. Orçamento por escrito em 48h e garantia 1 ano.'},
+ answer: `Sim, a Norte Reparos faz instalação e remodelação de canalização em Mirandela, ao domicílio. ${availabilityNote} Antes da intervenção, apresentamos orçamento por escrito.`},
  {
  question: 'Quanto custa um canalizador em Bragança para desentupimento?',
- answer: 'Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
+ answer: `${priceNote} O valor final depende do diagnóstico e da intervenção; o orçamento por escrito é apresentado antes de começar.`},
  {
  question: 'Fazem arranjo de fugas de água?',
- answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
+ answer: `Sim, atendemos fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. ${availabilityNote} ${priceNote}`},
  {
- question: 'Trabalham em Miranda do Douro e na zona raiana?',
- answer: 'Sim, prestamos serviço de instalação e remodelação de canalização em Miranda do Douro e em toda a zona raiana: substituição de tubagens, remodelação de casas de banho e instalação de equipamentos. Orçamento por escrito em 48h. Ligue 928 484 451.'},
+ question: 'Trabalham em Miranda do Douro?',
+ answer: `Sim, prestamos serviço de instalação e remodelação de canalização em Miranda do Douro: substituição de tubagens, remodelação de casas de banho e instalação de equipamentos. ${availabilityNote} Ligue 928 484 451.`},
  {
  question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
- answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: 100-200€ (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
- {
- question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço ao domicílio, com orçamento por escrito em 48h.'},
+ answer: `Sim, a nossa equipa realiza intervenções em esquentadores elétricos e a gás, com a habilitação necessária, em Vila Flor e Carrazeda de Ansiães. O valor depende do equipamento e da instalação existente, e o orçamento por escrito é apresentado antes da intervenção. ${priceNote} ${availabilityNote}`},
+ mogadouro,
  ] : [
- {
- question: 'Qual o canalizador mais perto de Mogadouro?',
- answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço ao domicílio, com orçamento por escrito em 48h.'},
+ mogadouro,
  ];
  return (
  <section className="py-16 bg-white">
