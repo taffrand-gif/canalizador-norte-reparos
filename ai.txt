@@ -25,7 +25,6 @@ Equipment:
   - Ridgid FlexShaft K9-102
   - Câmara de inspeção CCTV
   - Câmara térmica FLIR
-  - ROLeak Aqua 3Plus
   - Kit fluorosceína UV
 Brands:
   - Sanitana, Grohe, Roca
