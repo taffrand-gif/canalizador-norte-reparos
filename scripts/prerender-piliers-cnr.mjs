@@ -129,7 +129,8 @@ function trackingFragments() {
   const rgpd = extractScript(seed, 'data-rgpd-marker');
   const ga4 = extractScripts(seed, (script) => script.includes('googletagmanager') || script.includes('G-VWSWFQB71H')).join('\n');
   const consent = extractScript(seed, 'rgpd-accept-cnr');
-  return [rgpd, ga4, consent].filter(Boolean).join('\n');
+  const ctaStack = extractScript(seed, 'data-cta-stack="v1"');
+  return [rgpd, ga4, consent, ctaStack].filter(Boolean).join('\n');
 }
 
 function priceTable() {
