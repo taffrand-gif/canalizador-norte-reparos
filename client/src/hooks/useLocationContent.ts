@@ -49,12 +49,9 @@ function getDistanceToCity(cityName: string): number {
  }
  return Math.round(calculateDistance(BASE_LAT, BASE_LON, coords.lat, coords.lon));
 }
-// Calculate arrival time based on distance
-function getArrivalTime(distance: number): string {
- if (distance <= 20) return 'rapidamente';
- if (distance <= 40) return 'A confirmar';
- if (distance <= 60) return 'A confirmar';
- return 'A confirmar';
+// Do not promise a numeric arrival time or vary the official displacement fee by distance.
+function getArrivalTime(_distance: number): string {
+ return 'Disponibilidade mediante contacto';
 }
 // Calculate price adjustment based on distance
 function getPriceAdjustment(distance: number): number {
