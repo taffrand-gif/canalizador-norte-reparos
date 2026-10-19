@@ -154,7 +154,7 @@ export default function Montalegre() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com geofone. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -212,8 +212,7 @@ export default function Montalegre() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ Ridgid K9-102 para desentupimentos, geofone para tubagens enterradas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
