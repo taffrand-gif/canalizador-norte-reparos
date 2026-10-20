@@ -24,7 +24,7 @@ export default function CarrazedaDeAnsiaes() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Carrazeda de Ansiães. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Carrazeda de Ansiães. Desentupimentos e arranjos, orçamento por escrito antes de qualquer intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -79,7 +79,7 @@ export default function CarrazedaDeAnsiaes() {
  const cidadesProximas = getCidadesProximas('carrazeda-de-ansiaes');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Carrazeda de Ansiães?", answer: "Desde 100€ (150 € noite/fim de semana) em Carrazeda de Ansiães. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Carrazeda de Ansiães?", answer: "Em Carrazeda de Ansiães: dias úteis (09h–18h), 70 €/h + 30 € de deslocação; após as 18h, noite, fins de semana e feriados, 100 €/h + 50 € de deslocação. Valores TTC. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura." },
  { question: "Fazem urgências em Carrazeda de Ansiães?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Carrazeda de Ansiães. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
