@@ -128,7 +128,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 20,
  question: "Quanto custa instalar uma casa de banho nova?",
- answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): 2.500-4.000€, casa de banho média (5m²): 4.000-7.000€, casa de banho premium (7m²): 7.000-12.000€. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia de 12 meses.",
+ answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): 2.500-4.000€, casa de banho média (5m²): 4.000-7.000€, casa de banho premium (7m²): 7.000-12.000€. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado.",
  category: "Projetos"
  }
 ];

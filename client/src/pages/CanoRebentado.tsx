@@ -136,7 +136,7 @@ export default function CanoRebentado() {
  {
  icon: 'shield',
  title: 'Garantia 12 Meses',
- description: 'Todas as arranjos de emergência têm Garantia 12 meses. Trabalho profissional.'
+ description: 'Todas as arranjos de emergência têm Trabalho profissional.'
  },
  {
  icon: 'check',

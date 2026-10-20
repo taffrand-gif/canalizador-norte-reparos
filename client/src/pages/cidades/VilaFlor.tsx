@@ -105,7 +105,7 @@ export default function VilaFlor() {
  </h1>
  <p className="text-xl mb-8">
  Serviços de canalização certificados em Vila Flor e arredores.
- Resolução profissional, preço justo, garantia de 12 meses.
+ Resolução profissional, preço justo.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -151,7 +151,7 @@ export default function VilaFlor() {
  </h3>
  <p className="text-gray-600">
  WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
+ desentupimentos profundos.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -181,7 +181,7 @@ export default function VilaFlor() {
  </h3>
  <p className="text-gray-600">
  Instalação completa de canalizações novas. Tubagem em PPR, conexões
- estanhadas, válvulas de corte. Garantia 12 meses.
+ estanhadas, válvulas de corte.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -201,7 +201,7 @@ export default function VilaFlor() {
  🏆 Serviço Certificado
  </h3>
  <p className="text-gray-600">
- Fatura com NIF, garantia escrita de 12 meses, preço combinado antes
+ Fatura com NIF, preço combinado antes
  da intervenção. Sem surpresas, sem custos escondidos.
  </p>
  </div>
@@ -220,15 +220,6 @@ export default function VilaFlor() {
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
  deteção de fugas, geofone para tubagens enterradas.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🛡️ Garantia 12 Meses
- </h3>
- <p className="text-gray-600">
- Todas as intervenções têm garantia escrita de 12 meses.
- Peças e mão de obra incluídas.
  </p>
  </div>
  </div>
@@ -280,7 +271,7 @@ export default function VilaFlor() {
  Canalizador em <span className="text-orange-300">Vila Flor</span>
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Intervenção profissional, preço justo, garantia de 12 meses.
+ Intervenção profissional, preço justo.
  Ligue agora para um orçamento sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
