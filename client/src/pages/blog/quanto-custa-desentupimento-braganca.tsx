@@ -291,7 +291,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl p-8 mb-12 text-center">
  <h3 className="text-2xl font-bold mb-4">Precisa de um Orçamento?</h3>
  <p className="text-lg mb-6 opacity-90">
- Sem compromisso e sem compromisso. Preço fixo acordado antes de começar.
+ Orçamento por escrito antes de qualquer intervenção. Preço fixo acordado antes de começar.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -384,7 +384,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </section>
  {/* CTA Final */}
  <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-8 text-center">
- <h3 className="text-3xl font-bold mb-4">estimativa sem custo e Sem Compromisso</h3>
+ <h3 className="text-3xl font-bold mb-4">estimativa indicativa</h3>
  <p className="text-lg mb-6 opacity-90 max-w-2xl mx-auto">
  Preço fixo acordado antes de começar. Sem surpresas, sem custos escondidos.
  Atendimento em toda a região de Trás-os-Montes.

@@ -370,7 +370,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </tbody>
  </table>
  <p className="text-sm text-gray-600 mt-4">
- 💡 <strong>Dica:</strong> Peça sempre sem compromisso antes de autorizar o serviço.
+ 💡 <strong>Dica:</strong> Peça sempre um orçamento por escrito antes de autorizar o serviço.
  </p>
  </div>
  </section>

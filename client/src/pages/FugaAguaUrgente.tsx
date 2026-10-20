@@ -225,7 +225,7 @@ export default function FugaAguaUrgente() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ estimativa sem custo • ✓ Garantia 12 Meses
+ ✓ estimativa indicativa • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>

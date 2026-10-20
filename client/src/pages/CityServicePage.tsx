@@ -175,7 +175,7 @@ export default function CityServicePage() {
  className="block w-full text-center text-white font-bold text-lg py-4 rounded-xl shadow-lg hover:shadow-xl transition-all"
  style={{ backgroundColor: '#25D366' }}
  >
- 💬 estimativa sem custo A confirmar → Sem Compromisso
+ 💬 estimativa indicativa A confirmar → Sem Compromisso
  </a>
  </div>
  </div>
@@ -203,7 +203,7 @@ export default function CityServicePage() {
  Precisa de {service.name} em {city.name}?
  </h2>
  <p className="text-xl mb-8">
- Contacte-nos agora. Sem compromisso e sem compromisso.
+ Contacte-nos agora. Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -217,7 +217,7 @@ export default function CityServicePage() {
  href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`}
  className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
  >
- 💬 WhatsApp → estimativa sem custo
+ 💬 WhatsApp → estimativa indicativa
  </a>
  </div>
  </div>

@@ -23,7 +23,7 @@ export default function Lalim() {
     },
     {
       question: "Fazem desentupimentos em Lalim?",
-      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Lalim. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito e sem compromisso."
+      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Lalim. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Lalim?",

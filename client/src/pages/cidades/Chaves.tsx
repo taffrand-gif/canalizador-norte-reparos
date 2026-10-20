@@ -16,7 +16,7 @@ export default function Chaves() {
  const { config } = useSite();
 
  useEffect(() => {
- document.title = "💧 Canalizador Chaves — estimativa sem custo | Garantia Escrita";
+ document.title = "💧 Canalizador Chaves — estimativa indicativa | Garantia Escrita";
 
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {

@@ -3,7 +3,7 @@ import { useSite } from '@/contexts/SiteContext';
 import { useEffect, useRef, useState } from 'react';
 const trustItems = [
  { icon: '🕐', label: 'Disponível Atendimento 24h/7d' },
- { icon: '💰', label: 'estimativa sem custo' },
+ { icon: '💰', label: 'estimativa indicativa' },
  { icon: '✅', label: 'Garantia de Serviço' },
  { icon: '📍', label: 'Toda Trás-os-Montes' },
 ];
