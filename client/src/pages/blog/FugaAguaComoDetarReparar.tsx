@@ -19,7 +19,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  "@type": "FAQPage",
  "mainEntity": [
  {"@type":"Question","name":'Como sei se tenho fuga de água escondida em casa?',"acceptedAnswer":{"@type":"Answer","text":'Faça o teste do contador: feche toda a água, anote os números do contador, aguarde 2 horas sem usar água e volte ao contador. Se os números mudaram tem fuga ativa. Outros sinais: conta de água elevada, manchas de humidade, cheiro a mofo, som de água a correr, pressão baixa.'}},
- {"@type":"Question","name":'Quanto custa reparar uma fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo e localização: torneira a pingar 5-30€ (DIY) ou 50-80€ (profissional); autoclismo 15-30€ (DIY) ou 60-100€ (profissional); junta de cano 2-10€ (DIY) ou 60-120€ (profissional); fuga em parede 150-500€; cano rebentado 200-800€.'}},
+ {"@type":"Question","name":'Quanto custa reparar uma fuga de água?',"acceptedAnswer":{"@type":"Answer","text":'Depende do tipo e localização: torneira a pingar 5-30€ (DIY) ou sob orçamento (profissional); autoclismo 15-30€ (DIY) ou sob orçamento (profissional); junta de cano 2-10€ (DIY) ou sob orçamento (profissional); fuga em parede 150-500€; cano rebentado 200-800€.'}},
  {"@type":"Question","name":'Uma fuga pequena é urgente ou pode esperar?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre urgente. Fuga pequena torna-se grande rapidamente; o desperdício acumula (200-400€/ano); humidade causa bolor e danos estruturais; reparação precoce é 10x mais barata. Repare nas primeiras 24-48 horas.'}},
  {"@type":"Question","name":'Posso reparar uma fuga de água sozinho ou preciso de canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Pode reparar sozinho: torneira a pingar (trocar junta), autoclismo a perder água (trocar válvula), junta de cano solta (fita teflon), mangueira flexível rachada. Precisa de canalizador: fuga dentro da parede, cano rebentado ou partido, fuga no esquentador, canalização enterrada, infiltração do andar de cima.'}},
  {"@type":"Question","name":'Como encontrar uma fuga de água dentro da parede?',"acceptedAnswer":{"@type":"Answer","text":'Métodos profissionais: câmara termográfica (deteta diferenças de temperatura), detetor acústico (amplifica som de água a correr), câmara endoscópica (inserida em pequeno furo) e teste de pressão. Custo de deteção: 120-180€ — evita escavações desnecessárias de 500-1000€.'}},
@@ -303,7 +303,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  </ul>
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
- <p className="text-yellow-900"><strong>💰 Custo:</strong> 120-180€ (inclui relatório). Compensa evitar escavações desnecessárias que custam 500-1000€.</p>
+ <p className="text-yellow-900"><strong>💰 Custo:</strong> sob orçamento. Compensa evitar escavações desnecessárias que custam 500-1000€.</p>
  </div>
  </div>
  </div>
@@ -514,7 +514,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <div>
  <p className="font-bold text-green-900 mb-3">Reparar urgentemente:</p>
  <ul className="text-green-800 space-y-2 text-sm">
- <li>✅ Custo reparação: 50-150€</li>
+ <li>✅ Custo reparação: sob orçamento</li>
  <li>✅ Tempo: 1-2 horas</li>
  <li>✅ Sem danos adicionais</li>
  <li>✅ Poupança imediata na conta</li>
@@ -704,7 +704,7 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <li>• <strong>Teste de pressão:</strong> Identifica zona com perda de pressão</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
- 💡 Custo deteção: 120-180€ (evita escavações desnecessárias de 500-1000€)
+ 💡 Custo deteção: sob orçamento (evita escavações desnecessárias de 500-1000€)
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
