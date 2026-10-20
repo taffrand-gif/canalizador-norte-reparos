@@ -4,7 +4,7 @@ import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 const faqItems = [
  { question: "Como detetar uma fuga de água escondida?", answer: "Sinais comuns incluem manchas de humidade, aumento inexplicável da conta de água, som de água a correr e bolhas na pintura. Utilizamos câmaras de inspeção e detetores acústicos para localização precisa." },
- { question: "Quanto custa arranjar uma fuga de água?", answer: "O preço varia entre €80 e €300 dependendo da complexidade. Fugas visíveis são mais económicas. Oferecemos sem compromisso e sem compromisso." },
+ { question: "Quanto custa arranjar uma fuga de água?", answer: "O preço varia entre €80 e €300 dependendo da complexidade. Fugas visíveis são mais económicas. Fazemos orçamento por escrito antes de qualquer intervenção." },
  { question: "Fazem arranjo de fugas ao fim de semana?", answer: "Sim, estamos disponíveis 24h/7d incluindo fins de semana e feriados para urgências de fugas de água em toda a região de Trás-os-Montes." }
 ];
 export default function ArranjacaoFugasAgua() {

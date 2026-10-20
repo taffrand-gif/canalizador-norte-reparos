@@ -211,7 +211,7 @@ export default function Servicos() {
  Precisa de um Canalizador em Trás-os-Montes?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Contacte-nos agora para um sem compromisso e sem compromisso. 
+ Contacte-nos agora para um orçamento por escrito antes de qualquer intervenção. 
  Atendemos urgências Atendimento 24h/7d, incluindo fins de semana e feriados.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center">

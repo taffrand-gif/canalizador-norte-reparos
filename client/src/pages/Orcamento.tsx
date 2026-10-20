@@ -6,7 +6,7 @@ export default function Orcamento() {
 
  useSEO({
  title: `Pedir estimativa indicativa | ${businessName}`,
- description: `Peça um sem compromisso e sem compromisso. Disponível 24h/7 dias e preços competitivos. Contacte-nos: ${phone}`,
+ description: `Peça um orçamento por escrito antes de qualquer intervenção. Disponível 24h/7 dias e preços competitivos. Contacte-nos: ${phone}`,
  keywords: "sem compromisso, pedir orçamento, orçamento sem compromisso, preços competitivos"});
  return (
  <div className="min-h-screen bg-gray-50">
