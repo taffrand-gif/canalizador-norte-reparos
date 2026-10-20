@@ -284,7 +284,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
  ✅ Disponível 24h/7 dias<br />
- ✅ Sem compromisso sem compromisso
+ ✅ Orçamento por escrito antes de qualquer intervenção
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

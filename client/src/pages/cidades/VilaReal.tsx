@@ -16,7 +16,7 @@ export default function VilaReal() {
  const { config } = useSite();
 
  useEffect(() => {
- document.title = "💧 Canalizador Vila Real — estimativa sem custo | Garantia Escrita";
+ document.title = "💧 Canalizador Vila Real — estimativa indicativa | Garantia Escrita";
 
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {

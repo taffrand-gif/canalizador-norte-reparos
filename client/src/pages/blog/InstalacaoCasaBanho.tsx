@@ -284,7 +284,7 @@ export default function InstalacaoCasaBanho() {
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Trás-os-Montes</a>, 
  <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
- Sem compromisso e sem compromisso.
+ Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

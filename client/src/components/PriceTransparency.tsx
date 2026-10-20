@@ -67,7 +67,7 @@ function PriceTransparency() {
  {/* Header */}
  <div className="text-center mb-12">
  <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-800 rounded-full font-bold text-sm mb-4">
- 💰 estimativa sem custo por Telefone
+ 💰 estimativa indicativa por Telefone
  </div>
  <h2 className="text-4xl md:text-5xl font-black mb-6">
  Preço Transparente — Sem Surpresas
@@ -129,7 +129,7 @@ function PriceTransparency() {
  Ligue Agora — Saiba o Preço Atendimento
  </h3>
  <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
- Sem compromisso e sem compromisso. Preço fixo comunicado por telefone antes de começarmos.
+ Orçamento por escrito antes de qualquer intervenção. Preço fixo comunicado por telefone antes de começarmos.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a

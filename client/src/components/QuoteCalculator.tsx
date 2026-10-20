@@ -91,7 +91,7 @@ function QuoteCalculator() {
  <div className="bg-gray-50 rounded-xl p-4 space-y-2">
  <div className="flex items-center gap-2 text-base md:text-sm text-gray-700">
  <span className="text-green-600">✓</span>
- <span>Sem compromisso e sem compromisso</span>
+ <span>Orçamento por escrito antes de qualquer intervenção</span>
  </div>
  <div className="flex items-center gap-2 text-base md:text-sm text-gray-700">
  <span className="text-green-600">✓</span>

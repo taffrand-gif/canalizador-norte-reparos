@@ -15,7 +15,7 @@ export default function Lixa() {
   const { config } = useSite();
 
   useEffect(() => {
-    document.title = "💧 Canalizador Urgente Lixa — Atendimento 24h | estimativa sem custo";
+    document.title = "💧 Canalizador Urgente Lixa — Atendimento 24h | estimativa indicativa";
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');

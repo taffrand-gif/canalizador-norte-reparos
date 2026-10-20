@@ -118,7 +118,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Quanto Custa Arranjar Água Castanha da Torneira?
  </h1>
  <p className="text-xl mb-8">
- Preços claros e honestos. Sem compromisso sem compromisso.
+ Preços claros e honestos. Orçamento por escrito antes de qualquer intervenção.
  Atendimento 24h em Trás-os-Montes.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -127,7 +127,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg flex items-center justify-center gap-2"
  >
  <Phone className="w-6 h-6" />
- estimativa sem custo: {config.phone}
+ estimativa indicativa: {config.phone}
  </a>
  <a
  href={`https://wa.me/${config.whatsapp}?text=Preciso orçamento para arranjar água castanha`}
@@ -175,7 +175,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
- ✅ Sem compromisso sem compromisso<br />
+ ✅ Orçamento por escrito antes de qualquer intervenção<br />
  ✅ Preços finais após diagnóstico no local<br />
  ✅ Garantia de Orçamento por escrito
  </p>
@@ -283,7 +283,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Precisa Arranjar Água Castanha?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Sem compromisso sem compromisso. Atendimento 24h.
+ Orçamento por escrito antes de qualquer intervenção. Atendimento 24h.
  Disponível 24h/7 dias.
  </p>
  <a

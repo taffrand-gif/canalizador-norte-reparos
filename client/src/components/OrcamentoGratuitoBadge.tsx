@@ -1,4 +1,4 @@
-// Badge "estimativa sem custo" bem visível
+// Badge "estimativa indicativa" bem visível
 // Aparece sob o hero, acima dos serviços
 import { useSite } from '@/contexts/SiteContext';
 import { Shield, Phone } from 'lucide-react';
@@ -11,7 +11,7 @@ export default function OrcamentoGratuitoBadge() {
  <div className="flex items-center gap-3">
  <Shield className="w-8 h-8" />
  <div>
- <span className="text-2xl font-black tracking-wide">estimativa sem custo</span>
+ <span className="text-2xl font-black tracking-wide">estimativa indicativa</span>
  <p className="text-green-100 text-sm">Sem compromisso • Orçamento por escrito em 48h</p>
  </div>
  </div>

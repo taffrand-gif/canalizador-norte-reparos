@@ -105,7 +105,7 @@ function Trabalhos() {
  Quer um trabalho com esta qualidade?
  </p>
  <p className="text-gray-600 mb-6">
- Contacte-nos para um sem compromisso e sem compromisso.
+ Contacte-nos para um orçamento por escrito antes de qualquer intervenção.
  </p>
  <a
  href={`tel:+351${config.phone.replace(/\s/g, '')}`}

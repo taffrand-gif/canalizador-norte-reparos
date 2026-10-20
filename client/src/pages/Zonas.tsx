@@ -217,8 +217,8 @@ export default function Zonas() {
  <div className="max-w-3xl mx-auto text-center">
  <h2 className="text-3xl font-bold text-gray-900 mb-4">Precisa de um Canalizador?</h2>
  <p className="text-lg text-gray-600 mb-8">
- Atendemos toda a região de Trás-os-Montes com rapidez e profissionalismo. Sem compromisso e sem
- compromisso.
+ Atendemos toda a região de Trás-os-Montes com rapidez e profissionalismo. Orçamento por escrito antes de
+ qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a

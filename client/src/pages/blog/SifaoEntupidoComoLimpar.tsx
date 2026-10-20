@@ -771,7 +771,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <span className="text-2xl">✅</span>
  <div>
  <p className="font-bold">Preço Justo</p>
- <p className="text-sm text-white/80">Sem compromisso sem compromisso</p>
+ <p className="text-sm text-white/80">Orçamento por escrito antes de qualquer intervenção</p>
  </div>
  </div>
  <div className="flex items-start gap-3">

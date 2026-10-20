@@ -135,7 +135,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  },
  {
  icon: 'check',
- title: 'estimativa sem custo',
+ title: 'estimativa indicativa',
  description: 'Diagnóstico e orçamento por escrito antes da intervençãoos. Só paga se aprovar e arranjarmos.'
  },
  {
@@ -266,7 +266,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ estimativa sem custo • ✓ Arranjo no Dia • ✓ Garantia 12 Meses
+ ✓ estimativa indicativa • ✓ Arranjo no Dia • ✓ Garantia 12 Meses
  </p>
  </div>
  </section>
