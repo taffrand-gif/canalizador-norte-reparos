@@ -136,7 +136,7 @@ def patch_file(path, dry_run=True):
     if path.endswith('equipa.html'):
         # Meta og:description et twitter:description
         meta_old = 'profissionais com experiência em Trás-os-Montes, com equipamento profissional de diagnóstico e fichas eletrotécnicas em conformidade com a.'
-        meta_new = 'profissionais com experiência em Trás-os-Montes, com equipamento profissional de diagnóstico (FLIR, Ridgid, Fluke). Fatura com NIF e orçamento por escrito antes de qualquer intervenção.'
+        meta_new = 'profissionais com experiência em Trás-os-Montes, com equipamento profissional Ridgid K9-102. Fatura com NIF e orçamento por escrito antes de qualquer intervenção.'
         if meta_old in content:
             content = content.replace(meta_old, meta_new)
             patches.append('EQUIPA_META')

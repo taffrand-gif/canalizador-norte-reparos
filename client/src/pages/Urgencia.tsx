@@ -36,7 +36,7 @@ function CanalizadorUrgente() {
     "name": "Que equipamento utilizam para resolver uma urgência?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Máquina de alta pressão Ridgid K-9102 (desentupimentos), câmara endoscópica para inspeção, geofone e câmara termográfica FLIR para localização de fugas sem demolição. Todo o equipamento vai na viatura — resolvemos à primeira na maioria dos casos."
+     "text": "Máquina de desentupimento Ridgid K9-102. Todo o equipamento vai na viatura — resolvemos à primeira na maioria dos casos."
     }
    },
    {
@@ -169,7 +169,7 @@ function CanalizadorUrgente() {
  <ul className="space-y-2 text-gray-700 mb-6">
  <li className="flex items-start gap-2">
  <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
- <span>Deteção com câmara termográfica e geofone</span>
+ <span>Localização da fuga antes de abrir</span>
  </li>
  <li className="flex items-start gap-2">
  <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
@@ -388,7 +388,7 @@ function CanalizadorUrgente() {
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Que equipamento utilizam?</h3>
  <p className="text-gray-700">
- Máquina Ridgid K-9102 (alta pressão), câmara endoscópica, geofone e câmara termográfica FLIR. Todo o equipamento vai na viatura — resolvemos à primeira na maioria dos casos.
+ Máquina de desentupimento Ridgid K9-102. Todo o equipamento vai na viatura — resolvemos à primeira na maioria dos casos.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">

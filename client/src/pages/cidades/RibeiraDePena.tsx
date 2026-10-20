@@ -82,7 +82,7 @@ export default function RibeiraDePena() {
  { question: "Qual o preço de canalizador em Ribeira de Pena?", answer: "Desde 100€ (150 € noite/fim de semana) em Ribeira de Pena. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Ribeira de Pena?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Ribeira de Pena. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
- { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
+ { question: "Como detetam fugas sem partir paredes?", answer: "Começamos pela inspeção visual e pelo controlo do contador para localizar a origem antes de abrir paredes ou pavimentos." },
  { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
  ];
 
@@ -152,7 +152,7 @@ export default function RibeiraDePena() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
- <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
+ <p className="text-gray-600">Deteção com geofone. Reparação sem demolição. Fatura com NIF para seguro.</p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -184,7 +184,7 @@ export default function RibeiraDePena() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
- <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
+ <p className="text-gray-600">Ridgid K9-102, geofone para tubagens enterradas.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>

@@ -78,7 +78,7 @@ export default function TorreMoncorvo() {
 
  const cidadesProximas = getCidadesProximas('torre-moncorvo');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 100€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 100€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Como detetam fugas sem partir paredes?', 'answer': 'Começamos pela inspeção visual e pelo controlo do contador para localizar a origem antes de abrir paredes ou pavimentos.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -160,7 +160,7 @@ export default function TorreMoncorvo() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com geofone. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -218,8 +218,7 @@ export default function TorreMoncorvo() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ Ridgid K9-102 para desentupimentos, geofone para tubagens enterradas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

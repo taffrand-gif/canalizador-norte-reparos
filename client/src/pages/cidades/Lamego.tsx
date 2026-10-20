@@ -78,7 +78,7 @@ export default function Lamego() {
 
  const cidadesProximas = getCidadesProximas('lamego');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Lamego?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Lamego. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Lamego?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Lamego. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Lamego?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Lamego. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Lamego?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Lamego. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -160,7 +160,7 @@ export default function Lamego() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com geofone. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -218,8 +218,7 @@ export default function Lamego() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ Ridgid K9-102 para desentupimentos, geofone para tubagens enterradas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
