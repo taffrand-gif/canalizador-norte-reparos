@@ -65,7 +65,7 @@ export default function Vinhais() {
  { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 100€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Vinhais?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vinhais. Ligue +351 928 484 451." },
  { question: "Atendem aldeias rurais de Vinhais?", answer: "Sim, servimos todo o conselho incluindo aldeias de montanha e propriedades isoladas." },
- { question: "Têm câmara termográfica?", answer: "Sim, utilizamos FLIR e geofone para deteção precisa de fugas sem demolição." },
+ { question: "Como detetam fugas?", answer: "Começamos pela inspeção visual e pelo controlo do contador para localizar a origem antes de abrir paredes ou pavimentos." },
  { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
  ];
 

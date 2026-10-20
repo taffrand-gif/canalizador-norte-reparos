@@ -335,7 +335,7 @@ export default function QuantoTempoSemAguaQuente() {
  <div className="bg-blue-50 p-6 rounded-lg">
  <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
  <h3 className="font-bold text-gray-900 mb-2">Estado da chama e ventilação</h3>
- <p className="text-gray-700">Verificamos cor da chama (deve ser azul estável), tiragem da chaminé, ventilação do local. Câmara termográfica FLIR deteta sobreaquecimentos invisíveis a olho nu.</p>
+ <p className="text-gray-700">Verificamos cor da chama (deve ser azul estável), tiragem da chaminé, ventilação do local.</p>
  </div>
  <div className="bg-blue-50 p-6 rounded-lg">
  <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
@@ -359,7 +359,7 @@ export default function QuantoTempoSemAguaQuente() {
  <div className="max-w-4xl mx-auto space-y-4">
  {[
  { step: '1', title: 'Atendimento 24h/7d', desc: 'Atendemos a chamada ou WhatsApp. Em caso de cheiro a gás, indicamos como arejar a casa e cortar o gás em segurança antes da nossa chegada.' },
- { step: '2', title: 'Diagnóstico no local', desc: 'Avaliamos o esquentador: chama, pressão, temperatura, ventilação, tubagem. Sem partir nada — inspeção visual + instrumentação (FLIR, manómetro, câmara 30 m).' },
+ { step: '2', title: 'Diagnóstico no local', desc: 'Avaliamos o esquentador: chama, pressão, temperatura, ventilação, tubagem. Sem partir nada — inspeção visual e manómetro.' },
  { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos a solução (arranjar ou substituir), discriminamos mão de obra e peças, dizemos quanto tempo vai demorar. Por escrito.' },
  { step: '4', title: 'Intervenção profissional', desc: 'Trabalhamos com peças de qualidade. Em caso de fuga de gás, testamos a estanquidade antes de sair. Em conformidade com a (registo em curso).' },
  { step: '5', title: 'Teste e certificação', desc: 'Testamos o esquentador em carga — várias descargas, verificação de temperatura e segurança. Documentação entregue no final.' }
@@ -399,7 +399,7 @@ export default function QuantoTempoSemAguaQuente() {
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
- <span>Equipamento profissional verificado (FLIR, manómetro, câmara 30 m)</span>
+ <span>Verificação com manómetro</span>
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />

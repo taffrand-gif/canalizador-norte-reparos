@@ -5,7 +5,6 @@ export default function PremiumBar() {
  const isPlumber = config.id === 'norte-reparos';
  const items = isPlumber
  ? [
- { icon: '🔬', label: 'Câmara Térmica' },
  { icon: '🔧', label: 'Ridgid K9-102' },
  { icon: '🔍', label: 'Endoscópio HD' },
  { icon: '📡', label: 'Geofone Deteção' },
