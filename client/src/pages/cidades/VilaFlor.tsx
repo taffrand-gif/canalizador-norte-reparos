@@ -24,7 +24,7 @@ export default function VilaFlor() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Vila Flor. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Vila Flor. Desentupimentos e arranjos, orçamento por escrito antes de qualquer intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function VilaFlor() {
 
  const cidadesProximas = getCidadesProximas('vila-flor');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Em Vila Flor: dias úteis (09h–18h), 70 €/h + 30 € de deslocação; após as 18h, noite, fins de semana e feriados, 100 €/h + 50 € de deslocação. Valores TTC. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>
@@ -281,7 +281,7 @@ export default function VilaFlor() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção profissional, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora: orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

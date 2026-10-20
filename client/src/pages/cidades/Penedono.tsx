@@ -24,7 +24,7 @@ export default function Penedono() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Penedono. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Penedono. Desentupimentos e arranjos, orçamento por escrito antes de qualquer intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function Penedono() {
 
  const cidadesProximas = getCidadesProximas('penedono');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Penedono?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Penedono. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Penedono?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Penedono. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Penedono?', 'answer': 'Em Penedono: dias úteis (09h–18h), 70 €/h + 30 € de deslocação; após as 18h, noite, fins de semana e feriados, 100 €/h + 50 € de deslocação. Valores TTC. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.'}, {'question': 'Fazem urgências em Penedono?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Penedono. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>
@@ -275,7 +275,7 @@ export default function Penedono() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção rápida, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora: orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

@@ -23,7 +23,7 @@ export default function Britiande() {
     },
     {
       question: "Fazem desentupimentos em Britiande?",
-      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Britiande. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito e sem compromisso."
+      answer: "Sim, realizamos desentupimentos de esgotos, lavatórios, sanitas, ralos e colunas em Britiande. Utilizamos equipamento de alta pressão e câmara de inspeção. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
     },
     {
       question: "Reparam fugas de água ao fim de semana em Britiande?",
