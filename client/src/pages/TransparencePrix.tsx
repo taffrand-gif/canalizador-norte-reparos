@@ -313,7 +313,7 @@ export default function TransparencePrix() {
  <h3 className="text-xl font-bold mb-3 text-gray-900">Seguro & Garantia</h3>
  <p className="text-gray-700 leading-relaxed">
  Seguro de responsabilidade civil profissional até 50.000 €.
- Se causar infiltração, estamos cobertos. Muitos "baratos" trabalham sem seguro.
+ Muitos "baratos" trabalham sem seguro.
  </p>
  </div>
  </div>
