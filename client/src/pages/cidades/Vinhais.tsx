@@ -23,7 +23,7 @@ export default function Vinhais() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Vinhais. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Vinhais. Desentupimentos e arranjos, orçamento por escrito antes da intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -62,7 +62,7 @@ export default function Vinhais() {
 
  const cidadesProximas = getCidadesProximas('vinhais');
  const faqs = [
- { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 100€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Vinhais?", answer: "Desde 100€ em Vinhais. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes da intervenção." },
  { question: "Fazem urgências em Vinhais?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vinhais. Ligue +351 928 484 451." },
  { question: "Atendem aldeias rurais de Vinhais?", answer: "Sim, servimos todo o conselho incluindo aldeias de montanha e propriedades isoladas." },
  { question: "Têm câmara termográfica?", answer: "Sim, utilizamos FLIR e geofone para deteção precisa de fugas sem demolição." },

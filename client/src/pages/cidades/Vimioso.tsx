@@ -24,7 +24,7 @@ export default function Vimioso() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Vimioso. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Vimioso. Desentupimentos e arranjos, orçamento por escrito antes da intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -79,7 +79,7 @@ export default function Vimioso() {
  const cidadesProximas = getCidadesProximas('vimioso');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Vimioso?", answer: "Desde 100€ em Vimioso. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Vimioso?", answer: "Desde 100€ em Vimioso. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes da intervenção." },
  { question: "Fazem urgências em Vimioso?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vimioso. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

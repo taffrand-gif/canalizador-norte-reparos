@@ -24,7 +24,7 @@ export default function Armamar() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Armamar. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Armamar. Desentupimentos e arranjos, orçamento por escrito antes da intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function Armamar() {
 
  const cidadesProximas = getCidadesProximas('armamar');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Armamar?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Armamar. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Armamar?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Armamar. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Armamar?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Armamar. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes da intervenção.'}, {'question': 'Fazem urgências em Armamar?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Armamar. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -275,7 +275,7 @@ export default function Armamar() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção rápida, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para pedir um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
