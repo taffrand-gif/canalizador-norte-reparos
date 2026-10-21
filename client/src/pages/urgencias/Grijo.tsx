@@ -53,7 +53,7 @@ export default function Grijo() {
     { question: 'Qual o prazo de chegada em Grijo?', answer: 'Atendimento 24h/7d em Grijo e arredores. Ligue 928 484 451.' },
     { question: 'Quanto custa uma urgência em Grijo?', answer: 'O preço é combinado antes da intervenção. Sem surpresas. Fatura com NIF incluída.' },
     { question: 'Trabalham aos fins de semana em Grijo?', answer: 'Sim, atendimento 24 horas, 7 dias por semana, incluindo feriados.' },
-    { question: 'Têm equipamento profissional?', answer: 'Sim, câmara termográfica FLIR, geofone, máquina de desentupimento Ridgid K9-102.' },
+    { question: 'Têm equipamento profissional?', answer: 'Sim, câmara endoscópica, fluoresceína e detetor de humidade e máquina de desentupimento Ridgid K9-102.' },
     { question: 'Cobrem freguesias vizinhas de Grijo?', answer: 'Sim, servimos Grijo e todas as freguesias e aldeias do concelho.' }
   ];
   return (
