@@ -79,7 +79,7 @@ export default function Vimioso() {
  const cidadesProximas = getCidadesProximas('vimioso');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Vimioso?", answer: "Desde 100€ em Vimioso. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Vimioso?", answer: "70 €/h + 30 € de deslocação (dias úteis, 09h–18h) e 100 €/h + 50 € de deslocação (noite, fins de semana e feriados), IVA incluído, em Vimioso. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Vimioso?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vimioso. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

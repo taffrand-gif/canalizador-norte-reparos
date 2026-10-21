@@ -79,7 +79,7 @@ export default function SantaMartaPenaguião() {
  const cidadesProximas = getCidadesProximas('santa-marta-de-penaguiao');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Santa Marta de Penaguião?", answer: "Desde 100€ (150 € noite/fim de semana) em Santa Marta de Penaguião. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Santa Marta de Penaguião?", answer: "70 €/h + 30 € de deslocação (dias úteis, 09h–18h) e 100 €/h + 50 € de deslocação (noite, fins de semana e feriados), IVA incluído, em Santa Marta de Penaguião. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
  { question: "Fazem urgências em Santa Marta de Penaguião?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Santa Marta de Penaguião. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
