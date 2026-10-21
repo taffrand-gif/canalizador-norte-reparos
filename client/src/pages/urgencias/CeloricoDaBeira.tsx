@@ -72,7 +72,7 @@ export default function CeloricoDaBeira() {
     ]} />
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador Urgente em Celorico da Beira</h1>
               <p className="text-xl mb-8">
-                Atendimento 24h/7d em Celorico Da Beira (Guarda). Orçamento sem compromisso.
+                Atendimento 24h/7d em Celorico Da Beira (Guarda). Orçamento por escrito antes da intervenção.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

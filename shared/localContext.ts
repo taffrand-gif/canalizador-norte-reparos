@@ -135,7 +135,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Cobertura dos eixos N15, N102 e IC5. Equipamento preparado para sistemas de bombagem rural.",
     pricingHook:
       "Tarifa base aplicável a Macedo de Cavaleiros e 38 freguesias (Morais, Lagoa, Talhinhas, Salsas, etc.). " +
-      "Base operacional na sede do concelho — resposta imediata. Orçamento sem compromisso.",
+      "Base operacional na sede do concelho — resposta imediata. Orçamento por escrito antes da intervenção.",
     freguesias: [
       "Macedo de Cavaleiros",
       "Morais",
@@ -204,7 +204,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "fugas em tubagem envelhecida. Acesso por A24 e N2. Atendimento 24h/7d.",
     pricingHook:
       "Tarifa base para Chaves e 39 freguesias (Vidago, Pedras Salgadas, Vila Verde da Raia, Oura). " +
-      "Experiência em sistemas de aquecimento central e parque hoteleiro termal. Orçamento sem compromisso.",
+      "Experiência em sistemas de aquecimento central e parque hoteleiro termal. Orçamento por escrito antes da intervenção.",
     freguesias: [
       "Chaves",
       "Vidago",
@@ -239,7 +239,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Acesso por N221 (Mogadouro). Equipa técnica 24h/7d.",
     pricingHook:
       "Tarifa base para Miranda do Douro e 17 freguesias do planalto mirandês (Sendim, Palaçoulo, Duas Igrejas). " +
-      "Deslocação por N221 — trajeto sinuoso com troços sujeitos a nevoeiro. Orçamento sem compromisso.",
+      "Deslocação por N221 — trajeto sinuoso com troços sujeitos a nevoeiro. Orçamento por escrito antes da intervenção.",
     freguesias: [
       "Miranda do Douro",
       "Sendim",
@@ -273,7 +273,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "substituição de bombas de água. Acesso por N102. Equipa técnica 24h/7d.",
     pricingHook:
       "Tarifa base para Vinhais e 26 freguesias (Ervedosa, Moimenta, Agrochão, Santalha, Candedo). " +
-      "Equipamento preparado para habitação rural isolada e sistemas de bombagem próprios. Orçamento sem compromisso.",
+      "Equipamento preparado para habitação rural isolada e sistemas de bombagem próprios. Orçamento por escrito antes da intervenção.",
     freguesias: [
       "Vinhais",
       "Ervedosa",

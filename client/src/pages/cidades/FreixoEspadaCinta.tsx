@@ -79,7 +79,7 @@ export default function FreixoEspadaCinta() {
  const cidadesProximas = getCidadesProximas('freixo-de-espada-a-cinta');
 
  const faqs = [
- { question: "Qual o preço de canalizador em Freixo de Espada à Cinta?", answer: "Desde 100€ em Freixo de Espada à Cinta. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
+ { question: "Qual o preço de canalizador em Freixo de Espada à Cinta?", answer: "Desde 100€ em Freixo de Espada à Cinta. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes da intervenção." },
  { question: "Fazem urgências em Freixo de Espada à Cinta?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Freixo de Espada à Cinta. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
  { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },

@@ -78,7 +78,7 @@ export default function VilaReal() {
 
  const cidadesProximas = getCidadesProximas('vila-real');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes da intervenção.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
 
  return (
  <>
@@ -281,7 +281,7 @@ export default function VilaReal() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção rápida, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para pedir um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
