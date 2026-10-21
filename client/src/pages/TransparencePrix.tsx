@@ -177,7 +177,7 @@ export default function TransparencePrix() {
  Todos os Nossos <span className="text-[var(--site-primary)]">Preços</span>
  </h2>
  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
- Valores sem IVA (Art. 53º CIVA). O que vê é o que paga. Sempre.
+ Valores TTC, IVA incluído. O que vê é o que paga. Sempre.
  </p>
  </div>
  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

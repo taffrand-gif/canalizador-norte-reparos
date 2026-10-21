@@ -45,7 +45,7 @@ const serviceFeatures = {
  'Testes de pressão e estanquicidade'
  ],
  'Urgências 24h': [
- 'Orçamento por escrito em 48h',
+ 'Orçamento por escrito antes da intervenção',
  'A nossa equipa com equipamento profissional de diagnóstico',
  'Sem compromisso no local'
  ]
@@ -139,7 +139,7 @@ const OptimizedServices: React.FC = () => {
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">🚨</div>
- <span className="text-gray-700">Orçamento por escrito em 48h, garantia 1 ano</span>
+ <span className="text-gray-700">Orçamento por escrito antes da intervenção</span>
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">💰</div>
