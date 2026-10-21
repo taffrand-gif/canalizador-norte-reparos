@@ -312,7 +312,7 @@ export default function TransparencePrix() {
  <Users className="w-12 h-12 text-orange-600 mb-4" />
  <h3 className="text-xl font-bold mb-3 text-gray-900">Seguro & Garantia</h3>
  <p className="text-gray-700 leading-relaxed">
- Seguro de responsabilidade civil profissional até 50.000 €. Garantia 12 meses em instalações.
+ Seguro de responsabilidade civil profissional até 50.000 €.
  Se causar infiltração, estamos cobertos. Muitos "baratos" trabalham sem seguro.
  </p>
  </div>
