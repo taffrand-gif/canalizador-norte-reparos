@@ -3304,7 +3304,6 @@ https://canalizador-norte-reparos.pt/guia-eletricidade
 https://canalizador-norte-reparos.pt/guia-manutencao-casa
 https://canalizador-norte-reparos.pt/guia-precos-canalizador
 https://canalizador-norte-reparos.pt/humidade-parede-causa
-https://canalizador-norte-reparos.pt/inspecao-termica-canalizacao
 https://canalizador-norte-reparos.pt/instalacao-casa-banho-alfandega-fe
 https://canalizador-norte-reparos.pt/instalacao-casa-banho-alfandega
 https://canalizador-norte-reparos.pt/instalacao-casa-banho-algoso
@@ -4456,7 +4455,6 @@ https://canalizador-norte-reparos.pt/sinais-alerta-casa-antiga
 https://canalizador-norte-reparos.pt/sobre-mim
 https://canalizador-norte-reparos.pt/sobre
 https://canalizador-norte-reparos.pt/tecnologia-endoscopio-inspeccao-video
-https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas
 https://canalizador-norte-reparos.pt/tecnologia-premium
 https://canalizador-norte-reparos.pt/tecnologia-ridgid-k9-102-desentupimento
 https://canalizador-norte-reparos.pt/tecnologia-roleak-acustica
