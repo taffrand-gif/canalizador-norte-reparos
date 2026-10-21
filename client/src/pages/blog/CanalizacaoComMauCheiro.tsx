@@ -514,7 +514,6 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <li>Limpeza com máquina alta pressão</li>
  <li>Reparação de canos rachados</li>
  <li>Instalação/reparação de ventilação</li>
- <li>Garantia do trabalho realizado</li>
  </ul>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">

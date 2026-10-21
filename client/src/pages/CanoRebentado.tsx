@@ -134,11 +134,6 @@ export default function CanoRebentado() {
  description: 'Em emergências, garantimos Disponível 24h/7 dias. Técnico sai mediante confirmação.'
  },
  {
- icon: 'shield',
- title: 'Garantia 12 Meses',
- description: 'Todas as arranjos de emergência têm Garantia 12 meses. Trabalho profissional.'
- },
- {
  icon: 'check',
  title: 'Disponível Atendimento 24h/7d',
  description: 'Atendemos 24h/7d incluindo madrugadas, fins de semana e feriados. Sempre disponíveis.'
@@ -217,7 +212,7 @@ export default function CanoRebentado() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Paramos a Água • ✓ Garantia 12 Meses
+ ✓ Paramos a Água
  </p>
  </div>
  </section>
