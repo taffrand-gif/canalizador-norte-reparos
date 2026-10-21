@@ -201,7 +201,6 @@ export default function TorreDonaChama() {
                   <li>✓ Substituição de tubagens antigas</li>
                   <li>✓ Casas de banho e cozinhas</li>
                   <li>✓ Esquentadores e termoacumuladores</li>
-                  <li>✓ Garantia 12 meses</li>
                 </ul>
               </div>
             </div>
@@ -284,7 +283,7 @@ export default function TorreDonaChama() {
               <span className="text-blue-300">Torre de Dona Chama</span>
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">
-              deslocação 30€. Orçamento por escrito. Garantia de 12 meses.
+              deslocação 30€. Orçamento por escrito.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a
