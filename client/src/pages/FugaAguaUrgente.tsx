@@ -121,7 +121,7 @@ export default function FugaAguaUrgente() {
  {
  time: 'A confirmar',
  title: 'Arranjo Completa',
- description: 'Arranjamos definitivamente. Testamos. Limpamos. Garantia 12 meses. Problema resolvido.',
+ description: 'Arranjamos definitivamente. Testamos. Limpamos. Problema resolvido.',
  icon: 'check'
  }
  ]}
@@ -136,11 +136,6 @@ export default function FugaAguaUrgente() {
  subtitle="Não arriscamos a sua confiança. Todas as arranjos têm ."
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
- {
- icon: 'shield',
- title: 'Garantia 12 Meses',
- description: 'Todas as arranjos têm Garantia 12 meses. Se voltar a ter problemas, voltamos grátis.'
- },
  {
  icon: 'check',
  title: '100% Satisfação',
@@ -188,7 +183,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Dão garantia na arranjo?',
- a: 'Sim! Todas as arranjos têm Garantia 12 meses. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. % satisfação ou .'
+ a: 'Sim! Todas as arranjos têm Se voltar a ter problemas na mesma zona, voltamos gratuitamente. % satisfação ou .'
  }
  ].map((item, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">
@@ -225,7 +220,7 @@ export default function FugaAguaUrgente() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ estimativa sem custo • ✓ Garantia 12 Meses
+ ✓ estimativa sem custo
  </p>
  </div>
  </section>

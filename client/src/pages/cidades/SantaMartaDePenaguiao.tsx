@@ -105,7 +105,7 @@ export default function SantaMartaPenaguião() {
  </h1>
  <p className="text-xl mb-8">
  Serviços de canalização certificados em Santa Marta de Penaguião e arredores.
- Resolução rápida, preço justo, garantia de 12 meses.
+ Resolução rápida, preço justo.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -162,7 +162,7 @@ export default function SantaMartaPenaguião() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
- <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
+ <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte.</p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  </div>
@@ -176,7 +176,7 @@ export default function SantaMartaPenaguião() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
- <p className="text-gray-600">Fatura com NIF, garantia escrita de 12 meses, preço combinado antes da intervenção.</p>
+ <p className="text-gray-600">Fatura com NIF, preço combinado antes da intervenção.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
@@ -197,7 +197,7 @@ export default function SantaMartaPenaguião() {
  <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
  <div className="container mx-auto px-4 text-center">
  <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">Santa Marta de Penaguião</span></h2>
- <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo, garantia de 12 meses.</p>
+ <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção rápida, preço justo.</p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
  className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
