@@ -137,11 +137,6 @@ export default function FugaAguaUrgente() {
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
- icon: 'shield',
- title: 'Garantia 12 Meses',
- description: 'Todas as arranjos têm Se voltar a ter problemas, voltamos grátis.'
- },
- {
  icon: 'check',
  title: '100% Satisfação',
  description: 'Se não ficar satisfeito com o serviço, devolvemos o dinheiro. Sem perguntas.'
@@ -225,7 +220,7 @@ export default function FugaAguaUrgente() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ estimativa sem custo • ✓ Garantia 12 Meses
+ ✓ estimativa sem custo
  </p>
  </div>
  </section>

@@ -32,7 +32,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'custo-arranjacao-fuga-agua',
  title: 'Quanto Custa Arranjar Fuga de Água em Portugal 2026',
  keywords: ['custo arranjo fuga', 'preço arranjar fuga', 'orçamento fuga água'],
- targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais e'
+ targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra e materiais.'
  },
  {
  slug: 'fuga-agua-urgente-24h',
