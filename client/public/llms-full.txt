@@ -40,10 +40,11 @@ A equipa executa desentupimentos mecânicos de sanitas, lavatórios, ralos, esgo
 
 ### 3.2 Deteção e reparação de fugas
 
-A deteção pode combinar inspeção visual, controlo do contador e câmara térmica FLIR. O objetivo é localizar a origem antes de abrir paredes ou pavimentos. A reparação é definida conforme o tipo de tubo, o acesso e a extensão do dano.
+A deteção pode combinar inspeção visual, controlo do contador, câmara térmica FLIR e deteção acústica ROLeak Aqua 3Plus. O objetivo é localizar a origem antes de abrir paredes ou pavimentos. A reparação é definida conforme o tipo de tubo, o acesso e a extensão do dano.
 
 - [Deteção e reparação de fugas de água](https://canalizador-norte-reparos.pt/detecao-fugas-agua): sintomas, causas, diagnóstico e reparação localizada.
 - [Câmara térmica FLIR](https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas): deteção térmica de anomalias e humidade.
+- [ROLeak Aqua 3Plus](https://canalizador-norte-reparos.pt/tecnologia-roleak-acustica): deteção acústica em tubagens.
 - [Inspeção por câmara](https://canalizador-norte-reparos.pt/camera-inspecao-canalizacao): inspeção interior para localizar obstruções, danos ou ligações defeituosas.
 - [Como detetar uma fuga sem partir paredes](https://canalizador-norte-reparos.pt/blog/como-detectar-fuga-agua-sem-partir-paredes): guia sobre sinais e métodos não invasivos.
 - [Cano furado na parede](https://canalizador-norte-reparos.pt/blog/cano-furado-parede-reparar): guia sobre localização e reparação de tubagem embutida.
