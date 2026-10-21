@@ -181,7 +181,6 @@ export default function Argozelo() {
                   <li>✓ Substituição de tubagens antigas</li>
                   <li>✓ Casas de banho e cozinhas</li>
                   <li>✓ Esquentadores e termoacumuladores</li>
-                  <li>✓ Garantia 12 meses</li>
                 </ul>
               </div>
             </div>
@@ -235,7 +234,7 @@ export default function Argozelo() {
         <section className="py-16 bg-gradient-to-r from-gray-900 to-blue-800 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Canalizador em <span className="text-blue-300">Argozelo</span></h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 30€. Orçamento por escrito. Garantia de 12 meses.</p>
+            <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-200">Deslocação 30€. Orçamento por escrito.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a href={`tel:${businessInfo.phone}`} className="bg-white text-blue-800 hover:bg-blue-50 font-bold px-10 py-4 rounded-lg text-lg transition-colors">🔧 {businessInfo.phoneFormatted}</a>
               <a href={`https://wa.me/${businessInfo.whatsapp}?text=Olá, preciso de um canalizador em Argozelo`} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
