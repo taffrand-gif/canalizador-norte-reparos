@@ -154,7 +154,7 @@ export default function Boticas() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone. Reparação sem demolição.
+ Deteção conforme o caso: câmara endoscópica, fluoresceína e detetor de humidade. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -212,7 +212,7 @@ export default function Boticas() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, geofone para tubagens enterradas.
+ Ridgid K9-102 para desentupimentos; câmara endoscópica, fluoresceína e detetor de humidade para a deteção de fugas, conforme o caso.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
