@@ -22,7 +22,7 @@ export default function MarcoDeCanaveses() {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', "Canalizador urgente em Marco de Canaveses (Porto). Atendimento 24h/7d, orçamento sem compromisso. Ligue: 928 484 451");
+    metaDescription.setAttribute('content', "Canalizador urgente em Marco de Canaveses (Porto). Atendimento 24h/7d, orçamento por escrito antes da intervenção. Ligue: 928 484 451");
 
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {

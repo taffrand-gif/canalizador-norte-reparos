@@ -24,7 +24,7 @@ export default function AlfândegaFé() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Alfândega da Fé. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Alfândega da Fé. Desentupimentos e arranjos, orçamento por escrito antes da intervenção. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
