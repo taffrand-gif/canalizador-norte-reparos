@@ -22,7 +22,6 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </span>
  <span>⏱️ alguns minutos de leitura</span>
  <span>📅 14 Fev 2026</span>
- <span>👁️ 920 visualizações</span>
  </div>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
  Como Evitar Fugas de Água — Guia Completo de Prevenção
@@ -32,8 +31,8 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  <span className="text-2xl">💧</span>
  </div>
  <div>
- <p className="font-semibold text-gray-900">Técnico Mendes</p>
- <p className="text-gray-600">canalizador com 20 anos de experiência em Trás-os-Montes</p>
+ <p className="font-semibold text-gray-900">Equipa Norte Reparos</p>
+ <p className="text-gray-600">Canalização em Trás-os-Montes</p>
  </div>
  </div>
  </div>
@@ -274,9 +273,9 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  </div>
  </div>
  <div className="md:w-3/4">
- <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre o Autor</h3>
+ <h3 className="text-2xl font-bold text-gray-900 mb-2">Sobre a Equipa</h3>
  <p className="text-gray-700 mb-4">
- <strong>Técnico Mendes</strong> é canalizador com 20 anos de experiência em Trás-os-Montes. Especialista em deteção e arranjo de fugas de água, já resolveu mais de 800 casos na região, incluindo situações de emergência no inverno.
+ Artigo preparado pela equipa Norte Reparos, com mais de 20 anos de experiência profissional. A informação é geral: cada situação é avaliada caso a caso, com orçamento por escrito antes de qualquer intervenção.
  </p>
  <p className="text-gray-600">Para emergências ou orçamentos, contacte através do telefone ou WhatsApp acima.</p>
  </div>
