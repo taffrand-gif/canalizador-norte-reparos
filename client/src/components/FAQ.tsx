@@ -16,7 +16,7 @@ function FAQ() {
  const faqs = useMemo(() => [
  {
  question: 'Quanto custa um canalizador em Bragança?',
- answer: 'O custo de um canalizador em Bragança varia entre €60-150 dependendo do serviço. Arranjo de fugas de água custa €80-120, desentupimentos €60-100, instalação de esquentadores €100-150. Deslocação: €15. Orçamento por escrito pelo 928 484 451.'},
+ answer: 'O preço segue a grelha única: 70 €/h + 30 € de deslocação em dias úteis (09h–18h) e 100 €/h + 50 € de deslocação à noite, aos fins de semana e feriados. Valores TTC, IVA incluído. Toda a hora iniciada é devida. Orçamento por escrito antes de qualquer intervenção: 928 484 451.'},
  {
  question: 'O que fazer em caso de fuga de água?',
  answer: 'Em caso de fuga de água: 1) Feche a torneira geral da água, 2) Desligue a eletricidade se a água estiver perto de tomadas, 3) Contenha a água com baldes e toalhas, 4) Ligue 928 484 451.'},
@@ -25,19 +25,19 @@ function FAQ() {
  answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar, ligue 928 484 451. Evite produtos químicos agressivos.'},
  {
  question: 'Quanto custa arranjar uma fuga de água?',
- answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação: €15. Orçamento por escrito pelo 928 484 451.'},
+ answer: 'O preço depende do diagnóstico e do tempo de intervenção. Aplicamos a grelha única: 70 €/h + 30 € de deslocação em dias úteis (09h–18h) e 100 €/h + 50 € de deslocação à noite, aos fins de semana e feriados. Valores TTC, IVA incluído. Toda a hora iniciada é devida. Com uma descrição detalhada e fotografias úteis podemos dar uma estimativa indicativa à distância. Orçamento por escrito pelo 928 484 451.'},
  {
  question: 'Como detetar uma fuga de água escondida?',
- answer: 'Sinais de fuga escondida: 1) Conta de água inexplicavelmente alta, 2) Manchas húmidas em paredes ou teto, 3) Cheiro a mofo persistente, 4) Som de água correndo quando tudo está fechado, 5) Medidor de água girando com tudo fechado. Para deteção profissional com câmera térmica, ligue 928 484 451.'},
+ answer: 'Sinais de fuga escondida: 1) Conta de água inexplicavelmente alta, 2) Manchas húmidas em paredes ou teto, 3) Cheiro a mofo persistente, 4) Som de água correndo quando tudo está fechado, 5) Medidor de água girando com tudo fechado. Para deteção profissional (câmara endoscópica, fluoresceína e detetor de humidade), ligue 928 484 451.'},
  {
  question: 'Qual a garantia do trabalho de canalizador?',
- answer: 'Oferecemos garantia de 12 meses em todos os trabalhos, de arranjo a instalações novas. Se o problema voltar no período de garantia, voltamos gratuitamente. Garantia cobre mão de obra e materiais utilizados. Certificado de garantia fornecido após conclusão do serviço.'},
+ answer: 'Nos equipamentos e peças aplica-se a garantia do fabricante. Antes de qualquer intervenção recebe um orçamento por escrito com o trabalho a realizar.'},
  {
  question: 'O que está incluído no serviço de canalizador?',
- answer: 'O serviço inclui: diagnóstico do problema, mão de obra especializada, materiais básicos (juntas, vedantes), limpeza após intervenção, garantia do trabalho realizado. Não incluído: peças de substituição caras (esquentadores, caldeiras), obras de alvenaria. Orçamento detalhado antes de iniciar.'},
+ answer: 'O serviço inclui: diagnóstico do problema, mão de obra especializada, materiais básicos (juntas, vedantes), limpeza após intervenção. Não incluído: peças de substituição caras (esquentadores, caldeiras), obras de alvenaria. Orçamento detalhado antes de iniciar.'},
  {
  question: 'Aceitam pagamento com cartão e MB WAY?',
- answer: 'Sim, aceitamos pagamento por multibanco, MB WAY, transferência bancária, e dinheiro. Pagamento apenas após conclusão do serviço e sua total satisfação. Fatura fornecida. Sem IVA (Art. 53º CIVA).'},
+ answer: 'Sim, aceitamos pagamento por multibanco, MB WAY, transferência bancária, e dinheiro. Pagamento apenas após conclusão do serviço e sua total satisfação. Fatura fornecida. Valores TTC, IVA incluído.'},
  ], []);
  // Inject FAQPage Schema
  useEffect(() => {
