@@ -16,7 +16,7 @@ Idioma: português europeu (pt-PT)
 - Preço-hora de referência publicado: 65 €/h; deslocação comunicada conforme a zona aplicável
 - Urgências: consultar o domínio dedicado https://canalizador-urgente.pt/
 
-## Transparência de preços (regra oficial — valores sem IVA)
+## Transparência de preços (regra oficial — valores com IVA incluído)
 
 | Zona | Distância aprox. | Deslocação | Mão de obra |
 |---|---|---|---|
