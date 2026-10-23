@@ -29,7 +29,7 @@ function EquipamentoProfissional({ className = '' }: EquipamentoProfissionalProp
  ];
  const equipmentElectrician = [
  {
- name: 'Fluke 1587 Megóhmetro',
+ name: 'Detetor de humidade profissional',
  price: '€800',
  description: 'Teste de isolamento profissional com experiência',
  icon: '⚡'

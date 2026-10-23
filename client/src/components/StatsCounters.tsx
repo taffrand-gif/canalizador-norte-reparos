@@ -109,7 +109,7 @@ const stats: CounterStat[] = isPlumber
  <p className="text-gray-600 text-sm max-w-2xl mx-auto">
  {isPlumber
   ? 'Mais de 500 famílias em Trás-os-Montes confiam no nosso trabalho. Fugas resolvidas, entupimentos eliminados, casas de banho renovadas — sempre com garantia por escrito e preço combinado antes.'
-  : 'Mais de 500 intervenções elétricas em Trás-os-Montes. Quadros modernizados, instalações certificadas, avarias resolvidas — sempre com equipamento profissional Fluke e FLIR.'}
+  : 'Diagnóstico profissional de canalização em Trás-os-Montes, com câmara térmica FLIR e equipamento de inspeção.'}
  </p>
  </div>
  </div>

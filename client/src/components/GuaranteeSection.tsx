@@ -53,7 +53,7 @@ function GuaranteeSection() {
  {
  icon: '🔧',
  title: 'Equipamento Profissional',
- description: 'Fluke + FLIR + Analisador redes — Resolve na primeira vez',
+ description: 'FLIR + Ridgid + diagnóstico por imagem — Resolve na primeira vez',
  badge: 'Pro'
  },
  {

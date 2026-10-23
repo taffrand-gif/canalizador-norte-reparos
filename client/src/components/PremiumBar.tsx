@@ -11,7 +11,7 @@ export default function PremiumBar() {
  ]
  : [
  { icon: '🔬', label: 'Câmara FLIR' },
- { icon: '📊', label: 'Fluke 87V MAX' },
+ { icon: '📊', label: 'Diagnóstico térmico' },
  { icon: '🔍', label: 'Endoscópio Ridgid' },
  { icon: '📋', label: ' Certificado' },
  ];
