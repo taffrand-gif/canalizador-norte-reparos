@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
-import { useSite } from '@/contexts/SiteContext';
 interface CounterProps {
  end: number;
  duration?: number;
@@ -48,37 +47,30 @@ function AnimatedCounter({ end, duration = 2000, suffix = '', prefix = '' }: Cou
  );
 }
 export default function StatsCounters() {
- const { config } = useSite();
- const isPlumber = config.id === 'norte-reparos';
- const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
  interface CounterStat {
- value: number;
- suffix: string;
+ value?: number;
+ suffix?: string;
+ prefix?: string;
  label: string;
  icon: string;
-}
-const stats: CounterStat[] = isPlumber
- ? [
- { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '🔧' },
- { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
- { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
- { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
- ]
- : [
- { value: 500, suffix: '+', label: 'Intervenções por ano', icon: '⚡' },
- { value: 15, suffix: '+', label: 'Anos em Trás-os-Montes', icon: '⭐' },
- { value: 0, suffix: '', label: 'Serviço ao domicílio', icon: '🏠' },
- { value: 0, suffix: '', label: 'Resposta por telefone', icon: '📞' },
+ }
+
+ const stats: CounterStat[] = [
+ { value: 20, suffix: '+', label: 'Anos de experiência profissional', icon: '⭐' },
+ { label: 'Canalização exclusivamente', icon: '🔧' },
+ { value: 50, prefix: 'Até ', suffix: ' 000 €', label: 'RC profissional', icon: '🛡️' },
+ { label: 'Estimativa à distância', icon: '📷' },
  ];
+
  return (
  <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
  <div className="container mx-auto px-4">
  <div className="text-center mb-12">
  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
- Números que Falam por Si
+ Experiência e método
  </h2>
  <p className="text-lg text-gray-600">
- Experiência comprovada em Trás-os-Montes
+ Serviço de canalização com informação clara antes da intervenção
  </p>
  </div>
  <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -89,10 +81,11 @@ const stats: CounterStat[] = isPlumber
  >
  <div className="text-5xl mb-4">{stat.icon}</div>
  <div className="text-gray-900 min-h-[1em]">
- {stat.value > 0 ? (
+ {stat.value !== undefined ? (
  <AnimatedCounter
  end={stat.value}
- suffix={stat.suffix}
+ prefix={stat.prefix}
+ suffix={stat.suffix ?? ''}
  duration={2500}
  />
  ) : (
@@ -107,9 +100,7 @@ const stats: CounterStat[] = isPlumber
  </div>
  <div className="text-center mt-12">
  <p className="text-gray-600 text-sm max-w-2xl mx-auto">
- {isPlumber
-  ? 'Mais de 500 famílias em Trás-os-Montes confiam no nosso trabalho. Fugas resolvidas, entupimentos eliminados, casas de banho renovadas — sempre com garantia por escrito e preço combinado antes.'
-  : 'Diagnóstico profissional de canalização em Trás-os-Montes, com câmara térmica FLIR e equipamento de inspeção.'}
+ Diagnóstico de canalização com câmara térmica, câmara endoscópica, fluoresceína, detetor de humidade e equipamento Ridgid. Para uma estimativa à distância, envie uma descrição e fotografias.
  </p>
  </div>
  </div>

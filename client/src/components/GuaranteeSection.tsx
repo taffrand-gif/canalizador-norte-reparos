@@ -15,58 +15,30 @@ interface Guarantee {
 function GuaranteeSection() {
  const { config } = useSite();
  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
- // Garantias específicas conforme o site
- const guarantees: Guarantee[] = config.id === 'norte-reparos'
- ? [
+ const guarantees: Guarantee[] = [
  {
  icon: '🛡️',
- title: 'Garantia 12 Meses',
- description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
- badge: 'Escrita'
+ title: 'Seguro de responsabilidade civil',
+ description: 'Seguro de responsabilidade civil profissional até 50.000 €.',
+ badge: 'Até 50.000 €'
  },
  {
- icon: '🔧',
- title: 'Equipamento Profissional',
- description: 'Ridgid K-9102 + Câmara 30m + FLIR — Resolve na primeira vez',
- badge: 'Pro'
+ icon: '🔍',
+ title: 'Diagnóstico com equipamento',
+ description: 'Câmara térmica, câmara endoscópica, fluoresceína, detetor de humidade e equipamento Ridgid, conforme a situação.',
+ badge: 'Canalização'
  },
  {
  icon: '👨‍🔧',
- title: 'técnico com experiência',
- description: 'experiência em Trás-os-Montes — Sabe o que faz',
- badge: '12+ anos'
+ title: 'Experiência profissional',
+ description: 'Mais de 20 anos de experiência profissional em trabalhos de canalização.',
+ badge: '20+ anos'
  },
  {
  icon: '✅',
- title: 'Material Homologado',
- description: 'Garantia 12 meses — Não voltamos daqui a 2 semanas',
- badge: '12 meses'
- }
- ]
- : [
- {
- icon: '🛡️',
- title: 'Garantia 12 Meses',
- description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
- badge: 'Escrita'
- },
- {
- icon: '🔧',
- title: 'Equipamento Profissional',
- description: 'FLIR + Ridgid + diagnóstico por imagem — Resolve na primeira vez',
- badge: 'Pro'
- },
- {
- icon: '👨‍🔧',
- title: 'técnico com experiência',
- description: 'experiência em Trás-os-Montes + — Sabe o que faz',
- badge: ''
- },
- {
- icon: '✅',
- title: 'Material Homologado',
- description: 'Schneider/Hager/Legrand — Não voltamos daqui a 2 semanas',
- badge: 'Premium'
+ title: 'Garantia do fabricante',
+ description: 'Quando aplicável, a garantia dos materiais é prestada pelo respetivo fabricante.',
+ badge: 'Quando aplicável'
  }
  ];
  const handlePhoneClick = () => {
@@ -82,13 +54,13 @@ function GuaranteeSection() {
  {/* Header */}
  <div className="text-center mb-12">
  <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-800 rounded-full font-bold text-sm mb-4">
- 🛡️ Garantia Escrita — Sem Letra Pequena
+ 🛡️ Canalização com informação clara
  </div>
  <h2 className="text-4xl md:text-5xl font-black mb-6">
- Garantia 12 Meses — Se Voltar, Voltamos Grátis
+ Seguro e compromissos
  </h2>
  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
- Arranjo definitiva, não temporária. Por isso garantimos 2 anos.
+ Informação clara sobre diagnóstico, materiais e condições da intervenção.
  </p>
  </div>
  {/* Guarantees Grid */}
@@ -120,11 +92,16 @@ function GuaranteeSection() {
  {/* CTA Banner */}
  <div className="bg-white p-8 rounded-xl border-4 border-green-500 text-center">
  <h3 className="text-2xl font-black mb-4">
- Arranjo com Garantia — Ligue Já
+ Precisa de falar sobre uma reparação?
  </h3>
  <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
- Trabalho garantido 2 anos. Se o problema voltar, voltamos gratuitamente.
- Sem letra pequena, sem desculpas.
+ Descreva a situação e, se possível, envie fotografias. Podemos dar uma estimativa à distância antes da intervenção.
+ </p>
+ <p className="text-base text-gray-700 mb-6 max-w-3xl mx-auto">
+ Dias úteis, das 09h às 18h: 70 €/h + 30 € de deslocação. Fora deste horário: 100 €/h + 50 € de deslocação. Valores com IVA; cada hora iniciada é devida.
+ </p>
+ <p className="text-sm text-gray-500 mb-6 max-w-2xl mx-auto">
+ Não há deslocação nem orçamento gratuito.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -138,7 +115,7 @@ function GuaranteeSection() {
  Ligar: {config.phone}
  </a>
  <a
- href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia 12 meses.')}`}
+ href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Preciso de ajuda com um problema de canalização. Posso enviar uma descrição e fotografias para uma estimativa à distância?')}`}
  onClick={handleWhatsAppClick}
  target="_blank"
  rel="noopener noreferrer"
@@ -150,14 +127,7 @@ function GuaranteeSection() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Garantia escrita • ✅ Equipamento profissional • ✅ técnico com experiência
- </p>
- </div>
- {/* Social Proof */}
- <div className="mt-8 text-center">
- <p className="text-gray-600">
- <strong className="text-gray-900">0 reclamações</strong> em 2 anos •{' '}
- <strong className="text-gray-900">trabalhos em Trás-os-Montes</strong> garantidos
+ ✅ Seguro RC profissional • ✅ Diagnóstico com equipamento • ✅ Experiência profissional
  </p>
  </div>
  </div>
