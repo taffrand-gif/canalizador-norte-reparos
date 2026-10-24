@@ -183,6 +183,13 @@ body { margin: 0; font-family: 'Poppins', system-ui, -apple-system, sans-serif; 
 #lcp-fast-h1.lcp-fast-h1--hidden {
  display: none;
 }
+/* Narrow phones: reflow the homepage's content instead of hiding horizontal overflow. */
+@media (max-width: 360px) {
+ #root:has([data-norte-home-contact="true"]) .grid { grid-template-columns: minmax(0, 1fr) !important; }
+ #root:has([data-norte-home-contact="true"]) .grid > * { min-width: 0; max-width: 100%; }
+ #root:has([data-norte-home-contact="true"]) h1 { overflow-wrap: anywhere; }
+ #root:has([data-norte-home-contact="true"]) a[href*="wa.me"] { white-space: normal; overflow-wrap: anywhere; }
+}
 </style>
 
 <link rel="alternate" hreflang="pt" href="https://canalizador-norte-reparos.pt/" />

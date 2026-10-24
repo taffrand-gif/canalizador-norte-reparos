@@ -90,7 +90,7 @@ const InnovativeHero: React.FC = () => {
  };
  }, []);
  return (
- <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+ <section data-norte-home-contact="true" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
  {/* Background avec effet de lumière mobile */}
  <div 
  ref={heroRef}
