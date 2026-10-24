@@ -1,4 +1,3 @@
-// Page SEO optimisée para "Canalizador Bragança"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -6,367 +5,119 @@ import SEOHead from '@/components/SEOHead';
 import StructuredData from '@/components/StructuredData';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
-import { useSite } from '@/contexts/SiteContext';
-import { useEffect } from 'react';
 import FAQSection from '@/components/FAQSection';
-import { businessInfo, getCityAddress } from '@/shared/napConfig';
+import { useSite } from '@/contexts/SiteContext';
 import { getCidadesProximas } from '@/data/cidadesProximas';
+import { useEffect } from 'react';
+
+const faqs = [
+  {
+    question: 'Quanto custa um canalizador em Bragança?',
+    answer: 'Em dias úteis, das 09h às 18h, a mão de obra é 70 €/h e a deslocação é 30 €. Fora desse horário, à noite, aos fins de semana e feriados, são 100 €/h e 50 € de deslocação. Valores TTC, IVA incluído; toda a hora começada é devida.'
+  },
+  {
+    question: 'Que informação devo enviar antes do contacto?',
+    answer: 'Indique a localidade, descreva o problema, diga quando começou e envie fotografias ou vídeo, se possível. Se os elementos forem suficientes, a nossa equipa pode dar uma estimativa à distância indicativa.'
+  },
+  {
+    question: 'Usam câmara ou fluoresceína para diagnosticar uma fuga?',
+    answer: 'Quando o diagnóstico o justifica, podemos usar inspeção de canalizações por câmara, fluoresceína com observação UV e detetor de humidade. A técnica é escolhida conforme o caso, sem promessa de uso automático.'
+  },
+  {
+    question: 'Como é definido o orçamento?',
+    answer: 'O orçamento é apresentado por escrito antes da intervenção. Não há orçamento gratuito quando é necessária deslocação; uma estimativa remota, quando possível, é indicativa.'
+  }
+];
+
 export default function Braganca() {
- const { config } = useSite();
- useEffect(() => {
-document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia Escrita";
+  const { config } = useSite();
+  const cidadesProximas = getCidadesProximas('braganca');
 
- // Optimized meta description
- let metaDescription = document.querySelector('meta[name="description"]');
- if (!metaDescription) {
- metaDescription = document.createElement('meta');
- metaDescription.setAttribute('name', 'description');
- document.head.appendChild(metaDescription);
- }
- metaDescription.setAttribute('content', 'Canalizador profissional em Bragança e arredores. Fugas de água, desentupimentos, urgências 24h. Orçamento por escrito. Ligue 928 484 451.');
- // SEO meta keywords
- let metaKeywords = document.querySelector('meta[name="keywords"]');
- if (!metaKeywords) {
- metaKeywords = document.createElement('meta');
- metaKeywords.setAttribute('name', 'keywords');
- document.head.appendChild(metaKeywords);
- }
- metaKeywords.setAttribute('content', 'canalizador 24h bragança, canalizador Atendimento 24h/7d bragança, canalizador bragança, canalizador profissional bragança, desentupimento bragança, fuga água bragança, arranjo canalização bragança, instalação sanitários bragança, canalizador trás-os-montes');
+  useEffect(() => {
+    document.title = 'Canalizador em Bragança — reparação e trabalhos planeados | Norte Reparos';
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.setAttribute('content', 'Canalizador em Bragança para reparação, diagnóstico e trabalhos planeados. 70 €/h + 30 € dias úteis 09h–18h; 100 €/h + 50 € fora desse horário. Valores TTC, IVA incluído.');
 
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-bragança');
 
- // Canonical URL
- let canonical = document.querySelector('link[rel="canonical"]');
- if (!canonical) {
- canonical = document.createElement('link');
- canonical.setAttribute('rel', 'canonical');
- document.head.appendChild(canonical);
- }
- canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-bragança');
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json';
+    schemaScript.setAttribute('data-braganca-local-schema', 'true');
+    schemaScript.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'LocalBusiness',
+          '@id': 'https://canalizador-norte-reparos.pt/#localbusiness-braganca-react',
+          name: 'Norte Reparos — Canalizador em Bragança',
+          url: 'https://canalizador-norte-reparos.pt/canalizador-bragança',
+          telephone: '+351 928 484 451',
+          priceRange: '€€',
+          areaServed: { '@type': 'AdministrativeArea', name: 'Concelho de Bragança' }
+        },
+        {
+          '@type': 'FAQPage',
+          mainEntity: faqs.map((faq) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+          }))
+        }
+      ]
+    });
+    document.head.appendChild(schemaScript);
 
- // Schema.org LocalBusiness para Bragança
- const cityAddress = getCityAddress('braganca');
- const schemaScript = document.createElement('script');
- schemaScript.type = 'application/ld+json';
- schemaScript.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "@id": "https://canalizador-norte-reparos.pt/#organization",
- "name": "Canalizador Profissional — Canalizador em Bragança",
- "image": "/images-optimized/hero/hero-plumber-portugal.webp",
- "description": "Canalizador profissional em Bragança, Trás-os-Montes. Desentupimentos, arranjo de fugas e instalação sanitária.",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": cityAddress.streetAddress,
- "addressLocality": cityAddress.addressLocality,
- "addressRegion": cityAddress.addressRegion,
- "addressCountry": cityAddress.addressCountry,
- "postalCode": cityAddress.postalCode
- },
- "geo": {
- "@type": "GeoCoordinates",
- "latitude": "41.8062",
- "longitude": "-6.7569"
- },
- "telephone": businessInfo.phone,
- "openingHours": "Mo-Su 00:00-23:59",
- "priceRange": "€€",
- "areaServed": {
- "@type": "City",
- "name": "Bragança"
- },
- "serviceArea": {
- "@type": "GeoCircle",
- "geoMidpoint": {
- "@type": "GeoCoordinates",
- "latitude": "41.8062",
- "longitude": "-6.7569"
- },
- "geoRadius": "20000"
- },
- "sameAs": [
- `https://wa.me/${businessInfo.whatsapp}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`
- ]
- });
- document.head.appendChild(schemaScript);
- // FAQ Schema
- const faqSchema = document.createElement('script');
- faqSchema.type = 'application/ld+json';
- faqSchema.setAttribute('data-faq-schema', 'true');
- faqSchema.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": faqs.map(faq => ({
- "@type": "Question",
- "name": faq.question,
- "acceptedAnswer": {
- "@type": "Answer",
- "text": faq.answer
- }
- }))
- });
- document.head.appendChild(faqSchema);
- const faqs = [
- {
- question: "Qual o custo de deslocação a Bragança?",
- answer: "A deslocação a Bragança é de 30€. Chegamos em aproximadamente A confirmar. Inclui todo o concelho."
- },
- {
- question: "Fazem urgências Atendimento 24h/7d em Bragança?",
- answer: "Sim, atendemos urgências de canalização Atendimento 24h/7d, 7 dias por semana em Bragança. Ligue +351 928 484 451 para assistência."
- },
- {
- question: "Fornecem serviço de canalização em Bragança?",
- answer: "Sim, emitimos serviço de canalização certificado para venda, arrendamento e legalização de imóveis em Bragança e todo o concelho."
- }
- ];
- return () => {
- document.head.removeChild(schemaScript);
- document.head.removeChild(faqSchema);
- };
- }, [config]);
- const cidadesProximas = getCidadesProximas('braganca');
- return (
- <>
- <SEOHead />
- <StructuredData />
+    return () => {
+      schemaScript.remove();
+    };
+  }, []);
 
- <Header />
+  return (
+    <>
+      <SEOHead />
+      <StructuredData />
+      <Header />
+      <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+        <section className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-16">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Breadcrumbs items={[
+              { label: 'Canalizador', href: '/' },
+              { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+              { label: 'Bragança', href: '/canalizador-braganca' }
+            ]} />
+            <h1 className="text-4xl md:text-5xl font-bold mt-6 mb-6">Canalizador em <span className="text-orange-300">Bragança</span> para reparação e trabalhos planeados</h1>
+            <p className="text-xl mb-8">Descreva a situação, partilhe fotografias quando possível e deixe a nossa equipa avaliar o método adequado antes de avançar.</p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href={`tel:+351${config.phone.replace(/\s/g, '')}`} className="bg-white text-blue-800 font-bold px-8 py-4 rounded-lg text-lg">📞 Falar com a nossa equipa: {config.phone}</a>
+              <a href={`https://wa.me/${config.whatsapp}?text=Olá%2C%20preciso%20de%20ajuda%20com%20canalização%20em%20Bragança`} target="_blank" rel="noopener noreferrer" className="bg-orange-500 text-white font-bold px-8 py-4 rounded-lg text-lg">💬 Enviar fotografias por WhatsApp</a>
+            </div>
+          </div>
+        </section>
 
- <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
- {/* Hero section específica de Bragança */}
-{/* answer-first — bloc citable IA / featured snippet — mission feat/villes-answer-first */}
-<p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
-  padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
-  fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Bragança, a deslocação é 30€ (42.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
-</p>
- <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-4xl">
- <Breadcrumbs items={[
- { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
- { label: 'Bragança', href: '/canalizador-braganca' }
- ]} />
+        <section className="py-10"><div className="container mx-auto px-4 max-w-4xl"><div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-lg"><strong>Antes de ligar:</strong> indique a localidade, o problema, quando começou e o acesso ao ponto afetado. Uma estimativa à distância só é possível quando há elementos suficientes e é sempre indicativa.</div></div></section>
 
- <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Canalizador Profissional em <span className="text-orange-400">Bragança</span>
- </h1>
+        <section className="py-10"><div className="container mx-auto px-4 max-w-5xl grid grid-cols-1 lg:grid-cols-2 gap-8"><div className="bg-white p-8 rounded-xl shadow-sm border border-blue-100"><h2 className="text-3xl font-bold text-gray-900 mb-5">O que avaliamos</h2><ul className="space-y-3 text-gray-700"><li>Fugas, perdas de água e sinais de humidade</li><li>Canalizações com escoamento lento ou obstrução</li><li>Reparação ou substituição de componentes de canalização</li><li>Preparação de pontos de água e ligações em trabalhos planeados</li><li>Esquentadores elétricos e a gás, com a habilitação necessária</li></ul></div><div className="bg-white p-8 rounded-xl shadow-sm border border-blue-100"><h2 className="text-3xl font-bold text-gray-900 mb-5">Diagnóstico prudente</h2><p className="text-gray-700 mb-4">Consoante o caso, a nossa equipa pode recorrer a inspeção de canalizações por câmara, fluoresceína com observação UV ou detetor de humidade. Para desentupimento de canalizações, a alta pressão só é usada após avaliação e quando é adequada.</p><p className="text-gray-700">A técnica não é automática nem substitui a observação do local: serve para orientar a decisão e explicar-lhe o que foi encontrado.</p></div></div></section>
 
- <p className="text-xl mb-8">
- Serviços de canalizador com experiência em Bragança e arredores.
- Especialistas em sistema de água e sistemas de aquecimento para a região.
- </p>
+        <section className="py-10 bg-gray-50"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold text-gray-900 mb-6">Preços e condições</h2><div className="grid md:grid-cols-2 gap-5"><div className="bg-white p-6 rounded-xl shadow-sm"><strong>Dias úteis, 09h–18h</strong><p className="text-2xl font-bold text-blue-700 mt-2">70 €/h + 30 €</p><p>Mão de obra e deslocação.</p></div><div className="bg-white p-6 rounded-xl shadow-sm"><strong>Fora desse horário, noite, fins de semana e feriados</strong><p className="text-2xl font-bold text-blue-700 mt-2">100 €/h + 50 €</p><p>Mão de obra e deslocação.</p></div></div><p className="mt-5 text-gray-700"><strong>Valores TTC, IVA incluído.</strong> Toda a hora começada é devida e a deslocação é faturada quando ocorre. O orçamento é apresentado por escrito antes da intervenção; não há orçamento gratuito quando é necessária deslocação.</p></div></section>
 
- <div className="flex flex-col sm:flex-row gap-4">
- <a
- href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
- >
- 📞 Canalizador Bragança: {config.phone}
- </a>
- <a
- href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Bragança`}
- target="_blank"
- rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
- >
- 💬 WhatsApp para Bragança
- </a>
- </div>
- </div>
- </div>
- </section>
- {/* Conteúdo específico de Bragança */}
- <section className="py-16">
- <div className="container mx-auto px-4">
- <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
- <div>
- <h2 className="text-3xl font-bold text-gray-900 mb-6">
- Especialistas em Sistemas de Água em Bragança
- </h2>
+        <section className="py-10"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold text-gray-900 text-center mb-9">Perguntas frequentes</h2><FAQSection faqs={faqs} /></div></section>
 
- <div className="space-y-6">
- <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- <span className="text-blue-600">♨️</span>
- Conhecimento em Águas Termais
- </h3>
- <p className="text-gray-600">
- Bragança possui águas com características minerais específicas.
- Especializamo-nos em sistemas de canalização adaptados à qualidade
- da água local, tratamento adequado, e instalações resistentes
- aos minerais presentes na região.
- </p>
- </div>
+        <section className="py-14 bg-gradient-to-r from-orange-500 to-blue-700 text-white"><div className="container mx-auto px-4 text-center max-w-3xl"><h2 className="text-3xl font-bold mb-5">Canalização em Bragança: explique-nos a situação</h2><p className="text-xl mb-7">Atendimento telefónico 24h/24, 7 dias por semana. A disponibilidade e a janela de chegada, quando aplicável, são confirmadas por telefone; não prometemos uma chegada imediata.</p><div className="flex flex-col sm:flex-row gap-5 justify-center"><a href={`tel:+351${config.phone.replace(/\s/g, '')}`} className="bg-white text-blue-800 font-bold px-8 py-4 rounded-lg text-lg">📞 {config.phone}</a><a href={`https://wa.me/${config.whatsapp}?text=Olá%2C%20preciso%20de%20ajuda%20com%20canalização%20em%20Bragança`} target="_blank" rel="noopener noreferrer" className="bg-orange-500 border border-white font-bold px-8 py-4 rounded-lg text-lg">💬 WhatsApp</a></div><p className="mt-6 text-orange-100">Mais de 20 anos de experiência profissional. Seguro de responsabilidade civil profissional até 50.000 €.</p><p className="mt-4 text-sm">Para uma fuga ativa ou situação urgente, consulte <a className="underline font-semibold" href="https://canalizador-urgente.pt">canalizador-urgente.pt</a>.</p></div></section>
 
- <div className="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- <span className="text-blue-600">🏘️</span>
- Experiência em Edifícios Antigos
- </h3>
- <p className="text-gray-600">
- Trabalhamos no centro histórico de Bragança, incluindo a zona da
- Praça de Camões, Rua Direita e edifícios próximos ao Castelo.
- Conhecemos as particularidades das canalizações antigas e
- utilizamos técnicas não invasivas para preservar o património.
- </p>
- </div>
- </div>
- </div>
-
- <div>
- <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-xl border border-blue-200">
- <h3 className="text-2xl font-bold text-gray-900 mb-6">
- Cobertura em <span className="text-blue-600">Bragança</span>
- </h3>
-
- <div className="grid grid-cols-2 gap-4 mb-8">
- {[
- 'Centro Histórico', 'Santa Maria Maior', 'Madalena', 'Santa Cruz',
- 'Bairro da Estação', 'Bairro do Calvário', 'Urbanização do Pinheiro',
- 'Zona Industrial', 'Vila Verde da Raia', 'Tronco'
- ].map((area) => (
- <div key={area} className="flex items-center gap-2 text-gray-700">
- <span className="text-blue-600">📍</span>
- <span>{area}</span>
- </div>
- ))}
- </div>
-
- <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
- <h4 className="text-lg font-bold text-gray-900 mb-3">
- ⏱️ Serviços Específicos para Bragança
- </h4>
- <ul className="space-y-2 text-gray-600">
- <li className="flex items-center justify-between">
- <span>Sistemas para sistema de água</span>
- <span className="font-bold text-blue-600">Especialidade</span>
- </li>
- <li className="flex items-center justify-between">
- <span>Canalização em granito</span>
- <span className="font-bold text-blue-600">Experiência</span>
- </li>
- <li className="flex items-center justify-between">
- <span>Aquecimento para invernos frios</span>
- <span className="font-bold text-blue-600">Frequentemente</span>
- </li>
- </ul>
- </div>
- </div>
- </div>
- </div>
- </div>
- </section>
- {/* FAQ específica de Bragança */}
- <section className="py-16 bg-gray-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
- Perguntas sobre <span className="text-blue-600">Canalizador em Bragança</span>
- </h2>
-
- <div className="max-w-3xl mx-auto space-y-6">
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Como lidam com as sistema de água de Bragança nas canalizações?
- </h3>
- <p className="text-gray-600">
- Utilizamos materiais específicos resistentes aos minerais das sistema de água,
- como tubos de polipropileno e componentes em aço inoxidável. Realizamos
- tratamentos anti-calcário específicos para as características únicas
- das águas da região de Bragança.
- </p>
- </div>
-
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Trabalham em propriedades com piscinas água em Bragança?
- </h3>
- <p className="text-gray-600">
- Sim, temos experiência em hotéis, hidrologia e propriedades com piscinas água.
- Especializamo-nos em sistemas de filtragem, bombeamento e tratamento
- de sistema de água, garantindo a qualidade e segurança dos sistemas.
- </p>
- </div>
-
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Qual a resposta para urgências nas zonas rurais de Bragança?
- </h3>
- <p className="text-gray-600">
- Atendemos todo o concelho, incluindo freguesias rurais como
- Vila Verde da Raia, Oura, Madalena e outras. Temos veículos
- equipados para acessar propriedades rurais e mantemos stock
- de materiais para intervenções rápidas em qualquer local.
- </p>
- </div>
- </div>
- </div>
- </section>
- {/* CTA final */}
- <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
- <div className="container mx-auto px-4 text-center">
- <h2 className="text-3xl font-bold mb-6">
- Canalizador em <span className="text-orange-300">Bragança</span> - Conhecimento Local
- </h2>
- <p className="text-xl mb-8 max-w-2xl mx-auto">
- Conhecemos as particularidades da água e canalização de Bragança.
- Desde o centro histórico até às hidrologia e propriedades rurais.
- </p>
-
- <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
- <a
- href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
- >
- 📞 {config.phone} (Bragança)
- </a>
- <a
- href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Bragança`}
- target="_blank"
- rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
- >
- 💬 WhatsApp para Bragança
- </a>
- </div>
-
- <p className="text-orange-200">
- ♨️ <strong>Especialistas em sistema de água</strong> • 🏰 <strong>Património histórico</strong> • 🚜 <strong>Zonas rurais</strong>
- </p>
-
- {/* Cross-link subtil */}
- <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
- <p className="text-lg">
- ⚡ <strong>Precisa de um eletricista em Bragança?</strong> Recomendamos:{' '}
- <a href="https://eletricista-norte-reparos.pt/eletricista-braganca" className="underline font-bold">
- eletricista-norte-reparos.pt
- </a>
- </p>
- </div>
- </div>
- </section>
- {/* FAQ Schema Section */}
- <section className="py-16">
- <div className="container max-w-4xl">
- <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Bragança</h2>
- <FAQSection faqs={faqs} />
- </div>
- </section>
- {/* Cidades Próximas - Internal Linking */}
- <CidadesProximas
- currentCity="Bragança"
- cidades={cidadesProximas}
- serviceType="canalizador"
- />
- {/* Related Cities - Maillage interno SEO */}
- <RelatedCities
- currentCity="Braganca"
- currentCitySlug="canalizador-braganca"
- />
- </main>
-
- <Footer />
-</>
- );
+        <section className="py-10"><CidadesProximas currentCity="Bragança" cidades={cidadesProximas} serviceType="canalizador" /><RelatedCities currentCity="Braganca" currentCitySlug="canalizador-braganca" /></section>
+      </main>
+      <Footer />
+    </>
+  );
 }
