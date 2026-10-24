@@ -1,315 +1,49 @@
-// SEO optimizada para "Canalizador Vila Pouca de Aguiar"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
-import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
-import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
-import StructuredData from '@/components/StructuredData';
-import { useSite } from '@/contexts/SiteContext';
 import FAQSection from '@/components/FAQSection';
-import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
+const phone = '+351 928 484 451';
+const whatsapp = '351928484451';
+
 export default function VilaPouca() {
- const { config } = useSite();
+  const faqs = [
+    { question: 'Quanto custa um canalizador em Vila Pouca de Aguiar?', answer: 'Em dias úteis, das 09h às 18h, a mão de obra é 70 €/h e a deslocação é 30 € quando ocorre. Fora desse horário, à noite, fim de semana ou feriado, são 100 €/h e 50 €. IVA incluído e toda a hora iniciada é devida.' },
+    { question: 'Que informação ajuda a preparar a intervenção?', answer: 'Indique a localidade, o objetivo ou o sintoma e envie fotografias e medidas, quando disponíveis. Com elementos suficientes, a estimativa remota pode ser indicativa.' },
+    { question: 'Usam câmara, fluoresceína ou alta pressão?', answer: 'Consoante o diagnóstico, a nossa equipa pode usar câmara endoscópica, fluoresceína com observação UV, detetor de humidade ou alta pressão para canalizações quando for adequada.' },
+    { question: 'Há orçamento gratuito com deslocação?', answer: 'Não. A deslocação é faturada se tiver lugar. A estimativa à distância é apenas indicativa e depende da informação recebida.' },
+  ];
+  const cidadesProximas = getCidadesProximas('vila-pouca-de-aguiar');
 
- useEffect(() => {
- document.title = "Canalizador Vila Pouca de Aguiar 💧 24h | 928 484 451";
+  useEffect(() => {
+    document.title = 'Canalizador em Vila Pouca de Aguiar — instalação, reparação e diagnóstico';
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) { metaDescription = document.createElement('meta'); metaDescription.setAttribute('name', 'description'); document.head.appendChild(metaDescription); }
+    metaDescription.setAttribute('content', 'Canalizador em Vila Pouca de Aguiar para instalação, reparação e diagnóstico. 70 €/h + 30 € em dias úteis, 09h–18h; 100 €/h + 50 € fora desse horário. IVA incluído.');
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar');
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json'; schemaScript.id = 'schema-vila-pouca-de-aguiar';
+    schemaScript.text = JSON.stringify({ '@context': 'https://schema.org', '@graph': [
+      { '@type': 'Plumber', name: 'Norte Reparos — Canalizador em Vila Pouca de Aguiar', url: 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar', telephone: phone, priceRange: '€€', areaServed: { '@type': 'AdministrativeArea', name: 'Concelho de Vila Pouca de Aguiar' } },
+      { '@type': 'Service', name: 'Instalação, reparação e diagnóstico de canalizações em Vila Pouca de Aguiar', serviceType: 'Canalização: instalação, reparação e diagnóstico', areaServed: { '@type': 'AdministrativeArea', name: 'Concelho de Vila Pouca de Aguiar' }, availableChannel: { '@type': 'ServiceChannel', servicePhone: { '@type': 'ContactPoint', telephone: phone, contactType: 'customer service' } } },
+      { '@type': 'FAQPage', mainEntity: faqs.map((faq) => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })) },
+    ]});
+    document.head.appendChild(schemaScript);
+    return () => { schemaScript.remove(); };
+  }, []);
 
- let metaDescription = document.querySelector('meta[name="description"]');
- if (!metaDescription) {
- metaDescription = document.createElement('meta');
- metaDescription.setAttribute('name', 'description');
- document.head.appendChild(metaDescription);
- }
- metaDescription.setAttribute('content', 'Canalizador urgente em Vila Pouca de Aguiar. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
-
- let canonical = document.querySelector('link[rel="canonical"]');
- if (!canonical) {
- canonical = document.createElement('link');
- canonical.setAttribute('rel', 'canonical');
- document.head.appendChild(canonical);
- }
- canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-vila-pouca-de-aguiar');
-
- const cityAddress = getCityAddress('vila-pouca-de-aguiar');
- const schemaScript = document.createElement('script');
- schemaScript.type = 'application/ld+json';
- schemaScript.id = 'schema-vila-pouca-de-aguiar';
- schemaScript.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "name": "Canalizador Profissional — Vila Pouca de Aguiar",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": cityAddress.streetAddress,
- "addressLocality": cityAddress.addressLocality,
- "addressRegion": cityAddress.addressRegion,
- "addressCountry": cityAddress.addressCountry,
- "postalCode": cityAddress.postalCode
- },
- "geo": { "@type": "GeoCoordinates", "latitude": "41.5167", "longitude": "-7.6500" },
- "telephone": businessInfo.phone,
- "openingHours": "Mo-Su 00:00-23:59"
- });
- document.head.appendChild(schemaScript);
-
- const faqSchema = document.createElement('script');
- faqSchema.type = 'application/ld+json';
- faqSchema.setAttribute('data-faq-schema', 'true');
- faqSchema.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": faqs.map(faq => ({
- "@type": "Question",
- "name": faq.question,
- "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
- }))
- });
- document.head.appendChild(faqSchema);
-
- return () => {
- document.head.removeChild(schemaScript);
- document.head.removeChild(faqSchema);
- };
- }, []);
-
- const cidadesProximas = getCidadesProximas('vila-pouca-de-aguiar');
-
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Pouca de Aguiar?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Pouca de Aguiar. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Pouca de Aguiar?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Pouca de Aguiar. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
-
- return (
- <>
- <SEOHeadEnhanced citySlug="vila-pouca-de-aguiar" pageType="city" />
- <StructuredData />
- <Header />
- <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
- <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-4xl">
- <Breadcrumbs items={[
- { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
- { label: 'Vila Pouca de Aguiar', href: '/canalizador-vila-pouca-de-aguiar' }
- ]} />
- <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Canalizador Profissional em <span className="text-orange-400">Vila Pouca de Aguiar</span>
- </h1>
- <p className="text-xl mb-8">
- Serviços de canalização certificados em Vila Pouca de Aguiar e arredores.
- Resolução rápida, preço justo, garantia de 12 meses.
- </p>
- <div className="flex flex-col sm:flex-row gap-4">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 Canalizador Vila Pouca de Aguiar: {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Pouca de Aguiar`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-white">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Vila Pouca de Aguiar — Terra da Barragem do Alvito
- </h2>
- <div className="max-w-4xl mx-auto">
- <p className="text-gray-700 mb-4">
- Concelho com barragem importante para irrigação agrícola. A Serra do Alvão oferece trilhos pedestres de grande belleza.
- </p>
- <p className="text-gray-700">
- Zona de transição entre o alto Douro e Trás-os-Montes. Os sistemas de água para agricultura são fundamentais.
- </p>
- </div>
- </div>
- </section>
-
- <section className="py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-5xl mx-auto">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Serviços de Canalização em Vila Pouca de Aguiar
- </h2>
- <div className="grid md:grid-cols-2 gap-6">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔧 Desentupimentos
- </h3>
- <p className="text-gray-600">
- WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 💧 Arranjo de Fugas
- </h3>
- <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
- Fatura com NIF para seguro.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔥 Esquentadores
- </h3>
- <p className="text-gray-600">
- Instalação e reparação de esquentadores a gás. Substituição de termostatos
- e termopares. Certificação profissional.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🆕 Canalização Nova
- </h3>
- <p className="text-gray-600">
- Instalação completa de canalizações novas. Tubagem em PPR, conexões
- estanhadas, válvulas de corte. Garantia 12 meses.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-blue-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Porquê Escolher-nos em Vila Pouca de Aguiar
- </h2>
- <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🏆 Serviço Certificado
- </h3>
- <p className="text-gray-600">
- Fatura com NIF, garantia escrita de 12 meses, preço combinado antes
- da intervenção. Sem surpresas, sem custos escondidos.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- ⚡ Rápido e Eficiente
- </h3>
- <p className="text-gray-600">
- Disponível 24h/7 dias em Vila Pouca de Aguiar. Atendimento 24h para urgências.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔍 Equipamento Profissional
- </h3>
- <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🛡️ Garantia 12 Meses
- </h3>
- <p className="text-gray-600">
- Todas as intervenções têm garantia escrita de 12 meses.
- Peças e mão de obra incluídas.
- </p>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-gray-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
- Perguntas sobre <span className="text-blue-600">Canalizador em Vila Pouca de Aguiar</span>
- </h2>
- <div className="max-w-3xl mx-auto space-y-6">
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Fazem intervenções em propriedades rurais de Vila Pouca de Aguiar?
- </h3>
- <p className="text-gray-600">
- Sim, temos vasta experiência em propriedades rurais, quintas e explorações
- agrícolas de Vila Pouca de Aguiar. Os nossos veículos têm equipamento completo
- para intervenções em qualquer localização.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Quais são os problemas mais comuns em Vila Pouca de Aguiar?
- </h3>
- <p className="text-gray-600">
- Em Vila Pouca de Aguiar, os problemas mais frequentes são entupimentos em fossas
- sépticas, fugas em canalizações antigas, e avarias em esquentadores.
- A nossa experiência local permite resolver rapidamente.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Atendem todo o conselho de Vila Pouca de Aguiar?
- </h3>
- <p className="text-gray-600">
- Sim, servimos todo o conselho e freguesias vizinhas de Vila Pouca de Aguiar.
- Também cobrimos aldeias e propriedades isoladas na região.
- </p>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
- <div className="container mx-auto px-4 text-center">
- <h2 className="text-3xl font-bold mb-6">
- Canalizador em <span className="text-orange-300">Vila Pouca de Aguiar</span>
- </h2>
- <p className="text-xl mb-8 max-w-2xl mx-auto">
- Intervenção rápida, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
- </p>
- <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Vila Pouca de Aguiar`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
- <p className="text-lg">
- ⚡ <strong>Precisa de eletricista?</strong> Visite:{' '}
- <a href="https://eletricista-norte-reparos.pt" className="underline font-bold">
- eletricista-norte-reparos.pt
- </a>
- </p>
- </div>
- </div>
- </section>
-
- <section className="py-16">
- <div className="container max-w-4xl">
- <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Vila Pouca de Aguiar</h2>
- <FAQSection faqs={faqs} />
- </div>
- </section>
-
- <CidadesProximas currentCity="Vila Pouca de Aguiar" cidades={cidadesProximas} serviceType="canalizador" />
- <RelatedCities currentCity="Vila Pouca de Aguiar" currentCitySlug="canalizador-vila-pouca-de-aguiar" />
- </main>
- <Footer />
- </>
- );
+  return <div className="min-h-screen flex flex-col"><Header /><main className="flex-grow">
+    <section className="bg-gradient-to-r from-blue-700 to-cyan-800 text-white py-16"><div className="container mx-auto px-4 max-w-5xl"><h1 className="text-4xl md:text-5xl font-bold mb-5">Canalizador em Vila Pouca de Aguiar</h1><p className="text-xl max-w-3xl">Instalação, reparação e diagnóstico de canalizações para intervenções planeadas, com informação clara antes de avançar.</p><div className="mt-7 flex flex-col sm:flex-row gap-4"><a href="tel:+351928484451" className="bg-white text-blue-800 font-bold px-7 py-4 rounded-lg">📞 {phone}</a><a href={`https://wa.me/${whatsapp}?text=Olá, preciso de um canalizador em Vila Pouca de Aguiar`} className="bg-green-600 text-white font-bold px-7 py-4 rounded-lg">💬 WhatsApp</a></div></div></section>
+    <section className="py-12 bg-white"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold mb-5">Preços e preparação da intervenção</h2><p className="mb-4"><strong>Dias úteis, 09h–18h:</strong> 70 €/h de mão de obra + 30 € de deslocação quando ocorre. <strong>Fora desse horário, à noite, fim de semana ou feriado:</strong> 100 €/h + 50 € de deslocação.</p><p>IVA incluído. Toda a hora iniciada é devida e a deslocação é faturada se tiver lugar. Uma estimativa remota pode ser indicativa se a descrição e as fotografias forem suficientes; não há orçamento gratuito com deslocação.</p></div></section>
+    <section className="py-12 bg-slate-50"><div className="container mx-auto px-4 max-w-5xl"><h2 className="text-3xl font-bold text-center mb-8">Serviços e diagnóstico</h2><div className="grid md:grid-cols-3 gap-6"><article className="bg-white p-6 rounded-xl shadow"><h3 className="text-xl font-bold mb-3">Instalação e remodelação</h3><p>Planeamento de pontos de água, substituição de tubagem e trabalhos em cozinha, lavandaria ou casa de banho, com âmbito e materiais clarificados.</p></article><article className="bg-white p-6 rounded-xl shadow"><h3 className="text-xl font-bold mb-3">Fugas e avarias</h3><p>Partilhe os sinais observados, fotografias e acesso disponível. A causa é avaliada antes de decidir a reparação.</p></article><article className="bg-white p-6 rounded-xl shadow"><h3 className="text-xl font-bold mb-3">Canalizações com escoamento deficiente</h3><p>A alta pressão para desentupir canalizações é usada apenas quando a avaliação indicar que é adequada.</p></article></div></div></section>
+    <section className="py-12 bg-white"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold mb-5">Método e informação útil</h2><p className="mb-4">Consoante o diagnóstico, a nossa equipa pode usar detetor de humidade, inspeção de canalizações por câmara endoscópica ou fluoresceína com observação UV. Estes meios ajudam a recolher informação; não são passos automáticos nem substituem a avaliação no local.</p><p>Indique a localidade, o objetivo ou o sintoma, envie medidas e fotografias quando existirem e diga se já há materiais escolhidos. A nossa equipa tem mais de 20 anos de experiência profissional e seguro de responsabilidade civil profissional até 50.000 €.</p></div></section>
+    <section className="py-12 bg-slate-50"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold text-center mb-8">Perguntas frequentes</h2><FAQSection faqs={faqs} /></div></section>
+    <section className="py-14 bg-blue-800 text-white text-center"><div className="container mx-auto px-4 max-w-3xl"><h2 className="text-3xl font-bold mb-4">Quer preparar uma intervenção?</h2><p className="text-lg mb-7">Envie a descrição e, se possível, fotografias. A linha telefónica está disponível 24/7; para intervenções planeadas, o agendamento e a janela de chegada são confirmados pelo telefone.</p><a href="tel:+351928484451" className="inline-block bg-white text-blue-800 font-bold px-8 py-4 rounded-lg">📞 {phone}</a></div></section>
+    <CidadesProximas currentCity="Vila Pouca de Aguiar" cidades={cidadesProximas} serviceType="canalizador" /><RelatedCities currentCity="Vila Pouca de Aguiar" currentCitySlug="canalizador-vila-pouca-de-aguiar" />
+  </main><Footer /></div>;
 }

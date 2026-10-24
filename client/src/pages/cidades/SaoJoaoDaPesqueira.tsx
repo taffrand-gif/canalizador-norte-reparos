@@ -1,4 +1,3 @@
-// SEO optimizada para "Canalizador São João da Pesqueira"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
@@ -6,231 +5,216 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
 import StructuredData from '@/components/StructuredData';
-import { useSite } from '@/contexts/SiteContext';
 import FAQSection from '@/components/FAQSection';
-import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
+const faqs = [
+  {
+    question: 'Qual é o preço de um canalizador em São João da Pesqueira?',
+    answer: 'Em dias úteis, das 09h às 18h, a mão de obra é 70 €/h e a deslocação é 30 €. Fora desse horário, à noite, aos fins de semana e feriados, a mão de obra é 100 €/h e a deslocação é 50 €. Os valores incluem IVA, toda a hora iniciada é devida e a deslocação é faturada quando se realiza.',
+  },
+  {
+    question: 'Podem dar uma estimativa antes da deslocação?',
+    answer: 'Quando a descrição e as fotografias permitem perceber a situação, a nossa equipa pode dar uma estimativa à distância. É indicativa: o valor final depende do diagnóstico e da intervenção necessária. Não há orçamento gratuito quando é necessária deslocação.',
+  },
+  {
+    question: 'Que informação devo enviar antes de marcar?',
+    answer: 'Indique o equipamento ou zona afetada, os sintomas, há quanto tempo ocorrem e, se for seguro, envie fotografias ou um vídeo. Esta informação ajuda a preparar o diagnóstico e a explicar os próximos passos.',
+  },
+  {
+    question: 'Que técnicas usam para fugas ou canalizações?',
+    answer: 'Consoante o diagnóstico, podemos recorrer à inspeção de canalizações por câmara, à fluoresceína com observação UV ou a um detetor de humidade. Para desentupimento de canalizações, a alta pressão só é usada quando a avaliação mostra que é adequada.',
+  },
+];
+
 export default function SãoJoãoPesqueira() {
- const { config } = useSite();
+  const cidadesProximas = getCidadesProximas('sao-joao-da-pesqueira');
 
- useEffect(() => {
- document.title = "Canalizador São João da Pesqueira 💧 24h | 928 484 451";
+  useEffect(() => {
+    document.title = 'Canalizador em São João da Pesqueira — Norte Reparos';
 
- let metaDescription = document.querySelector('meta[name="description"]');
- if (!metaDescription) {
- metaDescription = document.createElement('meta');
- metaDescription.setAttribute('name', 'description');
- document.head.appendChild(metaDescription);
- }
- metaDescription.setAttribute('content', 'Canalizador urgente em São João da Pesqueira. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.setAttribute(
+      'content',
+      'Canalizador em São João da Pesqueira para reparações, manutenção e trabalhos planeados. Diagnóstico prudente, preços transparentes e contacto 24h/24.',
+    );
 
- let canonical = document.querySelector('link[rel="canonical"]');
- if (!canonical) {
- canonical = document.createElement('link');
- canonical.setAttribute('rel', 'canonical');
- document.head.appendChild(canonical);
- }
- canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira');
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira');
 
- const cityAddress = getCityAddress('sao-joao-da-pesqueira');
- const schemaScript = document.createElement('script');
- schemaScript.type = 'application/ld+json';
- schemaScript.id = 'schema-sao-joao-da-pesqueira';
- schemaScript.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "name": "Canalizador Profissional — São João da Pesqueira",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": cityAddress.streetAddress,
- "addressLocality": cityAddress.addressLocality,
- "addressRegion": cityAddress.addressRegion,
- "addressCountry": cityAddress.addressCountry,
- "postalCode": cityAddress.postalCode
- },
- "geo": { "@type": "GeoCoordinates", "latitude": "41.1500", "longitude": "-7.4000" },
- "telephone": businessInfo.phone,
- "openingHours": "Mo-Su 00:00-23:59"
- });
- document.head.appendChild(schemaScript);
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json';
+    schemaScript.id = 'schema-sao-joao-da-pesqueira';
+    schemaScript.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'LocalBusiness',
+          '@id': 'https://canalizador-norte-reparos.pt/#business',
+          name: 'Norte Reparos',
+          telephone: '+351 928 484 451',
+          url: 'https://canalizador-norte-reparos.pt/canalizador-sao-joao-da-pesqueira',
+          areaServed: {
+            '@type': 'AdministrativeArea',
+            name: 'São João da Pesqueira',
+          },
+        },
+        {
+          '@type': 'Service',
+          name: 'Canalizador em São João da Pesqueira',
+          serviceType: 'Reparações e manutenção de canalização',
+          provider: { '@id': 'https://canalizador-norte-reparos.pt/#business' },
+          areaServed: {
+            '@type': 'AdministrativeArea',
+            name: 'São João da Pesqueira',
+          },
+        },
+        {
+          '@type': 'FAQPage',
+          mainEntity: faqs.map((faq) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+          })),
+        },
+      ],
+    });
+    document.head.appendChild(schemaScript);
 
- const faqSchema = document.createElement('script');
- faqSchema.type = 'application/ld+json';
- faqSchema.setAttribute('data-faq-schema', 'true');
- faqSchema.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": faqs.map(faq => ({
- "@type": "Question",
- "name": faq.question,
- "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
- }))
- });
- document.head.appendChild(faqSchema);
+    return () => {
+      schemaScript.remove();
+    };
+  }, []);
 
- return () => {
- document.head.removeChild(schemaScript);
- document.head.removeChild(faqSchema);
- };
- }, []);
+  return (
+    <>
+      <SEOHeadEnhanced citySlug="sao-joao-da-pesqueira" pageType="city" />
+      <StructuredData />
+      <Header />
+      <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
+        <section className="bg-gradient-to-r from-blue-700 to-blue-900 py-14 text-white">
+          <div className="container mx-auto px-4">
+            <div className="mx-auto max-w-4xl">
+              <Breadcrumbs
+                items={[
+                  { label: 'Canalizador', href: '/' },
+                  { label: 'São João da Pesqueira', href: '/canalizador-sao-joao-da-pesqueira' },
+                ]}
+              />
+              <h1 className="mb-5 text-4xl font-bold md:text-5xl">
+                Canalizador em <span className="text-orange-300">São João da Pesqueira</span>
+              </h1>
+              <p className="max-w-3xl text-xl text-blue-50">
+                Reparações, manutenção e trabalhos planeados de canalização, com informação clara antes de avançar.
+              </p>
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                <a
+                  href="tel:+351928484451"
+                  className="rounded-lg bg-white px-7 py-4 text-center text-lg font-bold text-blue-800 transition-colors hover:bg-blue-50"
+                >
+                  Ligar: +351 928 484 451
+                </a>
+                <a
+                  href="https://wa.me/351928484451?text=Ol%C3%A1%2C%20preciso%20de%20um%20canalizador%20em%20S%C3%A3o%20Jo%C3%A3o%20da%20Pesqueira"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg bg-orange-500 px-7 py-4 text-center text-lg font-bold text-white transition-colors hover:bg-orange-400"
+                >
+                  Enviar fotografia por WhatsApp
+                </a>
+              </div>
+              <p className="mt-4 text-sm text-blue-100">Atendimento telefónico 24h/24, 7 dias por semana. A janela de chegada é confirmada por telefone e depende da situação operacional.</p>
+            </div>
+          </div>
+        </section>
 
- const cidadesProximas = getCidadesProximas('sao-joao-da-pesqueira');
+        <section className="bg-white py-14">
+          <div className="container mx-auto max-w-4xl px-4">
+            <h2 className="mb-5 text-3xl font-bold text-gray-900">Como nos pode ajudar a preparar o diagnóstico</h2>
+            <p className="mb-4 text-gray-700">Ao contactar a nossa equipa, indique a zona afetada, o sintoma, há quanto tempo acontece e se há água visível, mau escoamento ou alteração de pressão. Se for seguro, fotografias ou um vídeo ajudam-nos a perceber o caso.</p>
+            <p className="text-gray-700">Com elementos suficientes, podemos dar uma estimativa à distância. É apenas indicativa: o diagnóstico no local e a intervenção necessária determinam o valor final.</p>
+          </div>
+        </section>
 
- const faqs = [
- { question: "Qual o preço de canalizador em São João da Pesqueira?", answer: "Desde 100€ (150 € noite/fim de semana) em São João da Pesqueira. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
- { question: "Fazem urgências em São João da Pesqueira?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em São João da Pesqueira. Ligue +351 928 484 451." },
- { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
- { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
- { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
- ];
+        <section className="py-14">
+          <div className="container mx-auto px-4">
+            <h2 className="mb-8 text-center text-3xl font-bold text-gray-900">Serviços de canalização para trabalhos planeados</h2>
+            <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-2">
+              <article className="rounded-xl bg-white p-6 shadow-lg">
+                <h3 className="mb-3 text-xl font-bold text-gray-900">Fugas, humidade e diagnóstico</h3>
+                <p className="text-gray-600">Quando o caso o justifica, recorremos a câmara endoscópica, fluoresceína com observação UV ou detetor de humidade para orientar o diagnóstico antes de decidir a intervenção.</p>
+              </article>
+              <article className="rounded-xl bg-white p-6 shadow-lg">
+                <h3 className="mb-3 text-xl font-bold text-gray-900">Canalizações e escoamento</h3>
+                <p className="text-gray-600">A inspeção de canalizações por câmara ajuda a perceber o problema. Para desentupimento de canalizações, a alta pressão é usada apenas depois de avaliação e quando é adequada.</p>
+              </article>
+              <article className="rounded-xl bg-white p-6 shadow-lg">
+                <h3 className="mb-3 text-xl font-bold text-gray-900">Torneiras, autoclismos e pequenas reparações</h3>
+                <p className="text-gray-600">A nossa equipa avalia avarias em pontos de água e componentes sanitários, explicando o que é necessário antes de iniciar o trabalho.</p>
+              </article>
+              <article className="rounded-xl bg-white p-6 shadow-lg">
+                <h3 className="mb-3 text-xl font-bold text-gray-900">Esquentadores elétricos e a gás</h3>
+                <p className="text-gray-600">Realizamos intervenções em esquentadores elétricos e a gás, com a habilitação necessária, sempre após diagnóstico do equipamento e da situação.</p>
+              </article>
+            </div>
+          </div>
+        </section>
 
- return (
- <>
- <SEOHeadEnhanced citySlug="sao-joao-da-pesqueira" pageType="city" />
- <StructuredData />
- <Header />
- <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
- <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-4xl">
- <Breadcrumbs items={[
- { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
- { label: 'São João da Pesqueira', href: '/canalizador-sao-joao-da-pesqueira' }
- ]} />
- <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Canalizador Profissional em <span className="text-orange-400">São João da Pesqueira</span>
- </h1>
- <p className="text-xl mb-8">
- Serviços de canalização certificados em São João da Pesqueira e arredores.
- Resolução profissional, preço justo, garantia de 12 meses.
- </p>
- <div className="flex flex-col sm:flex-row gap-4">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 Canalizador São João da Pesqueira: {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em São João da Pesqueira`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- </div>
- </div>
- </section>
+        <section className="bg-blue-50 py-14">
+          <div className="container mx-auto max-w-4xl px-4">
+            <h2 className="mb-6 text-3xl font-bold text-gray-900">Preços e condições antes da deslocação</h2>
+            <div className="grid gap-5 md:grid-cols-2">
+              <div className="rounded-xl bg-white p-6 shadow-sm">
+                <h3 className="mb-2 text-xl font-bold text-blue-800">Dias úteis, 09h–18h</h3>
+                <p className="text-gray-700"><strong>70 €/h</strong> de mão de obra + <strong>30 €</strong> de deslocação.</p>
+              </div>
+              <div className="rounded-xl bg-white p-6 shadow-sm">
+                <h3 className="mb-2 text-xl font-bold text-blue-800">Fora de horário, noite, fim de semana ou feriado</h3>
+                <p className="text-gray-700"><strong>100 €/h</strong> de mão de obra + <strong>50 €</strong> de deslocação.</p>
+              </div>
+            </div>
+            <p className="mt-5 text-gray-700">Valores TTC, IVA incluído. Toda a hora iniciada é devida e a deslocação é faturada quando se realiza. Não fazemos orçamento gratuito com deslocação; antes de qualquer intervenção, explicamos o diagnóstico e apresentamos o valor aplicável.</p>
+          </div>
+        </section>
 
- <section className="py-16 bg-white">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- São João da Pesqueira — Terra do Vinho do Porto e do Douro Vinhateiro
- </h2>
- <div className="max-w-4xl mx-auto">
- <p className="text-gray-700 mb-4">
- Concelho do Douro Superior com tradição secular na produção de vinho do Porto. As magníficas quintas vinham desde o século XVIII.
- </p>
- <p className="text-gray-700">
- Zona de grande tradição vinícola e olivícola. A produção de vinho exige sistemas de água de alta qualidade para adegas e lagares.
- </p>
- </div>
- </div>
- </section>
+        <section className="bg-white py-14">
+          <div className="container mx-auto max-w-4xl px-4">
+            <h2 className="mb-5 text-3xl font-bold text-gray-900">Uma abordagem prudente e transparente</h2>
+            <p className="mb-3 text-gray-700">A nossa equipa tem mais de 20 anos de experiência profissional. O método e o material são escolhidos em função do diagnóstico, não por rotina.</p>
+            <p className="text-gray-700">Seguro de responsabilidade civil profissional até 50.000 €.</p>
+          </div>
+        </section>
 
- <section className="py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-5xl mx-auto">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Serviços de Canalização em São João da Pesqueira
- </h2>
- <div className="grid md:grid-cols-2 gap-6">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔧 Desentupimentos</h3>
- <p className="text-gray-600">WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para desentupimentos profundos.</p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
- <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔥 Esquentadores</h3>
- <p className="text-gray-600">Instalação e reparação de esquentadores a gás. Substituição de termostatos e termopares. Certificação profissional.</p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🆕 Canalização Nova</h3>
- <p className="text-gray-600">Instalação completa de canalizações novas. Tubagem em PPR, conexões estanhadas, válvulas de corte. Garantia 12 meses.</p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- </div>
- </div>
- </div>
- </section>
+        <section className="py-14">
+          <div className="container mx-auto max-w-4xl px-4">
+            <h2 className="mb-8 text-center text-3xl font-black text-gray-900">Perguntas frequentes</h2>
+            <FAQSection faqs={faqs} />
+          </div>
+        </section>
 
- <section className="py-16 bg-blue-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em São João da Pesqueira</h2>
- <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
- <p className="text-gray-600">Fatura com NIF, garantia escrita de 12 meses, preço combinado antes da intervenção.</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">⚡ Rápido e Eficiente</h3>
- <p className="text-gray-600">Disponível 24h/7 dias em São João da Pesqueira. Atendimento 24h para urgências.</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
- <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia 12 Meses</h3>
- <p className="text-gray-600">Todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.</p>
- </div>
- </div>
- </div>
- </section>
+        <section className="bg-gradient-to-r from-orange-500 to-blue-800 py-14 text-white">
+          <div className="container mx-auto max-w-3xl px-4 text-center">
+            <h2 className="mb-4 text-3xl font-bold">Quer explicar a situação antes de marcar?</h2>
+            <p className="mb-7 text-lg">Ligue ou envie fotografias. Confirmamos por telefone a disponibilidade e os próximos passos.</p>
+            <a href="tel:+351928484451" className="inline-block rounded-lg bg-white px-8 py-4 text-xl font-bold text-blue-800">+351 928 484 451</a>
+          </div>
+        </section>
 
- <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
- <div className="container mx-auto px-4 text-center">
- <h2 className="text-3xl font-bold mb-6">Canalizador em <span className="text-orange-300">São João da Pesqueira</span></h2>
- <p className="text-xl mb-8 max-w-2xl mx-auto">Intervenção profissional, preço justo, garantia de 12 meses.</p>
- <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em São João da Pesqueira`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
- <p className="text-lg">
- ⚡ <strong>Precisa de eletricista?</strong> Visite:{' '}
- <a href="https://eletricista-norte-reparos.pt" className="underline font-bold">
- eletricista-norte-reparos.pt
- </a>
- </p>
- </div>
- </div>
- </section>
-
- <section className="py-16">
- <div className="container max-w-4xl">
- <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - São João da Pesqueira</h2>
- <FAQSection faqs={faqs} />
- </div>
- </section>
-
- <CidadesProximas currentCity="São João da Pesqueira" cidades={cidadesProximas} serviceType="canalizador" />
- <RelatedCities currentCity="São João da Pesqueira" currentCitySlug="canalizador-sao-joao-da-pesqueira" />
- </main>
- <Footer />
- </>
- );
+        <CidadesProximas currentCity="São João da Pesqueira" cidades={cidadesProximas} serviceType="canalizador" />
+        <RelatedCities currentCity="São João da Pesqueira" currentCitySlug="canalizador-sao-joao-da-pesqueira" />
+      </main>
+      <Footer />
+    </>
+  );
 }

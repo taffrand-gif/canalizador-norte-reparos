@@ -1,321 +1,46 @@
-// SEO optimizada para "Canalizador Alfândega da Fé"
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import RelatedCities from '@/components/RelatedCities';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CidadesProximas from '@/components/CidadesProximas';
 import SEOHeadEnhanced from '@/components/SEOHeadEnhanced';
-import StructuredData from '@/components/StructuredData';
-import { useSite } from '@/contexts/SiteContext';
 import FAQSection from '@/components/FAQSection';
-import { businessInfo, getCityAddress } from '@/shared/napConfig';
 import { useEffect } from 'react';
 import { getCidadesProximas } from '@/data/cidadesProximas';
 
-export default function AlfândegaFé() {
- const { config } = useSite();
+const phone = '+351 928 484 451';
+const faqs = [
+  { question: 'Como pedir uma estimativa de canalização em Alfândega da Fé?', answer: 'Envie a descrição, fotografias e medidas disponíveis. Com elementos suficientes, a nossa equipa pode dar uma estimativa distante indicativa; o âmbito final depende do diagnóstico.' },
+  { question: 'Quanto custa um canalizador?', answer: 'Dias úteis das 09h às 18h: 70 €/h de mão de obra e 30 € de deslocação se tiver lugar. Fora desse horário, à noite, fins de semana e feriados: 100 €/h e 50 € de deslocação se tiver lugar. IVA incluído e cada hora iniciada é devida.' },
+  { question: 'Que métodos de diagnóstico podem ser usados?', answer: 'Consoante o caso, podemos usar inspeção de canalizações por câmara, fluoresceína com observação UV e detetor de humidade. A alta pressão é apenas para canalizações e depois de avaliação.' },
+];
 
- useEffect(() => {
- document.title = "Canalizador Alfândega da Fé 💧 24h | 928 484 451";
-
- let metaDescription = document.querySelector('meta[name="description"]');
- if (!metaDescription) {
- metaDescription = document.createElement('meta');
- metaDescription.setAttribute('name', 'description');
- document.head.appendChild(metaDescription);
- }
- metaDescription.setAttribute('content', 'Canalizador urgente em Alfândega da Fé. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
-
- let canonical = document.querySelector('link[rel="canonical"]');
- if (!canonical) {
- canonical = document.createElement('link');
- canonical.setAttribute('rel', 'canonical');
- document.head.appendChild(canonical);
- }
- canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-alfandega-da-fe');
-
- const cityAddress = getCityAddress('alfandega-da-fe');
- const schemaScript = document.createElement('script');
- schemaScript.type = 'application/ld+json';
- schemaScript.id = 'schema-alfandega-da-fe';
- schemaScript.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "name": "Canalizador Profissional — Alfândega da Fé",
- "address": {
- "@type": "PostalAddress",
- "streetAddress": cityAddress.streetAddress,
- "addressLocality": cityAddress.addressLocality,
- "addressRegion": cityAddress.addressRegion,
- "addressCountry": cityAddress.addressCountry,
- "postalCode": cityAddress.postalCode
- },
- "geo": { "@type": "GeoCoordinates", "latitude": "41.5333", "longitude": "-6.9667" },
- "telephone": businessInfo.phone,
- "openingHours": "Mo-Su 00:00-23:59"
- });
- document.head.appendChild(schemaScript);
-
- const faqSchema = document.createElement('script');
- faqSchema.type = 'application/ld+json';
- faqSchema.setAttribute('data-faq-schema', 'true');
- faqSchema.text = JSON.stringify({
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": faqs.map(faq => ({
- "@type": "Question",
- "name": faq.question,
- "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
- }))
- });
- document.head.appendChild(faqSchema);
-
- return () => {
- document.head.removeChild(schemaScript);
- document.head.removeChild(faqSchema);
- };
- }, []);
-
- const cidadesProximas = getCidadesProximas('alfandega-da-fe');
-
- const faqs = [{'question': 'Qual o preço de canalizador em Alfândega da Fé?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Alfândega da Fé. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Alfândega da Fé?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Alfândega da Fé. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Alfândega da Fé?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Alfândega da Fé?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
-
- return (
- <>
- <SEOHeadEnhanced citySlug="alfandega-da-fe" pageType="city" />
- <StructuredData />
- <Header />
- <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
-{/* answer-first — bloc citable IA / featured snippet — mission feat/villes-answer-first */}
-<p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
-  padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
-  fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Alfândega da Fé, a deslocação é 30€ (32.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
-</p>
- <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-4xl">
- <Breadcrumbs items={[
- { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
- { label: 'Alfândega da Fé', href: '/canalizador-alfandega-da-fe' }
- ]} />
- <h1 className="text-4xl md:text-5xl font-bold mb-6">
- Canalizador Profissional em <span className="text-orange-400">Alfândega da Fé</span>
- </h1>
- <p className="text-xl mb-8">
- Serviços de canalização certificados em Alfândega da Fé e arredores.
- Resolução rápida, preço justo, garantia de 12 meses.
- </p>
- <div className="flex flex-col sm:flex-row gap-4">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 Canalizador Alfândega da Fé: {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Alfândega da Fé`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-white">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Alfândega da Fé — Terra das Amendoeiras em Flor
- </h2>
- <div className="max-w-4xl mx-auto">
- <p className="text-gray-700 mb-4">
- Concelho conhecido pelas amendoeiras que cobrem as colinas na primavera. Paisagem única do Nordeste Transmontano.
- </p>
- <p className="text-gray-700">
- Economia assente na agricultura de sequeiro. Os sistemas de água para irrigação são fundamentais para a produção agrícola.
- </p>
- </div>
- </div>
- </section>
-
- <section className="py-16">
- <div className="container mx-auto px-4">
- <div className="max-w-5xl mx-auto">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Serviços de Canalização em Alfândega da Fé
- </h2>
- <div className="grid md:grid-cols-2 gap-6">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔧 Desentupimentos
- </h3>
- <p className="text-gray-600">
- WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 💧 Arranjo de Fugas
- </h3>
- <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
- Fatura com NIF para seguro.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔥 Esquentadores
- </h3>
- <p className="text-gray-600">
- Instalação e reparação de esquentadores a gás. Substituição de termostatos
- e termopares. Certificação profissional.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🆕 Canalização Nova
- </h3>
- <p className="text-gray-600">
- Instalação completa de canalizações novas. Tubagem em PPR, conexões
- estanhadas, válvulas de corte. Garantia 12 meses.
- </p>
- <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
- </div>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-blue-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
- Porquê Escolher-nos em Alfândega da Fé
- </h2>
- <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🏆 Serviço Certificado
- </h3>
- <p className="text-gray-600">
- Fatura com NIF, garantia escrita de 12 meses, preço combinado antes
- da intervenção. Sem surpresas, sem custos escondidos.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- ⚡ Rápido e Eficiente
- </h3>
- <p className="text-gray-600">
- Disponível 24h/7 dias em Alfândega da Fé. Atendimento 24h para urgências.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🔍 Equipamento Profissional
- </h3>
- <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🛡️ Garantia 12 Meses
- </h3>
- <p className="text-gray-600">
- Todas as intervenções têm garantia escrita de 12 meses.
- Peças e mão de obra incluídas.
- </p>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-gray-50">
- <div className="container mx-auto px-4">
- <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
- Perguntas sobre <span className="text-blue-600">Canalizador em Alfândega da Fé</span>
- </h2>
- <div className="max-w-3xl mx-auto space-y-6">
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Fazem intervenções em propriedades rurais de Alfândega da Fé?
- </h3>
- <p className="text-gray-600">
- Sim, temos vasta experiência em propriedades rurais, quintas e explorações
- agrícolas de Alfândega da Fé. Os nossos veículos têm equipamento completo
- para intervenções em qualquer localização.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Quais são os problemas mais comuns em Alfândega da Fé?
- </h3>
- <p className="text-gray-600">
- Em Alfândega da Fé, os problemas mais frequentes são entupimentos em fossas
- sépticas, fugas em canalizações antigas, e avarias em esquentadores.
- A nossa experiência local permite resolver rapidamente.
- </p>
- </div>
- <div className="bg-white p-6 rounded-xl shadow-md">
- <h3 className="text-xl font-bold text-gray-900 mb-3">
- Atendem todo o conselho de Alfândega da Fé?
- </h3>
- <p className="text-gray-600">
- Sim, servimos todo o conselho e freguesias vizinhas de Alfândega da Fé.
- Também cobrimos aldeias e propriedades isoladas na região.
- </p>
- </div>
- </div>
- </div>
- </section>
-
- <section className="py-16 bg-gradient-to-r from-orange-500 to-blue-700 text-white">
- <div className="container mx-auto px-4 text-center">
- <h2 className="text-3xl font-bold mb-6">
- Canalizador em <span className="text-orange-300">Alfândega da Fé</span>
- </h2>
- <p className="text-xl mb-8 max-w-2xl mx-auto">
- Intervenção rápida, preço justo, garantia de 12 meses.
- Ligue agora para um orçamento sem compromisso.
- </p>
- <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
- <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
- className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 📞 {config.phone}
- </a>
- <a href={`https://wa.me/${config.whatsapp}?text=Olá, preciso de um canalizador em Alfândega da Fé`}
- target="_blank" rel="noopener noreferrer"
- className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">
- 💬 WhatsApp
- </a>
- </div>
- <div className="mt-12 p-4 bg-white/20 rounded-xl max-w-md mx-auto">
- <p className="text-lg">
- ⚡ <strong>Precisa de eletricista?</strong> Visite:{' '}
- <a href="https://eletricista-norte-reparos.pt" className="underline font-bold">
- eletricista-norte-reparos.pt
- </a>
- </p>
- </div>
- </div>
- </section>
-
- <section className="py-16">
- <div className="container max-w-4xl">
- <h2 className="text-3xl font-black text-center mb-12">Perguntas Frequentes - Alfândega da Fé</h2>
- <FAQSection faqs={faqs} />
- </div>
- </section>
-
- <CidadesProximas currentCity="Alfândega da Fé" cidades={cidadesProximas} serviceType="canalizador" />
- <RelatedCities currentCity="Alfândega da Fé" currentCitySlug="canalizador-alfandega-da-fe" />
- </main>
- <Footer />
- </>
- );
+export default function AlfandegaDaFe() {
+  const cidadesProximas = getCidadesProximas('alfandega-da-fe');
+  useEffect(() => {
+    document.title = 'Canalizador em Alfândega da Fé | Reparações, instalação e diagnóstico';
+    const description = document.querySelector('meta[name="description"]') || document.head.appendChild(document.createElement('meta'));
+    description.setAttribute('name', 'description');
+    description.setAttribute('content', 'Canalizador em Alfândega da Fé para reparações, instalação e diagnóstico. Contacte a nossa equipa pelo +351 928 484 451.');
+    const canonical = document.querySelector('link[rel="canonical"]') || document.head.appendChild(document.createElement('link'));
+    canonical.setAttribute('rel', 'canonical');
+    canonical.setAttribute('href', 'https://canalizador-norte-reparos.pt/canalizador-alfandega-da-fe');
+    const schema = document.createElement('script');
+    schema.id = 'schema-alfandega-da-fe'; schema.type = 'application/ld+json';
+    schema.text = JSON.stringify({ '@context': 'https://schema.org', '@graph': [
+      { '@type': 'LocalBusiness', name: 'Norte Reparos — Canalizador em Alfândega da Fé', url: 'https://canalizador-norte-reparos.pt/canalizador-alfandega-da-fe', telephone: phone, areaServed: { '@type': 'AdministrativeArea', name: 'Concelho de Alfândega da Fé' } },
+      { '@type': 'Service', name: 'Canalização, reparações e diagnóstico em Alfândega da Fé', provider: { '@type': 'Organization', name: 'Norte Reparos', telephone: phone }, areaServed: { '@type': 'AdministrativeArea', name: 'Concelho de Alfândega da Fé' } },
+      { '@type': 'FAQPage', mainEntity: faqs.map(({ question, answer }) => ({ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: answer } })) },
+    ] });
+    document.head.appendChild(schema);
+    return () => schema.remove();
+  }, []);
+  return <><SEOHeadEnhanced citySlug="alfandega-da-fe" pageType="city" /><Header /><main className="min-h-screen bg-slate-50">
+    <section className="bg-blue-800 text-white py-16"><div className="container mx-auto px-4 max-w-5xl"><Breadcrumbs items={[{ label: 'Canalizador', href: '/' }, { label: 'Alfândega da Fé', href: '/canalizador-alfandega-da-fe' }]} /><h1 className="text-4xl md:text-5xl font-bold mt-6">Canalizador em Alfândega da Fé</h1><p className="text-xl mt-4 max-w-3xl">Reparações, instalação e diagnóstico cuidadoso de canalização. Para nos orientar, descreva o problema e envie fotografias seguras, se as tiver.</p><div className="flex flex-col sm:flex-row gap-4 mt-7"><a href="tel:+351928484451" className="bg-white text-blue-800 font-bold px-6 py-3 rounded-lg">Ligar: {phone}</a><a href="https://wa.me/351928484451" className="bg-orange-500 text-white font-bold px-6 py-3 rounded-lg">Enviar por WhatsApp</a></div></div></section>
+    <section className="py-12"><div className="container mx-auto px-4 max-w-5xl"><h2 className="text-3xl font-bold">Como avaliamos o pedido</h2><p className="mt-4 text-slate-700">Uma estimativa à distância pode ser indicativa quando a descrição, medidas e fotografias são suficientes. Antes de qualquer trabalho, confirmamos o diagnóstico, o âmbito, os materiais e a deslocação quando tiver lugar.</p><div className="grid md:grid-cols-3 gap-5 mt-7"><article className="bg-white p-6 rounded-xl shadow"><h3 className="font-bold text-lg">Fugas e humidade</h3><p className="mt-2 text-slate-700">Podemos recorrer a detetor de humidade, fluoresceína com observação UV ou inspeção por câmara quando o diagnóstico o justifica.</p></article><article className="bg-white p-6 rounded-xl shadow"><h3 className="font-bold text-lg">Canalizações obstruídas</h3><p className="mt-2 text-slate-700">A alta pressão é considerada apenas para canalizações, depois de avaliar o acesso e a obstrução. Não prestamos serviços de fossa séptica.</p></article><article className="bg-white p-6 rounded-xl shadow"><h3 className="font-bold text-lg">Instalação e reparação</h3><p className="mt-2 text-slate-700">Analisamos reparações, pontos de água, tubagem e trabalhos planeados dentro do âmbito confirmado.</p></article></div></div></section>
+    <section className="py-12 bg-white"><div className="container mx-auto px-4 max-w-5xl"><h2 className="text-3xl font-bold">Preços e condições</h2><ul className="list-disc pl-6 mt-4 space-y-2 text-slate-700"><li>Dias úteis, das 09h às 18h: 70 €/h de mão de obra + deslocação de 30 € se tiver lugar.</li><li>Fora desse horário, à noite, fins de semana e feriados: 100 €/h + deslocação de 50 € se tiver lugar.</li><li>IVA incluído. Cada hora iniciada é devida e a deslocação é faturada quando ocorre.</li><li>Não existe orçamento gratuito com deslocação; uma estimativa remota é apenas indicativa.</li></ul></div></section>
+    <section className="py-12"><div className="container mx-auto px-4 max-w-4xl"><h2 className="text-3xl font-bold text-center">Perguntas frequentes</h2><FAQSection faqs={faqs} /></div></section>
+    <section className="py-12 bg-orange-500 text-white"><div className="container mx-auto px-4 max-w-4xl text-center"><h2 className="text-3xl font-bold">Fale com a nossa equipa</h2><p className="mt-3">Atendimento telefónico 24/7. A disponibilidade e a janela de chegada são confirmadas consigo ao telefone.</p><a href="tel:+351928484451" className="inline-block bg-white text-orange-600 font-bold px-7 py-4 rounded-lg mt-6">{phone}</a><p className="mt-5 text-sm">Mais de 20 anos de experiência profissional · Seguro de responsabilidade civil profissional até 50.000 €</p></div></section>
+    <CidadesProximas currentCity="Alfândega da Fé" cidades={cidadesProximas} serviceType="canalizador" /><RelatedCities currentCity="Alfândega da Fé" currentCitySlug="canalizador-alfandega-da-fe" />
+  </main><Footer /></>;
 }
