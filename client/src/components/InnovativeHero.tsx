@@ -90,7 +90,7 @@ const InnovativeHero: React.FC = () => {
  };
  }, []);
  return (
- <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+ <section data-norte-home-contact="true" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
  {/* Background avec effet de lumière mobile */}
  <div 
  ref={heroRef}
@@ -117,7 +117,7 @@ const InnovativeHero: React.FC = () => {
  <div className="inline-flex items-center gap-3 bg-blue-900/80 border-2 border-white/60 rounded-2xl px-8 py-4 mb-10 shadow-2xl">
  <span className="text-3xl" role="img" aria-label="Goutte d'eau">💧</span>
  <span className="text-white font-bold text-xl tracking-wider drop-shadow-lg">
- CANALIZADOR — Orçamento por escrito em 48h, garantia 1 ano
+ CANALIZADOR — LIGUE AGORA
  </span>
  <div className="absolute -inset-1 bg-blue-500/20 blur-xl -z-10 rounded-2xl" />
  </div>
@@ -139,8 +139,8 @@ const InnovativeHero: React.FC = () => {
  </div>
  
  {/* Subtítulo com efeito de onda de texto */}
- <p className="text-xl md:text-2xl text-white/90 mb-14 max-w-3xl mx-auto leading-relaxed font-medium">
- {ACTIVE_CONFIG.heroSubtitle}
+ <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed font-medium">
+ Reparações de canalização, fugas de água e desentupimentos. Ligue agora ou envie uma descrição e fotografias.
  </p>
  
  {/* Botões CTA */}
@@ -166,7 +166,7 @@ const InnovativeHero: React.FC = () => {
  </a>
  
  <a
- href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de um canalizador em Trás-os-Montes. Podem dar-me um orçamento?")}`}
+ href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}?text=${encodeURIComponent("Olá, preciso de ajuda de canalização. Envio a descrição e fotografias.")}`}
  target="_blank"
  rel="noopener noreferrer"
  className="group relative overflow-hidden bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 text-white font-bold text-lg px-12 py-6 rounded-2xl shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-110 w-full sm:w-auto sm:min-w-[300px] border-2 border-white/30"
@@ -174,7 +174,7 @@ const InnovativeHero: React.FC = () => {
  >
  <span className="relative z-10 flex items-center justify-center gap-4">
  <span className="text-3xl group-hover:animate-bounce">💬</span>
- <span className="text-xl tracking-wide">CONTACTAR TÉCNICO</span>
+ <span className="text-xl tracking-wide">ENVIAR DESCRIÇÃO E FOTOGRAFIAS</span>
  </span>
  
  {/* Efeito de bolhas */}
@@ -196,14 +196,17 @@ const InnovativeHero: React.FC = () => {
  </div>
  </a>
  </div>
+ <p className="text-sm text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
+ Dias úteis, das 09h às 18h: 70 €/h + 30 € de deslocação. Noite, fins de semana e feriados: 100 €/h + 50 € de deslocação. IVA incluído; cada hora iniciada é faturada.
+ </p>
  
  {/* Stats avec effet de flottement */}
  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
  {[
- { icon: '💧', value: 'Certificado', label: 'Seguro Ativo', color: 'from-blue-400 to-blue-600' },
- { icon: '🔬', value: 'Ridgid', label: 'Câmara Inspeção', color: 'from-orange-400 to-orange-600' },
-     { icon: '🛡️', value: 'Profissional', label: 'Serviço documentado', color: 'from-blue-500 to-blue-700' },
-     { icon: '📞', value: 'A confirmar', label: 'Janela de chegada', color: 'from-orange-500 to-orange-700' }
+ { icon: '💧', value: '24h/7d', label: 'Atendimento telefónico', color: 'from-blue-400 to-blue-600' },
+ { icon: '€', value: '70/100 €/h', label: 'Mão de obra por hora', color: 'from-orange-400 to-orange-600' },
+     { icon: '🚗', value: '30/50 €', label: 'Deslocação', color: 'from-blue-500 to-blue-700' },
+     { icon: '✓', value: '20+', label: 'Anos de experiência', color: 'from-orange-500 to-orange-700' }
  ].map((stat, index) => (
  <div 
  key={index}
