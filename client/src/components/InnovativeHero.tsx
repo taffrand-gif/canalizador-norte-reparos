@@ -196,12 +196,15 @@ const InnovativeHero: React.FC = () => {
  </div>
  </a>
  </div>
+ <p className="text-sm text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
+ Dias úteis, das 09h às 18h: 70 €/h + 30 € de deslocação. Noite, fins de semana e feriados: 100 €/h + 50 € de deslocação. IVA incluído; cada hora iniciada é faturada.
+ </p>
  
  {/* Stats avec effet de flottement */}
  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
  {[
  { icon: '💧', value: '24h/7d', label: 'Atendimento telefónico', color: 'from-blue-400 to-blue-600' },
- { icon: '€', value: '70/100 €', label: 'Mão de obra por hora', color: 'from-orange-400 to-orange-600' },
+ { icon: '€', value: '70/100 €/h', label: 'Mão de obra por hora', color: 'from-orange-400 to-orange-600' },
      { icon: '🚗', value: '30/50 €', label: 'Deslocação', color: 'from-blue-500 to-blue-700' },
      { icon: '✓', value: '20+', label: 'Anos de experiência', color: 'from-orange-500 to-orange-700' }
  ].map((stat, index) => (
