@@ -157,7 +157,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-3 py-2">Canalização principal (com máquina alta pressão)</td>
                   <td className="border border-gray-300 px-3 py-2">2-4 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">240-380€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">170-310€</td>
                 </tr>
                 <tr className="bg-cyan-50">
                   <td className="border border-gray-300 px-3 py-2">Fossa séptica (sob marcação)</td>
