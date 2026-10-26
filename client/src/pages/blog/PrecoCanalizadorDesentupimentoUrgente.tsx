@@ -130,7 +130,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 <tr className="bg-cyan-600 text-white">
                   <th className="border border-gray-300 px-3 py-2 text-left">Tipo de desentupimento</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Tempo típico</th>
-                  <th className="border border-gray-300 px-3 py-2 text-left">Preço (dias úteis)</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Preço em dias úteis (horas × 70 € + 30 €, IVA incluído)</th>
                 </tr>
               </thead>
               <tbody>
