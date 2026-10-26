@@ -37,7 +37,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 "name": "Qual a diferença entre 'peça orçamento' e orçamento por escrito detalhado?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "'Peça orçamento' é normalmente um formulário genérico que devolve um valor estimado sem detalhe. O nosso 'orçamento por escrito detalhado' lista: descrição do trabalho, materiais previstos (com referência e quantidade), mão de obra em horas × tarifa hora, deslocação pela zona. É o documento que aprova antes de qualquer deslocação."
+                  "text": "'Peça orçamento' é normalmente um formulário genérico que devolve um valor estimado sem detalhe. O nosso 'orçamento por escrito detalhado' lista: descrição do trabalho, materiais previstos (com referência e quantidade), mão de obra em horas × tarifa hora, deslocação (igual para todas as localidades). É o documento que aprova antes de qualquer deslocação."
                 }
               },
               {
