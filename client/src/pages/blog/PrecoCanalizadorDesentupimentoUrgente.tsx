@@ -196,7 +196,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa desentupir uma sanita?</h3>
-              <p className="text-gray-700">Tipicamente 1-2 horas → 100€-165€ horário normal. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
+              <p className="text-gray-700">Tipicamente 1-2 horas → 100€-170€ horário normal. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">E uma fossa entupida?</h3>
