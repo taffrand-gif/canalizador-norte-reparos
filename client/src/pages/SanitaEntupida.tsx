@@ -251,8 +251,7 @@ export default function SanitaEntupida() {
                 </div>
               </div>
               <p className="mt-5 text-sm text-gray-600">
-                A zona de deslocação é definida pela distância rodoviária real desde Macedo de
-                Cavaleiros. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
+                A deslocação tem preço único em qualquer localidade servida. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
               </p>
               <p className="mt-4 font-semibold text-gray-900">
                 Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
