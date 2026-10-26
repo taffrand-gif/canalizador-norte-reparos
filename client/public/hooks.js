@@ -49,7 +49,7 @@
 
  var widget = document.createElement('div');
  widget.id = 'disponivel-widget';
- widget.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:10000;text-align:center;padding:8px 15px;font-size:14px;font-weight:600;transition:all 0.3s;cursor:pointer;';
+ widget.style.cssText = 'position:relative;text-align:center;padding:8px 15px;font-size:14px;font-weight:600;transition:all 0.3s;cursor:pointer;';
 
  if (isDay) {
  widget.style.background = 'linear-gradient(90deg,#1b8a2e,#25a33a)';
@@ -66,7 +66,6 @@
  });
 
  document.body.insertBefore(widget, document.body.firstChild);
- document.body.style.paddingTop = '40px';
  }
 
  // ========================================
