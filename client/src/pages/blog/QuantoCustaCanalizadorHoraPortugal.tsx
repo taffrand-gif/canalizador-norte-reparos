@@ -37,7 +37,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 "name": "Qual a diferença entre 'peça orçamento' e orçamento por escrito detalhado?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "'Peça orçamento' é normalmente um formulário genérico que devolve um valor estimado sem detalhe. O nosso 'orçamento por escrito detalhado' lista: descrição do trabalho, materiais previstos (com referência e quantidade), mão de obra em horas × tarifa hora, deslocação pela zona. É o documento que aprova antes de qualquer deslocação."
+                  "text": "'Peça orçamento' é normalmente um formulário genérico que devolve um valor estimado sem detalhe. O nosso 'orçamento por escrito detalhado' lista: descrição do trabalho, materiais previstos (com referência e quantidade), mão de obra em horas × tarifa hora, deslocação (igual para todas as localidades). É o documento que aprova antes de qualquer deslocação."
                 }
               },
               {
@@ -122,7 +122,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">1. Tabela Norte Reparos 2026 — Preços por hora</h2>
           <p>
-            Praticamos um tarifário hora único e público — sem forfaits, sem 'pacotes' nem 'preços mínimos enganosos'. O preço de cada trabalho resulta apenas de duas variáveis: a sua zona (em deslocação) e o tempo despendido pelo técnico (em horas × tarifa aplicável).
+            Praticamos um tarifário hora único e público — sem forfaits, sem 'pacotes' nem 'preços mínimos enganosos'. O preço de cada trabalho resulta apenas de duas variáveis: o horário (dias úteis, ou noite, fim de semana e feriados, que define a tarifa e a deslocação) e o tempo despendido pelo técnico (em horas × tarifa aplicável).
           </p>
           <div className="overflow-x-auto my-6">
             <table className="w-full border-collapse">
@@ -150,13 +150,13 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. Deslocação a Trás-os-Montes</h2>
           <p>
-            A deslocação é calculada com base na sua zona, definida pelas distâncias reais OSRM por estrada a partir de Macedo de Cavaleiros (sede operacional). Para saber a sua zona, indique-nos o nome da sua localidade ao pedir orçamento.
+            A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis; 50 € à noite, ao fim de semana e em feriados.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-gray-800 text-white">
-                  <th className="border border-gray-300 px-3 py-2 text-left">Zona</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Período</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Concelhos incluídos</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Horário normal</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Período majorado</th>
