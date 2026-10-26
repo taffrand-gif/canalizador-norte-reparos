@@ -130,7 +130,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 <tr className="bg-cyan-600 text-white">
                   <th className="border border-gray-300 px-3 py-2 text-left">Período</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Mão de obra</th>
-                  <th className="border border-gray-300 px-3 py-2 text-left">Majoração</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Noite / fim de semana / feriado</th>
                 </tr>
               </thead>
               <tbody>
@@ -159,7 +159,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                   <th className="border border-gray-300 px-3 py-2 text-left">Zona</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Concelhos incluídos</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Horário normal</th>
-                  <th className="border border-gray-300 px-3 py-2 text-left">Período majorado</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Noite, fim de semana e feriados</th>
                 </tr>
               </thead>
               <tbody>
