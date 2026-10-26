@@ -289,12 +289,12 @@ function CanalizadorUrgente() {
  </h3>
  <div className="space-y-1 text-gray-700 text-sm">
  <div className="flex justify-between">
- <span>Deslocação 30 € (50 € noite/fim de semana) · 70 €/hora (100 €/hora noite/fim de semana)</span>
- <span className="font-bold">52,50 €</span>
+ <span>Deslocação (noite/fim de semana/feriado)</span>
+ <span className="font-bold">50 €</span>
  </div>
  <div className="flex justify-between">
- <span>Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</span>
- <span className="font-bold">97,50 €</span>
+ <span>Mão de obra: 1 hora a 100 €/hora (noite/fim de semana/feriado)</span>
+ <span className="font-bold">100 €</span>
  </div>
  <hr className="border-gray-300 my-2" />
  <div className="flex justify-between text-base font-black text-cyan-700">
