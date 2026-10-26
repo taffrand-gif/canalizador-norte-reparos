@@ -130,7 +130,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 <tr className="bg-cyan-600 text-white">
                   <th className="border border-gray-300 px-3 py-2 text-left">Tipo de desentupimento</th>
                   <th className="border border-gray-300 px-3 py-2 text-left">Tempo típico</th>
-                  <th className="border border-gray-300 px-3 py-2 text-left">Preço (dias úteis)</th>
+                  <th className="border border-gray-300 px-3 py-2 text-left">Preço em dias úteis (horas × 70 € + 30 €, IVA incluído)</th>
                 </tr>
               </thead>
               <tbody>
@@ -157,7 +157,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-3 py-2">Canalização principal (com máquina alta pressão)</td>
                   <td className="border border-gray-300 px-3 py-2">2-4 h</td>
-                  <td className="border border-gray-300 px-3 py-2 font-semibold">240-380€</td>
+                  <td className="border border-gray-300 px-3 py-2 font-semibold">170-310€</td>
                 </tr>
                 <tr className="bg-cyan-50">
                   <td className="border border-gray-300 px-3 py-2">Fossa séptica (sob marcação)</td>
@@ -196,7 +196,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa desentupir uma sanita?</h3>
-              <p className="text-gray-700">Tipicamente 1-2 horas → 100€-165€ horário normal. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
+              <p className="text-gray-700">Tipicamente 1-2 horas: 70 € + 30 € = 100 € (1 hora) a 2 × 70 € + 30 € = 170 € (2 horas), IVA incluído, em dias úteis. Outros casos ou horários diferentes alteram o valor — peça-nos orçamento por escrito.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">E uma fossa entupida?</h3>
