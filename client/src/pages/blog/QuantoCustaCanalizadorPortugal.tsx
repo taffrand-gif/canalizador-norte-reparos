@@ -23,7 +23,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
  {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
  {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
- {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Profissionais sérios oferecem garantia: reparações 3-6 meses; instalações 6-12 meses; trabalhos complexos até 24 meses. Exija garantia por escrito no orçamento.'}},
+ {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Peça que as condições de garantia fiquem por escrito no orçamento. As peças e os equipamentos instalados têm a garantia do respetivo fabricante.'}},
  {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€+; cano rebentado 150-400€.'}}
  ]
  }) }}
@@ -765,7 +765,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>✅ Seguro responsabilidade civil</li>
  </ul>
  <ul className="text-green-800 space-y-2">
- <li>✅ Garantia do trabalho (6-12 meses</li>
+ <li>✅ Condições de garantia indicadas por escrito</li>
  <li>✅ Pagamento faseado (sinal + final</li>
  <li>✅ Recibo/fatura oficial</li>
  <li>✅ Avaliações positivas online</li>
@@ -856,12 +856,12 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Canalizador dá garantia do trabalho?</h3>
  <p className="text-gray-700 mb-2">
- <strong>Profissionais sérios oferecem garantia:</strong>
+ <strong>Antes de contratar, confirme:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Reparações: 3-6 meses garantia</li>
- <li>• Instalações: 6-12 meses garantia</li>
- <li>• Trabalhos complexos: até 24 meses</li>
+ <li>• Peças e equipamentos: garantia do respetivo fabricante</li>
+ <li>• Mão de obra: condições indicadas por escrito no orçamento</li>
+ <li>• Seguro de responsabilidade civil profissional</li>
  </ul>
  <p className="text-red-700 font-semibold mt-3">
  ⚠️ Exija garantia por escrito no orçamento
