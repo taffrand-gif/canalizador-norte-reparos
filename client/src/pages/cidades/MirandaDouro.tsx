@@ -160,8 +160,7 @@ export default function MirandaDouro() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
- Fatura com NIF para seguro.
+ Deteção de fugas com câmara de inspeção, detetor de humidade e fluoresceína quando pertinente. Fatura com NIF.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -218,8 +217,7 @@ export default function MirandaDouro() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ Ridgid K9-102 para desentupimentos, câmara de inspeção e detetor de humidade.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
