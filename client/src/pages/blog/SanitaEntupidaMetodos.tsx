@@ -656,8 +656,8 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Garantia 3 Meses</p>
- <p className="text-sm text-white/80">Trabalho garantido</p>
+ <p className="font-bold">Garantia do fabricante</p>
+ <p className="text-sm text-white/80">Nas peças e equipamentos instalados</p>
  </div>
  </div>
  </div>
