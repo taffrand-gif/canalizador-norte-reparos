@@ -61,7 +61,7 @@ export default function QuantoCustaCanalizadorHoraPortugal() {
                 "name": "E a fatura? Emitida com NIF?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sim. Fatura com NIF após cada intervenção. Temos seguro de responsabilidade civil e identificação formal em todas as visitas."
+                  "text": "Sim. Fatura com NIF após cada intervenção."
                 }
               },
               {
