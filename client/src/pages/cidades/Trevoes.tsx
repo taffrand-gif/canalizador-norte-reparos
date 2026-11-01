@@ -143,8 +143,8 @@ export default function Trevoes() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Trêvões" />
-          <RelatedCities currentCity="Trêvões" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Trêvões" />
+          <RelatedCities currentCity="Trêvões" currentCitySlug="canalizador-trevoes" />
         </div>
       </main>
       <Footer />
