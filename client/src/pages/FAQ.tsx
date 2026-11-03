@@ -18,23 +18,23 @@ export default function FAQPage() {
  const faqs = [
  {
  question: "Quanto custa um canalizador em Trás-os-Montes?",
- answer: "Os preços variam conforme o serviço: desentupimentos simples a partir de 60€, arranjo de fugas de água a partir de 100€ (150 € noite/fim de semana), instalação de sanitários a partir de 150€. Oferecemos sem compromisso sem compromisso. Contacte-nos para uma avaliação precisa."
+ answer: "Tarifas TTC: dias úteis, 09h–18h, 70 €/h + 30 € de deslocação; noite (18h–09h), fins de semana e feriados, 100 €/h + 50 € de deslocação. A hora começada é devida. A disponibilidade da intervenção e a janela de deslocação são confirmadas por telefone."
  },
  {
  question: "Como funciona o sem compromisso?",
  answer: "Basta contactar-nos por telefone, WhatsApp ou formulário online. Deslocamo-nos gratuitamente à sua casa para avaliar o problema, apresentamos um orçamento detalhado e só avançamos com o trabalho após sua aprovação. Sem custos ocultos."
  },
  {
- question: "Tem canalizador urgente Atendimento 24h/7d?",
- answer: "Sim! Temos serviço de urgência Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados. Em caso de fuga de água, cano rebentado ou entupimento grave, ligue +351 928 484 451 para Intervenção mediante confirmação."
+ question: "O telefone está disponível 24/7 para pedidos urgentes?",
+ answer: "O atendimento telefónico humano está disponível 24/7 no +351 928 484 451. A disponibilidade real de uma intervenção e a janela de deslocação são confirmadas por telefone; não é anunciado um prazo de chegada."
  },
  {
  question: "Quanto tempo demora a chegar em caso de urgência?",
- answer: "Na zona de Trás-os-Montes e arredores (até 20km): A confirmar. Para outras localidades do distrito: A confirmar a 1 hora. Temos veículos equipados para deslocações rápidas em toda a região."
+ answer: "A disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone. Não é anunciado um prazo de chegada."
  },
  {
  question: "Fazem desentupimentos à noite ou fim de semana?",
- answer: "Sim, trabalhamos Atendimento 24h/7d. Não importa se é meia-noite, domingo ou feriado - temos equipas de piquete sempre disponíveis para emergências. O preço de urgência aplica-se fora do horário comercial."
+ answer: "O atendimento telefónico humano está disponível 24/7. A disponibilidade real da intervenção ao fim de semana e a janela de deslocação são confirmadas por telefone. Aplicam-se as tarifas TTC de fim de semana: 100 €/h + 50 € de deslocação; a hora começada é devida."
  },
  {
  question: "Quais os serviços de canalização que oferecem?",
@@ -114,7 +114,7 @@ export default function FAQPage() {
  <>
  <SEOHead
  title="Perguntas Frequentes | Norte Reparos | Canalizador Trás-os-Montes"
- description="Respostas às 20 perguntas mais comuns sobre serviços de canalização: preços, urgências 24h, desentupimentos, arranjo caldeiras, zonas servidas. canalizador com experiência em Bragança."
+ description="Respostas sobre canalização, tarifas TTC e contacto telefónico humano 24/7. A disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone."
  canonical="/faq"
  />
 
