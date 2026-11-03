@@ -29,7 +29,7 @@ export default function Desentupimentos() {
  "@context": "https://schema.org",
  "@type": "Service",
  "name": "Desentupimento em Trás-os-Montes",
- "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.",
+ "description": "Serviço profissional de desentupimento para canos, sanitas, esgotos, pias e ralos em Trás-os-Montes. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.",
  "provider": {
  "@type": "LocalBusiness",
  "name": "Norte Reparos - Canalizador Profissional",
@@ -99,7 +99,7 @@ export default function Desentupimentos() {
  </h1>
  <p className="text-xl mb-8 max-w-3xl">
  Desentupimento profissional de canos, sanitas, esgotos, pias e ralos em Trás-os-Montes.
- A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
+ A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.
  equipamento profissional (Ridgid) e técnicas não invasivas. Sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -251,7 +251,7 @@ export default function Desentupimentos() {
  },
  {
  question: "Quanto custa um desentupimento em Trás-os-Montes?",
- answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
+ answer: "O preço do desentupimento depende da complexidade (sanita, pia, esgoto, cano geral). Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes da intervenção, sem surpresas na fatura."
  }
  ]}
  />

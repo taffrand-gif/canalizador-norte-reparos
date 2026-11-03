@@ -21,7 +21,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "Quanto custa um desentupimento em Portugal em 2026?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Um desentupimento simples de lavatório ou sanita costuma demorar entre 1 e 2 horas; uma obstrução em canalização principal pode exigir 2-4 horas e eventualmente máquina de alta pressão. O orçamento detalhado por escrito é sempre entregue antes da deslocação."
+                  "text": "Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Um desentupimento simples de lavatório ou sanita costuma demorar entre 1 e 2 horas; uma obstrução em canalização principal pode exigir 2-4 horas e eventualmente máquina de alta pressão. O orçamento detalhado por escrito é sempre entregue antes da deslocação."
                 }
               },
               {
@@ -37,7 +37,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "E uma fossa entupida ou esgoto principal?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados."
+                  "text": "Casos de fossa séptica ou esgoto principal exigem geralmente 2-4 horas de trabalho e podem necessitar de equipamento específico (máquina de alta pressão, eventual desentupidora elétrica). O orçamento por escrito é sempre detalhado com horas previstas e materiais. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados."
                 }
               },
               {
@@ -53,7 +53,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "A Norte Reparos tem piquete de desentupimento 24h?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sim. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. "
+                  "text": "Sim. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. "
                 }
               },
               {
@@ -88,7 +88,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Quanto Custa um Desentupimento em 2026?",
-            "description": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Tabela por tipo de cano.\",",
+            "description": "Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Tabela por tipo de cano.\",",
             "author": { "@type": "Organization", "name": "Norte Reparos" },
             "publisher": { "@type": "Organization", "name": "Norte Reparos", "url": "https://canalizador-norte-reparos.pt" },
             "datePublished": "2026-07-10",
@@ -116,7 +116,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
           <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 mb-8">
             <p className="text-lg font-semibold text-gray-900 mb-2">Resposta direta:</p>
             <p className="text-gray-800">
-              Na Norte Reparos, o preço de um desentupimento é calculado de forma simples: <strong>deslocação (30 € em dias úteis, 50 € à noite, fins de semana e feriados) + horas × tarifário hora</strong> (70€/h em dias úteis 9h–17h, 100€/h à noite 17h–9h, fins de semana e feriados; cada hora começada é devida). Um desentupimento simples dura em média 1-2 horas; casos em canalização principal podem chegar a 2-4 horas e exigir máquina de alta pressão. <strong>Orçamento por escrito detalhado sempre antes da deslocação.</strong>
+              Na Norte Reparos, o preço de um desentupimento é calculado de forma simples: <strong>deslocação (30 € em dias úteis, 50 € à noite, fins de semana e feriados) + horas × tarifário hora</strong> (70€/h em dias úteis 9h–18h, 100€/h à noite 18h–9h, fins de semana e feriados; cada hora começada é devida). Um desentupimento simples dura em média 1-2 horas; casos em canalização principal podem chegar a 2-4 horas e exigir máquina de alta pressão. <strong>Orçamento por escrito detalhado sempre antes da deslocação.</strong>
             </p>
           </div>
 
@@ -168,7 +168,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </table>
           </div>
           <p className="text-sm text-gray-600">
-            Valores = deslocação 30€ + horas × 70€ (dias úteis 9h–17h). À noite, fins de semana e feriados: deslocação 50€ + horas × 100€. Confirme pelo telefone para uma estimativa exata.
+            Valores = deslocação 30€ + horas × 70€ (dias úteis 9h–18h). À noite, fins de semana e feriados: deslocação 50€ + horas × 100€. Confirme pelo telefone para uma estimativa exata.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. O que fazer antes de nos chamar</h2>
@@ -192,7 +192,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
           <div className="space-y-6">
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa um desentupimento em 2026?</h3>
-              <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. </p>
+              <p className="text-gray-700">Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. </p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa desentupir uma sanita?</h3>
@@ -204,7 +204,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Trabalha 24h?</h3>
-              <p className="text-gray-700">Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
+              <p className="text-gray-700">Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Há garantia do trabalho?</h3>

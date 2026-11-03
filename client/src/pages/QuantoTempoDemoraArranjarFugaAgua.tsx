@@ -49,7 +49,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  "name": "Quanto custa arranjar uma fuga de água?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho."
+ "text": "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–18h) e a 100 €/hora + 50 € de deslocação à noite (18h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho."
  }
  },
  {
@@ -130,7 +130,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  },
  {
  question: "Quanto custa arranjar uma fuga de água?",
- answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
+ answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–18h) e a 100 €/hora + 50 € de deslocação à noite (18h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
  },
  {
  question: "Posso ter orçamento sem compromisso?",
@@ -350,7 +350,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  📍 Zonas de intervenção
  </h2>
  <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
- Base em Macedo de Cavaleiros. Deslocação a preço único: 30 € em dias úteis (9h–17h), 50 € à noite, fins de semana e feriados.
+ Base em Macedo de Cavaleiros. Deslocação a preço único: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados.
  </p>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4">
  {zonas.map((z, i) => (

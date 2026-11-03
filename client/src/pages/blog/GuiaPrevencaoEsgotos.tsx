@@ -217,7 +217,7 @@ export default function GuiaPrevencaoEsgotos() {
           <section className="my-10 bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Factos verificáveis Norte Reparos</h2>
             <p className="text-gray-800 mb-3"><strong>Mão de obra:</strong> 70 €/h para canalização, segundo a grelha interna R12.</p>
-            <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
+            <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
             <p className="text-gray-800 mb-2"><strong>Exemplos de distância TomTom desde Macedo de Cavaleiros:</strong></p>
             <ul className="list-disc pl-6 space-y-1 mb-3">
               <li>Macedo de Cavaleiros: 0,0 km · 15 €</li>
@@ -251,7 +251,7 @@ export default function GuiaPrevencaoEsgotos() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Quanto custa a limpeza preventiva da fossa?</h3>
-              <p className="text-gray-700">A limpeza de fossa é orçamentada pela empresa especializada segundo o volume e a distância — não é um valor tabelado. Em Trás-os-Montes, o pedido de limpeza por cisterna inclui deslocação e tratamento dos resíduos em destino licenciado. A limpeza periódica é mais económica do que uma intervenção de desentupimento de emergência; dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O orçamento por escrito é sempre preparado antes da intervenção.</p>
+              <p className="text-gray-700">A limpeza de fossa é orçamentada pela empresa especializada segundo o volume e a distância — não é um valor tabelado. Em Trás-os-Montes, o pedido de limpeza por cisterna inclui deslocação e tratamento dos resíduos em destino licenciado. A limpeza periódica é mais económica do que uma intervenção de desentupimento de emergência; dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O orçamento por escrito é sempre preparado antes da intervenção.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Árvores plantadas longe da rede ainda são risco?</h3>

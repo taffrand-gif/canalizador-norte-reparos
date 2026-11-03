@@ -27,7 +27,7 @@ const faqItems = [
   {
     question: 'Quanto custa resolver uma sanita entupida?',
     answer:
-      'A mão de obra de canalização é 70 €/h. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Fornecemos orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.',
+      'A mão de obra de canalização é 70 €/h. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Fornecemos orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.',
   },
   {
     question: 'Porque volta a sanita a entupir?',
@@ -118,7 +118,7 @@ export default function SanitaEntupida() {
         <title>Sanita Entupida: Desentupimento Profissional em Trás-os-Montes | Norte Reparos</title>
         <meta
           name="description"
-          content="Sanita entupida em Trás-os-Montes? Diagnóstico da obstrução, desobstrução profissional e orçamento por escrito antes da intervenção. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
+          content="Sanita entupida em Trás-os-Montes? Diagnóstico da obstrução, desobstrução profissional e orçamento por escrito antes da intervenção. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €."
         />
         <link rel="canonical" href="https://canalizador-norte-reparos.pt/sanita-entupida" />
         <meta
@@ -252,7 +252,7 @@ export default function SanitaEntupida() {
               </div>
               <p className="mt-5 text-sm text-gray-600">
                 A zona de deslocação é definida pela distância rodoviária real desde Macedo de
-                Cavaleiros. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
+                Cavaleiros. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.
               </p>
               <p className="mt-4 font-semibold text-gray-900">
                 Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
