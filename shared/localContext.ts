@@ -58,11 +58,11 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Distância indicativa desde Macedo de Cavaleiros: ~55 km pela N15.",
     answerFirst:
       "A nossa equipa atende Bragança e as suas freguesias em redor (Gimonde, Grijó, Rebordãos, Izeda, Coelhoso, Parada, Castro de Avelãs) " +
-      "com serviço profissional 24h, deslocação pela N15, e diagnóstico no local sem compromisso.",
+      "com atendimento telefónico humano disponível 24/7; a disponibilidade da intervenção e a janela de deslocação são confirmadas por telefone.",
     heroSubtitle:
       "Equipa técnica sediada em Trás-os-Montes, com experiência em canalização antiga do centro histórico de Bragança " +
       "— fugas em paredes de granito, juntas oxidadas e colunas sanitárias em ferro galvanizado. " +
-      "Serviço profissional 24h/7d na sede do distrito.",
+      "Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Bragança e arredores (39 freguesias, incluindo Gimonde, Grijó, Rebordãos, Izeda, Coelhoso). " +
       "Orçamento final após diagnóstico no local, sem compromisso. Cobertura completa do concelho.",
@@ -97,10 +97,10 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "garantimos atenção — ligue 928 484 451",
     heroSubtitle:
       "Cobertura completa do concelho de Mirandela (30 freguesias) a partir da base operacional em Trás-os-Montes. " +
-      "Atendimento em prédios recentes do centro e construções rurais com fossas séticas. Serviço 24h/7d, sem compromisso.",
+      "Atendimento em prédios recentes do centro e construções rurais com fossas séticas. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Mirandela e 30 freguesias (Torre de Dona Chama, Aguieiras, Alvites, Carvalhais, Mascarenhas). " +
-      "Deslocação rápida pela N15. Orçamento final após diagnóstico no local.",
+      "Deslocação pela N15 conforme a disponibilidade confirmada por telefone. Orçamento final após diagnóstico no local.",
     freguesias: [
       "Mirandela",
       "Torre de Dona Chama",
@@ -128,14 +128,14 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "redes mistas (canalização moderna na zona central e tubagem antiga em ferro galvanizado nas freguesias). " +
       "Distância desde a base: 0 km (sede operacional).",
     answerFirst:
-      "A nossa base está em Macedo de Cavaleiros — por isso a deslocação à sede do concelho é imediata, " +
-      "e cobrimos as 38 freguesias municipais com tempos de resposta curtos via N15, N102 e IC5.",
+      "A nossa base está em Macedo de Cavaleiros — por isso a disponibilidade da intervenção e a janela de deslocação à sede do concelho são confirmadas por telefone, " +
+      "e cobrimos as 38 freguesias municipais via N15, N102 e IC5; a disponibilidade e a janela de deslocação são confirmadas por telefone, sem prazo de chegada anunciado.",
     heroSubtitle:
-      "Sede operacional da Norte Reparos — a deslocação a Macedo de Cavaleiros e às suas 38 freguesias é imediata. " +
+      "Sede operacional da Norte Reparos — a disponibilidade da intervenção e a janela de deslocação a Macedo de Cavaleiros e às suas 38 freguesias são confirmadas por telefone. " +
       "Cobertura dos eixos N15, N102 e IC5. Equipamento preparado para sistemas de bombagem rural.",
     pricingHook:
       "Tarifa base aplicável a Macedo de Cavaleiros e 38 freguesias (Morais, Lagoa, Talhinhas, Salsas, etc.). " +
-      "Base operacional na sede do concelho — resposta imediata. Orçamento sem compromisso.",
+      "Base operacional na sede do concelho — disponibilidade e janela de deslocação confirmadas por telefone. Orçamento sem compromisso.",
     freguesias: [
       "Macedo de Cavaleiros",
       "Morais",
@@ -162,11 +162,11 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Distância indicativa desde Macedo de Cavaleiros: ~80 km pela N15.",
     answerFirst:
       "Em Vila Real e nas 30 freguesias do concelho (Constantim, Mateus, Parada de Cunhos, Folhadela, etc.) " +
-      "atendemos 24h com deslocação pela A4/N15/N2, incluindo prédios altos com coluna sanitária em ferro galvanizado.",
+      "atendemos Vila Real pela A4/N15/N2, incluindo prédios altos com coluna sanitária em ferro galvanizado; a disponibilidade da intervenção e a janela de deslocação são confirmadas por telefone.",
     heroSubtitle:
       "Capital do distrito de Vila Real e maior cidade servida a sul do distrito de Bragança. " +
       "Experiência em prédios altos com colunas sanitárias em ferro galvanizado sujeitas a corrosão. " +
-      "Acesso por A4, N15 e N2. Serviço profissional 24h/7d.",
+      "Acesso por A4, N15 e N2. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Vila Real e 30 freguesias (Constantim, Mateus, Parada de Cunhos, Folhadela). " +
       "Cobertura do centro histórico e zonas de expansão. Orçamento sem compromisso após diagnóstico no local.",
@@ -197,11 +197,11 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
       "Distância indicativa desde Macedo de Cavaleiros: ~95 km (A24+N2).",
     answerFirst:
       "Atendemos Chaves e as 39 freguesias do concelho (Vidago, Pedras Salgadas, Vila Verde da Raia, Oura, Vilar de Nantes) " +
-      "com serviço 24h via A24 e N2 — incluindo o parque hoteleiro termal com sistemas de aquecimento central.",
+      "com atendimento telefónico humano disponível 24/7 e disponibilidade da intervenção confirmada por telefone — incluindo o parque hoteleiro termal com sistemas de aquecimento central.",
     heroSubtitle:
       "Cidade termal na fronteira com a Galiza, conhecida pelo parque hoteleiro de águas termais. " +
       "Pedidos frequentes em Chaves: arranjo de esquentadores, manutenção de aquecimento central, " +
-      "fugas em tubagem envelhecida. Acesso por A24 e N2. Atendimento 24h/7d.",
+      "fugas em tubagem envelhecida. Acesso por A24 e N2. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Chaves e 39 freguesias (Vidago, Pedras Salgadas, Vila Verde da Raia, Oura). " +
       "Experiência em sistemas de aquecimento central e parque hoteleiro termal. Orçamento sem compromisso.",
@@ -236,7 +236,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
     heroSubtitle:
       "Concelho mais oriental do distrito de Bragança, encostado à fronteira espanhola sobre o planalto mirandês. " +
       "Habitação em xisto e granito com redes de água frequentemente mistas e muito envelhecidas. " +
-      "Acesso por N221 (Mogadouro). Equipa técnica 24h/7d.",
+      "Acesso por N221 (Mogadouro). Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Miranda do Douro e 17 freguesias do planalto mirandês (Sendim, Palaçoulo, Duas Igrejas). " +
       "Deslocação por N221 — trajeto sinuoso com troços sujeitos a nevoeiro. Orçamento sem compromisso.",
@@ -270,7 +270,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
     heroSubtitle:
       "Concelho setentrional do distrito de Bragança, em zona de baixa densidade e habitat disperso. " +
       "Pedidos frequentes em Vinhais: fugas em redes exteriores de quintas, fossas séticas e " +
-      "substituição de bombas de água. Acesso por N102. Equipa técnica 24h/7d.",
+      "substituição de bombas de água. Acesso por N102. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Vinhais e 26 freguesias (Ervedosa, Moimenta, Agrochão, Santalha, Candedo). " +
       "Equipamento preparado para habitação rural isolada e sistemas de bombagem próprios. Orçamento sem compromisso.",
@@ -306,7 +306,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
     heroSubtitle:
       "Concelho rural do sul do distrito de Bragança, com forte presença de exploração agrícola. " +
       "Atendemos Mogadouro e as suas 21 freguesias com equipamento para quintas, fossas séticas e " +
-      "sistemas de bombagem próprios. Acesso por IC5 e N221. Equipa técnica 24h/7d.",
+      "sistemas de bombagem próprios. Acesso por IC5 e N221. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Mogadouro e 21 freguesias (Castelo Branco, Azinhoso, Bemposta, Bruçó, Penas Roias). " +
       "Equipamento para quintas agrícolas e habitação rural. Orçamento sem compromisso após diagnóstico no local.",
@@ -378,7 +378,7 @@ export const LOCAL_CONTEXTS: Record<string, LocalContext> = {
     heroSubtitle:
       "Concelho mais a sul do distrito de Bragança, encostado ao Douro Internacional e à fronteira " +
       "com a província de Salamanca (Espanha). Zona de baixa densidade com habitat disperso e " +
-      "aldeias históricas em xisto. Atendimento em Freixo de Espada à Cinta e 6 freguesias. Acesso por IC5 e N220. Equipa técnica 24h/7d.",
+      "aldeias históricas em xisto. Atendimento em Freixo de Espada à Cinta e 6 freguesias. Acesso por IC5 e N220. Atendimento telefónico humano disponível 24/7; disponibilidade da intervenção confirmada por telefone.",
     pricingHook:
       "Tarifa base para Freixo de Espada à Cinta e 6 freguesias (Lagoaça, Ligares, Mazouco, Poiares, Fornos). " +
       "Deslocação por IC5 e N220. Orçamento sem compromisso após diagnóstico no local.",

@@ -26,7 +26,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 3,
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis 24h/7d para emergências. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
+ answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos pelo 928 484 451 ou WhatsApp — o atendimento telefónico humano está disponível 24/7; a disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
  category: "Emergências"
  },
  {

@@ -1,7 +1,7 @@
 // Configuração para Norte-Reparos - Canalizador
 // Site canalizador-norte-reparos.pt
-// Preços sem IVA - NOVA GRELHA TARIFÁRIA 2026
-// Grelha única: 70€/h + 30€ (dias úteis 9h–17h) · 100€/h + 50€ (noite, fins de semana, feriados)
+// Preços TTC (IVA incluído) - REGRA TARIFÁRIA OFICIAL 2026
+// Grelha única: 70€/h + 30€ (dias úteis 09h–18h) · 100€/h + 50€ (noite, fins de semana, feriados)
 
 export type SiteId = 'norte-reparos';
 
@@ -51,7 +51,7 @@ export interface SiteConfig {
 
  // Pricing config
  urgencyMultiplier: number; // fator mão de obra noite/fim de semana/feriado (100/70)
- hourlyRate: number; // 70€/h (dias úteis)
+ hourlyRate: number; // 70€/h TTC (dias úteis, 09h–18h)
 
  // Company info
  company: {
@@ -91,8 +91,8 @@ export interface SiteConfig {
 }
 
 // GRELHA TARIFÁRIA 2026
-// Grelha única 2026-09-23: dias úteis 9h–17h = 70€/h + deslocação 30€ ;
-// noite (17h–9h), fins de semana, feriados = 100€/h + deslocação 50€. Cada hora começada é devida.
+// Grelha única 2026-09-23: dias úteis 09h–18h = 70€/h + deslocação 30€ ;
+// noite (18h–09h), fins de semana, feriados = 100€/h + deslocação 50€. Cada hora começada é devida.
 
 export const siteConfig: SiteConfig = {
  id: 'norte-reparos',
@@ -129,13 +129,13 @@ export const siteConfig: SiteConfig = {
  // Pricing Zones - NOVA GRELHA 2026
  pricingZones: [
  // Grelha única 2026-09-23 — deslocação independente da localidade
- { zone: 'DIA', name: 'Dias úteis 9h–17h', cities: 'Todas as localidades servidas', price: '30€', time: 'Mão de obra 70€/h' },
- { zone: 'NOITE', name: 'Noite (17h–9h), fins de semana e feriados', cities: 'Todas as localidades servidas', price: '50€', time: 'Mão de obra 100€/h' },
+ { zone: 'DIA', name: 'Dias úteis 09h–18h', cities: 'Todas as localidades servidas', price: '30€ TTC', time: 'Mão de obra 70€/h TTC' },
+ { zone: 'NOITE', name: 'Noite (18h–09h), fins de semana e feriados', cities: 'Todas as localidades servidas', price: '50€ TTC', time: 'Mão de obra 100€/h TTC' },
  ],
 
  // NOVO: Urgência + Taxa Horária
  urgencyMultiplier: 100 / 70, // 100€/h noite / fim de semana / feriado
- hourlyRate: 70, // 70€/h dias úteis
+ hourlyRate: 70, // 70€/h TTC dias úteis, 09h–18h
 
  company: {
  fullName: 'Canalizador Profissional',

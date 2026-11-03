@@ -1741,6 +1741,16 @@
   ],
   "redirects": [
     {
+      "source": "/contacto.html",
+      "destination": "/contactos",
+      "statusCode": 301
+    },
+    {
+      "source": "/contacto",
+      "destination": "/contactos",
+      "statusCode": 301
+    },
+    {
       "source": "/imprensa",
       "destination": "/sobre",
       "statusCode": 301
