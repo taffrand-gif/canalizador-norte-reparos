@@ -56,6 +56,7 @@ Idioma: português europeu (pt-PT)
 ## Equipamento documentado
 
 - [Ridgid FlexShaft K9-102](https://canalizador-norte-reparos.pt/tecnologia-ridgid-k9-102-desentupimento): equipamento mecânico para desentupimento de tubagens.
+- [Câmara térmica FLIR](https://canalizador-norte-reparos.pt/tecnologia-flir-deteccao-fugas): apoio à localização não invasiva de fugas ocultas.
 
 ## Principais páginas locais
 
