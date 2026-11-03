@@ -40,7 +40,6 @@ Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhai
 - Ridgid FlexShaft K9-102 (desentupimento mecânico industrial)
 - Câmara de inspeção CCTV
 - Câmara térmica FLIR
-- ROLeak Aqua 3Plus (deteção acústica de fugas)
 - Kit fluorosceína UV
 
 ## Marcas de materiais (verídicas)

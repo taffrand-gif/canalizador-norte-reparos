@@ -14,7 +14,7 @@ function FAQLocal() {
  const localFaqs = isPlumber ? [
  {
  question: 'A Norte Reparos faz instalação de canalização em Mirandela?',
- answer: 'Sim, a Norte Reparos faz instalação e remodelação de canalização em Mirandela e em todo o distrito de Bragança, ao domicílio. Orçamento por escrito em 48h e garantia 1 ano.'},
+ answer: 'Sim, a Norte Reparos faz instalação e remodelação de canalização em Mirandela e em todo o distrito de Bragança, ao domicílio. Orçamento por escrito antes de qualquer intervenção.'},
  {
  question: 'Quanto custa um canalizador em Bragança para desentupimento?',
  answer: 'Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
