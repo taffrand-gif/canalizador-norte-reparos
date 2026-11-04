@@ -312,8 +312,7 @@ export default function TransparencePrix() {
  <Users className="w-12 h-12 text-orange-600 mb-4" />
  <h3 className="text-xl font-bold mb-3 text-gray-900">Seguro & Garantia</h3>
  <p className="text-gray-700 leading-relaxed">
- Seguro de responsabilidade civil de 500.000€. Garantia 12 meses em instalações.
- Se causar infiltração, estamos cobertos. Muitos "baratos" trabalham sem seguro.
+ Seguro de responsabilidade civil profissional até 50.000 €, conforme as condições aplicáveis. Garantia 12 meses em instalações.
  </p>
  </div>
  </div>
@@ -351,8 +350,8 @@ export default function TransparencePrix() {
  <div className="text-white/80">Garantia Arranjos</div>
  </div>
  <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
- <div className="text-3xl font-black mb-2">500.000€</div>
- <div className="text-white/80">Seguro Responsabilidade</div>
+ <div className="text-xl font-bold mb-2">Até 50.000€</div>
+ <div className="text-white/80">Seguro de responsabilidade civil profissional, conforme as condições aplicáveis</div>
  </div>
  </div>
  <p className="text-sm text-white/70 italic">
