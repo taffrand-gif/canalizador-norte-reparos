@@ -17,7 +17,6 @@ import OptimizedHome from "./pages/OptimizedHome";
 
 // Lazy load conversion widgets (below-fold)
 const ExitIntentPopup = lazy(() => import('@/components/ExitIntentPopup'));
-const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
 const LocationDetector = lazy(() => import('@/components/LocationDetector'));
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
@@ -284,7 +283,6 @@ function App() {
 
  <Suspense fallback={null}>
  <ExitIntentPopup />
- <QuoteCalculator />
  <LocationDetector />
  </Suspense>
  <Router />
