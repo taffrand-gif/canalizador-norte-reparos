@@ -149,7 +149,7 @@ export default function Desentupimentos() {
  <ul className="space-y-3">
  <li className="flex items-center gap-3">
  <span className="text-blue-500 text-xl">⚙️</span>
- <span><strong>Máquinas de alta pressão Ridgid:</strong> Até 4000 PSI para desentupimentos profundos</span>
+ <span><strong>Máquinas de alta pressão Ridgid:</strong> Utilizadas conforme o diagnóstico e o tipo de canalização</span>
  </li>
  <li className="flex items-center gap-3">
  <span className="text-blue-500 text-xl">📹</span>
