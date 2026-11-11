@@ -143,8 +143,8 @@ export default function Cambres() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Cambres" />
-          <RelatedCities currentCity="Cambres" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Cambres" />
+          <RelatedCities currentCity="Cambres" currentCitySlug="canalizador-cambres" />
         </div>
       </main>
       <Footer />

@@ -143,8 +143,8 @@ export default function Valdigem() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Valdigem" />
-          <RelatedCities currentCity="Valdigem" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Valdigem" />
+          <RelatedCities currentCity="Valdigem" currentCitySlug="canalizador-valdigem" />
         </div>
       </main>
       <Footer />

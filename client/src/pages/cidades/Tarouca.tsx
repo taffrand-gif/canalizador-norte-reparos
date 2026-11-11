@@ -143,8 +143,8 @@ export default function Tarouca() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Tarouca" />
-          <RelatedCities currentCity="Tarouca" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Tarouca" />
+          <RelatedCities currentCity="Tarouca" currentCitySlug="canalizador-tarouca" />
         </div>
       </main>
       <Footer />

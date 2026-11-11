@@ -143,8 +143,8 @@ export default function Cedovim() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Cedovim" />
-          <RelatedCities currentCity="Cedovim" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Cedovim" />
+          <RelatedCities currentCity="Cedovim" currentCitySlug="canalizador-cedovim" />
         </div>
       </main>
       <Footer />
