@@ -1115,7 +1115,6 @@ https://canalizador-norte-reparos.pt/canalizador-aguas-vivas
 https://canalizador-norte-reparos.pt/canalizador-aguieira
 https://canalizador-norte-reparos.pt/canalizador-aguieiras
 https://canalizador-norte-reparos.pt/canalizador-ala
-https://canalizador-norte-reparos.pt/canalizador-albarellos
 https://canalizador-norte-reparos.pt/canalizador-alcarva
 https://canalizador-norte-reparos.pt/canalizador-aldeia-vicosa
 https://canalizador-norte-reparos.pt/canalizador-aldeias
@@ -1150,7 +1149,6 @@ https://canalizador-norte-reparos.pt/canalizador-antas
 https://canalizador-norte-reparos.pt/canalizador-arcas
 https://canalizador-norte-reparos.pt/canalizador-arcosso
 https://canalizador-norte-reparos.pt/canalizador-ardaos
-https://canalizador-norte-reparos.pt/canalizador-argan
 https://canalizador-norte-reparos.pt/canalizador-argana
 https://canalizador-norte-reparos.pt/canalizador-argozelo
 https://canalizador-norte-reparos.pt/canalizador-aricera
@@ -1229,7 +1227,6 @@ https://canalizador-norte-reparos.pt/canalizador-autoclismo-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-trevoes
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-valdigem
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-valpacos
-https://canalizador-norte-reparos.pt/canalizador-autoclismo-vern
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vidago
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vila-franca-das-naves
@@ -1240,7 +1237,6 @@ https://canalizador-norte-reparos.pt/canalizador-autoclismo-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vimioso
 https://canalizador-norte-reparos.pt/canalizador-autoclismo-vinhais
-https://canalizador-norte-reparos.pt/canalizador-autoclismo-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-avantos
 https://canalizador-norte-reparos.pt/canalizador-avelanoso
 https://canalizador-norte-reparos.pt/canalizador-avelas-da-ribeira
@@ -1380,7 +1376,6 @@ https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-torre-de-monco
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-trevoes
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-valdigem
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-valpacos
-https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vern
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vidago
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vila-franca-das-naves
@@ -1391,7 +1386,6 @@ https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vilar-de-macad
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vimioso
 https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-vinhais
-https://canalizador-norte-reparos.pt/canalizador-canalizacao-nova-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-canaveses
 https://canalizador-norte-reparos.pt/canalizador-candedo
 https://canalizador-norte-reparos.pt/canalizador-candemil
@@ -1565,7 +1559,6 @@ https://canalizador-norte-reparos.pt/canalizador-desentupimento-torre-de-moncorv
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-trevoes
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-valdigem
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-valpacos
-https://canalizador-norte-reparos.pt/canalizador-desentupimento-vern
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vidago
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vila-franca-das-naves
@@ -1576,7 +1569,6 @@ https://canalizador-norte-reparos.pt/canalizador-desentupimento-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vimioso
 https://canalizador-norte-reparos.pt/canalizador-desentupimento-vinhais
-https://canalizador-norte-reparos.pt/canalizador-desentupimento-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-distrito-de-braganca
 https://canalizador-norte-reparos.pt/canalizador-distrito-de-vila-real
 https://canalizador-norte-reparos.pt/canalizador-donai
@@ -1602,7 +1594,6 @@ https://canalizador-norte-reparos.pt/canalizador-ervoes
 https://canalizador-norte-reparos.pt/canalizador-escalhao
 https://canalizador-norte-reparos.pt/canalizador-escarigo
 https://canalizador-norte-reparos.pt/canalizador-escurquela
-https://canalizador-norte-reparos.pt/canalizador-espadaedo
 https://canalizador-norte-reparos.pt/canalizador-espadanedo
 https://canalizador-norte-reparos.pt/canalizador-espinhosa
 https://canalizador-norte-reparos.pt/canalizador-espinhosela
@@ -1671,7 +1662,6 @@ https://canalizador-norte-reparos.pt/canalizador-esquentador-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-esquentador-trevoes
 https://canalizador-norte-reparos.pt/canalizador-esquentador-valdigem
 https://canalizador-norte-reparos.pt/canalizador-esquentador-valpacos
-https://canalizador-norte-reparos.pt/canalizador-esquentador-vern
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vidago
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vila-franca-das-naves
@@ -1682,7 +1672,6 @@ https://canalizador-norte-reparos.pt/canalizador-esquentador-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vimioso
 https://canalizador-norte-reparos.pt/canalizador-esquentador-vinhais
-https://canalizador-norte-reparos.pt/canalizador-esquentador-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-eucisia
 https://canalizador-norte-reparos.pt/canalizador-failde
 https://canalizador-norte-reparos.pt/canalizador-faioes
@@ -1707,7 +1696,6 @@ https://canalizador-norte-reparos.pt/canalizador-fiolhoso
 https://canalizador-norte-reparos.pt/canalizador-folgosa
 https://canalizador-norte-reparos.pt/canalizador-folhada
 https://canalizador-norte-reparos.pt/canalizador-folhadela
-https://canalizador-norte-reparos.pt/canalizador-fonfra
 https://canalizador-norte-reparos.pt/canalizador-fontao
 https://canalizador-norte-reparos.pt/canalizador-fonte-da-urze
 https://canalizador-norte-reparos.pt/canalizador-fonte-longa
@@ -1779,7 +1767,6 @@ https://canalizador-norte-reparos.pt/canalizador-fossa-septica-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-trevoes
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-valdigem
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-valpacos
-https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vern
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vidago
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vila-franca-das-naves
@@ -1790,7 +1777,6 @@ https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vimioso
 https://canalizador-norte-reparos.pt/canalizador-fossa-septica-vinhais
-https://canalizador-norte-reparos.pt/canalizador-fossa-septica-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-fradizela
 https://canalizador-norte-reparos.pt/canalizador-franca
 https://canalizador-norte-reparos.pt/canalizador-franco
@@ -1877,7 +1863,6 @@ https://canalizador-norte-reparos.pt/canalizador-fuga-agua-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-trevoes
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-valdigem
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-valpacos
-https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vern
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vidago
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vila-franca-das-naves
@@ -1888,10 +1873,8 @@ https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vimioso
 https://canalizador-norte-reparos.pt/canalizador-fuga-agua-vinhais
-https://canalizador-norte-reparos.pt/canalizador-fuga-agua-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-fuinhas
 https://canalizador-norte-reparos.pt/canalizador-galafura
-https://canalizador-norte-reparos.pt/canalizador-gallegos-del-ro
 https://canalizador-norte-reparos.pt/canalizador-gandaricas
 https://canalizador-norte-reparos.pt/canalizador-gatao
 https://canalizador-norte-reparos.pt/canalizador-gateira
@@ -2056,7 +2039,6 @@ https://canalizador-norte-reparos.pt/canalizador-nuzedo-de-baixo
 https://canalizador-norte-reparos.pt/canalizador-olas
 https://canalizador-norte-reparos.pt/canalizador-olmos
 https://canalizador-norte-reparos.pt/canalizador-olo
-https://canalizador-norte-reparos.pt/canalizador-ombra
 https://canalizador-norte-reparos.pt/canalizador-oucidres
 https://canalizador-norte-reparos.pt/canalizador-oura
 https://canalizador-norte-reparos.pt/canalizador-ourozinho
@@ -2093,7 +2075,6 @@ https://canalizador-norte-reparos.pt/canalizador-paramio
 https://canalizador-norte-reparos.pt/canalizador-pardelhas
 https://canalizador-norte-reparos.pt/canalizador-paredes-da-beira
 https://canalizador-norte-reparos.pt/canalizador-paredes
-https://canalizador-norte-reparos.pt/canalizador-pas
 https://canalizador-norte-reparos.pt/canalizador-passo
 https://canalizador-norte-reparos.pt/canalizador-passos
 https://canalizador-norte-reparos.pt/canalizador-paus
@@ -2205,7 +2186,6 @@ https://canalizador-norte-reparos.pt/canalizador-pressao-agua-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-trevoes
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-valdigem
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-valpacos
-https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vern
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vidago
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vila-franca-das-naves
@@ -2216,7 +2196,6 @@ https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vimioso
 https://canalizador-norte-reparos.pt/canalizador-pressao-agua-vinhais
-https://canalizador-norte-reparos.pt/canalizador-pressao-agua-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-pretarouca
 https://canalizador-norte-reparos.pt/canalizador-prova
 https://canalizador-norte-reparos.pt/canalizador-provesende
@@ -2238,7 +2217,6 @@ https://canalizador-norte-reparos.pt/canalizador-quintela-de-lampacas
 https://canalizador-norte-reparos.pt/canalizador-quiras
 https://canalizador-norte-reparos.pt/canalizador-rabacal
 https://canalizador-norte-reparos.pt/canalizador-rabal
-https://canalizador-norte-reparos.pt/canalizador-randn
 https://canalizador-norte-reparos.pt/canalizador-ranhados
 https://canalizador-norte-reparos.pt/canalizador-rapa
 https://canalizador-norte-reparos.pt/canalizador-ratoeira
@@ -2250,7 +2228,6 @@ https://canalizador-norte-reparos.pt/canalizador-refoios
 https://canalizador-norte-reparos.pt/canalizador-rego-de-vide
 https://canalizador-norte-reparos.pt/canalizador-reigada
 https://canalizador-norte-reparos.pt/canalizador-remondes
-https://canalizador-norte-reparos.pt/canalizador-requejo-de-sanabria
 https://canalizador-norte-reparos.pt/canalizador-resende
 https://canalizador-norte-reparos.pt/canalizador-ribalonga
 https://canalizador-norte-reparos.pt/canalizador-ribeira-de-goujoim
@@ -2263,7 +2240,6 @@ https://canalizador-norte-reparos.pt/canalizador-rio-de-onor
 https://canalizador-norte-reparos.pt/canalizador-rio-frio
 https://canalizador-norte-reparos.pt/canalizador-rio-torto
 https://canalizador-norte-reparos.pt/canalizador-riodades
-https://canalizador-norte-reparos.pt/canalizador-riofro-de-aliste
 https://canalizador-norte-reparos.pt/canalizador-rocamondo
 https://canalizador-norte-reparos.pt/canalizador-rogodeiro
 https://canalizador-norte-reparos.pt/canalizador-roios
@@ -2285,7 +2261,6 @@ https://canalizador-norte-reparos.pt/canalizador-samil
 https://canalizador-norte-reparos.pt/canalizador-samodaes
 https://canalizador-norte-reparos.pt/canalizador-samoes
 https://canalizador-norte-reparos.pt/canalizador-sampaio
-https://canalizador-norte-reparos.pt/canalizador-san-pedro-de-la-silba
 https://canalizador-norte-reparos.pt/canalizador-sanceriz
 https://canalizador-norte-reparos.pt/canalizador-sanche
 https://canalizador-norte-reparos.pt/canalizador-sande
@@ -2470,7 +2445,6 @@ https://canalizador-norte-reparos.pt/canalizador-torneira-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-torneira-trevoes
 https://canalizador-norte-reparos.pt/canalizador-torneira-valdigem
 https://canalizador-norte-reparos.pt/canalizador-torneira-valpacos
-https://canalizador-norte-reparos.pt/canalizador-torneira-vern
 https://canalizador-norte-reparos.pt/canalizador-torneira-vidago
 https://canalizador-norte-reparos.pt/canalizador-torneira-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-torneira-vila-franca-das-naves
@@ -2481,7 +2455,6 @@ https://canalizador-norte-reparos.pt/canalizador-torneira-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-torneira-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-torneira-vimioso
 https://canalizador-norte-reparos.pt/canalizador-torneira-vinhais
-https://canalizador-norte-reparos.pt/canalizador-torneira-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-torre-de-dona-chama
 https://canalizador-norte-reparos.pt/canalizador-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-torre-do-pinhao
@@ -2494,7 +2467,6 @@ https://canalizador-norte-reparos.pt/canalizador-tresouras
 https://canalizador-norte-reparos.pt/canalizador-trevoes
 https://canalizador-norte-reparos.pt/canalizador-trindade
 https://canalizador-norte-reparos.pt/canalizador-tronco
-https://canalizador-norte-reparos.pt/canalizador-truchas-trueitas
 https://canalizador-norte-reparos.pt/canalizador-tuizelo
 https://canalizador-norte-reparos.pt/canalizador-ucanha
 https://canalizador-norte-reparos.pt/canalizador-urgente-alfandega-da-fe
@@ -2562,7 +2534,6 @@ https://canalizador-norte-reparos.pt/canalizador-urgente-torre-de-moncorvo
 https://canalizador-norte-reparos.pt/canalizador-urgente-trevoes
 https://canalizador-norte-reparos.pt/canalizador-urgente-valdigem
 https://canalizador-norte-reparos.pt/canalizador-urgente-valpacos
-https://canalizador-norte-reparos.pt/canalizador-urgente-vern
 https://canalizador-norte-reparos.pt/canalizador-urgente-vidago
 https://canalizador-norte-reparos.pt/canalizador-urgente-vila-flor
 https://canalizador-norte-reparos.pt/canalizador-urgente-vila-franca-das-naves
@@ -2573,7 +2544,6 @@ https://canalizador-norte-reparos.pt/canalizador-urgente-vilar-de-macada
 https://canalizador-norte-reparos.pt/canalizador-urgente-vilarandelo
 https://canalizador-norte-reparos.pt/canalizador-urgente-vimioso
 https://canalizador-norte-reparos.pt/canalizador-urgente-vinhais
-https://canalizador-norte-reparos.pt/canalizador-urgente-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-urros
 https://canalizador-norte-reparos.pt/canalizador-uva
 https://canalizador-norte-reparos.pt/canalizador-vacalar
@@ -2643,10 +2613,8 @@ https://canalizador-norte-reparos.pt/canalizador-veigas
 https://canalizador-norte-reparos.pt/canalizador-velosa
 https://canalizador-norte-reparos.pt/canalizador-ventoselo
 https://canalizador-norte-reparos.pt/canalizador-vermiosa
-https://canalizador-norte-reparos.pt/canalizador-vern
 https://canalizador-norte-reparos.pt/canalizador-viade-de-baixo
 https://canalizador-norte-reparos.pt/canalizador-viariz
-https://canalizador-norte-reparos.pt/canalizador-vias
 https://canalizador-norte-reparos.pt/canalizador-vidago
 https://canalizador-norte-reparos.pt/canalizador-vide-entre-vinhas
 https://canalizador-norte-reparos.pt/canalizador-viduedo
@@ -2720,7 +2688,6 @@ https://canalizador-norte-reparos.pt/canalizador-vinhas
 https://canalizador-norte-reparos.pt/canalizador-vinhos
 https://canalizador-norte-reparos.pt/canalizador-vreia-de-bornes
 https://canalizador-norte-reparos.pt/canalizador-vreia-de-jales
-https://canalizador-norte-reparos.pt/canalizador-xinzo-de-limia
 https://canalizador-norte-reparos.pt/canalizador-zedes
 https://canalizador-norte-reparos.pt/canalizador-zoio
 https://canalizador-norte-reparos.pt/cano-rebentado-alfandega-fe
