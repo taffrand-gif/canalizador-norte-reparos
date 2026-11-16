@@ -21,7 +21,7 @@ const QuoteCalculator = lazy(() => import('@/components/QuoteCalculator'));
 const LocationDetector = lazy(() => import('@/components/LocationDetector'));
 // Lazy load all pages except homepage for better LCP
 const Servicos = lazy(() => import("@/pages/Servicos"));
-const Desentupimentos = lazy(() => import("@/pages/Desentupimentos"));
+const Desentupimentos = lazy(() => import("@/pages/DesentupimentosRedirect"));
 const ArranjoFugasAgua = lazy(() => import("@/pages/ArranjoFugasAgua"));
 const InstalacaoCanalizacao = lazy(() => import("@/pages/InstalacaoCanalizacao"));
 const ArranjoEsquentadores = lazy(() => import("@/pages/ArranjoEsquentadores"));
