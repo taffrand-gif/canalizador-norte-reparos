@@ -1936,11 +1936,6 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-cerezal-de-peahorcada",
-      "destination": "/canalizador-cerezal-de-penahorcada",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-espadaedo",
       "destination": "/canalizador-espadanedo",
       "statusCode": 301
@@ -1956,38 +1951,8 @@
       "statusCode": 301
     },
     {
-      "source": "/canalizador-la-pea",
-      "destination": "/canalizador-la-pena",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-la-vdola",
-      "destination": "/canalizador-la-vidola",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-pedralba-de-la-pradera",
-      "destination": "/canalizador-pedralba-de-la-praderia",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-perea-de-la-ribera",
-      "destination": "/canalizador-perena-de-la-ribera",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-samir-de-los-caos",
-      "destination": "/canalizador-samir-de-los-canos",
-      "statusCode": 301
-    },
-    {
       "source": "/canalizador-seixo-de-anasiaes",
       "destination": "/canalizador-seixo-de-ansiaes",
-      "statusCode": 301
-    },
-    {
-      "source": "/canalizador-vilario-de-conso",
-      "destination": "/canalizador-vilarino-de-conso",
       "statusCode": 301
     },
     {
@@ -2053,11 +2018,6 @@
     {
       "source": "/canalizador-",
       "destination": "/canalizador-",
-      "statusCode": 410
-    },
-    {
-      "source": "/canalizador-gallegos-del-ro",
-      "destination": "/canalizador-gallegos-del-ro",
       "statusCode": 410
     },
     {
