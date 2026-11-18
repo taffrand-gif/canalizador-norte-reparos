@@ -328,7 +328,7 @@ export default function StructuredData() {
  "name": "Quanto custa uma intervenção?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. À noite (17h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer trabalho, sem surpresas na fatura."
+ "text": "Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer trabalho, sem surpresas na fatura."
  }
  },
  {

@@ -1,0 +1,32 @@
+openapi: 3.0.3
+info:
+  title: Norte Reparos — informação pública de canalização
+  version: 1.0.0
+  description: >-
+    Endpoints de leitura de informação pública. Não confirmam marcações,
+    disponibilidade de intervenção, orçamentos ou janelas de deslocação.
+servers:
+  - url: https://canalizador-norte-reparos.pt
+paths:
+  /llms.txt:
+    get:
+      operationId: getPlumbingSummary
+      summary: Obter a informação essencial de canalização
+      responses:
+        '200':
+          description: Informação pública essencial em texto simples
+          content:
+            text/plain:
+              schema:
+                type: string
+  /llms-full.txt:
+    get:
+      operationId: getFullPlumbingInformation
+      summary: Obter a informação completa de canalização
+      responses:
+        '200':
+          description: Informação pública completa em texto simples
+          content:
+            text/plain:
+              schema:
+                type: string

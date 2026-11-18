@@ -14,7 +14,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 1,
  question: "Quanto custa chamar um canalizador em Bragança?",
- answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€. Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). A deslocação tem preço único: 30 € em dias úteis (9h–17h), 50 € à noite, fins de semana e feriados. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
+ answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€. Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). A deslocação tem preço único: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
  category: "Preços"
  },
  {
@@ -26,7 +26,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 3,
  question: "O que fazer em caso de fuga de água urgente?",
- answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos imediatamente pelo 928 484 451 ou WhatsApp - estamos disponíveis 24h/7d para emergências. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
+ answer: "Em caso de fuga urgente, siga estes passos imediatamente: 1) Feche a torneira de corte geral da água (normalmente junto ao contador), 2) Desligue a eletricidade se a água estiver perto de tomadas ou quadro elétrico, 3) Coloque baldes ou toalhas para conter a água, 4) Contacte-nos pelo 928 484 451 ou WhatsApp — o atendimento telefónico humano está disponível 24/7; a disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone. Não tente arranjos provisórias com fita adesiva ou cola, pois podem agravar o problema e dificultar a arranjo definitiva.",
  category: "Emergências"
  },
  {

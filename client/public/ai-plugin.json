@@ -1,19 +1,18 @@
 {
- "schema_version": "v1",
- "name_for_human": "Norte Reparos - Canalizador Profissional",
- "name_for_model": "norte_reparos_canalizador",
- "description_for_human": "Canalizador profissional 24h em Trás-os-Montes. Serviços de desentupimento, arranjo de fugas, instalação sanitária, aquecimento central.",
- "description_for_model": "Plugin para acessar informações sobre serviços de canalização profissional em Trás-os-Montes, Portugal. Inclui desentupimentos, arranjo de fugas, instalação de sanitários, aquecimento central, urgências 24h. Cobre 10 cidades na região.",
- "auth": {
- "type": "none"
- },
- "api": {
- "type": "openapi",
- "url": "https://canalizador-norte-reparos.pt/.well-known/openapi.yaml",
- "is_user_authenticated": false
- },
- "logo_url": "https://canalizador-norte-reparos.pt/logo.png",
- "contact_email": "contacto@canalizador-norte-reparos.pt",
- "legal_info_url": "https://canalizador-norte-reparos.pt/terms",
- "human_url": "https://canalizador-norte-reparos.pt"
+  "schema_version": "v1",
+  "name_for_human": "Norte Reparos — Canalizador",
+  "name_for_model": "norte_reparos_canalizador",
+  "description_for_human": "Informação sobre canalização da Norte Reparos em Trás-os-Montes e Douro. Atendimento telefónico humano 24/7; a disponibilidade da intervenção e a janela de deslocação são confirmadas por telefone.",
+  "description_for_model": "Serviço de canalização da Norte Reparos. Valores TTC: 70 EUR/h + 30 EUR de deslocação em dias úteis, das 09h às 18h; 100 EUR/h + 50 EUR à noite, fins de semana e feriados. A hora começada é devida. A disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone; não é anunciado um prazo de chegada. A área geral é Trás-os-Montes e Douro; a cobertura de uma localidade concreta deve ser confirmada por telefone.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://canalizador-norte-reparos.pt/.well-known/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "contact_email": "contacto@canalizador-norte-reparos.pt",
+  "legal_info_url": "https://canalizador-norte-reparos.pt/termos-condicoes",
+  "human_url": "https://canalizador-norte-reparos.pt/"
 }

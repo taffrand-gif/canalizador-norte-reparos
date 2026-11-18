@@ -27,7 +27,7 @@ export default function CarrazedoMontenegro() {
     },
     {
       question: "Reparam fugas de água ao fim de semana em Carrazedo de Montenegro?",
-      answer: "Sim, atendemos fugas de água em Carrazedo de Montenegro 24h, incluindo fins de semana e feriados. Dias úteis (9h–17h): mão de obra 70 €/hora e deslocação 30 €. Noite (17h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
+      answer: "Sim, atendemos fugas de água em Carrazedo de Montenegro 24h, incluindo fins de semana e feriados. Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. — sempre informado antes de avançar."
     },
     {
       question: "Que zonas cobrem em Carrazedo de Montenegro?",

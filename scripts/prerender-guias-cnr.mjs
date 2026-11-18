@@ -42,7 +42,7 @@ const ROUTES = [
   // --- Service hubs (M money) ---
   { slug: 'arranjo-fugas-agua',     file: 'ArranjoFugasAgua.tsx',     dir: '', canonical: `${BASE_URL}/arranjo-fugas-agua` },
   { slug: 'arranjo-esquentadores',  file: 'ArranjoEsquentadores.tsx',  dir: '', canonical: `${BASE_URL}/arranjo-esquentadores` },
-  { slug: 'desentupimentos',        file: 'Desentupimentos.tsx',        dir: '', canonical: `${BASE_URL}/desentupimentos` },
+  { slug: 'desentupimentos',        file: 'Desentupimentos.tsx',        dir: '', canonical: `${BASE_URL}/desentupimentos/` },
   { slug: 'instalacao-canalizacao', file: 'InstalacaoCanalizacao.tsx', dir: '', canonical: `${BASE_URL}/instalacao-canalizacao` },
 
   // --- ELP Emotional Landing Pages (M urgence) ---
