@@ -1762,13 +1762,13 @@
     },
     {
       "source": "/blog/contratar-canalizador-2026",
-      "destination": "/blog/contratar-canalizador-2026",
-      "statusCode": 410
+      "destination": "/blog",
+      "statusCode": 301
     },
     {
       "source": "/blog/guia-completo-canalizacao-casa-antiga",
-      "destination": "/blog/guia-completo-canalizacao-casa-antiga",
-      "statusCode": 410
+      "destination": "/blog/canalizacao-casa-antiga-renovacao",
+      "statusCode": 301
     },
     {
       "source": "/amazon",
@@ -1782,8 +1782,8 @@
     },
     {
       "source": "/fugas-agua",
-      "destination": "/fugas-agua",
-      "statusCode": 410
+      "destination": "/fuga-agua-urgente",
+      "statusCode": 301
     },
     {
       "source": "/desentupimentos",
