@@ -1762,13 +1762,13 @@
     },
     {
       "source": "/blog/contratar-canalizador-2026",
-      "destination": "/top-10-razoes-contratar-canalizador",
-      "statusCode": 301
+      "destination": "/blog/contratar-canalizador-2026",
+      "statusCode": 410
     },
     {
       "source": "/blog/guia-completo-canalizacao-casa-antiga",
-      "destination": "/guia-completo-canalizacao-casa-antiga-portugal",
-      "statusCode": 301
+      "destination": "/blog/guia-completo-canalizacao-casa-antiga",
+      "statusCode": 410
     },
     {
       "source": "/amazon",
@@ -1782,8 +1782,8 @@
     },
     {
       "source": "/fugas-agua",
-      "destination": "/fuga-agua",
-      "statusCode": 301
+      "destination": "/fugas-agua",
+      "statusCode": 410
     },
     {
       "source": "/desentupimentos",
@@ -1792,8 +1792,8 @@
     },
     {
       "source": "/tuto",
-      "destination": "/tuto/",
-      "statusCode": 301
+      "destination": "/tuto",
+      "statusCode": 410
     },
     {
       "source": "/blog",
@@ -1807,118 +1807,118 @@
     },
     {
       "source": "/blog/certificacao--obrigatoria",
-      "destination": "/blog/certificacao-obrigatoria",
-      "statusCode": 301
+      "destination": "/blog/certificacao--obrigatoria",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--tudo-saber",
-      "destination": "/blog/certificacao-tudo-saber",
-      "statusCode": 301
+      "destination": "/blog/certificacao--tudo-saber",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao-eletrica--guia",
-      "destination": "/blog/certificacao-eletrica-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao-eletrica--guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--alfandega-fe",
-      "destination": "/blog/certificacao-alfandega-fe",
-      "statusCode": 301
+      "destination": "/blog/certificacao--alfandega-fe",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--alfandega-fe-guia",
-      "destination": "/blog/certificacao-alfandega-fe-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--alfandega-fe-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--algoso",
-      "destination": "/blog/certificacao-algoso",
-      "statusCode": 301
+      "destination": "/blog/certificacao--algoso",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--alijo",
-      "destination": "/blog/certificacao-alijo",
-      "statusCode": 301
+      "destination": "/blog/certificacao--alijo",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--alijo-guia",
-      "destination": "/blog/certificacao-alijo-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--alijo-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--armamar",
-      "destination": "/blog/certificacao-armamar",
-      "statusCode": 301
+      "destination": "/blog/certificacao--armamar",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--boticas",
-      "destination": "/blog/certificacao-boticas",
-      "statusCode": 301
+      "destination": "/blog/certificacao--boticas",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--boticas-guia",
-      "destination": "/blog/certificacao-boticas-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--boticas-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--braganca",
-      "destination": "/blog/certificacao-braganca",
-      "statusCode": 301
+      "destination": "/blog/certificacao--braganca",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--braganca-guia",
-      "destination": "/blog/certificacao-braganca-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--braganca-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--carrazeda-ansiaes",
-      "destination": "/blog/certificacao-carrazeda-ansiaes",
-      "statusCode": 301
+      "destination": "/blog/certificacao--carrazeda-ansiaes",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--carrazeda-ansiaes-guia",
-      "destination": "/blog/certificacao-carrazeda-ansiaes-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--carrazeda-ansiaes-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--chaves",
-      "destination": "/blog/certificacao-chaves",
-      "statusCode": 301
+      "destination": "/blog/certificacao--chaves",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--chaves-guia",
-      "destination": "/blog/certificacao-chaves-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--chaves-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--duas-igrejas",
-      "destination": "/blog/certificacao-duas-igrejas",
-      "statusCode": 301
+      "destination": "/blog/certificacao--duas-igrejas",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--foz-coa",
-      "destination": "/blog/certificacao-foz-coa",
-      "statusCode": 301
+      "destination": "/blog/certificacao--foz-coa",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--freixo-espada-cinta",
-      "destination": "/blog/certificacao-freixo-espada-cinta",
-      "statusCode": 301
+      "destination": "/blog/certificacao--freixo-espada-cinta",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--freixo-espada-cinta-guia",
-      "destination": "/blog/certificacao-freixo-espada-cinta-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--freixo-espada-cinta-guia",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--macedo-cavaleiros",
-      "destination": "/blog/certificacao-macedo-cavaleiros",
-      "statusCode": 301
+      "destination": "/blog/certificacao--macedo-cavaleiros",
+      "statusCode": 410
     },
     {
       "source": "/blog/certificacao--macedo-cavaleiros-guia",
-      "destination": "/blog/certificacao-macedo-cavaleiros-guia",
-      "statusCode": 301
+      "destination": "/blog/certificacao--macedo-cavaleiros-guia",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alfndega-da-fe",
@@ -1937,8 +1937,8 @@
     },
     {
       "source": "/canalizador-cerezal-de-peahorcada",
-      "destination": "/canalizador-cerezal-de-penahorcada",
-      "statusCode": 301
+      "destination": "/canalizador-cerezal-de-peahorcada",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-espadaedo",
@@ -1957,28 +1957,28 @@
     },
     {
       "source": "/canalizador-la-pea",
-      "destination": "/canalizador-la-pena",
-      "statusCode": 301
+      "destination": "/canalizador-la-pea",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-la-vdola",
-      "destination": "/canalizador-la-vidola",
-      "statusCode": 301
+      "destination": "/canalizador-la-vdola",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-pedralba-de-la-pradera",
-      "destination": "/canalizador-pedralba-de-la-praderia",
-      "statusCode": 301
+      "destination": "/canalizador-pedralba-de-la-pradera",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-perea-de-la-ribera",
-      "destination": "/canalizador-perena-de-la-ribera",
-      "statusCode": 301
+      "destination": "/canalizador-perea-de-la-ribera",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-samir-de-los-caos",
-      "destination": "/canalizador-samir-de-los-canos",
-      "statusCode": 301
+      "destination": "/canalizador-samir-de-los-caos",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-seixo-de-anasiaes",
@@ -1987,37 +1987,37 @@
     },
     {
       "source": "/canalizador-vilario-de-conso",
-      "destination": "/canalizador-vilarino-de-conso",
-      "statusCode": 301
+      "destination": "/canalizador-vilario-de-conso",
+      "statusCode": 410
     },
     {
       "source": "/melhor-autoclismo-tavira",
-      "destination": "/melhor-autoclismo-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
       "source": "/melhor-canalizacao-nova-tavira",
-      "destination": "/melhor-canalizacao-nova-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
       "source": "/melhor-desentupimento-tavira",
-      "destination": "/melhor-desentupimento-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
       "source": "/melhor-esquentador-tavira",
-      "destination": "/melhor-esquentador-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
       "source": "/melhor-fossa-septica-tavira",
-      "destination": "/melhor-fossa-septica-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
       "source": "/melhor-fuga-agua-tavira",
-      "destination": "/melhor-fuga-agua-tavora",
+      "destination": "/canalizador-tavora",
       "statusCode": 301
     },
     {
@@ -2167,8 +2167,8 @@
     },
     {
       "source": "/fugas-agua-meda",
-      "destination": "/fuga-agua-meda",
-      "statusCode": 301
+      "destination": "/fugas-agua-meda",
+      "statusCode": 410
     },
     {
       "source": "/fugas-agua-miranda-douro",
@@ -3107,77 +3107,77 @@
     },
     {
       "source": "/canalizador-m%C3%AAda-urgente",
-      "destination": "/canalizador-meda-urgente",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-urgente",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-reparacao-esquentador",
-      "destination": "/canalizador-meda-reparacao-esquentador",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-reparacao-esquentador",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-aceita-cartao",
-      "destination": "/canalizador-alijo-aceita-cartao",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-preco-justo",
-      "destination": "/canalizador-meda-preco-justo",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-preco-justo",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-orcamento-gratis",
-      "destination": "/canalizador-alijo-orcamento-gratis",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-confianca",
-      "destination": "/canalizador-meda-confianca",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-confianca",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-fossa-septica",
-      "destination": "/canalizador-meda-fossa-septica",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-fossa-septica",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-noite",
-      "destination": "/canalizador-meda-noite",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-noite",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-trabalha-feriado",
-      "destination": "/canalizador-alijo-trabalha-feriado",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-fuga-agua",
-      "destination": "/canalizador-alijo-fuga-agua",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-perto-de-mim-m%C3%AAda",
-      "destination": "/canalizador-perto-de-mim-meda",
-      "statusCode": 301
+      "destination": "/canalizador-perto-de-mim-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-barato",
-      "destination": "/canalizador-meda-barato",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-barato",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-orcamento-gratis",
-      "destination": "/canalizador-meda-orcamento-gratis",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-orcamento-gratis",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-24-horas",
-      "destination": "/canalizador-meda-24-horas",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-24-horas",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-urgente",
-      "destination": "/canalizador-alijo-urgente",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
@@ -3187,152 +3187,152 @@
     },
     {
       "source": "/canalizador-alij%C3%B3-avaliar-online",
-      "destination": "/canalizador-alijo-avaliar-online",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-recomendado",
-      "destination": "/canalizador-meda-recomendado",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-recomendado",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-trabalha-feriado",
-      "destination": "/canalizador-meda-trabalha-feriado",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-trabalha-feriado",
+      "statusCode": 410
     },
     {
       "source": "/quanto-custa-canalizador-m%C3%AAda",
-      "destination": "/quanto-custa-canalizador-meda",
-      "statusCode": 301
+      "destination": "/quanto-custa-canalizador-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-m%C3%AAda-avaliar-online",
-      "destination": "/canalizador-meda-avaliar-online",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-avaliar-online",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-desentupimento",
-      "destination": "/canalizador-alijo-desentupimento",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-fuga-agua",
-      "destination": "/canalizador-meda-fuga-agua",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-fuga-agua",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-emergencia-domingo",
-      "destination": "/canalizador-alijo-emergencia-domingo",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-aceita-cartao",
-      "destination": "/canalizador-meda-aceita-cartao",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-aceita-cartao",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-preco-justo",
-      "destination": "/canalizador-alijo-preco-justo",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-desentupimento",
-      "destination": "/canalizador-meda-desentupimento",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-desentupimento",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-perto-de-mim-alij%C3%B3",
-      "destination": "/canalizador-perto-de-mim-alijo",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-fossa-septica",
-      "destination": "/canalizador-alijo-fossa-septica",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-domingo",
-      "destination": "/canalizador-alijo-domingo",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-emergencia-domingo",
-      "destination": "/canalizador-meda-emergencia-domingo",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-emergencia-domingo",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-24-horas",
-      "destination": "/canalizador-alijo-24-horas",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-noite",
-      "destination": "/canalizador-alijo-noite",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-barato",
-      "destination": "/canalizador-alijo-barato",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-confianca",
-      "destination": "/canalizador-alijo-confianca",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda-domingo",
-      "destination": "/canalizador-meda-domingo",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda-domingo",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-alij%C3%B3-recomendado",
-      "destination": "/canalizador-alijo-recomendado",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/canalizador-alij%C3%B3-reparacao-esquentador",
-      "destination": "/canalizador-alijo-reparacao-esquentador",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-distrito-de-braganca",
-      "destination": "/assistencia-canalizacao-distrito-de-braganca",
+      "destination": "/canalizador-distrito-de-braganca",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-distrito-de-vila-real",
-      "destination": "/assistencia-canalizacao-distrito-de-vila-real",
+      "destination": "/canalizador-distrito-de-vila-real",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-distrito-de-guarda",
-      "destination": "/assistencia-canalizacao-distrito-de-guarda",
-      "statusCode": 301
+      "destination": "/assist%C3%AAncia-canalizacao-distrito-de-guarda",
+      "statusCode": 410
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-macedo-de-cavaleiros",
-      "destination": "/assistencia-canalizacao-macedo-de-cavaleiros",
+      "destination": "/canalizador-macedo-de-cavaleiros",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-braganca",
-      "destination": "/assistencia-canalizacao-braganca",
+      "destination": "/canalizador-braganca",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-mirandela",
-      "destination": "/assistencia-canalizacao-mirandela",
+      "destination": "/canalizador-mirandela",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-vinhais",
-      "destination": "/assistencia-canalizacao-vinhais",
+      "destination": "/canalizador-vinhais",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-vimioso",
-      "destination": "/assistencia-canalizacao-vimioso",
+      "destination": "/canalizador-vimioso",
       "statusCode": 301
     },
     {
@@ -3347,12 +3347,12 @@
     },
     {
       "source": "/canalizador-24-horas-alf%C3%A2ndega-da-fe",
-      "destination": "/canalizador-24-horas-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/picheleiro-alf%C3%A2ndega-da-fe",
-      "destination": "/picheleiro-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
@@ -3362,27 +3362,27 @@
     },
     {
       "source": "/desentupir-sanita-alf%C3%A2ndega-da-fe",
-      "destination": "/desentupir-sanita-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/fuga-de-agua-alf%C3%A2ndega-da-fe",
-      "destination": "/fuga-de-agua-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/detecao-de-fugas-alf%C3%A2ndega-da-fe",
-      "destination": "/detecao-de-fugas-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/reparacao-canalizacao-alf%C3%A2ndega-da-fe",
-      "destination": "/reparacao-canalizacao-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-alf%C3%A2ndega-da-fe",
-      "destination": "/assistencia-canalizacao-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
@@ -3392,42 +3392,42 @@
     },
     {
       "source": "/cano-rebentado-alf%C3%A2ndega-da-fe",
-      "destination": "/cano-rebentado-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/bomba-de-agua-alf%C3%A2ndega-da-fe",
-      "destination": "/bomba-de-agua-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/canalizador-ao-domingo-alf%C3%A2ndega-da-fe",
-      "destination": "/canalizador-ao-domingo-alfandega-da-fe",
+      "destination": "/canalizador-alfandega-da-fe",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-carrazeda-de-anciaes",
-      "destination": "/assistencia-canalizacao-carrazeda-de-anciaes",
+      "destination": "/canalizador-carrazeda-de-anciaes",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-mogadouro",
-      "destination": "/assistencia-canalizacao-mogadouro",
+      "destination": "/canalizador-mogadouro",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-vila-flor",
-      "destination": "/assistencia-canalizacao-vila-flor",
+      "destination": "/canalizador-vila-flor",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-torre-de-moncorvo",
-      "destination": "/assistencia-canalizacao-torre-de-moncorvo",
+      "destination": "/canalizador-torre-de-moncorvo",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-miranda-do-douro",
-      "destination": "/assistencia-canalizacao-miranda-do-douro",
+      "destination": "/canalizador-miranda-do-douro",
       "statusCode": 301
     },
     {
@@ -3437,12 +3437,12 @@
     },
     {
       "source": "/canalizador-24-horas-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/canalizador-24-horas-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/picheleiro-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/picheleiro-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
@@ -3452,27 +3452,27 @@
     },
     {
       "source": "/desentupir-sanita-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/desentupir-sanita-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/fuga-de-agua-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/fuga-de-agua-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/detecao-de-fugas-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/detecao-de-fugas-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/reparacao-canalizacao-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/reparacao-canalizacao-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/assistencia-canalizacao-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
@@ -3482,52 +3482,52 @@
     },
     {
       "source": "/cano-rebentado-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/cano-rebentado-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/bomba-de-agua-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/bomba-de-agua-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/canalizador-ao-domingo-freixo-de-espada-%C3%A0-cinta",
-      "destination": "/canalizador-ao-domingo-freixo-de-espada-a-cinta",
+      "destination": "/canalizador-freixo-de-espada-a-cinta",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-murca",
-      "destination": "/assistencia-canalizacao-murca",
+      "destination": "/canalizador-murca",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-valpacos",
-      "destination": "/assistencia-canalizacao-valpacos",
+      "destination": "/canalizador-valpacos",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-sabrosa",
-      "destination": "/assistencia-canalizacao-sabrosa",
+      "destination": "/canalizador-sabrosa",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-alijo",
-      "destination": "/assistencia-canalizacao-alijo",
+      "destination": "/canalizador-alijo",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-santa-marta-de-penaguiao",
-      "destination": "/assistencia-canalizacao-santa-marta-de-penaguiao",
+      "destination": "/canalizador-santa-marta-de-penaguiao",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-vila-real",
-      "destination": "/assistencia-canalizacao-vila-real",
+      "destination": "/canalizador-vila-real",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-chaves",
-      "destination": "/assistencia-canalizacao-chaves",
+      "destination": "/canalizador-chaves",
       "statusCode": 301
     },
     {
@@ -3542,12 +3542,12 @@
     },
     {
       "source": "/canalizador-24-horas-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/canalizador-24-horas-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/picheleiro-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/picheleiro-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
@@ -3557,27 +3557,27 @@
     },
     {
       "source": "/desentupir-sanita-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/desentupir-sanita-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/fuga-de-agua-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/fuga-de-agua-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/detecao-de-fugas-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/detecao-de-fugas-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/reparacao-canalizacao-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/reparacao-canalizacao-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/assistencia-canalizacao-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
@@ -3587,97 +3587,97 @@
     },
     {
       "source": "/cano-rebentado-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/cano-rebentado-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/bomba-de-agua-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/bomba-de-agua-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/canalizador-ao-domingo-vila-nova-de-foz-c%C3%B4a",
-      "destination": "/canalizador-ao-domingo-vila-nova-de-foz-coa",
+      "destination": "/canalizador-vila-nova-de-foz-coa",
       "statusCode": 301
     },
     {
       "source": "/canalizador-m%C3%AAda",
-      "destination": "/canalizador-meda",
-      "statusCode": 301
+      "destination": "/canalizador-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-urgente-m%C3%AAda",
-      "destination": "/canalizador-urgente-meda",
-      "statusCode": 301
+      "destination": "/canalizador-urgente-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-24-horas-m%C3%AAda",
-      "destination": "/canalizador-24-horas-meda",
-      "statusCode": 301
+      "destination": "/canalizador-24-horas-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/picheleiro-m%C3%AAda",
-      "destination": "/picheleiro-meda",
-      "statusCode": 301
+      "destination": "/picheleiro-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/desentupimento-m%C3%AAda",
-      "destination": "/desentupimento-meda",
-      "statusCode": 301
+      "destination": "/desentupimento-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/desentupir-sanita-m%C3%AAda",
-      "destination": "/desentupir-sanita-meda",
-      "statusCode": 301
+      "destination": "/desentupir-sanita-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/fuga-de-agua-m%C3%AAda",
-      "destination": "/fuga-de-agua-meda",
-      "statusCode": 301
+      "destination": "/fuga-de-agua-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/detecao-de-fugas-m%C3%AAda",
-      "destination": "/detecao-de-fugas-meda",
-      "statusCode": 301
+      "destination": "/detecao-de-fugas-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/reparacao-canalizacao-m%C3%AAda",
-      "destination": "/reparacao-canalizacao-meda",
-      "statusCode": 301
+      "destination": "/reparacao-canalizacao-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-m%C3%AAda",
-      "destination": "/assistencia-canalizacao-meda",
-      "statusCode": 301
+      "destination": "/assist%C3%AAncia-canalizacao-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/esquentador-m%C3%AAda",
-      "destination": "/esquentador-meda",
-      "statusCode": 301
+      "destination": "/esquentador-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/cano-rebentado-m%C3%AAda",
-      "destination": "/cano-rebentado-meda",
-      "statusCode": 301
+      "destination": "/cano-rebentado-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/bomba-de-agua-m%C3%AAda",
-      "destination": "/bomba-de-agua-meda",
-      "statusCode": 301
+      "destination": "/bomba-de-agua-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/canalizador-ao-domingo-m%C3%AAda",
-      "destination": "/canalizador-ao-domingo-meda",
-      "statusCode": 301
+      "destination": "/canalizador-ao-domingo-m%C3%AAda",
+      "statusCode": 410
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-fornos-de-algodres",
-      "destination": "/assistencia-canalizacao-fornos-de-algodres",
-      "statusCode": 301
+      "destination": "/assist%C3%AAncia-canalizacao-fornos-de-algodres",
+      "statusCode": 410
     },
     {
       "source": "/assist%C3%AAncia-canalizacao-aguiar-da-beira",
-      "destination": "/assistencia-canalizacao-aguiar-da-beira",
+      "destination": "/canalizador-aguiar-da-beira",
       "statusCode": 301
     }
   ],
