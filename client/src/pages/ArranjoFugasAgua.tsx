@@ -85,9 +85,9 @@ export default function ArranjacaoFugasAgua() {
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
  <div className="grid md:grid-cols-3 gap-6">
  {[
- { service: "Arranjo torneira", price: "Desde €60" },
- { service: "Deteção de fuga", price: "Desde €100" },
- { service: "Substituição cano", price: "Desde €150" }
+ { service: "Arranjo torneira", price: "Sob orçamento" },
+ { service: "Deteção de fuga", price: "Sob orçamento" },
+ { service: "Substituição cano", price: "Sob orçamento" }
  ].map((item, i) => (
  <div key={i} className="p-6 bg-blue-50 rounded-xl text-center">
  <h3 className="font-bold text-gray-900 mb-2">{item.service}</h3>

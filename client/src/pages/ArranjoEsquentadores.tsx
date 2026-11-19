@@ -72,9 +72,9 @@ export default function ArranjacaoEsquentadores() {
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
  <div className="grid md:grid-cols-3 gap-6">
  {[
- { service: "Manutenção anual", price: "Desde €80" },
- { service: "Arranjo avaria", price: "Desde €100" },
- { service: "Substituição completa", price: "Desde €400" }
+ { service: "Manutenção anual", price: "Sob orçamento" },
+ { service: "Arranjo avaria", price: "Sob orçamento" },
+ { service: "Substituição completa", price: "Sob orçamento" }
  ].map((item, i) => (
  <div key={i} className="p-6 bg-blue-50 rounded-xl text-center">
  <h3 className="font-bold text-gray-900 mb-2">{item.service}</h3>

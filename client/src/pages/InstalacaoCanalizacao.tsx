@@ -62,9 +62,9 @@ export default function InstalacaoCanalizacao() {
  <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Preços Indicativos</h2>
  <div className="grid md:grid-cols-3 gap-6">
  {[
- { service: "Casa de banho completa", price: "Desde €800" },
- { service: "Cozinha completa", price: "Desde €500" },
- { service: "Casa inteira", price: "Desde €2.000" }
+ { service: "Casa de banho completa", price: "Sob orçamento" },
+ { service: "Cozinha completa", price: "Sob orçamento" },
+ { service: "Casa inteira", price: "Sob orçamento" }
  ].map((item, i) => (
  <div key={i} className="p-6 bg-blue-50 rounded-xl text-center">
  <h3 className="font-bold text-gray-900 mb-2">{item.service}</h3>
