@@ -909,7 +909,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Garantia 6 Meses</p>
+ <p className="font-bold">Garantia do fabricante nos equipamentos e peças</p>
  <p className="text-sm text-white/80">Trabalho garantido</p>
  </div>
  </div>

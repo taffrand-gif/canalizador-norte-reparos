@@ -130,8 +130,8 @@ export default function CheiroMauCanalizacao() {
  guarantees={[
  {
  icon: 'shield',
- title: '',
- description: 'Se o cheiro voltar em 30 dias, voltamos gratuitamente e resolvemos.'
+ title: 'Garantia do Fabricante',
+ description: 'Nos equipamentos e peças aplica-se a garantia do fabricante.'
  },
  {
  icon: 'check',
@@ -231,7 +231,7 @@ export default function CheiroMauCanalizacao() {
  },
  {
  q: 'Dão garantia na eliminação do cheiro?',
- a: 'Sim! Garantia de 30 dias. Se o cheiro voltar, voltamos gratuitamente e resolvemos. Só cobramos se eliminarmos definitivamente o problema.'
+ a: 'Nos equipamentos e peças aplica-se a garantia do fabricante. Orçamento por escrito antes de qualquer intervenção.'
  }
  ].map((item, i) => (
  <div key={i} className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">

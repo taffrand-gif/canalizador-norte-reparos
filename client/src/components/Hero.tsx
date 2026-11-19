@@ -19,7 +19,7 @@ function Hero() {
  return `${config.hero.title.split('—')[0]}— ${city}`;
  }, [config.hero.title, city]);
 const personalizedSubtitle = useMemo(() => {
- return `Instalação e remodelação ao seu domicílio em ${city}. Orçamento por escrito, garantia 1 ano.`;
+ return `Instalação e remodelação ao seu domicílio em ${city}. Orçamento por escrito, garantia do fabricante nos equipamentos e peças.`;
  }, [city]);
  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
  return (

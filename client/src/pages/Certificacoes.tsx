@@ -9,7 +9,7 @@ export default function Certificacoes() {
  
  useSEO({
  title: `Certificações - ${config.name}`,
- description: `Certificações profissionais e garantias. Trabalho certificado com garantia de 12 meses.`});
+ description: `Certificações profissionais e garantias. Trabalho certificado com garantia do fabricante nos equipamentos e peças.`});
  return (
  <div className="min-h-screen flex flex-col">
  <Header />
@@ -37,9 +37,9 @@ export default function Certificacoes() {
  </Card>
  <Card className="p-8 text-center">
  <Award className="h-16 w-16 text-red-600 mx-auto mb-4" />
- <h3 className="font-bold text-xl mb-2">Garantia 12 Meses</h3>
+ <h3 className="font-bold text-xl mb-2">Garantia do fabricante nos equipamentos e peças</h3>
  <p className="text-gray-600">
- Todos os trabalhos com garantia por escrito de 12 meses
+ Todos os trabalhos com garantia do fabricante nos equipamentos e peças
  </p>
  </Card>
  <Card className="p-8 text-center">
@@ -55,7 +55,7 @@ export default function Certificacoes() {
  Serviços de Certificação
  </h2>
  <p className="text-blue-800">
- Todos os nossos trabalhos são executados conforme as normas técnicas portuguesas e acompanhados de garantia por escrito.
+ Todos os nossos trabalhos são executados conforme as normas técnicas portuguesas e acompanhados de garantia do fabricante nos equipamentos e peças.
  </p>
  </Card>
  </div>

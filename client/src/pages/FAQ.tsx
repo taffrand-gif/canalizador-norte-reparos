@@ -62,7 +62,7 @@ export default function FAQPage() {
  },
  {
  question: "Dão garantia no trabalho realizado?",
- answer: "Sim, damos garantia de 12 meses em todos os trabalhos realizados. A garantia cobre mão de obra e materiais fornecidos por nós. Em caso de problema relacionado, voltamos gratuitamente para resolver."
+ answer: "Sim. Nos equipamentos e peças aplica-se a garantia do fabricante."
  },
  {
  question: "Quais métodos de pagamento aceitam?",

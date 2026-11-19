@@ -61,7 +61,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
                 "name": "O desentupimento inclui garantia?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sim. Se o mesmo problema recorrer na mesma instalação dentro do prazo combinado no orçamento por escrito (tipicamente 30-90 dias consoante o trabalho), voltamos sem custo de mão de obra — cobramos apenas deslocação, se aplicável. Esta é uma das razões pelas quais preferimos orçamento escrito detalhado em vez de 'preço tabelado' genérico."
+                  "text": "Nos equipamentos e peças aplica-se a garantia do fabricante. Se o problema voltar, ligue-nos: orçamento por escrito antes de qualquer intervenção. Esta é uma das razões pelas quais preferimos orçamento escrito detalhado em vez de 'preço tabelado' genérico."
                 }
               },
               {
@@ -208,7 +208,7 @@ export default function PrecoCanalizadorDesentupimentoUrgente() {
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Há garantia do trabalho?</h3>
-              <p className="text-gray-700">Sim. Se o mesmo problema recorrer na mesma instalação dentro do prazo combinado (tipicamente 30-90 dias), voltamos sem custo de mão de obra.</p>
+              <p className="text-gray-700">Nos equipamentos e peças aplica-se a garantia do fabricante. Se o problema voltar, ligue-nos: orçamento por escrito antes de qualquer intervenção.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2 text-xl">Posso tentar eu próprio antes?</h3>

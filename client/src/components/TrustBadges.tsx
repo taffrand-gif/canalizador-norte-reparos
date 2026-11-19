@@ -9,8 +9,8 @@ export default function TrustBadges() {
  description: 'Sem surpresas na fatura'},
  {
  icon: '🛡️',
- title: 'Garantia 12 Meses',
- description: 'Intervenção gratuita'},
+ title: 'Garantia do Fabricante',
+ description: 'Nos equipamentos e peças aplica-se a garantia do fabricante.'},
  {
  icon: '📞',
  title: 'estimativa sem custo',
@@ -75,7 +75,7 @@ export default function TrustBadges() {
  Garantia de Orçamento por escrito
  </h3>
  <p className="text-sm opacity-90">
- Se não ficar satisfeito, voltamos gratuitamente até resolver. Sem custos adicionais.
+ Antes de qualquer intervenção, sem surpresas na fatura.
  </p>
  </div>
  </div>

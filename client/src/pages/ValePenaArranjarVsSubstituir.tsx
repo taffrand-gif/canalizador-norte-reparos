@@ -55,7 +55,7 @@ export default function ValePenaArranjarVsSubstituir() {
  substituir: {
  custo: "800-2000€",
  quando: "> 15 anos, avarias repetidas, consumo alto",
- vantagens: ["Eficiência A+++", "Poupança 40% energia", "Garantia 5 anos"],
+ vantagens: ["Eficiência A+++", "Poupança 40% energia", "Garantia do fabricante"],
  desvantagens: ["Investimento alto", "Instalação complexa"]
  },
  recomendacao: "Substituir se >15 anos OU arranjo >300€"
