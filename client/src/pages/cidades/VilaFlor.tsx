@@ -78,7 +78,7 @@ export default function VilaFlor() {
 
  const cidadesProximas = getCidadesProximas('vila-flor');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Flor?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Flor. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Flor?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Flor. Ligue +351 928 484 451.'}, {'question': 'Quanto tempo demoram a chegar a Vila Flor?', 'answer': 'Tempo de chegada depends da localização exacta. A confirmar para urgências.'}, {'question': 'Que serviços fazem em Vila Flor?', 'answer': 'Desentupimentos, arranjo de fugas, esqquentadores, canalização nova. Serviço completo.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -105,7 +105,7 @@ export default function VilaFlor() {
  </h1>
  <p className="text-xl mb-8">
  Serviços de canalização certificados em Vila Flor e arredores.
- Resolução profissional, preço justo, garantia de 12 meses.
+ Resolução profissional, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -181,7 +181,7 @@ export default function VilaFlor() {
  </h3>
  <p className="text-gray-600">
  Instalação completa de canalizações novas. Tubagem em PPR, conexões
- estanhadas, válvulas de corte. Garantia 12 meses.
+ estanhadas, válvulas de corte. Garantia do fabricante nos equipamentos e peças.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -201,7 +201,7 @@ export default function VilaFlor() {
  🏆 Serviço Certificado
  </h3>
  <p className="text-gray-600">
- Fatura com NIF, garantia escrita de 12 meses, preço combinado antes
+ Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes
  da intervenção. Sem surpresas, sem custos escondidos.
  </p>
  </div>
@@ -224,10 +224,10 @@ export default function VilaFlor() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🛡️ Garantia 12 Meses
+ 🛡️ Garantia do fabricante nos equipamentos e peças
  </h3>
  <p className="text-gray-600">
- Todas as intervenções têm garantia escrita de 12 meses.
+ Todas as intervenções têm garantia do fabricante nos equipamentos e peças.
  Peças e mão de obra incluídas.
  </p>
  </div>
@@ -280,7 +280,7 @@ export default function VilaFlor() {
  Canalizador em <span className="text-orange-300">Vila Flor</span>
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Intervenção profissional, preço justo, garantia de 12 meses.
+ Intervenção profissional, preço justo, garantia do fabricante nos equipamentos e peças.
  Ligue agora para um orçamento sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">

@@ -18,7 +18,7 @@ function WhyDifferent() {
  icon: '😤',
  title: 'Desentupimento Volta Entupir',
  others: 'Só usa ventosa, problema volta em 1 semana',
- us: 'Hidrojato profissional + Garantia 3 meses',
+ us: 'Hidrojato profissional + Garantia do fabricante nos equipamentos e peças',
  value: 'Economiza €200 (não paga 2x)'},
  {
  icon: '💸',
@@ -72,7 +72,7 @@ function WhyDifferent() {
  icon: '💧',
  title: 'Esquentador Avaria Logo',
  others: 'Só troca peça, não limpa',
- us: 'Descalcificação completa + Garantia 12 meses',
+ us: 'Descalcificação completa + Garantia do fabricante nos equipamentos e peças',
  value: 'Economiza €100 (dura anos)'},
  ], []);
  return (
@@ -140,11 +140,10 @@ function WhyDifferent() {
  style={{ borderColor: config.colors.primary }}
  >
  <h3 className="text-2xl font-black mb-4">
- ✅ Garantia "Problema Volta = GRÁTIS"
+ ✅ Garantia do fabricante nos equipamentos e peças
  </h3>
  <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
- Se o problema voltar em 12 meses, voltamos GRATUITAMENTE.
- Certificado de garantia por escrito. Sem letra pequena.
+ Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a

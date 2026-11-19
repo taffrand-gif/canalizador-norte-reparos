@@ -135,8 +135,8 @@ export default function CanoRebentado() {
  },
  {
  icon: 'shield',
- title: 'Garantia 12 Meses',
- description: 'Todas as arranjos de emergência têm Garantia 12 meses. Trabalho profissional.'
+ title: 'Garantia do Fabricante',
+ description: 'Nos equipamentos e peças aplica-se a garantia do fabricante.'
  },
  {
  icon: 'check',
@@ -180,7 +180,7 @@ export default function CanoRebentado() {
  },
  {
  q: 'Dão garantia em arranjos de emergência?',
- a: 'Sim! Todas as arranjos têm Garantia 12 meses, incluindo arranjos de emergência. Se voltar a ter problemas na mesma zona, voltamos gratuitamente. Trabalho profissional com .'
+ a: 'Sim! Todas as arranjos têm Garantia do fabricante nos equipamentos e peças, incluindo arranjos de emergência. Trabalho profissional com .'
  }
  ].map((item, i) => (
  <div key={i} className="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 hover:border-blue-400 transition-all">
@@ -217,7 +217,7 @@ export default function CanoRebentado() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ Paramos a Água • ✓ Garantia 12 Meses
+ ✓ Paramos a Água • ✓ Garantia do fabricante nos equipamentos e peças
  </p>
  </div>
  </section>

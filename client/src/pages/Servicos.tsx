@@ -187,7 +187,7 @@ export default function Servicos() {
  },
  {
  question: "Oferecem garantia nos serviços?",
- answer: "Sim. Todos os trabalhos têm garantia de 12 meses. Se a avaria voltar dentro de 12 meses, voltamos sem cobrar deslocação. Garantia escrita."
+ answer: "Sim. Nos equipamentos e peças aplica-se a garantia do fabricante."
  },
  {
  question: "Quais são os sinais de uma fuga de água oculta?",

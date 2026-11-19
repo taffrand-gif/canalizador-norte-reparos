@@ -14,7 +14,7 @@ import { getCidadesProximas } from '@/data/cidadesProximas';
 export default function Braganca() {
  const { config } = useSite();
  useEffect(() => {
-document.title = "💧 Canalizador Bragança — estimativa sem custo | Garantia Escrita";
+document.title = "💧 Canalizador Bragança — estimativa sem custo | Orçamento por Escrito";
 
  // Optimized meta description
  let metaDescription = document.querySelector('meta[name="description"]');

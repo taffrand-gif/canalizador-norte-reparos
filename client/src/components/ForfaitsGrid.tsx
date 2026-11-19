@@ -24,7 +24,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Deslocação incluída (30€, dias úteis)',
  'Desentupimento mecânico',
  'Teste de escoamento',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ]
  },
  {
@@ -36,7 +36,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Deslocação incluída (30€, dias úteis)',
  'Arranjo completa',
  'Material incluído',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ],
  popular: true
  },
@@ -62,7 +62,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Deslocação incluída (30€, dias úteis)',
  'Diagnóstico completo',
  'Arranjo ou substituição peças',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ]
  },
  {
@@ -86,7 +86,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Deslocação incluída (30€, dias úteis)',
  'Substituição mecanismo',
  'Regulação completa',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ]
  },
  {
@@ -98,7 +98,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Deslocação incluída (30€, dias úteis)',
  'Sanita + lavatório + duche',
  'Tubagem completa',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ]
  },
  {
@@ -110,7 +110,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  'Estudo personalizado',
  'Plano de canalização',
  'Material de qualidade',
- 'Garantia 3 meses'
+ 'Garantia do fabricante nas peças'
  ]
  }
  ];

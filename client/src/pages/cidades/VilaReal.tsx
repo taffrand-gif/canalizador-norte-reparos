@@ -16,7 +16,7 @@ export default function VilaReal() {
  const { config } = useSite();
 
  useEffect(() => {
- document.title = "💧 Canalizador Vila Real — estimativa sem custo | Garantia Escrita";
+ document.title = "💧 Canalizador Vila Real — estimativa sem custo | Orçamento por Escrito";
 
  let metaDescription = document.querySelector('meta[name="description"]');
  if (!metaDescription) {
@@ -78,7 +78,7 @@ export default function VilaReal() {
 
  const cidadesProximas = getCidadesProximas('vila-real');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia escrita de 12 meses, peças e mão de obra.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -105,7 +105,7 @@ export default function VilaReal() {
  </h1>
  <p className="text-xl mb-8">
  Serviços de canalização certificados em Vila Real e arredores.
- Resolução rápida, preço justo, garantia de 12 meses.
+ Resolução rápida, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
@@ -181,7 +181,7 @@ export default function VilaReal() {
  </h3>
  <p className="text-gray-600">
  Instalação completa de canalizações novas. Tubagem em PPR, conexões
- estanhadas, válvulas de corte. Garantia 12 meses.
+ estanhadas, válvulas de corte. Garantia do fabricante nos equipamentos e peças.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -201,7 +201,7 @@ export default function VilaReal() {
  🏆 Serviço Certificado
  </h3>
  <p className="text-gray-600">
- Fatura com NIF, garantia escrita de 12 meses, preço combinado antes
+ Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes
  da intervenção. Sem surpresas, sem custos escondidos.
  </p>
  </div>
@@ -224,10 +224,10 @@ export default function VilaReal() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🛡️ Garantia 12 Meses
+ 🛡️ Garantia do fabricante nos equipamentos e peças
  </h3>
  <p className="text-gray-600">
- Todas as intervenções têm garantia escrita de 12 meses.
+ Todas as intervenções têm garantia do fabricante nos equipamentos e peças.
  Peças e mão de obra incluídas.
  </p>
  </div>
@@ -280,7 +280,7 @@ export default function VilaReal() {
  Canalizador em <span className="text-orange-300">Vila Real</span>
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Intervenção rápida, preço justo, garantia de 12 meses.
+ Intervenção rápida, preço justo, garantia do fabricante nos equipamentos e peças.
  Ligue agora para um orçamento sem compromisso.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">

@@ -148,19 +148,19 @@ export const videoData = [
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['orçamento', 'sem custo', 'preço', 'transparência'],
  uploadDate: '2026-03-03',
- transcript: 'Estimativa sem custo. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Só paga se aprovar e ficar satisfeito. Garantia 12 meses em todos os trabalhos.'
+ transcript: 'Estimativa sem custo. Técnico visita local, faz diagnóstico completo, explica problema e solução. Damos preço fixo antes de começar. Sem surpresas, sem custos ocultos. Garantia do fabricante nos equipamentos e peças.'
  },
  {
  id: 'process-guarantee',
  category: 'service-process',
- title: 'Garantia de 12 Meses em Todos os Trabalhos',
- description: 'Nossa garantia de 12 meses: o que cobre, como acionar, por que oferecemos este compromisso.',
+ title: 'Garantia do Fabricante nos Equipamentos e Peças',
+ description: 'Garantia do fabricante nos equipamentos e peças: o que significa para si.',
  duration: 40,
  thumbnailUrl: '/images/ai-generated/projects/projects-001.jpg',
  youtubeId: 'dQw4w9WgXcQ',
  keywords: ['garantia', '2 anos', 'qualidade', 'confiança'],
  uploadDate: '2026-03-03',
- transcript: 'Oferecemos garantia de 12 meses em todos os trabalhos. Por quê? Confiamos na qualidade do nosso trabalho. Usamos materiais de primeira. Técnicos experientes. Se algo falhar em 12 meses, arranjamos sem cobrar deslocação. Garantia escrita é prova de qualidade.'
+ transcript: 'Nos equipamentos e peças aplica-se a garantia do fabricante. Usamos materiais de primeira.'
  },
  {
  id: 'process-payment',
