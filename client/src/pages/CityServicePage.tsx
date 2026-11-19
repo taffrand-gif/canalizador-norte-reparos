@@ -33,6 +33,8 @@ export default function CityServicePage() {
  }
  meta.setAttribute('content', localContext
  ? `${localContext.answerFirst} Ligue ${ACTIVE_CONFIG.phone}`
+ : isPlumber
+ ? `${service.name} em ${city.name}. Atendimento telefónico humano disponível 24/7; a disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone. Ligue ${ACTIVE_CONFIG.phone}`
  : `${service.name} em ${city.name}. Serviço profissional 24h. Sem compromisso. Ligue ${ACTIVE_CONFIG.phone}`);
  // Canonical URL
  const canonicalUrl = `https://${ACTIVE_CONFIG.domain}/${params.service}-${params.city}`;
@@ -89,6 +91,8 @@ export default function CityServicePage() {
  <p className="text-xl mb-8">
  {localContext
  ? localContext.heroSubtitle
+ : isPlumber
+ ? `${service.description}. Atendimento telefónico humano disponível 24/7; a disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone.`
  : `${service.description}. Serviço profissional 24h/7d em ${city.name}.`}
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -157,11 +161,13 @@ export default function CityServicePage() {
  <div className="flex justify-between items-center mb-4">
  <span className="text-lg font-semibold text-gray-700">{service.name}</span>
  <span className="text-3xl font-bold" style={{ color: accentColor }}>
- Desde {service.basePrice}€
+ {isPlumber ? 'Tarifas TTC' : `Desde ${service.basePrice}€`}
  </span>
  </div>
  <p className="text-gray-600 mb-6">
- {localContext
+ {isPlumber
+ ? `Dias úteis, 09h–18h: 70 €/h + 30 € de deslocação; noite (18h–09h), fins de semana e feriados: 100 €/h + 50 € de deslocação. Todos os valores são TTC; a hora começada é devida. A disponibilidade real da intervenção e a janela de deslocação são confirmadas por telefone.`
+ : localContext
  ? localContext.pricingHook
  : `Preço base para ${service.name.toLowerCase()} em ${city.name}. Orçamento final após diagnóstico no local.`}
  {' '}
@@ -232,15 +238,21 @@ function generateFAQs(service: any, city: any, isPlumber: boolean, localContext:
  const baseFAQs = [
  {
  question: `Quanto custa ${service.name.toLowerCase()} em ${city.name}?`,
- answer: `O preço base para ${service.name.toLowerCase()} em ${city.name} é desde ${service.basePrice}€. O orçamento final depende da complexidade do trabalho e materiais necessários. Fazemos sem compromisso no local.`
+ answer: isPlumber
+ ? `Tarifas TTC para ${service.name.toLowerCase()} em ${city.name}: dias úteis, 09h–18h, 70 €/h + 30 € de deslocação; noite (18h–09h), fins de semana e feriados, 100 €/h + 50 € de deslocação. A hora começada é devida. A disponibilidade da intervenção e a janela de deslocação são confirmadas por telefone.`
+ : `O preço base para ${service.name.toLowerCase()} em ${city.name} é desde ${service.basePrice}€. O orçamento final depende da complexidade do trabalho e materiais necessários. Fazemos sem compromisso no local.`
  },
  {
  question: `Atendem em ${city.name} ao fim de semana?`,
- answer: `Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, a disponibilidade é confirmada por telefone antes de qualquer deslocação. Orçamento por escrito antes de qualquer intervenção.`
+ answer: isPlumber
+ ? `O atendimento telefónico humano está disponível 24/7. A disponibilidade real da intervenção em ${city.name} e a janela de deslocação são confirmadas por telefone; não é anunciado um prazo de chegada. Ao fim de semana e nos feriados aplicam-se as tarifas TTC de 100 €/h + 50 € de deslocação; a hora começada é devida.`
+ : `Sim, estamos disponíveis Atendimento 24h/7d, 7 dias por semana, incluindo fins de semana e feriados em ${city.name}. Para urgências, a disponibilidade é confirmada por telefone antes de qualquer deslocação. Orçamento por escrito antes de qualquer intervenção.`
  },
  {
  question: `Quanto tempo demora a chegar a ${city.name}?`,
- answer: `A disponibilidade é confirmada por telefone antes de qualquer deslocação. Orçamento por escrito antes de qualquer intervenção.`
+ answer: isPlumber
+ ? `A disponibilidade real da intervenção em ${city.name} e a janela de deslocação são confirmadas por telefone. Não é anunciado um prazo de chegada.`
+ : `A disponibilidade é confirmada por telefone antes de qualquer deslocação. Orçamento por escrito antes de qualquer intervenção.`
  }
  ];
  // FAQ answer-first unique par ville (10 stratégiques money) — levier featured snippet

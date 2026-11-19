@@ -52,7 +52,7 @@ export default function Canalizador24Horas() {
         name: 'Quanto custa chamar um canalizador 24 horas em Trás-os-Montes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A mão-de-obra segue a grelha em vigor (70 €/h em horário normal). A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Aplicam-se majorações em horário noturno, fim de semana ou feriado. O orçamento é sempre entregue por escrito antes da intervenção.',
+          text: 'A mão-de-obra segue a grelha em vigor (70 €/h em horário normal). A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Aplicam-se majorações em horário noturno, fim de semana ou feriado. O orçamento é sempre entregue por escrito antes da intervenção.',
         },
       },
       {
@@ -68,7 +68,7 @@ export default function Canalizador24Horas() {
         name: 'Qual é o tempo de chegada após a chamada?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–17h) e 50 € à noite, fins de semana e feriados. Confirmamos a previsão por telefone logo após o seu contacto.  — sempre explicado por telefone antes de comprometer.',
+          text: 'A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Confirmamos a previsão por telefone logo após o seu contacto.  — sempre explicado por telefone antes de comprometer.',
         },
       },
       {
@@ -231,7 +231,7 @@ export default function Canalizador24Horas() {
                       100 €/hora + deslocação 50 €
                     </td>
                   </tr>
-                  <tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Dias úteis (9h–17h)</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Noite (17h–9h), fins de semana e feriados</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 50 € · 100 €/hora</td></tr></tbody>
+                  <tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Dias úteis (9h–18h)</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 30 € · 70 €/hora</td></tr><tr className="border-b border-gray-100"><td className="py-4 px-4 text-gray-800">Noite (18h–9h), fins de semana e feriados</td><td className="py-4 px-4 text-right font-bold text-gray-900">Qualquer localidade servida</td><td className="py-4 px-4 text-right font-bold text-orange-700">Deslocação 50 € · 100 €/hora</td></tr></tbody>
               </table>
             </div>
             <div className="mt-6 p-4 bg-blue-50 rounded-lg">

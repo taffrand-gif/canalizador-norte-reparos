@@ -49,7 +49,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  "name": "Quanto custa arranjar uma fuga de água?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho."
+ "text": "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–18h) e a 100 €/hora + 50 € de deslocação à noite (18h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho."
  }
  },
  {
@@ -100,7 +100,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  },
  {
  factor: "Localização do cano",
- impacto: "Um cano visível sob o lavatório é diferente de um cano embutido numa parede ou no chão. Canos escondidos exigem detecção técnica (câmara termográfica, ROLeak Aqua 3Plus) antes de abrir.",
+ impacto: "Um cano visível sob o lavatório é diferente de um cano embutido numa parede ou no chão. Canos escondidos exigem detecção técnica (câmara termográfica) antes de abrir.",
  icon: Wrench
  },
  {
@@ -130,7 +130,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  },
  {
  question: "Quanto custa arranjar uma fuga de água?",
- answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–17h) e a 100 €/hora + 50 € de deslocação à noite (17h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
+ answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–18h) e a 100 €/hora + 50 € de deslocação à noite (18h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
  },
  {
  question: "Posso ter orçamento sem compromisso?",
@@ -288,7 +288,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  <div className="max-w-4xl mx-auto space-y-4">
  {[
  { step: '1', title: 'Atendimento 24h/7d', desc: 'Atendemos a chamada ou WhatsApp. Esclarecemos o que fazer enquanto o técnico não chega (cortar água no contador, etc.).' },
- { step: '2', title: 'Diagnóstico no local', desc: 'Identificamos a fuga com equipamento profissional: câmara termográfica FLIR, deteção acústica ROLeak Aqua 3Plus, câmara de inspeção 30 m. Sem partir o que não é preciso.' },
+ { step: '2', title: 'Diagnóstico no local', desc: 'Identificamos a fuga com equipamento profissional: câmara termográfica FLIR, câmara de inspeção 30 m. Sem partir o que não é preciso.' },
  { step: '3', title: 'Orçamento por escrito', desc: 'Explicamos o problema, indicamos a solução, dizemos quanto vai custar e quanto tempo vai demorar. Por escrito. Só começamos depois do seu OK.' },
  { step: '4', title: 'Reparação profissional', desc: 'Trabalhamos com peças de qualidade. Cortamos a água apenas no circuito afetado — não deixa a casa toda sem água.' },
  { step: '5', title: 'Teste e verificação', desc: 'Teste de pressão. Verificação de fugas residuais. Limpeza da zona de trabalho. Só saímos quando tudo está a funcionar.' }
@@ -328,7 +328,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
- <span>Equipamento profissional verificado (Ridgid K9-102, FLIR, ROLeak Aqua 3Plus)</span>
+ <span>Equipamento profissional verificado (Ridgid K9-102, FLIR)</span>
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
@@ -350,7 +350,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  📍 Zonas de intervenção
  </h2>
  <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
- Base em Macedo de Cavaleiros. Deslocação a preço único: 30 € em dias úteis (9h–17h), 50 € à noite, fins de semana e feriados.
+ Base em Macedo de Cavaleiros. Deslocação a preço único: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados.
  </p>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4">
  {zonas.map((z, i) => (

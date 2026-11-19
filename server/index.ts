@@ -61,7 +61,7 @@ async function startServer() {
  const ROUTE_TITLES: Record<string, { title: string; description: string; canonical: string }> = {
  "/contactos": {
  title: "Contactos | Norte Reparos - Canalizador Profissional",
- description: "Entre em contacto connosco. Canalizador profissional Atendimento 24h/7d/dia. Ligue 928 484 451. Estimativa sem custo.",
+ description: "Ligue ou envie WhatsApp para 928 484 451. Atendimento telefónico humano 24/7; disponibilidade da intervenção e janela de deslocação confirmadas por telefone, sem prazo de chegada anunciado.",
  canonical: "https://canalizador-norte-reparos.pt/contactos"
  },
  "/equipa": {
@@ -71,7 +71,7 @@ async function startServer() {
  },
  "/precos-canalizador": {
  title: "Preços Canalizador | Norte Reparos - Tabela Trás-os-Montes",
- description: "Tabela de preços do canalizador em Trás-os-Montes. 70€/h + deslocação 30€ em dias úteis (9h–17h); 100€/h + deslocação 50€ à noite, fins de semana e feriados.",
+ description: "Tarifas TTC em Trás-os-Montes: dias úteis, 09h–18h, 70 €/h + 30 € de deslocação; noite, fins de semana e feriados, 100 €/h + 50 €. Hora começada devida; disponibilidade e janela de deslocação confirmadas por telefone.",
  canonical: "https://canalizador-norte-reparos.pt/precos-canalizador"
  },
  "/areas-atuacao": {
