@@ -219,15 +219,6 @@ export default function GuiaDesentupirCanos() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Factos verificáveis Norte Reparos</h2>
             <p className="text-gray-800 mb-3"><strong>Mão de obra:</strong> 70 €/h para canalização, segundo a grelha interna R12.</p>
             <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
-            <p className="text-gray-800 mb-2"><strong>Exemplos de distância TomTom desde Macedo de Cavaleiros:</strong></p>
-            <ul className="list-disc pl-6 space-y-1 mb-3">
-              <li>Macedo de Cavaleiros: 0,0 km · 15 €</li>
-              <li>Mirandela: 27,4 km · 25 €</li>
-              <li>Bragança: 42,4 km · 35 €</li>
-              <li>Chaves: 74,7 km · 55 €</li>
-              <li>Vila Real: 85,7 km · 55 €</li>
-              <li>Miranda do Douro: 92,2 km · 65 €</li>
-            </ul>
             <p className="text-gray-800 mb-3"><strong>Equipamento real:</strong> Ridgid K9-102, Fluke T6-1000 e FLIR E96.</p>
             <p className="text-sm text-gray-600">Fontes internas: grelha de zonas verrouillée em 14/07/2026; <code>preco-deslocacao.py</code>; dados TomTom reais em <code>_audit/zonas-distances-concelhos.json</code> (data/concelhos.json).</p>
           </section>

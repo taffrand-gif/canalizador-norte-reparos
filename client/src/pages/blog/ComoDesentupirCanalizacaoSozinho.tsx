@@ -353,15 +353,15 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3">Desentupimento simples</td>
- <td className="text-right py-3 font-semibold">60-80€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3">Desentupimento complexo</td>
- <td className="text-right py-3 font-semibold">100-150€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3">Deteção fuga com câmara</td>
- <td className="text-right py-3 font-semibold">120-180€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-3">Deslocação urgência</td>

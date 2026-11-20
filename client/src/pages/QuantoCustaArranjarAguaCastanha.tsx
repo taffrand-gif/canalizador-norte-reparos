@@ -39,7 +39,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  question: "Quanto tempo demora a arranjar água castanha?",
- answer: "Depende da causa: limpeza filtros A confirmar, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Diagnóstico gratuito: 928 484 451"
+ answer: "Depende da causa: limpeza filtros A confirmar, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Estimativa indicativa sem custo: 928 484 451"
  }
  ];
  const precos = [
