@@ -32,7 +32,7 @@ export default function Equipa() {
  Somos uma equipa de {config.type === 'plomberie' ? 'canalizadores' : 'eletricistas'} certificados com experiência em Trás-os-Montes na região de Bragança e Trás-os-Montes.
  </p>
  <p className="text-gray-700">
- Disponíveis 24h/7d. Orçamento por escrito antes da intervenção, sem surpresas. Garantia de 12 meses nos trabalhos realizados.
+ Disponíveis 24h/7d. Orçamento por escrito antes da intervenção, sem surpresas. Garantia do fabricante nos equipamentos e peças.
  </p>
  </Card>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

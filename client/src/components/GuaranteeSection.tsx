@@ -20,8 +20,8 @@ function GuaranteeSection() {
  ? [
  {
  icon: '🛡️',
- title: 'Garantia 12 Meses',
- description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
+ title: 'Garantia do Fabricante',
+ description: 'Nos equipamentos e peças aplica-se a garantia do fabricante.',
  badge: 'Escrita'
  },
  {
@@ -39,15 +39,15 @@ function GuaranteeSection() {
  {
  icon: '✅',
  title: 'Material Homologado',
- description: 'Garantia 12 meses — Não voltamos daqui a 2 semanas',
- badge: '12 meses'
+ description: 'Material homologado, com garantia do fabricante.',
+ badge: 'Fabricante'
  }
  ]
  : [
  {
  icon: '🛡️',
- title: 'Garantia 12 Meses',
- description: 'Se o problema voltar em 2 anos, intervenção gratuita. Sem letra pequena.',
+ title: 'Garantia do Fabricante',
+ description: 'Nos equipamentos e peças aplica-se a garantia do fabricante.',
  badge: 'Escrita'
  },
  {
@@ -82,13 +82,13 @@ function GuaranteeSection() {
  {/* Header */}
  <div className="text-center mb-12">
  <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-800 rounded-full font-bold text-sm mb-4">
- 🛡️ Garantia Escrita — Sem Letra Pequena
+ 🛡️ Garantia do fabricante nos equipamentos e peças
  </div>
  <h2 className="text-4xl md:text-5xl font-black mb-6">
- Garantia 12 Meses — Se Voltar, Voltamos Grátis
+ Garantia do fabricante nos equipamentos e peças
  </h2>
  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
- Arranjo definitiva, não temporária. Por isso garantimos 2 anos.
+ Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura.
  </p>
  </div>
  {/* Guarantees Grid */}
@@ -123,7 +123,7 @@ function GuaranteeSection() {
  Arranjo com Garantia — Ligue Já
  </h3>
  <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
- Trabalho garantido 2 anos. Se o problema voltar, voltamos gratuitamente.
+ Trabalho garantido 2 anos.
  Sem letra pequena, sem desculpas.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -138,7 +138,7 @@ function GuaranteeSection() {
  Ligar: {config.phone}
  </a>
  <a
- href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia 12 meses.')}`}
+ href={`https://wa.me/${config.whatsapp}?text=${encodeURIComponent('Olá! Quero uma arranjo com garantia do fabricante nos equipamentos e peças.')}`}
  onClick={handleWhatsAppClick}
  target="_blank"
  rel="noopener noreferrer"
@@ -150,7 +150,7 @@ function GuaranteeSection() {
  </a>
  </div>
  <p className="text-sm text-gray-500 mt-4">
- ✅ Garantia escrita • ✅ Equipamento profissional • ✅ técnico com experiência
+ ✅ Garantia do fabricante nos equipamentos e peças • ✅ Equipamento profissional • ✅ técnico com experiência
  </p>
  </div>
  {/* Social Proof */}

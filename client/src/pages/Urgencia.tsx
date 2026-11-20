@@ -52,7 +52,7 @@ function CanalizadorUrgente() {
     "name": "Têm garantia nos arranjos urgentes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Sim. Todas as intervenções incluem fatura com NIF e garantia escrita. Mesmo em urgência, emitimos documento de garantia — não desaparecemos depois de cobrar. Empresa registada em Portugal."
+     "text": "Sim. Todas as intervenções incluem fatura com NIF e garantia do fabricante nos equipamentos e peças. Mesmo em urgência, emitimos documento de garantia — não desaparecemos depois de cobrar. Empresa registada em Portugal."
     }
    }
   ]
@@ -400,7 +400,7 @@ function CanalizadorUrgente() {
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Têm garantia?</h3>
  <p className="text-gray-700">
- Sim. Todas as intervenções incluem fatura com NIF e garantia escrita. Empresa registada em Portugal — não desaparecemos depois de cobrar.
+ Sim. Todas as intervenções incluem fatura com NIF e garantia do fabricante nos equipamentos e peças. Empresa registada em Portugal — não desaparecemos depois de cobrar.
  </p>
  </div>
  </div>

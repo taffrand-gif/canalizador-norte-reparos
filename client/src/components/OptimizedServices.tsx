@@ -20,7 +20,7 @@ const serviceFeatures = {
  'Desentupimentos': [
  'Equipamento de alta pressão e câmera de inspeção',
  'Técnicas não invasivas (sem quebrar azulejos)',
- 'Garantia 12 meses contra reentupimento'
+ 'Garantia do fabricante nas peças'
  ],
  'Arranjo de Fugas de Água': [
  'Câmara térmica FLIR — vemos a fuga sem partir paredes',
@@ -40,7 +40,7 @@ const serviceFeatures = {
  'Certificação obrigatória incluída'
  ],
  'Canalização Nova': [
- 'Materiais PPR e cobre com garantia 20 anos',
+ 'Materiais PPR e cobre com garantia do fabricante nos equipamentos e peças',
  'Cumprimento normativo português',
  'Testes de pressão e estanquicidade'
  ],
@@ -139,7 +139,7 @@ const OptimizedServices: React.FC = () => {
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">🚨</div>
- <span className="text-gray-700">Orçamento por escrito em 48h, garantia 1 ano</span>
+ <span className="text-gray-700">Orçamento por escrito em 48h, garantia do fabricante nos equipamentos e peças</span>
  </li>
  <li className="flex items-center gap-3">
  <div className="bg-blue-100 text-blue-600 p-2 rounded-full">💰</div>

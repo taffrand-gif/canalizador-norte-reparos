@@ -193,7 +193,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "Mão de obra especializada",
  "Equipamento básico (mola manual, desentupidor)",
  "Limpeza após trabalho",
- "Garantia de 30 dias no serviço",
+ "Equipamentos e peças com garantia do fabricante",
  "IVA incluído (23%)"
  ].map((item, i) => (
  <li key={i} className="flex items-start gap-2 text-gray-700">
