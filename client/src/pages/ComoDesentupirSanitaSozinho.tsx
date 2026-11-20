@@ -24,7 +24,7 @@ export default function ComoDesentupirSanitaSozinho() {
  },
  {
  question: "Quanto custa canalizador para desentupir sanita?",
- answer: "Desentupimento simples: 60-100€. Desentupimento com máquina: 100-150€. Substituir sanita: 150-400€. Inclui deslocação e mão-de-obra. Sem compromisso: 928 484 451"
+ answer: "Desentupimento simples: sob orçamento. Desentupimento com máquina: sob orçamento. Substituir sanita: sob orçamento. Inclui deslocação e mão-de-obra. Sem compromisso: 928 484 451"
  }
  ];
  const metodos = [

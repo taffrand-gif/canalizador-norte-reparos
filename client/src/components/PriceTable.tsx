@@ -9,12 +9,12 @@ export default function PriceTable() {
  {
  service: "Desentupimento Simples",
  description: "Lava-loiça, bidé, lavatório",
- price: "70€ - 140€",
+ price: "sob orçamento",
  details: ["Uso de bomba/mola", "Limpeza da zona", "Teste de escoamento"]},
  {
  service: "Fuga de Água / Urgência",
  description: "Arranjo de fugas visíveis ou ocultas",
- price: "70€ - 140€",
+ price: "sob orçamento",
  details: ["1-2h de trabalho", "Estancamento imediato", "Substituição peças base"]},
  {
  service: "Instalação Equipamento",
@@ -106,7 +106,7 @@ export default function PriceTable() {
  <h4 className="font-bold text-blue-900 mb-2">"Moro na zona e tenho a pia da cozinha entupida."</h4>
  <ul className="space-y-1 text-blue-800 text-sm">
  <li className="flex justify-between"><span>Deslocação (dias úteis 9h–18h):</span> <span>30€</span></li>
- <li className="flex justify-between"><span>Desentupimento simples (1-2h a 70€/h):</span> <span>70€ - 140€</span></li>
+ <li className="flex justify-between"><span>Desentupimento simples (1-2h a 70€/h):</span> <span>sob orçamento</span></li>
  </ul>
  <p className="text-xs text-blue-700 mt-2 italic">* Preço exato confirmado ao telefone antes de sair.</p>
  </div>
@@ -114,7 +114,7 @@ export default function PriceTable() {
  <h4 className="font-bold text-amber-900 mb-2">"Urgência em Bragança num Domingo."</h4>
  <ul className="space-y-1 text-amber-800 text-sm">
  <li className="flex justify-between"><span>Deslocação (fim de semana):</span> <span>50€</span></li>
- <li className="flex justify-between"><span>Intervenção Urgência (1-2h a 100€/h):</span> <span>100€ - 200€</span></li>
+ <li className="flex justify-between"><span>Intervenção Urgência (1-2h a 100€/h):</span> <span>sob orçamento</span></li>
  </ul>
  <p className="text-xs text-amber-700 mt-2 italic">Noite (18h–9h), fins de semana e feriados: 100€/h + deslocação 50€. Cada hora começada é devida. Preço anunciado ao telefone ANTES de sair.</p>
  </div>

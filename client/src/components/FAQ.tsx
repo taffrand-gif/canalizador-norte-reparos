@@ -25,7 +25,7 @@ function FAQ() {
  answer: 'Para desentupir uma sanita: 1) Use uma ventosa grande fazendo movimentos de sucção, 2) Tente água quente (não fervente) com detergente, 3) Use bicarbonato de sódio + vinagre (1 chávena cada). Se não funcionar, ligue 928 484 451. Evite produtos químicos agressivos.'},
  {
  question: 'Quanto custa arranjar uma fuga de água?',
- answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (€30-50), cano rebentado (€80-120), fuga escondida (€150-300). Inclui mão de obra e materiais básicos. Deslocação: €15. Orçamento por escrito pelo 928 484 451.'},
+ answer: 'Arranjar uma fuga de água custa entre €80-150 em Bragança. Preços: torneira a pingar (sob orçamento), cano rebentado (sob orçamento), fuga escondida (sob orçamento). Inclui mão de obra e materiais básicos. Deslocação: €15. Orçamento por escrito pelo 928 484 451.'},
  {
  question: 'Como detetar uma fuga de água escondida?',
  answer: 'Sinais de fuga escondida: 1) Conta de água inexplicavelmente alta, 2) Manchas húmidas em paredes ou teto, 3) Cheiro a mofo persistente, 4) Som de água correndo quando tudo está fechado, 5) Medidor de água girando com tudo fechado. Para deteção profissional com câmera térmica, ligue 928 484 451.'},

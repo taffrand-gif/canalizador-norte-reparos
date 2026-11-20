@@ -68,7 +68,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 10,
  question: "Como aumentar a pressão da água?",
- answer: "Baixa pressão de água pode ter várias causas: calcário acumulado em torneiras e chuveiros (limpe com vinagre), válvula de corte parcialmente fechada (verifique se está totalmente aberta), canalizações entupidas ou com diâmetro inadequado, ou pressão baixa da rede pública. Soluções: limpeza de arejadores e chuveiros, substituição de canalizações antigas por diâmetros maiores, ou instalação de bomba pressurizadora (150-400€). Em Bragança, algumas zonas altas têm pressão naturalmente baixa - nesses casos, uma bomba pressurizadora resolve definitivamente. Recomendamos a solução mais económica para o seu caso específico.",
+ answer: "Baixa pressão de água pode ter várias causas: calcário acumulado em torneiras e chuveiros (limpe com vinagre), válvula de corte parcialmente fechada (verifique se está totalmente aberta), canalizações entupidas ou com diâmetro inadequado, ou pressão baixa da rede pública. Soluções: limpeza de arejadores e chuveiros, substituição de canalizações antigas por diâmetros maiores, ou instalação de bomba pressurizadora (sob orçamento). Em Bragança, algumas zonas altas têm pressão naturalmente baixa - nesses casos, uma bomba pressurizadora resolve definitivamente. Recomendamos a solução mais económica para o seu caso específico.",
  category: "Problemas Comuns"
  },
  {
@@ -86,13 +86,13 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 13,
  question: "Como saber se tenho calcário nas canalizações?",
- answer: "Sinais de calcário acumulado: manchas brancas em torneiras e chuveiros, pressão de água reduzida progressivamente, água quente demora mais a chegar, ruídos no esquentador ao aquecer, consumo de gás aumentado, ou resistências de termoacumuladores que queimam frequentemente. Bragança tem água moderadamente dura (150-200 mg/L de calcário), o que causa acumulação em 8-12 anos. Soluções: descalcificação química das canalizações (200-400€), instalação de sistema anti-calcário (300-600€), ou substituição de troços mais afetados. Prevenção: manutenção anual do esquentador e limpeza regular de arejadores. Recomendamos a solução mais adequada ao seu caso.",
+ answer: "Sinais de calcário acumulado: manchas brancas em torneiras e chuveiros, pressão de água reduzida progressivamente, água quente demora mais a chegar, ruídos no esquentador ao aquecer, consumo de gás aumentado, ou resistências de termoacumuladores que queimam frequentemente. Bragança tem água moderadamente dura (150-200 mg/L de calcário), o que causa acumulação em 8-12 anos. Soluções: descalcificação química das canalizações (sob orçamento), instalação de sistema anti-calcário (sob orçamento), ou substituição de troços mais afetados. Prevenção: manutenção anual do esquentador e limpeza regular de arejadores. Recomendamos a solução mais adequada ao seu caso.",
  category: "Manutenção"
  },
  {
  id: 14,
  question: "Quanto custa trocar canalizações antigas?",
- answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): 400-800€, cozinha completa: 350-600€, apartamento T2 completo: 2.000-4.000€, moradia T3: 4.000-8.000€. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas.",
+ answer: "O custo de substituição de canalizações varia muito conforme a extensão e acessibilidade. Valores médios em Bragança: canalização de casa de banho completa (3-4 metros): sob orçamento, cozinha completa: sob orçamento, apartamento T2 completo: sob orçamento, moradia T3: sob orçamento. Fatores que influenciam: necessidade de partir paredes, tipo de material (PPR, PEX ou cobre), número de pontos de água, e dificuldade de acesso. Podemos fazer substituição faseada para distribuir o investimento. Canalizações modernas em PPR ou PEX duram 50+ anos sem problemas.",
  category: "Preços"
  },
  {
@@ -104,7 +104,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 16,
  question: "Como descongelar canos no inverno?",
- answer: "Em Bragança, temperaturas abaixo de -5°C podem congelar canalizações exteriores ou em zonas não aquecidas. Sinais: torneira não sai água ou sai apenas um fio. Nunca use maçarico ou água a ferver - pode partir o cano. Método seguro: abra a torneira, aqueça gradualmente com secador de cabelo ou toalhas quentes, começando pela torneira e avançando para trás, ou use aquecedor ambiente na divisão. Prevenção: isole canalizações exteriores com espuma térmica (5€/metro), deixe torneiras a pingar levemente em noites muito frias, e mantenha aquecimento mínimo em divisões com canalizações. Instalamos isolamento térmico profissional: 15-25€/metro linear.",
+ answer: "Em Bragança, temperaturas abaixo de -5°C podem congelar canalizações exteriores ou em zonas não aquecidas. Sinais: torneira não sai água ou sai apenas um fio. Nunca use maçarico ou água a ferver - pode partir o cano. Método seguro: abra a torneira, aqueça gradualmente com secador de cabelo ou toalhas quentes, começando pela torneira e avançando para trás, ou use aquecedor ambiente na divisão. Prevenção: isole canalizações exteriores com espuma térmica (5€/metro), deixe torneiras a pingar levemente em noites muito frias, e mantenha aquecimento mínimo em divisões com canalizações. Instalamos isolamento térmico profissional: sob orçamento.",
  category: "Inverno"
  },
  {
@@ -116,7 +116,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 18,
  question: "O que é uma bomba pressurizadora?",
- answer: "Bomba pressurizadora é um equipamento que aumenta a pressão da água em casas com pressão insuficiente (comum em zonas altas de Bragança). Funciona automaticamente quando abre uma torneira, aumentando a pressão para níveis confortáveis (2-3 bar). Indicações: chuveiro com pouca pressão, máquina de lavar que não enche adequadamente, ou água que não chega ao 2º andar. Tipos: bomba simples (150-250€), bomba com depósito acumulador (300-500€), ou sistema completo com pressostato (400-700€). Instalação: 100-200€. Consumo elétrico: 50-100W quando ativa. Silenciosas e duráveis (10-15 anos). Analisamos a sua situação e recomendamos o modelo adequado.",
+ answer: "Bomba pressurizadora é um equipamento que aumenta a pressão da água em casas com pressão insuficiente (comum em zonas altas de Bragança). Funciona automaticamente quando abre uma torneira, aumentando a pressão para níveis confortáveis (2-3 bar). Indicações: chuveiro com pouca pressão, máquina de lavar que não enche adequadamente, ou água que não chega ao 2º andar. Tipos: bomba simples (150-250€), bomba com depósito acumulador (300-500€), ou sistema completo com pressostato (400-700€). Instalação: sob orçamento. Consumo elétrico: 50-100W quando ativa. Silenciosas e duráveis (10-15 anos). Analisamos a sua situação e recomendamos o modelo adequado.",
  category: "Equipamentos"
  },
  {
@@ -128,7 +128,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 20,
  question: "Quanto custa instalar uma casa de banho nova?",
- answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): 2.500-4.000€, casa de banho média (5m²): 4.000-7.000€, casa de banho premium (7m²): 7.000-12.000€. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia do fabricante nos equipamentos e peças.",
+ answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): sob orçamento, casa de banho média (5m²): sob orçamento, casa de banho premium (7m²): sob orçamento. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia do fabricante nos equipamentos e peças.",
  category: "Projetos"
  }
 ];

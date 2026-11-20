@@ -20,24 +20,24 @@ export default function ValePenaArranjarVsSubstituir() {
  },
  {
  question: "Quanto custa arranjar vs substituir esquentador?",
- answer: "Arranjo: 80-200€ (depende avaria). Substituir: 400-800€ (esquentador novo + instalação). Se arranjo custar >200€ e esquentador tiver >10 anos, substitua."
+ answer: "Arranjo: sob orçamento (depende avaria). Substituir: sob orçamento (esquentador novo + instalação). Se arranjo custar >200€ e esquentador tiver >10 anos, substitua."
  },
  {
  question: "Canos velhos: arranjar troço ou substituir tudo?",
- answer: "Depende: 1 fuga isolada = arranjar troço (80-150€). Fugas frequentes ou canos >30 anos = substituir tudo (1500-4000€). Canos velhos terão mais fugas. Avaliação gratuita: 928 484 451"
+ answer: "Depende: 1 fuga isolada = arranjar troço (sob orçamento). Fugas frequentes ou canos >30 anos = substituir tudo (1500-4000€). Canos velhos terão mais fugas. Avaliação gratuita: 928 484 451"
  }
  ];
  const comparacoes = [
  {
  equipamento: "Esquentador",
  arranjar: {
- custo: "80-200€",
+ custo: "sob orçamento",
  quando: "< 8 anos, avaria simples (termóstato, pilhas)",
  vantagens: ["Custo baixo imediato", "Rápido (1-2h)"],
  desvantagens: ["Pode avariar novamente", "Menos eficiente"]
  },
  substituir: {
- custo: "400-800€",
+ custo: "sob orçamento",
  quando: "> 10 anos, avarias frequentes, ineficiente",
  vantagens: ["Garantia 2-5 anos", "Eficiência -30% gás", "Segurança moderna"],
  desvantagens: ["Custo inicial alto", "Instalação 3-5h"]
@@ -47,7 +47,7 @@ export default function ValePenaArranjarVsSubstituir() {
  {
  equipamento: "Caldeira",
  arranjar: {
- custo: "100-300€",
+ custo: "sob orçamento",
  quando: "< 10 anos, avaria componente específico",
  vantagens: ["Mantém equipamento conhecido", "Custo moderado"],
  desvantagens: ["Peças caras", "Eficiência degradada"]
@@ -63,7 +63,7 @@ export default function ValePenaArranjarVsSubstituir() {
  {
  equipamento: "Canalização",
  arranjar: {
- custo: "80-150€/troço",
+ custo: "sob orçamento/troço",
  quando: "Fuga isolada, canos <20 anos",
  vantagens: ["Resolve problema imediato", "Sem obras grandes"],
  desvantagens: ["Outros troços podem fugar", "Solução temporária"]
@@ -79,13 +79,13 @@ export default function ValePenaArranjarVsSubstituir() {
  {
  equipamento: "Sanita",
  arranjar: {
- custo: "40-100€",
+ custo: "sob orçamento",
  quando: "Autoclismo avariado, fuga pequena",
  vantagens: ["Barato", "Rápido (30-alguns minutos)"],
  desvantagens: ["Peças velhas podem avariar", "Consumo água alto"]
  },
  substituir: {
- custo: "150-400€",
+ custo: "sob orçamento",
  quando: "Rachada, fuga base, >20 anos, consumo alto",
  vantagens: ["Dupla descarga (poupança 50% água)", "Design moderno", "Sem fugas"],
  desvantagens: ["Custo moderado", "Instalação 2-3h"]

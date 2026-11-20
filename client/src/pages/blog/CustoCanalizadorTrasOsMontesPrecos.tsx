@@ -272,25 +272,25 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Ventosa manual</td>
  <td className="py-4 px-6">Entupimentos superficiais</td>
- <td className="py-4 px-6">45-75€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">Rápido, sem produtos químicos</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Mola manual</td>
  <td className="py-4 px-6">Entupimentos a 1-3 metros</td>
- <td className="py-4 px-6">65-100€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">Preciso, alcança mais longe</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Máquina elétrica</td>
  <td className="py-4 px-6">Entupimentos profundos</td>
- <td className="py-4 px-6">90-160€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">Eficaz para casos difíceis</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Jato de alta pressão</td>
  <td className="py-4 px-6">Canalização principal</td>
- <td className="py-4 px-6">150-250€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">Limpeza completa, preventiva</td>
  </tr>
  <tr className="hover:bg-blue-50">
@@ -305,7 +305,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="mt-6 p-6 bg-green-50 border border-green-200 rounded-xl">
  <h4 className="font-bold text-green-800 text-lg mb-2">💡 Dica de Economia:</h4>
  <p className="text-green-700">
- Para entupimentos recorrentes, considere um <strong>pacote de manutenção preventiva</strong> (150-250€/ano)
+ Para entupimentos recorrentes, considere um <strong>pacote de manutenção preventiva</strong> (sob orçamento)
  que inclui 1-2 limpezas anuais com jato de alta pressão. É mais barato que 2-3 desentupimentos de emergência por ano.
  </p>
  </div>

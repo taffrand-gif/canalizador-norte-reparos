@@ -73,12 +73,12 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <div className="overflow-x-auto mb-6">
  <div className="grid md:grid-cols-2 gap-4">
  {[
- { service: "Manutenção anual esquentador", price: "€80 - €120" },
- { service: "Manutenção anual caldeira", price: "€100 - €150" },
- { service: "Arranjo avaria simples", price: "€100 - €200" },
- { service: "Substituição esquentador", price: "€400 - €800" },
- { service: "Substituição caldeira", price: "€800 - €2.000" },
- { service: "Limpeza de calcário", price: "€80 - €150" }
+ { service: "Manutenção anual esquentador", price: "sob orçamento" },
+ { service: "Manutenção anual caldeira", price: "sob orçamento" },
+ { service: "Arranjo avaria simples", price: "sob orçamento" },
+ { service: "Substituição esquentador", price: "sob orçamento" },
+ { service: "Substituição caldeira", price: "sob orçamento" },
+ { service: "Limpeza de calcário", price: "sob orçamento" }
  ].map((item, i) => (
  <div key={i} className="flex justify-between p-4 bg-gray-50 rounded-lg">
  <span className="text-gray-700">{item.service}</span>

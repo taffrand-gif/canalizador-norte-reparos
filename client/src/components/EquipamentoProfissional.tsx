@@ -160,15 +160,15 @@ function EquipamentoProfissional({ className = '' }: EquipamentoProfissionalProp
  <div className="space-y-3 text-gray-700">
  <div className="flex justify-between">
  <span>Tentativa 1 (não resolve):</span>
- <span className="font-bold">€40-60</span>
+ <span className="font-bold">sob orçamento</span>
  </div>
  <div className="flex justify-between">
  <span>Tentativa 2 (parcial):</span>
- <span className="font-bold">€60-80</span>
+ <span className="font-bold">sob orçamento</span>
  </div>
  <div className="flex justify-between">
  <span>Danos colaterais:</span>
- <span className="font-bold">€100-200</span>
+ <span className="font-bold">sob orçamento</span>
  </div>
  <div className="flex justify-between">
  <span>Profissional (final):</span>
@@ -177,7 +177,7 @@ function EquipamentoProfissional({ className = '' }: EquipamentoProfissionalProp
  <hr className="border-red-300" />
  <div className="flex justify-between text-lg font-bold text-red-600">
  <span>TOTAL:</span>
- <span>€330-470</span>
+ <span>sob orçamento</span>
  </div>
  </div>
  <p className="text-sm text-gray-600 mt-4 italic">

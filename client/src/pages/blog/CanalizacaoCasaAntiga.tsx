@@ -320,15 +320,15 @@ export default function CanalizacaoCasaAntiga() {
  <tbody>
  <tr className="border-b">
  <td className="px-6 py-4">Apartamento T2 (50m²)</td>
- <td className="px-6 py-4 text-right font-bold text-blue-600">€1.500-2.500</td>
+ <td className="px-6 py-4 text-right font-bold text-blue-600">sob orçamento</td>
  </tr>
  <tr className="border-b bg-gray-50">
  <td className="px-6 py-4">Casa T3 (100m²)</td>
- <td className="px-6 py-4 text-right font-bold text-blue-600">€2.500-4.000</td>
+ <td className="px-6 py-4 text-right font-bold text-blue-600">sob orçamento</td>
  </tr>
  <tr>
  <td className="px-6 py-4">Casa antiga com granito (150m²)</td>
- <td className="px-6 py-4 text-right font-bold text-blue-600">€4.000-7.000</td>
+ <td className="px-6 py-4 text-right font-bold text-blue-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>

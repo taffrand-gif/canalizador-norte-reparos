@@ -17,9 +17,9 @@ const EsquentadorNaoAquece: React.FC = () => {
  "@type": "FAQPage",
  "url": "https://canalizador-norte-reparos.pt/blog/esquentador-nao-aquece",
  "mainEntity": [
- {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico com experiência (80-150€)."}},
+ {"@type": "Question", "name": "Esquentador acende mas apaga logo. O que fazer?", "acceptedAnswer": {"@type": "Answer", "text": "Causa mais provável: termopar avariado. O termopar é um sensor de segurança que deteta a chama — se avariado, corta o gás por segurança. Solução: substituição por técnico com experiência (sob orçamento)."}},
  {"@type": "Question", "name": "Posso reparar esquentador sozinho?", "acceptedAnswer": {"@type": "Answer", "text": "Pode fazer: trocar pilhas, verificar a válvula de gás, limpeza superficial do queimador com experiência. Precisa de técnico: substituição do termopar, reparação da válvula de gás, descalcificação, problemas elétricos."}},
- {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: 60-100€. Substituição do termopar: 80-150€. Descalcificação: 80-150€. Reparação de válvula: 100-200€."}},
+ {"@type": "Question", "name": "Quanto custa reparar um esquentador?", "acceptedAnswer": {"@type": "Answer", "text": "Trocar pilhas (DIY): 3-5€. Limpeza profissional: sob orçamento. Substituição do termopar: sob orçamento. Descalcificação: sob orçamento. Reparação de válvula: sob orçamento."}},
  {"@type": "Question", "name": "Chama do esquentador está amarela. É perigoso?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, pode ser perigoso. Chama amarela indica combustão incompleta, que produz monóxido de carbono — gás tóxico e potencialmente fatal. Ação imediata: desligue o esquentador, abra janelas e contacte um técnico com experiência."}}
  ]
  }) }} />
@@ -210,7 +210,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Requer técnico especializado.</strong> Termopar deve ser substituído por profissional.
  </p>
  <p className="text-yellow-700 font-semibold text-sm">
- 💰 Custo: 80-150€ (peça + mão de obra) | Dificuldade: ⭐⭐⭐⭐ (técnico)
+ 💰 Custo: sob orçamento (peça + mão de obra) | Dificuldade: ⭐⭐⭐⭐ (técnico)
  </p>
  </div>
  </div>
@@ -309,7 +309,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <strong>Requer técnico especializado.</strong> Descalcificação profissional com produtos específicos.
  </p>
  <p className="text-yellow-700 font-semibold text-sm">
- 💰 Custo: 80-150€ (descalcificação completa) | Dificuldade: ⭐⭐⭐⭐ (técnico)
+ 💰 Custo: sob orçamento (descalcificação completa) | Dificuldade: ⭐⭐⭐⭐ (técnico)
  </p>
  </div>
  </div>
@@ -429,7 +429,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Abra gás e água, teste esquentador</li>
  </ol>
  <div className="bg-yellow-50 p-4 rounded-lg">
- <p className="text-yellow-900"><strong>⚠️ Importante:</strong> Se não se sentir confortável, contacte técnico. Custo: 60-100€.</p>
+ <p className="text-yellow-900"><strong>⚠️ Importante:</strong> Se não se sentir confortável, contacte técnico. Custo: sob orçamento.</p>
  </div>
  </div>
  </div>
@@ -459,7 +459,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Limpeza de queimador e elétrodos</li>
  <li>• Verificação de componentes</li>
- <li>• Custo: 60-100€/ano</li>
+ <li>• Custo: sob orçamento</li>
  <li>• Evita avarias de 200-500€</li>
  </ul>
  </div>
@@ -607,7 +607,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  Termopar é sensor de segurança que deteta chama. Se avariado, corta gás por segurança.
  </p>
  <p className="text-red-700 font-semibold">
- ⚠️ Solução: Substituição por técnico (80-150€)
+ ⚠️ Solução: Substituição por técnico (sob orçamento)
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -632,10 +632,10 @@ const EsquentadorNaoAquece: React.FC = () => {
  <p className="text-gray-700 mb-2">Depende da avaria:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>• Trocar pilhas (DIY): 3-5€</li>
- <li>• Limpeza profissional: 60-100€</li>
- <li>• Substituir termopar: 80-150€</li>
- <li>• Descalcificação: 80-150€</li>
- <li>• Reparação válvula: 100-200€</li>
+ <li>• Limpeza profissional: sob orçamento</li>
+ <li>• Substituir termopar: sob orçamento</li>
+ <li>• Descalcificação: sob orçamento</li>
+ <li>• Reparação válvula: sob orçamento</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

@@ -142,7 +142,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <h4 className="font-semibold text-blue-700 mb-2">Esquentador</h4>
  <ul className="space-y-1 text-gray-700">
  <li className="flex justify-between"><span>Equipamento (11L)</span><span className="font-bold">200€ - 400€</span></li>
- <li className="flex justify-between"><span>Instalação profissional</span><span className="font-bold">80€ - 150€</span></li>
+ <li className="flex justify-between"><span>Instalação profissional</span><span className="font-bold">sob orçamento</span></li>
  <li className="flex justify-between"><span>Custo mensal (família 4 pessoas)</span><span className="font-bold">15€ - 25€ (gás)</span></li>
  </ul>
  </div>
@@ -150,7 +150,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  <h4 className="font-semibold text-orange-700 mb-2">Termoacumulador</h4>
  <ul className="space-y-1 text-gray-700">
  <li className="flex justify-between"><span>Equipamento (80L)</span><span className="font-bold">150€ - 350€</span></li>
- <li className="flex justify-between"><span>Instalação profissional</span><span className="font-bold">60€ - 120€</span></li>
+ <li className="flex justify-between"><span>Instalação profissional</span><span className="font-bold">sob orçamento</span></li>
  <li className="flex justify-between"><span>Custo mensal (família 4 pessoas)</span><span className="font-bold">25€ - 45€ (eletricidade)</span></li>
  </ul>
  </div>

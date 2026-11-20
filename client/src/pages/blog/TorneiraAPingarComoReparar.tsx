@@ -33,7 +33,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  "@type": "FAQPage",
  "url": "https://canalizador-norte-reparos.pt/blog/torneira-a-pingar-como-reparar",
  "mainEntity": [
- {"@type": "Question", "name": "Quanto custa reparar uma torneira a pingar?", "acceptedAnswer": {"@type": "Answer", "text": "DIY: 2-5€ em material (junta nova) + 10-30 minutos. Canalizador: 50-80€ (mão de obra + material). Poupança fazendo você mesmo: 45-75€."}},
+ {"@type": "Question", "name": "Quanto custa reparar uma torneira a pingar?", "acceptedAnswer": {"@type": "Answer", "text": "DIY: 2-5€ em material (junta nova) + 10-30 minutos. Canalizador: sob orçamento (mão de obra + material). Poupança fazendo você mesmo: 45-75€."}},
  {"@type": "Question", "name": "Troquei a junta mas continua a pingar. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Causas possíveis: junta mal encaixada (reposicione), tamanho errado da junta (verifique tamanho correto), assento da torneira danificado (precisa polir ou substituir torneira), ou aperto insuficiente."}},
  {"@type": "Question", "name": "Posso usar cola ou silicone na junta?", "acceptedAnswer": {"@type": "Answer", "text": "Não. A junta encaixa por pressão e não precisa de cola ou silicone. Cola dificulta remoção futura, pode danificar a torneira e não melhora a vedação."}},
  {"@type": "Question", "name": "Quanto tempo dura uma junta nova?", "acceptedAnswer": {"@type": "Answer", "text": "3-5 anos com uso normal. Fatores que reduzem vida útil: água muito calcária (2-3 anos), uso intensivo (2-4 anos), fecho forçado (1-2 anos), pressão de água alta (2-3 anos)."}},
@@ -454,7 +454,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="font-bold text-red-900 mb-2">❌ Reparação DIY:</p>
  <p className="text-red-800 text-sm">
- Não recomendado. Sistema complexo que requer técnico especializado. Custo: 100-250€.
+ Não recomendado. Sistema complexo que requer técnico especializado. Custo: sob orçamento.
  </p>
  </div>
  </div>
@@ -539,7 +539,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <strong>DIY (você mesmo):</strong> 2-5€ (junta) + A confirmar
  </p>
  <p className="text-gray-700 mb-2">
- <strong>Canalizador:</strong> 50-80€ (mão de obra + material)
+ <strong>Canalizador:</strong> sob orçamento (mão de obra + material)
  </p>
  <p className="text-green-700 font-semibold">
  💰 Poupança DIY: 45-75€
@@ -620,7 +620,7 @@ const TorneiraAPingarComoReparar: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Preço Fixo: 50-80€</p>
+ <p className="font-bold">Preço Fixo: sob orçamento</p>
  <p className="text-sm text-white/80">Sem surpresas</p>
  </div>
  </div>

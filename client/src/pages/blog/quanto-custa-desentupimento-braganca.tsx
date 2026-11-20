@@ -11,7 +11,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Quanto custa desentupir uma sanita em Bragança?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em Bragança, o desentupimento de sanita custa entre 60€ e 120€. Entupimentos simples (papel, matéria orgânica): 60-80€. Entupimentos graves (objetos sólidos, raiz): 100-120€. Preço inclui deslocação, mão de obra e equipamento básico."
+ "text": "Em Bragança, o desentupimento de sanita custa entre 60€ e 120€. Entupimentos simples (papel, matéria orgânica): sob orçamento. Entupimentos graves (objetos sólidos, raiz): sob orçamento. Preço inclui deslocação, mão de obra e equipamento básico."
  }
  },
  {
@@ -19,7 +19,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Quanto custa desentupir canalização principal?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Desentupimento de canalização principal em Trás-os-Montes: 120-250€. Inclui uso de mola elétrica profissional, inspeção com câmara se necessário, e limpeza completa do ramal."
+ "text": "Desentupimento de canalização principal em Trás-os-Montes: sob orçamento. Inclui uso de mola elétrica profissional, inspeção com câmara se necessário, e limpeza completa do ramal."
  }
  },
  {
@@ -43,7 +43,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Como poupar no desentupimento?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Para poupar: chame durante horário normal (não urgência), tente métodos caseiros primeiro para entupimentos leves, faça manutenção preventiva anual (30-50€), e não deixe o problema agravar-se."
+ "text": "Para poupar: chame durante horário normal (não urgência), tente métodos caseiros primeiro para entupimentos leves, faça manutenção preventiva anual (sob orçamento), e não deixe o problema agravar-se."
  }
  }
  ]
@@ -51,43 +51,43 @@ export default function QuantoCustaDesentupimentoBraganca() {
  const precos = [
  {
  servico: "Desentupir Sanita (WC)",
- simples: "60-80€",
- grave: "100-120€",
+ simples: "sob orçamento",
+ grave: "sob orçamento",
  tempo: "A confirmar",
  descricao: "Entupimento por papel higiénico, matéria orgânica ou objetos pequenos"
  },
  {
  servico: "Desentupir Lava-Loiça",
- simples: "50-70€",
- grave: "80-100€",
+ simples: "sob orçamento",
+ grave: "sob orçamento",
  tempo: "A confirmar",
  descricao: "Gordura acumulada, restos de comida, ou objetos no sifão"
  },
  {
  servico: "Desentupir Lavatório",
- simples: "40-60€",
- grave: "70-90€",
+ simples: "sob orçamento",
+ grave: "sob orçamento",
  tempo: "A confirmar",
  descricao: "Cabelo, sabão acumulado, ou sifão entupido"
  },
  {
  servico: "Desentupir Duche/Banheira",
- simples: "50-70€",
+ simples: "sob orçamento",
 
  tempo: "A confirmar",
  descricao: "Cabelo, sabão, ou entupimento no ralo"
  },
  {
  servico: "Desentupir Canalização Principal",
- simples: "120-180€",
- grave: "200-250€",
+ simples: "sob orçamento",
+ grave: "sob orçamento",
  tempo: "1-2 horas",
  descricao: "Ramal principal entupido, raízes, ou obstrução profunda"
  },
  {
  servico: "Desentupir Fossa Séptica",
- simples: "150-200€",
- grave: "250-350€",
+ simples: "sob orçamento",
+ grave: "sob orçamento",
  tempo: "2-3 horas",
  descricao: "Limpeza e desentupimento de fossa, inclui aspiração se necessário"
  }
@@ -272,7 +272,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  { dica: "Chame durante horário normal", economia: "Poupa 30-50%" },
  { dica: "Tente métodos caseiros primeiro (se entupimento leve)", economia: "Pode resolver grátis" },
  { dica: "Não deixe agravar - chame logo aos primeiros sinais", economia: "Evita custos 2-3x maiores" },
- { dica: "Manutenção preventiva anual (30-50€)", economia: "Evita 90% dos entupimentos" },
+ { dica: "Manutenção preventiva anual (sob orçamento)", economia: "Evita 90% dos entupimentos" },
  { dica: "Peça orçamento antes de autorizar trabalho adicional", economia: "Sem surpresas" },
  { dica: "Não deite toalhitas, gordura ou objetos na sanita", economia: "Prevenção = 0€" }
  ].map((item, i) => (
@@ -325,11 +325,11 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </thead>
  <tbody className="divide-y divide-gray-200">
  {[
- { cidade: "Bragança", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" },
- { cidade: "Mirandela", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" },
- { cidade: "Chaves", sanita: "", canalizacao: "130-260€", deslocacao: "+10€" },
- { cidade: "Vila Real", sanita: "", canalizacao: "130-260€", deslocacao: "+15€" },
- { cidade: "Trás-os-Montes", sanita: "60-120€", canalizacao: "120-250€", deslocacao: "Incluída" }
+ { cidade: "Bragança", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" },
+ { cidade: "Mirandela", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" },
+ { cidade: "Chaves", sanita: "", canalizacao: "sob orçamento", deslocacao: "+10€" },
+ { cidade: "Vila Real", sanita: "", canalizacao: "sob orçamento", deslocacao: "+15€" },
+ { cidade: "Trás-os-Montes", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" }
  ].map((item, i) => (
  <tr key={i} className="hover:bg-gray-50">
  <td className="px-4 py-3 font-medium text-gray-900">{item.cidade}</td>

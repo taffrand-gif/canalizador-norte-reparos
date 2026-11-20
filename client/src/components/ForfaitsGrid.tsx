@@ -19,7 +19,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚰',
  title: 'Desentupimento Simples',
  description: 'Desobstrução de canalização básica',
- priceRange: '100-170€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Desentupimento mecânico',
@@ -31,7 +31,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '💧',
  title: 'Fuga de Água Visível',
  description: 'Arranjo de fuga identificada',
- priceRange: '100-170€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Arranjo completa',
@@ -44,7 +44,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🔍',
  title: 'Fuga Oculta',
  description: 'Deteção + arranjo de fuga escondida',
- priceRange: '240-450€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Deteção com equipamento',
@@ -57,7 +57,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🔥',
  title: 'Arranjo Esquentador',
  description: 'Diagnóstico e arranjo',
- priceRange: '100-240€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Diagnóstico completo',
@@ -69,7 +69,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚿',
  title: 'Instalação Torneira',
  description: 'Substituição ou instalação nova',
- priceRange: '100-170€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Instalação completa',
@@ -81,7 +81,7 @@ function ForfaitsGrid({ className = '' }: ForfaitsGridProps) {
  icon: '🚽',
  title: 'Arranjo Sanita',
  description: 'Autoclismo, mecanismo ou vedação',
- priceRange: '100-170€',
+ priceRange: 'sob orçamento',
  details: [
  'Deslocação incluída (30€, dias úteis)',
  'Substituição mecanismo',
