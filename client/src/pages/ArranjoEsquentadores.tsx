@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const faqItems = [
  { question: "Com que frequência devo fazer manutenção ao esquentador?", answer: "Recomendamos manutenção anual para garantir eficiência e segurança. A limpeza do queimador e verificação do circuito de água prolongam a vida útil do equipamento em 5-10 anos." },
  { question: "Quando devo substituir o esquentador em vez de arranjar?", answer: "Se o esquentador tem mais de 15 anos, as arranjos são frequentes ou as peças já não existem, é mais económico substituir. Um esquentador novo é mais eficiente e seguro." },
- { question: "Arranjam todas as marcas de caldeiras?", answer: "Sim, arranjamos caldeiras e esquentadores de todas as marcas: Vaillant, Junkers/Bosch, Vulcano, Ariston, Baxi, Roca e outras. Temos peças originais em stock." }
+ { question: "Arranjam todas as marcas de caldeiras?", answer: "Sim, arranjamos caldeiras e esquentadores de todas as marcas: Vaillant, Junkers/Bosch, Vulcano, Ariston, Baxi, Roca e outras." }
 ];
 export default function ArranjacaoEsquentadores() {
  useEffect(() => {

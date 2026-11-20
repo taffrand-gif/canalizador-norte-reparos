@@ -110,7 +110,7 @@ export default function FreixoEspadaCinta() {
  Canalizador Profissional em <span className="text-orange-400">Freixo de Espada à Cinta</span>
  </h1>
  <p className="text-xl mb-8">
- Serviços de canalização certificados em Freixo de Espada à Cinta e arredores.
+ Serviços de canalização em Freixo de Espada à Cinta e arredores.
  Resolução rápida, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -181,7 +181,7 @@ export default function FreixoEspadaCinta() {
  <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Porquê Escolher-nos em Freixo de Espada à Cinta</h2>
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
  <div className="bg-white p-6 rounded-xl shadow-lg">
- <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🏆 Serviço Certificado</h3>
+ <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🧾 Fatura e Orçamento</h3>
  <p className="text-gray-600">Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes da intervenção.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

@@ -84,19 +84,15 @@ function EmotionalHero({
  </div>
  {/* Trust Indicators */}
  <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white text-sm">
+ {responseTime && responseTime !== "A confirmar" && (
  <div className="flex items-center gap-2">
  <Clock className="w-5 h-5 text-yellow-400" />
  <span className="font-bold">Resposta em {responseTime}</span>
  </div>
- <div className="hidden sm:block text-white/50">•</div>
+ )}
  <div className="flex items-center gap-2">
  <Shield className="w-5 h-5 text-green-400" />
- <span className="font-bold">% Satisfação</span>
- </div>
- <div className="hidden sm:block text-white/50">•</div>
- <div className="flex items-center gap-2">
- <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
- <span className="font-bold"> (com feedback verificado)</span>
+ <span className="font-bold">Atendimento 24h</span>
  </div>
  </div>
  </div>

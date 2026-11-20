@@ -27,7 +27,7 @@ export default function ManutencaoEsquentador() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "De quanto em quanto tempo devo fazer manutenção ao esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "A revisão anual é obrigatória para garantir segurança e eficiência — além de ser exigida pela maioria das garantias. O melhor momento é antes do inverno (Setembro/Outubro). Após 10 anos de uso, avalie substituição ou revisão profunda." } },
+ { "@type": "Question", "name": "De quanto em quanto tempo devo fazer manutenção ao esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "A revisão anual é recomendada para garantir segurança e eficiência — além de ser exigida pela maioria das garantias. O melhor momento é antes do inverno (Setembro/Outubro). Após 10 anos de uso, avalie substituição ou revisão profunda." } },
  { "@type": "Question", "name": "O que inclui uma manutenção completa do esquentador?", "acceptedAnswer": { "@type": "Answer", "text": "Inclui: limpeza do queimador, verificação do termopar, limpeza do permutador de calor, teste de estanquicidade (fugas de gás), verificação da tiragem, limpeza dos filtros de água, ajuste da pressão de gás e teste de funcionamento completo." } },
  { "@type": "Question", "name": "Quanto custa a manutenção do esquentador em 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Manutenção anual completa (limpeza e verificação): sob orçamento. Arranjo com substituição de peças: sob orçamento, dependendo do componente. A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados." } },
  { "@type": "Question", "name": "A chama do esquentador deve ser azul ou amarela?", "acceptedAnswer": { "@type": "Answer", "text": "A chama deve ser sempre azul. Chama amarela ou alaranjada indica combustão incompleta e produção de monóxido de carbono — perigoso para a saúde. Agende manutenção urgente com um técnico com experiência." } },
@@ -96,7 +96,7 @@ export default function ManutencaoEsquentador() {
  <strong>Revisão Anual</strong>
  <p className="text-sm text-gray-600">Limpeza completa e verificação de segurança</p>
  </div>
- <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">Obrigatória</span>
+ <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">Recomendada</span>
  </div>
  <div className="flex items-center justify-between p-4 bg-white rounded-lg">
  <div>
@@ -210,7 +210,7 @@ export default function ManutencaoEsquentador() {
  Precisa de Manutenção do Esquentador?
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
- Agende já a revisão anual. Preço fixo, sem surpresas. Trabalho garantido.
+ Agende já a revisão anual. Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

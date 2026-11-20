@@ -16,7 +16,7 @@ export default function ValePenaArranjarVsSubstituir() {
  },
  {
  question: "Esquentador com 15 anos: arranjar ou substituir?",
- answer: "SUBSTITUIR. Vida útil média: 10-12 anos. Com 15 anos, mesmo arranjado, terá mais avarias em breve. Esquentador novo: mais eficiente (-30% gás), mais seguro, garantia 2-5 anos. Investimento compensa."
+ answer: "SUBSTITUIR. Vida útil média: 10-12 anos. Com 15 anos, mesmo arranjado, terá mais avarias em breve. Esquentador novo: mais eficiente (-30% gás), mais seguro, com garantia do fabricante. Investimento compensa."
  },
  {
  question: "Quanto custa arranjar vs substituir esquentador?",
@@ -39,7 +39,7 @@ export default function ValePenaArranjarVsSubstituir() {
  substituir: {
  custo: "sob orçamento",
  quando: "> 10 anos, avarias frequentes, ineficiente",
- vantagens: ["Garantia 2-5 anos", "Eficiência -30% gás", "Segurança moderna"],
+ vantagens: ["Garantia do fabricante", "Eficiência -30% gás", "Segurança moderna"],
  desvantagens: ["Custo inicial alto", "Instalação 3-5h"]
  },
  recomendacao: "Substituir se >10 anos OU arranjo >200€"
@@ -81,7 +81,7 @@ export default function ValePenaArranjarVsSubstituir() {
  arranjar: {
  custo: "sob orçamento",
  quando: "Autoclismo avariado, fuga pequena",
- vantagens: ["Barato", "Rápido (30-alguns minutos)"],
+ vantagens: ["Barato", "Rápido"],
  desvantagens: ["Peças velhas podem avariar", "Consumo água alto"]
  },
  substituir: {

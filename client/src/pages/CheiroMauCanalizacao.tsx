@@ -59,7 +59,7 @@ export default function CheiroMauCanalizacao() {
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Viver"
  subtitle="Cheiro mau na canalização não é só desagradável. É vergonha, insalubridade e stress constante."
- empathyStatement="Já eliminámos cheiros em centenas de casas em Trás-os-Montes. Sabemos que não é culpa sua. Identificamos a origem e eliminamos definitivamente Atendimento rápido."
+ empathyStatement="Sabemos que não é culpa sua. Identificamos a origem e eliminamos definitivamente Atendimento rápido."
  painPoints={[
  {
  icon: 'alert',
@@ -119,13 +119,13 @@ export default function CheiroMauCanalizacao() {
  ]}
  />
  <EmergencyTestimonials
- title="Já Eliminámos Cheiros em Centenas de Casas"
+ title="Testemunhos de Clientes"
  subtitle="Famílias que recuperaram o conforto e dignidade."
  testimonials={[]}
  />
  <GuaranteeBox
- title="Garantias de Eliminação"
- subtitle="Eliminamos a origem, não mascaramos. Solução definitiva garantida."
+ title="Como Trabalhamos"
+ subtitle="Eliminamos a origem, não mascaramos."
  phone={ACTIVE_CONFIG.phone}
  guarantees={[
  {
@@ -268,7 +268,7 @@ export default function CheiroMauCanalizacao() {
  </a>
  </div>
  <p className="text-lg opacity-90">
- ✓ estimativa sem custo • ✓ Solução em 1-2h • ✓ 
+ ✓ Orçamento por escrito antes de qualquer intervenção
  </p>
  </div>
  </section>

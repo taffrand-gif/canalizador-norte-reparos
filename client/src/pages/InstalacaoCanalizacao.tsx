@@ -12,7 +12,7 @@ export default function InstalacaoCanalizacao() {
  document.title = "Instalação de Canalização Nova em Trás-os-Montes | Canalizador Profissional";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
- meta.setAttribute('content', 'Instalação de canalização nova em Trás-os-Montes. Casas de banho, cozinhas, redes de água e esgotos. Materiais certificados, garantia. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Instalação de canalização nova em Trás-os-Montes. Casas de banho, cozinhas, redes de água e esgotos. Garantia do fabricante nos equipamentos e peças. Ligue +351 928 484 451.');
  }, []);
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
@@ -31,7 +31,7 @@ export default function InstalacaoCanalizacao() {
  <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Instalação de Canalização Nova em Trás-os-Montes</h1>
- <p className="text-xl mb-8 max-w-2xl mx-auto">Instalação profissional de redes de água e esgotos para construção nova e remodelação. Materiais certificados e garantia no trabalho.</p>
+ <p className="text-xl mb-8 max-w-2xl mx-auto">Instalação profissional de redes de água e esgotos para construção nova e remodelação. Garantia do fabricante nos equipamentos e peças.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

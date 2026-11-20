@@ -104,7 +104,7 @@ export default function MirandaDouro() {
  Canalizador Profissional em <span className="text-orange-400">Miranda do Douro</span>
  </h1>
  <p className="text-xl mb-8">
- Serviços de canalização certificados em Miranda do Douro e arredores.
+ Serviços de canalização em Miranda do Douro e arredores.
  Resolução rápida, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -151,7 +151,7 @@ export default function MirandaDouro() {
  </h3>
  <p className="text-gray-600">
  WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
+ desentupimentos profundos.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -198,7 +198,7 @@ export default function MirandaDouro() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🏆 Serviço Certificado
+ 🧾 Fatura e Orçamento
  </h3>
  <p className="text-gray-600">
  Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes
@@ -228,7 +228,6 @@ export default function MirandaDouro() {
  </h3>
  <p className="text-gray-600">
  Todas as intervenções têm garantia do fabricante nos equipamentos e peças.
- Peças e mão de obra incluídas.
  </p>
  </div>
  </div>
