@@ -32,7 +32,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'custo-arranjacao-fuga-agua',
  title: 'Quanto Custa Arranjar Fuga de Água em Portugal 2026',
  keywords: ['custo arranjo fuga', 'preço arranjar fuga', 'orçamento fuga água'],
- targetSnippet: 'Custo arranjo fuga água: Fuga simples €80-150, Fuga canalização enterrada €200-400, Fuga aquecimento central €150-300. Inclui mão-obra, materiais. Garantia do fabricante nas peças.'
+ targetSnippet: 'Arranjo de fuga de água: sob orçamento por escrito (deslocação 30 € e 70 €/h em dias úteis). Garantia do fabricante nas peças.'
  },
  {
  slug: 'fuga-agua-urgente-24h',
@@ -56,7 +56,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'instalar-aquecimento-central-custo',
  title: 'Instalar Aquecimento Central: Preços e Tipos 2026',
  keywords: ['instalar aquecimento central', 'preço aquecimento', 'custo instalação'],
- targetSnippet: 'Custo instalar aquecimento central: Caldeira gás €2000-4000, Bomba calor €3000-6000, Piso radiante €40-60/m². Inclui equipamento, instalação e certificação.'
+ targetSnippet: 'Custo instalar aquecimento central: sob orçamento por escrito, consoante o equipamento e a casa.'
  },
  {
  slug: 'manutencao-aquecimento-central',

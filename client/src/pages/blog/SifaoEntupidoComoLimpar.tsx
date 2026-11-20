@@ -34,7 +34,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  "url": "https://canalizador-norte-reparos.pt/blog/sifao-entupido-como-limpar",
  "mainEntity": [
  {"@type": "Question", "name": "Sifão continua a cheirar mal após limpeza. Porquê?", "acceptedAnswer": {"@type": "Answer", "text": "Possíveis causas: água do sifão evaporou (despeje 1 litro), ventilação insuficiente no tubo, junta danificada pelos gases, entupimento mais à frente na canalização principal, ou sifão mal montado. Se persistir, chame canalizador."}},
- {"@type": "Question", "name": "Quanto custa substituir um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Material (sifão novo): 8-25€. Instalação DIY: 0€. Instalação por canalizador: sob orçamento. A substituição DIY é muito fácil e poupa 40-80€ em mão de obra."}},
+ {"@type": "Question", "name": "Quanto custa substituir um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Material (sifão novo): 8-25€. Instalação DIY: 0€. Instalação por canalizador: sob orçamento. A substituição DIY é muito fácil e poupa a mão de obra."}},
  {"@type": "Question", "name": "Posso limpar sifão sem desmontar?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, mas é menos eficaz. Métodos sem desmontagem: água quente com detergente remove gordura leve, bicarbonato + vinagre dissolve resíduos orgânicos, ventosa desaloja bloqueios parciais. A desmontagem é sempre mais eficaz e permite inspeção visual."}},
  {"@type": "Question", "name": "Quanto tempo demora a limpar um sifão?", "acceptedAnswer": {"@type": "Answer", "text": "Com desmontagem completa: 5-10 minutos para sifão simples, 15-20 minutos para sifão com acessórios. Sem desmontagem: 5-15 minutos por método."}}
  ]
@@ -75,7 +75,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  <div className="prose prose-lg max-w-none mb-10">
  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
  <p className="text-blue-900 font-semibold text-lg">
- 💡 Limpar sifão entupido é tarefa simples que demora A confirmar. Evite chamar canalizador e poupe 60-100€!
+ 💡 Limpar sifão entupido é tarefa simples que demora A confirmar. Evite chamar canalizador e poupe a deslocação e a mão de obra!
  </p>
  </div>
  <p className="text-xl text-gray-700 mb-6 leading-relaxed">

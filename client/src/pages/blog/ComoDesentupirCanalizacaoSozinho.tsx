@@ -365,7 +365,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  </tr>
  <tr>
  <td className="py-3">Deslocação urgência</td>
- <td className="text-right py-3 font-semibold">+20-30€</td>
+ <td className="text-right py-3 font-semibold">50 €</td>
  </tr>
  </tbody>
  </table>

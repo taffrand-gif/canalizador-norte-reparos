@@ -14,7 +14,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 1,
  question: "Quanto custa chamar um canalizador em Bragança?",
- answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos: sanita 80-120€, lavatório 100€, lava-loiça 110€. Arranjos de fugas: colmatação 88-100€, cano rebentado 140-180€. Instalações de esquentadores: a partir de 180€ (sem incluir o equipamento). A deslocação tem preço único: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados. Trabalhamos com preços fixos transparentes - contacte-nos para confirmação sem compromisso.",
+ answer: "O custo de chamar um canalizador em Bragança varia consoante o tipo de intervenção. Desentupimentos, arranjos de fugas e instalações de esquentadores são sob orçamento por escrito (o equipamento não está incluído). A deslocação tem preço único: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados. Orçamento por escrito antes de qualquer intervenção.",
  category: "Preços"
  },
  {
@@ -80,7 +80,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 12,
  question: "O que é uma válvula de segurança e para que serve?",
- answer: "A válvula de segurança (ou válvula de alívio) é um dispositivo obrigatório em esquentadores e termoacumuladores que evita explosões por excesso de pressão. Funciona libertando água automaticamente quando a pressão interna ultrapassa o limite seguro. É normal ver algumas gotas a pingar ocasionalmente - significa que está a funcionar corretamente. Sinais de problema: gotejamento constante (válvula danificada), nenhum gotejamento em meses (válvula entupida ou bloqueada), ou ruídos de assobio. Válvulas defeituosas são perigosas e devem ser substituídas imediatamente. Verificamos e substituímos válvulas de segurança por 58-74€. Nunca bloqueie ou remova uma válvula de segurança.",
+ answer: "A válvula de segurança (ou válvula de alívio) é um dispositivo obrigatório em esquentadores e termoacumuladores que evita explosões por excesso de pressão. Funciona libertando água automaticamente quando a pressão interna ultrapassa o limite seguro. É normal ver algumas gotas a pingar ocasionalmente - significa que está a funcionar corretamente. Sinais de problema: gotejamento constante (válvula danificada), nenhum gotejamento em meses (válvula entupida ou bloqueada), ou ruídos de assobio. Válvulas defeituosas são perigosas e devem ser substituídas imediatamente. Verificamos e substituímos válvulas de segurança (sob orçamento). Nunca bloqueie ou remova uma válvula de segurança.",
  category: "Segurança"
  },
  {
@@ -98,7 +98,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 15,
  question: "O que fazer se o autoclismo não para de correr?",
- answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ + instalação 55-74€). Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
+ answer: "Autoclismo que não para de correr desperdiça 200-400 litros de água por dia (60-120€/ano na fatura). Causas comuns: boia desregulada ou furada, válvula de descarga gasta, corrente ou haste partida, ou calcário na válvula. Soluções imediatas: ajuste a boia para nível mais baixo, limpe a válvula com vinagre, ou substitua a borracha da válvula (5€ em qualquer loja). Se o problema persistir, pode precisar de kit completo de autoclismo (25-40€ em loja + instalação sob orçamento). Autoclismos com mais de 15 anos devem ser substituídos por modelos de dupla descarga que poupam 60% de água.",
  category: "Arranjos"
  },
  {
@@ -128,7 +128,7 @@ export const FAQ_DATA: FAQItem[] = [
  {
  id: 20,
  question: "Quanto custa instalar uma casa de banho nova?",
- answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): sob orçamento, casa de banho média (5m²): sob orçamento, casa de banho premium (7m²): sob orçamento. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (+500-1.000€), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia do fabricante nos equipamentos e peças.",
+ answer: "Instalação completa de casa de banho nova em Bragança: casa de banho simples (3m²): sob orçamento, casa de banho média (5m²): sob orçamento, casa de banho premium (7m²): sob orçamento. Inclui: canalizações de água e esgoto, louças sanitárias (sanita, lavatório, base de duche), torneiras, azulejos e pavimento, iluminação básica. Não inclui: equipamentos premium (banheira hidromassagem, móveis por medida), demolição de casa de banho existente (sob orçamento), ou alterações estruturais. Prazo: 2-3 semanas. Trabalhamos com orçamentos detalhados e transparentes. Possibilidade de pagamento faseado. Garantia do fabricante nos equipamentos e peças.",
  category: "Projetos"
  }
 ];

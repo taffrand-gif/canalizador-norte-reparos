@@ -245,7 +245,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Remonte e teste</li>
  </ol>
  <p className="text-green-700 font-semibold mt-2 text-sm">
- 💰 Custo: 0-10€ (DIY) ou 60-100€ (técnico) | Dificuldade: ⭐⭐⭐ (média)
+ 💰 Custo: 0-10€ (DIY) ou sob orçamento (técnico) | Dificuldade: ⭐⭐⭐ (média)
  </p>
  </div>
  </div>
@@ -460,7 +460,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>• Limpeza de queimador e elétrodos</li>
  <li>• Verificação de componentes</li>
  <li>• Custo: sob orçamento</li>
- <li>• Evita avarias de 200-500€</li>
+ <li>• Evita avarias mais caras</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">
@@ -471,7 +471,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <ul className="text-gray-600 text-sm space-y-1">
  <li>• Remove calcário do permutador</li>
  <li>• Melhora eficiência 20-30%</li>
- <li>• Custo: 80-150€</li>
+ <li>• Custo: sob orçamento</li>
  </ul>
  </div>
  <div className="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-cyan-500 transition-colors">

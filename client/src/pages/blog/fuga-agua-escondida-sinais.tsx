@@ -27,7 +27,7 @@ export default function FugaAguaEscondidaSinais() {
  "name": "Quanto custa detetar uma fuga de água escondida?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em Trás-os-Montes, a deteção de fugas com equipamento térmico custa 80-150€. Inclui inspeção completa, localização exata da fuga e orçamento de arranjo. Investimento que evita danos de milhares de euros."
+ "text": "Em Trás-os-Montes, a deteção de fugas com equipamento térmico é sob orçamento. Inclui inspeção completa, localização exata da fuga e orçamento de arranjo. Investimento que evita danos de milhares de euros."
  }
  },
  {

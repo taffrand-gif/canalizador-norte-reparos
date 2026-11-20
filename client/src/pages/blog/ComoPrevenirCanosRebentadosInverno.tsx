@@ -766,8 +766,8 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Custos profissionais:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Canalizador: sob orçamento (material + mão de obra</li>
- <li>• Cabo aquecedor: 200-500€ (instalação completa</li>
+ <li>• Canalizador: sob orçamento (material + mão de obra)</li>
+ <li>• Cabo aquecedor: sob orçamento (instalação completa)</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
  ✅ ROI: Investimento de 100€ evita reparações de 2000-8000€

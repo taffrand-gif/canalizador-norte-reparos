@@ -242,7 +242,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  <div className="space-y-6">
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">Quanto custa arranjar uma fuga de água?</h3>
- <p className="text-gray-700">Em Trás-os-Montes, a arranjo de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano.</p>
+ <p className="text-gray-700">Em Trás-os-Montes, o arranjo de uma fuga (torneira, sifão ou tubagem embutida) é sob orçamento, dependendo da localização e extensão do dano.</p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">O seguro da casa cobre fugas de água?</h3>
@@ -258,7 +258,7 @@ const EvitarFugasAguaPrevencao: React.FC = () => {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Quanto custa arranjar uma fuga de água?", "acceptedAnswer": { "@type": "Answer", "text": "Em Trás-os-Montes, a arranjo de uma fuga simples (torneira, sifão) custa entre 40€ e 80€. Para fugas em tubagens embutidas, o custo pode variar entre 150€ e 400€, dependendo da localização e extensão do dano." } },
+ { "@type": "Question", "name": "Quanto custa arranjar uma fuga de água?", "acceptedAnswer": { "@type": "Answer", "text": "Em Trás-os-Montes, o arranjo de uma fuga (torneira, sifão ou tubagem embutida) é sob orçamento, dependendo da localização e extensão do dano." } },
  { "@type": "Question", "name": "O seguro da casa cobre fugas de água?", "acceptedAnswer": { "@type": "Answer", "text": "A maioria dos seguros multirriscos cobre danos causados por fugas de água, mas geralmente não cobre a arranjo da canalização em si. Verifique as condições da sua apólice e documente sempre os danos com fotografias." } },
  { "@type": "Question", "name": "De quanto em quanto tempo devo fazer manutenção à canalização?", "acceptedAnswer": { "@type": "Answer", "text": "Recomendamos inspeção visual mensal, manutenção do esquentador/caldeira anual, e inspeção profissional completa a cada 5 anos. Em casas com mais de 30 anos, a inspeção profissional deve ser mais frequente." } }
  ]

@@ -27,7 +27,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  "name": "Quanto custa arranjar um esquentador avariado?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Arranjos simples desde €80. Substituição de peças €120-200. Esquentador novo instalado desde €350. Sem compromisso no local."
+ "text": "Sob orçamento por escrito antes de qualquer intervenção: deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados. O equipamento novo, se for preciso, é orçamentado à parte."
  }
  },
  {
@@ -209,7 +209,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  {[
  {
  q: 'Quanto custa arranjar um esquentador avariado?',
- a: 'Arranjos simples (pilhas, limpeza) €80-120. Substituição de peças (membrana, termostato) €120-250. Esquentador novo instalado €350-800 dependendo do modelo. Damos sempre sem compromisso no local antes de começar. Só paga se aprovar.'
+ a: 'Arranjo, substituição de peças (membrana, termostato) ou esquentador novo instalado: sob orçamento por escrito antes de começar. O equipamento depende do modelo escolhido. Só paga se aprovar.'
  },
  {
  q: 'Vale a pena arranjar ou comprar novo?',

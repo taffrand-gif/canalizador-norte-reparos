@@ -51,9 +51,9 @@ export default function PiscinaTanqueAgua() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Quanto custa a canalização para piscina enterrada em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A canalização para piscina enterrada (bomba filtração, drenagem, enchimento automático) custa entre 2.000€ e 4.000€. Piscina sobrelevada (mais simples): sob orçamento. Piscina natural/biológica (com zona de regeneração): sob orçamento." } },
+ { "@type": "Question", "name": "Quanto custa a canalização para piscina enterrada em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A canalização para piscina enterrada (bomba filtração, drenagem, enchimento automático) é sob orçamento. Piscina sobrelevada (mais simples): sob orçamento. Piscina natural/biológica (com zona de regeneração): sob orçamento." } },
  { "@type": "Question", "name": "É necessário canalizador profissional para instalar piscina?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A ligação ao ramal de abastecimento de água, sistema de drenagem e bomba de filtração requerem canalizador com experiência. Em Trás-os-Montes, a Norte Reparos tem experiência em piscinas e tanques agrícolas." } },
- { "@type": "Question", "name": "Qual o sistema de piscina mais económico para instalar?", "acceptedAnswer": { "@type": "Answer", "text": "A piscina sobrelevada é a mais económica (canalização 800-1.500€), com ligação de enchimento simples, drenagem básica e filtro portátil. A piscina enterrada (sob orçamento) e a natural/biológica (sob orçamento) são mais complexas e dispendiosas." } },
+ { "@type": "Question", "name": "Qual o sistema de piscina mais económico para instalar?", "acceptedAnswer": { "@type": "Answer", "text": "A piscina sobrelevada é a mais económica (canalização sob orçamento), com ligação de enchimento simples, drenagem básica e filtro portátil. A piscina enterrada (sob orçamento) e a natural/biológica (sob orçamento) são mais complexas e dispendiosas." } },
  { "@type": "Question", "name": "Posso instalar um tanque de água para irrigação agrícola em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Em Trás-os-Montes, muitas propriedades agrícolas têm tanques de água para irrigação de olivais e vinhas. A canalização para estes sistemas inclui ligação à furo ou ao ramal, bomba de pressão e sistema de distribuição. Pedimos visita para orçamento personalizado." } }
  ]
  });
@@ -258,7 +258,7 @@ export default function PiscinaTanqueAgua() {
  <p className="text-sm text-gray-700 mb-3">
  Mais eficiente. Poupa até 60% de água. Ideal para hortas e vinhas.
  </p>
- <p className="text-sm mb-2"><strong>Custo:</strong> €500-2.000 (1 hectare)</p>
+ <p className="text-sm mb-2"><strong>Custo:</strong> sob orçamento</p>
  <p className="text-sm"><strong>Pressão:</strong> 1-2 bar</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -266,7 +266,7 @@ export default function PiscinaTanqueAgua() {
  <p className="text-sm text-gray-700 mb-3">
  Para grandes áreas. Simula chuva. Ideal para prados e pomares.
  </p>
- <p className="text-sm mb-2"><strong>Custo:</strong> €800-3.000 (1 hectare)</p>
+ <p className="text-sm mb-2"><strong>Custo:</strong> sob orçamento</p>
  <p className="text-sm"><strong>Pressão:</strong> 2-4 bar</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -282,7 +282,7 @@ export default function PiscinaTanqueAgua() {
  <p className="text-sm text-gray-700 mb-3">
  Híbrido entre gota-a-gota e aspersores. Para árvores de fruto.
  </p>
- <p className="text-sm mb-2"><strong>Custo:</strong> €600-2.500 (1 hectare)</p>
+ <p className="text-sm mb-2"><strong>Custo:</strong> sob orçamento (1 hectare)</p>
  <p className="text-sm"><strong>Pressão:</strong> 1,5-3 bar</p>
  </div>
  </div>

@@ -35,7 +35,7 @@ export default function CanoRebentado() {
  "name": "Quanto custa arranjar um cano rebentado?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Arranjos simples desde €120. Substituição de canos €200-400. Arranjos complexas €400-800. Sem compromisso no local. Preço fixo antes de começar."
+ "text": "Sob orçamento por escrito antes de qualquer intervenção: deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados."
  }
  }
  ]
@@ -71,7 +71,7 @@ export default function CanoRebentado() {
  icon: 'money',
  title: 'Danos Massivos na Casa',
  description: 'Chão inundado, móveis estragados, paredes encharcadas, tetos a pingar. Danos multiplicam-se a cada minuto.',
- consequence: 'Arranjos podem custar €5.000-20.000 se não parar rapidamente.'
+ consequence: 'Os arranjos ficam muito mais caros se não parar a água rapidamente.'
  },
  {
  icon: 'trending',
@@ -164,7 +164,7 @@ export default function CanoRebentado() {
  },
  {
  q: 'Quanto custa arranjar um cano rebentado?',
- a: 'Arranjos simples (soldar, vedar) desde €120. Substituição de troço de cano €200-400. Arranjos complexas (canos em paredes/chão) €400-800. Damos sempre sem compromisso no local antes de começar. Em emergências, paramos primeiro a água, depois fazemos orçamento para arranjo definitiva.'
+ a: 'Cada arranjo (soldar, vedar, substituir um troço, canos em paredes ou no chão) é sob orçamento por escrito antes de começar: deslocação 30 € e 70 €/h em dias úteis; 50 € e 100 €/h à noite, fins de semana e feriados. Em emergências, paramos primeiro a água, depois fazemos orçamento para arranjo definitiva.'
  },
  {
  q: 'Porque é que os canos rebentam?',
