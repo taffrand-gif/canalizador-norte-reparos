@@ -476,19 +476,19 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <tbody>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Desentupimento simples</td>
- <td className="text-right py-3 font-semibold">70-120€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Desentupimento complexo</td>
- <td className="text-right py-3 font-semibold">120-200€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Com máquina alta pressão</td>
- <td className="text-right py-3 font-semibold">150-250€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Inspeção com câmara</td>
- <td className="text-right py-3 font-semibold">120-180€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-3">Urgência (noite/fim de semana)</td>

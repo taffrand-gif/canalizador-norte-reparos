@@ -538,27 +538,27 @@ const EsquentadorNaoAquece: React.FC = () => {
  <tbody>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Diagnóstico</td>
- <td className="text-right py-3 font-semibold">40-60€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Limpeza completa</td>
- <td className="text-right py-3 font-semibold">60-100€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Substituir termopar</td>
- <td className="text-right py-3 font-semibold">80-150€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Descalcificação</td>
- <td className="text-right py-3 font-semibold">80-150€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-cyan-100">
  <td className="py-3">Reparação válvula gás</td>
- <td className="text-right py-3 font-semibold">100-200€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-3">Instalação esquentador novo</td>
- <td className="text-right py-3 font-semibold">200-400€</td>
+ <td className="text-right py-3 font-semibold">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -691,7 +691,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Diagnóstico Gratuito</p>
+ <p className="font-bold">Orçamento por Escrito</p>
  <p className="text-sm text-white/80">Identificamos problema rapidamente</p>
  </div>
  </div>
