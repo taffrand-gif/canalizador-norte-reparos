@@ -202,7 +202,7 @@ export default function DesentupirWCMetodos() {
  <li className="flex items-center gap-2"><ThumbsUp className="w-4 h-4 text-green-500" /> Equipamento profissional</li>
  <li className="flex items-center gap-2"><ThumbsUp className="w-4 h-4 text-green-500" /> Identifica causa raiz</li>
  <li className="flex items-center gap-2"><ThumbsUp className="w-4 h-4 text-green-500" /> Garantia no trabalho</li>
- <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Custo: 60-100€</li>
+ <li className="flex items-center gap-2"><ThumbsDown className="w-4 h-4 text-red-500" /> Custo: sob orçamento</li>
  </ul>
  </div>
  </div>

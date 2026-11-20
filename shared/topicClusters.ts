@@ -62,7 +62,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'manutencao-aquecimento-central',
  title: 'Manutenção Aquecimento Central: Checklist Anual',
  keywords: ['manutenção aquecimento', 'revisão caldeira', 'limpeza radiadores'],
- targetSnippet: 'Manutenção aquecimento central anual: 1) Revisão caldeira 2) Purga radiadores 3) Verificar pressão 4) Limpar filtros 5) Testar termostato. Custo: €80-120.'
+ targetSnippet: 'Manutenção aquecimento central anual: 1) Revisão caldeira 2) Purga radiadores 3) Verificar pressão 4) Limpar filtros 5) Testar termostato. Custo: sob orçamento.'
  }
  ]
  },
@@ -81,7 +81,7 @@ export const canalizadorClusters: TopicCluster[] = [
  slug: 'custo-certificado-gas',
  title: 'Quanto Custa Certificado de Gás em Portugal 2026',
  keywords: ['custo certificado gás', 'preço certificação', 'orçamento '],
- targetSnippet: 'Custo certificado gás: €150-300 dependendo complexidade. Inclui inspeção, testes segurança, emissão Profissional. Prazo: 3-5 dias úteis.'
+ targetSnippet: 'Custo certificado gás: sob orçamento dependendo complexidade. Inclui inspeção, testes segurança, emissão Profissional. Prazo: 3-5 dias úteis.'
  }
  ]
  }
@@ -123,7 +123,7 @@ export const eletricistaClusters: TopicCluster[] = [
  slug: 'trocar-quadro-eletrico-custo',
  title: 'Trocar Quadro Elétrico: Preços e Quando Fazer',
  keywords: ['trocar quadro elétrico', 'substituir quadro', 'custo quadro novo'],
- targetSnippet: 'Custo trocar quadro elétrico: €300-800 dependendo potência e disjuntores. Trocar se: +20 anos, disjuntores disparam, sem diferencial, fusíveis antigos.'
+ targetSnippet: 'Custo trocar quadro elétrico: sob orçamento dependendo potência e disjuntores. Trocar se: +20 anos, disjuntores disparam, sem diferencial, fusíveis antigos.'
  },
  {
  slug: 'disjuntor-dispara-causas',
@@ -148,7 +148,7 @@ export const eletricistaClusters: TopicCluster[] = [
  slug: 'instalar-iluminacao-led',
  title: 'Instalar Iluminação LED: Guia Completo e Preços',
  keywords: ['instalar LED', 'mudar para LED', 'custo instalação LED'],
- targetSnippet: 'Instalar iluminação LED: €8-15/lâmpada incluindo material e instalação. Compatível com instalação existente. Garantia do fabricante nas peças. Certificação incluída.'
+ targetSnippet: 'Instalar iluminação LED: sob orçamento incluindo material e instalação. Compatível com instalação existente. Garantia do fabricante nas peças. Certificação incluída.'
  }
  ]
  }

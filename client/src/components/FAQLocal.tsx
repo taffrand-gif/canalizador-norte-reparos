@@ -26,7 +26,7 @@ function FAQLocal() {
  answer: 'Sim, prestamos serviço de instalação e remodelação de canalização em Miranda do Douro e em toda a zona raiana: substituição de tubagens, remodelação de casas de banho e instalação de equipamentos. Orçamento por escrito em 48h. Ligue 928 484 451.'},
  {
  question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
- answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: 100-200€ (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
+ answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: sob orçamento (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
  answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço ao domicílio, com orçamento por escrito em 48h.'},

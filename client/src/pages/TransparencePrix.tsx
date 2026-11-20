@@ -15,7 +15,7 @@ export default function TransparencePrix() {
  const forfaits = [
  {
  title: "Pequena Arranjo",
- price: "35€ - 50€",
+ price: "sob orçamento",
  duration: "A confirmar",
  includes: [
  "Torneiras pingando",
@@ -26,7 +26,7 @@ export default function TransparencePrix() {
  },
  {
  title: "Intervenção Standard",
- price: "60€ - 90€",
+ price: "sob orçamento",
  duration: "1h",
  includes: [
  "Desentupimento canalização",
@@ -37,7 +37,7 @@ export default function TransparencePrix() {
  },
  {
  title: "Instalação Sanitários",
- price: "120€ - 180€",
+ price: "sob orçamento",
  duration: "2-3h",
  includes: [
  "Sanita completa",
@@ -48,7 +48,7 @@ export default function TransparencePrix() {
  },
  {
  title: "Esquentador / Caldeira",
- price: "80€ - 150€",
+ price: "sob orçamento",
  duration: "1-2h",
  includes: [
  "Diagnóstico completo",
@@ -59,7 +59,7 @@ export default function TransparencePrix() {
  },
  {
  title: "Desentupimento Urgente",
- price: "100€ - 200€",
+ price: "sob orçamento",
  duration: "Imediato",
  includes: [
  "Chegada A confirmar",
@@ -70,7 +70,7 @@ export default function TransparencePrix() {
  },
  {
  title: "Inspeção com Câmara",
- price: "150€ - 250€",
+ price: "sob orçamento",
  duration: "1-2h",
  includes: [
  "Câmara de inspeção HD",

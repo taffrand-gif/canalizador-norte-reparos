@@ -163,7 +163,7 @@ export default function DesentupirSanitaUrgente() {
  </div>
  <div className="bg-gray-50 p-8 rounded-2xl border-2 border-gray-300">
  <h3 className="text-2xl font-bold text-gray-900 mb-4">Casos Complexos</h3>
- <div className="text-5xl font-bold text-gray-700 mb-4">120-150€</div>
+ <div className="text-5xl font-bold text-gray-700 mb-4">sob orçamento</div>
  <ul className="space-y-3 mb-6">
  <li className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-gray-600 flex-shrink-0 mt-0.5" />
@@ -278,7 +278,7 @@ export default function DesentupirSanitaUrgente() {
  {[
  {
  q: 'Quanto custa desentupir uma sanita?',
- a: '80€ para desentupimentos simples (70% dos casos). Casos complexos: 120-150€. Preço sempre comunicado antes de começar.'
+ a: '80€ para desentupimentos simples (70% dos casos). Casos complexos: sob orçamento. Preço sempre comunicado antes de começar.'
  },
  {
  q: 'Quanto tempo demora?',

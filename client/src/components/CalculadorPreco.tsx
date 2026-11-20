@@ -26,16 +26,16 @@ const servicesPlumb = [
  { label: 'Casa de Banho Completa', min: 1300, max: 2600 },
 ];
 const examplesPlumb = [
- { icon: '🚰', label: 'Desentupimento de canalização', price: '80-150€' },
- { icon: '💧', label: 'Arranjo de torneira', price: '65-130€' },
- { icon: '🔥', label: 'Instalação de esquentador', price: '260-520€' },
- { icon: '🔍', label: 'Deteção de fuga', price: '130-195€' },
+ { icon: '🚰', label: 'Desentupimento de canalização', price: 'sob orçamento' },
+ { icon: '💧', label: 'Arranjo de torneira', price: 'sob orçamento' },
+ { icon: '🔥', label: 'Instalação de esquentador', price: 'sob orçamento' },
+ { icon: '🔍', label: 'Deteção de fuga', price: 'sob orçamento' },
 ];
 const examplesElec = [
- { icon: '🔌', label: 'Instalação de tomada', price: '25-45€' },
- { icon: '⚡', label: 'Arranjo de quadro elétrico', price: '80-150€' },
- { icon: '💡', label: 'Instalação de candeeiro', price: '35-60€' },
- { icon: '📋', label: 'Certificação elétrica', price: '150-300€' },
+ { icon: '🔌', label: 'Instalação de tomada', price: 'sob orçamento' },
+ { icon: '⚡', label: 'Arranjo de quadro elétrico', price: 'sob orçamento' },
+ { icon: '💡', label: 'Instalação de candeeiro', price: 'sob orçamento' },
+ { icon: '📋', label: 'Certificação elétrica', price: 'sob orçamento' },
 ];
 function CalculadorPreco() {
  const { config } = useSite();

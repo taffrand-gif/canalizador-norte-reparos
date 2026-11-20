@@ -95,17 +95,17 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupimento urgente</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-cyan-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-cyan-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Fuga de água urgente</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-cyan-600">100-200€</td>
+ <td className="text-right py-3 px-4 font-semibold text-cyan-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Cano rebentado (reparação urgente)</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-3 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-cyan-600">150-350€</td>
+ <td className="text-right py-3 px-4 font-semibold text-cyan-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Deslocação urgente (noite/fim de semana)</td>
@@ -131,37 +131,37 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar torneira a pingar</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">50-80€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir torneira completa</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar autoclismo</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">60-100€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir autoclismo completo</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">2-3 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">150-300€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar fuga em junta</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">60-120€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir sifão</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">50-90€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Reparar esquentador (pequena avaria)</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-green-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-green-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -182,27 +182,27 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir lavatório/lava-loiça</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-blue-600">60-100€</td>
+ <td className="text-right py-3 px-4 font-semibold text-blue-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir sanita</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-blue-600">70-120€</td>
+ <td className="text-right py-3 px-4 font-semibold text-blue-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir duche/banheira</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-blue-600">60-110€</td>
+ <td className="text-right py-3 px-4 font-semibold text-blue-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir canalização principal</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-3 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-blue-600">120-250€</td>
+ <td className="text-right py-3 px-4 font-semibold text-blue-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Desentupir com máquina alta pressão</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-blue-600">150-300€</td>
+ <td className="text-right py-3 px-4 font-semibold text-blue-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -223,37 +223,37 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar torneira nova</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar sanita completa</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">2-4 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">150-300€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar lavatório completo</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">2-3 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">120-250€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar duche/banheira</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">4-8 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">300-600€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar esquentador</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">3-5 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">200-400€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar máquina lavar roupa</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Instalar máquina lavar loiça</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-purple-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-purple-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -274,22 +274,22 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Deteção de fugas com câmara</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">120-200€</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Inspeção com câmara endoscópica</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">1-2 horas</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">150-250€</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Teste de pressão do sistema</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">Variável</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">80-150€</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Substituir canalização (por metro)</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">variável</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">40-80€/m</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">sob orçamento/m</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Remodelação casa de banho completa</td>
@@ -299,7 +299,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Deslocação normal (sem trabalho)</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">-</td>
- <td className="text-right py-3 px-4 font-semibold text-orange-600">30-50€</td>
+ <td className="text-right py-3 px-4 font-semibold text-orange-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -349,11 +349,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </p>
  <div className="space-y-3">
  <div className="bg-gray-50 p-4 rounded-lg">
- <p className="font-bold text-gray-900 mb-2">Simples (50-100€)</p>
+ <p className="font-bold text-gray-900 mb-2">Simples (sob orçamento)</p>
  <p className="text-gray-700 text-sm">Trocar junta, reparar torneira, desentupir lavatório</p>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
- <p className="font-bold text-gray-900 mb-2">Médio (100-250€)</p>
+ <p className="font-bold text-gray-900 mb-2">Médio (sob orçamento)</p>
  <p className="text-gray-700 text-sm">Substituir autoclismo, desentupir canalização principal, reparar fuga em parede</p>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
@@ -420,7 +420,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Sanita completa</td>
- <td className="text-right py-2">150-400€</td>
+ <td className="text-right py-2">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -489,50 +489,50 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Lisboa</td>
- <td className="text-center py-3 px-4">70-120€</td>
- <td className="text-center py-3 px-4">90-150€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-red-600">+40-60€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Porto</td>
  <td className="text-center py-3 px-4"></td>
- <td className="text-center py-3 px-4">85-140€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-red-600">+35-55€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Braga / Coimbra</td>
  <td className="text-center py-3 px-4"></td>
- <td className="text-center py-3 px-4">75-120€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-orange-600">+30-45€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Setúbal / Aveiro</td>
  <td className="text-center py-3 px-4"></td>
- <td className="text-center py-3 px-4">70-115€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-orange-600">+25-40€</td>
  </tr>
  <tr className="border-b border-gray-100 bg-cyan-50">
  <td className="py-3 px-4 font-semibold">Trás-os-Montes</td>
- <td className="text-center py-3 px-4">50-80€</td>
- <td className="text-center py-3 px-4">60-100€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-green-600">+20-30€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Alentejo</td>
- <td className="text-center py-3 px-4">50-85€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</td>
  <td className="text-right py-3 px-4 text-green-600">+20-35€</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Algarve</td>
- <td className="text-center py-3 px-4">60-100€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4"></td>
  <td className="text-right py-3 px-4 text-orange-600">+30-50€</td>
  </tr>
  <tr>
  <td className="py-3 px-4 font-semibold">Ilhas (Açores/Madeira)</td>
- <td className="text-center py-3 px-4">70-130€</td>
- <td className="text-center py-3 px-4">90-160€</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
+ <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-right py-3 px-4 text-red-600">+40-70€</td>
  </tr>
  </tbody>
@@ -689,7 +689,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <div className="bg-white p-4 rounded-lg">
  <p className="text-gray-700 mb-2"><strong>Exemplo: Instalação Completa</strong></p>
  <p className="text-red-600 line-through">Sem otimização: 400€</p>
- <p className="text-green-600 font-bold text-xl">Com otimização: 250-300€</p>
+ <p className="text-green-600 font-bold text-xl">Com otimização: sob orçamento</p>
  </div>
  </div>
  </div>
@@ -782,11 +782,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Depende do serviço:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Reparação simples: 50-100€</li>
- <li>• Desentupimento: 60-150€</li>
- <li>• Instalação: 80-300€</li>
+ <li>• Reparação simples: sob orçamento</li>
+ <li>• Desentupimento: sob orçamento</li>
+ <li>• Instalação: sob orçamento</li>
  <li>• Urgência: +20-50€</li>
- <li>• Deslocação: 30-50€ (se não houver trabalho</li>
+ <li>• Deslocação: sob orçamento (se não houver trabalho</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -847,9 +847,9 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <strong>Preços médios em Portugal (2026):</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Desentupimento simples: 70-120€</li>
- <li>• Desentupimento complexo: 120-200€</li>
- <li>• Com máquina alta pressão: 150-250€</li>
+ <li>• Desentupimento simples: sob orçamento</li>
+ <li>• Desentupimento complexo: sob orçamento</li>
+ <li>• Com máquina alta pressão: sob orçamento</li>
  <li>• Urgência (noite/fim de semana): +30-50€</li>
  </ul>
  </div>
@@ -887,11 +887,11 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar uma fuga de água?</h3>
  <p className="text-gray-700 mb-2">Depende da localização e gravidade:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Torneira a pingar: 50-80€</li>
- <li>• Junta de cano: 60-120€</li>
- <li>• Fuga em parede (acessível): 100-250€</li>
- <li>• Fuga em parede (requer abertura): 200-500€+</li>
- <li>• Cano rebentado: 150-400€</li>
+ <li>• Torneira a pingar: sob orçamento</li>
+ <li>• Junta de cano: sob orçamento</li>
+ <li>• Fuga em parede (acessível): sob orçamento</li>
+ <li>• Fuga em parede (requer abertura): sob orçamento</li>
+ <li>• Cano rebentado: sob orçamento</li>
  </ul>
  </div>
  </div>

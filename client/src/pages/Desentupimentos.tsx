@@ -175,7 +175,7 @@ export default function Desentupimentos() {
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Desentupimento de Sanita/WC</h4>
- <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">€60 - €120</span>
+ <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">sob orçamento</span>
  </div>
  <p className="text-gray-600">Inclui diagnóstico, desentupimento e limpeza</p>
  </div>
@@ -183,7 +183,7 @@ export default function Desentupimentos() {
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Desentupimento de Pias e Lava-loiças</h4>
- <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">€50 - €90</span>
+ <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">sob orçamento</span>
  </div>
  <p className="text-gray-600">Para cozinhas e casas de banho</p>
  </div>
@@ -191,7 +191,7 @@ export default function Desentupimentos() {
  <div className="border-b pb-4">
  <div className="flex justify-between items-center mb-2">
  <h4 className="text-lg font-semibold text-gray-900">Limpeza de Esgotos e Canalizações</h4>
- <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">€80 - €200</span>
+ <span className="bg-blue-100 text-blue-800 font-bold px-4 py-2 rounded-full">sob orçamento</span>
  </div>
  <p className="text-gray-600">Para sistemas de drenagem externos</p>
  </div>

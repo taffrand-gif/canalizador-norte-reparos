@@ -21,7 +21,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  {"@type":"Question","name":'Como desentupir sanita rapidamente?',"acceptedAnswer":{"@type":"Answer","text":'Método mais rápido em 3 passos: 1. Água quente + detergente (aguarde 30 minutos); 2. Se não funcionar, use ventosa (20-30 movimentos vigorosos); 3. Se persistir, bicarbonato + vinagre (aguarde 30 minutos). Taxa de sucesso: 80% com estes 3 métodos.'}},
  {"@type":"Question","name":'Posso usar lixívia para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado. Lixívia não dissolve entupimentos eficazmente: não dissolve papel ou gordura, pode danificar canalização antiga, os vapores são tóxicos e não deve ser misturada com outros produtos. Alternativa segura: bicarbonato + vinagre.'}},
  {"@type":"Question","name":'Quanto tempo demora a desentupir uma sanita?',"acceptedAnswer":{"@type":"Answer","text":'Depende do método e gravidade: água quente + detergente 20-30 minutos total; bicarbonato + vinagre 45-60 minutos; ventosa 5-15 minutos; mola desentupidora 15-30 minutos; canalizador profissional 30-45 minutos.'}},
- {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (120-180€).'}},
+ {"@type":"Question","name":'A minha sanita entope com frequência. Porque acontece?',"acceptedAnswer":{"@type":"Answer","text":'Causas de entupimentos recorrentes: canalização antiga ou estreita, inclinação insuficiente dos canos, autoclismo com pouca água, objetos presos na canalização, raízes de árvores na canalização exterior, acumulação de calcário. Solução: inspeção com câmara por canalizador (sob orçamento).'}},
  {"@type":"Question","name":'A água da sanita sobe mas não transborda. O que fazer?',"acceptedAnswer":{"@type":"Answer","text":'É um entupimento parcial. Ação urgente: não puxe o autoclismo novamente (pode transbordar); aguarde 10-15 minutos para a água baixar; use o método de água quente + detergente; se não resolver, use ventosa.'}},
  {"@type":"Question","name":'Posso usar Destop ou produtos químicos na sanita?',"acceptedAnswer":{"@type":"Answer","text":'Não recomendado para sanitas. Produtos químicos são para ralos, não sanitas; podem danificar porcelana e juntas; são ineficazes contra papel e objetos sólidos; perigosos se misturados com água parada. Melhor opção: métodos mecânicos como ventosa ou mola.'}},
  {"@type":"Question","name":'Quanto custa chamar canalizador para desentupir sanita?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em Portugal 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€. Ligue 928 484 451 para orçamento por escrito.'}}
@@ -557,7 +557,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Acumulação de calcário</li>
  </ul>
  <p className="text-red-700 font-semibold mt-3">
- ⚠️ Solução: Inspeção com câmara por canalizador (120-180€)
+ ⚠️ Solução: Inspeção com câmara por canalizador (sob orçamento)
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
@@ -596,9 +596,9 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <strong>Preços médios em Portugal (2026):</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Desentupimento simples: 70-120€</li>
- <li>• Desentupimento complexo: 120-200€</li>
- <li>• Com máquina alta pressão: 150-250€</li>
+ <li>• Desentupimento simples: sob orçamento</li>
+ <li>• Desentupimento complexo: sob orçamento</li>
+ <li>• Com máquina alta pressão: sob orçamento</li>
  <li>• Urgência (noite/fim de semana): +30-50€</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
@@ -642,7 +642,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <div className="flex items-start gap-3">
  <span className="text-2xl">✅</span>
  <div>
- <p className="font-bold">Preço Fixo: 70-120€</p>
+ <p className="font-bold">Preço Fixo: sob orçamento</p>
  <p className="text-sm text-white/80">Sem surpresas</p>
  </div>
  </div>

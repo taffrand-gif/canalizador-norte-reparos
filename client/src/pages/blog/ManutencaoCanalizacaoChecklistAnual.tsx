@@ -21,7 +21,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'O custo total anual ronda 297-517€: tarefas DIY mensais/trimestrais 50-100€; limpeza de esquentador 2x por ano 120-200€; inspeção profissional anual 80-150€; peças e materiais 47-67€. Investir 300-500€/ano evita reparações de 2000-10000€.'}},
  {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
  {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
- {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: 300-500€. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
+ {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: sob orçamento. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
  {"@type":"Question","name":'O que acontece se não fizer manutenção às canalizações?',"acceptedAnswer":{"@type":"Answer","text":'Consequências de negligenciar manutenção: avarias súbitas e caras (canos rebentados, fugas); redução da vida útil dos equipamentos em 50%; à noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.; problemas de saúde (água contaminada, humidade); desvalorização do imóvel em 5-10%; emergências inconvenientes. Negligência custa 10x mais que prevenção.'}}
  ]
  }) }}
@@ -136,11 +136,11 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </tr>
  <tr className="border-b border-red-100">
  <td className="py-2">Esquentador avariado</td>
- <td className="text-right py-2 font-semibold text-red-600">300-800€</td>
+ <td className="text-right py-2 font-semibold text-red-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-red-100">
  <td className="py-2">Entupimento grave</td>
- <td className="text-right py-2 font-semibold text-red-600">200-500€</td>
+ <td className="text-right py-2 font-semibold text-red-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-red-100">
  <td className="py-2">Substituir canalização</td>
@@ -148,7 +148,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </tr>
  <tr>
  <td className="py-2 font-bold">Manutenção preventiva anual</td>
- <td className="text-right py-2 font-bold text-green-600 text-lg">150-250€</td>
+ <td className="text-right py-2 font-bold text-green-600 text-lg">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -319,7 +319,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Recomendação:</strong> Contrate técnico com experiência | <strong>💰 Custo:</strong> 60-100€
+ <strong>⚠️ Recomendação:</strong> Contrate técnico com experiência | <strong>💰 Custo:</strong> sob orçamento
  </p>
  </div>
  </div>
@@ -413,7 +413,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Semestral</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Limpar esquentador/caldeira (técnico: 60-100€</li>
+ <li>✓ Limpar esquentador/caldeira (técnico: sob orçamento</li>
  <li>✓ Verificar pressão de água (A confirmar</li>
  <li>✓ Limpar sifões profundamente (A confirmar</li>
  <li>✓ Verificar isolamento de canos (A confirmar</li>
@@ -454,7 +454,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Essencial:</strong> Contrate canalizador com experiência | <strong>💰 Custo:</strong> 80-150€
+ <strong>⚠️ Essencial:</strong> Contrate canalizador com experiência | <strong>💰 Custo:</strong> sob orçamento
  </p>
  </div>
  </div>
@@ -482,7 +482,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-yellow-50 p-4 rounded-lg">
  <p className="text-yellow-900 text-sm">
- <strong>⚠️ Técnico:</strong> Descalcificação profissional | <strong>💰 Custo:</strong> 80-150€
+ <strong>⚠️ Técnico:</strong> Descalcificação profissional | <strong>💰 Custo:</strong> sob orçamento
  </p>
  </div>
  </div>
@@ -546,13 +546,13 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-green-50 p-6 rounded-xl mt-8">
  <h3 className="font-bold text-green-900 mb-3 text-lg">✅ Resumo Checklist Anual</h3>
  <ul className="text-green-800 space-y-2">
- <li>✓ Inspeção profissional completa (80-150€</li>
- <li>✓ Descalcificação se necessário (80-150€</li>
+ <li>✓ Inspeção profissional completa (sob orçamento</li>
+ <li>✓ Descalcificação se necessário (sob orçamento</li>
  <li>✓ Limpeza canalização exterior (1h ou 100-200€</li>
- <li>✓ Substituir componentes gastos (20-100€</li>
+ <li>✓ Substituir componentes gastos (sob orçamento</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">
- <strong>Total:</strong> 1-2 horas + técnico | <strong>Custo:</strong> 180-600€/ano
+ <strong>Total:</strong> 1-2 horas + técnico | <strong>Custo:</strong> sob orçamento
  </p>
  </div>
  </section>
@@ -581,7 +581,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
- <td className="text-right py-3 px-4 font-semibold">62-102€</td>
+ <td className="text-right py-3 px-4 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
  <td className="py-3 px-4 font-semibold">Fevereiro</td>
@@ -602,7 +602,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
- <td className="text-right py-3 px-4 font-semibold">82-152€</td>
+ <td className="text-right py-3 px-4 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
  <td className="py-3 px-4 font-semibold">Abril</td>
@@ -645,7 +645,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar + técnico</td>
- <td className="text-right py-3 px-4 font-semibold">103-183€</td>
+ <td className="text-right py-3 px-4 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100 bg-blue-50">
  <td className="py-3 px-4 font-semibold">Agosto</td>
@@ -677,7 +677,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </ul>
  </td>
  <td className="text-center py-3 px-4 text-sm">A confirmar</td>
- <td className="text-right py-3 px-4 font-semibold">28-58€</td>
+ <td className="text-right py-3 px-4 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Novembro</td>
@@ -705,7 +705,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <td className="py-3 px-4 font-bold">TOTAL ANO</td>
  <td className="py-3 px-4 font-bold">Todas as tarefas</td>
  <td className="text-center py-3 px-4 font-bold">~10 horas</td>
- <td className="text-right py-3 px-4 font-bold text-green-600 text-lg">297-517€</td>
+ <td className="text-right py-3 px-4 font-bold text-green-600 text-lg">sob orçamento</td>
  </tr>
  </tfoot>
  </table>
@@ -727,12 +727,12 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <div className="bg-gray-50 p-6 rounded-xl">
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa manutenção de canalização por ano?</h3>
  <p className="text-gray-700 mb-2">
- <strong>Custo total anual: 297-517€</strong>
+ <strong>Custo total anual: sob orçamento</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
  <li>• Tarefas DIY mensais/trimestrais: 50-100€</li>
- <li>• Limpeza esquentador (2x): 120-200€</li>
- <li>• Inspeção profissional anual: 80-150€</li>
+ <li>• Limpeza esquentador (2x): sob orçamento</li>
+ <li>• Inspeção profissional anual: sob orçamento</li>
  <li>• Peças e materiais: 47-67€</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">
@@ -780,7 +780,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <table className="w-full text-sm">
  <tr className="border-b">
  <td className="py-2">Investimento anual em manutenção</td>
- <td className="text-right py-2 font-semibold">300-500€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b">
  <td className="py-2">Custo médio de avaria grave</td>

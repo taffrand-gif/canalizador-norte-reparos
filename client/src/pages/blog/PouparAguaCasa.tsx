@@ -81,7 +81,7 @@ export default function PouparAguaCasa() {
  numero: 3,
  titulo: "Repare Fugas urgentemente",
  poupanca: "Até 10.000L/mês",
- custo: "€50-200",
+ custo: "sob orçamento",
  descricao: "Uma torneira a pingar 1 gota/segundo desperdiça 25L/dia. Fuga no autoclismo pode chegar a 200L/dia.",
  dificuldade: "Varia"
  },

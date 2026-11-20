@@ -45,7 +45,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  const precos = [
  {
  servico: "Limpeza Filtros/Arejadores",
- preco: "40-60€",
+ preco: "sob orçamento",
  tempo: "A confirmar",
  descricao: "Limpeza de filtros entupidos com sedimentos ou ferrugem"
  },
@@ -57,7 +57,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  servico: "Limpeza Depósito Água",
- preco: "100-150€",
+ preco: "sob orçamento",
  tempo: "3-5 horas",
  descricao: "Limpeza completa de depósito com sedimentos acumulados"
  },
@@ -99,7 +99,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  <>
  <Helmet>
  <title>Quanto Custa Arranjar Água Castanha da Torneira? Preços 2026 | 928 484 451</title>
- <meta name="description" content="Água castanha da torneira? Preços arranjo 2026: 40-150€. Causas: ferrugem, canos velhos, sedimentos. Orçamento por escrito: 928 484 451" />
+ <meta name="description" content="Água castanha da torneira? Preços arranjo 2026: sob orçamento. Causas: ferrugem, canos velhos, sedimentos. Orçamento por escrito: 928 484 451" />
  <script type="application/ld+json">
  {JSON.stringify(schemaData)}
  </script>

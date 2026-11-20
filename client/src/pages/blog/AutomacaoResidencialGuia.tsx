@@ -51,7 +51,7 @@ export default function AutomacaoResidencialGuia() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Quanto custa automatizar uma casa em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Automação básica (iluminação inteligente 3-4 divisões): 500-1.000€. Intermédia (iluminação + estores): 2.000-4.000€. Avançada (sistema completo integrado): 5.000-10.000€. Valores incluem equipamento e instalação." } },
+ { "@type": "Question", "name": "Quanto custa automatizar uma casa em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Automação básica (iluminação inteligente 3-4 divisões): sob orçamento. Intermédia (iluminação + estores): sob orçamento. Avançada (sistema completo integrado): sob orçamento. Valores incluem equipamento e instalação." } },
  { "@type": "Question", "name": "Quanto posso poupar com automação residencial?", "acceptedAnswer": { "@type": "Answer", "text": "Uma casa inteligente reduz a conta de luz em 20-40% com gestão automática de iluminação. A iluminação inteligente permite poupança até 60%." } },
  { "@type": "Question", "name": "Preciso de eletricista com experiência para instalar automação?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A instalação deve ser feita por eletricista com experiência para garantir segurança e funcionamento correto. Primeiro avalia-se se a instalação elétrica existente suporta os novos dispositivos." } },
  { "@type": "Question", "name": "A automação residencial valoriza o imóvel?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Casas inteligentes valorizam até 5% no mercado imobiliário, além de oferecerem maior conforto, segurança reforçada e poupança de energia a longo prazo." } }
@@ -272,21 +272,21 @@ export default function AutomacaoResidencialGuia() {
  <strong>Básico</strong><br/>
  <span className="text-xs text-gray-600">Iluminação inteligente (3-4 divisões)</span>
  </td>
- <td className="text-right py-3 font-bold">500€ - 1.000€</td>
+ <td className="text-right py-3 font-bold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-3">
  <strong>Intermédio</strong><br/>
  <span className="text-xs text-gray-600">Iluminação + estores</span>
  </td>
- <td className="text-right py-3 font-bold">2.000€ - 4.000€</td>
+ <td className="text-right py-3 font-bold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-3">
  <strong>Avançado</strong><br/>
  <span className="text-xs text-gray-600">Sistema completo integrado</span>
  </td>
- <td className="text-right py-3 font-bold">5.000€ - 10.000€</td>
+ <td className="text-right py-3 font-bold">sob orçamento</td>
  </tr>
  </tbody>
  </table>

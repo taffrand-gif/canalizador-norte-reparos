@@ -157,7 +157,7 @@ export default function FugaAguaEscondidaSinais() {
  <ul className="space-y-2 text-gray-700">
  <li>• <strong>25 litros por dia</strong> = 750 litros/mês</li>
  <li>• <strong>9.000 litros por ano</strong> = +100€ na conta de água</li>
- <li>• Danos estruturais: 500-5.000€ em arranjos</li>
+ <li>• Danos estruturais: sob orçamento em arranjos</li>
  <li>• Mofo e problemas de saúde</li>
  <li>• Desvalorização do imóvel</li>
  </ul>

@@ -23,7 +23,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  {"@type":"Question","name":'Bicarbonato e vinagre realmente funcionam contra o mau cheiro?',"acceptedAnswer":{"@type":"Answer","text":'Sim, é muito eficaz para dissolver gordura acumulada, eliminar biofilme bacteriano e neutralizar odores. Vantagens: ecológico, seguro, barato (2-3€), não danifica canos. Ideal também como limpeza preventiva mensal.'}},
  {"@type":"Question","name":'Com que frequência devo limpar os sifões?',"acceptedAnswer":{"@type":"Answer","text":'Depende do uso: cozinha (lava-loiça) a cada 3 meses; casa de banho principal e duche/banheira a cada 6 meses; ralos pouco usados anualmente ou quando cheirar. Manutenção preventiva mensal com bicarbonato + vinagre evita limpezas profundas.'}},
  {"@type":"Question","name":'O mau cheiro na canalização pode ser perigoso para a saúde?',"acceptedAnswer":{"@type":"Answer","text":'Depende da causa. Sifão seco ou entupido: desagradável mas não perigoso em baixa concentração. Odor muito intenso pode indicar metano ou sulfeto de hidrogénio. Emergência se cheirar a gás: abra janelas, não acenda luzes, chame bombeiros. Se o odor causar tonturas ventile bem e chame canalizador urgente.'}},
- {"@type":"Question","name":'Quanto custa resolver mau cheiro na canalização?',"acceptedAnswer":{"@type":"Answer","text":'Solução DIY com bicarbonato/vinagre: 2-5€. Limpeza de sifão (DIY): 0-5€. Substituição de junta: 2-5€. Canalizador (diagnóstico + limpeza): 60-150€. Reparação estrutural: 200-800€. 90% dos casos resolvem-se com soluções DIY de 0-5€.'}},
+ {"@type":"Question","name":'Quanto custa resolver mau cheiro na canalização?',"acceptedAnswer":{"@type":"Answer","text":'Solução DIY com bicarbonato/vinagre: 2-5€. Limpeza de sifão (DIY): 0-5€. Substituição de junta: 2-5€. Canalizador (diagnóstico + limpeza): sob orçamento. Reparação estrutural: sob orçamento. 90% dos casos resolvem-se com soluções DIY de 0-5€.'}},
  {"@type":"Question","name":'O cheiro vem de um ralo ou de vários? O que indica?',"acceptedAnswer":{"@type":"Answer","text":'Se vem de apenas 1 ralo é problema local (sifão seco, entupido ou junta danificada) — solução DIY. Se vem de vários ralos é problema na canalização principal ou ventilação — chame canalizador. Se vem de todos os ralos é problema grave (entupimento principal, ventilação bloqueada) — urgente.'}}
  ]
  }) }}
@@ -495,7 +495,7 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Desentupimento Profissional</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐⭐ (Solução garantida)</p>
- <p className="text-cyan-800 text-sm">Para casos complexos | Custo: 60-150€ | Tempo: 1-2 horas</p>
+ <p className="text-cyan-800 text-sm">Para casos complexos | Custo: sob orçamento | Tempo: 1-2 horas</p>
  </div>
  </div>
  </div>
@@ -709,27 +709,27 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  <tbody>
  <tr className="border-b border-gray-100">
  <td className="py-2">Diagnóstico e inspeção</td>
- <td className="text-right py-2 font-semibold">40-80€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Limpeza de sifão profissional</td>
- <td className="text-right py-2 font-semibold">50-100€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Desentupimento com mola</td>
- <td className="text-right py-2 font-semibold">80-150€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Limpeza alta pressão</td>
- <td className="text-right py-2 font-semibold">100-200€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-2">Reparação de ventilação</td>
- <td className="text-right py-2 font-semibold">150-400€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-2">Substituição de cano</td>
- <td className="text-right py-2 font-semibold">200-800€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -872,11 +872,11 @@ const CanalizacaoComMauCheiro: React.FC = () => {
  </tr>
  <tr className="border-b">
  <td className="py-2">Canalizador (diagnóstico + limpeza)</td>
- <td className="text-right py-2 font-semibold">60-150€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-2">Reparação estrutural</td>
- <td className="text-right py-2 font-semibold text-red-600">200-800€</td>
+ <td className="text-right py-2 font-semibold text-red-600">sob orçamento</td>
  </tr>
  </table>
  </div>

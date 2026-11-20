@@ -51,7 +51,7 @@ export default function SistemaAquecimentoAgua() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Qual é mais barato: esquentador, caldeira ou bomba de calor?", "acceptedAnswer": { "@type": "Answer", "text": "Para instalar: esquentador (250-600€) < caldeira (800-1.500€) < bomba de calor (1.200-2.500€). Para uso mensal: bomba de calor (20-35€) < esquentador (30-50€) < caldeira (50-80€). A bomba de calor amortiza o investimento extra em 3-5 anos." } },
+ { "@type": "Question", "name": "Qual é mais barato: esquentador, caldeira ou bomba de calor?", "acceptedAnswer": { "@type": "Answer", "text": "Para instalar: esquentador (sob orçamento) < caldeira (sob orçamento) < bomba de calor (sob orçamento). Para uso mensal: bomba de calor (20-35€) < esquentador (30-50€) < caldeira (50-80€). A bomba de calor amortiza o investimento extra em 3-5 anos." } },
  { "@type": "Question", "name": "Qual sistema de aquecimento de água é melhor para Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Depende: esquentador para 1-2 pessoas em apartamentos com orçamento limitado; caldeira mural para famílias grandes que precisam de aquecimento central no inverno frio da região; bomba de calor para casas com espaço exterior e perspetiva de longo prazo." } },
  { "@type": "Question", "name": "Qual a vida útil de um esquentador a gás?", "acceptedAnswer": { "@type": "Answer", "text": "Um esquentador bem mantido dura 15 ou mais anos. A manutenção anual obrigatória é essencial para manter eficiência, segurança e garantia do fabricante. Após 10 anos, avalie substituição preventiva." } },
  { "@type": "Question", "name": "A bomba de calor funciona no frio intenso de Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A bomba de calor é menos eficiente em frio extremo (abaixo de -5°C). Em Trás-os-Montes, onde as temperaturas de inverno podem ser muito baixas, a caldeira mural é frequentemente mais adequada para aquecimento central completo." } }
@@ -63,7 +63,7 @@ export default function SistemaAquecimentoAgua() {
  {
  nome: "Esquentador a Gás",
  icon: Flame,
- custoInstalacao: "€250-600",
+ custoInstalacao: "sob orçamento",
  custoMensal: "€30-50",
  vantagens: [
  "Investimento inicial baixo",
@@ -82,7 +82,7 @@ export default function SistemaAquecimentoAgua() {
  {
  nome: "Caldeira Mural",
  icon: Flame,
- custoInstalacao: "€800-1.500",
+ custoInstalacao: "sob orçamento",
  custoMensal: "€50-80",
  vantagens: [
  "Aquece água e casa simultaneamente",
@@ -101,7 +101,7 @@ export default function SistemaAquecimentoAgua() {
  {
  nome: "Bomba de Calor",
  icon: Wind,
- custoInstalacao: "€1.200-2.500",
+ custoInstalacao: "sob orçamento",
  custoMensal: "€20-35",
  vantagens: [
  "Consumo elétrico 70% menor",

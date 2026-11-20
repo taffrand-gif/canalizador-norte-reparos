@@ -162,7 +162,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  <div className="grid md:grid-cols-3 gap-6">
  <div className="bg-blue-50 p-8 rounded-xl border-2 border-blue-200 text-center">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Arranjo Simples</h3>
- <div className="text-4xl font-black text-blue-600 mb-4">€80-120</div>
+ <div className="text-4xl font-black text-blue-600 mb-4">sob orçamento</div>
  <ul className="text-left text-gray-700 space-y-2">
  <li>✓ Substituição pilhas</li>
  <li>✓ Limpeza queimador</li>
@@ -175,7 +175,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  MAIS COMUM
  </div>
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Substituição Peças</h3>
- <div className="text-4xl font-black text-green-600 mb-4">€120-250</div>
+ <div className="text-4xl font-black text-green-600 mb-4">sob orçamento</div>
  <ul className="text-left text-gray-700 space-y-2">
  <li>✓ Membrana</li>
  <li>✓ Termostato</li>
@@ -185,7 +185,7 @@ document.title = "Esquentador Avariado? Água Quente | Norte Reparos"
  </div>
  <div className="bg-orange-50 p-8 rounded-xl border-2 border-orange-200 text-center">
  <h3 className="text-2xl font-bold text-gray-900 mb-2">Esquentador Novo</h3>
- <div className="text-4xl font-black text-orange-600 mb-4">€350-800</div>
+ <div className="text-4xl font-black text-orange-600 mb-4">sob orçamento</div>
  <ul className="text-left text-gray-700 space-y-2">
  <li>✓ Esquentador novo</li>
  <li>✓ Instalação completa</li>

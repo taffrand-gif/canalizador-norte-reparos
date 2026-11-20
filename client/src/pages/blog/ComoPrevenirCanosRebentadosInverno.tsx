@@ -140,7 +140,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <tbody>
  <tr className="border-b border-red-100">
  <td className="py-2">Reparação do cano</td>
- <td className="text-right py-2 font-semibold">300-800€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr className="border-b border-red-100">
  <td className="py-2">Reparação de parede/teto</td>
@@ -156,7 +156,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </tr>
  <tr className="border-b border-red-100">
  <td className="py-2">Perda de água (até detetar)</td>
- <td className="text-right py-2 font-semibold">100-500€</td>
+ <td className="text-right py-2 font-semibold">sob orçamento</td>
  </tr>
  <tr>
  <td className="py-2 font-bold">TOTAL</td>
@@ -439,7 +439,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <h3 className="text-2xl font-bold text-gray-900 mb-3">Esvaziar Sistema (Casa Vazia Longo Prazo)</h3>
  <div className="bg-cyan-50 p-4 rounded-lg mb-4">
  <p className="font-bold text-cyan-900 mb-2">Eficácia: ⭐⭐⭐⭐⭐ (100% proteção)</p>
- <p className="text-cyan-800 text-sm">Sem água = sem congelamento | Custo: 80-150€ (canalizador)</p>
+ <p className="text-cyan-800 text-sm">Sem água = sem congelamento | Custo: sob orçamento (canalizador)</p>
  </div>
  </div>
  </div>
@@ -461,7 +461,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  </ol>
  <div className="bg-red-50 p-4 rounded-lg">
  <p className="text-red-900 text-sm">
- <strong>⚠️ Importante:</strong> Processo complexo. Contrate canalizador profissional (80-150€).
+ <strong>⚠️ Importante:</strong> Processo complexo. Contrate canalizador profissional (sob orçamento).
  </p>
  </div>
  </div>
@@ -766,7 +766,7 @@ const ComoPrevenirCanosRebentadosInverno: React.FC = () => {
  <strong>Custos profissionais:</strong>
  </p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Canalizador: 150-400€ (material + mão de obra</li>
+ <li>• Canalizador: sob orçamento (material + mão de obra</li>
  <li>• Cabo aquecedor: 200-500€ (instalação completa</li>
  </ul>
  <p className="text-green-700 font-semibold mt-3">

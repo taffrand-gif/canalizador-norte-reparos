@@ -51,9 +51,9 @@ export default function PiscinaTanqueAgua() {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- { "@type": "Question", "name": "Quanto custa a canalização para piscina enterrada em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A canalização para piscina enterrada (bomba filtração, drenagem, enchimento automático) custa entre 2.000€ e 4.000€. Piscina sobrelevada (mais simples): 800-1.500€. Piscina natural/biológica (com zona de regeneração): 3.000-6.000€." } },
+ { "@type": "Question", "name": "Quanto custa a canalização para piscina enterrada em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "A canalização para piscina enterrada (bomba filtração, drenagem, enchimento automático) custa entre 2.000€ e 4.000€. Piscina sobrelevada (mais simples): sob orçamento. Piscina natural/biológica (com zona de regeneração): sob orçamento." } },
  { "@type": "Question", "name": "É necessário canalizador profissional para instalar piscina?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A ligação ao ramal de abastecimento de água, sistema de drenagem e bomba de filtração requerem canalizador com experiência. Em Trás-os-Montes, a Norte Reparos tem experiência em piscinas e tanques agrícolas." } },
- { "@type": "Question", "name": "Qual o sistema de piscina mais económico para instalar?", "acceptedAnswer": { "@type": "Answer", "text": "A piscina sobrelevada é a mais económica (canalização 800-1.500€), com ligação de enchimento simples, drenagem básica e filtro portátil. A piscina enterrada (2.000-4.000€) e a natural/biológica (3.000-6.000€) são mais complexas e dispendiosas." } },
+ { "@type": "Question", "name": "Qual o sistema de piscina mais económico para instalar?", "acceptedAnswer": { "@type": "Answer", "text": "A piscina sobrelevada é a mais económica (canalização 800-1.500€), com ligação de enchimento simples, drenagem básica e filtro portátil. A piscina enterrada (sob orçamento) e a natural/biológica (sob orçamento) são mais complexas e dispendiosas." } },
  { "@type": "Question", "name": "Posso instalar um tanque de água para irrigação agrícola em Trás-os-Montes?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Em Trás-os-Montes, muitas propriedades agrícolas têm tanques de água para irrigação de olivais e vinhas. A canalização para estes sistemas inclui ligação à furo ou ao ramal, bomba de pressão e sistema de distribuição. Pedimos visita para orçamento personalizado." } }
  ]
  });
@@ -63,19 +63,19 @@ export default function PiscinaTanqueAgua() {
  {
  tipo: "Piscina Enterrada",
  descricao: "Instalação permanente com sistema de filtração completo.",
- custo: "€2.000-4.000",
+ custo: "sob orçamento",
  componentes: ["Bomba de filtração", "Sistema de drenagem", "Enchimento automático", "Aquecimento (opcional)"]
  },
  {
  tipo: "Piscina Sobrelevada",
  descricao: "Mais simples, requer menos canalização.",
- custo: "€800-1.500",
+ custo: "sob orçamento",
  componentes: ["Ligação de enchimento", "Drenagem básica", "Filtro portátil"]
  },
  {
  tipo: "Piscina Natural/Biológica",
  descricao: "Sistema de filtração natural com plantas.",
- custo: "€3.000-6.000",
+ custo: "sob orçamento",
  componentes: ["Zona de regeneração", "Bomba de circulação", "Sistema de overflow", "Drenagem"]
  }
  ];
@@ -203,21 +203,21 @@ export default function PiscinaTanqueAgua() {
  <p className="text-sm text-gray-700 mb-2">
  Capacidade: 5.000-50.000 litros. Ideal para grandes propriedades.
  </p>
- <p className="text-sm"><strong>Custo canalização:</strong> €800-2.000</p>
+ <p className="text-sm"><strong>Custo canalização:</strong> sob orçamento</p>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
  <h4 className="font-bold mb-2">Tanque Aéreo (Depósito)</h4>
  <p className="text-sm text-gray-700 mb-2">
  Capacidade: 500-10.000 litros. Fornece pressão por gravidade.
  </p>
- <p className="text-sm"><strong>Custo canalização:</strong> €400-1.000</p>
+ <p className="text-sm"><strong>Custo canalização:</strong> sob orçamento</p>
  </div>
  <div className="bg-gray-50 p-4 rounded-lg">
  <h4 className="font-bold mb-2">Tanque de Betão Tradicional</h4>
  <p className="text-sm text-gray-700 mb-2">
  Comum em casas antigas. Requer impermeabilização.
  </p>
- <p className="text-sm"><strong>Custo renovação:</strong> €600-1.500</p>
+ <p className="text-sm"><strong>Custo renovação:</strong> sob orçamento</p>
  </div>
  </div>
  </div>
@@ -274,7 +274,7 @@ export default function PiscinaTanqueAgua() {
  <p className="text-sm text-gray-700 mb-3">
  Tradicional. Usa desnível do terreno. Sem custos de energia.
  </p>
- <p className="text-sm mb-2"><strong>Custo:</strong> €300-1.000</p>
+ <p className="text-sm mb-2"><strong>Custo:</strong> sob orçamento</p>
  <p className="text-sm"><strong>Pressão:</strong> Natural (gravidade)</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
