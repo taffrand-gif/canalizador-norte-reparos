@@ -24,7 +24,7 @@ export default function TorreMoncorvo() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Torre de Moncorvo. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Torre de Moncorvo. Desentupimentos e arranjos, orçamento por escrito. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function TorreMoncorvo() {
 
  const cidadesProximas = getCidadesProximas('torre-moncorvo');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 100€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -281,7 +281,7 @@ export default function TorreMoncorvo() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção profissional, preço justo, garantia do fabricante nos equipamentos e peças.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

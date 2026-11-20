@@ -54,10 +54,10 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  },
  {
  "@type": "Question",
- "name": "Posso ter orçamento sem compromisso?",
+ "name": "Como funciona o orçamento?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim. Avaliamos a fuga no local, damos o preço e o tempo estimado por escrito. Só começamos depois do seu OK. Sem compromisso se decidir não avançar."
+ "text": "Avaliamos a fuga no local, damos o preço e o tempo estimado por escrito. Só começamos depois do seu OK. A deslocação é sempre devida."
  }
  },
  {
@@ -133,8 +133,8 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  answer: "Trabalhamos a 70 €/hora + 30 € de deslocação em dias úteis (9h–18h) e a 100 €/hora + 50 € de deslocação à noite (18h–9h), fins de semana e feriados. Cada hora começada é devida. Orçamento por escrito antes de qualquer trabalho. Sem surpresas na fatura."
  },
  {
- question: "Posso ter orçamento sem compromisso?",
- answer: "Sim. Avaliamos a fuga no local, damos o preço e o tempo estimado por escrito, e só começamos depois do seu OK. Sem compromisso se decidir não avançar."
+ question: "Como funciona o orçamento?",
+ answer: "Avaliamos a fuga no local, damos o preço e o tempo estimado por escrito, e só começamos depois do seu OK. A deslocação é sempre devida."
  },
  {
  question: "Atendem urgências 24h em Trás-os-Montes?",

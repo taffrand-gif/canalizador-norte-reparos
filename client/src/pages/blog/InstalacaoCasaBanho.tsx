@@ -13,7 +13,7 @@ export default function InstalacaoCasaBanho() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Guia completo para instalação de casa de banho em 2026: etapas, materiais, custos e prazos. Sem compromisso em Trás-os-Montes.');
+ metaDescription.setAttribute('content', 'Guia completo para instalação de casa de banho em 2026: etapas, materiais, custos e prazos. Orçamento por escrito em Trás-os-Montes.');
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
  canonical = document.createElement('link');
@@ -158,8 +158,8 @@ export default function InstalacaoCasaBanho() {
  Renovar ou instalar uma casa de banho de raiz é um investimento importante. Em 2026, 
  uma instalação completa em <a href="/canalizador-vila-real" className="text-blue-600 hover:underline">Vila Real</a>, 
  <a href="/canalizador-braganca" className="text-blue-600 hover:underline"> Bragança</a> ou 
- <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a> pode custar entre 
- <strong> €3.000 e €8.000</strong>, dependendo dos materiais e acabamentos escolhidos.
+ <a href="/canalizador-chaves" className="text-blue-600 hover:underline"> Chaves</a> é feita 
+ <strong>sob orçamento</strong>, conforme os materiais e acabamentos escolhidos.
  </p>
  <p className="text-lg text-gray-700 leading-relaxed mt-4">
  Este guia explica cada etapa do processo, os custos envolvidos e como evitar problemas comuns.
@@ -284,7 +284,7 @@ export default function InstalacaoCasaBanho() {
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Fazemos instalações completas em <a href="/canalizador-macedo-de-cavaleiros" className="underline hover:no-underline">Trás-os-Montes</a>, 
  <a href="/canalizador-mirandela" className="underline hover:no-underline"> Mirandela</a> e toda a região. 
- Sem compromisso e sem compromisso.
+ Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

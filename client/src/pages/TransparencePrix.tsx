@@ -305,7 +305,7 @@ export default function TransparencePrix() {
  <h3 className="text-xl font-bold mb-3 text-gray-900">Equipamento Profissional</h3>
  <p className="text-gray-700 leading-relaxed">
  Câmaras de inspeção HD, máquinas desentupimento profissionais, detetores de fugas.
- Investimento de 15.000€+ em equipamento. Resolvemos o que outros não conseguem.
+ Resolvemos o que outros não conseguem.
  </p>
  </div>
  <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl border-2 border-orange-200">

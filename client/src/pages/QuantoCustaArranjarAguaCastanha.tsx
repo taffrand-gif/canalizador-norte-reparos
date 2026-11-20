@@ -27,7 +27,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  const faqs = [
  {
  question: "Quanto custa arranjar água castanha da torneira?",
- answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
+ answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Orçamento por escrito: 928 484 451"
  },
  {
  question: "Porque é que a água sai castanha da torneira?",
@@ -63,7 +63,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  servico: "Substituir Canalização Completa",
- preco: "500-2000€",
+ preco: "sob orçamento",
  tempo: "1-3 dias",
  descricao: "Substituir canalização velha de ferro por PEX/PPR (depende tamanho casa)"
  }
@@ -118,7 +118,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Quanto Custa Arranjar Água Castanha da Torneira?
  </h1>
  <p className="text-xl mb-8">
- Preços claros e honestos. Sem compromisso sem compromisso.
+ Preços claros e honestos. Orçamento por escrito antes de qualquer intervenção.
  Atendimento 24h em Trás-os-Montes.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -175,7 +175,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
- ✅ Sem compromisso sem compromisso<br />
+ ✅ Orçamento por escrito antes de qualquer intervenção<br />
  ✅ Preços finais após diagnóstico no local<br />
  ✅ Garantia de Orçamento por escrito
  </p>
@@ -283,7 +283,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Precisa Arranjar Água Castanha?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Sem compromisso sem compromisso. Atendimento 24h.
+ Orçamento por escrito antes de qualquer intervenção. Atendimento 24h.
  Disponível 24h/7 dias.
  </p>
  <a

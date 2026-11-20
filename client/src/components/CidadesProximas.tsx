@@ -37,11 +37,7 @@ export default function CidadesProximas({ currentCity, cidades, serviceType }: C
  </p>
  <p className="flex items-center gap-2">
  <span>💰</span>
- <span>Deslocação: {cidade.zona * 10 + 5}€ (Zona {cidade.zona})</span>
- </p>
- <p className="flex items-center gap-2">
- <span>⏱️</span>
- <span>Chegada: {Math.ceil(parseInt(cidade.distance) / 1.5)} minutos</span>
+ <span>Deslocação: 30 € (dias úteis)</span>
  </p>
  </div>
  <div className="mt-4 text-blue-600 font-semibold text-sm">

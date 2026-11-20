@@ -24,7 +24,7 @@ export default function ValePenaArranjarVsSubstituir() {
  },
  {
  question: "Canos velhos: arranjar troço ou substituir tudo?",
- answer: "Depende: 1 fuga isolada = arranjar troço (sob orçamento). Fugas frequentes ou canos >30 anos = substituir tudo (1500-4000€). Canos velhos terão mais fugas. Avaliação gratuita: 928 484 451"
+ answer: "Depende: 1 fuga isolada = arranjar troço (sob orçamento). Fugas frequentes ou canos >30 anos = substituir tudo (sob orçamento). Canos velhos terão mais fugas. Ligue: 928 484 451"
  }
  ];
  const comparacoes = [
@@ -53,7 +53,7 @@ export default function ValePenaArranjarVsSubstituir() {
  desvantagens: ["Peças caras", "Eficiência degradada"]
  },
  substituir: {
- custo: "800-2000€",
+ custo: "sob orçamento",
  quando: "> 15 anos, avarias repetidas, consumo alto",
  vantagens: ["Eficiência A+++", "Poupança 40% energia", "Garantia do fabricante"],
  desvantagens: ["Investimento alto", "Instalação complexa"]
@@ -69,7 +69,7 @@ export default function ValePenaArranjarVsSubstituir() {
  desvantagens: ["Outros troços podem fugar", "Solução temporária"]
  },
  substituir: {
- custo: "1500-4000€",
+ custo: "sob orçamento",
  quando: "Canos >30 anos, fugas frequentes, ferrugem",
  vantagens: ["Solução definitiva 30+ anos", "Sem fugas futuras", "Valoriza imóvel"],
  desvantagens: ["Custo alto", "Obras 3-7 dias"]
@@ -154,7 +154,7 @@ export default function ValePenaArranjarVsSubstituir() {
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg flex items-center justify-center gap-2"
  >
  <Phone className="w-6 h-6" />
- Avaliação Grátis: {config.phone}
+ Ligue: {config.phone}
  </a>
  <a
  href={`https://wa.me/${config.whatsapp}?text=Preciso ajuda para decidir: arranjar ou substituir?`}
@@ -337,11 +337,11 @@ export default function ValePenaArranjarVsSubstituir() {
  <div className="container mx-auto px-4 text-center">
  <Scale className="w-16 h-16 mx-auto mb-6" />
  <h2 className="text-3xl font-bold mb-4">
- Ainda em Dúvida? Pedimos Avaliação Gratuita
+ Ainda em Dúvida? Peça uma Avaliação no Local
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Avaliamos no local e damos opinião honesta: arranjar ou substituir.
- Sem compromisso. Atendimento 24h.
+ Orçamento por escrito antes de qualquer intervenção. Atendimento 24h.
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

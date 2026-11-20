@@ -347,7 +347,7 @@ export default function CanalizacaoCasaAntiga() {
  </h2>
  <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
  Especialistas em casas antigas de Trás-os-Montes. Conhecemos os desafios das paredes de granito
- e do clima rigoroso. Sem compromisso.
+ e do clima rigoroso. Orçamento por escrito antes de qualquer intervenção.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href="tel:+351928484451" className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition-all shadow-lg">

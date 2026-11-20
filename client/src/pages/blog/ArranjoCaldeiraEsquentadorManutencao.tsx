@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const faqItems = [
  { question: "Com que frequência devo fazer manutenção à caldeira?", answer: "A manutenção anual é obrigatória por lei para caldeiras a gás. Inclui limpeza do queimador, verificação de segurança e análise de combustão. Prolonga a vida útil e reduz o consumo de gás." },
  { question: "Qual a diferença entre esquentador e caldeira?", answer: "O esquentador aquece água instantaneamente apenas quando abre a torneira. A caldeira aquece água e armazena num depósito, podendo também alimentar radiadores de aquecimento central." },
- { question: "Quanto custa substituir um esquentador antigo?", answer: "A substituição de um esquentador custa entre €400 e €800, incluindo equipamento e instalação. Esquentadores modernos são mais eficientes e podem reduzir a conta de gás em 20-30%." }
+ { question: "Quanto custa substituir um esquentador antigo?", answer: "A substituição de um esquentador (equipamento e instalação) é feita sob orçamento, por escrito antes de qualquer intervenção. Esquentadores modernos são mais eficientes e podem reduzir a conta de gás em 20-30%." }
 ];
 export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  useEffect(() => {

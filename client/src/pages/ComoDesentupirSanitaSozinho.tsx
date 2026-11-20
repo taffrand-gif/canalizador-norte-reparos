@@ -24,7 +24,7 @@ export default function ComoDesentupirSanitaSozinho() {
  },
  {
  question: "Quanto custa canalizador para desentupir sanita?",
- answer: "Desentupimento simples: sob orçamento. Desentupimento com máquina: sob orçamento. Substituir sanita: sob orçamento. Inclui deslocação e mão-de-obra. Sem compromisso: 928 484 451"
+ answer: "Desentupimento simples: sob orçamento. Desentupimento com máquina: sob orçamento. Substituir sanita: sob orçamento. Inclui deslocação e mão-de-obra. Orçamento por escrito: 928 484 451"
  }
  ];
  const metodos = [
@@ -284,7 +284,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
  ✅ Disponível 24h/7 dias<br />
- ✅ Sem compromisso sem compromisso
+ ✅ Orçamento por escrito antes de qualquer intervenção
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

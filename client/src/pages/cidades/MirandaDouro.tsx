@@ -24,7 +24,7 @@ export default function MirandaDouro() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Miranda do Douro. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Miranda do Douro. Desentupimentos e arranjos, orçamento por escrito. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function MirandaDouro() {
 
  const cidadesProximas = getCidadesProximas('miranda-do-douro');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Miranda do Douro?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Miranda do Douro. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Miranda do Douro?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Miranda do Douro. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Miranda do Douro?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Miranda do Douro?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Miranda do Douro. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -281,7 +281,7 @@ export default function MirandaDouro() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção rápida, preço justo, garantia do fabricante nos equipamentos e peças.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}
