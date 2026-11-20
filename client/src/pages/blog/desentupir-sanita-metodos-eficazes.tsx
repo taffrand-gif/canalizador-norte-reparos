@@ -138,8 +138,8 @@ export default function DesentupirSanitaMetodosEficazes() {
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
  <strong>O método mais eficaz é o desentupidor de borracha (ventosa)</strong> com 75% de sucesso em entupimentos médios.
- Para entupimentos graves ou recorrentes em Bragança e Trás-os-Montes, um canalizador profissional resolve A confirmar
- por 60-120€ com garantia. <strong>Nunca use água a ferver</strong> - pode rachar a porcelana.
+ Para entupimentos graves ou recorrentes em Bragança e Trás-os-Montes, um canalizador profissional resolve o problema
+ sob orçamento. <strong>Nunca use água a ferver</strong> - pode rachar a porcelana.
  </p>
  </div>
  {/* Aviso Importante */}

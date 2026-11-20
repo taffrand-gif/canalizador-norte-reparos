@@ -313,7 +313,7 @@ export default function ComoDesentupirSanitaSozinho() {
  Métodos Caseiros Não Funcionaram?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Canalizador profissional resolve A confirmar.
+ Canalizador profissional resolve o problema.
  Atendimento urgente 24h.
  </p>
  <a

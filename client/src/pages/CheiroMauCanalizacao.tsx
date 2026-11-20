@@ -35,7 +35,7 @@ export default function CheiroMauCanalizacao() {
  "name": "Quanto custa eliminar cheiro mau na canalização?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Soluções simples desde €60. Limpeza profunda €100-150. Arranjos complexas €150-300. Sem compromisso."
+ "text": "Sob orçamento por escrito antes de qualquer intervenção: deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados."
  }
  }
  ]
@@ -215,7 +215,7 @@ export default function CheiroMauCanalizacao() {
  },
  {
  q: 'Quanto custa eliminar o cheiro?',
- a: 'Soluções simples (encher sifão, limpeza básica) desde €60. Limpeza profunda com máquina €100-150. Arranjos (substituir sifão, instalar ventilação) €150-300. Sem compromisso no local.'
+ a: 'Cada solução (encher o sifão, limpeza com máquina, substituir o sifão, instalar ventilação) é sob orçamento por escrito antes de começar: deslocação 30 € e 70 €/h em dias úteis.'
  },
  {
  q: 'Porque é que o cheiro volta sempre?',

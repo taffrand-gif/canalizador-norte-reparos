@@ -11,7 +11,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "Quanto custa desentupir uma sanita em Bragança?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em Bragança, o desentupimento de sanita custa entre 60€ e 120€. Entupimentos simples (papel, matéria orgânica): sob orçamento. Entupimentos graves (objetos sólidos, raiz): sob orçamento. Preço inclui deslocação, mão de obra e equipamento básico."
+ "text": "Em Bragança, o desentupimento de sanita é sob orçamento. Entupimentos simples (papel, matéria orgânica): sob orçamento. Entupimentos graves (objetos sólidos, raiz): sob orçamento. Preço inclui deslocação, mão de obra e equipamento básico."
  }
  },
  {
@@ -35,7 +35,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "O que está incluído no preço de desentupimento?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "O preço inclui: deslocação até 20km, diagnóstico, mão de obra, equipamento básico (mola manual, desentupidor), e limpeza após trabalho. Não inclui: arranjos estruturais, substituição de tubos, ou uso de câmara de inspeção (custo adicional 50-80€)."
+ "text": "O preço inclui: deslocação até 20km, diagnóstico, mão de obra, equipamento básico (mola manual, desentupidor), e limpeza após trabalho. Não inclui: arranjos estruturais, substituição de tubos, ou uso de câmara de inspeção (sob orçamento)."
  }
  },
  {
@@ -96,7 +96,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <>
  <Helmet>
  <title>Quanto Custa Desentupimento em Bragança? [Preços 2026] | Norte Reparos</title>
- <meta name="description" content="Preços reais de desentupimentos em Bragança 2026: sanita 60-120€, canalização 120-250€. Tabela completa, o que está incluído e como poupar." />
+ <meta name="description" content="Desentupimentos em Bragança 2026: sob orçamento por escrito, deslocação 30 € e 70 €/h em dias úteis. Tabela completa, o que está incluído e como poupar." />
  <meta name="keywords" content="preço desentupimento Bragança, quanto custa desentupir, canalizador preços, desentupimento Trás-os-Montes" />
  <link rel="canonical" href="https://canalizador-norte-reparos.pt/blog/quanto-custa-desentupimento-braganca" />
  <script type="application/ld+json">
@@ -210,9 +210,9 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </h3>
  <ul className="space-y-3">
  {[
- { item: "Câmara de inspeção", preco: "+50-80€" },
- { item: "Mola elétrica profissional", preco: "+40-60€" },
- { item: "Substituição de tubos", preco: "+80-200€" },
+ { item: "Câmara de inspeção", preco: "Sob orçamento" },
+ { item: "Mola elétrica profissional", preco: "Sob orçamento" },
+ { item: "Substituição de tubos", preco: "Sob orçamento" },
  { item: "Arranjo estrutural", preco: "Orçamento" },
  { item: "Urgência diurna", preco: "Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €" },
  { item: "Urgência noturna/feriado", preco: "100 €/hora + deslocação 50 €" },

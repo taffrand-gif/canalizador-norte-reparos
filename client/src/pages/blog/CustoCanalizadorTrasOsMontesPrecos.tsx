@@ -436,7 +436,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "name": "Qual o custo médio de um canalizador em Trás-os-Montes?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Um desentupimento simples (pia ou lavatório) fica entre 45€ e 95€; uma fuga simples entre 70€ e 180€; a instalação de uma sanita nova entre 120€ e 280€. Os valores são indicativos — cada serviço exige orçamento por escrito antes de qualquer intervenção."
+ "text": "Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. O trabalho (desentupimento, fuga, instalação de sanita) é sob orçamento —  cada serviço exige orçamento por escrito antes de qualquer intervenção."
  }
  },
  {

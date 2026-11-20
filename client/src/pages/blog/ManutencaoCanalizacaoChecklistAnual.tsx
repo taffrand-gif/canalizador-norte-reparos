@@ -18,7 +18,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'O custo total anual ronda 297-517€: tarefas DIY mensais/trimestrais 50-100€; limpeza de esquentador 2x por ano 120-200€; inspeção profissional anual 80-150€; peças e materiais 47-67€. Investir 300-500€/ano evita reparações de 2000-10000€.'}},
+ {"@type":"Question","name":'Quanto custa manutenção de canalização por ano?',"acceptedAnswer":{"@type":"Answer","text":'As tarefas DIY mensais/trimestrais custam 50-100€ em materiais e as peças 47-67€; a limpeza do esquentador e a inspeção profissional anual são sob orçamento. A manutenção preventiva evita reparações muito mais caras.'}},
  {"@type":"Question","name":'Posso fazer toda a manutenção de canalização sozinho?',"acceptedAnswer":{"@type":"Answer","text":'Parcialmente. Pode fazer: verificações mensais, limpeza de ralos, filtros, inspeções visuais e limpeza de sifões. Requer técnico: limpeza de esquentador, inspeção profissional anual, descalcificação e reparações complexas. Recomendamos DIY mensal/trimestral + técnico semestral/anual.'}},
  {"@type":"Question","name":'Com que frequência devo chamar canalizador para manutenção?',"acceptedAnswer":{"@type":"Answer","text":'Calendário recomendado: semestral — limpeza de esquentador/caldeira (Janeiro + Julho); anual — inspeção completa do sistema (Março); quando necessário — descalcificação em zonas calcárias; emergências — fugas, entupimentos graves, avarias. Mínimo 2-3 visitas/ano para manutenção preventiva.'}},
  {"@type":"Question","name":'A manutenção preventiva de canalizações realmente compensa?',"acceptedAnswer":{"@type":"Answer","text":'Sim, o ROI é enorme. Investimento anual em manutenção: sob orçamento. Custo médio de avaria grave: 2000-5000€. Poupança potencial: 1500-4500€. Cada 1€ investido em manutenção poupa 5-10€ em reparações.'}},
@@ -510,7 +510,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  </div>
  <div className="bg-blue-50 p-4 rounded-lg">
  <p className="text-blue-900 text-sm">
- <strong>⏱️ Tempo:</strong> 1 hora | <strong>💰 Custo:</strong> 0€ (DIY) ou 100-200€ (máquina alta pressão)
+ <strong>⏱️ Tempo:</strong> 1 hora | <strong>💰 Custo:</strong> 0€ (DIY) ou sob orçamento (máquina de alta pressão)
  </p>
  </div>
  </div>

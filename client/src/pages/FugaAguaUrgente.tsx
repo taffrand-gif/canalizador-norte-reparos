@@ -35,7 +35,7 @@ export default function FugaAguaUrgente() {
  "name": "Quanto custa arranjar uma fuga de água urgente?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Fugas simples desde €80. Fugas complexas €150-300. Sem compromisso no local. Preço fixo antes de começar. Sem surpresas na fatura."
+ "text": "Sob orçamento por escrito antes de qualquer intervenção: deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados. Sem surpresas na fatura."
  }
  },
  {
@@ -172,7 +172,7 @@ export default function FugaAguaUrgente() {
  },
  {
  q: 'Quanto custa arranjar uma fuga de água urgente?',
- a: 'Fugas simples (torneiras, autoclismos) desde €80. Fugas em canos €150-250. Fugas complexas (paredes, chão) €250-400. Damos sempre sem compromisso no local antes de começar. Preço fixo, sem surpresas.'
+ a: 'Cada fuga (torneira, autoclismo, cano, parede ou chão) é sob orçamento por escrito antes de começar: deslocação 30 € e 70 €/h em dias úteis; 50 € e 100 €/h à noite, fins de semana e feriados.'
  },
  {
  q: 'Atendem mesmo Atendimento 24h/7d?',

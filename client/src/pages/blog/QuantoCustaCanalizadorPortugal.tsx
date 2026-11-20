@@ -18,13 +18,13 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: reparação simples 50-100€; desentupimento 60-150€; instalação 80-300€; urgência +20-50€; deslocação 30-50€ se não houver trabalho. Os preços variam com a urgência, complexidade e localização.'}},
- {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Depende: se fizer trabalho normalmente está incluído no preço; se não fizer trabalho pode cobrar 30-deslocação segundo zona oficial; urgências podem ter taxa extra de 20-40€; zonas rurais podem ter custo adicional pela distância. Pergunte sempre antes se há custo de deslocação.'}},
+ {"@type":"Question","name":'Quanto custa chamar um canalizador em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Depende do serviço: o trabalho é sob orçamento por escrito antes de qualquer intervenção. Deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados. A deslocação é sempre devida.'}},
+ {"@type":"Question","name":'O canalizador cobra pela deslocação?',"acceptedAnswer":{"@type":"Answer","text":'Sim. A deslocação é sempre devida e tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados.'}},
  {"@type":"Question","name":'Devo pedir orçamento antes de chamar canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Sim, sempre. O orçamento deve incluir: descrição detalhada do trabalho, custo de mão de obra, custo de materiais especificados, prazo de execução, garantia oferecida e forma de pagamento. Nunca aceite orçamento apenas verbal.'}},
  {"@type":"Question","name":'Os materiais estão incluídos no preço do canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Normalmente não. Existem 3 modelos: preço separado (mão de obra + materiais à parte, mais comum); tudo incluído (preço único com materiais); cliente compra materiais e o canalizador cobra só mão de obra. Esclareça sempre o que está incluído no orçamento.'}},
- {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'Preços médios em 2026: desentupimento simples 70-120€; desentupimento complexo 120-200€; com máquina de alta pressão 150-250€; urgência noite/fim de semana +30-50€.'}},
+ {"@type":"Question","name":'Quanto custa desentupir uma sanita em Portugal?',"acceptedAnswer":{"@type":"Answer","text":'O desentupimento é sob orçamento por escrito antes de qualquer intervenção: deslocação 30 € e 70 €/h em dias úteis (9h–18h); 50 € e 100 €/h à noite, fins de semana e feriados.'}},
  {"@type":"Question","name":'O canalizador dá garantia do trabalho?',"acceptedAnswer":{"@type":"Answer","text":'Peça orçamento por escrito e fatura com NIF; nos equipamentos e peças aplica-se a garantia do fabricante.'}},
- {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: torneira a pingar 50-80€; junta de cano 60-120€; fuga em parede acessível 100-250€; fuga em parede com necessidade de abertura 200-500€+; cano rebentado 150-400€.'}}
+ {"@type":"Question","name":'Quanto custa reparar uma fuga de água com canalizador?',"acceptedAnswer":{"@type":"Answer","text":'Depende da localização e gravidade: cada caso é orçamentado por escrito antes de qualquer intervenção (deslocação 30 € e 70 €/h em dias úteis, 9h–18h; 50 € e 100 €/h à noite, fins de semana e feriados).'}}
  ]
  }) }}
  />
@@ -110,7 +110,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4">Deslocação urgente (noite/fim de semana)</td>
  <td className="text-center py-3 px-4 text-sm text-gray-600">-</td>
- <td className="text-right py-3 px-4 font-semibold text-cyan-600">+20-40€</td>
+ <td className="text-right py-3 px-4 font-semibold text-cyan-600">100 €/h + 50 €</td>
  </tr>
  </tbody>
  </table>
@@ -337,7 +337,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <ul className="text-red-800 text-sm space-y-1">
  <li>• Noites, fins de semana, feriados</li>
  <li>• Chegada (a confirmar mediante zona</li>
- <li>• Preço base + 30-50€</li>
+ <li>• 100 €/h e deslocação 50 €</li>
  </ul>
  </div>
  </div>
@@ -491,37 +491,37 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <td className="py-3 px-4 font-semibold">Lisboa</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-red-600">+40-60€</td>
+ <td className="text-right py-3 px-4 text-red-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Porto</td>
  <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-red-600">+35-55€</td>
+ <td className="text-right py-3 px-4 text-red-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Braga / Coimbra</td>
  <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-orange-600">+30-45€</td>
+ <td className="text-right py-3 px-4 text-orange-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Setúbal / Aveiro</td>
  <td className="text-center py-3 px-4"></td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-orange-600">+25-40€</td>
+ <td className="text-right py-3 px-4 text-orange-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100 bg-cyan-50">
  <td className="py-3 px-4 font-semibold">Trás-os-Montes</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-green-600">+20-30€</td>
+ <td className="text-right py-3 px-4 text-green-600">100 €/h + 50 €</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Alentejo</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4">Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</td>
- <td className="text-right py-3 px-4 text-green-600">+20-35€</td>
+ <td className="text-right py-3 px-4 text-green-600">sob orçamento</td>
  </tr>
  <tr className="border-b border-gray-100">
  <td className="py-3 px-4 font-semibold">Algarve</td>
@@ -533,7 +533,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <td className="py-3 px-4 font-semibold">Ilhas (Açores/Madeira)</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
  <td className="text-center py-3 px-4">sob orçamento</td>
- <td className="text-right py-3 px-4 text-red-600">+40-70€</td>
+ <td className="text-right py-3 px-4 text-red-600">sob orçamento</td>
  </tr>
  </tbody>
  </table>
@@ -785,7 +785,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Reparação simples: sob orçamento</li>
  <li>• Desentupimento: sob orçamento</li>
  <li>• Instalação: sob orçamento</li>
- <li>• Urgência: +20-50€</li>
+ <li>• Noite, fins de semana e feriados: 100 €/h e deslocação 50 €</li>
  <li>• Deslocação: sob orçamento (se não houver trabalho</li>
  </ul>
  </div>

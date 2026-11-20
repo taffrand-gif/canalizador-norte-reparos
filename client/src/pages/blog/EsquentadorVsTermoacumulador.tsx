@@ -231,7 +231,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">Posso substituir o esquentador por termoacumulador (ou vice-versa)?</h3>
- <p className="text-gray-700">Sim, é possível. A substituição requer adaptação das ligações (gás para eletricidade ou vice-versa) e deve ser feita por um profissional. O custo da conversão varia entre 200€ e 400€, além do equipamento novo.</p>
+ <p className="text-gray-700">Sim, é possível. A substituição requer adaptação das ligações (gás para eletricidade ou vice-versa) e deve ser feita por um profissional. A conversão é sob orçamento, além do equipamento novo.</p>
  </div>
  </div>
  <script type="application/ld+json">
@@ -241,7 +241,7 @@ const EsquentadorVsTermoacumulador: React.FC = () => {
  "mainEntity": [
  { "@type": "Question", "name": "Qual gasta menos: esquentador ou termoacumulador?", "acceptedAnswer": { "@type": "Answer", "text": "Geralmente, o esquentador a gás natural é mais económico no dia a dia. No entanto, se tiver tarifa bi-horária e programar o termoacumulador para aquecer apenas nas horas de vazio, os custos podem ser semelhantes. Com painéis solares, o termoacumulador torna-se a opção mais económica." } },
  { "@type": "Question", "name": "Que capacidade de termoacumulador preciso?", "acceptedAnswer": { "@type": "Answer", "text": "Como regra geral: 30-50L para 1 pessoa, 80L para 2 pessoas, 100-150L para 3-4 pessoas, e 200L ou mais para famílias grandes. Em Trás-os-Montes, como a água chega mais fria, recomendamos capacidades ligeiramente superiores." } },
- { "@type": "Question", "name": "Posso substituir o esquentador por termoacumulador (ou vice-versa)?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, é possível. A substituição requer adaptação das ligações e deve ser feita por um profissional. O custo da conversão varia entre 200€ e 400€, além do equipamento novo." } }
+ { "@type": "Question", "name": "Posso substituir o esquentador por termoacumulador (ou vice-versa)?", "acceptedAnswer": { "@type": "Answer", "text": "Sim, é possível. A substituição requer adaptação das ligações e deve ser feita por um profissional. A conversão é sob orçamento, além do equipamento novo." } }
  ]
  })}
  </script>

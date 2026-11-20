@@ -303,7 +303,7 @@ export default function SistemaAquecimentoAgua() {
  <li>• Quer poupar a longo prazo</li>
  <li>• Tem espaço exterior para instalação</li>
  <li>• Preocupa-se com o ambiente</li>
- <li>• Pode investir €1.500-2.500 inicialmente</li>
+ <li>• Aceita um investimento inicial maior (sob orçamento)</li>
  </ul>
  </div>
  </div>

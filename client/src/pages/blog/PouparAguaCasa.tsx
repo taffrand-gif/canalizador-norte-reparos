@@ -338,7 +338,7 @@ export default function PouparAguaCasa() {
  Em Trás-os-Montes, a precipitação média é <strong>800-1000mm/ano</strong>. Uma casa com 
  telhado de 100m² pode recolher <strong>80.000-100.000 litros/ano</strong>.
  </p>
- <h3 className="font-bold text-lg mb-3">Sistema Básico (€200-400):</h3>
+ <h3 className="font-bold text-lg mb-3">Sistema Básico (sob orçamento):</h3>
  <ul className="space-y-2 mb-6">
  <li className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />

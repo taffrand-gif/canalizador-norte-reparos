@@ -278,7 +278,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">Quanto custa um serviço de desentupimento por um profissional?</h3>
  <p className="text-gray-700">
- Em Trás-os-Montes, o preço médio para desentupimento de lava-loiça varia entre 60€ e 120€, 
+ Em Trás-os-Montes, o desentupimento de lava-loiça é sob orçamento, 
  dependendo da complexidade, hora da intervenção e deslocação. Para situações de emergência 
  fora do horário comercial, os preços podem ser superiores.
  </p>
@@ -303,7 +303,7 @@ const ComoDesentupirLavaLoica: React.FC = () => {
  "name": "Quanto custa um serviço de desentupimento por um profissional?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Em Trás-os-Montes, o preço médio para desentupimento de lava-loiça varia entre 60€ e 120€, dependendo da complexidade, hora da intervenção e deslocação. Para situações de emergência fora do horário comercial, os preços podem ser superiores."
+ "text": "Em Trás-os-Montes, o desentupimento de lava-loiça é sob orçamento, dependendo da complexidade, hora da intervenção e deslocação. Para situações de emergência fora do horário comercial, os preços podem ser superiores."
  }
  }
  ]
