@@ -4,7 +4,7 @@ import { Euro, Clock, Shield, Check, MapPin, AlertCircle } from 'lucide-react';
 export default function PriceTable() {
  const { config } = useSite();
 
- // Tabela de preços para canalização (sem IVA)
+ // Tabela de preços para canalização (IVA incluído)
  const plumbPrices = [
  {
  service: "Desentupimento Simples",

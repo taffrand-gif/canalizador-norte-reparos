@@ -652,9 +652,9 @@ const FugaAguaComoDetarReparar: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">Quanto custa reparar uma fuga de água?</h3>
  <p className="text-gray-700 mb-2">Depende do tipo e localização:</p>
  <ul className="text-gray-600 space-y-1 ml-4">
- <li>• Torneira a pingar: 5-30€ (DIY) ou 50-80€ (profissional</li>
- <li>• Autoclismo: 15-30€ (DIY) ou 60-100€ (profissional</li>
- <li>• Junta de cano: 2-10€ (DIY) ou 60-120€ (profissional</li>
+ <li>• Torneira a pingar: 5-30€ (DIY) ou sob orçamento (profissional</li>
+ <li>• Autoclismo: 15-30€ (DIY) ou sob orçamento (profissional</li>
+ <li>• Junta de cano: 2-10€ (DIY) ou sob orçamento (profissional</li>
  <li>• Fuga em parede: sob orçamento (requer abertura</li>
  <li>• Cano rebentado: sob orçamento (substituição</li>
  </ul>

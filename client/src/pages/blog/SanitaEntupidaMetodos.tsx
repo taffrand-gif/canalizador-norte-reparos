@@ -492,7 +492,7 @@ const SanitaEntupidaMetodos: React.FC = () => {
  </tr>
  <tr>
  <td className="py-3">Urgência (noite/fim de semana)</td>
- <td className="text-right py-3 font-semibold">+30-50€</td>
+ <td className="text-right py-3 font-semibold">100 €/hora + deslocação 50 €</td>
  </tr>
  </tbody>
  </table>
@@ -599,10 +599,10 @@ const SanitaEntupidaMetodos: React.FC = () => {
  <li>• Desentupimento simples: sob orçamento</li>
  <li>• Desentupimento complexo: sob orçamento</li>
  <li>• Com máquina alta pressão: sob orçamento</li>
- <li>• Urgência (noite/fim de semana): +30-50€</li>
+ <li>• Urgência (noite, fins de semana e feriados): 100 €/hora + deslocação 50 €</li>
  </ul>
  <p className="text-cyan-700 font-semibold mt-3">
- 💡 DIY poupa 70-120€ mas requer A confirmar
+ 💡 DIY poupa a mão de obra mas requer A confirmar
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

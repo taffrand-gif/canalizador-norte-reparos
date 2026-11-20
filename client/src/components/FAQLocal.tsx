@@ -20,13 +20,13 @@ function FAQLocal() {
  answer: 'Desentupimento com câmara de inspeção: 220€. Incluímos deslocação e diagnóstico no preço. Sem compromisso por telefone.'},
  {
  question: 'Fazem arranjo de fugas de água?',
- answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preços a partir de 88€ (colmatação fuga tubo, sem IVA).'},
+ answer: 'Sim, estamos disponíveis em toda a região de Trás-os-Montes. Arranjamos todo o tipo de fugas de água: torneiras, autoclismos, canalizações enterradas e tubagens visíveis. Preço sob orçamento, por escrito antes de qualquer intervenção.'},
  {
  question: 'Trabalham em Miranda do Douro e na zona raiana?',
  answer: 'Sim, prestamos serviço de instalação e remodelação de canalização em Miranda do Douro e em toda a zona raiana: substituição de tubagens, remodelação de casas de banho e instalação de equipamentos. Orçamento por escrito em 48h. Ligue 928 484 451.'},
  {
  question: 'Instalam esquentadores em Vila Flor e Carrazeda de Ansiães?',
- answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: sob orçamento (sem IVA, sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
+ answer: 'Sim, fazemos instalação e substituição de esquentadores a gás em Vila Flor, Carrazeda de Ansiães e todas as localidades do distrito de Bragança. Preço de instalação: sob orçamento (sem equipamento). Incluímos certificação obrigatória e teste de segurança.'},
  {
  question: 'Qual o canalizador mais perto de Mogadouro?',
  answer: 'A Norte Reparos é o canalizador profissional em Mogadouro. Cobrimos toda a região e todas as suas freguesias. Serviço ao domicílio, com orçamento por escrito em 48h.'},

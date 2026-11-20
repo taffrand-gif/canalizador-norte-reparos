@@ -35,7 +35,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  "name": "O que está incluído no preço de desentupimento?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "O preço inclui: deslocação até 20km, diagnóstico, mão de obra, equipamento básico (mola manual, desentupidor), e limpeza após trabalho. Não inclui: arranjos estruturais, substituição de tubos, ou uso de câmara de inspeção (sob orçamento)."
+ "text": "O preço é calculado assim: deslocação 30 € em dias úteis (9h–18h) + 70 €/hora de mão de obra (cada hora começada é devida); à noite, aos fins de semana e feriados, deslocação 50 € + 100 €/hora. Inclui diagnóstico, equipamento básico (mola manual, desentupidor) e limpeza após trabalho. Não inclui: arranjos estruturais, substituição de tubos, ou uso de câmara de inspeção (sob orçamento)."
  }
  },
  {
@@ -126,8 +126,8 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-12">
  <h2 className="text-xl font-bold text-gray-900 mb-3">Resposta mediante contacto</h2>
  <p className="text-gray-700 leading-relaxed">
- <strong>Preços médios em Bragança 2026:</strong> Sanita 60-120€, lava-loiça 50-100€, canalização principal 120-250€.
- Preço inclui deslocação (até 20km), diagnóstico, mão de obra e equipamento básico.
+ <strong>Preços em Bragança:</strong> sob orçamento, por escrito antes de qualquer intervenção.
+ Deslocação 30 € em dias úteis (9h–18h); mão de obra 70 €/hora; cada hora começada é devida.
  <strong>Urgências</strong> Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €
  </p>
  </div>
@@ -174,7 +174,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </div>
  <div className="mt-4 text-sm text-gray-600">
  <p><strong>Nota:</strong> Preços válidos para Bragança, Mirandela, Chaves, Vila Real e Trás-os-Montes.
- Deslocações superiores a 20km: +0,50€/km adicional.</p>
+ Deslocação com preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados.</p>
  </div>
  </section>
  {/* O Que Está Incluído */}
@@ -188,7 +188,6 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </h3>
  <ul className="space-y-3">
  {[
- "Deslocação até 20km",
  "Diagnóstico e avaliação",
  "Mão de obra especializada",
  "Equipamento básico (mola manual, desentupidor)",
@@ -214,9 +213,9 @@ export default function QuantoCustaDesentupimentoBraganca() {
  { item: "Mola elétrica profissional", preco: "Sob orçamento" },
  { item: "Substituição de tubos", preco: "Sob orçamento" },
  { item: "Arranjo estrutural", preco: "Orçamento" },
- { item: "Urgência diurna", preco: "Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €" },
+ { item: "Urgência em dia útil (9h–18h)", preco: "70 €/hora + deslocação 30 €" },
  { item: "Urgência noturna/feriado", preco: "100 €/hora + deslocação 50 €" },
- { item: "Deslocação >20km", preco: "+0,50€/km" }
+ { item: "Deslocação (qualquer localidade servida)", preco: "30 € (50 € à noite, fins de semana e feriados)" }
  ].map((item, i) => (
  <li key={i} className="flex items-center justify-between text-gray-700">
  <span>{item.item}</span>
@@ -242,7 +241,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  },
  {
  fator: "Horário do Serviço",
- explicacao: "Horário normal (8h-18h, dias úteis): preço base. À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.",
+ explicacao: "Dias úteis (9h–18h): 70 €/hora e deslocação 30 €. À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.",
  },
  {
  fator: "Equipamento Necessário",
@@ -269,7 +268,7 @@ export default function QuantoCustaDesentupimentoBraganca() {
  <div className="bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-200 rounded-xl p-6">
  <ul className="space-y-4">
  {[
- { dica: "Chame durante horário normal", economia: "Poupa 30-50%" },
+ { dica: "Chame durante horário normal", economia: "70 €/hora + deslocação 30 € em vez de 100 €/hora + deslocação 50 €" },
  { dica: "Tente métodos caseiros primeiro (se entupimento leve)", economia: "Pode resolver grátis" },
  { dica: "Não deixe agravar - chame logo aos primeiros sinais", economia: "Evita custos 2-3x maiores" },
  { dica: "Manutenção preventiva anual (sob orçamento)", economia: "Evita 90% dos entupimentos" },
@@ -325,11 +324,11 @@ export default function QuantoCustaDesentupimentoBraganca() {
  </thead>
  <tbody className="divide-y divide-gray-200">
  {[
- { cidade: "Bragança", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" },
- { cidade: "Mirandela", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" },
- { cidade: "Chaves", sanita: "", canalizacao: "sob orçamento", deslocacao: "+10€" },
- { cidade: "Vila Real", sanita: "", canalizacao: "sob orçamento", deslocacao: "+15€" },
- { cidade: "Trás-os-Montes", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "Incluída" }
+ { cidade: "Bragança", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "30 €" },
+ { cidade: "Mirandela", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "30 €" },
+ { cidade: "Chaves", sanita: "", canalizacao: "sob orçamento", deslocacao: "30 €" },
+ { cidade: "Vila Real", sanita: "", canalizacao: "sob orçamento", deslocacao: "30 €" },
+ { cidade: "Trás-os-Montes", sanita: "sob orçamento", canalizacao: "sob orçamento", deslocacao: "30 €" }
  ].map((item, i) => (
  <tr key={i} className="hover:bg-gray-50">
  <td className="px-4 py-3 font-medium text-gray-900">{item.cidade}</td>

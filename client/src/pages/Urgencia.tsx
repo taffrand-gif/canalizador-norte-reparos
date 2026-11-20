@@ -28,7 +28,7 @@ function CanalizadorUrgente() {
     "name": "Quanto custa um canalizador urgente em Trás-os-Montes?",
     "acceptedAnswer": {
      "@type": "Answer",
-     "text": "Mão de obra 70€/hora, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
+     "text": "Mão de obra 70€/hora, deslocação 30 € em dias úteis (9h–18h). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção, sem surpresas na fatura."
     }
    },
    {
@@ -289,12 +289,12 @@ function CanalizadorUrgente() {
  </h3>
  <div className="space-y-1 text-gray-700 text-sm">
  <div className="flex justify-between">
- <span>Deslocação 30 € (50 € noite/fim de semana) · 70 €/hora (100 €/hora noite/fim de semana)</span>
- <span className="font-bold">52,50 €</span>
+ <span>Deslocação (domingo)</span>
+ <span className="font-bold">50 €</span>
  </div>
  <div className="flex justify-between">
- <span>Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</span>
- <span className="font-bold">97,50 €</span>
+ <span>1.ª hora (domingo, 100 €/hora)</span>
+ <span className="font-bold">100 €</span>
  </div>
  <hr className="border-gray-300 my-2" />
  <div className="flex justify-between text-base font-black text-cyan-700">
@@ -382,7 +382,7 @@ function CanalizadorUrgente() {
  <div className="bg-gray-50 rounded-xl p-6">
  <h3 className="font-bold text-lg mb-2">Quanto custa?</h3>
  <p className="text-gray-700">
- Mão de obra <strong>70€/h</strong>, deslocação conforme o caso (deslocação 30 € em dias úteis e 50 € à noite, fins de semana e feriados). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
+ Mão de obra <strong>70€/h</strong>, deslocação 30 € em dias úteis (9h–18h). À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €. Orçamento por escrito antes de qualquer intervenção.
  </p>
  </div>
  <div className="bg-gray-50 rounded-xl p-6">

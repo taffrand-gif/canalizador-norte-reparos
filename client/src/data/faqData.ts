@@ -143,7 +143,7 @@ export const FAQ_DATA_EXTRA: FAQItem[] = [
  {
  id: 22,
  question: "Como manter a caldeira em bom estado no inverno?",
- answer: "Manutenção da caldeira no inverno: verifique a pressão semanalmente (deve estar entre 1-2 bar), purgue radiadores mensalmente, mantenha temperatura constante (evite desligar completamente), verifique fugas visíveis, e garanta ventilação adequada. Antes do inverno, recomenda-se manutenção profissional que inclui: limpeza do queimador, verificação de gases, teste de segurança, e substituição de peças gastas. Caldeiras bem mantidas consomem 10-15% menos energia e têm menor risco de avaria. Oferecemos contratos de manutenção anual a partir de 80€.",
+ answer: "Manutenção da caldeira no inverno: verifique a pressão semanalmente (deve estar entre 1-2 bar), purgue radiadores mensalmente, mantenha temperatura constante (evite desligar completamente), verifique fugas visíveis, e garanta ventilação adequada. Antes do inverno, recomenda-se manutenção profissional que inclui: limpeza do queimador, verificação de gases, teste de segurança, e substituição de peças gastas. Caldeiras bem mantidas consomem 10-15% menos energia e têm menor risco de avaria. A manutenção é feita sob orçamento, por escrito antes de qualquer intervenção.",
  category: "Manutenção"
  },
  {
