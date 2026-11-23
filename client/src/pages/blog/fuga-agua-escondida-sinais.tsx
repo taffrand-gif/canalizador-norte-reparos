@@ -142,7 +142,7 @@ export default function FugaAguaEscondidaSinais() {
  <p className="text-gray-700 leading-relaxed">
  <strong>Os 3 sinais mais claros de fuga escondida são:</strong> conta de água 20-30% mais alta sem razão,
  contador a rodar com tudo fechado, e som de água a correr. <strong>Teste simples:</strong> feche todas as torneiras,
- anote o contador, A confirmar. Se mudou, tem fuga. Em Bragança, detetamos fugas com câmara térmica por 80-150€.
+ anote o contador, A confirmar. Se mudou, tem fuga. Em Bragança, detetamos fugas com câmara térmica (sob orçamento).
  </p>
  </div>
  {/* Alerta Impacto */}
@@ -347,7 +347,7 @@ export default function FugaAguaEscondidaSinais() {
  </a>
  </div>
  <p className="text-sm opacity-75">
- Disponível 24h/7 dias garantida • Deteção 80-150€ • estimativa sem custo
+ Disponível 24h/7 dias • Deteção sob orçamento
  </p>
  </div>
  </article>

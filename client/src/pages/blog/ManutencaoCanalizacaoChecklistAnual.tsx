@@ -548,7 +548,7 @@ const ManutencaoCanalizacaoChecklistAnual: React.FC = () => {
  <ul className="text-green-800 space-y-2">
  <li>✓ Inspeção profissional completa (sob orçamento</li>
  <li>✓ Descalcificação se necessário (sob orçamento</li>
- <li>✓ Limpeza canalização exterior (1h ou 100-200€</li>
+ <li>✓ Limpeza canalização exterior (sob orçamento</li>
  <li>✓ Substituir componentes gastos (sob orçamento</li>
  </ul>
  <p className="text-green-900 font-semibold mt-4">

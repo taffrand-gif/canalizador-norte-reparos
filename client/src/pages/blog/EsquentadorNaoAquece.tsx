@@ -343,7 +343,7 @@ const EsquentadorNaoAquece: React.FC = () => {
  <li>Teste esquentador</li>
  </ol>
  <p className="text-green-700 font-semibold mt-2 text-sm">
- 💰 Custo: 0€ (limpeza) ou 60-100€ (técnico) | Dificuldade: ⭐⭐⭐ (média)
+ 💰 Custo: 0€ (limpeza) ou sob orçamento (técnico) | Dificuldade: ⭐⭐⭐ (média)
  </p>
  </div>
  </div>

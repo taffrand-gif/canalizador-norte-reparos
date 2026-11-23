@@ -666,7 +666,7 @@ const SifaoEntupidoComoLimpar: React.FC = () => {
  </table>
  </div>
  <p className="text-green-700 font-semibold">
- ✅ Substituição DIY é muito fácil - poupe 40-80€ em mão de obra
+ ✅ Substituição DIY é muito fácil - poupe o custo da mão de obra
  </p>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">

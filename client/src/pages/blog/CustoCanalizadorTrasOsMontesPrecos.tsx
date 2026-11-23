@@ -106,74 +106,54 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <thead>
  <tr className="bg-blue-600 text-white">
  <th className="py-4 px-6 text-left font-bold">Serviço</th>
- <th className="py-4 px-6 text-left font-bold">Preço Mínimo</th>
- <th className="py-4 px-6 text-left font-bold">Preço Médio</th>
- <th className="py-4 px-6 text-left font-bold">Preço Máximo</th>
+ <th className="py-4 px-6 text-left font-bold">Preço</th>
  <th className="py-4 px-6 text-left font-bold">Duração Média</th>
  </tr>
  </thead>
  <tbody>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Desentupimento lava-loiça</td>
- <td className="py-4 px-6">45€</td>
- <td className="py-4 px-6">65€</td>
- <td className="py-4 px-6">95€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Desentupimento sanita</td>
- <td className="py-4 px-6">55€</td>
- <td className="py-4 px-6">80€</td>
- <td className="py-4 px-6">120€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Desentupimento canalização geral</td>
- <td className="py-4 px-6">90€</td>
- <td className="py-4 px-6">140€</td>
- <td className="py-4 px-6">220€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">2-4 horas</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Arranjo fuga de água simples</td>
- <td className="py-4 px-6">70€</td>
- <td className="py-4 px-6">110€</td>
- <td className="py-4 px-6">180€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">1-2 horas</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Substituição torneira</td>
- <td className="py-4 px-6">40€</td>
- <td className="py-4 px-6">60€</td>
- <td className="py-4 px-6">90€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">A confirmar</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Instalação sanita nova</td>
- <td className="py-4 px-6">120€</td>
- <td className="py-4 px-6">180€</td>
- <td className="py-4 px-6">280€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">2-3 horas</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Instalação lava-loiça novo</td>
- <td className="py-4 px-6">100€</td>
- <td className="py-4 px-6">150€</td>
- <td className="py-4 px-6">230€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">1.5-2.5 horas</td>
  </tr>
  <tr className="border-b border-gray-200 hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Manutenção esquentador</td>
- <td className="py-4 px-6">65€</td>
- <td className="py-4 px-6">95€</td>
- <td className="py-4 px-6">140€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">1-1.5 horas</td>
  </tr>
  <tr className="hover:bg-blue-50">
  <td className="py-4 px-6 font-semibold">Arranjo caldeira</td>
- <td className="py-4 px-6">90€</td>
- <td className="py-4 px-6">160€</td>
- <td className="py-4 px-6">350€</td>
+ <td className="py-4 px-6">sob orçamento</td>
  <td className="py-4 px-6">2-4 horas</td>
  </tr>
  </tbody>
@@ -182,8 +162,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mt-6">
  <h3 className="font-bold text-yellow-800 text-lg mb-2">📝 Notas Importantes:</h3>
  <ul className="text-yellow-700 space-y-2">
- <li>• <strong>Preços incluem IVA a 23%</strong> (exceto se indicado otherwise</li>
- <li>• <strong>Deslocação:</strong> Incluída até 25km. Acima disso: +0,50€/km</li>
+ <li>• <strong>Preços incluem IVA a 23%</strong></li>
+ <li>• <strong>Deslocação:</strong> 30 € em dias úteis (9h–18h), 50 € à noite, fins de semana e feriados, em qualquer localidade servida</li>
  <li>• <strong>Materiais:</strong> Não incluídos nos preços acima (ver tabela de materais mais abaixo</li>
  <li>• <strong>Emergências:</strong> Noite, fim de semana e feriado: 100 €/hora + deslocação 50 €</li>
  </ul>
@@ -213,7 +193,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <h3 className="font-bold text-gray-900 mb-3">⏰ Hora do Serviço</h3>
  <p className="text-gray-700">
  À noite (18h–9h), aos fins de semana e feriados: 100 €/hora e deslocação 50 €.
- 30-50%. Planeie serviços não urgentes para dias úteis entre 8h-18h.
+ Planeie serviços não urgentes para dias úteis, entre as 9h e as 18h (70 €/hora e deslocação 30 €).
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl border border-gray-200">
@@ -417,10 +397,8 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  <div className="bg-white p-6 rounded-xl border border-gray-200">
  <h3 className="font-bold text-gray-900 mb-2">É normal pagar deslocação separada?</h3>
  <p className="text-gray-700">
- Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias
- superiores a 25km do centro operacional do canalizador. A taxa média é de <strong>0,50€/km</strong>
- (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos
- acima de determinado valor (ex: gratuita para serviços acima de 200€).
+ Sim. Na Norte Reparos a deslocação é cobrada sempre que há deslocação, com preço único em qualquer localidade servida:
+ 30 € em dias úteis (9h–18h) e 50 € à noite, aos fins de semana e feriados.
  <strong>Sempre pergunte sobre política de deslocações antes de marcar a visita.</strong>
  </p>
  </div>
@@ -468,7 +446,7 @@ const CustoCanalizadorTrasOsMontesPrecos: React.FC = () => {
  "name": "É normal pagar deslocação separada?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Sim, é prática comum em Trás-os-Montes cobrar deslocação separada, especialmente para distâncias superiores a 25km do centro operacional. A taxa média é de 0,50€/km (ida e volta). Alguns profissionais incluem deslocação com preço tabelado até certa distância ou para orçamentos acima de determinado valor. Sempre pergunte sobre política de deslocações antes de marcar a visita."
+ "text": "Sim. Na Norte Reparos a deslocação é cobrada sempre que há deslocação, com preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, aos fins de semana e feriados. Sempre pergunte sobre política de deslocações antes de marcar a visita."
  }
  }
  ]

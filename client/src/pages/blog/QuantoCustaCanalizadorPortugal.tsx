@@ -850,7 +850,7 @@ const QuantoCustaCanalizadorPortugal: React.FC = () => {
  <li>• Desentupimento simples: sob orçamento</li>
  <li>• Desentupimento complexo: sob orçamento</li>
  <li>• Com máquina alta pressão: sob orçamento</li>
- <li>• Urgência (noite/fim de semana): +30-50€</li>
+ <li>• Urgência (noite, fins de semana e feriados): 100 €/hora + deslocação 50 €</li>
  </ul>
  </div>
  <div className="bg-gray-50 p-6 rounded-xl">
