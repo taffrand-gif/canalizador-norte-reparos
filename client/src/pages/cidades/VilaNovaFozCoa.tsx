@@ -91,7 +91,7 @@ export default function VilaNovaFozCôa() {
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Vila Nova de Foz Côa', href: '/canalizador-vila-nova-de-foz-coa' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">

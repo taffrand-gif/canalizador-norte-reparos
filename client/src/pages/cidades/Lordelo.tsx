@@ -83,7 +83,7 @@ export default function Lordelo() {
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
         <section className="bg-gradient-to-r from-gray-900 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4"><div className="max-w-4xl">
-            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' }, { label: 'Alijó', href: '/canalizador-alijo' }, { label: 'Lordelo', href: '/canalizador-lordelo' } ]} />
+            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes' }, { label: 'Alijó', href: '/canalizador-alijo' }, { label: 'Lordelo', href: '/canalizador-lordelo' } ]} />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador em{' '}<span className="text-blue-300">Lordelo</span></h1>
             <p className="text-xl mb-4 text-gray-200">Freguesia do concelho de Alijó, no coração da Região Demarcada do Douro, entre vinhedos e quintas históricas. Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.</p>
             <p className="text-base mb-8 text-gray-300">Cobrimos Lordelo e toda a zona de Alijó. Disponíveis 24h incluindo fins de semana e feriados.</p>

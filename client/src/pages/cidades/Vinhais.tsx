@@ -84,7 +84,7 @@ export default function Vinhais() {
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
- <Breadcrumbs items={[{ label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/tras-os-montes' }, { label: 'Vinhais', href: '/canalizador-vinhais' }]} />
+ <Breadcrumbs items={[{ label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes' }, { label: 'Vinhais', href: '/canalizador-vinhais' }]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador Profissional em <span className="text-orange-400">Vinhais</span></h1>
  <p className="text-xl mb-8">Serviços de canalização certificados em Vinhais e arredores. Resolução rápida, preço justo, garantia do fabricante nos equipamentos e peças.</p>
  <div className="flex flex-col sm:flex-row gap-4">

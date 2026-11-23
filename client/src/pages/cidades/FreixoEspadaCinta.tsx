@@ -103,7 +103,7 @@ export default function FreixoEspadaCinta() {
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Freixo de Espada à Cinta', href: '/canalizador-freixo-de-espada-a-cinta' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">

@@ -91,7 +91,7 @@ export default function Sabrosa() {
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Sabrosa', href: '/canalizador-sabrosa' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">

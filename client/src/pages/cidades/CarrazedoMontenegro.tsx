@@ -119,7 +119,7 @@ export default function CarrazedoMontenegro() {
             <div className="max-w-4xl">
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
-                { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' },
+                { label: 'Trás-os-Montes' },
                 { label: 'Valpaços', href: '/canalizador-valpacos' },
                 { label: 'Carrazedo de Montenegro', href: '/canalizador-carrazedo-de-montenegro' }
               ]} />

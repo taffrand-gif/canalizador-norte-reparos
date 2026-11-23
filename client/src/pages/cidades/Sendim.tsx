@@ -119,7 +119,7 @@ export default function Sendim() {
             <div className="max-w-4xl">
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
-                { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' },
+                { label: 'Trás-os-Montes' },
                 { label: 'Miranda do Douro', href: '/canalizador-miranda-do-douro' },
                 { label: 'Sendim', href: '/canalizador-sendim' }
               ]} />

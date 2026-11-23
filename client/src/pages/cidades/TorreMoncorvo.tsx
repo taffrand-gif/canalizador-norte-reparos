@@ -97,7 +97,7 @@ export default function TorreMoncorvo() {
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Torre de Moncorvo', href: '/canalizador-torre-moncorvo' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">

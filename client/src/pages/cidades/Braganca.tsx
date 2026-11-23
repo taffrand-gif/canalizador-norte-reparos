@@ -145,7 +145,7 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Orçamen
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Bragança', href: '/canalizador-braganca' }
  ]} />
 
