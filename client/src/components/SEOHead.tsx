@@ -65,6 +65,7 @@ export default function SEOHead() {
  }
  // Defer GTM loading by 3s after page load for better performance
  const loadGTM = () => {
+ if (localStorage.getItem('rgpd-consent-cnr-v1') !== 'granted') return;
  if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
  setTimeout(() => {
  const script = document.createElement('script');
