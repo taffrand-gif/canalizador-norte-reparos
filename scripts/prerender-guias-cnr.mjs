@@ -18,6 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { JSX_RESIDUE } from './render-jsx-pages-cnr.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -489,6 +490,15 @@ function processRoute(route) {
     };
   }
   const bodyHtml = jsxToHtml(bodyJsx);
+  // jsxToHtml only converts literal markup. Components (<Icon />, <Link>), expressions
+  // ({items.map(...)}) and dangerouslySetInnerHTML stay as raw text and the page is broken.
+  // Such pages are rendered by scripts/render-jsx-pages-cnr.mjs: never overwrite them here.
+  if (JSX_RESIDUE.test(bodyHtml)) {
+    return {
+      ...route, status: 'SKIP_JSX_RESIDUE', pattern,
+      title, description,
+    };
+  }
 
   const html = buildHtmlPage({
     canonical: route.canonical,
