@@ -13,7 +13,7 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  { name: 'Chaves', slug: 'canalizador-chaves', region: 'Norte' },
  { name: 'Mirandela', slug: 'canalizador-mirandela', region: 'Norte' },
  { name: 'Vila Real', slug: 'canalizador-vila-real', region: 'Norte' },
- { name: 'Trás-os-Montes', slug: 'canalizador-macedo-cavaleiros', region: 'Centro' },
+ { name: 'Macedo de Cavaleiros', slug: 'canalizador-macedo-de-cavaleiros', region: 'Centro' },
  { name: 'Valpaços', slug: 'canalizador-valpacos', region: 'Norte' },
  { name: 'Mogadouro', slug: 'canalizador-mogadouro', region: 'Norte' },
  { name: 'Torre de Moncorvo', slug: 'canalizador-torre-moncorvo', region: 'Norte' },
@@ -91,9 +91,6 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  ))}
  </div>
  <div className="text-center mt-8">
- <p className="text-gray-600 text-sm">
- <strong>SEO Tip:</strong> Links internos ajudam o Google a entender a estrutura do site e melhoram a autoridade das páginas.
- </p>
  </div>
  </div>
  </section>

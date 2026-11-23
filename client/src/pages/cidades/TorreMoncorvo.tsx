@@ -24,7 +24,7 @@ export default function TorreMoncorvo() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Torre de Moncorvo. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Torre de Moncorvo. Desentupimentos e arranjos, orçamento por escrito. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function TorreMoncorvo() {
 
  const cidadesProximas = getCidadesProximas('torre-moncorvo');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Desde 100€ em Torre de Moncorvo. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Torre de Moncorvo?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Torre de Moncorvo?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Torre de Moncorvo. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Torre de Moncorvo?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -90,21 +90,21 @@ export default function TorreMoncorvo() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Torre de Moncorvo, a deslocação é 30€ (52.2 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Torre de Moncorvo, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (52.2 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Torre de Moncorvo', href: '/canalizador-torre-moncorvo' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Canalizador Profissional em <span className="text-orange-400">Torre de Moncorvo</span>
  </h1>
  <p className="text-xl mb-8">
- Serviços de canalização certificados em Torre de Moncorvo e arredores.
+ Serviços de canalização em Torre de Moncorvo e arredores.
  Resolução profissional, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -151,7 +151,7 @@ export default function TorreMoncorvo() {
  </h3>
  <p className="text-gray-600">
  WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
+ desentupimentos profundos.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -160,7 +160,7 @@ export default function TorreMoncorvo() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -198,7 +198,7 @@ export default function TorreMoncorvo() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🏆 Serviço Certificado
+ 🧾 Fatura e Orçamento
  </h3>
  <p className="text-gray-600">
  Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes
@@ -219,7 +219,7 @@ export default function TorreMoncorvo() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -228,7 +228,6 @@ export default function TorreMoncorvo() {
  </h3>
  <p className="text-gray-600">
  Todas as intervenções têm garantia do fabricante nos equipamentos e peças.
- Peças e mão de obra incluídas.
  </p>
  </div>
  </div>
@@ -281,7 +280,7 @@ export default function TorreMoncorvo() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção profissional, preço justo, garantia do fabricante nos equipamentos e peças.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

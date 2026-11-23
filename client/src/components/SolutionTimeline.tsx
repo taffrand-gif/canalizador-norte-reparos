@@ -59,9 +59,11 @@ function SolutionTimeline({
  {/* Content */}
  <div className={`flex-1 ${isEven ? 'md:text-right' : 'md:text-left'} text-center md:text-inherit`}>
  <div className="bg-white p-6 rounded-xl border-2 border-blue-200 hover:border-blue-400 transition-all hover:shadow-lg">
+ {step.time && step.time !== 'A confirmar' && (
  <div className="inline-block bg-blue-100 text-blue-800 px-4 py-1 rounded-full font-bold text-sm mb-3">
  {step.time}
  </div>
+ )}
  <h3 className="text-2xl font-bold text-gray-900 mb-2">
  {step.title}
  </h3>

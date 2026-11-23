@@ -100,7 +100,7 @@ export default function QuantoTempoSemAguaQuente() {
  },
  {
  factor: "Disponibilidade da peça",
- impacto: "Termopares, válvulas e membranas são peças comuns — trazemos em stock. Peças de modelos específicos ou descontinuados podem precisar de encomenda — indicamos o prazo estimado por escrito.",
+ impacto: "Termopares, válvulas e membranas são peças comuns. Peças de modelos específicos ou descontinuados podem precisar de encomenda — indicamos o prazo estimado por escrito.",
  icon: Wrench
  },
  {
@@ -299,7 +299,7 @@ export default function QuantoTempoSemAguaQuente() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
  <div className="bg-white p-6 rounded-lg shadow">
  <CheckCircle className="w-8 h-8 text-[#2193b0] mb-3" />
- <h3 className="font-bold text-gray-900 mb-2">Peças em stock na carrinha</h3>
+ <h3 className="font-bold text-gray-900 mb-2">Peças comuns</h3>
  <p className="text-gray-700">Termopares, válvulas de gás e água, membranas, pilhas, juntas e acessórios comuns para os modelos mais frequentes em Trás-os-Montes.</p>
  </div>
  <div className="bg-white p-6 rounded-lg shadow">

@@ -83,7 +83,7 @@ export default function Cumieira() {
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
         <section className="bg-gradient-to-r from-gray-900 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4"><div className="max-w-4xl">
-            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' }, { label: 'Santa Marta de Penaguião', href: '/canalizador-santa-marta-de-penaguiao' }, { label: 'Cumieira', href: '/canalizador-cumieira' } ]} />
+            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes' }, { label: 'Santa Marta de Penaguião', href: '/canalizador-santa-marta-de-penaguiao' }, { label: 'Cumieira', href: '/canalizador-cumieira' } ]} />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador em{' '}<span className="text-blue-300">Cumieira</span></h1>
             <p className="text-xl mb-4 text-gray-200">Freguesia do concelho de Santa Marta de Penaguião, entre as serras do Alto Corgo e o vale do Douro. Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.</p>
             <p className="text-base mb-8 text-gray-300">Cobrimos Cumieira e toda a zona de Santa Marta de Penaguião. Disponíveis 24h incluindo fins de semana e feriados.</p>

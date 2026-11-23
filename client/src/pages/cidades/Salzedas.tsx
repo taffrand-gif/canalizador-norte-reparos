@@ -83,7 +83,7 @@ export default function Salzedas() {
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
         <section className="bg-gradient-to-r from-gray-900 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4"><div className="max-w-4xl">
-            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' }, { label: 'Tarouca', href: '/canalizador-tarouca' }, { label: 'Salzedas', href: '/canalizador-salzedas' } ]} />
+            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes' }, { label: 'Tarouca', href: '/canalizador-tarouca' }, { label: 'Salzedas', href: '/canalizador-salzedas' } ]} />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador em{' '}<span className="text-blue-300">Salzedas</span></h1>
             <p className="text-xl mb-4 text-gray-200">Aldeia histórica do concelho de Tarouca, junto ao Mosteiro de Salzedas, com casas de xisto e granito do Douro Sul. Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.</p>
             <p className="text-base mb-8 text-gray-300">Cobrimos Salzedas e toda a zona de Tarouca. Disponíveis 24h incluindo fins de semana e feriados.</p>

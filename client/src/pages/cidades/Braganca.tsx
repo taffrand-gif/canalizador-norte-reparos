@@ -138,14 +138,14 @@ document.title = "💧 Canalizador Bragança — estimativa sem custo | Orçamen
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Bragança, a deslocação é 30€ (42.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Bragança, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (42.4 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Bragança', href: '/canalizador-braganca' }
  ]} />
 

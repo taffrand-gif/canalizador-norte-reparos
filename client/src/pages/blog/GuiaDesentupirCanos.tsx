@@ -188,7 +188,7 @@ export default function GuiaDesentupirCanos() {
             <li><strong>Risco para o utilizador</strong> — são cáusticos. Salpicar a pele ou os olhos exige lavagem imediata e prolongada. Em espaços sem ventilação, os vapores podem irritar vias respiratórias.</li>
           </ul>
           <p>
-            Para obstruções persistentes, o método mecânico (máquina de cabos ou hidrojato) é mais eficaz e mais seguro para a instalação a longo prazo — é o que um canalizador certificado utiliza.
+            Para obstruções persistentes, o método mecânico (máquina de cabos ou hidrojato) é mais eficaz e mais seguro para a instalação a longo prazo — é o que um canalizador utiliza.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">5. Sinais de que há problema mais fundo</h2>
@@ -217,10 +217,8 @@ export default function GuiaDesentupirCanos() {
 
           <section className="my-10 bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Factos verificáveis Norte Reparos</h2>
-            <p className="text-gray-800 mb-3"><strong>Mão de obra:</strong> 70 €/h para canalização, segundo a grelha interna R12.</p>
-            <p className="text-gray-800 mb-3"><strong>Deslocação:</strong> Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
+            <p className="text-gray-800 mb-3"><strong>Preços (IVA incluído):</strong> Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €.</p>
             <p className="text-gray-800 mb-3"><strong>Equipamento real:</strong> Ridgid K9-102, Fluke T6-1000 e FLIR E96.</p>
-            <p className="text-sm text-gray-600">Fontes internas: grelha de zonas verrouillée em 14/07/2026; <code>preco-deslocacao.py</code>; dados TomTom reais em <code>_audit/zonas-distances-concelhos.json</code> (data/concelhos.json).</p>
           </section>
 
           <h2 id="faq" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. Perguntas frequentes</h2>

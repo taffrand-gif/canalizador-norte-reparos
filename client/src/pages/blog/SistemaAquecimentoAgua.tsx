@@ -75,7 +75,7 @@ export default function SistemaAquecimentoAgua() {
  "Consumo de gás contínuo",
  "Menos eficiente que bomba de calor",
  "Requer ventilação adequada",
- "Manutenção anual obrigatória"
+ "Manutenção anual recomendada"
  ],
  ideal: "Apartamentos pequenos, casas com 1-2 pessoas, orçamento limitado"
  },

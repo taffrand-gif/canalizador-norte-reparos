@@ -140,7 +140,7 @@ export default function FreguesiasPage() {
  </p>
  <p className="text-gray-700">
  Com base em {parentCity.name}, chegamos rapidamente a {freguesia.name}
- para resolver qualquer urgência. Disponíveis Atendimento 24h/7d, 7 dias por semana.
+ para resolver qualquer urgência. Atendimento 24h, 7 dias por semana.
  </p>
  </div>
  </div>

@@ -11,7 +11,7 @@ const serviceImages = {
  'Urgências 24h': 'service-urgencia.jpg'};
 const serviceDescriptions = {
  'Desentupimentos': 'Desentupimento rápido e eficiente de canalizações, WC, pias, ralos e esgotos. Utilizamos equipamento moderno e técnicas não invasivas.',
- 'Arranjo de Fugas de Água': 'Deteção com câmara térmica FLIR, endoscópio HD e geofone. Arranjo sem partir paredes. Relatório técnico para seguro e condomínio incluído.',
+ 'Arranjo de Fugas de Água': 'Deteção com câmara térmica FLIR, endoscópio HD. Arranjo sem partir paredes. Relatório técnico para seguro e condomínio incluído.',
  'Instalação Sanitários': 'Instalação completa de casas de banho, cozinhas e áreas de serviço. Torneiras, autoclismos, chuveiros, banheiras e sistemas de drenagem.',
  'Aquecimento Central': 'Instalação, manutenção e arranjo de sistemas de aquecimento central, caldeiras, esquentadores e radiadores.',
  'Canalização Nova': 'Instalação de nova canalização para construções, renovações ou ampliações. Materiais de qualidade e instalação profissional.',

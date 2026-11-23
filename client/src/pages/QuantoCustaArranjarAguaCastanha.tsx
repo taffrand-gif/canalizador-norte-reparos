@@ -27,7 +27,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  const faqs = [
  {
  question: "Quanto custa arranjar água castanha da torneira?",
- answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Sem compromisso: 928 484 451"
+ answer: "Inclui deslocação, diagnóstico, mão-de-obra e material. Orçamento por escrito: 928 484 451"
  },
  {
  question: "Porque é que a água sai castanha da torneira?",
@@ -39,14 +39,14 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  question: "Quanto tempo demora a arranjar água castanha?",
- answer: "Depende da causa: limpeza filtros A confirmar, substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Estimativa indicativa sem custo: 928 484 451"
+ answer: "Depende da causa: substituir troço cano 2-4 horas, limpeza depósito 3-5 horas, substituir canalização 1-3 dias. Orçamento por escrito: 928 484 451"
  }
  ];
  const precos = [
  {
  servico: "Limpeza Filtros/Arejadores",
  preco: "sob orçamento",
- tempo: "A confirmar",
+ tempo: "indicado no orçamento",
  descricao: "Limpeza de filtros entupidos com sedimentos ou ferrugem"
  },
  {
@@ -63,7 +63,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  servico: "Substituir Canalização Completa",
- preco: "500-2000€",
+ preco: "sob orçamento",
  tempo: "1-3 dias",
  descricao: "Substituir canalização velha de ferro por PEX/PPR (depende tamanho casa)"
  }
@@ -81,7 +81,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  },
  {
  causa: "Trabalhos na Rede Pública",
- solucao: "Deixar água correr A confirmar (temporário)",
+ solucao: "Deixar água correr (temporário)",
  urgencia: "Baixa"
  },
  {
@@ -118,7 +118,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Quanto Custa Arranjar Água Castanha da Torneira?
  </h1>
  <p className="text-xl mb-8">
- Preços claros e honestos. Sem compromisso sem compromisso.
+ Preços claros e honestos. Orçamento por escrito antes de qualquer intervenção.
  Atendimento 24h em Trás-os-Montes.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -127,7 +127,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  className="bg-white text-[#2193b0] hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-xl transition-colors shadow-lg flex items-center justify-center gap-2"
  >
  <Phone className="w-6 h-6" />
- estimativa sem custo: {config.phone}
+ Orçamento por escrito: {config.phone}
  </a>
  <a
  href={`https://wa.me/${config.whatsapp}?text=Preciso orçamento para arranjar água castanha`}
@@ -175,9 +175,9 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </div>
  <div className="mt-8 text-center">
  <p className="text-gray-600 mb-4">
- ✅ Sem compromisso sem compromisso<br />
+ ✅ Orçamento por escrito antes de qualquer intervenção<br />
  ✅ Preços finais após diagnóstico no local<br />
- ✅ Garantia de Orçamento por escrito
+ ✅ Orçamento por escrito
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}
@@ -233,7 +233,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  { icon: CheckCircle, text: "Diagnóstico completo da causa" },
  { icon: CheckCircle, text: "Mão-de-obra especializada" },
  { icon: CheckCircle, text: "Material básico necessário" },
- { icon: CheckCircle, text: "Garantia de Orçamento por escrito" },
+ { icon: CheckCircle, text: "Orçamento por escrito" },
  { icon: CheckCircle, text: "Limpeza após intervenção" }
  ].map((item, index) => (
  <div key={index} className="flex items-start gap-3 bg-green-50 p-4 rounded-lg">
@@ -252,7 +252,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  </h2>
  <div className="max-w-3xl mx-auto space-y-4">
  {[
- "Água castanha há mais de Atendimento 24h/7d (não é trabalhos na rede)",
+ "Água castanha há mais de 24 horas (não é trabalhos na rede)",
  "Água com cheiro forte ou partículas visíveis",
  "Água castanha só numa torneira específica",
  "Pressão de água baixa + água castanha",
@@ -283,7 +283,7 @@ export default function QuantoCustaArranjarAguaCastanha() {
  Precisa Arranjar Água Castanha?
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
- Sem compromisso sem compromisso. Atendimento 24h.
+ Orçamento por escrito antes de qualquer intervenção. Atendimento 24h.
  Disponível 24h/7 dias.
  </p>
  <a

@@ -83,7 +83,7 @@ export default function Pinhao() {
       <main className="min-h-screen bg-gradient-to-b from-white to-blue-50">
         <section className="bg-gradient-to-r from-gray-900 to-blue-800 text-white py-16">
           <div className="container mx-auto px-4"><div className="max-w-4xl">
-            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' }, { label: 'Alijó', href: '/canalizador-alijo' }, { label: 'Pinhão', href: '/canalizador-pinhao' } ]} />
+            <Breadcrumbs items={[ { label: 'Canalizador', href: '/' }, { label: 'Trás-os-Montes' }, { label: 'Alijó', href: '/canalizador-alijo' }, { label: 'Pinhão', href: '/canalizador-pinhao' } ]} />
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Canalizador em{' '}<span className="text-blue-300">Pinhão</span></h1>
             <p className="text-xl mb-4 text-gray-200">Vila fluvial do concelho de Alijó, no coração da Região Demarcada do Douro, com quintas vínicolas centenárias. Urgências 24h, desentupimentos e fugas de água. Deslocação 30€.</p>
             <p className="text-base mb-8 text-gray-300">Cobrimos Pinhão e toda a zona de Alijó. Disponíveis 24h incluindo fins de semana e feriados.</p>

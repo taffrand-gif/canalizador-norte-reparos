@@ -80,9 +80,9 @@ export default function Vimioso() {
 
  const faqs = [
  { question: "Qual o preço de canalizador em Vimioso?", answer: "Desde 100€ em Vimioso. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso." },
- { question: "Fazem urgências em Vimioso?", answer: "Sim, Atendimento 24h/7d, 7 dias por semana em Vimioso. Ligue +351 928 484 451." },
+ { question: "Fazem urgências em Vimioso?", answer: "Sim, atendimento 24h, 7 dias por semana, em Vimioso. Ligue +351 928 484 451." },
  { question: "Atendem propriedades rurais?", answer: "Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas." },
- { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição." },
+ { question: "Têm câmara termográfica para deteção de fugas?", answer: "Sim, utilizamos câmara termográfica FLIR para localização precisa de fugas sem demolição." },
  { question: "Fornecem factura com NIF?", answer: "Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro." },
  ];
 
@@ -96,14 +96,14 @@ export default function Vimioso() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Vimioso, a deslocação é 30€ (64 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Vimioso, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (64 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Vimioso', href: '/canalizador-vimioso' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -158,7 +158,7 @@ export default function Vimioso() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">💧 Arranjo de Fugas</h3>
- <p className="text-gray-600">Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
+ <p className="text-gray-600">Deteção com câmara termográfica FLIR. Reparação sem demolição. Fatura com NIF para seguro.</p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -190,7 +190,7 @@ export default function Vimioso() {
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🔍 Equipamento Profissional</h3>
- <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR, geofone para tubagens enterradas.</p>
+ <p className="text-gray-600">Ridgid K9-102, câmara termográfica FLIR.</p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">🛡️ Garantia do fabricante nos equipamentos e peças</h3>

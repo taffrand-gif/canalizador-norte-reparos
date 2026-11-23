@@ -24,7 +24,7 @@ export default function MirandaDouro() {
  metaDescription.setAttribute('name', 'description');
  document.head.appendChild(metaDescription);
  }
- metaDescription.setAttribute('content', 'Canalizador urgente em Miranda do Douro. Desentupimentos e arranjos, orçamento sem compromisso. Ligue: 928 484 451');
+ metaDescription.setAttribute('content', 'Canalizador urgente em Miranda do Douro. Desentupimentos e arranjos, orçamento por escrito. Ligue: 928 484 451');
 
  let canonical = document.querySelector('link[rel="canonical"]');
  if (!canonical) {
@@ -78,7 +78,7 @@ export default function MirandaDouro() {
 
  const cidadesProximas = getCidadesProximas('miranda-do-douro');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Miranda do Douro?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Miranda do Douro. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Miranda do Douro?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Miranda do Douro. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Miranda do Douro?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Miranda do Douro?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Miranda do Douro. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -90,21 +90,21 @@ export default function MirandaDouro() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Miranda do Douro, a deslocação é 30€ (92.2 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Miranda do Douro, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (92.2 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Miranda do Douro', href: '/canalizador-miranda-do-douro' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
  Canalizador Profissional em <span className="text-orange-400">Miranda do Douro</span>
  </h1>
  <p className="text-xl mb-8">
- Serviços de canalização certificados em Miranda do Douro e arredores.
+ Serviços de canalização em Miranda do Douro e arredores.
  Resolução rápida, preço justo, garantia do fabricante nos equipamentos e peças.
  </p>
  <div className="flex flex-col sm:flex-row gap-4">
@@ -151,7 +151,7 @@ export default function MirandaDouro() {
  </h3>
  <p className="text-gray-600">
  WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
- desentupimentos profundos. Resolução garantida.
+ desentupimentos profundos.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
  </div>
@@ -160,7 +160,7 @@ export default function MirandaDouro() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -198,7 +198,7 @@ export default function MirandaDouro() {
  <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
  <div className="bg-white p-6 rounded-xl shadow-lg">
  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-3">
- 🏆 Serviço Certificado
+ 🧾 Fatura e Orçamento
  </h3>
  <p className="text-gray-600">
  Fatura com NIF, garantia do fabricante nos equipamentos e peças, preço combinado antes
@@ -219,7 +219,7 @@ export default function MirandaDouro() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -228,7 +228,6 @@ export default function MirandaDouro() {
  </h3>
  <p className="text-gray-600">
  Todas as intervenções têm garantia do fabricante nos equipamentos e peças.
- Peças e mão de obra incluídas.
  </p>
  </div>
  </div>
@@ -281,7 +280,7 @@ export default function MirandaDouro() {
  </h2>
  <p className="text-xl mb-8 max-w-2xl mx-auto">
  Intervenção rápida, preço justo, garantia do fabricante nos equipamentos e peças.
- Ligue agora para um orçamento sem compromisso.
+ Ligue agora para um orçamento por escrito.
  </p>
  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
  <a href={`tel:+351${config.phone.replace(/\s/g, "")}`}

@@ -3,9 +3,9 @@ import Footer from '@/components/Footer';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 const faqItems = [
- { question: "Com que frequência devo fazer manutenção à caldeira?", answer: "A manutenção anual é obrigatória por lei para caldeiras a gás. Inclui limpeza do queimador, verificação de segurança e análise de combustão. Prolonga a vida útil e reduz o consumo de gás." },
+ { question: "Com que frequência devo fazer manutenção à caldeira?", answer: "A manutenção anual é recomendada para caldeiras a gás. Inclui limpeza do queimador, verificação de segurança e análise de combustão. Prolonga a vida útil e reduz o consumo de gás." },
  { question: "Qual a diferença entre esquentador e caldeira?", answer: "O esquentador aquece água instantaneamente apenas quando abre a torneira. A caldeira aquece água e armazena num depósito, podendo também alimentar radiadores de aquecimento central." },
- { question: "Quanto custa substituir um esquentador antigo?", answer: "A substituição de um esquentador custa entre €400 e €800, incluindo equipamento e instalação. Esquentadores modernos são mais eficientes e podem reduzir a conta de gás em 20-30%." }
+ { question: "Quanto custa substituir um esquentador antigo?", answer: "A substituição de um esquentador (equipamento e instalação) é feita sob orçamento, por escrito antes de qualquer intervenção. Esquentadores modernos são mais eficientes e podem reduzir a conta de gás em 20-30%." }
 ];
 export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  useEffect(() => {
@@ -32,7 +32,7 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Guia Completo</span>
  <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">Arranjo de Caldeira e Esquentador: Guia Completo de Manutenção</h1>
  <p className="text-xl text-gray-600">Tudo o que precisa saber sobre manutenção, arranjo e substituição de caldeiras e esquentadores em Trás-os-Montes.</p>
- <div className="mt-4 text-sm text-gray-500">Publicado em 18 de fevereiro de 2026 · Leitura de A confirmar</div>
+ <div className="mt-4 text-sm text-gray-500">Publicado em 18 de fevereiro de 2026</div>
  </header>
  <section className="prose prose-lg max-w-none">
  <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Porque é Importante a Manutenção Regular?</h2>
@@ -56,7 +56,7 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <li>• Equipamento tem menos de 10 anos</li>
  <li>• Primeira avaria</li>
  <li>• Peças disponíveis</li>
- <li>• Custo inferior a €200</li>
+ <li>• Custo inferior a 50% de um equipamento novo</li>
  </ul>
  </div>
  <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">

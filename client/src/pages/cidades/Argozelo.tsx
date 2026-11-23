@@ -119,7 +119,7 @@ export default function Argozelo() {
             <div className="max-w-4xl">
               <Breadcrumbs items={[
                 { label: 'Canalizador', href: '/' },
-                { label: 'Trás-os-Montes', href: '/canalizador-tras-os-montes' },
+                { label: 'Trás-os-Montes' },
                 { label: 'Vimioso', href: '/canalizador-vimioso' },
                 { label: 'Argozelo', href: '/canalizador-argozelo' }
               ]} />

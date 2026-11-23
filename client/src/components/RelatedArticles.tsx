@@ -119,9 +119,6 @@ export default function RelatedArticles({ currentArticleSlug }: RelatedArticlesP
  Ver todos os artigos do blog
  </button>
  </Link>
- <p className="text-gray-600 text-sm mt-4">
- <strong>SEO Tip:</strong> Links internos entre artigos aumentam o tempo de permanência e melhoram a autoridade do domínio.
- </p>
  </div>
  </div>
  </section>

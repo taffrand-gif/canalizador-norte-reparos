@@ -24,14 +24,14 @@ export default function ComoDesentupirSanitaSozinho() {
  },
  {
  question: "Quanto custa canalizador para desentupir sanita?",
- answer: "Desentupimento simples: sob orçamento. Desentupimento com máquina: sob orçamento. Substituir sanita: sob orçamento. Inclui deslocação e mão-de-obra. Sem compromisso: 928 484 451"
+ answer: "Desentupimento simples: sob orçamento. Desentupimento com máquina: sob orçamento. Substituir sanita: sob orçamento. Inclui deslocação e mão-de-obra. Orçamento por escrito: 928 484 451"
  }
  ];
  const metodos = [
  {
  metodo: "Método 1: Ventosa (Desentupidor)",
  dificuldade: "Fácil",
- tempo: "10-alguns minutos",
+ tempo: "alguns minutos",
  eficacia: "80%",
  passos: [
  "Encha sanita com água até cobrir ventosa (15-20cm)",
@@ -48,13 +48,13 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 2: Água Quente + Detergente",
  dificuldade: "Muito Fácil",
- tempo: "20-alguns minutos",
+ tempo: "alguns minutos",
  eficacia: "60%",
  passos: [
  "Aqueça 5-6 litros de água (quente mas NÃO fervente)",
  "Adicione 3-4 colheres sopa de detergente líquido loiça",
  "Despeje lentamente na sanita de altura média (50cm)",
- "Deixe atuar 15-alguns minutos",
+ "Deixe atuar alguns minutos",
  "Puxe autoclismo",
  "Repita se necessário"
  ],
@@ -64,7 +64,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 3: Bicarbonato + Vinagre",
  dificuldade: "Fácil",
- tempo: "30-alguns minutos",
+ tempo: "alguns minutos",
  eficacia: "50%",
  passos: [
  "Retire excesso de água da sanita (deixe só fundo)",
@@ -81,7 +81,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 4: Arame Flexível (Mola)",
  dificuldade: "Média",
- tempo: "15-alguns minutos",
+ tempo: "alguns minutos",
  eficacia: "70%",
  passos: [
  "Use arame flexível ou cabide desdobrado",
@@ -98,7 +98,7 @@ export default function ComoDesentupirSanitaSozinho() {
  {
  metodo: "Método 5: Saco Plástico + Água Quente",
  dificuldade: "Média",
- tempo: "20-alguns minutos",
+ tempo: "alguns minutos",
  eficacia: "65%",
  passos: [
  "Encha saco plástico resistente com água quente",
@@ -160,7 +160,7 @@ export default function ComoDesentupirSanitaSozinho() {
  </h1>
  <p className="text-xl mb-8">
  5 métodos caseiros eficazes passo a passo. Poupe dinheiro e resolva já.
- Se não funcionar, chamamos A confirmar.
+ Se não funcionar, ligue-nos.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a
@@ -284,7 +284,7 @@ export default function ComoDesentupirSanitaSozinho() {
  <p className="text-gray-600 mb-4">
  ✅ Atendimento 24h em Trás-os-Montes<br />
  ✅ Disponível 24h/7 dias<br />
- ✅ Sem compromisso sem compromisso
+ ✅ Orçamento por escrito antes de qualquer intervenção
  </p>
  <a
  href={`tel:${config.phone.replace(/\s/g, "")}`}

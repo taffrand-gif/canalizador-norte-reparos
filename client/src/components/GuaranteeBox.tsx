@@ -74,11 +74,7 @@ function GuaranteeBox({
  })}
  </div>
  {/* Trust Badges */}
- <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
- <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
- <div className="text-3xl font-black text-green-600 mb-1">2 Anos</div>
- <div className="text-sm text-gray-700 font-semibold"></div>
- </div>
+ <div className="grid grid-cols-2 gap-4 mb-12">
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
  <div className="text-3xl font-black text-blue-600 mb-1">Atendimento 24h/7d</div>
  <div className="text-sm text-gray-700 font-semibold">Disponibilidade</div>
@@ -86,10 +82,6 @@ function GuaranteeBox({
  <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
  <div className="text-3xl font-black text-orange-600 mb-1">24h</div>
  <div className="text-sm text-gray-700 font-semibold">Tempo Resposta</div>
- </div>
- <div className="bg-white p-4 rounded-lg border-2 border-gray-200 text-center">
- <div className="text-3xl font-black text-purple-600 mb-1">Centenas</div>
- <div className="text-sm text-gray-700 font-semibold">Clientes Felizes</div>
  </div>
  </div>
  {/* CTA */}

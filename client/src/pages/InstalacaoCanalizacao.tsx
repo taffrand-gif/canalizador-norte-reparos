@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useEffect } from 'react';
 const faqItems = [
- { question: "Quanto custa uma instalação de canalização nova?", answer: "O preço depende da dimensão do projeto. Para uma casa de banho completa, os valores começam em €800. Para canalização de uma casa inteira, entre €2.000 e €5.000. Oferecemos sem compromisso." },
+ { question: "Quanto custa uma instalação de canalização nova?", answer: "O preço depende da dimensão do projeto. Uma casa de banho completa ou a canalização de uma casa inteira são feitas sob orçamento. Orçamento por escrito antes de qualquer intervenção." },
  { question: "Quanto tempo demora uma instalação completa?", answer: "Uma casa de banho demora 2-5 dias. Uma casa completa pode demorar 1-3 semanas dependendo da complexidade. Trabalhamos de forma eficiente para minimizar o incómodo." },
  { question: "Que materiais utilizam na canalização nova?", answer: "Utilizamos materiais de primeira qualidade: tubos multicamada, PPR e PEX para água, PVC para esgotos. Todos os materiais têm certificação e garantia do fabricante." }
 ];
@@ -12,7 +12,7 @@ export default function InstalacaoCanalizacao() {
  document.title = "Instalação de Canalização Nova em Trás-os-Montes | Canalizador Profissional";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) { meta = document.createElement('meta'); meta.setAttribute('name', 'description'); document.head.appendChild(meta); }
- meta.setAttribute('content', 'Instalação de canalização nova em Trás-os-Montes. Casas de banho, cozinhas, redes de água e esgotos. Materiais certificados, garantia. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Instalação de canalização nova em Trás-os-Montes. Casas de banho, cozinhas, redes de água e esgotos. Garantia do fabricante nos equipamentos e peças. Ligue +351 928 484 451.');
  }, []);
  const serviceSchema = {
  "@context": "https://schema.org", "@type": "Service",
@@ -31,7 +31,7 @@ export default function InstalacaoCanalizacao() {
  <section className="bg-gradient-to-br from-blue-700 to-blue-900 text-white py-20 px-4">
  <div className="max-w-4xl mx-auto text-center">
  <h1 className="text-4xl md:text-5xl font-bold mb-6">Instalação de Canalização Nova em Trás-os-Montes</h1>
- <p className="text-xl mb-8 max-w-2xl mx-auto">Instalação profissional de redes de água e esgotos para construção nova e remodelação. Materiais certificados e garantia no trabalho.</p>
+ <p className="text-xl mb-8 max-w-2xl mx-auto">Instalação profissional de redes de água e esgotos para construção nova e remodelação. Garantia do fabricante nos equipamentos e peças.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 Ligar Agora</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>
@@ -91,7 +91,7 @@ export default function InstalacaoCanalizacao() {
  <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
  <div className="max-w-4xl mx-auto text-center">
  <h2 className="text-3xl font-bold mb-4">Precisa de Canalização Nova?</h2>
- <p className="text-xl mb-8">Peça já o seu sem compromisso. Respondemos assim que possível, mediante confirmação.</p>
+ <p className="text-xl mb-8">Peça já o seu orçamento por escrito. Respondemos assim que possível, mediante confirmação.</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <a href={`tel:${ACTIVE_CONFIG.phone}`} className="bg-white text-blue-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors">📞 {ACTIVE_CONFIG.phone}</a>
  <a href={`https://wa.me/${ACTIVE_CONFIG.whatsappNumber}`} className="bg-green-700 hover:bg-green-800 text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">💬 WhatsApp</a>

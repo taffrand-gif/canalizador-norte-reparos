@@ -78,7 +78,7 @@ export default function Murça() {
 
  const cidadesProximas = getCidadesProximas('murca');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Murça?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Murça. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Murça?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Murça. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Murça?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Murça?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Murça. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Murça?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Murça. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Murça?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -91,7 +91,7 @@ export default function Murça() {
  <div className="max-w-4xl">
  <Breadcrumbs items={[
  { label: 'Canalizador', href: '/' },
- { label: 'Trás-os-Montes', href: '/tras-os-montes' },
+ { label: 'Trás-os-Montes' },
  { label: 'Murça', href: '/canalizador-murca' }
  ]} />
  <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -154,7 +154,7 @@ export default function Murça() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -213,7 +213,7 @@ export default function Murça() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">
