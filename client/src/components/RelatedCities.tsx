@@ -91,9 +91,6 @@ function RelatedCities({ currentCity, currentCitySlug }: RelatedCitiesProps) {
  ))}
  </div>
  <div className="text-center mt-8">
- <p className="text-gray-600 text-sm">
- <strong>SEO Tip:</strong> Links internos ajudam o Google a entender a estrutura do site e melhoram a autoridade das páginas.
- </p>
  </div>
  </div>
  </section>

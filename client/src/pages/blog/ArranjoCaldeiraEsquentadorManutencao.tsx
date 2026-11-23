@@ -56,7 +56,7 @@ export default function ArranjacaoCaldeiraEsquentadorManutencao() {
  <li>• Equipamento tem menos de 10 anos</li>
  <li>• Primeira avaria</li>
  <li>• Peças disponíveis</li>
- <li>• Custo inferior a €200</li>
+ <li>• Custo inferior a 50% de um equipamento novo</li>
  </ul>
  </div>
  <div className="p-6 bg-orange-50 rounded-xl border border-orange-200">

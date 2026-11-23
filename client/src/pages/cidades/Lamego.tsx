@@ -78,7 +78,7 @@ export default function Lamego() {
 
  const cidadesProximas = getCidadesProximas('lamego');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Lamego?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Lamego. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Lamego?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Lamego. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas, geofone para tubagens enterradas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Lamego?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Lamego. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Lamego?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Lamego. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -90,7 +90,7 @@ export default function Lamego() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Lamego, a deslocação é 30€ (110.7 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Lamego, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (110.7 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
@@ -160,7 +160,7 @@ export default function Lamego() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -219,7 +219,7 @@ export default function Lamego() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

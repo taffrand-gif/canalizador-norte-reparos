@@ -9,14 +9,14 @@ import GuaranteeBox from '@/components/GuaranteeBox';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 export default function CheiroMauCanalizacao() {
  useEffect(() => {
- document.title = "Cheiro Mau na Canalização? Eliminamos Atendimento rápido | Norte Reparos";
+ document.title = "Cheiro Mau na Canalização? Eliminamos a Origem | Norte Reparos";
  let meta = document.querySelector('meta[name="description"]');
  if (!meta) {
  meta = document.createElement('meta');
  meta.setAttribute('name', 'description');
  document.head.appendChild(meta);
  }
- meta.setAttribute('content', 'Cheiro mau na canalização? Eliminamos a origem Atendimento rápido. Solução definitiva, não temporária. Ligue +351 928 484 451.');
+ meta.setAttribute('content', 'Cheiro mau na canalização? Identificamos e tratamos a origem. Ligue +351 928 484 451.');
  }, []);
  const faqSchema = {
  "@context": "https://schema.org",
@@ -27,7 +27,7 @@ export default function CheiroMauCanalizacao() {
  "name": "Como eliminar cheiro mau na canalização?",
  "acceptedAnswer": {
  "@type": "Answer",
- "text": "Identificamos a origem (sifão seco, entupimento, falta de ventilação). Limpamos, desentupimos ou arranjamos. Eliminamos o cheiro definitivamente Atendimento rápido. Ligue +351 928 484 451."
+ "text": "Identificamos a origem (sifão seco, entupimento, falta de ventilação). Limpamos, desentupimos ou arranjamos. Tratamos a causa do cheiro. Ligue +351 928 484 451."
  }
  },
  {
@@ -48,7 +48,7 @@ export default function CheiroMauCanalizacao() {
  painPoint="CHEIRO MAU CANALIZAÇÃO"
  headline="Cheiro Mau Insuportável? Eliminamos a Origem"
  subheadline="Sabemos o embaraço que sente. Casa com mau cheiro, visitas constrangidas, ambientadores não resolvem. Eliminamos a causa hoje."
- urgencyText="Técnico Atendimento 24h • Cheiro eliminado Atendimento rápido"
+ urgencyText="Atendimento 24h"
  phone={ACTIVE_CONFIG.phone}
  whatsapp={ACTIVE_CONFIG.whatsappNumber}
  whatsappMessage="Olá! Tenho cheiro mau na canalização. Preciso de ajuda!"
@@ -59,7 +59,7 @@ export default function CheiroMauCanalizacao() {
  <PainPointSection
  title="Sabemos o Embaraço Que Está a Viver"
  subtitle="Cheiro mau na canalização não é só desagradável. É vergonha, insalubridade e stress constante."
- empathyStatement="Sabemos que não é culpa sua. Identificamos a origem e eliminamos definitivamente Atendimento rápido."
+ empathyStatement="Sabemos que não é culpa sua. Identificamos a origem e tratamos a causa."
  painPoints={[
  {
  icon: 'alert',
@@ -88,7 +88,7 @@ export default function CheiroMauCanalizacao() {
  ]}
  />
  <SolutionTimeline
- title="Como Eliminamos o Cheiro Atendimento rápido"
+ title="Como Tratamos o Cheiro"
  subtitle="Identificamos a origem, não mascaramos. Solução definitiva."
  totalTime="1-2 horas"
  steps={[
@@ -140,8 +140,8 @@ export default function CheiroMauCanalizacao() {
  },
  {
  icon: 'clock',
- title: 'Resolução em 1-2h',
- description: 'Na maioria dos casos eliminamos o cheiro em 1-2 horas. Solução rápida.'
+ title: 'Tempo indicado por escrito',
+ description: 'O tempo depende da causa: indicamos a estimativa por escrito, no orçamento.'
  },
  {
  icon: 'award',

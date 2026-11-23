@@ -78,7 +78,7 @@ export default function VilaReal() {
 
  const cidadesProximas = getCidadesProximas('vila-real');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Real?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Vila Real. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Vila Real?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Vila Real. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -90,7 +90,7 @@ export default function VilaReal() {
 <p data-p1="answer-first" style={{ background: "#fff5e0", borderLeft: "4px solid #FF6B35",
   padding: "18px 22px", margin: "0 0 24px 0", borderRadius: "8px",
   fontSize: "16px", lineHeight: 1.6, color: "#333", maxWidth: "920px" }}>
-  Em Vila Real, a deslocação é 30€ (85.7 km de Macedo de Cavaleiros). Mão de obra 70 €/h, orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
+  Em Vila Real, a deslocação é 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados (85.7 km de Macedo de Cavaleiros). Mão de obra 70 €/h em dias úteis e 100 €/h à noite, fins de semana e feriados; orçamento por escrito antes de qualquer trabalho. Contacto: <a href="tel:+351928484451" style={{ color: "#FF6B35", fontWeight: "bold", textDecoration: "none" }}>928 484 451</a>.
 </p>
  <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
  <div className="container mx-auto px-4">
@@ -160,7 +160,7 @@ export default function VilaReal() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -219,7 +219,7 @@ export default function VilaReal() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

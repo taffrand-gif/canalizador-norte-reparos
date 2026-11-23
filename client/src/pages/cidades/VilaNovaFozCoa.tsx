@@ -78,7 +78,7 @@ export default function VilaNovaFozCôa() {
 
  const cidadesProximas = getCidadesProximas('vila-nova-de-foz-coa');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Vila Nova de Foz Côa?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Vila Nova de Foz Côa?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Vila Nova de Foz Côa. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Vila Nova de Foz Côa?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR e geofone para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Vila Nova de Foz Côa?', 'answer': 'Dias úteis (9h–18h): mão de obra 70 €/hora e deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/hora e deslocação 50 €. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento por escrito antes de qualquer intervenção.'}, {'question': 'Fazem urgências em Vila Nova de Foz Côa?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Vila Nova de Foz Côa. Ligue +351 928 484 451.'}, {'question': 'Atendem propriedades rurais em Vila Nova de Foz Côa?', 'answer': 'Sim, servimos todo o conselho incluindo propriedades rurais e aldeias isoladas.'}, {'question': 'Têm câmara termográfica para deteção de fugas?', 'answer': 'Sim, utilizamos câmara termográfica FLIR para localização precisa de fugas sem demolição.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -154,7 +154,7 @@ export default function VilaNovaFozCôa() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -213,7 +213,7 @@ export default function VilaNovaFozCôa() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

@@ -78,7 +78,7 @@ export default function Sabrosa() {
 
  const cidadesProximas = getCidadesProximas('sabrosa');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Sabrosa?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Sabrosa. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sabrosa?', 'answer': 'Sim, Atendimento 24h/7d, 7 dias por semana em Sabrosa. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Sabrosa?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Sabrosa. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sabrosa?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Sabrosa. Ligue +351 928 484 451.'}, {'question': 'Chegam a propriedades no Douro Superior?', 'answer': 'Sim, servimos toda a região vinhateira incluindo quintas e adegas. Equipamento completo para intervenções.'}, {'question': 'Trabalham em quintas e explorações agrícolas?', 'answer': 'Sim, temos vasta experiência em sistemas de água para agricultura, irrigação e consumo animal.'}, {'question': 'Têm garantia?', 'answer': 'Sim, todas as intervenções têm garantia do fabricante nos equipamentos e peças.'}];
 
  return (
  <>
@@ -154,7 +154,7 @@ export default function Sabrosa() {
  💧 Arranjo de Fugas
  </h3>
  <p className="text-gray-600">
- Deteção com geofone e câmara termográfica FLIR. Reparação sem demolição.
+ Deteção com câmara termográfica FLIR. Reparação sem demolição.
  Fatura com NIF para seguro.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -213,7 +213,7 @@ export default function Sabrosa() {
  </h3>
  <p className="text-gray-600">
  Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
- deteção de fugas, geofone para tubagens enterradas.
+ deteção de fugas.
  </p>
  </div>
  <div className="bg-white p-6 rounded-xl shadow-lg">

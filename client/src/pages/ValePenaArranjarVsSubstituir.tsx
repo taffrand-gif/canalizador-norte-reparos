@@ -20,7 +20,7 @@ export default function ValePenaArranjarVsSubstituir() {
  },
  {
  question: "Quanto custa arranjar vs substituir esquentador?",
- answer: "Arranjo: sob orçamento (depende avaria). Substituir: sob orçamento (esquentador novo + instalação). Se arranjo custar >200€ e esquentador tiver >10 anos, substitua."
+ answer: "Arranjo: sob orçamento (depende avaria). Substituir: sob orçamento (esquentador novo + instalação). Se o arranjo custar mais de 50% do preço de um esquentador novo e o equipamento tiver mais de 10 anos, substitua."
  },
  {
  question: "Canos velhos: arranjar troço ou substituir tudo?",
@@ -42,7 +42,7 @@ export default function ValePenaArranjarVsSubstituir() {
  vantagens: ["Garantia do fabricante", "Eficiência -30% gás", "Segurança moderna"],
  desvantagens: ["Custo inicial alto", "Instalação 3-5h"]
  },
- recomendacao: "Substituir se >10 anos OU arranjo >200€"
+ recomendacao: "Substituir se >10 anos OU arranjo > 50% do preço de um novo"
  },
  {
  equipamento: "Caldeira",
@@ -58,14 +58,14 @@ export default function ValePenaArranjarVsSubstituir() {
  vantagens: ["Eficiência A+++", "Poupança 40% energia", "Garantia do fabricante"],
  desvantagens: ["Investimento alto", "Instalação complexa"]
  },
- recomendacao: "Substituir se >15 anos OU arranjo >300€"
+ recomendacao: "Substituir se >15 anos OU arranjo > 50% do preço de um novo"
  },
  {
  equipamento: "Canalização",
  arranjar: {
  custo: "sob orçamento/troço",
  quando: "Fuga isolada, canos <20 anos",
- vantagens: ["Resolve problema imediato", "Sem obras grandes"],
+ vantagens: ["Resolve problema imediato", "Obra limitada ao troço"],
  desvantagens: ["Outros troços podem fugar", "Solução temporária"]
  },
  substituir: {

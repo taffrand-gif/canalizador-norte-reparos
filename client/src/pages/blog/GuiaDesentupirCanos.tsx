@@ -188,7 +188,7 @@ export default function GuiaDesentupirCanos() {
             <li><strong>Risco para o utilizador</strong> — são cáusticos. Salpicar a pele ou os olhos exige lavagem imediata e prolongada. Em espaços sem ventilação, os vapores podem irritar vias respiratórias.</li>
           </ul>
           <p>
-            Para obstruções persistentes, o método mecânico (máquina de cabos ou hidrojato) é mais eficaz e mais seguro para a instalação a longo prazo — é o que um canalizador certificado utiliza.
+            Para obstruções persistentes, o método mecânico (máquina de cabos ou hidrojato) é mais eficaz e mais seguro para a instalação a longo prazo — é o que um canalizador utiliza.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">5. Sinais de que há problema mais fundo</h2>

@@ -280,7 +280,7 @@ const ComoDesentupirCanalizacaoSozinho: React.FC = () => {
  <h3 className="font-bold text-orange-900 mb-3 text-xl">⚠️ Métodos Não Funcionaram</h3>
  <ul className="space-y-2 text-orange-800">
  <li>✗ Tentou 2-3 métodos sem sucesso</li>
- <li>✗ Entupimento persiste há mais de Atendimento 24h/7d</li>
+ <li>✗ Entupimento persiste há mais de 24 horas</li>
  <li>✗ Problema volta repetidamente</li>
  <li>✗ Entupimento piora progressivamente</li>
  </ul>
