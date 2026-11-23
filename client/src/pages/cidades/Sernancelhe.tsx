@@ -78,7 +78,7 @@ export default function Sernancelhe() {
 
  const cidadesProximas = getCidadesProximas('sernancelhe');
 
- const faqs = [{'question': 'Qual o preço de canalizador em Sernancelhe?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Sernancelhe. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sernancelhe?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Sernancelhe. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para deteção de fugas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
+ const faqs = [{'question': 'Qual o preço de canalizador em Sernancelhe?', 'answer': 'Desde 100€ (150 € noite/fim de semana) em Sernancelhe. Desentupimentos, arranjo de fugas, instalação sanitários. Orçamento sem compromisso.'}, {'question': 'Fazem urgências em Sernancelhe?', 'answer': 'Sim, atendimento 24h, 7 dias por semana, em Sernancelhe. Ligue +351 928 484 451.'}, {'question': 'Atendem a zona do Douro Superior?', 'answer': 'Sim, servimos toda a região incluindo quintas vinícolas e propriedades rurais.'}, {'question': 'Que equipamento usam?', 'answer': 'Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para deteção de fugas.'}, {'question': 'Fornecem factura com NIF?', 'answer': 'Sim, todas as intervenções incluem factura com NIF para efeitos fiscais e de seguro.'}];
 
  return (
  <>
@@ -144,7 +144,7 @@ export default function Sernancelhe() {
  🔧 Desentupimentos
  </h3>
  <p className="text-gray-600">
- WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-102 para
+ WC, lavatórios, esgotos, fossas sépticas. Equipamento Ridgid K9-204 para
  desentupimentos profundos. Resolução garantida.
  </p>
  <p className="text-blue-600 font-bold mt-3">sob orçamento</p>
@@ -212,7 +212,7 @@ export default function Sernancelhe() {
  🔍 Equipamento Profissional
  </h3>
  <p className="text-gray-600">
- Ridgid K9-102 para desentupimentos, câmara termográfica FLIR para
+ Ridgid K9-204 para desentupimentos, câmara termográfica FLIR para
  deteção de fugas.
  </p>
  </div>
