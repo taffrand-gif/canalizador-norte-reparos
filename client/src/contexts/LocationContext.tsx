@@ -5,7 +5,7 @@ interface LocationContextType {
  isLoading: boolean;
  error: string | null;
  setSelectedCity: (city: string) => void;
- getCurrentCity: () => string;
+ getCurrentCity: () => string | null;
 }
 const LocationContext = createContext<LocationContextType | undefined>(undefined);
 const STORAGE_KEY = 'user_location';
@@ -34,7 +34,7 @@ export function LocationProvider({ children }: { children: ReactNode }) {
  }
  }
  // No IP geolocation: the visitor's IP is not sent to any third party.
- // Without a stored choice, getCurrentCity() falls back to Bragança.
+ // Without a stored choice, getCurrentCity() returns null: no default city.
  }, []);
  const cacheLocation = (city: string) => {
  const data: CachedLocation = {
@@ -47,8 +47,8 @@ export function LocationProvider({ children }: { children: ReactNode }) {
  setSelectedCity(city);
  cacheLocation(city);
  };
- const getCurrentCity = (): string => {
- return selectedCity || detectedCity || 'Bragança';
+ const getCurrentCity = (): string | null => {
+ return selectedCity || detectedCity || null;
  };
  return (
  <LocationContext.Provider

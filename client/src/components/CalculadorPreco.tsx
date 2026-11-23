@@ -63,7 +63,7 @@ function CalculadorPreco() {
  serviceName: service.label};
  }, [serviceIdx, isUrgent, services]);
  const waMsg = encodeURIComponent(
- `Olá! Estou em ${city}. Preciso de ${result.serviceName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
+ `Olá! ${city ? `Estou em ${city}. ` : ''}Preciso de ${result.serviceName}. Estimativa: ${result.totalMin}€-${result.totalMax}€. Podem vir?`
  );
  return (
  <section className="py-16 bg-white">
@@ -173,7 +173,7 @@ function CalculadorPreco() {
  </div>
  </div>
  <p className="text-xs text-gray-500 mb-6">
- * Estimativa para {city}. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Dias úteis 9h–18h: 70 €/h + deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/h + deslocação 50 €. Cada hora começada é devida.
+ * Estimativa para {city ?? 'a sua localidade'}. Preço exato comunicado ao telefone antes de sair. Sem surpresas garantido. Dias úteis 9h–18h: 70 €/h + deslocação 30 €. Noite (18h–9h), fins de semana e feriados: 100 €/h + deslocação 50 €. Cada hora começada é devida.
  </p>
  <a
  href={`https://wa.me/${whatsapp}?text=${waMsg}`}

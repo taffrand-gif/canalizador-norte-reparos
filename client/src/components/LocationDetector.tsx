@@ -83,7 +83,7 @@ export default function LocationDetector() {
  >
  <MapPin className="w-4 h-4 text-blue-600" />
  <span className="text-sm font-medium text-gray-700">
- {isLoading ? 'A detectar...' : currentCity}
+ {isLoading ? 'A detectar...' : (currentCity ?? 'Indicar localidade')}
  </span>
  </button>
  {/* City Selector Modal */}

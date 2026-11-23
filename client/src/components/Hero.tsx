@@ -9,17 +9,17 @@ import { useMemo } from 'react';
 import { Phone } from 'lucide-react';
 import { ServicesSlider } from './ServicesSlider';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
+import { useLocationContent, usePersonalizedWhatsAppMessage, SERVICE_AREA_LABEL, AVAILABILITY_BY_PHONE } from '@/hooks/useLocationContent';
 function Hero() {
  const { config } = useSite();
  const { trackPhoneClick, trackWhatsAppClick } = useAnalytics();
  const { city, arrivalTime } = useLocationContent();
  // Personalized title and subtitle
  const personalizedTitle = useMemo(() => {
- return `${config.hero.title.split('—')[0]}— ${city}`;
+ return city ? `${config.hero.title.split('—')[0]}— ${city}` : config.hero.title;
  }, [config.hero.title, city]);
 const personalizedSubtitle = useMemo(() => {
- return `Instalação e remodelação ao seu domicílio em ${city}. Orçamento por escrito, garantia do fabricante nos equipamentos e peças.`;
+ return `Instalação e remodelação ao seu domicílio em ${city ?? SERVICE_AREA_LABEL}${city ? '' : ` (${AVAILABILITY_BY_PHONE})`}. Orçamento por escrito, garantia do fabricante nos equipamentos e peças.`;
  }, [city]);
  const whatsappMessage = usePersonalizedWhatsAppMessage(config.whatsappMessage);
  return (
@@ -57,7 +57,7 @@ const personalizedSubtitle = useMemo(() => {
  {/* Service zone badge (sobre, sans pulsation agressive) */}
  <div className="mb-6 inline-block">
  <div className="bg-white/95 text-gray-900 px-6 py-2 rounded-full font-bold text-sm border border-gray-300">
- Serviço ao domicílio em {city} e Trás-os-Montes
+ {city ? `Serviço ao domicílio em ${city} e Trás-os-Montes` : `Serviço ao domicílio em ${SERVICE_AREA_LABEL}`}
  </div>
  </div>
  {/* CTA buttons — mobile: full width stacked, desktop: inline */}

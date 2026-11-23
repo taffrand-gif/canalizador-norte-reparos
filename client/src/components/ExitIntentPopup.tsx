@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, memo } from 'react';
 import { ACTIVE_CONFIG } from '@/../../shared/serviceConfig';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { useLocationContent, usePersonalizedWhatsAppMessage } from '@/hooks/useLocationContent';
+import { useLocationContent, usePersonalizedWhatsAppMessage, SERVICE_AREA_LABEL } from '@/hooks/useLocationContent';
 
 function ExitIntentPopup() {
   const [showPopup, setShowPopup] = useState(false);
@@ -133,10 +133,12 @@ function ExitIntentPopup() {
               {serviceName} disponível agora
             </h2>
             <p className="text-base md:text-lg font-bold mb-3" style={{ color: accentColor }}>
-              Atendimento 24h em {city}
+              Atendimento 24h em {city ?? SERVICE_AREA_LABEL}
             </p>
             <p className="text-gray-600 mb-5 text-sm md:text-base">
-              Não perca tempo. Temos um {serviceName.toLowerCase()} disponível que pode estar na sua porta em <strong>{arrivalTime}</strong>.
+              {city
+                ? <>Não perca tempo. Temos um {serviceName.toLowerCase()} disponível que pode estar na sua porta em <strong>{arrivalTime}</strong>.</>
+                : <>Não perca tempo. Ligue-nos: a disponibilidade é confirmada por telefone conforme a localização.</>}
             </p>
 
             {/* Benefits: mobile = 2 bullets, desktop = 4 bullets */}

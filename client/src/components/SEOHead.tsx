@@ -2,18 +2,10 @@
 // Preserves all existing SEO work from the original sites
 import { useEffect, useMemo } from 'react';
 import { useSite } from '@/contexts/SiteContext';
-import { useUserLocation } from '@/hooks/useUserLocation';
 export default function SEOHead() {
  const { config } = useSite();
- const { city, loading } = useUserLocation();
- 
- // Criar um título dinâmico baseado na localização
- const dynamicTitle = useMemo(() => {
- if (loading) return config.title; // Título padrão durante o carregamento
- // Substituir "Bragança" pela cidade detetada
- const serviceType = config.serviceType; // "Canalizador" ou "Eletricista"
- return `${serviceType} 24h ${city} | Urgências Trás-os-Montes`;
- }, [config, city, loading]);
+ // No visitor locality is known here: keep the configured title, never a default city.
+ const dynamicTitle = useMemo(() => config.title, [config]);
  useEffect(() => {
  // Update document title with dynamic location
  document.title = dynamicTitle;
