@@ -25,21 +25,6 @@ export const useAnalytics = () => {
 
  const trackWhatsAppClick = useCallback((_source: string) => {}, []);
 
- const trackQuoteCalculated = useCallback((service: string, urgency: string, price: string) => {
- trackEvent('quote_calculated', {
- event_category: 'engagement',
- event_label: `Service: ${service}`,
- urgency,
- estimated_price: price});
- }, [trackEvent]);
-
- const trackQuoteSentWhatsApp = useCallback((service: string) => {
- trackEvent('quote_sent_whatsapp', {
- event_category: 'conversion',
- event_label: `Service: ${service}`,
- value: 1});
- }, [trackEvent]);
-
  const trackExitPopupShown = useCallback(() => {
  trackEvent('exit_popup_shown', {
  event_category: 'engagement',
@@ -67,8 +52,6 @@ export const useAnalytics = () => {
  trackEvent,
  trackPhoneClick,
  trackWhatsAppClick,
- trackQuoteCalculated,
- trackQuoteSentWhatsApp,
  trackExitPopupShown,
  trackExitPopupConversion,
  trackScrollDepth,
