@@ -143,8 +143,8 @@ export default function Britiande() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Britiande" />
-          <RelatedCities currentCity="Britiande" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Britiande" />
+          <RelatedCities currentCity="Britiande" currentCitySlug="canalizador-britiande" />
         </div>
       </main>
       <Footer />

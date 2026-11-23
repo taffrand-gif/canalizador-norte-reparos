@@ -143,8 +143,8 @@ export default function AguiarBeira() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Aguiar da Beira" />
-          <RelatedCities currentCity="Aguiar da Beira" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Aguiar da Beira" />
+          <RelatedCities currentCity="Aguiar da Beira" currentCitySlug="canalizador-aguiar-da-beira" />
         </div>
       </main>
       <Footer />

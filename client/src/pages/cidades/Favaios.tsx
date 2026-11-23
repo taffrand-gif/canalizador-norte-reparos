@@ -143,8 +143,8 @@ export default function Favaios() {
 
           <FAQSection faqs={faqs} />
 
-          <CidadesProximas cidades={cidadesProximas} currentCity="Favaios" />
-          <RelatedCities currentCity="Favaios" />
+          <CidadesProximas serviceType="canalizador" cidades={cidadesProximas} currentCity="Favaios" />
+          <RelatedCities currentCity="Favaios" currentCitySlug="canalizador-favaios" />
         </div>
       </main>
       <Footer />
