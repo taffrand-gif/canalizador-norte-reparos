@@ -249,10 +249,6 @@ export default function DesentupirSanitaUrgente() {
  author: "Cliente L., Bragança"
  },
  {
- text: "Preço fixo 65€ como prometido. Rápidos, profissionais e simpáticos. Voltarei a chamar.",
- author: "Miguel R., Mirandela"
- },
- {
  text: "Domingo de manhã, visitas à tarde. Resolveram Atendimento rápido. Salvaram o meu dia!",
  author: "Ana P., Trás-os-Montes"
  }
