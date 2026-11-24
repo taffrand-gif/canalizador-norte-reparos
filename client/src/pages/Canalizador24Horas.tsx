@@ -52,7 +52,7 @@ export default function Canalizador24Horas() {
         name: 'Quanto custa chamar um canalizador 24 horas em Trás-os-Montes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A mão-de-obra segue a grelha em vigor (70 €/h em horário normal). A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. Aplicam-se majorações em horário noturno, fim de semana ou feriado. O orçamento é sempre entregue por escrito antes da intervenção.',
+          text: 'A mão-de-obra segue a grelha em vigor (70 €/h em horário normal). A deslocação tem preço único em qualquer localidade servida: 30 € em dias úteis (9h–18h) e 50 € à noite, fins de semana e feriados. O orçamento é sempre entregue por escrito antes da intervenção.',
         },
       },
       {
