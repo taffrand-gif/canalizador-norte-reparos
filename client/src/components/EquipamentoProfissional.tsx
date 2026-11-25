@@ -9,7 +9,7 @@ function EquipamentoProfissional({ className = '' }: EquipamentoProfissionalProp
  const accentColor = isPlumber ? '#0e7490' : '#FF6B35';
  const equipmentPlumber = [
  {
- name: 'Ridgid K-9102 FlexShaft',
+ name: 'Ridgid FlexShaft K9-204',
  price: '€8.000',
  description: 'Desentupimento profissional até 30+ metros',
  icon: '🔧'

@@ -27,7 +27,7 @@ function GuaranteeSection() {
  {
  icon: '🔧',
  title: 'Equipamento Profissional',
- description: 'Ridgid K-9102 + Câmara 30m + FLIR — Resolve na primeira vez',
+ description: 'Ridgid K9-204 + Câmara 30m + FLIR — Resolve na primeira vez',
  badge: 'Pro'
  },
  {

@@ -17,7 +17,7 @@ gtag('consent', 'default', {
 });
 </script>
 <!-- GA4 — canalizador-norte-reparos.pt G-VWSWFQB71H (injecté 2026-08-04, mission t_e145af0d) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H"></script>
+<!-- GA4 gtag.js : chargé seulement après consentement explicite (bandeau RGPD) -->
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -151,7 +151,7 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
  <p>Servimos as freguesias do concelho de Alijó e articulamos deslocações com outros concelhos de Vila Real e Trás-os-Montes conforme agenda da equipa. A saída só é feita depois de confirmada a morada e o custo de deslocação.</p>
 
  <h3>Porque escolher a Norte Reparos</h3>
- <p>Em Alijó trabalhamos com fatura com NIF, seguro de responsabilidade civil, garantia do fabricante nos equipamentos e peças e equipamentos profissionais como Ridgid K9-102, câmara de inspeção e FLIR para tubagens em xisto, adegas húmidas e fugas ocultas. Explicamos a solução antes de iniciar e evitamos substituições desnecessárias.</p>
+ <p>Em Alijó trabalhamos com fatura com NIF, seguro de responsabilidade civil, garantia do fabricante nos equipamentos e peças e equipamentos profissionais como Ridgid K9-204, câmara de inspeção e FLIR para tubagens em xisto, adegas húmidas e fugas ocultas. Explicamos a solução antes de iniciar e evitamos substituições desnecessárias.</p>
 
  <h3>Como agendar uma intervenção</h3>
  <p>Contacte-nos por telefone ou WhatsApp, indique a freguesia, descreva o problema e envie fotografias se possível. Confirmamos a deslocação (30€), a mão de obra a 70 €/h e o orçamento por escrito antes de qualquer intervenção.</p>
@@ -206,11 +206,12 @@ window.trackWhatsAppClick = function(source) { gtag('event', 'click_whatsapp', {
 (function(){
 var KEY="rgpd-consent-cnr-v1";
 var saved=null;try{saved=localStorage.getItem(KEY);}catch(e){}
-if(saved==="granted"||saved==="denied"){var v=saved;gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});return;}
+if(saved==="granted"||saved==="denied"){var v=saved;gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});if(v==="granted")(function(){if(window.__ga4Loaded)return;window.__ga4Loaded=1;var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H";document.head.appendChild(g);})();return;}
 function applyChoice(v){
 try{localStorage.setItem(KEY,v);}catch(e){}
 gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});
 var el=document.getElementById("rgpd-banner-cnr");if(el)el.remove();
+if(v==="granted")(function(){if(window.__ga4Loaded)return;window.__ga4Loaded=1;var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H";document.head.appendChild(g);})();
 }
 function showBanner(){
 if(document.getElementById("rgpd-banner-cnr"))return;

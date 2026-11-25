@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 // - Clé localStorage : 'rgpd-consent-cnr-v1'
 // - Valeurs : 'granted' | 'denied'
 // Conformité : Google Consent Mode v2 (Consent Mode v2 = default denied + opt-in/out UI)
-// GA4 reste chargé sans cookie tant que pas d'opt-in (security_storage: granted pour anti-fraude)
+// GA4 (gtag.js) n'est chargé qu'après opt-in explicite (mode de base)
 const KEY = 'rgpd-consent-cnr-v1';
 const STORAGES = [
   'ad_storage',
@@ -21,6 +21,14 @@ function applyConsent(value: 'granted' | 'denied') {
   const payload: Record<string, string> = {};
   for (const k of STORAGES) payload[k] = value;
   window.gtag('consent', 'update', payload);
+  // GA4 basic mode: gtag.js is only loaded after explicit consent.
+  if (value === 'granted' && !(window as any).__ga4Loaded) {
+    (window as any).__ga4Loaded = 1;
+    const g = document.createElement('script');
+    g.async = true;
+    g.src = 'https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H';
+    document.head.appendChild(g);
+  }
 }
 
 export default function CookieConsent() {
@@ -34,7 +42,11 @@ export default function CookieConsent() {
       return;
     }
     // Pas de choix → afficher après 400ms (UX : pas de flash initial)
-    const t = setTimeout(() => setIsVisible(true), 400);
+    // Pages pré-rendues : le bandeau statique rgpd-banner-cnr est déjà là → un seul bandeau.
+    const t = setTimeout(() => {
+      if (document.getElementById('rgpd-banner-cnr') || localStorage.getItem(KEY)) return;
+      setIsVisible(true);
+    }, 400);
     return () => clearTimeout(t);
   }, []);
 

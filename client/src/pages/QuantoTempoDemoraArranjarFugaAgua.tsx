@@ -328,7 +328,7 @@ export default function QuantoTempoDemoraArranjarFugaAgua() {
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />
- <span>Equipamento profissional verificado (Ridgid K9-102, FLIR)</span>
+ <span>Equipamento profissional verificado (Ridgid K9-204, FLIR)</span>
  </div>
  <div className="flex items-start gap-2">
  <CheckCircle className="w-5 h-5 text-[#2193b0] flex-shrink-0 mt-0.5" />

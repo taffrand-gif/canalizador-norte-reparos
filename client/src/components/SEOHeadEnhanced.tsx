@@ -218,6 +218,7 @@ export default function SEOHeadEnhanced({
  }
  // Adiar carregamento GTM por 3s após carregamento da página para melhor desempenho
  const loadGTM = () => {
+ if (localStorage.getItem('rgpd-consent-cnr-v1') !== 'granted') return;
  if (document.querySelector('script[src*="googletagmanager.com/gtag"]')) return;
  setTimeout(() => {
  const script = document.createElement('script');

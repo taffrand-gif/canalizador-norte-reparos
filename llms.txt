@@ -37,7 +37,7 @@ A Norte Reparos é uma empresa técnica profissional que atua na região de Trá
 Bragança, Mirandela, Chaves, Macedo de Cavaleiros, Vila Real, Mogadouro, Vinhais, Miranda do Douro, Alfândega da Fé, Vila Flor, Carrazeda de Ansiães, Torre de Moncorvo, Freixo de Espada à Cinta, Vimioso, Valpaços, Murça, Lamego, Peso da Régua, Alijó, Sabrosa.
 
 ## Equipamento profissional
-- Ridgid FlexShaft K9-102 (desentupimento mecânico industrial)
+- Ridgid FlexShaft K9-204 (desentupimento mecânico industrial)
 - Câmara de inspeção CCTV
 - Câmara térmica FLIR
 - Kit fluorosceína UV

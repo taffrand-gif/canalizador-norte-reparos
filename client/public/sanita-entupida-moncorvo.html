@@ -14,7 +14,7 @@ gtag('consent', 'default', {
 });
 </script>
 <!-- GA4 — canalizador-norte-reparos.pt G-VWSWFQB71H (injecté 2026-08-04, mission t_e145af0d) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H"></script>
+<!-- GA4 gtag.js : chargé seulement après consentement explicite (bandeau RGPD) -->
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -91,11 +91,12 @@ Tem problema de <strong>sanita entupida em Moncorvo</strong>? Atendemos urgênci
 (function(){
 var KEY="rgpd-consent-cnr-v1";
 var saved=null;try{saved=localStorage.getItem(KEY);}catch(e){}
-if(saved==="granted"||saved==="denied"){var v=saved;gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});return;}
+if(saved==="granted"||saved==="denied"){var v=saved;gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});if(v==="granted")(function(){if(window.__ga4Loaded)return;window.__ga4Loaded=1;var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H";document.head.appendChild(g);})();return;}
 function applyChoice(v){
 try{localStorage.setItem(KEY,v);}catch(e){}
 gtag("consent","update",{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v,functionality_storage:v,personalization_storage:v});
 var el=document.getElementById("rgpd-banner-cnr");if(el)el.remove();
+if(v==="granted")(function(){if(window.__ga4Loaded)return;window.__ga4Loaded=1;var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id=G-VWSWFQB71H";document.head.appendChild(g);})();
 }
 function showBanner(){
 if(document.getElementById("rgpd-banner-cnr"))return;
