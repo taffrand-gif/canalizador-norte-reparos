@@ -2,12 +2,15 @@ import { useMemo } from 'react';
 import { useLocation } from '@/contexts/LocationContext';
 import { CITIES } from '@/../../shared/serviceConfig';
 interface LocationContentConfig {
- city: string;
- distance: number;
+ city: string | null;
+ distance: number | null;
  arrivalTime: string;
  priceAdjustment: number;
  region: string;
 }
+// Shown when the visitor's locality is unknown (no default city).
+export const SERVICE_AREA_LABEL = 'Trás-os-Montes, até 130 km de Macedo de Cavaleiros';
+export const AVAILABILITY_BY_PHONE = 'disponibilidade a confirmar por telefone';
 // Base location (Trás-os-Montes)
 const BASE_LAT = 41.5382;
 const BASE_LON = -6.9667;
@@ -77,6 +80,14 @@ export function useLocationContent(): LocationContentConfig {
  const { getCurrentCity } = useLocation();
  return useMemo(() => {
  const city = getCurrentCity();
+ if (!city) {
+ return {
+ city: null,
+ distance: null,
+ arrivalTime: 'A confirmar por telefone',
+ priceAdjustment: 0,
+ region: 'Trás-os-Montes'};
+ }
  const distance = getDistanceToCity(city);
  const arrivalTime = getArrivalTime(distance);
  const priceAdjustment = getPriceAdjustment(distance);
@@ -93,7 +104,7 @@ export function useLocationContent(): LocationContentConfig {
 export function usePersonalizedWhatsAppMessage(baseMessage: string): string {
  const { city } = useLocationContent();
  return useMemo(() => {
- return `Olá! Estou em ${city}. ${baseMessage}`;
+ return city ? `Olá! Estou em ${city}. ${baseMessage}` : baseMessage;
  }, [city, baseMessage]);
 }
 // Hook for filtering testimonials by location

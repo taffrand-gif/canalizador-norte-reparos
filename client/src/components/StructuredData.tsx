@@ -3,19 +3,16 @@
 import { useEffect } from 'react';
 import { useSite } from '@/contexts/SiteContext';
 import { useLocation as useWouterLocation } from 'wouter';
-import { useLocation } from '@/contexts/LocationContext';
 import { businessInfo, getCityAddress } from '@/shared/napConfig';
 export default function StructuredData() {
  const { config } = useSite();
  const [location] = useWouterLocation();
- const { getCurrentCity } = useLocation();
  useEffect(() => {
  // Remover scripts existentes
  const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
  existingScripts.forEach(script => script.remove());
  const businessType = 'Plumber';
  const serviceName = 'Canalizador';
- const detectedCity = getCurrentCity();
  // Não adicionar FAQPage nas páginas de cidade (CityServicePage já tem o seu próprio FAQPage)
  // Pattern: /:service-:city (ex: /canalizador-braganca, /desentupimento-mirandela)
  const isCityServicePage = location.match(/\/[a-z-]+-[a-z-]+$/);
@@ -42,7 +39,7 @@ export default function StructuredData() {
  "name": config.name,
  "legalName": config.company.fullName,
  "alternateName": serviceName,
- "description": `${config.description} Atualmente a servir ${detectedCity} e região.`,
+ "description": config.description,
  "slogan": "Orçamento por escrito • Trás-os-Montes • Resposta por telefone",
  "url": `https://${config.domain}`,
  "telephone": businessInfo.phone,
@@ -60,14 +57,6 @@ export default function StructuredData() {
  {
  "@type": "GeoCircle",
  "geoRadius": "130000"
- },
- {
- "@type": "City",
- "name": detectedCity,
- "containedInPlace": {
- "@type": "AdministrativeArea",
- "name": "Trás-os-Montes"
- }
  },
  ...citiesServed.map(city => ({
  "@type": "City",
@@ -429,6 +418,6 @@ export default function StructuredData() {
  script.text = JSON.stringify(schema);
  document.head.appendChild(script);
  });
- }, [config, location, getCurrentCity]);
+ }, [config, location]);
  return null;
 }
