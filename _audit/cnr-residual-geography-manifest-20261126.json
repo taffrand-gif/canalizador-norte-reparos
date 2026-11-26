@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-26",
+  "repo": "canalizador-norte-reparos",
+  "base_commit": "bbf4d52f1bc68f5ee0b8486fc4387f092c0df0be",
+  "source": "20-BUSINESS-FACTS.json",
+  "policy": "Moimenta da Beira hors couverture; Moimenta de Vinhais/canalizador-moimenta conservée; Tavira non servie; PAA Tavira déjà noindex et à retirer des surfaces d’indexation",
+  "before": {
+    "moimenta_da_beira_html_files": 106,
+    "moimenta_da_beira_html_occurrences": 110,
+    "tavira_paa_html_files": 19,
+    "tavira_sitemap_url_blocks": 15,
+    "tavira_indexnow_urls": 19
+  },
+  "after_expected": {
+    "moimenta_da_beira_html_files": 0,
+    "tavira_paa_html_files": 0,
+    "tavira_sitemap_url_blocks": 0,
+    "tavira_indexnow_urls": 0,
+    "canalizador_moimenta_preserved": true
+  },
+  "population": {
+    "moimenta_da_beira": "106 copies HTML: blocs commerciaux Zona de intervenção + index/Schema, maintenance, formulaire orcamento et FAQ globale",
+    "tavira_paa": "client/public/paa/*tavira*.html",
+    "tavira_index_surfaces": ["client/public/canalizador-norte-reparos-indexnow-urls.txt", "client/public/sitemap-plain.xml"]
+  },
+  "invariants": [
+    "Ne pas supprimer canalizador-moimenta.html ni /canalizador-moimenta",
+    "Ne pas supprimer les pages commerciales valides d'autres localités",
+    "Ne pas toucher CU/ENR/EU",
+    "Aucun merge, déploiement Production, 301, DNS ou force-push"
+  ],
+  "classification": {
+    "moimenta_da_beira": "commercial-zone-block/schema/FAQ hors couverture confirmée à 131.3 km",
+    "tavira": "19 pages PAA noindex,nofollow; suppression du dépôt et des URLs d'indexation"
+  }
+}
