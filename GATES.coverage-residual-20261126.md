@@ -9,6 +9,9 @@ Remover a menção comercial confirmada fora do perímetro `Moimenta da Beira` d
 - `client/src/pages/QuantoTempoDemoraArranjarFugaAgua.tsx`
 - `client/src/pages/QuantoTempoDemoraDesentupirSanita.tsx`
 - `client/src/pages/QuantoTempoSemAguaQuente.tsx`
+- `client/public/quanto-tempo-demora-arranjar-fuga-agua.html`
+- `client/public/quanto-tempo-demora-desentupir-sanita.html`
+- `client/public/quanto-tempo-sem-agua-quente.html`
 
 ## Invariantes
 - `Moimenta da Beira` = zero na população fechada e nos artefactos regenerados correspondentes.
