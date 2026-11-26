@@ -86,4 +86,4 @@ La liste finale doit rester limitée à la page témoin et aux fichiers de preuv
 
 `PARTIEL` — source + build + parité sitemap sont contrôlés ; Preview/DOM Preview et production restent **NON VÉRIFIÉES**. `PASS_PREVIEW` seulement après contrôle DOM sur URL Preview. Aucun statut `PASS_PRODUCTION` sans merge autorisé et contrôle post-production.
 
-**FINI = [commande: source gate + npm run build + npm run lint:sitemap-parity + git diff --check][population: 1 page CNR][commit: 5d559598d8][source: BUSINESS-FACTS + doctrine][niveau: PARTIEL / PASS_BUILD][production: inchangée][exceptions: aucune].**
+**FINI = [commande: source gate + npm run build + npm run lint:sitemap-parity + git diff --check][population: 1 page CNR][commit: 58d1474483][source: BUSINESS-FACTS + doctrine][niveau: PARTIEL / PASS_BUILD][production: inchangée][exceptions: aucune].**
