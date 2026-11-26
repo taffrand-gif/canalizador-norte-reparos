@@ -90,7 +90,7 @@ export default function QuantoTempoSemAguaQuente() {
  ]
  };
  const zonas = [
- { zona: "Todas as localidades servidas", cidades: "Macedo de Cavaleiros, Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães, Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta, Miranda do Douro, Foz Côa, Murça, Valpaços, Pesqueira, Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta. Marta de Penaguião, Mesão Frio, Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Moimenta da Beira, Sernancelhe, Penedono", deslocacao: "30 € / 50 €" }
+ { zona: "Todas as localidades servidas", cidades: "Macedo de Cavaleiros, Vila Flor, Alfândega da Fé, Mirandela, Carrazeda de Ansiães, Bragança, Vinhais, Vimioso, Torre de Moncorvo, Mogadouro, Freixo de Espada à Cinta, Miranda do Douro, Foz Côa, Murça, Valpaços, Pesqueira, Vila Real, Alijó, Sabrosa, Tabuaço, Armamar, Régua, Lamego, Sta. Marta de Penaguião, Mesão Frio, Chaves, Vila Pouca de Aguiar, Boticas, Montalegre, Ribeira de Pena, Mondim de Basto, Sernancelhe, Penedono", deslocacao: "30 € / 50 €" }
  ];
  const factores = [
  {
