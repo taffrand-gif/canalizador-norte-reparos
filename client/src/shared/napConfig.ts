@@ -81,9 +81,8 @@ export const cityNAPData: Record<string, CityNAP> = {
  'palheiros': { name: 'Palheiros', slug: 'palheiros', postalCode: '5090-301', district: 'Vila Real', addressRegion: 'Vila Real' },
  'carrazedo-montenegro': { name: 'Carrazedo de Montenegro', slug: 'carrazedo-montenegro', postalCode: '5430-051', district: 'Vila Real', addressRegion: 'Vila Real' },
  'jou': { name: 'Jou', slug: 'jou', postalCode: '5430-201', district: 'Vila Real', addressRegion: 'Vila Real' },
- // Viseu District
- 'moimenta-beira': { name: 'Moimenta da Beira', slug: 'moimenta-beira', postalCode: '3620-001', district: 'Viseu', addressRegion: 'Viseu' },
- 'sernancelhe': { name: 'Sernancelhe', slug: 'sernancelhe', postalCode: '3640-001', district: 'Viseu', addressRegion: 'Viseu' },
+	 // Viseu District
+	 'sernancelhe': { name: 'Sernancelhe', slug: 'sernancelhe', postalCode: '3640-001', district: 'Viseu', addressRegion: 'Viseu' },
  'possacos': { name: 'Possacos', slug: 'possacos', postalCode: '5430-301', district: 'Viseu', addressRegion: 'Viseu' },
  'santa-valha': { name: 'Santa Valha', slug: 'santa-valha', postalCode: '5430-401', district: 'Viseu', addressRegion: 'Viseu' },
  'vassal': { name: 'Vassal', slug: 'vassal', postalCode: '5430-501', district: 'Viseu', addressRegion: 'Viseu' },

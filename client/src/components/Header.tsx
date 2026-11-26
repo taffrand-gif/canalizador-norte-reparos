@@ -48,9 +48,8 @@ const districts: District[] = [
  {
  name: 'Distrito de Viseu / Guarda',
  cities: [
- { name: 'Lamego', href: '/canalizador-lamego' },
- { name: 'Moimenta da Beira', href: '/canalizador-moimenta-da-beira' },
- { name: 'São João da Pesqueira', href: '/canalizador-sao-joao-da-pesqueira' },
+	 { name: 'Lamego', href: '/canalizador-lamego' },
+	 { name: 'São João da Pesqueira', href: '/canalizador-sao-joao-da-pesqueira' },
  { name: 'Tabuaço', href: '/canalizador-tabuaco' },
  { name: 'Armamar', href: '/canalizador-armamar' },
  { name: 'Sernancelhe', href: '/canalizador-sernancelhe' },
