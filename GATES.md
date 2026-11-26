@@ -1,6 +1,6 @@
 # GATES — pilote CNR fuite / deteção
 
-**Statut :** préparatoire — aucune modification de contenu encore appliquée.
+**Statut :** `PARTIEL` — source, build et parité sitemap contrôlés ; Preview/production non vérifiées.
 **Branche :** `seo/pilot-cnr-fuga-20261126`
 **Worktree :** `/Users/admin/work/Sites/_worktrees/seo-pilot-cnr-fuga-20261126`
 **Base :** `origin/main` à `e11d1a1373`
@@ -84,6 +84,6 @@ La liste finale doit rester limitée à la page témoin et aux fichiers de preuv
 
 ## Statut de sortie attendu
 
-`PARTIEL` tant que source + build + Preview ne sont pas contrôlés. `PASS_PREVIEW` seulement après contrôle DOM sur URL Preview. Aucun statut `PASS_PRODUCTION` sans merge autorisé et contrôle post-production.
+`PARTIEL` — source + build + parité sitemap sont contrôlés ; Preview/DOM Preview et production restent **NON VÉRIFIÉES**. `PASS_PREVIEW` seulement après contrôle DOM sur URL Preview. Aucun statut `PASS_PRODUCTION` sans merge autorisé et contrôle post-production.
 
-**FINI = [commande: à compléter après contrôles][population: 1 page CNR][commit: à compléter][source: BUSINESS-FACTS + doctrine][niveau: PARTIEL initial][production: inchangée][exceptions: aucune].**
+**FINI = [commande: source gate + npm run build + npm run lint:sitemap-parity + git diff --check][population: 1 page CNR][commit: 5d559598d8][source: BUSINESS-FACTS + doctrine][niveau: PARTIEL / PASS_BUILD][production: inchangée][exceptions: aucune].**
