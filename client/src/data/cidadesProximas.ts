@@ -246,14 +246,6 @@ export const cidadesProximasPenedono = [
  { name: 'Lamego', slug: 'lamego', distance: '50km', zona: 4 },
  { name: 'São João da Pesqueira', slug: 'sao-joao-da-pesqueira', distance: '45km', zona: 3 }
 ];
-export const cidadesProximasMoimentaBeira = [
- { name: 'Penedono', slug: 'penedono', distance: '20km', zona: 2 },
- { name: 'Sernancelhe', slug: 'sernancelhe', distance: '25km', zona: 2 },
- { name: 'Tabuaço', slug: 'tabuaco', distance: '45km', zona: 3 },
- { name: 'Lamego', slug: 'lamego', distance: '55km', zona: 4 },
- { name: 'Vila Nova de Foz Côa', slug: 'vila-nova-foz-coa', distance: '60km', zona: 4 },
- { name: 'São João da Pesqueira', slug: 'sao-joao-da-pesqueira', distance: '50km', zona: 4 }
-];
 export const cidadesProximasVilaNovaFozCoa = [
  { name: 'Freixo de Espada à Cinta', slug: 'freixo-espada-cinta', distance: '35km', zona: 3 },
  { name: 'Torre de Moncorvo', slug: 'torre-moncorvo', distance: '45km', zona: 3 },
@@ -295,7 +287,6 @@ export function getCidadesProximas(citySlug: string) {
  'armamar': cidadesProximasArmamar,
  'sernancelhe': cidadesProximasSernancelhe,
  'penedono': cidadesProximasPenedono,
- 'moimenta-beira': cidadesProximasMoimentaBeira,
  'vila-nova-foz-coa': cidadesProximasVilaNovaFozCoa
  };
  return mapping[citySlug] || [];
