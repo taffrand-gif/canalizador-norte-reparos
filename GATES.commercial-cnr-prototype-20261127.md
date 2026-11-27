@@ -1,7 +1,7 @@
 # Gate prototype commercial CNR — fuite d’eau Chaves
 
 Date : 2026-11-27
-Statut initial : `À REVOIR`
+Statut courant : `PARTIEL`
 Branche : `seo/coverage-geo-neutral-cnr-20261127`
 Production : interdite dans ce lot
 
@@ -21,18 +21,26 @@ Production : interdite dans ce lot
 
 ## Invariants obligatoires après modification
 
-- [ ] `npm run build` exit 0
-- [ ] Aucun `2 anos garantia` dans la page témoin
-- [ ] Aucun `K9-306`, `FlexShaft`, `K-9102` dans la page témoin
-- [ ] Aucun claim `500.000 €` ou `500 000 €`
-- [ ] Aucun DGEG/TRIESP sur CNR
-- [ ] Aucun délai d’arrivée chiffré
-- [ ] Prix autorisés présents : 70 €/h + 30 € jour ; 100 €/h + 50 € nuit/week-end/fériés ; TTC
-- [ ] Mention du devis écrit avant intervention présente
-- [ ] `tel:+351928484451` présent
-- [ ] WhatsApp plomberie `wa.me/351928484451` présent
-- [ ] Les méthodes restent conditionnelles et sans résultat garanti
-- [ ] Le diff reste limité à la page témoin et à ce gate
+- [x] `npm run build` exit 0 — contrôle du 2026-11-27
+- [x] Aucun `2 anos garantia` dans la page témoin — contrôle `ROUTE_SOURCE_CHECK=PASS`
+- [x] Aucun `K9-306`, `FlexShaft`, `K-9102` dans la page témoin — contrôle `ROUTE_SOURCE_CHECK=PASS`
+- [x] Aucun claim `500.000 €` ou `500 000 €` — contrôle ciblé
+- [x] Aucun DGEG/TRIESP sur CNR — contrôle ciblé
+- [x] Aucun délai d’arrivée chiffré — contrôle ciblé
+- [x] Prix autorisés présents : 70 €/h + 30 € jour ; 100 €/h + 50 € nuit/week-end/fériés ; TTC — contrôle ciblé
+- [x] Mention du devis écrit avant intervention présente — contrôle ciblé
+- [x] `tel:+351928484451` présent — contrôle ciblé
+- [x] WhatsApp plomberie `wa.me/351928484451` présent — contrôle ciblé
+- [x] Les méthodes restent conditionnelles et sans résultat garanti — contrôle ciblé
+- [x] Le diff reste limité à la page témoin et à ce gate — vérification Git
+
+## Preuves Preview
+
+- [x] Déploiement `dpl_vHNtuNxT7e5w3Mhwz1Bb2iVrjHoi` `READY`, commit `2557d0b8c02547c4c575c72b1328821e1579f223`.
+- [x] `/fugas-agua-chaves` : HTTP 200, sans redirection, canonical self, téléphone et WhatsApp présents.
+- [x] `/fugas-agua-chaves.html` : HTTP 200, contenu identique à la route sans extension.
+- [ ] Indexabilité Preview non recevable : Vercel ajoute `X-Robots-Tag: noindex` sur la Preview ; contrôle Production interdit sans GO.
+- [ ] DOM Playwright non exécuté ; Preview protégée et présence du `noindex` Preview empêche de classer la page comme preuve Production.
 
 ## Preuves requises
 
@@ -40,4 +48,6 @@ Production : interdite dans ce lot
 FINI = [commande][population][commit][source][niveau][production][exceptions]
 ```
 
-Niveau attendu du prototype : `PARTIEL` tant que Preview/DOM ne sont pas contrôlés.
+Niveau actuel : `PARTIEL`.
+
+FINI = [commande: npm run build + npm run lint:sitemap-parity + git diff --check + ROUTE_SOURCE_CHECK][population: page témoin CNR][commit: à créer][source: 20-BUSINESS-FACTS.json + doctrine CNR][niveau: PARTIEL][production: inchangée][exceptions: X-Robots-Tag noindex ajouté par Preview Vercel, DOM non vérifié]
