@@ -34,4 +34,8 @@ Statut : `PARTIEL` jusqu’au contrôle DOM de la nouvelle Preview Vercel. Les e
 
 Les 20 faux positifs venaient de `Preço justo` présent dans les meta descriptions et titres commerciaux, pas dans des témoignages. Le script `scripts/audit-static-local-claims-cnr.mjs` a été corrigé pour limiter `testimonialText` aux blocs HTML `<blockquote>`. Après correction : population `1 832`, `numericArrival=0`, `reviewInitials=0`, `testimonialText=0`, `obsoleteInsurance=0`, `dgeg=0`, `personalAddress=0`.
 
-Preuves rejouées après correction : `node scripts/apply-static-local-claims-cnr.mjs` retourne `changedFiles=0`, `npm run build` exit 0, `npm run lint:sitemap-parity` PASS avec `3 214` URLs et `455 236` bytes, et `git diff --check` PASS. Le statut reste `PARTIEL` jusqu’à une Preview correspondant au commit de correction de l’auditeur ; la Preview contrôlée précédemment correspond au commit `be51dafdef`.
+Preuves rejouées après correction : `node scripts/apply-static-local-claims-cnr.mjs` retourne `changedFiles=0`, `npm run build` exit 0, `npm run lint:sitemap-parity` PASS avec `3 214` URLs et `455 236` bytes, et `git diff --check` PASS. La nouvelle Preview correspondant au commit `7c6b1da350c37de8885a5e758335832349a24dd7` est READY : `https://canalizador-norte-reparos-hy8vg2rtu-filipes-projects-4b992c3d.vercel.app/`. Racine, Moimenta et Chaves ont été contrôlées dans le DOM authentifié ; téléphone/WhatsApp, RC autorisée, délai confirmé par téléphone et séparation plomberie sont présents ; aucun claim legacy ciblé ni DGEG/TRIESP observé.
+
+Statut du lot claims : `PASS_COMPLET_AVEC_EXCEPTION` — Preview et DOM validés ; Production, merge et contrôle Jev non effectués conformément au GO requis.
+
+FINI = `[node scripts/audit-static-local-claims-cnr.mjs][population 1 832][7c6b1da350][20-BUSINESS-FACTS.json][PASS_COMPLET_AVEC_EXCEPTION][Production non touchée][merge/JeV non vérifiés]`
