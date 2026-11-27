@@ -2106,11 +2106,6 @@
       "statusCode": 410
     },
     {
-      "source": "/detecao-fugas-agua-chaves",
-      "destination": "/detecao-fugas-agua-chaves",
-      "statusCode": 410
-    },
-    {
       "source": "/detecao-fugas-agua-lamego",
       "destination": "/detecao-fugas-agua-lamego",
       "statusCode": 410
