@@ -2146,11 +2146,6 @@
       "statusCode": 301
     },
     {
-      "source": "/fugas-agua-chaves",
-      "destination": "/fuga-agua-chaves",
-      "statusCode": 301
-    },
-    {
       "source": "/fugas-agua-fornos-de-algodres",
       "destination": "/fugas-agua-fornos-de-algodres",
       "statusCode": 410
