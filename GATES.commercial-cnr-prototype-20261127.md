@@ -36,9 +36,9 @@ Production : interdite dans ce lot
 
 ## Preuves Preview
 
-- [x] Déploiement `dpl_vHNtuNxT7e5w3Mhwz1Bb2iVrjHoi` `READY`, commit `2557d0b8c02547c4c575c72b1328821e1579f223`.
-- [x] `/fugas-agua-chaves` : HTTP 200, sans redirection, canonical self, téléphone et WhatsApp présents.
-- [x] `/fugas-agua-chaves.html` : HTTP 200, contenu identique à la route sans extension.
+- [x] Déploiement `dpl_q4Y6iwjCLvBt9FH57M3c8keihkuU` `READY`, commit `c2ca00b180e9b348cf9c27de160410ca1c508c87`.
+- [x] `/fugas-agua-chaves` : HTTP 200, sans redirection, canonical self, téléphone et WhatsApp présents ; claims résiduels retirés.
+- [x] `/fugas-agua-chaves.html` : HTTP 200, contenu identique à la route sans extension sur le déploiement précédent ; la règle de rewrite est inchangée.
 - [ ] Indexabilité Preview non recevable : Vercel ajoute `X-Robots-Tag: noindex` sur la Preview ; contrôle Production interdit sans GO.
 - [ ] DOM Playwright non exécuté ; Preview protégée et présence du `noindex` Preview empêche de classer la page comme preuve Production.
 
@@ -50,4 +50,4 @@ FINI = [commande][population][commit][source][niveau][production][exceptions]
 
 Niveau actuel : `PARTIEL`.
 
-FINI = [commande: npm run build + npm run lint:sitemap-parity + git diff --check + ROUTE_SOURCE_CHECK][population: page témoin CNR][commit: à créer][source: 20-BUSINESS-FACTS.json + doctrine CNR][niveau: PARTIEL][production: inchangée][exceptions: X-Robots-Tag noindex ajouté par Preview Vercel, DOM non vérifié]
+FINI = [commande: npm run build + npm run lint:sitemap-parity + git diff --check + ROUTE_SOURCE_CHECK + HTTP Preview][population: page témoin CNR][commit: c2ca00b180e9b348cf9c27de160410ca1c508c87][source: 20-BUSINESS-FACTS.json + doctrine CNR][niveau: PARTIEL][production: inchangée][exceptions: X-Robots-Tag noindex ajouté par Preview Vercel, DOM non vérifié]
