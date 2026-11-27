@@ -57,4 +57,4 @@ Conserver trois intentions plomberie distinctes — recherche de fuite, réparat
 - DOM Preview seulement si la protection Preview le permet ; sinon exception documentée.
 - Production explicitement inchangée.
 
-FINI = [commande: source+dist-check + npm run build + npm run lint:sitemap-parity + git diff --check + python3 -m json.tool vercel.json][population: 3 pages legacy fuite Chaves + règle Vercel exacte][commit: à créer][source: 20-BUSINESS-FACTS.json + 30-CONTENT-DOCTRINE.md][niveau: PARTIEL][production: inchangée][exceptions: HTTP Preview et DOM non vérifiés]
+FINI = [commande: source+dist-check + npm run build + npm run lint:sitemap-parity + git diff --check + python3 -m json.tool vercel.json][population: 3 pages legacy fuite Chaves + règle Vercel exacte][commit: 0af5b848fb + 846af82ad0][source: 20-BUSINESS-FACTS.json + 30-CONTENT-DOCTRINE.md][niveau: PARTIEL][production: inchangée][exceptions: Preview dpl_39r1TjNcpdW2CuZuyCN2QpP3WUm2 encore BUILDING ; fetch authentifié bloqué par SSO ; HTTP/DOM non vérifiés]
