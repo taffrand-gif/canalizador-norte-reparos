@@ -22,5 +22,5 @@ STATUT: PARTIEL — intégration rejouée ; aucun merge, Ready ou Production.
 - `npm run lint:sitemap-parity`: PASS — parité exacte 3214 `<loc>`, 455236 bytes.
 - XML `public/sitemap.xml` et `client/public/sitemap.xml`: valides, 3214 URLs chacun.
 - `git diff --check`: PASS ; worktree propre après build et contrôles.
-- Typecheck : NON VÉRIFIÉ / échec sur dette technique préexistante hors périmètre SEO (types `SiteConfig`, tRPC, routes/composants).
+- `npm run check` (`tsc --noEmit`): FAIL — 189 erreurs TypeScript préexistantes, principalement `SiteConfig`/JSON-LD, pages locales générées, imports serveur absents et tRPC ; hors périmètre SEO de ce lot.
 - HTTP, DOM, Preview, Production et contrôle Jev : NON VÉRIFIÉS.
