@@ -11,6 +11,7 @@ Production : interdite dans ce lot
 - `client/public/reparacao-fugas-fuga-agua-chaves.html`
 - `client/public/detecao-fugas-agua-chaves.html`
 - Aucun autre fichier de page ne doit être modifié.
+- `vercel.json` est inclus uniquement pour retirer la règle 410 contradictoire de `/detecao-fugas-agua-chaves`.
 - Aucun batch géographique.
 - Aucun merge, aucune PR Ready, aucun déploiement Production.
 
@@ -29,7 +30,7 @@ Conserver trois intentions plomberie distinctes — recherche de fuite, réparat
 
 - `canalizador-fuga-agua-chaves.html` : `noindex,follow`, claims FLIR, détection acoustique non sourcée, rapport assurance, précision/absence de travaux trop affirmatives, garantie fabricant, canonical self.
 - `reparacao-fugas-fuga-agua-chaves.html` : canonical vers `/urgencia-canalizador-chaves`, claims `95%`, garantie fabricant, « resolução imediata » et équipements à reformuler ; page sans meta robots explicite.
-- `detecao-fugas-agua-chaves.html` : canonical vers `/urgencia-canalizador-chaves`, claims FLIR, précision milimétrica, détection sans travaux et test de pression non sourcés ; JSON-LD dupliqué hérité.
+- `detecao-fugas-agua-chaves.html` : canonical vers `/urgencia-canalizador-chaves`, claims FLIR, précision milimétrica, détection sans travaux et test de pression non sourcés ; JSON-LD dupliqué hérité. La Preview a ensuite révélé une règle Vercel 410 explicite sur cette URL.
 
 ## Invariants obligatoires après modification
 
@@ -45,14 +46,15 @@ Conserver trois intentions plomberie distinctes — recherche de fuite, réparat
 - [x] `tel:+351928484451` présent sur chaque page.
 - [x] `wa.me/351928484451` présent sur chaque page.
 - [x] Prix métier et devis écrit présents ou reformulés selon la source métier.
-- [x] Le diff ne touche que les trois pages et ce gate.
+- [x] Le diff ne touche que les trois pages, `vercel.json` pour le routage contradictoire, et ce gate.
 
 ## Preuves requises
 
-- Contrôle source déterministe des claims interdits : `PASS` sur les trois pages.
-- Build, parité sitemap et diff check : `PASS`.
+- Contrôle déterministe source + `dist/public` des claims interdits, canonicals, CTA et JSON-LD : `PASS` sur les trois pages.
+- Build, parité sitemap et diff check : `PASS` (`3214` URLs, `455236` octets).
+- `vercel.json` valide en JSON ; règle 410 exacte absente : `PASS`.
 - Contrôle des routes Preview HTTP 200 et canonicals.
 - DOM Preview seulement si la protection Preview le permet ; sinon exception documentée.
 - Production explicitement inchangée.
 
-FINI = [commande: source-check + npm run build + npm run lint:sitemap-parity + git diff --check][population: 3 pages legacy fuite Chaves][commit: à créer][source: 20-BUSINESS-FACTS.json + 30-CONTENT-DOCTRINE.md][niveau: PARTIEL][production: inchangée][exceptions: HTTP Preview et DOM non vérifiés]
+FINI = [commande: source+dist-check + npm run build + npm run lint:sitemap-parity + git diff --check + python3 -m json.tool vercel.json][population: 3 pages legacy fuite Chaves + règle Vercel exacte][commit: à créer][source: 20-BUSINESS-FACTS.json + 30-CONTENT-DOCTRINE.md][niveau: PARTIEL][production: inchangée][exceptions: HTTP Preview et DOM non vérifiés]
