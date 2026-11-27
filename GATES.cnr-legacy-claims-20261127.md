@@ -30,8 +30,8 @@ Statut : `PARTIEL` jusqu’au contrôle DOM de la nouvelle Preview Vercel. Les e
 - Preuve applicative : `node scripts/apply-static-local-claims-cnr.mjs` retourne `dry-run`, `changedFiles=0`, `obsoleteInsurance=0`, `numericArrival=0`, `testimonialBlocks=0`.
 - Contrôle direct du regex exact sur la population : `TOTAL 0 FILES 0` pour les trois textes legacy ciblés.
 
-### Anomalie de contrôle non masquée
+### Résolution de l’anomalie d’audit
 
-La sortie JSON de `node scripts/audit-static-local-claims-cnr.mjs` signale encore 20 occurrences `testimonialText` sur quatre fichiers, alors que le regex exact rejoué directement et le dry-run applicatif retournent zéro. Cette incohérence entre l’auditeur et le contrôle direct est `À REVOIR` ; elle empêche le statut `PASS_COMPLET` tant que le script d’audit n’est pas expliqué ou corrigé. Aucun merge ni déploiement Production n’est autorisé par cette preuve.
+Les 20 faux positifs venaient de `Preço justo` présent dans les meta descriptions et titres commerciaux, pas dans des témoignages. Le script `scripts/audit-static-local-claims-cnr.mjs` a été corrigé pour limiter `testimonialText` aux blocs HTML `<blockquote>`. Après correction : population `1 832`, `numericArrival=0`, `reviewInitials=0`, `testimonialText=0`, `obsoleteInsurance=0`, `dgeg=0`, `personalAddress=0`.
 
-Statut du lot après Preview : `PARTIEL` — Preview READY et DOM contrôlé ; anomalie d’audit à résoudre.
+Preuves rejouées après correction : `node scripts/apply-static-local-claims-cnr.mjs` retourne `changedFiles=0`, `npm run build` exit 0, `npm run lint:sitemap-parity` PASS avec `3 214` URLs et `455 236` bytes, et `git diff --check` PASS. Le statut reste `PARTIEL` jusqu’à une Preview correspondant au commit de correction de l’auditeur ; la Preview contrôlée précédemment correspond au commit `be51dafdef`.

@@ -18,7 +18,7 @@ const files = fs.readdirSync(PUBLIC)
 const patterns = {
   numericArrival: /Tempo médio:[^<]*<strong>\d+ minutos<\/strong>/giu,
   reviewInitials: /—\s*(?:JM|MS|RP)\./giu,
-  testimonialText: /Trabalho impecável|Detectaram a fuga sem partir paredes|Preço justo/giu,
+  testimonialText: /<blockquote\b[^>]*>[\s\S]*?(?:Trabalho impecável|Detectaram a fuga sem partir paredes|Preço justo)[\s\S]*?<\/blockquote>/giu,
   dgeg: /DGEG|TRIESP|Ficha eletrotécnica|Termos de responsabilidade|wallbox/giu,
   insurance50k: /Seguro de responsabilidade civil profissional até 50\.000 €/giu,
   obsoleteInsurance: /500\.000 ?€/giu,
