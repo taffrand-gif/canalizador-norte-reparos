@@ -1,6 +1,6 @@
 # GATES — pilote CNR fuite / deteção
 
-**Statut :** `PARTIEL` — source, build et parité sitemap contrôlés ; Preview/production non vérifiées.
+**Statut :** `PARTIEL` — source, build et parité sitemap contrôlés ; Preview publique bloquée par authentification Vercel / dernier déploiement annulé ; production non vérifiée.
 **Branche :** `seo/pilot-cnr-fuga-20261126`
 **Worktree :** `/Users/admin/work/Sites/_worktrees/seo-pilot-cnr-fuga-20261126`
 **Base :** `origin/main` à `e11d1a1373`
@@ -87,3 +87,9 @@ La liste finale doit rester limitée à la page témoin et aux fichiers de preuv
 `PARTIEL` — source + build + parité sitemap sont contrôlés ; Preview/DOM Preview et production restent **NON VÉRIFIÉES**. `PASS_PREVIEW` seulement après contrôle DOM sur URL Preview. Aucun statut `PASS_PRODUCTION` sans merge autorisé et contrôle post-production.
 
 **FINI = [commande: source gate + npm run build + npm run lint:sitemap-parity + git diff --check][population: 1 page CNR][commit: 58d1474483][source: BUSINESS-FACTS + doctrine][niveau: PARTIEL / PASS_BUILD][production: inchangée][exceptions: aucune].**
+
+## Addendum contrôle Preview — 2026-11-27
+
+- Le déploiement `dpl_HJRGbPRvmgejRL6Ad1DpZ1gJNQ3g` du commit code `5d559598d834f706ad46b0d45b597763dc0bc61c` était `READY`, mais la route publique contrôlée renvoie actuellement la page Login Vercel : HTTP/DOM public non vérifiables.
+- Le déploiement plus récent `dpl_BDZhZGSTmRzc7zW2ghzCzPan7jZH` du commit `82353edbeed4e605483b530b71bb7a91c4d0bd2c` est `CANCELED`.
+- Statut corrigé : `PARTIEL` ; aucune preuve `PASS_PREVIEW` ni `PASS_PRODUCTION` revendiquée.
